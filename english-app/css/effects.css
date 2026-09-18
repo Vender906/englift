@@ -1,0 +1,115 @@
+﻿/* ============================================================
+   EngLift — вирівнювання карток і світлові ефекти
+   Кожен ефект вмикається класом на <html> (fx-*), сила — змінною --fx-i
+   (0.6 · 1 · 1.6). Керуються в ⚙️ Налаштування → ✨ Світлові ефекти.
+   ============================================================ */
+
+/* ---------- шкала прогресу завжди внизу картки ---------- */
+.topic-card, .zone-card { display: flex; flex-direction: column; }
+.topic-card > .progress, .zone-card > .progress, .zone-card > .ph-hub-btn { margin-top: auto; }
+.topic-card > .t-meta:has(+ .progress) { margin-bottom: 14px; }
+
+:root { --fx-i: 1; --mx: 50%; --my: 50%; }
+
+/* ---------- 1. підсвітка карток (постійна) ---------- */
+.fx-card-glow .card {
+  box-shadow:
+    0 0 0 1px color-mix(in srgb, var(--a1) calc(22% * var(--fx-i)), transparent),
+    0 0 calc(26px * var(--fx-i)) -6px color-mix(in srgb, var(--a1) calc(38% * var(--fx-i)), transparent),
+    0 0 calc(40px * var(--fx-i)) -14px color-mix(in srgb, var(--a2) calc(30% * var(--fx-i)), transparent);
+}
+
+/* ---------- 2. сяйво при наведенні ---------- */
+.fx-hover-glow .card.clickable:hover {
+  border-color: color-mix(in srgb, var(--a1) 55%, var(--border-strong));
+  box-shadow:
+    0 0 0 1px color-mix(in srgb, var(--a1) calc(40% * var(--fx-i)), transparent),
+    0 12px calc(34px * var(--fx-i)) -8px color-mix(in srgb, var(--a1) calc(50% * var(--fx-i)), transparent),
+    0 0 calc(60px * var(--fx-i)) -10px color-mix(in srgb, var(--a2) calc(35% * var(--fx-i)), transparent);
+}
+
+/* ---------- 3. прожектор за курсором усередині картки ---------- */
+.fx-spotlight .card.clickable:hover, .fx-spotlight .card.fx-lit {
+  background-image: radial-gradient(calc(240px * var(--fx-i)) circle at var(--mx) var(--my),
+    color-mix(in srgb, var(--a1) calc(16% * var(--fx-i)), transparent), transparent 70%);
+}
+
+/* ---------- 4. неоновий контур, що обертається ---------- */
+@property --rim-a { syntax: '<angle>'; inherits: false; initial-value: 0deg; }
+.fx-rim .card.clickable { position: relative; }
+.fx-rim .card.clickable::after {
+  content: ''; position: absolute; inset: -1px; border-radius: inherit; padding: calc(1.5px * var(--fx-i));
+  background: conic-gradient(from var(--rim-a), var(--a1), var(--a2), var(--a3), var(--a1));
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+          mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+          mask-composite: exclude;
+  opacity: 0; transition: opacity .3s; pointer-events: none;
+  animation: rimSpin 3.2s linear infinite;
+}
+.fx-rim .card.clickable:hover::after { opacity: 1; }
+@keyframes rimSpin { to { --rim-a: 360deg; } }
+
+/* ---------- 5. світло за курсором на фоні ---------- */
+#fx-aura {
+  position: fixed; left: 0; top: 0; z-index: -1; pointer-events: none;
+  width: calc(520px * var(--fx-i)); height: calc(520px * var(--fx-i)); margin: calc(-260px * var(--fx-i)) 0 0 calc(-260px * var(--fx-i));
+  border-radius: 50%;
+  background: radial-gradient(circle, color-mix(in srgb, var(--a1) 22%, transparent), color-mix(in srgb, var(--a2) 8%, transparent) 40%, transparent 70%);
+  opacity: 0; transition: opacity .5s; mix-blend-mode: screen; will-change: transform;
+}
+[data-mode="light"] #fx-aura { mix-blend-mode: multiply; background: radial-gradient(circle, color-mix(in srgb, var(--a1) 14%, transparent), transparent 65%); }
+.fx-aura #fx-aura.on { opacity: 1; }
+
+/* ---------- 6. відблиск на кнопках ---------- */
+.fx-shine .btn-primary { position: relative; overflow: hidden; }
+.fx-shine .btn-primary::after {
+  content: ''; position: absolute; top: 0; bottom: 0; left: -60%; width: 45%;
+  background: linear-gradient(100deg, transparent, rgba(255,255,255,calc(.38 * var(--fx-i))), transparent);
+  transform: skewX(-20deg); pointer-events: none;
+}
+.fx-shine .btn-primary:hover::after { animation: btnShine .75s ease; }
+@keyframes btnShine { to { left: 130%; } }
+
+/* ---------- 7. неонові заголовки ---------- */
+.fx-neon .page-head h1, .fx-neon .hero h2, .fx-neon .section-title, .fx-neon .dy-hero h1, .fx-neon .ph-hero h1, .fx-neon .rd-head h1, .fx-neon .logo-text {
+  text-shadow: 0 0 calc(10px * var(--fx-i)) color-mix(in srgb, var(--a1) 55%, transparent), 0 0 calc(26px * var(--fx-i)) color-mix(in srgb, var(--a2) 35%, transparent);
+}
+.fx-neon .nav-item.active { box-shadow: inset 0 0 0 1px var(--border), 0 0 calc(18px * var(--fx-i)) -4px color-mix(in srgb, var(--a1) 60%, transparent); }
+
+/* ---------- 8. іскри при кліку ---------- */
+.fx-spark {
+  position: fixed; z-index: 150; pointer-events: none;
+  width: 7px; height: 7px; margin: -3.5px 0 0 -3.5px; border-radius: 50%;
+  background: var(--c); box-shadow: 0 0 8px var(--c);
+  animation: sparkFly .65s cubic-bezier(.2,.7,.3,1) forwards;
+}
+@keyframes sparkFly { to { transform: translate(var(--dx), var(--dy)) scale(.2); opacity: 0; } }
+
+/* без анімацій — ефекти статичні */
+html.no-motion .fx-rim .card.clickable::after, html.no-motion.fx-rim .card.clickable::after { animation: none; }
+
+/* ---------- панель ефектів ---------- */
+.modal.fx-modal { width: min(640px, 100%); max-height: min(90vh, 860px); display: flex; flex-direction: column; }
+.fx-modal .fx-sub { color: var(--muted); font-size: 13px; margin: -10px 0 12px; }
+.fx-scroll { flex: 1; min-height: 0; overflow-y: auto; margin: 0 -6px; padding: 2px 6px 6px; }
+.fx-opts { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 8px; }
+.fx-item { display: flex; align-items: center; gap: 12px; padding: 11px 12px; border-radius: 14px; background: var(--card); border: 1px solid var(--border); cursor: pointer; transition: border-color .15s, background .15s; }
+.fx-item:hover { border-color: var(--border-strong); }
+.fx-item.on { border-color: color-mix(in srgb, var(--a1) 55%, transparent); background: color-mix(in srgb, var(--a1) 10%, var(--card)); }
+.fx-item .switch { display: inline-block; }
+.fx-item-emoji { font-size: 22px; width: 30px; text-align: center; }
+.fx-item-body { flex: 1; min-width: 0; }
+.fx-item-name, .fx-item-desc { display: block; }
+.fx-item-name { font-weight: 700; font-size: 13.5px; }
+.fx-item-desc { font-size: 11.5px; color: var(--muted); line-height: 1.4; margin-top: 1px; }
+.fx-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin: 14px 0 10px; }
+.fx-seg { display: inline-flex; padding: 3px; border-radius: 12px; background: var(--card); border: 1px solid var(--border); }
+.fx-seg button { padding: 6px 12px; border-radius: 9px; font-size: 12.5px; font-weight: 700; color: var(--muted); }
+.fx-seg button.on { background: var(--grad); color: var(--on-accent, #fff); }
+.fx-preview { display: block; padding: 16px 18px; margin-bottom: 12px; text-align: center; }
+.fx-preview h4 { font-size: 15px; margin-bottom: 4px; }
+.fx-preview p { font-size: 12.5px; color: var(--muted); margin-bottom: 10px; }
+.fx-quick { display: flex; gap: 6px; flex-wrap: wrap; }
+.fx-quick button { padding: 6px 11px; border-radius: 10px; font-size: 12px; font-weight: 700; background: var(--card); border: 1px solid var(--border); color: var(--text); }
+.fx-quick button:hover { border-color: var(--a1); }

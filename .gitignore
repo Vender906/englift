@@ -1,0 +1,14 @@
+# залежності тестів
+node_modules/
+
+# вихідні HTML-тренажери та скрипти витягування даних — у репозиторій не йдуть
+uploads/
+
+# збірка GitHub Actions
+_site/
+
+# системне
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log

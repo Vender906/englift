@@ -1,0 +1,212 @@
+/* ============================================================
+   EngLift — анімовані фони тем і галерея тем
+   ============================================================ */
+
+/* ---------- шари фону ---------- */
+.bg-fx { position: fixed; inset: 0; z-index: -1; pointer-events: none; overflow: hidden; }
+.bg-fx i { position: absolute; display: block; pointer-events: none; }
+#fx-canvas { position: absolute; inset: 0; width: 100%; height: 100%; }
+body.has-fx .bg-glow { opacity: .55; }
+/* на анімованому фоні картки щільніші — текст лишається читабельним */
+body.has-fx .card, body.has-fx .lex-toolbar, body.has-fx .badge, body.has-fx .tabs, body.has-fx .sub-row,
+body.has-fx .rd-legend, body.has-fx .rd-theme-picker { background-color: color-mix(in srgb, var(--bg-soft) 82%, transparent); }
+body.has-fx .hero, body.has-fx .challenge-hero { background-color: color-mix(in srgb, var(--bg-soft) 72%, transparent); }
+
+/* 🌌 Північне сяйво */
+.fx-aurora {
+  left: -20%; right: -20%; height: 60vh; top: -12vh;
+  filter: blur(60px); opacity: .55; mix-blend-mode: screen;
+  border-radius: 50%;
+  transform-origin: 50% 0;
+}
+.fx-aurora.a { background: linear-gradient(90deg, transparent, var(--a1) 30%, var(--a2) 60%, transparent); animation: auroraA 16s ease-in-out infinite alternate; }
+.fx-aurora.b { top: 2vh; background: linear-gradient(90deg, transparent 10%, var(--a3) 45%, var(--a1) 75%, transparent); opacity: .38; animation: auroraB 22s ease-in-out infinite alternate; }
+.fx-aurora.c { top: 18vh; height: 40vh; background: linear-gradient(90deg, transparent, var(--a2) 40%, transparent 80%); opacity: .25; animation: auroraA 28s ease-in-out infinite alternate-reverse; }
+@keyframes auroraA { 0% { transform: translateX(-12%) skewY(-6deg) scaleY(.8); } 50% { transform: translateX(6%) skewY(4deg) scaleY(1.15); } 100% { transform: translateX(14%) skewY(-3deg) scaleY(.9); } }
+@keyframes auroraB { 0% { transform: translateX(15%) skewY(5deg) scaleY(1); } 100% { transform: translateX(-15%) skewY(-7deg) scaleY(1.3); } }
+
+/* 🪐 Космос */
+.fx-nebula { width: 70vmax; height: 70vmax; border-radius: 50%; filter: blur(80px); opacity: .22; }
+.fx-nebula.a { left: -20vmax; top: -25vmax; background: radial-gradient(circle, var(--a1), transparent 65%); animation: nebula 40s ease-in-out infinite alternate; }
+.fx-nebula.b { right: -25vmax; bottom: -30vmax; background: radial-gradient(circle, var(--a2), transparent 65%); animation: nebula 55s ease-in-out infinite alternate-reverse; }
+@keyframes nebula { to { transform: translate(8vmax, 6vmax) scale(1.2) rotate(30deg); } }
+
+/* 🌆 Синтвейв */
+.fx-sun {
+  left: 58%; bottom: 20vh; width: 38vmin; height: 38vmin; margin-left: -19vmin;
+  border-radius: 50%;
+  background: linear-gradient(180deg, var(--a3) 0%, var(--a1) 70%);
+  -webkit-mask: linear-gradient(180deg, #000 55%, transparent 55% 59%, #000 59% 67%, transparent 67% 72%, #000 72% 79%, transparent 79% 86%, #000 86% 92%, transparent 92%);
+          mask: linear-gradient(180deg, #000 55%, transparent 55% 59%, #000 59% 67%, transparent 67% 72%, #000 72% 79%, transparent 79% 86%, #000 86% 92%, transparent 92%);
+  opacity: .34; filter: drop-shadow(0 0 40px var(--a1));
+  animation: sunGlow 6s ease-in-out infinite alternate;
+}
+@keyframes sunGlow { to { transform: translateY(-2vh); filter: drop-shadow(0 0 70px var(--a1)); } }
+.fx-grid {
+  left: -50%; right: -50%; bottom: -10vh; height: 48vh;
+  background-image:
+    linear-gradient(color-mix(in srgb, var(--a2) 55%, transparent) 2px, transparent 2px),
+    linear-gradient(90deg, color-mix(in srgb, var(--a2) 55%, transparent) 2px, transparent 2px);
+  background-size: 64px 64px;
+  transform: perspective(38vh) rotateX(62deg);
+  transform-origin: 50% 0;
+  -webkit-mask: linear-gradient(180deg, transparent, #000 40%);
+          mask: linear-gradient(180deg, transparent, #000 40%);
+  opacity: .3;
+  animation: gridRun 1.6s linear infinite;
+}
+@keyframes gridRun { to { background-position: 0 64px, 0 0; } }
+
+/* ❄️ Зимова ніч */
+.fx-moon {
+  right: 9vw; top: 9vh; width: 16vmin; height: 16vmin; border-radius: 50%;
+  background: radial-gradient(circle at 38% 38%, #fff, #dbe7ff 55%, #aab8d6);
+  box-shadow: 0 0 60px 12px rgba(200,220,255,.28), 0 0 160px 40px rgba(160,190,255,.12);
+  opacity: .75;
+  animation: moonFloat 12s ease-in-out infinite alternate;
+}
+@keyframes moonFloat { to { transform: translateY(1.6vh); box-shadow: 0 0 80px 18px rgba(200,220,255,.34), 0 0 200px 60px rgba(160,190,255,.14); } }
+
+/* 🫧 Глибина */
+.fx-rays {
+  left: -10%; right: -10%; top: -10%; height: 90%;
+  background: repeating-linear-gradient(100deg, transparent 0 6%, color-mix(in srgb, var(--a2) 14%, transparent) 7% 9%, transparent 11% 18%);
+  -webkit-mask: linear-gradient(180deg, #000, transparent 85%);
+          mask: linear-gradient(180deg, #000, transparent 85%);
+  filter: blur(8px); opacity: .8;
+  animation: raysSway 14s ease-in-out infinite alternate;
+}
+@keyframes raysSway { to { transform: translateX(5%) skewX(-6deg); opacity: .5; } }
+.fx-caustics {
+  inset: 0;
+  background: radial-gradient(ellipse at 50% 120%, color-mix(in srgb, var(--a1) 22%, transparent), transparent 60%);
+  animation: nebula 30s ease-in-out infinite alternate;
+}
+
+/* ✨ Світлячки */
+.fx-fog { left: -30%; right: -30%; height: 45vh; bottom: -8vh; filter: blur(50px); border-radius: 50%; opacity: .22; }
+.fx-fog.a { background: radial-gradient(ellipse, color-mix(in srgb, var(--a2) 60%, transparent), transparent 70%); animation: fogDrift 30s ease-in-out infinite alternate; }
+.fx-fog.b { bottom: 10vh; opacity: .14; background: radial-gradient(ellipse, color-mix(in srgb, var(--a1) 60%, transparent), transparent 70%); animation: fogDrift 42s ease-in-out infinite alternate-reverse; }
+@keyframes fogDrift { to { transform: translateX(14%) scaleY(1.2); } }
+
+/* 🫠 Лава-лампа */
+.bg-fx[data-fx="lava"] { filter: blur(34px) saturate(1.2); }
+.fx-blob { border-radius: 50%; opacity: .5; mix-blend-mode: screen; }
+.fx-blob.b1 { width: 38vmax; height: 38vmax; left: -8vmax; top: 10vh; background: var(--a1); animation: lava1 26s ease-in-out infinite alternate; }
+.fx-blob.b2 { width: 30vmax; height: 30vmax; right: -6vmax; top: -8vh; background: var(--a2); animation: lava2 32s ease-in-out infinite alternate; }
+.fx-blob.b3 { width: 26vmax; height: 26vmax; left: 35vw; bottom: -14vh; background: var(--a3); animation: lava3 22s ease-in-out infinite alternate; }
+.fx-blob.b4 { width: 18vmax; height: 18vmax; left: 60vw; top: 40vh; background: var(--a1); opacity: .35; animation: lava2 18s ease-in-out infinite alternate-reverse; }
+.fx-blob.b5 { width: 14vmax; height: 14vmax; left: 12vw; bottom: 8vh; background: var(--a2); opacity: .35; animation: lava1 20s ease-in-out infinite alternate-reverse; }
+@keyframes lava1 { 0% { transform: translate(0,0) scale(1); border-radius: 42% 58% 60% 40% / 45% 45% 55% 55%; } 50% { border-radius: 60% 40% 35% 65% / 55% 60% 40% 45%; } 100% { transform: translate(28vw, 30vh) scale(1.25); border-radius: 38% 62% 55% 45% / 60% 38% 62% 40%; } }
+@keyframes lava2 { 0% { transform: translate(0,0) scale(1.1); border-radius: 55% 45% 40% 60%; } 100% { transform: translate(-30vw, 45vh) scale(.8); border-radius: 40% 60% 62% 38%; } }
+@keyframes lava3 { 0% { transform: translate(0,0) scale(.9); } 100% { transform: translate(-18vw, -55vh) scale(1.3); border-radius: 62% 38% 45% 55%; } }
+
+/* 🌧️ Дощ: блискавка */
+.fx-flash { inset: 0; background: radial-gradient(ellipse at 30% 0%, rgba(210,225,255,.35), transparent 60%); opacity: 0; animation: lightning 11s linear infinite; }
+@keyframes lightning { 0%, 88%, 100% { opacity: 0; } 89% { opacity: .9; } 89.6% { opacity: .1; } 90.2% { opacity: .7; } 92% { opacity: 0; } }
+
+/* 🦎 Хамелеон */
+@property --hue { syntax: '<number>'; inherits: true; initial-value: 250; }
+html[data-theme="chameleon"] { animation: hueSpin 40s linear infinite; }
+@keyframes hueSpin { from { --hue: 0; } to { --hue: 360; } }
+.fx-cham { width: 80vmax; height: 80vmax; border-radius: 50%; filter: blur(90px); opacity: .28; }
+.fx-cham.a { left: -30vmax; top: -30vmax; background: radial-gradient(circle, var(--a1), transparent 65%); animation: nebula 24s ease-in-out infinite alternate; }
+.fx-cham.b { right: -30vmax; bottom: -35vmax; background: radial-gradient(circle, var(--a3), transparent 65%); animation: nebula 30s ease-in-out infinite alternate-reverse; }
+
+/* 🌤️ Сонячні зайчики */
+.fx-bokeh { border-radius: 50%; filter: blur(2px); opacity: 0; mix-blend-mode: multiply; animation: bokeh 18s ease-in-out infinite; }
+.fx-bokeh.k0 { width: 18vmin; height: 18vmin; left: 6vw; top: 12vh; background: radial-gradient(circle, color-mix(in srgb, var(--a1) 40%, transparent), transparent 70%); animation-delay: 0s; }
+.fx-bokeh.k1 { width: 10vmin; height: 10vmin; left: 28vw; top: 64vh; background: radial-gradient(circle, color-mix(in srgb, var(--a2) 35%, transparent), transparent 70%); animation-delay: -3s; animation-duration: 22s; }
+.fx-bokeh.k2 { width: 24vmin; height: 24vmin; left: 70vw; top: 8vh; background: radial-gradient(circle, color-mix(in srgb, var(--a1) 35%, transparent), transparent 70%); animation-delay: -6s; }
+.fx-bokeh.k3 { width: 13vmin; height: 13vmin; left: 84vw; top: 58vh; background: radial-gradient(circle, color-mix(in srgb, var(--a3) 35%, transparent), transparent 70%); animation-delay: -9s; animation-duration: 20s; }
+.fx-bokeh.k4 { width: 8vmin; height: 8vmin; left: 50vw; top: 35vh; background: radial-gradient(circle, color-mix(in srgb, var(--a2) 35%, transparent), transparent 70%); animation-delay: -2s; animation-duration: 15s; }
+.fx-bokeh.k5 { width: 20vmin; height: 20vmin; left: 40vw; top: 80vh; background: radial-gradient(circle, color-mix(in srgb, var(--a1) 30%, transparent), transparent 70%); animation-delay: -11s; }
+.fx-bokeh.k6 { width: 11vmin; height: 11vmin; left: 16vw; top: 40vh; background: radial-gradient(circle, color-mix(in srgb, var(--a3) 30%, transparent), transparent 70%); animation-delay: -14s; animation-duration: 24s; }
+.fx-bokeh.k7 { width: 15vmin; height: 15vmin; left: 60vw; top: 70vh; background: radial-gradient(circle, color-mix(in srgb, var(--a2) 30%, transparent), transparent 70%); animation-delay: -5s; animation-duration: 19s; }
+.fx-bokeh.k8 { width: 9vmin; height: 9vmin; left: 92vw; top: 22vh; background: radial-gradient(circle, color-mix(in srgb, var(--a1) 35%, transparent), transparent 70%); animation-delay: -8s; animation-duration: 16s; }
+.fx-bokeh.k9 { width: 22vmin; height: 22vmin; left: -4vw; top: 78vh; background: radial-gradient(circle, color-mix(in srgb, var(--a2) 28%, transparent), transparent 70%); animation-delay: -12s; animation-duration: 26s; }
+.fx-bokeh.k10 { width: 7vmin; height: 7vmin; left: 36vw; top: 16vh; background: radial-gradient(circle, color-mix(in srgb, var(--a3) 35%, transparent), transparent 70%); animation-delay: -1s; animation-duration: 14s; }
+.fx-bokeh.k11 { width: 12vmin; height: 12vmin; left: 76vw; top: 88vh; background: radial-gradient(circle, color-mix(in srgb, var(--a1) 30%, transparent), transparent 70%); animation-delay: -16s; animation-duration: 21s; }
+@keyframes bokeh { 0%, 100% { opacity: 0; transform: translate(0,0) scale(.8); } 30%, 70% { opacity: 1; } 50% { transform: translate(4vw, -6vh) scale(1.15); } }
+
+/* ---------- вимкнені анімації ---------- */
+html.no-motion .bg-fx i, html.no-motion .bg-glow { animation-play-state: paused !important; }
+html.no-motion[data-theme="chameleon"] { animation-play-state: paused; }
+@media (prefers-reduced-motion: reduce) {
+  html:not(.force-motion) .bg-fx i { animation-duration: 120s !important; }
+}
+
+/* ---------- кнопка теми в топбарі ---------- */
+.theme-toggle { position: relative; }
+.theme-toggle .theme-dot {
+  position: absolute; right: 5px; bottom: 5px;
+  width: 9px; height: 9px; border-radius: 50%;
+  background: var(--grad); box-shadow: 0 0 0 2px var(--bg-soft);
+}
+
+/* ---------- галерея тем ---------- */
+.modal.theme-modal { width: min(860px, 100%); max-height: min(88vh, 900px); display: flex; flex-direction: column; padding: 24px 24px 18px; }
+.theme-modal h3 { margin-bottom: 4px; }
+.theme-modal .tm-sub { color: var(--muted); font-size: 13px; margin-bottom: 14px; }
+.tm-scroll { overflow-y: auto; margin: 0 -8px; padding: 0 8px 6px; overscroll-behavior: contain; }
+.tm-group-title { font-size: 12px; font-weight: 800; letter-spacing: .07em; text-transform: uppercase; color: var(--muted-2); margin: 16px 0 10px; display: flex; align-items: center; gap: 8px; }
+.tm-group-title:first-child { margin-top: 2px; }
+.tm-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 10px; }
+.tm-card {
+  position: relative; text-align: left;
+  border-radius: 16px; padding: 0; overflow: hidden;
+  border: 2px solid var(--border);
+  background: var(--card);
+  color: var(--text);
+  transition: transform .2s cubic-bezier(.34,1.4,.64,1), border-color .2s, box-shadow .2s;
+}
+.tm-card:hover { transform: translateY(-3px); border-color: var(--border-strong); box-shadow: var(--shadow); }
+.tm-card.active { border-color: var(--a1); box-shadow: 0 0 0 3px color-mix(in srgb, var(--a1) 30%, transparent); }
+.tm-card.active::after {
+  content: '✓'; position: absolute; top: 8px; right: 8px;
+  width: 22px; height: 22px; border-radius: 50%;
+  display: grid; place-items: center; font-size: 12px; font-weight: 900;
+  background: var(--a1); color: var(--on-accent, #fff);
+  animation: pop .35s cubic-bezier(.34,1.56,.64,1);
+}
+.tm-preview {
+  position: relative; height: 92px; overflow: hidden;
+  background: var(--p-bg);
+  display: flex; flex-direction: column; justify-content: flex-end; gap: 6px;
+  padding: 10px;
+}
+.tm-preview::before {
+  content: ''; position: absolute; inset: -40%;
+  background:
+    radial-gradient(circle at 20% 20%, color-mix(in srgb, var(--p-a1) 45%, transparent), transparent 40%),
+    radial-gradient(circle at 85% 30%, color-mix(in srgb, var(--p-a2) 35%, transparent), transparent 40%);
+  opacity: .8;
+}
+.tm-card.dynamic .tm-preview::before { animation: tmSwirl 7s linear infinite; }
+.tm-card.dynamic:hover .tm-preview::before { animation-duration: 2.5s; }
+@keyframes tmSwirl { to { transform: rotate(360deg); } }
+.tm-mini-card {
+  position: relative; height: 26px; border-radius: 8px;
+  background: var(--p-soft); border: 1px solid color-mix(in srgb, var(--p-text) 14%, transparent);
+  display: flex; align-items: center; gap: 6px; padding: 0 8px;
+}
+.tm-mini-line { height: 5px; border-radius: 9px; background: color-mix(in srgb, var(--p-text) 45%, transparent); flex: 1; }
+.tm-mini-btn { position: relative; width: 46%; height: 12px; border-radius: 9px; background: var(--p-grad); }
+.tm-mini-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--p-a3); flex: none; }
+.tm-live { position: absolute; top: 8px; left: 8px; padding: 2px 7px; border-radius: 99px; font-size: 9.5px; font-weight: 800; letter-spacing: .05em; background: rgba(0,0,0,.45); color: #fff; backdrop-filter: blur(4px); }
+.tm-meta { padding: 9px 11px 11px; }
+.tm-name { font-size: 13.5px; font-weight: 700; display: flex; align-items: center; gap: 6px; }
+.tm-desc { font-size: 11.5px; color: var(--muted); margin-top: 2px; }
+.tm-foot { display: flex; align-items: center; gap: 12px; justify-content: space-between; padding-top: 14px; margin-top: 8px; border-top: 1px dashed var(--border); flex-wrap: wrap; }
+.tm-foot .m-label { font-size: 13.5px; font-weight: 600; }
+.tm-foot .m-sub { font-size: 12px; color: var(--muted); }
+.tm-foot-row { display: flex; align-items: center; gap: 12px; }
+
+/* плавна зміна кольорів при перемиканні теми */
+html.theme-switching, html.theme-switching * { transition: background-color .45s ease, border-color .45s ease, color .3s ease, fill .3s ease !important; }
+
+@media (max-width: 560px) {
+  .tm-grid { grid-template-columns: repeat(2, 1fr); gap: 8px; }
+  .tm-preview { height: 74px; }
+  .modal.theme-modal { padding: 18px 14px 14px; }
+}

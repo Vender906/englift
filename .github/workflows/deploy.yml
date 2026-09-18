@@ -1,0 +1,64 @@
+# EngLift → GitHub Pages
+# На кожен push у main: проганяє тести, збирає сайт із english-app/ і публікує його.
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: tests/package-lock.json
+      - name: Install test dependencies
+        working-directory: tests
+        run: npm ci
+      - name: Run tests
+        working-directory: tests
+        run: node run-all.js
+
+  build:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Prepare site
+        run: |
+          mkdir _site
+          cp -r english-app/. _site/
+          # вихідник іконки на сайті не потрібен
+          rm -f _site/icons/icon_src.png
+          # нова версія кешу під кожен деплой — щоб встановлений PWA точно оновився
+          sed -i "s/const CACHE = 'englift-\([^']*\)'/const CACHE = 'englift-\1-${GITHUB_SHA::7}'/" _site/sw.js
+          grep -n "const CACHE" _site/sw.js
+          touch _site/.nojekyll
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

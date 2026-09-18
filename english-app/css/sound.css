@@ -1,0 +1,44 @@
+/* ============================================================
+   EngLift — розділ «Вимова»
+   ============================================================ */
+.pr-list { display: flex; flex-direction: column; gap: 10px; }
+.pr-item { padding: 14px 16px; }
+.pr-head { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.pr-head b { font-size: 17px; }
+.pr-arrow { color: var(--muted); font-weight: 800; }
+.pr-spoken-word { color: var(--a1); font-family: ui-monospace, monospace; }
+.pr-ipa { font-family: ui-monospace, monospace; font-size: 12.5px; color: var(--muted); }
+.pr-ex { margin-top: 10px; padding-left: 10px; border-left: 2px solid color-mix(in srgb, var(--a1) 45%, transparent); font-size: 14px; line-height: 1.6; }
+.pr-spoken { font-family: ui-monospace, monospace; font-size: 13px; color: var(--a1); margin-top: 2px; }
+.pr-two { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 10px; }
+.pr-us, .pr-gb, .pr-bad { padding: 9px 11px; border-radius: 12px; border: 1px solid var(--border); background: var(--card); }
+.pr-us { border-color: color-mix(in srgb, var(--a1) 45%, transparent); }
+.pr-bad { border-color: rgba(239, 68, 68, .35); }
+.pr-flag { display: block; font-size: 11px; color: var(--muted); font-weight: 700; margin-bottom: 2px; }
+.pr-us b, .pr-gb b, .pr-bad b { font-size: 14.5px; }
+.pr-two .pr-ipa { display: block; margin-top: 2px; }
+.pr-cls { font-family: ui-monospace, monospace; font-size: 13px; font-weight: 800; color: var(--on-accent, #fff); background: var(--grad); padding: 2px 9px; border-radius: 99px; }
+.pr-rule-line { margin-top: 8px; font-size: 13px; color: var(--muted); }
+.pr-stressed { color: var(--a1); font-weight: 800; text-transform: uppercase; }
+.pr-weak { color: var(--muted); }
+.pr-dot { color: var(--muted); margin: 0 2px; }
+.pr-pair { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.pr-half { flex: 1 1 180px; }
+.pr-half b { font-size: 17px; }
+.pr-vs { font-weight: 800; color: var(--muted); }
+.pr-pair .ph-tip { flex-basis: 100%; }
+.pr-rules { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 10px; }
+.pr-rule { padding: 15px 17px; }
+.pr-rule h4 { font-size: 14.5px; margin-bottom: 5px; }
+.pr-rule p { font-size: 13.5px; color: var(--muted); line-height: 1.55; }
+.pr-rule-ex { margin-top: 8px; font-size: 13.5px; display: flex; align-items: center; gap: 7px; flex-wrap: wrap; }
+.pr-rule-ex span { color: var(--muted); font-size: 12.5px; }
+.pr-note { padding: 14px 18px; margin-top: 16px; font-size: 13.5px; color: var(--muted); line-height: 1.6; }
+.pr-note a { color: var(--a1); font-weight: 700; }
+@media (max-width: 700px) { .pr-two { grid-template-columns: 1fr; } }
+.pr-listen { display: flex; justify-content: center; margin-top: 10px; }
+.pr-listen .ph-say { padding: 7px 14px; font-size: 13px; }
+
+/* числа, дати, час: як пишеться → як читається */
+.pr-written { font-family: ui-monospace, monospace; font-weight: 800; }
+.pr-alt { color: var(--muted); font-size: 13px; }
