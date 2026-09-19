@@ -6,7 +6,7 @@ const { window, doc, errs, go, ok, click } = boot();
 const $ = s => doc.querySelector(s), $$ = s => [...doc.querySelectorAll(s)];
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
-const KINDS = { flap: 'sound', glottal: 'sound', linking: 'sound', weak: 'weak', endings: 'endings', stress: 'stress', numbers: 'say', tricky: 'tricky', variant: 'variant', minimal: 'minimal' };
+const KINDS = { flap: 'sound', glottal: 'sound', linking: 'sound', weak: 'weak', endings: 'endings', stress: 'stress', numbers: 'say', numtalk: 'say', blend: 'sound', tricky: 'tricky', variant: 'variant', minimal: 'minimal' };
 
 const playQuiz = async (label, max) => {
   for (let i = 0; i < max + 2; i++) {
@@ -29,17 +29,17 @@ const playQuiz = async (label, max) => {
     window.eval(fs.readFileSync(path.join(APP, 'js/sound/pron-data.js'), 'utf8'));
     const D = window.PRON_DATA;
 
-    ok(D.TOPICS.length === 10 && D.GROUPS.length === 3, '10 topics in 3 groups');
-    ok(D.TOPICS.reduce((n, t) => n + t.items.length, 0) === 200, '200 entries in total');
+    ok(D.TOPICS.length === 12 && D.GROUPS.length === 4, '12 topics in 4 groups');
+    ok(D.TOPICS.reduce((n, t) => n + t.items.length, 0) === 264, '264 entries in total');
     ok(D.TOPICS.every(t => t.id && t.emoji && t.title && t.uk && t.lead && t.level && t.kind), 'every topic has its meta');
     ok(D.TOPICS.every(t => t.intro.length > 400 && /intro-box/.test(t.intro) && t.rules.length >= 3), 'every topic has a guide and at least 3 rules');
     ok(D.TOPICS.every(t => KINDS[t.id] === t.kind), 'every topic declares the right exercise kind');
     const ids = D.GROUPS.reduce((a, g) => a.concat(g.items), []);
-    ok(ids.length === 10 && ids.every(id => D.TOPICS.some(t => t.id === id)), 'groups cover every topic');
+    ok(ids.length === 12 && ids.every(id => D.TOPICS.some(t => t.id === id)), 'groups cover every topic');
 
     /* цілісність даних по типах */
     const byId = id => D.TOPICS.filter(t => t.id === id)[0];
-    ['flap', 'glottal', 'linking'].forEach(id => {
+    ['flap', 'glottal', 'linking', 'blend'].forEach(id => {
       const t = byId(id);
       ok(t.items.every(i => i.en && i.spoken && i.ipa && i.uk && i.ex && i.ex.en && i.ex.spoken && i.ex.uk),
         id + ': every entry has spelling, spoken form, IPA and an example');
@@ -53,6 +53,8 @@ const playQuiz = async (label, max) => {
     ok(byId('minimal').items.every(i => i.a.w && i.b.w && i.a.ipa !== i.b.ipa), 'minimal pairs: two words with different transcriptions');
     ok(byId('numbers').items.every(i => i.en && i.spoken && i.uk && i.ex && i.ex.en && i.ex.spoken && i.ex.uk && i.spoken !== i.en && i.alt !== i.spoken),
       'numbers: written form, spoken form, an optional alternative and an example');
+    ok(byId('numtalk').items.every(i => i.en && i.spoken && i.uk && i.ex && i.ex.spoken && i.spoken !== i.en),
+      'numtalk: each informal form differs from the written one');
 
     /* не дублюємо те, що вже є у Chunks */
     const CH = (new Function('var window={PHRASE_DATA:{}};' + fs.readFileSync(path.join(APP, 'js/phrases/chunks-data.js'), 'utf8') + ';return window.PHRASE_DATA["chunks"]'))();
@@ -62,7 +64,7 @@ const playQuiz = async (label, max) => {
 
     /* хаб і сторінки */
     go('#/sound'); await sleep(20);
-    ok($$('.ph-hub-card').length === 10 && $$('.section-title').length === 3, 'hub lists 10 topics in 3 groups');
+    ok($$('.ph-hub-card').length === 12 && $$('.section-title').length === 4, 'hub lists 12 topics in 4 groups');
     ok(/Chunks/.test($('#view').textContent), 'hub points to the Chunks trainer for gonna / wanna');
 
     for (const t of D.TOPICS) {
@@ -102,13 +104,13 @@ const playQuiz = async (label, max) => {
 
     /* питання з вимови у «Виклику» */
     const pool = window.FLSound.challengePool();
-    ok(pool.length === 20, 'challenge gets ' + pool.length + ' pronunciation questions (2 per topic)');
+    ok(pool.length === 24, 'challenge gets ' + pool.length + ' pronunciation questions (2 per topic)');
     ok(pool.every(q => q.type === 'choice' && q.options[q.answer] && q.tag && !/Послухати/.test(q.q)),
       'every challenge question is valid and free of button text');
 
     /* меню й дашборд */
-    ok($$('#nav .nav-group[data-key="sound"] .nav-sg').length === 3 &&
-      $$('#nav .nav-group[data-key="sound"] .nav-sub a').length === 10, 'nav shows 10 topics in 3 subgroups');
+    ok($$('#nav .nav-group[data-key="sound"] .nav-sg').length === 4 &&
+      $$('#nav .nav-group[data-key="sound"] .nav-sub a').length === 12, 'nav shows 12 topics in 4 subgroups');
     go('#/');
     ok(/Вимова/.test($('#view').textContent), 'dashboard has a Вимова card');
   } catch (e) { errs.push('TEST THREW: ' + e.stack); }

@@ -431,19 +431,140 @@ const NUMBERS = {
     /* ---------- міри ---------- */
     { en: '6 ft 2', spoken: 'six foot two', alt: 'six feet two inches', uk: 'шість футів два дюйми (≈188 см)', ex: { en: 'He’s 6 ft 2.', spoken: 'He’s six foot two.', uk: 'Він шість футів два (≈188 см).' }, note: 'Про зріст кажуть саме «six foot two», однина — це виняток.' },
     { en: '72°F', spoken: 'seventy-two degrees', alt: 'seventy-two degrees Fahrenheit', uk: 'сімдесят два за Фаренгейтом (≈22 °C)', ex: { en: 'It’s 72°F outside.', spoken: 'It’s seventy-two degrees outside.', uk: 'Надворі 72 °F (≈22 °C).' }, note: 'У США шкалу не називають — вона зрозуміла з контексту.' },
-    { en: 'flight AA 1120', spoken: 'flight A A eleven twenty', alt: 'flight A A one one two oh', uk: 'рейс AA 1120', ex: { en: 'Flight AA 1120 is now boarding.', spoken: 'Flight A A eleven twenty is now boarding.', uk: 'Розпочато посадку на рейс AA 1120.' }, note: 'Номери рейсів і поїздів читають парами — так швидше.' }
+    { en: 'flight AA 1120', spoken: 'flight A A eleven twenty', alt: 'flight A A one one two oh', uk: 'рейс AA 1120', ex: { en: 'Flight AA 1120 is now boarding.', spoken: 'Flight A A eleven twenty is now boarding.', uk: 'Розпочато посадку на рейс AA 1120.' }, note: 'Номери рейсів і поїздів читають парами — так швидше.' },
+    /* ---------- неформальні читання років і кодів ---------- */
+    { en: '2007', spoken: 'twenty oh seven', alt: 'two thousand seven', uk: 'дві тисячі сьомий', ex: { en: 'I graduated in 2007.', spoken: 'I graduated in twenty oh seven.', uk: 'Я випустився 2007 року.' }, note: 'Нуль усередині року — це «oh». Формальне «two thousand and seven» теж правильне, але в розмові частіше «twenty oh seven».' },
+    { en: '1905', spoken: 'nineteen oh five', alt: '', uk: 'тисяча девʼятсот пʼятий', ex: { en: 'The building is from 1905.', spoken: 'The building is from nineteen oh five.', uk: 'Будівля 1905 року.' }, note: 'Те саме правило в усіх століттях: 1809 → «eighteen oh nine».' },
+    { en: "back in '09", spoken: 'back in oh nine', alt: '', uk: 'ще у 2009-му', ex: { en: "We met back in '09.", spoken: 'We met back in oh nine.', uk: 'Ми познайомилися ще у 2009-му.' }, note: 'Апостроф замінює століття: \'09, \'99, class of \'05.' },
+    { en: '911', spoken: 'nine one one', alt: '', uk: 'екстрена служба США', ex: { en: 'Call 911!', spoken: 'Call nine one one!', uk: 'Дзвони 911!' }, note: 'Номер служби читають по цифрах. У Британії це 999 — «nine nine nine».' },
+    { en: '9/11', spoken: 'nine eleven', alt: '', uk: '11 вересня 2001 року', ex: { en: 'It changed after 9/11.', spoken: 'It changed after nine eleven.', uk: 'Після 11 вересня все змінилося.' }, note: '⚠️ Не плутай з телефоном 911 («nine one one»): дата читається парами.' },
+    { en: '007', spoken: 'double-oh seven', alt: 'oh oh seven', uk: 'агент 007', ex: { en: 'He is watching 007 again.', spoken: 'He is watching double-oh seven again.', uk: 'Він знову дивиться про 007.' }, note: 'Два нулі поспіль британці звуть «double-oh», американці частіше «oh oh».' },
+    { en: 'Room 101', spoken: 'room one oh one', alt: 'room a hundred and one', uk: 'кімната 101', ex: { en: 'The class is in Room 101.', spoken: 'The class is in room one oh one.', uk: 'Заняття в кімнаті 101.' }, note: 'У США «101» ще означає «основи предмета»: Cooking 101 — кулінарія для початківців.' },
+    { en: 'I-95', spoken: 'I ninety-five', alt: 'Interstate ninety-five', uk: 'траса I-95', ex: { en: 'We took I-95 south.', spoken: 'We took I ninety-five south.', uk: 'Ми поїхали трасою I-95 на південь.' }, note: 'Назви автострад читають як числа: I-10, I-405 → «I four oh five».' },
+    { en: '1080p', spoken: 'ten eighty p', alt: '', uk: 'роздільність 1080p', ex: { en: 'The video is 1080p.', spoken: 'The video is ten eighty p.', uk: 'Відео у 1080p.' }, note: 'Техніка читається парами: 4K → «four K», 240Hz → «two forty hertz».' },
+    { en: 'COVID-19', spoken: 'covid nineteen', alt: '', uk: 'ковід-19', ex: { en: 'It started with COVID-19.', spoken: 'It started with covid nineteen.', uk: 'Усе почалося з ковіду-19.' }, note: 'Число після назви читають як звичайне: Windows 11 → «Windows eleven».' }
   ]
 };
 
-const TOPICS = [FLAP, GLOTTAL, LINKING, WEAK, ENDINGS, STRESS, NUMBERS, TRICKY, AMEBRE, MINIMAL];
+/* ============================================================
+   11. ЧИСЛА В РОЗМОВІ — bucks, grand, a quarter of five, five-ish
+   ============================================================ */
+const NUMTALK = {
+  id: 'numtalk', emoji: '🪙', title: 'Числа в розмові', uk: 'Як про числа кажуть неформально',
+  level: 'B1', kind: 'say',
+  lead: '$5 → «five bucks», $1000 → «a grand», 4:45 → «a quarter of five», ~17:00 → «five-ish».',
+  intro: '<div class="intro-box blue"><h3>🎯 Правильно — ще не означає «як кажуть»</h3>' +
+    '<p>«Five dollars» зрозуміють усі, але в кафе ти почуєш <b>five bucks</b>. Формальне «one thousand dollars» у розмові звучить як <b>a grand</b>, а «approximately five o\'clock» — просто <b>five-ish</b>. Це не сленг вулиці, а звичайна щоденна мова: так говорять і в офісі, і вдома.</p></div>' +
+    '<div class="intro-box green"><h3>💵 Гроші мають прізвиська</h3>' +
+    '<p><b>a buck</b> = долар, <b>a grand</b> = тисяча, <b>K</b> = тисяча в зарплатах (<i>50K a year</i>), <b>six figures</b> = від 100 000. Монети американець майже ніколи не називає цифрою: 25¢ — це <b>a quarter</b>, 10¢ — <b>a dime</b>, 5¢ — <b>a nickel</b>, 1¢ — <b>a penny</b>. У британців свої: <b>quid</b> = фунт, <b>a fiver</b> = £5, <b>a tenner</b> = £10.</p></div>' +
+    '<div class="intro-box orange"><h3>⏰ Час і приблизність</h3>' +
+    '<p>Американське <b>a quarter of five</b> = 4:45 (саме «of», не «to»), <b>ten after six</b> = 6:10. Британське <b>half seven</b> — це 7:30, а не 6:30: тут просто випало слово «past». А закінчення <b>-ish</b> рятує в будь-якій ситуації: <i>five-ish, thirty-ish, Monday-ish</i>.</p></div>' +
+    '<div class="intro-box pink"><h3>📏 Коли точність не потрібна</h3>' +
+    '<p><i>a couple</i> (2, іноді 3), <i>a few</i> (3–4), <i>a dozen</i> (12), <i>a couple hundred</i>, <i>give or take</i> («плюс-мінус»), <i>north of</i> («понад»), <i>in the ballpark of</i> («приблизно»). Носії уникають точних цифр частіше, ніж здається.</p></div>',
+  rules: [
+    { t: '💵 Гроші: bucks, grand, K', d: '<b>Buck</b> у множині — bucks, але після числа лишається як є: <i>five bucks</i>. <b>Grand</b> ніколи не має -s: <i>five grand</i>, а не «five grands». <b>K</b> уживають переважно про зарплати й ціни: <i>60K</i>.', ex: [['It was like twenty bucks.', 'Коштувало доларів двадцять'], ['They paid him five grand.', 'Йому заплатили пʼять тисяч'], ['She makes 80K a year.', 'Вона заробляє 80 тисяч на рік']] },
+    { t: '🪙 Монети замість цифр', d: 'У США монети мають власні назви, і саме їх чуєш у магазині: <b>penny</b> (1¢), <b>nickel</b> (5¢), <b>dime</b> (10¢), <b>quarter</b> (25¢). «Twenty-five cents» скажуть радше в банку, ніж у кафе.', ex: [['Do you have a quarter?', 'Маєш 25 центів?'], ['It costs a buck fifty.', 'Коштує долар пʼятдесят'], ['Keep the dime.', 'Решту (10 центів) лишіть собі']] },
+    { t: '⏰ of / after / half', d: 'AmE: <b>a quarter of five</b> = 4:45, <b>ten after six</b> = 6:10. BrE: <b>half seven</b> = 7:30. Британське «half» — це скорочене «half past», тому воно завжди про <b>пізніше</b>, а не раніше.', ex: [['I will be there at a quarter of five.', 'Буду о 4:45'], ['We met at ten after six.', 'Ми зустрілися о 6:10'], ['See you at half seven.', 'Побачимось о 19:30']] },
+    { t: '🎯 -ish і приблизність', d: '<b>-ish</b> чіпляється майже до всього: часу, віку, дня, навіть прикметника (<i>warm-ish</i>). Поряд живуть <b>give or take</b> («плюс-мінус»), <b>or so</b> («десь так»), <b>a couple</b>, <b>a few</b>.', ex: [['Let us say seven-ish.', 'Скажімо, десь о сьомій'], ['Twenty minutes, give or take.', 'Хвилин двадцять, плюс-мінус'], ['He is thirty-ish.', 'Йому десь тридцять']] },
+    { t: '🌡️ Десятки без цифр', d: 'Про температуру й вік кажуть десятками: <b>in the eighties</b> (80–89 °F ≈ 27–32 °C), <b>in his mid-thirties</b> (35–36), <b>in her early twenties</b> (20–22), <b>in their late forties</b> (47–49).', ex: [['It is in the low eighties today.', 'Сьогодні десь +28 °C'], ['She is in her early twenties.', 'Їй трохи за двадцять'], ['He is pushing fifty.', 'Йому скоро пʼятдесят']] }
+  ],
+  items: [
+    /* ---------- гроші ---------- */
+    { en: '$5', spoken: 'five bucks', alt: 'five dollars', uk: 'пʼять баксів', ex: { en: 'It was only $5.', spoken: 'It was only five bucks.', uk: 'Це коштувало лише пʼять доларів.' }, note: 'Buck — найзвичніше слово про долар у розмові. Після числа завжди bucks: ten bucks.' },
+    { en: '$1.50', spoken: 'a buck fifty', alt: 'one fifty', uk: 'долар пʼятдесят', ex: { en: 'The coffee is $1.50.', spoken: 'The coffee is a buck fifty.', uk: 'Кава коштує долар пʼятдесят.' } },
+    { en: '25¢', spoken: 'a quarter', alt: 'twenty-five cents', uk: 'чверть долара (монета)', ex: { en: 'The machine takes 25¢ coins.', spoken: 'The machine takes quarters.', uk: 'Автомат приймає монети по 25 центів.' }, note: 'У пральні, паркоматі й автоматі американець просить саме quarters.' },
+    { en: '10¢', spoken: 'a dime', alt: 'ten cents', uk: 'десять центів (монета)', ex: { en: 'I found 10¢ on the floor.', spoken: 'I found a dime on the floor.', uk: 'Я знайшов десять центів на підлозі.' }, note: 'Звідси вислів «a dime a dozen» — «таких як греблю гати».' },
+    { en: '5¢', spoken: 'a nickel', alt: 'five cents', uk: 'пʼять центів (монета)', ex: { en: 'It does not cost a nickel more.', spoken: 'It does not cost a nickel more.', uk: 'Це не коштує ані центом більше.' } },
+    { en: '1¢', spoken: 'a penny', alt: 'one cent', uk: 'один цент (монета)', ex: { en: 'It saved me 1¢.', spoken: 'It saved me a penny.', uk: 'Я заощадив аж цент.' }, note: 'Множина — pennies (монети), але про суму кажуть cents.' },
+    { en: '$1,000', spoken: 'a grand', alt: 'one thousand dollars', uk: 'тисяча доларів', ex: { en: 'The laptop cost $5,000.', spoken: 'The laptop cost five grand.', uk: 'Ноутбук коштував пʼять тисяч.' }, note: 'Grand ніколи не має -s: five grand, а не «five grands».' },
+    { en: '$50K', spoken: 'fifty K', alt: 'fifty thousand', uk: 'пʼятдесят тисяч', ex: { en: 'The job pays $50K.', spoken: 'The job pays fifty K.', uk: 'На цій роботі платять 50 тисяч.' }, note: 'K = kilo, тисяча. Найчастіше про зарплати й ціни.' },
+    { en: '$100,000+', spoken: 'six figures', alt: 'over a hundred thousand', uk: 'шестизначна сума', ex: { en: 'She earns $120,000.', spoken: 'She makes six figures.', uk: 'Вона заробляє шестизначну суму.' } },
+    { en: '£5 / £10', spoken: 'a fiver / a tenner', alt: 'five pounds / ten pounds', uk: 'пʼятірка / десятка (BrE)', ex: { en: 'Can you lend me £10?', spoken: 'Can you lend me a tenner?', uk: 'Позичиш мені десятку?' }, note: 'Суто британське. В Америці так не кажуть.' },
+    { en: '£20 (BrE)', spoken: 'twenty quid', alt: 'twenty pounds', uk: 'двадцять фунтів', ex: { en: 'It was £20.', spoken: 'It was twenty quid.', uk: 'Це коштувало двадцять фунтів.' }, note: 'Quid ніколи не має -s: twenty quid.' },
+    /* ---------- час ---------- */
+    { en: '4:45 (AmE)', spoken: 'a quarter of five', alt: 'a quarter to five', uk: 'за чверть пʼята', ex: { en: 'Call me at 4:45.', spoken: 'Call me at a quarter of five.', uk: 'Подзвони мені о 4:45.' }, note: 'Саме «of» — суто американське. Британець скаже «to».' },
+    { en: '6:10 (AmE)', spoken: 'ten after six', alt: 'ten past six', uk: 'десять по шостій', ex: { en: 'The bus leaves at 6:10.', spoken: 'The bus leaves at ten after six.', uk: 'Автобус відходить о 6:10.' }, note: 'AmE любить «after», BrE — «past».' },
+    { en: '7:30 (BrE)', spoken: 'half seven', alt: 'half past seven', uk: 'пів на восьму', ex: { en: 'See you at 7:30.', spoken: 'See you at half seven.', uk: 'Побачимось о пів на восьму.' }, note: '⚠️ Пастка: «half seven» — це 7:30, а не 6:30. Випало слово «past».' },
+    { en: '~5:00', spoken: 'five-ish', alt: 'around five', uk: 'десь о пʼятій', ex: { en: 'Let us meet around 5.', spoken: 'Let us meet five-ish.', uk: 'Зустріньмось десь о пʼятій.' }, note: '-ish чіпляється до всього: Monday-ish, thirty-ish, warm-ish.' },
+    { en: '30 хв', spoken: 'a half hour', alt: 'half an hour', uk: 'пів години', ex: { en: 'It takes 30 minutes.', spoken: 'It takes a half hour.', uk: 'Це займає пів години.' }, note: 'AmE: a half hour · BrE: half an hour.' },
+    { en: '9-to-5', spoken: 'nine to five', alt: 'a nine-to-five job', uk: 'звичайна офісна робота', ex: { en: 'I work a 9-to-5.', spoken: 'I work a nine to five.', uk: 'У мене звичайна офісна робота.' }, note: 'Уживають і як іменник: «a nine-to-five» — робота з графіком.' },
+    { en: '24/7', spoken: 'twenty-four seven', alt: 'all the time', uk: 'цілодобово, без перерв', ex: { en: 'The store is open 24/7.', spoken: 'The store is open twenty-four seven.', uk: 'Магазин працює цілодобово.' } },
+    { en: '~10 хв', spoken: 'like ten minutes', alt: 'about ten minutes', uk: 'хвилин десять', ex: { en: 'I will be there in about 10 minutes.', spoken: 'I will be there in like ten minutes.', uk: 'Буду хвилин за десять.' }, note: '«Like» тут не «як», а «приблизно» — дуже розмовно.' },
+    /* ---------- кількість і приблизність ---------- */
+    { en: '~200', spoken: 'a couple hundred', alt: 'about two hundred', uk: 'сотні дві', ex: { en: 'There were about 200 people.', spoken: 'There were a couple hundred people.', uk: 'Там було сотні дві людей.' }, note: 'AmE часто без «of»: a couple hundred, a couple days.' },
+    { en: '2–3', spoken: 'a couple', alt: 'two or three', uk: 'пара, кілька', ex: { en: 'Give me 2 minutes.', spoken: 'Give me a couple minutes.', uk: 'Дай мені пару хвилин.' }, note: 'a couple ≈ 2, a few ≈ 3–4, several ≈ 5+.' },
+    { en: '12', spoken: 'a dozen', alt: 'twelve', uk: 'дюжина', ex: { en: 'We need 12 eggs.', spoken: 'We need a dozen eggs.', uk: 'Нам потрібна дюжина яєць.' }, note: 'Половина — half a dozen (6).' },
+    { en: '±5', spoken: 'give or take', alt: 'more or less', uk: 'плюс-мінус', ex: { en: 'Twenty minutes, ±5.', spoken: 'Twenty minutes, give or take.', uk: 'Хвилин двадцять, плюс-мінус.' } },
+    { en: '>200', spoken: 'north of two hundred', alt: 'more than two hundred', uk: 'понад двісті', ex: { en: 'It cost more than $200.', spoken: 'It cost north of two hundred.', uk: 'Це коштувало понад двісті.' }, note: 'Ділова мова: north of = понад, south of = менше ніж.' },
+    { en: '≈ $3,000', spoken: 'in the ballpark of three thousand', alt: 'roughly three thousand', uk: 'приблизно три тисячі', ex: { en: 'The repair is roughly $3,000.', spoken: 'The repair is in the ballpark of three thousand.', uk: 'Ремонт — приблизно три тисячі.' }, note: 'Звідси «a ballpark figure» — орієнтовна цифра.' },
+    { en: '50/50', spoken: 'fifty-fifty', alt: 'half and half', uk: 'навпіл, порівну', ex: { en: 'We split it 50/50.', spoken: 'We split it fifty-fifty.', uk: 'Ми поділили навпіл.' } },
+    { en: '110%', spoken: 'a hundred and ten percent', alt: 'one hundred ten percent', uk: 'на всі сто (і навіть більше)', ex: { en: 'I agree 110%.', spoken: 'I agree a hundred and ten percent.', uk: 'Погоджуюся на всі сто.' }, note: 'Математично неможливо — але так кажуть повсюди.' },
+    /* ---------- вік і температура ---------- */
+    { en: '35 (вік)', spoken: 'in his mid-thirties', alt: 'about thirty-five', uk: 'десь тридцять пʼять', ex: { en: 'He is about 35.', spoken: 'He is in his mid-thirties.', uk: 'Йому десь тридцять пʼять.' }, note: 'Так само: early twenties (20–22), late forties (47–49).' },
+    { en: '48 (вік)', spoken: 'pushing fifty', alt: 'almost fifty', uk: 'скоро пʼятдесят', ex: { en: 'He is almost 50.', spoken: 'He is pushing fifty.', uk: 'Йому скоро пʼятдесят.' } },
+    { en: '82 °F', spoken: 'in the eighties', alt: 'eighty-two degrees', uk: 'близько +28 °C', ex: { en: 'It is 82 degrees out.', spoken: 'It is in the eighties out.', uk: 'Надворі близько +28 °C.' }, note: 'Про погоду американці мислять десятками: in the nineties — спека.' }
+  ]
+};
+
+/* ============================================================
+   12. ЦІЛІ ФРАЗИ, ЩО ЗЛИПАЮТЬСЯ — Did you eat yet? → «Jeet yet?»
+   ============================================================ */
+const BLEND = {
+  id: 'blend', emoji: '🌀', title: 'Фрази, що злипаються', uk: 'Як звучать цілі речення в живій мові',
+  level: 'B2', kind: 'sound',
+  lead: 'Did you eat yet? → «Джіт єт?», What are you doing? → «ВачадУїн?», I am going to → «Айма».',
+  intro: '<div class="intro-box blue"><h3>🎯 Чому знайомі слова не впізнаються на слух</h3>' +
+    '<p>Ти знаєш кожне слово у фразі <i>Did you eat yet?</i> — але в житті вона звучить як одне слово «<b>Jeet yet?</b>». Американець не вимовляє слова окремо: він веде їх однією хвилею, ковтає ненаголошені звуки й зліплює сусідні. Тому проблема не в словнику, а в тому, що письмова й усна форми — це майже дві різні мови.</p></div>' +
+    '<div class="intro-box green"><h3>🔗 Три механізми злипання</h3>' +
+    '<p><b>1. Ненаголошене зникає:</b> <i>are, do, have, to</i> перетворюються на короткий звук /ə/ або пропадають (<i>What are you</i> → «whaddaya»). <b>2. Сусідні звуки зливаються:</b> d + y = /dʒ/ (<i>did you</i> → «didja»), t + y = /tʃ/ (<i>meet you</i> → «meetcha»). <b>3. Кінцеві приголосні зникають:</b> <i>doing</i> → «doin\'», <i>going to</i> → «gonna».</p></div>' +
+    '<div class="intro-box orange"><h3>🗣️ Тобі так говорити не обовʼязково</h3>' +
+    '<p>Мета цієї теми — <b>розуміти</b>, а не імітувати. Якщо вимовляти слова окремо, тебе чудово зрозуміють: це звучить трохи офіційно, але правильно. А от не впізнати «Whaddaya want?» на слух — значить випасти з розмови. Почни з упізнавання, а звичка прийде сама.</p></div>' +
+    '<div class="intro-box pink"><h3>✍️ Писати так не можна</h3>' +
+    '<p><i>Jeet yet, whaddaya, gonna, lemme</i> — це запис звучання, а не орфографія. У листі, есе й робочому чаті пиши повні форми. Виняток — коли передаєш пряму мову або жартуєш у повідомленні другу.</p></div>',
+  rules: [
+    { t: '🔀 D + Y = /dʒ/', d: 'Кінцеве <b>d</b> і наступне <b>y</b> зливаються в звук, як у слові <i>jam</i>: <i>did you</i> → «didja», <i>would you</i> → «wudja», <i>could you</i> → «couldja».', ex: [['Did you see it?', 'Дiджа сі іт? — Ти це бачив?'], ['Would you mind?', 'Вуджа майнд? — Ти не проти?'], ['Could you help me?', 'Куджа гелп мі? — Допоможеш?']] },
+    { t: '🔀 T + Y = /tʃ/', d: 'Кінцеве <b>t</b> плюс <b>y</b> дають звук, як у <i>chair</i>: <i>meet you</i> → «meetcha», <i>got you</i> → «gotcha», <i>don\'t you</i> → «doncha».', ex: [['Nice to meet you.', 'Найс та мІча — Приємно познайомитися'], ['I got you.', 'Ай ґача — Зрозумів / тримаю тебе'], ["Don't you think?", 'ДОнча θінк? — Тобі не здається?']] },
+    { t: '🫥 Ненаголошені слова зникають', d: '<b>Are, do, have, of, to, and</b> майже не звучать: <i>What are you doing?</i> → «Whatcha doin\'?», <i>a cup of coffee</i> → «a cuppa coffee». Наголос лишається тільки на змістових словах.', ex: [['What are you doing?', 'ВачадУїн? — Що робиш?'], ['A cup of tea.', 'Е капа ті — Чашка чаю'], ['I have to go.', 'Ай гафта ґоу — Мені треба йти']] },
+    { t: '🎵 Ритм важливіший за звуки', d: 'Носій чує фразу не по звуках, а по <b>ритму</b>: скільки наголосів і де вони. Тому «Jeet yet?» упізнають миттєво — ритм той самий, що й у повної фрази. Слухай мелодію речення, а не окремі слова.', ex: [['Did you eat yet?', 'Два наголоси: JEET — YET'], ['What do you want?', 'Один головний: whaddaya WANT'], ["How's it going?", 'Головний на GO: howzit GOin']] }
+  ],
+  items: [
+    { en: 'Did you eat yet?', spoken: 'Jeet yet?', ipa: '/dʒiːt ˈjet/', uk: 'Ти вже їв?', ex: { en: 'Hey, did you eat yet?', spoken: 'Hey, jeet yet?', uk: 'Привіт, ти вже їв?' }, note: 'Класика американської розмовної мови. Відповідь: «No, jew?» (= Did you?).' },
+    { en: 'What are you doing?', spoken: "Whatcha doin'?", ipa: '/ˈwʌtʃə ˈduːɪn/', uk: 'Що робиш?', ex: { en: 'What are you doing tonight?', spoken: "Whatcha doin' tonight?", uk: 'Що робиш сьогодні ввечері?' } },
+    { en: 'What do you want?', spoken: 'Whaddaya want?', ipa: '/ˈwʌdəjə ˈwɑnt/', uk: 'Чого ти хочеш?', ex: { en: 'What do you want to eat?', spoken: 'Whaddaya wanna eat?', uk: 'Що хочеш поїсти?' }, note: 'Те саме з «what do you think» → «whaddaya think».' },
+    { en: "How's it going?", spoken: "Howzit goin'?", ipa: '/ˈhaʊzɪt ˈɡoʊɪn/', uk: 'Як справи?', ex: { en: "Hey man, how's it going?", spoken: "Hey man, howzit goin'?", uk: 'Привіт, як воно?' } },
+    { en: 'How are you doing?', spoken: "How ya doin'?", ipa: '/ˈhaʊ jə ˈduːɪn/', uk: 'Як ти?', ex: { en: 'How are you doing today?', spoken: "How ya doin' today?", uk: 'Як ти сьогодні?' } },
+    { en: 'I do not know.', spoken: 'I dunno.', ipa: '/aɪ dəˈnoʊ/', uk: 'Я не знаю.', ex: { en: 'I do not know what to say.', spoken: 'I dunno what to say.', uk: 'Не знаю, що сказати.' }, note: 'Часто скорочується ще далі — до мугикання «I-uh-no» з трьома складами.' },
+    { en: 'Let me know.', spoken: 'Lemme know.', ipa: '/ˈlemi ˈnoʊ/', uk: 'Дай знати.', ex: { en: 'Let me know when you are free.', spoken: 'Lemme know when you are free.', uk: 'Дай знати, коли будеш вільний.' } },
+    { en: 'Give me a second.', spoken: 'Gimme a sec.', ipa: '/ˈɡɪmi ə ˈsek/', uk: 'Дай мені секунду.', ex: { en: 'Give me a second, I am almost done.', spoken: 'Gimme a sec, I am almost done.', uk: 'Дай секунду, я майже закінчив.' } },
+    { en: 'Come here.', spoken: "C'mere.", ipa: '/ˈkmɪr/', uk: 'Іди сюди.', ex: { en: 'Come here for a second.', spoken: "C'mere for a sec.", uk: 'Підійди на секунду.' } },
+    { en: 'Nice to meet you.', spoken: 'Nice to meetcha.', ipa: '/ˈnaɪs tə ˈmiːtʃə/', uk: 'Приємно познайомитися.', ex: { en: 'Nice to meet you, I am Ruslan.', spoken: 'Nice to meetcha, I am Ruslan.', uk: 'Приємно познайомитися, я Руслан.' } },
+    { en: 'Did you get it?', spoken: 'Didja get it?', ipa: '/ˈdɪdʒə ˈɡedɪt/', uk: 'Ти це отримав? / Зрозумів?', ex: { en: 'Did you get it working?', spoken: 'Didja get it working?', uk: 'Ти змусив це працювати?' }, note: 'Тут одразу два ефекти: did you → didja і flap T у «get it» → «gedit».' },
+    { en: 'Would you mind?', spoken: 'Wudja mind?', ipa: '/ˈwʊdʒə ˈmaɪnd/', uk: 'Ти не проти?', ex: { en: 'Would you mind waiting?', spoken: 'Wudja mind waiting?', uk: 'Не проти зачекати?' } },
+    { en: 'Do not you think?', spoken: 'Doncha think?', ipa: '/ˈdoʊntʃə ˈθɪŋk/', uk: 'Тобі не здається?', ex: { en: 'It is too expensive, do not you think?', spoken: 'It is too expensive, doncha think?', uk: 'Надто дорого, тобі не здається?' } },
+    { en: 'A cup of coffee', spoken: 'a cuppa coffee', ipa: '/ə ˈkʌpə ˈkɔːfi/', uk: 'чашка кави', ex: { en: 'I need a cup of coffee.', spoken: 'I need a cuppa coffee.', uk: 'Мені потрібна чашка кави.' }, note: 'У британців «a cuppa» саме по собі означає чашку чаю.' },
+    { en: 'I have got to go.', spoken: 'I gotta go.', ipa: '/aɪ ˈɡɑɾə ˈɡoʊ/', uk: 'Мені треба йти.', ex: { en: 'Sorry, I have got to go.', spoken: 'Sorry, I gotta go.', uk: 'Вибач, мені треба бігти.' } },
+    { en: 'I am going to call him.', spoken: 'Ima call him.', ipa: '/ˈaɪmə ˈkɔːl ɪm/', uk: 'Я йому подзвоню.', ex: { en: 'I am going to call him later.', spoken: 'Ima call him later.', uk: 'Я подзвоню йому пізніше.' }, note: 'Ланцюжок скорочень: I am going to → I\'m gonna → Ima. Дуже неформально.' },
+    { en: 'Tell them I said hi.', spoken: "Tell 'em I said hi.", ipa: '/ˈtel əm aɪ sed ˈhaɪ/', uk: 'Передай їм привіт.', ex: { en: 'Tell them I said hi, okay?', spoken: "Tell 'em I said hi, okay?", uk: 'Передай їм привіт, добре?' } },
+    { en: "What's the matter?", spoken: 'Wassa matter?', ipa: '/ˈwʌsə ˈmæɾər/', uk: 'Що сталося?', ex: { en: "What's the matter with you?", spoken: 'Wassa matter with you?', uk: 'Та що з тобою?' } },
+    { en: 'It is going to be fine.', spoken: "S'gonna be fine.", ipa: '/zɡənə bi ˈfaɪn/', uk: 'Усе буде добре.', ex: { en: 'Relax, it is going to be fine.', spoken: "Relax, s'gonna be fine.", uk: 'Розслабся, все буде добре.' } },
+    { en: 'Are you all right?', spoken: "You a'right?", ipa: '/jə ɔːˈraɪt/', uk: 'Ти в порядку?', ex: { en: 'Hey, are you all right?', spoken: "Hey, you a'right?", uk: 'Гей, ти в порядку?' }, note: 'У британців «You alright?» — це просто «Привіт, як ти?», а не тривога.' },
+    { en: 'I am out of here.', spoken: 'I am outta here.', ipa: '/aɪm ˈaʊɾə hɪr/', uk: 'Я пішов звідси.', ex: { en: 'That is it, I am out of here.', spoken: 'That is it, I am outta here.', uk: 'Усе, я пішов.' } },
+    { en: 'Do you want to go?', spoken: "D'ya wanna go?", ipa: '/djə ˈwɑnə ˈɡoʊ/', uk: 'Хочеш піти?', ex: { en: 'Do you want to go out tonight?', spoken: "D'ya wanna go out tonight?", uk: 'Хочеш кудись піти ввечері?' } },
+    { en: 'Because of that', spoken: "'cause-a that", ipa: '/kəzə ˈðæt/', uk: 'через це', ex: { en: 'I was late because of that.', spoken: "I was late 'cause-a that.", uk: 'Через це я запізнився.' } },
+    { en: 'What is up with him?', spoken: "Wassup with 'im?", ipa: '/wəˈsʌp wɪð ɪm/', uk: 'Що з ним таке?', ex: { en: 'What is up with him today?', spoken: "Wassup with 'im today?", uk: 'Що з ним сьогодні?' }, note: 'Початкове h у him / her / his у потоці мови зникає: with him → «wiðɪm».' }
+  ]
+};
+
+const TOPICS = [FLAP, GLOTTAL, LINKING, WEAK, ENDINGS, STRESS, NUMBERS, NUMTALK, BLEND, TRICKY, AMEBRE, MINIMAL];
 const GROUPS = [
   { id: 'pr-sounds', emoji: '🔊', title: 'Звуки в потоці мови', items: ['flap', 'glottal', 'linking', 'weak'] },
-  { id: 'pr-rules', emoji: '📐', title: 'Правила читання', items: ['endings', 'stress', 'numbers'] },
+  { id: 'pr-rules', emoji: '📐', title: 'Правила читання', items: ['endings', 'stress'] },
+  { id: 'pr-live', emoji: '🗣️', title: 'Як кажуть насправді', items: ['numbers', 'numtalk', 'blend'] },
   { id: 'pr-traps', emoji: '🪤', title: 'Пастки й відмінності', items: ['tricky', 'variant', 'minimal'] }
 ];
 const META = {
   title: '🗣️ Американська вимова',
-  lead: 'Чому «water» звучить як «вОдер», куди зникає T у «button» і як почути різницю між ship і sheep. Десять тем із прикладами, озвученням і вправами на слух.'
+  lead: 'Чому «water» звучить як «вОдер», куди зникає T у «button» і як почути різницю між ship і sheep. Дванадцять тем із прикладами, озвученням і вправами на слух.'
 };
 
 return { TOPICS: TOPICS, GROUPS: GROUPS, META: META };

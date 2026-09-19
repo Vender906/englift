@@ -418,7 +418,7 @@
   /* ============================ ЕКСПОРТ ============================ */
   window.FLSound = {
     route, SECTION, ensure, challengePool,
-    summary: () => (ready() ? { topics: DATA.TOPICS.length, items: DATA.TOPICS.reduce((n, t) => n + t.items.length, 0) } : { topics: 10, items: 200 }),
+    summary: () => (ready() ? { topics: DATA.TOPICS.length, items: DATA.TOPICS.reduce((n, t) => n + t.items.length, 0) } : { topics: 12, items: 264 }),
     navGroups: () => (ready() ? DATA.GROUPS : NAV_FALLBACK).map(g => ({
       id: g.id, emoji: g.emoji, title: g.title,
       items: g.items.map(id => {
@@ -430,9 +430,10 @@
   /* меню будується до завантаження даних — тримаємо короткий дубль назв */
   const NAV_FALLBACK = [
     { id: 'pr-sounds', emoji: '🔊', title: 'Звуки в потоці мови', items: ['flap', 'glottal', 'linking', 'weak'] },
-    { id: 'pr-rules', emoji: '📐', title: 'Правила читання', items: ['endings', 'stress', 'numbers'] },
+    { id: 'pr-rules', emoji: '📐', title: 'Правила читання', items: ['endings', 'stress'] },
+    { id: 'pr-live', emoji: '🗣️', title: 'Як кажуть насправді', items: ['numbers', 'numtalk', 'blend'] },
     { id: 'pr-traps', emoji: '🪤', title: 'Пастки й відмінності', items: ['tricky', 'variant', 'minimal'] }
   ];
-  const NAV_TITLES = { flap: 'Flap T', glottal: 'Проковтнуте T', linking: 'Злиття слів', weak: 'Слабкі форми', endings: 'Закінчення -ed і -s', stress: 'Наголос у слові', numbers: 'Числа, дати, час і гроші', tricky: 'Слова-пастки', variant: 'США проти Британії', minimal: 'Пари звуків' };
-  const NAV_EMOJI = { flap: '💧', glottal: '🔇', linking: '🔗', weak: '🪶', endings: '🔚', stress: '🥁', numbers: '🔢', tricky: '🪤', variant: '🗽', minimal: '👂' };
+  const NAV_TITLES = { flap: 'Flap T', glottal: 'Проковтнуте T', linking: 'Злиття слів', weak: 'Слабкі форми', endings: 'Закінчення -ed і -s', stress: 'Наголос у слові', numbers: 'Числа, дати, час і гроші', numtalk: 'Числа в розмові', blend: 'Фрази, що злипаються', tricky: 'Слова-пастки', variant: 'США проти Британії', minimal: 'Пари звуків' };
+  const NAV_EMOJI = { flap: '💧', glottal: '🔇', linking: '🔗', weak: '🪶', endings: '🔚', stress: '🥁', numbers: '🔢', numtalk: '🪙', blend: '🌀', tricky: '🪤', variant: '🗽', minimal: '👂' };
 })();
