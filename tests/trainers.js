@@ -23,7 +23,7 @@ const SPEC = {
   academic: { items: 56, cats: 7, tabs: ['guide', 'browser', 'cards', 'match', 'fill', 'translate', 'mix'] }
 };
 /* тренажери, дані яких доповнює окремий файл */
-const EXTRA = { chunks: 'chunks-extra.js', express: 'express-extra.js', situational: 'situational-extra.js' };
+const EXTRA = { chunks: ['chunks-extra.js', 'chunks-senses.js'], express: ['express-extra.js'], situational: ['situational-extra.js'] };
 const NO_LVL = ['softeners', 'situational'];
 const MIXED_LVL = ['chunks'];
 /* у цих двох тренажерів в оригіналі не було вкладки «Гайд» — текст написаний для застосунку */
@@ -56,7 +56,7 @@ const playQuiz = async (label, max) => {
   try {
     /* дані підвантажуються ліниво — вантажимо вручну, як у phrases.js */
     for (const k of Object.keys(SPEC)) window.eval(fs.readFileSync(path.join(APP, 'js/phrases/' + k + '-data.js'), 'utf8'));
-    for (const [k, extra] of Object.entries(EXTRA)) window.eval(fs.readFileSync(path.join(APP, 'js/phrases/' + extra), 'utf8'));
+    for (const files of Object.values(EXTRA)) files.forEach(f => window.eval(fs.readFileSync(path.join(APP, 'js/phrases/' + f), 'utf8')));
 
     for (const [key, spec] of Object.entries(SPEC)) {
       const D = window.PHRASE_DATA[key];
@@ -132,6 +132,20 @@ const playQuiz = async (label, max) => {
       click($('[data-prev]'));
       ok(/Історія 1 \//.test($('#view').textContent), key + '/story: previous story opens');
     }
+
+    /* багатозначні скорочення: розклад значень */
+    const CH = window.PHRASE_DATA.chunks;
+    const withSenses = CH.MARKERS.filter(m => m.senses);
+    ok(withSenses.length === 19, 'chunks: ' + withSenses.length + ' reductions list all their meanings');
+    ok(withSenses.every(m => m.senses.length >= 2 && m.senses.every(sn => sn.uk && sn.en && sn.exUk)),
+      'every meaning has a label, an English example and its translation');
+    ok(CH.MARKERS.filter(m => m.name === 'outta')[0].senses.length === 7, 'outta lists all 7 meanings');
+    go('#/phrases/chunks/browser'); await sleep(20);
+    const outta = [...doc.querySelectorAll('.ph-marker')].find(el => el.querySelector('.ph-marker-name').textContent === 'outta');
+    ok(!!outta && outta.querySelectorAll('.ph-senses li').length === 7, 'browser shows all meanings of outta');
+    ok(outta.querySelectorAll('.ph-senses .ph-sense-ex [data-say]').length === 7, 'every meaning can be played');
+    go('#/phrases/chunks/reductions'); await sleep(20);
+    ok($$('.ph-red-senses').length === 19, 'reductions tab marks every multi-meaning entry');
 
     /* пари, які плутають: варіанти завжди містять правильну форму */
     const CF = window.PHRASE_DATA.confusing;

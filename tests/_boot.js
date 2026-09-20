@@ -3,7 +3,7 @@ const path = require('path');
 const { JSDOM } = require('./node_modules/jsdom');
 
 const APP = process.env.APP_DIR || path.join(__dirname, '..', 'english-app');
-const FILES = ['js/themes.js', 'js/core.js', 'js/lexis/meta.js', 'js/data.js', 'js/grammar-extra.js', 'js/lexis/verbs-data.js', 'js/lexis/nouns-data.js', 'js/lexis/adjs-data.js', 'js/lexis/advs-data.js', 'js/lexis/verbs-phrasal-data.js', 'js/lexis/verbs-merge.js', 'js/lexis/adjs-prep-data.js', 'js/reader.js', 'js/diary/checker.js', 'js/diary.js', 'js/placement.js', 'js/phrases.js', 'js/sound.js', 'js/lexis.js', 'js/grammar.js', 'js/app.js'];
+const FILES = ['js/themes.js', 'js/core.js', 'js/lexis/meta.js', 'js/data.js', 'js/grammar-extra.js', 'js/lexis/verbs-data.js', 'js/lexis/nouns-data.js', 'js/lexis/adjs-data.js', 'js/lexis/advs-data.js', 'js/lexis/verbs-phrasal-data.js', 'js/lexis/verbs-merge.js', 'js/lexis/adjs-prep-data.js', 'js/reader.js', 'js/diary/checker.js', 'js/diary.js', 'js/placement.js', 'js/phrases.js', 'js/sound.js', 'js/lexis.js', 'js/grammar.js', 'js/search.js', 'js/app.js'];
 
 function boot() {
   const html = fs.readFileSync(path.join(APP, 'index.html'), 'utf8');

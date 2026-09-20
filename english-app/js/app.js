@@ -142,6 +142,10 @@
     });
   }
 
+  /* кнопка пошуку в шапці — сам модуль живе в js/search.js */
+  const searchBtn = $('#search-btn');
+  if (searchBtn) searchBtn.addEventListener('click', () => window.FLSearch && window.FLSearch.open());
+
   /* ============================ ROUTER ============================ */
   function route() {
     document.body.classList.remove('nav-open');

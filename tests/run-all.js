@@ -1,7 +1,7 @@
 /* Запуск усіх тестів: node run-all.js  (або npm test) */
 const { spawnSync } = require('child_process');
 const path = require('path');
-const TESTS = ['smoke.js', 'interact.js', 'forms-check.js', 'adult-test.js', 'reader-themes.js', 'diary.js', 'adult-cards.js', 'checker.js', 'features.js', 'phrases.js', 'effects.js', 'phrasal.js', 'trainers.js', 'grammar-extra.js', 'modules.js', 'sound.js'];
+const TESTS = ['smoke.js', 'interact.js', 'forms-check.js', 'adult-test.js', 'reader-themes.js', 'diary.js', 'adult-cards.js', 'checker.js', 'features.js', 'phrases.js', 'effects.js', 'phrasal.js', 'trainers.js', 'grammar-extra.js', 'modules.js', 'sound.js', 'search.js'];
 let failed = 0;
 for (const t of TESTS) {
   const started = Date.now();

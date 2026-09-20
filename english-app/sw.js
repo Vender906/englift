@@ -1,5 +1,5 @@
 /* EngLift — service worker (offline PWA) */
-const CACHE = 'englift-v4.5.0';
+const CACHE = 'englift-v4.7.0';
 const APP_SHELL = [
   './',
   './index.html',
@@ -18,8 +18,11 @@ const APP_SHELL = [
   './css/phrases.css',
   './css/effects.css',
   './css/sound.css',
+  './css/search.css',
   './js/phrases.js',
   './js/sound.js',
+  './js/search.js',
+  './js/search/index-data.js',
   './js/phrases/transitions-data.js',
   './js/phrases/discourse-data.js',
   './js/phrases/timeseq-data.js',
@@ -38,6 +41,7 @@ const APP_SHELL = [
   './js/phrases/work-data.js',
   './js/phrases/academic-data.js',
   './js/phrases/chunks-extra.js',
+  './js/phrases/chunks-senses.js',
   './js/phrases/express-extra.js',
   './js/phrases/situational-extra.js',
   './js/data.js',

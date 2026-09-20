@@ -36,7 +36,7 @@
     would: { emoji: '🌀', short: 'WOULD', uk: 'Усі 10 значень', kind: 'markers', src: 'js/phrases/would-data.js',
       tabs: ['guide', 'browser', 'cards', 'match', 'fill', 'translate', 'story', 'mix'], unit: 'моделей', unitCat: 'значень',
       desc: 'Не лише «б би»: ввічливість, звичка в минулому, would rather, would like, непряма мова — 10 значень одного слова.' },
-    chunks: { emoji: '🧩', short: 'Chunks', uk: 'Готові фрази', kind: 'markers', src: ['js/phrases/chunks-data.js', 'js/phrases/chunks-extra.js'],
+    chunks: { emoji: '🧩', short: 'Chunks', uk: 'Готові фрази', kind: 'markers', src: ['js/phrases/chunks-data.js', 'js/phrases/chunks-extra.js', 'js/phrases/chunks-senses.js'],
       tabs: ['guide', 'browser', 'cards', 'reductions', 'template', 'recombine', 'sitchunk', 'reply2', 'register', 'story', 'trinput', 'mix'], unit: 'фраз', unitCat: 'тем',
       desc: 'Мова — це блоки, а не окремі слова: щоденні фрази, реакції в розмові, скорочення gonna / wanna / gotta і шаблони «Have you ever ___?».' },
     situational: { emoji: '🗺️', short: 'Situational English', uk: 'Фрази за ситуаціями', kind: 'markers', src: ['js/phrases/situational-data.js', 'js/phrases/situational-extra.js'],
@@ -101,6 +101,13 @@
   const shuffle = arr => { const a = arr.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
   const pick = (arr, n) => shuffle(arr).slice(0, n);
   const lvlBadge = l => l ? '<span class="ph-lvl lvl-' + l + '">' + l + '</span>' : '';
+  /* багатозначні маркери: розклад значень із прикладами */
+  const sensesBlock = m => !m.senses ? '' :
+    '<div class="ph-senses"><div class="ph-senses-head">🎯 <b>Значення (' + m.senses.length + ')</b></div><ol>' +
+    m.senses.map(sn => '<li><span class="ph-sense-uk">' + sn.uk + '</span>' +
+      '<div class="ph-sense-ex">' + renderEx(sn.en) +
+      ' <button class="ph-say sm" data-say="' + esc(String(sn.en).replace(/<[^>]+>/g, '')) + '">🔊</button></div>' +
+      '<span class="ph-sense-uk-ex">🇺🇦 ' + sn.exUk + '</span></li>').join('') + '</ol></div>';
   const regBadge = r => r ? '<span class="ph-reg reg-' + r + '">' + (REG_LABEL[r] || r) + '</span>' : '';
   const renderEx = en => String(en).replace(/<b>/g, '<span class="ph-h">').replace(/<\/b>/g, '</span>');
   const normTr = s => String(s || '').trim().toLowerCase().replace(/[.,!?;:]/g, '').replace(/[’‘ʼ'`]/g, "'").replace(/\s+/g, ' ');
@@ -733,11 +740,13 @@
           '<section class="ph-cat"><div class="ph-cat-head big"><span class="ph-cat-emoji">' + D.CATS[c].emoji + '</span><div><div>' + esc(D.CATS[c].label) + ' <span class="ph-cnt">' + groups[c].length + '</span></div><small>' + esc(D.CATS[c].desc) + '</small></div></div>' +
           groups[c].map(m => '<div class="card ph-marker" tabindex="0">' +
             '<div class="ph-marker-head"><span class="ph-marker-emoji">' + m.emoji + '</span><b class="ph-marker-name">' + esc(m.name) + '</b>' + lvlBadge(m.lvl) + regBadge(m.reg) +
+            (m.senses ? '<span class="ph-sense-badge">🎯 ' + m.senses.length + ' ' + FL().plural(m.senses.length, 'значення', 'значення', 'значень') + '</span>' : '') +
             '<button class="ph-say" data-say="' + esc(m.name) + '" title="Озвучити">🔊</button></div>' +
             '<div class="ph-word-uk">🇺🇦 ' + m.uk + '</div>' +
             '<div class="ph-word-details">' +
             (m.formula ? '<div class="ph-formula">📐 <b>Формула:</b> ' + m.formula + '</div>' : '') +
             '<div class="ph-when">📌 <b>Коли вживати:</b> ' + m.when + '</div>' +
+            sensesBlock(m) +
             '<div class="ph-examples">' + m.examples.map(ex => '<div class="ph-example"><div>' + renderEx(ex.en) + ' <button class="ph-say sm" data-say="' + esc(ex.en.replace(/<[^>]+>/g, '')) + '">🔊</button></div><span>🇺🇦 ' + ex.uk + '</span></div>').join('') + '</div>' +
             (m.tip ? '<div class="ph-tip">' + m.tip + '</div>' : '') + (m.vs ? '<div class="ph-vs">' + m.vs + '</div>' : '') +
             '</div></div>').join('') + '</section>'
@@ -858,7 +867,10 @@
           (m.full ? '<span class="ph-red-full">← ' + esc(m.full) + '</span>' : '') +
           '<button class="ph-say sm" data-say="' + esc(m.name) + '">🔊</button></div>' +
           '<div class="ph-word-uk">🇺🇦 ' + esc(m.uk) + '</div>' +
-          (m.examples[0] ? '<div class="ph-ex">' + renderEx(m.examples[0].en) + '</div>' : '') + '</div>').join('') + '</div>';
+          (m.examples[0] ? '<div class="ph-ex">' + renderEx(m.examples[0].en) + '</div>' : '') +
+          (m.senses ? '<details class="ph-red-senses"><summary>🎯 ' + m.senses.length + ' ' + FL().plural(m.senses.length, 'значення', 'значення', 'значень') + '</summary>' +
+            '<ol>' + m.senses.map(sn => '<li><b>' + sn.uk + '</b><div class="ph-sense-ex">' + renderEx(sn.en) + '</div><span class="ph-sense-uk-ex">🇺🇦 ' + sn.exUk + '</span></li>').join('') + '</ol></details>' : '') +
+          '</div>').join('') + '</div>';
       panel.addEventListener('click', e => { const s = e.target.closest('[data-say]'); if (s) FL().speakLang(s.dataset.say, 'en-US', 0.9, s); });
       quiz(panel, { key, id: 'reductions', build: () => pick(red, 12), render: q => reductionQuestion(D, q) });
     },
