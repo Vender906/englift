@@ -52,6 +52,10 @@
       <span class="logo-text">Eng<em>Lift</em></span>
     </a>
 
+    <button class="srch-side" id="search-side" aria-label="Пошук по застосунку">
+      <span aria-hidden="true">🔍</span><span>Пошук по застосунку</span>
+    </button>
+
     <nav class="nav" id="nav" aria-label="Головна навігація"></nav>
 
     <div class="sidebar-footer">
@@ -111,9 +115,31 @@
   <script src="js/search.js"></script>
   <script src="js/app.js"></script>
   <script>
+    /* нова версія застосунку: показуємо смужку «оновити», щоб не лишатися на старій копії з кешу */
+    function showUpdateBar() {
+      if (document.getElementById('upd-bar')) return;
+      var bar = document.createElement('div');
+      bar.id = 'upd-bar';
+      bar.className = 'upd-bar';
+      bar.innerHTML = '<span>✨ Є нова версія застосунку</span><button type="button">Оновити</button>';
+      bar.querySelector('button').addEventListener('click', function () { location.reload(); });
+      document.body.appendChild(bar);
+    }
     if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.addEventListener('controllerchange', showUpdateBar);
       window.addEventListener('load', function () {
-        navigator.serviceWorker.register('sw.js').catch(function () { /* offline-режим недоступний у цьому середовищі */ });
+        navigator.serviceWorker.register('sw.js').then(function (reg) {
+          /* перевіряємо оновлення при поверненні до застосунку — інакше встановлений PWA може
+             тижнями показувати стару версію */
+          document.addEventListener('visibilitychange', function () { if (!document.hidden) reg.update(); });
+          reg.addEventListener('updatefound', function () {
+            var sw = reg.installing;
+            if (!sw) return;
+            sw.addEventListener('statechange', function () {
+              if (sw.state === 'installed' && navigator.serviceWorker.controller) showUpdateBar();
+            });
+          });
+        }).catch(function () { /* offline-режим недоступний у цьому середовищі */ });
       });
     }
   </script>

@@ -1,5 +1,5 @@
 /* EngLift — service worker (offline PWA) */
-const CACHE = 'englift-v4.7.0';
+const CACHE = 'englift-v4.8.0';
 const APP_SHELL = [
   './',
   './index.html',

@@ -143,8 +143,13 @@
   }
 
   /* кнопка пошуку в шапці — сам модуль живе в js/search.js */
-  const searchBtn = $('#search-btn');
-  if (searchBtn) searchBtn.addEventListener('click', () => window.FLSearch && window.FLSearch.open());
+  ['#search-btn', '#search-side'].forEach(sel => {
+    const b = $(sel);
+    if (b) b.addEventListener('click', () => {
+      document.body.classList.remove('nav-open');
+      if (window.FLSearch) window.FLSearch.open();
+    });
+  });
 
   /* ============================ ROUTER ============================ */
   function route() {

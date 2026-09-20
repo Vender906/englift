@@ -1,8 +1,9 @@
 /* EngLift — глобальний пошук (Ctrl/⌘ + K) */
 
 .srch-btn {
-  display: inline-flex; align-items: center; gap: 8px;
-  height: 38px; padding: 0 12px; border-radius: 12px;
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  /* 44 px — мінімальна зручна зона дотику на телефоні */
+  min-width: 44px; height: 44px; padding: 0 12px; border-radius: 12px;
   border: 1px solid var(--line); background: var(--card);
   color: var(--muted); font: inherit; font-size: 13px; cursor: pointer;
   transition: border-color .15s, color .15s, background .15s;
@@ -26,6 +27,7 @@ body.srch-open { overflow: hidden; }
 
 .srch-backdrop {
   position: fixed; inset: 0; z-index: 90;
+  background: rgba(5, 6, 15, .72);   /* запасний варіант для старих Safari без color-mix */
   background: color-mix(in srgb, #05060f 72%, transparent);
   backdrop-filter: blur(3px);
   animation: srch-fade .14s ease;
@@ -80,7 +82,7 @@ body.srch-open { overflow: hidden; }
   padding: 9px 10px; border-radius: 12px; border: 0; background: transparent;
   color: var(--text); text-decoration: none; text-align: left; font: inherit; cursor: pointer;
 }
-.srch-item.sel { background: color-mix(in srgb, var(--a1) 16%, transparent); }
+.srch-item.sel { background: rgba(143, 123, 255, .18); background: color-mix(in srgb, var(--a1) 16%, transparent); }
 .srch-kind { font-size: 16px; flex: none; }
 .srch-main { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 1px; }
 .srch-main b { font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
@@ -106,8 +108,19 @@ body.srch-open { overflow: hidden; }
 .no-motion .srch-flash { animation: none; box-shadow: 0 0 0 2px var(--a1); }
 
 @media (max-width: 640px) {
-  .srch-box { top: 0; left: 0; transform: none; width: 100vw; max-height: 100vh; height: 100dvh; border-radius: 0; border: 0; }
+  .srch-box { top: 0; left: 0; transform: none; width: 100vw; max-height: 100vh; height: 100dvh; border-radius: 0; border: 0;
+    padding-top: env(safe-area-inset-top, 0px); }
+  .srch-foot { padding-bottom: calc(10px + env(safe-area-inset-bottom, 0px)); }
   .srch-extra { display: none; }
   .srch-foot span:not(.srch-foot-hint) { display: none; }
   .srch-foot-hint { margin: 0 auto; }
 }
+
+/* другий вхід у пошук — у бічному меню (працює навіть коли шапка перекрита) */
+.srch-side {
+  display: flex; align-items: center; gap: 10px; width: 100%;
+  margin: 4px 0 10px; padding: 11px 12px; border-radius: 12px;
+  border: 1px solid var(--line); background: var(--card);
+  color: var(--muted); font: inherit; font-size: 14px; text-align: left; cursor: pointer;
+}
+.srch-side:hover, .srch-side:focus-visible { color: var(--text); border-color: var(--a1); }
