@@ -1,0 +1,650 @@
+[
+ {
+  "id": 2360, "w": "seek forgiveness", "uk": "шукати прощення", "lvl": "C1",
+  "forms": "seek|seeks|sought|sought|seeking",
+  "tail": "forgiveness",
+  "near": "apologi*|ask for forgiveness|asked for forgiveness|asking for forgiveness|beg for forgiveness|begged for forgiveness|say sorry|said sorry",
+  "tasks": [
+   {
+    "sit": "Ти читаєш про середньовічного короля, який після війни пішки пішов у далекий монастир.",
+    "say": "Він шукав прощення за свої гріхи.",
+    "ans": ["He sought forgiveness for his sins.", "He went to the monastery to seek forgiveness for his sins.", "He was seeking forgiveness for everything he’d done."],
+    "keys": { "гріхи": "sin*|done|crime*|wrong*" }
+   },
+   {
+    "sit": "Твій брат багато років не спілкувався з батьком після сварки, а тепер сам йому подзвонив.",
+    "say": "Мені здається, він шукає в тата прощення.",
+    "ans": ["I think he’s seeking forgiveness from Dad.", "I think he wants to seek Dad’s forgiveness.", "I guess he’s finally seeking forgiveness from our father."],
+    "keys": { "тато": "dad*|father|pa|papa" }
+   },
+   {
+    "sit": "У новинах показують директора компанії, через продукцію якої отруїлися сотні людей. Ти коментуєш колезі.",
+    "say": "Він публічно шукає прощення в постраждалих.",
+    "ans": ["He is publicly seeking forgiveness from the victims.", "He sought forgiveness from the victims in public.", "He’s going on TV to seek forgiveness from the people he hurt."],
+    "keys": { "постраждалі": "victim*|people|famil*|affected", "публічно": "public*|tv|camera*|press" }
+   }
+  ]
+ },
+ {
+  "id": 2361, "w": "look on the bright side", "uk": "бачити хороше, дивитися з позитивного боку", "lvl": "B2",
+  "forms": "look|looks|looked|looked|looking",
+  "tail": "on bright side",
+  "near": "stay positive|think positive*|be positive|glass half full|silver lining|be optimistic|stay optimistic",
+  "tasks": [
+   {
+    "sit": "Твій рейс скасували, і тобі доведеться ночувати в аеропорту. Подруга по телефону дуже тобі співчуває.",
+    "say": "Намагаюся бачити хороше: принаймні я нарешті дочитаю книжку.",
+    "ans": ["I’m trying to look on the bright side — at least I can finish my book.", "Let’s look on the bright side: at least I’ll finish my book.", "Well, look on the bright side — I’ll finally get to finish that book."],
+    "keys": { "книжка": "book*|novel|read*" }
+   },
+   {
+    "sit": "Друга звільнили, і він уже тиждень сидить удома сумний.",
+    "say": "Подивися на це з позитивного боку: тепер у тебе є час на себе.",
+    "ans": ["Look on the bright side: now you have time for yourself.", "Try to look on the bright side — you’ve got time for yourself now.", "Hey, look on the bright side, you finally have some free time!"],
+    "keys": { "час": "time|free" }
+   },
+   {
+    "sit": "Ти зламав ногу й шість тижнів ходитимеш у гіпсі. Мама дивується, що ти зовсім не сумуєш.",
+    "say": "Я завжди намагаюся в усьому бачити хороше.",
+    "ans": ["I always try to look on the bright side.", "I try to look on the bright side of everything.", "You know me — I always look on the bright side."],
+    "keys": { "завжди, в усьому": "always|every*" }
+   }
+  ]
+ },
+ {
+  "id": 2362, "w": "take out a target", "uk": "знищити ціль", "lvl": "C1",
+  "forms": "take|takes|took|taken|taking",
+  "tail": "out",
+  "near": "destroy*|eliminat*|knock* out|knocked out|neutrali*|shot down|shoot down|blew up|blow up|hit",
+  "tasks": [
+   {
+    "sit": "Ти читаєш друзям уголос свіже зведення з фронту.",
+    "say": "Дрон знищив ворожий танк.",
+    "ans": ["A drone took out an enemy tank.", "The enemy tank was taken out by a drone.", "They used a drone to take out an enemy tank."],
+    "keys": { "дрон": "drone*|uav", "танк": "tank*" }
+   },
+   {
+    "sit": "Ти граєш з другом в онлайн-шутер і координуєш дії в навушниках.",
+    "say": "Я знищу снайпера на даху, а ти мене прикривай.",
+    "ans": ["I’ll take out the sniper on the roof, you cover me.", "Let me take out the sniper on the roof — cover me.", "I’m going to take out that sniper on the roof, so cover me!"],
+    "keys": { "снайпер": "sniper*", "дах": "roof*", "прикривай": "cover*" }
+   },
+   {
+    "sit": "Ти дивишся з молодшим братом документальний фільм про Другу світову й пояснюєш, що відбувається.",
+    "say": "Пілоти мали знищити міст, щоб зупинити ворога.",
+    "ans": ["The pilots had to take out the bridge to stop the enemy.", "Their mission was to take out the bridge before the enemy arrived.", "The pilots were sent to take out the bridge and stop the enemy."],
+    "keys": { "міст": "bridge*", "ворог": "enemy|enemies|army|troops|advance*" }
+   }
+  ]
+ },
+ {
+  "id": 2363, "w": "take the lead", "uk": "вийти в лідери, вийти вперед", "lvl": "B2",
+  "forms": "take|takes|took|taken|taking",
+  "tail": "lead",
+  "near": "overtook|overtake*|pull ahead|pulled ahead|went ahead|go ahead|got ahead|get ahead|in front",
+  "tasks": [
+   {
+    "sit": "Ти дивишся футбол з батьком, і на вісімдесятій хвилині ваша команда забиває гол.",
+    "say": "Так! Ми вийшли вперед!",
+    "ans": ["Yes! We’ve taken the lead!", "Yes, we took the lead in the 80th minute!", "Come on! We just took the lead!"],
+    "keys": { "ми": "we|us|our" }
+   },
+   {
+    "sit": "Ти дивишся онлайн марафон і розповідаєш другові, як бігунка з Кенії обігнала всіх на тридцятому кілометрі.",
+    "say": "Вона вийшла в лідери на тридцятому кілометрі.",
+    "ans": ["She took the lead at the 30th kilometer.", "She’s taken the lead at kilometer thirty.", "At the 30 km mark she took the lead."],
+    "keys": { "тридцятий": "thirt*|30*", "кілометр": "kilomet*|km|mark" }
+   },
+   {
+    "sit": "На нараді всі мовчать — ніхто не хоче керувати новим проєктом.",
+    "say": "Гаразд, я візьму ініціативу й очолю цей проєкт.",
+    "ans": ["OK, I’ll take the lead on this project.", "Fine, let me take the lead on the new project.", "Alright, I’ll take the lead on this one."],
+    "keys": { "проєкт": "project*|this one|it" }
+   }
+  ]
+ },
+ {
+  "id": 2364, "w": "plant a tree", "uk": "посадити дерево", "lvl": "A2",
+  "forms": "plant|plants|planted|planted|planting",
+  "tail": "tree*",
+  "near": "grow|grew|grown|growing|put in|dig*",
+  "tasks": [
+   {
+    "sit": "Весна. Ти з дідусем працюєш у саду на дачі.",
+    "say": "Давай посадимо тут яблуню.",
+    "ans": ["Let’s plant an apple tree here.", "Why don’t we plant an apple tree here?", "How about we plant an apple tree right here?"],
+    "keys": { "яблуня": "apple*", "тут": "here" }
+   },
+   {
+    "sit": "У вас народився син. Колега питає про вашу сімейну традицію.",
+    "say": "Коли в нас народжується дитина, ми садимо дерево.",
+    "ans": ["When a baby is born, we plant a tree.", "We plant a tree every time a child is born.", "In our family, we plant a tree for every new baby."],
+    "keys": { "дитина": "baby|babies|child*|kid*" }
+   },
+   {
+    "sit": "Ти волонтериш в екоакціях і розповідаєш колезі, як минули вихідні.",
+    "say": "У суботу ми посадили в парку сто дерев.",
+    "ans": ["On Saturday we planted a hundred trees in the park.", "We planted 100 trees in the park last Saturday.", "We planted about a hundred trees in the park on Saturday."],
+    "keys": { "сто": "hundred|100", "парк": "park*", "субота": "saturday|weekend" }
+   }
+  ]
+ },
+ {
+  "id": 2367, "w": "throw a party", "uk": "влаштувати вечірку", "lvl": "A2",
+  "forms": "throw|throws|threw|thrown|throwing",
+  "tail": "party/parties",
+  "near": "organi*|host*|arrange*|have a party|had a party|having a party|plan a party|planned a party",
+  "tasks": [
+   {
+    "sit": "Тобі скоро тридцять. Колега питає, які в тебе плани.",
+    "say": "Я влаштую велику вечірку вдома.",
+    "ans": ["I’m going to throw a big party at home.", "I’ll throw a big party at my place.", "I’m throwing a big party at my place."],
+    "keys": { "велика": "big|huge|large", "вдома": "home|place|house|apartment|flat" }
+   },
+   {
+    "sit": "Подруга повертається з-за кордону через рік. Ти пишеш у чат спільних друзів.",
+    "say": "Давайте влаштуємо їй вечірку-сюрприз!",
+    "ans": ["Let’s throw her a surprise party!", "Why don’t we throw a surprise party for her?", "We should totally throw her a surprise party!"],
+    "keys": { "сюрприз": "surprise*" }
+   },
+   {
+    "sit": "Ваша команда закрила великий проєкт. Керівник у чудовому настрої, і ти ділишся новиною з колегами.",
+    "say": "Компанія влаштує вечірку для всієї команди.",
+    "ans": ["The company will throw a party for the whole team.", "The company is throwing a party for the team.", "They’re throwing a party for the whole team to celebrate!"],
+    "keys": { "команда": "team|us|everyone|staff" }
+   }
+  ]
+ },
+ {
+  "id": 2368, "w": "host a dinner", "uk": "приймати гостей на вечерю", "lvl": "B1",
+  "forms": "host|hosts|hosted|hosted|hosting",
+  "tail": "dinner*",
+  "near": "throw*|threw|have people over|had people over|invite*|organi*|arrange*",
+  "tasks": [
+   {
+    "sit": "Цього року всі родичі збираються на Різдво саме у вас. Ти розповідаєш про це подрузі.",
+    "say": "Цього року різдвяну вечерю приймаємо ми.",
+    "ans": ["This year we’re hosting Christmas dinner.", "We’re hosting the Christmas dinner this year.", "Guess what — we’re hosting Christmas dinner this year!"],
+    "keys": { "Різдво": "christmas|xmas", "цього року": "this year" }
+   },
+   {
+    "sit": "До вашої фірми приїжджають партнери з Японії. Колега питає, хто займатиметься ними ввечері.",
+    "say": "Директор приймає гостей на вечерю в ресторані.",
+    "ans": ["The director is hosting a dinner for the guests at a restaurant.", "Our director will host a dinner for them at a restaurant.", "The boss is hosting a dinner for our guests at a restaurant tonight."],
+    "keys": { "гості": "guest*|them|partner*|visitor*", "ресторан": "restaurant*" }
+   },
+   {
+    "sit": "Ти вперше запросив нових сусідів на вечерю й трохи хвилюєшся. Розповідаєш мамі.",
+    "say": "Я ще ніколи не приймав гостей на вечерю.",
+    "ans": ["I’ve never hosted a dinner before.", "I’ve never hosted a dinner party.", "Honestly, I’ve never hosted a dinner before."],
+    "keys": { "ніколи": "never|not ever" }
+   }
+  ]
+ },
+ {
+  "id": 2369, "w": "invite guests", "uk": "запрошувати гостей", "lvl": "A2",
+  "forms": "invite|invites|invited|invited|inviting",
+  "tail": "guest*",
+  "near": "ask over|asked over|have people over|call*|bring|brought",
+  "tasks": [
+   {
+    "sit": "Ви з нареченою плануєте весілля. Мама питає, скільки буде людей.",
+    "say": "Ми хочемо запросити лише п’ятдесят гостей.",
+    "ans": ["We want to invite only fifty guests.", "We’re only inviting fifty guests.", "We’re planning to invite just fifty guests."],
+    "keys": { "п’ятдесят": "fift*|50", "лише": "only|just" }
+   },
+   {
+    "sit": "Твоїй доньці виповнюється сім. Вона питає, скільки друзів можна покликати на свято.",
+    "say": "Можеш запросити десять гостей.",
+    "ans": ["You can invite ten guests.", "You’re allowed to invite ten guests.", "You can invite up to ten guests, OK?"],
+    "keys": { "десять": "ten|10" }
+   },
+   {
+    "sit": "Ти щойно заселився в студентський гуртожиток і питаєш коменданта про правила.",
+    "say": "Чи можна запрошувати гостей після десятої вечора?",
+    "ans": ["Can I invite guests after ten p.m.?", "Am I allowed to invite guests after 10 p.m.?", "Is it OK to invite guests over after ten?"],
+    "keys": { "після десятої": "ten|10|22|late*" }
+   }
+  ]
+ },
+ {
+  "id": 2370, "w": "toast", "uk": "виголошувати тост, пити за", "lvl": "B2",
+  "forms": "toast|toasts|toasted|toasted|toasting",
+  "near": "cheers|raise a glass|raised a glass|raise our glasses|drink to|drank to|here is to",
+  "tasks": [
+   {
+    "sit": "Опівночі всі за святковим столом піднімають келихи, і ти береш слово.",
+    "say": "Давайте вип’ємо за Новий рік!",
+    "ans": ["Let’s toast the New Year!", "Let’s toast to the new year!", "Everyone, let’s toast to a happy New Year!"],
+    "keys": { "Новий рік": "new year*" }
+   },
+   {
+    "sit": "На весіллі друга тебе просять сказати кілька слів.",
+    "say": "Я хочу підняти тост за наречених.",
+    "ans": ["I’d like to toast the bride and groom.", "I want to toast the happy couple.", "Let’s all toast to the bride and groom!"],
+    "keys": { "наречені": "bride*|groom*|couple|newlywed*" }
+   },
+   {
+    "sit": "Команда святкує в офісі успішний запуск продукту. Ти наливаєш усім шампанське.",
+    "say": "Давайте піднімемо тост за нашу команду!",
+    "ans": ["Let’s toast our team!", "Let’s toast to the team!", "I’d like to toast our amazing team!"],
+    "keys": { "команда": "team*" }
+   }
+  ]
+ },
+ {
+  "id": 2371, "w": "clink glasses", "uk": "цокатися бокалами", "lvl": "B2",
+  "forms": "clink|clinks|clinked|clinked|clinking",
+  "tail": "glass*",
+  "near": "cheers|toast*|raise our glasses|raised our glasses|touch glasses",
+  "tasks": [
+   {
+    "sit": "Новорічна ніч, ти з друзями стоїш біля столу з келихами в руках.",
+    "say": "Цокнімося бокалами рівно опівночі!",
+    "ans": ["Let’s clink glasses at midnight!", "At midnight we’ll clink glasses!", "We’ll all clink glasses right at midnight."],
+    "keys": { "опівночі": "midnight|twelve|12" }
+   },
+   {
+    "sit": "Іноземний колега на корпоративі дивується, чому всі за столом стукають келихами.",
+    "say": "В Україні ми цокаємося перед тим, як випити.",
+    "ans": ["In Ukraine we clink glasses before we drink.", "We clink glasses before drinking in Ukraine.", "Here in Ukraine, we always clink glasses before we drink."],
+    "keys": { "Україна": "ukrain*|here", "випити": "drink*|drank" }
+   },
+   {
+    "sit": "Ти на побаченні в ресторані, офіціант щойно налив вам вина.",
+    "say": "Цокнімося — за нас!",
+    "ans": ["Let’s clink glasses — to us!", "Shall we clink glasses? To us!", "Come on, let’s clink glasses. Here’s to us!"],
+    "keys": { "за нас": "to us|us" }
+   }
+  ]
+ },
+ {
+  "id": 2372, "w": "count down", "uk": "вести зворотний відлік", "lvl": "B1",
+  "forms": "count|counts|counted|counted|counting",
+  "tail": "down",
+  "near": "countdown|count backwards|counted backwards|counting backwards",
+  "tasks": [
+   {
+    "sit": "Ти з друзями на центральній площі, до Нового року лишається хвилина.",
+    "say": "Давайте разом відраховувати секунди до півночі!",
+    "ans": ["Let’s count down to midnight together!", "Let’s all count down the seconds to midnight!", "Come on, everybody count down to midnight!"],
+    "keys": { "північ": "midnight|new year", "разом": "together|all|everybody|everyone" }
+   },
+   {
+    "sit": "Ти з сином запускаєш у дворі саморобну ракету.",
+    "say": "Я рахую від десяти до нуля, а ти натискаєш кнопку.",
+    "ans": ["I’ll count down from ten, and you press the button.", "I’m counting down from ten, then you push the button.", "I’ll count down from ten — then hit the button!"],
+    "keys": { "десять": "ten|10", "кнопка": "button" }
+   },
+   {
+    "sit": "До відпустки на морі ще два тижні. Колега помічає календарик із закресленими днями на твоєму столі.",
+    "say": "Я рахую дні до відпустки.",
+    "ans": ["I’m counting down the days to my vacation.", "I’m counting down the days until my holiday.", "I’m literally counting down the days till vacation!"],
+    "keys": { "дні": "day*", "відпустка": "vacation|holiday*|trip|leave" }
+   }
+  ]
+ },
+ {
+  "id": 2373, "w": "blow out candles", "uk": "задувати свічки", "lvl": "A2",
+  "forms": "blow|blows|blew|blown|blowing",
+  "tail": "out candle*",
+  "near": "put out|extinguish*|snuff*",
+  "tasks": [
+   {
+    "sit": "Твоєму синові п’ять, торт зі свічками вже на столі.",
+    "say": "Загадай бажання й задуй свічки!",
+    "ans": ["Make a wish and blow out the candles!", "Blow out the candles and make a wish!", "Go on, make a wish and blow out your candles!"],
+    "keys": { "бажання": "wish*" }
+   },
+   {
+    "sit": "Під час відключення ви сиділи вдома при свічках. Нарешті дали електрику.",
+    "say": "Світло дали — можна задувати свічки.",
+    "ans": ["The power’s back — we can blow out the candles.", "The lights are back on, so let’s blow out the candles.", "Power’s back! Let’s blow out the candles."],
+    "keys": { "світло": "power|light*|electric*" }
+   },
+   {
+    "sit": "Ти йдеш спати, а у ванній ще горять ароматичні свічки. Нагадуєш партнерові.",
+    "say": "Не забудь задути свічки у ванній.",
+    "ans": ["Don’t forget to blow out the candles in the bathroom.", "Remember to blow out the bathroom candles.", "Make sure you blow out the candles in the bathroom before bed."],
+    "keys": { "ванна": "bath*" }
+   }
+  ]
+ },
+ {
+  "id": 2374, "w": "make a wish", "uk": "загадувати бажання", "lvl": "A2",
+  "forms": "make|makes|made|made|making",
+  "tail": "wish*",
+  "near": "hope*|dream*|pray*",
+  "tasks": [
+   {
+    "sit": "Ти з подругою в Римі біля фонтану Треві, у вас у руках монетки.",
+    "say": "Кинь монетку й загадай бажання!",
+    "ans": ["Throw a coin and make a wish!", "Toss a coin in and make a wish!", "Go on, throw in a coin and make a wish!"],
+    "keys": { "монетка": "coin*" }
+   },
+   {
+    "sit": "Ви з другом уночі лежите на траві й дивитеся в небо.",
+    "say": "Дивись, падає зірка! Швидше загадуй бажання!",
+    "ans": ["Look, a shooting star! Quick, make a wish!", "A falling star! Make a wish, quick!", "Look — a shooting star! Make a wish, fast!"],
+    "keys": { "зірка": "star*", "швидше": "quick*|fast|hurry" }
+   },
+   {
+    "sit": "Ти пояснюєш іноземцю українську новорічну традицію.",
+    "say": "Коли б’ють куранти, ми загадуємо бажання.",
+    "ans": ["When the clock strikes twelve, we make a wish.", "We make a wish as the clock strikes midnight.", "Right at midnight, everyone makes a wish."],
+    "keys": { "куранти": "midnight|twelve|12|clock*" }
+   }
+  ]
+ },
+ {
+  "id": 2375, "w": "cut the cake", "uk": "розрізати торт", "lvl": "A2",
+  "forms": "cut|cuts|cut|cut|cutting",
+  "tail": "cake*",
+  "near": "slice*|divide*|serve*",
+  "tasks": [
+   {
+    "sit": "Ти ведучий на весіллі й кличеш молодят до столу з тортом.",
+    "say": "А зараз наречені розріжуть весільний торт!",
+    "ans": ["And now the bride and groom will cut the wedding cake!", "Now the newlyweds are going to cut the cake!", "And now it’s time for the couple to cut the cake!"],
+    "keys": { "наречені": "bride*|groom*|couple|newlywed*" }
+   },
+   {
+    "sit": "В офісі святкують день народження колеги. Торт на столі, але ніхто не береться за ніж.",
+    "say": "Давай я розріжу торт, а ти принеси тарілки.",
+    "ans": ["Let me cut the cake, and you bring the plates.", "I’ll cut the cake — you get the plates.", "I’ll cut the cake if you grab some plates."],
+    "keys": { "тарілки": "plate*" }
+   },
+   {
+    "sit": "Твоя донька хоче сама розрізати свій святковий торт.",
+    "say": "Обережно, ніж гострий — давай я допоможу тобі розрізати торт.",
+    "ans": ["Careful, the knife is sharp — let me help you cut the cake.", "The knife’s sharp, so I’ll help you cut the cake.", "Careful! Let me help you cut the cake, the knife is sharp."],
+    "keys": { "ніж": "knife", "гострий": "sharp", "допоможу": "help*" }
+   }
+  ]
+ },
+ {
+  "id": 2376, "w": "sing happy birthday", "uk": "співати «З днем народження»", "lvl": "A1",
+  "forms": "sing|sings|sang|sung|singing",
+  "tail": "happy birthday",
+  "near": "wish happy birthday|say happy birthday|said happy birthday|congratulat*",
+  "tasks": [
+   {
+    "sit": "Мама вносить у кімнату торт зі свічками.",
+    "say": "Давайте всі заспіваємо «З днем народження»!",
+    "ans": ["Let’s all sing Happy Birthday!", "Everyone, sing Happy Birthday!", "Come on, everybody, let’s sing Happy Birthday!"],
+    "keys": { "всі": "all|everyone|everybody" }
+   },
+   {
+    "sit": "У бабусі день народження, але ти далеко. Ти дзвониш їй.",
+    "say": "Бабусю, я заспіваю тобі «З днем народження»!",
+    "ans": ["Grandma, I’ll sing Happy Birthday to you!", "Grandma, I want to sing you Happy Birthday!", "Grandma, let me sing Happy Birthday for you!"],
+    "keys": { "бабуся": "grandma|granny|grandmother|nan*" }
+   },
+   {
+    "sit": "Ти в кафе з другом. Офіціанти несуть торт до сусіднього столика.",
+    "say": "Дивись, офіціанти співають «З днем народження».",
+    "ans": ["Look, the waiters are singing Happy Birthday.", "The waiters are singing Happy Birthday to that man.", "Look, the staff are singing Happy Birthday!"],
+    "keys": { "офіціанти": "waiter*|waitress*|staff" }
+   }
+  ]
+ },
+ {
+  "id": 2377, "w": "party all night", "uk": "тусити всю ніч", "lvl": "B1",
+  "forms": "party|parties|partied|partied|partying",
+  "tail": "all night",
+  "near": "celebrat*|danc*|stay up|stayed up|club*|go out|went out",
+  "tasks": [
+   {
+    "sit": "У понеділок зранку колега бачить, що ти ледве тримаєшся на ногах.",
+    "say": "Ми з друзями тусили всю ніч.",
+    "ans": ["My friends and I partied all night.", "I was partying all night with my friends.", "We partied all night with some friends, I’m so tired."],
+    "keys": { "друзі": "friend*" }
+   },
+   {
+    "sit": "Ти збираєшся з друзями на море, а мама переживає.",
+    "say": "Мамо, я не збираюся тусити всю ніч, обіцяю.",
+    "ans": ["Mom, I’m not going to party all night, I promise.", "I promise I won’t party all night, Mom.", "Don’t worry, Mom, I won’t party all night."],
+    "keys": { "мама": "mom|mum|mother", "не": "not|never" }
+   },
+   {
+    "sit": "Сестра питає, як минуло весілля твого друга в селі.",
+    "say": "Було чудово — ми гуляли всю ніч до самого ранку.",
+    "ans": ["It was great — we partied all night until morning.", "It was amazing, we partied all night long.", "Great! We partied all night till sunrise."],
+    "keys": { "чудово": "great|amazing|awesome|fantastic|wonderful|fun" }
+   }
+  ]
+ },
+ {
+  "id": 2378, "w": "pop champagne", "uk": "відкривати шампанське", "lvl": "B2",
+  "forms": "pop|pops|popped|popped|popping",
+  "tail": "champagne/bubbly",
+  "near": "open*|uncork*|crack open|cracked open",
+  "tasks": [
+   {
+    "sit": "Ти щойно дізнався, що тебе підвищили на роботі. Дзвониш дружині.",
+    "say": "Відкривай шампанське — мене підвищили!",
+    "ans": ["Pop the champagne — I got promoted!", "Let’s pop some champagne, I got the promotion!", "Time to pop the champagne! I got promoted!"],
+    "keys": { "підвищили": "promot*" }
+   },
+   {
+    "sit": "До півночі лишаються секунди, пляшка вже в тебе в руках.",
+    "say": "Відкриваю шампанське рівно опівночі!",
+    "ans": ["I’ll pop the champagne right at midnight!", "I’m popping the champagne at exactly midnight!", "The second it hits midnight, I’m popping the champagne!"],
+    "keys": { "опівночі": "midnight|twelve|12" }
+   },
+   {
+    "sit": "Ви з партнером рік шукали покупця на стару квартиру і нарешті підписали договір.",
+    "say": "Ми продали квартиру! Треба відкрити шампанське.",
+    "ans": ["We sold the apartment! We should pop some champagne.", "The flat is sold — let’s pop the champagne!", "We finally sold the place! Let’s pop some champagne!"],
+    "keys": { "продали": "sold|sell*|sale", "квартира": "apartment|flat|place|home" }
+   }
+  ]
+ },
+ {
+  "id": 2380, "w": "put up", "uk": "ставити (ялинку)", "lvl": "B1",
+  "forms": "put|puts|put|put|putting",
+  "tail": "up",
+  "near": "set up|install*|decorat*|erect*|assembl*",
+  "tasks": [
+   {
+    "sit": "Початок грудня. Діти питають, коли вже вдома буде ялинка.",
+    "say": "Поставимо ялинку в ці вихідні.",
+    "ans": ["We’ll put up the tree this weekend.", "Let’s put the tree up this weekend.", "We’re putting up the Christmas tree this weekend."],
+    "keys": { "ялинка": "tree*|christmas", "вихідні": "weekend*|saturday|sunday" }
+   },
+   {
+    "sit": "У холі офісу зовсім немає святкового настрою. Ти пропонуєш ідею на нараді.",
+    "say": "Давайте поставимо ялинку в холі.",
+    "ans": ["Let’s put up a tree in the lobby.", "Why don’t we put a Christmas tree up in the lobby?", "We should put up a tree in the hall."],
+    "keys": { "ялинка": "tree*", "хол": "lobby|hall*|entrance|reception" }
+   },
+   {
+    "sit": "Подруга питає, чи ви щороку купуєте живу ялинку.",
+    "say": "Ні, ми щороку ставимо штучну.",
+    "ans": ["No, we put up an artificial one every year.", "No, every year we put up a fake tree.", "Nope, we just put up a fake one every year."],
+    "keys": { "штучну": "artificial|fake|plastic", "щороку": "every year|each year|year*" }
+   }
+  ]
+ },
+ {
+  "id": 2381, "w": "hang lights", "uk": "розвішувати гірлянди", "lvl": "B1",
+  "forms": "hang|hangs|hung|hung|hanging",
+  "tail": "light*",
+  "near": "put up|string*|strung|decorat*",
+  "tasks": [
+   {
+    "sit": "Ти з сином прикрашаєш будинок до свят.",
+    "say": "Давай розвісимо гірлянди на ґанку.",
+    "ans": ["Let’s hang lights on the porch.", "Let’s hang some lights on the porch.", "How about we hang lights along the porch?"],
+    "keys": { "ґанок": "porch|front door|steps|entrance" }
+   },
+   {
+    "sit": "Сусідка хвалить, як гарно світиться ваш балкон увечері.",
+    "say": "Ми повісили гірлянди на балконі минулих вихідних.",
+    "ans": ["We hung lights on the balcony last weekend.", "We hung some lights on our balcony last weekend.", "Thanks! We hung the lights up on the balcony last weekend."],
+    "keys": { "балкон": "balcon*", "вихідні": "weekend*" }
+   },
+   {
+    "sit": "Ти працюєш у кафе, і власник просить підготувати зал до Різдва.",
+    "say": "Я розвішу гірлянди над вікнами.",
+    "ans": ["I’ll hang lights over the windows.", "I’ll hang the lights above the windows.", "I can hang some lights around the windows."],
+    "keys": { "вікна": "window*" }
+   }
+  ]
+ },
+ {
+  "id": 2382, "w": "string lights", "uk": "натягувати гірлянди", "lvl": "B2",
+  "forms": "string|strings|strung|strung|stringing",
+  "tail": "light*",
+  "near": "hang*|hung|put up|decorat*",
+  "tasks": [
+   {
+    "sit": "Твоя кімната в гуртожитку виглядає нудно. Сусід по кімнаті питає, що можна придумати.",
+    "say": "Давай натягнемо гірлянди під стелею.",
+    "ans": ["Let’s string lights along the ceiling.", "Why don’t we string some lights across the ceiling?", "We could string fairy lights along the ceiling."],
+    "keys": { "стеля": "ceiling" }
+   },
+   {
+    "sit": "Ти організовуєш весілля в саду й пояснюєш декораторам план.",
+    "say": "Натягніть, будь ласка, гірлянди між деревами.",
+    "ans": ["Please string lights between the trees.", "Please string the lights between the trees.", "Could you string some lights between the trees?"],
+    "keys": { "дерева": "tree*" }
+   },
+   {
+    "sit": "Ти показуєш другові фото тераси після ремонту.",
+    "say": "Я сам натягнув гірлянди над терасою.",
+    "ans": ["I strung the lights over the terrace myself.", "I strung lights above the terrace by myself.", "I strung those lights over the patio all by myself!"],
+    "keys": { "тераса": "terrace|patio|deck", "сам": "myself" }
+   }
+  ]
+ },
+ {
+  "id": 2383, "w": "carve", "uk": "вирізати (гарбуз)", "lvl": "B2",
+  "forms": "carve|carves|carved|carved|carving",
+  "near": "cut*|scoop*|make a jack|made a jack",
+  "tasks": [
+   {
+    "sit": "Кінець жовтня, діти принесли з ринку великий гарбуз.",
+    "say": "Давайте виріжемо на гарбузі страшне обличчя.",
+    "ans": ["Let’s carve a scary face in the pumpkin.", "Let’s carve a scary face into the pumpkin.", "Why don’t we carve a spooky face on the pumpkin?"],
+    "keys": { "гарбуз": "pumpkin*", "страшне обличчя": "scary|spooky|creepy|face*" }
+   },
+   {
+    "sit": "В офісі проводять конкурс гарбузів на Хелловін. Колега питає, чи ти береш участь.",
+    "say": "Так, я вже вирізав гарбуз у вигляді кота.",
+    "ans": ["Yes, I’ve already carved a pumpkin shaped like a cat.", "Yeah, I carved a cat into my pumpkin.", "Sure, I already carved my pumpkin — it’s a cat!"],
+    "keys": { "гарбуз": "pumpkin*", "кіт": "cat*" }
+   },
+   {
+    "sit": "Подруга вперше вирізає гарбуз і питає в тебе поради.",
+    "say": "Спочатку вийми насіння, а потім вирізай.",
+    "ans": ["First scoop out the seeds, then carve it.", "Take out the seeds first, and then carve.", "Clean out the seeds before you start carving."],
+    "keys": { "насіння": "seed*|inside*|guts", "спочатку": "first|before" }
+   }
+  ]
+ },
+ {
+  "id": 2384, "w": "dye eggs", "uk": "фарбувати яйця", "lvl": "B1",
+  "forms": "dye|dyes|dyed|dyed|dyeing",
+  "tail": "egg*",
+  "near": "paint*|colo*|decorat*",
+  "tasks": [
+   {
+    "sit": "Субота перед Великоднем. Дзвонить бабуся й питає, що ви робите.",
+    "say": "Ми з дітьми фарбуємо яйця!",
+    "ans": ["The kids and I are dyeing eggs!", "We’re dyeing eggs with the kids!", "I’m dyeing eggs with the kids right now!"],
+    "keys": { "діти": "kid*|child*" }
+   },
+   {
+    "sit": "Іноземна колега питає, чому ваші великодні яйця такі коричневі.",
+    "say": "Ми фарбуємо яйця цибулиним лушпинням.",
+    "ans": ["We dye eggs with onion skins.", "We dye the eggs using onion peel.", "We dye our eggs with onion skins — it’s natural."],
+    "keys": { "цибуля": "onion*" }
+   },
+   {
+    "sit": "Ти з дитиною в супермаркеті перед Великоднем. Дитина питає, навіщо вам стільки яєць.",
+    "say": "Увечері ми будемо фарбувати яйця.",
+    "ans": ["We’re going to dye eggs tonight.", "Tonight we’ll dye Easter eggs.", "We’re dyeing Easter eggs this evening!"],
+    "keys": { "увечері": "tonight|evening|later" }
+   }
+  ]
+ },
+ {
+  "id": 2385, "w": "take down", "uk": "знімати (прикраси)", "lvl": "B1",
+  "forms": "take|takes|took|taken|taking",
+  "tail": "down",
+  "near": "remove*|put away|packed away|pack away|take off|took off|clear*",
+  "tasks": [
+   {
+    "sit": "Уже середина січня, а в квартирі досі стоїть ялинка й висять гірлянди. Партнер натякає.",
+    "say": "Добре, у неділю я зніму всі прикраси.",
+    "ans": ["OK, I’ll take down all the decorations on Sunday.", "Fine, I’ll take all the decorations down on Sunday.", "Alright, I’m taking the decorations down on Sunday."],
+    "keys": { "прикраси": "decoration*|tree|lights", "неділя": "sunday" }
+   },
+   {
+    "sit": "Корпоратив закінчився. Прибиральниця питає, що робити з кульками й плакатами.",
+    "say": "Зніміть, будь ласка, прикраси завтра зранку.",
+    "ans": ["Please take down the decorations tomorrow morning.", "Could you take the decorations down tomorrow morning?", "Can you take down the decorations first thing tomorrow?"],
+    "keys": { "прикраси": "decoration*|balloon*|poster*", "завтра": "tomorrow" }
+   },
+   {
+    "sit": "Ти вчитель. Після шкільного свята учні питають, чим допомогти.",
+    "say": "Допоможіть мені зняти прикраси зі стін.",
+    "ans": ["Please help me take down the decorations from the walls.", "Help me take the decorations down off the walls.", "Can you help me take down the stuff on the walls?"],
+    "keys": { "стіни": "wall*", "допоможіть": "help*" }
+   }
+  ]
+ },
+ {
+  "id": 2386, "w": "wrap in tinsel", "uk": "обмотувати мішурою", "lvl": "C1",
+  "forms": "wrap|wraps|wrapped|wrapped|wrapping",
+  "tail": "in tinsel",
+  "near": "decorat*|cover*|drape*|string*|strung",
+  "tasks": [
+   {
+    "sit": "Ви з дітьми прикрашаєте ялинку, але гірлянди закінчилися.",
+    "say": "Тоді обмотаймо ялинку мішурою.",
+    "ans": ["Let’s wrap the tree in tinsel.", "Let’s just wrap the tree in tinsel instead.", "Why don’t we wrap the tree in tinsel?"],
+    "keys": { "ялинка": "tree*" }
+   },
+   {
+    "sit": "Ти прикрашаєш сходи в будинку й пояснюєш гостю свій задум.",
+    "say": "Я обмотав поруччя мішурою.",
+    "ans": ["I wrapped the railing in tinsel.", "I’ve wrapped the banister in tinsel.", "I wrapped the whole railing in tinsel."],
+    "keys": { "поруччя": "rail*|banister*|handrail*" }
+   },
+   {
+    "sit": "Ти показуєш подрузі смішне фото з новорічного вечора.",
+    "say": "Мій брат обмотав собаку мішурою!",
+    "ans": ["My brother wrapped the dog in tinsel!", "My brother wrapped our dog in tinsel!", "Look, my brother wrapped the dog in tinsel!"],
+    "keys": { "брат": "brother", "собака": "dog*|puppy" }
+   }
+  ]
+ },
+ {
+  "id": 2387, "w": "set up", "uk": "встановити (вертеп, намет, обладнання)", "lvl": "B2",
+  "forms": "set|sets|set|set|setting",
+  "tail": "up",
+  "near": "put up|install*|arrang*|assembl*|build|built|building",
+  "tasks": [
+   {
+    "sit": "Ти волонтериш у парафії перед Різдвом. Священник питає про план.",
+    "say": "Ми встановимо вертеп біля входу.",
+    "ans": ["We’ll set up the nativity scene near the entrance.", "We’re setting up the nativity scene by the entrance.", "We’ll set the nativity up next to the entrance."],
+    "keys": { "вертеп": "nativity|crib|manger", "вхід": "entrance|door*|gate" }
+   },
+   {
+    "sit": "Ти з друзями вперше торгуєш на різдвяному ярмарку, який відкривається о десятій.",
+    "say": "Нам треба поставити намет до дев’ятої ранку.",
+    "ans": ["We need to set up the tent by nine a.m.", "We have to set up our tent before nine.", "We’ve got to set the tent up by 9."],
+    "keys": { "намет": "tent|stall|booth", "дев’ята": "nin*|9*" }
+   },
+   {
+    "sit": "Ти організовуєш онлайн-трансляцію шкільного концерту.",
+    "say": "Я прийду раніше, щоб встановити камеру.",
+    "ans": ["I’ll come early to set up the camera.", "I’m coming early to set up the camera.", "I’ll get there early and set up the camera."],
+    "keys": { "камера": "camera*", "раніше": "early|earlier" }
+   }
+  ]
+ }
+]

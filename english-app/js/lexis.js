@@ -20,7 +20,7 @@
     subs: { get: () => subs() || {}, enumerable: true }
   });
   const POS = {
-    verbs: lazy({ id: 'verbs', emoji: '💪', en: 'Verbs', uk: 'Дієслова', isVerbs: true, multiCat: true, tabs: ['browser', 'cards', 'enuk', 'uken', 'forms', 'ctx', 'mix'] },
+    verbs: lazy({ id: 'verbs', emoji: '💪', en: 'Verbs', uk: 'Дієслова', isVerbs: true, multiCat: true, tabs: ['browser', 'cards', 'enuk', 'uken', 'forms', 'ctx', 'wod', 'mix'] },
       () => typeof LEX_VERBS !== 'undefined' ? LEX_VERBS : null,
       () => typeof LEX_VERB_CATS !== 'undefined' ? LEX_VERB_CATS : null,
       () => typeof LEX_VERB_SUBS !== 'undefined' ? LEX_VERB_SUBS : null),
@@ -28,7 +28,7 @@
       () => typeof LEX_NOUNS !== 'undefined' ? LEX_NOUNS : null,
       () => typeof LEX_NOUN_CATS !== 'undefined' ? LEX_NOUN_CATS : null,
       () => typeof LEX_NOUN_SUBS !== 'undefined' ? LEX_NOUN_SUBS : null),
-    adjs: lazy({ id: 'adjs', emoji: '🎨', en: 'Adjectives', uk: 'Прикметники', isAdjs: true, multiCat: true, tabs: ['browser', 'cards', 'enuk', 'uken', 'forms', 'ctx', 'mix'] },
+    adjs: lazy({ id: 'adjs', emoji: '🎨', en: 'Adjectives', uk: 'Прикметники', isAdjs: true, multiCat: true, tabs: ['browser', 'cards', 'enuk', 'uken', 'forms', 'ctx', 'stories', 'mix'] },
       () => typeof LEX_ADJS !== 'undefined' ? LEX_ADJS : null,
       () => typeof LEX_ADJ_CATS !== 'undefined' ? LEX_ADJ_CATS : null,
       () => typeof LEX_ADJ_SUBS !== 'undefined' ? LEX_ADJ_SUBS : null),
@@ -43,7 +43,7 @@
   const LEX_SRC = {
     verbs: ['js/lexis/verbs-data.js', 'js/lexis/verbs-phrasal-data.js', 'js/lexis/verbs-merge.js'],
     nouns: ['js/lexis/nouns-data.js'],
-    adjs: ['js/lexis/adjs-data.js', 'js/lexis/adjs-prep-data.js'],
+    adjs: ['js/lexis/adjs-data.js', 'js/lexis/adjs-prep-data.js', 'js/lexis/adj-stories.js'],
     advs: ['js/lexis/advs-data.js']
   };
   const META = () => window.LEX_META || {};
@@ -121,7 +121,9 @@
     forms: { icon: '🔧', label: 'Форми' },
     ctx: { icon: '🧩', label: 'Контекст' },
     cu: { icon: '⚖️', label: 'C / U' },
-    mix: { icon: '🎲', label: 'Мікс' }
+    mix: { icon: '🎲', label: 'Мікс' },
+    stories: { icon: '📖', label: 'Історії' },
+    wod: { icon: '🎯', label: 'Word on Demand' }
   };
 
   const lexUI = {};
@@ -178,7 +180,207 @@
     const panel = $('#lex-panel');
     if (tab === 'browser') renderBrowser(panel, posId);
     else if (tab === 'cards') renderCards(panel, posId);
+    else if (tab === 'stories') renderStories(panel);
+    else if (tab === 'wod') window.FLWod.render(panel);
     else renderTyping(panel, posId, tab);
+  }
+
+  /* ---------- ІСТОРІЇ З ПРОПУСКАМИ (прикметники) ---------- */
+  const STORY_LEVELS = ['A2', 'B1', 'B2', 'C1'];
+  const storyUI = { cur: null, st: {} };
+  const storyList = () => typeof LEX_ADJ_STORIES !== 'undefined' ? LEX_ADJ_STORIES : (window.LEX_ADJ_STORIES || []);
+  const parsedStories = {};
+  function parseStory(s) {
+    if (parsedStories[s.id]) return parsedStories[s.id];
+    const parts = [], gaps = [], re = /\[([^\]|]+)\|([^\]|]*)\|([^\]]+)\]/g;
+    let last = 0, m;
+    while ((m = re.exec(s.text))) {
+      parts.push(s.text.slice(last, m.index));
+      gaps.push({ en: m[1].trim(), syn: m[2].split(',').map(x => x.trim()).filter(Boolean), uk: m[3].trim() });
+      last = re.lastIndex;
+    }
+    parts.push(s.text.slice(last));
+    return (parsedStories[s.id] = { parts, gaps });
+  }
+  const gapClean = s => String(s).toLowerCase().replace(/[‘’ʼ`]/g, "'").replace(/-/g, ' ').replace(/\s+/g, ' ').trim();
+  const { oneTypo } = C;
+  function judgeGap(g, val) {
+    const v = gapClean(val);
+    if (!v) return { r: 'empty' };
+    if (v === gapClean(g.en)) return { r: 'ok' };
+    if (g.syn.some(s => gapClean(s) === v)) return { r: 'syn' };
+    const near = v.length >= 4 && [g.en].concat(g.syn).find(s => oneTypo(v, gapClean(s)));
+    return near ? { r: 'almost', fix: near } : { r: 'bad' };
+  }
+  function adjInfo(en) {
+    const w = POS.adjs.words.find(x => x.en.toLowerCase() === en.toLowerCase());
+    return w ? { ipa: w.ipa, lvl: w.lvl } : {};
+  }
+  function storyBest(id) { return (store.stories || {})[id]; }
+
+  function renderStories(panel) {
+    const list = storyList();
+    const cur = list.find(s => s.id === storyUI.cur);
+    if (cur) return drawStory(panel, cur);
+
+    panel.innerHTML =
+      '<div class="quiz-hint" style="text-align:left;margin-bottom:16px">📖 Прочитай історію й заповни пропуски прикметниками за українською підказкою. ' +
+      'Синоніми теж зараховуються — після перевірки побачиш усі варіанти.</div>' +
+      STORY_LEVELS.filter(l => list.some(s => s.lvl === l)).map(l =>
+        '<h2 class="section-title">' + lvlBadge(l) + ' Рівень ' + l + '</h2><div class="grid-cards">' +
+        list.filter(s => s.lvl === l).map(s => {
+          const n = parseStory(s).gaps.length, best = storyBest(s.id);
+          return '<button class="card clickable topic-card st-pick" data-id="' + s.id + '">' +
+            '<div class="t-top"><h3>' + s.emoji + ' ' + esc(s.title) + '</h3></div>' +
+            '<div class="t-meta"><span>' + esc(s.uk) + '</span><span class="tag">' + n + ' пропусків</span>' +
+            (best != null ? '<span class="tag ' + (best === n ? 'green' : 'cyan') + '">⭐ ' + best + ' / ' + n + '</span>' : '<span class="tag pink">нова</span>') +
+            '</div></button>';
+        }).join('') + '</div>'
+      ).join('');
+    $$('.st-pick', panel).forEach(b => b.addEventListener('click', () => { storyUI.cur = b.dataset.id; renderStories(panel); }));
+  }
+
+  function drawStory(panel, s) {
+    const list = storyList();
+    const { parts, gaps } = parseStory(s);
+    const st = storyUI.st[s.id] || (storyUI.st[s.id] = { vals: gaps.map(() => ''), res: gaps.map(() => null), scored: false });
+
+    const gapHtml = (g, i) => {
+      const w = Math.min(Math.max(g.uk.length, g.en.length, 7), 22) + 2;
+      return '<span class="st-gap"><input class="st-in" data-i="' + i + '" style="width:' + w + 'ch" placeholder="' + esc(g.uk) + '" title="' + esc(g.uk) + '" ' +
+        'autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Пропуск ' + (i + 1) + ': ' + esc(g.uk) + '"><span class="st-fix"></span></span>';
+    };
+    const body = parts.map((p, i) => esc(p).replace(/\n\n/g, '</p><p>') + (i < gaps.length ? gapHtml(gaps[i], i) : '')).join('');
+
+    panel.innerHTML =
+      '<button class="back-link st-back" type="button">← Усі історії</button>' +
+      '<div class="st-head"><span class="st-emoji">' + s.emoji + '</span><div><h2>' + esc(s.title) + '</h2>' +
+      '<div class="t-meta">' + lvlBadge(s.lvl) + ' <span>' + esc(s.uk) + '</span> · <span id="st-count"></span></div></div></div>' +
+      '<div class="quiz-hint" style="text-align:left">Впиши прикметник англійською. Під пропуском — підказка українською. <b>Enter</b> — до наступного пропуску.</div>' +
+      '<div class="st-text"><p>' + body + '</p></div>' +
+      '<div class="quiz-fb" id="st-fb" role="status" aria-live="polite"></div>' +
+      '<div class="quiz-actions">' +
+      '<button class="btn btn-good" id="st-check">✓ Перевірити</button>' +
+      '<button class="btn btn-ghost" id="st-hint">💡 Перша літера</button>' +
+      '<button class="btn btn-ghost" id="st-show">👁 Відповіді</button>' +
+      '<button class="btn btn-ghost" id="st-reset">🔁 Заново</button>' +
+      '<button class="btn btn-primary" id="st-next">Наступна →</button>' +
+      '</div><div id="st-review"></div>';
+
+    const inputs = $$('.st-in', panel);
+    const fb = $('#st-fb', panel);
+
+    function paint(i) {
+      const inp = inputs[i], res = st.res[i], fix = inp.nextElementSibling, g = gaps[i];
+      inp.value = st.vals[i];
+      inp.className = 'st-in' + (res ? ' ' + res.r : '');
+      inp.readOnly = !!res && (res.r === 'ok' || res.r === 'syn' || res.r === 'shown');
+      fix.textContent = !res ? '' : res.r === 'syn' ? '✓ ' + g.en : res.r === 'almost' ? '≈ ' + res.fix : res.r === 'bad' ? '→ ' + g.en : '';
+    }
+    function counts() {
+      const c = { ok: 0, syn: 0, almost: 0, bad: 0, shown: 0 };
+      st.res.forEach(r => { if (r && c[r.r] != null) c[r.r]++; });
+      return c;
+    }
+    function updCount() {
+      const filled = st.vals.filter(v => v.trim()).length;
+      $('#st-count', panel).textContent = 'заповнено ' + filled + ' / ' + gaps.length;
+    }
+    function review() {
+      const box = $('#st-review', panel);
+      if (!st.res.some(Boolean)) { box.innerHTML = ''; return; }
+      box.innerHTML = '<h3 class="st-rev-title">📋 Розбір і синоніми <button class="btn btn-ghost st-listen" type="button">🔊 Прослухати історію</button></h3><div class="st-rev">' +
+        gaps.map((g, i) => {
+          const r = st.res[i] ? st.res[i].r : 'empty', info = adjInfo(g.en);
+          const icon = { ok: '✅', syn: '✅', almost: '🟡', bad: '❌', shown: '👁', empty: '⬜' }[r];
+          return '<div class="st-rev-row ' + r + '"><span class="st-rev-n">' + icon + '</span>' +
+            '<button class="st-say" data-say="' + esc(g.en) + '" aria-label="Озвучити">🔊</button>' +
+            '<div><b>' + esc(g.en) + '</b>' + (info.ipa ? ' <span class="st-ipa">' + esc(info.ipa) + '</span>' : '') + (info.lvl ? ' ' + lvlBadge(info.lvl) : '') +
+            ' <span class="st-uk">— ' + esc(g.uk) + '</span>' +
+            (g.syn.length ? '<div class="st-syn">≈ ' + g.syn.map(esc).join(', ') + '</div>' : '') +
+            ((r === 'bad' || r === 'almost') && st.vals[i].trim() ? '<div class="st-yours">твоя відповідь: ' + esc(st.vals[i]) + '</div>' : '') +
+            '</div></div>';
+        }).join('') + '</div>';
+      $('.st-listen', box).addEventListener('click', e => {
+        const full = parts.map((p, i) => p + (i < gaps.length ? (st.res[i] && (st.res[i].r === 'ok' || st.res[i].r === 'syn') ? st.vals[i] : gaps[i].en) : '')).join('');
+        speak(full.replace(/\n+/g, ' '), e.currentTarget);
+      });
+      $$('.st-say', box).forEach(b => b.addEventListener('click', () => speak(b.dataset.say, b)));
+    }
+
+    function check() {
+      if (!st.vals.some(v => v.trim())) { showToast('✍️ Спершу заповни хоча б один пропуск'); inputs[0].focus(); return; }
+      gaps.forEach((g, i) => {
+        const prev = st.res[i];
+        if (prev && (prev.r === 'ok' || prev.r === 'syn' || prev.r === 'shown')) return;
+        const j = judgeGap(g, st.vals[i]);
+        st.res[i] = j.r === 'empty' ? null : j;
+        paint(i);
+      });
+      const c = counts(), good = c.ok + c.syn;
+      if (!st.scored) {
+        st.scored = true;
+        store.stories = store.stories || {};
+        store.stories[s.id] = Math.max(store.stories[s.id] || 0, good);
+        if (good) addXp(good * 5);
+        if (good === gaps.length) { store.perfect++; confetti(); }
+        touchStreak(); save();
+      }
+      const left = gaps.length - good - c.shown;
+      fb.className = 'quiz-fb ' + (left ? (good ? 'skip' : 'no') : 'ok');
+      fb.innerHTML = (left ? '' : '🎉 ') + '<b>' + good + ' / ' + gaps.length + '</b> правильно' +
+        (c.syn ? ' · зокрема ' + c.syn + ' ' + plural(c.syn, 'синонім', 'синоніми', 'синонімів') : '') +
+        (c.almost ? ' · 🟡 ' + c.almost + ' з одруківкою' : '') +
+        (left ? ' · виправ червоні й жовті пропуски та перевір ще раз' : '');
+      review();
+      const firstOpen = inputs.find(x => !x.readOnly && x.className.match(/bad|almost/)) || inputs.find(x => !x.readOnly && !x.value);
+      if (firstOpen) firstOpen.focus();
+    }
+
+    inputs.forEach((inp, i) => {
+      paint(i);
+      inp.addEventListener('input', () => {
+        st.vals[i] = inp.value;
+        if (st.res[i]) { st.res[i] = null; inp.className = 'st-in'; inp.nextElementSibling.textContent = ''; }
+        updCount();
+      });
+      inp.addEventListener('keydown', e => {
+        if (e.key !== 'Enter') return;
+        e.preventDefault();
+        const next = inputs.slice(i + 1).find(x => !x.readOnly);
+        if (next) next.focus(); else check();
+      });
+    });
+    updCount(); review();
+
+    $('.st-back', panel).addEventListener('click', () => { storyUI.cur = null; renderStories(panel); });
+    $('#st-check', panel).addEventListener('click', check);
+    $('#st-hint', panel).addEventListener('click', () => {
+      let n = 0;
+      inputs.forEach((inp, i) => {
+        if (inp.readOnly || gapClean(st.vals[i]).startsWith(gaps[i].en[0].toLowerCase())) return;
+        st.vals[i] = gaps[i].en[0]; st.res[i] = null; paint(i); n++;
+      });
+      updCount();
+      const f = inputs.find(x => !x.readOnly && x.value.length <= 1); if (f) f.focus();
+      if (!n) showToast('💡 Усі перші літери вже на місці');
+    });
+    $('#st-show', panel).addEventListener('click', () => {
+      st.scored = true;
+      gaps.forEach((g, i) => {
+        const r = st.res[i] && st.res[i].r;
+        if (r === 'ok' || r === 'syn') return;
+        st.vals[i] = g.en; st.res[i] = { r: 'shown' }; paint(i);
+      });
+      fb.className = 'quiz-fb skip'; fb.innerHTML = '👁 Відповіді показано. Натисни <b>🔁 Заново</b>, щоб пройти історію ще раз.';
+      updCount(); review();
+    });
+    $('#st-reset', panel).addEventListener('click', () => { delete storyUI.st[s.id]; drawStory(panel, s); });
+    $('#st-next', panel).addEventListener('click', () => {
+      const nx = list[(list.indexOf(s) + 1) % list.length];
+      storyUI.cur = nx.id; drawStory(panel, nx);
+      window.scrollTo(0, 0);
+    });
   }
 
   /* ---------- BRAUSER ---------- */

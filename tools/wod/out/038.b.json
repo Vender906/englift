@@ -1,0 +1,652 @@
+[
+ {
+  "id": 2121, "w": "treat acne", "uk": "лікувати акне", "lvl": "B2",
+  "forms": "treat|treats|treated|treated|treating",
+  "tail": "acne",
+  "near": "get rid of|clear* up|cure*|fight*|deal* with",
+  "tasks": [
+   {
+    "sit": "Ти дерматолог. Пацієнт-підліток питає, чи допоможуть креми з реклами.",
+    "say": "Акне треба лікувати правильно, а не кремами з реклами.",
+    "ans": ["You need to treat acne properly, not with creams from ads.", "We should treat your acne properly, not with random creams from TV ads.", "Let’s treat your acne the right way — forget those creams from the ads."],
+    "keys": { "реклама": "ad|ads|advert*|commercial*|tv", "креми": "cream*" }
+   },
+   {
+    "sit": "Подруга дивується, скільки грошей ти витрачаєш на дерматолога.",
+    "say": "Я лікую акне вже два роки, і нарешті бачу результат.",
+    "ans": ["I’ve been treating my acne for two years, and I’m finally seeing results.", "I’ve been treating acne for two years and it’s finally working.", "Two years of treating my acne, and I can finally see a difference."],
+    "keys": { "два роки": "two years|2 years", "результат": "result*|work*|difference|better|clear*" }
+   },
+   {
+    "sit": "Ти читаєш новину про нові медичні дослідження.",
+    "say": "Вчені знайшли новий спосіб лікувати акне без антибіотиків.",
+    "ans": ["Scientists have found a new way to treat acne without antibiotics.", "Researchers found a new way of treating acne without antibiotics.", "There’s a new way to treat acne without antibiotics, scientists say."],
+    "keys": { "антибіотики": "antibiotic*", "новий спосіб": "new|way|method" }
+   }
+  ]
+ },
+ {
+  "id": 2122, "w": "do your nails", "uk": "робити нігті (манікюр)", "lvl": "A2",
+  "forms": "do|does|did|done|doing",
+  "tail": "nails",
+  "near": "manicure*|paint*|polish*|mani",
+  "tasks": [
+   {
+    "sit": "Колега питає, в якому салоні ти робиш манікюр.",
+    "say": "Я роблю нігті вдома — так дешевше.",
+    "ans": ["I do my nails at home — it’s cheaper.", "I do my own nails at home because it’s cheaper.", "I just do my nails myself at home, it saves money."],
+    "keys": { "вдома": "home|myself", "дешевше": "cheap*|save*|money|less" }
+   },
+   {
+    "sit": "Подруга приходить у гості, і ти помічаєш у неї нові яскраві нігті.",
+    "say": "Хто тобі робив нігті? Дуже гарно!",
+    "ans": ["Who did your nails? They look amazing!", "Who does your nails? They’re so pretty!", "Wow, who did your nails? I love them!"],
+    "keys": { "хто": "who", "гарно": "amazing|pretty|beautiful|love|great|nice|gorgeous|lovely" }
+   },
+   {
+    "sit": "Завтра ви з сестрою летите у відпустку, а в тебе ще купа справ.",
+    "say": "Ще треба встигнути зробити нігті до вильоту.",
+    "ans": ["I still need to do my nails before the flight.", "I’ve still got to do my nails before we fly out.", "I still have to find time to do my nails before we leave."],
+    "keys": { "виліт": "flight|fly*|leave|trip", "ще": "still|yet" }
+   }
+  ]
+ },
+ {
+  "id": 2123, "w": "paint nails", "uk": "фарбувати нігті", "lvl": "B1",
+  "forms": "paint|paints|painted|painted|painting",
+  "tail": "nails/toenails",
+  "near": "polish*|varnish*|do my nails|do your nails|manicure*",
+  "tasks": [
+   {
+    "sit": "Маленька племінниця бачить, як ти фарбуєш нігті, і теж так хоче.",
+    "say": "Давай пофарбуємо тобі нігті в рожевий.",
+    "ans": ["Let’s paint your nails pink.", "Shall we paint your nails pink?", "Come here, let’s paint your nails pink too."],
+    "keys": { "рожевий": "pink" }
+   },
+   {
+    "sit": "Ти купуєш нові відкриті босоніжки на літо.",
+    "say": "Тепер доведеться фарбувати нігті на ногах.",
+    "ans": ["Now I’ll have to paint my toenails.", "Now I’ll need to paint my toenails too.", "Guess I’ll have to paint my toenails now."],
+    "keys": { "на ногах": "toe*|feet|foot" }
+   },
+   {
+    "sit": "На новій роботі суворий дрес-код, і колега попереджає тебе про правила.",
+    "say": "Тут не можна фарбувати нігті в яскраві кольори.",
+    "ans": ["You can’t paint your nails bright colors here.", "We’re not allowed to paint our nails bright colors here.", "No bright colors — you can’t paint your nails like that in this office."],
+    "keys": { "яскраві": "bright*|neon|loud|flashy", "тут": "here|office|work" }
+   }
+  ]
+ },
+ {
+  "id": 2124, "w": "file nails", "uk": "пиляти (підпилювати) нігті", "lvl": "B2",
+  "forms": "file|files|filed|filed|filing",
+  "tail": "nail*",
+  "near": "shap*|trim*|cut*|clip*|buff*",
+  "tasks": [
+   {
+    "sit": "На роботі в тебе зламався ніготь і чіпляється за светр.",
+    "say": "У когось є пилочка? Треба підпиляти ніготь.",
+    "ans": ["Does anyone have a nail file? I need to file my nail.", "I need to file down my nail — has anyone got a file?", "Anyone got a nail file? I’ve got to file this nail down."],
+    "keys": { "хтось": "anyone|anybody|someone|somebody" }
+   },
+   {
+    "sit": "Ти майстер манікюру, і клієнтка не може вирішити, яку форму нігтів хоче.",
+    "say": "Можу підпиляти нігті квадратом або овалом.",
+    "ans": ["I can file your nails square or oval.", "I can file your nails into a square or an oval shape.", "Want me to file your nails square, or more oval?"],
+    "keys": { "квадрат": "square", "овал": "oval|round" }
+   },
+   {
+    "sit": "Ти граєш на класичній гітарі. Друг питає, чому в тебе довгі нігті на правій руці.",
+    "say": "Я спеціально так пиляю нігті, щоб гітара краще звучала.",
+    "ans": ["I file my nails like this on purpose so the guitar sounds better.", "I file my nails a certain way so it sounds better when I play.", "I actually file my nails specially — it makes the guitar sound better."],
+    "keys": { "звучала": "sound*|tone" }
+   }
+  ]
+ },
+ {
+  "id": 2125, "w": "buff nails", "uk": "полірувати нігті", "lvl": "C1",
+  "forms": "buff|buffs|buffed|buffed|buffing",
+  "tail": "nail*",
+  "near": "polish*|shin*|smooth*",
+  "tasks": [
+   {
+    "sit": "Друг готується до важливих переговорів і хоче мати охайні руки, але без лаку.",
+    "say": "Просто відполіруй нігті — вони блищатимуть і без лаку.",
+    "ans": ["Just buff your nails — they’ll shine without polish.", "Try buffing your nails; they’ll look shiny without any polish.", "Just buff your nails, you’ll get a nice shine with no polish."],
+    "keys": { "без лаку": "polish|varnish|without|no", "блищати": "shin*|gloss*" }
+   },
+   {
+    "sit": "Ти майстер манікюру й пояснюєш клієнтці, чому не можна часто полірувати нігті.",
+    "say": "Не варто полірувати нігті частіше ніж раз на місяць — вони стоншуються.",
+    "ans": ["You shouldn’t buff your nails more than once a month — they get thin.", "Don’t buff your nails more than once a month, or they’ll get thinner.", "I wouldn’t buff your nails more than once a month; it thins them out."],
+    "keys": { "раз на місяць": "month*", "тонкі": "thin*|weak*" }
+   },
+   {
+    "sit": "Подруга вперше робить гель-лак удома і не розуміє, чому він відклеюється.",
+    "say": "Треба спочатку злегка відполірувати нігті, щоб лак тримався.",
+    "ans": ["You need to lightly buff your nails first so the polish sticks.", "Buff your nails a little first, so the gel stays on.", "You’ve got to buff your nails a bit first, or the gel won’t stick."],
+    "keys": { "спочатку": "first|before", "тримався": "stick*|stay*|hold*|last*" }
+   }
+  ]
+ },
+ {
+  "id": 2126, "w": "push cuticles", "uk": "відсовувати кутикулу", "lvl": "C1",
+  "forms": "push|pushes|pushed|pushed|pushing",
+  "tail": "cuticle*",
+  "near": "trim*|remov*|nip*|clip*",
+  "tasks": [
+   {
+    "sit": "Ти вчиш молодшу сестру робити манікюр.",
+    "say": "Спочатку обережно відсунь кутикулу паличкою.",
+    "ans": ["First, gently push back your cuticles with a stick.", "Push your cuticles back gently with an orange stick first.", "Start by pushing back the cuticles with the stick — gently."],
+    "keys": { "паличка": "stick*|pusher|tool", "обережно": "gentl*|careful*|soft*" }
+   },
+   {
+    "sit": "Подруга питає, як ти доглядаєш за нігтями без салону.",
+    "say": "Я відсуваю кутикулу після душу, коли шкіра м’яка.",
+    "ans": ["I push back my cuticles after a shower, when the skin is soft.", "I push my cuticles back after I shower because the skin’s softer then.", "I just push back my cuticles after showering, when they’re soft."],
+    "keys": { "душ": "shower*|bath", "м’яка": "soft*" }
+   },
+   {
+    "sit": "Майстриня в салоні збирається зрізати тобі кутикулу, а ти цього не хочеш.",
+    "say": "Не зрізайте, будь ласка, просто відсуньте кутикулу.",
+    "ans": ["Please don’t cut them, just push back the cuticles.", "Could you just push the cuticles back instead of cutting them?", "No cutting, please — just push my cuticles back."],
+    "keys": { "не зрізайте": "cut*|trim*|clip*" }
+   }
+  ]
+ },
+ {
+  "id": 2127, "w": "get a manicure", "uk": "робити манікюр (у салоні)", "lvl": "B1",
+  "forms": "get|gets|got|got/gotten|getting",
+  "tail": "manicure*/mani*",
+  "near": "do my nails|did my nails|have a manicure|had a manicure|nail salon",
+  "tasks": [
+   {
+    "sit": "У суботу весілля найкращої подруги, і ти складаєш план на тиждень.",
+    "say": "У п’ятницю зроблю манікюр, а в суботу — зачіску.",
+    "ans": ["I’ll get a manicure on Friday and my hair done on Saturday.", "On Friday I’m getting a manicure, and on Saturday I’m doing my hair.", "Friday I’ll get a manicure, then Saturday it’s my hair."],
+    "keys": { "п’ятниця": "friday", "субота": "saturday" }
+   },
+   {
+    "sit": "Ти думаєш, що подарувати мамі на день народження.",
+    "say": "Подарую мамі сертифікат, щоб вона сходила на манікюр.",
+    "ans": ["I’ll give Mom a voucher so she can get a manicure.", "I’m going to buy my mom a gift card so she can get a manicure.", "Maybe I’ll buy Mom a voucher so she can go get a manicure."],
+    "keys": { "мама": "mom*|mum*|mother", "сертифікат": "voucher|gift card|certificate|gift" }
+   },
+   {
+    "sit": "Ти переглядаєш у банківському додатку, куди щомісяця йдуть гроші.",
+    "say": "Я роблю манікюр кожні три тижні, і це дорого.",
+    "ans": ["I get a manicure every three weeks, and it’s expensive.", "I get a manicure every three weeks — it really adds up.", "Getting a manicure every three weeks costs me a fortune."],
+    "keys": { "три тижні": "three weeks|3 weeks", "дорого": "expensive|adds up|cost*|fortune|money|pricey" }
+   }
+  ]
+ },
+ {
+  "id": 2128, "w": "get a pedicure", "uk": "робити педикюр (у салоні)", "lvl": "B1",
+  "forms": "get|gets|got|got/gotten|getting",
+  "tail": "pedicure*/pedi*",
+  "near": "do my feet|have a pedicure|had a pedicure|paint* my toe*",
+  "tasks": [
+   {
+    "sit": "Через тиждень ви з подругою їдете на море.",
+    "say": "Перед поїздкою обов’язково зроблю педикюр.",
+    "ans": ["I’ll definitely get a pedicure before the trip.", "I’m definitely getting a pedicure before we go.", "I have to get a pedicure before our beach trip."],
+    "keys": { "поїздка": "trip|go|beach|vacation|holiday|leave" }
+   },
+   {
+    "sit": "Лікар порадив твоєму батькові уважно стежити за ногами через діабет.",
+    "say": "Тато тепер регулярно робить медичний педикюр.",
+    "ans": ["Dad gets a medical pedicure regularly now.", "My dad now gets a medical pedicure on a regular basis.", "These days my dad gets regular medical pedicures."],
+    "keys": { "тато": "dad*|father", "регулярно": "regular*|often|every" }
+   },
+   {
+    "sit": "Ти щойно пробіг марафон, і ноги в жахливому стані.",
+    "say": "Після марафону мені просто необхідно зробити педикюр.",
+    "ans": ["After the marathon, I really need to get a pedicure.", "I seriously need to get a pedicure after that marathon.", "After that marathon, getting a pedicure is a must."],
+    "keys": { "марафон": "marathon|race|run*" }
+   }
+  ]
+ },
+ {
+  "id": 2129, "w": "apply gel polish", "uk": "наносити гель-лак", "lvl": "B2",
+  "forms": "apply|applies|applied|applied|applying",
+  "tail": "gel*",
+  "near": "put on|paint*|do gel|gel nails|shellac",
+  "tasks": [
+   {
+    "sit": "Ти майстер манікюру, а клієнтка поспішає й просить швидше.",
+    "say": "Зараз нанесу гель-лак — і дві хвилини сушимо в лампі.",
+    "ans": ["Now I’ll apply the gel polish, and then it dries in the lamp for two minutes.", "I’m going to apply the gel polish, then we cure it under the lamp for two minutes.", "Let me apply the gel polish — then just two minutes under the lamp."],
+    "keys": { "лампа": "lamp|light|uv|led", "дві хвилини": "two minutes|2 minutes|minute*" }
+   },
+   {
+    "sit": "Ти вперше робиш гель-лак удома, і на нігтях з’явилися бульбашки.",
+    "say": "Схоже, гель-лак треба наносити тоншим шаром.",
+    "ans": ["I think I need to apply the gel polish in thinner layers.", "Looks like I should apply gel polish in a thinner coat.", "I guess you’re supposed to apply the gel in thin layers."],
+    "keys": { "тонший шар": "thin*|layer*|coat*" }
+   },
+   {
+    "sit": "Колега питає, чому перед відпусткою ти завжди робиш саме гель-лак.",
+    "say": "Якщо нанести гель-лак, він протримається всю відпустку.",
+    "ans": ["If I apply gel polish, it lasts the whole vacation.", "When I apply gel polish, it lasts my whole holiday.", "I apply gel polish because it’ll last the entire trip."],
+    "keys": { "відпустка": "vacation|holiday|trip", "протримається": "last*|stay*|hold*" }
+   }
+  ]
+ },
+ {
+  "id": 2130, "w": "remove polish", "uk": "знімати лак (з нігтів)", "lvl": "B1",
+  "forms": "remove|removes|removed|removed|removing",
+  "tail": "polish",
+  "near": "take off|took off|take * off|took * off|wipe* off|clean* off|get * off",
+  "tasks": [
+   {
+    "sit": "Ти медсестра й телефонуєш пацієнтці напередодні операції.",
+    "say": "Будь ласка, зніміть лак із нігтів до операції.",
+    "ans": ["Please remove your nail polish before the surgery.", "You’ll need to remove any nail polish before the operation.", "Make sure you remove your nail polish before surgery, please."],
+    "keys": { "операція": "surgery|operation|procedure" }
+   },
+   {
+    "sit": "Ти хочеш змінити колір нігтів, але рідина для зняття лаку закінчилася.",
+    "say": "Нема чим зняти старий лак — рідина скінчилася.",
+    "ans": ["I can’t remove my old polish — I’m out of remover.", "I’ve got nothing to remove the old polish with — the remover’s run out.", "I ran out of remover, so I can’t remove the old polish."],
+    "keys": { "рідина": "remover|acetone|liquid", "старий": "old" }
+   },
+   {
+    "sit": "Ти тренер з художньої гімнастики. Завтра в дівчат змагання, де лак на нігтях заборонений.",
+    "say": "Усім до завтра зняти лак із нігтів!",
+    "ans": ["Everyone, remove your nail polish by tomorrow!", "You all need to remove your polish before tomorrow.", "Girls, remove your nail polish by tomorrow, okay?"],
+    "keys": { "завтра": "tomorrow", "усі": "everyone|everybody|all|girls" }
+   }
+  ]
+ },
+ {
+  "id": 2131, "w": "extend nails", "uk": "нарощувати нігті", "lvl": "C1",
+  "forms": "extend|extends|extended|extended|extending",
+  "tail": "nail*",
+  "near": "extensions|acrylic*|fake nails|false nails|tips|lengthen*",
+  "tasks": [
+   {
+    "sit": "Ти відкриваєш власний манікюрний кабінет і розповідаєш подрузі про послуги.",
+    "say": "Крім манікюру, я ще нарощую нігті.",
+    "ans": ["Besides manicures, I also extend nails.", "Apart from manicures, I extend nails too.", "I do manicures, and I extend nails as well."],
+    "keys": { "манікюр": "manicure*|mani*" }
+   },
+   {
+    "sit": "У салоні майстриня питає, яку довжину нігтів ти хочеш.",
+    "say": "Можете наростити нігті зовсім трохи, до середньої довжини?",
+    "ans": ["Could you extend my nails just a little, to medium length?", "Can you extend my nails a bit — just medium length?", "I’d like you to extend my nails slightly, nothing longer than medium."],
+    "keys": { "середня довжина": "medium|middle|not too long", "трохи": "little|bit|slight*" }
+   },
+   {
+    "sit": "Сестра за місяць виходить заміж і показує тобі фото нігтів своєї мрії.",
+    "say": "Щоб була така форма, їй доведеться наростити нігті.",
+    "ans": ["For that shape, she’ll have to extend her nails.", "She’ll need to extend her nails to get that shape.", "To get that shape, she’s going to have to extend her nails."],
+    "keys": { "форма": "shape|look|style" }
+   }
+  ]
+ },
+ {
+  "id": 2132, "w": "go to church", "uk": "ходити до церкви", "lvl": "A2",
+  "forms": "go|goes|went|gone|going",
+  "tail": "to church",
+  "near": "attend*|mass|service*|visit* church",
+  "tasks": [
+   {
+    "sit": "Колега питає, що ти зазвичай робиш у неділю вранці.",
+    "say": "Щонеділі я ходжу з бабусею до церкви.",
+    "ans": ["Every Sunday I go to church with my grandma.", "I go to church with my grandmother every Sunday.", "On Sundays I usually go to church with my grandma."],
+    "keys": { "бабуся": "grand*|granny|nan*", "неділя": "sunday*" }
+   },
+   {
+    "sit": "Новий знайомий питає, чи ти віруюча людина.",
+    "say": "У дитинстві я ходив до церкви, а зараз — лише на Великдень.",
+    "ans": ["As a kid I went to church, but now only at Easter.", "I used to go to church as a child, but now I only go at Easter.", "I went to church a lot growing up — now it’s just Easter."],
+    "keys": { "Великдень": "easter", "дитинство": "kid|child*|young|growing up|little" }
+   },
+   {
+    "sit": "Ти гостюєш в американських друзів, і в неділю зранку вони кудись збираються всією родиною.",
+    "say": "Можна мені піти з вами до церкви?",
+    "ans": ["Can I go to church with you?", "Would you mind if I went to church with you?", "Mind if I go to church with you guys?"],
+    "keys": { "з вами": "with you" }
+   }
+  ]
+ },
+ {
+  "id": 2133, "w": "take communion", "uk": "причащатися", "lvl": "C1",
+  "forms": "take|takes|took|taken|taking",
+  "tail": "communion",
+  "near": "receiv*|eucharist|confess*",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш колезі-іноземцю, як твоя родина святкує Великдень.",
+    "say": "Уранці ми йдемо до церкви, і бабуся причащається.",
+    "ans": ["In the morning we go to church, and Grandma takes communion.", "We go to church in the morning, and my grandma takes communion.", "We head to church in the morning, and my grandmother takes communion there."],
+    "keys": { "бабуся": "grand*|granny", "вранці": "morning" }
+   },
+   {
+    "sit": "Сусідка запрошує тебе на сімейне свято.",
+    "say": "У неділю її донька вперше причащається.",
+    "ans": ["On Sunday her daughter is taking communion for the first time.", "Her daughter will take communion for the first time on Sunday.", "Her daughter’s taking her first communion this Sunday."],
+    "keys": { "вперше": "first", "неділя": "sunday" }
+   },
+   {
+    "sit": "Дідусь у лікарні перед складною операцією просить покликати священника.",
+    "say": "Дідусь хоче причаститися перед операцією.",
+    "ans": ["Grandpa wants to take communion before the surgery.", "My grandfather would like to take communion before his operation.", "Grandpa’s asking to take communion before surgery."],
+    "keys": { "дідусь": "grand*", "операція": "surgery|operation" }
+   }
+  ]
+ },
+ {
+  "id": 2134, "w": "cancel a subscription", "uk": "скасувати підписку", "lvl": "B1",
+  "forms": "cancel|cancels|cancelled/canceled|cancelled/canceled|cancelling/canceling",
+  "tail": "subscription*",
+  "near": "unsubscrib*|stop pay*|get rid of|end my subscription|quit",
+  "tasks": [
+   {
+    "sit": "Ти переглядаєш банківську виписку й бачиш плату за стримінговий сервіс, яким давно не користуєшся.",
+    "say": "Треба скасувати цю підписку — я нею навіть не користуюся.",
+    "ans": ["I need to cancel this subscription — I don’t even use it.", "I should cancel that subscription, I never use it.", "I’ve got to cancel this subscription, I haven’t used it in ages."],
+    "keys": { "не користуюся": "use|used|using" }
+   },
+   {
+    "sit": "Ти пишеш у чат підтримки фітнес-додатку.",
+    "say": "Добрий день, я хочу скасувати підписку, але не можу знайти кнопку.",
+    "ans": ["Hi, I want to cancel my subscription, but I can’t find the button.", "Hello, I’d like to cancel my subscription, but I can’t find where to do it.", "Hi — I’m trying to cancel my subscription and can’t find the option anywhere."],
+    "keys": { "не можу знайти": "find|found|where" }
+   },
+   {
+    "sit": "Мама скаржиться, що їй щомісяця приходить журнал про садівництво, який вона не читає.",
+    "say": "Давай я скасую тобі підписку на журнал.",
+    "ans": ["Let me cancel your magazine subscription.", "I’ll cancel the subscription to that magazine for you.", "Want me to cancel that magazine subscription for you?"],
+    "keys": { "журнал": "magazine" }
+   }
+  ]
+ },
+ {
+  "id": 2135, "w": "do the butterfly", "uk": "плавати батерфляєм", "lvl": "C1",
+  "forms": "do|does|did|done|doing",
+  "tail": "butterfly",
+  "near": "swim* butterfly|swam butterfly|breaststroke|crawl|freestyle|backstroke",
+  "tasks": [
+   {
+    "sit": "Ти тренер з плавання, і учень скаржиться на біль у плечах.",
+    "say": "Сьогодні не пливи батерфляєм — дай плечам відпочити.",
+    "ans": ["Don’t do the butterfly today — give your shoulders a rest.", "Let’s not do the butterfly today; your shoulders need a rest.", "Today you’re not doing the butterfly — rest those shoulders."],
+    "keys": { "плечі": "shoulder*", "сьогодні": "today" }
+   },
+   {
+    "sit": "Ви з другом у басейні, і на сусідній доріжці хтось дуже красиво пливе.",
+    "say": "Подивись, як він пливе батерфляєм — я так ніколи не зможу!",
+    "ans": ["Look at him doing the butterfly — I could never do that!", "Look how he does the butterfly! I’ll never manage that.", "Wow, look at him doing the butterfly — no way I could ever do that."],
+    "keys": { "ніколи": "never|no way" }
+   },
+   {
+    "sit": "Ти вже рік ходиш у басейн, і тренер питає про твої цілі.",
+    "say": "Цього року я хочу навчитися плавати батерфляєм.",
+    "ans": ["This year I want to learn to do the butterfly.", "I’d like to learn how to do the butterfly this year.", "My goal this year is to finally learn to do the butterfly properly."],
+    "keys": { "цього року": "this year", "навчитися": "learn*" }
+   }
+  ]
+ },
+ {
+  "id": 2136, "w": "take up arms", "uk": "взятися за зброю (стати до бою)", "lvl": "C1",
+  "forms": "take|takes|took|taken|taking",
+  "tail": "up arms",
+  "near": "fight*|fought|enlist*|join* the army|weapon*|defend*",
+  "tasks": [
+   {
+    "sit": "Ти відповідаєш на уроці історії про селянське повстання.",
+    "say": "Селяни взялися за зброю, щоб захистити свою землю.",
+    "ans": ["The peasants took up arms to defend their land.", "Peasants took up arms to protect their land.", "The farmers took up arms to defend their land."],
+    "keys": { "земля": "land|home*|villag*", "захистити": "defend*|protect*|fight for" }
+   },
+   {
+    "sit": "Іноземний журналіст розпитує тебе про перші дні повномасштабного вторгнення.",
+    "say": "Тисячі звичайних людей узялися за зброю в перші ж дні.",
+    "ans": ["Thousands of ordinary people took up arms in the very first days.", "In the first days, thousands of ordinary people took up arms.", "Thousands of regular people took up arms right from the start."],
+    "keys": { "тисячі": "thousand*", "звичайні люди": "ordinary|regular|civilian*|normal|everyday" }
+   },
+   {
+    "sit": "Ви з другом обговорюєте фільм про боротьбу середньовічної Шотландії за незалежність.",
+    "say": "Мене вразило, як уся країна взялася за зброю проти загарбників.",
+    "ans": ["I was impressed by how the whole country took up arms against the invaders.", "It struck me how the entire nation took up arms against the invaders.", "What got me was how the whole country took up arms against the English."],
+    "keys": { "загарбники": "invader*|enem*|english|occupier*", "уся країна": "whole|entire|all" }
+   }
+  ]
+ },
+ {
+  "id": 2137, "w": "check into a hotel", "uk": "заселитися в готель", "lvl": "B1",
+  "forms": "check|checks|checked|checked|checking",
+  "tail": "into/in hotel*/hostel*",
+  "near": "arriv*|get to the hotel|stay* at",
+  "tasks": [
+   {
+    "sit": "Ти пишеш другові, коли будеш вільний у перший день поїздки до його міста.",
+    "say": "Ми заселимося в готель близько третьої, а потім можемо зустрітися.",
+    "ans": ["We’ll check into the hotel around three, and then we can meet up.", "We’re checking into the hotel at about 3, then we can meet.", "We should check into the hotel around three — let’s meet after that."],
+    "keys": { "третя": "three|3", "зустрітися": "meet*|see you|get together" }
+   },
+   {
+    "sit": "Ваш рейс затримали на п’ять годин. Ти пишеш колезі, з яким ви летите у відрядження.",
+    "say": "Схоже, ми заселимося в готель тільки після півночі.",
+    "ans": ["Looks like we won’t check into the hotel until after midnight.", "It seems we’ll only check into the hotel after midnight.", "We probably won’t be checking into the hotel till after midnight."],
+    "keys": { "північ": "midnight|12|twelve" }
+   },
+   {
+    "sit": "Ви з мамою дивитеся детективний серіал, і з’ясовується нова деталь.",
+    "say": "Він заселився в готель під чужим ім’ям.",
+    "ans": ["He checked into a hotel under a fake name.", "He checked into the hotel under someone else’s name.", "So he checked into a hotel using a false name."],
+    "keys": { "чуже ім’я": "fake|false|someone else|another|different|alias" }
+   }
+  ]
+ },
+ {
+  "id": 2138, "w": "go green", "uk": "переходити на екологічне (життя, технології)", "lvl": "B2",
+  "forms": "go|goes|went|gone|going",
+  "tail": "green",
+  "near": "eco-friendly|environmental*|sustainab*|recycl*",
+  "tasks": [
+   {
+    "sit": "Ти директор фірми й оголошуєш на загальних зборах нову стратегію.",
+    "say": "Цього року наша компанія стає екологічною: жодного пластику в офісі.",
+    "ans": ["This year our company is going green: no more plastic in the office.", "Our company is going green this year — no plastic in the office.", "We’re going green this year, so no more plastic around the office."],
+    "keys": { "пластик": "plastic", "цього року": "this year" }
+   },
+   {
+    "sit": "Ваша родина поставила на дах сонячні панелі, і сусід цікавиться чому.",
+    "say": "Ми вирішили перейти на екологічне життя — і рахунки тепер менші.",
+    "ans": ["We decided to go green — and our bills are lower too.", "We’ve decided to go green, and it saves us money on bills.", "We figured we’d go green, and hey, the bills are way lower now."],
+    "keys": { "рахунки": "bill*|money|cost*" }
+   },
+   {
+    "sit": "Ти читаєш новини про своє місто.",
+    "say": "Місто переходить на екологічний транспорт — купили сто електробусів.",
+    "ans": ["The city is going green — they’ve bought a hundred electric buses.", "Our city is going green and has bought 100 electric buses.", "The city’s going green: a hundred new electric buses!"],
+    "keys": { "електробуси": "electric*|bus*|e-bus*", "місто": "city|town" }
+   }
+  ]
+ },
+ {
+  "id": 2139, "w": "cut emissions", "uk": "скорочувати викиди", "lvl": "B2",
+  "forms": "cut|cuts|cut|cut|cutting",
+  "tail": "emission*",
+  "near": "reduc*|lower*|decreas*|slash*|lessen*",
+  "tasks": [
+   {
+    "sit": "Ти переказуєш новину про міжнародну кліматичну конференцію.",
+    "say": "Країни пообіцяли скоротити викиди вдвічі до 2030 року.",
+    "ans": ["Countries promised to cut emissions in half by 2030.", "The countries have pledged to cut their emissions by half by 2030.", "They’ve promised to cut emissions by fifty percent by 2030."],
+    "keys": { "вдвічі": "half|50|fifty", "2030": "2030" }
+   },
+   {
+    "sit": "Ти працюєш у логістичній компанії, і керівник питає, навіщо купувати електровантажівки.",
+    "say": "Так ми скоротимо викиди й заощадимо на пальному.",
+    "ans": ["That way we’ll cut emissions and save on fuel.", "This will help us cut emissions and save money on fuel.", "We’ll cut emissions and spend less on fuel — it’s a win-win."],
+    "keys": { "пальне": "fuel|gas|petrol|diesel", "заощадимо": "save*|less|cheaper" }
+   },
+   {
+    "sit": "На семінарі в університеті ви обговорюєте, що може зробити для клімату кожна людина.",
+    "say": "Якщо менше літати літаками, можна суттєво скоротити викиди.",
+    "ans": ["If you fly less, you can seriously cut your emissions.", "You can cut your emissions a lot just by flying less.", "If we all flew less, we could cut emissions significantly."],
+    "keys": { "літати": "fly*|flight*|flew|plane*" }
+   }
+  ]
+ },
+ {
+  "id": 2140, "w": "tsunami hits", "uk": "налетіти, вдарити (про цунамі)", "lvl": "C1",
+  "forms": "tsunami|tsunamis|hit|hit|hitting",
+  "tail": "hit*/struck/strike*",
+  "near": "wave*|flood*|earthquake*",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш колегам ранкові новини.",
+    "say": "Уночі цунамі вдарило по узбережжю Японії.",
+    "ans": ["Last night a tsunami hit the coast of Japan.", "A tsunami struck Japan’s coast overnight.", "Did you hear? A tsunami hit the Japanese coast last night."],
+    "keys": { "Японія": "japan*", "узбережжя": "coast*|shore*|beach*" }
+   },
+   {
+    "sit": "Ви з другом живете в готелі на березі океану, і ти читаєш інструкцію з евакуації.",
+    "say": "Якщо вдарить цунамі, треба бігти на пагорб за готелем.",
+    "ans": ["If a tsunami hits, we have to run up the hill behind the hotel.", "If a tsunami hits, we need to get to the hill behind the hotel.", "In case a tsunami hits, we head straight for the hill behind the hotel."],
+    "keys": { "пагорб": "hill*|high ground|higher ground", "бігти": "run*|get to|head*|go|climb*" }
+   },
+   {
+    "sit": "Ти готуєш доповідь для уроку географії.",
+    "say": "Коли 2004 року цунамі вдарило по Індонезії, загинули сотні тисяч людей.",
+    "ans": ["When the tsunami hit Indonesia in 2004, hundreds of thousands of people died.", "Hundreds of thousands of people died when a tsunami hit Indonesia in 2004.", "The 2004 tsunami that hit Indonesia killed hundreds of thousands of people."],
+    "keys": { "2004": "2004", "загинули": "died|killed|dead|lost their lives|death*" }
+   }
+  ]
+ },
+ {
+  "id": 2142, "w": "work up", "uk": "нагуляти (апетит)", "lvl": "B2",
+  "forms": "work|works|worked|worked|working",
+  "tail": "up",
+  "near": "hungry|starving|build* up|built up",
+  "tasks": [
+   {
+    "sit": "Ви з друзями цілий день ходили в горах і нарешті спустилися до кафе.",
+    "say": "Ох і нагуляв я апетит — з’їм усе меню!",
+    "ans": ["I’ve really worked up an appetite — I could eat the whole menu!", "Wow, I worked up an appetite today — I’ll eat everything on the menu!", "Man, I’ve worked up such an appetite, I could eat the entire menu."],
+    "keys": { "апетит": "appetite|hungry|starving", "меню": "menu|everything" }
+   },
+   {
+    "sit": "Ти цілий ранок копав город у бабусі на дачі.",
+    "say": "Після такої роботи я добряче нагуляв апетит.",
+    "ans": ["After digging all morning, I’ve worked up a real appetite.", "Digging the garden all morning, I really worked up an appetite.", "I’ve worked up a huge appetite after all that digging."],
+    "keys": { "апетит": "appetite|hungry", "копати": "dig*|garden*" }
+   },
+   {
+    "sit": "Діти три години купалися в озері, і ти кличеш їх обідати.",
+    "say": "Ви, мабуть, нагуляли апетит — біжіть до столу!",
+    "ans": ["You must have worked up an appetite — come to the table!", "I bet you’ve worked up an appetite! Come and eat.", "You guys must’ve worked up an appetite — lunch is ready!"],
+    "keys": { "апетит": "appetite|hungry", "мабуть": "must|bet|probably|guess" }
+   }
+  ]
+ },
+ {
+  "id": 2143, "w": "cool down", "uk": "охолонути (заспокоїтися)", "lvl": "A2",
+  "forms": "cool|cools|cooled|cooled|cooling",
+  "tail": "down",
+  "near": "calm* down|calm* * down|relax*|chill* out|settle down|take a breath",
+  "tasks": [
+   {
+    "sit": "Ви з братом посварилися, і ти відчуваєш, що зараз наговориш зайвого.",
+    "say": "Мені треба трохи охолонути, поговоримо пізніше.",
+    "ans": ["I need to cool down a bit — let’s talk later.", "I need some time to cool down; we’ll talk later.", "Give me a minute to cool down, and we’ll talk later."],
+    "keys": { "пізніше": "later|after*" }
+   },
+   {
+    "sit": "Колега влітає в кабінет, червоний від злості після розмови з клієнтом.",
+    "say": "Охолонь, перш ніж відповідати на цей лист.",
+    "ans": ["Cool down before you reply to that email.", "Take a moment to cool down before you answer that email.", "Hey, cool down first, then write back to that email."],
+    "keys": { "лист": "email|e-mail|mail|message|letter" }
+   },
+   {
+    "sit": "Друг після поразки улюбленої команди кричить і хоче написати гнівний пост.",
+    "say": "Зачекай, поки охолонеш, а тоді вже пиши.",
+    "ans": ["Wait until you’ve cooled down, then write it.", "Wait till you cool down before you post anything.", "Hold off until you’ve cooled down, then post it."],
+    "keys": { "зачекай": "wait|hold off|hold on|until|till" }
+   }
+  ]
+ },
+ {
+  "id": 2144, "w": "pick up on", "uk": "вловити (натяк, настрій)", "lvl": "B2",
+  "forms": "pick|picks|picked|picked|picking",
+  "tail": "up on",
+  "near": "notic*|get the hint|got the hint|catch*|caught|sens*|realiz*",
+  "tasks": [
+   {
+    "sit": "Ти весь вечір натякав гостям, що вже пізно і час розходитися.",
+    "say": "Ніхто не вловив мого натяку — всі сиділи до ранку.",
+    "ans": ["Nobody picked up on my hint — everyone stayed till morning.", "No one picked up on my hints, and they all stayed until the morning.", "Nobody picked up on it — they all stayed until morning!"],
+    "keys": { "ніхто": "nobody|no one", "до ранку": "morning|dawn|late" }
+   },
+   {
+    "sit": "Син повернувся зі школи мовчазний, і дружина одразу зрозуміла, що щось не так.",
+    "say": "Вона одразу вловила, що в нього поганий настрій.",
+    "ans": ["She immediately picked up on his bad mood.", "She picked up on the fact that he was upset right away.", "She picked up on his mood straight away."],
+    "keys": { "настрій": "mood|upset|sad|off|wrong", "одразу": "immediately|right away|straight away|at once|instantly" }
+   },
+   {
+    "sit": "Після переговорів ви з колегою обговорюєте, як поводився клієнт.",
+    "say": "Ти вловив, що він занервував, коли ми заговорили про ціну?",
+    "ans": ["Did you pick up on how nervous he got when we talked about the price?", "Did you pick up on his nerves when we mentioned the price?", "Did you pick up on that? He got really nervous about the price."],
+    "keys": { "нервував": "nervous|nerves|uneasy|tense|anxious", "ціна": "price|cost|money" }
+   }
+  ]
+ },
+ {
+  "id": 2145, "w": "open up to", "uk": "розкриватися (перед кимось)", "lvl": "B2",
+  "forms": "open|opens|opened|opened|opening",
+  "tail": "up to",
+  "near": "trust*|talk to|share*|confid*",
+  "tasks": [
+   {
+    "sit": "Подруга питає, як тобі новий психотерапевт.",
+    "say": "Мені поки важко розкритися перед нею.",
+    "ans": ["It’s still hard for me to open up to her.", "I’m finding it hard to open up to her so far.", "Honestly, I still can’t really open up to her."],
+    "keys": { "важко": "hard|difficult|can not|struggl*", "поки": "still|yet|so far" }
+   },
+   {
+    "sit": "Твій син-підліток останнім часом замкнувся в собі.",
+    "say": "Я хочу, щоб він знову міг розкритися переді мною.",
+    "ans": ["I want him to be able to open up to me again.", "I wish he would open up to me again.", "I just want him to open up to me like he used to."],
+    "keys": { "знову": "again|used to|like before" }
+   },
+   {
+    "sit": "Ти зустрічаєшся з людиною вже пів року і розповідаєш сестрі про ваші стосунки.",
+    "say": "Він рідко розкривається переді мною, і це мене засмучує.",
+    "ans": ["He rarely opens up to me, and it upsets me.", "He hardly ever opens up to me, and that makes me sad.", "It bothers me that he almost never opens up to me."],
+    "keys": { "рідко": "rarely|hardly|seldom|almost never|never", "засмучує": "upset*|sad|bother*|hurt*|frustrat*" }
+   }
+  ]
+ },
+ {
+  "id": 2146, "w": "talk over", "uk": "обговорити (детально)", "lvl": "B2",
+  "forms": "talk|talks|talked|talked|talking",
+  "tail": "over",
+  "near": "discuss*|talk about|talked about|go over|went over",
+  "tasks": [
+   {
+    "sit": "Тобі запропонували роботу за кордоном, і відповісти треба до п’ятниці.",
+    "say": "Спершу я хочу обговорити це з дружиною.",
+    "ans": ["I want to talk it over with my wife first.", "First I’d like to talk this over with my wife.", "Let me talk it over with my wife before I decide."],
+    "keys": { "дружина": "wife|partner|family", "спершу": "first|before" }
+   },
+   {
+    "sit": "Клієнт пропонує нові умови контракту, а ти не готовий відповісти одразу.",
+    "say": "Давайте детально обговоримо це завтра на зустрічі.",
+    "ans": ["Let’s talk it over in detail at tomorrow’s meeting.", "Can we talk this over properly at the meeting tomorrow?", "Why don’t we talk it all over tomorrow at the meeting?"],
+    "keys": { "завтра": "tomorrow", "зустріч": "meeting|call" }
+   },
+   {
+    "sit": "Ви з сусідом по квартирі постійно сваритеся через прибирання.",
+    "say": "Давай сядемо й спокійно все обговоримо.",
+    "ans": ["Let’s sit down and talk it over calmly.", "Why don’t we sit down and talk everything over calmly?", "Come on, let’s just sit down and talk this over."],
+    "keys": { "сядемо": "sit|sat" }
+   }
+  ]
+ }
+]

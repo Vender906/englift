@@ -1,0 +1,652 @@
+[
+ {
+  "id": 3044, "w": "ring back", "uk": "передзвонити", "lvl": "B1",
+  "forms": "ring|rings|rang|rung|ringing",
+  "tail": "back",
+  "near": "call back|called back|calling back|call|calls|called|calling|phone back|phoned back|get back to|got back to",
+  "tasks": [
+   {
+    "sit": "Ти за кермом, і тут дзвонить сестра. Говорити зараз незручно.",
+    "say": "Я зараз за кермом, передзвоню тобі за пʼять хвилин.",
+    "ans": ["I’m driving right now — I’ll ring you back in five minutes.", "I can’t talk, I’m driving. I’ll ring you back in five minutes.", "I’m driving, so let me ring you back in five minutes."],
+    "keys": { "за кермом": "driv*|car|wheel", "пʼять хвилин": "five minutes|5 minutes|minutes|5 min*" }
+   },
+   {
+    "sit": "Ти працюєш на ресепшені. Клієнт телефонує менеджерці, а вона саме на нараді.",
+    "say": "Вона зараз на нараді, вона вам передзвонить після обіду.",
+    "ans": ["She’s in a meeting — she’ll ring you back after lunch.", "She’s in a meeting at the moment, but she’ll ring you back this afternoon.", "She’s in a meeting right now. Can she ring you back after lunch?"],
+    "keys": { "нарада": "meeting*|busy", "після обіду": "lunch|afternoon|later" }
+   },
+   {
+    "sit": "Три дні тому ти залишив повідомлення в стоматологічній клініці, щоб записатися на прийом.",
+    "say": "Мені так і не передзвонили з клініки.",
+    "ans": ["The clinic never rang me back.", "Nobody from the clinic rang me back.", "The clinic still hasn’t rung me back."],
+    "keys": { "клініка": "clinic|dentist*|surgery|office", "так і не": "never|not|nobody|no one" }
+   }
+  ]
+ },
+ {
+  "id": 3045, "w": "ring off", "uk": "класти слухавку", "lvl": "B2",
+  "forms": "ring|rings|rang|rung|ringing",
+  "tail": "off",
+  "near": "hang up|hung up|hanging up|hangs up|hang*|hung|put the phone down|end* the call",
+  "tasks": [
+   {
+    "sit": "Ти посварився з братом по телефону. Мама питає, чим закінчилася розмова.",
+    "say": "Він просто поклав слухавку, навіть не попрощавшись.",
+    "ans": ["He just rang off without saying goodbye.", "He rang off without even saying goodbye.", "He rang off on me — he didn’t even say bye."],
+    "keys": { "не попрощавшись": "goodbye|bye|word*" }
+   },
+   {
+    "sit": "Ти навчаєш новенького оператора кол-центру правил розмови з клієнтами.",
+    "say": "Не клади слухавку, поки клієнт не попрощається.",
+    "ans": ["Don’t ring off until the customer says goodbye.", "Never ring off before the customer has said goodbye.", "Wait for the customer to say goodbye before you ring off."],
+    "keys": { "клієнт": "customer*|client*|caller*", "попрощається": "goodbye|bye" }
+   },
+   {
+    "sit": "Ти телефонував у банк через заблоковану картку, і розмова обірвалася на півслові.",
+    "say": "Оператор різко поклав слухавку посеред розмови.",
+    "ans": ["The operator rang off abruptly in the middle of the call.", "The operator suddenly rang off halfway through the conversation.", "The guy at the bank just rang off on me mid-call!"],
+    "keys": { "оператор": "operator|agent|guy|woman|man|bank|assistant", "посеред розмови": "middle|mid*|halfway|abrupt*|sudden*" }
+   }
+  ]
+ },
+ {
+  "id": 3046, "w": "rule out", "uk": "виключати (варіант)", "lvl": "B2",
+  "forms": "rule|rules|ruled|ruled|ruling",
+  "tail": "out",
+  "near": "exclude*|excluding|eliminat*|dismiss*|reject*",
+  "tasks": [
+   {
+    "sit": "Ти впав із велосипеда, і тобі зробили рентген. Друг питає, що сказали в лікарні.",
+    "say": "Лікар виключив перелом — це просто сильний забій.",
+    "ans": ["The doctor ruled out a fracture — it’s just a bad bruise.", "The doctor has ruled out a broken bone; it’s only a bruise.", "They’ve ruled out a fracture, thank God — it’s just a nasty bruise."],
+    "keys": { "перелом": "fracture*|broken|break", "забій": "bruis*" }
+   },
+   {
+    "sit": "Ви з друзями вибираєте, куди поїхати взимку. Хтось пропонує Швейцарію.",
+    "say": "Через ціни я одразу виключаю Швейцарію.",
+    "ans": ["Because of the prices, I’m ruling out Switzerland straight away.", "I’ve ruled out Switzerland — it’s far too expensive.", "Honestly, I’d rule out Switzerland, it’s way too pricey."],
+    "keys": { "Швейцарія": "switzerland|swiss", "ціни": "pric*|expensive|cost*|money" }
+   },
+   {
+    "sit": "На нараді зʼясовують, чому впав сайт компанії. Керівник питає, чи це точно не зловмисники.",
+    "say": "Ми поки не можемо виключити хакерську атаку.",
+    "ans": ["We can’t rule out a hacker attack yet.", "At this point, we can’t rule out a cyberattack.", "Honestly, we can’t rule out hackers just yet."],
+    "keys": { "поки": "yet|at this point|so far|for now|still", "хакерська атака": "hack*|cyber*|attack*" }
+   }
+  ]
+ },
+ {
+  "id": 3047, "w": "run by", "uk": "узгодити / показати на схвалення", "lvl": "B2",
+  "forms": "run|runs|ran|run|running",
+  "tail": "by",
+  "near": "check with|checked with|checking with|approve*|clear it with|discuss*|show*|ask*",
+  "tasks": [
+   {
+    "sit": "Клієнт хоче знижку, і ти готовий погодитися, але рішення не лише за тобою.",
+    "say": "Спершу я маю узгодити це з керівником.",
+    "ans": ["I need to run it by my manager first.", "Let me run this by my boss first.", "I’ll just run it by my boss first, okay?"],
+    "keys": { "керівник": "manager|boss|supervisor|head|lead*", "спершу": "first|before" }
+   },
+   {
+    "sit": "Майстер пропонує пофарбувати кухню в темно-синій колір. Ти не хочеш вирішувати без дружини.",
+    "say": "Дайте я спершу покажу це дружині.",
+    "ans": ["Let me run it by my wife first.", "I’ll run the colour by my wife before we decide.", "Can I run it by my wife first? She’ll have opinions."],
+    "keys": { "дружина": "wife|partner", "спершу": "first|before" }
+   },
+   {
+    "sit": "Ти вибрав тему для дипломної роботи, але остаточно затверджує її науковий керівник.",
+    "say": "Я хочу узгодити тему з науковим керівником.",
+    "ans": ["I want to run the topic by my supervisor.", "I’m going to run my thesis topic by my supervisor.", "I’ll run the topic by my supervisor and see what she says."],
+    "keys": { "тема": "topic|idea|subject|thesis", "науковий керівник": "supervisor|advisor|adviser|professor|tutor" }
+   }
+  ]
+ },
+ {
+  "id": 3048, "w": "shrug off", "uk": "не зважати / відмахуватися", "lvl": "B2",
+  "forms": "shrug|shrugs|shrugged|shrugged|shrugging",
+  "tail": "off",
+  "near": "ignore*|brush* off|brushed|dismiss*|laugh* off|laughed|not care|did not care",
+  "tasks": [
+   {
+    "sit": "Під твоїм відео в інтернеті зʼявилося кілька злих коментарів. Подруга хвилюється, чи ти не засмутився.",
+    "say": "Та я просто відмахнувся від тих коментарів.",
+    "ans": ["I just shrugged off those comments.", "I shrugged the comments off — they don’t matter.", "Honestly, I just shrugged off the nasty comments."],
+    "keys": { "коментарі": "comment*|hate*|them" }
+   },
+   {
+    "sit": "Колега кашляє вже тиждень, але каже, що це дрібниці. Ти розповідаєш про нього іншому колезі.",
+    "say": "Він не зважає на застуду й далі ходить на роботу.",
+    "ans": ["He shrugs off his cold and keeps coming to work.", "He’s shrugging off the cold and still coming to work.", "He just shrugs off the cold and keeps coming into the office."],
+    "keys": { "застуда": "cold|cough*|flu|ill*|sick*", "робота": "work|office|job" }
+   },
+   {
+    "sit": "Ваша футбольна команда програла, і тренер накричав на всіх. Новенький поводиться так, ніби нічого не сталося.",
+    "say": "Новенький легко відмахнувся від критики тренера.",
+    "ans": ["The new guy easily shrugged off the coach’s criticism.", "The new player shrugged off the coach’s criticism like it was nothing.", "The new kid just shrugged off everything the coach said."],
+    "keys": { "критика": "critic*|said|shout*|yell*|comment*", "тренер": "coach*|trainer" }
+   }
+  ]
+ },
+ {
+  "id": 3049, "w": "single out", "uk": "виділяти / вирізняти", "lvl": "B2",
+  "forms": "single|singles|singled|singled|singling",
+  "tail": "out",
+  "near": "pick* out|picked out|pick* on|picked on|choose|chose|choos*|highlight*|point* out|mention*",
+  "tasks": [
+   {
+    "sit": "На уроці розмовляє весь клас, але вчитель чомусь робить зауваження лише тобі.",
+    "say": "Чому ви виділяєте саме мене? Весь клас розмовляє.",
+    "ans": ["Why are you singling me out? The whole class is talking.", "Why do you always single me out when everyone is talking?", "Why single me out? Everybody’s talking!"],
+    "keys": { "весь клас": "whole class|everyone|everybody|all|class" }
+   },
+   {
+    "sit": "На загальних зборах директор дякував команді за проєкт. Увечері ти розповідаєш про це вдома.",
+    "say": "Директор окремо відзначив мене перед усіма.",
+    "ans": ["The director singled me out in front of everyone.", "The boss singled me out for praise in front of everybody.", "My boss actually singled me out in front of the whole team!"],
+    "keys": { "директор": "director|boss|ceo|manager|head", "перед усіма": "everyone|everybody|all|team|whole|public*" }
+   },
+   {
+    "sit": "Ти на аматорському кулінарному конкурсі. Журі оголошує переможця.",
+    "say": "Журі виділило торт Олени як найкращий.",
+    "ans": ["The judges singled out Olena’s cake as the best.", "Olena’s cake was singled out by the judges as the best one.", "The judges singled out Olena’s cake — they loved it."],
+    "keys": { "журі": "judge*|jury|panel", "торт": "cake" }
+   }
+  ]
+ },
+ {
+  "id": 3050, "w": "sound out", "uk": "обережно розвідати думку", "lvl": "C1",
+  "forms": "sound|sounds|sounded|sounded|sounding",
+  "tail": "out",
+  "near": "ask|asked|asking|find out|found out|feel out|felt out|gauge*|probe*|check with",
+  "tasks": [
+   {
+    "sit": "Ти хочеш запропонувати перейти на чотириденний робочий тиждень, але не знаєш, як це сприймуть.",
+    "say": "Перед нарадою я обережно розвідаю думку команди.",
+    "ans": ["I’ll sound out the team before the meeting.", "Before the meeting, I’m going to sound out the team.", "Let me sound the team out before the meeting."],
+    "keys": { "команда": "team|colleague*|people|everyone", "перед нарадою": "meeting" }
+   },
+   {
+    "sit": "Ти хочеш покликати батьків у спільну відпустку з ріднею дружини, але не знаєш, як вони поставляться.",
+    "say": "Спершу я обережно дізнаюся, що про це думає тато.",
+    "ans": ["First I’ll sound out my dad about it.", "I’ll sound Dad out on the idea first.", "Let me sound out Dad first and see how he feels."],
+    "keys": { "тато": "dad|father", "спершу": "first|before" }
+   },
+   {
+    "sit": "Ти хочеш переманити досвідченого розробника з іншої компанії, але відкрито пропонувати поки рано.",
+    "say": "Спробуй непомітно дізнатися, чи готовий він змінити роботу.",
+    "ans": ["Try to sound him out about changing jobs.", "Can you sound him out on whether he’d move to a new job?", "Maybe sound him out quietly — see if he’s open to a new job."],
+    "keys": { "змінити роботу": "job*|work|move|switch*|leav*|position|role" }
+   }
+  ]
+ },
+ {
+  "id": 3051, "w": "speak for", "uk": "говорити від імені", "lvl": "B2",
+  "forms": "speak|speaks|spoke|spoken|speaking",
+  "tail": "for",
+  "near": "represent*|on behalf|behalf",
+  "tasks": [
+   {
+    "sit": "На нараді пропонують скасувати віддалену роботу. Колеги доручили тобі висловитися за всіх.",
+    "say": "Я говорю від імені всього відділу: ми проти.",
+    "ans": ["I speak for the whole department: we’re against it.", "I’m speaking for the whole department — we don’t support this.", "I think I speak for the whole department when I say we’re against it."],
+    "keys": { "відділ": "department|team|everyone|all|us", "проти": "against|not support|oppose*|disagree" }
+   },
+   {
+    "sit": "Після кіно друг каже, що фільм був жахливий і всім було нудно.",
+    "say": "Говори за себе! Мені фільм сподобався.",
+    "ans": ["Speak for yourself! I liked the film.", "Speak for yourself — I really enjoyed the movie.", "Hey, speak for yourself, I loved that film!"],
+    "keys": { "фільм": "film|movie", "сподобався": "lik*|enjoy*|lov*" }
+   },
+   {
+    "sit": "Ви з групою туристів у готелі, і номери виявилися брудними. Ти йдеш на рецепцію від усіх.",
+    "say": "Я говорю від імені всієї групи — номери брудні.",
+    "ans": ["I’m speaking for the whole group — the rooms are dirty.", "I speak for everyone in our group: the rooms aren’t clean.", "I’m here speaking for the whole group, and honestly, the rooms are filthy."],
+    "keys": { "група": "group|everyone|all", "брудні": "dirty|clean|filthy|mess*" }
+   }
+  ]
+ },
+ {
+  "id": 3052, "w": "spell out", "uk": "розтлумачити / сказати по літерах", "lvl": "B2",
+  "forms": "spell|spells|spelled/spelt|spelled/spelt|spelling",
+  "tail": "out",
+  "near": "explain*|clarif*|make it clear|made it clear|dictat*",
+  "tasks": [
+   {
+    "sit": "Новий стажер утретє робить звіт не так. Ти вирішуєш пояснити йому все до дрібниць.",
+    "say": "Гаразд, я розпишу тобі все крок за кроком.",
+    "ans": ["Okay, I’ll spell it all out for you step by step.", "Fine, let me spell out every step for you.", "Right, I’ll spell it out for you, step by step."],
+    "keys": { "крок за кроком": "step*|everything|all|detail*" }
+   },
+   {
+    "sit": "Ти бронюєш готель телефоном, а адміністратор ніяк не може правильно записати твоє прізвище.",
+    "say": "Давайте я продиктую прізвище по літерах.",
+    "ans": ["Let me spell out my surname for you.", "I’ll spell out my last name letter by letter.", "Shall I spell out my surname? It’s a tricky one."],
+    "keys": { "прізвище": "surname|last name|name" }
+   },
+   {
+    "sit": "Ти вже тиждень натякаєш сусідові по кімнаті, що його черга мити посуд, а він не розуміє.",
+    "say": "Мені що, розжувати тобі? Помий посуд!",
+    "ans": ["Do I have to spell it out for you? Wash the dishes!", "Do I really need to spell it out? Do the dishes!", "Do I have to spell it out? The dishes, mate!"],
+    "keys": { "посуд": "dish*|plates|washing up" }
+   }
+  ]
+ },
+ {
+  "id": 3053, "w": "stand up for", "uk": "заступатися за", "lvl": "B1",
+  "forms": "stand|stands|stood|stood|standing",
+  "tail": "up for",
+  "near": "defend*|protect*|stick up|stuck up|sticking up|support*|back* up|backed up",
+  "tasks": [
+   {
+    "sit": "Старшокласники насміхалися з твого молодшого брата, і ти втрутився. Мама питає, що сталося.",
+    "say": "Я заступився за брата.",
+    "ans": ["I stood up for my brother.", "I stood up for my little brother when they were teasing him.", "Of course I stood up for my little brother!"],
+    "keys": { "брат": "brother" }
+   },
+   {
+    "sit": "На нараді начальник несправедливо звинуватив колегу. Ти згадуєш це в розмові з подругою.",
+    "say": "Ніхто, крім мене, за неї не заступився.",
+    "ans": ["Nobody stood up for her except me.", "No one stood up for her apart from me.", "I was the only one who stood up for her."],
+    "keys": { "ніхто": "nobody|no one|only|none", "за неї": "her" }
+   },
+   {
+    "sit": "Подруга скаржиться, що сусіди постійно ставлять машину на її місце, а вона мовчить.",
+    "say": "Тобі треба вміти постояти за себе.",
+    "ans": ["You need to stand up for yourself.", "You have to learn to stand up for yourself.", "Come on, you’ve got to stand up for yourself!"],
+    "keys": { "себе": "yourself" }
+   }
+  ]
+ },
+ {
+  "id": 3054, "w": "stick up for", "uk": "заступатися (розмовно)", "lvl": "B2",
+  "forms": "stick|sticks|stuck|stuck|sticking",
+  "tail": "up for",
+  "near": "stand up|stood up|standing up|defend*|protect*|back* up|backed up|support*",
+  "tasks": [
+   {
+    "sit": "На перерві однокласники забрали в тебе рюкзак, а новенький хлопець їх зупинив.",
+    "say": "Дякую, що заступився за мене!",
+    "ans": ["Thanks for sticking up for me!", "Thank you for sticking up for me back there.", "Hey, thanks for sticking up for me, man."],
+    "keys": { "дякую": "thank*|cheers" }
+   },
+   {
+    "sit": "Мама сварить молодшу сестру за розбиту вазу, хоча насправді її розбив кіт.",
+    "say": "Мамо, я заступлюся за неї — це кіт розбив вазу!",
+    "ans": ["Mum, I’m sticking up for her — the cat broke the vase!", "I’ll stick up for her, Mum: it was the cat that broke the vase.", "Mum, I have to stick up for her here — the cat did it!"],
+    "keys": { "кіт": "cat", "мамо": "mum|mom|mother" }
+   },
+   {
+    "sit": "У груповому чаті всі насміхалися з твого друга. Дівчина питає, навіщо ти втрутився.",
+    "say": "Хтось мав за нього заступитися.",
+    "ans": ["Someone had to stick up for him.", "Somebody needed to stick up for him.", "Well, someone had to stick up for the guy."],
+    "keys": { "хтось": "someone|somebody|anyone", "мав": "had to|needed|have to|must|should" }
+   }
+  ]
+ },
+ {
+  "id": 3055, "w": "storm out", "uk": "вилетіти (розлючено)", "lvl": "B2",
+  "forms": "storm|storms|stormed|stormed|storming",
+  "tail": "out",
+  "near": "walk* out|walked out|left|leave|leaving|rush* out|rushed out|ran out|run out|march* out|marched out",
+  "tasks": [
+   {
+    "sit": "Колега пропустив учорашню нараду й питає, що там було.",
+    "say": "Директор розлютився й вилетів із зали посеред наради.",
+    "ans": ["The director got angry and stormed out in the middle of the meeting.", "The boss stormed out of the room halfway through the meeting.", "The boss totally lost it and stormed out in the middle of the meeting!"],
+    "keys": { "директор": "director|boss|ceo|manager|head", "нарада": "meeting" }
+   },
+   {
+    "sit": "Під час сімейної вечері брат посварився з батьком. Ти розповідаєш про це подрузі.",
+    "say": "Брат грюкнув дверима й вилетів із кухні.",
+    "ans": ["My brother slammed the door and stormed out of the kitchen.", "My brother stormed out of the kitchen, slamming the door.", "He just stormed out of the kitchen and slammed the door."],
+    "keys": { "кухня": "kitchen", "двері": "door*" }
+   },
+   {
+    "sit": "У ресторані чоловік за сусіднім столиком довго сварився з офіціантом.",
+    "say": "Зрештою він вилетів із ресторану, не заплативши.",
+    "ans": ["In the end he stormed out of the restaurant without paying.", "He finally stormed out without paying the bill.", "And then he stormed out without even paying!"],
+    "keys": { "не заплативши": "pay*|paid|bill" }
+   }
+  ]
+ },
+ {
+  "id": 3056, "w": "sum up", "uk": "підсумовувати", "lvl": "B1",
+  "forms": "sum|sums|summed|summed|summing",
+  "tail": "up",
+  "near": "summari*|summaris*|recap*|conclude|conclusion|in short|in brief",
+  "tasks": [
+   {
+    "sit": "Ти закінчуєш презентацію річних результатів перед інвесторами.",
+    "say": "Підсумовуючи: наш прибуток зріс на десять відсотків.",
+    "ans": ["To sum up, our profit grew by ten percent.", "So, to sum up: our profits went up by 10 percent.", "Just to sum up — we made ten percent more this year."],
+    "keys": { "прибуток": "profit*|revenue|made|earn*|income", "десять відсотків": "ten|10*|percent" }
+   },
+   {
+    "sit": "Викладачка просить тебе коротко переказати розділ, який ви читали вдома.",
+    "say": "Я можу підсумувати розділ одним реченням.",
+    "ans": ["I can sum up the chapter in one sentence.", "I can sum the chapter up in a single sentence.", "Let me sum up the whole chapter in one sentence."],
+    "keys": { "розділ": "chapter|section|text", "одним реченням": "sentence|few words" }
+   },
+   {
+    "sit": "Друг питає, як пройшло твоє перше побачення. Ти відповідаєш коротко.",
+    "say": "Якщо підсумувати одним словом — катастрофа.",
+    "ans": ["To sum it up in one word: a disaster.", "If I had to sum it up in one word, I’d say disaster.", "One word sums it up: disaster."],
+    "keys": { "катастрофа": "disaster*|catastroph*|nightmare", "одним словом": "one word|word" }
+   }
+  ]
+ },
+ {
+  "id": 3057, "w": "take back", "uk": "забирати слова назад", "lvl": "B1",
+  "forms": "take|takes|took|taken|taking",
+  "tail": "back",
+  "near": "withdraw*|retract*|did not mean|do not mean|apologi*",
+  "tasks": [
+   {
+    "sit": "Ти посварився з сестрою й назвав її егоїсткою. Через годину тобі соромно.",
+    "say": "Я забираю свої слова назад. Ти не егоїстка.",
+    "ans": ["I take back what I said. You’re not selfish.", "I take it back — you aren’t selfish at all.", "Okay, I take that back. You’re not selfish."],
+    "keys": { "егоїстка": "selfish*|egois*" }
+   },
+   {
+    "sit": "Ти казав, що новий нападник вашої команди — повний нуль, а він забив два голи.",
+    "say": "Гаразд, беру свої слова назад — він класний.",
+    "ans": ["Okay, I take back what I said about him — he’s brilliant.", "Fine, I take it all back, he’s really good.", "Alright, I take it back. The guy is amazing."],
+    "keys": { "класний": "great|brilliant|good|amazing|awesome|fantastic" }
+   },
+   {
+    "sit": "Керівник пообіцяв команді вихідний у пʼятницю, а тепер хоче передумати.",
+    "say": "Ви ж обіцяли вихідний — не можна просто забрати свої слова назад!",
+    "ans": ["You promised us a day off — you can’t just take it back!", "You can’t take back your promise of a day off!", "Come on, you promised us Friday off. You can’t take that back now!"],
+    "keys": { "обіцяли": "promis*", "вихідний": "day off|friday|off" }
+   }
+  ]
+ },
+ {
+  "id": 3058, "w": "talk down to", "uk": "говорити зверхньо", "lvl": "C1",
+  "forms": "talk|talks|talked|talked|talking",
+  "tail": "down to",
+  "near": "patroniz*|patronis*|condescend*|look* down on|looked down on|treat* like",
+  "tasks": [
+   {
+    "sit": "Новий колега-сеньйор пояснює тобі все так, ніби ти першокласник.",
+    "say": "Припини говорити зі мною зверхньо — я не дитина.",
+    "ans": ["Stop talking down to me — I’m not a child.", "Please don’t talk down to me, I’m not a kid.", "Can you stop talking down to me? I’m not five."],
+    "keys": { "дитина": "child|kid|baby|five", "припини": "stop|not|quit" }
+   },
+   {
+    "sit": "Старша сестра не розуміє, чому її син-підліток перестав із нею розмовляти.",
+    "say": "Мені здається, ти говориш із ним зверхньо.",
+    "ans": ["I think you talk down to him.", "I feel like you’re talking down to him.", "Honestly, I think you talk down to him a bit."],
+    "keys": { "з ним": "him|son|kid|boy" }
+   },
+   {
+    "sit": "Консультант у магазині техніки пояснював тобі все так, ніби ти не знаєш, що таке ноутбук.",
+    "say": "Мені не сподобалося, що продавець говорив зі мною так зверхньо.",
+    "ans": ["I didn’t like how the salesman talked down to me.", "I didn’t like the way the shop assistant talked down to me.", "The guy in the shop really talked down to me, and I hated it."],
+    "keys": { "продавець": "sales*|assistant|guy|staff|shop|seller|consultant", "не сподобалося": "not like|hated|annoy*|disliked" }
+   }
+  ]
+ },
+ {
+  "id": 3059, "w": "talk into", "uk": "умовити (щось зробити)", "lvl": "B2",
+  "forms": "talk|talks|talked|talked|talking",
+  "tail": "into",
+  "near": "persuad*|convinc*|made me|make me|get me to|got me to",
+  "tasks": [
+   {
+    "sit": "Ти прийшов в автосалон подивитися на скромну машину, а поїхав на значно дорожчій.",
+    "say": "Продавець умовив мене купити дорожчу модель.",
+    "ans": ["The salesman talked me into buying a more expensive model.", "The dealer talked me into buying the pricier model.", "The sales guy totally talked me into getting the expensive one."],
+    "keys": { "дорожча": "expensive|pric*|cost*", "купити": "buy*|bought|getting|get|model" }
+   },
+   {
+    "sit": "Ти ніколи не любив караоке, але вчора співав на сцені. Колега не вірить.",
+    "say": "Друзі вмовили мене заспівати.",
+    "ans": ["My friends talked me into singing.", "My friends talked me into doing karaoke.", "My mates somehow talked me into getting on stage and singing."],
+    "keys": { "друзі": "friend*|mates|they|guys", "заспівати": "sing*|karaoke|sang" }
+   },
+   {
+    "sit": "Сестра записалася на марафон і вже тиждень кличе тебе з собою.",
+    "say": "Навіть не намагайся вмовити мене бігти марафон!",
+    "ans": ["Don’t try to talk me into running a marathon!", "Don’t even try to talk me into the marathon.", "You’re not going to talk me into running a marathon!"],
+    "keys": { "марафон": "marathon", "не": "not|never" }
+   }
+  ]
+ },
+ {
+  "id": 3060, "w": "talk out of", "uk": "відмовити (від дії)", "lvl": "B2",
+  "forms": "talk|talks|talked|talked|talking",
+  "tail": "out of",
+  "near": "dissuad*|convinc*|persuad*|stop*|stopped|change* his mind|changed his mind",
+  "tasks": [
+   {
+    "sit": "Твій друг хотів звільнитися просто посеред сварки з начальником, але ти з ним поговорив.",
+    "say": "Я відмовив його від звільнення.",
+    "ans": ["I talked him out of quitting.", "I talked him out of quitting his job.", "Luckily, I managed to talk him out of quitting."],
+    "keys": { "звільнення": "quit*|resign*|leav*|job" }
+   },
+   {
+    "sit": "Ти хотів зробити величезне татуювання на всю руку, але передумав після розмови з мамою.",
+    "say": "Мама відмовила мене від татуювання.",
+    "ans": ["My mum talked me out of getting a tattoo.", "Mum talked me out of the tattoo.", "My mum talked me out of that huge tattoo, thank God."],
+    "keys": { "мама": "mom|mum|mother", "татуювання": "tattoo*" }
+   },
+   {
+    "sit": "Подруга збирається сама йти в гори, хоча обіцяють сильну грозу. Ти пишеш її братові.",
+    "say": "Спробуй відмовити її від цієї поїздки.",
+    "ans": ["Try to talk her out of this trip.", "Please try to talk her out of going.", "Can you try to talk her out of going up there alone?"],
+    "keys": { "поїздка": "trip|going|go|journey|hike" }
+   }
+  ]
+ },
+ {
+  "id": 3061, "w": "talk through", "uk": "детально обговорити", "lvl": "B2",
+  "forms": "talk|talks|talked|talked|talking",
+  "tail": "through",
+  "near": "discuss*|go over|went over|going over|talk about|talked about|walk* through|walked through",
+  "tasks": [
+   {
+    "sit": "За тиждень ваша команда запускає новий застосунок, а в плані ще багато неясного.",
+    "say": "Давай детально обговоримо план перед запуском.",
+    "ans": ["Let’s talk through the plan before the launch.", "Let’s talk the plan through before we launch.", "Can we talk the plan through before launch day?"],
+    "keys": { "план": "plan", "запуск": "launch*|start*" }
+   },
+   {
+    "sit": "Ви з дружиною думаєте брати іпотеку, і банк уже надіслав договір.",
+    "say": "Нам треба все детально обговорити, перш ніж підписувати.",
+    "ans": ["We need to talk everything through before we sign.", "We should talk it all through before signing anything.", "Let’s talk it through properly before we sign."],
+    "keys": { "підписувати": "sign*" }
+   },
+   {
+    "sit": "Лікар пропонує операцію на коліні, а ти хвилюєшся й хочеш розібратися.",
+    "say": "Ви можете детально розповісти мені про всі варіанти?",
+    "ans": ["Can you talk me through the options?", "Could you talk me through all the options?", "Could you talk me through my options, step by step?"],
+    "keys": { "варіанти": "option*|choice*|alternative*" }
+   }
+  ]
+ },
+ {
+  "id": 3062, "w": "tell apart", "uk": "розрізняти", "lvl": "B2",
+  "forms": "tell|tells|told|told|telling",
+  "tail": "apart",
+  "near": "distinguish*|tell the difference|difference|differentiate*|recogni*",
+  "tasks": [
+   {
+    "sit": "У вашому класі нові учні — близнюки. Учителька постійно їх плутає, і однокласник питає, чи ти їх розрізняєш.",
+    "say": "Я теж не можу їх розрізнити.",
+    "ans": ["I can’t tell them apart either.", "I can’t tell the twins apart either.", "Honestly, I can’t tell them apart either."],
+    "keys": { "теж": "either|too|also|neither" }
+   },
+   {
+    "sit": "На дегустації тобі наливають дороге й дешеве вино й просять вгадати, яке є яке.",
+    "say": "Чесно, я не розрізняю дороге й дешеве вино.",
+    "ans": ["Honestly, I can’t tell expensive and cheap wine apart.", "To be honest, I can’t tell cheap wine and expensive wine apart.", "I couldn’t tell cheap and expensive wine apart."],
+    "keys": { "вино": "wine*", "дороге й дешеве": "cheap*|expensive|pric*" }
+   },
+   {
+    "sit": "Ти вперше пішов у ліс по гриби з досвідченим другом.",
+    "say": "Як ти розрізняєш їстівні й отруйні гриби?",
+    "ans": ["How do you tell edible and poisonous mushrooms apart?", "How can you tell safe and poisonous mushrooms apart?", "So how do you tell them apart — the safe ones and the poisonous ones?"],
+    "keys": { "гриби": "mushroom*|them|ones", "отруйні": "poison*|toxic|deadly" }
+   }
+  ]
+ },
+ {
+  "id": 3063, "w": "tick off", "uk": "відмічати галочкою", "lvl": "B1",
+  "forms": "tick|ticks|ticked|ticked|ticking",
+  "tail": "off",
+  "near": "check* off|checked off|cross* off|crossed off|mark*|crossed",
+  "tasks": [
+   {
+    "sit": "Ви з мамою в супермаркеті з довгим списком покупок. Вона питає, що ти там робиш у телефоні.",
+    "say": "Я відмічаю галочкою все, що ми вже взяли.",
+    "ans": ["I’m ticking off everything we’ve already got.", "I’ll tick off everything we’ve already taken.", "I’m just ticking off whatever is already in the trolley."],
+    "keys": { "вже взяли": "already|got|taken|trolley|cart|bought" }
+   },
+   {
+    "sit": "Робочий день закінчується, і ти дивишся у свій список завдань на сьогодні.",
+    "say": "Як приємно відмітити останнє завдання в списку!",
+    "ans": ["It feels so good to tick off the last task on the list!", "It’s so satisfying to tick off the last task!", "Nothing beats ticking off the last item on my to-do list!"],
+    "keys": { "останнє": "last|final", "завдання": "task*|item*|thing*" }
+   },
+   {
+    "sit": "Ти нарешті стоїш біля Ейфелевої вежі — ти мріяв про це з дитинства.",
+    "say": "Ще одне місце можна відмітити в моєму списку мрій!",
+    "ans": ["Another place I can tick off my bucket list!", "I can finally tick off Paris on my bucket list.", "One more place to tick off my travel list!"],
+    "keys": { "список": "list", "місце": "place|city|paris|another|one more" }
+   }
+  ]
+ },
+ {
+  "id": 3064, "w": "tip off", "uk": "попереджати / зливати інформацію", "lvl": "C1",
+  "forms": "tip|tips|tipped|tipped|tipping",
+  "tail": "off",
+  "near": "warn*|inform*|tell|told|alert*|leak*|grass*|snitch*",
+  "tasks": [
+   {
+    "sit": "Ти читаєш новину про те, як у вашому районі затримали банду викрадачів авто.",
+    "say": "Хтось анонімно попередив поліцію.",
+    "ans": ["Someone tipped off the police anonymously.", "The police were tipped off by an anonymous caller.", "Apparently someone anonymously tipped off the cops."],
+    "keys": { "поліція": "police|cops|officer*", "анонімно": "anonym*" }
+   },
+   {
+    "sit": "Сусідній відділ чомусь заздалегідь прибрав усі папери перед неочікуваною перевіркою.",
+    "say": "Хто вас попередив про перевірку?",
+    "ans": ["Who tipped you off about the inspection?", "Who tipped you off about the audit?", "So who tipped you off about the inspection?"],
+    "keys": { "перевірка": "inspect*|audit*|check*|visit" }
+   },
+   {
+    "sit": "Ви тиждень готували другові вечірку-сюрприз, а він прийшов уже все знаючи.",
+    "say": "Хтось його попередив про вечірку!",
+    "ans": ["Somebody tipped him off about the party!", "Someone must have tipped him off about the party.", "Who tipped him off? He knew about the party!"],
+    "keys": { "вечірка": "party|surprise" }
+   }
+  ]
+ },
+ {
+  "id": 3065, "w": "tone down", "uk": "помʼякшувати", "lvl": "B2",
+  "forms": "tone|tones|toned|toned|toning",
+  "tail": "down",
+  "near": "soften*|water* down|watered down|moderat*|tame|calm* down|calmed down|less harsh",
+  "tasks": [
+   {
+    "sit": "Колега показує тобі сердитий лист клієнтові перед відправленням.",
+    "say": "Помʼякши трохи лист, він звучить надто різко.",
+    "ans": ["Tone down the email a bit, it sounds too harsh.", "You should tone the email down — it sounds too aggressive.", "Maybe tone the email down a little? It sounds really harsh."],
+    "keys": { "лист": "email|mail|letter|message", "різко": "harsh|rude|aggressive|angry|sharp|strong" }
+   },
+   {
+    "sit": "Дизайнерка показує тобі проєкт кухні з яскраво-червоними стінами.",
+    "say": "Мені подобається, але чи можна трохи приглушити колір?",
+    "ans": ["I like it, but can we tone down the colour a bit?", "Could we tone the red down slightly? I like it otherwise.", "I love it, but maybe tone down the colour a little?"],
+    "keys": { "колір": "colo*|red|shade", "трохи": "bit|little|slight*|touch" }
+   },
+   {
+    "sit": "На весіллі друг уже добряче випив і голосно жартує про наречену.",
+    "say": "Слухай, збав оберти — тут її батьки.",
+    "ans": ["Hey, tone it down a bit — her parents are here.", "Listen, you need to tone it down, her parents are right there.", "Mate, tone it down — her parents can hear you."],
+    "keys": { "батьки": "parents|family|mum|dad" }
+   }
+  ]
+ },
+ {
+  "id": 3066, "w": "turn to", "uk": "звертатися по допомогу", "lvl": "B1",
+  "forms": "turn|turns|turned|turned|turning",
+  "tail": "to",
+  "near": "ask* for help|asked for help|go to|went to|rely on|count on|lean on|depend on",
+  "tasks": [
+   {
+    "sit": "Колега питає, хто тебе підтримує, коли в житті все йде шкереберть.",
+    "say": "Коли мені погано, я завжди звертаюся до сестри.",
+    "ans": ["When I feel bad, I always turn to my sister.", "I always turn to my sister when I’m feeling down.", "My sister is the one I turn to when things get tough."],
+    "keys": { "сестра": "sister|sis", "погано": "bad|down|tough|hard|sad|upset|wrong" }
+   },
+   {
+    "sit": "Ти щойно переїхав до нової країни й поки нікого там не знаєш.",
+    "say": "Тут мені навіть нема до кого звернутися по допомогу.",
+    "ans": ["I don’t even have anyone to turn to here.", "There’s nobody I can turn to for help here.", "Honestly, I have no one to turn to here."],
+    "keys": { "нема": "not|nobody|no one", "тут": "here" }
+   },
+   {
+    "sit": "Бізнес твого знайомого опинився на межі банкрутства, і банки відмовили йому в кредиті.",
+    "say": "Йому довелося звернутися по допомогу до батьків.",
+    "ans": ["He had to turn to his parents for help.", "He ended up turning to his parents for money.", "In the end, he had to turn to his parents."],
+    "keys": { "батьки": "parents|family|mum|dad|mom" }
+   }
+  ]
+ },
+ {
+  "id": 3067, "w": "water down", "uk": "помʼякшувати / розводити", "lvl": "C1",
+  "forms": "water|waters|watered|watered|watering",
+  "tail": "down",
+  "near": "soften*|tone* down|toned down|weaken*|dilut*",
+  "tasks": [
+   {
+    "sit": "Ти написав чесний звіт про проблеми в компанії, а керівництво прибрало з нього всі гострі моменти.",
+    "say": "Мій звіт так помʼякшили, що від нього нічого не лишилося.",
+    "ans": ["My report was watered down so much that there’s nothing left.", "They watered down my report until there was nothing left in it.", "They’ve watered down my report so much, there’s basically nothing left."],
+    "keys": { "звіт": "report", "нічого не лишилося": "nothing|no point|empty" }
+   },
+   {
+    "sit": "Ти читаєш новину про закон проти забруднення річок.",
+    "say": "Уряд помʼякшив закон під тиском бізнесу.",
+    "ans": ["The government watered down the law under pressure from business.", "The law was watered down after pressure from big companies.", "They watered down the law because businesses pushed back."],
+    "keys": { "закон": "law|bill|rule*", "бізнес": "business*|compan*|industr*|corporat*" }
+   },
+   {
+    "sit": "Ти вже третій вечір у цьому барі, і коктейлі щоразу здаються слабшими.",
+    "say": "Мені здається, вони розбавляють напої.",
+    "ans": ["I think they water down the drinks.", "I’m sure they’re watering down the drinks here.", "I swear they water down the cocktails here."],
+    "keys": { "напої": "drink*|cocktail*|alcohol|vodka|beer" }
+   }
+  ]
+ },
+ {
+  "id": 3068, "w": "win over", "uk": "завойовувати прихильність", "lvl": "B2",
+  "forms": "win|wins|won|won|winning",
+  "tail": "over",
+  "near": "charm*|impress*|convinc*|persuad*|won their hearts|win their hearts",
+  "tasks": [
+   {
+    "sit": "Твоя подруга вперше виступала зі стендапом, і спочатку зал мовчав.",
+    "say": "Але під кінець вона таки завоювала публіку.",
+    "ans": ["But by the end she won over the audience.", "By the end, she’d completely won the audience over.", "But she totally won the crowd over by the end."],
+    "keys": { "публіка": "audience|crowd|room|people", "під кінець": "end|finally" }
+   },
+   {
+    "sit": "Батьки твоєї дівчини спочатку були до тебе дуже холодні. Друг питає, як зараз.",
+    "say": "Я все-таки завоював прихильність її батьків.",
+    "ans": ["I finally won over her parents.", "In the end, I won her parents over.", "I managed to win her parents over eventually."],
+    "keys": { "батьки": "parents|mum|dad|family|mother|father" }
+   },
+   {
+    "sit": "Ваша команда готує презентацію для дуже скептичного клієнта. Ти показуєш колегам свіжі дані.",
+    "say": "Цими цифрами ми точно переконаємо клієнта.",
+    "ans": ["These numbers will definitely win the client over.", "We’ll win over the client with these figures.", "Trust me, these numbers will win the client over."],
+    "keys": { "цифри": "number*|figure*|data|stat*", "клієнт": "client*|customer*" }
+   }
+  ]
+ }
+]

@@ -1,0 +1,633 @@
+[
+ {
+  "id": 596, "w": "prosecute", "uk": "притягати до суду, переслідувати в суді", "lvl": "C1",
+  "forms": "prosecute|prosecutes|prosecuted|prosecuted|prosecuting",
+  "near": "sue*|sued|charg*|take to court|took to court|taken to court|press charges|pressed charges|indict*",
+  "tasks": [
+   {
+    "sit": "Ти обговорюєш з колегою новину про корупційний скандал у міській раді.",
+    "say": "Сумніваюся, що їх колись притягнуть до суду.",
+    "ans": ["I doubt they’ll ever be prosecuted.", "I doubt anyone will ever prosecute them.", "Honestly, I doubt they’ll ever get prosecuted."],
+    "keys": { "сумніваюся": "doubt*|not think|unlikely", "колись": "ever|never" }
+   },
+   {
+    "sit": "Ти керуєш магазином, де охорона вже втретє ловить того самого крадія.",
+    "say": "Цього разу ми подамо на нього до суду.",
+    "ans": ["This time we will prosecute him.", "We’re going to prosecute him this time.", "That’s it — this time we’re prosecuting him."],
+    "keys": { "цього разу": "this time" }
+   },
+   {
+    "sit": "Ти студент-юрист і пояснюєш молодшій сестрі, хто такий прокурор.",
+    "say": "Прокурор — це юрист, який обвинувачує людей у суді від імені держави.",
+    "ans": ["A prosecutor is a lawyer who prosecutes people on behalf of the state.", "Prosecutors are lawyers who prosecute people for the state.", "Basically, a prosecutor is the lawyer who prosecutes people for the government."],
+    "keys": { "держава": "state|government|country|public", "юрист": "lawyer*|attorney*" }
+   }
+  ]
+ },
+ {
+  "id": 597, "w": "defend", "uk": "захищати (у суді, на словах)", "lvl": "B2",
+  "forms": "defend|defends|defended|defended|defending",
+  "near": "represent*|protect*|stand up for|stood up for|back*|support*",
+  "tasks": [
+   {
+    "sit": "Ти адвокат, і журналіст питає, чому ти взявся за гучну й непопулярну справу.",
+    "say": "Я захищатиму свого клієнта, бо кожен має право на захист.",
+    "ans": ["I will defend my client because everyone has the right to a lawyer.", "I’m going to defend my client — everyone deserves a fair trial.", "I’ll defend my client, because everybody has a right to a defense."],
+    "keys": { "клієнт": "client*", "кожен": "everyone|everybody|anyone|every" }
+   },
+   {
+    "sit": "На нараді начальник критикує твою колегу за провал проєкту, хоча вона не винна.",
+    "say": "Я захищав її, бо вона ні в чому не винна.",
+    "ans": ["I defended her because it wasn’t her fault.", "I defended her — it wasn’t her fault at all.", "Of course I defended her, it wasn’t her fault!"],
+    "keys": { "її": "her", "не винна": "fault|blame|nothing wrong|innocent" }
+   },
+   {
+    "sit": "Через тиждень у тебе захист дипломної роботи, і друзі кличуть тебе на вечірку.",
+    "say": "Наступного тижня я захищаю диплом.",
+    "ans": ["I’m defending my thesis next week.", "Next week I defend my thesis.", "I defend my thesis next week — wish me luck!"],
+    "keys": { "диплом": "thesis|dissertation|diploma|project", "наступного тижня": "next week|week" }
+   }
+  ]
+ },
+ {
+  "id": 598, "w": "convict", "uk": "визнавати винним (у суді)", "lvl": "C1",
+  "forms": "convict|convicts|convicted|convicted|convicting",
+  "near": "found guilty|find guilty|finds guilty|sentenc*|jail*|condemn*",
+  "tasks": [
+   {
+    "sit": "Ти читаєш новини про суд над колишнім міністром і розповідаєш про це дружині.",
+    "say": "Його визнали винним у хабарництві.",
+    "ans": ["He was convicted of bribery.", "He’s been convicted of taking bribes.", "They convicted him of bribery!"],
+    "keys": { "хабарництво": "brib*|corrupt*" }
+   },
+   {
+    "sit": "Ти був присяжним у суді й розповідаєш другові, чому вирок був виправдувальний.",
+    "say": "Доказів було замало, щоб визнати його винним.",
+    "ans": ["There wasn’t enough evidence to convict him.", "We didn’t have enough evidence to convict him.", "The evidence just wasn’t strong enough to convict him."],
+    "keys": { "доказів": "evidence|proof", "замало": "not enough|enough|weak|little" }
+   },
+   {
+    "sit": "Ти дивишся документальний серіал про судові помилки.",
+    "say": "Уяви: його визнали винним у злочині, якого він не скоював.",
+    "ans": ["He was convicted of a crime he didn’t commit.", "They convicted him of a crime he never committed.", "Imagine — he got convicted for something he didn’t do."],
+    "keys": { "злочин": "crime*|something|murder", "не скоював": "not commit|never committed|not do|innocent" }
+   }
+  ]
+ },
+ {
+  "id": 599, "w": "sentence", "uk": "засудити (до покарання)", "lvl": "C1",
+  "forms": "sentence|sentences|sentenced|sentenced|sentencing",
+  "near": "jail*|convict*|condemn*|lock up|locked up|sent to prison|send to prison|put away",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш колегам про справу шахрая, який обдурив сотні пенсіонерів.",
+    "say": "Його засудили до восьми років ув’язнення.",
+    "ans": ["He was sentenced to eight years in prison.", "They sentenced him to eight years in prison.", "He got sentenced to eight years behind bars."],
+    "keys": { "вісім": "eight|8*", "ув’язнення": "prison|jail|behind bars" }
+   },
+   {
+    "sit": "Ти обговорюєш із другом аварію, яку спричинив п’яний водій.",
+    "say": "Сподіваюся, суддя засудить його до реального терміну.",
+    "ans": ["I hope the judge sentences him to real prison time.", "Hopefully the judge will sentence him to actual jail time.", "I really hope the judge sentences him to proper jail time."],
+    "keys": { "суддя": "judge|court", "термін": "prison|jail|time" }
+   },
+   {
+    "sit": "На уроці історії ви обговорюєте долю Нельсона Мандели.",
+    "say": "У шістдесят четвертому році його засудили до довічного ув’язнення.",
+    "ans": ["He was sentenced to life in prison in 1964.", "In 1964 he was sentenced to life imprisonment.", "Back in 1964, they sentenced him to life."],
+    "keys": { "довічне": "life", "1964": "1964|64|sixty*" }
+   }
+  ]
+ },
+ {
+  "id": 600, "w": "pardon", "uk": "помилувати", "lvl": "C1",
+  "forms": "pardon|pardons|pardoned|pardoned|pardoning",
+  "near": "forgive*|forgave|releas*|free|freed|let off|let go|amnest*|spare*",
+  "tasks": [
+   {
+    "sit": "Ти читаєш новини: журналіста, засудженого через статтю, раптом звільнили.",
+    "say": "Президент помилував журналіста.",
+    "ans": ["The president pardoned the journalist.", "The journalist was pardoned by the president.", "The president actually pardoned the journalist!"],
+    "keys": { "президент": "president", "журналіст": "journalist*|reporter*" }
+   },
+   {
+    "sit": "На уроці історії ти робиш доповідь про повстання дев’ятнадцятого століття.",
+    "say": "Цар помилував повстанців в останню хвилину.",
+    "ans": ["The tsar pardoned the rebels at the last minute.", "At the last minute, the tsar pardoned the rebels.", "The tsar pardoned the rebels right at the last moment."],
+    "keys": { "повстанці": "rebel*|rioter*|insurgent*", "в останню хвилину": "last minute|last moment|last second" }
+   },
+   {
+    "sit": "На дебатах з політології тобі дісталася тема про право помилування.",
+    "say": "Я вважаю, що президент не повинен милувати своїх друзів.",
+    "ans": ["I believe the president shouldn’t pardon his own friends.", "In my view, a president should never pardon his friends.", "Honestly, presidents shouldn’t be able to pardon their friends."],
+    "keys": { "друзі": "friend*|allies|cronies", "не повинен": "not|never" }
+   }
+  ]
+ },
+ {
+  "id": 601, "w": "kidnap", "uk": "викрадати (людину)", "lvl": "B2",
+  "forms": "kidnap|kidnaps|kidnapped/kidnaped|kidnapped/kidnaped|kidnapping/kidnaping",
+  "near": "abduct*|snatch*|grab*|hostage*",
+  "tasks": [
+   {
+    "sit": "Ти переказуєш другові сюжет нового трилера.",
+    "say": "Там викрадають доньку мільйонера.",
+    "ans": ["In it, a millionaire’s daughter gets kidnapped.", "They kidnap a millionaire’s daughter.", "Basically, some guys kidnap a millionaire’s daughter."],
+    "keys": { "донька": "daughter|girl|kid", "мільйонер": "millionaire*|rich*|billionaire*" }
+   },
+   {
+    "sit": "У новинах повідомили про туристів, яких захопили в заручники в горах.",
+    "say": "Кажуть, туристів викрали просто з готелю.",
+    "ans": ["They say the tourists were kidnapped right from their hotel.", "Apparently someone kidnapped the tourists from their hotel.", "Apparently, the tourists got kidnapped straight from the hotel."],
+    "keys": { "туристи": "tourist*|travel*", "готель": "hotel*" }
+   },
+   {
+    "sit": "Друзі забрали тебе з роботи й везуть на вечірку-сюрприз, не кажучи куди.",
+    "say": "Ви що, мене викрадаєте?",
+    "ans": ["Are you kidnapping me?", "Wait, are you guys kidnapping me?", "What is this, are you kidnapping me or something?"],
+    "keys": { "мене": "me" }
+   }
+  ]
+ },
+ {
+  "id": 602, "w": "smuggle", "uk": "перевозити контрабандою, проносити потай", "lvl": "C1",
+  "forms": "smuggle|smuggles|smuggled|smuggled|smuggling",
+  "near": "sneak*|snuck|traffic*|transport*|bring in|brought in|slip in|slipped in",
+  "tasks": [
+   {
+    "sit": "Ти працюєш на митниці й розповідаєш знайомим про сьогоднішнє затримання.",
+    "say": "Він намагався провезти контрабандою сигарети у валізі.",
+    "ans": ["He tried to smuggle cigarettes in his suitcase.", "He was trying to smuggle cigarettes in a suitcase.", "The guy tried smuggling cigarettes in his suitcase."],
+    "keys": { "сигарети": "cigarette*|tobacco|smokes", "валіза": "suitcase*|luggage|bag*" }
+   },
+   {
+    "sit": "Ти з другом ідеш у кіно, де заборонено приносити свою їжу.",
+    "say": "Давай потай пронесемо снеки в рюкзаку.",
+    "ans": ["Let’s smuggle some snacks in my backpack.", "Why don’t we smuggle snacks in my backpack?", "Let’s just smuggle some snacks in the backpack."],
+    "keys": { "снеки": "snack*|food|chips|candy", "рюкзак": "backpack*|bag*|rucksack*" }
+   },
+   {
+    "sit": "Ти переказуєш подрузі, що почув на екскурсії в старому порту.",
+    "say": "У дев’ятнадцятому столітті тут контрабандою ввозили ром.",
+    "ans": ["In the nineteenth century, they smuggled rum through here.", "Rum was smuggled through this port in the 1800s.", "Back in the 1800s, people smuggled rum in here."],
+    "keys": { "ром": "rum|alcohol|liquor", "дев’ятнадцяте століття": "nineteenth|19*|1800*" }
+   }
+  ]
+ },
+ {
+  "id": 603, "w": "trespass", "uk": "незаконно заходити на чужу територію", "lvl": "C1",
+  "forms": "trespass|trespasses|trespassed|trespassed|trespassing",
+  "near": "break in|broke in|broken in|enter*|sneak*|snuck|intrud*|invad*",
+  "tasks": [
+   {
+    "sit": "Ти з друзями в поході, і стежка веде повз паркан з табличкою «Приватна власність».",
+    "say": "Туди не можна: це приватна земля, ми зайдемо на неї незаконно.",
+    "ans": ["We can’t go there, we’d be trespassing on private land.", "No, we’d be trespassing — it’s private property.", "Let’s not go in there, that’s trespassing on private land."],
+    "keys": { "приватна": "private|someone else's|their", "не можна": "not|no|can not" }
+   },
+   {
+    "sit": "Ти працюєш охоронцем на будівельному майданчику й бачиш підлітків за огорожею.",
+    "say": "Ви тут незаконно, це приватна територія.",
+    "ans": ["You’re trespassing, this is private property.", "You’re trespassing on private property.", "Hey, you guys are trespassing — this is private property!"],
+    "keys": { "приватна територія": "private|property|site" }
+   },
+   {
+    "sit": "Сусіди постійно зрізають шлях через твій сад.",
+    "say": "Я вже казав їм, що вони без дозволу ходять моєю ділянкою.",
+    "ans": ["I’ve told them they’re trespassing on my land.", "I already told them they’re trespassing on my property.", "I keep telling them they’re trespassing on my land!"],
+    "keys": { "моя ділянка": "land|property|garden|yard" }
+   }
+  ]
+ },
+ {
+  "id": 604, "w": "vandalize", "uk": "навмисно псувати, нищити (чуже майно)", "lvl": "C1",
+  "forms": "vandalize/vandalise|vandalizes/vandalises|vandalized/vandalised|vandalized/vandalised|vandalizing/vandalising",
+  "near": "damag*|destroy*|wreck*|smash*|spray-paint*|deface*|trash*|ruin*",
+  "tasks": [
+   {
+    "sit": "Зранку ти йдеш до метро й бачиш, що нову зупинку розмалювали та розбили.",
+    "say": "Хтось уночі понівечив нову автобусну зупинку.",
+    "ans": ["Someone vandalized the new bus stop last night.", "The new bus stop was vandalized overnight.", "Some idiots vandalized the new bus stop last night."],
+    "keys": { "зупинка": "bus stop|stop|shelter", "вночі": "night|overnight" }
+   },
+   {
+    "sit": "Ти директор школи і звертаєшся до учнів на загальних зборах.",
+    "say": "Хто понівечив туалети, той платитиме за ремонт.",
+    "ans": ["Whoever vandalized the toilets will pay for the repairs.", "The students who vandalized the bathrooms will pay for repairs.", "If you vandalized the toilets, you’ll be paying for the repairs."],
+    "keys": { "туалети": "toilet*|bathroom*|restroom*", "ремонт": "repair*|fix*|damage*" }
+   },
+   {
+    "sit": "Ти пояснюєш колезі, чому запізнився на роботу.",
+    "say": "Мою машину вночі понівечили — розбили дзеркала.",
+    "ans": ["Someone vandalized my car last night and smashed the mirrors.", "My car was vandalized overnight — they broke the mirrors.", "Some jerk vandalized my car last night, the mirrors are smashed."],
+    "keys": { "машина": "car", "дзеркала": "mirror*" }
+   }
+  ]
+ },
+ {
+  "id": 606, "w": "lack", "uk": "бракувати, не мати достатньо", "lvl": "B2",
+  "forms": "lack|lacks|lacked|lacked|lacking",
+  "near": "need*|miss*|short of|not have|not enough|without",
+  "tasks": [
+   {
+    "sit": "Менеджерка з персоналу питає, чому ти не взяв кандидата на посаду.",
+    "say": "Йому бракує досвіду роботи з клієнтами.",
+    "ans": ["He lacks experience with clients.", "He lacks experience working with clients.", "He just lacks client experience."],
+    "keys": { "досвід": "experience*", "клієнти": "client*|customer*" }
+   },
+   {
+    "sit": "Тренер з танців питає, чому ти завжди стоїш у задньому ряду.",
+    "say": "Мені бракує впевненості в собі.",
+    "ans": ["I lack confidence in myself.", "I guess I lack self-confidence.", "Honestly, I just lack confidence."],
+    "keys": { "впевненість": "confidence|self-confidence|self-esteem" }
+   },
+   {
+    "sit": "Ти читаєш відгук викладача на свій курсовий проєкт.",
+    "say": "Тут пишуть, що моїй роботі бракує чіткої структури.",
+    "ans": ["It says my work lacks a clear structure.", "Apparently my paper lacks clear structure.", "They say my project lacks a clear structure."],
+    "keys": { "структура": "structure", "чітка": "clear|proper|logical" }
+   }
+  ]
+ },
+ {
+  "id": 607, "w": "consist of", "uk": "складатися з", "lvl": "B2",
+  "forms": "consist|consists|consisted|consisted|consisting",
+  "tail": "of",
+  "near": "made up of|make up|include*|contain*|compris*|composed of",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш новому колезі про ваш відділ.",
+    "say": "Наша команда складається з п’яти розробників і дизайнера.",
+    "ans": ["Our team consists of five developers and a designer.", "The team consists of five developers plus one designer.", "Our team consists of just five devs and a designer."],
+    "keys": { "п’ять": "five|5*", "розробники": "developer*|devs|programmer*|engineer*" }
+   },
+   {
+    "sit": "Одногрупник питає про формат завтрашнього іспиту.",
+    "say": "Іспит складається з трьох частин: тесту, есе й усної частини.",
+    "ans": ["The exam consists of three parts: a test, an essay and an oral part.", "It consists of three parts — a test, an essay and a speaking part.", "The exam consists of three parts: multiple choice, an essay, and speaking."],
+    "keys": { "три частини": "three|3*", "есе": "essay*" }
+   },
+   {
+    "sit": "Іноземний гість у тебе вдома пробує борщ і питає, що в ньому.",
+    "say": "Борщ складається переважно з буряка, капусти й картоплі.",
+    "ans": ["Borscht consists mainly of beetroot, cabbage and potatoes.", "Borscht mostly consists of beets, cabbage and potatoes.", "It consists mainly of beetroot, cabbage and potato."],
+    "keys": { "буряк": "beet*", "капуста": "cabbage" }
+   }
+  ]
+ },
+ {
+  "id": 608, "w": "contain", "uk": "містити (в собі)", "lvl": "B1",
+  "forms": "contain|contains|contained|contained|containing",
+  "near": "has|have|had|includ*|consist*|full of",
+  "tasks": [
+   {
+    "sit": "Ти в супермаркеті з другом, який сидить на дієті.",
+    "say": "Дивись, цей сік містить багато цукру.",
+    "ans": ["Look, this juice contains a lot of sugar.", "Look — this juice contains loads of sugar.", "Check it out, this juice contains tons of sugar."],
+    "keys": { "сік": "juice|drink", "цукор": "sugar" }
+   },
+   {
+    "sit": "Ти в ресторані, а в тебе алергія на горіхи.",
+    "say": "Скажіть, будь ласка, ця страва містить горіхи?",
+    "ans": ["Excuse me, does this dish contain nuts?", "Does this dish contain any nuts?", "Sorry, does this contain nuts? I’m allergic."],
+    "keys": { "горіхи": "nut*|peanut*" }
+   },
+   {
+    "sit": "Колега питає, що в архіві, який ти йому надіслав.",
+    "say": "Архів містить усі звіти за минулий рік.",
+    "ans": ["The archive contains all the reports from last year.", "The zip file contains all of last year’s reports.", "That folder contains all the reports from last year."],
+    "keys": { "звіти": "report*", "минулий рік": "last year*|previous year" }
+   }
+  ]
+ },
+ {
+  "id": 609, "w": "resemble", "uk": "бути схожим на", "lvl": "C1",
+  "forms": "resemble|resembles|resembled|resembled|resembling",
+  "near": "look like|looks like|looked like|take after|takes after|similar|same as|remind*",
+  "tasks": [
+   {
+    "sit": "Ти з сестрою переглядаєш старі фото, де ваш дідусь ще молодий.",
+    "say": "Ти дуже схожа на дідуся в молодості.",
+    "ans": ["You really resemble Grandpa when he was young.", "You strongly resemble our grandfather as a young man.", "Wow, you really resemble Grandpa back when he was young."],
+    "keys": { "дідусь": "grand*", "молодість": "young*|back then" }
+   },
+   {
+    "sit": "Ти з подругою в галереї сучасного мистецтва дивишся на дивну скульптуру.",
+    "say": "Ця скульптура схожа на гігантський банан.",
+    "ans": ["This sculpture resembles a giant banana.", "The sculpture kind of resembles a huge banana.", "Honestly, that sculpture resembles a giant banana."],
+    "keys": { "банан": "banana*", "величезний": "giant|huge|big|enormous" }
+   },
+   {
+    "sit": "Ти дизайнер і бачиш новий логотип конкурентів.",
+    "say": "Їхній новий логотип підозріло схожий на наш.",
+    "ans": ["Their new logo suspiciously resembles ours.", "Their new logo resembles ours a bit too much.", "Their new logo resembles ours way too closely."],
+    "keys": { "логотип": "logo*", "наш": "ours|our" }
+   }
+  ]
+ },
+ {
+  "id": 610, "w": "stand for", "uk": "означати; виступати за", "lvl": "B2",
+  "forms": "stand|stands|stood|stood|standing",
+  "tail": "for",
+  "near": "mean*|meant|represent*|short for|support*|believe in",
+  "tasks": [
+   {
+    "sit": "Колега в листі написав «ASAP», а новий стажер не розуміє, що це.",
+    "say": "Ця абревіатура означає «якнайшвидше».",
+    "ans": ["It stands for “as soon as possible.”", "ASAP stands for “as soon as possible.”", "That just stands for “as soon as possible.”"],
+    "keys": { "якнайшвидше": "as soon as possible|soon" }
+   },
+   {
+    "sit": "Ти волонтериш у передвиборчому штабі й розмовляєш з виборцем.",
+    "say": "Наша партія виступає за чесні вибори й свободу слова.",
+    "ans": ["Our party stands for fair elections and free speech.", "We stand for fair elections and freedom of speech.", "Our party stands for honest elections and free speech."],
+    "keys": { "вибори": "election*|vote*", "свобода слова": "free speech|freedom|speech" }
+   },
+   {
+    "sit": "Син робить домашнє завдання й питає, що означають літери «UN» у підручнику.",
+    "say": "Це означає «Організація Об’єднаних Націй».",
+    "ans": ["It stands for the United Nations.", "UN stands for United Nations.", "Those letters stand for the United Nations."],
+    "keys": { "Об’єднані Нації": "united nations|nations" }
+   }
+  ]
+ },
+ {
+  "id": 611, "w": "differ from", "uk": "відрізнятися від", "lvl": "B2",
+  "forms": "differ|differs|differed|differed|differing",
+  "tail": "from",
+  "near": "different from|is different|are different|vary|varies|distinct|unlike|not like",
+  "tasks": [
+   {
+    "sit": "Іноземець питає тебе, чи схожі українська та російська мови.",
+    "say": "Українська дуже відрізняється від російської.",
+    "ans": ["Ukrainian differs a lot from Russian.", "Ukrainian differs greatly from Russian.", "Ukrainian really differs from Russian in many ways."],
+    "keys": { "українська": "ukrainian", "російська": "russian" }
+   },
+   {
+    "sit": "Ти порівнюєш дві комерційні пропозиції від постачальників.",
+    "say": "Ця пропозиція майже не відрізняється від попередньої.",
+    "ans": ["This offer barely differs from the previous one.", "This offer hardly differs from the last one.", "Honestly, this offer doesn’t differ much from the last one."],
+    "keys": { "майже не": "barely|hardly|not|little", "попередня": "previous|last|earlier|first|other" }
+   },
+   {
+    "sit": "Ти щойно повернувся з Японії, і друзі питають про враження.",
+    "say": "Їхня культура дуже відрізняється від нашої.",
+    "ans": ["Their culture differs a lot from ours.", "Japanese culture differs hugely from ours.", "Their culture really differs from ours in so many ways."],
+    "keys": { "культура": "cultur*|life|way", "наша": "ours|our" }
+   }
+  ]
+ },
+ {
+  "id": 612, "w": "equal", "uk": "дорівнювати", "lvl": "B1",
+  "forms": "equal|equals|equalled/equaled|equalled/equaled|equalling/equaling",
+  "near": "is|makes|make|comes to|come to|adds up to|add up to|same as",
+  "tasks": [
+   {
+    "sit": "Ти допомагаєш молодшому братові з домашнім завданням з математики.",
+    "say": "Дивись: сім помножити на вісім дорівнює п’ятдесят шість.",
+    "ans": ["Look: seven times eight equals fifty-six.", "Seven multiplied by eight equals fifty-six.", "Okay, so seven times eight equals fifty-six."],
+    "keys": { "сім на вісім": "seven|7*", "п’ятдесят шість": "fifty*|56" }
+   },
+   {
+    "sit": "Ти в обмінному пункті в Польщі й рахуєш уголос.",
+    "say": "Сто доларів дорівнює приблизно чотирьомстам злотим.",
+    "ans": ["A hundred dollars equals about four hundred zlotys.", "One hundred dollars equals roughly four hundred zloty.", "So a hundred bucks equals about four hundred zloty."],
+    "keys": { "сто доларів": "hundred|100*|dollar*|bucks", "чотириста": "four hundred|400*" }
+   },
+   {
+    "sit": "Ти пояснюєш другові, як готувати за американським рецептом.",
+    "say": "Одна чашка дорівнює приблизно двомстам сорока мілілітрам.",
+    "ans": ["One cup equals about two hundred and forty milliliters.", "One cup equals roughly 240 ml.", "So basically one cup equals around 240 milliliters."],
+    "keys": { "чашка": "cup*", "мілілітри": "milli*|ml" }
+   }
+  ]
+ },
+ {
+  "id": 613, "w": "recollect", "uk": "пригадувати", "lvl": "C1",
+  "forms": "recollect|recollects|recollected|recollected|recollecting",
+  "near": "remember*|recall*|come back|came back",
+  "tasks": [
+   {
+    "sit": "Поліцейський просить тебе як свідка описати аварію.",
+    "say": "Я не можу пригадати, якого кольору була машина.",
+    "ans": ["I can’t recollect what colour the car was.", "I don’t recollect the colour of the car.", "Honestly, I can’t recollect what color the car was."],
+    "keys": { "машина": "car|vehicle", "колір": "colour*|color*" }
+   },
+   {
+    "sit": "Бабуся питає, чи пам’ятаєш ти, як вона вчила тебе пекти пиріжки.",
+    "say": "Так, я смутно пригадую ту кухню й запах тіста.",
+    "ans": ["Yes, I vaguely recollect that kitchen and the smell of dough.", "I do vaguely recollect the kitchen and the smell of the dough.", "Yeah, I vaguely recollect that kitchen — and that smell of dough."],
+    "keys": { "кухня": "kitchen", "смутно": "vague*|dim*|a bit|slightly" }
+   },
+   {
+    "sit": "На переговорах партнер стверджує, що ви домовлялися про знижку.",
+    "say": "Не пригадую, щоб ми погоджувалися на знижку.",
+    "ans": ["I don’t recollect agreeing to a discount.", "I don’t recollect that we agreed to any discount.", "Sorry, I can’t recollect us ever agreeing to a discount."],
+    "keys": { "знижка": "discount*", "погоджувалися": "agree*" }
+   }
+  ]
+ },
+ {
+  "id": 617, "w": "savour", "uk": "смакувати, насолоджуватися", "lvl": "C1",
+  "forms": "savour/savor|savours/savors|savoured/savored|savoured/savored|savouring/savoring",
+  "near": "enjoy*|relish*|taste*|appreciat*",
+  "tasks": [
+   {
+    "sit": "Ти в дорогому ресторані, а друг ковтає десерт за кілька секунд.",
+    "say": "Не поспішай, смакуй кожен шматочок!",
+    "ans": ["Slow down, savour every bite!", "Don’t rush — savour each bite!", "Take it slow and savour every bite!"],
+    "keys": { "кожен шматочок": "bite*|spoonful|piece*|mouthful", "не поспішай": "slow*|rush*|hurry" }
+   },
+   {
+    "sit": "Останній вечір відпустки ти сидиш на березі моря й дивишся на захід сонця.",
+    "say": "Хочу насолодитися цим моментом, поки він триває.",
+    "ans": ["I want to savour this moment while it lasts.", "I just want to savour the moment while it lasts.", "Let me savour this moment while it lasts."],
+    "keys": { "момент": "moment|this|now", "поки триває": "last*|while" }
+   },
+   {
+    "sit": "Твоя команда нарешті закрила найбільший контракт року.",
+    "say": "Давайте хоч день посмакуємо цю перемогу.",
+    "ans": ["Let’s savour this win for at least a day.", "Let’s savour the victory for a day at least.", "Come on, let’s savour this win for one day at least."],
+    "keys": { "перемога": "win|victory|success", "день": "day" }
+   }
+  ]
+ },
+ {
+  "id": 618, "w": "lick", "uk": "лизати", "lvl": "B1",
+  "forms": "lick|licks|licked|licked|licking",
+  "near": "taste*|eat*|ate|suck*",
+  "tasks": [
+   {
+    "sit": "Спекотний день у парку, і в племінника почало танути морозиво.",
+    "say": "Швидше лизни морозиво, бо воно тече!",
+    "ans": ["Lick your ice cream quickly, it’s melting!", "Quick, lick the ice cream — it’s dripping!", "Lick it fast, your ice cream’s melting!"],
+    "keys": { "морозиво": "ice cream*|ice-cream|it", "тече": "melt*|drip*|running" }
+   },
+   {
+    "sit": "Гості вперше прийшли до тебе, і пес радісно кидається до них.",
+    "say": "Не бійтеся, він просто вас лизне.",
+    "ans": ["Don’t worry, he’ll just lick you.", "Don’t be scared, he only wants to lick you.", "It’s okay, he’s just going to lick you!"],
+    "keys": { "вас": "you", "не бійтеся": "worr*|scared|afraid|okay|fine" }
+   },
+   {
+    "sit": "Ти печеш торт, а племінник крутиться біля тебе на кухні.",
+    "say": "Можеш облизати ложку, коли я закінчу.",
+    "ans": ["You can lick the spoon when I’m done.", "When I’m finished, you can lick the spoon.", "Once I’m done, you can lick the spoon, okay?"],
+    "keys": { "ложка": "spoon*|bowl", "коли закінчу": "done|finish*|after" }
+   }
+  ]
+ },
+ {
+  "id": 619, "w": "sniff", "uk": "нюхати, обнюхувати", "lvl": "B1",
+  "forms": "sniff|sniffs|sniffed|sniffed|sniffing",
+  "near": "smell*|smelt|inhal*|breathe*",
+  "tasks": [
+   {
+    "sit": "Ти дістаєш з холодильника молоко, термін якого минув учора.",
+    "say": "Спочатку понюхаю, чи воно не скисло.",
+    "ans": ["Let me sniff it first to see if it’s gone off.", "I’ll sniff the milk first to check if it’s sour.", "I’ll give it a sniff first to see if it’s gone bad."],
+    "keys": { "скисло": "off|sour|bad|spoil*", "спочатку": "first" }
+   },
+   {
+    "sit": "Ти вигулюєш собаку, а вона зупиняється біля кожного дерева.",
+    "say": "Їй обов’язково треба обнюхати кожен кущ по дорозі.",
+    "ans": ["She has to sniff every bush on the way.", "She needs to sniff every single bush along the way.", "She just has to sniff every bush we pass."],
+    "keys": { "кущ": "bush*|tree*|shrub*", "кожен": "every|each|all" }
+   },
+   {
+    "sit": "Ти в парфумерному магазині обираєш подарунок мамі.",
+    "say": "Я понюхав уже десять ароматів і нічого не відчуваю.",
+    "ans": ["I’ve sniffed ten perfumes already and I can’t smell anything.", "I already sniffed ten scents and now I can’t smell a thing.", "I’ve sniffed about ten perfumes — my nose has given up."],
+    "keys": { "десять": "ten|10*", "аромати": "perfume*|scent*|fragrance*|smell*" }
+   }
+  ]
+ },
+ {
+  "id": 620, "w": "inhale", "uk": "вдихати", "lvl": "B2",
+  "forms": "inhale|inhales|inhaled|inhaled|inhaling",
+  "near": "breathe*|breath|breathing|take a breath|took a breath|sniff*",
+  "tasks": [
+   {
+    "sit": "Ти ведеш заняття з йоги.",
+    "say": "Повільно вдихніть через ніс.",
+    "ans": ["Inhale slowly through your nose.", "Slowly inhale through the nose.", "Now inhale slowly through your nose."],
+    "keys": { "ніс": "nose|nostril*", "повільно": "slow*|deep*" }
+   },
+   {
+    "sit": "Ти на прийомі в лікаря й описуєш біль у грудях.",
+    "say": "Мені боляче, коли я глибоко вдихаю.",
+    "ans": ["It hurts when I inhale deeply.", "When I inhale deeply, it hurts.", "It really hurts whenever I inhale deeply."],
+    "keys": { "боляче": "hurt*|pain*|sore|ache*", "глибоко": "deep*" }
+   },
+   {
+    "sit": "Ти пояснюєш дітям правила пожежної безпеки.",
+    "say": "Під час пожежі головне — не вдихати дим.",
+    "ans": ["In a fire, the main thing is not to inhale the smoke.", "During a fire, try not to inhale smoke.", "If there’s a fire, whatever you do, don’t inhale the smoke."],
+    "keys": { "дим": "smoke|fumes", "пожежа": "fire*" }
+   }
+  ]
+ },
+ {
+  "id": 621, "w": "put on", "uk": "одягати (на себе)", "lvl": "A2",
+  "forms": "put|puts|put|put|putting",
+  "tail": "on",
+  "near": "wear*|wore|worn|dress*|get dressed|got dressed|slip on|slipped on",
+  "tasks": [
+   {
+    "sit": "Ти з дитиною виходиш з дому, а надворі мінус десять.",
+    "say": "Одягни шапку, надворі холодно!",
+    "ans": ["Put on your hat, it’s cold outside!", "Put your hat on — it’s freezing outside!", "Hey, put a hat on, it’s cold out there!"],
+    "keys": { "шапка": "hat|beanie|cap", "холодно": "cold|freezing|chilly" }
+   },
+   {
+    "sit": "Ти інструктуєш нового працівника в лабораторії.",
+    "say": "Перш ніж заходити, одягни халат і рукавички.",
+    "ans": ["Put on a lab coat and gloves before you go in.", "Before going in, put on your lab coat and gloves.", "Put your coat and gloves on before you go in."],
+    "keys": { "рукавички": "glove*", "халат": "coat|gown|lab" }
+   },
+   {
+    "sit": "Ти збираєшся на вечірку й не можеш вибрати, що вдягти.",
+    "say": "Мабуть, одягну ту нову сорочку.",
+    "ans": ["I think I’ll put on that new shirt.", "I’ll probably put on the new shirt.", "Maybe I’ll just put that new shirt on."],
+    "keys": { "сорочка": "shirt", "нова": "new" }
+   }
+  ]
+ },
+ {
+  "id": 622, "w": "take off", "uk": "знімати (одяг, взуття)", "lvl": "A2",
+  "forms": "take|takes|took|taken|taking",
+  "tail": "off",
+  "near": "remove*|undress*|pull off|pulled off|slip off|slipped off|kick off|kicked off",
+  "tasks": [
+   {
+    "sit": "До тебе прийшли гості, а в тебе щойно помиті підлоги.",
+    "say": "Будь ласка, зніміть взуття.",
+    "ans": ["Please take off your shoes.", "Could you take your shoes off, please?", "Would you mind taking your shoes off?"],
+    "keys": { "взуття": "shoe*|boot*|sneaker*" }
+   },
+   {
+    "sit": "Ти лікар і збираєшся послухати пацієнта стетоскопом.",
+    "say": "Зніміть, будь ласка, светр і сорочку.",
+    "ans": ["Please take off your sweater and shirt.", "Could you take off your jumper and shirt, please?", "Just take your sweater and shirt off for me, please."],
+    "keys": { "светр": "sweater|jumper|pullover|top", "сорочка": "shirt|top" }
+   },
+   {
+    "sit": "У спортзалі після розминки стало спекотно.",
+    "say": "Мені жарко, зніму куртку.",
+    "ans": ["I’m hot, I’ll take off my jacket.", "It’s so hot — I’m taking my jacket off.", "Phew, it’s hot — I’m going to take my jacket off."],
+    "keys": { "куртка": "jacket|hoodie|top", "жарко": "hot|warm|sweat*" }
+   }
+  ]
+ },
+ {
+  "id": 623, "w": "try on", "uk": "приміряти", "lvl": "A2",
+  "forms": "try|tries|tried|tried|trying",
+  "tail": "on",
+  "near": "fit*|put on|see if it fits",
+  "tasks": [
+   {
+    "sit": "Ти в магазині одягу й тримаєш у руках джинси.",
+    "say": "Можна їх приміряти?",
+    "ans": ["Can I try them on?", "Could I try these jeans on?", "Is it okay if I try these on?"],
+    "keys": { "їх": "them|these|jeans" }
+   },
+   {
+    "sit": "Тобі прийшло онлайн-замовлення з трьома парами кросівок.",
+    "say": "Приміряю всі три пари, а зайві поверну.",
+    "ans": ["I’ll try on all three pairs and send back the ones I don’t need.", "I’m going to try all three pairs on and return the rest.", "I’ll try them all on and send the others back."],
+    "keys": { "повернути": "return*|send back|back", "три пари": "three|3*|all" }
+   },
+   {
+    "sit": "Весілля брата вже через тиждень, а костюм ще в ательє.",
+    "say": "Завтра йду приміряти костюм.",
+    "ans": ["Tomorrow I’m going to try on the suit.", "I’m trying on my suit tomorrow.", "I’m going in to try the suit on tomorrow."],
+    "keys": { "костюм": "suit|tux*", "завтра": "tomorrow" }
+   }
+  ]
+ },
+ {
+  "id": 624, "w": "button", "uk": "застібати (на ґудзики)", "lvl": "B2",
+  "forms": "button|buttons|buttoned|buttoned|buttoning",
+  "near": "zip*|fasten*|do up|did up|done up|close*",
+  "tasks": [
+   {
+    "sit": "Ти збираєш сина в садок, а він виходить у розстебнутій курточці.",
+    "say": "Застебни курточку, надворі вітер.",
+    "ans": ["Button up your jacket, it’s windy outside.", "Button your jacket — it’s windy out.", "Come here, let’s button up your coat — it’s windy!"],
+    "keys": { "куртка": "jacket|coat", "вітер": "wind*|cold" }
+   },
+   {
+    "sit": "Перед співбесідою друг показує тобі, як він виглядає.",
+    "say": "Застебни сорочку до кінця — це ж офіційна співбесіда.",
+    "ans": ["Button your shirt all the way up — it’s a formal interview.", "Button up your shirt properly, it’s a formal interview.", "You should button your shirt up, it’s a formal interview."],
+    "keys": { "сорочка": "shirt|collar", "співбесіда": "interview*" }
+   },
+   {
+    "sit": "Ти вийшов з теплого кафе на мороз, і пальці не слухаються.",
+    "say": "Я не можу застебнути пальто — пальці замерзли.",
+    "ans": ["I can’t button my coat — my fingers are frozen.", "My fingers are so cold I can’t button my coat.", "I can’t even button my coat, my fingers are numb."],
+    "keys": { "пальто": "coat|jacket", "пальці": "finger*|hand*" }
+   }
+  ]
+ }
+]

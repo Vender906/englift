@@ -1,0 +1,639 @@
+[
+ {
+  "id": 1998, "w": "reschedule", "uk": "перенести (нараду, дзвінок) на інший час", "lvl": "B2",
+  "forms": "reschedule|reschedules|rescheduled|rescheduled|rescheduling",
+  "near": "move|moved|moving|push back|pushed back|postpone*|put off|change the time|changed the time|shift*",
+  "tasks": [
+   {
+    "sit": "У тебе збігаються два дзвінки. Ти пишеш клієнтові.",
+    "say": "Можемо перенести наш дзвінок на четвер?",
+    "ans": ["Can we reschedule our call for Thursday?", "Could we reschedule the call to Thursday?", "Any chance we could reschedule our call to Thursday?"],
+    "keys": { "дзвінок": "call*|meeting*|chat", "четвер": "thursday" }
+   },
+   {
+    "sit": "Ти захворів і не підеш до стоматолога. Телефонуєш у клініку.",
+    "say": "Мені треба перенести запис.",
+    "ans": ["I need to reschedule my appointment.", "I’d like to reschedule my appointment, please.", "Hi, I need to reschedule my appointment."],
+    "keys": { "запис": "appointment*|visit*|booking*" }
+   },
+   {
+    "sit": "Колега питає, чому щотижнева нарада сьогодні не відбулася.",
+    "say": "Її перенесли на наступний тиждень.",
+    "ans": ["It was rescheduled for next week.", "They’ve rescheduled it to next week.", "Oh, it got rescheduled for next week."],
+    "keys": { "наступний тиждень": "next week|following week" }
+   }
+  ]
+ },
+ {
+  "id": 1999, "w": "pitch an idea", "uk": "презентувати ідею (щоб переконати)", "lvl": "B2",
+  "forms": "pitch|pitches|pitched|pitched|pitching",
+  "tail": "idea*",
+  "near": "present*|propose*|suggest*|sell the idea|sold the idea|put forward|bring up|brought up",
+  "tasks": [
+   {
+    "sit": "У вас зі співзасновником стартапу завтра зустріч з інвесторами. Він питає, хто говоритиме.",
+    "say": "Давай я презентую ідею, а ти покажеш цифри.",
+    "ans": ["Let me pitch the idea, and you show the numbers.", "I’ll pitch the idea and you can present the numbers.", "How about I pitch the idea and you handle the numbers?"],
+    "keys": { "цифри": "number*|figure*|financ*|data" }
+   },
+   {
+    "sit": "Колега вагається, чи пропонувати начальниці нову рубрику для блогу компанії.",
+    "say": "Просто презентуй їй свою ідею на нараді!",
+    "ans": ["Just pitch your idea to her at the meeting!", "Just pitch her your idea at the meeting!", "Come on, just pitch her the idea at the meeting!"],
+    "keys": { "нарада": "meeting*|call|standup" }
+   },
+   {
+    "sit": "Друг питає, як пройшла твоя зустріч на телеканалі, куди ти ходив зі сценарієм серіалу.",
+    "say": "Я презентував ідею, і їм сподобалося!",
+    "ans": ["I pitched the idea and they loved it!", "I pitched my idea, and they liked it!", "I pitched them the idea and they actually loved it!"],
+    "keys": { "сподобалося": "lov*|lik*|enjoy*|into it" }
+   }
+  ]
+ },
+ {
+  "id": 2000, "w": "table a topic", "uk": "винести на обговорення (брит.) / відкласти питання (амер.)", "lvl": "C1",
+  "forms": "table|tables|tabled|tabled|tabling",
+  "tail": "topic*/issue*/proposal*/question*/it/this/that/matter*/motion*/amendment*/plan*",
+  "near": "raise*|put forward|bring up|brought up|propose*|submit*|postpone*|put off|shelve*|park*",
+  "tasks": [
+   {
+    "sit": "Ти в правлінні британської благодійної організації. На засіданні хочеш офіційно подати питання про новий бюджет.",
+    "say": "Я хотів би винести на обговорення питання бюджету.",
+    "ans": ["I’d like to table the issue of the budget.", "I would like to table a proposal on the budget.", "I’d like to table the budget issue for discussion."],
+    "keys": { "бюджет": "budget*|money|fund*" }
+   },
+   {
+    "sit": "Ти читаєш британські новини про парламент і переказуєш колезі.",
+    "say": "Опозиція винесла на розгляд поправку до закону.",
+    "ans": ["The opposition tabled an amendment to the law.", "The opposition has tabled an amendment to the bill.", "Apparently the opposition tabled an amendment to the law."],
+    "keys": { "опозиція": "opposition", "закон": "law*|bill*|act" }
+   },
+   {
+    "sit": "Нарада з американськими колегами затягнулася, а суперечка про логотип ніяк не закінчується. Ти пропонуєш відкласти це.",
+    "say": "Давайте відкладемо це питання до наступної зустрічі.",
+    "ans": ["Let’s table this until the next meeting.", "Why don’t we table this issue until next time?", "Okay, let’s table that for the next meeting."],
+    "keys": { "наступна зустріч": "next|later|another" }
+   }
+  ]
+ },
+ {
+  "id": 2001, "w": "unsubscribe", "uk": "відписуватися (від розсилки)", "lvl": "B1",
+  "forms": "unsubscribe|unsubscribes|unsubscribed|unsubscribed|unsubscribing",
+  "near": "opt out|opted out|stop getting|stop receiving|cancel*|remove me|take me off|block*",
+  "tasks": [
+   {
+    "sit": "Ти щоранку знаходиш у пошті десяток рекламних листів від магазину, де колись купив куртку.",
+    "say": "Треба нарешті відписатися від цієї розсилки.",
+    "ans": ["I need to finally unsubscribe from this newsletter.", "I should finally unsubscribe from their emails.", "I really need to unsubscribe from this mailing list."],
+    "keys": { "розсилка": "newsletter*|email*|e-mail*|mailing*|list*|spam" }
+   },
+   {
+    "sit": "Колега скаржиться, що не може знайти, як відписатися від листів сервісу доставки.",
+    "say": "Кнопка «Відписатися» зазвичай унизу листа.",
+    "ans": ["You can usually unsubscribe at the bottom of the email.", "The unsubscribe link is usually at the bottom of the email.", "There’s usually an unsubscribe button at the bottom of the email."],
+    "keys": { "унизу": "bottom|end|below", "листа": "email*|e-mail*|message*|letter*" }
+   },
+   {
+    "sit": "Мама питає, чому ти більше не отримуєш листів від вашої старої спортзали.",
+    "say": "Я від них відписався ще місяць тому.",
+    "ans": ["I unsubscribed from them a month ago.", "I unsubscribed from their emails about a month ago.", "Oh, I unsubscribed like a month ago."],
+    "keys": { "місяць тому": "month*" }
+   }
+  ]
+ },
+ {
+  "id": 2002, "w": "star an email", "uk": "позначити (лист) зірочкою", "lvl": "B1",
+  "forms": "star|stars|starred|starred|starring",
+  "tail": "email*/e-mail*/emails/message*/it/them/one*/letter*/thread*",
+  "near": "flag*|mark*|pin*|bookmark*|save*|highlight*",
+  "tasks": [
+   {
+    "sit": "Колега надіслав тобі лист з паролями до тестового сервера. Ти боїшся його загубити.",
+    "say": "Позначу цей лист зірочкою, щоб не загубити.",
+    "ans": ["I’ll star this email so I don’t lose it.", "Let me star this email so I won’t lose it.", "I’ll just star that email so I don’t lose it."],
+    "keys": { "не загубити": "lose|lost|find|forget" }
+   },
+   {
+    "sit": "Ти навчаєш нового працівника, як не пропускати важливе в пошті.",
+    "say": "Позначай зірочкою все, на що треба відповісти.",
+    "ans": ["Star every email you need to reply to.", "Star the emails that need a reply.", "Just star any email you still have to answer."],
+    "keys": { "відповісти": "reply*|answer*|respond*" }
+   },
+   {
+    "sit": "Начальниця питає, чи ти бачив її лист про відпустки.",
+    "say": "Так, я позначив його зірочкою й відповім сьогодні.",
+    "ans": ["Yes, I starred it and I’ll reply today.", "Yes, I’ve starred it and will answer today.", "Yep, I starred it — I’ll get back to you today."],
+    "keys": { "сьогодні": "today|tonight|later" }
+   }
+  ]
+ },
+ {
+  "id": 2003, "w": "shadow", "uk": "стажуватися поряд, спостерігаючи за роботою колеги", "lvl": "C1",
+  "forms": "shadow|shadows|shadowed|shadowed|shadowing",
+  "near": "follow*|observe*|watch*|work alongside|worked alongside|learn from|learned from|intern*|train* with",
+  "tasks": [
+   {
+    "sit": "Ти перший день на новій роботі в IT. Друг питає, що ти сьогодні робив.",
+    "say": "Я весь день стажувався поряд із сеньйором, спостерігаючи, як він працює.",
+    "ans": ["I shadowed a senior developer all day.", "All day I was shadowing one of the senior devs.", "I basically shadowed a senior guy all day."],
+    "keys": { "сеньйор": "senior*", "весь день": "all day|whole day|entire day" }
+   },
+   {
+    "sit": "Ти студент-медик. Родичі питають про твою практику в лікарні.",
+    "say": "Цього тижня я ходжу слідом за хірургом і дивлюся, як він працює.",
+    "ans": ["This week I’m shadowing a surgeon.", "I’m shadowing a surgeon this week.", "This week I get to shadow a surgeon!"],
+    "keys": { "хірург": "surgeon*|doctor*", "цього тижня": "this week|week" }
+   },
+   {
+    "sit": "Ти керівник відділу. До вас приходить новенька, і ти плануєш її перший тиждень.",
+    "say": "Перші кілька днів вона стажуватиметься поряд з Оленою.",
+    "ans": ["She’ll shadow Olena for the first few days.", "For the first few days, she’s going to shadow Olena.", "She’ll be shadowing Olena for the first couple of days."],
+    "keys": { "Олена": "olena", "перші дні": "first|day*" }
+   }
+  ]
+ },
+ {
+  "id": 2004, "w": "cover a shift", "uk": "взяти чужу зміну, підмінити", "lvl": "B2",
+  "forms": "cover|covers|covered|covered|covering",
+  "tail": "shift*",
+  "near": "swap shifts|swapped shifts|take my shift|took my shift|fill in|filled in|stand in|work for me|worked for me|replace*",
+  "tasks": [
+   {
+    "sit": "Ти бариста, а в суботу в тебе весілля друга. Пишеш колезі.",
+    "say": "Можеш узяти мою зміну в суботу?",
+    "ans": ["Can you cover my shift on Saturday?", "Could you cover my Saturday shift?", "Any chance you could cover my shift on Saturday?"],
+    "keys": { "субота": "saturday" }
+   },
+   {
+    "sit": "Менеджер кафе питає, чому ти працюєш уже дванадцяту годину поспіль.",
+    "say": "Я підміняю Андрія — він захворів.",
+    "ans": ["I’m covering Andriy’s shift — he’s sick.", "I’m covering Andriy’s shift because he got sick.", "Oh, I’m covering Andriy’s shift, he’s ill."],
+    "keys": { "Андрій": "andriy*|andrii*", "захворів": "sick|ill|unwell" }
+   },
+   {
+    "sit": "Колега-медсестра подякувала, що ти вийшов замість неї. Ти відповідаєш.",
+    "say": "Без проблем, наступного разу ти візьмеш мою зміну.",
+    "ans": ["No problem, next time you can cover my shift.", "No worries — next time you’ll cover my shift.", "No problem, you can cover a shift for me next time."],
+    "keys": { "наступного разу": "next time|next" }
+   }
+  ]
+ },
+ {
+  "id": 2005, "w": "burn out", "uk": "вигоріти (професійно)", "lvl": "B2",
+  "forms": "burn|burns|burned/burnt|burned/burnt|burning",
+  "tail": "out",
+  "near": "exhausted|worn out|wore out|overwork*|break down|broke down|stressed out|tired|drained",
+  "tasks": [
+   {
+    "sit": "Колишня колега питає, чому ти пішов з агенції, де працював без вихідних.",
+    "say": "Я просто вигорів за два роки.",
+    "ans": ["I just burned out after two years.", "I burnt out after two years there.", "Honestly, I just burned out after two years."],
+    "keys": { "два роки": "two|2|year*" }
+   },
+   {
+    "sit": "Твоя подруга-вчителька бере додаткові уроки і працює щовечора.",
+    "say": "Обережно, так ти швидко вигориш.",
+    "ans": ["Be careful, you’ll burn out fast like this.", "Careful — you’re going to burn out quickly.", "Slow down, or you’ll burn out really fast."],
+    "keys": { "швидко": "fast|quick*|soon" }
+   },
+   {
+    "sit": "Твій брат-лікар розповідає, що половина відділення хоче звільнитися.",
+    "say": "Багато лікарів вигорають після пандемії.",
+    "ans": ["A lot of doctors are burning out after the pandemic.", "Many doctors burned out after the pandemic.", "So many doctors have burned out since the pandemic."],
+    "keys": { "лікарі": "doctor*|medic*|staff", "пандемія": "pandemic|covid" }
+   }
+  ]
+ },
+ {
+  "id": 2006, "w": "restrict", "uk": "обмежити (акаунт у соцмережі)", "lvl": "B2",
+  "forms": "restrict|restricts|restricted|restricted|restricting",
+  "near": "block*|mute*|hide*|limit*|remove*|unfollow*",
+  "tasks": [
+   {
+    "sit": "Колишній постійно залишає пасивно-агресивні коментарі під твоїми фото в інстаграмі.",
+    "say": "Я його просто обмежу, щоб він не бачив, що я читаю повідомлення.",
+    "ans": ["I’ll just restrict him so he can’t see when I read his messages.", "I’m going to restrict him, so he won’t know I’ve read his messages.", "I’ll just restrict him — then he won’t see I’ve read his messages."],
+    "keys": { "повідомлення": "message*|dm*|text*" }
+   },
+   {
+    "sit": "Подруга не хоче блокувати надокучливу колегу, бо та помітить. Ти радиш.",
+    "say": "Не блокуй її, а обмеж — вона нічого не помітить.",
+    "ans": ["Don’t block her, restrict her — she won’t notice.", "Instead of blocking her, just restrict her; she won’t notice a thing.", "Just restrict her instead, she won’t even notice."],
+    "keys": { "не помітить": "notice*|know|find out" }
+   },
+   {
+    "sit": "Твоя сторінка пекарні в соцмережі стала популярною, і з’явився тролль, який пише гидоту.",
+    "say": "Я обмежила цей акаунт, і тепер його коментарі бачить лише він.",
+    "ans": ["I restricted that account, so now only he can see his comments.", "I’ve restricted the account, so only he sees his comments now.", "I restricted him, so now his comments are only visible to him."],
+    "keys": { "коментарі": "comment*", "лише": "only|just" }
+   }
+  ]
+ },
+ {
+  "id": 2007, "w": "private your account", "uk": "зробити акаунт приватним (закрити)", "lvl": "B2",
+  "forms": "private|privates|privated|privated|privating",
+  "tail": "account*/profile*/page*/it/insta*/instagram*/tiktok*",
+  "near": "make it private|made it private|make my account private|made my account private|lock*|close*|go private|went private|hide*",
+  "tasks": [
+   {
+    "sit": "Твоє відео раптом стало вірусним, і незнайомці пишуть тобі дивні коментарі.",
+    "say": "Я закрию акаунт на кілька днів.",
+    "ans": ["I’m going to private my account for a few days.", "I’ll private my account for a couple of days.", "I’m just gonna private my account for a few days."],
+    "keys": { "кілька днів": "day*|week*|while" }
+   },
+   {
+    "sit": "Ти хочеш подивитися профіль нової однокурсниці, але бачиш лише кнопку «Підписатися».",
+    "say": "Вона закрила свій інстаграм.",
+    "ans": ["She privated her Instagram.", "She’s privated her Insta.", "Ugh, she privated her Instagram."],
+    "keys": { "інстаграм": "instagram|insta" }
+   },
+   {
+    "sit": "Племінниця-підліток показує тобі свій новий акаунт у тіктоці. Ти хвилюєшся.",
+    "say": "Може, закриєш акаунт, щоб бачили тільки друзі?",
+    "ans": ["Maybe private your account so only friends can see it?", "Why don’t you private your account so only your friends see it?", "Maybe you should private your account, so it’s just friends?"],
+    "keys": { "тільки друзі": "friend*" }
+   }
+  ]
+ },
+ {
+  "id": 2008, "w": "boost a post", "uk": "розкрутити пост (за гроші)", "lvl": "B2",
+  "forms": "boost|boosts|boosted|boosted|boosting",
+  "tail": "post*/it/reel*/video*",
+  "near": "promote*|advertis*|run ads|ran ads|pay for ads|paid for ads|sponsor*|push*",
+  "tasks": [
+   {
+    "sit": "Ти відкрив маленьку кавʼярню. Друг-маркетолог питає, як ви залучаєте клієнтів.",
+    "say": "Ми розкрутили кілька постів за гроші, і це спрацювало.",
+    "ans": ["We boosted a few posts, and it worked.", "We paid to boost a couple of posts and it worked.", "We boosted a few posts and it actually worked!"],
+    "keys": { "спрацювало": "work*|help*|paid off" }
+   },
+   {
+    "sit": "Ти ведеш сторінку благодійного забігу. До старту тиждень, а реєстрацій мало.",
+    "say": "Давай розкрутимо пост про забіг.",
+    "ans": ["Let’s boost the post about the race.", "Why don’t we boost the race post?", "We should boost the post about the run."],
+    "keys": { "забіг": "race*|run*|marathon|event" }
+   },
+   {
+    "sit": "Подруга-фотографка питає, чи варто платити за рекламу своїх робіт в інстаграмі.",
+    "say": "Я розкрутила один пост за двадцять доларів і отримала трьох клієнтів.",
+    "ans": ["I boosted one post for twenty dollars and got three clients.", "I boosted a post for twenty bucks and got three clients out of it.", "I boosted a single post for twenty dollars — got three clients!"],
+    "keys": { "двадцять доларів": "twenty|20*|\\$20", "клієнти": "client*|customer*|booking*" }
+   }
+  ]
+ },
+ {
+  "id": 2009, "w": "analyze stats", "uk": "аналізувати статистику", "lvl": "B2",
+  "forms": "analyze/analyse|analyzes/analyses|analyzed/analysed|analyzed/analysed|analyzing/analysing",
+  "tail": "stat*/statistic*/analytic*/number*/data/metric*/insight*",
+  "near": "look at the stats|looked at the stats|check the stats|checked the stats|study the numbers|review*|go through|went through|examine*",
+  "tasks": [
+   {
+    "sit": "Ти ведеш ютуб-канал. Друг питає, як ти вирішуєш, про що знімати далі.",
+    "say": "Я аналізую статистику кожного відео.",
+    "ans": ["I analyze the stats for every video.", "I analyze the stats of each video.", "I always analyze the stats on every video."],
+    "keys": { "кожного відео": "every|each|all" }
+   },
+   {
+    "sit": "Керівниця просить тебе пояснити, чому продажі в інтернет-магазині впали.",
+    "say": "Дайте мені день проаналізувати статистику.",
+    "ans": ["Give me a day to analyze the stats.", "Let me take a day to analyze the stats.", "Just give me a day to analyze the numbers."],
+    "keys": { "день": "day|tomorrow|24" }
+   },
+   {
+    "sit": "Ти тренуєшся до марафону з годинником, що все записує. Друг сміється з твоїх графіків.",
+    "say": "Щонеділі я аналізую статистику своїх пробіжок.",
+    "ans": ["Every Sunday I analyze the stats from my runs.", "I analyze my running stats every Sunday.", "Every Sunday, I sit down and analyze my running data."],
+    "keys": { "неділя": "sunday*", "пробіжки": "run*" }
+   }
+  ]
+ },
+ {
+  "id": 2010, "w": "anoint", "uk": "помазувати (єлеєм)", "lvl": "C1",
+  "forms": "anoint|anoints|anointed|anointed|anointing",
+  "near": "bless*|pour oil|put oil|christen*|baptiz*|baptis*|consecrat*",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш іноземному колезі, як проходили хрестини твого сина.",
+    "say": "Священник помазав малого єлеєм.",
+    "ans": ["The priest anointed the baby with oil.", "The priest anointed our little boy with holy oil.", "Then the priest anointed the baby with oil."],
+    "keys": { "священник": "priest*|father", "єлей": "oil*" }
+   },
+   {
+    "sit": "Ви з другом дивитеся коронацію британського монарха в прямому ефірі.",
+    "say": "Зараз короля помажуть — цю частину не показують.",
+    "ans": ["Now they’ll anoint the King — they don’t show this part.", "The King is about to be anointed, and they won’t show it.", "This is where they anoint the King, but it’s not shown on TV."],
+    "keys": { "король": "king*", "не показують": "not show*|not shown|will not show|hidden|private" }
+   },
+   {
+    "sit": "У храмі на свято бабуся просить тебе стати в чергу за нею.",
+    "say": "Ходімо, отець усіх помазує.",
+    "ans": ["Come on, the priest is anointing everyone.", "Let’s go, the priest is anointing everybody.", "Come on, Father is anointing everyone now."],
+    "keys": { "отець": "priest*|father", "усіх": "everyone|everybody|all|people" }
+   }
+  ]
+ },
+ {
+  "id": 2011, "w": "chant", "uk": "наспівувати (молитву), співати речитативом", "lvl": "C1",
+  "forms": "chant|chants|chanted|chanted|chanting",
+  "near": "sing*|sang|sung|pray*|recite*|hum*|murmur*",
+  "tasks": [
+   {
+    "sit": "Ти повернувся з Непалу і розповідаєш про ранок у буддійському монастирі.",
+    "say": "О пʼятій ранку ченці вже наспівували молитви.",
+    "ans": ["At five in the morning, the monks were already chanting prayers.", "The monks were already chanting by five a.m.", "By 5 a.m., the monks were already chanting."],
+    "keys": { "ченці": "monk*", "пʼята ранку": "five|5" }
+   },
+   {
+    "sit": "На заняттях йоги інструктор пропонує щось нове наприкінці.",
+    "say": "Давайте разом проспіваємо «ом» тричі.",
+    "ans": ["Let’s chant “om” together three times.", "Let’s all chant “om” three times together.", "Okay, let’s chant “om” together, three times."],
+    "keys": { "разом": "together|all", "тричі": "three|3" }
+   },
+   {
+    "sit": "Ти вперше був на службі в старовинному соборі й ділишся враженням з подругою.",
+    "say": "Хор наспівував молитви латиною — аж мурашки по шкірі.",
+    "ans": ["The choir chanted prayers in Latin — I got goosebumps.", "The choir was chanting in Latin, and I had goosebumps.", "The choir chanted in Latin, it gave me chills."],
+    "keys": { "хор": "choir*|singer*|monk*", "латиною": "latin" }
+   }
+  ]
+ },
+ {
+  "id": 2012, "w": "channel energy", "uk": "скеровувати енергію", "lvl": "C1",
+  "forms": "channel|channels|channeled/channelled|channeled/channelled|channeling/channelling",
+  "tail": "energy",
+  "near": "direct*|focus*|put my energy|put your energy|redirect*|pour*|use your energy|turn it into",
+  "tasks": [
+   {
+    "sit": "Твій син-підліток постійно зривається й свариться. Шкільний психолог дає пораду.",
+    "say": "Спробуйте скерувати його енергію в спорт.",
+    "ans": ["Try to channel his energy into sports.", "Try channeling his energy into sport.", "Maybe try to channel all that energy into sports."],
+    "keys": { "спорт": "sport*|boxing|football|gym|training" }
+   },
+   {
+    "sit": "Після звільнення подруга питає, як ти не впав у депресію.",
+    "say": "Я скерував усю енергію в свій проєкт.",
+    "ans": ["I channeled all my energy into my own project.", "I channelled all my energy into my side project.", "I just channeled all that energy into my project."],
+    "keys": { "проєкт": "project*|business|startup" }
+   },
+   {
+    "sit": "На тренуванні з медитації інструктор пояснює дихальну вправу.",
+    "say": "Уявіть, що ви скеровуєте енергію в центр тіла.",
+    "ans": ["Imagine you’re channeling energy to the center of your body.", "Imagine channeling your energy into the center of your body.", "Now imagine you’re channeling that energy to your core."],
+    "keys": { "уявіть": "imagine|picture|visuali*", "центр тіла": "center|centre|core|body" }
+   }
+  ]
+ },
+ {
+  "id": 2013, "w": "manifest", "uk": "маніфестувати (притягувати бажане думками)", "lvl": "C1",
+  "forms": "manifest|manifests|manifested|manifested|manifesting",
+  "near": "visualiz*|visualis*|attract*|dream*|wish*|law of attraction|ask the universe|asked the universe",
+  "tasks": [
+   {
+    "sit": "Подруга щоранку пише в зошиті одне й те саме бажання. Ти питаєш, що вона робить.",
+    "say": "Я маніфестую нову квартиру.",
+    "ans": ["I’m manifesting a new apartment.", "I’m manifesting my new flat.", "Oh, I’m manifesting a new apartment!"],
+    "keys": { "квартира": "apartment*|flat*|home|place" }
+   },
+   {
+    "sit": "Колега виграла путівку в розіграші, про яку весь рік мріяла. Вона сміється.",
+    "say": "Я її просто наманіфестувала!",
+    "ans": ["I totally manifested it!", "I literally manifested this trip!", "See? I manifested it!"],
+    "keys": { "просто": "totally|literally|just|see|so" }
+   },
+   {
+    "sit": "Друг скептично гортає тікток з порадами про «закон притягання».",
+    "say": "Не можна маніфестувати гроші, не працюючи.",
+    "ans": ["You can’t manifest money without working.", "You can’t just manifest money without doing any work.", "Come on, you can’t manifest money if you don’t work."],
+    "keys": { "гроші": "money|cash|rich*|wealth", "не працюючи": "work*|effort|job" }
+   }
+  ]
+ },
+ {
+  "id": 2014, "w": "disqualify", "uk": "дискваліфікувати", "lvl": "C1",
+  "forms": "disqualify|disqualifies|disqualified|disqualified|disqualifying",
+  "near": "ban*|exclude*|kick* out|kicked out|throw out|threw out|thrown out|eliminat*|dq*",
+  "tasks": [
+   {
+    "sit": "Ти дивишся новини спорту з батьком. Переможця марафону впіймали на допінгу.",
+    "say": "Його дискваліфікували за допінг.",
+    "ans": ["He was disqualified for doping.", "They disqualified him for doping.", "Wow, they disqualified him for doping!"],
+    "keys": { "допінг": "doping|drug*|steroid*" }
+   },
+   {
+    "sit": "Ти граєш у шахи на аматорському турнірі. Суперник дивиться в телефон під час партії.",
+    "say": "Якщо він ще раз візьме телефон, його дискваліфікують.",
+    "ans": ["If he picks up his phone again, they’ll disqualify him.", "He’ll be disqualified if he touches his phone again.", "One more look at his phone and they’ll disqualify him."],
+    "keys": { "телефон": "phone*|mobile|cell*", "ще раз": "again|one more|another" }
+   },
+   {
+    "sit": "Ти запізнився на старт шкільного забігу і пояснюєш тренерові, що сталося.",
+    "say": "Мене дискваліфікували за фальстарт.",
+    "ans": ["I got disqualified for a false start.", "They disqualified me for a false start.", "I was disqualified because of a false start."],
+    "keys": { "фальстарт": "false start*|jump* the gun|early" }
+   }
+  ]
+ },
+ {
+  "id": 2015, "w": "outdo", "uk": "перевершити (когось, себе)", "lvl": "B2",
+  "forms": "outdo|outdoes|outdid|outdone|outdoing",
+  "near": "beat|beaten|outperform*|surpass*|top|topped|exceed*|do better|did better|better than",
+  "tasks": [
+   {
+    "sit": "Ти куштуєш торт, який мама спекла на твій день народження. Він ще кращий за минулорічний.",
+    "say": "Мамо, ти знову перевершила себе!",
+    "ans": ["Mom, you’ve outdone yourself again!", "Mom, you outdid yourself again!", "Wow, Mom, you’ve really outdone yourself this time!"],
+    "keys": { "мама": "mom*|mum*|mother" }
+   },
+   {
+    "sit": "Сусіди щороку змагаються, хто яскравіше прикрасить будинок до Різдва.",
+    "say": "Цього року ми їх точно перевершимо.",
+    "ans": ["This year we’re definitely going to outdo them.", "We’ll definitely outdo them this year.", "Oh, this year we’re totally gonna outdo them."],
+    "keys": { "цього року": "this year|year", "точно": "definitely|sure|totally|for sure|certainly" }
+   },
+   {
+    "sit": "У твоєму відділі два менеджери постійно намагаються довести, хто кращий.",
+    "say": "Вони весь час намагаються перевершити одне одного.",
+    "ans": ["They’re always trying to outdo each other.", "They keep trying to outdo one another.", "Those two are constantly trying to outdo each other."],
+    "keys": { "одне одного": "each other|one another" }
+   }
+  ]
+ },
+ {
+  "id": 2016, "w": "snipe", "uk": "стріляти снайперськи, знімати снайпером", "lvl": "C1",
+  "forms": "snipe|snipes|sniped|sniped|sniping",
+  "near": "shoot*|shot|pick off|picked off|take out|took out|kill*|headshot*",
+  "tasks": [
+   {
+    "sit": "Ви з другом граєте онлайн-шутер. Тебе вже втретє вбили з невідомого місця.",
+    "say": "Хтось знімає нас із того даху!",
+    "ans": ["Someone’s sniping us from that roof!", "Someone is sniping at us from that rooftop!", "Dude, someone’s sniping us from the roof!"],
+    "keys": { "дах": "roof*|rooftop*" }
+   },
+   {
+    "sit": "Ти дивишся документальний фільм про Другу світову й розповідаєш про нього колезі.",
+    "say": "Вона знімала ворожих офіцерів з відстані в кілометр.",
+    "ans": ["She sniped enemy officers from a kilometer away.", "She was sniping enemy officers from a kilometre away.", "She sniped enemy officers from like a kilometer out."],
+    "keys": { "офіцери": "officer*|soldier*|enemy", "кілометр": "kilomet*|km|mile*" }
+   },
+   {
+    "sit": "Ти граєш у страйкбол і домовляєшся з командою про тактику.",
+    "say": "Я засяду на пагорбі й буду знімати їх звідти.",
+    "ans": ["I’ll set up on the hill and snipe them from there.", "I’ll snipe them from the hill.", "I’ll get up on the hill and snipe from there."],
+    "keys": { "пагорб": "hill*|hilltop" }
+   }
+  ]
+ },
+ {
+  "id": 2017, "w": "strafe", "uk": "обстрілювати з повітря (на бриючому польоті)", "lvl": "C1",
+  "forms": "strafe|strafes|strafed|strafed|strafing",
+  "near": "shoot*|shot|fire* on|fired at|attack*|bomb*|shell*|machine-gun*|gun* down",
+  "tasks": [
+   {
+    "sit": "Ти читаєш дідові мемуари про війну й переказуєш другу найстрашніший епізод.",
+    "say": "Літаки обстрілювали колону на дорозі.",
+    "ans": ["Planes strafed the convoy on the road.", "The convoy was strafed by planes on the road.", "The planes kept strafing the convoy on the road."],
+    "keys": { "літаки": "plane*|jet*|aircraft|fighter*", "колона": "convoy*|column*|truck*" }
+   },
+   {
+    "sit": "На лекції з історії викладач розповідає про висадку в Нормандії. Ти пояснюєш одногрупнику, що пропустив.",
+    "say": "Винищувачі обстрілювали німецькі позиції вздовж узбережжя.",
+    "ans": ["Fighters strafed German positions along the coast.", "Fighter planes strafed the German positions along the coast.", "The fighters strafed German positions all along the coast."],
+    "keys": { "позиції": "position*|trench*|line*", "узбережжя": "coast*|beach*|shore*" }
+   },
+   {
+    "sit": "Ти дивишся військовий фільм з братом і коментуєш сцену з пілотом.",
+    "say": "Він знизився, щоб обстріляти окопи.",
+    "ans": ["He flew low to strafe the trenches.", "He dropped low to strafe the trenches.", "He came in low to strafe the trenches."],
+    "keys": { "окопи": "trench*|position*", "знизився": "low|dive*|dove|down" }
+   }
+  ]
+ },
+ {
+  "id": 2018, "w": "upgrade", "uk": "підвищити клас (номера, місця) безкоштовно", "lvl": "B2",
+  "forms": "upgrade|upgrades|upgraded|upgraded|upgrading",
+  "near": "move us|moved us|move me|moved me|give us a better room|gave us a better room|switch*|change* our room|bump* up",
+  "tasks": [
+   {
+    "sit": "Друг питає, як минула ваша річниця в готелі в Карпатах.",
+    "say": "Нам безкоштовно підвищили номер до люксу!",
+    "ans": ["They upgraded us to a suite for free!", "We got upgraded to a suite for free!", "They upgraded us to a suite, totally free!"],
+    "keys": { "люкс": "suite*|lux*|best room", "безкоштовно": "free|no charge|nothing" }
+   },
+   {
+    "sit": "Ти реєструєшся в готелі й чемно питаєш адміністратора про можливості.",
+    "say": "Чи є шанс підвищити нам номер? У нас медовий місяць.",
+    "ans": ["Is there any chance you could upgrade us? It’s our honeymoon.", "Could you possibly upgrade our room? We’re on our honeymoon.", "Any chance of upgrading us? We’re on our honeymoon."],
+    "keys": { "медовий місяць": "honeymoon*|just married|newlywed*" }
+   },
+   {
+    "sit": "Колега повернулася з відрядження і хвалиться перельотом.",
+    "say": "Мене пересадили в бізнес-клас без доплати!",
+    "ans": ["They upgraded me to business class for free!", "I got upgraded to business class at no extra cost!", "Guess what, they upgraded me to business for free!"],
+    "keys": { "бізнес-клас": "business*", "без доплати": "free|no extra|no charge|nothing" }
+   }
+  ]
+ },
+ {
+  "id": 2019, "w": "tip housekeeping", "uk": "залишити чайові покоївці (прибиральниці в готелі)", "lvl": "C1",
+  "forms": "tip|tips|tipped|tipped|tipping",
+  "tail": "housekeep*/maid*/cleaner*",
+  "near": "leave money|left money|leave cash|left cash|give money|gave money|pay the cleaner",
+  "tasks": [
+   {
+    "sit": "Ви з дружиною виселяєтеся з готелю. Номер був бездоганно прибраний щодня.",
+    "say": "Не забудь залишити чайові покоївці.",
+    "ans": ["Don’t forget to tip housekeeping.", "Remember to tip housekeeping before we leave.", "Oh, don’t forget to tip housekeeping!"],
+    "keys": { "не забудь": "forget|remember|make sure" }
+   },
+   {
+    "sit": "Друг уперше їде до США і питає про місцеві звичаї в готелях.",
+    "say": "Там прийнято давати чайові покоївці кілька доларів на день.",
+    "ans": ["It’s normal to tip housekeeping a few dollars a day there.", "People usually tip housekeeping a couple of dollars a day.", "Over there you usually tip housekeeping a few bucks a day."],
+    "keys": { "долари": "dollar*|buck*|\\$*", "на день": "day*|night*" }
+   },
+   {
+    "sit": "Колега дивується, що ти залишаєш гроші на подушці в номері.",
+    "say": "Я завжди даю чайові покоївкам, вони важко працюють.",
+    "ans": ["I always tip housekeeping, they work really hard.", "I always tip housekeeping because they work so hard.", "I always tip housekeeping — they work hard."],
+    "keys": { "завжди": "always|every time", "важко працюють": "work*|job" }
+   }
+  ]
+ },
+ {
+  "id": 2025, "w": "free-feed", "uk": "годувати вільно (їжа завжди доступна)", "lvl": "C1",
+  "forms": "free-feed|free-feeds|free-fed|free-fed|free-feeding",
+  "near": "leave food out|left food out|leave the bowl full|keep the bowl full|full bowl|feed on schedule|feed on demand",
+  "tasks": [
+   {
+    "sit": "Ветеринар питає, як ти годуєш свого кота, бо той набрав зайву вагу.",
+    "say": "Я годую його вільно — миска завжди повна.",
+    "ans": ["I free-feed him — his bowl is always full.", "I free-feed him, so the bowl’s always full.", "I just free-feed him, his bowl is always full."],
+    "keys": { "миска": "bowl*|dish*", "завжди": "always|all the time" }
+   },
+   {
+    "sit": "Друг бере цуценя й питає твоєї поради щодо годування.",
+    "say": "Не годуй собаку вільно, годуй за розкладом.",
+    "ans": ["Don’t free-feed the dog, feed him on a schedule.", "Don’t free-feed your dog — stick to a feeding schedule.", "Don’t free-feed him, just feed him at set times."],
+    "keys": { "за розкладом": "schedule*|set times|routine|twice|meal*" }
+   },
+   {
+    "sit": "Ти їдеш на вихідні й пояснюєш сусідові, чому залишаєш котам великий контейнер корму.",
+    "say": "Мої коти звикли, що їх годують вільно, вони не переїдають.",
+    "ans": ["My cats are used to being free-fed, and they don’t overeat.", "I free-feed my cats, and they don’t overeat.", "My cats are free-fed and never overeat, don’t worry."],
+    "keys": { "коти": "cat*", "не переїдають": "overeat*|too much|eat* too" }
+   }
+  ]
+ },
+ {
+  "id": 2026, "w": "wean off", "uk": "відлучати (від молока, соски тощо)", "lvl": "C1",
+  "forms": "wean|weans|weaned|weaned|weaning",
+  "tail": "off",
+  "near": "stop breastfeed*|stopped breastfeed*|stop nursing|stopped nursing|switch* to solid*|get off|take off",
+  "tasks": [
+   {
+    "sit": "У вашої собаки цуценята. Заводчик пояснює, що робити далі.",
+    "say": "Цуценят можна відлучати від молока з шести тижнів.",
+    "ans": ["You can wean the puppies off milk at six weeks.", "Puppies can be weaned off milk from six weeks.", "You can start weaning them off milk at six weeks."],
+    "keys": { "молоко": "milk|mother|mom", "шість тижнів": "six|6|week*" }
+   },
+   {
+    "sit": "Подруга питає, як ти привчив свого малюка засинати без пляшечки.",
+    "say": "Ми відлучали його від пляшечки поступово.",
+    "ans": ["We weaned him off the bottle gradually.", "We gradually weaned him off the bottle.", "We weaned him off the bottle bit by bit."],
+    "keys": { "пляшечка": "bottle*", "поступово": "gradual*|slowly|bit by bit|step by step|little by little" }
+   },
+   {
+    "sit": "Твоя сестра-педіатр пояснює, як молоді мами переходять на прикорм.",
+    "say": "Більшість мам відлучають дітей від грудей до року.",
+    "ans": ["Most moms wean their babies off breast milk by one year.", "Most mothers wean their babies off the breast before they’re one.", "Most moms wean the baby off breastfeeding by the first birthday."],
+    "keys": { "більшість": "most", "до року": "one|year*|1|birthday|twelve months" }
+   }
+  ]
+ },
+ {
+  "id": 2027, "w": "cut nails", "uk": "стригти пазурі (тварині)", "lvl": "B1",
+  "forms": "cut|cuts|cut|cut|cutting",
+  "tail": "nail*/claw*",
+  "near": "trim*|clip*|file*|groom*",
+  "tasks": [
+   {
+    "sit": "Твій пес цокає пазурами по паркету на всю квартиру.",
+    "say": "Пора підстригти йому пазурі.",
+    "ans": ["It’s time to cut his nails.", "I need to cut his nails soon.", "Okay, time to cut his nails again."],
+    "keys": { "пора": "time|need*|should|soon" }
+   },
+   {
+    "sit": "Подруга скаржиться, що кіт дряпає її, коли вона пробує йому щось зробити з лапами.",
+    "say": "Я стрижу пазурі своєму коту, коли він спить.",
+    "ans": ["I cut my cat’s nails when he’s asleep.", "I cut my cat’s claws while he’s sleeping.", "I only cut his nails when he’s asleep, honestly."],
+    "keys": { "спить": "sleep*|asleep|nap*" }
+   },
+   {
+    "sit": "У грумінг-салоні адміністраторка питає, які послуги потрібні твоєму пуделю.",
+    "say": "Помийте його і підстрижіть пазурі, будь ласка.",
+    "ans": ["Please wash him and cut his nails.", "Could you wash him and cut his nails, please?", "Just a bath and cut his nails, please."],
+    "keys": { "помийте": "wash*|bath*|shampoo*|clean*" }
+   }
+  ]
+ }
+]

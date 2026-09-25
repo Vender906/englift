@@ -1,0 +1,634 @@
+[
+ {
+  "id": 785, "w": "edit", "uk": "редагувати", "lvl": "B1",
+  "forms": "edit|edits|edited|edited|editing",
+  "near": "cut|cuts|cutting|trim*|fix|fixed|correct*|change*|proofread*|polish*|retouch*",
+  "tasks": [
+   {
+    "sit": "Ти повернувся з відпустки з купою відео. Друзі чекають на ролик.",
+    "say": "Я ще редагую відео з поїздки.",
+    "ans": ["I’m still editing the video from the trip.", "I haven’t finished editing the trip video yet.", "Still editing the video from our trip — almost done!"],
+    "keys": { "відео": "video*|clip*|footage|film*", "поїздка": "trip|travel*|vacation|holiday*|journey" }
+   },
+   {
+    "sit": "Колега написав статтю для сайту компанії й просить тебе глянути на неї.",
+    "say": "Я відредагую твій текст до обіду.",
+    "ans": ["I’ll edit your text before lunch.", "I’m going to edit your article before lunch.", "Sure, I’ll edit it before lunch."],
+    "keys": { "текст": "text|article|it|piece|post|draft", "до обіду": "lunch|noon|midday" }
+   },
+   {
+    "sit": "Подруга здивована, що на твоєму фото таке яскраве небо.",
+    "say": "Я трохи відредагував це фото в телефоні.",
+    "ans": ["I edited this photo a little on my phone.", "I edited the photo a bit on my phone.", "Yeah, I just edited it a bit on my phone."],
+    "keys": { "фото": "photo*|picture*|pic*|it|image*|shot", "телефон": "phone|mobile|app" }
+   }
+  ]
+ },
+ {
+  "id": 786, "w": "format", "uk": "форматувати", "lvl": "B2",
+  "forms": "format|formats|formatted|formatted|formatting",
+  "near": "arrange*|lay out|laid out|style*|design*|align*|wipe*|erase*|clean*|reset*",
+  "tasks": [
+   {
+    "sit": "Ти надсилаєш резюме: у Word воно виглядало охайно, а в PDF усе розʼїхалося.",
+    "say": "Мені треба нормально відформатувати резюме.",
+    "ans": ["I need to format my resume properly.", "My CV needs to be formatted properly.", "I really need to format my resume again."],
+    "keys": { "резюме": "resume*|cv" }
+   },
+   {
+    "sit": "Флешка раптом перестала відкриватися на компʼютері. Майстер у сервісі розглядає її.",
+    "say": "Можна її просто відформатувати? Там нічого важливого.",
+    "ans": ["Can you just format it? There’s nothing important on it.", "Could you just format the drive? Nothing important is on it.", "Just format it — there’s nothing important on there."],
+    "keys": { "нічого важливого": "nothing|not important" }
+   },
+   {
+    "sit": "Викладач дав суворі вимоги до курсової: шрифт, відступи, нумерація сторінок.",
+    "say": "Я відформатую курсову в самому кінці.",
+    "ans": ["I’ll format my paper at the very end.", "I’m going to format the coursework at the end.", "I’ll format it all at the very end."],
+    "keys": { "курсова": "paper|coursework|essay|thesis|project|it|work", "в кінці": "end|last|finally|later" }
+   }
+  ]
+ },
+ {
+  "id": 787, "w": "file", "uk": "подавати (документ)", "lvl": "B2",
+  "forms": "file|files|filed|filed|filing",
+  "near": "submit*|send|sent|sending|hand in|handed in|lodge*|report|reported|apply|applied|make a claim|made a claim",
+  "tasks": [
+   {
+    "sit": "Кінець квітня, а бухгалтер нагадує тобі про податки.",
+    "say": "Я ще не подав податкову декларацію.",
+    "ans": ["I haven’t filed my taxes yet.", "I still haven’t filed my tax return.", "Oh no, I haven’t filed my taxes yet!"],
+    "keys": { "податки": "tax*", "ще не": "not|yet" }
+   },
+   {
+    "sit": "Сусіди щоночі влаштовують гучні вечірки, і розмови з ними не допомагають.",
+    "say": "Я подам скаргу в поліцію.",
+    "ans": ["I’m going to file a complaint with the police.", "I’ll file a complaint with the police.", "That’s it, I’m filing a complaint with the police."],
+    "keys": { "скарга": "complaint*|report", "поліція": "police|cops" }
+   },
+   {
+    "sit": "Під час бурі на твою машину впало дерево.",
+    "say": "Мені треба подати заяву в страхову.",
+    "ans": ["I need to file an insurance claim.", "I have to file a claim with my insurance company.", "I’ll have to file a claim with the insurance."],
+    "keys": { "страхова": "insur*", "заява": "claim*|application|report" }
+   }
+  ]
+ },
+ {
+  "id": 788, "w": "log", "uk": "фіксувати (у логах, записах)", "lvl": "B2",
+  "forms": "log|logs|logged|logged|logging",
+  "near": "record*|track*|write down|wrote down|note down|noted down|enter*|register*|clock*",
+  "tasks": [
+   {
+    "sit": "Компанія платить тобі погодинно, і менеджер нагадує про таблицю робочого часу.",
+    "say": "Я фіксую свої години щодня.",
+    "ans": ["I log my hours every day.", "I’ve been logging my hours daily.", "Don’t worry, I log my hours every single day."],
+    "keys": { "години": "hour*|time", "щодня": "every day|daily|each day|every single day" }
+   },
+   {
+    "sit": "Тренер у спортзалі хоче бачити, як ти прогресуєш.",
+    "say": "Я фіксую кожне тренування в застосунку.",
+    "ans": ["I log every workout in an app.", "I log all my workouts in the app.", "I’m logging every single workout in the app."],
+    "keys": { "тренування": "workout*|training*|session*|exercise*", "застосунок": "app*|application|phone" }
+   },
+   {
+    "sit": "Програма, яку ви розробляєте, іноді падає, і ніхто не розуміє чому.",
+    "say": "Давай фіксувати всі помилки, щоб знайти причину.",
+    "ans": ["Let’s log all the errors to find the cause.", "We should log every error so we can find the cause.", "Let’s start logging all the errors and see what’s going on."],
+    "keys": { "помилки": "error*|bug*|crash*|issue*|problem*" }
+   }
+  ]
+ },
+ {
+  "id": 789, "w": "track", "uk": "відстежувати", "lvl": "B2",
+  "forms": "track|tracks|tracked|tracked|tracking",
+  "near": "monitor*|follow*|watch*|keep an eye|check*|record*|log|logs|logged|logging",
+  "tasks": [
+   {
+    "sit": "Гроші кудись зникають ще до кінця місяця, і ти вирішуєш це змінити.",
+    "say": "Відтепер я відстежую всі свої витрати.",
+    "ans": ["From now on, I’m tracking all my expenses.", "I’ve started tracking all my spending.", "I’m going to track every single expense from now on."],
+    "keys": { "витрати": "expense*|spending|money|cost*" }
+   },
+   {
+    "sit": "Ти замовив кросівки онлайн, а вони досі не прийшли. Сестра хвилюється більше за тебе.",
+    "say": "Я можу відстежити посилку на сайті.",
+    "ans": ["I can track the package on the website.", "I can track my parcel online.", "Let me track the package on their site."],
+    "keys": { "посилка": "package*|parcel*|order*|delivery|shoes|sneakers", "сайт": "site|website|online|app" }
+   },
+   {
+    "sit": "Колега помітив у тебе на руці новий фітнес-браслет.",
+    "say": "Він відстежує мій сон і кроки.",
+    "ans": ["It tracks my sleep and steps.", "It tracks how many steps I take and how I sleep.", "It tracks my sleep and my steps — pretty cool."],
+    "keys": { "сон": "sleep*|slept", "кроки": "step*|walk*" }
+   }
+  ]
+ },
+ {
+  "id": 790, "w": "schedule", "uk": "планувати (на певний час)", "lvl": "B1",
+  "forms": "schedule|schedules|scheduled|scheduled|scheduling",
+  "near": "plan|plans|planned|planning|arrange*|set up|book*|organize*|organise*|fix*|put it in the calendar",
+  "tasks": [
+   {
+    "sit": "Проєкт стартує наступного тижня, і команді треба все обговорити.",
+    "say": "Давай заплануємо зустріч на понеділок.",
+    "ans": ["Let’s schedule a meeting for Monday.", "Can we schedule a meeting on Monday?", "Let’s schedule a quick meeting for Monday."],
+    "keys": { "зустріч": "meeting|call|catch-up|sync", "понеділок": "monday" }
+   },
+   {
+    "sit": "Ти ведеш сторінку своєї пекарні в соцмережах, а завтра зранку будеш зайнятий.",
+    "say": "Я запланую публікацію на восьму ранку.",
+    "ans": ["I’ll schedule the post for 8 a.m.", "I’m going to schedule the post for eight in the morning.", "I’ll just schedule it for 8 in the morning."],
+    "keys": { "восьма": "eight|8*" }
+   },
+   {
+    "sit": "Бабуся живе в іншому місті, а ти давно не говорив із нею по відео.",
+    "say": "Треба запланувати відеодзвінок із бабусею на вихідні.",
+    "ans": ["I need to schedule a video call with Grandma this weekend.", "Let’s schedule a video call with Grandma for the weekend.", "I should schedule a call with Grandma this weekend."],
+    "keys": { "дзвінок": "call*|chat", "бабуся": "grandma|grandmother|granny|nan*", "вихідні": "weekend*|saturday|sunday" }
+   }
+  ]
+ },
+ {
+  "id": 791, "w": "reschedule", "uk": "переносити (на інший час)", "lvl": "B2",
+  "forms": "reschedule|reschedules|rescheduled|rescheduled|rescheduling",
+  "near": "postpone*|move|moved|moving|push back|pushed back|put off|delay*|change the date|cancel*|rearrange*",
+  "tasks": [
+   {
+    "sit": "О третій у тебе дзвінок із клієнтом, але саме тоді треба забрати дитину з садочка.",
+    "say": "Можемо перенести дзвінок на завтра?",
+    "ans": ["Can we reschedule the call for tomorrow?", "Could we reschedule our call to tomorrow?", "Any chance we can reschedule for tomorrow?"],
+    "keys": { "завтра": "tomorrow" }
+   },
+   {
+    "sit": "Ти телефонуєш у стоматологію: у четвер у тебе несподіване відрядження.",
+    "say": "Мені треба перенести прийом на інший день.",
+    "ans": ["I need to reschedule my appointment for another day.", "I’d like to reschedule my appointment, please.", "Could I reschedule for a different day?"],
+    "keys": { "прийом": "appointment*|visit|day|date|time" }
+   },
+   {
+    "sit": "Ти захворів якраз у день, коли мав іти в кіно з подругою.",
+    "say": "Вибач, давай перенесемо на наступні вихідні?",
+    "ans": ["Sorry, can we reschedule for next weekend?", "Sorry, let’s reschedule to next weekend.", "Sorry — mind if we reschedule for next weekend?"],
+    "keys": { "вибач": "sorry|apolog*", "вихідні": "weekend*" }
+   }
+  ]
+ },
+ {
+  "id": 792, "w": "pitch", "uk": "презентувати ідею (щоб її прийняли)", "lvl": "B2",
+  "forms": "pitch|pitches|pitched|pitched|pitching",
+  "near": "present*|propose*|suggest*|sell|sold|selling|offer*|share*|introduce*",
+  "tasks": [
+   {
+    "sit": "Ваш стартап шукає гроші, і завтра у вас важлива зустріч.",
+    "say": "Завтра ми презентуємо нашу ідею інвесторам.",
+    "ans": ["Tomorrow we’re pitching our idea to investors.", "We’ll pitch our idea to the investors tomorrow.", "We’re pitching to investors tomorrow — wish us luck!"],
+    "keys": { "інвестори": "investor*|vc*|fund*", "завтра": "tomorrow" }
+   },
+   {
+    "sit": "У тебе зʼявилася ідея, як скоротити витрати відділу.",
+    "say": "Я хочу презентувати цю ідею шефу на нараді.",
+    "ans": ["I want to pitch this idea to my boss at the meeting.", "I’m going to pitch the idea to my boss at the meeting.", "I’m thinking of pitching it to the boss at the meeting."],
+    "keys": { "шеф": "boss|manager|head|director", "нарада": "meeting" }
+   },
+   {
+    "sit": "Ти журналіст-фрилансер, і в тебе є цікава тема про місцевих фермерів.",
+    "say": "Спробую запропонувати цю історію великому журналу.",
+    "ans": ["I’ll try to pitch this story to a big magazine.", "I’m going to pitch the story to a major magazine.", "I might pitch it to one of the big magazines."],
+    "keys": { "журнал": "magazine*|publication*|editor*|media" }
+   }
+  ]
+ },
+ {
+  "id": 793, "w": "onboard", "uk": "вводити в курс (новачка)", "lvl": "C1",
+  "forms": "onboard|onboards|onboarded|onboarded|onboarding",
+  "near": "train*|introduce*|show around|showed around|shown around|welcome*|bring up to speed|brought up to speed|induct*|mentor*",
+  "tasks": [
+   {
+    "sit": "У понеділок до вашої команди приходить новий дизайнер, а керівник у відпустці.",
+    "say": "Новенького вводитиму в курс я.",
+    "ans": ["I’ll be onboarding the new designer.", "I’m going to onboard the new guy on Monday.", "Looks like I’m onboarding the new designer on Monday."],
+    "keys": { "новенький": "new*|designer|hire*" }
+   },
+   {
+    "sit": "На співбесіді кандидат питає, як у вашій компанії адаптують нових працівників.",
+    "say": "Ми вводимо нових людей у курс протягом двох тижнів.",
+    "ans": ["We onboard new people over two weeks.", "New employees are onboarded over two weeks.", "We usually onboard new hires over a couple of weeks."],
+    "keys": { "нові": "new*", "два тижні": "two weeks|2 weeks|weeks|fortnight" }
+   },
+   {
+    "sit": "У волонтерський центр прийшли пʼятеро новачків, а координатор захворів.",
+    "say": "Хтось має ввести нових волонтерів у курс справ.",
+    "ans": ["Someone needs to onboard the new volunteers.", "Somebody has to onboard the new volunteers.", "Who’s going to onboard the new volunteers?"],
+    "keys": { "волонтери": "volunteer*|people|newcomer*" }
+   }
+  ]
+ },
+ {
+  "id": 794, "w": "scale", "uk": "масштабувати", "lvl": "B2",
+  "forms": "scale|scales|scaled|scaled|scaling",
+  "near": "grow|grows|grew|growing|expand*|develop*|increase*|enlarge*|extend*",
+  "tasks": [
+   {
+    "sit": "Твоя маленька кавʼярня стала популярною, і ти думаєш про нові точки.",
+    "say": "Я хочу масштабувати бізнес на все місто.",
+    "ans": ["I want to scale the business across the city.", "I’d like to scale my business to the whole city.", "I really want to scale this across the whole city."],
+    "keys": { "бізнес": "business|company|cafe*|this|it|brand", "місто": "city|town" }
+   },
+   {
+    "sit": "Кількість користувачів вашого застосунку за місяць зросла вдесятеро.",
+    "say": "Систему треба масштабувати, інакше вона впаде.",
+    "ans": ["We need to scale our system, or it’ll crash.", "Our system has to be scaled, otherwise it will go down.", "We’ve got to scale the system before it crashes."],
+    "keys": { "система": "system|server*|platform|app|infrastructure", "впаде": "crash*|down|fail*|break*" }
+   },
+   {
+    "sit": "Ваш пілотний курс англійської в одній школі дав чудові результати.",
+    "say": "Тепер ми хочемо масштабувати програму на всю країну.",
+    "ans": ["Now we want to scale the program nationwide.", "Now we want to scale the program across the country.", "The next step is to scale it up nationwide."],
+    "keys": { "країна": "country|nationwide|national*" }
+   }
+  ]
+ },
+ {
+  "id": 795, "w": "tip generously", "uk": "щедро давати чайові", "lvl": "B2",
+  "forms": "tip|tips|tipped|tipped|tipping",
+  "tail": "generously",
+  "near": "generous|leave extra|left extra|a lot extra|big tips",
+  "tasks": [
+   {
+    "sit": "Ви з друзями вечеряли в ресторані, і офіціант був неймовірно уважним.",
+    "say": "Давайте дамо йому щедрі чайові.",
+    "ans": ["Let’s tip him generously.", "We should tip the waiter generously.", "He was great — let’s tip generously."],
+    "keys": { "офіціант": "him|he|waiter|server" }
+   },
+   {
+    "sit": "Таксист у Лісабоні допоміг тобі затягти важкі валізи на пʼятий поверх.",
+    "say": "Я щедро дав йому на чай.",
+    "ans": ["I tipped him generously.", "I tipped the driver really generously.", "Of course I tipped him generously for that."],
+    "keys": { "таксист": "him|driver|cabbie|taxi*" }
+   },
+   {
+    "sit": "Подруга питає, чому ти в кавʼярні завжди залишаєш більше, ніж треба.",
+    "say": "Я сам колись працював бариста, тому завжди щедро даю чайові.",
+    "ans": ["I used to work as a barista, so I always tip generously.", "I was a barista once, so I always tip generously.", "I’ve been a barista myself, so I always tip generously."],
+    "keys": { "бариста": "barista*|cafe*|coffee", "завжди": "always" }
+   }
+  ]
+ },
+ {
+  "id": 796, "w": "save up", "uk": "збирати (гроші на щось)", "lvl": "B1",
+  "forms": "save|saves|saved|saved|saving",
+  "tail": "up",
+  "near": "put aside|put away|put money aside|set aside|set money aside|budget*|collect*",
+  "tasks": [
+   {
+    "sit": "Ти вже рік не ходиш у ресторани й не купуєш нового одягу. Колега дивується.",
+    "say": "Я збираю гроші на машину.",
+    "ans": ["I’m saving up for a car.", "I’ve been saving up for a new car.", "I’m saving up to buy a car."],
+    "keys": { "машина": "car|vehicle" }
+   },
+   {
+    "sit": "Син вирішив не витрачати кишенькові гроші на солодощі.",
+    "say": "Він збирає на новий велосипед.",
+    "ans": ["He’s saving up for a new bike.", "He’s saving up to buy a new bike.", "He’s been saving up for a new bicycle."],
+    "keys": { "велосипед": "bike*|bicycle*|cycle" }
+   },
+   {
+    "sit": "Друзі кличуть тебе в Японію наступного літа, але квитки дорогі.",
+    "say": "Почну збирати на поїздку вже зараз.",
+    "ans": ["I’ll start saving up for the trip right now.", "I’m going to start saving up for the trip now.", "Guess I’d better start saving up for the trip now."],
+    "keys": { "поїздка": "trip|japan|travel*|holiday|vacation", "зараз": "now|today|right away" }
+   }
+  ]
+ },
+ {
+  "id": 797, "w": "splurge", "uk": "не шкодувати грошей, шикувати", "lvl": "C1",
+  "forms": "splurge|splurges|splurged|splurged|splurging",
+  "near": "spend a lot|spent a lot|spending a lot|blow*|blew|treat*|waste*|go all out|went all out|overspen*|throw money|threw money|pay a fortune|paid a fortune",
+  "tasks": [
+   {
+    "sit": "Ти купив дуже дорогі кросівки, хоча старі ще цілком нормальні.",
+    "say": "Я трохи розщедрився на кросівки.",
+    "ans": ["I splurged a bit on sneakers.", "I splurged on some new sneakers.", "Okay, I kind of splurged on these sneakers."],
+    "keys": { "кросівки": "sneaker*|trainer*|shoe*|kicks" }
+   },
+   {
+    "sit": "У вас із дружиною десята річниця весілля.",
+    "say": "Цього разу давай пошикуємо — підемо в найкращий ресторан.",
+    "ans": ["Let’s splurge this time and go to the best restaurant.", "This time let’s splurge on the best restaurant in town.", "Let’s splurge for once — the best restaurant in town!"],
+    "keys": { "ресторан": "restaurant*|dinner|place" }
+   },
+   {
+    "sit": "У відпустці ти вирішив не економити й узяв номер із видом на море.",
+    "say": "Раз на рік можна й пошикувати.",
+    "ans": ["You can splurge once a year.", "It’s okay to splurge once a year.", "Hey, you’ve got to splurge once a year!"],
+    "keys": { "раз на рік": "once a year|year*|annual*" }
+   }
+  ]
+ },
+ {
+  "id": 798, "w": "stash", "uk": "ховати (заначку)", "lvl": "B2",
+  "forms": "stash|stashes|stashed|stashed|stashing",
+  "near": "hide|hid|hidden|hiding|hides|keep|kept|put away|tuck*|stow*|squirrel*",
+  "tasks": [
+   {
+    "sit": "Банкомати в місті не працюють уже другий день, але ти спокійний.",
+    "say": "У мене вдома заховано трохи готівки.",
+    "ans": ["I have some cash stashed at home.", "I’ve stashed some cash at home.", "Don’t worry, I’ve got some cash stashed away at home."],
+    "keys": { "готівка": "cash|money", "вдома": "home|house|apartment|flat" }
+   },
+   {
+    "sit": "Діти знову знайшли твій шоколад на кухні й усе зʼїли.",
+    "say": "Наступного разу сховаю шоколад на верхній полиці.",
+    "ans": ["Next time I’ll stash the chocolate on the top shelf.", "I’m going to stash the chocolate on the top shelf.", "Next time I’m stashing it on the top shelf."],
+    "keys": { "полиця": "shelf|shelves|cupboard|top" }
+   },
+   {
+    "sit": "Перед поїздкою до Барселони друг радить, як уберегтися від кишенькових злодіїв.",
+    "say": "Частину грошей сховай у шкарпетку.",
+    "ans": ["Stash some of your money in your sock.", "You should stash some cash in your sock.", "Stash part of the cash in your sock, just in case."],
+    "keys": { "гроші": "money|cash", "шкарпетка": "sock*|shoe*" }
+   }
+  ]
+ },
+ {
+  "id": 799, "w": "overspend", "uk": "перевитрачати", "lvl": "B2",
+  "forms": "overspend|overspends|overspent|overspent|overspending",
+  "near": "spend too much|spent too much|spending too much|splurge*|blow*|blew|go over budget|went over budget|waste*",
+  "tasks": [
+   {
+    "sit": "Новий рік, і ти купив подарунки всім — від сусідів до колег.",
+    "say": "Я знову перевитратив на подарунки.",
+    "ans": ["I overspent on gifts again.", "I’ve overspent on presents again.", "Ugh, I overspent on gifts again this year."],
+    "keys": { "подарунки": "gift*|present*", "знову": "again|always" }
+   },
+   {
+    "sit": "Бухгалтерія надіслала звіт по вашому відділу за квартал.",
+    "say": "Ми перевитратили бюджет на рекламу.",
+    "ans": ["We overspent our advertising budget.", "We’ve overspent on advertising.", "Looks like we overspent the ad budget."],
+    "keys": { "реклама": "advert*|ad|ads|marketing|promotion*" }
+   },
+   {
+    "sit": "Друзі кличуть у ще одну поїздку, а ти щойно повернувся з дорогої відпустки.",
+    "say": "Не можу — я й так дуже перевитратив у відпустці.",
+    "ans": ["I can’t — I overspent a lot on vacation.", "I can’t, I overspent badly on my holiday.", "I really can’t, I totally overspent on the trip."],
+    "keys": { "відпустка": "vacation|holiday*|trip|travel*", "не можу": "can not|cannot|not" }
+   }
+  ]
+ },
+ {
+  "id": 800, "w": "go broke", "uk": "розоритися", "lvl": "B2",
+  "forms": "go|goes|went|gone|going",
+  "tail": "broke",
+  "near": "bankrupt*|lose everything|lost everything|out of money|fold|folded|close down|closed down|penniless",
+  "tasks": [
+   {
+    "sit": "Ресторан біля твого дому закрився лише через пів року.",
+    "say": "Кажуть, власник розорився.",
+    "ans": ["They say the owner went broke.", "Apparently the owner has gone broke.", "I heard the owner went broke."],
+    "keys": { "власник": "owner*" }
+   },
+   {
+    "sit": "Подруга вмовляє тебе купити ще й дорогий новий телефон.",
+    "say": "Якщо я куплю ще й це, то точно розорюся.",
+    "ans": ["If I buy this too, I’ll definitely go broke.", "I’ll go broke if I buy this as well.", "If I buy that too, I’m going to go broke."],
+    "keys": { "куплю": "buy|bought|get" }
+   },
+   {
+    "sit": "Ти читаєш новини про стартап, який витратив мільйони на рекламу.",
+    "say": "Вони розорилися за два роки.",
+    "ans": ["They went broke in two years.", "They went broke within two years.", "They’d gone broke in just two years."],
+    "keys": { "два роки": "two years|2 years|years" }
+   }
+  ]
+ },
+ {
+  "id": 801, "w": "break even", "uk": "вийти в нуль", "lvl": "B2",
+  "forms": "break|breaks|broke|broken|breaking",
+  "tail": "even",
+  "near": "cover costs|covered costs|cover our costs|covered our costs|pay off|paid off|profit*|lose money|lost money|no loss",
+  "tasks": [
+   {
+    "sit": "Твоя кавʼярня працює перший рік. Друг питає, чи вона вже приносить прибуток.",
+    "say": "Поки що ми тільки виходимо в нуль.",
+    "ans": ["For now we’re just breaking even.", "So far we only break even.", "We’re just about breaking even for now."],
+    "keys": { "поки що": "now|so far|yet|still" }
+   },
+   {
+    "sit": "Ви організували благодійний концерт, але квитки розкупили не всі.",
+    "say": "Добре хоч, що ми вийшли в нуль.",
+    "ans": ["At least we broke even.", "Well, at least we managed to break even.", "Good thing we at least broke even."],
+    "keys": { "хоч": "at least|least" }
+   },
+   {
+    "sit": "Ти купив старе авто, відремонтував його й перепродав.",
+    "say": "Після всіх ремонтів я ледве вийшов у нуль.",
+    "ans": ["After all the repairs, I barely broke even.", "I barely broke even after all the repairs.", "With all the repairs, I only just broke even."],
+    "keys": { "ремонти": "repair*|fix*|work", "ледве": "barely|only just|just|hardly" }
+   }
+  ]
+ },
+ {
+  "id": 802, "w": "chip in", "uk": "скидатися (грошима)", "lvl": "B2",
+  "forms": "chip|chips|chipped|chipped|chipping",
+  "tail": "in",
+  "near": "contribute*|pitch in|pitched in|put in|pay*|paid|donate*|split*|share*|club together|throw in|threw in",
+  "tasks": [
+   {
+    "sit": "У колеги в пʼятницю день народження, і хтось пропонує купити спільний подарунок.",
+    "say": "Я теж скинуся на подарунок.",
+    "ans": ["I’ll chip in for the gift too.", "I’m happy to chip in for the present too.", "Count me in — I’ll chip in for the gift."],
+    "keys": { "подарунок": "gift*|present*" }
+   },
+   {
+    "sit": "Ви з друзями замовили піцу, і курʼєр уже біля дверей.",
+    "say": "Скидаймося, по сто гривень з кожного.",
+    "ans": ["Let’s chip in, a hundred hryvnias each.", "Let’s all chip in — a hundred each.", "Everyone chip in a hundred, okay?"],
+    "keys": { "сто": "hundred|100*", "кожен": "each|everyone|every|all|per" }
+   },
+   {
+    "sit": "Ви вчотирьох їдете машиною до моря, а бензин дорогий.",
+    "say": "Давайте всі скинемося на бензин.",
+    "ans": ["Let’s all chip in for gas.", "Let’s all chip in for fuel.", "We should all chip in for the gas."],
+    "keys": { "бензин": "gas|fuel|petrol|gasoline" }
+   }
+  ]
+ },
+ {
+  "id": 803, "w": "snack", "uk": "перекушувати", "lvl": "A2",
+  "forms": "snack|snacks|snacked|snacked|snacking",
+  "near": "eat|eats|ate|eaten|eating|nibble*|munch*|graze*|have a bite|bite*",
+  "tasks": [
+   {
+    "sit": "Ти працюєш удома, і кухня зовсім поруч.",
+    "say": "Я постійно перекушую, коли працюю вдома.",
+    "ans": ["I snack all the time when I work from home.", "I always snack when I work at home.", "Working from home, I just snack all day."],
+    "keys": { "вдома": "home", "постійно": "all the time|always|all day|constantly" }
+   },
+   {
+    "sit": "Лікар питає про твої звички в харчуванні.",
+    "say": "Я часто перекушую чипсами ввечері.",
+    "ans": ["I often snack on chips in the evening.", "I snack on chips most evenings.", "I often snack on chips at night."],
+    "keys": { "чипси": "chip*|crisp*", "ввечері": "evening*|night*" }
+   },
+   {
+    "sit": "Діти просять печиво за пів години до вечері.",
+    "say": "Не перекушуйте перед вечерею!",
+    "ans": ["Don’t snack before dinner!", "No snacking before dinner!", "Stop snacking, it’s almost dinner time!"],
+    "keys": { "вечеря": "dinner|supper|meal" }
+   }
+  ]
+ },
+ {
+  "id": 804, "w": "nibble", "uk": "гризти, потроху надкушувати", "lvl": "B2",
+  "forms": "nibble|nibbles|nibbled|nibbled|nibbling",
+  "near": "bite*|bit|bitten|chew*|gnaw*|snack*|munch*|pick at|picked at|taste*",
+  "tasks": [
+   {
+    "sit": "На вечірці ти зовсім не голодний, але поруч стоїть тарілка із сиром.",
+    "say": "Я просто погризу трохи сиру.",
+    "ans": ["I’ll just nibble on some cheese.", "I’m just going to nibble some cheese.", "I’ll just nibble on a bit of cheese."],
+    "keys": { "сир": "cheese" }
+   },
+   {
+    "sit": "Гості розглядають твого хомʼячка, який сидить у клітці з морквою.",
+    "say": "Він гризе моркву цілий день.",
+    "ans": ["He nibbles on carrots all day.", "He’s been nibbling that carrot all day.", "He just nibbles on carrots all day long."],
+    "keys": { "морква": "carrot*" }
+   },
+   {
+    "sit": "Мама переживає, бо після хвороби в тебе зовсім немає апетиту.",
+    "say": "Я лише трохи надкусив бутерброд.",
+    "ans": ["I only nibbled at the sandwich.", "I just nibbled a bit of my sandwich.", "I only nibbled on it a little."],
+    "keys": { "бутерброд": "sandwich*|it" }
+   }
+  ]
+ },
+ {
+  "id": 805, "w": "devour", "uk": "пожирати, жадібно зʼїдати", "lvl": "C1",
+  "forms": "devour|devours|devoured|devoured|devouring",
+  "near": "wolf*|gobble*|scarf*|inhale*|eat|eats|ate|eaten|eating|polished off|finish*|swallow*",
+  "tasks": [
+   {
+    "sit": "Син повернувся з футбольного тренування страшенно голодний.",
+    "say": "Він за хвилину пожер два бургери.",
+    "ans": ["He devoured two burgers in a minute.", "He devoured two burgers in about a minute.", "He literally devoured two burgers in a minute!"],
+    "keys": { "бургери": "burger*|hamburger*", "хвилина": "minute*|second*|no time" }
+   },
+   {
+    "sit": "Ти на секунду залишив торт на столі, а поруч крутився пес.",
+    "say": "Собака пожер половину торта!",
+    "ans": ["The dog devoured half the cake!", "The dog has devoured half of the cake!", "Our dog just devoured half the cake!"],
+    "keys": { "собака": "dog*|puppy", "торт": "cake*" }
+   },
+   {
+    "sit": "Подруга дала тобі детектив на тиждень, а ти повернув його наступного ж дня.",
+    "say": "Я просто проковтнув її за одну ніч.",
+    "ans": ["I devoured it in one night.", "I devoured the whole book in a single night.", "I just devoured it in one night!"],
+    "keys": { "ніч": "night|evening" }
+   }
+  ]
+ },
+ {
+  "id": 806, "w": "savor", "uk": "смакувати, насолоджуватися", "lvl": "C1",
+  "forms": "savor/savour|savors/savours|savored/savoured|savored/savoured|savoring/savouring",
+  "near": "enjoy*|relish*|taste*|appreciate*|take my time|sip*",
+  "tasks": [
+   {
+    "sit": "Ти в Італії, на дегустації в маленькій виноробні.",
+    "say": "Я хочу посмакувати це вино повільно.",
+    "ans": ["I want to savor this wine slowly.", "I’d like to savor this wine slowly.", "I’m going to savor this wine nice and slowly."],
+    "keys": { "вино": "wine", "повільно": "slow*" }
+   },
+   {
+    "sit": "Бабуся спекла твій улюблений торт, якого ти не куштував уже років десять.",
+    "say": "Я смакую кожен шматочок.",
+    "ans": ["I’m savoring every bite.", "I’m savoring every single piece.", "I’m savoring every bite of this."],
+    "keys": { "кожен": "every|each", "шматочок": "bite*|piece*|slice*|mouthful*|crumb*" }
+   },
+   {
+    "sit": "Ти нарешті на вершині гори після важкого підйому, а друг уже поспішає вниз.",
+    "say": "Зачекай, дай мені посмакувати цю мить.",
+    "ans": ["Wait, let me savor the moment.", "Hold on, I want to savor this moment.", "Wait, let me just savor this for a second."],
+    "keys": { "зачекай": "wait|hold on|hang on|second|minute", "мить": "moment|this" }
+   }
+  ]
+ },
+ {
+  "id": 808, "w": "cook up", "uk": "наготувати (багато, швидко)", "lvl": "B2",
+  "forms": "cook|cooks|cooked|cooked|cooking",
+  "tail": "up",
+  "near": "make|made|making|prepare*|whip up|whipped up|rustle up|rustled up|bake*|fix*",
+  "tasks": [
+   {
+    "sit": "На свято до бабусі приїжджає вся родина — двадцять людей.",
+    "say": "Бабуся вже наготувала цілий бенкет.",
+    "ans": ["Grandma has already cooked up a feast.", "Grandma already cooked up a huge feast.", "Grandma’s already cooked up a whole feast!"],
+    "keys": { "бабуся": "grandma*|grandmother|granny|nan*", "бенкет": "feast|lot|storm|banquet|spread|tons" }
+   },
+   {
+    "sit": "До тебе несподівано приїхали друзі, і всі голодні.",
+    "say": "Дайте мені пів години — і я наготую чогось смачного.",
+    "ans": ["Give me half an hour and I’ll cook up something tasty.", "Give me thirty minutes, and I’ll cook up something delicious.", "Half an hour, and I’ll cook something up."],
+    "keys": { "пів години": "half an hour|half hour|thirty|30*|minutes", "смачне": "tasty|delicious|good|something" }
+   },
+   {
+    "sit": "Сусід по гуртожитку питає, чому на кухні стоїть величезна каструля.",
+    "say": "Я наготував супу на цілий тиждень.",
+    "ans": ["I cooked up enough soup for the whole week.", "I’ve cooked up a big pot of soup for the week.", "I cooked up a ton of soup for the week."],
+    "keys": { "суп": "soup", "тиждень": "week*" }
+   }
+  ]
+ },
+ {
+  "id": 809, "w": "heat up", "uk": "розігрівати (їжу)", "lvl": "A2",
+  "forms": "heat|heats|heated|heated|heating",
+  "tail": "up",
+  "near": "reheat*|warm up|warmed up|warm it up|warm*|microwave*",
+  "tasks": [
+   {
+    "sit": "Ти пізно повернувся з роботи, а в холодильнику лише вчорашній суп.",
+    "say": "Я просто розігрію вчорашній суп.",
+    "ans": ["I’ll just heat up yesterday’s soup.", "I’m just going to heat up the soup from yesterday.", "I’ll just heat up some leftover soup."],
+    "keys": { "суп": "soup" }
+   },
+   {
+    "sit": "В офісі одна мікрохвильовка, і біля неї вже черга.",
+    "say": "Можна я швиденько розігрію свій обід?",
+    "ans": ["Can I quickly heat up my lunch?", "Could I heat up my lunch real quick?", "Mind if I quickly heat up my lunch?"],
+    "keys": { "обід": "lunch|food|meal" }
+   },
+   {
+    "sit": "Малюк прокинувся вночі й плаче — він голодний.",
+    "say": "Розігрій, будь ласка, пляшечку з молоком.",
+    "ans": ["Please heat up the bottle.", "Could you heat up the baby’s bottle, please?", "Can you heat up his bottle, please?"],
+    "keys": { "пляшечка": "bottle*|milk|formula" }
+   }
+  ]
+ },
+ {
+  "id": 810, "w": "reheat", "uk": "розігрівати повторно", "lvl": "B1",
+  "forms": "reheat|reheats|reheated|reheated|reheating",
+  "near": "heat up|heated up|heating up|heat it up|warm up|warmed up|warm*|microwave*",
+  "tasks": [
+   {
+    "sit": "Після вечірки залишилося пів коробки піци.",
+    "say": "Завтра розігрію піцу на сніданок.",
+    "ans": ["I’ll reheat the pizza for breakfast tomorrow.", "Tomorrow I’m going to reheat the pizza for breakfast.", "I’ll just reheat the leftover pizza for breakfast."],
+    "keys": { "піца": "pizza", "сніданок": "breakfast" }
+   },
+   {
+    "sit": "Друг питає, чи можна наварити рису на кілька днів уперед.",
+    "say": "Рис краще не розігрівати більше одного разу.",
+    "ans": ["It’s better not to reheat rice more than once.", "You shouldn’t reheat rice more than once.", "Don’t reheat rice more than once."],
+    "keys": { "рис": "rice", "один раз": "once|one time|twice" }
+   },
+   {
+    "sit": "У ресторані тобі принесли пасту, але вона вже зовсім холодна.",
+    "say": "Чи не могли б ви розігріти мені пасту?",
+    "ans": ["Could you reheat my pasta, please?", "Would you mind reheating the pasta?", "Sorry, could you reheat this pasta?"],
+    "keys": { "паста": "pasta|it|this|dish" }
+   }
+  ]
+ }
+]

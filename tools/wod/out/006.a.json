@@ -1,0 +1,628 @@
+[
+ {
+  "id": 260, "w": "cancel", "uk": "скасовувати", "lvl": "A2",
+  "forms": "cancel|cancels|cancelled/canceled|cancelled/canceled|cancelling/canceling",
+  "near": "call off|called off|calling off|postpon*|put off|reschedul*",
+  "tasks": [
+   {
+    "sit": "Ти забронював номер у готелі на вихідні, але поїздка зірвалася. Дзвониш на рецепцію.",
+    "say": "Я хочу скасувати своє бронювання.",
+    "ans": ["I want to cancel my booking.", "I’d like to cancel my reservation, please.", "Hi, I need to cancel my booking for the weekend."],
+    "keys": { "бронювання": "booking|reservation|room" }
+   },
+   {
+    "sit": "Ти мав іти з подругою в кіно, але захворів. Пишеш їй увечері.",
+    "say": "Вибач, мені доведеться скасувати наші плани на сьогодні.",
+    "ans": ["Sorry, I have to cancel our plans for tonight.", "I’m sorry, but I’ll have to cancel tonight.", "Sorry, I’m going to have to cancel our plans tonight."],
+    "keys": { "сьогодні": "tonight|today|this evening" }
+   },
+   {
+    "sit": "Ти прийшов в аеропорт і бачиш на табло червоний напис біля свого рейсу.",
+    "say": "Наш рейс скасували через туман.",
+    "ans": ["Our flight was cancelled because of the fog.", "They cancelled our flight because of fog.", "Great, they’ve cancelled our flight — because of the fog."],
+    "keys": { "рейс": "flight|plane", "туман": "fog*|weather" }
+   }
+  ]
+ },
+ {
+  "id": 262, "w": "meet", "uk": "зустрічати(ся)", "lvl": "A1",
+  "forms": "meet|meets|met|met|meeting",
+  "near": "see|saw|seen|pick up|picked up|get together|got together|hang out",
+  "tasks": [
+   {
+    "sit": "Ти домовляєшся з другом про суботу.",
+    "say": "Давай зустрінемося біля кінотеатру о сьомій.",
+    "ans": ["Let’s meet at the cinema at seven.", "Let’s meet outside the cinema at 7.", "Why don’t we meet by the movie theater at seven?"],
+    "keys": { "кінотеатр": "cinema|movie*|theater|theatre", "о сьомій": "seven|7" }
+   },
+   {
+    "sit": "Колега питає, звідки ти знаєш свою дружину.",
+    "say": "Ми познайомилися в університеті.",
+    "ans": ["We met at university.", "We met in college.", "Actually, we met back at university."],
+    "keys": { "університет": "universit*|college|uni|school" }
+   },
+   {
+    "sit": "Сестра прилітає до тебе в гості. Ти пишеш їй перед вильотом.",
+    "say": "Я зустріну тебе в аеропорту.",
+    "ans": ["I’ll meet you at the airport.", "I’m going to meet you at the airport.", "Don’t worry, I’ll meet you at the airport."],
+    "keys": { "аеропорт": "airport|arrivals" }
+   }
+  ]
+ },
+ {
+  "id": 263, "w": "invite", "uk": "запрошувати", "lvl": "A2",
+  "forms": "invite|invites|invited|invited|inviting",
+  "near": "ask* over|ask* to come|have over|come over",
+  "tasks": [
+   {
+    "sit": "Ти влаштовуєш вечірку на день народження і розповідаєш про неї мамі.",
+    "say": "Я запросив десять друзів на свій день народження.",
+    "ans": ["I invited ten friends to my birthday party.", "I’ve invited ten friends to my birthday.", "I invited about ten friends to my birthday."],
+    "keys": { "десять": "ten|10", "день народження": "birthday*|party" }
+   },
+   {
+    "sit": "Колега розповідає, що переїхала в нову квартиру. Її там ще ніхто не бачив.",
+    "say": "Дякую, що запросила нас до себе!",
+    "ans": ["Thanks for inviting us over!", "Thank you for inviting us to your place!", "Thanks so much for inviting us!"],
+    "keys": { "дякую": "thank*" }
+   },
+   {
+    "sit": "Друг дивується, що ти не прийшов на весілля спільного знайомого.",
+    "say": "Мене просто не запросили.",
+    "ans": ["I just wasn’t invited.", "They simply didn’t invite me.", "Well, nobody invited me."],
+    "keys": { "не": "not|nobody|no one|never" }
+   }
+  ]
+ },
+ {
+  "id": 264, "w": "visit", "uk": "відвідувати, провідувати", "lvl": "A1",
+  "forms": "visit|visits|visited|visited|visiting",
+  "near": "see|saw|seen|go to see|went to see|come over|drop by|call on|stay with",
+  "tasks": [
+   {
+    "sit": "Колега питає про твої плани на вихідні.",
+    "say": "У неділю я відвідаю бабусю в селі.",
+    "ans": ["On Sunday I’m going to visit my grandma in the village.", "I’ll visit my grandmother in the village on Sunday.", "I’m visiting my grandma in the countryside on Sunday."],
+    "keys": { "бабуся": "grandm*|granny|gran", "неділя": "sunday|weekend" }
+   },
+   {
+    "sit": "Ти розповідаєш знайомому про свою подорож Європою.",
+    "say": "За два тижні ми відвідали п’ять країн.",
+    "ans": ["We visited five countries in two weeks.", "In two weeks we visited five countries.", "We managed to visit five countries in just two weeks."],
+    "keys": { "п’ять країн": "five|5|countr*", "два тижні": "two weeks|2 weeks|fortnight" }
+   },
+   {
+    "sit": "Твій друг лежить у лікарні після операції. Ти говориш із його дружиною.",
+    "say": "Можна мені завтра його провідати?",
+    "ans": ["Can I visit him tomorrow?", "Would it be OK to visit him tomorrow?", "Is it all right if I visit him tomorrow?"],
+    "keys": { "завтра": "tomorrow", "його": "him" }
+   }
+  ]
+ },
+ {
+  "id": 265, "w": "date", "uk": "зустрічатися (романтично)", "lvl": "B1",
+  "forms": "date|dates|dated|dated|dating",
+  "near": "go out|goes out|went out|going out|see each other|seeing each other|together|in a relationship",
+  "tasks": [
+   {
+    "sit": "Подруга питає, як довго ти вже зі своїм хлопцем.",
+    "say": "Ми зустрічаємося вже два роки.",
+    "ans": ["We’ve been dating for two years.", "We have been dating for two years now.", "We’ve been dating for about two years now."],
+    "keys": { "два роки": "two years|2 years" }
+   },
+   {
+    "sit": "У вашому офісі двоє колег завжди разом обідають і йдуть додому. Ти ділишся плітками.",
+    "say": "Здається, вони почали зустрічатися.",
+    "ans": ["I think they’ve started dating.", "It looks like they started dating.", "I’m pretty sure they’re dating now."],
+    "keys": { "здається": "think|look*|seem*|sure|guess" }
+   },
+   {
+    "sit": "Друг радить тобі познайомитися з кимось на роботі.",
+    "say": "Я ніколи не зустрічався б із колегою.",
+    "ans": ["I would never date a coworker.", "I’d never date someone from work.", "No way, I’d never date a colleague."],
+    "keys": { "колега": "coworker*|co-worker*|colleague*|work|office", "ніколи": "never|not" }
+   }
+  ]
+ },
+ {
+  "id": 266, "w": "marry", "uk": "одружуватися, виходити заміж", "lvl": "A2",
+  "forms": "marry|marries|married|married|marrying",
+  "near": "wedding|wed|engaged|tie the knot|tied the knot",
+  "tasks": [
+   {
+    "sit": "Ти стоїш на одному коліні перед коханою людиною з каблучкою в руці.",
+    "say": "Ти вийдеш за мене?",
+    "ans": ["Will you marry me?", "Would you marry me?", "So… will you marry me?"],
+    "keys": { "мене": "me" }
+   },
+   {
+    "sit": "Ти розповідаєш колезі історію своїх батьків.",
+    "say": "Мої батьки одружилися дуже молодими.",
+    "ans": ["My parents got married very young.", "My parents married when they were very young.", "My mom and dad got married really young."],
+    "keys": { "батьки": "parent*|mom|dad|mum|mother|father", "молодими": "young" }
+   },
+   {
+    "sit": "Бабуся знову питає, коли вже весілля. Ти відповідаєш чесно.",
+    "say": "Я поки не збираюся одружуватися.",
+    "ans": ["I’m not planning to get married yet.", "I don’t want to get married just yet.", "I’m not going to marry anyone yet, Grandma."],
+    "keys": { "поки не": "not|yet|now|anytime soon" }
+   }
+  ]
+ },
+ {
+  "id": 267, "w": "divorce", "uk": "розлучатися", "lvl": "B1",
+  "forms": "divorce|divorces|divorced|divorced|divorcing",
+  "near": "split up|split|separated|separate|break up|broke up",
+  "tasks": [
+   {
+    "sit": "Новий знайомий питає, чи ти живеш із батьками.",
+    "say": "Мої батьки розлучилися, коли мені було десять.",
+    "ans": ["My parents divorced when I was ten.", "My parents got divorced when I was ten.", "My mom and dad got divorced when I was ten."],
+    "keys": { "батьки": "parent*|mom|dad|mum|mother|father", "десять": "ten|10" }
+   },
+   {
+    "sit": "Ти читаєш новини про відому акторську пару і показуєш їх подрузі.",
+    "say": "Уяви, вони розлучаються після двадцяти років шлюбу.",
+    "ans": ["They are divorcing after twenty years of marriage.", "Imagine, they’re getting divorced after twenty years together.", "Can you believe they’re getting divorced after 20 years?"],
+    "keys": { "двадцять років": "twenty|20" }
+   },
+   {
+    "sit": "Колега розповідає про свого брата, який нещодавно знову почав жити сам.",
+    "say": "Він розлучився з дружиною минулого року.",
+    "ans": ["He divorced his wife last year.", "He got divorced from his wife last year.", "He and his wife got divorced last year."],
+    "keys": { "дружина": "wife", "минулого року": "last year|a year ago" }
+   }
+  ]
+ },
+ {
+  "id": 269, "w": "break up", "uk": "розходитися (з партнером)", "lvl": "B1",
+  "forms": "break|breaks|broke|broken|breaking",
+  "tail": "up",
+  "near": "split up|split|separat*|divorc*|dump*|ended it",
+  "tasks": [
+   {
+    "sit": "Подруга питає, чому ти більше не викладаєш фото зі своїм хлопцем.",
+    "say": "Ми розійшлися минулого місяця.",
+    "ans": ["We broke up last month.", "We broke up a month ago.", "Actually, we broke up last month."],
+    "keys": { "минулого місяця": "last month|a month ago|month" }
+   },
+   {
+    "sit": "Твій друг сумує і не виходить із дому. Ти пояснюєш колезі, що з ним.",
+    "say": "Його дівчина з ним розійшлася.",
+    "ans": ["His girlfriend broke up with him.", "His girlfriend has broken up with him.", "His girlfriend just broke up with him."],
+    "keys": { "дівчина": "girlfriend|she|partner" }
+   },
+   {
+    "sit": "Сестра скаржиться на свого хлопця вже третій раз за тиждень.",
+    "say": "Чому б тобі просто не розійтися з ним?",
+    "ans": ["Why don’t you just break up with him?", "Maybe you should just break up with him.", "Honestly, why not just break up with him?"],
+    "keys": { "з ним": "him" }
+   }
+  ]
+ },
+ {
+  "id": 270, "w": "celebrate", "uk": "святкувати", "lvl": "A2",
+  "forms": "celebrate|celebrates|celebrated|celebrated|celebrating",
+  "near": "party|partied|mark*|have a party",
+  "tasks": [
+   {
+    "sit": "Колега питає, що ти робитимеш у свій день народження.",
+    "say": "Я святкуватиму день народження вдома з родиною.",
+    "ans": ["I’ll celebrate my birthday at home with my family.", "I’m going to celebrate my birthday at home with family.", "I’m just celebrating my birthday at home with my family."],
+    "keys": { "вдома": "home", "родина": "family|parents" }
+   },
+   {
+    "sit": "Твоя подруга щойно отримала роботу мрії й телефонує тобі.",
+    "say": "Це треба відсвяткувати!",
+    "ans": ["We have to celebrate this!", "We need to celebrate!", "This calls for a celebration — let’s celebrate!"],
+    "keys": { "треба": "have to|need|should|must|let us|calls for" }
+   },
+   {
+    "sit": "Іноземний знайомий питає, як у Україні зустрічають Новий рік.",
+    "say": "Ми святкуємо Новий рік з друзями і феєрверками.",
+    "ans": ["We celebrate New Year with friends and fireworks.", "We usually celebrate New Year’s with friends and fireworks.", "We celebrate the New Year with friends — and lots of fireworks."],
+    "keys": { "Новий рік": "new year*", "феєрверки": "firework*|friends" }
+   }
+  ]
+ },
+ {
+  "id": 271, "w": "party", "uk": "тусити, гуляти на вечірці", "lvl": "A2",
+  "forms": "party|parties|partied|partied|partying",
+  "near": "celebrat*|club*|hang out|hung out|go out|went out",
+  "tasks": [
+   {
+    "sit": "Зранку друг питає, чому ти такий втомлений.",
+    "say": "Ми вчора тусили всю ніч.",
+    "ans": ["We partied all night yesterday.", "We were partying all night.", "We partied all night long last night."],
+    "keys": { "всю ніч": "all night|night" }
+   },
+   {
+    "sit": "Твій сусід по кімнаті складає плани на відпустку на Ібіці.",
+    "say": "Ти їдеш туди тільки тусити, так?",
+    "ans": ["You’re only going there to party, right?", "You’re going there just to party, aren’t you?", "Let me guess — you’re just going there to party?"],
+    "keys": { "тільки": "only|just" }
+   },
+   {
+    "sit": "Колега кличе тебе в клуб у п’ятницю, але ти вже не такий, як у студентські роки.",
+    "say": "Я вже давно не тусуюся до ранку.",
+    "ans": ["I don’t party till morning anymore.", "I haven’t partied until morning in years.", "I’m too old to party till the morning now."],
+    "keys": { "до ранку": "morning|dawn|all night|sunrise" }
+   }
+  ]
+ },
+ {
+  "id": 272, "w": "fight", "uk": "боротися", "lvl": "A2",
+  "forms": "fight|fights|fought|fought|fighting",
+  "near": "struggl*|battl*|combat*|resist*|stand up",
+  "tasks": [
+   {
+    "sit": "Ти читаєш новину про місцеву ініціативу і розповідаєш про неї знайомому.",
+    "say": "Мешканці борються проти забудови парку.",
+    "ans": ["The residents are fighting against building on the park.", "Local people are fighting to save the park.", "The locals are fighting the plans to build on the park."],
+    "keys": { "парк": "park", "мешканці": "resident*|local*|people|neighbo*" }
+   },
+   {
+    "sit": "Твоя тітка вже рік лікується від важкої хвороби. Ти розповідаєш про неї колезі.",
+    "say": "Вона бореться з раком уже рік.",
+    "ans": ["She has been fighting cancer for a year.", "She’s been fighting cancer for a year now.", "She’s been fighting cancer for a whole year."],
+    "keys": { "рак": "cancer|illness|disease", "рік": "year" }
+   },
+   {
+    "sit": "Твій друг-футболіст програє 0:2 у перерві. Ти пишеш йому підбадьорливе повідомлення.",
+    "say": "Боріться до кінця, ще не все втрачено!",
+    "ans": ["Fight to the end — it’s not over yet!", "Keep fighting until the end, it’s not over!", "Keep fighting till the final whistle — it’s not over yet!"],
+    "keys": { "до кінця": "end|whistle|last minute|keep", "не все втрачено": "not over|not lost|chance|still" }
+   }
+  ]
+ },
+ {
+  "id": 273, "w": "bully", "uk": "цькувати, знущатися", "lvl": "B1",
+  "forms": "bully|bullies|bullied|bullied|bullying",
+  "near": "pick on|picked on|picking on|tease*|teasing|harass*|make fun|made fun",
+  "tasks": [
+   {
+    "sit": "Твій син повернувся зі школи засмучений і з порваним рюкзаком. Ти говориш із вчителькою.",
+    "say": "Мені здається, мого сина цькують у класі.",
+    "ans": ["I think my son is being bullied at school.", "I think some kids in his class are bullying my son.", "I’m worried my son is getting bullied in class."],
+    "keys": { "син": "son|he|him|boy", "клас": "class*|school" }
+   },
+   {
+    "sit": "Колега розповідає, чому її керівник звільнився.",
+    "say": "Він роками знущався з підлеглих.",
+    "ans": ["He bullied his staff for years.", "He had been bullying his team for years.", "He’d been bullying people on his team for years."],
+    "keys": { "підлеглі": "staff|team|employee*|people|workers|subordinate*", "роками": "years" }
+   },
+   {
+    "sit": "Ти розповідаєш другові про своє дитинство.",
+    "say": "У школі мене цькували через окуляри.",
+    "ans": ["I was bullied at school because of my glasses.", "Kids bullied me at school because I wore glasses.", "I got bullied at school for wearing glasses."],
+    "keys": { "окуляри": "glasses|specs|spectacles", "школа": "school|kids|classmate*" }
+   }
+  ]
+ },
+ {
+  "id": 274, "w": "hurt", "uk": "боліти; поранити, травмувати", "lvl": "A2",
+  "forms": "hurt|hurts|hurt|hurt|hurting",
+  "near": "injur*|ache*|aching|pain*|sore|sprain*",
+  "tasks": [
+   {
+    "sit": "Ти прийшов до лікаря після того, як переніс важкі коробки.",
+    "say": "У мене болить спина.",
+    "ans": ["My back hurts.", "My back is hurting.", "My back really hurts."],
+    "keys": { "спина": "back" }
+   },
+   {
+    "sit": "Ти прийшов на тренування з перев’язаною рукою. Тренер питає, що сталося.",
+    "say": "Я травмував руку, коли грав у волейбол.",
+    "ans": ["I hurt my arm playing volleyball.", "I hurt my arm while I was playing volleyball.", "I hurt my arm at volleyball on Sunday."],
+    "keys": { "рука": "arm|hand|wrist", "волейбол": "volleyball" }
+   },
+   {
+    "sit": "Твій маленький племінник упав з велосипеда. Ти підбігаєш до нього.",
+    "say": "Ти не забився? Де болить?",
+    "ans": ["Did you hurt yourself? Where does it hurt?", "Are you hurt? Where does it hurt?", "Did you hurt yourself? Show me where it hurts."],
+    "keys": { "де": "where|show" }
+   }
+  ]
+ },
+ {
+  "id": 275, "w": "heal", "uk": "загоюватися", "lvl": "B1",
+  "forms": "heal|heals|healed|healed|healing",
+  "near": "get better|got better|recover*|mend*|clear up|cleared up",
+  "tasks": [
+   {
+    "sit": "Ти порізав палець на кухні тиждень тому. Подруга питає, як він.",
+    "say": "Поріз уже майже загоївся.",
+    "ans": ["The cut has almost healed.", "The cut is almost healed now.", "It’s pretty much healed already."],
+    "keys": { "майже": "almost|nearly|pretty much|mostly" }
+   },
+   {
+    "sit": "Лікар знімає гіпс із твоєї ноги і дивиться на рентген.",
+    "say": "Кістка добре загоїлася?",
+    "ans": ["Has the bone healed well?", "Did the bone heal properly?", "So, has the bone healed OK?"],
+    "keys": { "кістка": "bone|leg|fracture|break" }
+   },
+   {
+    "sit": "Тобі набили татуювання, і майстер пояснює, як за ним доглядати.",
+    "say": "Скільки часу потрібно, щоб тату загоїлося?",
+    "ans": ["How long does it take for a tattoo to heal?", "How long will the tattoo take to heal?", "How long does it usually take to heal?"],
+    "keys": { "скільки часу": "how long|how much time|how many" }
+   }
+  ]
+ },
+ {
+  "id": 276, "w": "cure", "uk": "виліковувати", "lvl": "B1",
+  "forms": "cure|cures|cured|cured|curing",
+  "near": "treat*|heal*|fix*|help*|get rid of|got rid of",
+  "tasks": [
+   {
+    "sit": "Ти читаєш наукові новини і розповідаєш про них батькові.",
+    "say": "Учені кажуть, що скоро зможуть вилікувати цю хворобу.",
+    "ans": ["Scientists say they will soon be able to cure this disease.", "Scientists say this disease could be cured soon.", "Scientists think they’ll be able to cure this disease soon."],
+    "keys": { "учені": "scientist*|doctor*|researcher*|they", "хвороба": "disease|illness|condition" }
+   },
+   {
+    "sit": "Бабуся радить тобі пити чай з медом від застуди.",
+    "say": "Чай з медом не вилікує застуду, бабусю.",
+    "ans": ["Tea with honey won’t cure a cold, Grandma.", "Honey tea doesn’t cure a cold, Grandma.", "Grandma, tea with honey isn’t going to cure my cold."],
+    "keys": { "застуда": "cold|flu", "чай з медом": "tea|honey" }
+   },
+   {
+    "sit": "Колега питає, як твоя шкіра після нового крему.",
+    "say": "Лікар повністю вилікував мою алергію.",
+    "ans": ["The doctor completely cured my allergy.", "My allergy was completely cured by the doctor.", "The doctor actually cured my allergy completely."],
+    "keys": { "лікар": "doctor|dermatologist", "алергія": "allerg*|skin|rash" }
+   }
+  ]
+ },
+ {
+  "id": 277, "w": "treat", "uk": "лікувати", "lvl": "A2",
+  "forms": "treat|treats|treated|treated|treating",
+  "near": "cure*|heal*|help*|give medicine|look after",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш знайомому, де працює твоя сестра.",
+    "say": "Вона лікарка й лікує дітей.",
+    "ans": ["She’s a doctor and she treats children.", "She works as a doctor, treating children.", "She’s a doctor — she treats kids."],
+    "keys": { "діти": "child*|kids|patient*" }
+   },
+   {
+    "sit": "Ти лежав у лікарні з пневмонією. Друг питає, як там було.",
+    "say": "Мене лікували антибіотиками два тижні.",
+    "ans": ["They treated me with antibiotics for two weeks.", "I was treated with antibiotics for two weeks.", "They treated me with antibiotics for a couple of weeks."],
+    "keys": { "антибіотики": "antibiotic*|medicine|drugs|pills", "два тижні": "two weeks|2 weeks|couple of weeks|fortnight" }
+   },
+   {
+    "sit": "Твій пес поранив лапу, і ти телефонуєш у ветклініку.",
+    "say": "Ви можете сьогодні оглянути й полікувати мого собаку?",
+    "ans": ["Can you treat my dog today?", "Could you treat my dog today?", "Is there any chance you could treat my dog today?"],
+    "keys": { "собака": "dog|puppy|pet", "сьогодні": "today|now" }
+   }
+  ]
+ },
+ {
+  "id": 278, "w": "sneeze", "uk": "чхати", "lvl": "A2",
+  "forms": "sneeze|sneezes|sneezed|sneezed|sneezing",
+  "near": "cough*|blow my nose|runny nose|achoo",
+  "tasks": [
+   {
+    "sit": "Весна, все цвіте. Колега питає, чому ти постійно хапаєшся за серветки.",
+    "say": "У мене алергія, я чхаю весь день.",
+    "ans": ["I have an allergy, I’ve been sneezing all day.", "I’m allergic to pollen, so I sneeze all day.", "It’s my allergy — I can’t stop sneezing all day."],
+    "keys": { "алергія": "allerg*|pollen|hay fever", "весь день": "all day|day" }
+   },
+   {
+    "sit": "Ти граєш із котом, і раптом він видає смішний звук. Показуєш відео подрузі.",
+    "say": "Дивись, кіт чхнув!",
+    "ans": ["Look, the cat sneezed!", "Look, the cat just sneezed!", "Look — did you see the cat sneeze?"],
+    "keys": { "кіт": "cat|kitty|kitten" }
+   },
+   {
+    "sit": "Ти навчаєш дитину правил гігієни.",
+    "say": "Коли чхаєш, прикривай рот ліктем.",
+    "ans": ["When you sneeze, cover your mouth with your elbow.", "Cover your mouth with your elbow when you sneeze.", "If you need to sneeze, cover your mouth with your elbow."],
+    "keys": { "рот": "mouth|face|nose", "лікоть": "elbow|arm|sleeve" }
+   }
+  ]
+ },
+ {
+  "id": 279, "w": "cough", "uk": "кашляти", "lvl": "A2",
+  "forms": "cough|coughs|coughed|coughed|coughing",
+  "near": "sneez*|choke*|choking|clear my throat",
+  "tasks": [
+   {
+    "sit": "Лікар питає, що тебе турбує.",
+    "say": "Я кашляю вже тиждень.",
+    "ans": ["I’ve been coughing for a week.", "I have been coughing for a week now.", "I’ve been coughing for about a week."],
+    "keys": { "тиждень": "week" }
+   },
+   {
+    "sit": "Ти всю ніч не спав, бо твоя маленька донька хворіє. Пишеш колезі, що запізнишся.",
+    "say": "Донька кашляла всю ніч.",
+    "ans": ["My daughter coughed all night.", "My daughter was coughing all night.", "My daughter was coughing the whole night."],
+    "keys": { "донька": "daughter|girl|she|kid|child", "всю ніч": "night" }
+   },
+   {
+    "sit": "Ти в театрі, а сусід позаду постійно шумить. Ти шепочеш подрузі.",
+    "say": "Чоловік позаду нас кашляє весь спектакль.",
+    "ans": ["The man behind us has been coughing the whole play.", "The guy behind us keeps coughing during the play.", "That man behind us has been coughing the entire show."],
+    "keys": { "позаду": "behind", "спектакль": "play|show|performance|time" }
+   }
+  ]
+ },
+ {
+  "id": 280, "w": "bleed", "uk": "кровити, стікати кров’ю", "lvl": "B1",
+  "forms": "bleed|bleeds|bled|bled|bleeding",
+  "near": "blood*",
+  "tasks": [
+   {
+    "sit": "Ти порізався, коли різав хліб. Кличеш сусіда по квартирі.",
+    "say": "Мій палець сильно кровить, де пластир?",
+    "ans": ["My finger is bleeding a lot, where’s the plaster?", "My finger’s bleeding badly — where are the Band-Aids?", "I cut my finger and it’s bleeding a lot. Where’s a plaster?"],
+    "keys": { "палець": "finger|thumb|hand", "пластир": "plaster*|band-aid*|bandage*" }
+   },
+   {
+    "sit": "У спортзалі в тебе раптом пішла кров із носа. Тренер питає, чи це часто буває.",
+    "say": "У мене іноді йде кров з носа, коли спекотно.",
+    "ans": ["My nose sometimes bleeds when it’s hot.", "Sometimes my nose bleeds when it’s hot.", "My nose tends to bleed sometimes when it’s really hot."],
+    "keys": { "ніс": "nose", "спекотно": "hot|heat|warm" }
+   },
+   {
+    "sit": "Ти почистив зуби і помітив рожеве на щітці. Розповідаєш стоматологу.",
+    "say": "У мене кровлять ясна, коли я чищу зуби.",
+    "ans": ["My gums bleed when I brush my teeth.", "My gums are bleeding when I brush my teeth.", "Whenever I brush my teeth, my gums bleed."],
+    "keys": { "ясна": "gum*", "чищу зуби": "brush*|teeth|floss*" }
+   }
+  ]
+ },
+ {
+  "id": 281, "w": "faint", "uk": "падати непритомним, знепритомніти", "lvl": "B2",
+  "forms": "faint|faints|fainted|fainted|fainting",
+  "near": "pass out|passed out|passing out|black out|blacked out|collaps*|lost consciousness|lose consciousness",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш другу про концерт просто неба в сильну спеку.",
+    "say": "Двоє людей біля сцени знепритомніли від спеки.",
+    "ans": ["Two people near the stage fainted from the heat.", "A couple of people by the stage fainted because of the heat.", "Two people right next to the stage fainted in the heat."],
+    "keys": { "спека": "heat|hot|sun", "двоє людей": "two|2|couple" }
+   },
+   {
+    "sit": "Медсестра збирається брати в тебе кров. Ти хочеш її попередити.",
+    "say": "Я можу знепритомніти, коли бачу кров.",
+    "ans": ["I might faint when I see blood.", "I sometimes faint at the sight of blood.", "Just so you know, I tend to faint when I see blood."],
+    "keys": { "кров": "blood|needle*" }
+   },
+   {
+    "sit": "Колега питає, чому шеф не прийшов на нараду.",
+    "say": "Він знепритомнів в офісі, і його забрали в лікарню.",
+    "ans": ["He fainted in the office and they took him to hospital.", "He fainted at work, and he was taken to the hospital.", "He fainted at the office, so they took him to the hospital."],
+    "keys": { "лікарня": "hospital|ambulance|doctor", "офіс": "office|work|desk" }
+   }
+  ]
+ },
+ {
+  "id": 282, "w": "exercise", "uk": "займатися спортом, тренуватися", "lvl": "A2",
+  "forms": "exercise|exercises|exercised|exercised|exercising",
+  "near": "work out|worked out|working out|workout|train*|do sport*|go to the gym|work* out",
+  "tasks": [
+   {
+    "sit": "Лікар питає про твій спосіб життя.",
+    "say": "Я займаюся спортом тричі на тиждень.",
+    "ans": ["I exercise three times a week.", "I try to exercise three times a week.", "I usually exercise about three times a week."],
+    "keys": { "тричі": "three times|3 times|thrice" }
+   },
+   {
+    "sit": "Твій тато скаржиться, що набрав вагу після виходу на пенсію.",
+    "say": "Тобі треба більше рухатися.",
+    "ans": ["You need to exercise more.", "You should exercise more often.", "Honestly, Dad, you should exercise a bit more."],
+    "keys": { "більше": "more|often|regularly" }
+   },
+   {
+    "sit": "Колега дивується, що ти приходиш на роботу такий бадьорий о восьмій ранку.",
+    "say": "Я щоранку тренуюся перед роботою.",
+    "ans": ["I exercise every morning before work.", "Every morning I exercise before going to work.", "I always exercise in the morning before work."],
+    "keys": { "щоранку": "morning*", "перед роботою": "before work|before going to work|work" }
+   }
+  ]
+ },
+ {
+  "id": 283, "w": "stretch", "uk": "розтягуватися, робити розтяжку", "lvl": "B1",
+  "forms": "stretch|stretches|stretched|stretched|stretching",
+  "near": "warm up|warmed up|warming up|loosen up|limber up|do yoga",
+  "tasks": [
+   {
+    "sit": "Твій друг-новачок одразу рвонув бігти, а тепер кульгає.",
+    "say": "Завжди розтягуйся перед пробіжкою.",
+    "ans": ["Always stretch before you run.", "You should always stretch before running.", "Always stretch before a run, trust me."],
+    "keys": { "перед пробіжкою": "run*|jog*|before" }
+   },
+   {
+    "sit": "Ти працюєш за комп’ютером цілий день. Колега бачить, як ти встаєш і піднімаєш руки вгору.",
+    "say": "Кожну годину я встаю і трохи розминаюся.",
+    "ans": ["Every hour I get up and stretch a bit.", "I stand up and stretch a little every hour.", "I try to get up and stretch every hour or so."],
+    "keys": { "кожну годину": "hour*", "встаю": "get up|stand up|stand|get" }
+   },
+   {
+    "sit": "Після тренування тренерка з йоги питає, як ти почуваєшся.",
+    "say": "Мені приємно, але я ще не можу так розтягнутися, як ви.",
+    "ans": ["I feel good, but I can’t stretch like you yet.", "It feels nice, but I can’t stretch as far as you yet.", "Feels great, but I still can’t stretch the way you do."],
+    "keys": { "ще не можу": "can not|cannot|not|still" }
+   }
+  ]
+ },
+ {
+  "id": 284, "w": "breathe", "uk": "дихати", "lvl": "A2",
+  "forms": "breathe|breathes|breathed|breathed|breathing",
+  "near": "breath|inhale*|exhale*|breath in",
+  "tasks": [
+   {
+    "sit": "Твоя подруга дуже хвилюється перед співбесідою і говорить надто швидко.",
+    "say": "Заспокойся і просто дихай.",
+    "ans": ["Calm down and breathe deeply.", "Relax and just breathe slowly.", "Hey, calm down — just breathe."],
+    "keys": { "заспокойся": "calm*|relax*|slow*|easy" }
+   },
+   {
+    "sit": "Ти після застуди. Лікар слухає твої легені.",
+    "say": "Мені досі важко дихати, коли я йду сходами.",
+    "ans": ["It’s still hard to breathe when I take the stairs.", "I still find it hard to breathe when I walk up stairs.", "I still can’t breathe properly when I climb the stairs."],
+    "keys": { "сходи": "stair*|steps|climb*", "важко": "hard|difficult|can not|cannot|struggle" }
+   },
+   {
+    "sit": "Ви з другом виходите з метро у спекотний день у центрі міста.",
+    "say": "Тут неможливо дихати, так душно!",
+    "ans": ["I can’t breathe in here, it’s so stuffy!", "It’s impossible to breathe here, it’s so stuffy!", "I can barely breathe — it’s so stuffy down here!"],
+    "keys": { "душно": "stuffy|hot|air|heat|close" }
+   }
+  ]
+ },
+ {
+  "id": 285, "w": "travel", "uk": "подорожувати", "lvl": "A1",
+  "forms": "travel|travels|travelled/traveled|travelled/traveled|travelling/traveling",
+  "near": "trip*|tour*|journey*|go abroad|went abroad|see the world",
+  "tasks": [
+   {
+    "sit": "На співбесіді тебе питають про хобі.",
+    "say": "Я люблю подорожувати і знайомитися з новими людьми.",
+    "ans": ["I love to travel and meet new people.", "I love travelling and meeting new people.", "I really love traveling and meeting new people."],
+    "keys": { "нові люди": "people|friends", "люблю": "love|like|enjoy" }
+   },
+   {
+    "sit": "Колега питає, чому в тебе стільки віз у паспорті.",
+    "say": "Я багато подорожую через роботу.",
+    "ans": ["I travel a lot for work.", "I travel a lot because of my job.", "I have to travel a lot for work."],
+    "keys": { "робота": "work|job|business" }
+   },
+   {
+    "sit": "Ти розповідаєш другові, як дістався до іншого міста.",
+    "say": "Я їхав потягом, бо літаки мене лякають.",
+    "ans": ["I travelled by train because I’m scared of planes.", "I traveled by train — planes scare me.", "I travelled by train, since flying scares me."],
+    "keys": { "потяг": "train|rail", "лякають": "scare*|afraid|fear*|nervous|hate" }
+   }
+  ]
+ },
+ {
+  "id": 286, "w": "pack", "uk": "пакувати, збирати речі", "lvl": "A2",
+  "forms": "pack|packs|packed|packed|packing",
+  "near": "put in|put into|get ready|got ready|prepar*|fill*",
+  "tasks": [
+   {
+    "sit": "Завтра рано вранці рейс. Мама телефонує і питає, чи ти готовий.",
+    "say": "Я ще не спакував валізу.",
+    "ans": ["I haven’t packed my suitcase yet.", "I still haven’t packed my suitcase.", "I haven’t even packed yet!"],
+    "keys": { "ще не": "not|yet|still" }
+   },
+   {
+    "sit": "Ви з другом збираєтеся в похід. Ти перевіряєш список.",
+    "say": "Не забудь взяти дощовик.",
+    "ans": ["Don’t forget to pack a raincoat.", "Make sure you pack a raincoat.", "Remember to pack a rain jacket, just in case."],
+    "keys": { "дощовик": "raincoat|rain jacket|jacket|poncho|umbrella" }
+   },
+   {
+    "sit": "Ти переїжджаєш і пишеш подрузі, яка обіцяла допомогти.",
+    "say": "Можеш допомогти мені спакувати книжки в коробки?",
+    "ans": ["Can you help me pack my books into boxes?", "Could you help me pack the books in boxes?", "Any chance you could help me pack up my books?"],
+    "keys": { "книжки": "book*", "допомогти": "help*" }
+   }
+  ]
+ }
+]

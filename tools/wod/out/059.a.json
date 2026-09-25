@@ -1,0 +1,1219 @@
+[
+ {
+  "id": 3194,
+  "w": "get away",
+  "uk": "вирватися (кудись) / втекти",
+  "lvl": "B1",
+  "forms": "get|gets|got|got/gotten|getting",
+  "tail": "away",
+  "near": "escape*|go away|went away|going away|run away|ran away|take a break|took a break",
+  "tasks": [
+   {
+    "sit": "Ти весь місяць працював без вихідних. Колега питає про плани на суботу.",
+    "say": "Хочу нарешті кудись вирватися на вихідні.",
+    "ans": [
+     "I want to finally get away for the weekend.",
+     "I’m hoping to get away somewhere this weekend.",
+     "I really need to get away for the weekend."
+    ],
+    "keys": {
+     "вихідні": "weekend*"
+    }
+   },
+   {
+    "sit": "Ти розповідаєш рідним, як на прогулянці ваш пес помітив кота й кинувся до нього.",
+    "say": "Кіт утік, пес не встиг його спіймати.",
+    "ans": [
+     "The cat got away before the dog could catch it.",
+     "The dog tried to catch the cat, but it got away.",
+     "The cat managed to get away — the dog couldn’t catch it."
+    ],
+    "keys": {
+     "кіт": "cat*|kitten*",
+     "спіймати": "catch*|caught|grab*"
+    }
+   },
+   {
+    "sit": "Ти розповідаєш друзям про риболовлю на озері: на гачку була величезна риба.",
+    "say": "Велика риба зірвалася й утекла в останню мить.",
+    "ans": [
+     "A big fish got away at the last moment.",
+     "At the last second, the big fish got away.",
+     "I had a huge fish, but it got away at the last second!"
+    ],
+    "keys": {
+     "риба": "fish*",
+     "остання мить": "last*|moment|second"
+    }
+   }
+  ]
+ },
+ {
+  "id": 3195,
+  "w": "get away with",
+  "uk": "уникнути покарання; зійти з рук",
+  "lvl": "B2",
+  "forms": "get|gets|got|got/gotten|getting",
+  "tail": "away with",
+  "near": "escape*|avoid*|go unpunished|went unpunished|not punished|never punished|no punishment",
+  "tasks": [
+   {
+    "sit": "Однокласник списав контрольну просто з телефона, і вчителька нічого не помітила.",
+    "say": "Йому зійшло з рук те, що він списав.",
+    "ans": [
+     "He got away with cheating on the test.",
+     "He cheated on the test and got away with it.",
+     "He totally got away with cheating — nobody noticed."
+    ],
+    "keys": {
+     "списав": "cheat*|cop*"
+    }
+   },
+   {
+    "sit": "Твоя дитина розбила вазу й сховала уламки під диван. Ти їх знайшов.",
+    "say": "Не думай, що тобі це зійде з рук!",
+    "ans": [
+     "Don’t think you’ll get away with this!",
+     "You’re not going to get away with this!",
+     "Don’t think you can get away with it!"
+    ],
+    "keys": {
+     "не": "not|never"
+    }
+   },
+   {
+    "sit": "Сусід постійно паркується на місці для людей з інвалідністю, і штрафу досі не отримав.",
+    "say": "Не розумію, як йому щоразу це сходить з рук.",
+    "ans": [
+     "I don’t understand how he gets away with it every time.",
+     "How does he keep getting away with it?",
+     "I don’t know how he always gets away with parking there."
+    ],
+    "keys": {
+     "щоразу": "every time|always|keep*|each time"
+    }
+   }
+  ]
+ },
+ {
+  "id": 3196,
+  "w": "get back",
+  "uk": "повертатися",
+  "lvl": "A2",
+  "forms": "get|gets|got|got/gotten|getting",
+  "tail": "back",
+  "near": "return*|come back|came back|coming back|be back",
+  "tasks": [
+   {
+    "sit": "Ти щойно з відпустки. Колега на роботі питає, коли ти приїхав.",
+    "say": "Я повернувся вчора пізно ввечері.",
+    "ans": [
+     "I got back late last night.",
+     "I got back yesterday, late in the evening.",
+     "I only got back last night, pretty late."
+    ],
+    "keys": {
+     "пізно": "late",
+     "вчора": "last night|yesterday"
+    }
+   },
+   {
+    "sit": "Ти вийшов у магазин, а сестра пише, коли тебе чекати, бо хоче разом подивитися фільм.",
+    "say": "Я повернуся за пів години.",
+    "ans": [
+     "I’ll get back in half an hour.",
+     "I should get back in about thirty minutes.",
+     "I’ll get back in half an hour or so."
+    ],
+    "keys": {
+     "пів години": "half an hour|half hour|thirty minutes|30 minutes|minutes"
+    }
+   },
+   {
+    "sit": "Ви з друзями в горах. Мама телефонує й хвилюється, коли ви вже будете вдома.",
+    "say": "Ми повернемося додому в неділю.",
+    "ans": [
+     "We’ll get back home on Sunday.",
+     "We’re getting back on Sunday.",
+     "We should get back home by Sunday."
+    ],
+    "keys": {
+     "неділя": "sunday"
+    }
+   }
+  ]
+ },
+ {
+  "id": 3197,
+  "w": "get back to",
+  "uk": "відповісти пізніше; звʼязатися знову",
+  "lvl": "B1",
+  "forms": "get|gets|got|got/gotten|getting",
+  "tail": "back to",
+  "near": "reply|replies|replied|answer*|respond*|call you back|call back|called back|write back|contact*",
+  "tasks": [
+   {
+    "sit": "Клієнт питає про знижку, а тобі спершу треба уточнити це в бухгалтерії.",
+    "say": "Я уточню і відповім вам завтра.",
+    "ans": [
+     "I’ll check and get back to you tomorrow.",
+     "Let me check, and I’ll get back to you tomorrow.",
+     "I’ll find out and get back to you by tomorrow."
+    ],
+    "keys": {
+     "завтра": "tomorrow",
+     "уточню": "check*|find out|ask*|confirm*"
+    }
+   },
+   {
+    "sit": "Друг кличе тебе в похід наступного місяця, але ти ще не знаєш свого робочого графіка.",
+    "say": "Можна я відповім тобі трохи пізніше?",
+    "ans": [
+     "Can I get back to you later?",
+     "Let me get back to you a bit later, okay?",
+     "I’ll get back to you on that later."
+    ],
+    "keys": {
+     "пізніше": "later|soon"
+    }
+   },
+   {
+    "sit": "Ти скаржишся другові, що служба підтримки інтернет-магазину пообіцяла розібратися й зникла.",
+    "say": "Вони мені так і не відповіли.",
+    "ans": [
+     "They never got back to me.",
+     "They still haven’t got back to me.",
+     "They said they’d get back to me, but they never did."
+    ],
+    "keys": {
+     "так і не": "never|not|still"
+    }
+   }
+  ]
+ },
+ {
+  "id": 3198,
+  "w": "get in",
+  "uk": "прибувати; приходити додому",
+  "lvl": "A2",
+  "forms": "get|gets|got|got/gotten|getting",
+  "tail": "in",
+  "near": "arrive*|come in|came in|land*|come home|came home",
+  "tasks": [
+   {
+    "sit": "Ти збираєшся зустріти друга на вокзалі й питаєш у довідковій.",
+    "say": "О котрій прибуває потяг з Києва?",
+    "ans": [
+     "What time does the train from Kyiv get in?",
+     "When does the Kyiv train get in?",
+     "What time is the train from Kyiv getting in?"
+    ],
+    "keys": {
+     "потяг": "train*",
+     "Київ": "kyiv|kiev"
+    }
+   },
+   {
+    "sit": "Ти повернувся з вечірки дуже пізно, і зранку мама питає, коли ти прийшов.",
+    "say": "Я прийшов десь опівночі.",
+    "ans": [
+     "I got in around midnight.",
+     "I got in at about midnight.",
+     "I didn’t get in till around midnight."
+    ],
+    "keys": {
+     "опівночі": "midnight|12|twelve"
+    }
+   },
+   {
+    "sit": "Колега летить на переговори в інше місто, і ти хвилюєшся, чи встигне він на ранкову зустріч.",
+    "say": "Твій літак прилітає пізно, так?",
+    "ans": [
+     "Your flight gets in late, right?",
+     "Your plane gets in quite late, is that right?",
+     "So your flight gets in late, yeah?"
+    ],
+    "keys": {
+     "літак": "flight*|plane*",
+     "пізно": "late"
+    }
+   }
+  ]
+ },
+ {
+  "id": 3199,
+  "w": "get into",
+  "uk": "захопитися; втягнутися",
+  "lvl": "B1",
+  "forms": "get|gets|got|got/gotten|getting",
+  "tail": "into",
+  "near": "love*|enjoy*|interested|hooked|obsessed|take up|took up|taken up|taking up",
+  "tasks": [
+   {
+    "sit": "Друзі дивуються, що ти тепер щоранку виходиш на пробіжку.",
+    "say": "Останнім часом я справді захопився бігом.",
+    "ans": [
+     "I’ve really got into running lately.",
+     "Lately I’m really getting into running.",
+     "I’ve been getting into running a lot lately."
+    ],
+    "keys": {
+     "біг": "run*|jog*",
+     "останнім часом": "lately|recently|these days"
+    }
+   },
+   {
+    "sit": "Колега бачить у тебе на столі книжку з шахових задач.",
+    "say": "Я захопився шахами під час карантину.",
+    "ans": [
+     "I got into chess during lockdown.",
+     "During lockdown I got into chess.",
+     "I really got into chess during the lockdown."
+    ],
+    "keys": {
+     "шахи": "chess",
+     "карантин": "lockdown*|quarantine|pandemic|covid"
+    }
+   },
+   {
+    "sit": "Подруга порадила тобі новий серіал. Ти подивився кілька серій і ділишся враженнями.",
+    "say": "Спочатку було нудно, але потім я втягнувся.",
+    "ans": [
+     "It was boring at first, but then I got into it.",
+     "At first it was boring, but later I got into it.",
+     "It was slow at first, but then I really got into it."
+    ],
+    "keys": {
+     "спочатку": "at first|first|beginning|start*",
+     "нудно": "boring|bored|slow|dull"
+    }
+   }
+  ]
+ },
+ {
+  "id": 3200,
+  "w": "get on with",
+  "uk": "ладнати з; продовжувати (справу)",
+  "lvl": "B1",
+  "forms": "get|gets|got|got/gotten|getting",
+  "tail": "on with",
+  "near": "get along|gets along|got along|getting along|continue*|carry on|carried on",
+  "tasks": [
+   {
+    "sit": "Нова знайома питає, як тобі живеться в новому будинку.",
+    "say": "Я чудово ладнаю із сусідами.",
+    "ans": [
+     "I get on really well with my neighbours.",
+     "I get on well with my neighbours.",
+     "My neighbours are great — I get on with them really well."
+    ],
+    "keys": {
+     "сусіди": "neighbo*",
+     "чудово": "well|great|fine"
+    }
+   },
+   {
+    "sit": "Друг питає, чи часто ви з братом сваритеся.",
+    "say": "Ні, ми з братом завжди добре ладнали.",
+    "ans": [
+     "No, I’ve always got on well with my brother.",
+     "No, my brother and I have always got on with each other.",
+     "No, I’ve always got on really well with my brother."
+    ],
+    "keys": {
+     "брат": "brother*",
+     "завжди": "always"
+    }
+   },
+   {
+    "sit": "Колеги відволіклися на розмови про футбол, а дедлайн уже завтра.",
+    "say": "Гаразд, давайте продовжимо роботу.",
+    "ans": [
+     "Okay, let’s get on with the work.",
+     "Right, let’s get on with it.",
+     "Okay guys, we should get on with our work."
+    ],
+    "keys": {
+     "робота": "work|it|job|task*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 3201,
+  "w": "get out",
+  "uk": "виходити; вибиратися (з дому, машини)",
+  "lvl": "A2",
+  "forms": "get|gets|got|got/gotten|getting",
+  "tail": "out",
+  "near": "go out|went out|going out|leave|left|leaving|exit*|escape*",
+  "tasks": [
+   {
+    "sit": "Ти тиждень сидів удома через застуду і вже божеволієш від чотирьох стін.",
+    "say": "Мені треба вибратися з дому хоч на годинку.",
+    "ans": [
+     "I need to get out of the house, even for an hour.",
+     "I have to get out of the house for at least an hour.",
+     "I just need to get out for an hour or so."
+    ],
+    "keys": {
+     "треба": "need*|have to|must|got to",
+     "годинка": "hour*"
+    }
+   },
+   {
+    "sit": "Ти в таксі, машина застрягла в заторі, а до вокзалу вже кілька кроків.",
+    "say": "Я вийду тут, дякую.",
+    "ans": [
+     "I’ll get out here, thanks.",
+     "Can I get out here, please?",
+     "I’ll just get out here — thanks!"
+    ],
+    "keys": {
+     "тут": "here"
+    }
+   },
+   {
+    "sit": "У торговому центрі спрацювала пожежна тривога, і коридори наповнюються димом.",
+    "say": "Нам треба негайно вибиратися звідси!",
+    "ans": [
+     "We need to get out of here right now!",
+     "We have to get out of here now!",
+     "Come on, let’s get out of here now!"
+    ],
+    "keys": {
+     "звідси": "here|building",
+     "негайно": "now|right away|immediately|quick*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 3202,
+  "w": "get out of",
+  "uk": "відкрутитися від; уникнути (обовʼязку)",
+  "lvl": "B2",
+  "forms": "get|gets|got|got/gotten|getting",
+  "tail": "out of",
+  "near": "avoid*|skip*|dodg*|escape*|excuse*|wriggle out",
+  "tasks": [
+   {
+    "sit": "Молодший брат знову вигадав причину, щоб не мити посуд після вечері.",
+    "say": "Він завжди відкручується від миття посуду.",
+    "ans": [
+     "He always gets out of doing the dishes.",
+     "He always finds a way to get out of washing up.",
+     "Every time, he somehow gets out of doing the dishes."
+    ],
+    "keys": {
+     "посуд": "dish*|washing up|wash*",
+     "завжди": "always|every time"
+    }
+   },
+   {
+    "sit": "Тебе записали на корпоративну вечірку в суботу, а тобі зовсім не хочеться туди йти.",
+    "say": "Як би мені відкрутитися від цієї вечірки?",
+    "ans": [
+     "How can I get out of this party?",
+     "Is there any way I can get out of going to this party?",
+     "How do I get out of this office party?"
+    ],
+    "keys": {
+     "вечірка": "party|parties|event"
+    }
+   },
+   {
+    "sit": "Одногрупник мав виступати з презентацією, але в останню мить написав викладачеві, що захворів.",
+    "say": "Він відкрутився від презентації, сказавши, що захворів.",
+    "ans": [
+     "He got out of the presentation by saying he was sick.",
+     "He said he was ill and got out of the presentation.",
+     "He got out of doing the presentation — said he was sick."
+    ],
+    "keys": {
+     "презентація": "presentation*|talk",
+     "захворів": "sick|ill|unwell"
+    }
+   }
+  ]
+ },
+ {
+  "id": 3203,
+  "w": "get to",
+  "uk": "дістатися до",
+  "lvl": "A2",
+  "forms": "get|gets|got|got/gotten|getting",
+  "tail": "to",
+  "near": "reach*|arrive*|go to|went to|come to|came to|make it to|made it to",
+  "tasks": [
+   {
+    "sit": "Ти турист у Львові й зупиняєш перехожого на вулиці.",
+    "say": "Вибачте, як мені дістатися до вокзалу?",
+    "ans": [
+     "Excuse me, how do I get to the train station?",
+     "Excuse me, how can I get to the station?",
+     "Sorry, what’s the best way to get to the station?"
+    ],
+    "keys": {
+     "вокзал": "station*"
+    }
+   },
+   {
+    "sit": "У вас рейс о сьомій ранку, а метро ще не працюватиме.",
+    "say": "Як нам дістатися до аеропорту так рано?",
+    "ans": [
+     "How are we going to get to the airport so early?",
+     "How do we get to the airport that early?",
+     "How will we get to the airport so early in the morning?"
+    ],
+    "keys": {
+     "аеропорт": "airport*",
+     "рано": "early"
+    }
+   },
+   {
+    "sit": "Колега пише, що нарада вже почалася, а ти стоїш у заторі.",
+    "say": "Я доберуся до офісу хвилин за двадцять.",
+    "ans": [
+     "I’ll get to the office in about twenty minutes.",
+     "I should get to the office in twenty minutes.",
+     "I’ll get to the office in twenty minutes or so."
+    ],
+    "keys": {
+     "офіс": "office|work",
+     "двадцять": "twenty|20*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 3204,
+  "w": "get together",
+  "uk": "збиратися разом; зустрічатися",
+  "lvl": "A2",
+  "forms": "get|gets|got|got/gotten|getting",
+  "tail": "together",
+  "near": "meet*|met|hang out|hung out|catch up|caught up|gather*|see each other",
+  "tasks": [
+   {
+    "sit": "Ти давно не бачив шкільних друзів і пишеш у ваш груповий чат.",
+    "say": "Давайте зберемося в пʼятницю!",
+    "ans": [
+     "Let’s get together on Friday!",
+     "Why don’t we get together on Friday?",
+     "We should get together this Friday!"
+    ],
+    "keys": {
+     "пʼятниця": "friday"
+    }
+   },
+   {
+    "sit": "Колега-іноземець питає, як у вашій родині святкують Різдво.",
+    "say": "Уся родина збирається разом у бабусі.",
+    "ans": [
+     "The whole family gets together at Grandma’s.",
+     "All of us get together at my grandma’s place.",
+     "The whole family always gets together at Grandma’s house."
+    ],
+    "keys": {
+     "бабуся": "grand*|nan*|granny",
+     "родина": "family|all of us|whole"
+    }
+   },
+   {
+    "sit": "Ви з одногрупниками готуєте спільний проєкт, а дедлайн у понеділок.",
+    "say": "Нам треба зібратися й обговорити проєкт.",
+    "ans": [
+     "We need to get together and discuss the project.",
+     "We should get together to talk about the project.",
+     "Let’s get together and go over the project."
+    ],
+    "keys": {
+     "проєкт": "project*",
+     "обговорити": "discuss*|talk*|go over|plan*|work on"
+    }
+   }
+  ]
+ },
+ {
+  "id": 3205,
+  "w": "get up to",
+  "uk": "витворяти; чим займатися",
+  "lvl": "B2",
+  "forms": "get|gets|got|got/gotten|getting",
+  "tail": "up to",
+  "near": "been up to|doing|did|do",
+  "tasks": [
+   {
+    "sit": "У понеділок зранку колега наливає каву й питає тебе про вихідні.",
+    "say": "Ну, чим займався на вихідних?",
+    "ans": [
+     "What did you get up to at the weekend?",
+     "What did you get up to over the weekend?",
+     "So, what did you get up to this weekend?"
+    ],
+    "keys": {
+     "вихідні": "weekend*"
+    }
+   },
+   {
+    "sit": "Діти вже пів години підозріло тихі. Ти йдеш перевірити їхню кімнату.",
+    "say": "Ну, що ви там витворяєте?",
+    "ans": [
+     "What are you getting up to in there?",
+     "What are you two getting up to?",
+     "Okay, what are you getting up to in there?"
+    ],
+    "keys": {
+     "що": "what"
+    }
+   },
+   {
+    "sit": "Ти повертаєшся з роботи, а в квартирі все перевернуто. Розповідаєш сусідові.",
+    "say": "Уяви, що мій пес витворяв, поки мене не було!",
+    "ans": [
+     "You won’t believe what my dog got up to while I was out.",
+     "Guess what my dog got up to while I was away!",
+     "You’ll never guess what the dog got up to while I was gone."
+    ],
+    "keys": {
+     "пес": "dog*|puppy",
+     "поки мене не було": "while|out|away|gone"
+    }
+   }
+  ]
+ },
+ {
+  "id": 3206,
+  "w": "go after",
+  "uk": "домагатися; гнатися за",
+  "lvl": "B2",
+  "forms": "go|goes|went|gone|going",
+  "tail": "after",
+  "near": "chase*|pursue*|follow*|run after|ran after|fight for|aim for",
+  "tasks": [
+   {
+    "sit": "Друг вагається, чи кидати офіс заради власної кавʼярні, про яку мріє роками.",
+    "say": "Якщо ти справді цього хочеш, добивайся цього!",
+    "ans": [
+     "Go after it if you really want it!",
+     "If it’s what you really want, go after it!",
+     "You really want this? Then go after it!"
+    ],
+    "keys": {
+     "хочеш": "want*"
+    }
+   },
+   {
+    "sit": "Ти бачиш вакансію своєї мрії, хоча вимоги там дуже високі.",
+    "say": "Я все одно спробую домогтися цієї посади.",
+    "ans": [
+     "I’m going to go after that job anyway.",
+     "I’ll go after the position anyway.",
+     "I’m still going to go after that job."
+    ],
+    "keys": {
+     "посада": "job|position|role|post",
+     "все одно": "anyway|still|regardless"
+    }
+   },
+   {
+    "sit": "Ти розповідаєш колезі, як у супермаркеті злодій вихопив у жінки сумку.",
+    "say": "Охоронець одразу погнався за злодієм.",
+    "ans": [
+     "The security guard went after the thief right away.",
+     "The guard immediately went after the thief.",
+     "The guard went straight after the thief."
+    ],
+    "keys": {
+     "злодій": "thief|guy|man|robber",
+     "охоронець": "guard*|security"
+    }
+   }
+  ]
+ },
+ {
+  "id": 3207,
+  "w": "go against",
+  "uk": "суперечити; іти проти",
+  "lvl": "B2",
+  "forms": "go|goes|went|gone|going",
+  "tail": "against",
+  "near": "contradict*|break*|broke|violat*|oppos*|conflict*",
+  "tasks": [
+   {
+    "sit": "Начальник просить тебе приховати від клієнта дефект товару.",
+    "say": "Вибачте, але це суперечить моїм принципам.",
+    "ans": [
+     "Sorry, but that goes against my principles.",
+     "I’m sorry, but this goes against my principles.",
+     "Sorry, I can’t — it goes against my principles."
+    ],
+    "keys": {
+     "принципи": "principle*|values|belief*"
+    }
+   },
+   {
+    "sit": "Сусід хоче смажити шашлик просто на балконі багатоповерхівки.",
+    "say": "Це суперечить правилам будинку.",
+    "ans": [
+     "That goes against the building rules.",
+     "It goes against the rules of the building.",
+     "You can’t do that — it goes against the building’s rules."
+    ],
+    "keys": {
+     "правила": "rule*"
+    }
+   },
+   {
+    "sit": "На зборах уся команда голосує за нову ідею, а ти з нею не згоден.",
+    "say": "Не хочу йти проти всіх, але я не згоден.",
+    "ans": [
+     "I don’t want to go against everyone, but I disagree.",
+     "I hate to go against everyone, but I don’t agree.",
+     "I don’t like going against everyone, but I just don’t agree."
+    ],
+    "keys": {
+     "всіх": "everyone|everybody|all|the group|team",
+     "не згоден": "disagree|not agree"
+    }
+   }
+  ]
+ },
+ {
+  "id": 3208,
+  "w": "go around",
+  "uk": "обходити; ходити (про чутки, хвороби)",
+  "lvl": "B1",
+  "forms": "go|goes|went|gone|going",
+  "tail": "around/round",
+  "near": "walk around|walked around|circle*|spread*|detour",
+  "tasks": [
+   {
+    "sit": "Ви йдете до друзів, але вулицю перекрили через ремонт труб.",
+    "say": "Доведеться обійти квартал.",
+    "ans": [
+     "We’ll have to go around the block.",
+     "We have to go around the block.",
+     "Looks like we’ll have to go around the block."
+    ],
+    "keys": {
+     "квартал": "block*|building*"
+    }
+   },
+   {
+    "sit": "В офісі всі шепочуться по кутках. Ти пояснюєш новому колезі, що відбувається.",
+    "say": "Ходять чутки, що компанію продадуть.",
+    "ans": [
+     "There’s a rumour going around that the company will be sold.",
+     "A rumour is going around that they’re selling the company.",
+     "There’s a rumor going around that the company is being sold."
+    ],
+    "keys": {
+     "чутки": "rumo*",
+     "компанія": "company|firm"
+    }
+   },
+   {
+    "sit": "Ти кашляєш на роботі, і колега питає, що сталося.",
+    "say": "Та зараз якийсь вірус ходить.",
+    "ans": [
+     "There’s a bug going around.",
+     "Some virus is going around at the moment.",
+     "There’s a cold going around right now."
+    ],
+    "keys": {
+     "вірус": "bug|virus|flu|cold"
+    }
+   }
+  ]
+ },
+ {
+  "id": 3209,
+  "w": "go by",
+  "uk": "минати (про час)",
+  "lvl": "B1",
+  "forms": "go|goes|went|gone|going",
+  "tail": "by",
+  "near": "pass*|fly|flies|flew|flown|flying",
+  "tasks": [
+   {
+    "sit": "Ти на випускному, і ви з одногрупницею згадуєте перший курс.",
+    "say": "Чотири роки минули так швидко!",
+    "ans": [
+     "Four years went by so fast!",
+     "The four years went by so quickly!",
+     "Wow, four years have gone by so fast!"
+    ],
+    "keys": {
+     "чотири": "four|4",
+     "швидко": "fast|quick*"
+    }
+   },
+   {
+    "sit": "Остання ніч відпустки на морі. Ти сидиш на терасі й зітхаєш.",
+    "say": "Тиждень минув зовсім непомітно.",
+    "ans": [
+     "The week went by so quickly.",
+     "This week has gone by so fast.",
+     "The week just went by in a flash."
+    ],
+    "keys": {
+     "тиждень": "week*"
+    }
+   },
+   {
+    "sit": "Ти чекаєш у лікарні результатів аналізів, а лікаря все немає.",
+    "say": "Минула година, а нам досі нічого не сказали.",
+    "ans": [
+     "An hour went by, and nobody told us anything.",
+     "An hour has gone by and we still haven’t heard anything.",
+     "A whole hour went by and still nothing!"
+    ],
+    "keys": {
+     "година": "hour*",
+     "нічого": "nothing|anything"
+    }
+   }
+  ]
+ },
+ {
+  "id": 3210,
+  "w": "go down",
+  "uk": "знижуватися; падати",
+  "lvl": "A2",
+  "forms": "go|goes|went|gone|going",
+  "tail": "down",
+  "near": "drop*|fall*|fell|decreas*|reduc*|lower*|cheaper",
+  "tasks": [
+   {
+    "sit": "Ти заправляєш машину й помічаєш нову ціну на табло.",
+    "say": "Ціни на бензин нарешті знизилися.",
+    "ans": [
+     "Petrol prices have finally gone down.",
+     "Gas prices finally went down.",
+     "Finally, fuel prices are going down!"
+    ],
+    "keys": {
+     "ціни": "price*|cost*",
+     "бензин": "petrol|gas|fuel"
+    }
+   },
+   {
+    "sit": "Дитина хворіє. Лікарка телефонує, щоб дізнатися, як вона почувається.",
+    "say": "Температура вже спала.",
+    "ans": [
+     "Her temperature has gone down.",
+     "The fever has gone down now.",
+     "Thankfully, her temperature has gone down."
+    ],
+    "keys": {
+     "температура": "temperature|fever"
+    }
+   },
+   {
+    "sit": "На нараді ви обговорюєте звіт за квартал.",
+    "say": "Продажі впали на десять відсотків.",
+    "ans": [
+     "Sales went down by ten percent.",
+     "Sales have gone down by 10 percent.",
+     "Our sales went down about ten percent."
+    ],
+    "keys": {
+     "продажі": "sale*",
+     "десять": "ten|10*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 3211,
+  "w": "go for",
+  "uk": "обрати; зважитися на",
+  "lvl": "B1",
+  "forms": "go|goes|went|gone|going",
+  "tail": "for",
+  "near": "choose|chose|chosen|choosing|pick*|take|took|order*|try",
+  "tasks": [
+   {
+    "sit": "Офіціант у ресторані чекає твого замовлення.",
+    "say": "Я, мабуть, візьму рибу.",
+    "ans": [
+     "I think I’ll go for the fish.",
+     "I’ll go for the fish, please.",
+     "I’ll probably go for the fish."
+    ],
+    "keys": {
+     "риба": "fish|salmon"
+    }
+   },
+   {
+    "sit": "Ти в магазині вибираєш між двома схожими ноутбуками.",
+    "say": "Візьму дешевший — різниця невелика.",
+    "ans": [
+     "I’ll go for the cheaper one — there’s not much difference.",
+     "I’m going to go for the cheaper one, there isn’t much difference.",
+     "I’ll just go for the cheaper one; they’re pretty much the same."
+    ],
+    "keys": {
+     "дешевший": "cheap*|less expensive"
+    }
+   },
+   {
+    "sit": "Подруга вагається, чи подаватися на стипендію за кордоном.",
+    "say": "Зважся! Що ти втрачаєш?",
+    "ans": [
+     "Go for it! What have you got to lose?",
+     "Just go for it — what do you have to lose?",
+     "Go for it! You’ve got nothing to lose."
+    ],
+    "keys": {
+     "втрачаєш": "lose|losing|lost"
+    }
+   }
+  ]
+ },
+ {
+  "id": 3212,
+  "w": "go into",
+  "uk": "заглиблюватися в (деталі)",
+  "lvl": "B2",
+  "forms": "go|goes|went|gone|going",
+  "tail": "into",
+  "near": "explain*|discuss*|talk about|elaborat*|dig into|get into",
+  "tasks": [
+   {
+    "sit": "На нараді тебе питають про проблему з клієнтом, але часу залишилося зовсім мало.",
+    "say": "Я не буду заглиблюватися в деталі.",
+    "ans": [
+     "I won’t go into detail.",
+     "I’m not going to go into the details now.",
+     "I won’t go into all the details right now."
+    ],
+    "keys": {
+     "деталі": "detail*",
+     "не": "not|never"
+    }
+   },
+   {
+    "sit": "Нова знайома питає, чому ти звільнився з попередньої роботи. Тобі неприємно про це говорити.",
+    "say": "Це довга історія, не хочу в це заглиблюватися.",
+    "ans": [
+     "It’s a long story — I don’t want to go into it.",
+     "It’s a long story, and I’d rather not go into it.",
+     "Long story. I don’t really want to go into it."
+    ],
+    "keys": {
+     "довга історія": "long story|long"
+    }
+   },
+   {
+    "sit": "Ти викладач і на першій лекції розповідаєш студентам план курсу.",
+    "say": "Цю тему ми детальніше розглянемо наступного тижня.",
+    "ans": [
+     "We’ll go into this topic in more detail next week.",
+     "Next week we’ll go into this topic in more depth.",
+     "We’ll go into that in more detail next week."
+    ],
+    "keys": {
+     "наступного тижня": "next week",
+     "детальніше": "detail*|depth|deeper"
+    }
+   }
+  ]
+ },
+ {
+  "id": 3213,
+  "w": "go off",
+  "uk": "спрацювати (про будильник, сигналізацію); зіпсуватися",
+  "lvl": "B1",
+  "forms": "go|goes|went|gone|going",
+  "tail": "off",
+  "near": "ring*|rang|rung|go bad|went bad|gone bad|spoil*|beep*|sound*|expire*",
+  "tasks": [
+   {
+    "sit": "Ти запізнився на роботу, і начальник багатозначно дивиться на годинник.",
+    "say": "Вибачте, мій будильник не задзвонив.",
+    "ans": [
+     "Sorry, my alarm didn’t go off.",
+     "I’m sorry, my alarm clock didn’t go off.",
+     "Sorry — my alarm never went off this morning."
+    ],
+    "keys": {
+     "будильник": "alarm*",
+     "не": "not|never"
+    }
+   },
+   {
+    "sit": "Ти наливаєш молоко в каву й відчуваєш дивний кислий запах.",
+    "say": "Фу, молоко зіпсувалося.",
+    "ans": [
+     "Ugh, the milk has gone off.",
+     "Yuck, this milk has gone off.",
+     "Eww, I think the milk has gone off."
+    ],
+    "keys": {
+     "молоко": "milk"
+    }
+   },
+   {
+    "sit": "Ти смажиш стейк, на кухні задимлено, і сусід по квартирі прибігає на гучний писк.",
+    "say": "Це просто пожежна сигналізація спрацювала через дим.",
+    "ans": [
+     "It’s just the smoke alarm going off.",
+     "The smoke alarm went off because of the smoke.",
+     "Relax, the smoke alarm just went off."
+    ],
+    "keys": {
+     "сигналізація": "alarm*|detector",
+     "дим": "smoke*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 3214,
+  "w": "go out",
+  "uk": "виходити (розважитися); гаснути",
+  "lvl": "A2",
+  "forms": "go|goes|went|gone|going",
+  "tail": "out",
+  "near": "hang out|hung out|party|partying|leave|left|turn off|turned off|switch off|switched off|die|died",
+  "tasks": [
+   {
+    "sit": "Колега питає про твої плани на вечір пʼятниці.",
+    "say": "Ми з друзями кудись підемо на вечерю.",
+    "ans": [
+     "I’m going out for dinner with friends.",
+     "My friends and I are going out for dinner.",
+     "I’m going out to dinner with some friends."
+    ],
+    "keys": {
+     "вечеря": "dinner|eat",
+     "друзі": "friend*"
+    }
+   },
+   {
+    "sit": "Ти ввечері сидиш удома за книжкою, і раптом у всьому будинку стає темно.",
+    "say": "Ой, світло згасло!",
+    "ans": [
+     "Oh, the lights went out!",
+     "Oh no, the lights have gone out!",
+     "Whoa, all the lights just went out!"
+    ],
+    "keys": {
+     "світло": "light*|power|electricity"
+    }
+   },
+   {
+    "sit": "Друзі кличуть тебе на вечірку, але ти після важкого тижня ледве стоїш на ногах.",
+    "say": "Сьогодні я нікуди не піду, надто втомився.",
+    "ans": [
+     "I’m not going out tonight, I’m too tired.",
+     "I don’t feel like going out tonight — I’m too tired.",
+     "I’m staying in tonight, I’m too tired to go out."
+    ],
+    "keys": {
+     "сьогодні": "tonight|today",
+     "втомився": "tired|exhausted"
+    }
+   }
+  ]
+ },
+ {
+  "id": 3215,
+  "w": "go through",
+  "uk": "переживати (важкий період); переглядати",
+  "lvl": "B1",
+  "forms": "go|goes|went|gone|going",
+  "tail": "through",
+  "near": "experienc*|suffer*|deal with|dealing with|dealt with|check*|look through|looked through|review*|read through",
+  "tasks": [
+   {
+    "sit": "Подруга вже тиждень не відповідає на повідомлення. Ти пояснюєш іншій подрузі чому.",
+    "say": "Зараз вона переживає розлучення.",
+    "ans": [
+     "She’s going through a divorce right now.",
+     "At the moment she’s going through a divorce.",
+     "She’s going through a tough divorce right now, so give her time."
+    ],
+    "keys": {
+     "розлучення": "divorc*"
+    }
+   },
+   {
+    "sit": "Орендодавець квапить тебе підписати договір просто зараз.",
+    "say": "Дайте мені спершу переглянути договір.",
+    "ans": [
+     "Let me go through the contract first.",
+     "I’d like to go through the contract first.",
+     "Can I just go through the contract first?"
+    ],
+    "keys": {
+     "договір": "contract*|agreement|lease",
+     "спершу": "first|before"
+    }
+   },
+   {
+    "sit": "Колега співчуває, що цього року в тебе довго хворів батько.",
+    "say": "Дякую, цього року ми багато чого пережили.",
+    "ans": [
+     "Thanks, we’ve gone through a lot this year.",
+     "Thanks — we went through a lot this year.",
+     "Thank you. We’ve been going through a lot this year."
+    ],
+    "keys": {
+     "багато": "a lot|so much|much|lot",
+     "цього року": "year"
+    }
+   }
+  ]
+ },
+ {
+  "id": 3216,
+  "w": "go through with",
+  "uk": "довести до кінця (задумане)",
+  "lvl": "C1",
+  "forms": "go|goes|went|gone|going",
+  "tail": "through with",
+  "near": "complete*|finish*|carry out|carried out|follow through|followed through|go ahead|went ahead",
+  "tasks": [
+   {
+    "sit": "Твій друг за день до весілля раптом засумнівався і питає поради.",
+    "say": "Ти справді збираєшся довести це до кінця?",
+    "ans": [
+     "Are you really going to go through with it?",
+     "Are you really going through with the wedding?",
+     "So you’re really going through with it?"
+    ],
+    "keys": {
+     "справді": "really|actually|sure"
+    }
+   },
+   {
+    "sit": "Ти записався на стрибок із парашутом, але в літаку стало дуже страшно. Розповідаєш друзям.",
+    "say": "Я злякався, але все-таки довів справу до кінця.",
+    "ans": [
+     "I was scared, but I went through with it.",
+     "I was terrified, but I still went through with the jump.",
+     "Honestly, I was scared, but I went through with it anyway."
+    ],
+    "keys": {
+     "злякався": "scared|terrified|afraid|frightened|nervous"
+    }
+   },
+   {
+    "sit": "Твоя компанія планувала закрити один відділ, але новини про це раптом затихли.",
+    "say": "Урешті-решт вони так і не довели план до кінця.",
+    "ans": [
+     "In the end, they didn’t go through with the plan.",
+     "They didn’t go through with the plan in the end.",
+     "In the end they never went through with it."
+    ],
+    "keys": {
+     "урешті": "in the end|eventually|finally|end",
+     "не": "not|never"
+    }
+   }
+  ]
+ },
+ {
+  "id": 3217,
+  "w": "go up",
+  "uk": "зростати; дорожчати",
+  "lvl": "A2",
+  "forms": "go|goes|went|gone|going",
+  "tail": "up",
+  "near": "rise*|rose|risen|rising|increas*|grow*|grew|more expensive",
+  "tasks": [
+   {
+    "sit": "Друг питає, чому ти раптом шукаєш нову квартиру.",
+    "say": "Оренда знову подорожчала.",
+    "ans": [
+     "The rent has gone up again.",
+     "My rent went up again.",
+     "The rent went up again, can you believe it?"
+    ],
+    "keys": {
+     "оренда": "rent*",
+     "знову": "again"
+    }
+   },
+   {
+    "sit": "Ти ділишся з мамою хорошими новинами з роботи.",
+    "say": "Моя зарплата зросла на десять відсотків!",
+    "ans": [
+     "My salary went up by ten percent!",
+     "My salary has gone up by 10 percent!",
+     "Guess what — my pay went up ten percent!"
+    ],
+    "keys": {
+     "зарплата": "salary|pay|wage*|income",
+     "десять": "ten|10*"
+    }
+   },
+   {
+    "sit": "Ти дивишся прогноз погоди, бо плануєш поїздку на озеро.",
+    "say": "У вихідні температура підніметься до тридцяти градусів.",
+    "ans": [
+     "The temperature will go up to thirty degrees at the weekend.",
+     "At the weekend the temperature is going up to 30 degrees.",
+     "The temperature is going to go up to thirty degrees this weekend."
+    ],
+    "keys": {
+     "тридцять": "thirty|30*",
+     "вихідні": "weekend*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 3218,
+  "w": "go with",
+  "uk": "пасувати до; обрати (варіант)",
+  "lvl": "B1",
+  "forms": "go|goes|went|gone|going",
+  "tail": "with",
+  "near": "match*|suit*|fit*|choose|chose|pick*|go for|went for|look good",
+  "tasks": [
+   {
+    "sit": "Ти збираєшся на весілля й просиш сестру оцінити твій образ.",
+    "say": "Ця краватка пасує до сорочки?",
+    "ans": [
+     "Does this tie go with the shirt?",
+     "Does this tie go with my shirt?",
+     "Do you think this tie goes with this shirt?"
+    ],
+    "keys": {
+     "краватка": "tie",
+     "сорочка": "shirt"
+    }
+   },
+   {
+    "sit": "Ви з колегою обираєте один із трьох дизайнів логотипа для клієнта.",
+    "say": "Я б обрав другий варіант.",
+    "ans": [
+     "I’d go with the second option.",
+     "I think I’d go with the second one.",
+     "Let’s go with option two."
+    ],
+    "keys": {
+     "другий": "second|two|2"
+    }
+   },
+   {
+    "sit": "Ти в ресторані й радишся з сомельє.",
+    "say": "Яке вино пасує до риби?",
+    "ans": [
+     "Which wine goes with fish?",
+     "What wine would go with the fish?",
+     "What kind of wine goes well with fish?"
+    ],
+    "keys": {
+     "вино": "wine*",
+     "риба": "fish|salmon|seafood"
+    }
+   }
+  ]
+ }
+]

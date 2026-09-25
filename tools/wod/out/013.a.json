@@ -1,0 +1,634 @@
+[
+ {
+  "id": 625, "w": "zip", "uk": "застібати (на блискавку)", "lvl": "B2",
+  "forms": "zip|zips|zipped|zipped|zipping",
+  "near": "fasten|fastens|fastened|fastening|do up|did up|done up|doing up|button*|close|closed",
+  "tasks": [
+   {
+    "sit": "Ви з малим сином виходите на вулицю, а там холодний вітер. Його куртка розстебнута.",
+    "say": "Застебни куртку, надворі холодно.",
+    "ans": ["Zip your jacket, it’s cold outside.", "Zip up your jacket — it’s freezing out there.", "Zip up, buddy, it’s really cold out."],
+    "keys": { "куртка": "jacket|coat|it|up", "холодно": "cold|freezing|chilly" }
+   },
+   {
+    "sit": "Ти в метро з рюкзаком, і хтось підказує, що він відкритий.",
+    "say": "Дякую, я забув застебнути рюкзак.",
+    "ans": ["Thanks, I forgot to zip my backpack.", "Thank you — I forgot to zip up my bag.", "Oh, thanks, I totally forgot to zip it up."],
+    "keys": { "дякую": "thank*|cheers", "забув": "forg*|did not|didn’t" }
+   },
+   {
+    "sit": "Ти пакуєш валізу у відпустку, і вона ледве закривається. Просиш партнера допомогти.",
+    "say": "Потримай кришку, поки я застебну валізу.",
+    "ans": ["Hold the lid while I zip the suitcase.", "Can you hold it down while I zip up the suitcase?", "Just hold the lid down so I can zip it up."],
+    "keys": { "потримай": "hold*|press*|push*|sit on", "валіза": "suitcase|case|bag|it|lid" }
+   }
+  ]
+ },
+ {
+  "id": 627, "w": "pee", "uk": "пісяти, сцяти (розм.)", "lvl": "A2",
+  "forms": "pee|pees|peed|peed|peeing",
+  "near": "urinate*|wee|wees|weed|piss*|go to the toilet|go to the bathroom|use the bathroom|use the toilet",
+  "tasks": [
+   {
+    "sit": "Ви з другом довго їдете машиною, і ти вже ледве терпиш.",
+    "say": "Зупинись на заправці, мені дуже треба в туалет по-маленькому.",
+    "ans": ["Stop at the gas station, I really need to pee.", "Can we stop at a gas station? I really have to pee.", "Pull over at the next gas station, I’m dying to pee."],
+    "keys": { "зупинись": "stop*|pull over|pull in", "заправка": "gas|petrol|station|services" }
+   },
+   {
+    "sit": "Твоє цуценя щойно зробило калюжу на новому килимі.",
+    "say": "Собака знову напісяла на килим!",
+    "ans": ["The dog peed on the rug again!", "The dog has peed on the carpet again!", "Oh no, the dog peed on the rug again!"],
+    "keys": { "собака": "dog|puppy|pup", "килим": "rug|carpet", "знову": "again" }
+   },
+   {
+    "sit": "У кінотеатрі фільм іде вже дві години, і ти випив велику колу.",
+    "say": "Я скоро прийду, мені треба в туалет.",
+    "ans": ["I’ll be right back, I need to pee.", "I have to pee — I’ll be back in a minute.", "Be right back, I really need to pee."],
+    "keys": { "скоро прийду": "back|return*|minute|soon" }
+   }
+  ]
+ },
+ {
+  "id": 628, "w": "urinate", "uk": "мочитися (офіц.)", "lvl": "B2",
+  "forms": "urinate|urinates|urinated|urinated|urinating",
+  "near": "pee|pees|peed|peeing|wee|piss*|pass water|go to the toilet|use the toilet",
+  "tasks": [
+   {
+    "sit": "Ти лікар і пояснюєш пацієнтові, які симптоми варто відстежувати.",
+    "say": "Скажіть, чи не болить вам, коли ви мочитеся.",
+    "ans": ["Tell me if it hurts when you urinate.", "Do you feel any pain when you urinate?", "Let me know if you have any pain when you urinate."],
+    "keys": { "болить": "hurt*|pain*|painful|burn*" }
+   },
+   {
+    "sit": "Ти працюєш у лабораторії й видаєш пацієнтові стаканчик для аналізу.",
+    "say": "Будь ласка, помочіться в цей стаканчик.",
+    "ans": ["Please urinate into this cup.", "Could you please urinate in this cup?", "Please urinate into the cup and bring it back to me."],
+    "keys": { "стаканчик": "cup|container|jar|pot" }
+   },
+   {
+    "sit": "Ти читаєш новини: у парку поставили табличку зі штрафом для тих, хто справляє нужду в кущах.",
+    "say": "Тепер за сечовипускання в громадському місці штрафують.",
+    "ans": ["Now you can be fined for urinating in public.", "People who urinate in public now get a fine.", "They’ll fine you now if you urinate in public."],
+    "keys": { "штраф": "fine*|penalt*|pay", "громадське місце": "public|park|street" }
+   }
+  ]
+ },
+ {
+  "id": 630, "w": "poop", "uk": "какати", "lvl": "A2",
+  "forms": "poop|poops|pooped|pooped|pooping",
+  "near": "poo|poos|pooed|shit*|go number two|went number two|defecate*|do a poo|did a poo",
+  "tasks": [
+   {
+    "sit": "Ти з немовлям у кафе, і раптом відчуваєш характерний запах.",
+    "say": "Здається, малюк покакав. Треба поміняти підгузок.",
+    "ans": ["I think the baby pooped. I need to change his diaper.", "Looks like the baby has pooped — I have to change the diaper.", "Uh-oh, the baby pooped. Time to change his diaper."],
+    "keys": { "малюк": "baby|he|she|kid", "підгузок": "diaper*|nappy|nappies|change" }
+   },
+   {
+    "sit": "Ти гуляєш із собакою в парку, а поруч табличка «Прибирайте за своїм улюбленцем».",
+    "say": "Мій пес покакав на газоні, дай мені пакетик.",
+    "ans": ["My dog pooped on the grass, give me a bag.", "The dog just pooped on the lawn — can you pass me a bag?", "He pooped on the grass again, hand me a bag."],
+    "keys": { "газон": "grass|lawn", "пакетик": "bag*" }
+   },
+   {
+    "sit": "Твій трирічний син дуже гордий і біжить до тебе з ванної.",
+    "say": "Мамо, я сам покакав у горщик!",
+    "ans": ["Mom, I pooped in the potty by myself!", "Mommy, I pooped in the potty all by myself!", "Mom! I did it — I pooped in the potty!"],
+    "keys": { "горщик": "potty|toilet|pot" }
+   }
+  ]
+ },
+ {
+  "id": 631, "w": "defecate", "uk": "випорожнюватися (офіц.)", "lvl": "C1",
+  "forms": "defecate|defecates|defecated|defecated|defecating",
+  "near": "poop*|poo|pooed|shit*|have a bowel movement|open your bowels|move your bowels|go to the toilet",
+  "tasks": [
+   {
+    "sit": "Ти гастроентеролог і збираєш анамнез у пацієнта зі скаргами на живіт.",
+    "say": "Як часто ви випорожнюєтесь протягом тижня?",
+    "ans": ["How often do you defecate in a week?", "How many times a week do you defecate?", "Roughly how often do you defecate during the week?"],
+    "keys": { "як часто": "often|times|how many|frequen*", "тиждень": "week*" }
+   },
+   {
+    "sit": "Ти ветеринар і пояснюєш власнику кота, що саме треба відстежувати.",
+    "say": "Якщо кіт не випорожнюватиметься два дні, негайно телефонуйте.",
+    "ans": ["If the cat doesn’t defecate for two days, call us immediately.", "Call us straight away if your cat hasn’t defecated in two days.", "If he doesn’t defecate for two days, give us a call right away."],
+    "keys": { "два дні": "two days|2 days|48 hours", "телефонуйте": "call*|phone|ring|contact" }
+   },
+   {
+    "sit": "Ти біолог і розповідаєш студентам про поведінку пінгвінів.",
+    "say": "Пінгвіни випорожнюються приблизно кожні двадцять хвилин.",
+    "ans": ["Penguins defecate about every twenty minutes.", "A penguin defecates roughly every 20 minutes.", "Penguins actually defecate around every twenty minutes."],
+    "keys": { "пінгвіни": "penguin*", "двадцять хвилин": "twenty|20|minute*" }
+   }
+  ]
+ },
+ {
+  "id": 633, "w": "fart", "uk": "пердіти", "lvl": "B1",
+  "forms": "fart|farts|farted|farted|farting",
+  "near": "pass gas|passed gas|break wind|broke wind|let one rip|let one go|toot*",
+  "tasks": [
+   {
+    "sit": "У ліфті раптом неприємно запахло, і всі дивляться на тебе.",
+    "say": "Це не я пернув, чесно!",
+    "ans": ["I didn’t fart, I swear!", "It wasn’t me who farted, honestly!", "Hey, I didn’t fart — I swear it wasn’t me!"],
+    "keys": { "не я": "not|was not me|wasn’t me", "чесно": "swear|honest*|really|promise" }
+   },
+   {
+    "sit": "Ви з братом дивитеся фільм на дивані, а ваш пес лежить поруч.",
+    "say": "Фу, собака знову пернув!",
+    "ans": ["Ew, the dog farted again!", "Gross, the dog has farted again!", "Ugh, the dog just farted again!"],
+    "keys": { "собака": "dog|he", "знову": "again" }
+   },
+   {
+    "sit": "Ти розповідаєш другові смішний випадок зі шкільних часів.",
+    "say": "Один хлопець голосно пернув під час контрольної, і весь клас засміявся.",
+    "ans": ["A boy farted loudly during a test, and the whole class laughed.", "During an exam one guy farted really loudly and everyone laughed.", "This kid farted so loud during a test that the whole class cracked up."],
+    "keys": { "голосно": "loud*", "контрольна": "test|exam|class", "засміявся": "laugh*|cracked up" }
+   }
+  ]
+ },
+ {
+  "id": 634, "w": "burp", "uk": "відригувати", "lvl": "B1",
+  "forms": "burp|burps|burped|burped|burping",
+  "near": "belch*|bring up wind",
+  "tasks": [
+   {
+    "sit": "Ти годуєш немовля з пляшечки, а бабуся підказує, що робити далі.",
+    "say": "Потримай його вертикально, щоб він відригнув.",
+    "ans": ["Hold him upright so he can burp.", "Keep him upright until he burps.", "Hold him up on your shoulder so he burps."],
+    "keys": { "потримай": "hold*|keep|pick", "вертикально": "upright|up|shoulder|straight" }
+   },
+   {
+    "sit": "Ти в гостях у друга, випив газовану воду й голосно відригнув за столом.",
+    "say": "Ой, вибачте, це через газовану воду.",
+    "ans": ["Oops, sorry I burped, it’s the soda.", "Sorry for burping — it’s because of the fizzy water.", "Oh, excuse me! I burped because of the soda."],
+    "keys": { "вибачте": "sorry|excuse me|pardon", "газована вода": "soda|fizzy|sparkling|coke|drink" }
+   },
+   {
+    "sit": "Племінник влаштовує змагання за обідом, хто голосніше.",
+    "say": "Не відригуй за столом, це некрасиво.",
+    "ans": ["Don’t burp at the table, it’s rude.", "Stop burping at the table — it’s not polite.", "Hey, no burping at the table, that’s gross."],
+    "keys": { "не": "not|no|stop", "за столом": "table|dinner|lunch" }
+   }
+  ]
+ },
+ {
+  "id": 635, "w": "belch", "uk": "відригувати (голосно, формальніше)", "lvl": "C1",
+  "forms": "belch|belches|belched|belched|belching",
+  "near": "burp*|bring up wind",
+  "tasks": [
+   {
+    "sit": "Ти лікар і розпитуєш пацієнта про симптоми після їжі.",
+    "say": "Ви часто відригуєте після важкої їжі?",
+    "ans": ["Do you often belch after heavy meals?", "Do you belch a lot after eating heavy food?", "Do you find you belch often after a heavy meal?"],
+    "keys": { "часто": "often|a lot|frequent*|much", "важка їжа": "heavy|meal*|food|eat*|fatty|rich" }
+   },
+   {
+    "sit": "Ти розповідаєш колезі про грубого клієнта в ресторані, де ти працюєш офіціантом.",
+    "say": "Він голосно відригнув і навіть не вибачився.",
+    "ans": ["He belched loudly and didn’t even apologize.", "He belched really loudly and never said sorry.", "The guy belched out loud and didn’t even say excuse me."],
+    "keys": { "голосно": "loud*", "не вибачився": "apologi*|sorry|excuse me|pardon" }
+   },
+   {
+    "sit": "Ти читаєш онлайн-статтю про те, як шкільний комік виграв конкурс.",
+    "say": "Він може відригнути весь алфавіт.",
+    "ans": ["He can belch the whole alphabet.", "He’s able to belch the entire alphabet.", "The guy can literally belch the whole alphabet."],
+    "keys": { "алфавіт": "alphabet|abc" }
+   }
+  ]
+ },
+ {
+  "id": 636, "w": "vomit", "uk": "блювати", "lvl": "B1",
+  "forms": "vomit|vomits|vomited|vomited|vomiting",
+  "near": "throw up|threw up|throwing up|thrown up|puke*|be sick|was sick|were sick|being sick|feel sick",
+  "tasks": [
+   {
+    "sit": "Ти дзвониш сімейному лікарю, бо в доньки отруєння.",
+    "say": "Її вже тричі знудило з самого ранку.",
+    "ans": ["She has vomited three times since this morning.", "She’s vomited three times this morning.", "She’s already vomited three times since the morning."],
+    "keys": { "тричі": "three|3|thrice", "ранок": "morning" }
+   },
+   {
+    "sit": "Ти на поромі, море штормить, і тобі дуже погано.",
+    "say": "Мені здається, мене зараз знудить.",
+    "ans": ["I think I’m going to vomit.", "I feel like I’m about to vomit.", "Oh no, I think I’m gonna vomit."],
+    "keys": { "здається": "think|feel|about to|going|gonna" }
+   },
+   {
+    "sit": "Ти працюєш у лікарні і питаєш пацієнта про його стан після операції.",
+    "say": "Вас нудило після наркозу?",
+    "ans": ["Did you vomit after the anesthesia?", "Have you vomited since the anesthetic?", "Did you vomit at all after the anesthesia?"],
+    "keys": { "наркоз": "anesthe*|anaesthe*|surgery|operation" }
+   }
+  ]
+ },
+ {
+  "id": 637, "w": "throw up", "uk": "блювати (розм.)", "lvl": "B1",
+  "forms": "throw|throws|threw|thrown|throwing",
+  "tail": "up",
+  "near": "vomit*|puke*|be sick|was sick|were sick|being sick",
+  "tasks": [
+   {
+    "sit": "Друг питає, чому ти пропустив вечірку в суботу.",
+    "say": "Я отруївся і блював усю ніч.",
+    "ans": ["I got food poisoning and threw up all night.", "I had food poisoning, so I was throwing up all night.", "I threw up all night — some bad food, I guess."],
+    "keys": { "всю ніч": "all night|whole night|night" }
+   },
+   {
+    "sit": "Ви з дитиною їдете серпантином у горах, і вона зблідла.",
+    "say": "Зупини машину, її зараз знудить!",
+    "ans": ["Stop the car, she’s going to throw up!", "Pull over — she’s about to throw up!", "Stop the car, quick, she’s gonna throw up!"],
+    "keys": { "зупини": "stop*|pull over", "машина": "car|over" }
+   },
+   {
+    "sit": "Ти вперше покатався на американських гірках у парку розваг.",
+    "say": "Я мало не виблював після цих гірок.",
+    "ans": ["I almost threw up after that roller coaster.", "That roller coaster nearly made me throw up.", "I nearly threw up after that ride!"],
+    "keys": { "мало не": "almost|nearly", "гірки": "roller coaster*|ride|coaster" }
+   }
+  ]
+ },
+ {
+  "id": 638, "w": "puke", "uk": "блювати (грубо, розм.)", "lvl": "B2",
+  "forms": "puke|pukes|puked|puked|puking",
+  "near": "vomit*|throw up|threw up|throwing up|thrown up|be sick|was sick|barf*|hurl*",
+  "tasks": [
+   {
+    "sit": "Наступного ранку після вечірки друзі розповідають тобі, що ти пропустив.",
+    "say": "Марк перебрав і проблювався просто на вулиці.",
+    "ans": ["Mark drank too much and puked outside.", "Mark had way too much and puked right in the street.", "Mark got so drunk he puked outside."],
+    "keys": { "перебрав": "drank|drunk|too much|wasted", "на вулиці": "outside|street|outdoors" }
+   },
+   {
+    "sit": "Ти дивишся кліп із жахливою сценою і відвертаєшся.",
+    "say": "Від цього мене аж нудить.",
+    "ans": ["This makes me want to puke.", "That’s so gross it makes me want to puke.", "Ugh, that makes me wanna puke."],
+    "keys": { "від цього": "this|that|it" }
+   },
+   {
+    "sit": "Ти працюєш вожатим у таборі, дитина з'їла забагато солодкого в автобусі.",
+    "say": "Дайте хтось пакет, малого зараз виверне!",
+    "ans": ["Someone get a bag, the kid’s going to puke!", "Quick, a bag — the kid is about to puke!", "Get him a bag, he’s gonna puke!"],
+    "keys": { "пакет": "bag*|bucket" }
+   }
+  ]
+ },
+ {
+  "id": 639, "w": "flush", "uk": "змивати (унітаз)", "lvl": "B1",
+  "forms": "flush|flushes|flushed|flushed|flushing",
+  "near": "rinse*|wash away|washed away",
+  "tasks": [
+   {
+    "sit": "Ти заходиш у ванну після молодшого брата й бачиш, що він знову не прибрав за собою.",
+    "say": "Ти знову не змив за собою!",
+    "ans": ["You didn’t flush the toilet again!", "You forgot to flush again!", "Dude, you didn’t flush again!"],
+    "keys": { "знову": "again", "не": "not|forgot|forget" }
+   },
+   {
+    "sit": "Ти в квартирі, яку зняв на вихідні, і в туалеті щось зламалося. Пишеш власнику.",
+    "say": "Унітаз не змивається, можете надіслати сантехніка?",
+    "ans": ["The toilet won’t flush, can you send a plumber?", "The toilet doesn’t flush — could you send a plumber?", "Hi, the toilet won’t flush. Can you get a plumber over?"],
+    "keys": { "не": "not|won’t|will not|does not", "сантехнік": "plumber|someone|repair*|fix" }
+   },
+   {
+    "sit": "Ти розбираєш аптечку, а сусід радить позбутися прострочених таблеток через унітаз.",
+    "say": "Не змивай старі ліки в унітаз, це шкодить природі.",
+    "ans": ["Don’t flush old medicine down the toilet, it’s bad for the environment.", "You shouldn’t flush old pills down the toilet — it harms nature.", "Never flush old meds down the toilet, it’s terrible for the environment."],
+    "keys": { "ліки": "medicine*|pills|meds|drug*|tablet*", "природа": "environment|nature|planet|water" }
+   }
+  ]
+ },
+ {
+  "id": 640, "w": "wipe", "uk": "витирати", "lvl": "B1",
+  "forms": "wipe|wipes|wiped|wiped|wiping",
+  "near": "clean*|dry|dried|dries|drying|mop*|rub*|dust*",
+  "tasks": [
+   {
+    "sit": "Ти вчиш трирічного сина ходити в туалет самостійно.",
+    "say": "Не забудь витерти попу папером.",
+    "ans": ["Don’t forget to wipe your bottom with paper.", "Remember to wipe your bum with toilet paper.", "Don’t forget to wipe, okay? Use the paper."],
+    "keys": { "не забудь": "forget|remember", "папір": "paper|tissue" }
+   },
+   {
+    "sit": "Після вечері на кухні лишилися крихти й пляма від соусу.",
+    "say": "Можеш витерти стіл, поки я мию посуд?",
+    "ans": ["Can you wipe the table while I wash the dishes?", "Could you wipe down the table while I do the dishes?", "Wipe the table for me while I do the dishes?"],
+    "keys": { "стіл": "table", "посуд": "dish*|plate*|washing up" }
+   }
+   ,
+   {
+    "sit": "Ти заходиш у квартиру після дощу, а на підлозі новий світлий килимок.",
+    "say": "Витри, будь ласка, ноги, надворі брудно.",
+    "ans": ["Please wipe your feet, it’s muddy outside.", "Wipe your shoes, please — it’s really dirty out there.", "Could you wipe your feet? It’s so muddy out."],
+    "keys": { "ноги": "feet|foot|shoe*|boot*", "брудно": "mud*|dirt*|wet|rain*" }
+   }
+  ]
+ },
+ {
+  "id": 642, "w": "bathe", "uk": "купати (дитину, тварину)", "lvl": "B1",
+  "forms": "bathe|bathes|bathed|bathed|bathing",
+  "near": "wash*|give a bath|gave a bath|giving a bath|shower*|clean*",
+  "tasks": [
+   {
+    "sit": "Ти молодий тато, і медсестра в пологовому показує, як доглядати немовля.",
+    "say": "Як часто треба купати малюка?",
+    "ans": ["How often should I bathe the baby?", "How often do I need to bathe my baby?", "So how often should we bathe her?"],
+    "keys": { "як часто": "often|times|how many" }
+   },
+   {
+    "sit": "Твій пес повалявся в болоті на прогулянці.",
+    "say": "Мені доведеться скупати собаку, перш ніж пустити його в дім.",
+    "ans": ["I’ll have to bathe the dog before I let him in the house.", "I need to bathe the dog before he comes inside.", "Gotta bathe the dog before he goes anywhere near the house."],
+    "keys": { "собака": "dog|him|he", "дім": "house|home|inside|in" }
+   },
+   {
+    "sit": "Ти доглядальник у будинку для літніх людей і розповідаєш про свій робочий день.",
+    "say": "Щоранку я допомагаю купати пацієнтів, які не можуть митися самі.",
+    "ans": ["Every morning I help bathe patients who can’t wash themselves.", "Each morning I help to bathe the residents who can’t wash on their own.", "Every morning I help bathe the patients who can’t do it themselves."],
+    "keys": { "щоранку": "morning*|every day|daily", "пацієнти": "patient*|resident*|people|elderly" }
+   }
+  ]
+ },
+ {
+  "id": 643, "w": "soap up", "uk": "намилювати(ся)", "lvl": "B2",
+  "forms": "soap|soaps|soaped|soaped|soaping",
+  "tail": "up",
+  "near": "lather*|wash*|scrub*|rub*",
+  "tasks": [
+   {
+    "sit": "Ти купаєш п'ятирічну доньку, і вона хоче все робити сама.",
+    "say": "Добре, намиль собі руки й ноги сама.",
+    "ans": ["Okay, soap up your arms and legs yourself.", "All right, you can soap up your arms and legs by yourself.", "Okay, go ahead and soap yourself up."],
+    "keys": { "сама": "yourself|by yourself|on your own", "руки й ноги": "arm*|leg*|hand*|yourself" }
+   },
+   {
+    "sit": "Ти в спортзалі після тренування. Тренер жартує, що ти занадто довго в душі.",
+    "say": "Я ще навіть не встиг намилитися.",
+    "ans": ["I haven’t even soaped up yet.", "I didn’t even have time to soap up.", "Hey, I’ve barely even soaped up!"],
+    "keys": { "ще навіть не": "not|even|yet|barely|no time" }
+   },
+   {
+    "sit": "Ти миєш машину у дворі й пояснюєш племінникові, що робити.",
+    "say": "Спочатку намиль губку, а потім мий капот.",
+    "ans": ["First soap up the sponge, then wash the hood.", "Soap up the sponge first and then do the hood.", "Soap the sponge up first, then clean the hood."],
+    "keys": { "губка": "sponge|cloth|mitt", "капот": "hood|bonnet|car" }
+   }
+  ]
+ },
+ {
+  "id": 644, "w": "lather", "uk": "спінювати, намилювати до піни", "lvl": "C1",
+  "forms": "lather|lathers|lathered|lathered|lathering",
+  "near": "soap*|foam*|froth*|scrub*|rub*|massage*",
+  "tasks": [
+   {
+    "sit": "Ти перукар і пояснюєш стажистці, як правильно мити голову клієнтові.",
+    "say": "Добре спінь шампунь, а потім ретельно змий.",
+    "ans": ["Lather the shampoo well, then rinse it thoroughly.", "Lather up the shampoo properly and then rinse it all out.", "Lather it up really well, then rinse it out completely."],
+    "keys": { "шампунь": "shampoo|it|hair", "змий": "rinse*|wash*" }
+   },
+   {
+    "sit": "Ти вчиш сина голитися вперше.",
+    "say": "Спочатку намиль обличчя кремом для гоління.",
+    "ans": ["First lather your face with shaving cream.", "Lather your face with shaving cream first.", "Start by lathering up your face with some shaving cream."],
+    "keys": { "обличчя": "face|chin|cheek*", "крем для гоління": "shaving|cream|foam|soap|gel" }
+   },
+   {
+    "sit": "Ти вариш мило вдома як хобі й скаржишся в чаті майстрів.",
+    "say": "Моє нове мило взагалі не піниться.",
+    "ans": ["My new soap doesn’t lather at all.", "My new batch of soap won’t lather.", "Ugh, my new soap barely lathers at all."],
+    "keys": { "мило": "soap|batch|bar", "не": "not|won’t|barely|at all" }
+   }
+  ]
+ },
+ {
+  "id": 645, "w": "scrub", "uk": "терти (мочалкою, щіткою)", "lvl": "B1",
+  "forms": "scrub|scrubs|scrubbed|scrubbed|scrubbing",
+  "near": "rub*|wash*|clean*|wipe*|exfoliat*",
+  "tasks": [
+   {
+    "sit": "Ти в лазні з другом, і він не дістає до своєї спини.",
+    "say": "Давай я потру тобі спину мочалкою.",
+    "ans": ["Let me scrub your back with the sponge.", "I’ll scrub your back with the loofah.", "Here, let me scrub your back for you."],
+    "keys": { "спина": "back" }
+   },
+   {
+    "sit": "Ти прийшов з городу, і в тебе нігті чорні від землі.",
+    "say": "Треба добре відтерти руки щіткою.",
+    "ans": ["I need to scrub my hands with a brush.", "I have to scrub my hands really well with a nail brush.", "I’ve got to scrub my hands properly with a brush."],
+    "keys": { "руки": "hand*|nail*|finger*", "щітка": "brush" }
+   }
+   ,
+   {
+    "sit": "Ти прибираєш ванну після ремонту, і на плитці засохла затирка.",
+    "say": "Я годину відтирав цю плитку.",
+    "ans": ["I scrubbed these tiles for an hour.", "I’ve been scrubbing this tile for an hour.", "I spent a whole hour scrubbing these tiles."],
+    "keys": { "плитка": "tile*|floor|wall*", "годину": "hour" }
+   }
+  ]
+ },
+ {
+  "id": 646, "w": "dry off", "uk": "витиратися (після душу, купання)", "lvl": "B1",
+  "forms": "dry|dries|dried|dried|drying",
+  "tail": "off",
+  "near": "towel*|wipe*|dry yourself|dried myself|pat dry",
+  "tasks": [
+   {
+    "sit": "Твоя дитина вибігає з басейну і одразу хоче їсти морозиво.",
+    "say": "Спочатку витрися рушником, а потім морозиво.",
+    "ans": ["Dry off with a towel first, then ice cream.", "First dry off with the towel, and then you can have ice cream.", "Dry off first, then we’ll get ice cream."],
+    "keys": { "спочатку": "first|before", "морозиво": "ice cream*|ice-cream" }
+   },
+   {
+    "sit": "Ти з другом на пляжі, раптом починає дощ, а ви щойно вийшли з води.",
+    "say": "Навіть не встигли витертися, як почався дощ.",
+    "ans": ["We didn’t even get to dry off before it started raining.", "It started raining before we could dry off.", "We hadn’t even dried off when it started to rain."],
+    "keys": { "дощ": "rain*", "не встигли": "not|before|even" }
+   },
+   {
+    "sit": "Ти в готелі й дзвониш на рецепцію після душу.",
+    "say": "У номері немає рушників, мені нема чим витертися.",
+    "ans": ["There are no towels in the room, I have nothing to dry off with.", "There aren’t any towels in my room, so I can’t dry off.", "Hi, there are no towels in the room — I can’t even dry off."],
+    "keys": { "рушники": "towel*", "немає": "no|not|any|nothing" }
+   }
+  ]
+ },
+ {
+  "id": 647, "w": "towel off", "uk": "витиратися рушником", "lvl": "B2",
+  "forms": "towel|towels|towelled/toweled|towelled/toweled|towelling/toweling",
+  "tail": "off",
+  "near": "dry off|dried off|drying off|dries off|wipe*|dry yourself|dried myself",
+  "tasks": [
+   {
+    "sit": "Ти після тренування з плавання, тренер уже кличе на розбір.",
+    "say": "Хвилинку, тільки витруся рушником.",
+    "ans": ["One second, I just need to towel off.", "Just a minute — let me towel off.", "Hang on, I’ll just towel off real quick."],
+    "keys": { "хвилинку": "second|minute|moment|hang on|hold on|wait|quick" }
+   },
+   {
+    "sit": "Ти граєш у теніс у спеку, і з тебе стікає піт між сетами.",
+    "say": "Я швиденько витрусь рушником і продовжимо.",
+    "ans": ["I’ll quickly towel off and we’ll keep going.", "Let me towel off quickly, then we can continue.", "Give me a sec to towel off, then let’s keep playing."],
+    "keys": { "продовжимо": "continue|keep|go on|carry on|play*|again" }
+   },
+   {
+    "sit": "Ти вийшов з моря, а поруч твій друг прямо мокрий одягає футболку.",
+    "say": "Спочатку витрись рушником, бо футболка намокне.",
+    "ans": ["Towel off first, or your T-shirt will get wet.", "You should towel off first — your shirt’s going to get soaked.", "Towel off first, man, or your shirt will be soaking wet."],
+    "keys": { "футболка": "shirt*|t-shirt|tee|top", "намокне": "wet|soak*|damp" }
+   }
+  ]
+ },
+ {
+  "id": 648, "w": "blow-dry", "uk": "сушити феном (волосся)", "lvl": "B2",
+  "forms": "blow-dry|blow-dries|blow-dried|blow-dried|blow-drying",
+  "near": "dry|dries|dried|drying|hair dryer|hairdryer|style*",
+  "tasks": [
+   {
+    "sit": "Ти запізнюєшся на співбесіду, а щойно помив голову.",
+    "say": "У мене немає часу сушити волосся феном.",
+    "ans": ["I don’t have time to blow-dry my hair.", "I have no time to blow-dry my hair.", "There’s no time to blow-dry my hair, I’m so late!"],
+    "keys": { "немає часу": "time|late", "волосся": "hair" }
+   },
+   {
+    "sit": "Ти в перукарні, і майстер питає, що зробити після стрижки.",
+    "say": "Помийте й висушіть феном, будь ласка.",
+    "ans": ["Wash and blow-dry it, please.", "Could you wash and blow-dry my hair, please?", "Just a wash and blow-dry, please."],
+    "keys": { "помийте": "wash*" }
+   },
+   {
+    "sit": "Сестра скаржиться, що її волосся стало сухим і ламким.",
+    "say": "Може, тобі не варто щодня сушити волосся феном.",
+    "ans": ["Maybe you shouldn’t blow-dry your hair every day.", "Maybe try not to blow-dry your hair every single day.", "Maybe stop blow-drying your hair every day?"],
+    "keys": { "щодня": "every day|every single day|daily|each day|every morning", "не варто": "not|stop|less" }
+   }
+  ]
+ },
+ {
+  "id": 649, "w": "comb", "uk": "розчісувати, причісувати", "lvl": "A2",
+  "forms": "comb|combs|combed|combed|combing",
+  "near": "brush*|do your hair|did my hair|fix your hair|style*",
+  "tasks": [
+   {
+    "sit": "Ви з сином збираєтеся на шкільне фото, а в нього на голові безлад.",
+    "say": "Причешися, будь ласка, сьогодні фото.",
+    "ans": ["Please comb your hair, it’s photo day.", "Comb your hair, please — we’re taking photos today.", "Go comb your hair, it’s picture day today."],
+    "keys": { "фото": "photo*|picture*|pic*" }
+   },
+   {
+    "sit": "Твоя собака-пудель після прогулянки вся у ковтунах.",
+    "say": "Мені треба розчесати шерсть собаки, поки вона не сплуталась.",
+    "ans": ["I need to comb the dog’s fur before it gets tangled.", "I have to comb out the dog’s coat before it gets matted.", "Gotta comb the dog before her fur gets all tangled."],
+    "keys": { "собака": "dog*|her|him", "сплуталась": "tangle*|mat*|knot*" }
+   },
+   {
+    "sit": "Ти прокинувся, і в тебе мокре волосся стирчить у всі боки.",
+    "say": "Дай мені хвилинку причесатися.",
+    "ans": ["Give me a minute to comb my hair.", "Just give me a minute, I need to comb my hair.", "Hang on a sec, let me comb my hair."],
+    "keys": { "хвилинку": "minute|second|sec|moment" }
+   }
+  ]
+ },
+ {
+  "id": 650, "w": "brush", "uk": "чистити (зуби)", "lvl": "A1",
+  "forms": "brush|brushes|brushed|brushed|brushing",
+  "near": "clean*|wash*|floss*",
+  "tasks": [
+   {
+    "sit": "Ти вкладаєш п'ятирічну доньку спати.",
+    "say": "Спочатку почисть зуби, потім казка.",
+    "ans": ["Brush your teeth first, then a story.", "First brush your teeth, and then I’ll read a story.", "Go brush your teeth, then we’ll read a story."],
+    "keys": { "зуби": "teeth|tooth", "казка": "story|stories|book|read" }
+   },
+   {
+    "sit": "Ти на прийомі у стоматолога, і він питає про твої звички.",
+    "say": "Я чищу зуби двічі на день.",
+    "ans": ["I brush my teeth twice a day.", "I brush my teeth two times a day.", "I always brush my teeth twice a day."],
+    "keys": { "зуби": "teeth|tooth", "двічі": "twice|two times|2 times" }
+   }
+   ,
+   {
+    "sit": "Ти в поїздці, вранці в хостелі відкриваєш сумку й не бачиш щітки.",
+    "say": "Я не можу почистити зуби, бо забув щітку.",
+    "ans": ["I can’t brush my teeth, I forgot my toothbrush.", "I can’t brush my teeth because I left my toothbrush at home.", "I forgot my toothbrush, so I can’t even brush my teeth."],
+    "keys": { "зуби": "teeth|tooth", "щітка": "toothbrush|brush" }
+   }
+  ]
+ },
+ {
+  "id": 651, "w": "floss", "uk": "чистити зубною ниткою", "lvl": "B2",
+  "forms": "floss|flosses|flossed|flossed|flossing",
+  "near": "brush*|clean*|toothpick*",
+  "tasks": [
+   {
+    "sit": "Стоматолог питає, чому в тебе кровоточать ясна.",
+    "say": "Чесно кажучи, я рідко чищу зуби ниткою.",
+    "ans": ["To be honest, I rarely floss.", "Honestly, I don’t floss very often.", "I’ll be honest — I hardly ever floss."],
+    "keys": { "рідко": "rarely|seldom|often|hardly|almost never|never" }
+   },
+   {
+    "sit": "Ти з'їв стейк у ресторані, і між зубами щось застрягло.",
+    "say": "Мені треба почистити зуби ниткою, в мене щось застрягло.",
+    "ans": ["I need to floss, something’s stuck in my teeth.", "I have to floss — there’s something stuck between my teeth.", "Ugh, I need to floss, I’ve got something stuck in my teeth."],
+    "keys": { "застрягло": "stuck|caught" }
+   },
+   {
+    "sit": "Ти розповідаєш подрузі про свою нову вечірню рутину.",
+    "say": "Тепер я щовечора чищу зуби ниткою перед сном.",
+    "ans": ["Now I floss every night before bed.", "These days I floss every evening before I go to sleep.", "I floss every single night now, before bed."],
+    "keys": { "щовечора": "every night|every single night|every evening|each night|nightly", "перед сном": "bed|sleep" }
+   }
+  ]
+ },
+ {
+  "id": 652, "w": "gargle", "uk": "полоскати горло", "lvl": "B2",
+  "forms": "gargle|gargles|gargled|gargled|gargling",
+  "near": "rinse*|wash out",
+  "tasks": [
+   {
+    "sit": "У тебе болить горло, і ти дзвониш бабусі по пораду.",
+    "say": "Бабуся каже полоскати горло соленою водою.",
+    "ans": ["Grandma says to gargle with salt water.", "My grandma told me to gargle with salt water.", "Grandma says I should gargle with salt water."],
+    "keys": { "бабуся": "grandma|granny|grandmother|nan*", "солона вода": "salt*" }
+   },
+   {
+    "sit": "Ти аптекар і пояснюєш покупцю, як використовувати розчин.",
+    "say": "Полощіть горло цим розчином тричі на день.",
+    "ans": ["Gargle with this solution three times a day.", "You should gargle with this three times a day.", "Just gargle with this solution three times daily."],
+    "keys": { "розчин": "solution|this|liquid|mouthwash", "тричі": "three|3" }
+   },
+   {
+    "sit": "Ти співак, і в тебе концерт увечері, а голос сідає.",
+    "say": "Я пополощу горло теплою водою перед виступом.",
+    "ans": ["I’ll gargle with warm water before the show.", "I’m going to gargle with some warm water before I go on stage.", "Let me gargle with warm water before the concert."],
+    "keys": { "тепла вода": "warm|water", "виступ": "show|concert|stage|perform*|gig" }
+   }
+  ]
+ },
+ {
+  "id": 653, "w": "trim", "uk": "підстригати (трохи вкоротити)", "lvl": "B1",
+  "forms": "trim|trims|trimmed|trimmed|trimming",
+  "near": "cut|cuts|cutting|shave*|clip*|shorten*",
+  "tasks": [
+   {
+    "sit": "Ти в барбершопі, і майстер питає, що робити з бородою.",
+    "say": "Просто трохи підрівняйте бороду, будь ласка.",
+    "ans": ["Just trim the beard a little, please.", "Could you just trim my beard a bit, please?", "Just trim my beard a little, please."],
+    "keys": { "борода": "beard", "трохи": "little|bit|slightly|just" }
+   },
+   {
+    "sit": "Твоя дружина помітила, що ти заріс, і нагадує про сімейне свято.",
+    "say": "Я підстрижу вуса перед весіллям сестри.",
+    "ans": ["I’ll trim my mustache before my sister’s wedding.", "I’m going to trim my moustache before the wedding.", "I’ll trim the mustache before my sister’s wedding, promise."],
+    "keys": { "вуса": "mustache|moustache|beard|facial", "весілля": "wedding" }
+   },
+   {
+    "sit": "Ти в грумінг-салоні домовляєшся про стрижку для свого шпіца.",
+    "say": "Підстрижіть йому шерсть навколо очей, будь ласка.",
+    "ans": ["Please trim the fur around his eyes.", "Could you trim the hair around his eyes, please?", "Can you trim around his eyes a bit, please?"],
+    "keys": { "очі": "eye*" }
+   }
+  ]
+ }
+]

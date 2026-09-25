@@ -1,0 +1,632 @@
+[
+ {
+  "id": 570, "w": "check in", "uk": "реєструватися (онлайн)", "lvl": "B1",
+  "forms": "check|checks|checked|checked|checking",
+  "tail": "in",
+  "near": "register*|sign in|signed in|signing in",
+  "tasks": [
+   {
+    "sit": "Завтра зранку в тебе рейс до Варшави. Авіакомпанія надіслала лист, що реєстрація на сайті вже відкрита.",
+    "say": "Зареєструюся онлайн сьогодні ввечері, щоб не стояти в черзі.",
+    "ans": ["I’ll check in online tonight so I don’t have to queue.", "I’m going to check in online this evening to skip the line.", "I’ll just check in online tonight and skip the queue."],
+    "keys": { "онлайн": "online|app|website|web*|internet", "черга": "queue*|line*|wait*" }
+   },
+   {
+    "sit": "Ти їдеш з друзями у Львів. Готель надіслав посилання, через яке можна зареєструватися заздалегідь.",
+    "say": "Я вже зареєструвався онлайн, тож на рецепції чекати не доведеться.",
+    "ans": ["I’ve already checked in online, so we won’t have to wait at reception.", "I checked in online already, so there’s no waiting at the front desk.", "Good news — I already checked in online, so we can skip reception."],
+    "keys": { "вже": "already", "рецепція": "reception|front desk|desk|lobby" }
+   },
+   {
+    "sit": "Брат записаний до стоматолога. Клініка просить зареєструватися на свій візит через сайт за день до прийому.",
+    "say": "Не забудь зареєструватися онлайн до завтрашнього ранку.",
+    "ans": ["Don’t forget to check in online before tomorrow morning.", "Remember to check in online by tomorrow morning.", "Make sure you check in online before tomorrow morning, okay?"],
+    "keys": { "не забудь": "forget|remember|make sure|not", "онлайн": "online|app|website|web*", "завтра": "tomorrow*" }
+   }
+  ]
+ },
+ {
+  "id": 571, "w": "sightsee", "uk": "оглядати визначні місця", "lvl": "C1",
+  "forms": "sightsee|sightsees|sightsaw/sightseed|sightseen/sightseed|sightseeing",
+  "near": "explor*|tour*|look around|looked around|walk around|walked around|see the sights|saw the sights|seeing the sights",
+  "tasks": [
+   {
+    "sit": "Ти в Римі лише на два дні й не хочеш сидіти в готелі.",
+    "say": "Завтра ми цілий день оглядатимемо визначні місця.",
+    "ans": ["Tomorrow we’re going sightseeing all day.", "We’ll spend the whole day sightseeing tomorrow.", "Tomorrow’s all about sightseeing — from morning till night."],
+    "keys": { "завтра": "tomorrow*", "цілий день": "all day|whole day|day|morning|night" }
+   },
+   {
+    "sit": "Колега питає, як пройшло твоє відрядження до Праги.",
+    "say": "Я був там по роботі, тож оглядати місто не було часу.",
+    "ans": ["I was there for work, so there was no time for sightseeing.", "It was a work trip, so I didn’t get to do any sightseeing.", "Honestly, I was working the whole time — no time for sightseeing at all."],
+    "keys": { "робота": "work*|business|conference*", "не було часу": "no time|not get|not have time|busy|whole time" }
+   },
+   {
+    "sit": "Батьки вперше приїхали до тебе в Київ на вихідні.",
+    "say": "У суботу поведу їх оглядати визначні місця.",
+    "ans": ["On Saturday I’ll take them sightseeing.", "I’m taking them sightseeing on Saturday.", "Saturday’s the big day — I’m taking them sightseeing."],
+    "keys": { "субота": "saturday*", "їх": "them|parents|mom|dad" }
+   }
+  ]
+ },
+ {
+  "id": 572, "w": "tour", "uk": "оглядати з екскурсією", "lvl": "B2",
+  "forms": "tour|tours|toured|toured|touring",
+  "near": "visit*|explor*|walk around|walked around|look around|looked around|show around|showed around|sightseeing|see the sights",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш колезі про свою суботу в Лондоні.",
+    "say": "Ми з гідом обійшли весь Британський музей.",
+    "ans": ["We toured the British Museum with a guide.", "We toured the whole British Museum with a guide.", "We toured the British Museum with a guide — it was amazing."],
+    "keys": { "музей": "museum*", "гід": "guide*|guided" }
+   },
+   {
+    "sit": "Ти працюєш на шоколадній фабриці й домовляєшся з групою студентів про візит.",
+    "say": "Спочатку ви пройдете екскурсією фабрикою, а потім буде дегустація.",
+    "ans": ["First you’ll tour the factory, and then there’s a tasting.", "You’ll tour the factory first, then we’ll have a tasting.", "First you’ll get to tour the factory, and after that there’s a tasting."],
+    "keys": { "фабрика": "factor*|plant", "дегустація": "tast*" }
+   },
+   {
+    "sit": "Ти плануєш відпустку в Шотландії з партнером.",
+    "say": "Я дуже хочу побувати з екскурсією хоча б в одному старовинному замку.",
+    "ans": ["I really want to tour an old castle.", "I’d love to tour at least one old castle.", "I’m dying to tour at least one of those old castles."],
+    "keys": { "замок": "castle*", "старовинний": "old|ancient|historic*|medieval" }
+   }
+  ]
+ },
+ {
+  "id": 573, "w": "debug", "uk": "дебажити, шукати й виправляти помилки в коді", "lvl": "C1",
+  "forms": "debug|debugs|debugged|debugged|debugging",
+  "near": "fix*|troubleshoot*|repair*|sort out|sorted out|find the bug|found the bug",
+  "tasks": [
+   {
+    "sit": "Тімлід питає, чому ти досі не взявся за нову задачу.",
+    "say": "Я все ще дебажу вчорашній код, він падає на тестах.",
+    "ans": ["I’m still debugging yesterday’s code — it keeps failing the tests.", "I’m still debugging the code from yesterday because the tests fail.", "Still debugging yesterday’s code, sorry — the tests keep failing."],
+    "keys": { "вчорашній": "yesterday*", "тести": "test*|fail*|crash*" }
+   },
+   {
+    "sit": "Ти студент, до здачі лабораторної з програмування година, а програма видає помилку.",
+    "say": "Допоможи мені знайти помилку в скрипті, у мене лише година.",
+    "ans": ["Can you help me debug this script? I only have an hour.", "Help me debug my script, I’ve only got an hour.", "Could you help me debug this script? I’ve got an hour left."],
+    "keys": { "скрипт": "script*|code|program*", "година": "hour*" }
+   },
+   {
+    "sit": "Ти вечорами робиш власну гру й ділишся новинами з другом.",
+    "say": "Я вчора дебажив гру до третьої ночі.",
+    "ans": ["I was debugging my game until three in the morning.", "Yesterday I debugged my game till 3 a.m.", "I stayed up debugging my game till 3 a.m. last night."],
+    "keys": { "гра": "game*", "до третьої": "three|3*" }
+   }
+  ]
+ },
+ {
+  "id": 574, "w": "encrypt", "uk": "шифрувати", "lvl": "C1",
+  "forms": "encrypt|encrypts|encrypted|encrypted|encrypting",
+  "near": "password-protect*|protect*|lock*|secure*|encode*|cipher*",
+  "tasks": [
+   {
+    "sit": "Ти надсилаєш бухгалтерові файл із зарплатами всіх працівників.",
+    "say": "Я зашифрую файл, а пароль надішлю окремо.",
+    "ans": ["I’ll encrypt the file and send the password separately.", "I’m going to encrypt the file and send you the password separately.", "Let me encrypt the file first — I’ll text you the password separately."],
+    "keys": { "файл": "file*|document*|spreadsheet*", "пароль": "password*|passcode|code|key" }
+   },
+   {
+    "sit": "Подруга боїться, що хтось прочитає її листування.",
+    "say": "Цей месенджер автоматично шифрує всі повідомлення.",
+    "ans": ["This messenger encrypts all messages automatically.", "This app automatically encrypts all your messages.", "Don’t worry, this app encrypts every message automatically."],
+    "keys": { "повідомлення": "message*|chat*|text*", "автоматично": "automatic*|by default|itself" }
+   },
+   {
+    "sit": "Ти налаштовуєш новий ноутбук перед поїздкою за кордон.",
+    "say": "Треба зашифрувати диск на випадок, якщо ноутбук вкрадуть.",
+    "ans": ["I need to encrypt the hard drive in case the laptop gets stolen.", "I should encrypt the disk in case someone steals my laptop.", "I’d better encrypt the drive in case my laptop gets stolen."],
+    "keys": { "диск": "drive*|disk*|disc*|data", "вкрадуть": "steal*|stolen|stole|lost|lose" }
+   }
+  ]
+ },
+ {
+  "id": 575, "w": "backup", "uk": "робити резервну копію", "lvl": "B2",
+  "forms": "backup/back|backups/backs|backed|backed|backing",
+  "tail": "up",
+  "near": "copy|copied|copies|copying|save*|sync*|store*|upload*",
+  "tasks": [
+   {
+    "sit": "Ти адміністратор і попереджаєш колег про оновлення сервера в п’ятницю.",
+    "say": "Будь ласка, зробіть резервну копію своїх файлів до п’ятниці.",
+    "ans": ["Please back up your files before Friday.", "Before Friday, please back up all your files.", "Make sure you back up your files before Friday, just in case."],
+    "keys": { "файли": "file*|data|document*|work", "п’ятниця": "friday*" }
+   },
+   {
+    "sit": "Мама розповідає, що її телефон упав у воду і всі фото зникли.",
+    "say": "Я щотижня роблю резервну копію фото в хмару.",
+    "ans": ["I back up my photos to the cloud every week.", "Every week I back up all my photos to the cloud.", "I back my photos up to the cloud once a week, just in case."],
+    "keys": { "фото": "photo*|pic*|pictures", "щотижня": "week*|weekly" }
+   },
+   {
+    "sit": "Ти пишеш дипломну роботу, а ноутбук учора раптом вимкнувся й більше не вмикається.",
+    "say": "Добре, що я вчора зробив резервну копію диплома.",
+    "ans": ["Luckily, I backed up my thesis yesterday.", "Good thing I backed up my thesis yesterday.", "Thank God I’d backed up my thesis yesterday!"],
+    "keys": { "диплом": "thesis|dissertation|diploma|paper|work|project", "вчора": "yesterday" }
+   }
+  ]
+ },
+ {
+  "id": 576, "w": "sync", "uk": "синхронізувати", "lvl": "B2",
+  "forms": "sync/synch|syncs/synchs|synced/synched|synced/synched|syncing/synching",
+  "near": "synchroniz*|synchronis*|connect*|link*|transfer*|copy|copied|update*",
+  "tasks": [
+   {
+    "sit": "Ти купив новий телефон і хочеш, щоб на ньому з’явилися всі номери.",
+    "say": "Зараз синхронізую контакти зі старим телефоном.",
+    "ans": ["I’ll sync my contacts with my old phone.", "Let me sync the contacts from my old phone.", "I’ll just sync my contacts from the old phone."],
+    "keys": { "контакти": "contact*|number*", "старий телефон": "old" }
+   },
+   {
+    "sit": "Ти постійно пропускаєш зустрічі, бо робочий календар не збігається з тим, що в телефоні.",
+    "say": "Треба синхронізувати робочий календар із телефоном.",
+    "ans": ["I need to sync my work calendar with my phone.", "I have to sync the work calendar to my phone.", "I really should sync my work calendar with my phone."],
+    "keys": { "календар": "calendar*|schedule*", "телефон": "phone*|mobile" }
+   },
+   {
+    "sit": "Ти повернувся з ранкової пробіжки, але в застосунку немає даних з годинника.",
+    "say": "Годинник ще не синхронізувався з додатком.",
+    "ans": ["My watch hasn’t synced with the app yet.", "The watch didn’t sync with the app.", "My watch still hasn’t synced to the app."],
+    "keys": { "годинник": "watch*|tracker", "ще не": "not|yet|still" }
+   }
+  ]
+ },
+ {
+  "id": 577, "w": "log in", "uk": "входити (в акаунт)", "lvl": "A2",
+  "forms": "log|logs|logged|logged|logging",
+  "tail": "in/into",
+  "near": "sign in|signed in|signing in|log on|logged on|enter*|access*",
+  "tasks": [
+   {
+    "sit": "Ти перший день на новій роботі й не можеш відкрити корпоративну пошту.",
+    "say": "Я не можу увійти в пошту.",
+    "ans": ["I can’t log in to my email.", "I can’t log into my work email.", "I just can’t log in to my email."],
+    "keys": { "пошта": "email*|e-mail*|mail*|inbox|account", "не можу": "not|problem|trouble" }
+   },
+   {
+    "sit": "Бабуся просить допомогти оплатити комуналку через банківський додаток.",
+    "say": "Спочатку треба увійти в додаток.",
+    "ans": ["First you need to log in to the app.", "You have to log into the app first.", "First, just log in to the app."],
+    "keys": { "спочатку": "first*|before", "додаток": "app*|application|bank*|account" }
+   },
+   {
+    "sit": "Друг уже двадцять хвилин чекає тебе в онлайн-грі.",
+    "say": "Вибач, я не міг увійти — забув пароль.",
+    "ans": ["Sorry, I couldn’t log in — I forgot my password.", "Sorry, I forgot my password, so I couldn’t log in.", "Sorry! I couldn’t log in because I forgot my password."],
+    "keys": { "пароль": "password*", "забув": "forg*|lost|remember" }
+   }
+  ]
+ },
+ {
+  "id": 578, "w": "log out", "uk": "виходити (з акаунту)", "lvl": "A2",
+  "forms": "log|logs|logged|logged|logging",
+  "tail": "out",
+  "near": "sign out|signed out|signing out|exit*|close|closed|closing",
+  "tasks": [
+   {
+    "sit": "Ти користувався комп’ютером у бібліотеці й збираєшся йти.",
+    "say": "Треба вийти з пошти, щоб ніхто її не читав.",
+    "ans": ["I need to log out of my email so nobody can read it.", "I have to log out of my email so no one reads it.", "Better log out of my email so nobody reads it."],
+    "keys": { "пошта": "email*|mail*|account", "ніхто": "nobody|no one|anyone|anybody|someone" }
+   },
+   {
+    "sit": "Ти йдеш з офісу, а колега сідатиме за твій комп’ютер.",
+    "say": "Я вийду зі свого акаунту, і комп’ютер твій.",
+    "ans": ["I’ll log out of my account, and the computer is yours.", "Let me log out of my account first, then it’s yours.", "I’ll just log out, and it’s all yours."],
+    "keys": { "твій": "yours|you" }
+   },
+   {
+    "sit": "Ти дивився серіал у друга на телевізорі під своїм акаунтом.",
+    "say": "Перш ніж піти, я вийду з акаунту на твоєму телевізорі.",
+    "ans": ["I’ll log out of my account on your TV before I go.", "Before I leave, I’ll log out of my account on your TV.", "Let me log out on your TV before I head home."],
+    "keys": { "телевізор": "tv|television|telly|smart", "перш ніж піти": "before|leav*|go|head*" }
+   }
+  ]
+ },
+ {
+  "id": 579, "w": "sign up", "uk": "реєструватися (на сервіс)", "lvl": "A2",
+  "forms": "sign|signs|signed|signed|signing",
+  "tail": "up",
+  "near": "register*|join*|subscribe*|enrol*|enroll*|create an account|created an account",
+  "tasks": [
+   {
+    "sit": "Ти хочеш подивитися новий серіал, але він є лише на одному стрімінговому сервісі.",
+    "say": "Я зареєструюся на цьому сервісі — там перший місяць безкоштовний.",
+    "ans": ["I’ll sign up for this service — the first month is free.", "I’m going to sign up because the first month is free.", "I’ll sign up, the first month’s free anyway."],
+    "keys": { "перший місяць": "first month|month*", "безкоштовний": "free" }
+   },
+   {
+    "sit": "Тобі порадили онлайн-курс англійської, і подруга теж хоче вчитися.",
+    "say": "Давай зареєструємося на курс разом!",
+    "ans": ["Let’s sign up for the course together!", "Why don’t we sign up for the course together?", "Come on, let’s sign up for it together!"],
+    "keys": { "курс": "course*|class*|lesson*|it", "разом": "together" }
+   },
+   {
+    "sit": "Ти оформлюєш замовлення в інтернет-магазині, і сайт пропонує знижку новим клієнтам.",
+    "say": "Якщо зареєструєшся, отримаєш десять відсотків знижки.",
+    "ans": ["If you sign up, you get ten percent off.", "You get a ten percent discount if you sign up.", "Sign up and you’ll get ten percent off."],
+    "keys": { "знижка": "off|discount*|sale", "десять": "ten|10*" }
+   }
+  ]
+ },
+ {
+  "id": 580, "w": "chat", "uk": "чатитися, переписуватися", "lvl": "A2",
+  "forms": "chat|chats|chatted|chatted|chatting",
+  "near": "talk*|text*|message*|messaging|speak*|spoke|spoken",
+  "tasks": [
+   {
+    "sit": "Мама питає, чому ти досі не спиш о першій ночі.",
+    "say": "Я чатився з другом з Канади.",
+    "ans": ["I was chatting with a friend from Canada.", "I chatted with my friend from Canada.", "I was just chatting with my friend in Canada."],
+    "keys": { "друг": "friend*|buddy|mate", "Канада": "canada|canadian" }
+   },
+   {
+    "sit": "Колега пропонує обговорити проєкт телефоном, а ти їдеш у переповненому потязі.",
+    "say": "Давай краще поспілкуємося в чаті, я зараз у потязі.",
+    "ans": ["Let’s just chat online, I’m on the train right now.", "Can we chat instead? I’m on a train.", "Let’s chat in Slack instead — I’m on the train."],
+    "keys": { "потяг": "train*|metro|bus" }
+   },
+   {
+    "sit": "Ти познайомився з людиною в застосунку для знайомств.",
+    "say": "Ми вже тиждень щовечора переписуємося в чаті.",
+    "ans": ["We’ve been chatting every evening for a week.", "We chat every evening, it’s been a week now.", "We’ve been chatting every night for a week now."],
+    "keys": { "щовечора": "evening*|night*|every day", "тиждень": "week*" }
+   }
+  ]
+ },
+ {
+  "id": 581, "w": "like", "uk": "лайкати", "lvl": "A2",
+  "forms": "like|likes|liked|liked|liking",
+  "near": "heart*|react*|upvot*|thumbs up|comment*",
+  "tasks": [
+   {
+    "sit": "Ти виклав фото з відпустки, і сестра питає, чи багато реакцій.",
+    "say": "Мій пост уже лайкнули сто людей.",
+    "ans": ["A hundred people have already liked my post.", "My post has already been liked by a hundred people.", "Wow, a hundred people liked my post already!"],
+    "keys": { "пост": "post*|photo*|pic*", "сто": "hundred|100*" }
+   },
+   {
+    "sit": "Друг виклав відео зі свого першого концерту й просить підтримати.",
+    "say": "Я лайкнув твоє відео і поділився ним.",
+    "ans": ["I liked your video and shared it.", "I liked and shared your video.", "Done — I liked your video and shared it too."],
+    "keys": { "відео": "video*|clip*|it", "поділився": "shar*|repost*" }
+   },
+   {
+    "sit": "Колишній колега лайкнув твоє фото п’ятирічної давності. Ти показуєш це другові.",
+    "say": "Навіщо лайкати фото п’ятирічної давності?",
+    "ans": ["Why would anyone like a photo from five years ago?", "Why did my old coworker like a photo from five years ago?", "Seriously, why did this guy like my photo from five years ago?"],
+    "keys": { "фото": "photo*|pic*|post*", "п’ять років": "five|5*" }
+   }
+  ]
+ },
+ {
+  "id": 582, "w": "follow", "uk": "фоловити, бути підписаним", "lvl": "A2",
+  "forms": "follow|follows|followed|followed|following",
+  "near": "subscrib*|sub|subbed|track*|watch*",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш подрузі про кулінарну блогерку з чудовими рецептами.",
+    "say": "Я вже рік на неї підписаний.",
+    "ans": ["I’ve been following her for a year.", "I’ve followed her for a year now.", "I’ve been following her for about a year."],
+    "keys": { "рік": "year*" }
+   },
+   {
+    "sit": "Ти знайомишся з людиною на вечірці й хочеш залишитися на зв’язку.",
+    "say": "Підпишися на мене в інстаграмі!",
+    "ans": ["Follow me on Instagram!", "You should follow me on Instagram!", "Hey, follow me on Insta!"],
+    "keys": { "інстаграм": "instagram|insta|ig" }
+   },
+   {
+    "sit": "Ти працюєш у маркетингу і звітуєш керівнику про сторінку компанії.",
+    "say": "За місяць на нашу сторінку підписалися дві тисячі людей.",
+    "ans": ["Two thousand people followed our page this month.", "In one month, two thousand people started following our page.", "Two thousand people have followed our page in just a month."],
+    "keys": { "дві тисячі": "two thousand|2*|thousand*", "місяць": "month*" }
+   }
+  ]
+ },
+ {
+  "id": 583, "w": "unfollow", "uk": "відписуватися", "lvl": "B1",
+  "forms": "unfollow|unfollows|unfollowed|unfollowed|unfollowing",
+  "near": "unsubscrib*|block*|mute*|muted|remov*|stop following|stopped following",
+  "tasks": [
+   {
+    "sit": "Сторінка місцевого кафе щодня публікує десятки реклам.",
+    "say": "Я відписався від цієї сторінки, бо там сама реклама.",
+    "ans": ["I unfollowed that page because it’s all ads.", "I unfollowed the page — it was just ads.", "I unfollowed them, it was nothing but ads."],
+    "keys": { "реклама": "ad|ads|advert*|spam|promo*" }
+   },
+   {
+    "sit": "Друг помітив, що його пости більше не з’являються у твоїй стрічці.",
+    "say": "Стривай, ти що, від мене відписався?",
+    "ans": ["Did you unfollow me?", "Wait, did you unfollow me?", "Hold on, have you unfollowed me?"],
+    "keys": { "мене": "me" }
+   },
+   {
+    "sit": "Знайомий блогер почав писати лише про політику, і тебе це дратує.",
+    "say": "Якщо він продовжить у тому ж дусі, я від нього відпишуся.",
+    "ans": ["If he keeps this up, I’ll unfollow him.", "I’m going to unfollow him if he doesn’t stop.", "One more post like that and I’m unfollowing him."],
+    "keys": { "його": "him|blogger|guy" }
+   }
+  ]
+ },
+ {
+  "id": 584, "w": "report", "uk": "повідомляти (про баг, проблему)", "lvl": "B1",
+  "forms": "report|reports|reported|reported|reporting",
+  "near": "tell|told|let know|flag*|mention*|submit*|file|filed|inform*|notif*",
+  "tasks": [
+   {
+    "sit": "Ти тестувальник і знайшов помилку: кнопка «Оплатити» не працює на телефонах.",
+    "say": "Я вже повідомив про цей баг розробникам.",
+    "ans": ["I’ve already reported this bug to the developers.", "I already reported the bug to the devs.", "Already reported it to the developers — they’re on it."],
+    "keys": { "баг": "bug*|issue*|problem|error|it", "розробники": "developer*|devs|dev team|team" }
+   },
+   {
+    "sit": "Ти модератор форуму онлайн-гри й відповідаєш новачкові.",
+    "say": "Якщо знайдеш баг, повідом про нього через форму на сайті.",
+    "ans": ["If you find a bug, report it through the form on the website.", "Report any bugs using the form on our website.", "Found a bug? Just report it through the form on the site."],
+    "keys": { "форма": "form*", "сайт": "site*|website*|page" }
+   },
+   {
+    "sit": "Ти помітив, що банківський додаток показує неправильний баланс.",
+    "say": "Я повідомлю про цю проблему в службу підтримки.",
+    "ans": ["I’ll report the problem to customer support.", "I’m going to report this issue to support.", "I’ll report it to support right away."],
+    "keys": { "проблема": "problem*|issue*|bug*|it|error*", "підтримка": "support|help*|bank" }
+   }
+  ]
+ },
+ {
+  "id": 585, "w": "livestream", "uk": "стрімити наживо", "lvl": "B2",
+  "forms": "livestream/live-stream|livestreams/live-streams|livestreamed/live-streamed|livestreamed/live-streamed|livestreaming/live-streaming",
+  "near": "stream*|broadcast*|go live|went live|going live",
+  "tasks": [
+   {
+    "sit": "Ти граєш у відеоігри й ведеш невеликий канал. Друг питає про твій розклад.",
+    "say": "Я стрімлю нову гру щовечора о восьмій.",
+    "ans": ["I livestream the new game every evening at eight.", "Every night at eight I livestream the new game.", "I’m livestreaming the new game every night at eight."],
+    "keys": { "щовечора": "evening*|night*|daily|every day", "о восьмій": "eight|8*" }
+   },
+   {
+    "sit": "Ти організовуєш благодійний концерт, але не всі охочі зможуть прийти.",
+    "say": "Ми транслюватимемо концерт наживо на ютубі.",
+    "ans": ["We’ll livestream the concert on YouTube.", "We’re going to livestream the whole concert on YouTube.", "We’re livestreaming the concert on YouTube, so everyone can watch."],
+    "keys": { "концерт": "concert*|show|gig|event", "ютуб": "youtube|online|channel" }
+   },
+   {
+    "sit": "Бабуся не зможе приїхати на весілля твоєї сестри й дуже засмучена.",
+    "say": "Не хвилюйся, бабусю, ми транслюватимемо весілля наживо.",
+    "ans": ["Don’t worry, Grandma, we’ll livestream the wedding.", "Don’t worry, we’re going to livestream the wedding for you.", "No worries, Grandma — we’ll livestream the whole wedding!"],
+    "keys": { "весілля": "wedding*|ceremony", "не хвилюйся": "worr*" }
+   }
+  ]
+ },
+ {
+  "id": 586, "w": "cram", "uk": "зубрити (в останній момент)", "lvl": "B2",
+  "forms": "cram|crams|crammed|crammed|cramming",
+  "near": "stud*|revis*|memoriz*|memoris*|learn*|swot*|hit the books",
+  "tasks": [
+   {
+    "sit": "Одногрупник питає, чому в тебе такі червоні очі.",
+    "say": "Я цілу ніч зубрив до іспиту з історії.",
+    "ans": ["I crammed all night for the history exam.", "I was cramming for the history exam all night.", "I stayed up all night cramming for my history exam."],
+    "keys": { "ніч": "night*", "іспит": "exam*|test*|final*" }
+   },
+   {
+    "sit": "Завтра в тебе сертифікаційний тест на роботі, а колега відкрив матеріали лише сьогодні ввечері.",
+    "say": "Зубрити все в останню ніч — погана ідея.",
+    "ans": ["Cramming everything the night before is a bad idea.", "It’s a bad idea to cram everything the night before.", "Honestly, cramming the night before never works."],
+    "keys": { "погана ідея": "bad idea|never works|not work|mistake|terrible", "остання ніч": "night*|last minute" }
+   },
+   {
+    "sit": "Ти летиш до Іспанії через три дні й раптом згадав, що не знаєш жодного слова іспанською.",
+    "say": "Я зараз зубрю базові фрази іспанською.",
+    "ans": ["I’m cramming basic Spanish phrases right now.", "Right now I’m cramming some basic phrases in Spanish.", "I’m cramming basic Spanish phrases before the trip."],
+    "keys": { "іспанська": "spanish", "фрази": "phrase*|word*|basic*" }
+   }
+  ]
+ },
+ {
+  "id": 587, "w": "skim", "uk": "переглядати побіжно", "lvl": "B2",
+  "forms": "skim|skims|skimmed|skimmed|skimming",
+  "near": "scan*|glance*|flick through|flicked through|flip through|flipped through|browse*|look through|looked through|read quickly",
+  "tasks": [
+   {
+    "sit": "Викладач дав статтю на тридцять сторінок, а семінар уже за годину.",
+    "say": "Я встигну лише побіжно переглянути статтю.",
+    "ans": ["I’ll only have time to skim the article.", "I can only skim the article before the seminar.", "I’ll just skim the article — no time to read it properly."],
+    "keys": { "стаття": "article*|paper|text", "лише": "only|just" }
+   },
+   {
+    "sit": "Колега надіслав тобі довгий звіт і питає, чи ти його прочитав.",
+    "say": "Я пробіг його очима, але детально ще не читав.",
+    "ans": ["I skimmed it, but I haven’t read it in detail yet.", "I’ve skimmed it, but I haven’t read it carefully.", "I skimmed through it, but not properly yet."],
+    "keys": { "детально": "detail*|careful*|properly|closely|fully", "ще не": "not|yet" }
+   },
+   {
+    "sit": "Зранку за кавою ти маєш лише п’ять хвилин на новини.",
+    "say": "Зазвичай я просто пробігаю очима заголовки.",
+    "ans": ["I usually just skim the headlines.", "Usually I just skim through the headlines.", "I normally just skim the headlines over coffee."],
+    "keys": { "заголовки": "headline*|news", "зазвичай": "usually|normally|typically|always" }
+   }
+  ]
+ },
+ {
+  "id": 588, "w": "highlight", "uk": "виділяти (маркером, кольором)", "lvl": "B2",
+  "forms": "highlight|highlights|highlighted|highlighted|highlighting",
+  "near": "mark*|underlin*|circle*|colour*|color*|bold*|select*",
+  "tasks": [
+   {
+    "sit": "Сусідка по кімнаті гортає твій підручник і бачить різнокольорові смуги.",
+    "say": "Я виділяю жовтим головні моменти.",
+    "ans": ["I highlight the main points in yellow.", "I use yellow to highlight the key points.", "I always highlight the main points in yellow."],
+    "keys": { "жовтим": "yellow", "головні моменти": "main|key|important" }
+   },
+   {
+    "sit": "Ти редагуєш договір разом із юристом.",
+    "say": "Я виділив зміни червоним, щоб ти одразу їх побачив.",
+    "ans": ["I highlighted the changes in red so you can see them right away.", "I’ve highlighted the changes in red so you’ll spot them.", "I highlighted all the changes in red for you."],
+    "keys": { "зміни": "change*|edit*", "червоним": "red" }
+   },
+   {
+    "sit": "Ти пояснюєш батькові, як скопіювати текст на комп’ютері.",
+    "say": "Спочатку виділи текст мишкою.",
+    "ans": ["First, highlight the text with the mouse.", "Highlight the text with your mouse first.", "Okay, first just highlight the text with the mouse."],
+    "keys": { "текст": "text|words|it", "мишка": "mouse|cursor|drag*" }
+   }
+  ]
+ },
+ {
+  "id": 589, "w": "underline", "uk": "підкреслювати", "lvl": "B1",
+  "forms": "underline|underlines|underlined|underlined|underlining",
+  "near": "highlight*|mark*|circle*",
+  "tasks": [
+   {
+    "sit": "Ти вчитель англійської й даєш завдання класу.",
+    "say": "Підкресліть усі дієслова в тексті.",
+    "ans": ["Underline all the verbs in the text.", "Please underline every verb in the text.", "Okay, everyone, underline all the verbs in the text."],
+    "keys": { "дієслова": "verb*", "текст": "text|passage|paragraph" }
+   },
+   {
+    "sit": "Ти перевіряєш резюме друга перед його співбесідою.",
+    "say": "Я підкреслив помилки олівцем.",
+    "ans": ["I underlined the mistakes in pencil.", "I’ve underlined all the mistakes with a pencil.", "I underlined the typos in pencil for you."],
+    "keys": { "помилки": "mistake*|error*|typo*", "олівець": "pencil" }
+   },
+   {
+    "sit": "Ти готуєш запрошення на день народження й хочеш, щоб гості не переплутали дату.",
+    "say": "Я підкреслю дату двічі.",
+    "ans": ["I’ll underline the date twice.", "I’m going to underline the date twice.", "Let me underline the date twice so no one forgets."],
+    "keys": { "дата": "date|day", "двічі": "twice|two times" }
+   }
+  ]
+ },
+ {
+  "id": 590, "w": "quote", "uk": "цитувати", "lvl": "B2",
+  "forms": "quote|quotes|quoted|quoted|quoting",
+  "near": "cite*|repeat*|refer*|mention*",
+  "tasks": [
+   {
+    "sit": "Ти пишеш есе з літератури, а викладач хоче більше посилань на сам твір.",
+    "say": "Я процитую кілька рядків з роману.",
+    "ans": ["I’ll quote a few lines from the novel.", "I’m going to quote some lines from the novel.", "I’ll just quote a couple of lines from the book."],
+    "keys": { "кілька рядків": "line*|passage*|sentence*", "роман": "novel|book" }
+   },
+   {
+    "sit": "Ти журналіст і береш інтерв’ю в мера.",
+    "say": "Можна вас процитувати в статті?",
+    "ans": ["Can I quote you in the article?", "May I quote you in my article?", "Mind if I quote you in the piece?"],
+    "keys": { "стаття": "article*|piece|story|paper" }
+   },
+   {
+    "sit": "Друг весь вечір повторює фрази з улюбленого фільму.",
+    "say": "Він постійно цитує цей фільм.",
+    "ans": ["He quotes this movie all the time.", "He’s always quoting this movie.", "He keeps quoting that film nonstop."],
+    "keys": { "фільм": "movie*|film*", "постійно": "all the time|always|keeps|constantly|nonstop" }
+   }
+  ]
+ },
+ {
+  "id": 591, "w": "paraphrase", "uk": "перефразовувати", "lvl": "C1",
+  "forms": "paraphrase|paraphrases|paraphrased|paraphrased|paraphrasing",
+  "near": "rephras*|reword*|rewrit*|rewrote|put it in|in my own words|summari*",
+  "tasks": [
+   {
+    "sit": "Науковий керівник попередив, що в дипломі не можна копіювати чужі тексти.",
+    "say": "Мені доведеться перефразувати весь розділ своїми словами.",
+    "ans": ["I’ll have to paraphrase the whole chapter in my own words.", "I need to paraphrase the entire chapter in my own words.", "Looks like I’ll have to paraphrase the whole chapter."],
+    "keys": { "розділ": "chapter*|section*", "весь": "whole|entire|all" }
+   },
+   {
+    "sit": "На нараді колега довго й заплутано пояснював ідею, і ти хочеш переконатися, що все зрозумів.",
+    "say": "Дозволь, я перефразую, щоб переконатися, що правильно зрозумів.",
+    "ans": ["Let me paraphrase to make sure I understood correctly.", "Let me just paraphrase that to check I got it right.", "Let me paraphrase that, just to check I’ve got it right."],
+    "keys": { "переконатися": "make sure|check|confirm", "зрозумів": "understood|understand|got it|get it|follow*" }
+   },
+   {
+    "sit": "Ти переказуєш другові, що сказала лікарка, але дослівно не пам’ятаєш.",
+    "say": "Перефразую, але суть була така: менше цукру.",
+    "ans": ["I’m paraphrasing, but basically she said less sugar.", "I’m paraphrasing here, but the gist was less sugar.", "I’m paraphrasing, but the main point was to cut down on sugar."],
+    "keys": { "цукор": "sugar|sweet*", "суть": "basically|gist|point|main idea|essentially" }
+   }
+  ]
+ },
+ {
+  "id": 592, "w": "translate", "uk": "перекладати", "lvl": "A2",
+  "forms": "translate|translates|translated|translated|translating",
+  "near": "interpret*|say in|put into",
+  "tasks": [
+   {
+    "sit": "Ти в кафе в Італії, а меню лише італійською.",
+    "say": "Можеш перекласти мені меню?",
+    "ans": ["Can you translate the menu for me?", "Could you translate this menu for me?", "Can you translate the menu, please?"],
+    "keys": { "меню": "menu*" }
+   },
+   {
+    "sit": "Начальник дає тобі лист від польських партнерів.",
+    "say": "Я перекладу цей лист до обіду.",
+    "ans": ["I’ll translate this letter before lunch.", "I’m going to translate the letter by lunchtime.", "I’ll translate it before lunch, no problem."],
+    "keys": { "лист": "letter|email|it", "до обіду": "lunch*|noon|midday" }
+   },
+   {
+    "sit": "Ти читаєш улюблену мангу, яку ще не видали українською.",
+    "say": "Фанати вже переклали новий розділ.",
+    "ans": ["Fans have already translated the new chapter.", "The fans already translated the new chapter.", "Fans already translated the new chapter — I’m reading it now!"],
+    "keys": { "фанати": "fan*|people|someone", "розділ": "chapter*|episode*|issue" }
+   }
+  ]
+ },
+ {
+  "id": 593, "w": "apply", "uk": "застосовувати (знання, навички)", "lvl": "B2",
+  "forms": "apply|applies|applied|applied|applying",
+  "near": "use|uses|used|using|put into practice|practis*|practic*|implement*",
+  "tasks": [
+   {
+    "sit": "Ти пройшов курс з тайм-менеджменту, і керівник питає, чи була з нього користь.",
+    "say": "Я вже застосовую те, чого навчився, у щоденній роботі.",
+    "ans": ["I’m already applying what I learned in my daily work.", "I already apply what I’ve learned to my everyday work.", "I’m already applying what I learned at work every day."],
+    "keys": { "навчився": "learn*|learnt", "щоденна робота": "work*|job|daily|every day|everyday" }
+   },
+   {
+    "sit": "Учень питає тебе, навіщо взагалі вчити формули з фізики.",
+    "say": "Головне — вміти застосувати формулу до реальної задачі.",
+    "ans": ["The main thing is to be able to apply the formula to a real problem.", "What matters is knowing how to apply the formula to real problems.", "The key is being able to apply the formula to real-life problems."],
+    "keys": { "формула": "formula*", "реальна задача": "real*|problem*|task*" }
+   },
+   {
+    "sit": "Ти ходив на кулінарний майстер-клас, а тепер готуєш удома вечерю.",
+    "say": "Спробую застосувати поради шефа.",
+    "ans": ["I’ll try to apply the chef’s tips.", "I’m going to try applying the chef’s advice.", "Let’s see if I can apply what the chef taught us."],
+    "keys": { "шеф": "chef*|cook", "поради": "tip*|advice|taught|trick*" }
+   }
+  ]
+ },
+ {
+  "id": 595, "w": "master", "uk": "досконало опановувати", "lvl": "B2",
+  "forms": "master|masters|mastered|mastered|mastering",
+  "near": "learn*|learnt|get good at|got good at|perfect*|nail*|pick up|picked up",
+  "tasks": [
+   {
+    "sit": "Ти вже третій рік граєш на гітарі й розповідаєш про складний прийом.",
+    "say": "Мені знадобилося два роки, щоб досконало опанувати цю техніку.",
+    "ans": ["It took me two years to master this technique.", "I needed two years to master this technique.", "It took me a good two years to really master this technique."],
+    "keys": { "два роки": "two years|2 years|year*", "техніка": "technique*|skill*|trick*" }
+   },
+   {
+    "sit": "Новий співробітник питає, як швидко вивчити складну програму для обліку.",
+    "say": "Не намагайся опанувати все одразу.",
+    "ans": ["Don’t try to master everything at once.", "Don’t try to master it all at once.", "Honestly, don’t try to master everything right away."],
+    "keys": { "все одразу": "everything|all|at once|right away|same time", "не": "not|never" }
+   },
+   {
+    "sit": "Ти пишаєшся тим, що навчився готувати ідеальну піцу.",
+    "say": "Нарешті я досконало опанував тісто для піци!",
+    "ans": ["I’ve finally mastered pizza dough!", "I finally mastered the pizza dough!", "At last, I’ve totally mastered pizza dough!"],
+    "keys": { "тісто": "dough|pizza|crust", "нарешті": "finally|at last" }
+   }
+  ]
+ }
+]

@@ -1,0 +1,652 @@
+[
+ {
+  "id": 2918, "w": "make lunch", "uk": "готувати обід", "lvl": "A2",
+  "forms": "make|makes|made|made|making",
+  "tail": "lunch*",
+  "near": "cook*|prepar*|fix*|pack*",
+  "tasks": [
+   {
+    "sit": "Колега щодня купує обід у кафе й скаржиться на ціни.",
+    "say": "Я готую обід удома — так дешевше.",
+    "ans": ["I make lunch at home — it’s cheaper.", "I make my lunch at home because it’s cheaper.", "I just make lunch at home, it’s way cheaper."],
+    "keys": { "дешевше": "cheap*|save* money|less", "вдома": "home" }
+   },
+   {
+    "sit": "Уранці ти збираєш дітей до школи, а вони питають, що їм їсти на перерві.",
+    "say": "Я вже приготував вам обід у школу.",
+    "ans": ["I’ve already made your lunch for school.", "I already made lunch for you to take to school.", "I’ve made your lunches for school already."],
+    "keys": { "школа": "school", "вже": "already" }
+   },
+   {
+    "sit": "У неділю до вас на гостину приходять батьки, а на кухні ще порожньо.",
+    "say": "Хто сьогодні готує обід?",
+    "ans": ["Who’s making lunch today?", "Who is going to make lunch today?", "Okay, so who’s making lunch for everyone today?"],
+    "keys": { "хто": "who", "сьогодні": "today" }
+   }
+  ]
+ },
+ {
+  "id": 2919, "w": "make dinner", "uk": "готувати вечерю", "lvl": "A2",
+  "forms": "make|makes|made|made|making",
+  "tail": "dinner/supper",
+  "near": "cook*|prepar*|fix*",
+  "tasks": [
+   {
+    "sit": "Партнер пише, що затримується на роботі й повернеться пізно.",
+    "say": "Не хвилюйся, я приготую вечерю.",
+    "ans": ["Don’t worry, I’ll make dinner.", "No worries, I’ll make dinner tonight.", "Don’t worry about it — I’ll make dinner."],
+    "keys": { "не хвилюйся": "worry|worries" }
+   },
+   {
+    "sit": "Ти запрошуєш дівчину на друге побачення.",
+    "say": "Я хочу приготувати тобі вечерю в себе вдома.",
+    "ans": ["I want to make dinner for you at my place.", "I’d like to make you dinner at my place.", "Let me make you dinner at my place this time."],
+    "keys": { "вдома": "place|home|house|apartment|flat" }
+   },
+   {
+    "sit": "Голодні діти вже втретє питають, коли буде їсти.",
+    "say": "Я якраз готую вечерю, зачекайте десять хвилин.",
+    "ans": ["I’m making dinner right now, wait ten minutes.", "I’m making dinner, it’ll be ready in ten minutes.", "I’m making dinner — hang on, ten more minutes."],
+    "keys": { "десять хвилин": "ten|10|minute*" }
+   }
+  ]
+ },
+ {
+  "id": 2920, "w": "make coffee", "uk": "варити каву", "lvl": "A1",
+  "forms": "make|makes|made|made|making",
+  "tail": "coffee",
+  "near": "brew*|cook*|prepar*",
+  "tasks": [
+   {
+    "sit": "Колега щойно прийшов на роботу й виглядає дуже сонним.",
+    "say": "Я якраз зварив каву — хочеш?",
+    "ans": ["I just made coffee — do you want some?", "I’ve made some coffee, want a cup?", "Hey, I just made a pot of coffee, want some?"],
+    "keys": { "хочеш": "want|like|cup" }
+   },
+   {
+    "sit": "Ти розповідаєш одногрупникам про свій звичайний ранок.",
+    "say": "Спершу я варю каву, а потім снідаю.",
+    "ans": ["First I make coffee, and then I have breakfast.", "I make coffee first and then eat breakfast.", "First thing, I make coffee, then I have breakfast."],
+    "keys": { "сніданок": "breakfast|eat" }
+   },
+   {
+    "sit": "До тебе прийшли гості й сіли у вітальні.",
+    "say": "Зварити вам кави?",
+    "ans": ["Can I make you some coffee?", "Shall I make coffee for you?", "Do you want me to make some coffee?"],
+    "keys": { "вам": "you" }
+   }
+  ]
+ },
+ {
+  "id": 2921, "w": "make tea", "uk": "заварювати чай", "lvl": "A1",
+  "forms": "make|makes|made|made|making",
+  "tail": "tea",
+  "near": "brew*|boil*|prepar*",
+  "tasks": [
+   {
+    "sit": "Подруга застудилася й зайшла до тебе по ліки.",
+    "say": "Сідай, я заварю тобі чаю з медом.",
+    "ans": ["Sit down, I’ll make you tea with honey.", "Sit down and I’ll make you some tea with honey.", "Sit down, let me make you some honey tea."],
+    "keys": { "мед": "honey" }
+   },
+   {
+    "sit": "В офісі перерва, і колега сидить за сусіднім столом.",
+    "say": "Піду заварю чаю — тобі теж зробити?",
+    "ans": ["I’m going to make tea — do you want some too?", "I’ll make some tea. Do you want some too?", "I’m making tea, do you want a cup too?"],
+    "keys": { "тобі теж": "you|too|want" }
+   },
+   {
+    "sit": "Іноземний друг гостює в твоєї бабусі в селі й дивується її чаю.",
+    "say": "Бабуся заварює чай з м’яти прямо з городу.",
+    "ans": ["Grandma makes tea from mint in her garden.", "My grandma makes mint tea from her own garden.", "My gran makes tea with mint straight from the garden."],
+    "keys": { "м’ята": "mint", "город": "garden" }
+   }
+  ]
+ },
+ {
+  "id": 2922, "w": "pour a drink", "uk": "налити напій", "lvl": "A2",
+  "forms": "pour|pours|poured|poured|pouring",
+  "tail": "drink*",
+  "near": "fill*|serve*|get me",
+  "tasks": [
+   {
+    "sit": "Гість сідає на диван після довгої дороги.",
+    "say": "Сідай, я наллю тобі чогось випити.",
+    "ans": ["Sit down, I’ll pour you a drink.", "Have a seat and I’ll pour you a drink.", "Sit down, let me pour you a drink."],
+    "keys": { "сідай": "sit|seat" }
+   },
+   {
+    "sit": "Ти повертаєшся додому після жахливого дня, а друг уже чекає на кухні.",
+    "say": "Налий мені чогось випити, будь ласка.",
+    "ans": ["Please pour me a drink.", "Could you pour me a drink, please?", "Pour me a drink, please — what a day."],
+    "keys": { "будь ласка": "please|could|can" }
+   },
+   {
+    "sit": "Ти працюєш барменом, а клієнт уже добряче п’яний.",
+    "say": "Вибачте, більше я вам не наливатиму.",
+    "ans": ["Sorry, I can’t pour you another drink.", "I’m sorry, I won’t pour you any more drinks.", "Sorry, mate, I’m not pouring you another drink."],
+    "keys": { "вибачте": "sorry", "більше": "another|more|any more|anymore" }
+   }
+  ]
+ },
+ {
+  "id": 2923, "w": "ask a favor", "uk": "попросити про послугу", "lvl": "B1",
+  "forms": "ask|asks|asked|asked|asking",
+  "tail": "favor*/favour*",
+  "near": "request*|need help|help me",
+  "tasks": [
+   {
+    "sit": "Ти їдеш у відпустку, а кота немає з ким залишити. Ти стукаєш до сусідки.",
+    "say": "Можна попросити тебе про послугу? Погодуєш мого кота?",
+    "ans": ["Can I ask you a favor? Could you feed my cat?", "Could I ask you a favor — can you feed my cat?", "Can I ask a favor? I need someone to feed my cat."],
+    "keys": { "кіт": "cat|kitty", "погодуєш": "feed*|look after" }
+   },
+   {
+    "sit": "Тобі знову треба, щоб колега підмінив тебе на зміні, хоча ти вже просив минулого тижня.",
+    "say": "Мені незручно знову просити тебе про послугу.",
+    "ans": ["I feel awkward asking you for a favor again.", "I hate to ask you a favor again, but I need help.", "Sorry to ask you for another favor, but I really need it."],
+    "keys": { "знову": "again|another" }
+   },
+   {
+    "sit": "Брат відмовляється допомогти тобі з переїздом, хоча ти завжди йому допомагаєш.",
+    "say": "Я рідко прошу тебе про послугу.",
+    "ans": ["I rarely ask you for a favor.", "I hardly ever ask you for a favor.", "Come on, I almost never ask you for favors!"],
+    "keys": { "рідко": "rarely|hardly|almost never|seldom|never" }
+   }
+  ]
+ },
+ {
+  "id": 2924, "w": "do a favor", "uk": "зробити послугу", "lvl": "B1",
+  "forms": "do|does|did|done|doing",
+  "tail": "favor/favour",
+  "near": "help*",
+  "tasks": [
+   {
+    "sit": "Ти застряг у заторі, а колега вже в офісі. На твоєму столі лежить документ для бухгалтерії.",
+    "say": "Зроби мені послугу: віднеси документ у бухгалтерію.",
+    "ans": ["Do me a favor and take the document to accounting.", "Could you do me a favor and bring the document to accounting?", "Do me a favor — drop the document off at accounting."],
+    "keys": { "документ": "document*|paper*|file", "бухгалтерія": "accounting|accounts|finance" }
+   },
+   {
+    "sit": "Друг позичив тобі свою машину на вихідні, коли твоя зламалася.",
+    "say": "Ти зробив мені велику послугу.",
+    "ans": ["You did me a big favor.", "You’ve done me a huge favor.", "You really did me a big favor there."],
+    "keys": { "велику": "big|huge|great|massive" }
+   },
+   {
+    "sit": "Сестра просить посидіти з її дітьми ввечері, а ти вже двічі цього місяця це робив.",
+    "say": "Добре, але я роблю тобі послугу востаннє.",
+    "ans": ["Okay, but this is the last time I do you a favor.", "Fine, but it’s the last favor I do for you.", "All right, but this is the last time I’m doing you a favor."],
+    "keys": { "востаннє": "last" }
+   }
+  ]
+ },
+ {
+  "id": 2925, "w": "return a favor", "uk": "віддячити послугою", "lvl": "B2",
+  "forms": "return|returns|returned|returned|returning",
+  "tail": "favor/favour",
+  "near": "repay*|pay back|paid back|pay you back|owe*",
+  "tasks": [
+   {
+    "sit": "Колега погодився підмінити тебе на нічній зміні.",
+    "say": "Дякую! Обов’язково віддячу тобі при нагоді.",
+    "ans": ["Thanks! I’ll definitely return the favor sometime.", "Thank you — I’ll return the favor whenever I can.", "Thanks a lot, I’ll return the favor for sure."],
+    "keys": { "дякую": "thank*" }
+   },
+   {
+    "sit": "Сусід узимку допоміг тобі відкопати машину, а тепер він сам переїжджає.",
+    "say": "Тепер моя черга віддячити за послугу.",
+    "ans": ["Now it’s my turn to return the favor.", "It’s my turn to return the favor now.", "Time for me to return the favor, I guess."],
+    "keys": { "черга": "turn|time" }
+   },
+   {
+    "sit": "Партнерська фірма порекомендувала вашу компанію великому клієнтові.",
+    "say": "Ми віддячили: порекомендували їх нашим клієнтам.",
+    "ans": ["We returned the favor by recommending them to our clients.", "We returned the favor and recommended them to our clients.", "So we returned the favor — we recommended them to our customers."],
+    "keys": { "порекомендували": "recommend*|refer*", "клієнти": "client*|customer*" }
+   }
+  ]
+ },
+ {
+  "id": 2926, "w": "help around the house", "uk": "допомагати по дому", "lvl": "A2",
+  "forms": "help|helps|helped|helped|helping",
+  "tail": "around house/home",
+  "near": "do chores|did chores|do housework|did housework|clean*|tidy*",
+  "tasks": [
+   {
+    "sit": "Син-підліток просить більше кишенькових грошей.",
+    "say": "Спершу почни допомагати по дому.",
+    "ans": ["First, start helping around the house.", "Start helping around the house first.", "Well, you could start helping around the house first."],
+    "keys": { "спершу": "first" }
+   },
+   {
+    "sit": "Подруга питає, як тобі живеться з бабусею.",
+    "say": "Я допомагаю їй по дому, а вона мені готує.",
+    "ans": ["I help her around the house, and she cooks for me.", "I help around the house and she cooks for me.", "I help out around the house, and she cooks for me in return."],
+    "keys": { "готує": "cook*" }
+   },
+   {
+    "sit": "Ти скаржишся другові на сусіда по квартирі.",
+    "say": "Він узагалі не допомагає по дому.",
+    "ans": ["He doesn’t help around the house at all.", "He never helps around the house.", "He doesn’t help around the house, not even a little."],
+    "keys": { "не": "not|never|nothing" }
+   }
+  ]
+ },
+ {
+  "id": 2927, "w": "do chores", "uk": "робити хатні справи", "lvl": "B1",
+  "forms": "do|does|did|done|doing",
+  "tail": "chores/chore",
+  "near": "housework|clean*|tidy*|errand*",
+  "tasks": [
+   {
+    "sit": "Колега кличе тебе в суботу на пікнік.",
+    "say": "Не можу, у суботу я роблю хатні справи.",
+    "ans": ["I can’t, I do chores on Saturday.", "Sorry, Saturday is when I do my chores.", "I can’t — I’ve got to do chores on Saturday."],
+    "keys": { "субота": "saturday*" }
+   },
+   {
+    "sit": "Діти хочуть кишенькові гроші, як у їхніх друзів.",
+    "say": "Ви отримаєте гроші, якщо робитимете хатні справи.",
+    "ans": ["You’ll get money if you do your chores.", "If you do your chores, you’ll get pocket money.", "Do your chores and you’ll get some money."],
+    "keys": { "гроші": "money|cash|allowance" }
+   },
+   {
+    "sit": "Ти з сусідами по квартирі складаєш графік прибирання.",
+    "say": "Давайте робити хатні справи по черзі.",
+    "ans": ["Let’s take turns doing chores.", "Let’s do the chores in turns.", "Why don’t we take turns doing the chores?"],
+    "keys": { "по черзі": "turn*|rotat*|schedule" }
+   }
+  ]
+ },
+ {
+  "id": 2928, "w": "walk to school", "uk": "ходити до школи пішки", "lvl": "A1",
+  "forms": "walk|walks|walked|walked|walking",
+  "tail": "to school",
+  "near": "on foot|go to school|went to school|ride*|drive*",
+  "tasks": [
+   {
+    "sit": "Нова знайома питає, як твій син добирається до школи.",
+    "say": "Він ходить до школи пішки.",
+    "ans": ["He walks to school.", "He walks to school every day.", "Oh, he just walks to school."],
+    "keys": { "він": "he" }
+   },
+   {
+    "sit": "Ти розповідаєш дітям про своє дитинство в селі.",
+    "say": "Я ходив до школи пішки три кілометри.",
+    "ans": ["I walked three kilometers to school.", "I used to walk three kilometers to school.", "Back then, I walked three kilometers to school every day."],
+    "keys": { "три кілометри": "three|3|kilomet*|km|mile*" }
+   },
+   {
+    "sit": "Сьогодні гарна погода, хоча зазвичай ти їздиш до школи автобусом.",
+    "say": "Сьогодні піду до школи пішки.",
+    "ans": ["Today I’ll walk to school.", "I’m going to walk to school today.", "It’s so nice out, I’ll walk to school today."],
+    "keys": { "сьогодні": "today" }
+   }
+  ]
+ },
+ {
+  "id": 2929, "w": "drive to work", "uk": "їздити на роботу машиною", "lvl": "A2",
+  "forms": "drive|drives|drove|driven|driving",
+  "tail": "to work",
+  "near": "go by car|went by car|commute*|take the bus|ride|rode",
+  "tasks": [
+   {
+    "sit": "Колега питає, як ти добираєшся на роботу.",
+    "say": "Зазвичай я їжджу на роботу машиною.",
+    "ans": ["I usually drive to work.", "Usually I drive to work.", "I normally just drive to work."],
+    "keys": { "зазвичай": "usually|normally|mostly|always" }
+   },
+   {
+    "sit": "Ти запізнився на нараду й пояснюєш керівникові чому.",
+    "say": "Сьогодні я їхав на роботу цілу годину через затори.",
+    "ans": ["It took me an hour to drive to work today because of traffic.", "I spent an hour driving to work today because of the traffic.", "Driving to work took me a whole hour today — crazy traffic."],
+    "keys": { "годину": "hour", "затори": "traffic|jam*" }
+   },
+   {
+    "sit": "Ти переїхав ближче до офісу й розповідаєш про це друзям.",
+    "say": "Тепер мені не треба їздити на роботу машиною.",
+    "ans": ["Now I don’t have to drive to work.", "I don’t need to drive to work anymore.", "Now I don’t even have to drive to work."],
+    "keys": { "не треба": "not|no longer" }
+   }
+  ]
+ },
+ {
+  "id": 2930, "w": "cycle to work", "uk": "їздити на роботу велосипедом", "lvl": "B1",
+  "forms": "cycle|cycles|cycled|cycled|cycling",
+  "tail": "to work/office",
+  "near": "bike|bikes|biked|biking|ride* bike|rode|by bike",
+  "tasks": [
+   {
+    "sit": "Лікар радить тобі більше рухатися.",
+    "say": "Я почну їздити на роботу велосипедом.",
+    "ans": ["I’m going to start cycling to work.", "I’ll start cycling to work.", "I think I’ll start cycling to work."],
+    "keys": { "почну": "start*|begin" }
+   },
+   {
+    "sit": "Колега здивований, що ти прийшов в офіс мокрий до нитки.",
+    "say": "Я їхав на роботу велосипедом, і пішов дощ.",
+    "ans": ["I cycled to work, and it started raining.", "I was cycling to work when it started to rain.", "I cycled to work and got caught in the rain."],
+    "keys": { "дощ": "rain*" }
+   },
+   {
+    "sit": "Друг питає, як тобі вдається так економити на бензині.",
+    "say": "Я їжджу на роботу велосипедом навіть узимку.",
+    "ans": ["I cycle to work, even in winter.", "Even in winter, I cycle to work.", "I cycle to work all year round, even in the winter."],
+    "keys": { "навіть узимку": "winter|snow|cold" }
+   }
+  ]
+ },
+ {
+  "id": 2931, "w": "take the elevator", "uk": "їхати ліфтом", "lvl": "A2",
+  "forms": "take|takes|took|taken|taking",
+  "tail": "elevator/lift",
+  "near": "use the elevator|used the elevator|use the lift|ride*",
+  "tasks": [
+   {
+    "sit": "Ти заселяєшся в готель із двома важкими валізами.",
+    "say": "Поїдьмо ліфтом, валізи дуже важкі.",
+    "ans": ["Let’s take the elevator, the suitcases are really heavy.", "Let’s take the lift — these suitcases are so heavy.", "We’d better take the elevator, the bags are heavy."],
+    "keys": { "валізи": "suitcase*|bag*|luggage", "важкі": "heavy" }
+   },
+   {
+    "sit": "Ти телефонуєш другові, який чекає на тебе на десятому поверсі.",
+    "say": "Я не можу поїхати ліфтом — він зламався.",
+    "ans": ["I can’t take the elevator — it’s broken.", "I can’t take the lift because it’s out of order.", "Can’t take the elevator, it’s broken again."],
+    "keys": { "зламався": "broken|out of order|not working|does not work" }
+   },
+   {
+    "sit": "Новий колега питає, як дістатися до переговорної.",
+    "say": "Їдь ліфтом на дев’ятий поверх.",
+    "ans": ["Take the elevator to the ninth floor.", "Take the lift up to the ninth floor.", "Just take the elevator up to the 9th floor."],
+    "keys": { "дев’ятий": "nin*|9*", "поверх": "floor" }
+   }
+  ]
+ },
+ {
+  "id": 2932, "w": "take the stairs", "uk": "йти сходами", "lvl": "A2",
+  "forms": "take|takes|took|taken|taking",
+  "tail": "stairs",
+  "near": "walk up|walked up|walk down|walked down|climb*|use the stairs",
+  "tasks": [
+   {
+    "sit": "Ти хочеш більше рухатися, але не маєш часу на спортзал.",
+    "say": "Я завжди ходжу сходами замість ліфта.",
+    "ans": ["I always take the stairs instead of the elevator.", "I take the stairs instead of the lift.", "I always take the stairs — no elevator for me."],
+    "keys": { "замість": "instead|no|not", "ліфт": "elevator|lift" }
+   },
+   {
+    "sit": "Біля ліфта в бізнес-центрі величезна черга, а тобі лише на третій поверх.",
+    "say": "Піду сходами, так швидше.",
+    "ans": ["I’ll take the stairs, it’s faster.", "I’m going to take the stairs — it’s quicker.", "Forget it, I’ll just take the stairs, it’s faster."],
+    "keys": { "швидше": "fast*|quick*" }
+   },
+   {
+    "sit": "Під час навчальної пожежної тривоги охоронець пояснює працівникам правила.",
+    "say": "Під час пожежі не користуйтеся ліфтом — спускайтеся сходами.",
+    "ans": ["In case of fire, don’t use the elevator — take the stairs.", "If there’s a fire, take the stairs, not the elevator.", "During a fire, always take the stairs, never the lift."],
+    "keys": { "пожежа": "fire*", "ліфт": "elevator|lift" }
+   }
+  ]
+ },
+ {
+  "id": 2933, "w": "press an elevator button", "uk": "натиснути кнопку ліфта", "lvl": "A2",
+  "forms": "press|presses|pressed|pressed|pressing",
+  "tail": "button*",
+  "near": "push*|hit|click*|tap*",
+  "tasks": [
+   {
+    "sit": "Ти заходиш у ліфт разом із сусідом, у якого повні руки пакетів.",
+    "say": "Вам на який поверх? Я натисну кнопку.",
+    "ans": ["Which floor? I’ll press the button.", "What floor do you need? I’ll press the button for you.", "Which floor are you going to? I’ll press the button."],
+    "keys": { "поверх": "floor" }
+   },
+   {
+    "sit": "Твій малюк обожнює кататися в ліфті.",
+    "say": "Він завжди хоче сам натискати кнопку ліфта.",
+    "ans": ["He always wants to press the elevator button himself.", "He always wants to press the lift button on his own.", "Every time, he insists on pressing the elevator button himself."],
+    "keys": { "сам": "himself|own|alone", "завжди": "always|every time" }
+   },
+   {
+    "sit": "Ти в ліфті готелю, але він нікуди не їде. Ти дзвониш на рецепцію.",
+    "say": "Я натиснув кнопку, але ліфт не рухається.",
+    "ans": ["I pressed the button, but the elevator isn’t moving.", "I’ve pressed the button, but the lift won’t move.", "I pressed the button, but nothing’s happening."],
+    "keys": { "не рухається": "not mov*|will not move|nothing|not going|stuck" }
+   }
+  ]
+ },
+ {
+  "id": 2934, "w": "greet a colleague", "uk": "привітатися з колегою", "lvl": "B1",
+  "forms": "greet|greets|greeted|greeted|greeting",
+  "tail": "colleague*/coworker*/co-worker*",
+  "near": "say hello|said hello|say hi|said hi|welcom*",
+  "tasks": [
+   {
+    "sit": "Новий керівник зауважив, що в офісі люди проходять одне повз одного мовчки. Ти розповідаєш про свою звичку.",
+    "say": "Я завжди вітаюся з колегами зранку.",
+    "ans": ["I always greet my colleagues in the morning.", "Every morning I greet my colleagues.", "I make a point of greeting my colleagues every morning."],
+    "keys": { "зранку": "morning*" }
+   },
+   {
+    "sit": "Колега повернулася в офіс після довгої відпустки. Ввечері ти розповідаєш про це вдома.",
+    "say": "Я тепло привітався з колегою й запитав, як минула відпустка.",
+    "ans": ["I warmly greeted my colleague and asked about her vacation.", "I greeted my colleague warmly and asked how her holiday was.", "I greeted my colleague and asked how her vacation went."],
+    "keys": { "відпустка": "vacation|holiday*|leave|trip" }
+   },
+   {
+    "sit": "Іноземний стажер питає, як в Україні прийнято вітатися на роботі.",
+    "say": "Чоловіки часто вітаються з колегами рукостисканням.",
+    "ans": ["Men often greet their colleagues with a handshake.", "Men usually greet colleagues by shaking hands.", "Guys often greet their coworkers with a handshake."],
+    "keys": { "рукостискання": "handshake*|hand*" }
+   }
+  ]
+ },
+ {
+  "id": 2935, "w": "eat lunch at work", "uk": "обідати на роботі", "lvl": "A2",
+  "forms": "eat|eats|ate|eaten|eating",
+  "tail": "lunch at work/office/desk",
+  "near": "have lunch|had lunch|having lunch|lunch break",
+  "tasks": [
+   {
+    "sit": "Нова колега питає, куди всі ходять обідати.",
+    "say": "Я зазвичай обідаю на роботі — беру їжу з дому.",
+    "ans": ["I usually eat lunch at work — I bring food from home.", "I usually eat lunch at the office and bring food from home.", "I mostly eat lunch at my desk, I bring it from home."],
+    "keys": { "з дому": "home" }
+   },
+   {
+    "sit": "Лікар питає тебе про режим харчування.",
+    "say": "Я рідко обідаю на роботі, бо немає часу.",
+    "ans": ["I rarely eat lunch at work because there’s no time.", "I hardly ever eat lunch at work — I don’t have time.", "I barely eat lunch at work, I’m always too busy."],
+    "keys": { "рідко": "rarely|hardly|barely|seldom|never", "часу": "time|busy" }
+   },
+   {
+    "sit": "Ти показуєш офіс новому колезі.",
+    "say": "Якщо обідаєш на роботі, на кухні є мікрохвильовка.",
+    "ans": ["If you eat lunch at work, there’s a microwave in the kitchen.", "If you’re eating lunch at the office, we have a microwave in the kitchen.", "If you eat lunch at work, you can use the microwave in the kitchen."],
+    "keys": { "мікрохвильовка": "microwave*", "кухня": "kitchen" }
+   }
+  ]
+ },
+ {
+  "id": 2936, "w": "clock hours", "uk": "відпрацьовувати години", "lvl": "B2",
+  "forms": "clock|clocks|clocked|clocked|clocking",
+  "tail": "hours/hour",
+  "near": "work*|log*|put in|rack* up",
+  "tasks": [
+   {
+    "sit": "Ти фрілансер, і клієнт питає, скільки часу пішло на його проєкт.",
+    "say": "Цього тижня я відпрацював сорок годин.",
+    "ans": ["I clocked forty hours this week.", "This week I’ve clocked 40 hours.", "I clocked about forty hours this week."],
+    "keys": { "сорок": "forty|40", "тиждень": "week" }
+   },
+   {
+    "sit": "Ти медик і скаржишся другові на втому.",
+    "say": "Минулого місяця я відпрацював понад двісті годин.",
+    "ans": ["Last month I clocked over two hundred hours.", "I clocked more than 200 hours last month.", "I clocked over two hundred hours last month — it was crazy."],
+    "keys": { "двісті": "two hundred|200", "місяць": "month" }
+   },
+   {
+    "sit": "Ти вчишся на пілота, і друзі питають, коли отримаєш ліцензію.",
+    "say": "Мені ще треба налітати п’ятдесят годин.",
+    "ans": ["I still need to clock fifty more hours.", "I still have to clock another 50 hours.", "I’ve still got to clock fifty hours of flying."],
+    "keys": { "п’ятдесят": "fifty|50", "ще": "still|more|another" }
+   }
+  ]
+ },
+ {
+  "id": 2937, "w": "start a project", "uk": "почати проєкт", "lvl": "A2",
+  "forms": "start|starts|started|started|starting",
+  "tail": "project*",
+  "near": "begin*|began|begun|launch*|kick* off|set up",
+  "tasks": [
+   {
+    "sit": "Керівник питає, коли команда буде готова до роботи.",
+    "say": "Ми почнемо проєкт у понеділок.",
+    "ans": ["We’ll start the project on Monday.", "We’re starting the project on Monday.", "We can start the project first thing Monday."],
+    "keys": { "понеділок": "monday" }
+   },
+   {
+    "sit": "Ти давно захоплюєшся історією й розповідаєш про свої плани друзям.",
+    "say": "Я хочу почати власний проєкт — подкаст про історію.",
+    "ans": ["I want to start my own project — a podcast about history.", "I’d like to start my own project, a history podcast.", "I want to start a project of my own — a history podcast."],
+    "keys": { "подкаст": "podcast*", "історія": "histor*" }
+   },
+   {
+    "sit": "Одногрупник пропонує взятися за курсовий проєкт аж наступного тижня.",
+    "say": "Нам треба почати проєкт уже зараз, а не потім.",
+    "ans": ["We need to start the project now, not later.", "We have to start the project right now, not later.", "We should start the project now, not next week."],
+    "keys": { "зараз": "now|today" }
+   }
+  ]
+ },
+ {
+  "id": 2938, "w": "finish a project", "uk": "закінчити проєкт", "lvl": "A2",
+  "forms": "finish|finishes|finished|finished|finishing",
+  "tail": "project*",
+  "near": "complete*|wrap* up|done|end*",
+  "tasks": [
+   {
+    "sit": "Керівник нагадує про дедлайн.",
+    "say": "Ми закінчимо проєкт до п’ятниці.",
+    "ans": ["We’ll finish the project by Friday.", "We’re going to finish the project by Friday.", "Don’t worry, we’ll finish the project by Friday."],
+    "keys": { "п’ятниця": "friday" }
+   },
+   {
+    "sit": "Твоя команда пів року працювала над новим застосунком, і сьогодні його запустили.",
+    "say": "Ми нарешті закінчили проєкт — треба відсвяткувати!",
+    "ans": ["We finally finished the project — let’s celebrate!", "We’ve finally finished the project, we should celebrate!", "We finally finished the project, so it’s time to celebrate!"],
+    "keys": { "нарешті": "finally|at last", "відсвяткувати": "celebrat*|party|drink*" }
+   },
+   {
+    "sit": "Ти власноруч ремонтуєш стару дачу й розповідаєш про це друзям.",
+    "say": "Я хочу закінчити цей проєкт до зими.",
+    "ans": ["I want to finish this project before winter.", "I’d like to finish the project by winter.", "I really want to finish this project before the winter."],
+    "keys": { "зима": "winter" }
+   }
+  ]
+ },
+ {
+  "id": 2939, "w": "work on a project", "uk": "працювати над проєктом", "lvl": "A2",
+  "forms": "work|works|worked|worked|working",
+  "tail": "on project*",
+  "near": "busy with|develop*|do* project",
+  "tasks": [
+   {
+    "sit": "Друг кличе тебе на футбол у вівторок увечері.",
+    "say": "Не можу, я працюю над важливим проєктом.",
+    "ans": ["I can’t, I’m working on an important project.", "Sorry, I’m working on a big project right now.", "Can’t make it — I’m working on a really important project."],
+    "keys": { "важливим": "important|big|major|key" }
+   },
+   {
+    "sit": "Викладач питає, з ким ти в команді для курсової.",
+    "say": "Я працюю над проєктом разом з Андрієм.",
+    "ans": ["I’m working on the project with Andrii.", "I’m working on the project together with Andrii.", "Andrii and I are working on the project together."],
+    "keys": { "разом з": "with|together" }
+   },
+   {
+    "sit": "Сусідка бачить у твоєму гаражі розібраний старий мотоцикл.",
+    "say": "Вечорами я працюю над своїм проєктом — відновлюю цей мотоцикл.",
+    "ans": ["I work on my project in the evenings — I’m restoring this bike.", "In the evenings I work on my project, fixing up this motorcycle.", "I’ve been working on this project in the evenings — restoring the old bike."],
+    "keys": { "вечорами": "evening*|night*", "мотоцикл": "bike|motorbike|motorcycle" }
+   }
+  ]
+ },
+ {
+  "id": 2940, "w": "open a bottle", "uk": "відкоркувати пляшку", "lvl": "A2",
+  "forms": "open|opens|opened|opened|opening",
+  "tail": "bottle*",
+  "near": "uncork*|pop*|unscrew*",
+  "tasks": [
+   {
+    "sit": "Твій друг щойно розповів, що отримав підвищення.",
+    "say": "Треба відкоркувати пляшку шампанського!",
+    "ans": ["Let’s open a bottle of champagne!", "We should open a bottle of champagne!", "This calls for opening a bottle of champagne!"],
+    "keys": { "шампанське": "champagne|bubbly|prosecco" }
+   },
+   {
+    "sit": "Ви на пікніку з вином, але ніхто не взяв штопор.",
+    "say": "Я не можу відкрити пляшку без штопора.",
+    "ans": ["I can’t open the bottle without a corkscrew.", "There’s no way to open the bottle without a corkscrew.", "I can’t open this bottle — we don’t have a corkscrew."],
+    "keys": { "штопор": "corkscrew|opener" }
+   },
+   {
+    "sit": "Маленький син ніяк не може відкрутити кришку на пляшці води.",
+    "say": "Давай я відкрию тобі пляшку.",
+    "ans": ["Let me open the bottle for you.", "Here, I’ll open the bottle for you.", "Give it here, I’ll open the bottle for you."],
+    "keys": { "тобі": "you" }
+   }
+  ]
+ },
+ {
+  "id": 2941, "w": "close a bottle", "uk": "закривати пляшку", "lvl": "A2",
+  "forms": "close|closes|closed|closed|closing",
+  "tail": "bottle*",
+  "near": "shut|screw*|put the cap on|put the lid on|seal*",
+  "tasks": [
+   {
+    "sit": "Ти збираєш дитині рюкзак у школу й кладеш туди пляшку соку.",
+    "say": "Щільно закривай пляшку, а то все проллється.",
+    "ans": ["Close the bottle tightly, or it’ll spill.", "Close the bottle tight, otherwise everything will spill.", "Make sure you close the bottle tight or it’ll leak."],
+    "keys": { "щільно": "tight*|properly|well", "проллється": "spill*|leak*" }
+   },
+   {
+    "sit": "Сусід по квартирі знову залишив газовану воду відкритою на всю ніч.",
+    "say": "Ти знову не закрив пляшку — газ вийшов.",
+    "ans": ["You didn’t close the bottle again — it’s gone flat.", "You forgot to close the bottle again, and now it’s flat.", "Again you didn’t close the bottle, and now it’s totally flat."],
+    "keys": { "знову": "again", "газ вийшов": "flat|fizz*|bubbles|gas" }
+   },
+   {
+    "sit": "Ти прибираєш у гаражі, де стоять пляшки з розчинником, і там сильно пахне.",
+    "say": "Треба закрити всі пляшки, щоб не було запаху.",
+    "ans": ["We need to close all the bottles so they don’t smell.", "I have to close all the bottles so there’s no smell.", "Let’s close all the bottles to get rid of the smell."],
+    "keys": { "запах": "smell*|stink*|fume*" }
+   }
+  ]
+ },
+ {
+  "id": 2942, "w": "empty a bottle", "uk": "допити пляшку", "lvl": "B1",
+  "forms": "empty|empties|emptied|emptied|emptying",
+  "tail": "bottle*",
+  "near": "finish*|drink all|drank all|drain*|pour out|poured out",
+  "tasks": [
+   {
+    "sit": "Уранці після посиденьок з другом ти бачиш на столі порожню пляшку.",
+    "say": "Ми вчора вдвох допили пляшку вина.",
+    "ans": ["We emptied a bottle of wine last night, just the two of us.", "The two of us emptied a bottle of wine last night.", "Last night we emptied a whole bottle of wine between us."],
+    "keys": { "вина": "wine", "вчора": "last night|yesterday" }
+   },
+   {
+    "sit": "Ви з другом бігаєте в спеку, і ти вже просиш зупинитися біля магазину.",
+    "say": "Я за пів години спустошив усю пляшку води.",
+    "ans": ["I emptied my whole water bottle in half an hour.", "I emptied the whole bottle of water in thirty minutes.", "I emptied the entire bottle in half an hour."],
+    "keys": { "пів години": "half an hour|thirty|30|minute*" }
+   },
+   {
+    "sit": "У черзі на контроль в аеропорту ти згадуєш, що в сумці пляшка води.",
+    "say": "Мені довелося допити пляшку перед контролем.",
+    "ans": ["I had to empty the bottle before security.", "I had to empty my bottle before going through security.", "I had to empty the bottle right before the security check."],
+    "keys": { "контроль": "security|check*|control" }
+   }
+  ]
+ }
+]

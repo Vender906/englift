@@ -1,0 +1,51 @@
+[
+  {
+    "id": 3419,
+    "w": "zoom out",
+    "uk": "віддаляти (зображення)",
+    "lvl": "A2",
+    "forms": "zoom|zooms|zoomed|zoomed|zooming",
+    "tail": "out",
+    "near": "make it smaller|shrink*|reduce*|pinch*",
+    "tasks": [
+      {
+        "sit": "Ти дивишся на карту в телефоні й бачиш лише одну вулицю, а треба зрозуміти, де вокзал.",
+        "say": "Треба віддалити, щоб побачити все місто.",
+        "ans": [
+          "I need to zoom out to see the whole city.",
+          "Let me zoom out so I can see the whole city.",
+          "Zoom out a bit — I want to see the whole town."
+        ],
+        "keys": {
+          "місто": "city|town|area|map",
+          "усе": "whole|all|everything|entire"
+        }
+      },
+      {
+        "sit": "Ви з другом розглядаєте на ноутбуці групове фото, але на екрані видно лише одне обличчя.",
+        "say": "Віддали трохи, я хочу побачити всіх.",
+        "ans": [
+          "Zoom out a bit, I want to see everyone.",
+          "Can you zoom out? I want to see everybody.",
+          "Zoom out a little — I want to see all of us."
+        ],
+        "keys": {
+          "всіх": "everyone|everybody|all|whole|people|group"
+        }
+      },
+      {
+        "sit": "Ти малюєш у графічному редакторі й довго працюєш над дрібною деталлю.",
+        "say": "Треба віддалити й подивитися на весь малюнок.",
+        "ans": [
+          "I need to zoom out and look at the whole picture.",
+          "Let me zoom out and see the whole drawing.",
+          "I should zoom out and check the whole picture."
+        ],
+        "keys": {
+          "малюнок": "picture*|drawing*|image*|design*|artwork*|painting*",
+          "весь": "whole|all|entire|everything"
+        }
+      }
+    ]
+  }
+]

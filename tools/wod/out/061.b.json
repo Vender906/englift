@@ -1,0 +1,652 @@
+[
+ {
+  "id": 3319, "w": "stick with", "uk": "не кидати / залишатися при своєму", "lvl": "B1",
+  "forms": "stick|sticks|stuck|stuck|sticking",
+  "tail": "with",
+  "near": "keep going|kept going|continue*|stay with|stayed with|stand by|stood by|carry on|carried on|persist*",
+  "tasks": [
+   {
+    "sit": "Ти вже місяць ходиш на курси іспанської. Стає важко, але кидати ти не хочеш.",
+    "say": "Я не кину іспанську, навіть якщо буде важко.",
+    "ans": ["I’m going to stick with Spanish, even if it’s hard.", "I’ll stick with my Spanish classes even though it’s tough.", "It’s hard, but I’m sticking with Spanish."],
+    "keys": { "іспанська": "spanish|class*|lesson*|course*", "важко": "hard|tough|difficult" }
+   },
+   {
+    "sit": "Ти в улюбленому кафе, і офіціант радить спробувати новий сезонний напій.",
+    "say": "Дякую, я залишуся при своїй звичній каві.",
+    "ans": ["Thanks, I’ll stick with my usual coffee.", "No thanks, I think I’ll stick with coffee.", "Thanks, but I’m sticking with my usual."],
+    "keys": { "кава": "coffee|usual" }
+   },
+   {
+    "sit": "Посеред проєкту колега пропонує перейти на іншу програму для задач.",
+    "say": "Давайте залишимося при тій програмі, що є, до кінця проєкту.",
+    "ans": ["Let’s stick with the app we have until the end of the project.", "We should stick with the current tool until the project is finished.", "Let’s just stick with what we’ve got till the project’s done."],
+    "keys": { "програма": "app*|tool*|program*|software|what|current|one", "до кінця проєкту": "project*|end|finish*|done" }
+   }
+  ]
+ },
+ {
+  "id": 3320, "w": "stir up", "uk": "здіймати / підбурювати", "lvl": "C1",
+  "forms": "stir|stirs|stirred|stirred|stirring",
+  "tail": "up",
+  "near": "cause*|provok*|incit*|kick up|kicked up|spread*|whip up|whipped up|raise*|raising",
+  "tasks": [
+   {
+    "sit": "Під новиною хтось навмисно пише провокаційні коментарі, і ти пояснюєш це другові.",
+    "say": "Він просто хоче роздмухати скандал у коментарях.",
+    "ans": ["He just wants to stir up drama in the comments.", "He’s only trying to stir up a fight in the comments.", "He’s just stirring up trouble in the comments — ignore him."],
+    "keys": { "скандал": "drama|fight*|trouble|scandal|controvers*|argument*|conflict|row", "коментарі": "comment*|thread|online|post*" }
+   },
+   {
+    "sit": "Новий колега всім розповідає, що скоро в компанії будуть масові звільнення.",
+    "say": "Не треба сіяти паніку — нікого не звільнятимуть.",
+    "ans": ["There’s no need to stir up panic — nobody’s getting fired.", "Don’t stir up panic, there won’t be any layoffs.", "Stop stirring up panic, no one’s being laid off."],
+    "keys": { "паніка": "panic|fear*|worry|alarm", "звільнення": "fire*|layoff*|laid off|lay off|job*|redundanc*" }
+   },
+   {
+    "sit": "Ти йдеш містом, дме сильний вітер, а поруч величезне будівництво.",
+    "say": "Вітер здіймає стільки пилу, що нічого не видно.",
+    "ans": ["The wind is stirring up so much dust that I can’t see anything.", "The wind stirred up so much dust I couldn’t see a thing.", "It’s so windy — it’s stirring up all the dust and I can’t see a thing."],
+    "keys": { "пил": "dust*|sand|dirt", "не видно": "see|visib*" }
+   }
+  ]
+ },
+ {
+  "id": 3321, "w": "straighten out", "uk": "залагоджувати / владнати", "lvl": "B2",
+  "forms": "straighten|straightens|straightened|straightened|straightening",
+  "tail": "out",
+  "near": "sort out|sorted out|sorting out|fix*|resolv*|clear up|cleared up|clearing up|work out|worked out|settle*",
+  "tasks": [
+   {
+    "sit": "Банк двічі списав з твоєї картки гроші за одну покупку, і ти телефонуєш на гарячу лінію.",
+    "say": "З мене двічі зняли гроші за одну покупку — допоможіть, будь ласка, це владнати.",
+    "ans": ["I was charged twice for one purchase — could you help me straighten this out?", "Can you help me straighten out a double charge on my card?", "You charged me twice, so I need to get this straightened out."],
+    "keys": { "двічі": "twice|double|two times", "списали": "charg*|paid|pay*|money|purchase" }
+   },
+   {
+    "sit": "Подруга неправильно зрозуміла твоє повідомлення й образилася.",
+    "say": "Мені треба поговорити з нею й усе владнати.",
+    "ans": ["I need to talk to her and straighten things out.", "I have to speak with her and straighten out this misunderstanding.", "I’ve got to call her and get things straightened out."],
+    "keys": { "поговорити": "talk*|speak*|meet*|see|call*|chat*", "з нею": "her|she" }
+   },
+   {
+    "sit": "Ти новий керівник відділу, а в документах повний хаос.",
+    "say": "Спершу я наведу лад у документах.",
+    "ans": ["First, I’ll straighten out the paperwork.", "My first job is to straighten out all the documents.", "First things first, I’m going to straighten out this paperwork mess."],
+    "keys": { "документи": "paperwork|document*|files|papers|records", "спершу": "first*|start*" }
+   }
+  ]
+ },
+ {
+  "id": 3322, "w": "take aback", "uk": "приголомшувати, заскочувати", "lvl": "C1",
+  "forms": "take|takes|took|taken|taking",
+  "tail": "aback",
+  "near": "shock*|surpris*|stun*|startl*|caught off guard|amaz*|astonish*",
+  "tasks": [
+   {
+    "sit": "На нараді колега при всіх дуже різко розкритикував твою ідею.",
+    "say": "Мене трохи приголомшила його різкість.",
+    "ans": ["I was a bit taken aback by how harsh he was.", "His harsh tone took me aback a little.", "Honestly, his rudeness took me aback a bit."],
+    "keys": { "різкість": "harsh*|rude*|sharp*|tone|blunt*|aggressive*", "трохи": "a bit|a little|slightly|somewhat|kind of" }
+   },
+   {
+    "sit": "Ви з другом повечеряли в ресторані, і рахунок виявився втричі більшим, ніж ви очікували.",
+    "say": "Чесно кажучи, ціни мене приголомшили.",
+    "ans": ["To be honest, I was taken aback by the prices.", "The prices really took me aback.", "Honestly, those prices took me aback."],
+    "keys": { "ціни": "price*|bill|cost*|expensive" }
+   },
+   {
+    "sit": "Брат, який завжди казав, що ніколи не одружиться, раптом повідомив про весілля.",
+    "say": "Його новина мене приголомшила — я не знав, що сказати.",
+    "ans": ["I was taken aback by his news — I didn’t know what to say.", "His news took me aback, and I didn’t know what to say.", "Wow, his news really took me aback — I didn’t know what to say."],
+    "keys": { "новина": "news|announc*|wedding|engage*", "не знав, що сказати": "what to say|speechless|words" }
+   }
+  ]
+ },
+ {
+  "id": 3323, "w": "take after", "uk": "бути схожим на (рідню), вдатися в", "lvl": "B1",
+  "forms": "take|takes|took|taken|taking",
+  "tail": "after",
+  "near": "look* like|looked like|resembl*|similar to|just like|same as|like father",
+  "tasks": [
+   {
+    "sit": "Знайомі дивляться на фото твого сина й питають, на кого він схожий характером.",
+    "say": "Він весь у тата — такий самий упертий.",
+    "ans": ["He takes after his dad — he’s just as stubborn.", "He really takes after his father; he’s so stubborn.", "He totally takes after his dad — stubborn as a mule!"],
+    "keys": { "тато": "dad*|father", "упертий": "stubborn*|headstrong|obstinate" }
+   },
+   {
+    "sit": "Тебе питають, звідки в тебе хист до музики, адже батьки ні на чому не грають.",
+    "say": "Мабуть, я вдався в бабусю — вона була піаністкою.",
+    "ans": ["I guess I take after my grandmother — she was a pianist.", "I must take after my grandma; she played the piano.", "I think I take after my gran — she was a pianist."],
+    "keys": { "бабуся": "grand*|gran|granny|nan*", "піаністка": "pian*|music*|play*" }
+   },
+   {
+    "sit": "Колега показує відео, як його дочка-підліток сама лагодить велосипед.",
+    "say": "Вона явно вдалася в тебе — ти ж теж усе лагодиш сам.",
+    "ans": ["She obviously takes after you — you fix everything yourself too.", "She clearly takes after you, since you’re always fixing things.", "She definitely takes after you — you fix everything too!"],
+    "keys": { "лагодиш": "fix*|repair*|handy|mend*", "явно": "obvious*|clear*|definitely|really|totally|sure*" }
+   }
+  ]
+ },
+ {
+  "id": 3324, "w": "take to", "uk": "одразу полюбити / вподобати", "lvl": "C1",
+  "forms": "take|takes|took|taken|taking",
+  "tail": "to",
+  "near": "like*|liked|love*|loved|get on with|got on with|click*|warm* to|warmed to|fell for|fall for|get used|got used",
+  "tasks": [
+   {
+    "sit": "Ви взяли з притулку собаку, і ти хвилювався, як її прийме ваш кіт.",
+    "say": "На диво, кіт одразу її полюбив.",
+    "ans": ["Surprisingly, the cat took to her right away.", "To my surprise, our cat took to the dog immediately.", "Funny thing — the cat took to her straight away!"],
+    "keys": { "кіт": "cat*|kitty", "одразу": "right away|immediately|straight away|at once|instantly|quickly" }
+   },
+   {
+    "sit": "Ти вперше став на лижі, і інструктор здивувався, як добре в тебе виходить.",
+    "say": "Я одразу втягнувся в лижі — наче все життя катався.",
+    "ans": ["I took to skiing straight away — like I’d been doing it all my life.", "I took to skiing immediately, as if I’d always done it.", "I just took to skiing right away, like I was born for it."],
+    "keys": { "лижі": "ski*", "одразу": "right away|immediately|straight away|at once|instantly|quickly" }
+   },
+   {
+    "sit": "Команда хвилювалася через нового керівника, але після першої ж наради все змінилося.",
+    "say": "Усі одразу до нього прихилилися — з ним дуже легко спілкуватися.",
+    "ans": ["Everyone took to him at once — he’s very easy to talk to.", "The whole team took to him right away; he’s so easy to talk to.", "We all took to him straight away — he’s really easy to talk to."],
+    "keys": { "усі": "everyone|everybody|all|team|whole", "одразу": "right away|immediately|straight away|at once|instantly|quickly" }
+   }
+  ]
+ },
+ {
+  "id": 3325, "w": "tear apart", "uk": "розривати / роздирати", "lvl": "C1",
+  "forms": "tear|tears|tore|torn|tearing",
+  "tail": "apart",
+  "near": "destroy*|split*|rip*|ruin*|divid*|broke up|break up|pull* apart|pulled apart|shred*",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш другові, як через спадщину посварилися твої тітки.",
+    "say": "Ця суперечка через квартиру розірвала нашу родину.",
+    "ans": ["The fight over the flat tore our family apart.", "Our family was torn apart by the argument over the apartment.", "That fight about the flat really tore the family apart."],
+    "keys": { "родина": "family|relatives", "квартира": "flat|apartment|house|property|inheritance" }
+   },
+   {
+    "sit": "Ви з колегою обговорюєте новини про громадянську війну в далекій країні.",
+    "say": "Війна роздерла цю країну на частини.",
+    "ans": ["The war has torn the country apart.", "The country was torn apart by the war.", "That war just tore the whole country apart."],
+    "keys": { "війна": "war|conflict|fighting", "країна": "country|nation|land" }
+   },
+   {
+    "sit": "Ти повертаєшся з роботи, а по всій вітальні розкидане пір’я.",
+    "say": "Цуценя роздерло мою подушку на шматки.",
+    "ans": ["The puppy tore my pillow apart.", "My pillow got torn apart by the puppy.", "The puppy totally tore my pillow apart!"],
+    "keys": { "цуценя": "pupp*|dog*", "подушка": "pillow*|cushion*" }
+   }
+  ]
+ },
+ {
+  "id": 3326, "w": "think back", "uk": "згадувати / повертатися думками", "lvl": "B2",
+  "forms": "think|thinks|thought|thought|thinking",
+  "tail": "back",
+  "near": "remember*|recall*|look* back|looked back|reminisc*|recollect*",
+  "tasks": [
+   {
+    "sit": "Ви з сестрою гортаєте старий сімейний альбом.",
+    "say": "Коли я згадую наше дитинство, завжди усміхаюся.",
+    "ans": ["When I think back to our childhood, I always smile.", "Thinking back to when we were kids always makes me smile.", "Whenever I think back on our childhood, I can’t help smiling."],
+    "keys": { "дитинство": "child*|kids|young|little", "усміхаюся": "smil*|happy" }
+   },
+   {
+    "sit": "На співбесіді тебе питають, яка робота найбільше тебе навчила.",
+    "say": "Згадуючи свою першу роботу, я розумію, як багато тоді навчився.",
+    "ans": ["Thinking back to my first job, I realize how much I learned.", "When I think back on my first job, I see how much I learned there.", "Thinking back, my first job taught me so much."],
+    "keys": { "перша робота": "first|job|work", "навчився": "learn*|taught|teach" }
+   },
+   {
+    "sit": "Лікар питає, коли саме в тебе вперше заболів живіт.",
+    "say": "Якщо згадати, то вперше заболіло, мабуть, тиждень тому.",
+    "ans": ["Thinking back, it first started hurting about a week ago.", "When I think back, the pain probably started a week ago.", "If I think back, it must’ve started about a week ago."],
+    "keys": { "тиждень тому": "week*|seven days", "заболіло": "hurt*|pain*|ache*|start*|began|begin" }
+   }
+  ]
+ },
+ {
+  "id": 3327, "w": "think over", "uk": "обмірковувати", "lvl": "B1",
+  "forms": "think|thinks|thought|thought|thinking",
+  "tail": "over",
+  "near": "consider*|think about|thought about|thinking about|sleep on|slept on|mull*|reflect*|think it through",
+  "tasks": [
+   {
+    "sit": "Тобі запропонували роботу в іншому місті, і рекрутер чекає на відповідь.",
+    "say": "Можна я обміркую цю пропозицію до понеділка?",
+    "ans": ["Can I think over the offer until Monday?", "Could I think the offer over till Monday?", "Let me think it over and get back to you by Monday."],
+    "keys": { "пропозиція": "offer|it|job", "понеділок": "monday" }
+   },
+   {
+    "sit": "Продавець в автосалоні наполягає, щоб ти купив машину вже сьогодні.",
+    "say": "Мені треба все обміркувати, я повернуся завтра.",
+    "ans": ["I need to think it over — I’ll come back tomorrow.", "I need to think everything over, so I’ll be back tomorrow.", "Let me think it over and I’ll come back tomorrow."],
+    "keys": { "завтра": "tomorrow", "повернуся": "back|return*|come" }
+   },
+   {
+    "sit": "Друг о другій ночі хоче написати колишній довге повідомлення.",
+    "say": "Не поспішай — обміркуй це до ранку.",
+    "ans": ["Don’t rush — think it over until the morning.", "Take your time and think it over till morning.", "Don’t do it now — think it over till the morning."],
+    "keys": { "до ранку": "morning|tomorrow", "не поспішай": "rush|hurry|time|wait|now|hold" }
+   }
+  ]
+ },
+ {
+  "id": 3328, "w": "think through", "uk": "продумувати до кінця", "lvl": "B2",
+  "forms": "think|thinks|thought|thought|thinking",
+  "tail": "through",
+  "near": "plan*|consider*|think over|thought over|work out|worked out|figure out|figured out|weigh*",
+  "tasks": [
+   {
+    "sit": "Колега пропонує вже завтра запустити нову систему для клієнтів.",
+    "say": "Давай спершу ретельно все продумаємо.",
+    "ans": ["Let’s think it through carefully first.", "We should think this through properly before we launch it.", "Hang on, let’s think it all through first."],
+    "keys": { "спершу": "first|before", "ретельно": "careful*|properly|all|every*|fully|detail*" }
+   },
+   {
+    "sit": "Друг хоче кинути університет на останньому курсі.",
+    "say": "Ти продумав, які будуть наслідки?",
+    "ans": ["Have you thought through the consequences?", "Did you think through what happens after that?", "Have you actually thought through the consequences?"],
+    "keys": { "наслідки": "consequence*|happen*|result*|outcome*|after*" }
+   },
+   {
+    "sit": "Ти плануєш велопоїздку Карпатами й розповідаєш другові про підготовку.",
+    "say": "Я продумав маршрут до кожної зупинки.",
+    "ans": ["I’ve thought through the route down to every stop.", "I thought through the whole route, stop by stop.", "I’ve thought the route through right down to every stop."],
+    "keys": { "маршрут": "route*|trip|path|itinerar*", "зупинка": "stop*" }
+   }
+  ]
+ },
+ {
+  "id": 3329, "w": "think up", "uk": "вигадувати", "lvl": "B1",
+  "forms": "think|thinks|thought|thought|thinking",
+  "tail": "up",
+  "near": "invent*|come up with|came up with|coming up with|make up|made up|making up|dream* up|dreamt up|creat*",
+  "tasks": [
+   {
+    "sit": "Ви з другом відкриваєте кав’ярню, а назви досі немає.",
+    "say": "Треба вигадати гарну назву до п’ятниці.",
+    "ans": ["We need to think up a good name by Friday.", "We have to think up a nice name before Friday.", "We’ve got to think up a catchy name by Friday."],
+    "keys": { "назва": "name*", "п’ятниця": "friday" }
+   },
+   {
+    "sit": "Ти не зробив домашнє завдання, а урок починається за п’ять хвилин.",
+    "say": "Мені терміново треба вигадати якусь відмовку.",
+    "ans": ["I need to think up an excuse fast.", "I have to think up some excuse right now.", "Quick, I need to think up an excuse!"],
+    "keys": { "відмовка": "excuse*|reason*|story|lie", "терміново": "fast|quick*|now|urgent*|asap|hurry" }
+   },
+   {
+    "sit": "Ви з дітьми на дачі без інтернету, і вони нудьгували, поки не з’явилася ідея.",
+    "say": "Ми вигадали нову гру з м’ячем і камінцями.",
+    "ans": ["We thought up a new game with a ball and some stones.", "We’ve thought up a new game using a ball and pebbles.", "So we thought up our own game with a ball and some rocks."],
+    "keys": { "гра": "game*", "м’яч": "ball*|stone*|pebble*|rock*" }
+   }
+  ]
+ },
+ {
+  "id": 3330, "w": "toughen up", "uk": "гартуватися / загартовувати", "lvl": "C1",
+  "forms": "toughen|toughens|toughened|toughened|toughening",
+  "tail": "up",
+  "near": "harden*|get tougher|got tougher|grow* stronger|grew stronger|man up|strengthen*|get stronger|got stronger",
+  "tasks": [
+   {
+    "sit": "Ти тренер юнацької футбольної команди; після поразки гравці сидять у роздягальні засмучені.",
+    "say": "Хлопці, треба загартуватися — наступного разу будемо сильнішими.",
+    "ans": ["Guys, we need to toughen up — next time we’ll be stronger.", "Boys, you have to toughen up if you want to win next time.", "Come on, guys, toughen up — we’ll get them next time."],
+    "keys": { "хлопці": "guys|boys|team|lads|everyone", "наступного разу": "next time|next game|next match" }
+   },
+   {
+    "sit": "Новенький у службі підтримки питає, як ти не зважаєш на грубощі клієнтів.",
+    "say": "Злі клієнти мене загартували — тепер я нічого не беру близько до серця.",
+    "ans": ["Angry customers toughened me up — now I don’t take anything personally.", "Dealing with angry clients has toughened me up; I don’t take things personally anymore.", "Those angry customers really toughened me up — nothing gets to me now."],
+    "keys": { "клієнти": "customer*|client*|caller*|people", "злі": "angry|rude|mad|furious|difficult" }
+   },
+   {
+    "sit": "Ти розповідаєш, як сам пережив перший рік навчання за кордоном.",
+    "say": "Той рік мене добре загартував.",
+    "ans": ["That year really toughened me up.", "I toughened up a lot that year.", "Honestly, that year toughened me up big time."],
+    "keys": { "той рік": "year" }
+   }
+  ]
+ },
+ {
+  "id": 3331, "w": "trip up", "uk": "збивати з пантелику / спотикатися", "lvl": "C1",
+  "forms": "trip|trips|tripped|tripped|tripping",
+  "tail": "up",
+  "near": "confus*|trick*|stump*|threw me|throw me|catch me out|caught me out|stumbl*|fell over|fall over",
+  "tasks": [
+   {
+    "sit": "Після усного іспиту одногрупник питає, як усе пройшло.",
+    "say": "Усе було добре, але останнє питання збило мене з пантелику.",
+    "ans": ["It went well, but the last question tripped me up.", "I was doing fine until the last question tripped me up.", "Pretty good, but that last question really tripped me up."],
+    "keys": { "останнє": "last|final", "питання": "question*" }
+   },
+   {
+    "sit": "Ти вчиш німецьку, і викладач питає, що тобі дається найважче.",
+    "say": "Мене постійно плутають артиклі.",
+    "ans": ["The articles always trip me up.", "I keep getting tripped up by the articles.", "Articles trip me up every single time."],
+    "keys": { "артиклі": "article*|der|die|das", "постійно": "always|keep|every*|constantly|all the time" }
+   },
+   {
+    "sit": "Ти впав на сходах біля офісу, і колега питає, що сталося.",
+    "say": "Я перечепився через власний шнурок.",
+    "ans": ["My untied shoelace tripped me up.", "I got tripped up by my own shoelace.", "My shoelace came undone and tripped me up on the stairs."],
+    "keys": { "шнурок": "shoelace*|lace*|shoe*" }
+   }
+  ]
+ },
+ {
+  "id": 3332, "w": "turn against", "uk": "обертатися проти / налаштовувати проти", "lvl": "B2",
+  "forms": "turn|turns|turned|turned|turning",
+  "tail": "against",
+  "near": "betray*|stab* in the back|stabbed in the back|side* with|sided with|abandon*|gang* up on|ganged up on|use* against|used against",
+  "tasks": [
+   {
+    "sit": "У доньки в класі конфлікт, і вона плаче вдома. Ти розповідаєш про це чоловікові чи дружині.",
+    "say": "Одна дівчинка налаштувала весь клас проти неї.",
+    "ans": ["One girl turned the whole class against her.", "The whole class turned against her because of one girl.", "This one girl turned everyone in class against her."],
+    "keys": { "клас": "class*|classmate*|everyone|everybody|kids", "дівчинка": "girl" }
+   },
+   {
+    "sit": "Ви з колегою обговорюєте, чому мер програв вибори.",
+    "say": "Після скандалу навіть його прихильники обернулися проти нього.",
+    "ans": ["After the scandal, even his supporters turned against him.", "Even his own supporters turned against him after the scandal.", "Once the scandal broke, even his fans turned against him."],
+    "keys": { "скандал": "scandal", "прихильники": "support*|fan*|voter*|follower*" }
+   },
+   {
+    "sit": "Молодший брат викладає в соцмережі геть усе про своє життя.",
+    "say": "Будь обережний: усе, що ти публікуєш, можуть обернути проти тебе.",
+    "ans": ["Be careful: anything you post can be turned against you.", "Careful — people can turn what you post against you.", "Watch out, everything you post online could be turned against you one day."],
+    "keys": { "публікуєш": "post*|share*|online|upload*", "обережний": "careful|watch out|cautious" }
+   }
+  ]
+ },
+ {
+  "id": 3333, "w": "wear down", "uk": "виснажувати, брати змором", "lvl": "C1",
+  "forms": "wear|wears|wore|worn|wearing",
+  "tail": "down",
+  "near": "exhaust*|tire* out|tired out|drain*|wear out|wore out|worn out|grind* down|ground down",
+  "tasks": [
+   {
+    "sit": "Ти пів року працюєш без відпустки й скаржишся партнерові.",
+    "say": "Постійні дедлайни мене виснажують.",
+    "ans": ["The constant deadlines are wearing me down.", "All these deadlines have worn me down.", "These nonstop deadlines are really wearing me down."],
+    "keys": { "дедлайни": "deadline*|pressure|work*", "постійні": "constant*|nonstop|non-stop|all|endless*|always" }
+   },
+   {
+    "sit": "Сусіди третій місяць роблять ремонт і свердлять щодня.",
+    "say": "Цей безкінечний шум мене вже виснажив.",
+    "ans": ["This endless noise has worn me down.", "The endless drilling is wearing me down.", "Honestly, all this noise is wearing me down."],
+    "keys": { "шум": "noise|drill*|sound*|racket" }
+   },
+   {
+    "sit": "Син тиждень щодня просив собаку, і врешті ти здався.",
+    "say": "Він просто взяв мене змором, і я погодився.",
+    "ans": ["He just wore me down, so I said yes.", "In the end he wore me down and I agreed.", "He wore me down — I finally gave in."],
+    "keys": { "погодився": "yes|agree*|gave in|give in|caved|okay|ok" }
+   }
+  ]
+ },
+ {
+  "id": 3334, "w": "wear off", "uk": "переставати діяти, минати", "lvl": "B2",
+  "forms": "wear|wears|wore|worn|wearing",
+  "tail": "off",
+  "near": "fade*|pass*|go away|went away|gone away|stop* working|stopped working|die down|died down",
+  "tasks": [
+   {
+    "sit": "Ти щойно від стоматолога, і друг кличе тебе на обід.",
+    "say": "Я не можу їсти, поки не відійде анестезія.",
+    "ans": ["I can’t eat until the anaesthetic wears off.", "I’ll eat once the anesthetic has worn off.", "Let me wait till the numbness wears off, then I’ll eat."],
+    "keys": { "анестезія": "anesthe*|anaesthe*|numb*|injection|painkiller*", "їсти": "eat*|food|lunch" }
+   },
+   {
+    "sit": "Ти випив каву о восьмій, а о другій уже засинаєш на нараді.",
+    "say": "Дія кави вже минула.",
+    "ans": ["The coffee has worn off.", "My coffee wore off hours ago.", "Ugh, the caffeine has totally worn off."],
+    "keys": { "кава": "coffee|caffeine|espresso" }
+   },
+   {
+    "sit": "Ти купив дорогий велотренажер, а тепер на ньому сохне білизна.",
+    "say": "Захват від покупки швидко минув.",
+    "ans": ["The excitement wore off quickly.", "The thrill of buying it wore off in a week.", "Yeah, the novelty wore off pretty fast."],
+    "keys": { "захват": "excite*|novelty|thrill|buzz|enthusias*", "швидко": "quick*|fast|soon|week*" }
+   }
+  ]
+ },
+ {
+  "id": 3335, "w": "wear out", "uk": "зношувати / виснажувати", "lvl": "B1",
+  "forms": "wear|wears|wore|worn|wearing",
+  "tail": "out",
+  "near": "exhaust*|tired|tire*|worn down|wear down|wore down|fall apart|fell apart|use up|used up|drain*",
+  "tasks": [
+   {
+    "sit": "Ти бігаєш щодня й у спортивному магазині пояснюєш консультантові, чому знову прийшов.",
+    "say": "Я зносив кросівки всього за пів року.",
+    "ans": ["I wore out my running shoes in just six months.", "My trainers wore out in only half a year.", "I’ve already worn out my sneakers — it only took six months."],
+    "keys": { "кросівки": "shoe*|trainer*|sneaker*|runner*", "пів року": "six months|half a year|6 months" }
+   },
+   {
+    "sit": "Ти повертаєшся додому після дванадцятигодинної зміни в лікарні.",
+    "say": "Я геть вимотаний і хочу лише спати.",
+    "ans": ["I’m completely worn out; I just want to sleep.", "I’m totally worn out and just want to go to bed.", "I’m so worn out — I just need some sleep."],
+    "keys": { "спати": "sleep*|bed|nap|rest" }
+   },
+   {
+    "sit": "Ти пів дня бавився з трирічними близнюками сестри.",
+    "say": "Ці двоє мене зовсім вимотали.",
+    "ans": ["Those two completely wore me out.", "I was totally worn out by those two.", "Wow, those two twins really wore me out!"],
+    "keys": { "ці двоє": "two|twins|kids" }
+   }
+  ]
+ },
+ {
+  "id": 3336, "w": "win back", "uk": "повертати (довіру, прихильність)", "lvl": "B2",
+  "forms": "win|wins|won|won|winning",
+  "tail": "back",
+  "near": "regain*|get back|got back|recover*|earn back|earned back|rebuild*|restor*|reclaim*",
+  "tasks": [
+   {
+    "sit": "Ти розійшовся з дівчиною й зрозумів, що зробив величезну помилку.",
+    "say": "Я хочу її повернути.",
+    "ans": ["I want to win her back.", "I’m going to try to win her back.", "I really need to win her back."],
+    "keys": { "її": "her" }
+   },
+   {
+    "sit": "Ваша компанія допустила витік даних клієнтів, і ти виступаєш на нараді.",
+    "say": "Нам знадобляться роки, щоб повернути довіру клієнтів.",
+    "ans": ["It will take us years to win back our customers’ trust.", "We’ll need years to win back the trust of our clients.", "Winning back customers’ trust is going to take years."],
+    "keys": { "довіра": "trust|confidence", "клієнти": "customer*|client*|user*", "роки": "year*" }
+   },
+   {
+    "sit": "Твій клуб торік втратив чемпіонський титул, а ти капітан команди.",
+    "say": "Цього сезону ми відвоюємо титул.",
+    "ans": ["This season we’ll win back the title.", "We’re going to win the title back this season.", "This is the season we win back the title."],
+    "keys": { "титул": "title|cup|championship|trophy", "цього сезону": "season|year" }
+   }
+  ]
+ },
+ {
+  "id": 3337, "w": "build in", "uk": "закладати (в план, бюджет)", "lvl": "C1",
+  "forms": "build|builds|built|built|building",
+  "tail": "in",
+  "near": "allow*|includ*|factor in|factored in|plan for|planned for|leave|left|set aside|add*",
+  "tasks": [
+   {
+    "sit": "Клієнт хоче отримати сайт за два тижні, а ти складаєш графік робіт.",
+    "say": "Я закладу ще тиждень на можливі затримки.",
+    "ans": ["I’ll build in an extra week for possible delays.", "Let’s build in one more week in case there are delays.", "I’m building in an extra week, just in case things get delayed."],
+    "keys": { "тиждень": "week*", "затримки": "delay*|late|problem*" }
+   },
+   {
+    "sit": "Ви з другом плануєте переліт із пересадкою в чужому аеропорту.",
+    "say": "Давай закладемо хоча б три години на пересадку.",
+    "ans": ["Let’s build in at least three hours for the connection.", "We should build in at least three hours between flights.", "Let’s build in three hours for the layover, at least."],
+    "keys": { "три години": "three|3*", "пересадка": "connect*|layover|transfer|between flights|stopover|change*" }
+   },
+   {
+    "sit": "Ти рахуєш кошторис на ремонт кухні.",
+    "say": "Я заклав десять відсотків на непередбачені витрати.",
+    "ans": ["I’ve built in ten percent for unexpected costs.", "I built in a ten percent cushion for unexpected expenses.", "I’ve built in an extra ten percent, just for surprises."],
+    "keys": { "десять відсотків": "ten|10*", "непередбачені витрати": "unexpected|surpris*|emergenc*|unforeseen|extra" }
+   }
+  ]
+ },
+ {
+  "id": 3338, "w": "carry off", "uk": "вдало впоратися / носити з шиком", "lvl": "C1",
+  "forms": "carry|carries|carried|carried|carrying",
+  "tail": "off",
+  "near": "pull off|pulled off|pulling off|pull it off|pulled it off|rock*|manag*|succeed*|nail*",
+  "tasks": [
+   {
+    "sit": "Подруга приміряє яскраво-жовтий костюм і сумнівається, чи його брати.",
+    "say": "Не кожен зможе таке носити, але тобі личить!",
+    "ans": ["Not everyone can carry that off, but it suits you!", "Not many people could carry off that suit, but you can!", "Honestly, not everyone can carry it off — but you totally do!"],
+    "keys": { "не кожен": "not everyone|not many|not everybody|few" }
+   },
+   {
+    "sit": "Колега вперше виступав англійською перед інвесторами, і ти його хвалиш.",
+    "say": "Ти блискуче впорався, хоч і дуже хвилювався.",
+    "ans": ["You carried it off brilliantly, even though you were nervous.", "Even though you were so nervous, you carried it off perfectly.", "You were nervous, but you carried it off like a pro!"],
+    "keys": { "хвилювався": "nervous|worried|anxious|stress*|scared", "блискуче": "brilliant*|perfect*|pro|great*|well|amazing*" }
+   },
+   {
+    "sit": "Ви з братом влаштували мамі вечірку-сюрприз, і вона ні про що не підозрювала.",
+    "say": "Ми провернули все ідеально — вона нічого не запідозрила.",
+    "ans": ["We carried it off perfectly — she suspected nothing.", "We carried off the surprise perfectly; she had no idea.", "We totally carried it off — she didn’t suspect a thing!"],
+    "keys": { "не запідозрила": "no idea|suspect*|not know|clue|notic*" }
+   }
+  ]
+ },
+ {
+  "id": 3339, "w": "cast aside", "uk": "відкидати", "lvl": "C1",
+  "forms": "cast|casts|cast|cast|casting",
+  "tail": "aside",
+  "near": "put aside|set aside|throw away|threw away|thrown away|drop*|abandon*|let go|reject*|ditch*|discard*|push* aside|pushed aside",
+  "tasks": [
+   {
+    "sit": "У тридцять п’ять років ти нарешті вирішив змінити професію.",
+    "say": "Я відкинув усі сумніви й записався на курси.",
+    "ans": ["I cast aside all my doubts and signed up for the course.", "I cast my doubts aside and enrolled in a course.", "So I just cast aside my doubts and signed up."],
+    "keys": { "сумніви": "doubt*|fear*", "курси": "course*|class*|sign*|enrol*" }
+   },
+   {
+    "sit": "Ти розповідаєш, як поводилися мешканці твого містечка під час повені.",
+    "say": "Під час повені люди відкинули всі образи й допомагали одне одному.",
+    "ans": ["During the flood, people cast aside their grudges and helped each other.", "People cast aside old quarrels to help each other in the flood.", "When the flood hit, everyone just cast aside their differences and helped out."],
+    "keys": { "повінь": "flood*", "допомагали": "help*|support*" }
+   },
+   {
+    "sit": "Синові подарували дорогу іграшку, але вже за хвилину він захопився чимось іншим.",
+    "say": "Він відкинув дорогу іграшку й грається коробкою.",
+    "ans": ["He cast aside the expensive toy and is playing with the box.", "He has cast the expensive toy aside to play with the box.", "Typical — he just cast aside the fancy toy and went for the box!"],
+    "keys": { "іграшка": "toy*|present|gift", "коробка": "box*|packag*" }
+   }
+  ]
+ },
+ {
+  "id": 3340, "w": "chip away at", "uk": "потроху долати / підточувати", "lvl": "C1",
+  "forms": "chip|chips|chipped|chipped|chipping",
+  "tail": "away at",
+  "near": "tackl*|work on|working on|worked on|deal with|dealing with|dealt with|whittl*|reduc*|pay off|paying off|paid off",
+  "tasks": [
+   {
+    "sit": "Ти пишеш дипломну роботу, і науковий керівник питає, як просувається.",
+    "say": "Я потроху її дописую — по кілька сторінок щодня.",
+    "ans": ["I’m chipping away at it — a few pages every day.", "I chip away at it a few pages a day.", "I’m slowly chipping away at it, a few pages a day."],
+    "keys": { "сторінки": "page*", "щодня": "every day|a day|daily|each day|per day" }
+   },
+   {
+    "sit": "Друг питає, як ти справляєшся з кредитом за машину.",
+    "say": "Я потроху гашу борг — щомісяця трохи більше.",
+    "ans": ["I’m chipping away at the debt, paying a bit more each month.", "Every month I chip away at the loan a little more.", "I’m slowly chipping away at the loan, a bit more every month."],
+    "keys": { "борг": "debt|loan|credit", "щомісяця": "month*" }
+   },
+   {
+    "sit": "Після переїзду ти розбираєш захаращене горище.",
+    "say": "Я потроху розгрібаю цей мотлох, по одній коробці за раз.",
+    "ans": ["I’m chipping away at the mess, one box at a time.", "I chip away at the clutter one box every evening.", "I’m just chipping away at the junk, one box a night."],
+    "keys": { "мотлох": "mess|clutter|junk|attic|stuff", "коробка": "box*" }
+   }
+  ]
+ },
+ {
+  "id": 3341, "w": "close in", "uk": "насуватися / оточувати", "lvl": "C1",
+  "forms": "close|closes|closed|closed|closing",
+  "tail": "in",
+  "near": "approach*|surround*|draw* near|drew near|come closer|came closer|get closer|got closer|creep* up|crept up|loom*",
+  "tasks": [
+   {
+    "sit": "Ви в горах, і небо швидко темніє.",
+    "say": "Насувається гроза, треба спускатися.",
+    "ans": ["A storm is closing in — we need to go down.", "The storm is closing in, so we have to head down.", "Storm’s closing in, guys — let’s get down now."],
+    "keys": { "гроза": "storm*|thunder*|rain|weather|cloud*", "спускатися": "down|descend*|back" }
+   },
+   {
+    "sit": "Ти з другом дивишся новини про втечу небезпечного злочинця.",
+    "say": "Поліція вже бере його в кільце.",
+    "ans": ["The police are closing in on him.", "Police have already closed in on the house where he’s hiding.", "Looks like the cops are closing in on him."],
+    "keys": { "поліція": "police|cops|officer*" }
+   },
+   {
+    "sit": "До здачі проєкту два дні, і тобі тривожно.",
+    "say": "Дедлайн насувається, а ми ще не закінчили.",
+    "ans": ["The deadline is closing in, and we’re not done yet.", "With the deadline closing in, we still haven’t finished.", "The deadline’s closing in and we’re nowhere near done!"],
+    "keys": { "дедлайн": "deadline*|due", "не закінчили": "not done|not finish*|not yet|nowhere near|still" }
+   }
+  ]
+ },
+ {
+  "id": 3342, "w": "come about", "uk": "ставатися / виникати", "lvl": "B2",
+  "forms": "come|comes|came|come|coming",
+  "tail": "about",
+  "near": "happen*|occur*|aris*|arose|turn* out|turned out|come to be|came to be|start*|began|begin",
+  "tasks": [
+   {
+    "sit": "Двоє твоїх друзів роками не розмовляли, а тепер разом відкрили бізнес.",
+    "say": "Цікаво, як це взагалі сталося?",
+    "ans": ["I wonder how that came about.", "How did that even come about?", "So how on earth did that come about?"],
+    "keys": { "як": "how" }
+   },
+   {
+    "sit": "Журналіст питає тебе, засновника стартапу, звідки взялася ідея застосунку.",
+    "say": "Ідея виникла випадково, під час подорожі.",
+    "ans": ["The idea came about by accident during a trip.", "It came about purely by chance while I was travelling.", "Honestly, it all came about by accident on a trip."],
+    "keys": { "випадково": "accident*|chance|random*|luck*", "подорож": "trip|travel*|journey|holiday|vacation" }
+   },
+   {
+    "sit": "Ти вчитель історії й пояснюєш класові великі реформи минулого століття.",
+    "say": "Такі зміни не стаються за один день.",
+    "ans": ["Changes like these don’t come about overnight.", "Such changes did not come about in a single day.", "Change like this doesn’t just come about overnight, you know."],
+    "keys": { "зміни": "change*|reform*", "за один день": "overnight|one day|single day|a day|quickly" }
+   }
+  ]
+ },
+ {
+  "id": 3343, "w": "dig out", "uk": "відкопувати / знаходити", "lvl": "B2",
+  "forms": "dig|digs|dug|dug|digging",
+  "tail": "out",
+  "near": "find|found|finding|dig up|dug up|unearth*|root out|rooted out|pull* out|pulled out|look* for",
+  "tasks": [
+   {
+    "sit": "Сестра хоче показати дітям, яким був тато в молодості.",
+    "say": "Я відкопав на горищі старий фотоальбом.",
+    "ans": ["I dug out an old photo album in the attic.", "I dug an old photo album out of the attic.", "Guess what — I dug out Dad’s old photo album from the attic!"],
+    "keys": { "фотоальбом": "album*|photo*|picture*", "горище": "attic|loft" }
+   },
+   {
+    "sit": "Уночі випав сніг, і ти запізнився на роботу.",
+    "say": "Я пів години відкопував машину зі снігу.",
+    "ans": ["I spent half an hour digging my car out of the snow.", "It took me thirty minutes to dig out my car.", "I had to dig my car out of the snow for half an hour."],
+    "keys": { "машина": "car", "пів години": "half an hour|thirty minutes|30 minutes|half hour" }
+   },
+   {
+    "sit": "Бухгалтер просить договір п’ятирічної давнини.",
+    "say": "Зачекайте, я пошукаю його в архіві.",
+    "ans": ["Hold on, I’ll dig it out of the archive.", "Give me a minute to dig out the contract from the archives.", "Wait, let me dig it out of the old files."],
+    "keys": { "архів": "archive*|files|records|storage", "зачекайте": "hold on|wait|minute|second|moment" }
+   }
+  ]
+ }
+]

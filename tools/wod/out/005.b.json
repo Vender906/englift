@@ -1,0 +1,627 @@
+[
+ {
+  "id": 233, "w": "build", "uk": "будувати", "lvl": "A2",
+  "forms": "build|builds|built|built|building",
+  "near": "construct|constructed|constructing|put up|make|made|making",
+  "tasks": [
+   {
+    "sit": "Ти показуєш другові ділянку за містом, яку щойно купив.",
+    "say": "Тут ми збудуємо будинок.",
+    "ans": ["We’re going to build a house here.", "We’ll build our house right here.", "This is where we’re going to build a house."],
+    "keys": { "будинок": "house|home" }
+   },
+   {
+    "sit": "Ви з колегою проїжджаєте повз новий торговий центр.",
+    "say": "Цей торговий центр збудували за рік.",
+    "ans": ["This mall was built in a year.", "They built this shopping centre in one year.", "They built this mall in just a year."],
+    "keys": { "торговий центр": "mall|shopping*|centre|center", "рік": "year" }
+   },
+   {
+    "sit": "Ви з сином на пляжі, і йому стає нудно.",
+    "say": "Давай збудуємо замок із піску!",
+    "ans": ["Let’s build a sandcastle!", "Let’s build a castle out of sand!", "Hey, let’s build a sandcastle!"],
+    "keys": { "замок": "castle*|sandcastle*" }
+   }
+  ]
+ },
+ {
+  "id": 234, "w": "create", "uk": "створювати", "lvl": "A2",
+  "forms": "create|creates|created|created|creating",
+  "near": "make|made|making|build|built|design*|develop*|set up|generate*|produce*",
+  "tasks": [
+   {
+    "sit": "Ти пояснюєш бабусі, як почати користуватися інтернет-магазином.",
+    "say": "Спочатку треба створити обліковий запис.",
+    "ans": ["First you need to create an account.", "You have to create an account first.", "Just create an account first."],
+    "keys": { "обліковий запис": "account|profile", "спочатку": "first|before" }
+   },
+   {
+    "sit": "Ти маркетолог і пишеш у робочий чат про нову рекламну кампанію.",
+    "say": "Ми створили три нові відео для соцмереж.",
+    "ans": ["We created three new videos for social media.", "We’ve created three new videos for social media.", "We created three new videos for our socials."],
+    "keys": { "три": "three|3", "відео": "video*|clip*", "соцмережі": "social*|instagram|tiktok|online" }
+   },
+   {
+    "sit": "Ти читаєш новину про завод, який відкривають у твоєму місті.",
+    "say": "Завод створить пʼятсот нових робочих місць.",
+    "ans": ["The factory will create five hundred new jobs.", "The plant is going to create 500 new jobs.", "This factory will create about 500 new jobs."],
+    "keys": { "пʼятсот": "five hundred|500|hundred*", "робочі місця": "job*|position*|work*" }
+   }
+  ]
+ },
+ {
+  "id": 235, "w": "design", "uk": "розробляти, проєктувати", "lvl": "B1",
+  "forms": "design|designs|designed|designed|designing",
+  "near": "create|created|creating|develop|developed|developing|build|built|make|made|draw|drew|plan|planned",
+  "tasks": [
+   {
+    "sit": "Новий знайомий питає, чим ти займаєшся як фрилансер.",
+    "say": "Я розробляю сайти для малого бізнесу.",
+    "ans": ["I design websites for small businesses.", "I’m designing websites for small businesses.", "I mostly design websites for small businesses."],
+    "keys": { "сайти": "website*|site*|web", "малий бізнес": "small|business*|compan*|shop*" }
+   },
+   {
+    "sit": "Гості хвалять твою нову кухню й питають, хто її планував.",
+    "say": "Я сам спроєктував цю кухню.",
+    "ans": ["I designed this kitchen myself.", "I designed the kitchen on my own.", "Actually, I designed this kitchen myself."],
+    "keys": { "кухня": "kitchen", "сам": "myself|my own|own" }
+   },
+   {
+    "sit": "На парі з інженерії викладач дав вашій групі завдання.",
+    "say": "Ми маємо спроєктувати міст із паперу.",
+    "ans": ["We have to design a bridge out of paper.", "We need to design a paper bridge.", "We’ve got to design a bridge made of paper."],
+    "keys": { "міст": "bridge", "папір": "paper" }
+   }
+  ]
+ },
+ {
+  "id": 236, "w": "invent", "uk": "винаходити", "lvl": "B1",
+  "forms": "invent|invents|invented|invented|inventing",
+  "near": "create|created|develop|developed|discover|discovered|came up with|come up with|design|designed",
+  "tasks": [
+   {
+    "sit": "Ви з племінником дивитеся передачу про історію техніки.",
+    "say": "Хто винайшов телефон?",
+    "ans": ["Who invented the telephone?", "Who was the person who invented the phone?", "So who actually invented the phone?"],
+    "keys": { "телефон": "phone|telephone" }
+   },
+   {
+    "sit": "Твій дідусь любить майструвати в гаражі, і ти розповідаєш про нього колегам.",
+    "say": "Мій дід винайшов пристрій, який сам поливає рослини.",
+    "ans": ["My grandpa invented a device that waters plants by itself.", "My grandfather invented a gadget that waters the plants automatically.", "My granddad invented a thing that waters the plants on its own."],
+    "keys": { "дід": "grand*", "рослини": "plant*|garden|flower*" }
+   },
+   {
+    "sit": "Ти готуєшся до іспиту з історії й повторюєш дати разом з одногрупником.",
+    "say": "Друкарський верстат винайшли в пʼятнадцятому столітті.",
+    "ans": ["The printing press was invented in the fifteenth century.", "Gutenberg invented the printing press in the 15th century.", "The printing press was invented back in the 1400s."],
+    "keys": { "друкарський верстат": "print*|press", "15 століття": "fifteen*|15*|1400*|1440*|century" }
+   }
+  ]
+ },
+ {
+  "id": 237, "w": "produce", "uk": "виробляти", "lvl": "B1",
+  "forms": "produce|produces|produced|produced|producing",
+  "near": "make|makes|made|making|manufacture*|build|built|create|created|generate*",
+  "tasks": [
+   {
+    "sit": "Ти проводиш екскурсію заводом для нових працівників.",
+    "say": "Ми виробляємо двісті машин на день.",
+    "ans": ["We produce two hundred cars a day.", "We produce 200 cars per day.", "We produce about 200 cars a day here."],
+    "keys": { "двісті": "two hundred|200|hundred*", "машини": "car*|vehicle*" }
+   },
+   {
+    "sit": "Іноземний знайомий питає, чим відомий регіон, звідки ти родом.",
+    "say": "Наш регіон виробляє багато вина.",
+    "ans": ["Our region produces a lot of wine.", "A lot of wine is produced in our region.", "Our region produces loads of wine."],
+    "keys": { "регіон": "region|area", "вино": "wine" }
+   },
+   {
+    "sit": "Сусід питає, чи варто було ставити сонячні панелі на дах.",
+    "say": "Панелі виробляють достатньо електрики для всього будинку.",
+    "ans": ["The panels produce enough electricity for the whole house.", "These panels produce enough power for the entire house.", "They produce enough electricity for the whole house."],
+    "keys": { "електрика": "electric*|power|energy", "будинок": "house|home" }
+   }
+  ]
+ },
+ {
+  "id": 238, "w": "break", "uk": "ламати, розбивати / порушувати", "lvl": "A1",
+  "forms": "break|breaks|broke|broken|breaking",
+  "near": "smash|smashed|crack|cracked|damage|damaged|destroy|destroyed|violate*|shatter*",
+  "tasks": [
+   {
+    "sit": "Ти мив посуд у гостях у друга, і чашка вислизнула з рук.",
+    "say": "Я розбив твою улюблену чашку.",
+    "ans": ["I broke your favourite mug.", "I’ve broken your favorite cup.", "Sorry, I broke your favourite mug."],
+    "keys": { "чашка": "mug|cup", "улюблена": "favo*" }
+   },
+   {
+    "sit": "Сусід щодня паркується просто на тротуарі, і ти скаржишся на нього дружині.",
+    "say": "Він щодня порушує правила.",
+    "ans": ["He breaks the rules every day.", "He’s breaking the rules every single day.", "He keeps breaking the rules every day."],
+    "keys": { "правила": "rule*|law*", "щодня": "every day|every single day|daily|always|all the time" }
+   },
+   {
+    "sit": "Ти приходиш на роботу з гіпсом, і колега питає, що сталося.",
+    "say": "Я зламав руку, коли катався на лижах.",
+    "ans": ["I broke my arm when I was skiing.", "I broke my arm while skiing.", "I broke my arm skiing."],
+    "keys": { "рука": "arm|wrist|hand", "лижі": "ski*" }
+   }
+  ]
+ },
+ {
+  "id": 239, "w": "destroy", "uk": "знищувати", "lvl": "B1",
+  "forms": "destroy|destroys|destroyed|destroyed|destroying",
+  "near": "ruin|ruined|wreck|wrecked|delete|deleted|burn|burned|burnt|eliminate*|shred|shredded|damage|damaged",
+  "tasks": [
+   {
+    "sit": "Ви з другом дивитеся детектив, і ти вже здогадався, чому поліція не може нічого довести.",
+    "say": "Вбивця знищив усі докази.",
+    "ans": ["The killer destroyed all the evidence.", "The murderer has destroyed all the evidence.", "The killer destroyed every bit of evidence."],
+    "keys": { "докази": "evidence|proof|clue*" }
+   },
+   {
+    "sit": "Ти пояснюєш новому працівникові правила роботи з персональними даними клієнтів.",
+    "say": "Старі документи треба знищувати, а не викидати.",
+    "ans": ["Old documents have to be destroyed, not thrown away.", "We need to destroy the old documents, not throw them out.", "Don’t just throw old documents away — destroy them."],
+    "keys": { "документи": "document*|paper*|file*", "не викидати": "throw*|thrown|bin|trash" }
+   },
+   {
+    "sit": "Родичі з села телефонують після сильної бурі. Ти переказуєш новину дружині.",
+    "say": "Град знищив увесь урожай.",
+    "ans": ["The hail destroyed the whole harvest.", "The entire crop was destroyed by hail.", "The hail destroyed all the crops."],
+    "keys": { "град": "hail*|storm", "урожай": "harvest|crop*" }
+   }
+  ]
+ },
+ {
+  "id": 240, "w": "damage", "uk": "пошкоджувати", "lvl": "B1",
+  "forms": "damage|damages|damaged|damaged|damaging",
+  "near": "hurt|harm|harmed|break|broke|broken|scratch|scratched|dent|dented|ruin|ruined|destroy|destroyed",
+  "tasks": [
+   {
+    "sit": "Ти телефонуєш у страхову компанію.",
+    "say": "Хтось пошкодив мою машину на парковці.",
+    "ans": ["Someone damaged my car in the parking lot.", "My car was damaged in the car park.", "Somebody damaged my car in the parking lot."],
+    "keys": { "машина": "car|vehicle", "парковка": "park*|lot" }
+   },
+   {
+    "sit": "Ти пишеш у підтримку інтернет-магазину про свою посилку.",
+    "say": "Коробка прийшла пошкодженою.",
+    "ans": ["The box arrived damaged.", "The package was damaged when it arrived.", "The box came damaged."],
+    "keys": { "коробка": "box|package|parcel|item|order" }
+   },
+   {
+    "sit": "Молодший брат слухає музику в навушниках на повній гучності.",
+    "say": "Ти пошкодиш собі слух.",
+    "ans": ["You’ll damage your hearing.", "You’re going to damage your ears.", "That’ll damage your hearing, you know."],
+    "keys": { "слух": "hear*|ear*" }
+   }
+  ]
+ },
+ {
+  "id": 241, "w": "tear", "uk": "рвати", "lvl": "B1",
+  "forms": "tear|tears|tore|torn|tearing",
+  "near": "rip|ripped|ripping|shred|shredded|cut|split",
+  "tasks": [
+   {
+    "sit": "Ти ліз через паркан по мʼяч і почув тріск.",
+    "say": "Я порвав штани об паркан.",
+    "ans": ["I tore my trousers on the fence.", "I’ve torn my pants on the fence.", "Oh no, I tore my jeans on the fence."],
+    "keys": { "штани": "trousers|pants|jeans", "паркан": "fence" }
+   },
+   {
+    "sit": "Ти загортаєш подарунок разом із донькою, і вона тягне обгортку занадто сильно.",
+    "say": "Обережно, не порви папір.",
+    "ans": ["Careful, don’t tear the paper.", "Be careful not to tear the wrapping paper.", "Careful — don’t tear the paper!"],
+    "keys": { "папір": "paper|wrapping", "не": "not" }
+   },
+   {
+    "sit": "Колишній надіслав тобі образливого листа, і подруга питає, що ти з ним зробив.",
+    "say": "Я прочитав листа й розірвав його.",
+    "ans": ["I read the letter and tore it up.", "I tore up the letter after reading it.", "I read the letter and just tore it up."],
+    "keys": { "лист": "letter|note" }
+   }
+  ]
+ },
+ {
+  "id": 242, "w": "cut", "uk": "різати", "lvl": "A1",
+  "forms": "cut|cuts|cut|cut|cutting",
+  "near": "slice|sliced|slicing|chop|chopped|chopping|trim|trimmed|dice|diced|carve|carved",
+  "tasks": [
+   {
+    "sit": "Ти накриваєш на стіл, гості вже сідають, а хліб лежить цілий.",
+    "say": "Можеш нарізати хліб?",
+    "ans": ["Can you cut the bread?", "Could you cut some bread?", "Can you cut the bread, please?"],
+    "keys": { "хліб": "bread|loaf" }
+   },
+   {
+    "sit": "На дні народження доньки всі гості чекають на торт.",
+    "say": "Давай розріжемо торт на вісім шматків.",
+    "ans": ["Let’s cut the cake into eight pieces.", "Let’s cut the cake into 8 slices.", "Okay, let’s cut the cake into eight pieces."],
+    "keys": { "торт": "cake", "вісім": "eight|8" }
+   },
+   {
+    "sit": "Ти в перукарні, і майстер питає, що будемо робити.",
+    "say": "Підстрижіть, будь ласка, коротше.",
+    "ans": ["Please cut my hair shorter.", "Could you cut my hair a bit shorter?", "Can you cut it shorter, please?"],
+    "keys": { "коротше": "short*" }
+   }
+  ]
+ },
+ {
+  "id": 243, "w": "fix", "uk": "лагодити, ремонтувати", "lvl": "A2",
+  "forms": "fix|fixes|fixed|fixed|fixing",
+  "near": "repair|repaired|repairing|mend|mended|sort out|sorted out|solve|solved",
+  "tasks": [
+   {
+    "sit": "У твого велосипеда злетів ланцюг, а сусід якраз розбирається у велосипедах.",
+    "say": "Можеш допомогти мені полагодити велосипед?",
+    "ans": ["Can you help me fix my bike?", "Could you help me fix the bike?", "Any chance you could help me fix my bike?"],
+    "keys": { "велосипед": "bike|bicycle|chain" }
+   },
+   {
+    "sit": "Ти працюєш в ІТ-відділі, і колега скаржиться, що принтер не друкує.",
+    "say": "Я полагоджу його за пʼять хвилин.",
+    "ans": ["I’ll fix it in five minutes.", "I can fix it in 5 minutes.", "Give me five minutes, I’ll fix it."],
+    "keys": { "пʼять хвилин": "five|5|minute*" }
+   },
+   {
+    "sit": "Кран на кухні капає вже тиждень, і ти говориш про це з дружиною.",
+    "say": "Нам треба нарешті полагодити кран.",
+    "ans": ["We finally need to fix the tap.", "We really need to fix the faucet.", "We’ve got to fix that tap at last."],
+    "keys": { "кран": "tap|faucet|leak*" }
+   }
+  ]
+ },
+ {
+  "id": 244, "w": "repair", "uk": "ремонтувати", "lvl": "B1",
+  "forms": "repair|repairs|repaired|repaired|repairing",
+  "near": "fix|fixed|fixing|mend|mended|service|serviced|restore|restored",
+  "tasks": [
+   {
+    "sit": "Ти в автосервісі, механік оглядає твою машину після аварії.",
+    "say": "Скільки часу займе ремонт машини?",
+    "ans": ["How long will it take to repair my car?", "How long does it take to repair the car?", "How long will you need to repair the car?"],
+    "keys": { "скільки часу": "how long|when|time", "машина": "car|vehicle" }
+   },
+   {
+    "sit": "Ти читаєш міські новини про старий міст через річку.",
+    "say": "Міст обіцяють відремонтувати до кінця року.",
+    "ans": ["They promise to repair the bridge by the end of the year.", "The bridge will be repaired by the end of the year.", "They plan to repair the bridge by the end of the year."],
+    "keys": { "міст": "bridge", "кінець року": "end of the year|year" }
+   },
+   {
+    "sit": "Ти майстер у сервісному центрі, і клієнт приніс дуже старий ноутбук.",
+    "say": "Ремонтувати його немає сенсу — простіше купити новий.",
+    "ans": ["It’s not worth repairing — it’s easier to buy a new one.", "There’s no point repairing it; buying a new one is easier.", "Honestly, it’s not worth repairing — just get a new one."],
+    "keys": { "немає сенсу": "not worth|no point|no sense|pointless", "новий": "new" }
+   }
+  ]
+ },
+ {
+  "id": 245, "w": "give", "uk": "давати, дарувати", "lvl": "A1",
+  "forms": "give|gives|gave|given|giving",
+  "near": "hand|handed|pass|passed|offer|offered|present|presented|lend|lent",
+  "tasks": [
+   {
+    "sit": "Подруга питає, що ти подарував мамі на день народження.",
+    "say": "Я подарував мамі квіти й книгу.",
+    "ans": ["I gave my mom flowers and a book.", "I gave flowers and a book to my mum.", "I gave Mom some flowers and a book."],
+    "keys": { "мама": "mom|mum|mother|mama", "квіти": "flower*", "книга": "book*" }
+   },
+   {
+    "sit": "Колега просить твій номер телефону для нового клієнта.",
+    "say": "Дай йому мій номер, будь ласка.",
+    "ans": ["Please give him my number.", "Give my number to him, please.", "Sure, just give him my number."],
+    "keys": { "номер": "number|phone|contact*" }
+   },
+   {
+    "sit": "Ти на ринку, і продавчиня питає, скільки яблук тобі потрібно.",
+    "say": "Дайте мені кілограм яблук, будь ласка.",
+    "ans": ["Give me a kilo of apples, please.", "Could you give me a kilo of apples?", "Just give me a kilo of apples, please."],
+    "keys": { "кілограм": "kilo*|kg|one", "яблука": "apple*" }
+   }
+  ]
+ },
+ {
+  "id": 246, "w": "receive", "uk": "отримувати", "lvl": "A2",
+  "forms": "receive|receives|received|received|receiving",
+  "near": "get|gets|got|gotten|getting|accept|accepted|collect|collected",
+  "tasks": [
+   {
+    "sit": "Ти пишеш у службу підтримки інтернет-магазину: минуло вже два тижні.",
+    "say": "Я досі не отримав своє замовлення.",
+    "ans": ["I still haven’t received my order.", "I haven’t received my order yet.", "I’ve still not received my order."],
+    "keys": { "замовлення": "order|package|parcel", "досі не": "not|yet|still" }
+   },
+   {
+    "sit": "Ти відповідаєш клієнтові на його лист із документами.",
+    "say": "Дякую, я отримав ваш лист.",
+    "ans": ["Thank you, I received your email.", "Thanks, I’ve received your email.", "Thanks — I’ve received your message."],
+    "keys": { "лист": "email*|e-mail*|letter|message", "дякую": "thank*" }
+   },
+   {
+    "sit": "За вечерею ти ділишся з родиною гарною новиною з роботи.",
+    "say": "Я отримав нагороду за найкращий проєкт року.",
+    "ans": ["I received an award for the best project of the year.", "I’ve received a prize for the best project of the year.", "I received an award for the year’s best project."],
+    "keys": { "нагорода": "award|prize|bonus", "проєкт": "project" }
+   }
+  ]
+ },
+ {
+  "id": 247, "w": "send", "uk": "надсилати", "lvl": "A1",
+  "forms": "send|sends|sent|sent|sending",
+  "near": "mail|mailed|email|emailed|text|texted|forward|forwarded|post|posted|ship|shipped|drop",
+  "tasks": [
+   {
+    "sit": "Ти щойно повернувся з відпустки, і мама хоче побачити, як ти відпочив.",
+    "say": "Я надішлю тобі фото ввечері.",
+    "ans": ["I’ll send you the photos tonight.", "I’m going to send you the pictures this evening.", "I’ll send you the photos later tonight."],
+    "keys": { "фото": "photo*|picture*|pic*", "ввечері": "tonight|evening|later" }
+   },
+   {
+    "sit": "Колега питає, чи ти вже відповів клієнтові.",
+    "say": "Я надіслав йому лист годину тому.",
+    "ans": ["I sent him an email an hour ago.", "I sent the email to him an hour ago.", "Yeah, I sent him the email an hour ago."],
+    "keys": { "лист": "email*|e-mail*|message|letter", "годину тому": "hour*" }
+   },
+   {
+    "sit": "Ти на пошті з коробкою для родичів, які живуть у Канаді.",
+    "say": "Я хочу надіслати цю посилку в Канаду.",
+    "ans": ["I’d like to send this parcel to Canada.", "I want to send this package to Canada.", "I need to send this parcel to Canada."],
+    "keys": { "посилка": "parcel|package|box", "Канада": "canada" }
+   }
+  ]
+ },
+ {
+  "id": 248, "w": "share", "uk": "ділитися", "lvl": "A2",
+  "forms": "share|shares|shared|shared|sharing",
+  "near": "split|splitting|divide|divided|lend|lent|give|gave",
+  "tasks": [
+   {
+    "sit": "Ви з сестрою в поїзді, а у вас лише одна велика піца.",
+    "say": "Давай поділимося піцою.",
+    "ans": ["Let’s share the pizza.", "We can share the pizza.", "Why don’t we share the pizza?"],
+    "keys": { "піца": "pizza" }
+   },
+   {
+    "sit": "Новий знайомий питає, чи ти живеш сам.",
+    "say": "Я знімаю квартиру разом із двома друзями.",
+    "ans": ["I share a flat with two friends.", "I’m sharing an apartment with two friends.", "I share an apartment with two of my friends."],
+    "keys": { "квартира": "flat|apartment|place", "два друзі": "two|2|friend*" }
+   },
+   {
+    "sit": "На нараді керівник питає, чи є в когось пропозиції.",
+    "say": "Я хочу поділитися кількома ідеями.",
+    "ans": ["I’d like to share a few ideas.", "I want to share some ideas with you.", "Can I share a couple of ideas?"],
+    "keys": { "ідеї": "idea*|thought*" }
+   }
+  ]
+ },
+ {
+  "id": 250, "w": "pass", "uk": "передавати", "lvl": "A2",
+  "forms": "pass|passes|passed|passed|passing",
+  "near": "hand|handed|handing|give|gave|given|throw|threw|toss|tossed",
+  "tasks": [
+   {
+    "sit": "Ви вечеряєте всією родиною, а сіль стоїть далеко від тебе.",
+    "say": "Передай мені сіль, будь ласка.",
+    "ans": ["Pass me the salt, please.", "Could you pass the salt?", "Can you pass me the salt, please?"],
+    "keys": { "сіль": "salt" }
+   },
+   {
+    "sit": "Ти проводиш нараду й роздаєш колегам копії звіту по колу.",
+    "say": "Візьміть одну копію й передайте решту далі.",
+    "ans": ["Take one copy and pass the rest on.", "Take a copy and pass the rest along.", "Take one and pass the rest on, please."],
+    "keys": { "решту": "rest|others|them|copies", "копія": "copy|one" }
+   },
+   {
+    "sit": "Ти в переповненому автобусі й не можеш дотягнутися до водія, щоб заплатити.",
+    "say": "Передайте, будь ласка, гроші водієві.",
+    "ans": ["Could you pass the money to the driver, please?", "Please pass this money to the driver.", "Can you pass this to the driver, please?"],
+    "keys": { "гроші": "money|cash|fare|this|it", "водій": "driver" }
+   }
+  ]
+ },
+ {
+  "id": 251, "w": "deliver", "uk": "доставляти", "lvl": "B1",
+  "forms": "deliver|delivers|delivered|delivered|delivering",
+  "near": "bring|brought|send|sent|ship|shipped|drop off|dropped off",
+  "tasks": [
+   {
+    "sit": "Ти замовляєш піцу телефоном о пів на одинадцяту вечора.",
+    "say": "Ви доставляєте пізно ввечері?",
+    "ans": ["Do you deliver late at night?", "Do you deliver late in the evening?", "Do you guys deliver this late?"],
+    "keys": { "пізно": "late|night|midnight" }
+   },
+   {
+    "sit": "Ти купуєш диван в інтернет-магазині й уточнюєш деталі в чаті.",
+    "say": "Коли ви зможете доставити диван?",
+    "ans": ["When can you deliver the sofa?", "When will you be able to deliver the sofa?", "When could you deliver the couch?"],
+    "keys": { "диван": "sofa|couch", "коли": "when|what day|what time|date" }
+   },
+   {
+    "sit": "На співбесіді тебе питають про досвід роботи під час навчання.",
+    "say": "Я доставляв їжу на велосипеді.",
+    "ans": ["I delivered food by bike.", "I used to deliver food on a bike.", "I was delivering food on my bike."],
+    "keys": { "їжа": "food|meal*|order*", "велосипед": "bike|bicycle|cycl*" }
+   }
+  ]
+ },
+ {
+  "id": 253, "w": "start", "uk": "починати", "lvl": "A1",
+  "forms": "start|starts|started|started|starting",
+  "near": "begin|begins|began|begun|beginning|launch|launched|kick off|kicked off",
+  "tasks": [
+   {
+    "sit": "Керівник питає, коли ти візьмешся за новий проєкт.",
+    "say": "Я почну новий проєкт у понеділок.",
+    "ans": ["I’ll start the new project on Monday.", "I’m starting the new project on Monday.", "I start the new project on Monday."],
+    "keys": { "проєкт": "project", "понеділок": "monday" }
+   },
+   {
+    "sit": "Лікар порадив тобі більше рухатися, і ти розповідаєш про свої плани.",
+    "say": "Я почну бігати з наступного тижня.",
+    "ans": ["I’ll start running next week.", "I’m going to start running from next week.", "From next week, I’ll start jogging."],
+    "keys": { "бігати": "run*|jog*", "наступного тижня": "next week" }
+   },
+   {
+    "sit": "Ви з другом у кінотеатрі, а він досі стоїть у черзі за попкорном.",
+    "say": "Швидше, фільм починається за пʼять хвилин.",
+    "ans": ["Hurry up, the film starts in five minutes.", "Hurry, the movie is starting in 5 minutes.", "Come on, the movie starts in five minutes!"],
+    "keys": { "фільм": "film|movie|show", "пʼять хвилин": "five|5|minute*" }
+   }
+  ]
+ },
+ {
+  "id": 254, "w": "begin", "uk": "починати", "lvl": "A1",
+  "forms": "begin|begins|began|begun|beginning",
+  "near": "start|starts|started|starting|commence*|kick off",
+  "tasks": [
+   {
+    "sit": "Ти викладач, заходиш в аудиторію, і студенти замовкають.",
+    "say": "Почнімо урок.",
+    "ans": ["Let’s begin the lesson.", "Let’s begin today’s lesson.", "Okay, everyone, let’s begin the lesson."],
+    "keys": { "урок": "lesson|class" }
+   },
+   {
+    "sit": "Новий знайомий дивується, як добре ти говориш англійською.",
+    "say": "Я почав вивчати англійську три роки тому.",
+    "ans": ["I began learning English three years ago.", "I began to learn English three years ago.", "I began studying English about three years ago."],
+    "keys": { "англійська": "english", "три роки тому": "three|3|years ago" }
+   },
+   {
+    "sit": "На весіллі друга гості питають тебе, коли церемонія.",
+    "say": "Церемонія почнеться о другій.",
+    "ans": ["The ceremony will begin at two.", "The ceremony begins at 2 p.m.", "The ceremony is going to begin at two."],
+    "keys": { "церемонія": "ceremony|wedding", "о другій": "two|2|14" }
+   }
+  ]
+ },
+ {
+  "id": 255, "w": "stop", "uk": "зупиняти(ся)", "lvl": "A1",
+  "forms": "stop|stops|stopped|stopped|stopping",
+  "near": "halt|halted|pull over|pulled over|park|parked|brake|braked|quit|end|ended|pause|paused",
+  "tasks": [
+   {
+    "sit": "Ти їдеш у таксі, і ви вже майже біля твого будинку.",
+    "say": "Зупиніть, будь ласка, біля того магазину.",
+    "ans": ["Please stop by that shop.", "Could you stop next to that store, please?", "Can you stop by that shop, please?"],
+    "keys": { "магазин": "shop|store|supermarket" }
+   },
+   {
+    "sit": "Ти приїхав на зустріч із запізненням, і друг питає, що сталося.",
+    "say": "Мене зупинила поліція за перевищення швидкості.",
+    "ans": ["The police stopped me for speeding.", "I was stopped by the police for speeding.", "The cops stopped me for speeding."],
+    "keys": { "поліція": "police|cop*|officer*", "швидкість": "speed*|fast" }
+   },
+   {
+    "sit": "Ноутбук почав оновлюватися просто перед важливою презентацією. Ти питаєш колегу-айтішника.",
+    "say": "Як мені зупинити це оновлення?",
+    "ans": ["How do I stop this update?", "How can I stop this update?", "Is there a way to stop this update?"],
+    "keys": { "оновлення": "update*|download*|install*" }
+   }
+  ]
+ },
+ {
+  "id": 256, "w": "end", "uk": "закінчувати, завершувати", "lvl": "A2",
+  "forms": "end|ends|ended|ended|ending",
+  "near": "finish|finished|finishing|stop|stopped|close|closed|wrap up|wrapped up|hang up|hung up|conclude*|complete*",
+  "tasks": [
+   {
+    "sit": "Ти ведеш онлайн-нараду, і всі питання вже обговорено.",
+    "say": "Давайте на цьому завершимо зустріч.",
+    "ans": ["Let’s end the meeting here.", "Let’s end the meeting now.", "I think we can end the meeting here."],
+    "keys": { "зустріч": "meeting|call" }
+   },
+   {
+    "sit": "Тато не може зрозуміти, як закінчити відеодзвінок на новому телефоні.",
+    "say": "Натисни червону кнопку, щоб завершити дзвінок.",
+    "ans": ["Press the red button to end the call.", "To end the call, press the red button.", "Just tap the red button to end the call."],
+    "keys": { "червона кнопка": "red|button", "дзвінок": "call" }
+   },
+   {
+    "sit": "Колега питає, чи твої друзі досі разом.",
+    "say": "Вони завершили стосунки після пʼяти років.",
+    "ans": ["They ended their relationship after five years.", "They ended things after five years together.", "They ended it after five years."],
+    "keys": { "стосунки": "relationship|things|it", "пʼять років": "five|5" }
+   }
+  ]
+ },
+ {
+  "id": 257, "w": "pause", "uk": "призупиняти, ставити на паузу", "lvl": "A2",
+  "forms": "pause|pauses|paused|paused|pausing",
+  "near": "stop|stopped|hold|held|freeze|froze|frozen|suspend*",
+  "tasks": [
+   {
+    "sit": "Ви з другом дивитеся серіал, і тобі дзвонять.",
+    "say": "Постав на паузу, я на хвилинку.",
+    "ans": ["Pause it, I’ll be back in a minute.", "Can you pause it for a minute?", "Pause the show, I’ll be right back."],
+    "keys": { "на хвилинку": "minute|moment|second|sec|right back|back" }
+   },
+   {
+    "sit": "Ти слухаєш аудіокнигу в метро, і тебе хтось питає дорогу.",
+    "say": "Секунду, я поставлю аудіокнигу на паузу.",
+    "ans": ["One second, I’ll pause the audiobook.", "Just a sec, let me pause my audiobook.", "Hang on, I’m pausing the audiobook."],
+    "keys": { "аудіокнига": "audiobook*|book|audio" }
+   },
+   {
+    "sit": "Ти їдеш на два місяці за кордон і телефонуєш у свій спортзал.",
+    "say": "Чи можна призупинити мій абонемент на два місяці?",
+    "ans": ["Can I pause my membership for two months?", "Is it possible to pause my membership for two months?", "Could I pause my gym membership for two months?"],
+    "keys": { "абонемент": "membership|subscription|pass|contract", "два місяці": "two|2|month*" }
+   }
+  ]
+ },
+ {
+  "id": 258, "w": "continue", "uk": "продовжувати", "lvl": "A2",
+  "forms": "continue|continues|continued|continued|continuing",
+  "near": "keep|kept|keeping|go on|went on|carry on|carried on|resume*|proceed*",
+  "tasks": [
+   {
+    "sit": "Під час твоєї презентації хтось зайшов у залу й перебив тебе запитанням не по темі.",
+    "say": "Вибачте, дозвольте мені продовжити презентацію.",
+    "ans": ["Sorry, let me continue with the presentation.", "Excuse me, may I continue my presentation?", "Sorry — let me continue the presentation."],
+    "keys": { "презентація": "presentation|talk|slide*" }
+   },
+   {
+    "sit": "Ти читаєш синові казку перед сном, а він просить ще, хоча вже пізно.",
+    "say": "Завтра продовжимо історію.",
+    "ans": ["We’ll continue the story tomorrow.", "Tomorrow we’ll continue the story.", "Let’s continue the story tomorrow."],
+    "keys": { "історія": "story|book|it", "завтра": "tomorrow" }
+   },
+   {
+    "sit": "Лікар оглянув твоє коліно після падіння на пробіжці.",
+    "say": "Я можу продовжувати тренуватися?",
+    "ans": ["Can I continue training?", "Can I continue to train?", "Is it okay if I continue training?"],
+    "keys": { "тренування": "train*|work* out|exercis*|practi*|run*" }
+   }
+  ]
+ },
+ {
+  "id": 259, "w": "resume", "uk": "відновлювати (після перерви)", "lvl": "B1",
+  "forms": "resume|resumes|resumed|resumed|resuming",
+  "near": "continue|continued|continuing|restart|restarted|carry on|go on|pick up|picked up|start again|started again",
+  "tasks": [
+   {
+    "sit": "В офісі вимкнули світло, і ти керівник. Колеги питають, що робити.",
+    "say": "Ми відновимо роботу за пів години.",
+    "ans": ["We’ll resume work in half an hour.", "Work will resume in thirty minutes.", "We’re going to resume work in half an hour."],
+    "keys": { "робота": "work*|meeting", "пів години": "half|thirty|30|minute*" }
+   },
+   {
+    "sit": "Ти в аеропорту після ранкового туману й пишеш другові, який чекає на тебе.",
+    "say": "Рейси відновили після туману.",
+    "ans": ["Flights have resumed after the fog.", "They resumed flights after the fog.", "Flights resumed once the fog cleared."],
+    "keys": { "рейси": "flight*|plane*", "туман": "fog*|weather" }
+   },
+   {
+    "sit": "Друг почав дивитися фільм на ноутбуці, а тепер хоче додивитися його на телевізорі. Ти пояснюєш, як це зробити.",
+    "say": "Можна відновити перегляд із того самого місця.",
+    "ans": ["You can resume watching from the same point.", "You can resume the film where you left off.", "You can resume it right where you stopped."],
+    "keys": { "з того самого місця": "same|where|point|spot|left off|stopped" }
+   }
+  ]
+ }
+]

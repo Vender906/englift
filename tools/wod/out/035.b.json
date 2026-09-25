@@ -1,0 +1,640 @@
+[
+ {
+  "id": 1943, "w": "speculate on", "uk": "спекулювати (на чомусь)", "lvl": "C1",
+  "forms": "speculate|speculates|speculated|speculated|speculating",
+  "tail": "on",
+  "near": "bet on|betting on|bets on|gambl*|trade|trading|flip|flipping",
+  "tasks": [
+   {
+    "sit": "Друг щодня купує нові мем-монети, сподіваючись швидко розбагатіти.",
+    "say": "Ти просто спекулюєш на мем-монетах — це лотерея.",
+    "ans": ["You’re just speculating on meme coins — it’s a lottery.", "You’re only speculating on meme coins; it’s basically a lottery.", "Come on, you’re just speculating on meme coins, it’s pure luck."],
+    "keys": { "мем-монети": "meme*|coin*|crypto*|token*", "лотерея": "lotter*|casino|luck*" }
+   },
+   {
+    "sit": "Ти аналітик і пояснюєш керівникові, чому ціна пшениці різко злетіла.",
+    "say": "Фонди спекулюють на цінах на зерно.",
+    "ans": ["Funds are speculating on grain prices.", "Hedge funds have been speculating on wheat prices.", "It’s the funds speculating on grain prices."],
+    "keys": { "фонди": "fund*|investor*|trader*", "зерно": "grain|wheat|crop*" }
+   },
+   {
+    "sit": "Твій дядько купив три квартири в новобудові й не живе в жодній із них.",
+    "say": "Він спекулює на нерухомості — купує, щоб потім дорожче продати.",
+    "ans": ["He’s speculating on real estate — he buys to sell higher later.", "He speculates on property, buying cheap and selling at a profit.", "He’s just speculating on housing so he can sell it for more."],
+    "keys": { "нерухомість": "real estate|propert*|housing|apartment*|flat*", "продати": "sell*|sold" }
+   }
+  ]
+ },
+ {
+  "id": 1944, "w": "panic-sell", "uk": "панічно продати (активи)", "lvl": "C1",
+  "forms": "panic-sell|panic-sells|panic-sold|panic-sold|panic-selling",
+  "near": "sell|sells|sold|selling|dump*|bail*|cash out",
+  "tasks": [
+   {
+    "sit": "Криптовалюта впала на тридцять відсотків за день. Друг пише в чат: «Все, продаю!»",
+    "say": "Не продавай у паніці, ціна ще відновиться.",
+    "ans": ["Don’t panic-sell, the price will recover.", "Don’t panic-sell — it’ll bounce back.", "Whatever you do, don’t panic-sell, it’ll recover."],
+    "keys": { "відновиться": "recover*|bounce back|come back|go up|rise" }
+   },
+   {
+    "sit": "На зустрічі інвестклубу ти розповідаєш про свою першу велику помилку.",
+    "say": "У двадцятому році я в паніці продав усі акції й утратив купу грошей.",
+    "ans": ["In 2020 I panic-sold all my stocks and lost a lot of money.", "I panic-sold everything in 2020 and lost a lot.", "Back in 2020 I panic-sold all my shares and lost a ton."],
+    "keys": { "втратив": "lost|lose", "усі": "all|everything" }
+   },
+   {
+    "sit": "Бабуся питає, чому по телевізору кажуть, що ринок обвалився за один день.",
+    "say": "Люди в паніці продавали все через чутки.",
+    "ans": ["People panic-sold everything because of rumors.", "Investors were panic-selling because of a rumor.", "Everyone panic-sold over some rumors."],
+    "keys": { "чутки": "rumo*" }
+   }
+  ]
+ },
+ {
+  "id": 1945, "w": "hodl", "uk": "тримати, не продавати (крипту, сленг)", "lvl": "C1",
+  "forms": "hodl|hodls|hodled|hodled|hodling",
+  "near": "hold|holds|holding|held|keep|keeping|kept|not sell|never sell",
+  "tasks": [
+   {
+    "sit": "Біткоїн різко впав, і колега питає, чи ти вже все продав.",
+    "say": "Ні, я просто тримаю — я вірю в біткоїн на довгу перспективу.",
+    "ans": ["No, I’m just going to hodl — I believe in Bitcoin long-term.", "Nope, I hodl. I believe in Bitcoin in the long run.", "No way, I’m hodling — I believe in Bitcoin long-term."],
+    "keys": { "біткоїн": "bitcoin|btc|crypto", "вірю": "believe*|trust|faith|confident" }
+   },
+   {
+    "sit": "У крипточаті новачок у паніці питає, що робити під час падіння.",
+    "say": "Просто тримай і не дивись на графік.",
+    "ans": ["Just hodl and stop looking at the chart.", "Just hodl and don’t look at the charts.", "Just hodl, bro, and stop checking the chart."],
+    "keys": { "графік": "chart*|graph*|price*|screen" }
+   },
+   {
+    "sit": "Ти розповідаєш другові, що купив ефір ще багато років тому.",
+    "say": "Я тримаю ефір із 2017 року й не продав жодної монети.",
+    "ans": ["I’ve been hodling ETH since 2017 and haven’t sold a single coin.", "I’ve hodled Ethereum since 2017 — never sold a coin.", "I’ve hodled since 2017, and I haven’t sold one coin."],
+    "keys": { "з 2017 року": "2017", "жодної монети": "coin*" }
+   }
+  ]
+ },
+ {
+  "id": 1946, "w": "feed", "uk": "годувати", "lvl": "A2",
+  "forms": "feed|feeds|fed|fed|feeding",
+  "near": "give food|gave food|giving food|give him food|give her food",
+  "tasks": [
+   {
+    "sit": "Ти їдеш на вихідні й просиш сусіда подбати про кота.",
+    "say": "Можеш погодувати мого кота в суботу?",
+    "ans": ["Can you feed my cat on Saturday?", "Could you feed my cat on Saturday, please?", "Would you mind feeding my cat on Saturday?"],
+    "keys": { "кіт": "cat*|kitty", "субота": "saturday" }
+   },
+   {
+    "sit": "Ранок, діти збираються до школи, а собака голосно гавкає на кухні.",
+    "say": "Хтось уже погодував собаку?",
+    "ans": ["Has anyone fed the dog?", "Did someone feed the dog already?", "Has anybody fed the dog yet?"],
+    "keys": { "собака": "dog*|puppy", "хтось": "anyone|anybody|someone|somebody|who" }
+   },
+   {
+    "sit": "У парку малий кидає хліб качкам. Ти помічаєш табличку біля ставка.",
+    "say": "Качок не можна годувати хлібом.",
+    "ans": ["You shouldn’t feed the ducks bread.", "We can’t feed bread to the ducks, it’s bad for them.", "Don’t feed the ducks bread, sweetie."],
+    "keys": { "качки": "duck*|bird*", "хліб": "bread" }
+   }
+  ]
+ },
+ {
+  "id": 1947, "w": "give treats", "uk": "давати смаколики", "lvl": "B1",
+  "forms": "give|gives|gave|given|giving",
+  "tail": "treat*",
+  "near": "reward*|feed|feeds|fed|feeding|snack*",
+  "tasks": [
+   {
+    "sit": "Ти вчиш цуценя команд, і воно швидко все схоплює.",
+    "say": "Я даю йому смаколик за кожну правильно виконану команду.",
+    "ans": ["I give him a treat for every command he gets right.", "Every time he does it right, I give him a treat.", "I give him a treat whenever he gets it right."],
+    "keys": { "кожну": "every|each|whenever|always" }
+   },
+   {
+    "sit": "Ти в гостях у друга, а його пес не зводить із тебе очей.",
+    "say": "Можна дати йому смаколик?",
+    "ans": ["Can I give him a treat?", "Is it okay if I give him a treat?", "Mind if I give the dog a treat?"],
+    "keys": { "можна": "can|okay|ok|mind|allowed|may" }
+   },
+   {
+    "sit": "Ветеринар каже, що твоя собака набрала зайву вагу.",
+    "say": "Я даватиму їй менше смаколиків.",
+    "ans": ["I’ll give her fewer treats.", "I’m going to give her fewer treats from now on.", "Okay, I’ll give her fewer treats, I promise."],
+    "keys": { "менше": "fewer|less|not as many|cut" }
+   }
+  ]
+ },
+ {
+  "id": 1948, "w": "refill the bowl", "uk": "знову наповнити миску", "lvl": "B1",
+  "forms": "refill|refills|refilled|refilled|refilling",
+  "tail": "bowl*",
+  "near": "fill|fills|filled|filling|top up|topped up|top off|pour*",
+  "tasks": [
+   {
+    "sit": "Спекотний день, а в собаки на подвір’ї вже порожня миска.",
+    "say": "Треба знову налити їй води в миску.",
+    "ans": ["I need to refill her bowl with water.", "I have to refill her water bowl.", "Let me refill her water bowl real quick."],
+    "keys": { "вода": "water" }
+   },
+   {
+    "sit": "Ти залишаєш інструкції людині, яка доглядатиме твого кота, поки ти у відрядженні.",
+    "say": "Наповнюй миску кормом двічі на день.",
+    "ans": ["Refill the bowl with food twice a day.", "Please refill his food bowl twice a day.", "Just refill his bowl twice a day, morning and evening."],
+    "keys": { "двічі на день": "twice|two times|morning" }
+   },
+   {
+    "sit": "Син обіцяв доглядати хом’яка, але миска знову порожня.",
+    "say": "Ти знову забув наповнити миску хом’яка!",
+    "ans": ["You forgot to refill the hamster’s bowl again!", "You didn’t refill the hamster’s bowl again!", "Hey, you forgot to refill the hamster’s bowl again."],
+    "keys": { "хом’як": "hamster*", "знову": "again" }
+   }
+  ]
+ },
+ {
+  "id": 1949, "w": "switch food", "uk": "змінити корм", "lvl": "B1",
+  "forms": "switch|switches|switched|switched|switching",
+  "tail": "food*",
+  "near": "change|changes|changed|changing|try new|tried new",
+  "tasks": [
+   {
+    "sit": "У кота алергія, і ветеринар підказує, що робити.",
+    "say": "Спробуймо змінити йому корм на гіпоалергенний.",
+    "ans": ["Let’s switch his food to a hypoallergenic one.", "We should switch his food to a hypoallergenic brand.", "Let’s try switching his food to a hypoallergenic one."],
+    "keys": { "гіпоалергенний": "hypoallergenic|allerg*|sensitive" }
+   },
+   {
+    "sit": "У зоомагазині продавець радить тобі новий бренд корму для собаки.",
+    "say": "Якщо міняти корм, то поступово, протягом тижня.",
+    "ans": ["If you switch food, do it gradually over a week.", "Switch the food gradually, over about a week.", "When you switch food, do it slowly over a week."],
+    "keys": { "поступово": "gradual*|slow*|little by little|step by step", "тиждень": "week*|seven days|7 days" }
+   },
+   {
+    "sit": "Подруга помічає, що твій пес став набагато енергійнішим.",
+    "say": "Ми змінили корм місяць тому, і він наче ожив.",
+    "ans": ["We switched his food a month ago, and he’s like a new dog.", "We switched food a month ago and now he’s full of energy.", "Yeah, we switched his food last month — he’s a different dog!"],
+    "keys": { "місяць тому": "month*" }
+   }
+  ]
+ },
+ {
+  "id": 1950, "w": "portion out", "uk": "порційно розкласти (корм)", "lvl": "C1",
+  "forms": "portion|portions|portioned|portioned|portioning",
+  "tail": "out",
+  "near": "measur*|divid*|split*|weigh*|share out|shared out",
+  "tasks": [
+   {
+    "sit": "Ти їдеш на тиждень, і до собаки щодня заходитиме сусід.",
+    "say": "Я вже розклав корм порціями на кожен день.",
+    "ans": ["I’ve portioned out the kibble for each day.", "I portioned out the food for every day of the week.", "I’ve already portioned out the kibble — one bag per day."],
+    "keys": { "корм": "kibble|food|meal*|bag*", "кожен день": "each|every|daily|per day|day" }
+   },
+   {
+    "sit": "Кіт на дієті, і ветеринар попросив суворо контролювати його раціон.",
+    "say": "Тепер я розкладаю йому сухий корм порціями до грама.",
+    "ans": ["Now I portion out his kibble to the gram.", "Now I portion out his dry food gram by gram.", "I’ve started portioning out his food to the exact gram."],
+    "keys": { "грам": "gram*|weigh*|exact*|precise*", "корм": "kibble|food" }
+   },
+   {
+    "sit": "Ти тримаєш курей на дачі й показуєш племінникові, як їх годувати.",
+    "say": "Спочатку розклади зерно порціями, щоб усім вистачило.",
+    "ans": ["First portion out the grain so everyone gets enough.", "Portion out the grain first, so there’s enough for all of them.", "Portion the grain out first so they all get some."],
+    "keys": { "зерно": "grain|feed|corn|seed*", "усім": "everyone|all|each|every" }
+   }
+  ]
+ },
+ {
+  "id": 1951, "w": "beg for food", "uk": "випрошувати їжу", "lvl": "B2",
+  "forms": "beg|begs|begged|begged|begging",
+  "tail": "for food",
+  "near": "ask* for food|whin*|pester*|scroung*",
+  "tasks": [
+   {
+    "sit": "Друзі прийшли на вечерю, а твій пес сидить біля столу з сумними очима.",
+    "say": "Не звертайте уваги — він завжди випрошує їжу за столом.",
+    "ans": ["Ignore him — he always begs for food at the table.", "Just ignore him, he always begs for food when we eat.", "Don’t mind him, he begs for food at every meal."],
+    "keys": { "завжди": "always|every|constantly|all the time" }
+   },
+   {
+    "sit": "Ти сидиш на терасі кафе, і до вашого столика підходить худий кіт.",
+    "say": "Цей кіт випрошує їжу в усіх відвідувачів.",
+    "ans": ["This cat begs for food from all the customers.", "That cat is begging for food at every table.", "This cat’s been begging for food from everyone here."],
+    "keys": { "усіх": "all|every*" }
+   },
+   {
+    "sit": "Кінолог питає, які погані звички є в твоєї собаки.",
+    "say": "Вона постійно випрошує їжу, коли я готую.",
+    "ans": ["She keeps begging for food when I cook.", "She always begs for food while I’m cooking.", "She begs for food nonstop whenever I’m cooking."],
+    "keys": { "готую": "cook*|kitchen" }
+   }
+  ]
+ },
+ {
+  "id": 1952, "w": "spill food", "uk": "розливати, розсипати їжу (корм)", "lvl": "B1",
+  "forms": "spill|spills|spilled/spilt|spilled/spilt|spilling",
+  "tail": "food*",
+  "near": "knock* over|knocked over|drop|drops|dropped|scatter*|make a mess|made a mess",
+  "tasks": [
+   {
+    "sit": "Ти повертаєшся додому й бачиш сухий корм по всій кухні.",
+    "say": "Кіт знову розсипав корм по всій підлозі.",
+    "ans": ["The cat spilled food all over the floor again.", "The cat has spilled its food all over the floor again.", "Ugh, the cat spilt food all over the kitchen again."],
+    "keys": { "підлога": "floor|everywhere|kitchen", "знову": "again" }
+   },
+   {
+    "sit": "Твій малюк учиться сам їсти ложкою, а бабуся хвилюється через безлад.",
+    "say": "Нічого страшного, що він розливає їжу — він учиться.",
+    "ans": ["It’s okay that he spills food — he’s learning.", "It’s fine if he spills his food, he’s just learning.", "Don’t worry about him spilling food, he’s learning."],
+    "keys": { "вчиться": "learn*|practic*" }
+   },
+   {
+    "sit": "Друг бере тебе в подорож на новенькій машині й просить не їсти в салоні.",
+    "say": "Не хвилюйся, я не розсиплю їжу в машині.",
+    "ans": ["Don’t worry, I won’t spill food in your car.", "Relax, I’m not going to spill any food in the car.", "I promise I won’t spill food in your car."],
+    "keys": { "машина": "car", "не": "not|never" }
+   }
+  ]
+ },
+ {
+  "id": 1953, "w": "overfeed", "uk": "перегодовувати", "lvl": "B2",
+  "forms": "overfeed|overfeeds|overfed|overfed|overfeeding",
+  "near": "feed too much|fed too much|too much food|spoil*",
+  "tasks": [
+   {
+    "sit": "Ветеринар зважує твого кота й хмуриться.",
+    "say": "Здається, я його перегодовую.",
+    "ans": ["I think I’m overfeeding him.", "I guess I’ve been overfeeding him.", "I’m probably overfeeding him, right?"],
+    "keys": { "здається": "think|guess|probably|seem*|maybe" }
+   },
+   {
+    "sit": "Племінник сипле рибкам в акваріум цілу жменю корму.",
+    "say": "Не перегодовуй рибок, їм вистачить щіпки.",
+    "ans": ["Don’t overfeed the fish, a pinch is enough.", "Don’t overfeed the fish — they only need a pinch.", "Hey, don’t overfeed them, just a pinch is fine."],
+    "keys": { "щіпка": "pinch|little|bit|small" }
+   },
+   {
+    "sit": "Бабуся весь час підгодовує твою собаку котлетами, коли ви в неї в гостях.",
+    "say": "Бабусю, ти її перегодовуєш — на неї вже шлейка не налазить.",
+    "ans": ["Grandma, you’re overfeeding her — her harness doesn’t fit anymore.", "Grandma, you’re overfeeding her, her harness doesn’t fit.", "Grandma, stop overfeeding her! Her harness won’t even fit."],
+    "keys": { "шлейка": "harness|collar|fit", "бабуся": "grandma|granny|grandmother|nan*" }
+   }
+  ]
+ },
+ {
+  "id": 1954, "w": "deworm", "uk": "давати глистогінне", "lvl": "C1",
+  "forms": "deworm|deworms|dewormed|dewormed|deworming",
+  "near": "worm pill*|treat* for worms|medicat*",
+  "tasks": [
+   {
+    "sit": "Ти взяв цуценя з притулку й прийшов із ним до ветеринара.",
+    "say": "Чи треба дати йому глистогінне перед щепленням?",
+    "ans": ["Do I need to deworm him before the vaccination?", "Should I deworm him before his shots?", "Does he need to be dewormed before the vaccine?"],
+    "keys": { "щеплення": "vaccin*|shot*|jab*" }
+   },
+   {
+    "sit": "Ти тримаєш кіз на дачі й обговорюєш графік догляду із сусідом-фермером.",
+    "say": "Я даю козам глистогінне кожні три місяці.",
+    "ans": ["I deworm the goats every three months.", "I deworm my goats every three months.", "I usually deworm the goats every three months or so."],
+    "keys": { "кози": "goat*", "три місяці": "three|3|quarter*" }
+   },
+   {
+    "sit": "Телефон показує нагадування, яке ти поставив місяць тому.",
+    "say": "Сьогодні треба дати котові глистогінне.",
+    "ans": ["I need to deworm the cat today.", "I have to deworm the cat today.", "Oh right, the cat needs deworming today."],
+    "keys": { "кіт": "cat*|kitty", "сьогодні": "today|tonight" }
+   }
+  ]
+ },
+ {
+  "id": 1955, "w": "groom", "uk": "грумити (доглядати шерсть тварини)", "lvl": "B2",
+  "forms": "groom|grooms|groomed|groomed|grooming",
+  "near": "brush*|trim*|wash*|clip*|haircut",
+  "tasks": [
+   {
+    "sit": "Ти телефонуєш у салон для тварин, щоб записатися.",
+    "say": "Можна записати мого пуделя на грумінг у суботу?",
+    "ans": ["Could I get my poodle groomed on Saturday?", "Can you groom my poodle on Saturday?", "Hi, could I bring my poodle in to be groomed on Saturday?"],
+    "keys": { "пудель": "poodle|dog", "субота": "saturday" }
+   },
+   {
+    "sit": "На співбесіді в зоосалоні тебе питають, що ти вмієш.",
+    "say": "Я вмію грумити собак будь-якої породи.",
+    "ans": ["I can groom dogs of any breed.", "I know how to groom all kinds of breeds.", "I can groom pretty much any breed."],
+    "keys": { "будь-якої породи": "any|all|every|breed*" }
+   },
+   {
+    "sit": "Подруга дивується, що твій довгошерстий кіт завжди виглядає так охайно.",
+    "say": "Я сам грумлю його щонеділі.",
+    "ans": ["I groom him myself every Sunday.", "I groom him on my own every Sunday.", "I just groom him myself every Sunday."],
+    "keys": { "сам": "myself|my own|own", "щонеділі": "sunday*|week*" }
+   }
+  ]
+ },
+ {
+  "id": 1957, "w": "brush", "uk": "розчісувати (шерсть)", "lvl": "A2",
+  "forms": "brush|brushes|brushed|brushed|brushing",
+  "near": "comb|combs|combed|combing|groom*",
+  "tasks": [
+   {
+    "sit": "Твоя кішка дуже линяє, і шерсть по всій квартирі.",
+    "say": "Тепер я розчісую її щодня.",
+    "ans": ["Now I brush her every day.", "I brush her fur every day now.", "I brush her every single day now."],
+    "keys": { "щодня": "every day|daily|each day|every single day" }
+   },
+   {
+    "sit": "Донька хоче допомогти тобі з собакою.",
+    "say": "Можеш розчесати собаку?",
+    "ans": ["Can you brush the dog?", "Could you brush the dog, please?", "Can you brush the dog’s fur for me?"],
+    "keys": { "собака": "dog*|puppy" }
+   },
+   {
+    "sit": "На уроці верхової їзди інструктор дає тобі щітку.",
+    "say": "Спершу треба розчесати коня.",
+    "ans": ["First we need to brush the horse.", "We need to brush the horse first.", "Let me brush the horse first."],
+    "keys": { "кінь": "horse*|pony", "спершу": "first|before" }
+   }
+  ]
+ },
+ {
+  "id": 1958, "w": "trim nails", "uk": "підстригати пазурі (кігті)", "lvl": "B2",
+  "forms": "trim|trims|trimmed|trimmed|trimming",
+  "tail": "nail*/claw*",
+  "near": "cut|cuts|cutting|clip|clips|clipped|clipping",
+  "tasks": [
+   {
+    "sit": "Собака ходить кухнею, і ти чуєш гучне цокання.",
+    "say": "Треба підстригти їй пазурі — вони цокають по підлозі.",
+    "ans": ["I need to trim her nails, they’re clicking on the floor.", "I have to trim her nails — they click on the floor.", "Time to trim her nails, listen to them clicking on the floor!"],
+    "keys": { "підлога": "floor|click*|noise|sound" }
+   },
+   {
+    "sit": "Кіт не дає тобі торкатися лап, тож ти пішов до ветклініки.",
+    "say": "Можете підстригти йому кігті? Я сам боюся.",
+    "ans": ["Can you trim his nails? I’m scared to do it myself.", "Could you trim his claws? I’m afraid to do it.", "Would you mind trimming his nails? I’m too scared to try."],
+    "keys": { "боюся": "scared|afraid|nervous|fear*" }
+   },
+   {
+    "sit": "У зоомагазині ти купуєш спеціальні ножиці для кролика.",
+    "say": "Я вперше підстригатиму кролику пазурі.",
+    "ans": ["I’m going to trim my rabbit’s nails for the first time.", "It’ll be my first time trimming the rabbit’s nails.", "I’ve never trimmed my rabbit’s nails before."],
+    "keys": { "кролик": "rabbit*|bunny", "вперше": "first|never" }
+   }
+  ]
+ },
+ {
+  "id": 1959, "w": "clean ears", "uk": "чистити вуха (тварині)", "lvl": "B2",
+  "forms": "clean|cleans|cleaned|cleaned|cleaning",
+  "tail": "ear*",
+  "near": "wipe|wipes|wiped|wiping|wash*|swab*",
+  "tasks": [
+   {
+    "sit": "Собака часто трясе головою, і ветеринар оглядає її.",
+    "say": "Як часто треба чистити їй вуха?",
+    "ans": ["How often should I clean her ears?", "How often do I need to clean her ears?", "So how often should I be cleaning her ears?"],
+    "keys": { "як часто": "how often|how many times|frequen*" }
+   },
+   {
+    "sit": "Твій лабрадор щойно накупався в озері.",
+    "say": "Після купання я завжди чищу йому вуха.",
+    "ans": ["I always clean his ears after swimming.", "After a swim, I always clean his ears.", "I always clean his ears after he swims."],
+    "keys": { "купання": "swim*|lake|water|bath*" }
+   },
+   {
+    "sit": "Донька хоче допомагати доглядати кота, і ти показуєш їй, як це робити.",
+    "say": "Вуха чистимо обережно, ватним диском.",
+    "ans": ["We clean his ears gently, with a cotton pad.", "Clean his ears carefully with a cotton pad.", "Gently clean his ears with a cotton pad, okay?"],
+    "keys": { "обережно": "gentl*|careful*|soft*", "ватний диск": "cotton*|pad*" }
+   }
+  ]
+ },
+ {
+  "id": 1960, "w": "shed fur", "uk": "линяти, скидати шерсть", "lvl": "B2",
+  "forms": "shed|sheds|shed|shed|shedding",
+  "tail": "fur/hair",
+  "near": "moult*|molt*|lose fur|losing fur|lost fur|lose hair|losing hair",
+  "tasks": [
+   {
+    "sit": "Ти прийшов до друга в чорному костюмі, а в нього хаскі.",
+    "say": "Твій хаскі так сильно линяє — я весь у шерсті.",
+    "ans": ["Your husky sheds so much fur, I’m covered in it.", "Your husky is shedding fur all over me.", "Wow, your husky sheds fur like crazy!"],
+    "keys": { "хаскі": "husk*|dog", "так сильно": "so much|a lot|like crazy|all over|everywhere|tons" }
+   },
+   {
+    "sit": "Ви обираєте собаку, але в дружини алергія.",
+    "say": "Нам потрібна порода, яка майже не линяє.",
+    "ans": ["We need a breed that doesn’t shed much hair.", "We need a breed that barely sheds hair.", "We’re looking for a breed that hardly sheds any hair."],
+    "keys": { "порода": "breed*|dog", "майже не": "not|barely|hardly|little" }
+   },
+   {
+    "sit": "Весна, і ти щоранку прибираєш пилососом котячу шерсть.",
+    "say": "Навесні кіт линяє просто жахливо.",
+    "ans": ["In spring the cat sheds fur like crazy.", "The cat sheds a lot of fur in the spring.", "Every spring the cat sheds tons of fur."],
+    "keys": { "весна": "spring" }
+   }
+  ]
+ },
+ {
+  "id": 1961, "w": "give a bath", "uk": "викупати (когось)", "lvl": "B1",
+  "forms": "give|gives|gave|given|giving",
+  "tail": "bath*",
+  "near": "wash|washes|washed|washing|bathe*|bathing|shower*",
+  "tasks": [
+   {
+    "sit": "Собака повернулася з прогулянки вся в болоті.",
+    "say": "Треба її викупати, поки вона не залізла на диван.",
+    "ans": ["I need to give her a bath before she gets on the couch.", "We have to give her a bath before she jumps on the sofa.", "Time to give her a bath before she gets on the couch!"],
+    "keys": { "диван": "couch|sofa" }
+   },
+   {
+    "sit": "Ви з дружиною вирішуєте, хто чим займеться ввечері.",
+    "say": "Я викупаю малого, а ти приготуй вечерю.",
+    "ans": ["I’ll give the baby a bath, and you make dinner.", "I’ll give the baby a bath while you cook dinner.", "Let me give the baby a bath and you handle dinner."],
+    "keys": { "малий": "baby|kid*|child*|little one|son", "вечеря": "dinner|supper|cook*" }
+   },
+   {
+    "sit": "Друг питає, чи легко купати кота.",
+    "say": "Я один раз викупав кота — досі маю подряпини.",
+    "ans": ["I gave my cat a bath once — I still have scratches.", "I once gave the cat a bath, and I still have the scratches.", "I gave my cat a bath one time — still got the scratches to prove it."],
+    "keys": { "подряпини": "scratch*", "один раз": "once|one time" }
+   }
+  ]
+ },
+ {
+  "id": 1962, "w": "pick fleas", "uk": "вибирати бліх", "lvl": "C1",
+  "forms": "pick|picks|picked|picked|picking",
+  "tail": "flea*",
+  "near": "remov*|comb out|combed out|get rid of|kill*",
+  "tasks": [
+   {
+    "sit": "Кіт повернувся з дачі весь у бліхах, а засіб від них привезуть лише завтра.",
+    "say": "Поки що я вибираю бліх вручну.",
+    "ans": ["For now I’m picking fleas off him by hand.", "I’m picking the fleas off by hand for now.", "I’m just picking fleas off him by hand until then."],
+    "keys": { "вручну": "hand*|finger*|tweezers" }
+   },
+   {
+    "sit": "Ви з дитиною в зоопарку дивитеся на мавп.",
+    "say": "Дивись, мавпи вибирають одна в одної бліх.",
+    "ans": ["Look, the monkeys are picking fleas off each other.", "Look — those monkeys are picking fleas off one another.", "See? They’re picking fleas off each other."],
+    "keys": { "одна в одної": "each other|one another" }
+   },
+   {
+    "sit": "Сусідка бачить, як ти на лавці уважно шукаєш щось у шерсті собаки.",
+    "say": "Вибираю бліх — він набрався їх у полі.",
+    "ans": ["I’m picking fleas off him — he got them in the field.", "Just picking fleas; he caught them in the field.", "Picking fleas off him, he got them running around in the field."],
+    "keys": { "поле": "field*|grass|meadow" }
+   }
+  ]
+ },
+ {
+  "id": 1963, "w": "blow-dry", "uk": "сушити феном (шерсть тварини)", "lvl": "C1",
+  "forms": "blow-dry|blow-dries|blow-dried|blow-dried|blow-drying",
+  "near": "dry|dries|dried|drying|towel*|dryer",
+  "tasks": [
+   {
+    "sit": "Ти щойно викупав самоїда, і він увесь мокрий.",
+    "say": "Тепер треба висушити йому шерсть феном, інакше вона збʼється в ковтуни.",
+    "ans": ["Now I need to blow-dry his coat, or it’ll get matted.", "I have to blow-dry his coat, otherwise it gets tangled.", "Now I’ve got to blow-dry him so the fur doesn’t mat."],
+    "keys": { "ковтуни": "mat*|tangl*|knot*|clump*" }
+   },
+   {
+    "sit": "Ти за лаштунками на виставці собак, до виходу на ринг п’ять хвилин.",
+    "say": "Швидко посуши феном хвіст, він ще мокрий.",
+    "ans": ["Quickly blow-dry the tail, it’s still wet.", "Blow-dry the tail fast — it’s still wet.", "Can you quickly blow-dry the tail? It’s still wet."],
+    "keys": { "хвіст": "tail", "мокрий": "wet|damp" }
+   },
+   {
+    "sit": "Подруга питає, чи твій кіт спокійно ставиться до фена.",
+    "say": "Коли я сушу його феном, він ховається під ліжко.",
+    "ans": ["When I blow-dry him, he hides under the bed.", "He hides under the bed whenever I try to blow-dry him.", "Every time I blow-dry him, he runs under the bed."],
+    "keys": { "ліжко": "bed", "ховається": "hid*|run*|escape*" }
+   }
+  ]
+ },
+ {
+  "id": 1964, "w": "train", "uk": "дресирувати", "lvl": "A2",
+  "forms": "train|trains|trained|trained|training",
+  "near": "teach|teaches|taught|teaching",
+  "tasks": [
+   {
+    "sit": "Ти взяв цуценя, і сусід питає, чи воно вже слухається.",
+    "say": "Я дресирую його щодня.",
+    "ans": ["I train him every day.", "I’m training him every day.", "I train him a little every day."],
+    "keys": { "щодня": "every day|daily|each day" }
+   },
+   {
+    "sit": "Друг хоче собаку, але працює допізна.",
+    "say": "Собаку треба дресирувати, а на це потрібен час.",
+    "ans": ["You need to train a dog, and that takes time.", "Training a dog takes a lot of time.", "A dog needs training, and that takes time."],
+    "keys": { "час": "time" }
+   },
+   {
+    "sit": "На дитячому святі чоловік показує собаку, яка «рахує» до п’яти.",
+    "say": "Як ви видресирували її рахувати?",
+    "ans": ["How did you train her to count?", "How did you train your dog to count?", "Wow, how did you train her to count like that?"],
+    "keys": { "рахувати": "count*|number*" }
+   }
+  ]
+ },
+ {
+  "id": 1965, "w": "housetrain", "uk": "привчати до туалету (тварину)", "lvl": "C1",
+  "forms": "housetrain/house-train|housetrains/house-trains|housetrained/house-trained|housetrained/house-trained|housetraining/house-training",
+  "near": "potty train*|toilet train*|housebreak*|housebroken",
+  "tasks": [
+   {
+    "sit": "У тебе двомісячне цуценя, і на килимі вже третя калюжа за день.",
+    "say": "Мені терміново треба привчити його до туалету.",
+    "ans": ["I really need to housetrain him.", "I urgently need to housetrain this puppy.", "I seriously need to housetrain him, like, now."],
+    "keys": { "терміново": "urgent*|really|seriously|now|asap|soon" }
+   },
+   {
+    "sit": "Друг питає, скільки часу пішло, щоб твоя собака почала ходити в туалет лише надворі.",
+    "say": "Я привчив її до туалету приблизно за місяць.",
+    "ans": ["I housetrained her in about a month.", "It took me about a month to housetrain her.", "Housetraining her took about a month."],
+    "keys": { "місяць": "month" }
+   },
+   {
+    "sit": "У притулку ти розпитуєш волонтера про дорослого пса.",
+    "say": "Він уже привчений до туалету?",
+    "ans": ["Is he already housetrained?", "Has he been housetrained yet?", "Is he housetrained already?"],
+    "keys": { "вже": "already|yet" }
+   }
+  ]
+ },
+ {
+  "id": 1966, "w": "teach a trick", "uk": "навчити трюку", "lvl": "B1",
+  "forms": "teach|teaches|taught|taught|teaching",
+  "tail": "trick*",
+  "near": "train|trains|trained|training|show|showed|shown",
+  "tasks": [
+   {
+    "sit": "Ти граєшся з собакою в парку, а діти навколо захоплено дивляться.",
+    "say": "Я навчив його новому трюку — він дає лапу.",
+    "ans": ["I taught him a new trick — he gives a paw.", "I’ve taught him a new trick: he shakes paws.", "I taught him a cool new trick — watch him give a paw!"],
+    "keys": { "новий": "new", "лапа": "paw*|shake*|hand*" }
+   },
+   {
+    "sit": "Ти дивишся відео, де папуга вітається з господарем.",
+    "say": "Хочу навчити нашого папугу такого ж трюку.",
+    "ans": ["I want to teach our parrot the same trick.", "I’d love to teach our parrot that trick too.", "Let’s teach our parrot that trick!"],
+    "keys": { "папуга": "parrot*|bird" }
+   },
+   {
+    "sit": "Друг каже, що старого собаку вже нічого не навчиш. Твоєму псу десять років.",
+    "say": "А я щойно навчив свого десятирічного пса новому трюку.",
+    "ans": ["I just taught my dog a new trick, and he’s ten.", "I’ve just taught him a new trick — at ten years old!", "Well, I just taught my ten-year-old a new trick!"],
+    "keys": { "десятирічного": "ten*|10*|old" }
+   }
+  ]
+ },
+ {
+  "id": 1967, "w": "sit", "uk": "«сидіти» (команда собаці)", "lvl": "A1",
+  "forms": "sit|sits|sat|sat|sitting",
+  "near": "stay|lie down|down",
+  "tasks": [
+   {
+    "sit": "Ти вчиш цуценя першої команди й тримаєш у руці смаколик.",
+    "say": "Сидіти! Молодець!",
+    "ans": ["Sit! Good boy!", "Sit! Good dog!", "Sit, buddy! Good boy!"],
+    "keys": { "молодець": "good|well done|nice" }
+   },
+   {
+    "sit": "Прийшли гості, а твоя собака радісно стрибає на них біля дверей.",
+    "say": "Сидіти! Не стрибай на людей.",
+    "ans": ["Sit! Don’t jump on people.", "Sit! No jumping on people!", "Sit! Don’t jump on our guests."],
+    "keys": { "стрибай": "jump*" }
+   },
+   {
+    "sit": "Ви з собакою стоїте біля дороги й чекаєте на зелене світло.",
+    "say": "Сидіти і чекати.",
+    "ans": ["Sit and wait.", "Sit and wait for the green light.", "Sit, buddy — wait for green."],
+    "keys": { "чекати": "wait*" }
+   }
+  ]
+ },
+ {
+  "id": 1968, "w": "stay", "uk": "«стояти, не рухатися» (команда тварині)", "lvl": "A1",
+  "forms": "stay|stays|stayed|stayed|staying",
+  "near": "wait|freeze|do not move|not move",
+  "tasks": [
+   {
+    "sit": "Ти відчиняєш двері кур’єру, а пес уже біля порога.",
+    "say": "Стій тут! Нікуди не йди.",
+    "ans": ["Stay here! Don’t go anywhere.", "Stay right here, buddy.", "Stay there! Good boy, stay."],
+    "keys": { "тут": "here|there" }
+   },
+   {
+    "sit": "У парку ти хочеш сфотографувати собаку на лавці й відходиш на кілька кроків.",
+    "say": "Стій! Ще секунду… Молодець!",
+    "ans": ["Stay! One more second… Good girl!", "Stay, stay… just one more second. Good girl!", "Stay! Just a second more… good girl!"],
+    "keys": { "секунду": "second|moment|sec" }
+   },
+   {
+    "sit": "На пляжі ти хочеш кинути м’ячик, але спершу собака має дочекатися сигналу.",
+    "say": "Стій, поки я не скажу «можна»!",
+    "ans": ["Stay until I say okay!", "Stay till I say so!", "Stay… stay… until I say go!"],
+    "keys": { "поки не скажу": "until|till|say" }
+   }
+  ]
+ }
+]

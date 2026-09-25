@@ -1,0 +1,627 @@
+[
+ {
+  "id": 1264, "w": "compose", "uk": "складати, писати (музику)", "lvl": "B2",
+  "forms": "compose|composes|composed|composed|composing",
+  "near": "writ*|wrote|creat*|make|made",
+  "tasks": [
+   {
+    "sit": "Ви з подругою на концерті у філармонії. Вона питає про симфонію, яку зараз гратимуть.",
+    "say": "Бетховен створив цю симфонію, коли вже був глухим.",
+    "ans": ["Beethoven composed this symphony when he was already deaf.", "This symphony was composed when Beethoven was already deaf.", "He composed this symphony after he’d gone deaf."],
+    "keys": { "глухий": "deaf" }
+   },
+   {
+    "sit": "Під час титрів друг захоплюється саундтреком і питає, хто автор музики.",
+    "say": "Музику до цього фільму написав Ганс Ціммер.",
+    "ans": ["Hans Zimmer composed the music for this film.", "The music for this movie was composed by Hans Zimmer.", "The soundtrack was composed by Hans Zimmer."],
+    "keys": { "музика": "music|score|soundtrack", "Ціммер": "zimmer|hans" }
+   },
+   {
+    "sit": "Ти музикант. Гості на весіллі сестри питають, чия це була мелодія для першого танцю.",
+    "say": "Я сам склав цю мелодію для весілля сестри.",
+    "ans": ["I composed this melody for my sister’s wedding myself.", "I composed the tune myself for my sister’s wedding.", "I actually composed it myself for my sister’s wedding."],
+    "keys": { "весілля": "wedding", "сестра": "sister" }
+   }
+  ]
+ },
+ {
+  "id": 1265, "w": "tune", "uk": "настроювати (інструмент)", "lvl": "B2",
+  "forms": "tune|tunes|tuned|tuned|tuning",
+  "near": "adjust*|fix*|set up",
+  "tasks": [
+   {
+    "sit": "Друзі просять тебе зіграти щось біля вогнища, а гітара давно лежала в чохлі.",
+    "say": "Зачекайте хвилинку, мені треба настроїти гітару.",
+    "ans": ["Wait a minute, I need to tune my guitar.", "Hang on, I have to tune the guitar first.", "One sec, I just need to tune my guitar."],
+    "keys": { "гітара": "guitar" }
+   },
+   {
+    "sit": "Ти граєш на старому бабусиному піаніно, і деякі клавіші звучать фальшиво.",
+    "say": "Це піаніно не настроювали вже багато років.",
+    "ans": ["This piano hasn’t been tuned for years.", "Nobody has tuned this piano in years.", "This piano hasn’t been tuned in ages."],
+    "keys": { "піаніно": "piano", "багато років": "years|ages|long time|decade*" }
+   },
+   {
+    "sit": "Подруга дивується, як ти без слуху так швидко готуєш укулеле до гри.",
+    "say": "Я настроюю укулеле за допомогою програми на телефоні.",
+    "ans": ["I tune my ukulele with an app on my phone.", "I use a phone app to tune my ukulele.", "I just tune my ukulele using an app."],
+    "keys": { "програма": "app*|application|tuner", "укулеле": "ukulele|uke" }
+   }
+  ]
+ },
+ {
+  "id": 1266, "w": "jam", "uk": "джемувати (грати разом)", "lvl": "C1",
+  "forms": "jam|jams|jammed|jammed|jamming",
+  "near": "play* together|play* with|played together|played with",
+  "tasks": [
+   {
+    "sit": "Колега питає, що за гуркіт чути щоп’ятниці з твого двору.",
+    "say": "По пʼятницях ми з друзями джемуємо в гаражі.",
+    "ans": ["On Fridays my friends and I jam in the garage.", "My friends and I jam in the garage every Friday.", "Every Friday we get together and jam in the garage."],
+    "keys": { "пʼятниця": "friday*", "гараж": "garage" }
+   },
+   {
+    "sit": "Ти ведеш друга-гітариста в бар із живою музикою й пояснюєш, що там особливого.",
+    "say": "Тут будь-хто може вийти на сцену й поджемувати з гуртом.",
+    "ans": ["Here anyone can get on stage and jam with the band.", "Anyone can jump on stage and jam with the band here.", "At this bar, anyone can go up and jam with the band."],
+    "keys": { "гурт": "band|musicians", "будь-хто": "anyone|anybody|everyone" }
+   },
+   {
+    "sit": "Тебе питають, як ти познайомився з барабанщиком свого гурту.",
+    "say": "Ми познайомилися, коли випадково джемували разом на фестивалі.",
+    "ans": ["We met when we ended up jamming together at a festival.", "We met while jamming at a festival.", "We actually met jamming together at a festival."],
+    "keys": { "фестиваль": "festival", "познайомилися": "met|meet" }
+   }
+  ]
+ },
+ {
+  "id": 1267, "w": "record", "uk": "записувати (музику, звук)", "lvl": "B1",
+  "forms": "record|records|recorded|recorded|recording",
+  "near": "tape*|film*|shoot*",
+  "tasks": [
+   {
+    "sit": "Журналіст місцевого радіо питає твій гурт, як усе починалося.",
+    "say": "Ми записали перший альбом у підвалі.",
+    "ans": ["We recorded our first album in a basement.", "Our first album was recorded in a basement.", "We recorded our very first album in my basement."],
+    "keys": { "альбом": "album|record|ep", "підвал": "basement|cellar" }
+   },
+   {
+    "sit": "Новий знайомий питає, чим ти займаєшся у вільний час.",
+    "say": "Щотижня я записую подкаст із другом.",
+    "ans": ["I record a podcast with a friend every week.", "Every week my friend and I record a podcast.", "We record a podcast together every week."],
+    "keys": { "подкаст": "podcast*|show|episode*", "щотижня": "week*" }
+   },
+   {
+    "sit": "Сестра співала на кухні, думаючи, що вдома нікого немає. Ти показуєш їй телефон.",
+    "say": "Я записав, як ти співаєш, — послухай!",
+    "ans": ["I recorded you singing — listen!", "I recorded your singing — have a listen!", "Listen, I recorded you singing!"],
+    "keys": { "співаєш": "sing*", "послухай": "listen" }
+   }
+  ]
+ },
+ {
+  "id": 1268, "w": "mix", "uk": "зводити (аудіо)", "lvl": "B2",
+  "forms": "mix|mixes|mixed|mixed|mixing",
+  "near": "master*|edit*|blend*|produc*",
+  "tasks": [
+   {
+    "sit": "Ви з гуртом закінчили сесію в студії. Звукорежисер питає, що далі.",
+    "say": "Пісню ми вже записали, тепер її треба звести.",
+    "ans": ["We’ve recorded the song, now we need to mix it.", "The song is recorded, and now it has to be mixed.", "The track’s recorded — now we just need to mix it."],
+    "keys": { "записали": "record*" }
+   },
+   {
+    "sit": "Знайома дізналася, що ти працюєш діджеєм, і питає, як це виглядає.",
+    "say": "На вечірках я зводжу треки наживо.",
+    "ans": ["I mix tracks live at parties.", "At parties I mix tracks live.", "I mix tracks live when I DJ at parties."],
+    "keys": { "треки": "track*|song*|music", "наживо": "live" }
+   },
+   {
+    "sit": "Друг-музикант надіслав тобі чернетку пісні. Голос майже не чути за гітарами.",
+    "say": "Звучить непогано, але вокал треба звести гучніше.",
+    "ans": ["Sounds good, but the vocals need to be mixed louder.", "It’s good, but you should mix the vocals a bit louder.", "Nice, but I’d mix the vocals louder."],
+    "keys": { "вокал": "vocal*|voice", "гучніше": "loud*|higher" }
+   }
+  ]
+ },
+ {
+  "id": 1269, "w": "conduct", "uk": "диригувати", "lvl": "C1",
+  "forms": "conduct|conducts|conducted|conducted|conducting",
+  "near": "lead*|led|direct*",
+  "tasks": [
+   {
+    "sit": "Ти студент музичної академії. Викладач питає про твої плани на майбутнє.",
+    "say": "Моя мрія — диригувати справжнім оркестром.",
+    "ans": ["My dream is to conduct a real orchestra.", "I dream of conducting a real orchestra.", "I’d love to conduct a real orchestra one day."],
+    "keys": { "оркестр": "orchestra*", "мрія": "dream*|love|wish" }
+   },
+   {
+    "sit": "Ви з мамою гортаєте програмку перед концертом, і ти читаєш їй новину.",
+    "say": "Сьогодні оркестром диригує молода жінка з Японії.",
+    "ans": ["Tonight a young woman from Japan is conducting the orchestra.", "The orchestra is being conducted tonight by a young Japanese woman.", "A young Japanese woman is conducting tonight."],
+    "keys": { "Японія": "japan*", "молода": "young" }
+   },
+   {
+    "sit": "На вечірці тебе питають, чим ти займаєшся, крім роботи вчителем музики.",
+    "say": "Я диригую шкільним хором.",
+    "ans": ["I conduct the school choir.", "I’m conducting the school choir this year.", "I also conduct our school choir."],
+    "keys": { "хор": "choir|chorus", "шкільний": "school" }
+   }
+  ]
+ },
+ {
+  "id": 1270, "w": "perform", "uk": "виступати", "lvl": "B1",
+  "forms": "perform|performs|performed|performed|performing",
+  "near": "play*|sing*|sang|act*|appear*|gig*",
+  "tasks": [
+   {
+    "sit": "Ти кличеш колег послухати твій гурт.",
+    "say": "Наш гурт виступає наживо щосуботи.",
+    "ans": ["Our band performs live every Saturday.", "Every Saturday our band performs live.", "We perform live every Saturday night."],
+    "keys": { "субота": "saturday*", "наживо": "live" }
+   },
+   {
+    "sit": "За лаштунками фестивалю ти хвилюєшся й зізнаєшся другові, що тремтять руки.",
+    "say": "Я вперше виступаю перед такою великою аудиторією.",
+    "ans": ["It’s my first time performing in front of such a big audience.", "I’ve never performed in front of so many people.", "This is the first time I’m performing for such a huge crowd."],
+    "keys": { "велика аудиторія": "audience|crowd|people" }
+   },
+   {
+    "sit": "Ти показуєш туристові центр свого міста й зупиняєшся біля музиканта зі скрипкою.",
+    "say": "Цей вуличний музикант виступає тут щовечора.",
+    "ans": ["This street musician performs here every evening.", "Every night this street musician performs here.", "That busker performs here every evening."],
+    "keys": { "щовечора": "evening*|night*", "тут": "here" }
+   }
+  ]
+ },
+ {
+  "id": 1271, "w": "act", "uk": "грати (в театрі, кіно)", "lvl": "A2",
+  "forms": "act|acts|acted|acted|acting",
+  "near": "star*|perform*",
+  "tasks": [
+   {
+    "sit": "Колега питає, чому ти відпрошуєшся раніше в пʼятницю.",
+    "say": "Мій син грає у шкільній виставі.",
+    "ans": ["My son is acting in the school play.", "My son is acting in a school play this Friday.", "My son’s acting in the school play!"],
+    "keys": { "син": "son|he", "шкільна вистава": "school|play|show" }
+   },
+   {
+    "sit": "Ви з другом дивитеся серіал, і він не впізнає актрису. Ти знаєш про неї більше.",
+    "say": "Вона знімалася в кіно ще дитиною.",
+    "ans": ["She acted in films as a child.", "She has been acting in movies since she was a kid.", "She was already acting in movies as a kid."],
+    "keys": { "дитиною": "child|kid|young|little", "кіно": "film*|movie*|cinema" }
+   },
+   {
+    "sit": "Нова знайома питає, чим ти займаєшся по вечорах.",
+    "say": "Я граю в аматорському театрі для задоволення.",
+    "ans": ["I act in an amateur theater for fun.", "I act in a local amateur theatre group just for fun.", "I act in amateur theater just for fun."],
+    "keys": { "аматорський": "amateur|local|community", "театр": "theat*|drama|stage" }
+   }
+  ]
+ },
+ {
+  "id": 1272, "w": "star", "uk": "грати головну роль", "lvl": "B2",
+  "forms": "star|stars|starred|starred|starring",
+  "near": "lead* role|play* the lead|played the lead|appear*",
+  "tasks": [
+   {
+    "sit": "Ти радиш подрузі фільм на вечір і називаєш головну акторку.",
+    "say": "У цьому фільмі головну роль грає Меріл Стріп.",
+    "ans": ["Meryl Streep stars in this film.", "This movie stars Meryl Streep.", "It stars Meryl Streep, you’ll love it."],
+    "keys": { "Стріп": "streep|meryl" }
+   },
+   {
+    "sit": "Ти запрошуєш бабусю на шкільний концерт і розповідаєш, чому це важливо.",
+    "say": "Моя донька грає головну роль у шкільному мюзиклі.",
+    "ans": ["My daughter is starring in the school musical.", "My daughter stars in the school musical this year.", "My daughter’s starring in the school musical!"],
+    "keys": { "донька": "daughter|she", "мюзикл": "musical|show|play" }
+   },
+   {
+    "sit": "Ви з друзями обговорюєте кар’єру молодого актора, який раптом став знаменитим.",
+    "say": "Він зіграв головну роль у своєму першому ж фільмі.",
+    "ans": ["He starred in his very first film.", "He starred in the first movie he ever made.", "It was his very first film, and he starred in it!"],
+    "keys": { "перший": "first", "фільм": "film*|movie*" }
+   }
+  ]
+ },
+ {
+  "id": 1273, "w": "rehearse", "uk": "репетирувати", "lvl": "B2",
+  "forms": "rehearse|rehearses|rehearsed|rehearsed|rehearsing",
+  "near": "practi*|prepar*|run through|ran through",
+  "tasks": [
+   {
+    "sit": "Режисер аматорського театру питає, чи готові ви до прем’єри.",
+    "say": "Ми репетируємо цю сцену вже тиждень.",
+    "ans": ["We’ve been rehearsing this scene for a week.", "We’ve rehearsed this scene all week.", "We’ve been rehearsing this scene all week long."],
+    "keys": { "сцена": "scene", "тиждень": "week" }
+   },
+   {
+    "sit": "Колега хвалить твою впевнену презентацію перед керівництвом і питає секрет.",
+    "say": "Я кілька разів відрепетирував виступ перед дзеркалом.",
+    "ans": ["I rehearsed my speech in front of the mirror a few times.", "I rehearsed my presentation several times in front of a mirror.", "I rehearsed the whole talk in front of the mirror a few times."],
+    "keys": { "дзеркало": "mirror", "виступ": "speech|presentation|talk" }
+   },
+   {
+    "sit": "Після весілля друзі хвалять ваш перший танець і питають, як ви так навчилися.",
+    "say": "Ми репетирували перший танець три вечори поспіль.",
+    "ans": ["We rehearsed our first dance three evenings in a row.", "We rehearsed the first dance for three nights in a row.", "We rehearsed our first dance three nights straight."],
+    "keys": { "танець": "dance", "три": "three|3" }
+   }
+  ]
+ },
+ {
+  "id": 1274, "w": "dance", "uk": "танцювати", "lvl": "A1",
+  "forms": "dance|dances|danced|danced|dancing",
+  "near": "move|moving|boogie",
+  "tasks": [
+   {
+    "sit": "На вечірці ді-джей ставить пісню, яку ти обожнюєш. Ти тягнеш подругу за руку.",
+    "say": "Ходімо танцювати, це моя улюблена пісня!",
+    "ans": ["Let’s dance, it’s my favorite song!", "Come on, let’s go dance — this is my favourite song!", "Let’s dance! I love this song!"],
+    "keys": { "улюблена пісня": "favorite|favourite|song|track" }
+   },
+   {
+    "sit": "На весіллі друга всі йдуть на танцпол, а ти лишаєшся. Сусідка по столу питає чому.",
+    "say": "Я не вмію танцювати, тому просто посиджу за столом.",
+    "ans": ["I can’t dance, so I’ll just sit at the table.", "I don’t know how to dance, so I’ll stay at the table.", "I can’t dance at all, so I’ll just hang out at the table."],
+    "keys": { "стіл": "table" }
+   },
+   {
+    "sit": "Колега помічає, що ти помітно схуд, і питає, чим ти займаєшся.",
+    "say": "Я танцюю сальсу двічі на тиждень.",
+    "ans": ["I dance salsa twice a week.", "I’ve been dancing salsa twice a week.", "I dance salsa a couple of times a week."],
+    "keys": { "сальса": "salsa", "двічі": "twice|two|2|couple" }
+   }
+  ]
+ },
+ {
+  "id": 1275, "w": "choreograph", "uk": "ставити хореографію", "lvl": "C1",
+  "forms": "choreograph|choreographs|choreographed|choreographed|choreographing",
+  "near": "stage*|creat*|design*|put together",
+  "tasks": [
+   {
+    "sit": "Гості на весіллі захоплені вашим першим танцем і питають, хто його ставив.",
+    "say": "Наш весільний танець поставив мій друг-хореограф.",
+    "ans": ["My friend choreographed our wedding dance.", "Our wedding dance was choreographed by a friend of mine.", "A friend of mine choreographed our first dance."],
+    "keys": { "танець": "dance", "друг": "friend" }
+   },
+   {
+    "sit": "Ти дивишся виступ танцювальної команди на чемпіонаті й не можеш відвести очей.",
+    "say": "Хто ставив хореографію для цього номера?",
+    "ans": ["Who choreographed this routine?", "Who choreographed this number?", "Wow, who choreographed this routine?"],
+    "keys": { "номер": "routine|number|dance|this|piece" }
+   },
+   {
+    "sit": "Знайомий питає, чим займається твоя сестра-танцівниця.",
+    "say": "Вона ставить хореографію для музичних кліпів.",
+    "ans": ["She choreographs music videos.", "She choreographs dances for music videos.", "She choreographs for music videos and stuff."],
+    "keys": { "кліпи": "video*|clip*" }
+   }
+  ]
+ },
+ {
+  "id": 1276, "w": "stage", "uk": "ставити (виставу)", "lvl": "C1",
+  "forms": "stage|stages|staged|staged|staging",
+  "near": "put on|put* on|direct*|produc*",
+  "tasks": [
+   {
+    "sit": "Ти вчитель літератури й розповідаєш батькам про плани класу на весну.",
+    "say": "Цього року наш клас ставить «Ромео і Джульєтту».",
+    "ans": ["This year our class is staging Romeo and Juliet.", "Our class is staging Romeo and Juliet this year.", "This year we’re staging Romeo and Juliet."],
+    "keys": { "Ромео": "romeo|juliet", "цього року": "year" }
+   },
+   {
+    "sit": "Ти пишеш допис про театральну премʼєру для міського сайту.",
+    "say": "Театр уперше в Україні поставив цю пʼєсу.",
+    "ans": ["The theatre staged this play in Ukraine for the first time.", "This play has been staged in Ukraine for the first time.", "It’s the first time the play has been staged in Ukraine."],
+    "keys": { "Україна": "ukrain*", "уперше": "first" }
+   },
+   {
+    "sit": "Ти розповідаєш колезі, як ви з друзями розважали дітей на літніх канікулах.",
+    "say": "Ми поставили для дітей виставу просто у дворі.",
+    "ans": ["We staged a play for the kids right in the yard.", "We staged a little play in the courtyard for the kids.", "We staged a show in the yard for the kids."],
+    "keys": { "діти": "kid*|child*", "двір": "yard|courtyard|outside|garden" }
+   }
+  ]
+ },
+ {
+  "id": 1277, "w": "improvise", "uk": "імпровізувати", "lvl": "C1",
+  "forms": "improvise/improvize|improvises/improvizes|improvised/improvized|improvised/improvized|improvising/improvizing",
+  "near": "make it up|made it up|wing it|winged it|ad-lib*",
+  "tasks": [
+   {
+    "sit": "Після виступу на конференції колега хвалить тебе. Ти зізнаєшся, що все пішло не за планом.",
+    "say": "Я забув текст, тож довелося імпровізувати.",
+    "ans": ["I forgot my lines, so I had to improvise.", "I forgot what I was going to say, so I improvised.", "My mind went blank, so I just improvised."],
+    "keys": { "забув": "forg*|blank|lost" }
+   },
+   {
+    "sit": "Гості хвалять твій соус і питають рецепт.",
+    "say": "Вершків не було, тож я імпровізував з тим, що було в холодильнику.",
+    "ans": ["There was no cream, so I improvised with what was in the fridge.", "We were out of cream, so I improvised with whatever was in the fridge.", "No cream, so I improvised with what I had in the fridge."],
+    "keys": { "вершки": "cream", "холодильник": "fridge|refrigerator" }
+   },
+   {
+    "sit": "Ти ведеш друга на джазовий концерт і пояснюєш, чому щоразу він звучить по-іншому.",
+    "say": "Джазмени часто імпровізують просто на сцені.",
+    "ans": ["Jazz musicians often improvise right on stage.", "Jazz players often improvise on stage.", "Jazz musicians improvise on stage all the time."],
+    "keys": { "джаз": "jazz", "сцена": "stage|live|concert" }
+   }
+  ]
+ },
+ {
+  "id": 1278, "w": "mime", "uk": "показувати жестами", "lvl": "C1",
+  "forms": "mime|mimes|mimed|mimed|miming",
+  "near": "gestur*|act* out|acted out|pointed",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш другові, як у маленькій крамниці за кордоном ніхто не розумів англійської.",
+    "say": "Я не знав слова, тож показав жестами, що хочу пити.",
+    "ans": ["I didn’t know the word, so I mimed that I wanted a drink.", "I didn’t know the word, so I mimed drinking.", "I didn’t know how to say it, so I just mimed drinking."],
+    "keys": { "пити": "drink*|water|thirsty" }
+   },
+   {
+    "sit": "Ви з друзями граєте в «Крокодила», і настає черга подруги.",
+    "say": "Твоя черга — покажи жестами жирафу.",
+    "ans": ["Your turn — mime a giraffe.", "It’s your turn to mime a giraffe.", "Okay, your turn — mime a giraffe!"],
+    "keys": { "жирафа": "giraffe", "черга": "turn" }
+   },
+   {
+    "sit": "У клубі дуже гучна музика, і друг тебе зовсім не чує.",
+    "say": "Я жестами показав, що йду додому.",
+    "ans": ["I mimed that I was going home.", "I mimed to him that I was heading home.", "I just mimed that I was off home."],
+    "keys": { "додому": "home|leav*" }
+   }
+  ]
+ },
+ {
+  "id": 1280, "w": "boo", "uk": "освистувати", "lvl": "C1",
+  "forms": "boo|boos|booed|booed|booing",
+  "near": "hiss*|whistl*|jeer*",
+  "tasks": [
+   {
+    "sit": "Колега не дивився вчорашній матч і питає, чим усе закінчилося.",
+    "say": "Уболівальники освистали суддю після матчу.",
+    "ans": ["The fans booed the referee after the match.", "The referee was booed by the fans after the game.", "The fans booed the ref after the game."],
+    "keys": { "суддя": "referee|ref|umpire", "уболівальники": "fan*|crowd|supporter*" }
+   },
+   {
+    "sit": "Ти переказуєш подрузі, як пройшов концерт, на який ви не змогли піти.",
+    "say": "Співака освистали, бо він запізнився на дві години.",
+    "ans": ["The singer was booed because he was two hours late.", "The crowd booed the singer for being two hours late.", "They booed him — he showed up two hours late."],
+    "keys": { "запізнився": "late", "дві години": "two|2" }
+   },
+   {
+    "sit": "Ти читаєш новини вголос за сніданком.",
+    "say": "Міністра освистали під час виступу.",
+    "ans": ["The minister was booed during his speech.", "People booed the minister during his speech.", "The minister got booed in the middle of his speech."],
+    "keys": { "міністр": "minister|politician", "виступ": "speech|talk|address" }
+   }
+  ]
+ },
+ {
+  "id": 1282, "w": "scribble", "uk": "нашкрябати, поспіхом написати", "lvl": "C1",
+  "forms": "scribble|scribbles|scribbled|scribbled|scribbling",
+  "near": "jot*|writ*|wrote|note* down|noted down|scrawl*",
+  "tasks": [
+   {
+    "sit": "У кафе ти познайомився з цікавою людиною, а телефон розрядився. Потім розповідаєш про це другові.",
+    "say": "Я швиденько нашкрябав її номер на серветці.",
+    "ans": ["I quickly scribbled her number on a napkin.", "I scribbled her phone number down on a napkin.", "I just scribbled her number on a napkin."],
+    "keys": { "номер": "number", "серветка": "napkin|serviette|tissue" }
+   },
+   {
+    "sit": "Ти в аптеці й показуєш фармацевтці рецепт.",
+    "say": "Лікар щось нашкрябав, і я нічого не можу прочитати.",
+    "ans": ["The doctor scribbled something and I can’t read it.", "The doctor scribbled the prescription, and I can’t read a word.", "The doctor scribbled something and I can’t read any of it."],
+    "keys": { "прочитати": "read", "лікар": "doctor|dr" }
+   },
+   {
+    "sit": "Ти поспішав на потяг і не встиг попрощатися із сусідом по квартирі. Пишеш йому повідомлення.",
+    "say": "Я нашкрябав тобі записку й залишив на холодильнику.",
+    "ans": ["I scribbled you a note and left it on the fridge.", "I scribbled a quick note and stuck it on the fridge.", "I just scribbled a note and put it on the fridge."],
+    "keys": { "записка": "note|message", "холодильник": "fridge|refrigerator" }
+   }
+  ]
+ },
+ {
+  "id": 1283, "w": "publish", "uk": "публікувати, видавати (книгу)", "lvl": "B1",
+  "forms": "publish|publishes|published|published|publishing",
+  "near": "releas*|print*|put out|post*|come out|came out",
+  "tasks": [
+   {
+    "sit": "Ти три роки писав роман і нарешті підписав договір. Телефонуєш батькам.",
+    "say": "Мою першу книжку опублікують наступного року!",
+    "ans": ["My first book will be published next year!", "They’re going to publish my first book next year!", "My first book’s getting published next year!"],
+    "keys": { "книжка": "book|novel", "наступного року": "next year|year" }
+   },
+   {
+    "sit": "На книжковому ярмарку відвідувач питає, яке видавництво випустило твій роман.",
+    "say": "Я опублікував роман сам, без видавництва.",
+    "ans": ["I published the novel myself, without a publisher.", "I published my novel on my own, with no publisher.", "I published it myself — no publisher."],
+    "keys": { "сам": "myself|my own|self*", "без видавництва": "publisher|without|no" }
+   },
+   {
+    "sit": "Ти хвалишся колегам новиною про свою сімʼю.",
+    "say": "Моя бабуся нарешті видала збірку своїх віршів.",
+    "ans": ["My grandma has finally published a collection of her poems.", "My grandmother finally published her poetry collection.", "Grandma finally published a book of her poems!"],
+    "keys": { "вірші": "poem*|poetry", "бабуся": "grand*" }
+   }
+  ]
+ },
+ {
+  "id": 1284, "w": "blog", "uk": "вести блог", "lvl": "B1",
+  "forms": "blog|blogs|blogged|blogged|blogging",
+  "near": "post*|vlog*|write*|wrote",
+  "tasks": [
+   {
+    "sit": "На конференції тебе представляють як тревел-блогера. Ведучий просить розповісти про себе.",
+    "say": "Я веду блог про подорожі вже три роки.",
+    "ans": ["I’ve been blogging about travel for three years.", "I’ve blogged about my travels for three years.", "I’ve been blogging about travel for about three years now."],
+    "keys": { "подорожі": "travel*|trip*", "три": "three|3" }
+   },
+   {
+    "sit": "Подруга просить поради, де знайти хороші рецепти без мʼяса.",
+    "say": "Моя сестра веде блог про веганські рецепти.",
+    "ans": ["My sister blogs about vegan recipes.", "My sister blogs about vegan cooking.", "My sister blogs about vegan food, check her out."],
+    "keys": { "веганські": "vegan|plant-based|plant", "сестра": "sister" }
+   },
+   {
+    "sit": "Ти читаєш улюблений блог про технології й пишеш авторові в коментарях.",
+    "say": "Коли ви почали вести блог?",
+    "ans": ["When did you start blogging?", "When did you first start to blog?", "So when did you start blogging?"],
+    "keys": { "почали": "start*|begin|began|first" }
+   }
+  ]
+ },
+ {
+  "id": 1285, "w": "journal", "uk": "вести щоденник", "lvl": "B2",
+  "forms": "journal|journals|journaled/journalled|journaled/journalled|journaling/journalling",
+  "near": "keep* a diary|kept a diary|diary|diaries|write* down|wrote down",
+  "tasks": [
+   {
+    "sit": "Друг питає, що тобі порадили на першій зустрічі з психологом.",
+    "say": "Психолог порадив мені щовечора вести щоденник.",
+    "ans": ["My therapist advised me to journal every evening.", "My therapist suggested I journal every night.", "My therapist told me to try journaling every night."],
+    "keys": { "психолог": "therapist|psychologist|counsel*", "щовечора": "evening*|night*|daily|every day" }
+   },
+   {
+    "sit": "Колега скаржиться на безсоння й питає, як ти відпочиваєш увечері.",
+    "say": "Я веду щоденник перед сном, це допомагає заспокоїтися.",
+    "ans": ["I journal before bed, it helps me calm down.", "Journaling before bed helps me calm down.", "I journal every night before bed — it really helps me unwind."],
+    "keys": { "перед сном": "bed*|sleep*|night", "заспокоїтися": "calm*|relax*|unwind*" }
+   },
+   {
+    "sit": "Ти показуєш друзям товстий блокнот, який привіз з подорожі Італією.",
+    "say": "Під час подорожі я щодня вів щоденник.",
+    "ans": ["I journaled every day during the trip.", "I journaled every day while I was travelling.", "I journaled every single day on that trip."],
+    "keys": { "щодня": "every day|daily|day", "подорож": "trip|travel*|journey|holiday|vacation" }
+   }
+  ]
+ },
+ {
+  "id": 1286, "w": "outline", "uk": "складати план (тексту, сюжету)", "lvl": "B2",
+  "forms": "outline|outlines|outlined|outlined|outlining",
+  "near": "plan*|sketch* out|draft*|map* out|mapped out",
+  "tasks": [
+   {
+    "sit": "На зустрічі з читачами тебе, письменника, питають про твій робочий процес.",
+    "say": "Перш ніж писати роман, я складаю план сюжету.",
+    "ans": ["Before I write a novel, I outline the plot.", "I always outline the plot before writing a novel.", "I outline the whole plot before I start writing."],
+    "keys": { "сюжет": "plot|story|storyline", "перш ніж": "before|first" }
+   },
+   {
+    "sit": "Молодший брат сидить над есе й не знає, з чого почати.",
+    "say": "Спочатку склади план есе, а потім пиши.",
+    "ans": ["Outline your essay first, then start writing.", "First outline the essay, and then write it.", "Outline it first, then write."],
+    "keys": { "есе": "essay|it|paper", "спочатку": "first|before" }
+   },
+   {
+    "sit": "Ти готуєш виступ для конференції й пишеш керівниці в робочий чат.",
+    "say": "Я склав план презентації, гляньте, будь ласка.",
+    "ans": ["I’ve outlined the presentation, could you take a look?", "I’ve outlined the presentation — please have a look.", "I outlined the presentation — can you take a look?"],
+    "keys": { "презентація": "presentation|talk|slides", "гляньте": "look|check|review" }
+   }
+  ]
+ },
+ {
+  "id": 1287, "w": "narrate", "uk": "розповідати (у творі), озвучувати", "lvl": "C1",
+  "forms": "narrate|narrates|narrated|narrated|narrating",
+  "near": "read*|voic*|tell*|told",
+  "tasks": [
+   {
+    "sit": "Ти радиш колезі аудіокнигу для довгої дороги.",
+    "say": "Цю аудіокнигу озвучує відомий актор.",
+    "ans": ["This audiobook is narrated by a famous actor.", "A famous actor narrates this audiobook.", "A really famous actor narrates this one."],
+    "keys": { "відомий": "famous|well-known|known", "актор": "actor|actress" }
+   },
+   {
+    "sit": "Ви з батьком обираєте документальний фільм про природу на вечір.",
+    "say": "Цей фільм озвучує Девід Аттенборо — давай подивимося.",
+    "ans": ["This film is narrated by David Attenborough — let’s watch it.", "David Attenborough narrates this one, let’s watch it.", "It’s narrated by David Attenborough — let’s watch it!"],
+    "keys": { "Аттенборо": "attenborough|david", "подивимося": "watch*|see" }
+   },
+   {
+    "sit": "На уроці літератури вчителька питає про незвичну особливість роману.",
+    "say": "Історію розповідає собака, від першої особи.",
+    "ans": ["The story is narrated by a dog, in the first person.", "A dog narrates the story in the first person.", "The whole story is narrated by a dog."],
+    "keys": { "собака": "dog" }
+   }
+  ]
+ },
+ {
+  "id": 1288, "w": "dedicate", "uk": "присвячувати", "lvl": "B2",
+  "forms": "dedicate|dedicates|dedicated|dedicated|dedicating",
+  "near": "devot*",
+  "tasks": [
+   {
+    "sit": "На презентації твоєї першої книжки журналістка питає про напис на першій сторінці.",
+    "say": "Я присвятив цю книжку своїй мамі.",
+    "ans": ["I dedicated this book to my mom.", "This book is dedicated to my mother.", "I dedicated the book to my mum."],
+    "keys": { "мама": "mom|mum|mother" }
+   },
+   {
+    "sit": "Ти співаєш із гуртом на ювілеї весілля й береш мікрофон перед останньою піснею.",
+    "say": "Наступну пісню я хочу присвятити своїй дружині.",
+    "ans": ["I’d like to dedicate the next song to my wife.", "I want to dedicate this next song to my wife.", "This next one is dedicated to my wife."],
+    "keys": { "дружина": "wife", "пісня": "song|one|track" }
+   },
+   {
+    "sit": "Ти ведучий благодійного концерту й відкриваєш вечір.",
+    "say": "Цей концерт присвячено загиблим захисникам.",
+    "ans": ["This concert is dedicated to our fallen defenders.", "We dedicate this concert to the fallen defenders.", "Tonight’s concert is dedicated to the soldiers who died."],
+    "keys": { "загиблим": "fallen|died|killed|dead|lost|memory", "захисникам": "defender*|soldier*|hero*" }
+   }
+  ]
+ },
+ {
+  "id": 1290, "w": "rhyme", "uk": "римуватися, римувати", "lvl": "B2",
+  "forms": "rhyme|rhymes|rhymed|rhymed|rhyming",
+  "near": "match*|sound* alike",
+  "tasks": [
+   {
+    "sit": "Ти пишеш вірш для конкурсу й перечитуєш останню строфу.",
+    "say": "Ці два рядки не римуються, треба переписати.",
+    "ans": ["These two lines don’t rhyme, I need to rewrite them.", "These lines don’t rhyme — I’ll have to rewrite them.", "The two lines don’t rhyme, so I need to redo them."],
+    "keys": { "рядки": "line*", "переписати": "rewrit*|redo|change|fix" }
+   },
+   {
+    "sit": "Ти сам написав привітання на листівку до дня народження друга й показуєш дружині.",
+    "say": "Я написав привітання, і воно навіть римується!",
+    "ans": ["I wrote the message and it even rhymes!", "I wrote the card myself — it even rhymes!", "I wrote a little poem for the card, and it actually rhymes!"],
+    "keys": { "навіть": "even|actually", "привітання": "message|card|poem|wish*|greeting" }
+   },
+   {
+    "sit": "Ви з другом граєте в гру: треба знайти риму до англійського слова «помаранчевий».",
+    "say": "Із цим словом нічого не римується!",
+    "ans": ["Nothing rhymes with orange!", "Nothing rhymes with the word orange!", "Come on, nothing rhymes with orange!"],
+    "keys": { "нічого": "nothing|no word|not" }
+   }
+  ]
+ },
+ {
+  "id": 1291, "w": "knit", "uk": "вʼязати спицями", "lvl": "B2",
+  "forms": "knit|knits|knitted/knit|knitted/knit|knitting",
+  "near": "crochet*|sew*|sewn|make|made",
+  "tasks": [
+   {
+    "sit": "Колега хвалить твій теплий светр і питає, де ти його купив.",
+    "say": "Бабуся звʼязала мені цей светр на зиму.",
+    "ans": ["My grandma knitted me this sweater for the winter.", "My grandmother knit me this sweater for winter.", "My grandma knitted me this jumper for the winter."],
+    "keys": { "светр": "sweater|jumper|pullover", "бабуся": "grand*" }
+   },
+   {
+    "sit": "Подруга дивується, що ти сидиш зі спицями й клубком пряжі.",
+    "say": "Я почав вʼязати, щоб менше сидіти в телефоні.",
+    "ans": ["I started knitting so I’d spend less time on my phone.", "I started to knit so I’d spend less time on my phone.", "I’ve started knitting so I’m on my phone less."],
+    "keys": { "телефон": "phone|screen*", "менше": "less|fewer" }
+   },
+   {
+    "sit": "Ти даруєш другові на Новий рік теплий шарф ручної роботи.",
+    "say": "Я сам звʼязав тобі цей шарф.",
+    "ans": ["I knitted this scarf for you myself.", "I knitted you this scarf myself.", "I knit this scarf for you myself!"],
+    "keys": { "шарф": "scarf" }
+   }
+  ]
+ }
+]

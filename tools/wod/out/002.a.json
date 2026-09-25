@@ -1,0 +1,628 @@
+[
+ {
+  "id": 50, "w": "park", "uk": "паркувати(-ся)", "lvl": "A2",
+  "forms": "park|parks|parked|parked|parking",
+  "near": "leave|left|leaving|stop|stopped|pull over|pulled over",
+  "tasks": [
+   {
+    "sit": "Ти під’їжджаєш до нового торгового центру і не бачиш жодного вільного місця.",
+    "say": "Де тут можна припаркуватися?",
+    "ans": ["Where can I park here?", "Where can we park around here?", "Any idea where I can park?"],
+    "keys": { "де": "where|anywhere|place|spot" }
+   },
+   {
+    "sit": "Сусід стукає у двері: твоя машина заважає йому виїхати з двору.",
+    "say": "Вибачте, я зараз переставлю машину.",
+    "ans": ["Sorry, I’ll park my car somewhere else.", "I’m sorry, I’ll park the car in another place right now.", "Oh, sorry! Let me go and park it somewhere else."],
+    "keys": { "вибачте": "sorry|apologi*|excuse", "в іншому місці": "somewhere else|another place|other place|else|elsewhere" }
+   },
+   {
+    "sit": "Після концерту ви з другом виходите на величезну стоянку й не пам’ятаєте, де машина.",
+    "say": "Я не пам’ятаю, де ми припаркувалися.",
+    "ans": ["I don’t remember where we parked.", "I can’t remember where we parked the car.", "I have no idea where we parked!"],
+    "keys": { "не пам’ятаю": "not remember|forg*|no idea|not know|no clue|not recall" }
+   }
+  ]
+ },
+ {
+  "id": 51, "w": "crash", "uk": "розбити (машину), потрапити в аварію", "lvl": "B1",
+  "forms": "crash|crashes|crashed|crashed|crashing",
+  "near": "hit|hits|hitting|smash*|wreck*|had an accident|have an accident|bump*",
+  "tasks": [
+   {
+    "sit": "Колега прийшов на роботу пішки, хоча завжди їздить машиною. Ти пояснюєш іншим, що сталося.",
+    "say": "Він учора розбив машину, але сам не постраждав.",
+    "ans": ["He crashed his car yesterday, but he wasn’t hurt.", "Yesterday he crashed his car, but he’s okay.", "He crashed his car yesterday — luckily he’s fine."],
+    "keys": { "машина": "car", "вчора": "yesterday", "не постраждав": "not hurt|okay|ok|fine|alright|all right|unhurt|injur*" }
+   },
+   {
+    "sit": "Ти вперше їдеш на мотоциклі друга й дуже нервуєш.",
+    "say": "Я боюся, що розіб’ю його мотоцикл.",
+    "ans": ["I’m afraid I’ll crash his motorbike.", "I’m scared of crashing his bike.", "What if I crash his motorbike?"],
+    "keys": { "мотоцикл": "motorbike*|motorcycle*|bike*", "боюся": "afraid|scared|worried|fear*|what if|nervous" }
+   },
+   {
+    "sit": "У новинах показують аварію на трасі. Ти переказуєш рідним.",
+    "say": "Вантажівка врізалася в міст.",
+    "ans": ["A truck crashed into a bridge.", "A lorry crashed into the bridge.", "Some truck crashed right into a bridge."],
+    "keys": { "вантажівка": "truck*|lorry|lorries", "міст": "bridge*" }
+   }
+  ]
+ },
+ {
+  "id": 52, "w": "say", "uk": "казати, сказати", "lvl": "A1",
+  "forms": "say|says|said|said|saying",
+  "near": "tell|tells|told|telling|speak*|spoke*|mention*",
+  "tasks": [
+   {
+    "sit": "Ти заходиш у клас, де сидять нові одногрупники, і не знаєш, як почати.",
+    "say": "Я просто скажу всім «привіт».",
+    "ans": ["I’ll just say hello to everyone.", "I’m going to say hi to everybody.", "I’ll just say hi to everyone."],
+    "keys": { "привіт": "hello|hi|hey", "всім": "everyone|everybody|all|people|class" }
+   },
+   {
+    "sit": "Подруга питає, що відповів начальник на твоє прохання про відпустку.",
+    "say": "Він сказав «так»!",
+    "ans": ["He said yes!", "He said I can go!", "He said yes, can you believe it?"],
+    "keys": { "так": "yes|yeah|can go|ok|okay|agreed" }
+   },
+   {
+    "sit": "Іноземець у метро щось питає, але ти не розчув через шум потяга.",
+    "say": "Вибачте, що ви сказали?",
+    "ans": ["Sorry, what did you say?", "Excuse me, what did you just say?", "Sorry, what was that you said?"],
+    "keys": { "вибачте": "sorry|excuse|pardon", "що": "what" }
+   }
+  ]
+ },
+ {
+  "id": 53, "w": "tell", "uk": "розказувати, розповідати", "lvl": "A1",
+  "forms": "tell|tells|told|told|telling",
+  "near": "say|says|said|saying|explain*|describe*|share*",
+  "tasks": [
+   {
+    "sit": "Син уже в ліжку, але не хоче спати без чогось цікавого на ніч.",
+    "say": "Розкажи мені казку, будь ласка!",
+    "ans": ["Tell me a story, please!", "Please tell me a bedtime story!", "Can you tell me a story, please?"],
+    "keys": { "казка": "story|stories|fairy tale*|tale*" }
+   },
+   {
+    "sit": "Ти повернувся з поїздки до Японії, і друзі сідають навколо тебе.",
+    "say": "Зараз я розповім вам про свою подорож.",
+    "ans": ["Now I’ll tell you about my trip.", "Let me tell you about my trip to Japan.", "Okay, let me tell you all about my trip!"],
+    "keys": { "подорож": "trip*|journey*|travel*|holiday*|vacation*|japan" }
+   },
+   {
+    "sit": "Колега бачить, що ти засмучений, і питає, що сталося.",
+    "say": "Я розповім тобі все пізніше.",
+    "ans": ["I’ll tell you everything later.", "I will tell you all about it later.", "Later — I’ll tell you everything, promise."],
+    "keys": { "все": "everything|all|whole", "пізніше": "later|after*|tonight|tomorrow" }
+   }
+  ]
+ },
+ {
+  "id": 54, "w": "speak", "uk": "говорити (мовою)", "lvl": "A1",
+  "forms": "speak|speaks|spoke|spoken|speaking",
+  "near": "talk|talks|talked|talking|know|knows|use",
+  "tasks": [
+   {
+    "sit": "Ти заблукав у Берліні й хочеш запитати дорогу в перехожого.",
+    "say": "Вибачте, ви говорите англійською?",
+    "ans": ["Excuse me, do you speak English?", "Sorry, do you speak English?", "Hi, sorry — do you speak any English?"],
+    "keys": { "англійською": "english" }
+   },
+   {
+    "sit": "На співбесіді тебе питають про іноземні мови.",
+    "say": "Я вільно говорю польською і трохи німецькою.",
+    "ans": ["I speak Polish fluently and a little German.", "I speak fluent Polish and some German.", "I speak Polish really well, and a bit of German too."],
+    "keys": { "польська": "polish", "німецька": "german" }
+   },
+   {
+    "sit": "Ти знайомиш колегу зі своєю бабусею з села.",
+    "say": "Моя бабуся говорить тільки українською.",
+    "ans": ["My grandma only speaks Ukrainian.", "My grandmother speaks only Ukrainian.", "My granny just speaks Ukrainian, nothing else."],
+    "keys": { "бабуся": "grand*|granny|gran|nan*", "українською": "ukrainian" }
+   }
+  ]
+ },
+ {
+  "id": 55, "w": "talk", "uk": "розмовляти", "lvl": "A1",
+  "forms": "talk|talks|talked|talked|talking",
+  "near": "speak|speaks|spoke|spoken|speaking|chat*|discuss*",
+  "tasks": [
+   {
+    "sit": "Ти зустрів шкільного друга в кав’ярні. Удома тебе питають, чому ти так пізно.",
+    "say": "Ми з другом розмовляли кілька годин.",
+    "ans": ["My friend and I talked for hours.", "I was talking to my friend for a few hours.", "We just talked for hours with a friend."],
+    "keys": { "друг": "friend*|we", "години": "hour*" }
+   },
+   {
+    "sit": "Сестра засмучена після сварки з хлопцем і мовчить.",
+    "say": "Хочеш про це поговорити?",
+    "ans": ["Do you want to talk about it?", "Would you like to talk about it?", "Wanna talk about it?"],
+    "keys": { "хочеш": "want*|wanna|like|need" }
+   },
+   {
+    "sit": "Колега двічі перебив тебе під час наради. Ти вирішуєш поговорити з ним наодинці.",
+    "say": "Мені треба з тобою поговорити.",
+    "ans": ["I need to talk to you.", "I need to talk with you for a minute.", "Hey, can we talk? I need to talk to you."],
+    "keys": { "треба": "need*|have to|must|can we|should" }
+   }
+  ]
+ },
+ {
+  "id": 56, "w": "whisper", "uk": "шепотіти", "lvl": "B1",
+  "forms": "whisper|whispers|whispered|whispered|whispering",
+  "near": "mumble*|mutter*|murmur*|say quietly|said quietly|speak quietly|talk quietly",
+  "tasks": [
+   {
+    "sit": "Ви з подругою в бібліотеці, і вона дуже голосно розповідає новини.",
+    "say": "Тихіше, говори пошепки!",
+    "ans": ["Please whisper, we’re in the library!", "Shh, you have to whisper in here!", "Keep it down — just whisper!"],
+    "keys": { "тихіше": "shh*|please|keep it down|quiet*|library" }
+   },
+   {
+    "sit": "Ви на весіллі. Ти розповідаєш, як наречений освідчився, бо бачив усе зблизька.",
+    "say": "Він прошепотів їй щось на вухо, і вона засміялася.",
+    "ans": ["He whispered something in her ear, and she laughed.", "He whispered something into her ear and she started laughing.", "He whispered something in her ear — and she just laughed."],
+    "keys": { "на вухо": "ear*", "засміялася": "laugh*|smil*|giggl*" }
+   },
+   {
+    "sit": "Дитина спить у сусідній кімнаті, а чоловік голосно питає про вечерю.",
+    "say": "Шепочи, бо малий прокинеться!",
+    "ans": ["Whisper, or the baby will wake up!", "Please whisper — you’ll wake the baby!", "Whisper! You’re gonna wake the baby up!"],
+    "keys": { "малий": "baby|kid|child|little one|son", "прокинеться": "wake*|woke*" }
+   }
+  ]
+ },
+ {
+  "id": 57, "w": "shout", "uk": "кричати", "lvl": "A2",
+  "forms": "shout|shouts|shouted|shouted|shouting",
+  "near": "yell*|scream*|cry out|cried out|call out|called out|raise your voice|raised",
+  "tasks": [
+   {
+    "sit": "Мама сердито говорить з тобою на підвищених тонах через немиту посуду.",
+    "say": "Мамо, не кричи на мене!",
+    "ans": ["Mom, don’t shout at me!", "Mum, please don’t shout at me!", "Mom, stop shouting at me!"],
+    "keys": { "не": "not|stop|no" }
+   },
+   {
+    "sit": "Ти пірнув у холодну річку, і тебе почало зносити течією. Потім розповідаєш друзям.",
+    "say": "Я кричав про допомогу, але ніхто не чув.",
+    "ans": ["I shouted for help, but nobody heard me.", "I was shouting for help, but no one could hear me.", "I shouted for help, but no one heard a thing."],
+    "keys": { "допомога": "help", "ніхто": "nobody|no one|no-one|not|anyone" }
+   },
+   {
+    "sit": "Ви з братом на стадіоні, навколо дуже шумно.",
+    "say": "Мені доводиться кричати, щоб ти мене почув.",
+    "ans": ["I have to shout so you can hear me.", "I have to shout for you to hear me.", "I’m having to shout just so you can hear me!"],
+    "keys": { "почув": "hear*|heard" }
+   }
+  ]
+ },
+ {
+  "id": 58, "w": "yell", "uk": "горлати, кричати (з роздратуванням)", "lvl": "B1",
+  "forms": "yell|yells|yelled|yelled|yelling",
+  "near": "shout*|scream*|scold*|raise my voice|raised my voice|lose my temper|lost my temper",
+  "tasks": [
+   {
+    "sit": "Ти прийшов додому втомлений, а діти розкидали іграшки по всій квартирі.",
+    "say": "Я не хотів горлати на дітей, але не стримався.",
+    "ans": ["I didn’t want to yell at the kids, but I couldn’t help it.", "I didn’t mean to yell at the children, but I lost it.", "I didn’t mean to yell at the kids — I just snapped."],
+    "keys": { "діти": "kid*|child*|son*|daughter*", "не хотів": "not want|not mean|meant" }
+   },
+   {
+    "sit": "Сусід знову горлає на дружину так, що чути через стіну.",
+    "say": "Він знову на неї горлає.",
+    "ans": ["He’s yelling at her again.", "He is yelling at his wife again.", "Ugh, he’s yelling at her again."],
+    "keys": { "знову": "again|always|still" }
+   },
+   {
+    "sit": "На футбольному матчі тренер скаженіє, бо судді не бачать порушень. Ти коментуєш другові.",
+    "say": "Тренер горлає на суддю вже десять хвилин.",
+    "ans": ["The coach has been yelling at the referee for ten minutes.", "The coach is yelling at the ref — it’s been ten minutes.", "The coach has been yelling at the ref for like ten minutes now."],
+    "keys": { "тренер": "coach*|manager", "суддя": "referee*|ref|refs|umpire*" }
+   }
+  ]
+ },
+ {
+  "id": 59, "w": "scream", "uk": "верещати, кричати (від страху, болю)", "lvl": "B1",
+  "forms": "scream|screams|screamed|screamed|screaming",
+  "near": "shout*|yell*|shriek*|cry out|cried out|squeal*",
+  "tasks": [
+   {
+    "sit": "Ви з подругою дивилися фільм жахів, і в найстрашніший момент вона підскочила.",
+    "say": "Вона так голосно закричала, що я аж перелякався.",
+    "ans": ["She screamed so loudly that I got scared.", "She screamed so loud that I got scared too.", "She screamed so loud it scared me half to death!"],
+    "keys": { "голосно": "loud*", "перелякався": "scar*|fright*|jump*|shock*|terrif*" }
+   },
+   {
+    "sit": "Ти розповідаєш колезі, як уранці в душі побачив величезного павука.",
+    "say": "Я закричав, як дитина.",
+    "ans": ["I screamed like a child.", "I screamed like a little kid.", "Honestly, I screamed like a baby."],
+    "keys": { "як дитина": "child|kid|baby|girl|little" }
+   },
+   {
+    "sit": "Ви на американських гірках, і твій друг боїться сідати.",
+    "say": "Усі там верещать, це нормально.",
+    "ans": ["Everyone screams on it, it’s normal.", "Everybody screams on that ride — it’s totally normal.", "Don’t worry, everyone screams on it!"],
+    "keys": { "усі": "everyone|everybody|all|people", "нормально": "normal|okay|ok|fine|worry|all right|alright" }
+   }
+  ]
+ },
+ {
+  "id": 60, "w": "mumble", "uk": "бурмотіти", "lvl": "B2",
+  "forms": "mumble|mumbles|mumbled|mumbled|mumbling",
+  "near": "mutter*|murmur*|whisper*|grumble*|speak unclearly|talk quietly",
+  "tasks": [
+   {
+    "sit": "Ти питаєш сина-підлітка, чи він зробив уроки, а він щось невиразно відповідає, не відриваючись від телефону.",
+    "say": "Не бурмочи, говори чітко!",
+    "ans": ["Don’t mumble, speak clearly!", "Stop mumbling and speak up!", "Stop mumbling — just say it clearly!"],
+    "keys": { "не": "not|stop", "чітко": "clear*|up|properly|louder|loud" }
+   },
+   {
+    "sit": "Колега розбив твою чашку і вибачився так тихо, що ти ледве почув. Ти розповідаєш другові.",
+    "say": "Він пробурмотів якесь вибачення і пішов.",
+    "ans": ["He mumbled an apology and left.", "He mumbled some kind of apology and walked away.", "He just mumbled a sorry and walked off."],
+    "keys": { "вибачення": "apolog*|sorry", "пішов": "left|leave|walk*|went|go" }
+   },
+   {
+    "sit": "Дідусь розгадує кросворд і весь час щось каже сам до себе.",
+    "say": "Він постійно бурмоче собі під ніс.",
+    "ans": ["He keeps mumbling to himself.", "He’s always mumbling under his breath.", "He’s constantly mumbling something to himself."],
+    "keys": { "постійно": "keep*|always|constantly|all the time|non-stop" }
+   }
+  ]
+ },
+ {
+  "id": 61, "w": "mention", "uk": "згадувати (в розмові)", "lvl": "A2",
+  "forms": "mention|mentions|mentioned|mentioned|mentioning",
+  "near": "say|says|said|saying|talk* about|bring up|brought up|refer*",
+  "tasks": [
+   {
+    "sit": "Ти прийшов на співбесіду, і менеджерка каже, що вже чула про тебе.",
+    "say": "Наш спільний знайомий згадував ваше ім’я.",
+    "ans": ["Our mutual friend mentioned your name.", "A friend of ours mentioned your name.", "Oh, our mutual friend mentioned you, actually."],
+    "keys": { "знайомий": "friend*|acquaintance*|colleague*|contact" }
+   },
+   {
+    "sit": "Сестра готує сюрприз мамі на ювілей і просить тебе мовчати.",
+    "say": "Не згадуй про вечірку при мамі!",
+    "ans": ["Don’t mention the party in front of Mom!", "Don’t mention the party when Mom is around!", "Whatever you do, don’t mention the party to Mom!"],
+    "keys": { "вечірка": "party|surprise", "мама": "mom*|mum*|mother" }
+   },
+   {
+    "sit": "Колега дивується, що ти не знав про зміну дедлайну.",
+    "say": "На нараді ніхто про це не згадав.",
+    "ans": ["Nobody mentioned it at the meeting.", "No one mentioned that at the meeting.", "Nobody even mentioned it in the meeting!"],
+    "keys": { "нарада": "meeting*|call", "ніхто": "nobody|no one|no-one|not|anyone" }
+   }
+  ]
+ },
+ {
+  "id": 62, "w": "describe", "uk": "описувати", "lvl": "A2",
+  "forms": "describe|describes|described|described|describing",
+  "near": "tell|told|explain*|say|said|portray*",
+  "tasks": [
+   {
+    "sit": "У тебе вкрали сумку на вокзалі. Поліцейський записує заяву.",
+    "say": "Можете описати людину, яку ви бачили?",
+    "ans": ["Can you describe the person you saw?", "Could you describe the man you saw?", "Can you describe the guy you saw?"],
+    "keys": { "людина": "person|man|guy|woman|thief|him|them", "бачили": "saw|see|seen" }
+   },
+   {
+    "sit": "Друг питає про твою нову квартиру, але ти не маєш фото.",
+    "say": "Важко описати, але вона дуже світла і затишна.",
+    "ans": ["It’s hard to describe, but it’s very bright and cozy.", "It’s difficult to describe, but it’s really light and cosy.", "It’s hard to describe — it’s just really bright and cozy."],
+    "keys": { "важко": "hard|difficult|tough|tricky|not easy", "світла": "bright|light|sunny|cozy|cosy" }
+   },
+   {
+    "sit": "На уроці англійської вчителька дає завдання про родину.",
+    "say": "Опишіть свого найкращого друга трьома словами.",
+    "ans": ["Describe your best friend in three words.", "Describe your best friend using three words.", "Try to describe your best friend in just three words."],
+    "keys": { "найкращий друг": "best friend*|friend*", "три слова": "three|3|word*" }
+   }
+  ]
+ },
+ {
+  "id": 63, "w": "explain", "uk": "пояснювати", "lvl": "A2",
+  "forms": "explain|explains|explained|explained|explaining",
+  "near": "tell|told|show*|clarif*|describe*|go through|went through",
+  "tasks": [
+   {
+    "sit": "Ви з друзями сідаєте грати в нову настільну гру, а інструкція німецькою.",
+    "say": "Хто-небудь може пояснити правила?",
+    "ans": ["Can someone explain the rules?", "Could anybody explain the rules to us?", "Can anyone explain the rules, please?"],
+    "keys": { "хтось": "someone|somebody|anyone|anybody|you", "правила": "rule*|game" }
+   },
+   {
+    "sit": "Ти прийшов пізно, а дружина вже хвилюється і ставить питання.",
+    "say": "Зачекай, я все поясню!",
+    "ans": ["Wait, I’ll explain everything!", "Hold on, I can explain everything!", "Wait, wait — I can explain!"],
+    "keys": { "зачекай": "wait|hold on|hang on|second|minute|let me" }
+   },
+   {
+    "sit": "Новий колега не розуміє, як працює система звітів, і ти вирішуєш йому допомогти.",
+    "say": "Давай я поясню, як це працює.",
+    "ans": ["Let me explain how it works.", "I’ll explain how this works.", "Here, let me explain how it all works."],
+    "keys": { "як це працює": "how|work*" }
+   }
+  ]
+ },
+ {
+  "id": 64, "w": "announce", "uk": "оголошувати", "lvl": "B1",
+  "forms": "announce|announces|announced|announced|announcing",
+  "near": "declare*|tell|told|say|said|report*|publish*|reveal*",
+  "tasks": [
+   {
+    "sit": "Ти стоїш у залі на шкільному конкурсі талантів. Усі чекають результатів.",
+    "say": "Зараз оголосять переможця!",
+    "ans": ["They’re about to announce the winner!", "They’re going to announce the winner now!", "Here we go — they’re announcing the winner!"],
+    "keys": { "переможець": "winner*|win*", "зараз": "now|about to|going to|here we go|soon" }
+   },
+   {
+    "sit": "Ти з колегами в офісі. Начальник зібрав усіх, бо має важливі новини.",
+    "say": "Компанія оголосила, що ми переїжджаємо в новий офіс.",
+    "ans": ["The company announced that we’re moving to a new office.", "The company has announced we’re moving to a new office.", "They just announced we’re moving to a new office!"],
+    "keys": { "переїжджаємо": "mov*|relocat*", "офіс": "office*|building" }
+   },
+   {
+    "sit": "Ви сидите в аеропорту, і по гучномовцю щось кажуть про ваш рейс.",
+    "say": "Щойно оголосили, що наш рейс затримується.",
+    "ans": ["They just announced that our flight is delayed.", "It’s just been announced that our flight is delayed.", "They’ve just announced our flight’s delayed."],
+    "keys": { "рейс": "flight*|plane", "затримується": "delay*|late|cancel*" }
+   }
+  ]
+ },
+ {
+  "id": 66, "w": "deny", "uk": "заперечувати", "lvl": "B1",
+  "forms": "deny|denies|denied|denied|denying",
+  "near": "refuse*|reject*|reject|say no|said no|not admit|did not admit",
+  "tasks": [
+   {
+    "sit": "Ви з друзями дивитеся новини про корупційний скандал.",
+    "say": "Міністр заперечує всі звинувачення.",
+    "ans": ["The minister denies all the accusations.", "The minister has denied all the accusations.", "The minister is denying everything."],
+    "keys": { "міністр": "minister*|politician*|he|official*", "звинувачення": "accusation*|charge*|allegation*|everything|all" }
+   }
+  ,
+   {
+    "sit": "Хтось з’їв твій торт у холодильнику. Твій брат весь у кремі.",
+    "say": "Навіть не намагайся це заперечувати!",
+    "ans": ["Don’t even try to deny it!", "Don’t even try denying it!", "Come on, don’t even try to deny it!"],
+    "keys": { "навіть не": "not even|even|no point|stop" }
+   },
+   {
+    "sit": "Подруга питає, чи подобається тобі новий колега, і ти червонієш.",
+    "say": "Я не заперечую, він мені трохи подобається.",
+    "ans": ["I don’t deny it, I kind of like him.", "I can’t deny that I like him a bit.", "I won’t deny it — I kind of like him."],
+    "keys": { "подобається": "like*|fancy|crush*|into him" }
+   }
+  ]
+ },
+ {
+  "id": 67, "w": "confess", "uk": "зізнаватися", "lvl": "B2",
+  "forms": "confess|confesses|confessed|confessed|confessing",
+  "near": "admit*|own up|owned up|come clean|came clean|tell the truth|told the truth",
+  "tasks": [
+   {
+    "sit": "Ти дивишся детектив із другом. Після допиту підозрюваний нарешті здається.",
+    "say": "Він зізнався у вбивстві!",
+    "ans": ["He confessed to the murder!", "He’s confessed to the murder!", "Wow, he actually confessed to the murder!"],
+    "keys": { "вбивство": "murder*|kill*|crime" }
+   },
+   {
+    "sit": "Друг питає, чому ти так довго не розповідав йому правду про розбиту машину.",
+    "say": "Я мусив зізнатися, що це я її розбив.",
+    "ans": ["I had to confess that I broke it.", "I had to confess that it was me who damaged it.", "I had to confess — it was me who broke it."],
+    "keys": { "мусив": "had to|have to|must|needed|need to", "розбив": "broke*|break*|damag*|crash*|wreck*|smash*" }
+   },
+   {
+    "sit": "На вечірці в тебе питають про улюблені серіали, і тобі трохи ніяково.",
+    "say": "Мушу зізнатися, я люблю дурні реаліті-шоу.",
+    "ans": ["I must confess, I love silly reality shows.", "I have to confess that I love stupid reality shows.", "I’ve got to confess — I’m a big fan of trashy reality TV."],
+    "keys": { "реаліті-шоу": "reality*|show*|tv", "люблю": "love*|like*|fan|enjoy*|adore" }
+   }
+  ]
+ },
+ {
+  "id": 68, "w": "ask", "uk": "питати", "lvl": "A1",
+  "forms": "ask|asks|asked|asked|asking",
+  "near": "question*|inquir*|enquir*|find out|check|wonder*",
+  "tasks": [
+   {
+    "sit": "Лекція закінчилася, і викладач питає, чи є в когось питання.",
+    "say": "Можна запитати?",
+    "ans": ["Can I ask a question?", "May I ask a question?", "Could I ask something?"],
+    "keys": { "можна": "can|may|could" }
+   },
+   {
+    "sit": "Ти заблукав у незнайомому місті, а телефон розрядився.",
+    "say": "Я запитаю дорогу в того чоловіка.",
+    "ans": ["I’ll ask that man for directions.", "I’ll ask that guy the way.", "Let me ask that man how to get there."],
+    "keys": { "дорога": "direction*|way|how to get|get there|route", "чоловік": "man|guy|him|person|someone" }
+   },
+   {
+    "sit": "Подруга запрошує тебе на дачу на вихідні, але ви з дружиною вже мали плани.",
+    "say": "Я спитаю дружину і скажу тобі.",
+    "ans": ["I’ll ask my wife and let you know.", "Let me ask my wife and I’ll tell you.", "I’ll ask my wife and get back to you."],
+    "keys": { "дружина": "wife|partner" }
+   }
+  ]
+ },
+ {
+  "id": 69, "w": "answer", "uk": "відповідати; брати слухавку", "lvl": "A1",
+  "forms": "answer|answers|answered|answered|answering",
+  "near": "reply|replies|replied|replying|respond*|pick up|picked up|get the door|got the door",
+  "tasks": [
+   {
+    "sit": "Ти з самого ранку намагаєшся додзвонитися до брата. Мама питає, як справи.",
+    "say": "Він не бере слухавку весь день.",
+    "ans": ["He hasn’t answered the phone all day.", "He isn’t answering his phone all day.", "He’s not answering his phone — all day!"],
+    "keys": { "слухавка": "phone*|call*|calls|cell|mobile", "весь день": "all day|day|morning" }
+   },
+   {
+    "sit": "У двері дзвонять, а ти в душі.",
+    "say": "Можеш відчинити двері?",
+    "ans": ["Can you answer the door?", "Could you answer the door, please?", "Hey, can you answer the door?"],
+    "keys": { "двері": "door*" }
+   },
+   {
+    "sit": "На іспиті ти впорався з тестом майже ідеально. Розповідаєш другу.",
+    "say": "Я відповів на всі питання, крім одного.",
+    "ans": ["I answered all the questions except one.", "I answered every question but one.", "I answered all of them except one question."],
+    "keys": { "питання": "question*|them|all|every*", "крім одного": "except|but one|one" }
+   }
+  ]
+ },
+ {
+  "id": 70, "w": "reply", "uk": "відповідати (на лист, повідомлення)", "lvl": "A2",
+  "forms": "reply|replies|replied|replied|replying",
+  "near": "answer*|respond*|write back|wrote back|text back|texted back|get back|got back",
+  "tasks": [
+   {
+    "sit": "Ти надіслав резюме в компанію мрії два тижні тому.",
+    "say": "Вони досі не відповіли на мій емейл.",
+    "ans": ["They still haven’t replied to my email.", "They haven’t replied to my email yet.", "Still no reply? They haven’t replied to my email."],
+    "keys": { "емейл": "email*|e-mail*|mail|message*|application", "досі": "still|yet" }
+   },
+   {
+    "sit": "Колега просить тебе глянути повідомлення у робочому чаті, а ти вже вийшов з офісу.",
+    "say": "Я відповім тобі ввечері.",
+    "ans": ["I’ll reply to you in the evening.", "I’ll reply tonight.", "I’ll reply later this evening, okay?"],
+    "keys": { "ввечері": "evening|tonight|later" }
+   },
+   {
+    "sit": "Подруга ображена, що ти вже тиждень ігноруєш її в месенджері.",
+    "say": "Вибач, що так довго не відповідав!",
+    "ans": ["Sorry I took so long to reply!", "Sorry for not replying for so long!", "Sorry, I know it took me ages to reply!"],
+    "keys": { "вибач": "sorry|apolog*", "так довго": "long|ages|forever|week" }
+   }
+  ]
+ },
+ {
+  "id": 71, "w": "respond", "uk": "реагувати, відповідати (діями)", "lvl": "B1",
+  "forms": "respond|responds|responded|responded|responding",
+  "near": "react*|answer*|reply|replied|replies|deal with|dealt with|handle*",
+  "tasks": [
+   {
+    "sit": "Ти пишеш у підтримку інтернет-магазину про зламаний товар і хвалиш їх подрузі.",
+    "say": "Вони відреагували протягом години і все вирішили.",
+    "ans": ["They responded within an hour and fixed everything.", "They responded in less than an hour and sorted it all out.", "They responded within an hour — problem solved!"],
+    "keys": { "година": "hour*", "вирішили": "fix*|solv*|sort*|resolv*|handl*" }
+   },
+   {
+    "sit": "Лікар розповідає тобі, як мама переносить нові ліки.",
+    "say": "Вона добре реагує на лікування.",
+    "ans": ["She’s responding well to the treatment.", "She is responding well to the medicine.", "She’s responding really well to the treatment."],
+    "keys": { "добре": "well|good|great", "лікування": "treatment*|medicine*|medication*|therap*|drug*" }
+   },
+   {
+    "sit": "Під твоїм постом у соцмережі хтось написав грубий коментар. Друг радить, що робити.",
+    "say": "Краще взагалі не реагуй.",
+    "ans": ["It’s better not to respond at all.", "You’d better not respond at all.", "Honestly, just don’t respond."],
+    "keys": { "не": "not|never" }
+   }
+  ]
+ },
+ {
+  "id": 72, "w": "wonder", "uk": "цікавитися; цікаво (чи…)", "lvl": "B1",
+  "forms": "wonder|wonders|wondered|wondered|wondering",
+  "near": "ask*|curious|want to know|wanted to know|interest*",
+  "tasks": [
+   {
+    "sit": "Ти запросив однокласницю на свій день народження, але вона не відповіла.",
+    "say": "Цікаво, чи вона прийде.",
+    "ans": ["I wonder if she’ll come.", "I wonder whether she’s coming.", "I wonder if she’s gonna come."],
+    "keys": { "прийде": "come|coming|show up" }
+   },
+   {
+    "sit": "Ти сидиш у кафе й бачиш, що кухар на кухні кладе щось незвичне в соус.",
+    "say": "Цікаво, що він туди додає.",
+    "ans": ["I wonder what he’s adding to it.", "I wonder what he puts in there.", "I wonder what he’s putting in that sauce."],
+    "keys": { "що": "what", "додає": "add*|put*|use*|mix*" }
+   },
+   {
+    "sit": "Ти пишеш сусідові, у якого є дриль, бо хочеш повісити полицю.",
+    "say": "Я от думав, чи не могли б ви позичити мені дриль.",
+    "ans": ["I was wondering if you could lend me your drill.", "I was wondering whether I could borrow your drill.", "Hi! I was wondering if I could borrow your drill?"],
+    "keys": { "позичити": "lend|borrow|use", "дриль": "drill*" }
+   }
+  ]
+ },
+ {
+  "id": 73, "w": "inquire", "uk": "довідуватися, робити запит (формально)", "lvl": "B2",
+  "forms": "inquire/enquire|inquires/enquires|inquired/enquired|inquired/enquired|inquiring/enquiring",
+  "near": "ask*|find out|found out|request*|question*|check*",
+  "tasks": [
+   {
+    "sit": "Ти телефонуєш у компанію, яка розмістила вакансію дизайнера.",
+    "say": "Добрий день, я телефоную, щоб дізнатися про вакансію дизайнера.",
+    "ans": ["Hello, I’m calling to inquire about the designer position.", "Good afternoon, I’d like to inquire about the designer job.", "Hi, I’m calling to inquire about the designer vacancy."],
+    "keys": { "вакансія": "position*|job*|vacanc*|role*|opening*", "дизайнер": "design*" }
+   },
+   {
+    "sit": "Ти пишеш офіційного листа в готель перед поїздкою з родиною.",
+    "say": "Я хотів би дізнатися про наявність вільних номерів на травень.",
+    "ans": ["I would like to inquire about room availability for May.", "I’d like to inquire whether you have any rooms available in May.", "I’m writing to inquire about available rooms for May."],
+    "keys": { "номери": "room*", "травень": "may" }
+   },
+   {
+    "sit": "Твоя посилка застрягла на митниці. Ти пишеш у службу доставки.",
+    "say": "Пишу, щоб дізнатися про статус мого замовлення.",
+    "ans": ["I’m writing to inquire about the status of my order.", "I am writing to inquire about my order’s status.", "I’d like to inquire about where my order is."],
+    "keys": { "замовлення": "order*|parcel*|package*|delivery" }
+   }
+  ]
+ },
+ {
+  "id": 74, "w": "argue", "uk": "сперечатися", "lvl": "A2",
+  "forms": "argue|argues|argued|argued|arguing",
+  "near": "fight*|fought|quarrel*|debate*|disagree*|row*|bicker*",
+  "tasks": [
+   {
+    "sit": "Подруга бачить, що ти засмучений після розмови по телефону.",
+    "say": "Я знову посварився з мамою через дрібницю.",
+    "ans": ["I argued with my mom again about nothing.", "I argued with my mum again over something silly.", "Mom and I argued again over something stupid."],
+    "keys": { "мама": "mom*|mum*|mother", "знову": "again|another" }
+   },
+   {
+    "sit": "Твої діти вже годину не можуть поділити пульт від телевізора.",
+    "say": "Годі сперечатися!",
+    "ans": ["Stop arguing, both of you!", "Please stop arguing right now!", "That’s enough! Stop arguing, you two!"],
+    "keys": { "годі": "stop|enough|quit" }
+   },
+   {
+    "sit": "На нараді колега переконує всіх, що проєкт треба відкласти, але ти не згоден.",
+    "say": "Я не хочу з тобою сперечатися, але це помилка.",
+    "ans": ["I don’t want to argue with you, but it’s a mistake.", "I don’t want to argue, but this is a mistake.", "Look, I don’t want to argue, but I think it’s a mistake."],
+    "keys": { "не хочу": "not want|not wanna|not mean", "помилка": "mistake|wrong|error|bad idea" }
+   }
+  ]
+ },
+ {
+  "id": 75, "w": "complain", "uk": "скаржитися", "lvl": "A2",
+  "forms": "complain|complains|complained|complained|complaining",
+  "near": "moan*|grumble*|whine*|whinge*|protest*|make a complaint|made a complaint",
+  "tasks": [
+   {
+    "sit": "У ресторані тобі принесли холодний суп, а офіціант не реагує.",
+    "say": "Я хочу поскаржитися на їжу.",
+    "ans": ["I want to complain about the food.", "I’d like to complain about the food.", "I’m sorry, but I have to complain about the food."],
+    "keys": { "їжа": "food|soup|meal|dish" }
+   },
+   {
+    "sit": "Сусід знову розповідає, як усе погано: погода, ціни, влада.",
+    "say": "Він постійно на все скаржиться.",
+    "ans": ["He’s always complaining about everything.", "He complains about everything all the time.", "He never stops complaining about everything!"],
+    "keys": { "постійно": "always|all the time|constantly|never stops|non-stop|keep*", "на все": "everything|anything|all" }
+   },
+   {
+    "sit": "Ти не відпочивав пів року, але маєш улюблену роботу й хорошу команду.",
+    "say": "Я не можу скаржитися.",
+    "ans": ["I can’t complain.", "I really can’t complain.", "Can’t complain, honestly."],
+    "keys": { "не можу": "can not|cannot|not" }
+   }
+  ]
+ }
+]

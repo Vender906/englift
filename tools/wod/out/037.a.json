@@ -1,0 +1,1213 @@
+[
+ {
+  "id": 2028,
+  "w": "prep",
+  "uk": "підготувати (продукти)",
+  "lvl": "B2",
+  "forms": "prep|preps|prepped|prepped|prepping",
+  "near": "prepare*|get ready|got ready|chop*|cut|cutting|wash*",
+  "tasks": [
+   {
+    "sit": "Ти працюєш кухарем у кафе. Новий колега питає, чому ти приходиш на годину раніше за всіх.",
+    "say": "Я приходжу о шостій, щоб підготувати овочі до відкриття.",
+    "ans": [
+     "I come in at six to prep the vegetables before we open.",
+     "I get here at six so I can prep the veg before opening.",
+     "I come in early to prep all the veggies before we open."
+    ],
+    "keys": {
+     "овочі": "veg*",
+     "до відкриття": "open*|service|lunch|early|six|6"
+    }
+   },
+   {
+    "sit": "Ти стежиш за харчуванням, і сусід по квартирі дивується, звідки в холодильнику стільки контейнерів.",
+    "say": "У неділю я готую продукти на весь тиждень.",
+    "ans": [
+     "I prep my food for the whole week on Sunday.",
+     "On Sundays I prep all my meals for the week.",
+     "I just prep everything for the week on Sunday."
+    ],
+    "keys": {
+     "тиждень": "week*",
+     "неділя": "sunday*|weekend"
+    }
+   },
+   {
+    "sit": "Ви з друзями їдете на природу з ночівлею. Ти пропонуєш, як зекономити час на місці.",
+    "say": "Я все підготую вдома, щоб там ми лише смажили.",
+    "ans": [
+     "I’ll prep everything at home, so we just have to cook there.",
+     "Let me prep it all at home, and at the campsite we’ll just cook.",
+     "I’ll prep everything at home — then we only need to throw it on the fire."
+    ],
+    "keys": {
+     "вдома": "home|house",
+     "там": "there|camp*|fire|outside|outdoors"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2029,
+  "w": "chop",
+  "uk": "нарізати (крупно)",
+  "lvl": "B1",
+  "forms": "chop|chops|chopped|chopped|chopping",
+  "near": "cut|cuts|cutting|slice*|dice*|mince*",
+  "tasks": [
+   {
+    "sit": "Ви з сином варите суп. Він узяв ніж і дивиться на тебе.",
+    "say": "Наріж цибулю, тільки не дуже дрібно.",
+    "ans": [
+     "Chop the onion, but not too small.",
+     "Can you chop the onions? Not too finely.",
+     "Just chop the onion roughly — no need to make it tiny."
+    ],
+    "keys": {
+     "цибуля": "onion*",
+     "не дрібно": "not|rough*|big|large|chunk*"
+    }
+   },
+   {
+    "sit": "Ви з друзями на пікніку, і кожен щось робить для салату.",
+    "say": "Я наріжу огірки великими шматками для салату.",
+    "ans": [
+     "I’ll chop the cucumbers into big pieces for the salad.",
+     "Let me chop the cucumbers for the salad — big chunks.",
+     "I’ll chop up the cucumbers for the salad, nice and chunky."
+    ],
+    "keys": {
+     "огірки": "cucumber*",
+     "салат": "salad*"
+    }
+   },
+   {
+    "sit": "Ти ведеш кулінарний майстер-клас і пояснюєш групі перший крок рецепта.",
+    "say": "Спочатку наріжте моркву й селеру.",
+    "ans": [
+     "First, chop the carrots and celery.",
+     "Start by chopping the carrots and the celery.",
+     "OK, first let’s chop up the carrots and celery."
+    ],
+    "keys": {
+     "морква": "carrot*",
+     "селера": "celery"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2030,
+  "w": "dice",
+  "uk": "нарізати кубиками",
+  "lvl": "B2",
+  "forms": "dice|dices|diced|diced|dicing",
+  "near": "chop*|cut|cuts|cutting|slice*|cube*|cubing|mince*",
+  "tasks": [
+   {
+    "sit": "Ти готуєш закуски до вечірки, а подруга береться тобі допомагати.",
+    "say": "Наріж помідори дрібними кубиками для сальси.",
+    "ans": [
+     "Dice the tomatoes finely for the salsa.",
+     "Can you dice the tomatoes for the salsa? Small pieces.",
+     "Could you dice up the tomatoes for the salsa, nice and small?"
+    ],
+    "keys": {
+     "помідори": "tomato*",
+     "сальса": "salsa|dip"
+    }
+   },
+   {
+    "sit": "Ти шеф у ресторані й показуєш новому кухареві, як готувати картоплю для гарніру.",
+    "say": "Картоплю ріж кубиками приблизно по сантиметру.",
+    "ans": [
+     "Dice the potatoes into 1 cm cubes.",
+     "The potatoes should be diced, about a centimeter each.",
+     "Just dice the potatoes, roughly one centimeter."
+    ],
+    "keys": {
+     "картопля": "potato*",
+     "сантиметр": "cm|centimet*|centimetre*|inch*"
+    }
+   },
+   {
+    "sit": "Сусід по квартирі готує за рецептом і питає тебе, що там написано про перець.",
+    "say": "Тут написано нарізати перець кубиками.",
+    "ans": [
+     "It says to dice the peppers.",
+     "The recipe says you need to dice the pepper.",
+     "It says here: dice the peppers."
+    ],
+    "keys": {
+     "перець": "pepper*",
+     "написано": "say*|recipe|written"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2032,
+  "w": "mince",
+  "uk": "дрібно рубати",
+  "lvl": "C1",
+  "forms": "mince|minces|minced|minced|mincing",
+  "near": "chop*|cut|cutting|dice*|grate*|crush*",
+  "tasks": [
+   {
+    "sit": "Ви з партнером готуєте пасту, і ти доручаєш йому часник.",
+    "say": "Поруби часник якомога дрібніше.",
+    "ans": [
+     "Mince the garlic as finely as you can.",
+     "Could you mince the garlic really fine?",
+     "Just mince the garlic — as small as possible."
+    ],
+    "keys": {
+     "часник": "garlic|clove*"
+    }
+   },
+   {
+    "sit": "Під твоїм відео з рецептом глядач питає, чим ти подрібнюєш імбир.",
+    "say": "Я завжди дрібно рублю імбир ножем, а не натираю.",
+    "ans": [
+     "I always mince ginger with a knife instead of grating it.",
+     "I mince the ginger with a knife — I never grate it.",
+     "I just mince my ginger with a knife, no grater."
+    ],
+    "keys": {
+     "імбир": "ginger",
+     "ніж": "knife|hand"
+    }
+   },
+   {
+    "sit": "Ти працюєш на кухні ресторану й пояснюєш стажеру, коли готувати зелень.",
+    "say": "Петрушку треба дрібно порубати перед самою подачею.",
+    "ans": [
+     "Mince the parsley right before serving.",
+     "The parsley should be minced just before it’s served.",
+     "Only mince the parsley at the last minute, right before it goes out."
+    ],
+    "keys": {
+     "петрушка": "parsley|herb*",
+     "перед подачею": "serv*|before|last minute|goes out"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2033,
+  "w": "peel",
+  "uk": "чистити (від шкірки)",
+  "lvl": "B1",
+  "forms": "peel|peels|peeled|peeled|peeling",
+  "near": "clean*|skin*|cut|cutting|scrape*",
+  "tasks": [
+   {
+    "sit": "Мама готує вечерю й просить тебе допомогти.",
+    "say": "Добре, я почищу картоплю на вечерю.",
+    "ans": [
+     "OK, I’ll peel the potatoes for dinner.",
+     "Sure, I can peel the potatoes for dinner.",
+     "Fine, I’ll peel the potatoes for tonight’s dinner."
+    ],
+    "keys": {
+     "картопля": "potato*|spud*",
+     "вечеря": "dinner|supper|tonight"
+    }
+   },
+   {
+    "sit": "Твоя маленька племінниця тримає яблуко й не хоче їсти його зі шкіркою.",
+    "say": "Почистити тобі яблуко?",
+    "ans": [
+     "Do you want me to peel your apple?",
+     "Shall I peel the apple for you?",
+     "Want me to peel that apple for you?"
+    ],
+    "keys": {
+     "яблуко": "apple*"
+    }
+   },
+   {
+    "sit": "Ти волонтериш на кухні, що годує переселенців. Друг питає, як минув день.",
+    "say": "Ми чистили моркву дві години.",
+    "ans": [
+     "We peeled carrots for two hours.",
+     "We were peeling carrots for two hours.",
+     "We spent two hours peeling carrots!"
+    ],
+    "keys": {
+     "морква": "carrot*",
+     "дві години": "two hours|2 hours|hours"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2034,
+  "w": "grate",
+  "uk": "натирати (на тертці)",
+  "lvl": "B2",
+  "forms": "grate|grates|grated|grated|grating",
+  "near": "shred*|chop*|rub*|zest*",
+  "tasks": [
+   {
+    "sit": "Ти ставиш на стіл тарілки з пастою, а брат тримає шматок пармезану.",
+    "say": "Натри трохи сиру зверху.",
+    "ans": [
+     "Grate some cheese on top.",
+     "Can you grate a bit of cheese over it?",
+     "Go ahead and grate some cheese on top."
+    ],
+    "keys": {
+     "сир": "cheese|parmesan",
+     "зверху": "top|over"
+    }
+   },
+   {
+    "sit": "Ви з бабусею печете її фірмовий пиріг, і вона питає, з чого почати.",
+    "say": "Спочатку треба натерти моркву для пирога.",
+    "ans": [
+     "First we need to grate the carrots for the cake.",
+     "We have to grate the carrots for the cake first.",
+     "Let’s grate the carrots for the cake first."
+    ],
+    "keys": {
+     "морква": "carrot*",
+     "пиріг": "cake|pie"
+    }
+   },
+   {
+    "sit": "На тімбілдингу вашу команду вчать пекти кекс, і ти читаєш рецепт уголос.",
+    "say": "Натріть цедру одного лимона.",
+    "ans": [
+     "Grate the zest of one lemon.",
+     "Next, grate the peel of one lemon.",
+     "Now we grate the zest from one lemon."
+    ],
+    "keys": {
+     "лимон": "lemon*",
+     "цедра": "zest|peel|rind|skin"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2035,
+  "w": "crush",
+  "uk": "чавити / дробити",
+  "lvl": "B2",
+  "forms": "crush|crushes|crushed|crushed|crushing",
+  "near": "squash*|smash*|press*|grind*|ground|mash*|chop*",
+  "tasks": [
+   {
+    "sit": "Сестра шукає прес для часнику, але його в тебе немає.",
+    "say": "Просто розчави часник ножем.",
+    "ans": [
+     "Just crush the garlic with a knife.",
+     "You can crush the garlic with a knife.",
+     "No need for a press — just crush it with your knife."
+    ],
+    "keys": {
+     "ніж": "knife|blade"
+    }
+   },
+   {
+    "sit": "Ви з друзями робите мохіто на вечірці, а великі кубики льоду не влазять у склянки.",
+    "say": "Треба подрібнити лід для коктейлів.",
+    "ans": [
+     "We need to crush the ice for the cocktails.",
+     "Let’s crush some ice for the drinks.",
+     "Someone needs to crush the ice for the cocktails."
+    ],
+    "keys": {
+     "лід": "ice",
+     "коктейлі": "cocktail*|drink*|mojito*"
+    }
+   },
+   {
+    "sit": "Малий не може проковтнути велику таблетку. Ти питаєш у фармацевта, що робити.",
+    "say": "Можна роздробити таблетку? Він не може її проковтнути.",
+    "ans": [
+     "Can I crush the pill? He can’t swallow it.",
+     "Is it OK to crush the tablet? He’s unable to swallow it.",
+     "Would it be fine to crush the pill? He just can’t swallow it."
+    ],
+    "keys": {
+     "таблетка": "pill*|tablet*",
+     "проковтнути": "swallow*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2036,
+  "w": "crack",
+  "uk": "розбити (яйце)",
+  "lvl": "B1",
+  "forms": "crack|cracks|cracked|cracked|cracking",
+  "near": "break|breaks|broke|broken|breaking|open*",
+  "tasks": [
+   {
+    "sit": "Ти робиш омлет на сніданок, а партнер питає, чим допомогти.",
+    "say": "Розбий два яйця в миску.",
+    "ans": [
+     "Crack two eggs into a bowl.",
+     "Could you crack two eggs into the bowl?",
+     "Just crack a couple of eggs into that bowl."
+    ],
+    "keys": {
+     "яйця": "egg*",
+     "миска": "bowl*"
+    }
+   },
+   {
+    "sit": "Семирічна донька вперше пече з тобою печиво й хоче все робити сама.",
+    "say": "Спробуй сама розбити яйце, тільки обережно.",
+    "ans": [
+     "Try to crack the egg yourself, but be careful.",
+     "You can crack the egg yourself — just do it carefully.",
+     "Go on, crack the egg yourself, but gently."
+    ],
+    "keys": {
+     "яйце": "egg*",
+     "обережно": "careful*|gentl*|slow*"
+    }
+   },
+   {
+    "sit": "Ти в хостелі готуєш сніданок і розповідаєш сусідові по кімнаті, чому залишився без омлету.",
+    "say": "Я розбив яйце, а воно виявилося зіпсованим.",
+    "ans": [
+     "I cracked an egg and it was rotten.",
+     "I cracked the egg open, and it turned out to be bad.",
+     "So I cracked an egg, and it was totally off."
+    ],
+    "keys": {
+     "яйце": "egg*",
+     "зіпсоване": "rotten|bad|off|spoil*|gone"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2037,
+  "w": "separate",
+  "uk": "відділяти (жовток)",
+  "lvl": "B2",
+  "forms": "separate|separates|separated|separated|separating",
+  "near": "split*|divide*|remove*|take out|took out",
+  "tasks": [
+   {
+    "sit": "Ти печеш безе на день народження сестри й доручаєш другові яйця.",
+    "say": "Відділи білки від жовтків.",
+    "ans": [
+     "Separate the whites from the yolks.",
+     "Could you separate the egg whites from the yolks?",
+     "Can you separate the yolks and the whites for me?"
+    ],
+    "keys": {
+     "білки": "white*",
+     "жовтки": "yolk*"
+    }
+   },
+   {
+    "sit": "Подруга скаржиться, що жовток постійно рветься, коли вона перекладає його зі шкаралупи в шкаралупу.",
+    "say": "Я відділяю жовток руками — так найпростіше.",
+    "ans": [
+     "I separate the yolk with my hands — it’s the easiest way.",
+     "I use my hands to separate the yolk, it’s much easier.",
+     "Honestly, I just separate it with my fingers — way simpler."
+    ],
+    "keys": {
+     "руками": "hand*|finger*",
+     "найпростіше": "easiest|easy|easier|simpl*"
+    }
+   },
+   {
+    "sit": "Ти працюєш у кондитерській. Зранку менеджер питає, чим ти зайнятий.",
+    "say": "Мені треба відділити жовтки від тридцяти яєць.",
+    "ans": [
+     "I need to separate thirty eggs.",
+     "I have to separate the yolks from 30 eggs.",
+     "I’ve got thirty eggs to separate right now."
+    ],
+    "keys": {
+     "тридцять": "thirty|30",
+     "яйця": "egg*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2040,
+  "w": "beat",
+  "uk": "збивати",
+  "lvl": "B2",
+  "forms": "beat|beats|beat|beaten|beating",
+  "near": "whip*|whisk*|mix*|blend*|stir*",
+  "tasks": [
+   {
+    "sit": "Ти прикрашаєш торт до дня народження, а вершки ще зовсім рідкі.",
+    "say": "Треба збити вершки, щоб вони стали густими.",
+    "ans": [
+     "I need to beat the cream until it’s thick.",
+     "The cream has to be beaten until it gets thick.",
+     "I’ve got to beat this cream till it’s nice and stiff."
+    ],
+    "keys": {
+     "вершки": "cream",
+     "густий": "thick|stiff|firm|peak*"
+    }
+   },
+   {
+    "sit": "Ти готуєш дітям омлет і пояснюєш старшому синові, що робити.",
+    "say": "Збий яйця з молоком виделкою.",
+    "ans": [
+     "Beat the eggs with the milk using a fork.",
+     "Use a fork to beat the eggs and milk together.",
+     "Grab a fork and beat the eggs with the milk."
+    ],
+    "keys": {
+     "яйця": "egg*",
+     "молоко": "milk",
+     "виделка": "fork|whisk"
+    }
+   },
+   {
+    "sit": "Ви в орендованому будиночку в горах хочете напекти млинців, але техніки на кухні немає.",
+    "say": "Міксера немає, тож я збиватиму тісто вручну.",
+    "ans": [
+     "There’s no mixer, so I’ll beat the batter by hand.",
+     "We don’t have a mixer, so I’m going to beat the batter by hand.",
+     "No mixer here — I’ll just beat it by hand."
+    ],
+    "keys": {
+     "міксер": "mixer|blender",
+     "вручну": "hand|manual*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2041,
+  "w": "mash",
+  "uk": "розминати (у пюре)",
+  "lvl": "B2",
+  "forms": "mash|mashes|mashed|mashed|mashing",
+  "near": "crush*|squash*|smash*|puree*|blend*",
+  "tasks": [
+   {
+    "sit": "Уся родина збирається на святкову вечерю, і ти розподіляєш обов’язки на кухні.",
+    "say": "Я розімну картоплю з маслом.",
+    "ans": [
+     "I’ll mash the potatoes with butter.",
+     "I’m going to mash the potatoes with some butter.",
+     "Leave the potatoes to me — I’ll mash them with butter."
+    ],
+    "keys": {
+     "картопля": "potato*",
+     "масло": "butter"
+    }
+   },
+   {
+    "sit": "Ти вперше лишаєшся з немовлям сестри, і вона питає по телефону, чим ти його годуєш.",
+    "say": "Я розминаю банан виделкою.",
+    "ans": [
+     "I’m mashing a banana with a fork.",
+     "I mash a banana with a fork for him.",
+     "I just mash up a banana with a fork."
+    ],
+    "keys": {
+     "банан": "banana*",
+     "виделка": "fork"
+    }
+   },
+   {
+    "sit": "Ви з друзями робите гуакамоле для перегляду футболу.",
+    "say": "Розімни авокадо, але залиш трохи шматочків.",
+    "ans": [
+     "Mash the avocados, but leave some chunks.",
+     "Mash the avocado, but don’t make it totally smooth — leave a few pieces.",
+     "Mash them up, but leave a few chunks in."
+    ],
+    "keys": {
+     "шматочки": "chunk*|lump*|piece*|bit*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2044,
+  "w": "fry",
+  "uk": "смажити (на олії)",
+  "lvl": "A2",
+  "forms": "fry|fries|fried|fried|frying",
+  "near": "cook*|roast*|grill*|bake*",
+  "tasks": [
+   {
+    "sit": "Твій друг ночував у тебе й прокинувся голодний.",
+    "say": "Я засмажу тобі два яйця.",
+    "ans": [
+     "I’ll fry two eggs for you.",
+     "Let me fry you two eggs.",
+     "I can fry you a couple of eggs."
+    ],
+    "keys": {
+     "яйця": "egg*"
+    }
+   },
+   {
+    "sit": "Ти розповідаєш колезі про похід на вихідних.",
+    "say": "Ми смажили рибу на сковорідці біля озера.",
+    "ans": [
+     "We fried fish in a pan by the lake.",
+     "We fried some fish in a pan next to the lake.",
+     "We were frying fish in a pan right by the lake."
+    ],
+    "keys": {
+     "риба": "fish",
+     "озеро": "lake"
+    }
+   },
+   {
+    "sit": "Лікар порадив тобі їсти здоровіше. Подруга питає, що ти змінив.",
+    "say": "Я більше не смажу їжу, а запікаю.",
+    "ans": [
+     "I don’t fry food anymore, I bake it.",
+     "I’ve stopped frying food — now I bake it.",
+     "I never fry anything now, I just bake it in the oven."
+    ],
+    "keys": {
+     "більше не": "not|never|no longer|stopped",
+     "запікаю": "bake*|roast*|oven"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2045,
+  "w": "deep-fry",
+  "uk": "смажити у фритюрі",
+  "lvl": "B2",
+  "forms": "deep-fry|deep-fries|deep-fried|deep-fried|deep-frying",
+  "near": "fry|fries|fried|frying|cook*|bake*",
+  "tasks": [
+   {
+    "sit": "Ти купив фритюрницю й хвалишся колезі.",
+    "say": "Тепер я смажу картоплю фрі у фритюрі вдома.",
+    "ans": [
+     "Now I deep-fry chips at home.",
+     "I deep-fry my own fries at home now.",
+     "I can deep-fry French fries at home now!"
+    ],
+    "keys": {
+     "вдома": "home|house",
+     "картопля фрі": "chips|fries|potato*"
+    }
+   },
+   {
+    "sit": "Ти в ресторані й стежиш за калоріями. Питаєш офіціанта про курку в меню.",
+    "say": "Курку смажать у фритюрі чи запікають?",
+    "ans": [
+     "Is the chicken deep-fried or baked?",
+     "Do you deep-fry the chicken, or is it baked?",
+     "Is the chicken deep-fried, or is it roasted?"
+    ],
+    "keys": {
+     "курка": "chicken",
+     "запікають": "baked|roast*|grill*|oven"
+    }
+   },
+   {
+    "sit": "Ти повернувся з подорожі до Шотландії й розповідаєш друзям про місцеву вуличну їжу.",
+    "say": "У Шотландії смажать у фритюрі навіть шоколадні батончики!",
+    "ans": [
+     "In Scotland they even deep-fry chocolate bars!",
+     "They deep-fry even chocolate bars in Scotland!",
+     "In Scotland they actually deep-fry chocolate bars!"
+    ],
+    "keys": {
+     "Шотландія": "scotland|scottish",
+     "шоколад": "chocolate*|candy"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2046,
+  "w": "stir-fry",
+  "uk": "смажити з помішуванням",
+  "lvl": "B2",
+  "forms": "stir-fry|stir-fries|stir-fried|stir-fried|stir-frying",
+  "near": "fry|fries|fried|frying|sauté*|saute*|cook*",
+  "tasks": [
+   {
+    "sit": "Ти прийшов пізно з роботи, і партнер питає, що буде на вечерю.",
+    "say": "Я просто швидко посмажу овочі з помішуванням — це десять хвилин.",
+    "ans": [
+     "I’ll just stir-fry some vegetables — it takes ten minutes.",
+     "I’m going to stir-fry some veg, it’s only ten minutes.",
+     "Let me just stir-fry some veggies, it’ll take like 10 minutes."
+    ],
+    "keys": {
+     "овочі": "veg*",
+     "десять хвилин": "ten|10|minute*|quick*"
+    }
+   },
+   {
+    "sit": "Ти розповідаєш подрузі про кулінарний курс, який відвідав у Таїланді.",
+    "say": "Ми вчилися смажити локшину у воку.",
+    "ans": [
+     "We learned to stir-fry noodles in a wok.",
+     "They taught us how to stir-fry noodles in a wok.",
+     "We learned how to stir-fry noodles in a real wok."
+    ],
+    "keys": {
+     "локшина": "noodle*",
+     "вок": "wok|pan"
+    }
+   },
+   {
+    "sit": "Колега бачить у тебе на обід яскраво-зелену броколі й питає, як її приготувати, щоб не розварилась.",
+    "say": "Я не варю броколі, а швидко обсмажую, щоб вона лишалася хрусткою.",
+    "ans": [
+     "I stir-fry the broccoli so it stays crunchy.",
+     "I don’t boil broccoli, I stir-fry it quickly so it stays crisp.",
+     "I just stir-fry it for a couple of minutes so it’s still crunchy."
+    ],
+    "keys": {
+     "хрустка": "crunch*|crisp*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2047,
+  "w": "sauté",
+  "uk": "пасерувати",
+  "lvl": "C1",
+  "forms": "sauté/saute|sautés/sautes|sautéed/sauteed|sautéed/sauteed|sautéing/sauteing",
+  "near": "fry|fries|fried|frying|stir-fr*|brown*|soften*|cook*",
+  "tasks": [
+   {
+    "sit": "Ти ведеш кулінарний блог і записуєш голосом крок рецепта грибного соусу.",
+    "say": "Спочатку я пасерую цибулю, а потім додаю гриби.",
+    "ans": [
+     "First I sauté the onion, then I add the mushrooms.",
+     "I sauté the onions first and then add the mushrooms.",
+     "So first I sauté the onion, and then the mushrooms go in."
+    ],
+    "keys": {
+     "цибуля": "onion*",
+     "гриби": "mushroom*"
+    }
+   },
+   {
+    "sit": "Ти офіціант, і гість питає, як приготовані гриби в гарнірі.",
+    "say": "Гриби пасеровані на вершковому маслі з часником.",
+    "ans": [
+     "The mushrooms are sautéed in butter with garlic.",
+     "We sauté the mushrooms in butter and garlic.",
+     "They’re sautéed in garlic butter."
+    ],
+    "keys": {
+     "масло": "butter",
+     "часник": "garlic"
+    }
+   },
+   {
+    "sit": "У тебе в гостях друзі, і один здивований, що шпинат досі яскраво-зелений.",
+    "say": "Я пасерую шпинат буквально хвилину.",
+    "ans": [
+     "I sauté the spinach for just a minute.",
+     "I only sautéed the spinach for about a minute.",
+     "I literally sauté it for one minute."
+    ],
+    "keys": {
+     "хвилина": "minute|second*|quick*|briefly"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2048,
+  "w": "boil",
+  "uk": "варити (у воді)",
+  "lvl": "A2",
+  "forms": "boil|boils|boiled|boiled|boiling",
+  "near": "cook*|make|makes|made|making|steam*",
+  "tasks": [
+   {
+    "sit": "Ти студент і живеш у гуртожитку. Мама питає по телефону, що ти готуєш.",
+    "say": "Чесно кажучи, я вмію лише варити макарони.",
+    "ans": [
+     "Honestly, I can only boil pasta.",
+     "To be honest, boiling pasta is all I can do.",
+     "Honestly, the only thing I can cook is boiled pasta."
+    ],
+    "keys": {
+     "макарони": "pasta|spaghetti|macaroni|noodle*"
+    }
+   },
+   {
+    "sit": "Ви з дітьми фарбуєте яйця до Великодня, і старша донька питає, скільки їх варити.",
+    "say": "Звари яйця десять хвилин.",
+    "ans": [
+     "Boil the eggs for ten minutes.",
+     "The eggs need to boil for ten minutes.",
+     "Just boil them for 10 minutes."
+    ],
+    "keys": {
+     "десять хвилин": "ten|10"
+    }
+   },
+   {
+    "sit": "Колега бачить у тебе на обід відварену курку й дивується.",
+    "say": "Лікар порадив мені варити курку, а не смажити.",
+    "ans": [
+     "My doctor told me to boil chicken instead of frying it.",
+     "The doctor said I should boil chicken, not fry it.",
+     "Doctor’s orders — I boil my chicken now instead of frying it."
+    ],
+    "keys": {
+     "лікар": "doctor*|doc",
+     "смажити": "fry|frying|fried"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2049,
+  "w": "simmer",
+  "uk": "тушкувати на малому вогні",
+  "lvl": "B2",
+  "forms": "simmer|simmers|simmered|simmered|simmering",
+  "near": "stew*|cook*|boil*|bubble*",
+  "tasks": [
+   {
+    "sit": "До тебе прийшли гості, а соус для пасти ще не готовий.",
+    "say": "Нехай соус потомиться на малому вогні ще двадцять хвилин.",
+    "ans": [
+     "Let the sauce simmer for another twenty minutes.",
+     "The sauce needs to simmer for twenty more minutes.",
+     "Let’s just let it simmer another 20 minutes."
+    ],
+    "keys": {
+     "двадцять": "twenty|20"
+    }
+   },
+   {
+    "sit": "Ти працюєш кухарем, і новий працівник питає, чому плита ввімкнена всю ніч.",
+    "say": "Бульйон у нас томиться на малому вогні всю ніч.",
+    "ans": [
+     "Our stock simmers all night.",
+     "We simmer the stock overnight.",
+     "We leave the broth to simmer all night long."
+    ],
+    "keys": {
+     "бульйон": "stock|broth",
+     "всю ніч": "night|overnight"
+    }
+   },
+   {
+    "sit": "Ти телефонуєш бабусі, щоб уточнити її рецепт борщу.",
+    "say": "Тобто борщ має томитися на малому вогні годину?",
+    "ans": [
+     "So the borscht has to simmer for an hour?",
+     "So I should simmer the borscht for an hour?",
+     "So I just let the borscht simmer for an hour, right?"
+    ],
+    "keys": {
+     "борщ": "borscht|borsch|borshch|soup",
+     "годину": "hour"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2050,
+  "w": "poach",
+  "uk": "варити пашот / варити в рідині",
+  "lvl": "C1",
+  "forms": "poach|poaches|poached|poached|poaching",
+  "near": "boil*|cook*|fry|fried|steam*|scramble*",
+  "tasks": [
+   {
+    "sit": "Друг захоплено розповідає, як готує сніданок. Ти зізнаєшся в одному провалі.",
+    "say": "Я так і не навчився варити яйця пашот.",
+    "ans": [
+     "I’ve never learned how to poach eggs.",
+     "I still haven’t learned to poach an egg.",
+     "I never figured out how to poach eggs, honestly."
+    ],
+    "keys": {
+     "так і не": "never|not|still"
+    }
+   },
+   {
+    "sit": "Ти снідаєш у кафе й хочеш змінити замовлення.",
+    "say": "Можна мені яйця пашот замість омлету?",
+    "ans": [
+     "Could I have poached eggs instead of an omelette?",
+     "Can I get poached eggs instead of the omelet?",
+     "Could you poach the eggs instead of making an omelette?"
+    ],
+    "keys": {
+     "омлет": "omelet*",
+     "замість": "instead|rather"
+    }
+   },
+   {
+    "sit": "Ти на дієті, і подруга питає, як ти готуєш курку, щоб вона не була сухою.",
+    "say": "Я варю куряче філе в бульйоні на слабкому вогні.",
+    "ans": [
+     "I poach chicken breasts in broth.",
+     "I gently poach the chicken breast in stock.",
+     "I poach my chicken in broth, super gently."
+    ],
+    "keys": {
+     "курка": "chicken",
+     "бульйон": "broth|stock|water"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2053,
+  "w": "barbecue",
+  "uk": "робити барбекю",
+  "lvl": "B2",
+  "forms": "barbecue|barbecues|barbecued|barbecued|barbecuing",
+  "near": "grill*|bbq|roast*|cook*|smoke*",
+  "tasks": [
+   {
+    "sit": "Колега питає про твої плани на вихідні.",
+    "say": "У суботу ми будемо робити барбекю на дачі.",
+    "ans": [
+     "We’re going to barbecue at the country house on Saturday.",
+     "On Saturday we’ll barbecue at our summer house.",
+     "We’re barbecuing at the dacha on Saturday."
+    ],
+    "keys": {
+     "субота": "saturday|weekend",
+     "дача": "country|cottage|dacha|summer house|garden"
+    }
+   },
+   {
+    "sit": "Твій американський друг обожнює м’ясо, і ти хочеш дізнатися про його досвід.",
+    "say": "Ти колись готував реберця на барбекю?",
+    "ans": [
+     "Have you ever barbecued ribs?",
+     "Did you ever barbecue ribs before?",
+     "Have you ever tried to barbecue ribs?"
+    ],
+    "keys": {
+     "реберця": "rib*",
+     "колись": "ever|before"
+    }
+   },
+   {
+    "sit": "Ти повернувся з поїздки до Техасу й розповідаєш про місцеву кухню.",
+    "say": "У Техасі м’ясо для барбекю готують по дванадцять годин!",
+    "ans": [
+     "In Texas they barbecue meat for twelve hours!",
+     "They barbecue the meat for 12 hours in Texas!",
+     "In Texas they barbecue brisket for like twelve hours!"
+    ],
+    "keys": {
+     "Техас": "texas",
+     "дванадцять": "twelve|12"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2054,
+  "w": "roast",
+  "uk": "запікати (у духовці)",
+  "lvl": "B1",
+  "forms": "roast|roasts|roasted|roasted|roasting",
+  "near": "bake*|cook*|grill*|fry|fried",
+  "tasks": [
+   {
+    "sit": "Іноземний колега питає про ваші різдвяні традиції.",
+    "say": "На Різдво мама запікає цілу качку.",
+    "ans": [
+     "My mom roasts a whole duck for Christmas.",
+     "At Christmas my mum roasts a whole duck.",
+     "Every Christmas Mom roasts a whole duck."
+    ],
+    "keys": {
+     "качка": "duck",
+     "Різдво": "christmas|xmas"
+    }
+   },
+   {
+    "sit": "Партнер пише, що буде вдома о сьомій, і питає про вечерю.",
+    "say": "Я запечу курку з картоплею.",
+    "ans": [
+     "I’ll roast a chicken with potatoes.",
+     "I’m going to roast chicken and potatoes.",
+     "I’m roasting a chicken with some potatoes."
+    ],
+    "keys": {
+     "курка": "chicken",
+     "картопля": "potato*"
+    }
+   },
+   {
+    "sit": "Друзі дивуються, що ти раптом полюбив овочі.",
+    "say": "Запечені овочі набагато смачніші за варені.",
+    "ans": [
+     "Roasted vegetables taste much better than boiled ones.",
+     "Veggies are way better when you roast them instead of boiling them.",
+     "Roasted veg is so much tastier than boiled."
+    ],
+    "keys": {
+     "овочі": "veg*",
+     "варені": "boil*|steam*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2055,
+  "w": "broil",
+  "uk": "смажити під грилем (AmE)",
+  "lvl": "C1",
+  "forms": "broil|broils|broiled|broiled|broiling",
+  "near": "grill*|roast*|bake*|fry|fried|toast*",
+  "tasks": [
+   {
+    "sit": "Ти живеш у США, і сусідка питає, як ти так швидко готуєш рибу у верхньому грилі духовки.",
+    "say": "Я смажу лосося під грилем п’ять хвилин.",
+    "ans": [
+     "I broil the salmon for five minutes.",
+     "I just broil salmon for 5 minutes.",
+     "I broil it for five minutes, that’s it."
+    ],
+    "keys": {
+     "п’ять": "five|5"
+    }
+   },
+   {
+    "sit": "Американська подруга готує лазанью за твоїм рецептом і пише, що сир зверху блідий.",
+    "say": "Потримай її під грилем дві хвилини, щоб сир підрум’янився.",
+    "ans": [
+     "Broil it for two minutes so the cheese browns.",
+     "Put it under the broiler — broil it for 2 minutes until the cheese gets brown.",
+     "Just broil it for a couple of minutes to brown the cheese."
+    ],
+    "keys": {
+     "сир": "cheese",
+     "дві": "two|2|couple"
+    }
+   },
+   {
+    "sit": "Ти обговорюєш із колегами американський стейк-хаус.",
+    "say": "Стейки там смажать під грилем, а не на сковорідці.",
+    "ans": [
+     "They broil their steaks instead of cooking them in a pan.",
+     "The steaks there are broiled, not done in a pan.",
+     "They broil the steaks there — no pan at all."
+    ],
+    "keys": {
+     "стейки": "steak*",
+     "сковорідка": "pan|skillet"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2056,
+  "w": "sear",
+  "uk": "обсмажити (для скоринки)",
+  "lvl": "C1",
+  "forms": "sear|sears|seared|seared|searing",
+  "near": "fry|fries|fried|frying|brown*|grill*|cook*",
+  "tasks": [
+   {
+    "sit": "Ти готуєш романтичну вечерю й пояснюєш партнерові свій план.",
+    "say": "Спочатку я обсмажу стейк до скоринки, а потім доведу в духовці.",
+    "ans": [
+     "I’ll sear the steak first and then finish it in the oven.",
+     "First I sear the steak, then it goes into the oven.",
+     "I’m going to sear the steak and then finish it off in the oven."
+    ],
+    "keys": {
+     "стейк": "steak*",
+     "духовка": "oven"
+    }
+   },
+   {
+    "sit": "Ти ведеш кулінарний майстер-клас про рибу.",
+    "say": "Обсмажте тунець по тридцять секунд з кожного боку.",
+    "ans": [
+     "Sear the tuna for thirty seconds on each side.",
+     "The tuna should be seared for 30 seconds per side.",
+     "Just sear the tuna, thirty seconds each side."
+    ],
+    "keys": {
+     "тунець": "tuna",
+     "з кожного боку": "side*"
+    }
+   },
+   {
+    "sit": "Ти пишеш онлайн-відгук про ресторан.",
+    "say": "Гребінці були ідеально обсмажені.",
+    "ans": [
+     "The scallops were perfectly seared.",
+     "They seared the scallops perfectly.",
+     "The scallops were seared to perfection."
+    ],
+    "keys": {
+     "гребінці": "scallop*",
+     "ідеально": "perfect*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2057,
+  "w": "caramelize",
+  "uk": "карамелізувати",
+  "lvl": "C1",
+  "forms": "caramelize/caramelise|caramelizes/caramelises|caramelized/caramelised|caramelized/caramelised|caramelizing/caramelising",
+  "near": "brown*|fry|fried|frying|cook*|burn*",
+  "tasks": [
+   {
+    "sit": "Сусід по квартирі готує французький цибулевий суп і хоче все зробити за п’ять хвилин.",
+    "say": "Цибулю треба карамелізувати щонайменше пів години.",
+    "ans": [
+     "You need to caramelize the onions for at least half an hour.",
+     "The onions have to caramelize for at least thirty minutes.",
+     "You’ve got to caramelize those onions for half an hour, at least."
+    ],
+    "keys": {
+     "цибуля": "onion*|those|them",
+     "пів години": "half|30|thirty|minute*"
+    }
+   },
+   {
+    "sit": "Ти працюєш кондитером у ресторані й показуєш стажерові десерт крем-брюле.",
+    "say": "Цукор зверху я карамелізую пальником.",
+    "ans": [
+     "I caramelize the sugar on top with a torch.",
+     "The sugar on top gets caramelized with a blowtorch.",
+     "I use a torch to caramelize the sugar on top."
+    ],
+    "keys": {
+     "цукор": "sugar",
+     "пальник": "torch|blowtorch|burner"
+    }
+   },
+   {
+    "sit": "Подруга пече яблучний пиріг і питає, як зробити начинку смачнішою.",
+    "say": "Спробуй спершу карамелізувати яблука.",
+    "ans": [
+     "Try caramelizing the apples first.",
+     "Try to caramelize the apples before you put them in.",
+     "You should caramelize the apples first — it’s amazing."
+    ],
+    "keys": {
+     "яблука": "apple*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2058,
+  "w": "reduce",
+  "uk": "випарювати (соус)",
+  "lvl": "B2",
+  "forms": "reduce|reduces|reduced|reduced|reducing",
+  "near": "boil*|simmer*|thicken*|cook down|cooked down",
+  "tasks": [
+   {
+    "sit": "Ти готуєш вдома за рецептом, і партнер питає, що робити із соусом далі.",
+    "say": "Випари соус удвічі.",
+    "ans": [
+     "Reduce the sauce by half.",
+     "Let the sauce reduce by half.",
+     "Now just reduce it by half."
+    ],
+    "keys": {
+     "удвічі": "half|50"
+    }
+   },
+   {
+    "sit": "Ти кухар у ресторані й пояснюєш новенькому, як робити винний соус.",
+    "say": "Спочатку випари вино, а потім додай вершки.",
+    "ans": [
+     "First reduce the wine, then add the cream.",
+     "Reduce the wine first and then add the cream.",
+     "Let the wine reduce first, then the cream goes in."
+    ],
+    "keys": {
+     "вино": "wine",
+     "вершки": "cream"
+    }
+   },
+   {
+    "sit": "Ти записуєш відео для свого кулінарного каналу й бачиш, що соус вийшов рідким.",
+    "say": "Соус занадто рідкий — ще трохи його випарю.",
+    "ans": [
+     "The sauce is too thin — I’ll reduce it a bit more.",
+     "It’s too runny, so I’m going to reduce it a little longer.",
+     "Too watery — let’s reduce it a bit more."
+    ],
+    "keys": {
+     "рідкий": "thin|runny|watery|liquid",
+     "ще трохи": "more|longer|bit|little"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2059,
+  "w": "blanch",
+  "uk": "бланшувати",
+  "lvl": "C1",
+  "forms": "blanch|blanches|blanched|blanched|blanching",
+  "near": "boil*|scald*|steam*|cook*",
+  "tasks": [
+   {
+    "sit": "Ви з бабусею заготовлюєте овочі на зиму в морозилку.",
+    "say": "Перед заморожуванням квасолю треба бланшувати дві хвилини.",
+    "ans": [
+     "Blanch the beans for two minutes before freezing them.",
+     "The beans need to be blanched for 2 minutes before we freeze them.",
+     "We have to blanch the beans for a couple of minutes before they go in the freezer."
+    ],
+    "keys": {
+     "квасоля": "bean*",
+     "заморожування": "freez*|froze*"
+    }
+   },
+   {
+    "sit": "Друг скаржиться, що шкірка з помідорів для соусу знімається дуже погано.",
+    "say": "Бланшуй помідори — і шкірка легко зійде.",
+    "ans": [
+     "Blanch the tomatoes and the skin will come off easily.",
+     "If you blanch the tomatoes, the skins slip right off.",
+     "Just blanch them first — the skin comes right off."
+    ],
+    "keys": {
+     "шкірка": "skin*|peel*"
+    }
+   },
+   {
+    "sit": "Ти працюєш у ресторані, і менеджер питає, як кухня встигає так швидко віддавати гарніри.",
+    "say": "Ми бланшуємо броколі заздалегідь.",
+    "ans": [
+     "We blanch the broccoli in advance.",
+     "The broccoli is blanched ahead of time.",
+     "We blanch all the broccoli beforehand."
+    ],
+    "keys": {
+     "броколі": "broccoli",
+     "заздалегідь": "advance|ahead|early|beforehand|before"
+    }
+   }
+  ]
+ }
+]

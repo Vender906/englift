@@ -1,0 +1,652 @@
+[
+ {
+  "id": 3094, "w": "ease off", "uk": "слабшати / послаблюватися", "lvl": "B2",
+  "forms": "ease|eases|eased|eased|easing",
+  "tail": "off",
+  "near": "let up|lets up|calm down|calms down|calmed down|die down|dies down|died down|slow down|slowed down|relax*|subside*|weaken*|lighten*",
+  "tasks": [
+   {
+    "sit": "Ви з другом сидите в кафе й чекаєте, поки скінчиться злива.",
+    "say": "Почекаймо, поки дощ трохи вщухне.",
+    "ans": ["Let’s wait until the rain eases off.", "Let’s wait for the rain to ease off a bit.", "Let’s just wait till the rain eases off a little."],
+    "keys": { "дощ": "rain*|storm|downpour", "почекаймо": "wait*|stay*" }
+   },
+   {
+    "sit": "Команда два місяці працювала без вихідних. Реліз уже наступного тижня.",
+    "say": "Після релізу тиск нарешті послабшає.",
+    "ans": ["The pressure will finally ease off after the release.", "After the launch, the pressure should ease off.", "The pressure should finally ease off once the release is out."],
+    "keys": { "тиск": "pressure|stress*|workload", "реліз": "releas*|launch*" }
+   },
+   {
+    "sit": "Лікар каже, що біль у коліні — через надто інтенсивні тренування.",
+    "say": "Мені треба трохи збавити навантаження в спортзалі.",
+    "ans": ["I need to ease off at the gym a bit.", "I should ease off the training for a while.", "I’ve got to ease off a little at the gym."],
+    "keys": { "спортзал": "gym|training|workout*|exercis*", "трохи": "bit|little|while|slightly" }
+   }
+  ]
+ },
+ {
+  "id": 3095, "w": "fall behind", "uk": "відставати", "lvl": "B1",
+  "forms": "fall|falls|fell|fallen|falling",
+  "tail": "behind",
+  "near": "lag|lags|lagged|lagging|late|overdue|get behind|got behind|getting behind",
+  "tasks": [
+   {
+    "sit": "Після втрати роботи ти телефонуєш у банк і пояснюєш, чому не вносив гроші за кредит.",
+    "say": "Я відстав із платежами за кредит.",
+    "ans": ["I fell behind with my loan payments.", "I’ve fallen behind on my loan payments.", "I’m afraid I’ve fallen behind on the loan payments."],
+    "keys": { "платежі": "payment*|pay*|instal*", "кредит": "loan|mortgage|credit" }
+   },
+   {
+    "sit": "Ти два тижні хворів і пропустив багато занять. Пишеш викладачеві.",
+    "say": "Я сильно відстав від групи через хворобу.",
+    "ans": ["I’ve fallen far behind the class because I was ill.", "Because I was sick, I fell behind the rest of the group.", "I’ve really fallen behind the others since I got sick."],
+    "keys": { "хвороба": "ill*|sick*", "група": "class*|group|others|rest" }
+   },
+   {
+    "sit": "Колега питає, чому ти вже третій вечір сидиш в офісі допізна.",
+    "say": "Я відстаю з роботою й мушу наздогнати.",
+    "ans": ["I’m falling behind with my work and need to catch up.", "I fell behind with work, so I have to catch up.", "I’ve fallen behind at work and need to catch up."],
+    "keys": { "наздогнати": "catch*|make up", "робота": "work*|job|task*" }
+   }
+  ]
+ },
+ {
+  "id": 3096, "w": "fall through", "uk": "зриватися (про план, угоду)", "lvl": "B2",
+  "forms": "fall|falls|fell|fallen|falling",
+  "tail": "through",
+  "near": "collapse*|cancel*|fail*|did not work out|did not happen|called off|call off",
+  "tasks": [
+   {
+    "sit": "Ти вже майже підписав договір оренди квартири, але власник раптом передумав.",
+    "say": "Угода щодо квартири зірвалася в останню мить.",
+    "ans": ["The apartment deal fell through at the last minute.", "At the last minute, the deal on the flat fell through.", "Our flat fell through at the very last minute."],
+    "keys": { "квартира": "apartment*|flat*|place|house", "останню мить": "last minute|last moment" }
+   },
+   {
+    "sit": "Друзі питають, чому ти не поїхав на вихідні в Карпати, як планував.",
+    "say": "Наші плани зірвалися, бо зламалася машина.",
+    "ans": ["Our plans fell through because the car broke down.", "The plans fell through when our car broke down.", "The whole trip fell through — our car broke down."],
+    "keys": { "плани": "plan*|trip", "машина": "car" }
+   },
+   {
+    "sit": "Інвестор відмовився від співпраці, і ти повідомляєш про це команду.",
+    "say": "На жаль, угода з інвестором зірвалася.",
+    "ans": ["Unfortunately, the deal with the investor fell through.", "The investor deal has fallen through, I’m afraid.", "Bad news — the deal with the investor fell through."],
+    "keys": { "інвестор": "investor*", "угода": "deal|agreement|contract" }
+   }
+  ]
+ },
+ {
+  "id": 3097, "w": "fill out", "uk": "заповнювати (бланк)", "lvl": "A2",
+  "forms": "fill|fills|filled|filled|filling",
+  "tail": "out",
+  "near": "fill in|fills in|filled in|filling in|complete*",
+  "tasks": [
+   {
+    "sit": "Ти вперше прийшов у нову клініку, і реєстраторка дає тобі папери.",
+    "say": "Мені треба заповнити цю анкету?",
+    "ans": ["Do I need to fill out this form?", "Should I fill this form out?", "So I just fill out this form, right?"],
+    "keys": { "анкета": "form*|paper*|questionnaire" }
+   },
+   {
+    "sit": "Ти подаєш документи на візу онлайн і сидиш над цим увесь вечір.",
+    "say": "Я заповнював заяву на візу три години.",
+    "ans": ["I was filling out the visa form for three hours.", "I spent three hours filling out the visa application.", "It took me three hours to fill out the visa form!"],
+    "keys": { "віза": "visa*", "три години": "three hours|3 hours|hours" }
+   },
+   {
+    "sit": "Новий колега питає, як отримати перепустку в офіс.",
+    "say": "Просто заповни цей бланк і віддай охоронцю.",
+    "ans": ["Just fill out this form and give it to security.", "Fill out this form and hand it to the guard.", "Just fill this form out and give it to the security guy."],
+    "keys": { "бланк": "form*|this", "охоронець": "security|guard*" }
+   }
+  ]
+ },
+ {
+  "id": 3098, "w": "fill up", "uk": "наповнювати / заправляти", "lvl": "A2",
+  "forms": "fill|fills|filled|filled|filling",
+  "tail": "up",
+  "near": "refuel*|top up|tops up|topped up|topping up|gas up|fuel up",
+  "tasks": [
+   {
+    "sit": "Ви їдете трасою, а лампочка пального вже світиться.",
+    "say": "Треба заправитися на наступній заправці.",
+    "ans": ["We need to fill up at the next gas station.", "Let’s fill up at the next petrol station.", "We’d better fill up at the next station."],
+    "keys": { "наступна": "next", "заправка": "station|garage|pump*" }
+   },
+   {
+    "sit": "Гості вже сідають за стіл, а глечик з водою порожній.",
+    "say": "Можеш наповнити глечик водою?",
+    "ans": ["Can you fill up the jug with water?", "Could you fill the jug up with water?", "Can you fill up the water jug, please?"],
+    "keys": { "глечик": "jug|pitcher|carafe|bottle", "вода": "water" }
+   },
+   {
+    "sit": "Ти прийшов на концерт за годину до початку, але вільних місць уже майже немає.",
+    "say": "Зал так швидко заповнився!",
+    "ans": ["The hall filled up so fast!", "The hall has filled up really quickly.", "Wow, the hall filled up so fast!"],
+    "keys": { "швидко": "fast|quick*", "зал": "hall|room|place|venue" }
+   }
+  ]
+ },
+ {
+  "id": 3099, "w": "find out", "uk": "дізнаватися / зʼясовувати", "lvl": "A2",
+  "forms": "find|finds|found|found|finding",
+  "tail": "out",
+  "near": "learn|learns|learned|learnt|discover*|hear|heard|figure out|figured out",
+  "tasks": [
+   {
+    "sit": "Ти на вокзалі й не розумієш, з якої платформи відходить твій потяг.",
+    "say": "Зараз дізнаюся, з якої платформи потяг.",
+    "ans": ["I’ll find out which platform the train leaves from.", "Let me find out what platform our train is on.", "Hang on, let me find out which platform the train’s on."],
+    "keys": { "платформа": "platform*", "потяг": "train*" }
+   },
+   {
+    "sit": "Сестра готувала батькам сюрприз, але все розкрилося заздалегідь.",
+    "say": "Мама дізналася про сюрприз.",
+    "ans": ["Mom found out about the surprise.", "Our mom has found out about the surprise.", "Mom found out about the surprise party, can you believe it?"],
+    "keys": { "мама": "mom|mum|mother", "сюрприз": "surprise*" }
+   },
+   {
+    "sit": "Посилка не прийшла вчасно, і ти телефонуєш у службу доставки.",
+    "say": "Я хочу дізнатися, де моя посилка.",
+    "ans": ["I want to find out where my parcel is.", "I’m trying to find out where my package is.", "I’d just like to find out where my parcel is."],
+    "keys": { "посилка": "parcel*|package*|order*|delivery" }
+   }
+  ]
+ },
+ {
+  "id": 3100, "w": "fit in", "uk": "вписуватися (у колектив)", "lvl": "B1",
+  "forms": "fit|fits|fitted/fit|fitted/fit|fitting",
+  "tail": "in",
+  "near": "belong*|get along|gets along|got along|blend in|blends in|feel at home|felt at home",
+  "tasks": [
+   {
+    "sit": "Минув перший тиждень на новій роботі, і мама питає, як тобі колектив.",
+    "say": "Здається, я добре вписуюся в команду.",
+    "ans": ["I think I fit in well with the team.", "I seem to be fitting in well with the team.", "I think I’m fitting in pretty well with the team."],
+    "keys": { "команда": "team|colleague*|people|everyone", "добре": "well|fine" }
+   },
+   {
+    "sit": "Твоя родина переїхала в інше місто, і син не хоче йти в нову школу.",
+    "say": "Я боюся, що він не впишеться в новому класі.",
+    "ans": ["I’m worried he won’t fit in at his new school.", "I’m afraid he won’t fit in with his new class.", "I just worry he won’t fit in at the new school."],
+    "keys": { "боюся": "worr*|afraid|scared|fear*", "не": "not|never", "клас": "class*|school|kids" }
+   },
+   {
+    "sit": "Ти прийшов на вечірку, де всі — програмісти, а ти художник.",
+    "say": "Я тут почуваюся чужим — зовсім не вписуюся.",
+    "ans": ["I don’t really fit in here.", "I feel like I don’t fit in here at all.", "Honestly, I just don’t fit in with this crowd."],
+    "keys": { "не": "not|never", "тут": "here|crowd|people" }
+   }
+  ]
+ },
+ {
+  "id": 3101, "w": "get ahead", "uk": "просуватися вперед (у карʼєрі, житті)", "lvl": "B2",
+  "forms": "get|gets|got|got/gotten|getting",
+  "tail": "ahead",
+  "near": "succeed*|advance*|progress*|get promoted|got promoted|move up|moved up|climb*|go far",
+  "tasks": [
+   {
+    "sit": "Молодший брат питає, навіщо ти ходиш на вечірні курси після роботи.",
+    "say": "Без нових навичок у цій професії не просунешся.",
+    "ans": ["You can’t get ahead in this job without new skills.", "Without new skills, you won’t get ahead in this field.", "You just can’t get ahead in this business without learning new skills."],
+    "keys": { "навички": "skill*|learn*|train*", "не": "not|never|without" }
+   },
+   {
+    "sit": "Колега скаржиться, що підвищення отримують лише ті, хто дружить із шефом.",
+    "say": "Щоб просунутися тут, треба мати звʼязки.",
+    "ans": ["To get ahead here, you need connections.", "You need the right connections to get ahead here.", "Around here, you only get ahead if you know the right people."],
+    "keys": { "звʼязки": "connection*|contact*|people|network*" }
+   },
+   {
+    "sit": "Бабуся розповідає, як у юності поєднувала навчання й дві роботи.",
+    "say": "Вона все життя тяжко працювала, щоб пробитися в житті.",
+    "ans": ["She worked hard to get ahead in life.", "She worked really hard all her life to get ahead.", "She always worked her fingers to the bone to get ahead."],
+    "keys": { "тяжко працювала": "work*|hard|effort" }
+   }
+  ]
+ },
+ {
+  "id": 3102, "w": "get by", "uk": "зводити кінці з кінцями / обходитися", "lvl": "B2",
+  "forms": "get|gets|got|got/gotten|getting",
+  "tail": "by",
+  "near": "manage*|survive*|make ends meet|made ends meet|scrape by|scraped by|cope|coped|coping",
+  "tasks": [
+   {
+    "sit": "Друг з іншої країни питає, як у тебе з грошима після переїзду.",
+    "say": "Зарплата невелика, але ми якось обходимося.",
+    "ans": ["The salary is small, but we get by.", "We don’t earn much, but we’re getting by.", "Money’s tight, but we get by somehow."],
+    "keys": { "зарплата": "salary|money|earn*|pay|income", "невелика": "small|low|much|tight|little" }
+   },
+   {
+    "sit": "Колега питає, чи ти вільно говориш іспанською, перед твоєю поїздкою в Мадрид.",
+    "say": "Не вільно, але з моєю іспанською я якось обійдуся.",
+    "ans": ["Not fluently, but I can get by in Spanish.", "My Spanish isn’t great, but I’ll get by.", "I’m not fluent, but I can get by in Spanish."],
+    "keys": { "іспанська": "spanish", "не вільно": "not|fluent*" }
+   },
+   {
+    "sit": "Ти студент і пояснюєш батькам, скільки грошей тобі треба.",
+    "say": "Я можу прожити на сто доларів на тиждень.",
+    "ans": ["I can get by on a hundred dollars a week.", "I get by on about 100 dollars a week.", "Honestly, I can get by on a hundred bucks a week."],
+    "keys": { "сто доларів": "hundred|100|dollar*|buck*", "тиждень": "week*" }
+   }
+  ]
+ },
+ {
+  "id": 3103, "w": "get down to", "uk": "братися до (справи)", "lvl": "B2",
+  "forms": "get|gets|got|got/gotten|getting",
+  "tail": "down to",
+  "near": "start*|begin*|began|get started|got started|get to work|got to work|focus*|tackle*",
+  "tasks": [
+   {
+    "sit": "Ти ведеш нараду, і всі вже досить поговорили про вихідні.",
+    "say": "Гаразд, переходьмо до справи.",
+    "ans": ["Okay, let’s get down to business.", "Right, time to get down to business.", "All right, everyone, let’s get down to business."],
+    "keys": { "справа": "business|work" }
+   },
+   {
+    "sit": "Ти вже годину гортаєш соцмережі замість того, щоб готуватися до іспиту.",
+    "say": "Мені треба нарешті сісти за навчання.",
+    "ans": ["I really need to get down to studying.", "I have to finally get down to some revision.", "Okay, I really need to get down to studying now."],
+    "keys": { "навчання": "study*|revis*|work" }
+   },
+   {
+    "sit": "Ти купив фарбу для спальні ще місяць тому, але так і не почав.",
+    "say": "Цієї суботи я нарешті візьмуся до фарбування.",
+    "ans": ["This Saturday I’ll finally get down to the painting.", "I’m going to get down to painting the room this Saturday.", "This weekend I’ll finally get down to painting that room."],
+    "keys": { "фарбування": "paint*", "субота": "saturday|weekend" }
+   }
+  ]
+ },
+ {
+  "id": 3104, "w": "get round to", "uk": "нарешті дійти руки до", "lvl": "B2",
+  "forms": "get|gets|got|got/gotten|getting",
+  "tail": "round/around to",
+  "near": "find time|found time|find the time|found the time|have time|had time|get to it|got to it|manage*",
+  "tasks": [
+   {
+    "sit": "Колега нагадує тобі про лист від клієнта, що висить без відповіді з понеділка.",
+    "say": "Вибач, у мене ще не дійшли руки відповісти.",
+    "ans": ["Sorry, I haven’t got round to replying yet.", "Sorry, I still haven’t gotten around to answering it.", "Sorry, I just haven’t got round to that email yet."],
+    "keys": { "відповісти": "repl*|answer*|respond*|email*", "ще не": "not|yet|still" }
+   },
+   {
+    "sit": "Сусід по квартирі питає про кран на кухні, що капає вже місяць.",
+    "say": "У мене все ніяк не дійдуть руки полагодити кран.",
+    "ans": ["I still haven’t got round to fixing the tap.", "I never seem to get round to fixing that tap.", "I know, I just haven’t gotten around to fixing the faucet."],
+    "keys": { "кран": "tap|faucet|sink", "полагодити": "fix*|repair*|sort*" }
+   },
+   {
+    "sit": "Друг подарував тобі книжку пів року тому й питає, як вона тобі.",
+    "say": "Чесно кажучи, у мене так і не дійшли до неї руки.",
+    "ans": ["To be honest, I never got round to reading it.", "Honestly, I haven’t got around to reading it yet.", "I’ll be honest — I never got round to it."],
+    "keys": { "чесно": "honest*|truth", "не": "never|not" }
+   }
+  ]
+ },
+ {
+  "id": 3105, "w": "get through", "uk": "долати / упоратися / пережити", "lvl": "B2",
+  "forms": "get|gets|got|got/gotten|getting",
+  "tail": "through",
+  "near": "cope|coped|manage*|finish*|complete*|deal with|dealt with|survive*|handle*",
+  "tasks": [
+   {
+    "sit": "У понеділок зранку ти дивишся на список задач на тиждень.",
+    "say": "Не знаю, як я впораюся з усією цією роботою.",
+    "ans": ["I don’t know how I’ll get through all this work.", "I’m not sure how I’m going to get through all this work.", "No idea how I’ll get through this pile of work."],
+    "keys": { "робота": "work*|task*|pile|job*", "не знаю": "not know|not sure|no idea" }
+   },
+   {
+    "sit": "Одногрупник дуже хвилюється перед сесією.",
+    "say": "Не хвилюйся, ми разом переживемо ці іспити.",
+    "ans": ["Don’t worry, we’ll get through these exams together.", "Relax, we’ll get through the exams together.", "Don’t stress, we’ll get through this session together."],
+    "keys": { "іспити": "exam*|test*|this|session", "разом": "together" }
+   },
+   {
+    "sit": "Ти пережив важку зиму після розлучення й дякуєш другові за підтримку.",
+    "say": "Без тебе я б цього не пережив.",
+    "ans": ["I couldn’t have got through it without you.", "I wouldn’t have gotten through that without you.", "Honestly, I’d never have got through it without you."],
+    "keys": { "без тебе": "without you" }
+   }
+  ]
+ },
+ {
+  "id": 3106, "w": "give in", "uk": "поступатися / здаватися", "lvl": "B1",
+  "forms": "give|gives|gave|given|giving",
+  "tail": "in",
+  "near": "surrender*|agree*|yield*|back down|backed down|cave in|caved in|caved|give up|gave up|given up|giving up",
+  "tasks": [
+   {
+    "sit": "Дитина пів години вимагає цукерку в магазині й плаче.",
+    "say": "Я не поступлюся, хоч скільки б ти плакав.",
+    "ans": ["I’m not going to give in, however much you cry.", "I won’t give in, no matter how much you cry.", "Crying won’t work — I’m not giving in."],
+    "keys": { "не": "not|never", "плакати": "cry*|crie*" }
+   },
+   {
+    "sit": "Профспілка цілий місяць тиснула на керівництво заводу.",
+    "say": "Зрештою директор поступився й підвищив зарплати.",
+    "ans": ["In the end, the director gave in and raised salaries.", "The director finally gave in and put up our pay.", "Eventually the boss gave in and gave everyone a raise."],
+    "keys": { "зрештою": "end|finally|eventually", "зарплати": "salar*|pay|raise|wage*" }
+   },
+   {
+    "sit": "Ти на дієті, але колега приніс в офіс торт.",
+    "say": "Я тримався весь день, але врешті не встояв і зʼїв шматок.",
+    "ans": ["I held out all day, but in the end I gave in and had a piece.", "I resisted all day, but then I gave in and ate a slice.", "I lasted all day, then I gave in and grabbed a slice."],
+    "keys": { "шматок": "piece|slice|bit|some", "весь день": "all day|day" }
+   }
+  ]
+ },
+ {
+  "id": 3107, "w": "go about", "uk": "братися (як саме робити)", "lvl": "B2",
+  "forms": "go|goes|went|gone|going",
+  "tail": "about",
+  "near": "approach*|handle*|tackle*|deal with|start*|begin*",
+  "tasks": [
+   {
+    "sit": "Ти хочеш отримати грант на навчання за кордоном, але не знаєш процедури.",
+    "say": "Як узагалі братися до подання заявки на грант?",
+    "ans": ["How do I go about applying for a grant?", "How should I go about applying for the grant?", "So how do you actually go about getting a grant?"],
+    "keys": { "грант": "grant*|scholarship*|funding", "як": "how" }
+   },
+   {
+    "sit": "Ти вирішив сам покласти плитку у ванній і дивишся відео.",
+    "say": "Я поняття не маю, з якого боку до цього братися.",
+    "ans": ["I have no idea how to go about it.", "I don’t know how to go about tiling the bathroom.", "Honestly, I’ve no idea how to go about this."],
+    "keys": { "поняття не маю": "no idea|not know|not sure|clue" }
+   },
+   {
+    "sit": "Керівник доручив тобі переїзд офісу, і ти радишся з досвідченою колегою.",
+    "say": "Як краще взятися за організацію переїзду?",
+    "ans": ["What’s the best way to go about organizing the move?", "How would you go about planning the office move?", "How should I go about organising the move?"],
+    "keys": { "переїзд": "move|moving|relocat*", "організацію": "organi*|plan*|arrang*" }
+   }
+  ]
+ },
+ {
+  "id": 3108, "w": "go ahead", "uk": "починати / діяти / продовжувати", "lvl": "B1",
+  "forms": "go|goes|went|gone|going",
+  "tail": "ahead",
+  "near": "start*|begin*|continue*|proceed*|carry on|go on|went on",
+  "tasks": [
+   {
+    "sit": "На нараді колега піднімає руку й питає, чи можна поставити запитання.",
+    "say": "Так, звісно, питай.",
+    "ans": ["Yes, of course, go ahead.", "Sure, go ahead and ask.", "Sure thing, go right ahead."],
+    "keys": { "звісно": "course|sure|yes" }
+   },
+   {
+    "sit": "Погода зіпсувалася, але організатори вирішують, чи проводити фестиваль.",
+    "say": "Попри дощ, ми таки проведемо фестиваль.",
+    "ans": ["Despite the rain, we’ll go ahead with the festival.", "The festival will go ahead despite the rain.", "Rain or no rain, we’re going ahead with the festival."],
+    "keys": { "фестиваль": "festival*|event", "дощ": "rain*|weather" }
+   },
+   {
+    "sit": "Майстри з ремонту питають тебе, чи можна вже зносити стару стіну на кухні.",
+    "say": "Так, можете починати зносити стіну.",
+    "ans": ["Yes, you can go ahead and knock down the wall.", "Go ahead, you can take the wall down now.", "Yep, go ahead and knock the wall down."],
+    "keys": { "стіна": "wall*", "зносити": "knock*|take|demolish*|pull*|remov*" }
+   }
+  ]
+ },
+ {
+  "id": 3109, "w": "go under", "uk": "збанкрутувати / розоритися", "lvl": "C1",
+  "forms": "go|goes|went|gone|going",
+  "tail": "under",
+  "near": "bankrupt*|go bust|went bust|gone bust|fold|folded|collapse*|close down|closed down|shut down|fail*",
+  "tasks": [
+   {
+    "sit": "Ти читаєш новини про авіакомпанію, яка не пережила кризу.",
+    "say": "Авіакомпанія збанкрутувала після кризи.",
+    "ans": ["The airline went under after the crisis.", "The airline has gone under because of the crisis.", "That airline went under right after the crisis hit."],
+    "keys": { "авіакомпанія": "airline*|carrier|company", "криза": "crisis|crash|recession" }
+   },
+   {
+    "sit": "Твоя улюблена книгарня на розі зачинилася назавжди.",
+    "say": "Шкода, що книгарня збанкрутувала — туди мало хто ходив.",
+    "ans": ["It’s a shame the bookshop went under — hardly anyone went there.", "Sadly, the bookstore went under because it had too few customers.", "Such a pity the bookshop went under — nobody ever went in."],
+    "keys": { "книгарня": "book*", "мало хто": "hardly|few|nobody|no one|not many" }
+   },
+   {
+    "sit": "У тебе невеликий ресторан, і після підвищення орендної плати ти рахуєш витрати.",
+    "say": "Якщо оренда ще зросте, ми збанкрутуємо.",
+    "ans": ["If the rent goes up again, we’ll go under.", "Another rent rise and we’ll go under.", "If they raise the rent again, we’re going to go under."],
+    "keys": { "оренда": "rent*", "зросте": "up|rise|raise*|increase*|higher" }
+   }
+  ]
+ },
+ {
+  "id": 3110, "w": "hand back", "uk": "повертати (роздане, взяте)", "lvl": "B1",
+  "forms": "hand|hands|handed|handed|handing",
+  "tail": "back",
+  "near": "return*|give back|gave back|given back|giving back|bring back|brought back",
+  "tasks": [
+   {
+    "sit": "Ти вчитель. Учні питають, коли будуть результати контрольної.",
+    "say": "Я поверну вам контрольні в понеділок.",
+    "ans": ["I’ll hand back your tests on Monday.", "I’ll hand your tests back on Monday.", "You’ll get them Monday — I’ll hand the tests back then."],
+    "keys": { "контрольні": "test*|paper*|exam*", "понеділок": "monday" }
+   },
+   {
+    "sit": "Ти виселяєшся з готелю й не знаєш, що робити з ключем-карткою.",
+    "say": "Мені треба повернути ключ на рецепції?",
+    "ans": ["Do I need to hand back the key card?", "Should I hand the key back at reception?", "Do I just hand the key back at the desk?"],
+    "keys": { "ключ": "key*|card" }
+   },
+   {
+    "sit": "Ти звільняєшся, і відділ кадрів нагадує про службовий ноутбук.",
+    "say": "Я поверну ноутбук в останній день.",
+    "ans": ["I’ll hand back the laptop on my last day.", "I’ll hand the laptop back on my last day.", "Don’t worry, I’ll hand back the laptop on my last day."],
+    "keys": { "ноутбук": "laptop*|computer", "останній день": "last day" }
+   }
+  ]
+ },
+ {
+  "id": 3111, "w": "hand down", "uk": "передавати (у спадок, наступним поколінням)", "lvl": "B2",
+  "forms": "hand|hands|handed|handed|handing",
+  "tail": "down",
+  "near": "pass down|passed down|passing down|pass on|passed on|inherit*|bequeath*",
+  "tasks": [
+   {
+    "sit": "Подруга помітила на тобі старовинну каблучку.",
+    "say": "Цю каблучку мені передала бабуся.",
+    "ans": ["My grandmother handed this ring down to me.", "This ring was handed down to me by my grandma.", "It’s my gran’s ring — she handed it down to me."],
+    "keys": { "каблучка": "ring", "бабуся": "grand*|gran|granny" }
+   },
+   {
+    "sit": "Гості в захваті від борщу й питають про рецепт.",
+    "say": "Цей рецепт у нашій родині передають з покоління в покоління.",
+    "ans": ["This recipe has been handed down in our family for generations.", "In our family, this recipe gets handed down from generation to generation.", "It’s a family recipe — it’s been handed down for generations."],
+    "keys": { "рецепт": "recipe*", "покоління": "generation*" }
+   },
+   {
+    "sit": "Ти наймолодший з трьох братів і розповідаєш про дитинство.",
+    "say": "Мені завжди діставався одяг, що переходив від старших братів.",
+    "ans": ["I always got clothes handed down from my older brothers.", "My older brothers’ clothes were always handed down to me.", "I basically wore whatever clothes got handed down from my big brothers."],
+    "keys": { "одяг": "cloth*", "брати": "brother*" }
+   }
+  ]
+ },
+ {
+  "id": 3112, "w": "hand out", "uk": "роздавати", "lvl": "B1",
+  "forms": "hand|hands|handed|handed|handing",
+  "tail": "out",
+  "near": "distribut*|give out|gave out|given out|giving out|pass out|passed out|pass round|pass around|passed around|share*",
+  "tasks": [
+   {
+    "sit": "Ти викладач англійської, починається урок.",
+    "say": "Зараз я роздам вам роздруківки.",
+    "ans": ["Now I’ll hand out the worksheets.", "Let me hand these worksheets out.", "Okay, I’m just going to hand out the worksheets."],
+    "keys": { "роздруківки": "worksheet*|handout*|sheet*|paper*|copies|print*" }
+   },
+   {
+    "sit": "Ти волонтериш на міському марафоні й описуєш другу свою роль.",
+    "say": "Я роздаю воду бігунам.",
+    "ans": ["I hand out water to the runners.", "I’m handing out water to runners.", "I’m just handing out bottles of water to the runners."],
+    "keys": { "вода": "water|drink*|bottle*", "бігуни": "runner*" }
+   },
+   {
+    "sit": "Ти відкриваєш кавʼярню й даєш завдання новому працівникові.",
+    "say": "Роздай, будь ласка, ці листівки біля метро.",
+    "ans": ["Please hand out these flyers near the metro.", "Could you hand these flyers out by the subway station?", "Can you go and hand out these flyers by the metro?"],
+    "keys": { "листівки": "flyer*|leaflet*", "метро": "metro|subway|underground|tube|station" }
+   }
+  ]
+ },
+ {
+  "id": 3113, "w": "hold down", "uk": "утримувати (роботу), втриматися на роботі", "lvl": "B2",
+  "forms": "hold|holds|held|held|holding",
+  "tail": "down",
+  "near": "keep a job|kept a job|keep my job|keep his job|stay in|stick with|stuck with|maintain*",
+  "tasks": [
+   {
+    "sit": "Ти хвилюєшся за друга, який за рік змінив пʼять робіт.",
+    "say": "Він ніяк не може втриматися на одній роботі.",
+    "ans": ["He just can’t hold down a job.", "He can’t seem to hold down a steady job.", "He’s never been able to hold down a job for long."],
+    "keys": { "не": "not|never", "робота": "job*|work" }
+   },
+   {
+    "sit": "Колега дивується, як ти встигаєш і вчитися в університеті, і працювати.",
+    "say": "Важко вчитися й водночас утримувати роботу.",
+    "ans": ["It’s hard to study and hold down a job at the same time.", "Holding down a job while studying is really hard.", "It’s tough holding down a job and studying at the same time."],
+    "keys": { "вчитися": "stud*|school|college|degree", "важко": "hard|tough|difficult|not easy" }
+   },
+   {
+    "sit": "Ти згадуєш дитинство й розповідаєш про маму.",
+    "say": "Мама тягнула дві роботи, щоб нас прогодувати.",
+    "ans": ["Mom held down two jobs to feed us.", "My mother was holding down two jobs to support us.", "My mum held down two jobs just to put food on the table."],
+    "keys": { "мама": "mom|mum|mother", "дві роботи": "two jobs|2 jobs|jobs" }
+   }
+  ]
+ },
+ {
+  "id": 3114, "w": "hold off", "uk": "притримати / відкласти", "lvl": "B2",
+  "forms": "hold|holds|held|held|holding",
+  "tail": "off",
+  "near": "wait*|postpone*|delay*|put off|put it off|putting off",
+  "tasks": [
+   {
+    "sit": "Ти керуєш відділом. Команда хоче одразу купити нову систему, але ціни можуть упасти.",
+    "say": "Давайте притримаємо рішення до наступного кварталу.",
+    "ans": ["Let’s hold off on the decision until next quarter.", "I’d hold off deciding until next quarter.", "Let’s hold off for now and decide next quarter."],
+    "keys": { "рішення": "decision|decid*", "квартал": "quarter" }
+   },
+   {
+    "sit": "Ти хочеш новий телефон, але восени вийде нова модель.",
+    "say": "Я поки що відкладу купівлю телефона до осені.",
+    "ans": ["I’m going to hold off on buying a phone until the autumn.", "I’ll hold off buying a new phone till the fall.", "I think I’ll hold off on a new phone until autumn."],
+    "keys": { "телефон": "phone*", "осінь": "autumn|fall" }
+   },
+   {
+    "sit": "Гості запізнюються, а вечеря вже майже готова.",
+    "say": "Давай притримаємо вечерю, поки всі не прийдуть.",
+    "ans": ["Let’s hold off serving dinner until everyone arrives.", "We should hold off on dinner until everyone’s here.", "Let’s hold off on dinner till everyone gets here."],
+    "keys": { "вечеря": "dinner|food|meal", "всі": "everyone|everybody|all" }
+   }
+  ]
+ },
+ {
+  "id": 3115, "w": "hold up", "uk": "затримувати", "lvl": "B2",
+  "forms": "hold|holds|held|held|holding",
+  "tail": "up",
+  "near": "delay*|stuck|kept|slow down|slowed down|slowing down|block*",
+  "tasks": [
+   {
+    "sit": "Ти прийшов на зустріч із друзями на пів години пізніше.",
+    "say": "Вибачте, мене затримали на роботі.",
+    "ans": ["Sorry, I was held up at work.", "Sorry, I got held up at work.", "Sorry, guys, work held me up."],
+    "keys": { "робота": "work|office|job" }
+   },
+   {
+    "sit": "Ти телефонуєш колезі з таксі, яке стоїть у заторі.",
+    "say": "Аварія на мосту затримує весь рух.",
+    "ans": ["An accident on the bridge is holding up all the traffic.", "All the traffic is being held up by an accident on the bridge.", "There’s been a crash on the bridge and it’s holding everything up."],
+    "keys": { "аварія": "accident|crash", "міст": "bridge" }
+   },
+   {
+    "sit": "Бухгалтерія досі не погодила бюджет, і ремонт офісу стоїть.",
+    "say": "Увесь проєкт затримує один-єдиний підпис.",
+    "ans": ["One missing signature is holding up the whole project.", "The whole project is being held up by one signature.", "It’s just one signature that’s holding up the whole project."],
+    "keys": { "підпис": "signature*|sign*", "проєкт": "project|things|everything" }
+   }
+  ]
+ },
+ {
+  "id": 3116, "w": "keep up with", "uk": "встигати за / бути в курсі", "lvl": "B1",
+  "forms": "keep|keeps|kept|kept|keeping",
+  "tail": "up with",
+  "near": "follow*|stay up to date|stay informed|catch up|caught up|keep pace|kept pace",
+  "tasks": [
+   {
+    "sit": "Ти живеш за кордоном, і бабуся питає, чи знаєш ти, що відбувається вдома.",
+    "say": "Так, я стежу за новинами з України щодня.",
+    "ans": ["Yes, I keep up with the news from Ukraine every day.", "I try to keep up with the Ukrainian news every day.", "Yeah, I keep up with what’s happening back home every day."],
+    "keys": { "новини": "news|happening|going on", "щодня": "every day|daily|day" }
+   },
+   {
+    "sit": "Ти вперше вийшов на пробіжку з другом-марафонцем.",
+    "say": "Не біжи так швидко, я за тобою не встигаю!",
+    "ans": ["Slow down, I can’t keep up with you!", "Don’t run so fast — I can’t keep up with you!", "Hey, wait up, I can’t keep up with you!"],
+    "keys": { "не встигаю": "not|never" }
+   },
+   {
+    "sit": "Ти розробник, і на зустрічі зі студентами тебе питають, що найважче в професії.",
+    "say": "Найважче — встигати за новими технологіями.",
+    "ans": ["The hardest part is keeping up with new technology.", "It’s really hard to keep up with all the new tech.", "Honestly, keeping up with new technologies is the hardest part."],
+    "keys": { "технології": "tech*", "найважче": "hard*|difficult*|tough*" }
+   }
+  ]
+ },
+ {
+  "id": 3117, "w": "kick out", "uk": "виганяти", "lvl": "B2",
+  "forms": "kick|kicks|kicked|kicked|kicking",
+  "tail": "out",
+  "near": "expel*|throw out|threw out|thrown out|throwing out|ban|banned|fire|fired|evict*|remove*",
+  "tasks": [
+   {
+    "sit": "Один учасник вашого шахового клубу постійно шахраював.",
+    "say": "Його вигнали з клубу за шахрайство.",
+    "ans": ["He got kicked out of the club for cheating.", "They kicked him out of the club for cheating.", "He was kicked out of the club because he cheated."],
+    "keys": { "клуб": "club", "шахрайство": "cheat*" }
+   },
+   {
+    "sit": "Сусід по квартирі вже третій місяць не платить свою частину оренди.",
+    "say": "Ще раз не заплатиш — я тебе вижену.",
+    "ans": ["If you don’t pay again, I’ll kick you out.", "Miss the rent one more time and I’m kicking you out.", "Seriously, don’t pay again and I’ll kick you out."],
+    "keys": { "не заплатиш": "pay*|paid|rent" }
+   },
+   {
+    "sit": "Ти розповідаєш про вечір у барі, де один гість почав бійку.",
+    "say": "Охоронці вигнали його з бару.",
+    "ans": ["The bouncers kicked him out of the bar.", "He got kicked out of the bar by security.", "Security kicked him out of the bar pretty quickly."],
+    "keys": { "бар": "bar|pub", "охоронці": "bouncer*|security|guard*" }
+   }
+  ]
+ },
+ {
+  "id": 3118, "w": "knock off", "uk": "закінчувати роботу / скидати (ціну)", "lvl": "B2",
+  "forms": "knock|knocks|knocked|knocked|knocking",
+  "tail": "off",
+  "near": "finish*|clock off|clock out|clocked off|clocked out|leave|leaving|discount*|take off|took off|reduce*|lower*",
+  "tasks": [
+   {
+    "sit": "Друг питає, чи встигнеш ти в пʼятницю на кіно о шостій.",
+    "say": "Так, у пʼятницю я закінчую роботу о четвертій.",
+    "ans": ["Yes, on Fridays I knock off at four.", "I knock off work at four on Fridays.", "Sure, I usually knock off at four on a Friday."],
+    "keys": { "четверта": "four|4", "пʼятниця": "friday*" }
+   },
+   {
+    "sit": "Надворі чудова погода, а ви з колегою вже зробили все головне.",
+    "say": "Давай сьогодні закінчимо раніше.",
+    "ans": ["Let’s knock off early today.", "Why don’t we knock off early today?", "How about we knock off early for once?"],
+    "keys": { "раніше": "early|earlier" }
+   },
+   {
+    "sit": "Ти купуєш стілець на блошиному ринку й помічаєш на ньому подряпину.",
+    "say": "Скиньте десять доларів — він же подряпаний.",
+    "ans": ["Could you knock ten dollars off? It’s scratched.", "Can you knock off ten dollars because it’s scratched?", "It’s scratched — any chance you could knock ten bucks off?"],
+    "keys": { "десять": "ten|10", "подряпаний": "scratch*|damage*" }
+   }
+  ]
+ }
+]

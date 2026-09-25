@@ -1,0 +1,627 @@
+[
+ {
+  "id": 207, "w": "vacuum", "uk": "пилососити", "lvl": "B1",
+  "forms": "vacuum|vacuums|vacuumed|vacuumed|vacuuming",
+  "near": "hoover|hoovers|hoovered|hoovering|clean|cleaned|cleaning|sweep|swept|sweeping",
+  "tasks": [
+   {
+    "sit": "Гості приходять за годину, а на килимі у вітальні всюди крихти.",
+    "say": "Мені треба пропилососити килим.",
+    "ans": ["I need to vacuum the carpet.", "The carpet needs to be vacuumed.", "I’ve got to vacuum the carpet before they get here."],
+    "keys": { "килим": "carpet*|rug*|floor*" }
+   },
+   {
+    "sit": "Сусід по квартирі повертається додому й дивується, що підлога така чиста.",
+    "say": "Я пропилососив усю квартиру зранку.",
+    "ans": ["I vacuumed the whole apartment this morning.", "This morning I vacuumed the entire flat.", "Yeah, I vacuumed the whole place this morning."],
+    "keys": { "уся квартира": "apartment|flat|place|house|whole|entire", "зранку": "morning|today|earlier" }
+   },
+   {
+    "sit": "Ви з другом повернулися з моря, і в машині повно піску.",
+    "say": "Треба пропилососити машину всередині.",
+    "ans": ["We need to vacuum the car.", "The inside of the car needs vacuuming.", "Let’s vacuum the car — there’s sand everywhere."],
+    "keys": { "машина": "car|seat*|inside|interior" }
+   }
+  ]
+ },
+ {
+  "id": 208, "w": "iron", "uk": "прасувати", "lvl": "B1",
+  "forms": "iron|irons|ironed|ironed|ironing",
+  "near": "press|pressed|pressing|steam|steamed|steaming",
+  "tasks": [
+   {
+    "sit": "Завтра в тебе важлива співбесіда, а сорочка вся мʼята.",
+    "say": "Мені треба попрасувати сорочку на завтра.",
+    "ans": ["I need to iron my shirt for tomorrow.", "My shirt needs ironing before tomorrow.", "I’ve got to iron my shirt for tomorrow."],
+    "keys": { "сорочка": "shirt*", "завтра": "tomorrow" }
+   },
+   {
+    "sit": "Мама бачить на дивані гору чистої білизни й питає, чому вона досі там лежить.",
+    "say": "Я не люблю прасувати.",
+    "ans": ["I don’t like ironing.", "I hate ironing clothes.", "Honestly, I really don’t like ironing."],
+    "keys": { "не люблю": "not like|not enjoy|hate|not love|dislike|can not stand" }
+   },
+   {
+    "sit": "Ти в готелі перед весіллям друга й помічаєш, що штани пожмакані. Питаєш на рецепції.",
+    "say": "Де тут можна попрасувати штани?",
+    "ans": ["Where can I iron my trousers?", "Is there somewhere I can iron my pants?", "Where can I iron my trousers around here?"],
+    "keys": { "штани": "trousers|pants|suit*|clothes" }
+   }
+  ]
+ },
+ {
+  "id": 209, "w": "dress", "uk": "одягатися", "lvl": "A2",
+  "forms": "dress|dresses|dressed|dressed|dressing",
+  "near": "put on|puts on|putting on|wear|wore|wearing|get ready|got ready|getting ready",
+  "tasks": [
+   {
+    "sit": "Надворі мінус пʼятнадцять, а син збирається гуляти в легкій куртці.",
+    "say": "Одягнися тепліше, надворі дуже холодно.",
+    "ans": ["Dress warmly, it’s really cold outside.", "Make sure you dress warmly — it’s freezing out there.", "Dress warm, it’s freezing outside!"],
+    "keys": { "тепло": "warm*", "холодно": "cold|freezing|minus" }
+   },
+   {
+    "sit": "Таксі вже чекає біля підʼїзду, а ти ще в піжамі.",
+    "say": "Дай мені дві хвилини — я одягнуся.",
+    "ans": ["Give me two minutes, I’ll get dressed.", "I just need two minutes to get dressed.", "Two minutes — I’m getting dressed!"],
+    "keys": { "дві хвилини": "two|2|minute*|second*|moment" }
+   },
+   {
+    "sit": "Новий колега питає, що вдягнути на корпоратив у пʼятницю.",
+    "say": "Одягайся просто, це неформальна вечірка.",
+    "ans": ["Dress casually, it’s an informal party.", "You can dress casually — it’s not a formal party.", "Just dress casual, it’s a relaxed party."],
+    "keys": { "просто": "casual*|simpl*|informal|relaxed|not formal|comfortabl*", "вечірка": "party|event" }
+   }
+  ]
+ },
+ {
+  "id": 210, "w": "wear", "uk": "носити (одяг)", "lvl": "A1",
+  "forms": "wear|wears|wore|worn|wearing",
+  "near": "put on|puts on|putting on|dress|dressed|dressing|have on|had on",
+  "tasks": [
+   {
+    "sit": "Новий колега питає, чи є у вашому офісі дрес-код.",
+    "say": "Ми зазвичай носимо джинси й футболки.",
+    "ans": ["We usually wear jeans and T-shirts.", "Most of us wear jeans and T-shirts.", "We normally just wear jeans and T-shirts."],
+    "keys": { "джинси": "jeans|casual", "футболки": "shirt*|t-shirt*|tee*|t" }
+   },
+   {
+    "sit": "Новий знайомий бачить тебе без окулярів і дивується.",
+    "say": "Я ношу окуляри з дитинства.",
+    "ans": ["I’ve worn glasses since I was a child.", "I have been wearing glasses since childhood.", "I’ve been wearing glasses since I was a kid."],
+    "keys": { "окуляри": "glasses|specs|spectacles", "з дитинства": "child*|kid|young|little|school" }
+   },
+   {
+    "sit": "Подруга питає, що ти вдягнеш на весілля брата.",
+    "say": "Я вдягну свій синій костюм.",
+    "ans": ["I’m going to wear my blue suit.", "I’ll wear my blue suit.", "I think I’ll wear my blue suit."],
+    "keys": { "синій": "blue|navy", "костюм": "suit" }
+   }
+  ]
+ },
+ {
+  "id": 212, "w": "hold", "uk": "тримати", "lvl": "A2",
+  "forms": "hold|holds|held|held|holding",
+  "near": "keep|kept|keeping|carry|carried|carrying|grip|gripped|gripping|grab|grabbed",
+  "tasks": [
+   {
+    "sit": "Ти несеш важкі пакети до підʼїзду, а сусід іде просто перед тобою.",
+    "say": "Потримайте, будь ласка, двері!",
+    "ans": ["Could you hold the door, please?", "Please hold the door for me!", "Hey, can you hold the door?"],
+    "keys": { "двері": "door*" }
+   },
+   {
+    "sit": "Ти хочеш сфотографувати краєвид, але в руках гаряча кава.",
+    "say": "Потримай мою каву секунду.",
+    "ans": ["Hold my coffee for a second.", "Can you hold my coffee for a sec?", "Here, hold my coffee for a second."],
+    "keys": { "кава": "coffee|cup|drink", "секунду": "second|sec|moment|minute" }
+   },
+   {
+    "sit": "Ви з донькою переходите жваву дорогу.",
+    "say": "Тримай мене за руку, коли переходимо дорогу.",
+    "ans": ["Hold my hand when we cross the road.", "Hold my hand while we’re crossing the street.", "Hold my hand, we’re crossing now."],
+    "keys": { "рука": "hand*", "переходимо": "cross*|road|street" }
+   }
+  ]
+ },
+ {
+  "id": 213, "w": "grab", "uk": "схопити, вхопитися (руками)", "lvl": "B1",
+  "forms": "grab|grabs|grabbed|grabbed|grabbing",
+  "near": "seize|seized|snatch|snatched|catch|caught|take|took|grasp|grasped|hold|held",
+  "tasks": [
+   {
+    "sit": "Ти послизнувся на мокрих сходах у метро, але не впав.",
+    "say": "Я встиг схопитися за поручень.",
+    "ans": ["I grabbed the handrail just in time.", "Luckily, I grabbed the railing in time.", "I managed to grab the handrail just in time."],
+    "keys": { "поручень": "rail*|handrail*|banister*" }
+   },
+   {
+    "sit": "На вокзалі хтось пробіг повз жінку й вихопив у неї сумку. Ти розповідаєш поліцейському.",
+    "say": "Той чоловік схопив її сумку і втік!",
+    "ans": ["That man grabbed her bag and ran away!", "The guy grabbed her bag and ran off!", "He just grabbed her bag and ran!"],
+    "keys": { "сумка": "bag*|purse|handbag", "втік": "ran|run*|escap*|took off|fled" }
+   },
+   {
+    "sit": "Трирічний племінник гониться за котом і тягнеться до його хвоста.",
+    "say": "Не хапай кота за хвіст!",
+    "ans": ["Don’t grab the cat’s tail!", "Don’t grab the cat by the tail!", "Hey, don’t grab the cat’s tail!"],
+    "keys": { "кіт": "cat*|kitty", "хвіст": "tail" }
+   }
+  ]
+ },
+ {
+  "id": 214, "w": "catch", "uk": "ловити", "lvl": "A2",
+  "forms": "catch|catches|caught|caught|catching",
+  "near": "grab|grabbed|got|get|take|took|stop|stopped",
+  "tasks": [
+   {
+    "sit": "Ви з сином граєте в мʼяч у дворі, і ти кидаєш йому мʼяч.",
+    "say": "Лови мʼяч!",
+    "ans": ["Catch the ball!", "Here, catch the ball!", "Ready? Catch the ball!"],
+    "keys": { "мʼяч": "ball" }
+   },
+   {
+    "sit": "Ти повернувся з риболовлі з дідусем, і мама питає, як усе пройшло.",
+    "say": "Ми зловили три великі риби.",
+    "ans": ["We caught three big fish.", "We caught three big fish today.", "We caught three really big fish!"],
+    "keys": { "три": "three|3", "риба": "fish*" }
+   },
+   {
+    "sit": "Тарілка вислизнула з рук, але не розбилася. Ти розповідаєш про це на кухні.",
+    "say": "Я встиг зловити тарілку в останню мить.",
+    "ans": ["I caught the plate at the last second.", "I managed to catch the plate at the last moment.", "Luckily I caught the plate just in time."],
+    "keys": { "тарілка": "plate|dish|it", "в останню мить": "last|just in time|time" }
+   }
+  ]
+ },
+ {
+  "id": 215, "w": "throw", "uk": "кидати", "lvl": "A2",
+  "forms": "throw|throws|threw|thrown|throwing",
+  "near": "toss|tossed|tossing|chuck|chucked|pass|passed|drop|dropped",
+  "tasks": [
+   {
+    "sit": "Ти в парку з собакою, і вона знову приносить тобі палицю.",
+    "say": "Зараз кину палицю далі.",
+    "ans": ["I’ll throw the stick further.", "Now I’m going to throw the stick farther.", "Okay, I’ll throw the stick really far this time."],
+    "keys": { "палиця": "stick|it", "далі": "far*|further|farther|long*" }
+   },
+   {
+    "sit": "Ти стоїш на балконі, а друг унизу просить ключі від машини.",
+    "say": "Кидаю тобі ключі, лови!",
+    "ans": ["I’ll throw you the keys, catch!", "I’m throwing the keys down to you — catch!", "Here, I’ll throw you the keys."],
+    "keys": { "ключі": "key*" }
+   },
+   {
+    "sit": "Ти прийшов додому весь у снігу, і сестра питає, що сталося.",
+    "say": "Діти у дворі кидали в мене сніжки.",
+    "ans": ["The kids were throwing snowballs at me.", "The kids in the yard threw snowballs at me.", "Some kids kept throwing snowballs at me!"],
+    "keys": { "діти": "kid*|child*|boy*", "сніжки": "snow*" }
+   }
+  ]
+ },
+ {
+  "id": 216, "w": "push", "uk": "штовхати", "lvl": "A2",
+  "forms": "push|pushes|pushed|pushed|pushing",
+  "near": "shove|shoved|shoving|press|pressed|pressing|nudge|nudged",
+  "tasks": [
+   {
+    "sit": "Подруга не може вийти з кафе: смикає двері на себе, а вони не відчиняються.",
+    "say": "Треба штовхати, а не тягнути.",
+    "ans": ["You need to push, not pull.", "You have to push the door, not pull it.", "Oh, you have to push, not pull!"],
+    "keys": { "не тягнути": "not pull|pull" }
+   },
+   {
+    "sit": "Машина заглухла посеред перехрестя, і ви з другом виходите з неї.",
+    "say": "Давай штовхнемо машину на узбіччя.",
+    "ans": ["Let’s push the car to the side of the road.", "We should push the car off the road.", "Come on, let’s push the car over to the side."],
+    "keys": { "машина": "car|it", "узбіччя": "side|off|roadside|kerb|curb|shoulder" }
+   },
+   {
+    "sit": "У переповненому метро хтось постійно пхає тебе ліктем.",
+    "say": "Будь ласка, не штовхайтеся!",
+    "ans": ["Please stop pushing!", "Please don’t push me!", "Hey, stop pushing, please!"],
+    "keys": { "не": "not|stop|no" }
+   }
+  ]
+ },
+ {
+  "id": 217, "w": "pull", "uk": "тягнути", "lvl": "A2",
+  "forms": "pull|pulls|pulled|pulled|pulling",
+  "near": "drag|dragged|dragging|tug|tugged|tugging|yank|yanked|draw|drew",
+  "tasks": [
+   {
+    "sit": "Ви з друзями на пляжі граєте в перетягування каната, і ваша команда програє.",
+    "say": "Тягніть мотузку сильніше!",
+    "ans": ["Pull the rope harder!", "Pull harder on the rope!", "Come on, pull the rope harder!"],
+    "keys": { "мотузка": "rope", "сильніше": "hard*|strong*|more" }
+   },
+   {
+    "sit": "Мама не може відкрити шухляду нової шафи.",
+    "say": "Потягни шухляду сильніше, вона застрягла.",
+    "ans": ["Pull the drawer harder, it’s stuck.", "Pull the drawer out harder — it’s stuck.", "Just pull the drawer hard, it’s stuck."],
+    "keys": { "шухляда": "drawer", "застрягла": "stuck|jammed" }
+   },
+   {
+    "sit": "Молодший брат у сварці тягне сестру за волосся.",
+    "say": "Не тягни її за волосся!",
+    "ans": ["Don’t pull her hair!", "Stop pulling her hair!", "Hey, don’t pull her hair!"],
+    "keys": { "волосся": "hair" }
+   }
+  ]
+ },
+ {
+  "id": 218, "w": "hit", "uk": "вдаряти, вдаритися", "lvl": "A2",
+  "forms": "hit|hits|hit|hit|hitting",
+  "near": "punch|punched|kick|kicked|smack|smacked|strike|struck|bump|bumped|bang|banged|slap|slapped",
+  "tasks": [
+   {
+    "sit": "Ти підняв з-під столу ручку й різко встав. Ой!",
+    "say": "Я вдарився головою об стіл.",
+    "ans": ["I hit my head on the table.", "I just hit my head on the table.", "Ouch, I hit my head on the table!"],
+    "keys": { "голова": "head", "стіл": "table|desk" }
+   },
+   {
+    "sit": "Ти тренер з тенісу й дивишся, як учень подає.",
+    "say": "Ти бʼєш по мʼячу занадто сильно.",
+    "ans": ["You hit the ball too hard.", "You’re hitting the ball too hard.", "You’re hitting the ball way too hard."],
+    "keys": { "мʼяч": "ball|it", "занадто сильно": "too hard|too strong*|hard" }
+   },
+   {
+    "sit": "Ти пояснюєш колезі, чому запізнився: на дорозі була аварія.",
+    "say": "Вантажівка врізалася в автобус.",
+    "ans": ["A truck hit a bus.", "A bus was hit by a truck.", "Some truck hit a bus on the main road."],
+    "keys": { "вантажівка": "truck|lorry", "автобус": "bus" }
+   }
+  ]
+ },
+ {
+  "id": 219, "w": "punch", "uk": "бити (кулаком)", "lvl": "B1",
+  "forms": "punch|punches|punched|punched|punching",
+  "near": "hit|hitting|strike|struck|beat|beating|smack|smacked",
+  "tasks": [
+   {
+    "sit": "Ти вперше прийшов на тренування з боксу й говориш із тренером.",
+    "say": "Я хочу навчитися правильно бити грушу.",
+    "ans": ["I want to learn to punch the bag properly.", "I’d like to learn how to punch the bag correctly.", "I really want to learn how to punch the bag right."],
+    "keys": { "правильно": "proper*|correct*|right|good|well", "груша": "bag|punchbag" }
+   },
+   {
+    "sit": "Ти розповідаєш другові про бійку, яку бачив у барі.",
+    "say": "Один хлопець ударив іншого кулаком в обличчя.",
+    "ans": ["One guy punched another in the face.", "A guy punched another man in the face.", "Some guy just punched another guy in the face."],
+    "keys": { "обличчя": "face|nose|jaw" }
+   },
+   {
+    "sit": "Після неприємної розмови з начальником ти розповідаєш дружині, як почувався.",
+    "say": "Мені хотілося вдарити кулаком по стіні.",
+    "ans": ["I wanted to punch the wall.", "I felt like punching the wall.", "Honestly, I wanted to punch a wall."],
+    "keys": { "стіна": "wall" }
+   }
+  ]
+ },
+ {
+  "id": 220, "w": "kick", "uk": "бити (ногою), копати", "lvl": "A2",
+  "forms": "kick|kicks|kicked|kicked|kicking",
+  "near": "hit|hitting|stamp|stamped|stomp|stomped|shoot|shot|boot|booted",
+  "tasks": [
+   {
+    "sit": "Ти пояснюєш маленькому племіннику правила футболу.",
+    "say": "Бий по мʼячу ногою, руками не можна.",
+    "ans": ["Kick the ball, you can’t use your hands.", "You kick the ball — no hands allowed.", "Just kick the ball, don’t touch it with your hands."],
+    "keys": { "мʼяч": "ball|it", "руками": "hand*" }
+   },
+   {
+    "sit": "Дитина позаду тебе в літаку весь політ била ногами в спинку твого крісла.",
+    "say": "Він увесь політ копав моє крісло!",
+    "ans": ["He kicked my seat the whole flight!", "He kept kicking my seat the whole way!", "The kid was kicking my seat the entire flight!"],
+    "keys": { "крісло": "seat|chair", "увесь політ": "whole|entire|all|kept|flight|way|time" }
+   },
+   {
+    "sit": "Автомат із напоями забрав твої монети й не дав воду.",
+    "say": "Я так розізлився, що копнув автомат.",
+    "ans": ["I got so angry that I kicked the machine.", "I was so angry I kicked the vending machine.", "I was so mad I just kicked the machine."],
+    "keys": { "автомат": "machine", "розізлився": "angry|mad|annoyed|furious|upset" }
+   }
+  ]
+ },
+ {
+  "id": 221, "w": "squeeze", "uk": "стискати / вичавлювати", "lvl": "B1",
+  "forms": "squeeze|squeezes|squeezed|squeezed|squeezing",
+  "near": "press|pressed|pressing|juice|juiced|crush|crushed|grip|gripped|hug|hugged",
+  "tasks": [
+   {
+    "sit": "Ти готуєш домашній лимонад для гостей, і соку поки замало.",
+    "say": "Мені треба вичавити ще два лимони.",
+    "ans": ["I need to squeeze two more lemons.", "I have to squeeze another two lemons.", "I’ve still got to squeeze two more lemons."],
+    "keys": { "два": "two|2|another|couple", "лимони": "lemon*" }
+   },
+   {
+    "sit": "Ти лікар і перевіряєш силу руки пацієнта після травми.",
+    "say": "Стисніть мою руку якомога сильніше.",
+    "ans": ["Squeeze my hand as hard as you can.", "Please squeeze my hand as hard as possible.", "Now squeeze my hand really hard."],
+    "keys": { "рука": "hand*|finger*", "сильно": "hard*|strong*|tight*" }
+   },
+   {
+    "sit": "Зубна паста майже закінчилася, а купити нову ти ще не встиг.",
+    "say": "Я вичавлю з тюбика ще трохи пасти.",
+    "ans": ["I’ll squeeze a bit more toothpaste out of the tube.", "I can still squeeze some toothpaste out of the tube.", "I’ll just squeeze out the last bit of toothpaste."],
+    "keys": { "паста": "toothpaste|paste", "ще трохи": "more|last|bit|little|some" }
+   }
+  ]
+ },
+ {
+  "id": 222, "w": "change", "uk": "змінювати", "lvl": "A1",
+  "forms": "change|changes|changed|changed|changing",
+  "near": "switch|switched|alter|altered|modify|modified|swap|swapped|replace|replaced|adjust|adjusted",
+  "tasks": [
+   {
+    "sit": "Учора ти казав друзям, що не підеш на концерт, але сьогодні пишеш у їхній чат.",
+    "say": "Я змінив думку — я йду з вами.",
+    "ans": ["I changed my mind — I’m coming with you.", "I’ve changed my mind, I’ll come with you.", "Actually, I changed my mind — I’m coming too!"],
+    "keys": { "йду з вами": "come|coming|go|going|join*" }
+   },
+   {
+    "sit": "Ти вже втретє не можеш згадати пароль від банківського застосунку.",
+    "say": "Мені треба змінити пароль.",
+    "ans": ["I need to change my password.", "I have to change the password.", "I should really change my password."],
+    "keys": { "пароль": "password*|pin|code" }
+   },
+   {
+    "sit": "Після переїзду до Польщі подруга питає, як тобі там живеться.",
+    "say": "Переїзд повністю змінив моє життя.",
+    "ans": ["Moving completely changed my life.", "The move has changed my life completely.", "Moving here totally changed my life."],
+    "keys": { "переїзд": "mov*|relocat*|here", "життя": "life" }
+   }
+  ]
+ },
+ {
+  "id": 223, "w": "grow", "uk": "вирощувати, відрощувати", "lvl": "A2",
+  "forms": "grow|grows|grew|grown|growing",
+  "near": "plant|planted|planting|raise|raised|cultivate*|farm|farmed|let it grow",
+  "tasks": [
+   {
+    "sit": "Колега не одразу впізнає тебе після відпустки.",
+    "say": "Я вирішив відростити бороду.",
+    "ans": ["I decided to grow a beard.", "I’ve decided to grow a beard.", "I thought I’d grow a beard for a change."],
+    "keys": { "борода": "beard" }
+   },
+   {
+    "sit": "Сусід заглядає через паркан на твій город і питає, що там росте.",
+    "say": "Цього року я вирощую помідори й огірки.",
+    "ans": ["This year I’m growing tomatoes and cucumbers.", "I’ve grown tomatoes and cucumbers this year.", "I’m growing tomatoes and cucumbers this year."],
+    "keys": { "помідори": "tomato*", "огірки": "cucumber*" }
+   },
+   {
+    "sit": "Подруга захоплюється твоїм довгим волоссям і питає, скільки часу на це пішло.",
+    "say": "Мені знадобилося три роки, щоб відростити волосся.",
+    "ans": ["It took me three years to grow my hair this long.", "I needed three years to grow my hair out.", "It took me three years to grow my hair."],
+    "keys": { "три роки": "three|3", "волосся": "hair" }
+   }
+  ]
+ },
+ {
+  "id": 224, "w": "increase", "uk": "збільшувати(ся)", "lvl": "B1",
+  "forms": "increase|increases|increased|increased|increasing",
+  "near": "raise|raised|raising|rise|rose|risen|rising|went up|go up|goes up|gone up|grow|grew|boost|boosted",
+  "tasks": [
+   {
+    "sit": "Ти читаєш лист від власника квартири й розповідаєш про нього сусідові.",
+    "say": "Він збільшує орендну плату з наступного місяця.",
+    "ans": ["He’s increasing the rent from next month.", "He is going to increase the rent next month.", "He’s increasing our rent starting next month."],
+    "keys": { "оренда": "rent*", "наступного місяця": "next month" }
+   },
+   {
+    "sit": "Ти аналітик і звітуєш на нараді про результати кварталу.",
+    "say": "Наші продажі зросли на двадцять відсотків.",
+    "ans": ["Our sales increased by twenty percent.", "Sales have increased by 20 percent.", "Our sales have increased by twenty percent."],
+    "keys": { "продажі": "sale*|revenue", "двадцять": "twenty|20*" }
+   },
+   {
+    "sit": "Лікар порадив тобі більше рухатися, і ти розповідаєш другові свій план.",
+    "say": "Я хочу збільшити кількість кроків до десяти тисяч на день.",
+    "ans": ["I want to increase my steps to ten thousand a day.", "I’d like to increase my daily steps to 10,000.", "I’m trying to increase my steps to ten thousand a day."],
+    "keys": { "кроки": "step*|walk*", "десять тисяч": "ten|10*|thousand" }
+   }
+  ]
+ },
+ {
+  "id": 225, "w": "decrease", "uk": "зменшувати(ся)", "lvl": "B1",
+  "forms": "decrease|decreases|decreased|decreased|decreasing",
+  "near": "reduce|reduced|reduces|reducing|lower|lowered|drop|dropped|fall|fell|fallen|cut|went down|go down|goes down|decline*|shrink*|shrank",
+  "tasks": [
+   {
+    "sit": "Ти лікар і пояснюєш пацієнтові, навіщо займатися спортом.",
+    "say": "Регулярні тренування зменшують ризик серцевих хвороб.",
+    "ans": ["Regular exercise decreases the risk of heart disease.", "Exercising regularly decreases your risk of heart disease.", "Regular workouts really decrease the risk of heart problems."],
+    "keys": { "ризик": "risk*|chance*", "серце": "heart" }
+   },
+   {
+    "sit": "Ти звітуєш керівникові про роботу служби підтримки за квартал.",
+    "say": "Кількість скарг зменшилася вдвічі.",
+    "ans": ["The number of complaints decreased by half.", "Complaints have decreased by fifty percent.", "Complaints have decreased by half."],
+    "keys": { "скарги": "complain*", "вдвічі": "half|50*|fifty" }
+   },
+   {
+    "sit": "Ти читаєш міські новини про нові камери на дорогах і ділишся ними з сусідом.",
+    "say": "Кількість аварій на цій дорозі зменшилася.",
+    "ans": ["The number of accidents on this road has decreased.", "Accidents on this road have decreased.", "Car accidents on this road have decreased a lot."],
+    "keys": { "аварії": "accident*|crash*", "дорога": "road|street|highway" }
+   }
+  ]
+ },
+ {
+  "id": 226, "w": "reduce", "uk": "скорочувати, знижувати", "lvl": "B1",
+  "forms": "reduce|reduces|reduced|reduced|reducing",
+  "near": "decrease|decreased|decreasing|lower|lowered|lowering|cut|cutting|lessen*|minimi*|slash*",
+  "tasks": [
+   {
+    "sit": "Подруга питає, навіщо ти почав займатися йогою.",
+    "say": "Йога допомагає мені зменшити стрес.",
+    "ans": ["Yoga helps me reduce stress.", "Yoga helps me to reduce my stress.", "Yoga really helps me reduce stress."],
+    "keys": { "йога": "yoga|it", "стрес": "stress*|anxiety|tension" }
+   },
+   {
+    "sit": "Ти за кермом і бачиш знак, що попереду дитячий садок.",
+    "say": "Треба знизити швидкість, тут дитсадок.",
+    "ans": ["I need to reduce my speed, there’s a kindergarten here.", "I should reduce speed — there’s a nursery school nearby.", "I’ll reduce my speed here — there’s a kindergarten."],
+    "keys": { "швидкість": "speed", "дитсадок": "kindergarten|nursery|kid*|child*|school" }
+   },
+   {
+    "sit": "Ти керівник відділу й пояснюєш команді новий план на рік.",
+    "say": "Ми маємо скоротити витрати на десять відсотків.",
+    "ans": ["We have to reduce costs by ten percent.", "We need to reduce our expenses by 10 percent.", "We’ve got to reduce costs by ten percent."],
+    "keys": { "витрати": "cost*|expens*|spend*|budget", "десять": "ten|10*" }
+   }
+  ]
+ },
+ {
+  "id": 227, "w": "expand", "uk": "розширювати(ся)", "lvl": "B1",
+  "forms": "expand|expands|expanded|expanded|expanding",
+  "near": "grow|grew|growing|extend|extended|enlarge*|widen*|broaden*|increase|increased",
+  "tasks": [
+   {
+    "sit": "Ти власник маленької кавʼярні й розповідаєш знайомому про плани.",
+    "say": "Наступного року ми хочемо розширити бізнес.",
+    "ans": ["We want to expand the business next year.", "Next year we’re planning to expand our business.", "We’re hoping to expand the business next year."],
+    "keys": { "бізнес": "business|company|cafe*|shop", "наступного року": "next year" }
+   },
+   {
+    "sit": "Колега питає, навіщо ти почав вивчати іспанську й читати книжки про інші культури.",
+    "say": "Я хочу розширити свій кругозір.",
+    "ans": ["I want to expand my horizons.", "I’d like to expand my horizons.", "I just want to expand my horizons a bit."],
+    "keys": { "кругозір": "horizon*|mind|world|outlook" }
+   },
+   {
+    "sit": "Твоя ІТ-компанія відкриває офіси за кордоном, і ти розповідаєш про це другові.",
+    "say": "Наша компанія розширюється на європейський ринок.",
+    "ans": ["Our company is expanding into the European market.", "The company is expanding into Europe.", "We’re expanding into the European market."],
+    "keys": { "Європа": "europe*" }
+   }
+  ]
+ },
+ {
+  "id": 228, "w": "shrink", "uk": "зменшуватися, сідати (про одяг)", "lvl": "B1",
+  "forms": "shrink|shrinks|shrank/shrunk|shrunk|shrinking",
+  "near": "got smaller|get smaller|gets smaller|getting smaller|became smaller|smaller|melt*|decrease*",
+  "tasks": [
+   {
+    "sit": "Ти виправ новий вовняний светр у гарячій воді.",
+    "say": "Мій светр сів після прання.",
+    "ans": ["My sweater shrank in the wash.", "My sweater has shrunk after washing.", "Oh no, my sweater shrank in the wash!"],
+    "keys": { "светр": "sweater|jumper|pullover", "прання": "wash*|laundry" }
+   },
+   {
+    "sit": "Ти в магазині обираєш бавовняну футболку й питаєш продавчиню.",
+    "say": "Вона не сяде після прання?",
+    "ans": ["Is it going to shrink in the wash?", "Will this T-shirt shrink after washing?", "It won’t shrink in the wash, will it?"],
+    "keys": { "прання": "wash*|laundry|dryer" }
+   },
+   {
+    "sit": "Ти дивишся документальний фільм про клімат і коментуєш його другові.",
+    "say": "Льодовики швидко зменшуються.",
+    "ans": ["The glaciers are shrinking fast.", "Glaciers are shrinking very quickly.", "The glaciers are shrinking really fast."],
+    "keys": { "льодовики": "glacier*|ice", "швидко": "fast|quick*|rapid*" }
+   }
+  ]
+ },
+ {
+  "id": 229, "w": "improve", "uk": "покращувати(ся)", "lvl": "A2",
+  "forms": "improve|improves|improved|improved|improving",
+  "near": "get better|got better|gets better|getting better|enhance*|upgrade*|boost|boosted|polish*",
+  "tasks": [
+   {
+    "sit": "Знайома питає, навіщо ти записався на вечірні курси.",
+    "say": "Я хочу покращити свою англійську.",
+    "ans": ["I want to improve my English.", "I’d like to improve my English.", "I really want to improve my English."],
+    "keys": { "англійська": "english" }
+   },
+   {
+    "sit": "Ти порівнюєш свої результати в бігу за останні два місяці.",
+    "say": "Мій час дуже покращився.",
+    "ans": ["My time has improved a lot.", "My running time improved a lot.", "My times have really improved."],
+    "keys": { "час": "time*|result*|pace", "дуже": "a lot|much|really|lot|significantly" }
+   },
+   {
+    "sit": "Друг не був у твоєму місті пʼять років і питає, що змінилося.",
+    "say": "Громадський транспорт у нас помітно покращився.",
+    "ans": ["Public transport here has improved a lot.", "Public transport has really improved in our city.", "Our public transport has improved a lot."],
+    "keys": { "транспорт": "transport*|bus*|transit" }
+   }
+  ]
+ },
+ {
+  "id": 230, "w": "worsen", "uk": "погіршуватися", "lvl": "B2",
+  "forms": "worsen|worsens|worsened|worsened|worsening",
+  "near": "get worse|got worse|gets worse|getting worse|gotten worse|deteriorate*|decline*",
+  "tasks": [
+   {
+    "sit": "Ти телефонуєш сімейному лікареві через бабусю.",
+    "say": "Її стан погіршився за ніч.",
+    "ans": ["Her condition worsened overnight.", "Her condition has worsened during the night.", "Her condition worsened overnight, I’m afraid."],
+    "keys": { "стан": "condition|health|state", "за ніч": "night|overnight" }
+   },
+   {
+    "sit": "Ви з друзями збираєтеся в гори, і ти читаєш прогноз.",
+    "say": "Прогноз каже, що погода погіршиться після обіду.",
+    "ans": ["The forecast says the weather will worsen in the afternoon.", "According to the forecast, the weather is going to worsen after lunch.", "Apparently the weather will worsen this afternoon."],
+    "keys": { "погода": "weather", "після обіду": "afternoon|lunch|later|evening" }
+   },
+   {
+    "sit": "На нараді обговорюєте проблеми з постачальником.",
+    "say": "Ситуація з поставками тільки погіршується.",
+    "ans": ["The delivery situation is only worsening.", "The situation with deliveries keeps worsening.", "The supply situation just keeps worsening."],
+    "keys": { "ситуація": "situation|problem*|thing*", "поставки": "deliver*|suppl*|shipment*" }
+   }
+  ]
+ },
+ {
+  "id": 231, "w": "replace", "uk": "заміняти", "lvl": "B1",
+  "forms": "replace|replaces|replaced|replaced|replacing",
+  "near": "change|changed|changing|swap|swapped|substitute*|switch|switched",
+  "tasks": [
+   {
+    "sit": "Пульт від телевізора перестав реагувати на кнопки.",
+    "say": "Треба замінити батарейки.",
+    "ans": ["We need to replace the batteries.", "The batteries need replacing.", "I think we need to replace the batteries."],
+    "keys": { "батарейки": "batter*" }
+   },
+   {
+    "sit": "Ти в сервісному центрі з телефоном, у якого розбитий екран.",
+    "say": "Скільки коштує замінити екран?",
+    "ans": ["How much does it cost to replace the screen?", "How much would it cost to replace the screen?", "What’s the price to replace the screen?"],
+    "keys": { "скільки коштує": "how much|cost*|price", "екран": "screen|display|glass" }
+   },
+   {
+    "sit": "Досвідчений колега звільняється, і керівник шукає нову людину на його місце.",
+    "say": "Його буде дуже важко замінити.",
+    "ans": ["He will be very hard to replace.", "It’ll be really hard to replace him.", "He’s going to be really hard to replace."],
+    "keys": { "важко": "hard|difficult|tough|not easy" }
+   }
+  ]
+ },
+ {
+  "id": 232, "w": "adjust", "uk": "налаштовувати, регулювати", "lvl": "B1",
+  "forms": "adjust|adjusts|adjusted|adjusted|adjusting",
+  "near": "set|setting|change|changed|tweak|tweaked|fix|fixed|turn|turned|regulate*",
+  "tasks": [
+   {
+    "sit": "Ти сідаєш у машину після колеги, який набагато вищий за тебе.",
+    "say": "Мені треба налаштувати сидіння й дзеркала.",
+    "ans": ["I need to adjust the seat and the mirrors.", "I have to adjust my seat and mirrors first.", "Hang on, I need to adjust the seat and mirrors."],
+    "keys": { "сидіння": "seat*", "дзеркала": "mirror*" }
+   },
+   {
+    "sit": "На онлайн-дзвінку колеги кажуть, що тебе погано чути.",
+    "say": "Зачекайте, я налаштую мікрофон.",
+    "ans": ["Wait, I’ll adjust my microphone.", "Hold on, let me adjust the mic.", "One sec, I’m adjusting my microphone."],
+    "keys": { "мікрофон": "mic*|microphone*|sound|audio" }
+   },
+   {
+    "sit": "Ви з другом дивитеся фото на його ноутбуці, але екран занадто темний.",
+    "say": "Можеш налаштувати яскравість екрана?",
+    "ans": ["Can you adjust the screen brightness?", "Could you adjust the brightness on the screen?", "Can you adjust the brightness a bit?"],
+    "keys": { "яскравість": "bright*" }
+   }
+  ]
+ }
+]

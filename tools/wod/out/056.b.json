@@ -1,0 +1,652 @@
+[
+ {
+  "id": 3069, "w": "account for", "uk": "пояснювати / становити частку", "lvl": "B2",
+  "forms": "account|accounts|accounted|accounted|accounting",
+  "tail": "for",
+  "near": "explain*|make up|makes up|made up|represent*|constitut*|comprise*",
+  "tasks": [
+   {
+    "sit": "Проєкт затримався на місяць, і фінансова директорка вимагає пояснень від команди.",
+    "say": "Як ви поясните таку затримку?",
+    "ans": ["How do you account for such a delay?", "How would you account for this delay?", "So how do you account for the delay?"],
+    "keys": { "затримка": "delay*|late" }
+   },
+   {
+    "sit": "Ви з сусідом по квартирі переглядаєте щомісячний бюджет.",
+    "say": "Оренда становить майже половину наших витрат.",
+    "ans": ["Rent accounts for almost half of our costs.", "Rent accounts for nearly half of what we spend.", "Our rent accounts for almost half our expenses."],
+    "keys": { "оренда": "rent*", "половина": "half|50*" }
+   },
+   {
+    "sit": "Ти пишеш курсову про туризм і розповідаєш викладачеві про свої дані.",
+    "say": "Іноземні туристи становлять третину всіх відвідувачів.",
+    "ans": ["Foreign tourists account for a third of all visitors.", "Tourists from abroad account for about one third of visitors.", "Foreign visitors account for roughly a third of the total."],
+    "keys": { "іноземні": "foreign*|abroad|international", "третина": "third|33*" }
+   }
+  ]
+ },
+ {
+  "id": 3070, "w": "add up to", "uk": "складати в сумі", "lvl": "B1",
+  "forms": "add|adds|added|added|adding",
+  "tail": "up to",
+  "near": "come to|comes to|came to|total*|amount* to|amounted to",
+  "tasks": [
+   {
+    "sit": "Ти на касі з повним кошиком дрібних покупок і дивишся на чек.",
+    "say": "Ці дрібниці разом виходять у сто євро!",
+    "ans": ["These little things add up to a hundred euros!", "All these small things add up to 100 euros!", "All this little stuff adds up to a hundred euros!"],
+    "keys": { "сто": "hundred|100*", "дрібниці": "small|little|stuff|things" }
+   },
+   {
+    "sit": "Ти рахуєш, скільки часу щотижня витрачаєш на дорогу до університету.",
+    "say": "За тиждень це складає десять годин у транспорті.",
+    "ans": ["It adds up to ten hours on the bus every week.", "In a week, it adds up to ten hours of travel.", "That adds up to ten hours a week just commuting!"],
+    "keys": { "десять годин": "ten|10*|hours", "тиждень": "week*" }
+   },
+   {
+    "sit": "Ти переконуєш друга, що навіть короткі щоденні пробіжки мають сенс.",
+    "say": "Три кілометри щодня — це в сумі майже сто кілометрів за місяць.",
+    "ans": ["Running three kilometres a day adds up to almost a hundred kilometres a month.", "Three kilometres every day adds up to nearly a hundred a month.", "Just three kilometres a day adds up to around 100 kilometres a month."],
+    "keys": { "місяць": "month*", "сто": "hundred|100*" }
+   }
+  ]
+ },
+ {
+  "id": 3071, "w": "back out", "uk": "відмовлятися (від домовленості)", "lvl": "B2",
+  "forms": "back|backs|backed|backed|backing",
+  "tail": "out",
+  "near": "pull* out|pulled out|withdr*|cancel*|change* mind|changed his mind|go back on|went back on",
+  "tasks": [
+   {
+    "sit": "Ти продавав машину, покупець уже погодився на ціну, але в день угоди передумав.",
+    "say": "Покупець відмовився в останню мить.",
+    "ans": ["The buyer backed out at the last minute.", "At the last minute, the buyer backed out of the deal.", "The buyer just backed out at the last minute."],
+    "keys": { "покупець": "buyer|guy|man|customer", "в останню мить": "last minute|last moment|last second" }
+   },
+   {
+    "sit": "Ви з друзями бронюєте спільний будинок біля моря на відпустку.",
+    "say": "Тільки не відмовляйтеся потім, бо завдаток уже сплачено.",
+    "ans": ["Just don’t back out later — I’ve already paid the deposit.", "Please don’t back out, the deposit is already paid.", "No backing out now, I’ve already put down the deposit!"],
+    "keys": { "завдаток": "deposit|paid|pay*" }
+   },
+   {
+    "sit": "Ти записався на благодійний забіг на двадцять кілометрів, а тепер злякався.",
+    "say": "Я хочу відмовитися, але вже пізно.",
+    "ans": ["I want to back out, but it’s too late.", "I’d love to back out, but it’s too late now.", "I kind of want to back out, but it’s way too late."],
+    "keys": { "пізно": "late" }
+   }
+  ]
+ },
+ {
+  "id": 3072, "w": "bank on", "uk": "розраховувати на", "lvl": "B2",
+  "forms": "bank|banks|banked|banked|banking",
+  "tail": "on",
+  "near": "count on|counting on|counted on|rely on|relying on|depend* on|expect*",
+  "tasks": [
+   {
+    "sit": "Колега вже планує, на що витратить річну премію, хоча компанія цього року має збитки.",
+    "say": "Я б не розраховував на премію цього року.",
+    "ans": ["I wouldn’t bank on a bonus this year.", "I wouldn’t bank on getting a bonus this year.", "Honestly, don’t bank on a bonus this year."],
+    "keys": { "премія": "bonus", "цього року": "this year|year" }
+   },
+   {
+    "sit": "Ви плануєте пікнік на жовтневі вихідні, і друг упевнений, що буде сонячно.",
+    "say": "Я б не розраховував на гарну погоду в жовтні.",
+    "ans": ["I wouldn’t bank on good weather in October.", "I’m not banking on sunny weather in October.", "I really wouldn’t bank on sunshine in October."],
+    "keys": { "погода": "weather|sun*|rain", "жовтень": "october" }
+   },
+   {
+    "sit": "Твоя улюблена футбольна команда сьогодні грає фінал, а нападники травмовані.",
+    "say": "Ми розраховуємо на нашого воротаря.",
+    "ans": ["We’re banking on our goalkeeper.", "We are banking on our keeper tonight.", "We’re really banking on the goalie to save us."],
+    "keys": { "воротар": "goalkeeper|keeper|goalie" }
+   }
+  ]
+ },
+ {
+  "id": 3073, "w": "bring about", "uk": "спричиняти", "lvl": "B2",
+  "forms": "bring|brings|brought|brought|bringing",
+  "tail": "about",
+  "near": "cause*|lead to|led to|result* in|resulted in|creat*|produc*",
+  "tasks": [
+   {
+    "sit": "Ти обговорюєш з одногрупником закон, після якого в місті зʼявилися велодоріжки.",
+    "say": "Цей закон спричинив справжні зміни в місті.",
+    "ans": ["This law brought about real change in the city.", "The law has brought about real changes in our city.", "That law really brought about change in the city."],
+    "keys": { "закон": "law|rule*", "зміни": "chang*|difference" }
+   },
+   {
+    "sit": "Новий директор за пів року зовсім змінив атмосферу в офісі. Ти розповідаєш про це другові.",
+    "say": "Новий керівник приніс багато позитивних змін.",
+    "ans": ["The new manager brought about a lot of positive changes.", "Lots of good changes were brought about by the new boss.", "The new boss has brought about loads of positive change."],
+    "keys": { "керівник": "manager|boss|director|head", "позитивні": "positive|good|better" }
+   },
+   {
+    "sit": "Ти готуєшся до іспиту з історії та питаєш одногрупницю.",
+    "say": "Що спричинило падіння Римської імперії?",
+    "ans": ["What brought about the fall of the Roman Empire?", "What brought about the collapse of the Roman Empire?", "So what actually brought about the fall of Rome?"],
+    "keys": { "падіння": "fall|collapse|end|decline", "Рим": "rom*" }
+   }
+  ]
+ },
+ {
+  "id": 3074, "w": "bring down", "uk": "знижувати", "lvl": "B2",
+  "forms": "bring|brings|brought|brought|bringing",
+  "tail": "down",
+  "near": "lower*|reduc*|decreas*|cut|cuts|cutting|drop*|haggl*",
+  "tasks": [
+   {
+    "sit": "Ти на східному базарі довго торгувався за килим. Друг питає, скільки заплатив.",
+    "say": "Мені вдалося збити ціну на двадцять відсотків.",
+    "ans": ["I managed to bring the price down by twenty percent.", "I brought the price down by 20 percent.", "I actually managed to bring down the price by twenty percent!"],
+    "keys": { "ціна": "price|cost", "двадцять": "twenty|20*" }
+   },
+   {
+    "sit": "Ви з сусідами обговорюєте рахунки за опалення цієї зими.",
+    "say": "Нові вікна допомогли нам знизити рахунки за опалення.",
+    "ans": ["New windows helped us bring down our heating bills.", "The new windows have helped bring our heating bills down.", "Our new windows really brought the heating bills down."],
+    "keys": { "вікна": "window*", "рахунки": "bill*|cost*" }
+   },
+   {
+    "sit": "У дитини вночі піднялася висока температура, і ти телефонуєш у чергову аптеку.",
+    "say": "Що можна дати дитині, щоб збити температуру?",
+    "ans": ["What can I give my child to bring the fever down?", "What can I give my kid to bring down his temperature?", "What should I give her to bring her temperature down?"],
+    "keys": { "температура": "fever|temperature|temp", "дитина": "child|kid|son|daughter|baby|her|him|his" }
+   }
+  ]
+ },
+ {
+  "id": 3075, "w": "bring forward", "uk": "переносити на раніше", "lvl": "B2",
+  "forms": "bring|brings|brought|brought|bringing",
+  "tail": "forward",
+  "near": "move* up|moved up|reschedul*|move* forward|moved forward|push* forward",
+  "tasks": [
+   {
+    "sit": "Керівник повідомляє команді про зміни в розкладі: клієнт приїжджає раніше.",
+    "say": "Нараду перенесли на понеділок.",
+    "ans": ["The meeting has been brought forward to Monday.", "They’ve brought the meeting forward to Monday.", "Heads up, they brought the meeting forward to Monday."],
+    "keys": { "нарада": "meeting", "понеділок": "monday" }
+   },
+   {
+    "sit": "Ваше весілля мало бути у вересні, але ви вирішили не чекати. Тітка дивується.",
+    "say": "Ми перенесли весілля на червень.",
+    "ans": ["We brought the wedding forward to June.", "We decided to bring the wedding forward to June.", "We brought the wedding forward — it’s in June now."],
+    "keys": { "весілля": "wedding", "червень": "june" }
+   },
+   {
+    "sit": "Ти на відпочинку, але вдома захворів кіт, тож треба повертатися швидше. Ти телефонуєш в авіакомпанію.",
+    "say": "Чи можна перенести мій рейс на раніше?",
+    "ans": ["Can I bring my flight forward?", "Is it possible to bring forward my flight?", "Could I bring my flight forward a couple of days?"],
+    "keys": { "рейс": "flight|ticket" }
+   }
+  ]
+ },
+ {
+  "id": 3076, "w": "bring in", "uk": "залучати / приносити (дохід)", "lvl": "B2",
+  "forms": "bring|brings|brought|brought|bringing",
+  "tail": "in",
+  "near": "attract*|earn*|make|makes|made|generat*|draw in|drew in|pull* in|pulled in",
+  "tasks": [
+   {
+    "sit": "Знайомий питає, чи вигідна твоя маленька кавʼярня.",
+    "say": "Кавʼярня приносить близько двох тисяч євро на тиждень.",
+    "ans": ["The café brings in about two thousand euros a week.", "The café brings in around two thousand euros every week.", "My café brings in roughly two grand a week."],
+    "keys": { "дві тисячі": "thousand|2*|grand", "тиждень": "week*" }
+   },
+   {
+    "sit": "На нараді сперечаються, чи варто далі платити за рекламу в соцмережах.",
+    "say": "Ця реклама приводить нових клієнтів.",
+    "ans": ["This ad brings in new clients.", "The ad campaign is bringing in new customers.", "This advert really brings in new clients."],
+    "keys": { "реклама": "ad|ads|advert*|campaign|advertis*", "клієнти": "client*|customer*" }
+   },
+   {
+    "sit": "Ти обговорюєш із сусідами новий музичний фестиваль у вашому містечку.",
+    "say": "Фестиваль приверне багато туристів.",
+    "ans": ["The festival will bring in lots of tourists.", "The festival is going to bring in a lot of tourists.", "That festival will bring in loads of tourists."],
+    "keys": { "фестиваль": "festival", "туристи": "tourist*|visitor*" }
+   }
+  ]
+ },
+ {
+  "id": 3077, "w": "bring out", "uk": "випускати (на ринок)", "lvl": "B2",
+  "forms": "bring|brings|brought|brought|bringing",
+  "tail": "out",
+  "near": "releas*|launch*|put out|introduc*|come out|came out",
+  "tasks": [
+   {
+    "sit": "Друг збирається купити новий смартфон просто зараз.",
+    "say": "Зачекай, восени вони випустять нову модель.",
+    "ans": ["Wait, they’re bringing out a new model in the autumn.", "Hang on — they’ll bring out a new model this fall.", "Wait a bit, they’re bringing out a new one in autumn."],
+    "keys": { "восени": "autumn|fall|september|october", "нова модель": "new" }
+   },
+   {
+    "sit": "Твій улюблений гурт мовчав пʼять років. Ти пишеш подрузі.",
+    "say": "Мій улюблений гурт нарешті випустив новий альбом!",
+    "ans": ["My favourite band has finally brought out a new album!", "My favourite band finally brought out a new album!", "Guess what — my favourite band finally brought out a new album!"],
+    "keys": { "гурт": "band|group", "альбом": "album|record" }
+   },
+   {
+    "sit": "Ти працюєш у магазині одягу. Клієнтка питає про зимові речі.",
+    "say": "Ми випустимо зимову колекцію наступного місяця.",
+    "ans": ["We’re bringing out our winter collection next month.", "We’ll bring out the winter collection next month.", "The winter collection? We’re bringing it out next month."],
+    "keys": { "зимова колекція": "winter|collection", "наступного місяця": "next month|month" }
+   }
+  ]
+ },
+ {
+  "id": 3078, "w": "carry over", "uk": "переносити (на наступний період)", "lvl": "B2",
+  "forms": "carry|carries|carried|carried|carrying",
+  "tail": "over",
+  "near": "transfer*|roll* over|rolled over|move* to|moved to|postpon*",
+  "tasks": [
+   {
+    "sit": "Цього року ти не використав усю відпустку й пишеш у відділ кадрів.",
+    "say": "Чи можна перенести невикористані дні на наступний рік?",
+    "ans": ["Can I carry over my unused days to next year?", "Is it possible to carry my unused holiday over to next year?", "Can I carry the leftover days over into next year?"],
+    "keys": { "невикористані дні": "unused|leftover|days|holiday", "наступний рік": "next year|year" }
+   },
+   {
+    "sit": "Ти працюєш у мобільного оператора. Клієнт питає, що буде з інтернетом, який він не встиг використати.",
+    "say": "Невикористаний інтернет переноситься на наступний місяць.",
+    "ans": ["Unused data carries over to the next month.", "Any data you don’t use is carried over to next month.", "Your leftover data just carries over to next month."],
+    "keys": { "інтернет": "data|internet|gigabyte*|gb", "місяць": "month" }
+   },
+   {
+    "sit": "Ти адміністратор мовних курсів. Студентка хвилюється, що бонусні бали згорять після канікул.",
+    "say": "Не хвилюйтеся, ваші бали перенесуться на наступний семестр.",
+    "ans": ["Don’t worry, your points will carry over to next semester.", "Your points will be carried over to next term, don’t worry.", "Don’t worry, your points just carry over to the next semester."],
+    "keys": { "бали": "point*|mark*|credit*|grade*|score*", "семестр": "semester|term" }
+   }
+  ]
+ },
+ {
+  "id": 3079, "w": "check off", "uk": "викреслювати зі списку", "lvl": "B1",
+  "forms": "check|checks|checked|checked|checking",
+  "tail": "off",
+  "near": "tick* off|ticked off|cross* off|crossed off|mark*|crossed",
+  "tasks": [
+   {
+    "sit": "Ти стоїш на вході на корпоратив зі списком гостей.",
+    "say": "Я відмічаю кожне імʼя, щойно людина приходить.",
+    "ans": ["I check off each name as people arrive.", "I’m checking off every name as soon as someone arrives.", "I just check off each name when people come in."],
+    "keys": { "імʼя": "name*|guest*", "приходить": "arriv*|come*|came|turn up|show up" }
+   },
+   {
+    "sit": "Ти збираєш валізу за списком, і дружина питає, чи взяв ти найважливіше.",
+    "say": "Паспорт і зарядку я вже викреслив зі списку.",
+    "ans": ["I’ve already checked off my passport and charger.", "The passport and charger are already checked off.", "I’ve checked off the passport and the charger already."],
+    "keys": { "паспорт": "passport", "зарядка": "charger|cable" }
+   },
+   {
+    "sit": "Ви із сином-підлітком склали список хатніх справ на суботу.",
+    "say": "Коли щось зробиш, викресли це зі списку.",
+    "ans": ["When you finish something, check it off the list.", "Check off each job when you’re done.", "Once you’ve done something, just check it off."],
+    "keys": { "зробиш": "finish*|done|do|complete*" }
+   }
+  ]
+ },
+ {
+  "id": 3080, "w": "check over", "uk": "перевіряти (уважно)", "lvl": "B2",
+  "forms": "check|checks|checked|checked|checking",
+  "tail": "over",
+  "near": "go over|went over|look over|looked over|look through|looked through|review*|proofread*|double-check*|revis*",
+  "tasks": [
+   {
+    "sit": "Ти знімаєш квартиру, і власник простягає тобі договір на підпис.",
+    "say": "Можна я уважно перегляну договір перед підписанням?",
+    "ans": ["Can I check over the contract before I sign it?", "Let me check the contract over before signing.", "Do you mind if I check over the contract first?"],
+    "keys": { "договір": "contract|agreement|lease", "перед підписанням": "sign*|first|before" }
+   },
+   {
+    "sit": "Ти купуєш уживане авто й просиш знайомого механіка допомогти.",
+    "say": "Можеш уважно оглянути машину, перш ніж я її куплю?",
+    "ans": ["Can you check over the car before I buy it?", "Could you check the car over before I buy it?", "Would you mind checking over the car before I buy it?"],
+    "keys": { "машина": "car|it", "куплю": "buy*|bought|purchas*" }
+   },
+   {
+    "sit": "Ти закінчив есе англійською, і його треба здати завтра зранку.",
+    "say": "Можеш перевірити моє есе на помилки?",
+    "ans": ["Could you check over my essay for mistakes?", "Can you check my essay over for errors?", "Would you mind checking over my essay for mistakes?"],
+    "keys": { "есе": "essay|paper|work", "помилки": "mistake*|error*|typo*" }
+   }
+  ]
+ },
+ {
+  "id": 3081, "w": "clamp down on", "uk": "жорстко боротися з", "lvl": "C1",
+  "forms": "clamp|clamps|clamped|clamped|clamping",
+  "tail": "down on",
+  "near": "crack* down|cracked down|tackl*|fight*|punish*|tighten*|ban*",
+  "tasks": [
+   {
+    "sit": "Твоя компанія втомилася від клієнтів, які платять із запізненням. Ти пишеш партнерам.",
+    "say": "Ми будемо жорстко боротися із затримками оплат.",
+    "ans": ["We’re going to clamp down on late payments.", "We will clamp down on late payments from now on.", "We’re really clamping down on late payments now."],
+    "keys": { "затримки оплат": "late payment*|payment*|late|pay*" }
+   },
+   {
+    "sit": "Ти читаєш у новинах про нові штрафи за паркування в центрі.",
+    "say": "Місто жорстко взялося за неправильне паркування.",
+    "ans": ["The city is clamping down on illegal parking.", "The city has clamped down on bad parking.", "They’re really clamping down on illegal parking in the city."],
+    "keys": { "паркування": "park*", "місто": "city|town|council" }
+   },
+   {
+    "sit": "Ти вчитель і розповідаєш колезі з іншої школи про нові правила.",
+    "say": "Директор вирішив жорстко боротися з телефонами на уроках.",
+    "ans": ["The head decided to clamp down on phones in class.", "The principal has decided to clamp down on phone use in lessons.", "Our head teacher is clamping down on phones in class."],
+    "keys": { "телефони": "phone*|mobile*", "уроки": "class*|lesson*|school" }
+   }
+  ]
+ },
+ {
+  "id": 3082, "w": "clear out", "uk": "звільняти / розчищати", "lvl": "B1",
+  "forms": "clear|clears|cleared|cleared|clearing",
+  "tail": "out",
+  "near": "empt*|tid*|clean* out|cleaned out|declutter*|sort* out|sorted out|get rid of|got rid of",
+  "tasks": [
+   {
+    "sit": "Ти звільняєшся, і завтра на твоє місце приходить новий працівник.",
+    "say": "Сьогодні мені треба звільнити свій стіл.",
+    "ans": ["I need to clear out my desk today.", "I have to clear my desk out today.", "I’ve got to clear out my desk today."],
+    "keys": { "стіл": "desk|drawer*|stuff", "сьогодні": "today|tonight" }
+   },
+   {
+    "sit": "Вихідні, і ти нарешті взявся за гараж, де роками збирався непотріб.",
+    "say": "Ми цілий день розчищали гараж.",
+    "ans": ["We spent the whole day clearing out the garage.", "We cleared out the garage all day.", "We were clearing out the garage all day long."],
+    "keys": { "гараж": "garage", "цілий день": "whole day|all day|day" }
+   },
+   {
+    "sit": "У телефоні закінчилося місце, і ти не можеш зняти відео.",
+    "say": "Треба почистити старі фото в телефоні.",
+    "ans": ["I need to clear out the old photos on my phone.", "I have to clear out my old photos.", "I really should clear out all those old photos on my phone."],
+    "keys": { "фото": "photo*|picture*|pics", "старі": "old" }
+   }
+  ]
+ },
+ {
+  "id": 3083, "w": "close down", "uk": "закривати(ся)", "lvl": "B1",
+  "forms": "close|closes|closed|closed|closing",
+  "tail": "down",
+  "near": "shut down|shut|shuts|go out of business|went out of business|went bust|go bust|shut up shop",
+  "tasks": [
+   {
+    "sit": "Ти прийшов до улюбленої кавʼярні, а на дверях табличка «Здається в оренду».",
+    "say": "Наша кавʼярня закрилася минулого місяця.",
+    "ans": ["Our café closed down last month.", "Our favourite café closed down last month.", "Oh no, our café closed down last month!"],
+    "keys": { "кавʼярня": "caf*|coffee*", "минулого місяця": "last month|month" }
+   },
+   {
+    "sit": "Ти розповідаєш про рідне містечко, де всі працювали на одному заводі.",
+    "say": "Коли закрили завод, половина міста залишилася без роботи.",
+    "ans": ["When the factory closed down, half the town lost their jobs.", "After the factory closed down, half the town was out of work.", "The factory closed down and half the town ended up jobless."],
+    "keys": { "завод": "factory|plant|mill", "без роботи": "job*|work|unemploy*" }
+   },
+   {
+    "sit": "Твоя подруга відкрила інтернет-магазин, але продажів майже немає.",
+    "say": "Якщо так піде далі, їй доведеться закрити магазин.",
+    "ans": ["If this goes on, she’ll have to close down the shop.", "If things don’t improve, she’ll have to close the shop down.", "If it carries on like this, she’ll have to close down her shop."],
+    "keys": { "магазин": "shop|store|business", "доведеться": "have to|has to|must|need*" }
+   }
+  ]
+ },
+ {
+  "id": 3084, "w": "come up against", "uk": "стикатися з (перешкодою)", "lvl": "B2",
+  "forms": "come|comes|came|come|coming",
+  "tail": "up against",
+  "near": "face*|faced|run into|ran into|encounter*|meet with|met with|hit",
+  "tasks": [
+   {
+    "sit": "Ви хотіли перевести компанію на нову систему звітності. Колега питає, як просувається.",
+    "say": "Ми наштовхнулися на сильний спротив працівників.",
+    "ans": ["We came up against strong resistance from the staff.", "We’ve come up against a lot of resistance from employees.", "We came up against serious pushback from the staff."],
+    "keys": { "спротив": "resist*|opposit*|pushback|push back", "працівники": "staff|employee*|workers|people|team" }
+   },
+   {
+    "sit": "Ти ремонтуєш стару квартиру, і в стіні знайшлася гнила проводка.",
+    "say": "Щоразу ми стикаємося з новою проблемою.",
+    "ans": ["Every time, we come up against a new problem.", "We keep coming up against new problems.", "We come up against another problem every single time."],
+    "keys": { "нова проблема": "problem*|issue*|trouble" }
+   },
+   {
+    "sit": "Твоя сестра хоче відкрити кафе, і ти попереджаєш її про складнощі.",
+    "say": "Ти зіткнешся з купою бюрократії.",
+    "ans": ["You’ll come up against a lot of bureaucracy.", "You’re going to come up against loads of red tape.", "Be ready to come up against tons of paperwork."],
+    "keys": { "бюрократія": "bureaucra*|red tape|paperwork|admin*" }
+   }
+  ]
+ },
+ {
+  "id": 3085, "w": "cope with", "uk": "давати раду / справлятися", "lvl": "B2",
+  "forms": "cope|copes|coped|coped|coping",
+  "tail": "with",
+  "near": "deal with|dealt with|dealing with|handle*|manage*|get through|got through|survive*",
+  "tasks": [
+   {
+    "sit": "Подруга працює медсестрою в реанімації. Ти питаєш про її роботу.",
+    "say": "Як ти справляєшся з таким стресом?",
+    "ans": ["How do you cope with so much stress?", "How do you cope with all that stress?", "Honestly, how do you cope with the stress?"],
+    "keys": { "стрес": "stress*|pressure" }
+   },
+   {
+    "sit": "Ти вперше зостався сам із трьома дітьми на цілий тиждень, поки дружина у відрядженні.",
+    "say": "Не знаю, як я даватиму раду трьом дітям сам.",
+    "ans": ["I don’t know how I’ll cope with three kids on my own.", "I’m not sure how I’m going to cope with three children alone.", "I have no idea how I’ll cope with three kids by myself."],
+    "keys": { "троє дітей": "three|3|kids|children", "сам": "alone|own|myself" }
+   },
+   {
+    "sit": "Ти вперше в Індії, і на вулиці сорок градусів.",
+    "say": "Я погано переношу спеку.",
+    "ans": ["I don’t cope well with the heat.", "I can’t really cope with this heat.", "I just don’t cope with heat very well."],
+    "keys": { "спека": "heat|hot" }
+   }
+  ]
+ },
+ {
+  "id": 3086, "w": "crack down on", "uk": "посилювати боротьбу з", "lvl": "C1",
+  "forms": "crack|cracks|cracked|cracked|cracking",
+  "tail": "down on",
+  "near": "clamp* down|clamped down|tackl*|fight*|punish*|target*",
+  "tasks": [
+   {
+    "sit": "Банк надіслав тобі лист про нові правила безпеки для переказів.",
+    "say": "Банк посилює боротьбу з шахрайством.",
+    "ans": ["The bank is cracking down on fraud.", "The bank has decided to crack down on fraud.", "It looks like the bank is finally cracking down on fraud."],
+    "keys": { "банк": "bank", "шахрайство": "fraud*|scam*" }
+   },
+   {
+    "sit": "Друг дивується, чому на трасі щовечора стоять патрулі.",
+    "say": "Поліція взялася за пʼяних водіїв.",
+    "ans": ["The police are cracking down on drunk drivers.", "The police have cracked down on drink driving.", "The cops are really cracking down on drunk drivers."],
+    "keys": { "поліція": "police|cops", "пʼяні водії": "drunk|drink*|alcohol" }
+   },
+   {
+    "sit": "Університет помітив, що студенти масово здають роботи, написані чат-ботами.",
+    "say": "Університет почне жорстко боротися зі списуванням.",
+    "ans": ["The university is going to crack down on cheating.", "The university will crack down on cheating.", "The uni is about to crack down on cheating."],
+    "keys": { "університет": "universit*|uni|college|school", "списування": "cheat*|plagiar*|copying" }
+   }
+  ]
+ },
+ {
+  "id": 3087, "w": "cut back on", "uk": "скорочувати (витрати)", "lvl": "B2",
+  "forms": "cut|cuts|cut|cut|cutting",
+  "tail": "back on",
+  "near": "reduc*|spend less|save*|limit*|economi*|cut down",
+  "tasks": [
+   {
+    "sit": "Ви з дружиною переглядаєте банківську виписку за місяць і жахаєтеся.",
+    "say": "Нам треба менше витрачати на ресторани.",
+    "ans": ["We need to cut back on eating out.", "We have to cut back on restaurants.", "We really need to cut back on eating out."],
+    "keys": { "ресторани": "restaurant*|eating out|eat out|takeaway*|dinner*" }
+   },
+   {
+    "sit": "Фірма втратила великого клієнта. Фінансовий директор звертається до відділів.",
+    "say": "Цього року ми скорочуємо витрати на відрядження.",
+    "ans": ["This year we’re cutting back on business travel.", "We’re cutting back on travel costs this year.", "We’ll be cutting back on business trips this year."],
+    "keys": { "відрядження": "travel|trip*", "цього року": "this year|year" }
+   },
+   {
+    "sit": "Ти помітив, що щовечора годинами гортаєш стрічку в телефоні.",
+    "say": "Я намагаюся менше сидіти в соцмережах.",
+    "ans": ["I’m trying to cut back on social media.", "I’m trying to cut back on my social media time.", "I’ve been trying to cut back on social media lately."],
+    "keys": { "соцмережі": "social media|instagram|tiktok|scroll*|phone", "намагаюся": "try*|tried" }
+   }
+  ]
+ },
+ {
+  "id": 3088, "w": "cut down on", "uk": "зменшувати (кількість)", "lvl": "B1",
+  "forms": "cut|cuts|cut|cut|cutting",
+  "tail": "down on",
+  "near": "reduc*|less|fewer|cut back|limit*|quit*|stop*",
+  "tasks": [
+   {
+    "sit": "Колега пропонує тобі вже третю каву за ранок.",
+    "say": "Ні, дякую, я намагаюся пити менше кави.",
+    "ans": ["No, thanks, I’m trying to cut down on coffee.", "No thanks — I’m trying to cut down on caffeine.", "I’m good, thanks. I’ve been trying to cut down on coffee."],
+    "keys": { "кава": "coffee|caffeine", "намагаюся": "try*|tried" }
+   },
+   {
+    "sit": "Після медогляду ти розповідаєш дружині, що сказав лікар.",
+    "say": "Лікар сказав мені їсти менше солі й цукру.",
+    "ans": ["The doctor told me to cut down on salt and sugar.", "My doctor said I should cut down on salt and sugar.", "The doctor says I need to cut down on salt and sugar."],
+    "keys": { "сіль": "salt|salty", "цукор": "sugar|sweet*" }
+   },
+   {
+    "sit": "Ви з сусідами обговорюєте, як зменшити кількість сміття в будинку.",
+    "say": "Ми вдома намагаємося використовувати менше пластику.",
+    "ans": ["We’re trying to cut down on plastic at home.", "At home we’re trying to cut down on plastic bags.", "We’re really trying to cut down on plastic at home."],
+    "keys": { "пластик": "plastic*", "вдома": "home|house|family" }
+   }
+  ]
+ },
+ {
+  "id": 3089, "w": "deal with", "uk": "мати справу / розбиратися", "lvl": "B1",
+  "forms": "deal|deals|dealt|dealt|dealing",
+  "tail": "with",
+  "near": "handle*|sort* out|sorted out|take care of|took care of|fix*|manage*|cope with|coped with",
+  "tasks": [
+   {
+    "sit": "Клієнт залишив сердиту скаргу, і молодша колега панікує.",
+    "say": "Не хвилюйся, я розберуся з цією скаргою.",
+    "ans": ["Don’t worry, I’ll deal with this complaint.", "Don’t worry — I’ll deal with the complaint.", "Relax, I’ll deal with the complaint myself."],
+    "keys": { "скарга": "complaint" }
+   },
+   {
+    "sit": "Під раковиною потекла труба, а ти вже запізнюєшся на роботу.",
+    "say": "Я розберуся з цим увечері.",
+    "ans": ["I’ll deal with it this evening.", "I’ll deal with the leak tonight.", "I can’t right now — I’ll deal with it tonight."],
+    "keys": { "увечері": "evening|tonight|later" }
+   },
+   {
+    "sit": "Подруга працює на касі в супермаркеті й скаржиться на відвідувачів.",
+    "say": "Не розумію, як ти щодня маєш справу з такими грубими людьми.",
+    "ans": ["I don’t know how you deal with rude people every day.", "I don’t know how you deal with such rude customers every day.", "How do you deal with rude people every single day?"],
+    "keys": { "грубі": "rude|awful|difficult|nasty", "щодня": "every day|daily|day" }
+   }
+  ]
+ },
+ {
+  "id": 3090, "w": "do away with", "uk": "скасовувати / позбуватися", "lvl": "C1",
+  "forms": "do|does|did|done|doing",
+  "tail": "away with",
+  "near": "abolish*|scrap*|get rid of|got rid of|remov*|eliminat*|cancel*",
+  "tasks": [
+   {
+    "sit": "Твій офіс нарешті перейшов на електронний документообіг. Ти ділишся новиною з другом.",
+    "say": "Нарешті скасували паперові звіти.",
+    "ans": ["They finally did away with paper reports.", "The company has finally done away with paper reports.", "We’ve finally done away with all those paper reports!"],
+    "keys": { "паперові звіти": "paper*|report*|form*", "нарешті": "finally|at last" }
+   },
+   {
+    "sit": "Ти читаєш новину про реформу освіти й обговорюєш її з батьками однокласників сина.",
+    "say": "Вони хочуть скасувати шкільну форму.",
+    "ans": ["They want to do away with school uniforms.", "The ministry wants to do away with school uniforms.", "Apparently they want to do away with school uniforms."],
+    "keys": { "шкільна форма": "uniform*" }
+   },
+   {
+    "sit": "Ви нарешті купили посудомийну машину, і ти хвалишся мамі.",
+    "say": "Посудомийка назавжди позбавила нас миття посуду руками.",
+    "ans": ["The dishwasher has done away with washing up by hand.", "We finally did away with washing dishes by hand.", "This thing has done away with washing up by hand completely!"],
+    "keys": { "посуд": "dish*|wash*|plates", "руками": "hand*" }
+   }
+  ]
+ },
+ {
+  "id": 3091, "w": "draw on", "uk": "спиратися на / використовувати", "lvl": "C1",
+  "forms": "draw|draws|drew|drawn|drawing",
+  "tail": "on",
+  "near": "use|uses|used|using|rely on|relied on|build on|built on|base* on|based on",
+  "tasks": [
+   {
+    "sit": "На співбесіді тебе питають, як ти впораєшся з новою посадою.",
+    "say": "Я спиратимуся на свій десятирічний досвід у продажах.",
+    "ans": ["I’ll draw on my ten years of experience in sales.", "I can draw on ten years of sales experience.", "I’d draw on my ten years in sales."],
+    "keys": { "досвід": "experience|years", "продажі": "sales|selling" }
+   },
+   {
+    "sit": "Ти пишеш роман, і друг питає, звідки ти береш ідеї.",
+    "say": "Я спираюся на власне дитинство.",
+    "ans": ["I draw on my own childhood.", "I draw a lot on my own childhood.", "Mostly I draw on my own childhood memories."],
+    "keys": { "дитинство": "childhood|child|kid|grew up|young" }
+   },
+   {
+    "sit": "Ти досвідчений волонтер гарячої лінії. Новенька боїться першого самостійного дзвінка.",
+    "say": "Спирайся на те, чого тебе навчили на тренінгу.",
+    "ans": ["Draw on what you learned in the training.", "Just draw on what they taught you in training.", "Try to draw on your training."],
+    "keys": { "тренінг": "train*|course" }
+   }
+  ]
+ },
+ {
+  "id": 3092, "w": "dream up", "uk": "вигадувати", "lvl": "B2",
+  "forms": "dream|dreams|dreamed/dreamt|dreamed/dreamt|dreaming",
+  "tail": "up",
+  "near": "come up with|came up with|invent*|make up|made up|think up|thought up|creat*",
+  "tasks": [
+   {
+    "sit": "Колега запізнився втретє за тиждень і знову розповідає неймовірну історію.",
+    "say": "Цікаво, яку відмовку він вигадає завтра.",
+    "ans": ["I wonder what excuse he’ll dream up tomorrow.", "I wonder what excuse he’s going to dream up tomorrow.", "I can’t wait to hear what excuse he dreams up tomorrow."],
+    "keys": { "відмовка": "excuse*|story", "завтра": "tomorrow" }
+   },
+   {
+    "sit": "Твоя донька з подругами придумала власну настільну гру з правилами й картками.",
+    "say": "Вони самі вигадали цю гру.",
+    "ans": ["They dreamed up this game themselves.", "They dreamed up the whole game by themselves.", "The girls dreamed up this game all on their own!"],
+    "keys": { "гра": "game", "самі": "themselves|own|alone" }
+   },
+   {
+    "sit": "Ти показуєш колегам дивну нову рекламу конкурентів.",
+    "say": "Хто взагалі вигадав таку рекламу?",
+    "ans": ["Who on earth dreamed up this ad?", "Who dreamed up an ad like this?", "Seriously, who dreamed up this advert?"],
+    "keys": { "реклама": "ad|ads|advert*|campaign|commercial" }
+   }
+  ]
+ },
+ {
+  "id": 3093, "w": "drop out of", "uk": "кидати (навчання)", "lvl": "B1",
+  "forms": "drop|drops|dropped|dropped|dropping",
+  "tail": "out of",
+  "near": "quit*|leav*|left|give up|gave up|abandon*|withdr*",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш про двоюрідного брата, який тепер успішний програміст без диплома.",
+    "say": "Він кинув університет на другому курсі.",
+    "ans": ["He dropped out of university in his second year.", "He dropped out of uni in the second year.", "He actually dropped out of university in year two."],
+    "keys": { "університет": "universit*|uni|college", "другий курс": "second|year two|2nd" }
+   },
+   {
+    "sit": "Ти бігав марафон, але на тридцятому кілометрі травмував ногу.",
+    "say": "Мені довелося зійти з дистанції через травму.",
+    "ans": ["I had to drop out of the race because of an injury.", "I had to drop out of the race — I hurt my leg.", "I dropped out of the race because I got injured."],
+    "keys": { "дистанція": "race|marathon", "травма": "injur*|hurt|leg" }
+   },
+   {
+    "sit": "Ваш гурт готувався до музичного конкурсу, але вокалістка захворіла.",
+    "say": "Нам, мабуть, доведеться знятися з конкурсу.",
+    "ans": ["We’ll probably have to drop out of the competition.", "We might have to drop out of the contest.", "It looks like we’ll have to drop out of the competition."],
+    "keys": { "конкурс": "competition|contest|show", "мабуть": "probably|might|maybe|looks like|perhaps" }
+   }
+  ]
+ }
+]

@@ -1,0 +1,627 @@
+[
+ {
+  "id": 77, "w": "criticize", "uk": "критикувати", "lvl": "B1",
+  "forms": "criticize/criticise|criticizes/criticises|criticized/criticised|criticized/criticised|criticizing/criticising",
+  "near": "blame*|attack*|judge*|pick on|picks on|picked on|find fault|put down|puts down",
+  "tasks": [
+   {
+    "sit": "Подруга скаржиться на свекруху, яка коментує все, що вона робить.",
+    "say": "Вона мене постійно критикує.",
+    "ans": ["She criticizes me all the time.", "She’s always criticizing me.", "She’s constantly criticizing everything I do."],
+    "keys": { "постійно": "all the time|always|constantly|non-stop|every*" }
+   },
+   {
+    "sit": "На нараді менеджер представив новий план, і всі почали шукати в ньому вади.",
+    "say": "Легко критикувати, але хто запропонує щось краще?",
+    "ans": ["It’s easy to criticize, but who can suggest something better?", "Criticizing is easy, but who has a better idea?", "It’s easy to criticize — so who’s got a better plan?"],
+    "keys": { "легко": "easy", "краще": "better" }
+   },
+   {
+    "sit": "Ти читаєш новини разом з батьком за сніданком.",
+    "say": "Уряд критикують за нові податки.",
+    "ans": ["The government is being criticized for the new taxes.", "People are criticizing the government over the new taxes.", "Everyone’s criticizing the government for these new taxes."],
+    "keys": { "уряд": "government*|authorit*|minist*", "податки": "tax*" }
+   }
+  ]
+ },
+ {
+  "id": 78, "w": "insult", "uk": "ображати (словами)", "lvl": "B2",
+  "forms": "insult|insults|insulted|insulted|insulting",
+  "near": "offend*|hurt*|call* names|called names|abuse*|disrespect*|be rude|was rude",
+  "tasks": [
+   {
+    "sit": "У черзі в магазині чоловік образив касирку. Ти розповідаєш про це вдома.",
+    "say": "Він образив касирку при всіх.",
+    "ans": ["He insulted the cashier in front of everyone.", "He insulted the cashier in front of all the people.", "The guy insulted the cashier right in front of everyone!"],
+    "keys": { "касирка": "cashier*|shop assistant|assistant|woman|lady", "при всіх": "front|everyone|everybody|public*|people" }
+   },
+   {
+    "sit": "Друг віддав тобі свій старий ноутбук, а ти хочеш заплатити за нього гроші. Він відмовляється.",
+    "say": "Не хочу тебе образити, але дозволь мені заплатити.",
+    "ans": ["I don’t want to insult you, but let me pay.", "I don’t mean to insult you, but please let me pay for it.", "No offense — I don’t want to insult you — but let me pay."],
+    "keys": { "заплатити": "pay*|paid|money" }
+   },
+   {
+    "sit": "Колега-фрілансер отримав від клієнта пропозицію заплатити вдвічі менше, ніж домовлялися.",
+    "say": "Така пропозиція мене просто ображає.",
+    "ans": ["An offer like that just insults me.", "I feel insulted by such an offer.", "Honestly, I’m insulted by that offer."],
+    "keys": { "пропозиція": "offer*|proposal*|deal" }
+   }
+  ]
+ },
+ {
+  "id": 79, "w": "swear", "uk": "лаятися, матюкатися; клястися", "lvl": "B2",
+  "forms": "swear|swears|swore|sworn|swearing",
+  "near": "curse*|cuss*|promise*|use bad language|used bad language|vow*",
+  "tasks": [
+   {
+    "sit": "Ви стоїте в пробці вже годину. Водій таксі безперервно лається.",
+    "say": "Водій увесь час матюкається.",
+    "ans": ["The driver keeps swearing.", "The driver has been swearing the whole time.", "The driver just won’t stop swearing."],
+    "keys": { "водій": "driver*|taxi|cabbie|he", "увесь час": "keep*|the whole time|all the time|not stop|constantly|non-stop" }
+   },
+   {
+    "sit": "Твій п’ятирічний син повторив погане слово, яке почув у дворі.",
+    "say": "Не можна лаятися, це негарно.",
+    "ans": ["You mustn’t swear, it’s not nice.", "You shouldn’t swear — it’s rude.", "Hey, we don’t swear, it’s not nice."],
+    "keys": { "не можна": "not|must not|should not", "негарно": "nice|rude|bad|polite|good" }
+   },
+   {
+    "sit": "Дружина не вірить, що ти не чіпав її шоколад.",
+    "say": "Клянуся, я його не їв!",
+    "ans": ["I swear I didn’t eat it!", "I swear, I haven’t eaten it!", "I swear to God I didn’t touch it!"],
+    "keys": { "не їв": "not eat|not eaten|not touch|never" }
+   }
+  ]
+ },
+ {
+  "id": 80, "w": "agree", "uk": "погоджуватися", "lvl": "A1",
+  "forms": "agree|agrees|agreed|agreed|agreeing",
+  "near": "think so|same here|you are right|exactly|accept*|approve*|say yes|said yes",
+  "tasks": [
+   {
+    "sit": "На уроці одногрупник каже, що домашніх завдань забагато.",
+    "say": "Я з тобою повністю згоден.",
+    "ans": ["I totally agree with you.", "I completely agree with you.", "I agree with you one hundred percent."],
+    "keys": { "повністю": "total*|complet*|fully|absolut*|hundred|100|so much|entirely" }
+   },
+   {
+    "sit": "Ви з сестрою довго обирали, куди поїхати влітку, і нарешті знайшли компроміс.",
+    "say": "Ми домовилися поїхати в гори.",
+    "ans": ["We agreed to go to the mountains.", "We’ve agreed to go to the mountains.", "In the end we agreed on the mountains."],
+    "keys": { "гори": "mountain*|hills|carpathian*" }
+   },
+   {
+    "sit": "Батьки запропонували переїхати ближче до них, і ти питаєш дружину, що вона думає.",
+    "say": "Боюся, вона на це не погодиться.",
+    "ans": ["I’m afraid she won’t agree to it.", "I’m afraid she won’t agree to that.", "I doubt she’ll ever agree to that."],
+    "keys": { "не": "not|never|doubt" }
+   }
+  ]
+ },
+ {
+  "id": 81, "w": "disagree", "uk": "не погоджуватися", "lvl": "A2",
+  "forms": "disagree|disagrees|disagreed|disagreed|disagreeing",
+  "near": "not agree|do not agree|did not agree|object*|argue*|oppose*|beg to differ|think otherwise",
+  "tasks": [
+   {
+    "sit": "Колега на нараді каже, що клієнтам не потрібна мобільна версія сайту.",
+    "say": "Вибач, але я категорично не згоден.",
+    "ans": ["Sorry, but I strongly disagree.", "I’m sorry, but I completely disagree.", "Sorry, I totally disagree with you on that."],
+    "keys": { "категорично": "strongly|complet*|total*|absolut*|really|entirely|very much" }
+   },
+   {
+    "sit": "Друг питає, чи ви з братом однаково думаєте про політику.",
+    "say": "Ми з братом часто не погоджуємося щодо політики.",
+    "ans": ["My brother and I often disagree about politics.", "My brother and I disagree a lot on politics.", "We often disagree about politics, my brother and I."],
+    "keys": { "брат": "brother*|we", "політика": "politic*" }
+   },
+   {
+    "sit": "Ти читаєш відгук критика на фільм, який тобі дуже сподобався.",
+    "say": "Тут я не погоджуюся з критиком.",
+    "ans": ["I disagree with the critic here.", "Here I disagree with the critic.", "Honestly, I disagree with this critic."],
+    "keys": { "критик": "critic*|review*|reviewer*|author|writer" }
+   }
+  ]
+ },
+ {
+  "id": 82, "w": "promise", "uk": "обіцяти", "lvl": "A2",
+  "forms": "promise|promises|promised|promised|promising",
+  "near": "swear*|swore|sworn|give my word|gave my word|guarantee*|vow*",
+  "tasks": [
+   {
+    "sit": "Молодша сестра просить допомогти їй з переїздом у суботу.",
+    "say": "Обіцяю, що допоможу тобі.",
+    "ans": ["I promise I’ll help you.", "I promise to help you.", "I’ll help you, I promise."],
+    "keys": { "допоможу": "help*" }
+   },
+   {
+    "sit": "Твій друг знову запізнився на годину. Ти обурений.",
+    "say": "Ти обіцяв прийти вчасно!",
+    "ans": ["You promised to come on time!", "You promised you’d be on time!", "You promised me you’d be here on time!"],
+    "keys": { "вчасно": "on time|time|early|late" }
+   },
+   {
+    "sit": "Донька благає купити їй цуценя.",
+    "say": "Я нічого не обіцяю, але подумаю.",
+    "ans": ["I’m not promising anything, but I’ll think about it.", "I can’t promise anything, but I’ll think about it.", "I don’t promise anything, but I’ll think it over."],
+    "keys": { "нічого": "anything|nothing|not", "подумаю": "think*|consider*|see" }
+   }
+  ]
+ },
+ {
+  "id": 83, "w": "suggest", "uk": "пропонувати (ідею)", "lvl": "A2",
+  "forms": "suggest|suggests|suggested|suggested|suggesting",
+  "near": "propose*|recommend*|advise*|offer*|how about|what about|why not|let us",
+  "tasks": [
+   {
+    "sit": "Синоптики обіцяють великий сніг, а ви з колегами збираєтеся ввечері за місто.",
+    "say": "Пропоную виїхати раніше.",
+    "ans": ["I suggest we leave earlier.", "I suggest leaving a bit earlier.", "I’d suggest we head out earlier."],
+    "keys": { "раніше": "earl*|sooner" }
+   },
+   {
+    "sit": "Ви з друзями не можете вирішити, де повечеряти. Хтось питає, чия була ідея з суші.",
+    "say": "Це Оля запропонувала піти в той японський ресторан.",
+    "ans": ["Olya suggested going to that Japanese restaurant.", "It was Olya who suggested that Japanese restaurant.", "Olya suggested we try that Japanese place."],
+    "keys": { "японський": "japan*|sushi", "ресторан": "restaurant*|place|spot|there" }
+   },
+   {
+    "sit": "Ти вперше в Києві й питаєш адміністратора готелю про музеї.",
+    "say": "Який музей ви б порадили відвідати?",
+    "ans": ["Which museum would you suggest visiting?", "What museum would you suggest I visit?", "Could you suggest a good museum to visit?"],
+    "keys": { "музей": "museum*" }
+   }
+  ]
+ },
+ {
+  "id": 84, "w": "offer", "uk": "пропонувати (дати щось)", "lvl": "A2",
+  "forms": "offer|offers|offered|offered|offering",
+  "near": "give|gave|given|suggest*|propose*|invite*|would you like",
+  "tasks": [
+   {
+    "sit": "Ти ділишся з батьками новиною після співбесіди.",
+    "say": "Мені запропонували роботу!",
+    "ans": ["They offered me the job!", "I’ve been offered the job!", "Guess what — they offered me the job!"],
+    "keys": { "роботу": "job*|position|work|role" }
+   },
+   {
+    "sit": "До тебе вперше прийшов новий сусід, а ти забув пригостити його.",
+    "say": "Ой, я навіть не запропонував тобі кави!",
+    "ans": ["Oh, I didn’t even offer you coffee!", "Oh no, I haven’t even offered you a coffee!", "Oh, sorry, I didn’t even offer you any coffee!"],
+    "keys": { "кава": "coffee*|drink*|tea", "навіть": "even" }
+   },
+   {
+    "sit": "Бабуся несла важкі пакети до під’їзду, і хлопець із сусідньої квартири підійшов. Ти розповідаєш мамі.",
+    "say": "Він запропонував допомогти їй донести пакети.",
+    "ans": ["He offered to help her carry the bags.", "He offered to carry her bags.", "He offered to help her with the bags — so sweet!"],
+    "keys": { "пакети": "bag*|shopping|groceries" }
+   }
+  ]
+ },
+ {
+  "id": 85, "w": "refuse", "uk": "відмовлятися", "lvl": "B1",
+  "forms": "refuse|refuses|refused|refused|refusing",
+  "near": "turn down|turned down|reject*|decline*|say no|said no|will not|would not",
+  "tasks": [
+   {
+    "sit": "Твій кіт захворів і вже другий день нічого не їсть. Ти телефонуєш ветеринару.",
+    "say": "Він відмовляється їсти.",
+    "ans": ["He refuses to eat.", "He’s refusing to eat anything.", "He just refuses to eat."],
+    "keys": { "їсти": "eat*|food" }
+   },
+   {
+    "sit": "Колега каже, що тобі пропонують зарплату вдвічі більшу в іншій фірмі.",
+    "say": "Від такої пропозиції неможливо відмовитися.",
+    "ans": ["It’s impossible to refuse an offer like that.", "You can’t refuse an offer like that.", "That’s an offer you can’t refuse!"],
+    "keys": { "пропозиція": "offer*|deal", "неможливо": "impossible|can not|cannot|could not" }
+   },
+   {
+    "sit": "Ти розповідаєш подрузі, що відбувалося на кордоні, коли тобі не поставили печатку.",
+    "say": "Прикордонник відмовився нас пропускати.",
+    "ans": ["The border guard refused to let us through.", "The border officer refused to let us in.", "The guard at the border just refused to let us through."],
+    "keys": { "прикордонник": "guard*|officer*|border|police*", "пропускати": "let us|let me|through|pass|cross|enter" }
+   }
+  ]
+ },
+ {
+  "id": 86, "w": "accept", "uk": "приймати (пропозицію, подарунок)", "lvl": "A2",
+  "forms": "accept|accepts|accepted|accepted|accepting",
+  "near": "take|took|taken|taking|agree*|say yes|said yes|receive*|approve*",
+  "tasks": [
+   {
+    "sit": "Тобі запропонували роботу в Лондоні, і друг питає, яке рішення ти ухвалив.",
+    "say": "Я вирішив прийняти пропозицію.",
+    "ans": ["I’ve decided to accept the offer.", "I decided to accept their offer.", "I’m going to accept the offer!"],
+    "keys": { "пропозиція": "offer*|job" }
+   },
+   {
+    "sit": "Ти розраховуєшся в маленькому кафе й дістаєш банківську картку.",
+    "say": "Ви приймаєте картки?",
+    "ans": ["Do you accept cards?", "Do you accept credit cards?", "Hi, do you accept card payments?"],
+    "keys": { "картки": "card*" }
+   },
+   {
+    "sit": "Колега хоче подарувати тобі дорогий годинник на прощання, і тобі ніяково.",
+    "say": "Вибач, я не можу прийняти такий дорогий подарунок.",
+    "ans": ["Sorry, I can’t accept such an expensive gift.", "I’m sorry, but I can’t accept a present this expensive.", "Sorry, I really can’t accept this — it’s way too expensive."],
+    "keys": { "дорогий": "expensive|pricey|much|generous", "не можу": "can not|cannot|could not" }
+   }
+  ]
+ },
+ {
+  "id": 87, "w": "greet", "uk": "вітати (гостей), зустрічати", "lvl": "A2",
+  "forms": "greet|greets|greeted|greeted|greeting",
+  "near": "welcome*|meet|met|meeting|say hello|said hello|say hi|said hi",
+  "tasks": [
+   {
+    "sit": "Ви організовуєте весілля, і ти розподіляєш обов’язки між друзями.",
+    "say": "Ти будеш вітати гостей біля входу.",
+    "ans": ["You’ll greet the guests at the entrance.", "You will greet guests at the door.", "You’re on greeting duty — greet everyone at the door."],
+    "keys": { "гості": "guest*|everyone|people", "біля входу": "entrance|door*|gate|arriv*" }
+   },
+   {
+    "sit": "Ти прилетів у Лісабон, і в аеропорту тебе чекала подруга з квітами.",
+    "say": "Вона зустріла мене з великою усмішкою.",
+    "ans": ["She greeted me with a big smile.", "She greeted me with a huge smile.", "She greeted me at the airport with the biggest smile."],
+    "keys": { "усмішка": "smil*|hug*" }
+   },
+   {
+    "sit": "Твій новий пес не звик до гостей. Ти пояснюєш другові, як поводитися.",
+    "say": "Він завжди вітає всіх гавкотом.",
+    "ans": ["He always greets everyone by barking.", "He always greets people with loud barking.", "He greets everyone with a bark, every single time."],
+    "keys": { "гавкіт": "bark*", "всіх": "everyone|everybody|people|guest*|anyone" }
+   }
+  ]
+ },
+ {
+  "id": 88, "w": "apologize", "uk": "вибачатися", "lvl": "A2",
+  "forms": "apologize/apologise|apologizes/apologises|apologized/apologised|apologized/apologised|apologizing/apologising",
+  "near": "sorry|say sorry|said sorry|beg* pardon|excuse me|apology|apologies",
+  "tasks": [
+   {
+    "sit": "Ти прийшов на зустріч із клієнтом на пів години пізніше.",
+    "say": "Вибачаюся за запізнення.",
+    "ans": ["I apologize for being late.", "I apologize for the delay.", "I really apologize for being so late."],
+    "keys": { "запізнення": "late|delay*|wait*" }
+   },
+   {
+    "sit": "Твій син штовхнув хлопчика на майданчику.",
+    "say": "Іди й попроси вибачення в нього.",
+    "ans": ["Go and apologize to him.", "Go apologize to that boy.", "Go on, go and apologize to him right now."],
+    "keys": { "в нього": "him|boy|kid|child" }
+   },
+   {
+    "sit": "Подруга досі ображена, що брат наговорив їй грубощів на її дні народження.",
+    "say": "Він так і не вибачився.",
+    "ans": ["He never apologized.", "He still hasn’t apologized.", "He never even apologized to me."],
+    "keys": { "так і не": "never|still|not|yet" }
+   }
+  ]
+ },
+ {
+  "id": 89, "w": "thank", "uk": "дякувати", "lvl": "A1",
+  "forms": "thank|thanks|thanked|thanked|thanking",
+  "near": "grateful|appreciate*|cheers|gratitude",
+  "tasks": [
+   {
+    "sit": "Сусідка тиждень годувала твого кота, поки ти був у відпустці.",
+    "say": "Дуже дякую за допомогу!",
+    "ans": ["Thank you so much for your help!", "Thanks a lot for helping me!", "Thank you so much for helping out!"],
+    "keys": { "допомога": "help*" }
+   },
+   {
+    "sit": "Колега отримав підвищення після твоєї рекомендації й приніс тобі торт.",
+    "say": "Він прийшов подякувати мені.",
+    "ans": ["He came to thank me.", "He came over to thank me.", "He came by just to thank me."],
+    "keys": { "прийшов": "came|come|stopped by|dropped by" }
+   },
+   {
+    "sit": "Ти виступаєш на відкритті своєї виставки фотографій.",
+    "say": "Хочу подякувати всім, хто прийшов сьогодні.",
+    "ans": ["I want to thank everyone who came today.", "I’d like to thank all of you for coming today.", "I just want to thank everyone for coming tonight."],
+    "keys": { "всім": "everyone|everybody|all|you", "прийшов": "came|coming|come|here" }
+   }
+  ]
+ },
+ {
+  "id": 90, "w": "congratulate", "uk": "вітати (з подією, успіхом)", "lvl": "B1",
+  "forms": "congratulate|congratulates|congratulated|congratulated|congratulating",
+  "near": "congratulations|congrats|well done|wish*|celebrat*|praise*",
+  "tasks": [
+   {
+    "sit": "Твоя команда виграла міський турнір з волейболу, а ти не зміг прийти на фінал.",
+    "say": "Я подзвоню капітану, щоб привітати команду.",
+    "ans": ["I’ll call the captain to congratulate the team.", "I’m going to call the captain and congratulate the team.", "I’ll give the captain a call to congratulate everyone."],
+    "keys": { "капітан": "captain*", "подзвоню": "call*|phone*|ring" }
+   },
+   {
+    "sit": "Твоя сестра захистила дисертацію. Ти пишеш родичам у сімейний чат.",
+    "say": "Давайте всі привітаємо Марію!",
+    "ans": ["Let’s all congratulate Maria!", "Everyone, let’s congratulate Maria!", "Come on, let’s all congratulate Maria!"],
+    "keys": { "Марія": "maria|mariia|marie|mary|her|sister" }
+   },
+   {
+    "sit": "Ти розповідаєш дружині про нараду, на якій оголосили результати року.",
+    "say": "Директор особисто привітав мене з успіхом.",
+    "ans": ["The director personally congratulated me on my success.", "The CEO congratulated me personally on the results.", "The boss himself congratulated me on my success!"],
+    "keys": { "директор": "director*|boss|ceo|head|manager", "особисто": "personal*|himself|in person" }
+   }
+  ]
+ },
+ {
+  "id": 91, "w": "forgive", "uk": "пробачати", "lvl": "B1",
+  "forms": "forgive|forgives|forgave|forgiven|forgiving",
+  "near": "excuse*|pardon*|let it go|let go|get over|got over|move on|moved on",
+  "tasks": [
+   {
+    "sit": "Ти забув про річницю ваших стосунків і прийшов додому з квітами наступного дня.",
+    "say": "Будь ласка, пробач мені!",
+    "ans": ["Please forgive me!", "Please, please forgive me!", "I’m so sorry — please forgive me!"],
+    "keys": { "будь ласка": "please|sorry" }
+   },
+   {
+    "sit": "Друг колись розповів твою таємницю іншим. Подруга питає, чи ви досі спілкуєтеся.",
+    "say": "Я пробачив його, але не забув.",
+    "ans": ["I forgave him, but I didn’t forget.", "I’ve forgiven him, but I haven’t forgotten.", "I forgave him — but I’ll never forget it."],
+    "keys": { "не забув": "forget|forgot|forgotten" }
+   },
+   {
+    "sit": "Сестра не може відпустити образу на батька через стару сварку.",
+    "say": "Колись тобі доведеться йому пробачити.",
+    "ans": ["One day you’ll have to forgive him.", "You’ll have to forgive him someday.", "Sooner or later you’ll have to forgive him."],
+    "keys": { "колись": "one day|someday|some day|sooner or later|eventually|at some point|day", "доведеться": "have to|need to|must|should|going to" }
+   }
+  ]
+ },
+ {
+  "id": 92, "w": "introduce", "uk": "представляти(-ся), знайомити", "lvl": "A2",
+  "forms": "introduce|introduces|introduced|introduced|introducing",
+  "near": "present*|meet|met|this is|my name is|let me present",
+  "tasks": [
+   {
+    "sit": "Ти прийшов на перше заняття англійської, і всі повертаються до тебе.",
+    "say": "Дозвольте представитися.",
+    "ans": ["Let me introduce myself.", "Allow me to introduce myself.", "Hi everyone, let me introduce myself."],
+    "keys": { "дозвольте": "let me|allow me|like to|want to|may i" }
+   },
+   {
+    "sit": "На вечірці ти стоїш з другом, і підходить твоя сестра, з якою він ще не знайомий.",
+    "say": "Давай я познайомлю тебе з сестрою.",
+    "ans": ["Let me introduce you to my sister.", "I’ll introduce you to my sister.", "Come here — let me introduce you to my sister!"],
+    "keys": { "сестра": "sister*" }
+   },
+   {
+    "sit": "Мама питає, як ти познайомився зі своєю дівчиною.",
+    "say": "Нас познайомив спільний друг.",
+    "ans": ["A mutual friend introduced us.", "We were introduced by a mutual friend.", "A friend of ours introduced us, actually."],
+    "keys": { "друг": "friend*" }
+   }
+  ]
+ },
+ {
+  "id": 93, "w": "think", "uk": "думати", "lvl": "A1",
+  "forms": "think|thinks|thought|thought|thinking",
+  "near": "believe*|suppose*|guess*|reckon*|feel|felt|consider*|imagine*",
+  "tasks": [
+   {
+    "sit": "Колега переживає, що через грозу скасують рейс, а небо вже прояснюється.",
+    "say": "Думаю, все буде добре.",
+    "ans": ["I think everything will be fine.", "I think it’s going to be okay.", "I think it’ll all be fine."],
+    "keys": { "добре": "fine|okay|ok|all right|alright|good" }
+   },
+   {
+    "sit": "Ти у відрядженні, телефонуєш дружині ввечері.",
+    "say": "Я весь день про тебе думаю.",
+    "ans": ["I’ve been thinking about you all day.", "I think about you all day long.", "I’ve been thinking of you all day."],
+    "keys": { "весь день": "all day|whole day|day" }
+   },
+   {
+    "sit": "Друг пропонує тобі купити його старий велосипед і просить відповісти одразу.",
+    "say": "Мені треба подумати.",
+    "ans": ["I need to think about it.", "I need some time to think.", "Let me think about it first — I need a bit of time."],
+    "keys": { "треба": "need*|have to|let me|time" }
+   }
+  ]
+ },
+ {
+  "id": 94, "w": "know", "uk": "знати", "lvl": "A1",
+  "forms": "know|knows|knew|known|knowing",
+  "near": "understand*|understood|be aware|am aware|realize*|recogni*|have heard|idea",
+  "tasks": [
+   {
+    "sit": "Турист питає тебе на вулиці, де найближча аптека, але ти тут теж уперше.",
+    "say": "Вибачте, я не знаю.",
+    "ans": ["Sorry, I don’t know.", "I’m sorry, I don’t know where it is.", "Sorry, no — I really don’t know."],
+    "keys": { "не": "not|no" }
+   },
+   {
+    "sit": "Ти показуєш подрузі фото з корпоративу, а вона впізнає одного з твоїх колег.",
+    "say": "Я його знаю! Ми разом навчалися.",
+    "ans": ["I know him! We studied together.", "I know him — we went to school together!", "Wait, I know him! We were at uni together."],
+    "keys": { "разом": "together|same|classmate*" }
+   },
+   {
+    "sit": "Ти приходиш на вечірку, і тебе питають, з ким ти тут знайомий.",
+    "say": "Я тут нікого не знаю.",
+    "ans": ["I don’t know anyone here.", "I don’t know anybody here.", "Honestly, I don’t know a single person here."],
+    "keys": { "нікого": "anyone|anybody|nobody|no one|single person|one" }
+   }
+  ]
+ },
+ {
+  "id": 95, "w": "believe", "uk": "вірити", "lvl": "A2",
+  "forms": "believe|believes|believed|believed|believing",
+  "near": "trust*|think|thought|buy it|bought it|fall for|fell for|accept*",
+  "tasks": [
+   {
+    "sit": "Твій друг-фантазер розповідає, що бачив НЛО над дачею.",
+    "say": "Я тобі не вірю.",
+    "ans": ["I don’t believe you.", "I just don’t believe you.", "Come on, I don’t believe you!"],
+    "keys": { "не": "not|never" }
+   },
+   {
+    "sit": "Ти вперше виграв у лотерею. Дзвониш мамі.",
+    "say": "Не можу повірити, що я виграв!",
+    "ans": ["I can’t believe I won!", "I can’t believe that I’ve won!", "I still can’t believe I actually won!"],
+    "keys": { "виграв": "won|win|winning", "не можу": "can not|cannot|could not" }
+   },
+   {
+    "sit": "Ти розповідаєш другові, чому тобі вчора не дозволили піти гуляти після школи.",
+    "say": "Мама не повірила, що я зробив уроки.",
+    "ans": ["Mom didn’t believe that I had done my homework.", "My mum didn’t believe I’d finished my homework.", "Mom just didn’t believe I did my homework."],
+    "keys": { "мама": "mom*|mum*|mother", "уроки": "homework|lesson*|assignment*" }
+   }
+  ]
+ },
+ {
+  "id": 96, "w": "suppose", "uk": "припускати, мабуть (думаю)", "lvl": "B1",
+  "forms": "suppose|supposes|supposed|supposed|supposing",
+  "near": "guess*|think|thought|assume*|reckon*|imagine*|probably|maybe",
+  "tasks": [
+   {
+    "sit": "Друг довго доводив тобі, що краще їхати потягом, а не автобусом. Ти здаєшся без ентузіазму.",
+    "say": "Мабуть, ти правий.",
+    "ans": ["I suppose you’re right.", "I suppose you are right.", "Well, I suppose you’re right."],
+    "keys": { "правий": "right|correct" }
+   },
+   {
+    "sit": "Уже десята вечора, а колега так і не відповів на твоє повідомлення.",
+    "say": "Гадаю, він уже спить.",
+    "ans": ["I suppose he’s already asleep.", "I suppose he’s gone to bed already.", "I suppose he’s sleeping by now."],
+    "keys": { "спить": "asleep|sleep*|bed" }
+   },
+   {
+    "sit": "Донька питає, чи можна їй ще одне морозиво. Ти не дуже хочеш, але погоджуєшся.",
+    "say": "Ну, мабуть, можна.",
+    "ans": ["Well, I suppose you can.", "Okay, I suppose you can have one more.", "Oh, I suppose so."],
+    "keys": { "можна": "can|so|okay|ok|fine|alright" }
+   }
+  ]
+ },
+ {
+  "id": 97, "w": "assume", "uk": "вважати, припускати (без доказів)", "lvl": "B1",
+  "forms": "assume|assumes|assumed|assumed|assuming",
+  "near": "suppose*|think|thought|guess*|presume*|take for granted|took for granted|expect*",
+  "tasks": [
+   {
+    "sit": "Колега відразу вирішив, що звіт зіпсував новенький, навіть не перевіривши.",
+    "say": "Не роби поспішних висновків — спершу спитай!",
+    "ans": ["Don’t assume anything — ask first!", "Don’t just assume, ask him first!", "Don’t assume — just ask first!"],
+    "keys": { "спитай": "ask*|check*|find out", "спершу": "first|before" }
+   },
+   {
+    "sit": "Ти прийшов на день народження без подарунка, бо думав, що всі скидалися разом.",
+    "say": "Я вважав, що ми купуємо подарунок разом.",
+    "ans": ["I assumed we were buying a present together.", "I assumed we were getting the gift together.", "I just assumed we were all chipping in for one gift."],
+    "keys": { "подарунок": "present*|gift*", "разом": "together|all|chipping in|chip in" }
+   },
+   {
+    "sit": "Сусід бачить, що ти вивчаєш англійську вечорами.",
+    "say": "Я припускаю, що ти готуєшся до переїзду?",
+    "ans": ["I assume you’re preparing to move abroad?", "I assume you’re getting ready to move?", "So I assume you’re planning to move abroad?"],
+    "keys": { "переїзд": "mov*|relocat*|emigrat*|abroad" }
+   }
+  ]
+ },
+ {
+  "id": 98, "w": "guess", "uk": "вгадувати, здогадуватися", "lvl": "A2",
+  "forms": "guess|guesses|guessed|guessed|guessing",
+  "near": "figure out|figured out|work out|worked out|predict*|imagine*|suppose*|think|thought",
+  "tasks": [
+   {
+    "sit": "Ти граєш з племінником: загадав число від одного до десяти.",
+    "say": "Вгадай, яке число я загадав!",
+    "ans": ["Guess what number I’m thinking of!", "Guess which number I’ve chosen!", "Go on, guess the number I’m thinking of!"],
+    "keys": { "число": "number*" }
+   },
+   {
+    "sit": "Ти телефонуєш подрузі з неймовірною новиною про вашого спільного друга.",
+    "say": "Нізащо не вгадаєш, хто одружується!",
+    "ans": ["You’ll never guess who’s getting married!", "You will never guess who is getting married!", "Guess who’s getting married — you’ll never guess!"],
+    "keys": { "одружується": "marr*|wedding|engaged" }
+   },
+   {
+    "sit": "Колега показує тобі фото своєї бабусі й питає, скільки їй років.",
+    "say": "Я б не вгадав, що їй дев’яносто.",
+    "ans": ["I would never have guessed she’s ninety.", "I’d never have guessed she was ninety!", "Ninety? I would never have guessed that!"],
+    "keys": { "дев’яносто": "ninet*|90" }
+   }
+  ]
+ },
+ {
+  "id": 99, "w": "consider", "uk": "розглядати, обмірковувати", "lvl": "B1",
+  "forms": "consider|considers|considered|considered|considering",
+  "near": "think about|thought about|think of|thought of|look at|looked at|weigh*|contemplat*|keep in mind",
+  "tasks": [
+   {
+    "sit": "Дружина хоче купити першу машину, яку побачила. Ти пропонуєш не поспішати.",
+    "say": "Давай спочатку розглянемо всі варіанти.",
+    "ans": ["Let’s consider all the options first.", "First, let’s consider all our options.", "Hold on, let’s consider all the options before we decide."],
+    "keys": { "варіанти": "option*|choice*|alternative*|car*", "спочатку": "first|before" }
+   },
+   {
+    "sit": "Друг питає, чи не хочеш ти змінити професію після стількох років в офісі.",
+    "say": "Я серйозно думаю про те, щоб стати вчителем.",
+    "ans": ["I’m seriously considering becoming a teacher.", "I’m seriously considering a career as a teacher.", "Honestly, I’m seriously considering becoming a teacher."],
+    "keys": { "вчитель": "teach*", "серйозно": "serious*|really|actually" }
+   },
+   {
+    "sit": "Менеджерка з найму відповідає тобі після співбесіди.",
+    "say": "Ми обов’язково розглянемо вашу кандидатуру.",
+    "ans": ["We will definitely consider your application.", "We’ll certainly consider you for the position.", "We’ll definitely consider your application, thank you."],
+    "keys": { "обов’язково": "definitely|certainly|surely|of course|sure|will", "кандидатура": "application*|you|candidat*|cv|resume" }
+   }
+  ]
+ },
+ {
+  "id": 100, "w": "decide", "uk": "вирішувати, ухвалювати рішення", "lvl": "A2",
+  "forms": "decide|decides|decided|decided|deciding",
+  "near": "choose|chose|chosen|choosing|make up my mind|made up my mind|pick*|settle*|determine*",
+  "tasks": [
+   {
+    "sit": "Батьки питають, чи ти поїдеш на навчання за кордон.",
+    "say": "Я вирішив залишитися вдома.",
+    "ans": ["I’ve decided to stay home.", "I decided to stay at home.", "I’ve decided I’m staying home."],
+    "keys": { "залишитися": "stay*|remain*|not go|not leave", "вдома": "home|here" }
+   },
+   {
+    "sit": "Ви з другом стоїте перед меню в кафе вже десять хвилин.",
+    "say": "Я ніяк не можу вирішити, що замовити.",
+    "ans": ["I just can’t decide what to order.", "I can’t decide what I want to order.", "Ugh, I really can’t decide what to get."],
+    "keys": { "замовити": "order*|get|eat|have" }
+   },
+   {
+    "sit": "Твій підліток просить дозволу на тату, а ти не хочеш вирішувати сам.",
+    "say": "Хай мама вирішує.",
+    "ans": ["Let your mom decide.", "Mom should decide.", "Let your mum decide that one."],
+    "keys": { "мама": "mom*|mum*|mother" }
+   }
+  ]
+ },
+ {
+  "id": 101, "w": "choose", "uk": "обирати, вибирати", "lvl": "A2",
+  "forms": "choose|chooses|chose|chosen|choosing",
+  "near": "pick*|select*|decide*|go for|went for|opt*",
+  "tasks": [
+   {
+    "sit": "Ви з дівчиною сидите вдома з попкорном і гортаєте каталог фільмів.",
+    "say": "Обирай ти фільм сьогодні.",
+    "ans": ["You choose the movie tonight.", "You can choose the film tonight.", "Tonight it’s your turn to choose the movie."],
+    "keys": { "фільм": "movie*|film*", "сьогодні": "tonight|today" }
+   },
+   {
+    "sit": "Друг питає, чому ти пішов у медичний університет, а не на програмування.",
+    "say": "Я обрав медицину, бо хочу допомагати людям.",
+    "ans": ["I chose medicine because I want to help people.", "I chose medicine since I want to help people.", "I chose medicine — I just want to help people."],
+    "keys": { "медицина": "medicine|medical|doctor", "допомагати": "help*" }
+   },
+   {
+    "sit": "У магазині продавчиня показує тобі десять однакових на вигляд диванів.",
+    "say": "Тут так складно щось вибрати!",
+    "ans": ["It’s so hard to choose here!", "It’s really difficult to choose something here!", "There’s so much here, I can’t choose!"],
+    "keys": { "складно": "hard|difficult|tough|can not|cannot|tricky" }
+   }
+  ]
+ }
+]

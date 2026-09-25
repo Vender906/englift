@@ -1,0 +1,652 @@
+[
+ {
+  "id": 2198, "w": "top up a card", "uk": "поповнити картку", "lvl": "B2",
+  "forms": "top|tops|topped|topped|topping",
+  "tail": "up card*",
+  "near": "recharge*|reload*|add money|added money|put money|refill*",
+  "tasks": [
+   {
+    "sit": "Турнікет у метро не пропускає тебе — на картці нуль. Люди позаду вже нервують.",
+    "say": "Мені треба поповнити картку метро, на ній нічого немає.",
+    "ans": ["I need to top up my metro card — it’s empty.", "I have to top up my metro card, there’s nothing left on it.", "Hang on, I need to top up my metro card first — it’s at zero."],
+    "keys": { "метро": "metro|subway|underground|tube", "порожня": "empty|zero|nothing|no money|balance|0" }
+   },
+   {
+    "sit": "Син скаржиться, що в шкільній їдальні йому не вистачило грошей на обід.",
+    "say": "Я поповню твою картку сьогодні ввечері.",
+    "ans": ["I’ll top up your card tonight.", "I’m going to top up your card this evening.", "Don’t worry, I’ll top your card up tonight."],
+    "keys": { "ввечері": "tonight|evening|later" }
+   },
+   {
+    "sit": "Завтра летиш до Польщі. У тебе є валютна картка для подорожей, але на ній майже нічого немає.",
+    "say": "Сьогодні ж поповню картку через застосунок.",
+    "ans": ["I’ll top up my card in the app today.", "Today I’m topping up my travel card through the app.", "I’ll just top up the card in the app today."],
+    "keys": { "застосунок": "app|online|phone|banking", "сьогодні": "today|tonight|now" }
+   }
+  ]
+ },
+ {
+  "id": 2199, "w": "miss a stop", "uk": "проїхати зупинку", "lvl": "B2",
+  "forms": "miss|misses|missed|missed|missing",
+  "tail": "stop*",
+  "near": "passed|pass|went past|go past|overshot|overshoot|rode past",
+  "tasks": [
+   {
+    "sit": "Після нічної зміни ти задрімав в автобусі й прокинувся на кінцевій.",
+    "say": "Я заснув і проїхав свою зупинку.",
+    "ans": ["I fell asleep and missed my stop.", "I missed my stop because I fell asleep.", "I dozed off and totally missed my stop."],
+    "keys": { "заснув": "asleep|sleep*|dozed|nodded off|slept" }
+   },
+   {
+    "sit": "Ти спізнюєшся на роботу, бо в метро зачитався книжкою. Пишеш керівнику.",
+    "say": "Вибачте, я проїхав зупинку, буду за десять хвилин.",
+    "ans": ["Sorry, I missed my stop. I’ll be there in ten minutes.", "Sorry, I missed my stop — I’ll be ten minutes late.", "So sorry, I got lost in my book and missed my stop, be there in ten."],
+    "keys": { "вибачте": "sorry|apolog*", "десять хвилин": "ten|10|minutes|late" }
+   },
+   {
+    "sit": "Подруга вперше їде до тебе трамваєм і боїться заблукати.",
+    "say": "Стеж за табло, щоб не проїхати свою зупинку.",
+    "ans": ["Watch the screen so you don’t miss your stop.", "Keep an eye on the display so you won’t miss your stop.", "Just watch the screen, or you’ll miss your stop."],
+    "keys": { "табло": "screen|display|board|sign*", "стеж": "watch*|keep an eye|look*|check*" }
+   }
+  ]
+ },
+ {
+  "id": 2200, "w": "ask for directions", "uk": "питати, як пройти", "lvl": "A2",
+  "forms": "ask|asks|asked|asked|asking",
+  "tail": "for direction*",
+  "near": "the way|how to get|how do i get|how can i get",
+  "tasks": [
+   {
+    "sit": "Ви з другом гуляєте Лісабоном, і в тебе сів телефон разом із картою.",
+    "say": "Телефон сів, доведеться питати дорогу в перехожих.",
+    "ans": ["My phone died, so I’ll have to ask people for directions.", "My phone is dead — I need to ask someone for directions.", "Phone’s dead, so I guess we’ll ask a local for directions."],
+    "keys": { "телефон сів": "phone|battery|dead|died", "перехожі": "people|someone|somebody|local*|passer*|stranger*" }
+   },
+   {
+    "sit": "Ви пів години кружляєте на машині селом, а друг за кермом уперто не хоче зупинятися.",
+    "say": "Чому ти не хочеш просто спитати дорогу?",
+    "ans": ["Why don’t you want to just ask for directions?", "Why won’t you just ask for directions?", "Come on, why not just ask someone for directions?"],
+    "keys": { "чому": "why" }
+   },
+   {
+    "sit": "Перший день практики у великій лікарні. Колега дивується, що ти не спізнився.",
+    "say": "Я заблукав, але спитав дорогу в охоронця.",
+    "ans": ["I got lost, but I asked the security guard for directions.", "I asked a guard for directions after I got lost.", "I was totally lost, so I asked the guard for directions."],
+    "keys": { "охоронець": "guard*|security" }
+   }
+  ]
+ },
+ {
+  "id": 2201, "w": "give directions", "uk": "пояснити дорогу", "lvl": "A2",
+  "forms": "give|gives|gave|given|giving",
+  "tail": "direction*",
+  "near": "explain*|show* the way|showed|tell* the way|told",
+  "tasks": [
+   {
+    "sit": "На вулиці турист із картою просить допомогти, але ти в цьому місті лише другий день.",
+    "say": "Вибачте, я не можу пояснити дорогу, я не тутешній.",
+    "ans": ["Sorry, I can’t give directions, I don’t live here.", "I’m sorry, I can’t give you directions — I’m not from here.", "Sorry, I’m not from around here, so I can’t really give directions."],
+    "keys": { "не тутешній": "here|live|local*" }
+   },
+   {
+    "sit": "Друзі вперше їдуть до тебе на дачу й дзвонять, щоб уточнити, як доїхати.",
+    "say": "Я погано пояснюю дорогу, краще скину геолокацію.",
+    "ans": ["I’m bad at giving directions, so I’ll send you my location.", "I’m not good at giving directions — let me just send my location.", "Honestly, I’m terrible at giving directions, I’ll just drop you a pin."],
+    "keys": { "геолокація": "location|pin|map*|address", "погано": "bad|not good|terrible|awful|poor*" }
+   },
+   {
+    "sit": "Ти волонтериш на міському марафоні біля входу в парк. Знайомий питає, що ти там робиш.",
+    "say": "Моє завдання — пояснювати дорогу бігунам.",
+    "ans": ["My job is to give directions to runners.", "I’m here to give directions to the runners.", "Basically, I just give directions to the runners."],
+    "keys": { "бігуни": "runner*|athlet*|people|visitor*" }
+   }
+  ]
+ },
+ {
+  "id": 2202, "w": "get lost", "uk": "загубитися (в місті)", "lvl": "A2",
+  "forms": "get|gets|got|got/gotten|getting",
+  "tail": "lost",
+  "near": "lose my way|lost my way|lose our way|lost our way|wrong way|went the wrong way",
+  "tasks": [
+   {
+    "sit": "Ти показуєш колегам фото з відпустки у Венеції.",
+    "say": "Ми загубилися у Венеції, але це була найкраща частина поїздки.",
+    "ans": ["We got lost in Venice, but it was the best part of the trip.", "Getting lost in Venice was the best part of our trip.", "We totally got lost in Venice — honestly, the best part of the trip!"],
+    "keys": { "Венеція": "venice", "найкраща": "best" }
+   },
+   {
+    "sit": "Ти з маленькою донькою на людному ярмарку в центрі міста.",
+    "say": "Тримай мене за руку, щоб не загубитися.",
+    "ans": ["Hold my hand so you don’t get lost.", "Hold my hand, or you’ll get lost.", "Stay close and hold my hand so we don’t get lost."],
+    "keys": { "рука": "hand*" }
+   },
+   {
+    "sit": "Ти тиждень тому переїхав у нове місто. Мама питає, як тобі там.",
+    "say": "Я досі гублюся без навігатора.",
+    "ans": ["I still get lost without GPS.", "I keep getting lost without a map.", "Without my GPS, I still get lost around here."],
+    "keys": { "навігатор": "gps|map*|navigat*|phone|app" }
+   }
+  ]
+ },
+ {
+  "id": 2203, "w": "find your way", "uk": "знаходити дорогу", "lvl": "B1",
+  "forms": "find|finds|found|found|finding",
+  "tail": "way",
+  "near": "get there|got there|navigate*|get back|got back|not get lost",
+  "tasks": [
+   {
+    "sit": "Гість уперше ночує у твоїй квартирі й хоче зранку сам сходити на пляж.",
+    "say": "Ти легко знайдеш дорогу — просто йди вздовж річки.",
+    "ans": ["You’ll easily find your way — just follow the river.", "It’s easy to find your way: just walk along the river.", "You’ll find your way no problem, just stick to the river."],
+    "keys": { "річка": "river" }
+   },
+   {
+    "sit": "Ви з другом збилися зі стежки в лісі, а зв’язку немає. Друг панікує.",
+    "say": "Не хвилюйся, я знайду дорогу назад за сонцем.",
+    "ans": ["Don’t worry, I’ll find our way back using the sun.", "Don’t worry — I can find the way back by the sun.", "Relax, I’ll find our way back, I’ll just follow the sun."],
+    "keys": { "назад": "back", "сонце": "sun*" }
+   },
+   {
+    "sit": "Колега боїться пересадки у величезному аеропорту Франкфурта.",
+    "say": "Там усюди вказівники, ти без проблем знайдеш дорогу.",
+    "ans": ["There are signs everywhere, so you’ll find your way easily.", "You’ll find your way without any problems — there are signs everywhere.", "Don’t stress, there are signs all over the place, you’ll find your way."],
+    "keys": { "вказівники": "sign*" }
+   }
+  ]
+ },
+ {
+  "id": 2204, "w": "turn left", "uk": "повернути ліворуч", "lvl": "A1",
+  "forms": "turn|turns|turned|turned|turning",
+  "tail": "left",
+  "near": "go left|went left|take a left|took a left|make a left",
+  "tasks": [
+   {
+    "sit": "Ти сидиш поруч із другом, який веде машину, і дивишся в карту.",
+    "say": "Поверни ліворуч на світлофорі.",
+    "ans": ["Turn left at the traffic lights.", "At the lights, turn left.", "Okay, turn left at the lights."],
+    "keys": { "світлофор": "light*|signal*" }
+   },
+   {
+    "sit": "Туристка на вулиці питає тебе, де найближча аптека.",
+    "say": "Поверніть ліворуч біля банку, аптека там.",
+    "ans": ["Turn left at the bank. The pharmacy is there.", "Turn left by the bank, and the pharmacy is there.", "Just turn left at the bank — the pharmacy’s right there."],
+    "keys": { "банк": "bank", "аптека": "pharmacy*|chemist*|drugstore*" }
+   },
+   {
+    "sit": "У тебе вдома вечірка. Гість питає, де туалет.",
+    "say": "Іди в кінець коридору й поверни ліворуч.",
+    "ans": ["Go to the end of the hall and turn left.", "Walk to the end of the corridor, then turn left.", "End of the hall, then turn left."],
+    "keys": { "коридор": "hall*|corridor", "кінець": "end" }
+   }
+  ]
+ },
+ {
+  "id": 2205, "w": "turn right", "uk": "повернути праворуч", "lvl": "A1",
+  "forms": "turn|turns|turned|turned|turning",
+  "tail": "right",
+  "near": "go right|went right|take a right|took a right|make a right",
+  "tasks": [
+   {
+    "sit": "Ти вчиш сестру кермувати на порожній парковці.",
+    "say": "Тепер повільно повертай праворуч.",
+    "ans": ["Now turn right slowly.", "Now slowly turn right.", "Okay, now turn right — nice and slow."],
+    "keys": { "повільно": "slow*|careful*|gently" }
+   },
+   {
+    "sit": "Новий колега питає, де в офісі кухня.",
+    "say": "Вийди з ліфта й поверни праворуч — кухня там.",
+    "ans": ["Get out of the elevator and turn right. The kitchen is there.", "Turn right when you leave the lift, and you’ll see the kitchen.", "Out of the elevator, turn right, and the kitchen’s just there."],
+    "keys": { "ліфт": "elevator|lift", "кухня": "kitchen*" }
+   },
+   {
+    "sit": "Ви з другом катаєтеся на велосипедах, ти їдеш попереду.",
+    "say": "На наступному перехресті повертаємо праворуч.",
+    "ans": ["We turn right at the next intersection.", "Let’s turn right at the next crossroads.", "Next intersection, we’re turning right."],
+    "keys": { "наступне перехрестя": "next|intersection|crossroad*|junction|corner" }
+   }
+  ]
+ },
+ {
+  "id": 2206, "w": "go straight", "uk": "іти / їхати прямо", "lvl": "A1",
+  "forms": "go|goes|went|gone|going",
+  "tail": "straight",
+  "near": "keep going|kept going|carry on|continue*|walk ahead",
+  "tasks": [
+   {
+    "sit": "Турист біля вокзалу питає, як дійти до музею.",
+    "say": "Ідіть прямо два квартали, і побачите музей.",
+    "ans": ["Go straight for two blocks and you’ll see the museum.", "If you go straight for two blocks, you’ll see the museum.", "Just go straight for two blocks — you can’t miss the museum."],
+    "keys": { "два квартали": "two|2|block*", "музей": "museum" }
+   },
+   {
+    "sit": "Ти в таксі, водій збирається звернути не туди.",
+    "say": "Не повертайте, їдьте прямо до кінця вулиці.",
+    "ans": ["Don’t turn, go straight to the end of the street.", "Go straight to the end of the street, please.", "No need to turn — just go straight to the end of the street."],
+    "keys": { "кінець вулиці": "end|street|road" }
+   },
+   {
+    "sit": "Твій малий син уперше катається на самокаті в парку.",
+    "say": "Їдь прямо по доріжці, не на траву.",
+    "ans": ["Go straight along the path, not on the grass.", "Go straight on the path and stay off the grass.", "Stay on the path — go straight, not onto the grass."],
+    "keys": { "доріжка": "path*|track|trail", "трава": "grass*|lawn" }
+   }
+  ]
+ },
+ {
+  "id": 2207, "w": "cross a street", "uk": "переходити вулицю", "lvl": "A1",
+  "forms": "cross|crosses|crossed|crossed|crossing",
+  "tail": "street*/road*",
+  "near": "go across|went across|walk across|walked across|get across|got across",
+  "tasks": [
+   {
+    "sit": "Ти з малим сином біля пішохідного переходу, а він уже хоче бігти.",
+    "say": "Не переходь дорогу на червоне!",
+    "ans": ["Don’t cross the street on a red light!", "Never cross the road when the light is red!", "Hey, don’t cross the street on red!"],
+    "keys": { "червоне": "red" }
+   },
+   {
+    "sit": "Літня жінка невпевнено стоїть біля жвавої дороги з важкими сумками.",
+    "say": "Давайте я допоможу вам перейти вулицю.",
+    "ans": ["Let me help you cross the street.", "Can I help you cross the road?", "Here, let me help you cross the street."],
+    "keys": { "допомогти": "help" }
+   },
+   {
+    "sit": "Новий знайомий питає, чи довго тобі добиратися до роботи.",
+    "say": "Мій офіс навпроти, мені треба лише перейти вулицю.",
+    "ans": ["My office is opposite my house. I just cross the street.", "I only need to cross the road to get to my office.", "The office is right across from me, I just have to cross the street."],
+    "keys": { "офіс": "office|work" }
+   }
+  ]
+ },
+ {
+  "id": 2208, "w": "follow the signs", "uk": "іти за вказівниками", "lvl": "B1",
+  "forms": "follow|follows|followed|followed|following",
+  "tail": "sign*",
+  "near": "look for the|go where the|arrow*|pointer*",
+  "tasks": [
+   {
+    "sit": "Мама вперше летить сама й боїться загубитися в аеропорту.",
+    "say": "Просто йди за вказівниками до виходу на посадку.",
+    "ans": ["Just follow the signs to the gate.", "Follow the signs to your boarding gate.", "Just follow the signs for the gates, you’ll be fine."],
+    "keys": { "вихід на посадку": "gate*|boarding" }
+   },
+   {
+    "sit": "Ти розповідаєш колегам про похід у Карпати.",
+    "say": "Ми йшли за знаками й легко дійшли до водоспаду.",
+    "ans": ["We followed the signs and easily got to the waterfall.", "We easily reached the waterfall by following the signs.", "We just followed the signs, and the waterfall was easy to find."],
+    "keys": { "водоспад": "waterfall*|falls" }
+   },
+   {
+    "sit": "Тато вперше йде в нову лікарню на рентген і питає, як там усе знайти.",
+    "say": "Там заплутано, але йди за вказівниками до рентгену.",
+    "ans": ["It’s confusing, but follow the signs to the X-ray room.", "Follow the signs and you’ll find the X-ray department.", "It’s a maze in there, but just follow the signs to X-ray."],
+    "keys": { "рентген": "x-ray*|x ray*|radiology|scan*" }
+   }
+  ]
+ },
+ {
+  "id": 2209, "w": "use GPS", "uk": "користуватися GPS", "lvl": "A2",
+  "forms": "use|uses|used|used|using",
+  "tail": "gps",
+  "near": "navigator|sat-nav|satnav|google maps|map app|navigation app",
+  "tasks": [
+   {
+    "sit": "Колега дивується, що ти ніколи не блукаєш, коли їдеш кудись машиною.",
+    "say": "Я завжди користуюся навігатором, коли їду в нове місце.",
+    "ans": ["I always use GPS when I drive somewhere new.", "When I go to a new place, I always use GPS.", "I always use my GPS when I’m going somewhere new."],
+    "keys": { "нове місце": "new|unfamiliar", "завжди": "always|every time" }
+   },
+   {
+    "sit": "Ти розповідаєш про похід у гори, де не було мобільного зв’язку.",
+    "say": "Без зв’язку ми не могли користуватися навігатором і йшли за паперовою картою.",
+    "ans": ["Without signal we couldn’t use GPS, so we used a paper map.", "We had no signal, so we couldn’t use the GPS and followed a paper map.", "There was no signal, so we couldn’t use GPS and went old school with a paper map."],
+    "keys": { "зв’язок": "signal|reception|coverage|connection", "паперова карта": "map*" }
+   },
+   {
+    "sit": "Ти працюєш кур’єром, і новенький дивується, що ти знаєш усі вулиці напам’ять.",
+    "say": "Я вже рік не користуюся навігатором — усе пам’ятаю.",
+    "ans": ["I haven’t used GPS for a year — I remember everything.", "I stopped using GPS a year ago because I know all the streets.", "Honestly, I haven’t used GPS in a year, I know it all by heart."],
+    "keys": { "рік": "year" }
+   }
+  ]
+ },
+ {
+  "id": 2210, "w": "wander around", "uk": "блукати (містом)", "lvl": "B2",
+  "forms": "wander|wanders|wandered|wandered|wandering",
+  "tail": "around/round/about",
+  "near": "stroll*|roam*|explor*|walk* around|walked around",
+  "tasks": [
+   {
+    "sit": "Перший ранок у Празі. Подруга питає, куди ви сьогодні підете.",
+    "say": "Сьогодні жодних планів — просто поблукаємо старим містом.",
+    "ans": ["No plans today — let’s just wander around the old town.", "Today we have no plans, we’ll just wander around the old town.", "No plans for today, let’s just wander around the old town and see what we find."],
+    "keys": { "без планів": "no plan*|not have any plan*|nothing planned", "старе місто": "old town|old city|town|city|centre|center" }
+   },
+   {
+    "sit": "Дружина йде до перукаря на дві години в торговому центрі.",
+    "say": "Поки ти в перукарні, я поблукаю торговим центром.",
+    "ans": ["While you’re at the hairdresser’s, I’ll wander around the mall.", "I’ll wander around the shopping center while you get your hair done.", "I’ll just wander around the mall while you’re getting your haircut."],
+    "keys": { "торговий центр": "mall|shopping cent*|shops" }
+   },
+   {
+    "sit": "Сусід по хостелу питає, де ти був до другої ночі.",
+    "say": "Я не міг заснути, тож блукав нічним містом.",
+    "ans": ["I couldn’t sleep, so I wandered around the city at night.", "I was wandering around town at night because I couldn’t sleep.", "Couldn’t sleep, so I just wandered around town for a while."],
+    "keys": { "не міг заснути": "sleep*|insomnia|awake" }
+   }
+  ]
+ },
+ {
+  "id": 2211, "w": "go to a concert", "uk": "іти на концерт", "lvl": "A2",
+  "forms": "go|goes|went|gone|going",
+  "tail": "to concert*",
+  "near": "attend*|see a band|see them live|saw them live",
+  "tasks": [
+   {
+    "sit": "Ти бачиш афішу улюбленого гурту й одразу пишеш другові.",
+    "say": "Ходімо на концерт у суботу!",
+    "ans": ["Let’s go to a concert on Saturday!", "Do you want to go to a concert on Saturday?", "We should go to the concert this Saturday!"],
+    "keys": { "субота": "saturday" }
+   },
+   {
+    "sit": "Батьки питають, що ти хочеш на день народження.",
+    "say": "Я хочу піти на концерт свого улюбленого гурту.",
+    "ans": ["I want to go to a concert by my favorite band.", "I’d like to go to my favorite band’s concert.", "Honestly, I just want to go to my favourite band’s concert."],
+    "keys": { "улюблений гурт": "favo*|band*|group|singer" }
+   },
+   {
+    "sit": "Колега питає, чому ти сьогодні йдеш з роботи раніше.",
+    "say": "Я сьогодні йду на концерт, тому піду раніше.",
+    "ans": ["I’m going to a concert tonight, so I’m leaving early.", "I’m leaving early because I’m going to a concert tonight.", "I’ve got tickets and I’m going to a concert tonight, so I’ll head off early."],
+    "keys": { "раніше": "early|earlier|head off|leav*" }
+   }
+  ]
+ },
+ {
+  "id": 2212, "w": "attend a festival", "uk": "відвідати фестиваль", "lvl": "B1",
+  "forms": "attend|attends|attended|attended|attending",
+  "tail": "festival*",
+  "near": "go to|went to|been to|visit*",
+  "tasks": [
+   {
+    "sit": "Новий знайомий питає, чи є в тебе якісь літні традиції.",
+    "say": "Щоліта я відвідую джазовий фестиваль у Львові.",
+    "ans": ["Every summer I attend a jazz festival in Lviv.", "I attend the jazz festival in Lviv every summer.", "Every summer, I attend the Lviv jazz festival."],
+    "keys": { "щоліта": "summer*", "джаз": "jazz" }
+   },
+   {
+    "sit": "Ти журналіст, і редакція нарешті погодила тобі поїздку до Канн.",
+    "say": "Мені дали прес-акредитацію, щоб відвідати кінофестиваль.",
+    "ans": ["I got a press pass to attend the film festival.", "I was given press accreditation to attend a film festival.", "I managed to get a press pass, so I’m attending the film festival!"],
+    "keys": { "акредитація": "press|pass|accreditation|badge", "кіно": "film|movie|cinema" }
+   },
+   {
+    "sit": "Ти розповідаєш сестрі про вихідні в Одесі.",
+    "say": "Ми відвідали фестиваль вуличної їжі й скуштували все.",
+    "ans": ["We attended a street food festival and tried everything.", "When we attended the street food festival, we tried everything.", "We attended a street food festival and basically tried everything there."],
+    "keys": { "їжа": "food", "скуштували": "tried|tasted|ate|sampl*" }
+   }
+  ]
+ },
+ {
+  "id": 2213, "w": "celebrate a holiday", "uk": "святкувати свято", "lvl": "A2",
+  "forms": "celebrate|celebrates|celebrated|celebrated|celebrating",
+  "tail": "holiday*/christmas/easter/new/thanksgiving/hanukkah",
+  "near": "mark*|observe*|spend|spent|have a party|had a party",
+  "tasks": [
+   {
+    "sit": "Колега з Канади розпитує тебе про українські традиції.",
+    "say": "Ми святкуємо Різдво з родиною й готуємо дванадцять страв.",
+    "ans": ["We celebrate Christmas with family and cook twelve dishes.", "We celebrate Christmas with our family and make twelve dishes.", "We usually celebrate Christmas with family — and cook twelve dishes!"],
+    "keys": { "родина": "family|relatives|parents", "страви": "dish*|meal*|twelve|12" }
+   },
+   {
+    "sit": "Ти пишеш у робочий чат про плани команди на кінець грудня.",
+    "say": "Цього року ми святкуємо Новий рік в офісі.",
+    "ans": ["This year we’re celebrating New Year at the office.", "We’ll celebrate New Year at the office this year.", "This year we’re celebrating the New Year right here in the office."],
+    "keys": { "офіс": "office|work" }
+   },
+   {
+    "sit": "Ти навчаєшся за кордоном і телефонуєш мамі в грудні.",
+    "say": "Я вперше святкую свята далеко від дому.",
+    "ans": ["It’s my first time celebrating the holidays away from home.", "This is the first time I’ve celebrated the holidays far from home.", "First time celebrating the holidays so far from home — it feels weird."],
+    "keys": { "вперше": "first", "далеко від дому": "home|abroad|away" }
+   }
+  ]
+ },
+ {
+  "id": 2215, "w": "march for a cause", "uk": "марширувати за (якусь справу)", "lvl": "B2",
+  "forms": "march|marches|marched|marched|marching",
+  "tail": "for",
+  "near": "protest*|rall*|demonstrat*|walk for|walked for",
+  "tasks": [
+   {
+    "sit": "Ти переказуєш подрузі новини про велику акцію в центрі міста.",
+    "say": "Тисячі людей маршували за права тварин.",
+    "ans": ["Thousands of people marched for animal rights.", "Thousands marched for animal rights in the city center.", "Thousands of people were marching for animal rights downtown."],
+    "keys": { "тисячі": "thousand*", "права тварин": "animal*" }
+   },
+   {
+    "sit": "Ти кличеш друга на екологічну ходу у вихідні.",
+    "say": "У суботу я марширую за чисте довкілля — ходімо зі мною!",
+    "ans": ["On Saturday I’m marching for a clean environment. Come with me!", "I’ll march for a clean environment on Saturday, join me!", "I’m marching for the environment on Saturday — want to come?"],
+    "keys": { "субота": "saturday", "довкілля": "environment*|climate|planet|nature" }
+   },
+   {
+    "sit": "Донька знайшла старе фото, де ти молодий тримаєш плакат на Майдані.",
+    "say": "Я маршував за незалежність у дев’яностих.",
+    "ans": ["I marched for independence in the nineties.", "In the nineties, I marched for independence.", "Back in the nineties, I marched for our independence."],
+    "keys": { "незалежність": "independence|freedom", "дев’яності": "nineties|90s|1990*" }
+   }
+  ]
+ },
+ {
+  "id": 2216, "w": "visit a museum", "uk": "відвідати музей", "lvl": "A2",
+  "forms": "visit|visits|visited|visited|visiting",
+  "tail": "museum*",
+  "near": "go to|went to|been to|see the|saw the|check out|checked out",
+  "tasks": [
+   {
+    "sit": "Ти показуєш друзям фото з поїздки до Парижа.",
+    "say": "У Парижі ми відвідали три музеї за один день.",
+    "ans": ["In Paris we visited three museums in one day.", "We visited three museums in one day in Paris.", "We visited three museums in a single day in Paris — so tiring!"],
+    "keys": { "три": "three|3", "один день": "day" }
+   },
+   {
+    "sit": "Ти класний керівник і пишеш повідомлення батькам учнів.",
+    "say": "У п’ятницю наш клас відвідає історичний музей.",
+    "ans": ["On Friday our class will visit the history museum.", "Our class is visiting the history museum on Friday.", "This Friday, our class is going to visit the museum of history."],
+    "keys": { "п’ятниця": "friday", "історія": "histor*" }
+   },
+   {
+    "sit": "Ви з подругою хотіли гуляти містом, але почалася злива.",
+    "say": "Надворі злива — може, відвідаємо музей?",
+    "ans": ["It’s pouring outside — maybe we could visit a museum?", "It’s raining hard, so why don’t we visit a museum?", "It’s pouring — how about we visit a museum?"],
+    "keys": { "злива": "rain*|pour*|storm*|wet" }
+   }
+  ]
+ },
+ {
+  "id": 2217, "w": "catch a movie", "uk": "сходити в кіно (на фільм)", "lvl": "B1",
+  "forms": "catch|catches|caught|caught|catching",
+  "tail": "movie*/film*/show*/flick*",
+  "near": "see a film|see a movie|saw a movie|saw a film|go to the cinema|go to the movies|watch*",
+  "tasks": [
+   {
+    "sit": "Ти на побаченні, вечеря майже закінчилася, а розходитися не хочеться.",
+    "say": "Може, сходимо в кіно після вечері?",
+    "ans": ["Do you want to catch a movie after dinner?", "Maybe we could catch a movie after dinner?", "How about we catch a movie after dinner?"],
+    "keys": { "після вечері": "dinner|after|eat*" }
+   },
+   {
+    "sit": "У понеділок подруга питає, як минула твоя п’ятниця.",
+    "say": "Після роботи ми з колегами сходили на фільм.",
+    "ans": ["After work, I caught a movie with my coworkers.", "My colleagues and I caught a movie after work.", "We caught a late movie after work, just me and a couple of coworkers."],
+    "keys": { "колеги": "colleague*|coworker*|co-worker*|team", "після роботи": "work|office" }
+   },
+   {
+    "sit": "Ви з сім’єю на морі, а прогноз на завтра поганий.",
+    "say": "Якщо завтра буде дощ, сходимо в кіно.",
+    "ans": ["If it rains tomorrow, we’ll catch a movie.", "We can catch a movie tomorrow if it’s raining.", "If it’s rainy tomorrow, let’s just catch a movie."],
+    "keys": { "дощ": "rain*|wet|weather", "завтра": "tomorrow" }
+   }
+  ]
+ },
+ {
+  "id": 2218, "w": "hit the club", "uk": "піти в клуб", "lvl": "B2",
+  "forms": "hit|hits|hit|hit|hitting",
+  "tail": "club*",
+  "near": "go clubbing|went clubbing|go out|went out|go to a club|went to a club|go dancing|partying",
+  "tasks": [
+   {
+    "sit": "П’ятниця, ви з друзями вже годину сидите в барі, і всім хочеться танцювати.",
+    "say": "Після бару ходімо в клуб!",
+    "ans": ["Let’s hit the club after the bar!", "After the bar, let’s hit the club!", "After the bar, we’re hitting the club, right?"],
+    "keys": { "бар": "bar*|pub*|drinks" }
+   },
+   {
+    "sit": "Ти розповідаєш колезі про відпустку в Берліні.",
+    "say": "У Берліні ми щоночі ходили по клубах.",
+    "ans": ["In Berlin we hit the clubs every night.", "We hit the clubs every single night in Berlin.", "We were hitting the clubs every night in Berlin."],
+    "keys": { "Берлін": "berlin", "щоночі": "every night|night*" }
+   },
+   {
+    "sit": "Молодші друзі кличуть тебе на вечірку до п’ятої ранку, а ти ледве прокинувся після минулої.",
+    "say": "Я вже застарий, щоб ходити в клуб до ранку.",
+    "ans": ["I’m too old to hit the club until morning.", "I’m way too old to hit the clubs until sunrise.", "Honestly, I’m too old to be hitting the club till morning."],
+    "keys": { "застарий": "old|age", "до ранку": "morning|sunrise|dawn|all night|5|five" }
+   }
+  ]
+ },
+ {
+  "id": 2219, "w": "grab a drink", "uk": "випити чогось (з кимось)", "lvl": "B1",
+  "forms": "grab|grabs|grabbed|grabbed|grabbing",
+  "tail": "drink*/beer*/pint*",
+  "near": "have a drink|had a drink|go for a drink|went for a drink|get a drink|got a drink",
+  "tasks": [
+   {
+    "sit": "П’ятниця, кінець робочого дня. Ти підходиш до нової колеги.",
+    "say": "Хочеш випити чогось після роботи?",
+    "ans": ["Do you want to grab a drink after work?", "Want to grab a drink after work?", "Fancy grabbing a drink after work?"],
+    "keys": { "після роботи": "work|office" }
+   },
+   {
+    "sit": "На вулиці випадково зустрічаєш давнього шкільного друга.",
+    "say": "Давно не бачились! Треба якось випити разом.",
+    "ans": ["Long time no see! Let’s grab a drink sometime.", "It’s been ages! We should grab a drink sometime.", "Long time no see — we should totally grab a drink some time!"],
+    "keys": { "давно": "long time|ages|while", "якось": "sometime|some time|soon|someday|one day" }
+   },
+   {
+    "sit": "Ви з другом пройшли контроль в аеропорту, до посадки ще купа часу.",
+    "say": "У нас ще година до посадки — ходімо вип’ємо щось у барі.",
+    "ans": ["We have an hour before boarding — let’s grab a drink at the bar.", "Let’s grab a drink at the bar, we’ve got an hour until boarding.", "There’s still an hour till boarding, so let’s grab a drink at the bar."],
+    "keys": { "година": "hour", "бар": "bar|pub|lounge" }
+   }
+  ]
+ },
+ {
+  "id": 2220, "w": "line up for tickets", "uk": "стояти в черзі за квитками", "lvl": "B1",
+  "forms": "line|lines|lined|lined|lining",
+  "tail": "up ticket*",
+  "near": "queue*|stand in line|stood in line|wait in line|waited in line|waiting in line",
+  "tasks": [
+   {
+    "sit": "Ти хвалишся другові, що таки дістав квитки на концерт легендарного гурту.",
+    "say": "Ми стояли в черзі за квитками чотири години.",
+    "ans": ["We lined up for tickets for four hours.", "We had to line up for tickets for four hours.", "We were lining up for tickets for, like, four hours!"],
+    "keys": { "чотири години": "four|4|hour*" }
+   },
+   {
+    "sit": "Подруга їде до Рима й хоче потрапити до Ватиканських музеїв.",
+    "say": "Купи квитки онлайн, щоб не стояти в черзі.",
+    "ans": ["Buy them online so you don’t have to line up for tickets.", "If you buy online, you won’t need to line up for tickets.", "Get them online — then you don’t have to line up for tickets."],
+    "keys": { "онлайн": "online|internet|website|app" }
+   },
+   {
+    "sit": "Ти обговорюєш з колегою новини про фінал чемпіонату.",
+    "say": "Фанати почали стояти в черзі за квитками ще вночі.",
+    "ans": ["Fans started lining up for tickets during the night.", "The fans began to line up for tickets at night.", "Fans were already lining up for tickets in the middle of the night."],
+    "keys": { "фанати": "fan*|supporter*|people", "вночі": "night|midnight|dark" }
+   }
+  ]
+ },
+ {
+  "id": 2221, "w": "walk the neighborhood", "uk": "прогулюватися районом", "lvl": "A2",
+  "forms": "walk|walks|walked|walked|walking",
+  "tail": "neighborhood*/neighbourhood*",
+  "near": "stroll*|wander*|take a walk|go for a walk|went for a walk",
+  "tasks": [
+   {
+    "sit": "Новий сусід питає, чому бачить тебе на вулиці щовечора.",
+    "say": "Щовечора ми з собакою гуляємо районом.",
+    "ans": ["Every evening I walk the neighborhood with my dog.", "My dog and I walk around the neighborhood every evening.", "Every night I walk the neighborhood with the dog."],
+    "keys": { "собака": "dog*|puppy", "щовечора": "evening*|night*" }
+   },
+   {
+    "sit": "Друг збирається купити квартиру в незнайомому районі й просить поради.",
+    "say": "Перш ніж купувати квартиру, пройдися районом увечері.",
+    "ans": ["Before you buy the apartment, walk the neighborhood in the evening.", "Walk around the neighborhood at night before buying the flat.", "Before buying, go walk the neighborhood after dark."],
+    "keys": { "купувати": "buy*|apartment|flat", "увечері": "evening|night|dark" }
+   },
+   {
+    "sit": "Колега питає, як ти скинув п’ять кілограмів.",
+    "say": "Лікар порадив мені щодня пів години гуляти районом.",
+    "ans": ["My doctor told me to walk the neighborhood for half an hour every day.", "The doctor said I should walk around the neighborhood for thirty minutes a day.", "Doctor’s orders: walk the neighborhood half an hour every day."],
+    "keys": { "лікар": "doctor*|doc", "пів години": "half an hour|30|thirty|minutes" }
+   }
+  ]
+ },
+ {
+  "id": 2222, "w": "get to know", "uk": "знайомитися (з місцевістю)", "lvl": "B1",
+  "forms": "get|gets|got|got/gotten|getting",
+  "tail": "to know",
+  "near": "explor*|learn*|discover*|familiar*|find out|found out",
+  "tasks": [
+   {
+    "sit": "Ви щойно переїхали, і сусідка питає, як вам новий район.",
+    "say": "Ми тільки переїхали й ще знайомимося з районом.",
+    "ans": ["We just moved, and we’re still getting to know the area.", "We’ve only just moved here, so we’re still getting to know the neighborhood.", "We just moved in — still getting to know the area."],
+    "keys": { "переїхали": "mov*", "район": "area|neighbo*|district|place" }
+   },
+   {
+    "sit": "Перший тиждень на новій роботі ти щодня обідаєш у різних кафе поблизу.",
+    "say": "Так я знайомлюся з районом навколо офісу.",
+    "ans": ["This way I get to know the area around the office.", "I’m getting to know the area around the office like this.", "It’s a good way to get to know the area around the office."],
+    "keys": { "навколо офісу": "office|work" }
+   },
+   {
+    "sit": "Ти ведеш блог про подорожі й даєш пораду новачкам.",
+    "say": "Найкращий спосіб пізнати місто — ходити пішки.",
+    "ans": ["The best way to get to know a city is on foot.", "Walking is the best way to get to know a new city.", "Honestly, the best way to get to know a city is just to walk around."],
+    "keys": { "пішки": "foot|walk*", "найкращий": "best" }
+   }
+  ]
+ },
+ {
+  "id": 2223, "w": "say hi to neighbors", "uk": "вітатися з сусідами", "lvl": "A2",
+  "forms": "say|says|said|said|saying",
+  "tail": "hi/hello",
+  "near": "greet*|wave*|nod*",
+  "tasks": [
+   {
+    "sit": "Твій син-підліток мовчки проходить повз людей у під’їзді.",
+    "say": "Завжди вітайся з сусідами в ліфті.",
+    "ans": ["Always say hi to the neighbors in the elevator.", "When you’re in the elevator, always say hi to our neighbors.", "Say hi to the neighbors in the lift, okay? Always."],
+    "keys": { "сусіди": "neighbo*", "ліфт": "elevator|lift" }
+   },
+   {
+    "sit": "Ти переїхав у велике місто й ділишся враженнями з мамою.",
+    "say": "Тут ніхто не вітається з сусідами — це дивно.",
+    "ans": ["Nobody here says hi to their neighbors. It’s weird.", "People here don’t say hi to their neighbors, which is strange.", "No one says hi to the neighbors around here — so weird."],
+    "keys": { "сусіди": "neighbo*", "дивно": "weird|strange|odd" }
+   },
+   {
+    "sit": "Ви купили будинок у передмісті й скоро переїжджаєте.",
+    "say": "Як тільки переїдемо, піду привітатися з сусідами з пирогом.",
+    "ans": ["As soon as we move in, I’ll go say hi to the neighbors with a pie.", "Once we move, I’m going to say hi to the neighbors and bring a pie.", "When we move in, I’ll pop over with a pie to say hi to the neighbors."],
+    "keys": { "сусіди": "neighbo*", "пиріг": "pie|cake|cookie*|bak*" }
+   }
+  ]
+ }
+]

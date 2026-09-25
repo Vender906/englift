@@ -1,0 +1,629 @@
+[
+ {
+  "id": 543, "w": "befriend", "uk": "подружитися (з кимось)", "lvl": "C1",
+  "forms": "befriend|befriends|befriended|befriended|befriending",
+  "near": "make friends|made friends|making friends|became friends|become friends|bond*|get to know|got to know",
+  "tasks": [
+   {
+    "sit": "Ти повернувся з поїздки нічним потягом до Львова й розповідаєш колегам.",
+    "say": "У потязі я подружився з літньою парою з Канади.",
+    "ans": ["On the train, I befriended an elderly couple from Canada.", "I befriended an older Canadian couple on the train.", "I befriended this lovely old couple from Canada on the train."],
+    "keys": { "пара": "couple|pair|husband|wife", "Канада": "canad*" }
+   },
+   {
+    "sit": "Твоя донька перейшла в нову школу, і ти дуже хвилювався, що вона буде сама.",
+    "say": "Одна дівчинка подружилася з нею першого ж дня.",
+    "ans": ["One girl befriended her on the very first day.", "A girl befriended her on her first day.", "Some girl befriended her on day one!"],
+    "keys": { "дівчинка": "girl*|classmate*|kid", "перший день": "first|day one" }
+   },
+   {
+    "sit": "Біля твого будинку живе худий бездомний кіт, який спершу тікав від усіх.",
+    "say": "Я поступово подружився з вуличним котом біля будинку.",
+    "ans": ["I slowly befriended a stray cat near my building.", "I've gradually befriended the stray cat outside my building.", "I've been slowly befriending a stray cat by our building."],
+    "keys": { "кіт": "cat*|kitten*", "вуличний": "stray|street|homeless|wild" }
+   }
+  ]
+ },
+ {
+  "id": 544, "w": "host", "uk": "приймати (гостей), влаштовувати в себе", "lvl": "B2",
+  "forms": "host|hosts|hosted|hosted|hosting",
+  "near": "throw|throws|threw|thrown|throwing|organi*|have people over|had people over|invite*|entertain*|put on|hold|holding|held",
+  "tasks": [
+   {
+    "sit": "Колега питає, чи ти вільний на вихідних.",
+    "say": "У суботу я влаштовую вечірку в себе вдома.",
+    "ans": ["I'm hosting a party at my place on Saturday.", "I'll host a party at my place this Saturday.", "I'm hosting a little party at mine on Saturday."],
+    "keys": { "вечірка": "party|parties", "субота": "saturday" }
+   },
+   {
+    "sit": "Мама питає, де цього року збиратиметься родина на свята.",
+    "say": "Цього року ми приймаємо всю родину на Різдво.",
+    "ans": ["This year we're hosting the whole family for Christmas.", "We'll host the whole family at Christmas this year.", "It's our turn to host the whole family this Christmas."],
+    "keys": { "родина": "family|relatives", "Різдво": "christmas|xmas" }
+   },
+   {
+    "sit": "Організаторка програми обміну питає, чи є у вашої сімʼї досвід з іноземними студентами.",
+    "say": "Ми вже не раз приймали в себе студентів з Японії.",
+    "ans": ["We've hosted students from Japan several times.", "We've already hosted Japanese students more than once.", "We've hosted students from Japan a few times now."],
+    "keys": { "студенти": "student*", "Японія": "japan*" }
+   }
+  ]
+ },
+ {
+  "id": 546, "w": "reunite", "uk": "возʼєднуватися", "lvl": "C1",
+  "forms": "reunite|reunites|reunited|reunited|reuniting",
+  "near": "meet again|met again|see each other again|together again|get back together|got back together|reconnect*|rejoin*|find each other|found each other",
+  "tasks": [
+   {
+    "sit": "Твій батько кілька років працював за кордоном, і ви бачилися лише по відео. Ти розповідаєш другові.",
+    "say": "Після трьох років розлуки ми нарешті возʼєдналися з батьком.",
+    "ans": ["After three years apart, we finally reunited with my father.", "We were finally reunited with Dad after three years apart.", "We finally reunited with my dad after three long years."],
+    "keys": { "батько": "father|dad*|papa", "три роки": "three years|3 years|years" }
+   },
+   {
+    "sit": "Ти читаєш у місцевих новинах історію про собаку, що загубився під час переїзду.",
+    "say": "Волонтери допомогли возʼєднати собаку з господарями.",
+    "ans": ["Volunteers helped reunite the dog with its owners.", "The dog was reunited with its owners thanks to volunteers.", "Volunteers helped reunite the dog with its family."],
+    "keys": { "собака": "dog*|pup*", "господарі": "owner*|family" }
+   },
+   {
+    "sit": "Гурт твоєї юності розпався десять років тому, а сьогодні вони оголосили новину.",
+    "say": "Мій улюблений гурт возʼєднався заради одного концерту!",
+    "ans": ["My favorite band reunited for one concert!", "My favourite band has reunited for a single show!", "My favorite band reunited just for one gig!"],
+    "keys": { "гурт": "band*|group", "концерт": "concert*|show*|gig*|tour" }
+   }
+  ]
+ },
+ {
+  "id": 547, "w": "propose", "uk": "освідчуватися, пропонувати руку", "lvl": "B2",
+  "forms": "propose|proposes|proposed|proposed|proposing",
+  "near": "ask her to marry|asked her to marry|ask him to marry|pop the question|popped the question|get engaged|got engaged|engaged|marry me",
+  "tasks": [
+   {
+    "sit": "Ви з дівчиною їдете на море, і ти вже купив каблучку. Ділишся планом із найкращим другом.",
+    "say": "Я хочу освідчитися їй на пляжі на заході сонця.",
+    "ans": ["I want to propose to her on the beach at sunset.", "I'm planning to propose to her on the beach at sunset.", "I'm going to propose on the beach at sunset."],
+    "keys": { "пляж": "beach*|sea*", "захід сонця": "sunset|sundown|evening" }
+   },
+   {
+    "sit": "Діти питають, як познайомилися їхні дідусь і бабуся — твої батьки.",
+    "say": "Тато освідчився мамі лише через місяць після знайомства.",
+    "ans": ["Dad proposed to Mom just a month after they met.", "My father proposed to my mother only a month after they met.", "Dad proposed only a month after they'd met!"],
+    "keys": { "місяць": "month*|weeks", "тато": "dad*|father|grand*" }
+   },
+   {
+    "sit": "Ти показуєш подрузі вірусне відео з концерту.",
+    "say": "Хлопець освідчився дівчині прямо на концерті, і вона сказала «так»!",
+    "ans": ["A guy proposed to his girlfriend right at the concert, and she said yes!", "Some guy proposed to his girlfriend in the middle of a concert, and she said yes!", "This guy proposed during the concert — and she said yes!"],
+    "keys": { "концерт": "concert*|show|gig", "так": "yes" }
+   }
+  ]
+ },
+ {
+  "id": 548, "w": "break up with", "uk": "розлучатися, розходитися (з партнером)", "lvl": "B1",
+  "forms": "break|breaks|broke|broken|breaking",
+  "tail": "up with",
+  "near": "split up|split|dump|dumped|dumping|leave|left|leaving|end it|ended it|divorc*|separat*",
+  "tasks": [
+   {
+    "sit": "Подруга помітила, що ти вже кілька днів якийсь сумний, і питає, що сталося.",
+    "say": "Я розійшовся з дівчиною минулого тижня.",
+    "ans": ["I broke up with my girlfriend last week.", "Last week I broke up with my girlfriend.", "I just broke up with my girlfriend last week."],
+    "keys": { "дівчина": "girlfriend*|her|partner", "минулого тижня": "last week|week" }
+   },
+   {
+    "sit": "Сестра вкотре скаржиться, що її хлопець її не поважає й постійно бреше.",
+    "say": "Чесно, тобі варто з ним розійтися.",
+    "ans": ["Honestly, you should break up with him.", "To be honest, I think you should break up with him.", "Honestly, you need to break up with him."],
+    "keys": { "варто": "should|ought|need|better", "чесно": "honest*|frankly|really" }
+   },
+   {
+    "sit": "Ви з другом обговорюєте фінал сезону улюбленого серіалу.",
+    "say": "Не можу повірити, що вона розійшлася з ним у фіналі!",
+    "ans": ["I can't believe she broke up with him in the finale!", "She broke up with him in the finale — I can't believe it!", "I can't believe she actually broke up with him in the season finale!"],
+    "keys": { "фінал": "finale|final|last episode|end*", "не можу повірити": "believe" }
+   }
+  ]
+ },
+ {
+  "id": 549, "w": "argue", "uk": "сваритися", "lvl": "A2",
+  "forms": "argue|argues|argued|argued|arguing",
+  "near": "fight|fights|fought|fighting|quarrel*|row|rows|rowing|bicker*|shout*|yell*",
+  "tasks": [
+   {
+    "sit": "У вашому будинку тонкі стіни. Ти скаржишся другові.",
+    "say": "Наші сусіди сваряться щовечора.",
+    "ans": ["Our neighbors argue every evening.", "The neighbours argue every night.", "Our neighbors argue every single night."],
+    "keys": { "сусіди": "neighbo*", "щовечора": "evening*|night*" }
+   },
+   {
+    "sit": "Колега питає, чи ви з дружиною часто сваритеся через покупки.",
+    "say": "Ми з дружиною ніколи не сваримося через гроші.",
+    "ans": ["My wife and I never argue about money.", "We never argue about money.", "Honestly, my wife and I never argue about money."],
+    "keys": { "ніколи": "never|not", "гроші": "money|cash|finances|bills" }
+   },
+   {
+    "sit": "Ти ведеш машину, а діти на задньому сидінні вже пів години не можуть поділити планшет.",
+    "say": "Діти, годі сваритися!",
+    "ans": ["Kids, stop arguing!", "Stop arguing, kids!", "Come on, kids, please stop arguing!"],
+    "keys": { "годі": "stop|enough|quit", "діти": "kid*|children|guys" }
+   }
+  ]
+ },
+ {
+  "id": 550, "w": "reconcile", "uk": "мирити(ся)", "lvl": "C1",
+  "forms": "reconcile|reconciles|reconciled|reconciled|reconciling",
+  "near": "make up|made up|making up|make peace|made peace|patch up|patched up|patch things up|patched things up|forgive*|forgave|settle*|get back together|got back together",
+  "tasks": [
+   {
+    "sit": "Твій брат і батько роками не розмовляли після сварки через спадщину. Ти ділишся новиною з тіткою.",
+    "say": "Брат із батьком нарешті помирилися.",
+    "ans": ["My brother and father have finally reconciled.", "My brother finally reconciled with our dad.", "My brother and Dad finally reconciled!"],
+    "keys": { "брат": "brother*", "батько": "father|dad*" }
+   },
+   {
+    "sit": "Ти керівник відділу, і дві твої співробітниці посварилися так, що вся команда страждає.",
+    "say": "Я намагаюся помирити двох колег після сварки.",
+    "ans": ["I'm trying to reconcile two colleagues after their fight.", "I'm trying to reconcile two coworkers who had a fight.", "I'm trying to get two colleagues to reconcile after an argument."],
+    "keys": { "колеги": "colleague*|coworker*|co-worker*|staff|employee*", "сварка": "fight*|argument*|argu*|quarrel*|row|conflict*" }
+   },
+   {
+    "sit": "Ти гортаєш новини шоу-бізнесу й розповідаєш подрузі.",
+    "say": "Та зіркова пара помирилася після гучного розриву.",
+    "ans": ["That celebrity couple reconciled after a messy breakup.", "The celebrity couple have reconciled after their very public split.", "Those two stars reconciled after that huge breakup!"],
+    "keys": { "розрив": "breakup*|split*|separation", "пара": "couple|stars|two|pair" }
+   }
+  ]
+ },
+ {
+  "id": 551, "w": "betray", "uk": "зраджувати (друга, довіру)", "lvl": "B2",
+  "forms": "betray|betrays|betrayed|betrayed|betraying",
+  "near": "cheat*|stab* * in the back|stabbed me in the back|let down|let me down|deceiv*|double-cross*|sell out|sold out|two-tim*",
+  "tasks": [
+   {
+    "sit": "Ти довірив найкращому другові таємницю, а наступного дня про неї знали всі.",
+    "say": "Він зрадив мою довіру, розповівши мій секрет.",
+    "ans": ["He betrayed my trust by telling my secret.", "He betrayed my trust when he told everyone my secret.", "He told everyone my secret — he totally betrayed my trust."],
+    "keys": { "довіра": "trust|confidence", "секрет": "secret*" }
+   },
+   {
+    "sit": "Ви з подругою обговорюєте фінал детективного серіалу.",
+    "say": "У кінці найкращий друг зрадив головного героя.",
+    "ans": ["In the end, the hero's best friend betrayed him.", "At the end, the main character was betrayed by his best friend.", "In the end, the hero gets betrayed by his own best friend!"],
+    "keys": { "найкращий друг": "friend*", "кінець": "end*|finale|last" }
+   },
+   {
+    "sit": "У твоїй компанії зʼясувалося, що колишній співробітник злив конкурентам інформацію.",
+    "say": "Він зрадив компанію й передав наші плани конкурентам.",
+    "ans": ["He betrayed the company and gave our plans to competitors.", "He betrayed the company by leaking our plans to a competitor.", "He betrayed us — he handed our plans to the competition."],
+    "keys": { "плани": "plan*|idea*|secret*|data", "конкуренти": "competit*|rival*" }
+   }
+  ]
+ },
+ {
+  "id": 552, "w": "itch", "uk": "свербіти", "lvl": "B2",
+  "forms": "itch|itches|itched|itched|itching",
+  "near": "scratch*|tickl*|sting*|stung|burn*|irritat*|prickl*",
+  "tasks": [
+   {
+    "sit": "Ти провів вечір на дачі біля річки, а наступного ранку зустрівся з другом.",
+    "say": "Укуси комарів страшенно сверблять.",
+    "ans": ["The mosquito bites itch like crazy.", "My mosquito bites are itching like mad.", "These mosquito bites itch so much!"],
+    "keys": { "комарі": "mosquito*|bug*|insect*", "укуси": "bite*|bitten" }
+   },
+   {
+    "sit": "Ти приміряєш у магазині вовняний светр, і продавчиня питає, як він тобі.",
+    "say": "Цей светр колеться — у мене свербить шия.",
+    "ans": ["This sweater is scratchy — my neck itches.", "My neck is itching because of this sweater.", "This jumper makes my neck itch."],
+    "keys": { "шия": "neck*", "светр": "sweater*|jumper*|wool*" }
+   },
+   {
+    "sit": "У тебе вже третій тиждень гіпс на руці. Ти скаржишся мамі.",
+    "say": "Рука під гіпсом страшенно свербить, а почухати не можна.",
+    "ans": ["My arm itches under the cast, and I can't scratch it.", "My arm is itching under the cast and I can't scratch it.", "It itches so badly under my cast — and I can't even scratch it!"],
+    "keys": { "гіпс": "cast|plaster", "почухати": "scratch*|reach" }
+   }
+  ]
+ },
+ {
+  "id": 553, "w": "swell", "uk": "опухати", "lvl": "B2",
+  "forms": "swell|swells|swelled|swollen|swelling",
+  "near": "puff up|puffed up|puffy|bloat*|inflam*|got bigger|get bigger",
+  "tasks": [
+   {
+    "sit": "Під час футболу ти підвернув ногу. Друг пропонує продовжити гру.",
+    "say": "Щиколотка опухла, я не можу ходити.",
+    "ans": ["My ankle has swollen up, and I can't walk.", "My ankle swelled up and I can't walk on it.", "My ankle's all swollen — I can't walk."],
+    "keys": { "щиколотка": "ankle*|foot|leg", "не можу ходити": "walk*|stand|step" }
+   },
+   {
+    "sit": "На пікніку тебе вжалила бджола. Ти телефонуєш сімейному лікареві.",
+    "say": "Після укусу бджоли в мене опухла вся рука.",
+    "ans": ["My whole arm swelled up after a bee sting.", "After the bee sting, my whole arm swelled.", "A bee stung me and my whole arm swelled up!"],
+    "keys": { "бджола": "bee*|wasp*", "рука": "arm*|hand*" }
+   },
+   {
+    "sit": "Учора тобі видалили зуб мудрості. Колега дивно на тебе дивиться.",
+    "say": "Після видалення зуба в мене опухла щока.",
+    "ans": ["My cheek swelled up after the tooth extraction.", "After they pulled my tooth, my cheek swelled.", "My cheek's really swollen after having my tooth out."],
+    "keys": { "щока": "cheek*|face", "зуб": "tooth|teeth|dentist|wisdom" }
+   }
+  ]
+ },
+ {
+  "id": 554, "w": "bruise", "uk": "забити (до синця), набити синець", "lvl": "B2",
+  "forms": "bruise|bruises|bruised|bruised|bruising",
+  "near": "hurt|hurts|hurting|hit|hits|hitting|bang*|bump*|injur*|knock*",
+  "tasks": [
+   {
+    "sit": "Уночі ти пішов на кухню, не вмикаючи світла. Зранку дружина питає, чому ти кульгаєш.",
+    "say": "Я вдарився об журнальний столик і забив коліно.",
+    "ans": ["I bumped into the coffee table and bruised my knee.", "I bruised my knee on the coffee table.", "I walked into the coffee table and bruised my knee."],
+    "keys": { "коліно": "knee*", "столик": "table*" }
+   },
+   {
+    "sit": "Ти вперше сходив на тренування з волейболу, і колега бачить твої руки.",
+    "say": "Я забив собі руки на волейболі.",
+    "ans": ["I bruised my arms playing volleyball.", "My arms got bruised at volleyball.", "My arms are all bruised from volleyball."],
+    "keys": { "руки": "arm*|hand*|wrist*", "волейбол": "volleyball" }
+   },
+   {
+    "sit": "Ти з сином на ринку, і він кидає фрукти в пакет як попало.",
+    "say": "Обережно з персиками — вони легко побʼються.",
+    "ans": ["Be careful with the peaches — they bruise easily.", "Careful, the peaches bruise easily.", "Go easy on the peaches, or you'll bruise them."],
+    "keys": { "персики": "peach*", "обережно": "careful*|gentl*|easy|easily" }
+   }
+  ]
+ },
+ {
+  "id": 555, "w": "twist", "uk": "вивихнути, підвернути", "lvl": "B2",
+  "forms": "twist|twists|twisted|twisted|twisting",
+  "near": "sprain*|dislocat*|hurt|injur*|roll|rolled|rolling|turn|turned|pull|pulled",
+  "tasks": [
+   {
+    "sit": "Ти в поході в Карпатах і відстаєш від групи. Інструктор питає, що сталося.",
+    "say": "Я підвернув ногу на камінні й тепер кульгаю.",
+    "ans": ["I twisted my ankle on the rocks and now I'm limping.", "I've twisted my ankle on some rocks, so I'm limping.", "I twisted my ankle on the rocks — now I'm limping."],
+    "keys": { "нога": "ankle*|foot|leg", "каміння": "rock*|stone*|path|trail" }
+   },
+   {
+    "sit": "Ти розповідаєш другові, чому ваш найкращий баскетболіст пропускає сезон.",
+    "say": "Він вивихнув коліно під час матчу.",
+    "ans": ["He twisted his knee during the game.", "He twisted his knee in the match.", "He twisted his knee really badly during the game."],
+    "keys": { "коліно": "knee*", "матч": "game*|match*|play*" }
+   },
+   {
+    "sit": "Взимку ви з літньою сусідкою йдете вулицею, а там ожеледь.",
+    "say": "Обережно, тут слизько — можна вивихнути ногу.",
+    "ans": ["Careful, it's slippery here — you could twist your ankle.", "Watch out, it's icy; you might twist your ankle.", "Be careful, it's slippery — don't twist your ankle!"],
+    "keys": { "слизько": "slipper*|icy|ice", "нога": "ankle*|foot|leg" }
+   }
+  ]
+ },
+ {
+  "id": 556, "w": "faint", "uk": "знепритомніти", "lvl": "B2",
+  "forms": "faint|faints|fainted|fainted|fainting",
+  "near": "pass out|passed out|passing out|passes out|black out|blacked out|collaps*|lose consciousness|lost consciousness",
+  "tasks": [
+   {
+    "sit": "Ти був на літньому концерті просто неба. Мама питає, як усе пройшло.",
+    "say": "Через спеку одна дівчина на концерті знепритомніла.",
+    "ans": ["A girl fainted at the concert because of the heat.", "Because of the heat, a girl fainted at the concert.", "It was so hot that a girl fainted at the concert."],
+    "keys": { "спека": "heat|hot", "концерт": "concert*|gig|show" }
+   },
+   {
+    "sit": "Медсестра збирається брати в тебе кров із вени.",
+    "say": "Попереджаю: я мало не непритомнію, коли бачу кров.",
+    "ans": ["Just so you know, I almost faint when I see blood.", "I should warn you — I nearly faint every time I see blood.", "Heads up: seeing blood makes me want to faint."],
+    "keys": { "кров": "blood" }
+   },
+   {
+    "sit": "Увечері ти розповідаєш дружині про неспокійний день в офісі.",
+    "say": "Колега знепритомнів прямо посеред наради.",
+    "ans": ["A colleague fainted right in the middle of the meeting.", "My coworker fainted in the middle of a meeting.", "One of my colleagues fainted during the meeting!"],
+    "keys": { "нарада": "meeting*", "колега": "colleague*|coworker*|co-worker*" }
+   }
+  ]
+ },
+ {
+  "id": 557, "w": "recover", "uk": "одужувати", "lvl": "B2",
+  "forms": "recover|recovers|recovered|recovered|recovering",
+  "near": "get better|got better|getting better|heal*|get well|got well|feel better|felt better|bounce back|pull through|get over|got over",
+  "tasks": [
+   {
+    "sit": "Друзі кличуть тебе на лижі на вихідні, а ти тиждень тому хворів.",
+    "say": "Я ще не зовсім одужав після грипу.",
+    "ans": ["I haven't fully recovered from the flu yet.", "I'm still recovering from the flu.", "I haven't quite recovered from the flu yet."],
+    "keys": { "грип": "flu|influenza|cold|ill*|sick*", "ще не": "yet|still" }
+   },
+   {
+    "sit": "Бабусі нещодавно зробили операцію на серці. Колега питає, як вона.",
+    "say": "Бабуся швидко одужує після операції.",
+    "ans": ["Grandma is recovering quickly after the surgery.", "My grandmother is recovering fast from her operation.", "Grandma's recovering really quickly after surgery."],
+    "keys": { "бабуся": "grand*|granny|nan*", "операція": "surger*|operation*" }
+   },
+   {
+    "sit": "Твій улюблений футболіст зламав ногу. Ти питаєш знайомого спортивного лікаря.",
+    "say": "Скільки часу треба, щоб одужати після такої травми?",
+    "ans": ["How long does it take to recover from an injury like this?", "How long will it take him to recover from this injury?", "How long does it usually take to recover from that kind of injury?"],
+    "keys": { "травма": "injur*", "скільки часу": "how long|time|weeks|months" }
+   }
+  ]
+ },
+ {
+  "id": 558, "w": "vaccinate", "uk": "вакцинувати, щепити", "lvl": "B2",
+  "forms": "vaccinate|vaccinates|vaccinated|vaccinated|vaccinating",
+  "near": "jab|jabs|shot|shots|immuni*|inoculat*|vaccine*",
+  "tasks": [
+   {
+    "sit": "Інша мама на дитячому майданчику питає, як ви ставитеся до щеплень.",
+    "say": "Ми вакцинуємо доньку за графіком.",
+    "ans": ["We vaccinate our daughter on schedule.", "Our daughter gets vaccinated according to the schedule.", "We've vaccinated our daughter right on schedule."],
+    "keys": { "донька": "daughter|girl|kid|child", "графік": "schedule*|plan|time" }
+   },
+   {
+    "sit": "Ви щойно взяли цуценя з притулку, і ти розповідаєш дітям, що сказав ветеринар.",
+    "say": "Треба вакцинувати цуценя до першої прогулянки.",
+    "ans": ["We need to vaccinate the puppy before its first walk.", "The puppy must be vaccinated before its first walk.", "We've got to vaccinate the puppy before we take it for a walk."],
+    "keys": { "цуценя": "pupp*|dog*", "прогулянка": "walk*|outside|out" }
+   },
+   {
+    "sit": "Ти повернувся з сафарі, і колега питає, чи потрібні були якісь щеплення.",
+    "say": "Перед поїздкою до Кенії мене вакцинували від жовтої гарячки.",
+    "ans": ["I got vaccinated against yellow fever before my trip to Kenya.", "I was vaccinated against yellow fever before going to Kenya.", "Before Kenya, I had to get vaccinated for yellow fever."],
+    "keys": { "жовта гарячка": "yellow fever|fever", "Кенія": "kenya*|trip|africa*" }
+   }
+  ]
+ },
+ {
+  "id": 559, "w": "diagnose", "uk": "діагностувати, ставити діагноз", "lvl": "B2",
+  "forms": "diagnose|diagnoses|diagnosed|diagnosed|diagnosing",
+  "near": "find|found|detect*|identif*|determin*|spot|spotted|figure out|figured out|work out|worked out",
+  "tasks": [
+   {
+    "sit": "Колега бачить у тебе інгалятор і питає, давно ти ним користуєшся.",
+    "say": "Мені діагностували астму минулого року.",
+    "ans": ["I was diagnosed with asthma last year.", "Doctors diagnosed me with asthma last year.", "I got diagnosed with asthma last year."],
+    "keys": { "астма": "asthma*", "минулого року": "last year|year" }
+   },
+   {
+    "sit": "Машина третій день у сервісі, і дружина питає, коли її заберуть.",
+    "say": "Механік ніяк не може діагностувати проблему з двигуном.",
+    "ans": ["The mechanic can't diagnose the engine problem.", "The mechanic still hasn't been able to diagnose the problem with the engine.", "The mechanic just can't diagnose what's wrong with the engine."],
+    "keys": { "двигун": "engine*|motor|car", "проблема": "problem*|issue*|wrong|fault*" }
+   },
+   {
+    "sit": "Ти працюєш адміністратором систем, і вночі сайт компанії кілька разів падав.",
+    "say": "Спершу треба діагностувати, чому сервер падає.",
+    "ans": ["First we need to diagnose why the server keeps crashing.", "We have to diagnose the server crashes first.", "First, let's diagnose why the server keeps going down."],
+    "keys": { "сервер": "server*|system", "падає": "crash*|down|fail*" }
+   }
+  ]
+ },
+ {
+  "id": 560, "w": "prescribe", "uk": "виписувати (ліки, рецепт)", "lvl": "B2",
+  "forms": "prescribe|prescribes|prescribed|prescribed|prescribing",
+  "near": "give|gave|given|recommend*|order*|wrote me a prescription|write me a prescription|put me on|advis*",
+  "tasks": [
+   {
+    "sit": "Ти повернувся від лікаря з сильною ангіною. Сестра питає, що він сказав.",
+    "say": "Лікар виписав мені антибіотики на тиждень.",
+    "ans": ["The doctor prescribed me antibiotics for a week.", "My doctor prescribed antibiotics for a week.", "The doctor prescribed me a week of antibiotics."],
+    "keys": { "антибіотики": "antibiotic*", "тиждень": "week*|seven days|7 days" }
+   },
+   {
+    "sit": "В аптеці фармацевтка питає, чи ти не помилився з ліками, бо вони сильні.",
+    "say": "Ці краплі мені виписав окуліст.",
+    "ans": ["My eye doctor prescribed these drops for me.", "These drops were prescribed by my eye doctor.", "My optician prescribed me these drops."],
+    "keys": { "краплі": "drop*", "окуліст": "eye*|optician*|ophthalmolog*|optometrist*" }
+   },
+   {
+    "sit": "У вашого собаки проблеми з травленням. Ти пояснюєш сусідові, чому пес тепер їсть окремо.",
+    "say": "Ветеринар виписав нашому собаці спеціальний корм.",
+    "ans": ["The vet prescribed a special diet for our dog.", "Our dog was prescribed special food by the vet.", "The vet prescribed our dog some special food."],
+    "keys": { "ветеринар": "vet*|veterinar*", "корм": "food|diet|feed" }
+   }
+  ]
+ },
+ {
+  "id": 561, "w": "medicate", "uk": "лікувати ліками, давати ліки", "lvl": "C1",
+  "forms": "medicate|medicates|medicated|medicated|medicating",
+  "near": "treat|treated|treating|dose|dosed|dosing|drug|drugged|sedat*|give * medicine|gave * medicine",
+  "tasks": [
+   {
+    "sit": "Друг уже тиждень пʼє якісь таблетки, прочитавши про них в інтернеті.",
+    "say": "Не варто лікуватися самому ліками, краще піди до лікаря.",
+    "ans": ["You shouldn't medicate yourself — it's better to see a doctor.", "Don't medicate yourself; go and see a doctor.", "It's not a good idea to medicate yourself, so just see a doctor."],
+    "keys": { "лікар": "doctor*|gp|physician*|clinic", "самому": "yourself|self|on your own" }
+   },
+   {
+    "sit": "Ти медсестра в лікарні й передаєш зміну колезі.",
+    "say": "Пацієнтові з пʼятої палати ліки вже дали о восьмій.",
+    "ans": ["The patient in room five was already medicated at eight.", "We medicated the patient in room five at eight o'clock.", "The patient in room five has already been medicated — at eight."],
+    "keys": { "пʼята палата": "five|5|room*", "о восьмій": "eight|8" }
+   },
+   {
+    "sit": "Твого кота нудить у машині. Друг питає, як ви з ним їздите на дачу.",
+    "say": "Перед довгими поїздками ми даємо коту ліки.",
+    "ans": ["We medicate our cat before long trips.", "Before long car journeys, we medicate the cat.", "We always medicate the cat before a long drive."],
+    "keys": { "кіт": "cat*|kitten*", "поїздки": "trip*|journey*|drive*|travel*" }
+   }
+  ]
+ },
+ {
+  "id": 562, "w": "choke", "uk": "давитися, задихатися", "lvl": "B2",
+  "forms": "choke|chokes|choked|choked|choking",
+  "near": "gag*|cough*|suffocat*|went down the wrong way|go down the wrong way|could not breathe|can not breathe",
+  "tasks": [
+   {
+    "sit": "За вечерею в ресторані ти раптом закашлявся, і друзі злякалися.",
+    "say": "Я вдавився рибною кісточкою.",
+    "ans": ["I choked on a fish bone.", "I nearly choked on a fish bone.", "I almost choked on a little fish bone."],
+    "keys": { "кісточка": "bone*|fishbone*" }
+   },
+   {
+    "sit": "Бабуся хоче почастувати твого дворічного сина горішками.",
+    "say": "Не давай малому горіхи — він може вдавитися.",
+    "ans": ["Don't give the baby nuts — he could choke.", "Don't give nuts to the toddler; he might choke on them.", "Please don't give him nuts — he could easily choke."],
+    "keys": { "горіхи": "nut*|peanut*" }
+   },
+   {
+    "sit": "У вашому підʼїзді загорівся смітник. Ти розповідаєш про це колезі.",
+    "say": "На сходах було стільки диму, що ми задихалися.",
+    "ans": ["There was so much smoke on the stairs that we were choking.", "We were choking on the smoke on the stairs.", "The stairwell was so smoky we were choking."],
+    "keys": { "дим": "smok*", "сходи": "stair*|hall*|corridor*" }
+   }
+  ]
+ },
+ {
+  "id": 563, "w": "drown", "uk": "тонути, потонути", "lvl": "B2",
+  "forms": "drown|drowns|drowned|drowned|drowning",
+  "near": "sink|sinks|sank|sunk|sinking|go under|went under|suffocat*",
+  "tasks": [
+   {
+    "sit": "Ти відпочиваєш на морі й дзвониш батькам увечері.",
+    "say": "Сьогодні рятувальник урятував хлопчика, який тонув.",
+    "ans": ["Today a lifeguard saved a boy who was drowning.", "A lifeguard rescued a drowning boy today.", "Today the lifeguard pulled out a boy who was drowning."],
+    "keys": { "рятувальник": "lifeguard*|rescuer*", "хлопчик": "boy|kid|child" }
+   },
+   {
+    "sit": "Інші батьки в готелі дивуються, чому ти не відпускаєш дітей у басейн самих.",
+    "say": "Я боюся, що вони можуть потонути.",
+    "ans": ["I'm afraid they might drown.", "I'm scared they could drown.", "Honestly, I'm worried they might drown."],
+    "keys": { "боюся": "afraid|scared|worr*|fear*|nervous" }
+   },
+   {
+    "sit": "Ти читаєш новини про повінь у сусідньому районі.",
+    "say": "На щастя, під час повені ніхто не потонув.",
+    "ans": ["Luckily, no one drowned during the flood.", "Fortunately, nobody drowned in the flood.", "Thank God no one drowned in the floods."],
+    "keys": { "повінь": "flood*", "ніхто": "no one|nobody|none" }
+   }
+  ]
+ },
+ {
+  "id": 564, "w": "commute", "uk": "їздити (щодня на роботу чи навчання)", "lvl": "B2",
+  "forms": "commute|commutes|commuted|commuted|commuting",
+  "near": "travel*|drive|drives|drove|driving|driven|go to work|get to work|ride|rides|rode|take the train|take the bus",
+  "tasks": [
+   {
+    "sit": "Новий знайомий питає, де ти живеш і як добираєшся до офісу.",
+    "say": "Я щодня їжджу на роботу з передмістя потягом.",
+    "ans": ["I commute to work from the suburbs by train every day.", "Every day I commute from the suburbs by train.", "I commute in from the suburbs on the train every day."],
+    "keys": { "передмістя": "suburb*|outside*|outskirts", "потяг": "train*|rail" }
+   },
+   {
+    "sit": "Ви з партнеркою обираєте квартиру, і вона пропонує дешевший варіант на околиці.",
+    "say": "Я не хочу їздити на роботу по годині в один бік.",
+    "ans": ["I don't want to commute an hour each way.", "I don't want to spend an hour commuting each way.", "I'd hate to commute for an hour each way."],
+    "keys": { "година": "hour*", "в один бік": "each way|one way" }
+   },
+   {
+    "sit": "Одногрупник дивується, чому ти не живеш у гуртожитку.",
+    "say": "Я їжджу на пари з іншого міста двічі на тиждень.",
+    "ans": ["I commute to university from another city twice a week.", "Twice a week I commute to classes from another town.", "I commute to uni from a different city twice a week."],
+    "keys": { "двічі на тиждень": "twice|two times|2 times", "інше місто": "another|different|other" }
+   }
+  ]
+ },
+ {
+  "id": 565, "w": "navigate", "uk": "орієнтуватися (в місті, місцевості)", "lvl": "B2",
+  "forms": "navigate|navigates|navigated|navigated|navigating",
+  "near": "find my way|find your way|found my way|finding my way|get around|got around|getting around|orient*|get lost|got lost",
+  "tasks": [
+   {
+    "sit": "Ти в Лісабоні, і в телефоні закінчився мобільний інтернет. Пишеш другові з кавʼярні з вайфаєм.",
+    "say": "Без інтернету мені важко орієнтуватися в новому місті.",
+    "ans": ["It's hard for me to navigate a new city without the internet.", "Without the internet, I find it difficult to navigate a new city.", "I really struggle to navigate a new city without data."],
+    "keys": { "без інтернету": "internet|data|wifi|offline|connection|signal", "місто": "city|town" }
+   },
+   {
+    "sit": "Ти розповідаєш дітям про свого дідуся-лісника.",
+    "say": "Мій дідусь уміє орієнтуватися в лісі за сонцем.",
+    "ans": ["My grandpa can navigate in the forest by the sun.", "My grandfather knows how to navigate the woods using the sun.", "Grandpa can navigate through the forest just by the sun."],
+    "keys": { "ліс": "forest*|wood*", "сонце": "sun*" }
+   },
+   {
+    "sit": "Ти намагаєшся оплатити комуналку на новому сайті, але ніяк не знайдеш потрібну кнопку.",
+    "say": "На цьому сайті дуже важко орієнтуватися.",
+    "ans": ["This website is really hard to navigate.", "It's so hard to navigate this site.", "This website is a nightmare to navigate."],
+    "keys": { "сайт": "site*|website*|page*", "важко": "hard|difficult|nightmare|confusing|tricky" }
+   }
+  ]
+ },
+ {
+  "id": 567, "w": "embark", "uk": "вирушати (у подорож, експедицію)", "lvl": "C1",
+  "forms": "embark|embarks|embarked|embarked|embarking",
+  "near": "set off|set out|setting off|setting out|leave|leaves|left|leaving|depart*|start|started|starting|begin|began|begun|head off|headed off|go on|went on",
+  "tasks": [
+   {
+    "sit": "Ви з дружиною роками відкладали гроші на мрію. Ти розповідаєш про це колегам.",
+    "say": "Наступного місяця ми вирушаємо в подорож навколо світу.",
+    "ans": ["Next month we're embarking on a trip around the world.", "We'll embark on a journey around the world next month.", "Next month we embark on our trip around the world!"],
+    "keys": { "навколо світу": "world*|global*", "наступного місяця": "next month|month" }
+   },
+   {
+    "sit": "Ти ведеш науково-популярний блог і пишеш про новини полярних досліджень.",
+    "say": "Українські науковці вирушили в експедицію до Антарктиди.",
+    "ans": ["Ukrainian scientists have embarked on an expedition to Antarctica.", "A team of Ukrainian scientists embarked on an Antarctic expedition.", "Ukrainian scientists have just embarked on their expedition to Antarctica."],
+    "keys": { "Антарктида": "antarctic*", "експедиція": "expedition*|mission|journey|trip" }
+   },
+   {
+    "sit": "Твій друг звільнився з роботи й купив новий велосипед. Ти розповідаєш про нього сестрі.",
+    "say": "Завтра він вирушає у велоподорож через усю Європу.",
+    "ans": ["Tomorrow he's embarking on a bike trip across Europe.", "He embarks on a cycling journey across Europe tomorrow.", "He's embarking on a big bike tour across Europe tomorrow."],
+    "keys": { "Європа": "europe*", "велосипед": "bike*|bicycl*|cycl*" }
+   }
+  ]
+ },
+ {
+  "id": 568, "w": "land", "uk": "приземлятися", "lvl": "B1",
+  "forms": "land|lands|landed|landed|landing",
+  "near": "arrive*|arriving|touch down|touched down|touches down|get in|got in|come down|came down",
+  "tasks": [
+   {
+    "sit": "Ти щойно вийшов з літака й пишеш мамі, яка хвилюється.",
+    "say": "Я щойно приземлився в Парижі, зателефоную з готелю.",
+    "ans": ["I've just landed in Paris; I'll call you from the hotel.", "I just landed in Paris — I'll call from the hotel.", "Hi, I just landed in Paris — I'll ring you from the hotel."],
+    "keys": { "Париж": "paris", "зателефоную": "call*|ring*|phone*|text*" }
+   },
+   {
+    "sit": "Твій брат летить до тебе в гості, і ти збираєшся зустріти його в аеропорту.",
+    "say": "О котрій приземляється твій літак?",
+    "ans": ["What time does your plane land?", "When does your flight land?", "What time are you landing?"],
+    "keys": { "о котрій": "what time|when|time" }
+   },
+   {
+    "sit": "Ти чекаєш подругу в аеропорту Варшави, але табло показує дивне повідомлення.",
+    "say": "Через туман її літак не зміг приземлитися й полетів до Кракова.",
+    "ans": ["Because of the fog, her plane couldn't land and flew to Krakow.", "Her plane couldn't land in the fog, so it went to Krakow.", "The fog was so thick her plane couldn't land — it got diverted to Krakow."],
+    "keys": { "туман": "fog*", "Краків": "krakow|cracow|krak*|divert*" }
+   }
+  ]
+ },
+ {
+  "id": 569, "w": "take off", "uk": "злітати (про літак)", "lvl": "B1",
+  "forms": "take|takes|took|taken|taking",
+  "tail": "off",
+  "near": "leave|leaves|left|leaving|depart*|lift off|lifted off|fly|flies|flew|flying",
+  "tasks": [
+   {
+    "sit": "Ти прилетів з відрядження пізніше, ніж обіцяв, і дружина питає, що сталося.",
+    "say": "Наш літак злетів із годинною затримкою.",
+    "ans": ["Our plane took off an hour late.", "The flight took off with an hour's delay.", "We took off an hour late."],
+    "keys": { "година": "hour*|60", "затримка": "late|delay*|behind" }
+   },
+   {
+    "sit": "Колега питає, чи ти боїшся літати.",
+    "say": "Коли літак злітає, я завжди тримаю когось за руку.",
+    "ans": ["When the plane takes off, I always hold someone's hand.", "I always hold someone's hand while the plane is taking off.", "I always grab someone's hand when we take off."],
+    "keys": { "рука": "hand*", "завжди": "always|every time" }
+   },
+   {
+    "sit": "Ти в парку пробуєш новий дрон, а він лише блимає вогниками.",
+    "say": "Мій дрон не хоче злітати — мабуть, сіла батарея.",
+    "ans": ["My drone won't take off — the battery must be dead.", "My drone isn't taking off; maybe the battery is flat.", "My drone won't take off, so I guess the battery is dead."],
+    "keys": { "дрон": "drone*", "батарея": "batter*|charge*|power" }
+   }
+  ]
+ }
+]

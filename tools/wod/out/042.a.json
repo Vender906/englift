@@ -1,0 +1,637 @@
+[
+ {
+  "id": 2306, "w": "roll up sleeves", "uk": "закочувати рукави", "lvl": "B2",
+  "forms": "roll|rolls|rolled|rolled|rolling",
+  "tail": "up sleeve*",
+  "near": "push up|pushed up|push my sleeves|get to work|got to work|dig in",
+  "tasks": [
+   {
+    "sit": "Ти збираєшся мити посуд, а на тобі светр із довгими рукавами.",
+    "say": "Зачекай, закачаю рукави, щоб не намочити їх.",
+    "ans": ["Wait, let me roll up my sleeves so they don’t get wet.", "Hold on, I’ll roll my sleeves up so I don’t get them wet.", "Hang on, I’m just gonna roll up my sleeves so they don’t get soaked."],
+    "keys": { "намочити": "wet|soak*|damp|dirty" }
+   },
+   {
+    "sit": "Проєкт на роботі відстає від графіка, а команда вже годину лише обговорює проблему.",
+    "say": "Годі говорити — час закасати рукави й братися до роботи.",
+    "ans": ["Enough talking — it’s time to roll up our sleeves and get to work.", "Let’s stop talking, roll up our sleeves and get it done.", "OK, enough talk. Time to roll up our sleeves, guys."],
+    "keys": { "годі говорити": "talk*|enough|chat*|discuss*" }
+   },
+   {
+    "sit": "Ти в поліклініці на щепленні, медсестра готує шприц.",
+    "say": "Мені закатати рукав на лівій руці?",
+    "ans": ["Should I roll up my left sleeve?", "Do you want me to roll up the sleeve on my left arm?", "Shall I roll my left sleeve up?"],
+    "keys": { "ліва рука": "left" }
+   }
+  ]
+ },
+ {
+  "id": 2307, "w": "lace up", "uk": "зашнуровувати", "lvl": "B2",
+  "forms": "lace|laces|laced|laced|lacing",
+  "tail": "up",
+  "near": "tie|ties|tied|tying|do up|did up|done up",
+  "tasks": [
+   {
+    "sit": "Ви з друзями на стоянці перед походом у гори, усі вже готові вирушати.",
+    "say": "Зачекайте хвилинку, я ще зашнуровую черевики.",
+    "ans": ["Wait a minute, I’m still lacing up my boots.", "Give me a second — I need to lace up my boots.", "Hang on, just lacing up my boots!"],
+    "keys": { "черевики": "boot*|shoe*", "зачекайте": "wait|second|sec|minute|hang on|hold on|moment" }
+   },
+   {
+    "sit": "Ти збираєш сина в садок, а він уже біжить до дверей у розшнурованих кросівках.",
+    "say": "Стій, спершу треба зашнурувати кросівки!",
+    "ans": ["Stop, we need to lace up your sneakers first!", "Wait, let me lace up your sneakers first.", "Hold on, sneakers first — let’s lace them up."],
+    "keys": { "кросівки": "sneaker*|trainer*|shoe*", "спершу": "first|before" }
+   },
+   {
+    "sit": "Ти вперше прийшов на ковзанку й узяв ковзани напрокат. Питаєш інструктора.",
+    "say": "Наскільки туго треба зашнурувати ковзани?",
+    "ans": ["How tight should I lace up my skates?", "How tightly do I need to lace up the skates?", "How tight do I lace these skates up?"],
+    "keys": { "ковзани": "skate*", "туго": "tight*" }
+   }
+  ]
+ },
+ {
+  "id": 2309, "w": "go shopping", "uk": "йти на шопінг, по магазинах", "lvl": "A2",
+  "forms": "go|goes|went|gone|going",
+  "tail": "shopping",
+  "near": "shop|shops|shopped|hit the shops|hit the mall|buy|bought",
+  "tasks": [
+   {
+    "sit": "Суботній ранок. Подруга пише, що їй нудно вдома.",
+    "say": "Ходімо на шопінг по нові джинси!",
+    "ans": ["Let’s go shopping for new jeans!", "Do you want to go shopping for some new jeans?", "Wanna go shopping? I need new jeans."],
+    "keys": { "джинси": "jeans|denim*" }
+   },
+   {
+    "sit": "Ти у відпустці в Мілані, а колега пише й питає, як минув день.",
+    "say": "Сьогодні я цілий день ходив по магазинах.",
+    "ans": ["I went shopping all day today.", "Today I went shopping for the whole day.", "I went shopping all day — my feet really hurt!"],
+    "keys": { "цілий день": "all day|whole day|day" }
+   },
+   {
+    "sit": "Через тиждень весілля брата, а тобі немає що вдягнути.",
+    "say": "Завтра після роботи піду по магазинах шукати костюм.",
+    "ans": ["Tomorrow after work I’ll go shopping for a suit.", "I’m going to go shopping for a suit tomorrow after work.", "I’m going shopping for a suit after work tomorrow."],
+    "keys": { "костюм": "suit*", "завтра": "tomorrow" }
+   }
+  ]
+ },
+ {
+  "id": 2311, "w": "fit", "uk": "пасувати (за розміром), бути якраз", "lvl": "B1",
+  "forms": "fit|fits|fitted/fit|fitted/fit|fitting",
+  "near": "suit|suits|suited|right size|too big|too small|too tight",
+  "tasks": [
+   {
+    "sit": "Ти в примірочній міряєш джинси, продавчиня питає, як вони.",
+    "say": "Вони ідеально сидять, беру!",
+    "ans": ["They fit perfectly, I’ll take them!", "These fit me perfectly — I’ll take them.", "Oh, they fit perfectly! I’ll take them."],
+    "keys": { "ідеально": "perfect*|great|well", "беру": "take|buy|get" }
+   },
+   {
+    "sit": "Ти дістаєш із шафи торішню зимову куртку й намагаєшся вдягти її на сина.",
+    "say": "Ця куртка йому вже не підходить — він виріс.",
+    "ans": ["This jacket doesn’t fit him anymore — he’s grown.", "The jacket no longer fits him; he’s grown out of it.", "This jacket doesn’t fit him anymore, he’s gotten so big."],
+    "keys": { "куртка": "jacket|coat", "вже не": "not|no longer|anymore" }
+   },
+   {
+    "sit": "Ти замовив другові кросівки онлайн на день народження, але не був певен щодо розміру.",
+    "say": "Сподіваюся, вони тобі підійдуть за розміром.",
+    "ans": ["I hope they fit you.", "I really hope they fit.", "Hope they fit — I wasn’t sure about the size."],
+    "keys": { "сподіваюся": "hope*" }
+   }
+  ]
+ },
+ {
+  "id": 2312, "w": "suit", "uk": "пасувати, личити (за стилем)", "lvl": "B1",
+  "forms": "suit|suits|suited|suited|suiting",
+  "near": "look* good|look* great|look* nice|go* with|fit|fits",
+  "tasks": [
+   {
+    "sit": "Подруга вперше коротко підстриглася й хвилюється, як виглядає.",
+    "say": "Коротке волосся тобі дуже личить!",
+    "ans": ["Short hair really suits you!", "That short haircut suits you so well.", "Honestly, short hair totally suits you!"],
+    "keys": { "коротке волосся": "short|hair*|haircut*" }
+   },
+   {
+    "sit": "Ви з партнером у магазині, і він міряє яскраво-жовту сорочку.",
+    "say": "Чесно, цей колір тобі не пасує.",
+    "ans": ["Honestly, this color doesn’t suit you.", "To be honest, that colour doesn’t really suit you.", "I don’t think yellow suits you, to be honest."],
+    "keys": { "колір": "color*|colour*|yellow", "не": "not|never" }
+   },
+   {
+    "sit": "Ти в оптиці вибираєш нові окуляри й приміряєш круглу оправу.",
+    "say": "Як думаєте, круглі оправи мені пасують?",
+    "ans": ["Do you think round frames suit me?", "What do you think — do round glasses suit my face?", "Do these round frames suit me, or not really?"],
+    "keys": { "круглі": "round|circle*", "оправи": "frame*|glasses" }
+   }
+  ]
+ },
+ {
+  "id": 2313, "w": "splurge on", "uk": "розщедритися, витратитися на", "lvl": "C1",
+  "forms": "splurge|splurges|splurged|splurged|splurging",
+  "tail": "on",
+  "near": "spent a fortune|spend a fortune|blew|blow|treat* myself|treated myself|went all out|go all out",
+  "tasks": [
+   {
+    "sit": "Колега в офісі помічає твої нові дизайнерські туфлі.",
+    "say": "Так, я розщедрився на них із премії.",
+    "ans": ["Yeah, I splurged on them with my bonus.", "I splurged on these with my bonus money.", "Yep, I splurged on them after I got my bonus."],
+    "keys": { "премія": "bonus*" }
+   },
+   {
+    "sit": "Ви з дружиною плануєте поїздку до Рима на річницю.",
+    "say": "Давай цього разу не економити й витратимося на гарний готель.",
+    "ans": ["Let’s not save money this time and splurge on a nice hotel.", "This time, let’s splurge on a really nice hotel.", "Come on, let’s splurge on a fancy hotel for once."],
+    "keys": { "готель": "hotel*", "цього разу": "this time|for once|once" }
+   },
+   {
+    "sit": "Ти фотограф-аматор і показуєш другові нову дорогу покупку.",
+    "say": "Я довго збирав гроші, а тоді витратився на новий обʼєктив.",
+    "ans": ["I saved for ages and then splurged on a new lens.", "After saving for a long time, I splurged on a new lens.", "I finally splurged on that new lens I’d been saving for."],
+    "keys": { "обʼєктив": "lens*", "збирав": "sav*" }
+   }
+  ]
+ },
+ {
+  "id": 2314, "w": "return", "uk": "повертати (річ)", "lvl": "A2",
+  "forms": "return|returns|returned|returned|returning",
+  "near": "give back|gave back|given back|take back|took back|taken back|send back|sent back|bring back|brought back|exchange*",
+  "tasks": [
+   {
+    "sit": "Сорочка, яку тобі подарували, завелика. Ти підходиш до каси з чеком.",
+    "say": "Я хочу повернути цю сорочку, вона мені завелика.",
+    "ans": ["I’d like to return this shirt, it’s too big for me.", "Can I return this shirt? It’s too big.", "Hi, I want to return this shirt — it’s too big."],
+    "keys": { "сорочка": "shirt*", "завелика": "big|large|loose|fit" }
+   },
+   {
+    "sit": "Ти замовив кросівки в інтернет-магазині, а вони тиснуть. Пишеш у чат підтримки.",
+    "say": "Чи можна їх повернути безкоштовно?",
+    "ans": ["Can I return them for free?", "Is it possible to return them for free?", "Can I return these for free, or do I have to pay?"],
+    "keys": { "безкоштовно": "free|pay*|cost*|charge*" }
+   },
+   {
+    "sit": "Сестра позичила тобі сукню на випускний і питає, коли її чекати назад.",
+    "say": "Я поверну тобі сукню в понеділок.",
+    "ans": ["I’ll return your dress on Monday.", "I’ll return the dress to you on Monday.", "I’ll return the dress on Monday, I promise."],
+    "keys": { "сукня": "dress*", "понеділок": "monday" }
+   }
+  ]
+ },
+ {
+  "id": 2315, "w": "tailor", "uk": "перешивати по фігурі, шити на замовлення", "lvl": "C1",
+  "forms": "tailor|tailors|tailored|tailored|tailoring",
+  "near": "alter*|take in|taken in|took in|adjust*|hem*|made to measure|custom-made",
+  "tasks": [
+   {
+    "sit": "За місяць твоє весілля, а костюм із магазину трохи завеликий у плечах.",
+    "say": "Я віддам костюм перешити по фігурі.",
+    "ans": ["I’ll have the suit tailored to fit me.", "I’m going to get the suit tailored.", "I’ll get the suit tailored so it fits properly."],
+    "keys": { "костюм": "suit*" }
+   },
+   {
+    "sit": "Колега дивується, чому твій піджак так ідеально сидить, і думає, що він дуже дорогий.",
+    "say": "Мені його пошили на замовлення — це дешевше, ніж здається.",
+    "ans": ["It was tailored for me — it’s cheaper than you’d think.", "I had it tailored, and it’s not as expensive as you’d think.", "It’s tailored, actually. Costs less than you’d think."],
+    "keys": { "дешевше": "cheap*|expensive|cost*|price*|money|less" }
+   },
+   {
+    "sit": "Ти подорожуєш вʼєтнамським містечком, де ціла вулиця кравців.",
+    "say": "Тут можна замовити сорочки, пошиті на тебе, всього за день.",
+    "ans": ["You can get shirts tailored here in one day.", "Here you can have shirts tailored for you in a day.", "You can get shirts tailored here overnight — it’s crazy."],
+    "keys": { "сорочки": "shirt*", "за день": "day|overnight|24" }
+   }
+  ]
+ },
+ {
+  "id": 2316, "w": "pick out", "uk": "підбирати (одяг, образ)", "lvl": "B1",
+  "forms": "pick|picks|picked|picked|picking",
+  "tail": "out",
+  "near": "choose|chooses|chose|chosen|choosing|select*|put together|decide on|decided on",
+  "tasks": [
+   {
+    "sit": "Завтра корпоратив, а ти стоїш перед відчиненою шафою й не знаєш, що вдягти.",
+    "say": "Допоможи мені підібрати, що вдягнути на завтра.",
+    "ans": ["Help me pick out something to wear tomorrow.", "Can you help me pick out an outfit for tomorrow?", "Can you help me pick out what to wear tomorrow?"],
+    "keys": { "завтра": "tomorrow", "вдягнути": "wear|outfit*|cloth*|dress*" }
+   },
+   {
+    "sit": "Вечір перед першим шкільним днем, донька хвилюється.",
+    "say": "Давай разом підберемо тобі одяг на завтра.",
+    "ans": ["Let’s pick out your clothes for tomorrow together.", "Let’s pick out an outfit for tomorrow together.", "Come on, let’s pick out what you’re wearing tomorrow."],
+    "keys": { "одяг": "cloth*|outfit*|wear*", "завтра": "tomorrow" }
+   },
+   {
+    "sit": "Ти в торговому центрі з мамою, вона шукає сукню на свій ювілей.",
+    "say": "Я підібрав тобі кілька суконь — приміряй.",
+    "ans": ["I picked out a few dresses for you — try them on.", "I’ve picked out some dresses for you to try on.", "Here, I picked out a couple of dresses — go try them on."],
+    "keys": { "сукні": "dress*", "приміряй": "try" }
+   }
+  ]
+ },
+ {
+  "id": 2317, "w": "score a deal", "uk": "вхопити вигідну покупку", "lvl": "B2",
+  "forms": "score|scores|scored|scored|scoring",
+  "tail": "deal*",
+  "near": "bargain*|snag*|got it cheap|great price|good price",
+  "tasks": [
+   {
+    "sit": "Подруга хвалить твоє нове пальто й питає, скільки воно коштувало.",
+    "say": "Дякую! Я вхопив його зі знижкою сімдесят відсотків.",
+    "ans": ["Thanks! I scored a deal on it — seventy percent off.", "Thanks, I scored a great deal on it, 70% off!", "Thanks! Scored a deal — it was 70% off."],
+    "keys": { "знижка": "off|discount*|sale|percent|cheap*" }
+   },
+   {
+    "sit": "Ти хвалишся колезі, що купив квитки до Барселони майже задарма.",
+    "say": "Я вхопив суперпропозицію на авіаквитки.",
+    "ans": ["I scored a great deal on plane tickets.", "I scored a deal on flights to Barcelona.", "I totally scored a deal on the flights!"],
+    "keys": { "авіаквитки": "flight*|ticket*|plane|fare*|airfare*" }
+   },
+   {
+    "sit": "Ти купив уживаний ноутбук з рук і показуєш його братові.",
+    "say": "Я вхопив вигідну угоду — він майже новий!",
+    "ans": ["I scored a deal — it’s almost new!", "I scored a really good deal, and it’s nearly new.", "I scored such a deal — it’s basically brand new!"],
+    "keys": { "майже новий": "new" }
+   }
+  ]
+ },
+ {
+  "id": 2318, "w": "binge-shop", "uk": "шопитися без міри", "lvl": "C1",
+  "forms": "binge-shop|binge-shops|binge-shopped|binge-shopped|binge-shopping",
+  "near": "shopping spree|splurge*|went overboard|go overboard|shop* too much|retail therapy",
+  "tasks": [
+   {
+    "sit": "Після важкого тижня на роботі ти замовив купу речей онлайн, а тепер шкодуєш.",
+    "say": "Я знову нашопився без міри через стрес.",
+    "ans": ["I binge-shopped again because of stress.", "I binge-shopped online again — stress, I guess.", "Ugh, I binge-shopped again. Stress does that to me."],
+    "keys": { "знову": "again", "стрес": "stress*" }
+   },
+   {
+    "sit": "Ти повертаєшся з поїздки до аутлету з трьома повними валізами.",
+    "say": "Здається, я трохи нашопився без міри в аутлеті.",
+    "ans": ["I think I binge-shopped a bit at the outlet.", "I kind of binge-shopped at the outlet mall.", "OK, I may have binge-shopped at the outlet."],
+    "keys": { "аутлет": "outlet*" }
+   },
+   {
+    "sit": "Подруга скаржиться, що через застосунки магазинів витрачає всю зарплату на одяг.",
+    "say": "Видали застосунки магазинів, і не будеш так шопитися без міри.",
+    "ans": ["Delete the shopping apps, then you won’t binge-shop so much.", "If you delete those apps, you’ll binge-shop less.", "Just delete the apps — you’ll binge-shop way less."],
+    "keys": { "видали": "delet*|remov*|uninstall*", "застосунки": "app*" }
+   }
+  ]
+ },
+ {
+  "id": 2319, "w": "style", "uk": "стилізувати, поєднувати в образ", "lvl": "B2",
+  "forms": "style|styles|styled|styled|styling",
+  "near": "pair*|combine*|match*|put together|dress* up|dress* down|wear with",
+  "tasks": [
+   {
+    "sit": "Ти купив класичну білу сорочку й радишся з подругою-стилісткою.",
+    "say": "Як краще її стилізувати для побачення?",
+    "ans": ["How should I style it for a date?", "What’s the best way to style this shirt for a date?", "How would you style it for a date night?"],
+    "keys": { "побачення": "date*" }
+   },
+   {
+    "sit": "Ти ведеш модний блог і записуєш нове відео.",
+    "say": "Сьогодні покажу три способи стилізувати одну джинсовку.",
+    "ans": ["Today I’ll show you three ways to style one denim jacket.", "Today I’m showing three ways to style a denim jacket.", "Here are three ways to style the same denim jacket!"],
+    "keys": { "три": "three|3", "джинсовка": "denim|jean*" }
+   },
+   {
+    "sit": "Колега питає, як ти поєднуєш діловий костюм із кросівками в офісі.",
+    "say": "Я стилізую костюм із білими кросівками — виглядає свіжо.",
+    "ans": ["I style the suit with white sneakers — it looks fresh.", "I style my suit with white sneakers, and it looks modern.", "I like to style it with white sneakers — looks really fresh."],
+    "keys": { "кросівки": "sneaker*|trainer*" }
+   }
+  ]
+ },
+ {
+  "id": 2320, "w": "accessorize", "uk": "доповнювати аксесуарами", "lvl": "C1",
+  "forms": "accessorize/accessorise|accessorizes/accessorises|accessorized/accessorised|accessorized/accessorised|accessorizing/accessorising",
+  "near": "add earrings|add some jewel*|added jewel*|jazz* up|dress* up|finish the look",
+  "tasks": [
+   {
+    "sit": "Сестра вдягла просту чорну сукню на весілля й каже, що образ нудний.",
+    "say": "Просто доповни її аксесуарами — золотими сережками, наприклад.",
+    "ans": ["Just accessorize it with gold earrings.", "Accessorize with some gold earrings, for example.", "Just accessorize — gold earrings would look great."],
+    "keys": { "сережки": "earring*", "золоті": "gold*" }
+   },
+   {
+    "sit": "Колега дивується, що ти щодня виглядаєш по-новому, хоча речей у тебе небагато.",
+    "say": "Я просто щодня по-різному доповнюю образ аксесуарами.",
+    "ans": ["I just accessorize differently every day.", "I just accessorize in different ways every day.", "The trick is, I accessorize differently every day."],
+    "keys": { "по-різному": "different*|vary|change*", "щодня": "every day|daily|each day" }
+   },
+   {
+    "sit": "Ти асистент стиліста на фотосесії, а модель уже в яскравій сукні з візерунком.",
+    "say": "Не будемо перебирати з аксесуарами: образ і так яскравий.",
+    "ans": ["Let’s not accessorize too much — the look is already bold.", "We shouldn’t accessorize too much; the outfit is bright enough.", "I wouldn’t accessorize too much — it’s already a bold look."],
+    "keys": { "забагато": "too much|overdo*|much", "яскравий": "bold|bright|loud|busy" }
+   }
+  ]
+ },
+ {
+  "id": 2321, "w": "layer", "uk": "одягатися багатошарово", "lvl": "B2",
+  "forms": "layer|layers|layered|layered|layering",
+  "near": "bundle up|bundled up|wrap up|wrapped up|dress* warm*",
+  "tasks": [
+   {
+    "sit": "Ти їдеш у гори, де вранці холодно, а вдень спекотно.",
+    "say": "Одягнуся шарами, щоб можна було знімати зайве.",
+    "ans": ["I’ll layer up so I can take things off.", "I’m going to layer my clothes so I can take some off later.", "I’ll just layer — then I can take stuff off when it warms up."],
+    "keys": { "знімати": "take*|off|peel*|remov*" }
+   },
+   {
+    "sit": "Ти пояснюєш молодшій сестрі, як одягти малюка на зимову прогулянку.",
+    "say": "Краще одягни його в кілька шарів, а не в одну товсту куртку.",
+    "ans": ["It’s better to layer him up than use one thick jacket.", "Better to layer his clothes than put him in one thick coat.", "Just layer him up instead of one big heavy jacket."],
+    "keys": { "куртка": "jacket|coat|snowsuit", "товста": "thick|big|puff*|heavy" }
+   },
+   {
+    "sit": "В офісі кондиціонер то гріє, то морозить. Колега питає, чому на тобі аж три речі.",
+    "say": "Я одягаюся багатошарово, бо тут то холодно, то жарко.",
+    "ans": ["I layer because it’s cold one minute and hot the next.", "I always layer, since it’s either freezing or boiling in here.", "I layer up — it’s hot, then cold, then hot again in here."],
+    "keys": { "холодно": "cold|freez*|chilly", "жарко": "hot|warm|boil*" }
+   }
+  ]
+ },
+ {
+  "id": 2322, "w": "mix and match", "uk": "комбінувати (речі між собою)", "lvl": "B2",
+  "forms": "mix|mixes|mixed|mixed|mixing",
+  "tail": "and match*",
+  "near": "combine*|pair*|coordinate*|put together",
+  "tasks": [
+   {
+    "sit": "Ти пакуєш маленьку валізу на тиждень у Лісабоні.",
+    "say": "Беру тільки речі, які можна комбінувати між собою.",
+    "ans": ["I’m only packing things I can mix and match.", "I’m only taking clothes that I can mix and match.", "I only pack stuff I can mix and match."],
+    "keys": { "речі": "thing*|cloth*|stuff|piece*|item*" }
+   },
+   {
+    "sit": "Колега питає, як ти щодня виглядаєш охайно з таким маленьким гардеробом.",
+    "say": "Я просто комбіную кілька базових речей.",
+    "ans": ["I just mix and match a few basic pieces.", "I mix and match a few basics.", "Honestly, I just mix and match the same basics."],
+    "keys": { "базові": "basic*|essential*|simple" }
+   },
+   {
+    "sit": "Ти в піцерії, де піцу складаєш сам. Пояснюєш другові, як тут замовляти.",
+    "say": "Тут можна комбінувати начинки як завгодно.",
+    "ans": ["You can mix and match the toppings here.", "Here you can mix and match any toppings you like.", "You can mix and match whatever toppings you want."],
+    "keys": { "начинки": "topping*|filling*|ingredient*" }
+   }
+  ]
+ },
+ {
+  "id": 2323, "w": "coordinate", "uk": "поєднувати (за кольором)", "lvl": "B2",
+  "forms": "coordinate|coordinates|coordinated|coordinated|coordinating",
+  "near": "match*|go together|goes with|go with|combine*|pair*",
+  "tasks": [
+   {
+    "sit": "Ти дружба на весіллі друга, і ви обговорюєте вбрання.",
+    "say": "Давайте узгодимо краватки з сукнями дружок.",
+    "ans": ["Let’s coordinate our ties with the bridesmaids’ dresses.", "Let’s coordinate the tie colors with the bridesmaids’ dresses.", "We should coordinate our ties with the bridesmaids’ dresses."],
+    "keys": { "краватки": "tie*", "сукні": "dress*" }
+   },
+   {
+    "sit": "Ти вибираєш декоративні подушки для нового дивана.",
+    "say": "Хочу, щоб подушки поєднувалися за кольором зі шторами.",
+    "ans": ["I want the cushions to coordinate with the curtains.", "I’d like the pillows to coordinate with the curtains.", "I want the cushions to coordinate nicely with the curtains."],
+    "keys": { "подушки": "cushion*|pillow*", "штори": "curtain*|drape*" }
+   },
+   {
+    "sit": "Ви з родиною готуєтеся до сімейної фотосесії.",
+    "say": "Треба поєднати кольори нашого одягу, щоб фото виглядали гармонійно.",
+    "ans": ["We need to coordinate our outfits so the photos look nice.", "We should coordinate the colors of our clothes for the photos.", "Let’s coordinate our outfits so the pictures look good together."],
+    "keys": { "одяг": "outfit*|cloth*|colo*", "фото": "photo*|picture*|pic*|shoot*" }
+   }
+  ]
+ },
+ {
+  "id": 2324, "w": "clash", "uk": "не поєднуватися (про кольори)", "lvl": "B2",
+  "forms": "clash|clashes|clashed|clashed|clashing",
+  "near": "do not match|does not match|do not go|does not go|not go together|look* bad together",
+  "tasks": [
+   {
+    "sit": "Ти збираєшся на роботу в зеленій сорочці й рожевих штанях, а партнер дивно на тебе дивиться.",
+    "say": "Що, зелений і рожевий не поєднуються?",
+    "ans": ["What, do green and pink clash?", "Wait, does the green clash with the pink?", "What — you think the green and pink clash?"],
+    "keys": { "зелений": "green", "рожевий": "pink" }
+   },
+   {
+    "sit": "Ви з другом щойно пофарбували стіни у вітальні, і ти дивишся на новий диван.",
+    "say": "Цей помаранчевий диван жахливо не пасує до фіолетових стін.",
+    "ans": ["This orange sofa clashes horribly with the purple walls.", "The orange couch really clashes with the purple walls.", "Ugh, that orange sofa totally clashes with the purple walls."],
+    "keys": { "диван": "sofa|couch", "стіни": "wall*" }
+   },
+   {
+    "sit": "Ти дизайнер і переглядаєш презентацію колеги перед показом клієнту.",
+    "say": "Червоний шрифт не поєднується з помаранчевим фоном.",
+    "ans": ["The red font clashes with the orange background.", "Red text on an orange background really clashes.", "The red font kind of clashes with the orange background."],
+    "keys": { "шрифт": "font*|text|letter*|type*", "фон": "background*" }
+   }
+  ]
+ },
+ {
+  "id": 2325, "w": "pull off", "uk": "вдало носити (сміливий образ)", "lvl": "B2",
+  "forms": "pull|pulls|pulled|pulled|pulling",
+  "tail": "off",
+  "near": "carry off|carried off|rock*|look* good in|wear it well|suit*|work* it",
+  "tasks": [
+   {
+    "sit": "Ви з подругою в магазині, і вона вагається, чи купувати капелюх із широкими крисами.",
+    "say": "Повір, тобі точно вдасться носити такий капелюх!",
+    "ans": ["Trust me, you can definitely pull off that hat!", "Believe me, you can totally pull off a hat like that.", "Trust me, you can pull that hat off!"],
+    "keys": { "капелюх": "hat*" }
+   },
+   {
+    "sit": "Перед корпоративом ти приміряєш яскраво-жовтий костюм і дивишся в дзеркало.",
+    "say": "Ні, не думаю, що мені вдасться таке носити.",
+    "ans": ["No, I don’t think I can pull this off.", "I don’t think I could pull off a yellow suit.", "Nah, I just can’t pull this off."],
+    "keys": { "не": "not|never" }
+   },
+   {
+    "sit": "Ви з друзями дивитеся церемонію нагородження, і актор виходить у рожевому смокінгу.",
+    "say": "Мало хто зміг би вдало таке носити, а в нього виходить.",
+    "ans": ["Not many people could pull that off, but he does.", "Few guys could pull off a pink tuxedo, but he does.", "Hardly anyone could pull that off, but he really does."],
+    "keys": { "мало хто": "not many|few|hardly anyone|only|nobody|no one" }
+   }
+  ]
+ },
+ {
+  "id": 2326, "w": "rock a look", "uk": "класно виглядати в (образі, стилі)", "lvl": "C1",
+  "forms": "rock|rocks|rocked|rocked|rocking",
+  "tail": "look*",
+  "near": "pull* off|look* great|look* amazing|suit*|nail*|own* it",
+  "tasks": [
+   {
+    "sit": "Колега вперше прийшла в офіс у великих окулярах у ретростилі.",
+    "say": "Тобі дуже личить цей ретрообраз!",
+    "ans": ["You’re rocking that retro look!", "You really rock the retro look.", "Wow, you’re totally rocking the retro look!"],
+    "keys": { "ретро": "retro|vintage" }
+   },
+   {
+    "sit": "Ти показуєш другові старі фото бабусі з сімдесятих.",
+    "say": "Подивись, як класно бабуся виглядала в стилі хіпі!",
+    "ans": ["Look, Grandma totally rocked the hippie look!", "Look how Grandma rocked that hippie look!", "Check it out — Grandma was rocking the hippie look."],
+    "keys": { "бабуся": "grand*|gran|granny", "хіпі": "hippie*|hippy|seventies|70*" }
+   },
+   {
+    "sit": "Ви з друзями дивитеся концерт, і співак вийшов на сцену весь у шкірі.",
+    "say": "Він класно виглядає в цьому шкіряному образі.",
+    "ans": ["He’s rocking that leather look.", "He really rocks the leather look.", "Man, he’s totally rocking the all-leather look."],
+    "keys": { "шкіряний": "leather|all-leather" }
+   }
+  ]
+ },
+ {
+  "id": 2327, "w": "revamp", "uk": "оновлювати, кардинально переробляти", "lvl": "C1",
+  "forms": "revamp|revamps|revamped|revamped|revamping",
+  "near": "update*|refresh*|overhaul*|redo|redid|redone|makeover|renovat*|upgrade*",
+  "tasks": [
+   {
+    "sit": "Ти переїхав у нове місто на нову роботу й розбираєш шафу зі старим одягом.",
+    "say": "Час повністю оновити гардероб.",
+    "ans": ["It’s time to revamp my wardrobe.", "I need to completely revamp my wardrobe.", "Honestly, it’s time to revamp my whole wardrobe."],
+    "keys": { "гардероб": "wardrobe|closet|cloth*" }
+   },
+   {
+    "sit": "На нараді обговорюєте, чому клієнти не затримуються на вашому сайті.",
+    "say": "Нам треба оновити сайт — він виглядає застарілим.",
+    "ans": ["We need to revamp the website — it looks outdated.", "We should revamp our site; it looks so old.", "Let’s revamp the website, it looks really dated."],
+    "keys": { "сайт": "website*|site|page*", "застарілий": "outdated|old*|dated" }
+   },
+   {
+    "sit": "Ти заходиш в улюблену кавʼярню, яка щойно відкрилася після ремонту.",
+    "say": "Вони повністю оновили інтерʼєр — не впізнати!",
+    "ans": ["They’ve completely revamped the interior!", "They revamped the whole place — I barely recognized it!", "Wow, they totally revamped the interior!"],
+    "keys": { "інтерʼєр": "interior|place|inside|decor" }
+   }
+  ]
+ },
+ {
+  "id": 2328, "w": "declutter", "uk": "розхаращувати, позбуватися зайвого", "lvl": "C1",
+  "forms": "declutter|declutters|decluttered|decluttered|decluttering",
+  "near": "clear out|cleared out|clean out|cleaned out|tidy|tidied|get rid of|got rid of|throw out|threw out|sort through",
+  "tasks": [
+   {
+    "sit": "Шафа вже не зачиняється від одягу, який ти не носиш роками.",
+    "say": "На вихідних розхаращу шафу й віддам зайве.",
+    "ans": ["I’ll declutter my closet this weekend and give stuff away.", "This weekend I’m going to declutter my wardrobe and donate what I don’t need.", "I’m decluttering my closet this weekend — giving loads away."],
+    "keys": { "шафа": "closet|wardrobe", "вихідні": "weekend" }
+   },
+   {
+    "sit": "Робочий стіл на твоєму компʼютері завалений сотнями файлів.",
+    "say": "Мені треба розчистити робочий стіл — нічого не можу знайти.",
+    "ans": ["I need to declutter my desktop — I can’t find anything.", "I’ve got to declutter my desktop; I can’t find a thing.", "Seriously, I need to declutter my desktop. I can’t find anything."],
+    "keys": { "робочий стіл": "desktop|computer|screen|desk", "знайти": "find" }
+   },
+   {
+    "sit": "Ти готуєшся до переїзду в меншу квартиру.",
+    "say": "Перед переїздом треба добряче розхаращити квартиру.",
+    "ans": ["Before the move, I really need to declutter the apartment.", "I have to declutter my flat before I move.", "I seriously need to declutter before moving."],
+    "keys": { "переїзд": "mov*" }
+   }
+  ]
+ },
+ {
+  "id": 2329, "w": "customize", "uk": "кастомізувати, налаштовувати під себе", "lvl": "B2",
+  "forms": "customize/customise|customizes/customises|customized/customised|customized/customised|customizing/customising",
+  "near": "personaliz*|personalis*|decorat*|modif*|adapt*|tailor*",
+  "tasks": [
+   {
+    "sit": "Ти купив звичайну джинсову куртку й хочеш, щоб вона була особлива.",
+    "say": "Кастомізую її нашивками.",
+    "ans": ["I’ll customize it with patches.", "I’m going to customize my jacket with patches.", "I’m gonna customize it with some patches."],
+    "keys": { "нашивки": "patch*|pins|badge*" }
+   },
+   {
+    "sit": "Ти щойно купив новий телефон і вмикаєш його вперше.",
+    "say": "Спершу налаштую головний екран під себе.",
+    "ans": ["First I’ll customize the home screen.", "First, I’m going to customize my home screen.", "Before anything else, I’ll customize the home screen."],
+    "keys": { "екран": "screen*" }
+   },
+   {
+    "sit": "Ви з другом запускаєте нову компʼютерну гру.",
+    "say": "Тут можна налаштувати свого персонажа?",
+    "ans": ["Can you customize your character here?", "Is it possible to customize the character in this game?", "Can I customize my character?"],
+    "keys": { "персонаж": "character*|avatar*|hero*" }
+   }
+  ]
+ },
+ {
+  "id": 2330, "w": "do laundry", "uk": "прати (білизну)", "lvl": "A2",
+  "forms": "do|does|did|done|doing",
+  "tail": "laundry",
+  "near": "wash* clothes|wash* my clothes|washing",
+  "tasks": [
+   {
+    "sit": "Неділя, ранок. Друг кличе тебе в кіно.",
+    "say": "Не можу, я перу білизну.",
+    "ans": ["I can’t, I’m doing laundry.", "Sorry, I can’t — I have to do laundry.", "Can’t, I’m doing the laundry right now."],
+    "keys": { "не можу": "can not|cannot|busy|sorry" }
+   },
+   {
+    "sit": "Ти в поїздці вже тиждень, і чистих речей майже не залишилось.",
+    "say": "Мені треба знайти, де тут можна попрати.",
+    "ans": ["I need to find a place to do laundry.", "I have to find somewhere to do my laundry.", "I need to find where I can do laundry around here."],
+    "keys": { "знайти": "find|where|place|somewhere" }
+   },
+   {
+    "sit": "Ти щойно заселився в гуртожиток і знайомишся з сусідом по кімнаті.",
+    "say": "Коли ти зазвичай переш?",
+    "ans": ["When do you usually do laundry?", "When do you usually do your laundry?", "What day do you usually do laundry?"],
+    "keys": { "зазвичай": "usually|normally|often" }
+   }
+  ]
+ },
+ {
+  "id": 2331, "w": "wash", "uk": "прати (одяг)", "lvl": "A1",
+  "forms": "wash|washes|washed|washed|washing",
+  "near": "do laundry|did laundry|doing laundry|clean*|launder*",
+  "tasks": [
+   {
+    "sit": "Твоя улюблена футболка брудна, а завтра вечірка.",
+    "say": "Я сьогодні виперу цю футболку.",
+    "ans": ["I’ll wash this T-shirt today.", "I’m going to wash this T-shirt tonight.", "I’ll just wash that T-shirt today."],
+    "keys": { "футболка": "t-shirt*|shirt*|tshirt*|tee", "сьогодні": "today|tonight" }
+   },
+   {
+    "sit": "Ти купуєш нові джинси й питаєш продавця про догляд.",
+    "say": "Їх треба прати в холодній воді?",
+    "ans": ["Should I wash them in cold water?", "Do I need to wash them in cold water?", "Is it best to wash these in cold water?"],
+    "keys": { "холодна вода": "cold" }
+   },
+   {
+    "sit": "Пральна машина гуде, і сусід по квартирі питає, що там.",
+    "say": "Я перу спортивну форму після тренування.",
+    "ans": ["I’m washing my sports kit after practice.", "I’m washing my gym clothes after training.", "I’m just washing my kit from practice."],
+    "keys": { "форма": "kit|uniform|cloth*|gear|jersey", "тренування": "practice|training|gym|game|match" }
+   }
+  ]
+ },
+ {
+  "id": 2333, "w": "spin", "uk": "віджимати (у пральній машині)", "lvl": "B2",
+  "forms": "spin|spins|spun|spun|spinning",
+  "near": "wring*|wrung|dry|dried|drying",
+  "tasks": [
+   {
+    "sit": "Ти дістаєш рушники з пральної машини, а вони наскрізь мокрі.",
+    "say": "Треба ще раз їх віджати, вони зовсім мокрі.",
+    "ans": ["I need to spin them again, they’re soaking wet.", "They’re still soaking — I’ll spin them again.", "Ugh, I’ll have to spin these again, they’re dripping."],
+    "keys": { "мокрі": "wet|soak*|drip*|damp", "ще раз": "again|once more|another" }
+   },
+   {
+    "sit": "Ти в пральні самообслуговування за кордоном і питаєш працівника.",
+    "say": "Ця машина ще й віджимає, чи треба окремо?",
+    "ans": ["Does this machine spin too, or is that separate?", "Does this washer spin the clothes as well?", "Will this machine spin them too, or do I need another one?"],
+    "keys": { "машина": "machine|washer" }
+   },
+   {
+    "sit": "Ти вчиш сина-підлітка прати вовняний светр.",
+    "say": "Не віджимай його на високих обертах, бо сяде.",
+    "ans": ["Don’t spin it on high, or it’ll shrink.", "Don’t spin it at high speed — it’ll shrink.", "Don’t spin that on high, it’ll shrink."],
+    "keys": { "не": "not|never", "сяде": "shrink*|shrank|ruin*|small*" }
+   }
+  ]
+ }
+]

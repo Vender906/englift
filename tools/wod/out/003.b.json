@@ -1,0 +1,627 @@
+[
+ {
+  "id": 129, "w": "annoy", "uk": "дратувати", "lvl": "B1",
+  "forms": "annoy|annoys|annoyed|annoyed|annoying",
+  "near": "irritate*|bother*|bug|bugs|bugged|bugging|get on my nerves|gets on my nerves|drive me crazy|drives me crazy|drives me mad",
+  "tasks": [
+   {
+    "sit": "Сусід щовечора до півночі свердлить стіни. Ти скаржишся другові.",
+    "say": "Мене дуже дратує цей шум.",
+    "ans": ["This noise really annoys me.", "The noise annoys me so much.", "Honestly, that noise really annoys me."],
+    "keys": { "шум": "noise|drilling|sound" }
+   },
+   {
+    "sit": "Ти працюєш із колегою, який постійно клацає ручкою на нарадах.",
+    "say": "Мене дратує, коли він так робить.",
+    "ans": ["It annoys me when he does that.", "It really annoys me when he does this.", "It kind of annoys me when he does that."],
+    "keys": { "він так робить": "he does|does that|does this|he keeps" }
+   },
+   {
+    "sit": "Молодший брат уже годину ходить за тобою й ставить дурні запитання, поки ти вчишся.",
+    "say": "Перестань мене дратувати!",
+    "ans": ["Stop annoying me!", "Stop annoying me, please!", "Come on, stop annoying me!"],
+    "keys": { "перестань": "stop|quit" }
+   }
+  ]
+ },
+ {
+  "id": 130, "w": "impress", "uk": "вражати, справляти враження", "lvl": "B1",
+  "forms": "impress|impresses|impressed|impressed|impressing",
+  "near": "amaze*|astonish*|wow*|blow away|blew away|blown away|stun*|surprise*",
+  "tasks": [
+   {
+    "sit": "Завтра твоя перша презентація перед керівником нового відділу.",
+    "say": "Я дуже хочу вразити боса.",
+    "ans": ["I really want to impress the boss.", "I really want to impress my boss.", "I just really want to impress the boss."],
+    "keys": { "бос": "boss|manager|head" }
+   },
+   {
+    "sit": "Ти вперше побував на виставці молодого художника й ділишся враженнями з колегою.",
+    "say": "Його роботи мене дуже вразили.",
+    "ans": ["His work really impressed me.", "I was really impressed by his work.", "His paintings really impressed me."],
+    "keys": { "роботи": "work*|painting*|art*|picture*" }
+   },
+   {
+    "sit": "Племінник за місяць вивчив сто іспанських слів і хвалиться тобі.",
+    "say": "Ти мене вразив!",
+    "ans": ["You impressed me!", "You’ve impressed me!", "Wow, you really impressed me!"],
+    "keys": { "мене": "me" }
+   }
+  ]
+ },
+ {
+  "id": 131, "w": "surprise", "uk": "дивувати", "lvl": "A2",
+  "forms": "surprise|surprises|surprised|surprised|surprising",
+  "near": "amaze*|astonish*|shock*|stun*|impress*|caught off guard",
+  "tasks": [
+   {
+    "sit": "Друг прилетів з-за кордону без попередження й постукав у твої двері.",
+    "say": "Оце ти мене здивував!",
+    "ans": ["You surprised me!", "Wow, you really surprised me!", "Well, you surprised me!"],
+    "keys": { "мене": "me" }
+   },
+   {
+    "sit": "Ти плануєш річницю з дружиною і розповідаєш колезі про свій задум.",
+    "say": "Хочу здивувати її вечерею в ресторані.",
+    "ans": ["I want to surprise her with dinner at a restaurant.", "I want to surprise her with a dinner out.", "I’m going to surprise her with a restaurant dinner."],
+    "keys": { "вечеря": "dinner|meal", "її": "her|wife" }
+   },
+   {
+    "sit": "Твій колега, завжди тихий, раптом виграв конкурс караоке. Ти обговорюєш це з іншими.",
+    "say": "Мене це зовсім не здивувало, він дуже талановитий.",
+    "ans": ["It didn’t surprise me at all, he’s very talented.", "That didn’t surprise me — he’s really talented.", "Honestly, it didn’t surprise me at all. He’s so talented."],
+    "keys": { "не": "not|never", "талановитий": "talent*|gifted|great" }
+   }
+  ]
+ },
+ {
+  "id": 132, "w": "comfort", "uk": "втішати", "lvl": "B1",
+  "forms": "comfort|comforts|comforted|comforted|comforting",
+  "near": "console*|cheer up|cheered up|cheer her up|cheer him up|support*|reassure*|soothe*|calm*",
+  "tasks": [
+   {
+    "sit": "Подругу покинув хлопець, і вона цілий вечір плаче. Ти розповідаєш про це мамі.",
+    "say": "Я намагався її втішити, але не вийшло.",
+    "ans": ["I tried to comfort her, but it didn’t work.", "I tried to comfort her, but it didn’t help.", "I tried comforting her, but nothing worked."],
+    "keys": { "намагався": "tr*", "не вийшло": "not work*|not help*|nothing|failed|no use" }
+   },
+   {
+    "sit": "Ти медбрат у дитячій лікарні. Колега питає, чим ти займаєшся, поки діти чекають на процедури.",
+    "say": "Я втішаю дітей, коли їм страшно.",
+    "ans": ["I comfort the kids when they’re scared.", "I comfort children when they are scared.", "I try to comfort the kids when they get scared."],
+    "keys": { "діти": "kid*|child*", "страшно": "scared|afraid|frightened|fear*" }
+   },
+   {
+    "sit": "Після похорону дідуся ти дякуєш другові, який весь день був поруч.",
+    "say": "Мене втішає, що ти поруч.",
+    "ans": ["It comforts me that you’re here.", "It comforts me to have you here.", "Having you here really comforts me."],
+    "keys": { "поруч": "here|with me|around|by my side" }
+   }
+  ]
+ },
+ {
+  "id": 133, "w": "support", "uk": "підтримувати", "lvl": "A2",
+  "forms": "support|supports|supported|supported|supporting",
+  "near": "back|backed|backing|stand by|stood by|help|helped|am behind|am with you|encourage*|stand behind",
+  "tasks": [
+   {
+    "sit": "Твій друг вирішив кинути роботу в банку й стати кухарем. Усі проти, крім тебе.",
+    "say": "Я тебе підтримую, хай що скажуть інші.",
+    "ans": ["I support you, whatever others say.", "I support you, no matter what other people say.", "Hey, I support you, whatever anyone says."],
+    "keys": { "інші": "other*|anyone|everyone|people|they" }
+   },
+   {
+    "sit": "На нараді обговорюють пропозицію колеги перейти на чотириденний робочий тиждень.",
+    "say": "Я повністю підтримую цю ідею.",
+    "ans": ["I fully support this idea.", "I completely support the idea.", "I totally support this idea."],
+    "keys": { "ідея": "idea|proposal|plan|suggestion", "повністю": "fully|completely|totally|100*|hundred|absolutely|one hundred" }
+   },
+   {
+    "sit": "Ти розповідаєш новим знайомим, як закінчив університет, працюючи вечорами.",
+    "say": "Батьки завжди мене підтримували.",
+    "ans": ["My parents always supported me.", "My parents have always supported me.", "My mom and dad always supported me."],
+    "keys": { "батьки": "parent*|mom|dad|mum|family|folks", "завжди": "always" }
+   }
+  ]
+ },
+ {
+  "id": 134, "w": "hug", "uk": "обіймати", "lvl": "A2",
+  "forms": "hug|hugs|hugged|hugged|hugging",
+  "near": "embrace*|cuddle*|hold|held|holding|put my arms around|squeeze*",
+  "tasks": [
+   {
+    "sit": "Ти повертаєшся з довгого відрядження. Мама чекає тебе в аеропорту.",
+    "say": "Мамо, дай я тебе обійму!",
+    "ans": ["Mom, let me hug you!", "Mum, let me give you a hug!", "Come here, Mom, let me hug you!"],
+    "keys": { "мамо": "mom|mum|mother|mama" }
+   },
+   {
+    "sit": "Друг розповідає, що в нього помер пес. Він ледь стримує сльози.",
+    "say": "Можна тебе обійняти?",
+    "ans": ["Can I hug you?", "Can I give you a hug?", "Hey, can I give you a hug?"],
+    "keys": { "тебе": "you" }
+   },
+   {
+    "sit": "Ти розповідаєш колезі про малого сина, який не засинає без іграшки.",
+    "say": "Він завжди спить, обійнявши свого ведмедика.",
+    "ans": ["He always sleeps hugging his teddy bear.", "He always hugs his teddy bear when he sleeps.", "He always falls asleep hugging his teddy."],
+    "keys": { "ведмедик": "teddy|bear|toy", "спить": "sleep*|asleep|slept" }
+   }
+  ]
+ },
+ {
+  "id": 136, "w": "cry", "uk": "плакати", "lvl": "A2",
+  "forms": "cry|cries|cried|cried|crying",
+  "near": "weep*|wept|sob*|tear up|teared up|tears|burst into tears",
+  "tasks": [
+   {
+    "sit": "Ти з подругою виходиш з кінотеатру після дуже сумної драми.",
+    "say": "Я плакав під кінець фільму.",
+    "ans": ["I cried at the end of the movie.", "I cried at the end of the film.", "I totally cried at the end of the movie."],
+    "keys": { "кінець": "end|ending|finale", "фільм": "movie|film" }
+   },
+   {
+    "sit": "Твоя маленька племінниця впала з гойдалки й дуже засмутилася.",
+    "say": "Не плач, усе добре.",
+    "ans": ["Don’t cry, it’s okay.", "Don’t cry, everything’s fine.", "Hey, don’t cry, it’s all right."],
+    "keys": { "не": "not|never", "добре": "okay|ok|fine|all right|alright" }
+   },
+   {
+    "sit": "Сусіди скаржаться на шум. Ти пояснюєш, що вночі в тебе вдома було неспокійно.",
+    "say": "Малюк плакав усю ніч.",
+    "ans": ["The baby cried all night.", "The baby was crying all night long.", "The baby cried the whole night."],
+    "keys": { "малюк": "baby|kid|child|little one", "усю ніч": "all night|whole night|night" }
+   }
+  ]
+ },
+ {
+  "id": 137, "w": "laugh", "uk": "сміятися", "lvl": "A1",
+  "forms": "laugh|laughs|laughed|laughed|laughing",
+  "near": "giggle*|chuckle*|smile*|smiling|crack up|cracked up|lol",
+  "tasks": [
+   {
+    "sit": "Ти згадуєш із другом вечір, коли ви дивилися стендап.",
+    "say": "Ми сміялися всю ніч.",
+    "ans": ["We laughed all night.", "We were laughing all night long.", "We laughed the whole night."],
+    "keys": { "всю ніч": "all night|whole night|night" }
+   },
+   {
+    "sit": "Ти розповідаєш історію, а колега раптом починає реготати, хоча нічого смішного немає.",
+    "say": "Чого ти смієшся?",
+    "ans": ["Why are you laughing?", "What are you laughing at?", "What are you laughing about?"],
+    "keys": { "чого": "why|what" }
+   },
+   {
+    "sit": "На першому побаченні тобі подобається, що людина весела. Ти розповідаєш про це подрузі.",
+    "say": "Вона сміялася з усіх моїх жартів.",
+    "ans": ["She laughed at all my jokes.", "She laughed at every joke I made.", "She laughed at all of my jokes!"],
+    "keys": { "жарти": "joke*", "усіх": "all|every" }
+   }
+  ]
+ },
+ {
+  "id": 138, "w": "smile", "uk": "посміхатися", "lvl": "A2",
+  "forms": "smile|smiles|smiled|smiled|smiling",
+  "near": "grin*|beam*|laugh*|smirk*",
+  "tasks": [
+   {
+    "sit": "Фотограф на весіллі налаштовує камеру й звертається до гостей.",
+    "say": "Усі, посміхніться в камеру!",
+    "ans": ["Everybody smile at the camera!", "Everyone, smile for the camera!", "Okay, everybody, smile for the camera!"],
+    "keys": { "усі": "everybody|everyone|all", "камера": "camera|lens|me" }
+   },
+   {
+    "sit": "Ти вперше в Японії й розповідаєш сестрі про людей у метро.",
+    "say": "Тут ніхто не посміхається до незнайомців.",
+    "ans": ["Nobody smiles at strangers here.", "No one here smiles at strangers.", "Here nobody really smiles at strangers."],
+    "keys": { "незнайомці": "stranger*|people", "ніхто": "nobody|no one|not anyone" }
+   },
+   {
+    "sit": "Колега давно була засмучена, а сьогодні прийшла в гарному настрої.",
+    "say": "Нарешті ти посміхаєшся!",
+    "ans": ["Finally, you’re smiling!", "You’re finally smiling!", "Oh, you’re smiling at last!"],
+    "keys": { "нарешті": "finally|at last" }
+   }
+  ]
+ },
+ {
+  "id": 139, "w": "suffer", "uk": "страждати", "lvl": "B1",
+  "forms": "suffer|suffers|suffered|suffered|suffering",
+  "near": "struggle*|have|has|had|deal with|dealing with|in pain|hurt*|endure*",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш лікарю, чому погано спиш останні місяці.",
+    "say": "Я страждаю від стресу на роботі.",
+    "ans": ["I suffer from stress at work.", "I’m suffering from stress at work.", "I’ve been suffering from work stress."],
+    "keys": { "стрес": "stress*", "робота": "work|job" }
+   },
+   {
+    "sit": "Твій кіт захворів, і ветеринар пояснює, що ліки знімуть біль.",
+    "say": "Я не хочу, щоб він страждав.",
+    "ans": ["I don’t want him to suffer.", "I don’t want him to suffer anymore.", "I just don’t want him to suffer."],
+    "keys": { "не": "not|never", "він": "him|it|cat" }
+   },
+   {
+    "sit": "Ти читаєш репортаж про посуху в південних регіонах.",
+    "say": "Фермери дуже постраждали від посухи.",
+    "ans": ["The farmers suffered a lot from the drought.", "Farmers have suffered badly from the drought.", "Farmers really suffered because of the drought."],
+    "keys": { "фермери": "farmer*", "посуха": "drought|dry|heat" }
+   }
+  ]
+ },
+ {
+  "id": 140, "w": "see", "uk": "бачити", "lvl": "A1",
+  "forms": "see|sees|saw|seen|seeing",
+  "near": "notice*|spot|spotted|spotting|watch*|look*|view*|catch sight",
+  "tasks": [
+   {
+    "sit": "Ви з другом на даху, у небі щось яскраво блимає.",
+    "say": "Ти це бачиш?",
+    "ans": ["Do you see that?", "Can you see that?", "Whoa, do you see that?"],
+    "keys": { "це": "that|this|it" }
+   },
+   {
+    "sit": "Ти загубив окуляри й сидиш у кіно в останньому ряду.",
+    "say": "Я нічого не бачу.",
+    "ans": ["I can’t see anything.", "I don’t see anything.", "Ugh, I can’t see a thing."],
+    "keys": { "нічого": "anything|nothing|a thing|not" }
+   },
+   {
+    "sit": "Колега питає, чи ти вже ходив на новий фільм, про який усі говорять.",
+    "say": "Так, я бачив його минулих вихідних.",
+    "ans": ["Yes, I saw it last weekend.", "Yeah, I’ve seen it — last weekend.", "Yep, I saw it last weekend."],
+    "keys": { "минулих вихідних": "last weekend|weekend" }
+   }
+  ]
+ },
+ {
+  "id": 141, "w": "look", "uk": "дивитися (на щось)", "lvl": "A1",
+  "forms": "look|looks|looked|looked|looking",
+  "near": "see|saw|watch*|stare*|glance*|check out|checked out|peek*",
+  "tasks": [
+   {
+    "sit": "Ти в полі вночі з другом, і раптом падає зірка.",
+    "say": "Подивись на небо!",
+    "ans": ["Look at the sky!", "Look up at the sky!", "Quick, look at the sky!"],
+    "keys": { "небо": "sky|up" }
+   },
+   {
+    "sit": "Ти в магазині одягу. Консультант підходить і питає, чи потрібна допомога.",
+    "say": "Дякую, я просто дивлюся.",
+    "ans": ["Thanks, I’m just looking.", "Thank you, I’m just looking around.", "No thanks, I’m just looking."],
+    "keys": { "дякую": "thank*", "просто": "just|only" }
+   },
+   {
+    "sit": "Ти фотографуєш дітей, а вони весь час відвертаються.",
+    "say": "Діти, дивіться на мене!",
+    "ans": ["Kids, look at me!", "Look at me, kids!", "Kids, look over here at me!"],
+    "keys": { "на мене": "me|here|camera" }
+   }
+  ]
+ },
+ {
+  "id": 142, "w": "watch", "uk": "дивитися (фільм, матч), спостерігати", "lvl": "A1",
+  "forms": "watch|watches|watched|watched|watching",
+  "near": "see|saw|seen|look|looked|looking|stream*|binge*|view*",
+  "tasks": [
+   {
+    "sit": "Друг питає, що ти зазвичай робиш увечері після роботи.",
+    "say": "Я зазвичай дивлюся серіали.",
+    "ans": ["I usually watch TV series.", "Usually I watch some shows.", "I usually just watch series."],
+    "keys": { "серіали": "series|show*|tv|netflix|episode*", "зазвичай": "usually|normally|often|always" }
+   },
+   {
+    "sit": "Сусід кличе тебе в спортбар сьогодні ввечері.",
+    "say": "Ходімо дивитися матч!",
+    "ans": ["Let’s go watch the match!", "Let’s go and watch the game!", "Come on, let’s watch the match!"],
+    "keys": { "матч": "match|game|football|soccer" }
+   },
+   {
+    "sit": "Сестра хоче збігати в магазин і просить тебе побути з її сином пів години.",
+    "say": "Без проблем, я за ним пригляну.",
+    "ans": ["No problem, I’ll watch him.", "No problem, I will watch him for you.", "Sure, no problem — I’ll watch him."],
+    "keys": { "без проблем": "no problem|sure|of course|okay|ok|fine", "за ним": "him|kid|boy|nephew" }
+   }
+  ]
+ },
+ {
+  "id": 143, "w": "stare", "uk": "пильно дивитися, витріщатися", "lvl": "B1",
+  "forms": "stare|stares|stared|stared|staring",
+  "near": "look|looked|looking|gaze*|glare*|gawk*|gape*|watch*",
+  "tasks": [
+   {
+    "sit": "Ти в метро, і чоловік навпроти вже хвилин десять не відводить від тебе очей.",
+    "say": "Чому він так на мене витріщається?",
+    "ans": ["Why is he staring at me?", "Why does he keep staring at me?", "Why’s he staring at me like that?"],
+    "keys": { "чому": "why|what", "на мене": "me" }
+   },
+   {
+    "sit": "Твій син-підліток годинами сидить за комп’ютером. Ти розповідаєш про це лікарці.",
+    "say": "Він цілий день дивиться в екран.",
+    "ans": ["He stares at a screen all day.", "He spends all day staring at a screen.", "He just stares at the screen all day long."],
+    "keys": { "екран": "screen*|computer|monitor|phone", "цілий день": "all day|whole day|day" }
+   },
+   {
+    "sit": "Твоя донька вказує пальцем на чоловіка в інвалідному візку.",
+    "say": "Не витріщайся на людей, це неввічливо.",
+    "ans": ["Don’t stare at people, it’s rude.", "Don’t stare at people — it isn’t polite.", "Honey, don’t stare at people, it’s rude."],
+    "keys": { "не": "not|never", "неввічливо": "rude|polite|impolite|nice" }
+   }
+  ]
+ },
+ {
+  "id": 144, "w": "glance", "uk": "кинути погляд, зиркнути", "lvl": "B2",
+  "forms": "glance|glances|glanced|glanced|glancing",
+  "near": "look|looked|looking|peek*|peep*|glimpse*|check*|quick look|take a look",
+  "tasks": [
+   {
+    "sit": "Нарада затягується. Ти розповідаєш дружині, як минув день.",
+    "say": "Я весь час поглядав на годинник.",
+    "ans": ["I kept glancing at the clock.", "I was glancing at the clock the whole time.", "I just kept glancing at the clock."],
+    "keys": { "годинник": "clock|watch|time", "весь час": "kept|keep|whole time|all the time|constantly|always" }
+   },
+   {
+    "sit": "Колега просить тебе перевірити документ, але в тебе лише хвилина.",
+    "say": "Я тільки мигцем глянув, але виглядає добре.",
+    "ans": ["I only glanced at it, but it looks good.", "I just glanced at it, but it looks fine.", "I only glanced at it, but it looks good to me."],
+    "keys": { "тільки": "only|just|quick*|briefly", "добре": "good|fine|okay|ok|great" }
+   },
+   {
+    "sit": "Ти розповідаєш подрузі про симпатичного незнайомця в кафе.",
+    "say": "Він кілька разів глянув на мене.",
+    "ans": ["He glanced at me a few times.", "He glanced over at me several times.", "He glanced at me a couple of times."],
+    "keys": { "кілька разів": "few|several|couple|times|twice" }
+   }
+  ]
+ },
+ {
+  "id": 146, "w": "observe", "uk": "спостерігати", "lvl": "B1",
+  "forms": "observe|observes|observed|observed|observing",
+  "near": "watch*|monitor*|look at|looked at|study|studied|studying|notice*|see|saw",
+  "tasks": [
+   {
+    "sit": "Ти вступив до астрономічного гуртка й розповідаєш колегам про нове хобі.",
+    "say": "Ми спостерігаємо за зірками через телескоп.",
+    "ans": ["We observe the stars through a telescope.", "We observe stars with a telescope.", "We go out and observe the stars through a telescope."],
+    "keys": { "зірки": "star*|sky|planet*", "телескоп": "telescope" }
+   },
+   {
+    "sit": "Ти пишеш курсову з психології й пояснюєш науковому керівнику свій метод.",
+    "say": "Я спостерігав за поведінкою дітей на ігровому майданчику.",
+    "ans": ["I observed children’s behavior on the playground.", "I observed how children behave at the playground.", "I observed the kids’ behavior at a playground."],
+    "keys": { "поведінка": "behavio*r*|behave*|act*", "діти": "child*|kid*" }
+   },
+   {
+    "sit": "Перший день на новій роботі. Керівник пропонує просто посидіти поруч з досвідченим колегою.",
+    "say": "Сьогодні я просто спостерігатиму й вчитимуся.",
+    "ans": ["Today I’ll just observe and learn.", "Today I’m just going to observe and learn.", "I’ll just observe and learn today."],
+    "keys": { "вчитимуся": "learn*", "сьогодні": "today|first day" }
+   }
+  ]
+ },
+ {
+  "id": 147, "w": "hear", "uk": "чути", "lvl": "A1",
+  "forms": "hear|hears|heard|heard|hearing",
+  "near": "listen*|catch|caught|pick up",
+  "tasks": [
+   {
+    "sit": "Ти говориш по відеозвʼязку, і зображення зависло.",
+    "say": "Ти мене чуєш?",
+    "ans": ["Can you hear me?", "Do you hear me?", "Hello? Can you hear me?"],
+    "keys": { "мене": "me" }
+   },
+   {
+    "sit": "Уночі ти прокидаєшся й будиш партнера.",
+    "say": "Я чую якийсь дивний звук на кухні.",
+    "ans": ["I hear a strange noise in the kitchen.", "I can hear some weird sound in the kitchen.", "I can hear a weird noise in the kitchen."],
+    "keys": { "звук": "noise*|sound*", "кухня": "kitchen" }
+   },
+   {
+    "sit": "Колега підходить до твого столу з кавою й хоче пліткувати про звільнення в іншому відділі.",
+    "say": "Так, я вже чув про це.",
+    "ans": ["Yes, I’ve already heard about it.", "Yeah, I already heard about that.", "Yeah, I’ve heard about it already."],
+    "keys": { "вже": "already" }
+   }
+  ]
+ },
+ {
+  "id": 148, "w": "listen", "uk": "слухати", "lvl": "A1",
+  "forms": "listen|listens|listened|listened|listening",
+  "near": "hear|heard|hearing|pay attention|paid attention",
+  "tasks": [
+   {
+    "sit": "Колега питає, чим ти займаєшся дорогою на роботу в метро.",
+    "say": "Я слухаю подкасти.",
+    "ans": ["I listen to podcasts.", "I usually listen to podcasts.", "I just listen to podcasts."],
+    "keys": { "подкасти": "podcast*|audiobook*" }
+   },
+   {
+    "sit": "Твій підліток-син перебиває тебе, коли ти пояснюєш щось важливе.",
+    "say": "Послухай мене хоч раз!",
+    "ans": ["Listen to me for once!", "Just listen to me for once!", "Will you listen to me for once?"],
+    "keys": { "мене": "me", "хоч раз": "once|for once|just" }
+   },
+   {
+    "sit": "Подруга скаржиться, що хлопець ніколи не чує, що вона каже.",
+    "say": "Він мене взагалі не слухає.",
+    "ans": ["He doesn’t listen to me at all.", "He never listens to me.", "He just doesn’t listen to me at all."],
+    "keys": { "не": "not|never", "мене": "me" }
+   }
+  ]
+ },
+ {
+  "id": 149, "w": "touch", "uk": "торкатися", "lvl": "A2",
+  "forms": "touch|touches|touched|touched|touching",
+  "near": "feel|felt|tap*|press*|hold|held|handle*|grab*|poke*",
+  "tasks": [
+   {
+    "sit": "Ти в музеї з дитиною, вона тягне руку до старовинної вази.",
+    "say": "Нічого не чіпай!",
+    "ans": ["Don’t touch anything!", "Please don’t touch anything!", "Hey, don’t touch anything!"],
+    "keys": { "не": "not|never", "нічого": "anything|nothing|it" }
+   },
+   {
+    "sit": "Ти показуєш бабусі, як користуватися новим смартфоном.",
+    "say": "Просто торкнися екрана пальцем.",
+    "ans": ["Just touch the screen with your finger.", "Just touch the screen.", "You just touch the screen with your finger."],
+    "keys": { "екран": "screen" }
+   },
+   {
+    "sit": "Узимку в квартирі дуже холодно. Ти телефонуєш у керуючу компанію й пояснюєш, що сталося.",
+    "say": "Я торкнувся батареї, а вона холодна.",
+    "ans": ["I touched the radiator, and it was cold.", "I touched the radiator — it was cold.", "I touched the heater and it was cold."],
+    "keys": { "батарея": "radiator|heater|heating", "холодна": "cold|freezing|not warm" }
+   }
+  ]
+ },
+ {
+  "id": 150, "w": "feel", "uk": "відчувати, почуватися", "lvl": "A1",
+  "forms": "feel|feels|felt|felt|feeling",
+  "near": "sense*|notice*|am|be|get|got|seem*",
+  "tasks": [
+   {
+    "sit": "Ти вийшов на пляж зранку, вітер з моря свіжий і прохолодний.",
+    "say": "Я відчуваю вітер на обличчі.",
+    "ans": ["I feel the wind on my face.", "I can feel the wind on my face.", "Oh, I can feel the breeze on my face."],
+    "keys": { "вітер": "wind|breeze|air", "обличчя": "face|skin" }
+   },
+   {
+    "sit": "Після тижня хвороби ти повертаєшся в офіс. Колеги питають, як ти.",
+    "say": "Дякую, я вже почуваюся набагато краще.",
+    "ans": ["Thanks, I already feel much better.", "Thank you, I’m feeling a lot better now.", "Thanks, I feel way better now."],
+    "keys": { "краще": "better" }
+   },
+   {
+    "sit": "Ти стоїш на сцені перед виступом у шкільному театрі.",
+    "say": "Я відчуваю, як тремтять руки.",
+    "ans": ["I can feel my hands shaking.", "I feel my hands shaking.", "I can feel my hands trembling."],
+    "keys": { "руки": "hand*", "тремтять": "shak*|trembl*|shiver*" }
+   }
+  ]
+ },
+ {
+  "id": 151, "w": "taste", "uk": "куштувати", "lvl": "A2",
+  "forms": "taste|tastes|tasted|tasted|tasting",
+  "near": "try|tried|trying|sample*|have a bite|had a bite|test*",
+  "tasks": [
+   {
+    "sit": "Ти вариш борщ для гостей, а подруга стоїть поруч на кухні.",
+    "say": "Скуштуй суп — не треба ще солі?",
+    "ans": ["Taste the soup — does it need more salt?", "Taste this soup. Does it need salt?", "Here, taste the soup — need more salt?"],
+    "keys": { "суп": "soup|borscht|borsch|it|this", "сіль": "salt*" }
+   },
+   {
+    "sit": "Ти на винній дегустації в Італії й пишеш другу повідомлення.",
+    "say": "Ми скуштували шість різних вин.",
+    "ans": ["We tasted six different wines.", "We’ve tasted six different wines.", "We tasted like six different wines!"],
+    "keys": { "шість": "six|6", "вино": "wine*" }
+   },
+   {
+    "sit": "Ти вперше в Японії, і друг питає про місцеву кухню.",
+    "say": "Я ще ніколи не куштував справжніх суші.",
+    "ans": ["I’ve never tasted real sushi before.", "I have never tasted real sushi.", "Honestly, I’ve never tasted proper sushi."],
+    "keys": { "суші": "sushi", "ніколи": "never|not ever" }
+   }
+  ]
+ },
+ {
+  "id": 152, "w": "smell", "uk": "нюхати; пахнути", "lvl": "A2",
+  "forms": "smell|smells|smelt/smelled|smelt/smelled|smelling",
+  "near": "sniff*|scent*|stink*|stank|reek*|fragrant",
+  "tasks": [
+   {
+    "sit": "Ти заходиш на кухню, де мама щойно дістала з духовки пиріг.",
+    "say": "Як смачно пахне!",
+    "ans": ["It smells so good!", "That smells amazing!", "Wow, it smells delicious!"],
+    "keys": { "смачно": "good|great|amazing|delicious|wonderful|nice|lovely" }
+   },
+   {
+    "sit": "Сусідка по кімнаті в гуртожитку дивиться на твої кросівки після спортзалу.",
+    "say": "Понюхай, чи вони справді так погано пахнуть.",
+    "ans": ["Smell them — do they really smell that bad?", "Smell these. Do they really smell so bad?", "Come on, smell them — do they really smell that bad?"],
+    "keys": { "погано": "bad|awful|terrible", "справді": "really|actually" }
+   },
+   {
+    "sit": "Ти прокидаєшся вночі в квартирі й будиш партнера.",
+    "say": "Я відчуваю запах диму!",
+    "ans": ["I smell smoke!", "I can smell smoke!", "Wait, I can smell smoke!"],
+    "keys": { "дим": "smoke|fire|burn*" }
+   }
+  ]
+ },
+ {
+  "id": 153, "w": "work", "uk": "працювати", "lvl": "A1",
+  "forms": "work|works|worked|worked|working",
+  "near": "job|jobs|am employed|employed|do business",
+  "tasks": [
+   {
+    "sit": "Новий знайомий питає, чи ти щодня їздиш в офіс.",
+    "say": "Ні, я працюю з дому.",
+    "ans": ["No, I work from home.", "No, I work from home now.", "Nah, I work from home."],
+    "keys": { "з дому": "home|remote*" }
+   },
+   {
+    "sit": "На вечірці тебе питають, де ти працюєш.",
+    "say": "Я працюю в лікарні медсестрою.",
+    "ans": ["I work at a hospital as a nurse.", "I work as a nurse in a hospital.", "I’m a nurse — I work at the hospital."],
+    "keys": { "лікарня": "hospital|clinic", "медсестра": "nurse" }
+   },
+   {
+    "sit": "Дружина скаржиться, що ти знову пізно повернувся з офісу.",
+    "say": "Цього тижня я працюю допізна.",
+    "ans": ["I’m working late this week.", "This week I work late.", "Sorry, I’m working late all this week."],
+    "keys": { "допізна": "late|overtime", "цього тижня": "this week|week" }
+   }
+  ]
+ },
+ {
+  "id": 154, "w": "hire", "uk": "наймати", "lvl": "B1",
+  "forms": "hire|hires|hired|hired|hiring",
+  "near": "employ*|recruit*|take on|took on|taken on|get|got|onboard*|bring in|brought in",
+  "tasks": [
+   {
+    "sit": "Ти пройшов три етапи співбесід. Щойно подзвонили з компанії. Ти пишеш у чат родини.",
+    "say": "Мене найняли!",
+    "ans": ["They hired me!", "I got hired!", "Guess what — they hired me!"],
+    "keys": { "мене": "me|i" }
+   },
+   {
+    "sit": "Команда не встигає з проєктами. Ти говориш із директором.",
+    "say": "Нам треба найняти ще двох розробників.",
+    "ans": ["We need to hire two more developers.", "We have to hire two more developers.", "We really need to hire two more devs."],
+    "keys": { "двох": "two|2", "розробники": "developer*|dev*|programmer*|engineer*|people" }
+   },
+   {
+    "sit": "Сусіди питають, хто ремонтуватиме твою квартиру.",
+    "say": "Ми найняли бригаду будівельників.",
+    "ans": ["We hired a team of builders.", "We’ve hired a crew of builders.", "We hired some builders for it."],
+    "keys": { "будівельники": "builder*|worker*|contractor*|crew|team" }
+   }
+  ]
+ },
+ {
+  "id": 155, "w": "fire", "uk": "звільняти (з роботи)", "lvl": "B1",
+  "forms": "fire|fires|fired|fired|firing",
+  "near": "dismiss*|sack*|let go|let him go|let her go|lay off|laid off|lay him off|kick out|kicked out",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш другові новину про колегу, який постійно запізнювався.",
+    "say": "Його вчора звільнили.",
+    "ans": ["He was fired yesterday.", "They fired him yesterday.", "He got fired yesterday."],
+    "keys": { "вчора": "yesterday" }
+   },
+   {
+    "sit": "Новий працівник кафе розбив уже третю чашку за день і злякався.",
+    "say": "Не хвилюйся, тебе за це не звільнять.",
+    "ans": ["Don’t worry, they won’t fire you for that.", "Don’t worry, nobody will fire you for this.", "Relax, they’re not going to fire you for that."],
+    "keys": { "тебе": "you", "не": "not|never|nobody|no one" }
+   },
+   {
+    "sit": "Ти власник невеликої фірми. Бухгалтер украв гроші, і ти обговорюєш це з партнером.",
+    "say": "У мене немає вибору, я мушу його звільнити.",
+    "ans": ["I have no choice, I have to fire him.", "I have no choice — I’ve got to fire him.", "There’s no other choice, I have to fire him."],
+    "keys": { "вибір": "choice|option*|way", "мушу": "have to|got to|must|need to" }
+   }
+  ]
+ }
+]

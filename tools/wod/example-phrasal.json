@@ -1,0 +1,28 @@
+[
+ {
+  "id": 1524, "w": "give up", "uk": "здаватися; кидати (звичку, справу)", "lvl": "A2",
+  "forms": "give|gives|gave|given|giving",
+  "tail": "up",
+  "near": "quit|quits|quitting|stop|stopped|stopping|surrender*|abandon*",
+  "tasks": [
+   {
+    "sit": "Друг питає, чи ти ще куриш. Ти не палиш уже рік і пишаєшся цим.",
+    "say": "Я кинув курити минулого року.",
+    "ans": ["I gave up smoking last year.", "I gave smoking up a year ago.", "I finally gave up smoking last year."],
+    "keys": { "курити": "smok*|cigarette*", "минулого року": "last year|a year ago|year" }
+   },
+   {
+    "sit": "Колега третій день не може розвʼязати складну задачу й каже, що все марно.",
+    "say": "Не здавайся, у тебе майже вийшло!",
+    "ans": ["Don’t give up, you’re almost there!", "Don’t give up now — you’ve almost done it!", "Come on, don’t give up, you’re so close!"],
+    "keys": { "не": "not|never", "майже": "almost|nearly|so close|close" }
+   },
+   {
+    "sit": "Сестра питає, чому ти більше не ходиш на уроки гітари.",
+    "say": "Я покинув гітару, бо не мав часу.",
+    "ans": ["I gave up the guitar because I didn’t have time.", "I gave up guitar lessons because I had no time.", "I gave it up — I just didn’t have the time."],
+    "keys": { "гітара": "guitar*|it|lesson*", "не мав часу": "time|busy" }
+   }
+  ]
+ }
+]

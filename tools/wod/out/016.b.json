@@ -1,0 +1,635 @@
+[
+ {
+  "id": 870, "w": "drop out", "uk": "кидати навчання", "lvl": "B2",
+  "forms": "drop|drops|dropped|dropped|dropping",
+  "tail": "out",
+  "near": "quit*|leave|left|leaving|gave up|give up|giving up",
+  "tasks": [
+   {
+    "sit": "Ти дивишся документальний фільм про відомого підприємця й розповідаєш другові цікавий факт.",
+    "say": "Він кинув університет на другому курсі.",
+    "ans": ["He dropped out of university in his second year.", "In his second year, he dropped out of college.", "He dropped out of uni in second year."],
+    "keys": { "університет": "uni*|college|school", "другий курс": "second|2nd|two" }
+   },
+   {
+    "sit": "Двоюрідний брат-випускник заявляє, що школа йому набридла і він хоче працювати.",
+    "say": "Не кидай школу, тобі лишився лише рік.",
+    "ans": ["Don’t drop out of school, you only have one year left.", "Please don’t drop out — you’ve only got a year left.", "You can’t drop out now, it’s just one more year."],
+    "keys": { "рік": "year" }
+   },
+   {
+    "sit": "Ти навчаєшся на онлайн-курсі програмування й розповідаєш колезі, як там справи.",
+    "say": "Половина групи кинула курс уже в перший місяць.",
+    "ans": ["Half of the group dropped out in the first month.", "Half the class dropped out during the first month.", "Half the students dropped out of the course in the first month."],
+    "keys": { "половина": "half", "перший місяць": "first|month" }
+   }
+  ]
+ },
+ {
+  "id": 871, "w": "enroll", "uk": "записуватися (на курс)", "lvl": "B2",
+  "forms": "enroll/enrol|enrolls/enrols|enrolled|enrolled|enrolling",
+  "near": "sign* up|signed up|register*|join*|apply|applied",
+  "tasks": [
+   {
+    "sit": "Ти давно мрієш поїхати в Іспанію. Колега питає, як просувається підготовка.",
+    "say": "Я записався на вечірній курс іспанської.",
+    "ans": ["I’ve enrolled in an evening Spanish course.", "I enrolled on a Spanish evening class.", "I just enrolled in Spanish classes in the evening."],
+    "keys": { "іспанська": "spanish", "вечірній": "evening|night" }
+   },
+   {
+    "sit": "Колеги питають тебе, як потрапити на корпоративний тренінг з англійської.",
+    "say": "Записатися можна онлайн до кінця місяця.",
+    "ans": ["You can enroll online until the end of the month.", "You can enroll online before the end of the month.", "Just enroll online by the end of the month."],
+    "keys": { "онлайн": "online|website|site", "кінець місяця": "month" }
+   },
+   {
+    "sit": "Тобі вже двадцять пʼять, а прав досі немає. Ділишся планами з другом.",
+    "say": "Хочу цього літа записатися на курси водіння.",
+    "ans": ["I want to enroll in a driving course this summer.", "I’m planning to enroll in driving lessons this summer.", "I’d like to enroll in a driving school this summer."],
+    "keys": { "водіння": "driv*", "літо": "summer" }
+   }
+  ]
+ },
+ {
+  "id": 873, "w": "testify", "uk": "свідчити (у суді)", "lvl": "C1",
+  "forms": "testify|testifies|testified|testified|testifying",
+  "near": "give evidence|gave evidence|giving evidence|witness*|tell the court|told the court",
+  "tasks": [
+   {
+    "sit": "Ти бачив ДТП на перехресті, і тепер тобі прийшла повістка. Пояснюєш керівникові, чому візьмеш вихідний.",
+    "say": "Мене викликали свідчити в суді наступного тижня.",
+    "ans": ["I’ve been called to testify in court next week.", "I have to testify in court next week.", "I’m testifying in court next week, believe it or not."],
+    "keys": { "суд": "court|trial", "наступного тижня": "week" }
+   },
+   {
+    "sit": "Ти читаєш новини про корупційний скандал у великій компанії.",
+    "say": "Колишня бухгалтерка погодилася свідчити проти директора.",
+    "ans": ["The former accountant agreed to testify against the director.", "The ex-accountant has agreed to testify against her boss.", "The former accountant is going to testify against the CEO."],
+    "keys": { "бухгалтерка": "accountant", "проти": "against" }
+   },
+   {
+    "sit": "Ви з другом обговорюєте нову серію детективу.",
+    "say": "Свідок відмовився свідчити, бо боявся.",
+    "ans": ["The witness refused to testify because he was scared.", "The witness wouldn’t testify — he was too afraid.", "The witness refused to testify out of fear."],
+    "keys": { "відмовився": "refus*|would not|not", "боявся": "scared|afraid|fear*|frighten*" }
+   }
+  ]
+ },
+ {
+  "id": 874, "w": "plead", "uk": "визнавати (не визнавати) себе винним", "lvl": "C1",
+  "forms": "plead|pleads|pleaded/pled|pleaded/pled|pleading",
+  "near": "admit*|confess*|deny|denied|denies",
+  "tasks": [
+   {
+    "sit": "Ти читаєш місцеві новини про суд над водієм, який збив паркан на великій швидкості.",
+    "say": "Водій визнав себе винним у перевищенні швидкості.",
+    "ans": ["The driver pleaded guilty to speeding.", "The driver has pleaded guilty to driving too fast.", "The driver pled guilty to speeding."],
+    "keys": { "винним": "guilty", "швидкість": "speed*|fast" }
+   },
+   {
+    "sit": "Ти адвокат і обговорюєш із клієнтом стратегію захисту.",
+    "say": "Раджу вам не визнавати провину.",
+    "ans": ["I advise you to plead not guilty.", "My advice is to plead not guilty.", "I’d recommend you plead not guilty."],
+    "keys": { "не винним": "not guilty|innocent" }
+   },
+   {
+    "sit": "Ти стежиш за гучною справою про хакерів, які зламали банк.",
+    "say": "Усі троє обвинувачених не визнали себе винними.",
+    "ans": ["All three defendants pleaded not guilty.", "The three defendants all pleaded not guilty.", "All three of the accused pleaded not guilty."],
+    "keys": { "троє": "three|3", "не визнали": "not guilty|innocent" }
+   }
+  ]
+ },
+ {
+  "id": 875, "w": "blackmail", "uk": "шантажувати", "lvl": "C1",
+  "forms": "blackmail|blackmails|blackmailed|blackmailed|blackmailing",
+  "near": "threat*|extort*|pressur*",
+  "tasks": [
+   {
+    "sit": "Ти переказуєш подрузі сюжет серіалу, який вона пропустила.",
+    "say": "Вона шантажувала його старими фото.",
+    "ans": ["She blackmailed him with old photos.", "She was blackmailing him with some old photos.", "She blackmailed him using old pictures."],
+    "keys": { "фото": "photo*|picture*|pic*" }
+   },
+   {
+    "sit": "Ти працюєш в ІТ-відділі й пояснюєш новому колезі, чому всім змінили паролі.",
+    "say": "Хакери шантажують компанію й вимагають мільйон доларів.",
+    "ans": ["Hackers are blackmailing the company for a million dollars.", "The hackers are blackmailing the company and demanding a million dollars.", "Some hackers are blackmailing the firm — they want a million dollars."],
+    "keys": { "хакери": "hacker*", "мільйон": "million" }
+   },
+   {
+    "sit": "Молодший брат каже, що розповість батькам про твою вечірку, якщо ти не віддаси йому свою приставку.",
+    "say": "Ти що, мене шантажуєш?",
+    "ans": ["Are you blackmailing me?", "Wait, are you trying to blackmail me?", "Seriously, you’re blackmailing me now?"],
+    "keys": { "мене": "me" }
+   }
+  ]
+ },
+ {
+  "id": 876, "w": "vandalise", "uk": "навмисно псувати, нищити (майно)", "lvl": "C1",
+  "forms": "vandalise/vandalize|vandalises/vandalizes|vandalised/vandalized|vandalised/vandalized|vandalising/vandalizing",
+  "near": "damag*|destroy*|smash*|wreck*|trash*|spray-paint*|graffiti",
+  "tasks": [
+   {
+    "sit": "Ти виходиш зранку до машини й бачиш подряпини по всьому боці. Телефонуєш у страхову.",
+    "say": "Хтось уночі понівечив мою машину.",
+    "ans": ["Someone vandalised my car last night.", "My car was vandalised overnight.", "Somebody vandalised my car during the night."],
+    "keys": { "машина": "car", "вночі": "night|overnight" }
+   },
+   {
+    "sit": "Ти пишеш у чат мешканців району про зупинку біля вашого будинку.",
+    "say": "Підлітки знову понищили зупинку.",
+    "ans": ["Teenagers vandalised the bus stop again.", "The bus stop has been vandalised by teenagers again.", "Some teens vandalised the bus stop again."],
+    "keys": { "зупинка": "stop|shelter", "знову": "again" }
+   },
+   {
+    "sit": "Ти директор школи й виступаєш на загальних зборах учнів.",
+    "say": "Ті, хто понищив шкільні туалети, будуть покарані.",
+    "ans": ["Whoever vandalised the school toilets will be punished.", "The students who vandalised the toilets will be punished.", "Anyone who vandalised the toilets is going to be punished."],
+    "keys": { "туалети": "toilet*|bathroom*|restroom*", "покарані": "punish*" }
+   }
+  ]
+ },
+ {
+  "id": 877, "w": "stand out", "uk": "вирізнятися", "lvl": "B2",
+  "forms": "stand|stands|stood|stood|standing",
+  "tail": "out",
+  "near": "notic*|different|unique|shine*|shone|pop*",
+  "tasks": [
+   {
+    "sit": "Друг іде на співбесіду в консервативний банк у яскраво-жовтому костюмі.",
+    "say": "У цьому жовтому костюмі ти точно вирізнятимешся.",
+    "ans": ["You’ll definitely stand out in that yellow suit.", "In that yellow suit you’re really going to stand out.", "You’ll totally stand out in that yellow suit!"],
+    "keys": { "жовтий": "yellow", "костюм": "suit|outfit" }
+   },
+   {
+    "sit": "Ти в HR-відділі розповідаєш керівнику про кандидатів на вакансію.",
+    "say": "Одне резюме справді вирізнялося серед інших.",
+    "ans": ["One CV really stood out from the others.", "One résumé really stood out from the rest.", "There was one CV that really stood out."],
+    "keys": { "резюме": "cv|resume|application" }
+   },
+   {
+    "sit": "Ти зустрічаєш друга в переповненому аеропорту й пишеш, де тебе шукати.",
+    "say": "Я біля входу — мене буде видно здалеку в червоній куртці.",
+    "ans": ["I’m by the entrance — I’ll stand out in my red jacket.", "Look for me by the entrance; my red jacket really stands out.", "I’m at the entrance, and my red jacket kind of stands out."],
+    "keys": { "червона куртка": "red|jacket", "вхід": "entrance|door*|gate" }
+   }
+  ]
+ },
+ {
+  "id": 878, "w": "blend in", "uk": "зливатися (з оточенням), не вирізнятися", "lvl": "B2",
+  "forms": "blend|blends|blended|blended|blending",
+  "tail": "in",
+  "near": "fit in|fitting in|fitted in|merge*|mix*|disappear*",
+  "tasks": [
+   {
+    "sit": "Ти в Парижі й не хочеш, щоб у тобі одразу бачили туриста. Пояснюєш другові, чому не взяв фотоапарат.",
+    "say": "Я намагаюся злитися з місцевими й не виглядати туристом.",
+    "ans": ["I’m trying to blend in with the locals and not look like a tourist.", "I try to blend in so I don’t look like a tourist.", "I just want to blend in and not look like a tourist."],
+    "keys": { "турист": "tourist|local*" }
+   },
+   {
+    "sit": "Ви з сином у парку біля ставка, і ти помічаєш на листку зелену жабку.",
+    "say": "Дивись, ця жаба так зливається з листям, що її майже не видно.",
+    "ans": ["Look, this frog blends in with the leaves so well you can hardly see it.", "Look, the frog blends in so well with the leaves that it’s almost invisible.", "Wow, look — that frog totally blends in with the leaves."],
+    "keys": { "жаба": "frog", "листя": "leaf|leaves" }
+   },
+   {
+    "sit": "Колега вперше йде на корпоратив із дрес-кодом «усе чорне» й питає, що вдягти.",
+    "say": "Вдягни щось чорне, щоб злитися з усіма.",
+    "ans": ["Wear something black so you blend in.", "If you wear something black, you’ll blend in.", "Just wear black and you’ll blend in with everyone."],
+    "keys": { "чорне": "black", "вдягни": "wear*|put on" }
+   }
+  ]
+ },
+ {
+  "id": 881, "w": "query", "uk": "ставити під питання, уточнювати (суму, факт)", "lvl": "C1",
+  "forms": "query|queries|queried|queried|querying",
+  "near": "question*|challeng*|doubt*|check*|dispute*|ask about|asked about",
+  "tasks": [
+   {
+    "sit": "У ресторані тобі принесли рахунок, і одна сума здається завеликою. Ти звертаєшся до офіціанта.",
+    "say": "Я хотів би уточнити ось цю суму в рахунку.",
+    "ans": ["I’d like to query this amount on the bill.", "I want to query the total on this bill.", "Could I query this charge on the bill?"],
+    "keys": { "сума": "amount|total|charge|figure|sum", "рахунок": "bill|invoice|check" }
+   },
+   {
+    "sit": "Ти працюєш у бухгалтерії й пояснюєш колезі, чому оплату затримали.",
+    "say": "Клієнт засумнівався у двох позиціях рахунку-фактури.",
+    "ans": ["The client queried two items on the invoice.", "Two items on the invoice were queried by the client.", "The client has queried a couple of items on the invoice."],
+    "keys": { "рахунок": "invoice|bill", "позиції": "item*|line*|charge*" }
+   },
+   {
+    "sit": "Ти пишеш статтю для журналу, і редакторка повернула текст із запитанням на полях.",
+    "say": "Редакторка перепитала мене щодо однієї дати.",
+    "ans": ["The editor queried one of my dates.", "My editor queried a date in my article.", "The editor queried the date I’d given."],
+    "keys": { "дата": "date*" }
+   }
+  ]
+ },
+ {
+  "id": 882, "w": "question", "uk": "допитувати, розпитувати", "lvl": "B2",
+  "forms": "question|questions|questioned|questioned|questioning",
+  "near": "interrogat*|interview*|ask*|grill*",
+  "tasks": [
+   {
+    "sit": "Ти читаєш міські новини про пограбування ювелірного магазину.",
+    "say": "Поліція допитала трьох свідків.",
+    "ans": ["Police questioned three witnesses.", "Three witnesses were questioned by the police.", "The police have questioned three witnesses."],
+    "keys": { "три": "three|3", "свідки": "witness*" }
+   },
+   {
+    "sit": "У вашому будинку обікрали квартиру. Сусід питає, чи до тебе вже приходила поліція.",
+    "say": "Мене вже допитували вчора ввечері.",
+    "ans": ["I was already questioned last night.", "The police questioned me yesterday evening.", "They already questioned me last night."],
+    "keys": { "вчора ввечері": "last night|yesterday|evening" }
+   },
+   {
+    "sit": "Ти розповідаєш другові, чому запізнився на пересадку після кордону.",
+    "say": "На кордоні мене пів години розпитували про мету поїздки.",
+    "ans": ["At the border they questioned me for half an hour about my trip.", "I was questioned at the border for thirty minutes about the purpose of my trip.", "Border officers questioned me for half an hour about why I was travelling."],
+    "keys": { "кордон": "border|customs", "пів години": "half|thirty|30|minute*" }
+   }
+  ]
+ },
+ {
+  "id": 883, "w": "interrogate", "uk": "допитувати (жорстко)", "lvl": "C1",
+  "forms": "interrogate|interrogates|interrogated|interrogated|interrogating",
+  "near": "question*|grill*|interview*",
+  "tasks": [
+   {
+    "sit": "Ти переказуєш колегам новину про затримання підозрюваного в гучній справі.",
+    "say": "Підозрюваного допитували дванадцять годин.",
+    "ans": ["The suspect was interrogated for twelve hours.", "They interrogated the suspect for twelve hours.", "Police interrogated the suspect for 12 hours straight."],
+    "keys": { "підозрюваний": "suspect", "дванадцять": "twelve|12" }
+   },
+   {
+    "sit": "Ти повернувся з першого побачення, і мама засипала тебе запитаннями. Жалієшся другові.",
+    "say": "Мама допитувала мене, наче я злочинець.",
+    "ans": ["My mom interrogated me like I was a criminal.", "Mum was interrogating me as if I were a criminal.", "My mom totally interrogated me like some criminal."],
+    "keys": { "мама": "mom|mum|mother", "злочинець": "criminal|suspect" }
+   },
+   {
+    "sit": "Ти переказуєш другові початок шпигунського фільму.",
+    "say": "У фільмі шпигуна жорстко допитують у підвалі.",
+    "ans": ["In the film, the spy is brutally interrogated in a basement.", "They interrogate the spy in a basement in the movie.", "In the movie, they interrogate the spy in some basement."],
+    "keys": { "шпигун": "spy", "підвал": "basement|cellar" }
+   }
+  ]
+ },
+ {
+  "id": 884, "w": "survey", "uk": "опитувати", "lvl": "B2",
+  "forms": "survey|surveys|surveyed|surveyed|surveying",
+  "near": "ask*|poll*|interview*|question*",
+  "tasks": [
+   {
+    "sit": "Ти продакт-менеджер і звітуєш керівнику про дослідження нової функції застосунку.",
+    "say": "Ми опитали двісті клієнтів про нову функцію.",
+    "ans": ["We surveyed two hundred customers about the new feature.", "We surveyed 200 clients about the new feature.", "We’ve surveyed about 200 customers on the new feature."],
+    "keys": { "двісті": "hundred|200", "клієнти": "customer*|client*|user*" }
+   },
+   {
+    "sit": "Науковий керівник питає, як просувається твоя курсова з психології.",
+    "say": "Я опитую студентів про їхні звички сну.",
+    "ans": ["I’m surveying students about their sleep habits.", "I’m surveying students on their sleeping habits for my coursework.", "I’m surveying students about how they sleep for my project."],
+    "keys": { "студенти": "student*", "сон": "sleep*" }
+   },
+   {
+    "sit": "Ти обговорюєш із колегою новини про закон щодо заборони паління на зупинках.",
+    "say": "Більшість опитаних людей підтримує новий закон.",
+    "ans": ["Most of the people surveyed support the new law.", "Most people surveyed said they support the new law.", "The majority of people surveyed back the new law."],
+    "keys": { "більшість": "most|majority", "закон": "law|bill" }
+   }
+  ]
+ },
+ {
+  "id": 885, "w": "consult", "uk": "радитися, консультуватися", "lvl": "B2",
+  "forms": "consult|consults|consulted|consulted|consulting",
+  "near": "ask*|see a|see the|see your|talk to|speak to|check with",
+  "tasks": [
+   {
+    "sit": "Ти фармацевт в аптеці й видаєш покупцеві сильні ліки.",
+    "say": "Перш ніж приймати ці ліки, порадьтеся з лікарем.",
+    "ans": ["Consult your doctor before taking this medicine.", "Please consult a doctor before you take these pills.", "You should consult your doctor before taking this medication."],
+    "keys": { "лікар": "doctor|gp|physician", "ліки": "medic*|pill*|drug*|tablet*" }
+   },
+   {
+    "sit": "Партнер пропонує підписати договір просто зараз, але в ньому є дивні пункти.",
+    "say": "Я не можу вирішити сам, мені треба порадитися з юристом.",
+    "ans": ["I can’t decide on my own, I need to consult a lawyer.", "I need to consult our lawyer before I decide.", "I’d better consult a lawyer before deciding anything."],
+    "keys": { "юрист": "lawyer|legal|attorney", "вирішити": "decid*|decision" }
+   },
+   {
+    "sit": "Ви з братом збиралися разом вибирати машину для родинного бізнесу, а він щойно показав тобі ключі від нової.",
+    "say": "Ти купив машину, навіть не порадившись зі мною?",
+    "ans": ["You bought a car without even consulting me?", "You bought a car and didn’t even consult me?", "Wait, you bought a car without consulting me?"],
+    "keys": { "машина": "car", "купив": "bought|buy" }
+   }
+  ]
+ },
+ {
+  "id": 886, "w": "double-check", "uk": "перевіряти ще раз", "lvl": "B1",
+  "forms": "double-check|double-checks|double-checked|double-checked|double-checking",
+  "near": "check|checks|checked|checking|verif*|make sure|confirm*|recheck*",
+  "tasks": [
+   {
+    "sit": "Молодший колега збирається надіслати звіт клієнтові.",
+    "say": "Перевір ще раз цифри, перш ніж надсилати звіт.",
+    "ans": ["Double-check the numbers before you send the report.", "Please double-check the figures before sending the report.", "Can you double-check the numbers before the report goes out?"],
+    "keys": { "цифри": "number*|figure*|data", "звіт": "report" }
+   },
+   {
+    "sit": "Ви з родиною ледь не запізнилися в аеропорт. Дружина питає, чому ти так довго збирався.",
+    "say": "Я двічі перевірив паспорти й квитки перед виходом.",
+    "ans": ["I double-checked the passports and tickets before we left.", "I double-checked our passports and tickets before leaving.", "I double-checked the passports and tickets before we headed out."],
+    "keys": { "паспорти": "passport*", "квитки": "ticket*" }
+   },
+   {
+    "sit": "Ви вже вийшли з квартири, і тобі раптом здалося, що плиту не вимкнули.",
+    "say": "Перевір ще раз, чи вимкнена плита.",
+    "ans": ["Double-check that the stove is off.", "Can you double-check the stove is turned off?", "Go double-check the stove is off, please."],
+    "keys": { "плита": "stove|cooker|oven|hob", "вимкнена": "off" }
+   }
+  ]
+ },
+ {
+  "id": 887, "w": "recall", "uk": "пригадувати", "lvl": "B2",
+  "forms": "recall|recalls|recalled|recalled|recalling",
+  "near": "remember*|think of|thought of|come to mind|came to mind",
+  "tasks": [
+   {
+    "sit": "У супермаркеті ти зустрів колишнього однокласника, який радісно махає тобі рукою.",
+    "say": "Обличчя знайоме, але не можу пригадати його імʼя.",
+    "ans": ["His face is familiar, but I can’t recall his name.", "I know his face, but I can’t recall his name.", "I recognize him, but I just can’t recall his name."],
+    "keys": { "імʼя": "name" }
+   },
+   {
+    "sit": "Поліцейський питає, чи не помітив ти чогось дивного вчора біля під’їзду.",
+    "say": "Не пригадую, щоб бачив когось підозрілого.",
+    "ans": ["I don’t recall seeing anyone suspicious.", "I can’t recall seeing anybody suspicious.", "I don’t recall anyone suspicious, no."],
+    "keys": { "підозрілого": "suspicious|strange|odd|weird" }
+   },
+   {
+    "sit": "Твоя дівчина питає давнього друга, як ви з ним познайомилися, і він дивиться на тебе.",
+    "say": "Наскільки я пригадую, ми познайомилися на весіллі в Марти.",
+    "ans": ["As far as I recall, we met at Marta’s wedding.", "If I recall correctly, we met at Marta’s wedding.", "I recall we first met at Marta’s wedding."],
+    "keys": { "весілля": "wedding", "познайомилися": "met|meet" }
+   }
+  ]
+ },
+ {
+  "id": 888, "w": "reminisce", "uk": "згадувати (з ностальгією)", "lvl": "C1",
+  "forms": "reminisce|reminisces|reminisced|reminisced|reminiscing",
+  "near": "remember*|recall*|look back|looked back|looking back|nostalgi*",
+  "tasks": [
+   {
+    "sit": "Ти повернувся із зустрічі випускників, і дружина питає, як усе пройшло.",
+    "say": "Ми весь вечір згадували шкільні роки.",
+    "ans": ["We spent the whole evening reminiscing about our school days.", "We reminisced about school all evening.", "We were reminiscing about our school years all night."],
+    "keys": { "школа": "school", "вечір": "evening|night" }
+   },
+   {
+    "sit": "Бабуся знову дістала старий фотоальбом. Ти пояснюєш подрузі, чому ви так довго сиділи.",
+    "say": "Бабуся любить згадувати своє дитинство в селі.",
+    "ans": ["Grandma loves to reminisce about her childhood in the village.", "My grandmother likes reminiscing about growing up in the village.", "Grandma loves reminiscing about her village childhood."],
+    "keys": { "бабуся": "grandma|grandmother|gran|granny", "село": "village|countryside" }
+   },
+   {
+    "sit": "Ти зустрівся з другом після десяти років розлуки, і ви вже годину говорите про минуле.",
+    "say": "Досить згадувати минуле, розкажи, як у тебе зараз.",
+    "ans": ["Enough reminiscing, tell me what’s going on with you now.", "Let’s stop reminiscing — what are you up to these days?", "Okay, enough reminiscing, what’s new with you now?"],
+    "keys": { "досить": "enough|stop", "зараз": "now|these days|new" }
+   }
+  ]
+ },
+ {
+  "id": 889, "w": "look back", "uk": "озиратися назад (на минуле)", "lvl": "B2",
+  "forms": "look|looks|looked|looked|looking",
+  "tail": "back",
+  "near": "remember*|reflect*|think back|thought back|reminisc*",
+  "tasks": [
+   {
+    "sit": "Кінець грудня. Ти пишеш пост про свій рік у соцмережах.",
+    "say": "Озираючись на цей рік, я пишаюся тим, що зробив.",
+    "ans": ["Looking back on this year, I’m proud of what I’ve done.", "When I look back on this year, I’m proud of what I achieved.", "Looking back, I’m really proud of this year."],
+    "keys": { "пишаюся": "proud" }
+   },
+   {
+    "sit": "Друг кинув нудну роботу заради власної справи, а тепер вагається й шкодує.",
+    "say": "Не озирайся назад, просто йди далі.",
+    "ans": ["Don’t look back, just keep going.", "Don’t look back — just move forward.", "Stop looking back and keep moving."],
+    "keys": { "далі": "going|forward|moving|move on|keep" }
+   },
+   {
+    "sit": "Журналістка місцевого радіо розпитує тебе про переїзд до іншої країни десять років тому.",
+    "say": "Коли я озираюся назад, розумію, що той переїзд змінив моє життя.",
+    "ans": ["When I look back, I realize that move changed my life.", "Looking back, I can see that moving changed my life.", "I look back now and see that the move changed my life."],
+    "keys": { "переїзд": "mov*|relocat*", "життя": "life" }
+   }
+  ]
+ },
+ {
+  "id": 890, "w": "bear in mind", "uk": "мати на увазі, враховувати", "lvl": "B2",
+  "forms": "bear|bears|bore|borne|bearing",
+  "tail": "in mind",
+  "near": "remember*|keep in mind|kept in mind|keeping in mind|consider*|take into account|do not forget",
+  "tasks": [
+   {
+    "sit": "Друг планує відпустку в Іспанії в серпні й питає твоєї думки.",
+    "say": "Май на увазі, що в серпні там дуже спекотно.",
+    "ans": ["Bear in mind that it’s really hot there in August.", "Bear in mind it gets very hot there in August.", "Just bear in mind, August there is super hot."],
+    "keys": { "серпень": "august", "спекотно": "hot|heat" }
+   },
+   {
+    "sit": "Ти керівник проєкту й обговорюєш із дизайнерами ідеї для нового офісу.",
+    "say": "Будь ласка, майте на увазі, що бюджет обмежений.",
+    "ans": ["Please bear in mind that the budget is limited.", "Please bear in mind we have a limited budget.", "Bear in mind the budget is pretty tight."],
+    "keys": { "бюджет": "budget|money", "обмежений": "limit*|tight|small" }
+   },
+   {
+    "sit": "Знайомий хоче купити старе авто за безцінь. Ти маєш досвід із такими машинами.",
+    "say": "Май на увазі, що ремонт може коштувати дорожче за саму машину.",
+    "ans": ["Bear in mind that repairs might cost more than the car itself.", "Bear in mind the repairs could cost more than the car.", "Just bear this in mind: fixing it might cost more than the car."],
+    "keys": { "ремонт": "repair*|fix*", "машина": "car" }
+   }
+  ]
+ },
+ {
+  "id": 891, "w": "jot down", "uk": "швиденько записати, занотувати", "lvl": "B2",
+  "forms": "jot|jots|jotted|jotted|jotting",
+  "tail": "down",
+  "near": "write down|wrote down|written down|writing down|note down|noted down|scribbl*",
+  "tasks": [
+   {
+    "sit": "Знайомий по телефону диктує тобі адресу вечірки, а ти шукаєш ручку.",
+    "say": "Зачекай, я швидко запишу адресу.",
+    "ans": ["Wait, let me jot down the address.", "Hang on, I’ll jot the address down.", "Hold on, let me just jot that address down."],
+    "keys": { "адреса": "address" }
+   },
+   {
+    "sit": "Колега питає, як ти не забуваєш свої ідеї для нових проєктів.",
+    "say": "Я записую ідеї в блокнот, щойно вони зʼявляються.",
+    "ans": ["I jot down ideas in my notebook as soon as they come.", "I jot my ideas down in a notebook the moment I get them.", "Whenever I get an idea, I jot it down in my notebook."],
+    "keys": { "ідеї": "idea*", "блокнот": "notebook|notepad|note*" }
+   },
+   {
+    "sit": "Ти розповідаєш мамі, як пройшов прийом у лікаря.",
+    "say": "Лікар швиденько записав назви кількох ліків на папірці.",
+    "ans": ["The doctor jotted down a few medicine names on a piece of paper.", "The doctor jotted the drug names down on a scrap of paper.", "The doctor quickly jotted down some meds on a piece of paper."],
+    "keys": { "ліки": "medic*|drug*|meds|pill*", "папірець": "paper|note" }
+   }
+  ]
+ },
+ {
+  "id": 892, "w": "blank out", "uk": "раптом усе забути (порожньо в голові)", "lvl": "C1",
+  "forms": "blank|blanks|blanked|blanked|blanking",
+  "tail": "out",
+  "near": "forgot|forget|forgotten|go blank|went blank|gone blank|mind went|freez*|froze|drew a blank|draw a blank",
+  "tasks": [
+   {
+    "sit": "Ти вийшов з іспиту з математики, і друг питає, як усе пройшло.",
+    "say": "На іспиті в мене все вилетіло з голови, хоча я все вчив.",
+    "ans": ["I blanked out in the exam, even though I’d studied everything.", "I totally blanked out during the exam, although I had studied.", "I just blanked out on the exam, even after all that studying."],
+    "keys": { "іспит": "exam*|test", "вчив": "stud*|learn*|prepar*|revis*" }
+   },
+   {
+    "sit": "Ти вперше виступав зі стендапом у барі й розповідаєш друзям, як це було.",
+    "say": "Щойно я вийшов на сцену, у мене все вимкнулося в голові.",
+    "ans": ["When I walked on stage, I completely blanked out.", "I got on stage and just blanked out.", "The moment I stepped on stage, I blanked out."],
+    "keys": { "сцена": "stage" }
+   },
+   {
+    "sit": "Ти розповідаєш сестрі про невдалу співбесіду.",
+    "say": "Мене спитали про попередню зарплату, і в голові стало порожньо.",
+    "ans": ["They asked about my previous salary and I blanked out.", "In the interview, I blanked out when they asked about my last salary.", "They asked me about my old salary and I just blanked out."],
+    "keys": { "зарплата": "salary|pay" }
+   }
+  ]
+ },
+ {
+  "id": 893, "w": "slip your mind", "uk": "вилетіти з голови", "lvl": "B2",
+  "forms": "slip|slips|slipped|slipped|slipping",
+  "tail": "mind",
+  "near": "forgot|forget|forgotten|forgetting|did not remember",
+  "tasks": [
+   {
+    "sit": "Ти згадав про день народження подруги лише наступного ранку. Пишеш їй повідомлення.",
+    "say": "Вибач, твій день народження геть вилетів мені з голови.",
+    "ans": ["Sorry, your birthday completely slipped my mind.", "I’m so sorry — your birthday slipped my mind.", "Sorry, it totally slipped my mind that it was your birthday."],
+    "keys": { "день народження": "birthday*|b-day" }
+   },
+   {
+    "sit": "Керівник питає, чому клієнт досі не отримав звіт.",
+    "say": "Вибачте, мені вилетіло з голови надіслати звіт.",
+    "ans": ["Sorry, it slipped my mind to send the report.", "I’m sorry, sending the report completely slipped my mind.", "Sorry, the report totally slipped my mind."],
+    "keys": { "звіт": "report" }
+   },
+   {
+    "sit": "Ти їдеш у відрядження, а сусід по квартирі лишається вдома.",
+    "say": "Гляди, щоб не вилетіло з голови: у четвер прийде сантехнік.",
+    "ans": ["Don’t let it slip your mind — the plumber is coming on Thursday.", "Make sure it doesn’t slip your mind: the plumber is coming Thursday.", "Don’t let this slip your mind, the plumber is coming on Thursday."],
+    "keys": { "сантехнік": "plumber", "четвер": "thursday" }
+   }
+  ]
+ },
+ {
+  "id": 894, "w": "question", "uk": "ставити під сумнів", "lvl": "B2",
+  "forms": "question|questions|questioned|questioned|questioning",
+  "near": "doubt*|challeng*|query|queried|dispute*|disagree*",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш другові, як на нараді директор ухвалив дивне рішення, а всі мовчали.",
+    "say": "Ніхто не наважився поставити під сумнів рішення директора.",
+    "ans": ["Nobody dared to question the director’s decision.", "No one dared question the boss’s decision.", "Nobody had the guts to question the director’s decision."],
+    "keys": { "рішення": "decision*|choice", "ніхто": "nobody|no one|none" }
+   },
+   {
+    "sit": "Ви з батьком дивитеся футбол. Тренер знову залишив найкращого нападника на лаві.",
+    "say": "Уболівальники ставлять під сумнів вибір тренера.",
+    "ans": ["The fans are questioning the coach’s choice.", "Fans question the coach’s decision.", "Honestly, a lot of fans are questioning the coach’s choices."],
+    "keys": { "тренер": "coach|manager", "вибір": "choice*|decision*|selection|pick*" }
+   },
+   {
+    "sit": "Друг образився, бо ти перепитуєш, куди поділися спільні гроші на поїздку.",
+    "say": "Я не ставлю під сумнів твою чесність, просто хочу розібратися.",
+    "ans": ["I’m not questioning your honesty, I just want to understand.", "I don’t question your honesty — I just want to figure it out.", "I’m not questioning your honesty, I just want to get it clear."],
+    "keys": { "чесність": "honest*|integrity", "розібратися": "understand|figure|clear|sort" }
+   }
+  ]
+ },
+ {
+  "id": 895, "w": "suspect", "uk": "підозрювати", "lvl": "B2",
+  "forms": "suspect|suspects|suspected|suspected|suspecting",
+  "near": "think|thought|guess*|doubt*|feel|felt|believe*|bet",
+  "tasks": [
+   {
+    "sit": "Сестра каже, що її хлопець учора «працював допізна», але історія якась дивна.",
+    "say": "Я підозрюю, що він бреше про вчорашній вечір.",
+    "ans": ["I suspect he’s lying about last night.", "I suspect that he’s not telling the truth about last night.", "I suspect he’s lying about what happened last night."],
+    "keys": { "бреше": "lie|lying|lied|liar|truth", "вчора": "last night|yesterday" }
+   },
+   {
+    "sit": "Ти працюєш у службі безпеки й доповідаєш керівництву про дивну активність на сервері.",
+    "say": "Ми підозрюємо, що хтось зламав нашу базу даних.",
+    "ans": ["We suspect someone has hacked our database.", "We suspect that our database was hacked.", "We suspect somebody hacked into our database."],
+    "keys": { "зламав": "hack*|breach*|broke", "база даних": "database|data|system" }
+   },
+   {
+    "sit": "Після обіду в тебе часто свербить горло. Ти пояснюєш колезі, чому йдеш на аналізи.",
+    "say": "Лікар підозрює, що в мене алергія на горіхи.",
+    "ans": ["The doctor suspects I’m allergic to nuts.", "The doctor suspects that I have a nut allergy.", "My doctor suspects I might be allergic to nuts."],
+    "keys": { "алергія": "allerg*", "горіхи": "nut*" }
+   }
+  ]
+ },
+ {
+  "id": 896, "w": "wonder", "uk": "цікаво, чи…; замислюватися", "lvl": "A2",
+  "forms": "wonder|wonders|wondered|wondered|wondering",
+  "near": "think*|thought|ask*|curious|interest*",
+  "tasks": [
+   {
+    "sit": "Ви з подругою чекаєте однокурсника в кафе, а він не відповідає на повідомлення.",
+    "say": "Цікаво, чи він сьогодні прийде.",
+    "ans": ["I wonder if he’ll come today.", "I wonder whether he’s coming today.", "I wonder if he’s going to show up today."],
+    "keys": { "сьогодні": "today|tonight", "прийде": "come|coming|show up" }
+   },
+   {
+    "sit": "Ти вже дві години сидиш в аеропорту, а на табло просто пише «затримано».",
+    "say": "Я весь час думаю, чому затримали рейс.",
+    "ans": ["I keep wondering why the flight is delayed.", "I wonder why our flight is delayed.", "I’ve been wondering why they delayed the flight."],
+    "keys": { "рейс": "flight|plane", "затримали": "delay*|late" }
+   },
+   {
+    "sit": "Ви з сусідкою гуляєте повз старий особняк за високим парканом.",
+    "say": "Мені завжди було цікаво, хто живе в тому великому будинку.",
+    "ans": ["I’ve always wondered who lives in that big house.", "I always wonder who lives in that huge house.", "I’ve always wondered who lives in that big old house."],
+    "keys": { "будинок": "house|home|mansion", "великий": "big|huge|large" }
+   }
+  ]
+ },
+ {
+  "id": 897, "w": "second-guess", "uk": "сумніватися (у вже ухваленому рішенні)", "lvl": "C1",
+  "forms": "second-guess|second-guesses|second-guessed|second-guessed|second-guessing",
+  "near": "doubt*|overthink*|question*|hesitat*",
+  "tasks": [
+   {
+    "sit": "Подруга перейшла на нову роботу й тепер щодня питає, чи не помилилася.",
+    "say": "Перестань сумніватися в собі, ти ухвалила правильне рішення.",
+    "ans": ["Stop second-guessing yourself, you made the right decision.", "Don’t second-guess yourself — you made the right call.", "You need to stop second-guessing yourself; it was the right decision."],
+    "keys": { "себе": "yourself", "правильне": "right|correct|good" }
+   },
+   {
+    "sit": "Ти отримав результати тесту й розповідаєш одногрупнику, що пішло не так.",
+    "say": "Я засумнівався в собі й переправив правильні відповіді на неправильні.",
+    "ans": ["I second-guessed myself and changed the right answers to wrong ones.", "I kept second-guessing my answers and changed the correct ones.", "I second-guessed everything and ended up changing the right answers."],
+    "keys": { "відповіді": "answer*|ones", "переправив": "chang*" }
+   },
+   {
+    "sit": "Ти скаржишся другові на нового керівника.",
+    "say": "Мене дратує, що керівник постійно перевіряє й ставить під сумнів мої рішення.",
+    "ans": ["It annoys me that my manager keeps second-guessing my decisions.", "It bothers me that my boss always second-guesses my decisions.", "My manager keeps second-guessing every decision I make, and I hate it."],
+    "keys": { "керівник": "manager|boss|supervisor", "рішення": "decision*|choice*|call*" }
+   }
+  ]
+ }
+]

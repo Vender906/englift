@@ -1,0 +1,627 @@
+[
+ {
+  "id": 391, "w": "reassure", "uk": "заспокоювати, запевняти (що все гаразд)", "lvl": "B2",
+  "forms": "reassure|reassures|reassured|reassured|reassuring",
+  "near": "calm*|comfort*|assure*|soothe*|convince*|put my mind at ease|told me not to worry",
+  "tasks": [
+   {
+    "sit": "Ти хвилювався через результати аналізів, але лікар усе пояснив.",
+    "say": "Лікар мене заспокоїв: нічого серйозного.",
+    "ans": ["The doctor reassured me that it's nothing serious.", "The doctor reassured me it was nothing serious.", "The doctor reassured me, it's nothing serious at all."],
+    "keys": { "лікар": "doctor|doc", "нічого серйозного": "nothing serious|not serious|fine|ok|nothing to worry" }
+   },
+   {
+    "sit": "Твоя донька плакала ввечері перед першим днем у новій школі. Ти розповідаєш про це другові.",
+    "say": "Я намагався переконати доньку, що все буде добре.",
+    "ans": ["I tried to reassure my daughter that everything would be fine.", "I tried reassuring my daughter that it would all be OK.", "I did my best to reassure my daughter it would be fine."],
+    "keys": { "донька": "daughter|her|kid|girl", "все буде добре": "fine|ok|okay|all right|alright|good" }
+   },
+   {
+    "sit": "Після чуток про скорочення команда нервує. Ти керівник і збираєш усіх на коротку зустріч.",
+    "say": "Хочу вас заспокоїти: ніхто не втратить роботу.",
+    "ans": ["I want to reassure you that nobody will lose their job.", "Let me reassure you: no one is going to lose their job.", "I just want to reassure everyone, no one is losing their job."],
+    "keys": { "ніхто": "nobody|no one|none|not", "робота": "job*|work|position" }
+   }
+  ]
+ },
+ {
+  "id": 392, "w": "apologise", "uk": "вибачатися, перепрошувати (BrE)", "lvl": "B2",
+  "forms": "apologise/apologize|apologises/apologizes|apologised/apologized|apologised/apologized|apologising/apologizing",
+  "near": "sorry|say sorry|said sorry|beg your pardon|excuse me|forgive",
+  "tasks": [
+   {
+    "sit": "Ти запізнився на зустріч із клієнтом на двадцять хвилин.",
+    "say": "Перепрошую за запізнення.",
+    "ans": ["I apologise for being late.", "I apologise for the delay.", "I do apologise for being so late."],
+    "keys": { "запізнення": "late|delay*|lateness|wait*" }
+   },
+   {
+    "sit": "Учора під час суперечки ти нагрубив другові. Тепер розповідаєш про це сестрі.",
+    "say": "Я маю перед ним вибачитися.",
+    "ans": ["I need to apologise to him.", "I should apologise to him.", "I really have to apologise to him."],
+    "keys": { "перед ним": "him|friend" }
+   },
+   {
+    "sit": "Ти працюєш у кавʼярні, і клієнтові принесли не те замовлення.",
+    "say": "Щиро перепрошуємо, зараз усе виправимо.",
+    "ans": ["We sincerely apologise, we'll fix it right away.", "We sincerely apologise, and we'll sort it out now.", "We do apologise, we'll fix that for you right now."],
+    "keys": { "виправимо": "fix*|sort*|correct*|change*|replace*|new" }
+   }
+  ]
+ },
+ {
+  "id": 393, "w": "assure", "uk": "запевняти", "lvl": "B2",
+  "forms": "assure|assures|assured|assured|assuring",
+  "near": "promise*|guarantee*|reassure*|swear|swore|sworn|convince*",
+  "tasks": [
+   {
+    "sit": "Ти працюєш в інтернет-магазині. Клієнт хвилюється, чи посилка приїде до свят.",
+    "say": "Запевняю вас, посилка прийде вчасно.",
+    "ans": ["I assure you the parcel will arrive on time.", "I can assure you that your package will arrive on time.", "I assure you, it'll get there in time."],
+    "keys": { "вчасно": "on time|in time|before|time" }
+   },
+   {
+    "sit": "Ти розповідаєш мамі, як уперше спробував рафтинг і спочатку дуже нервував.",
+    "say": "Інструктор запевнив нас, що це абсолютно безпечно.",
+    "ans": ["The instructor assured us it was completely safe.", "The instructor assured us that it's totally safe.", "Our instructor assured us it was perfectly safe."],
+    "keys": { "безпечно": "safe*", "інструктор": "instructor|guide|coach" }
+   },
+   {
+    "sit": "Друг сумнівається, що ти прийдеш на його перший стендап-виступ.",
+    "say": "Запевняю тебе, я сидітиму в першому ряду.",
+    "ans": ["I assure you I'll be in the front row.", "I can assure you I'll be sitting in the front row.", "I assure you, I'll be right there in the front row."],
+    "keys": { "перший ряд": "front row|first row|front" }
+   }
+  ]
+ },
+ {
+  "id": 394, "w": "acknowledge", "uk": "визнавати (помилку, факт)", "lvl": "C1",
+  "forms": "acknowledge|acknowledges|acknowledged|acknowledged|acknowledging",
+  "near": "admit*|accept*|recogni*|own up|owned up|confess*",
+  "tasks": [
+   {
+    "sit": "Після тижневого збою в роботі банківського додатка ти обговорюєш новини з колегою.",
+    "say": "Банк нарешті визнав, що припустився помилки.",
+    "ans": ["The bank finally acknowledged that it had made a mistake.", "The bank has finally acknowledged its mistake.", "The bank finally acknowledged they'd made a mistake."],
+    "keys": { "банк": "bank|they|company", "помилка": "mistake*|error*|wrong" }
+   },
+   {
+    "sit": "Ти посварився з братом і тепер хочеш помиритися.",
+    "say": "Я визнаю, що теж був неправий.",
+    "ans": ["I acknowledge that I was wrong too.", "I acknowledge I was also wrong.", "Look, I acknowledge I was wrong as well."],
+    "keys": { "неправий": "wrong|mistake*|fault" }
+   },
+   {
+    "sit": "Ти з сусідом обговорюєш міські новини про постійні затори на мості.",
+    "say": "Мер нарешті визнав, що проблема існує.",
+    "ans": ["The mayor finally acknowledged that the problem exists.", "The mayor has finally acknowledged there is a problem.", "The mayor finally acknowledged the problem."],
+    "keys": { "мер": "mayor|city", "проблема": "problem*|issue*" }
+   }
+  ]
+ },
+ {
+  "id": 395, "w": "declare", "uk": "оголошувати, проголошувати (офіційно)", "lvl": "B2",
+  "forms": "declare|declares|declared|declared|declaring",
+  "near": "announc*|proclaim*|state|stated|pronounc*",
+  "tasks": [
+   {
+    "sit": "На уроці історії вчителька питає, що сталося в 1991 році.",
+    "say": "У 1991 році Україна проголосила незалежність.",
+    "ans": ["In 1991 Ukraine declared independence.", "Ukraine declared its independence in 1991.", "Ukraine declared independence back in 1991."],
+    "keys": { "незалежність": "independen*", "1991": "1991|ninety*" }
+   },
+   {
+    "sit": "Митник в аеропорту питає, чи везеш ти щось, що треба задекларувати.",
+    "say": "Ні, мені нічого декларувати.",
+    "ans": ["No, I have nothing to declare.", "No, I've got nothing to declare.", "No, nothing to declare."],
+    "keys": { "нічого": "nothing|not" }
+   },
+   {
+    "sit": "Ти дивишся з батьками новини про сильну повінь.",
+    "say": "Влада оголосила надзвичайний стан у регіоні.",
+    "ans": ["The government declared a state of emergency in the region.", "The authorities have declared a state of emergency in the region.", "They've declared a state of emergency across the region."],
+    "keys": { "надзвичайний стан": "emergency", "регіон": "region|area|province|oblast" }
+   }
+  ]
+ },
+ {
+  "id": 396, "w": "quote", "uk": "називати ціну", "lvl": "B2",
+  "forms": "quote|quotes|quoted|quoted|quoting",
+  "near": "estimat*|charge*|ask* for|asked for|offer*|price*",
+  "tasks": [
+   {
+    "sit": "Сантехнік подивився на старі труби у ванній. Ти розповідаєш дружині, скільки це коштуватиме.",
+    "say": "Він назвав ціну — дві тисячі гривень.",
+    "ans": ["He quoted two thousand hryvnias.", "He quoted me two thousand hryvnias.", "He quoted two thousand hryvnias for the job."],
+    "keys": { "дві тисячі": "two thousand|thousand|2000" }
+   },
+   {
+    "sit": "Ти порівнюєш ціни на ремонт машини в різних автосервісах.",
+    "say": "В іншому сервісі мені назвали вдвічі нижчу ціну.",
+    "ans": ["Another garage quoted me half the price.", "The other garage quoted a price that was half as much.", "Another place quoted me half that."],
+    "keys": { "вдвічі нижча": "half|cheaper|less|lower", "сервіс": "garage|place|shop|service|mechanic*" }
+   },
+   {
+    "sit": "Ти телефонуєш у компанію, що займається перевезенням речей під час переїзду.",
+    "say": "Чи можете ви назвати мені приблизну ціну за переїзд?",
+    "ans": ["Could you quote me a rough price for the move?", "Can you quote me a price for the move?", "Would you be able to quote me a rough figure for the move?"],
+    "keys": { "переїзд": "move|moving|relocat*|removal*", "ціна": "price|cost|figure|estimate" }
+   }
+  ]
+ },
+ {
+  "id": 397, "w": "gossip", "uk": "пліткувати", "lvl": "B2",
+  "forms": "gossip|gossips|gossiped|gossiped|gossiping",
+  "near": "talk behind|talking behind|talk about|talking about|talked about|spread rumo*|spreading rumo*|chat*",
+  "tasks": [
+   {
+    "sit": "На офісній кухні колеги знову обговорюють нову менеджерку, поки її немає.",
+    "say": "Вони знову пліткують про нову менеджерку.",
+    "ans": ["They're gossiping about the new manager again.", "They keep gossiping about the new manager.", "They're at it again, gossiping about the new manager."],
+    "keys": { "менеджерка": "manager|boss", "знову": "again|keep|always" }
+   },
+   {
+    "sit": "Ти приїхав у село до бабусі, а сусідки, як завжди, сидять на лавці біля воріт.",
+    "say": "Сусідки цілими днями тільки й роблять, що пліткують.",
+    "ans": ["The neighbors do nothing but gossip all day.", "The neighbours gossip all day long.", "Those neighbours just gossip all day, every day."],
+    "keys": { "сусідки": "neighbo*|ladies|women", "цілими днями": "all day|every day|day*" }
+   },
+   {
+    "sit": "Подруга починає розповідати тобі чужу таємницю спільної знайомої.",
+    "say": "Не люблю пліткувати про друзів.",
+    "ans": ["I don't like to gossip about friends.", "I don't like gossiping about my friends.", "I'd rather not gossip about our friends."],
+    "keys": { "друзі": "friend*", "не": "not|never" }
+   }
+  ]
+ },
+ {
+  "id": 398, "w": "nag", "uk": "дошкуляти, пиляти (докорами)", "lvl": "B2",
+  "forms": "nag|nags|nagged|nagged|nagging",
+  "near": "pester*|bug|bugs|bugged|bugging|bother*|keep telling|keeps telling|keep asking|keeps asking|on at me|on my case|complain*",
+  "tasks": [
+   {
+    "sit": "Мама щодня нагадує тобі прибрати в кімнаті.",
+    "say": "Мамо, досить мене пиляти, я приберу!",
+    "ans": ["Mom, stop nagging me, I'll clean it!", "Mum, please stop nagging, I'll tidy up!", "Stop nagging me, Mom, I'll clean my room!"],
+    "keys": { "досить": "stop|enough|quit", "приберу": "clean*|tidy*|room" }
+   },
+   {
+    "sit": "Ти пояснюєш другові, чому нарешті взявся лагодити кран на кухні.",
+    "say": "Дружина весь час пиляє мене через цей кран.",
+    "ans": ["My wife keeps nagging me about the tap.", "My wife is always nagging me about that tap.", "My wife has been nagging me about the faucet for weeks."],
+    "keys": { "дружина": "wife|partner", "кран": "tap|faucet|sink" }
+   },
+   {
+    "sit": "Колега вже тиждень не здає звіт, а тобі потрібні його цифри.",
+    "say": "Не хочу тобі дошкуляти, але коли буде звіт?",
+    "ans": ["I don't want to nag, but when will the report be ready?", "Sorry to nag, but when is the report coming?", "I hate to nag, but any news on the report?"],
+    "keys": { "звіт": "report" }
+   }
+  ]
+ },
+ {
+  "id": 399, "w": "bargain", "uk": "торгуватися", "lvl": "B2",
+  "forms": "bargain|bargains|bargained|bargained|bargaining",
+  "near": "haggl*|negotiat*|beat down|beat him down|knock down|knocked down|knock off|knocked off",
+  "tasks": [
+   {
+    "sit": "Ви з другом на східному базарі в Стамбулі й хочете купити килим.",
+    "say": "Тут усі торгуються, давай і ми спробуємо.",
+    "ans": ["Everyone bargains here, let's try too.", "Everybody bargains here, so let's give it a try.", "Everyone bargains here, let's have a go too."],
+    "keys": { "усі": "everyone|everybody|all|people", "спробуємо": "try|go|shot" }
+   },
+   {
+    "sit": "Ти продаєш стару машину, а покупець пропонує на тисячу доларів менше.",
+    "say": "Я не торгуюся, ціна остаточна.",
+    "ans": ["I don't bargain, the price is final.", "I'm not bargaining, that's the final price.", "Sorry, I don't bargain; the price is fixed."],
+    "keys": { "ціна": "price", "остаточна": "final|fixed|firm" }
+   },
+   {
+    "sit": "Подруга хвалиться, що купила вживаний велосипед набагато дешевше, ніж було в оголошенні.",
+    "say": "Ти торгувалася з продавцем?",
+    "ans": ["Did you bargain with the seller?", "Did you bargain with the guy who was selling it?", "Wait, did you actually bargain with the seller?"],
+    "keys": { "продавець": "seller|salesman|guy|him|her|them|owner" }
+   }
+  ]
+ },
+ {
+  "id": 400, "w": "reject", "uk": "відхиляти (пропозицію, ідею, заявку)", "lvl": "B2",
+  "forms": "reject|rejects|rejected|rejected|rejecting",
+  "near": "turn down|turned down|turning down|decline*|refuse*|say no|said no|dismiss*",
+  "tasks": [
+   {
+    "sit": "Ти подавав проєкт на конкурс грантів і сьогодні отримав відповідь.",
+    "say": "Мою заявку відхилили.",
+    "ans": ["My application was rejected.", "They rejected my application.", "They've rejected my application."],
+    "keys": { "заявка": "application|proposal|request|bid" }
+   },
+   {
+    "sit": "Друг питає, чому ти не перейшов у ту компанію, яка тебе кликала.",
+    "say": "Я відхилив їхню пропозицію, бо зарплата була замала.",
+    "ans": ["I rejected their offer because the salary was too low.", "I rejected the offer since the pay was too low.", "I rejected their offer, the money just wasn't enough."],
+    "keys": { "пропозиція": "offer", "зарплата": "salary|pay|money|wage*" }
+   },
+   {
+    "sit": "Ти запропонував рідним поїхати влітку в гори.",
+    "say": "Усі відхилили мою ідею — хочуть на море.",
+    "ans": ["Everyone rejected my idea, they want to go to the sea.", "They all rejected my idea because they want the beach.", "Everybody rejected my idea; they'd rather go to the seaside."],
+    "keys": { "ідея": "idea|plan|suggestion", "море": "sea|beach|seaside|coast" }
+   }
+  ]
+ },
+ {
+  "id": 401, "w": "approve", "uk": "схвалювати", "lvl": "B2",
+  "forms": "approve|approves|approved|approved|approving",
+  "near": "okay*|okayed|sign off|signed off|agree*|accept*|green light|allow*|confirm*|authori*",
+  "tasks": [
+   {
+    "sit": "Ти ще в березні просив відпустку на два тижні в серпні.",
+    "say": "Бос нарешті схвалив мою відпустку.",
+    "ans": ["My boss finally approved my vacation.", "The boss has finally approved my holiday.", "My boss finally approved my time off!"],
+    "keys": { "відпустка": "vacation|holiday*|leave|time off|days off", "бос": "boss|manager|director" }
+   },
+   {
+    "sit": "Ви з чоловіком місяць чекали відповіді від банку щодо кредиту на квартиру.",
+    "say": "Банк схвалив наш кредит!",
+    "ans": ["The bank approved our loan!", "Our loan has been approved by the bank!", "Guess what, the bank approved our mortgage!"],
+    "keys": { "банк": "bank", "кредит": "loan|mortgage|credit" }
+   },
+   {
+    "sit": "Ти хочеш зробити татуювання на всю руку й ділишся сумнівами з другом.",
+    "say": "Батьки ніколи цього не схвалять.",
+    "ans": ["My parents will never approve of this.", "My parents would never approve.", "My parents are never going to approve of it."],
+    "keys": { "батьки": "parents|mom|dad|mum", "ніколи": "never|not" }
+   }
+  ]
+ },
+ {
+  "id": 402, "w": "recommend", "uk": "рекомендувати, радити", "lvl": "B1",
+  "forms": "recommend|recommends|recommended|recommended|recommending",
+  "near": "advise*|suggest*|should read|should try|should see|check out|must read",
+  "tasks": [
+   {
+    "sit": "Колега шукає, що почитати у відпустці.",
+    "say": "Раджу тобі цю книжку — не відірвешся.",
+    "ans": ["I recommend this book, you won't be able to put it down.", "I'd recommend this book; you won't put it down.", "I really recommend this book, you won't want to put it down."],
+    "keys": { "книжка": "book|novel" }
+   },
+   {
+    "sit": "Ти в готелі в незнайомому місті й питаєш адміністратора про вечерю.",
+    "say": "Можете порадити якийсь хороший ресторан поблизу?",
+    "ans": ["Can you recommend a good restaurant nearby?", "Could you recommend a good restaurant near here?", "Is there a good restaurant nearby you'd recommend?"],
+    "keys": { "ресторан": "restaurant|place to eat|place", "поблизу": "nearby|near|around|close|local" }
+   },
+   {
+    "sit": "Друг уже тиждень кашляє й не знає, що купити в аптеці.",
+    "say": "Мій лікар рекомендував мені ці краплі — вони допомагають.",
+    "ans": ["My doctor recommended these drops, they help.", "My doctor recommended these drops to me, and they work.", "My doctor recommended these drops, and they really help."],
+    "keys": { "лікар": "doctor|gp|doc", "краплі": "drop*|syrup|medicine" }
+   }
+  ]
+ },
+ {
+  "id": 403, "w": "warn", "uk": "попереджати", "lvl": "B1",
+  "forms": "warn|warns|warned|warned|warning",
+  "near": "told you|tell you|alert*|caution*|heads up|let you know",
+  "tasks": [
+   {
+    "sit": "Ти бачиш прогноз погоди на завтра й пишеш сестрі, яка збирається за місто.",
+    "say": "Попереджаю: завтра буде буря, нікуди не їдь.",
+    "ans": ["I'm warning you: there'll be a storm tomorrow, don't go anywhere.", "Just warning you, there's a storm tomorrow, so stay home.", "I'm warning you, big storm tomorrow, so stay put."],
+    "keys": { "буря": "storm|wind*|weather", "завтра": "tomorrow" }
+   },
+   {
+    "sit": "Друг зламав руку, катаючись на скейті з даху гаража.",
+    "say": "Я ж тебе попереджав, що це небезпечно!",
+    "ans": ["I warned you it was dangerous!", "I did warn you that it was dangerous!", "Come on, I warned you it was risky!"],
+    "keys": { "небезпечно": "dangerous|danger|unsafe|risky|careful" }
+   },
+   {
+    "sit": "Твій колега знову запізнився на роботу, і начальник це помітив.",
+    "say": "Бос уже попередив його, що наступного разу буде штраф.",
+    "ans": ["The boss has already warned him that next time he'll be fined.", "The boss already warned him there'll be a fine next time.", "The boss warned him that next time he gets fined."],
+    "keys": { "штраф": "fine*|penalt*|pay", "наступного разу": "next time|again" }
+   }
+  ]
+ },
+ {
+  "id": 404, "w": "threaten", "uk": "погрожувати", "lvl": "B2",
+  "forms": "threaten|threatens|threatened|threatened|threatening",
+  "near": "blackmail*|intimidat*|warn*|menac*|scare*",
+  "tasks": [
+   {
+    "sit": "Сусід злиться, що твій пес гавкає, коли тебе немає вдома.",
+    "say": "Сусід погрожує викликати поліцію.",
+    "ans": ["My neighbor is threatening to call the police.", "The neighbour threatened to call the police.", "My neighbour keeps threatening to call the cops."],
+    "keys": { "поліція": "police|cops" }
+   },
+   {
+    "sit": "Працівники заводу три місяці не отримують зарплату. Ти обговорюєш це з колегою.",
+    "say": "Вони погрожують страйком.",
+    "ans": ["They're threatening to go on strike.", "They threatened to strike.", "They're threatening a strike."],
+    "keys": { "страйк": "strike*" }
+   },
+   {
+    "sit": "Ти читаєш новини про гучний судовий процес.",
+    "say": "Свідок каже, що йому погрожували.",
+    "ans": ["The witness says he was threatened.", "The witness says someone threatened him.", "The witness says people had threatened him."],
+    "keys": { "свідок": "witness" }
+   }
+  ]
+ },
+ {
+  "id": 405, "w": "tease", "uk": "дражнити, підколювати", "lvl": "B2",
+  "forms": "tease|teases|teased|teased|teasing",
+  "near": "mock*|make fun|made fun|making fun|laugh at|laughing at|pick on|picking on|bull*",
+  "tasks": [
+   {
+    "sit": "Молодший брат плаче, бо старший сміється з його нових окулярів.",
+    "say": "Не дражни брата через окуляри!",
+    "ans": ["Don't tease your brother about his glasses!", "Stop teasing your brother about his glasses!", "Hey, quit teasing your brother about his glasses!"],
+    "keys": { "брат": "brother|him", "окуляри": "glasses|specs" }
+   },
+   {
+    "sit": "Друзі постійно жартують із твого акценту, і новий знайомий питає, чи тебе це не ображає.",
+    "say": "Та вони просто мене підколюють, я не ображаюся.",
+    "ans": ["They're just teasing me, I don't mind.", "They're only teasing me, I'm not offended.", "Oh, they're just teasing, I don't take it personally."],
+    "keys": { "просто": "just|only", "не ображаюся": "not mind|not offended|not upset|personally|fine|not care" }
+   },
+   {
+    "sit": "Твій племінник махає печивом перед носом собаки й не дає його.",
+    "say": "Не дражни собаку, дай їй печиво.",
+    "ans": ["Don't tease the dog, give it the cookie.", "Stop teasing the dog and give him the cookie.", "Quit teasing the dog, just give her the biscuit."],
+    "keys": { "собака": "dog|puppy", "печиво": "cookie*|biscuit*|treat*" }
+   }
+  ]
+ },
+ {
+  "id": 406, "w": "flatter", "uk": "лестити", "lvl": "C1",
+  "forms": "flatter|flatters|flattered|flattered|flattering",
+  "near": "compliment*|suck up|sucking up|kiss up|kissing up|butter up|buttering up|praise*|sweet-talk*",
+  "tasks": [
+   {
+    "sit": "Колега на кожній нараді захоплюється кожною ідеєю начальника.",
+    "say": "Він просто лестить босові, щоб отримати підвищення.",
+    "ans": ["He's just flattering the boss to get a promotion.", "He only flatters the boss because he wants a promotion.", "He's just flattering the boss so he'll get promoted."],
+    "keys": { "бос": "boss|manager", "підвищення": "promot*|raise|bonus" }
+   },
+   {
+    "sit": "Хтось на вечірці каже, що ти схожий на відомого кіноактора.",
+    "say": "Ви мені лестите — я зовсім не схожий на актора!",
+    "ans": ["You're flattering me, I don't look like an actor at all!", "You flatter me, I look nothing like a movie star!", "Oh, you're just flattering me, I'm no film star!"],
+    "keys": { "актор": "actor|movie star|star|film star" }
+   },
+   {
+    "sit": "Продавчиня в магазині одягу каже, що тобі пасує абсолютно все, що ти приміряв.",
+    "say": "Здається, вона просто лестить, щоб я щось купив.",
+    "ans": ["I think she's just flattering me so I'll buy something.", "I feel like she's only flattering me to make me buy something.", "She's just flattering me to get me to buy stuff."],
+    "keys": { "купив": "buy*|bought|purchas*|sale" }
+   }
+  ]
+ },
+ {
+  "id": 407, "w": "analyze", "uk": "аналізувати", "lvl": "B2",
+  "forms": "analyze/analyse|analyzes/analyses|analyzed/analysed|analyzed/analysed|analyzing/analysing",
+  "near": "examine*|study|studied|studies|studying|look into|looked into|break down|evaluat*|assess*|review*",
+  "tasks": [
+   {
+    "sit": "Ти маркетолог, і керівник питає, як спрацювала рекламна кампанія.",
+    "say": "Мені потрібен день, щоб проаналізувати дані.",
+    "ans": ["I need a day to analyze the data.", "I'll need one day to analyze the data.", "Give me a day to analyze the numbers."],
+    "keys": { "дані": "data|numbers|figures|results|stats|statistics", "день": "day" }
+   },
+   {
+    "sit": "Ти тренер дитячої футбольної команди. Після програного матчу ви разом дивитеся запис гри.",
+    "say": "Давайте проаналізуємо наші помилки.",
+    "ans": ["Let's analyze our mistakes.", "Let's analyze the mistakes we made.", "OK, let's analyze what we did wrong."],
+    "keys": { "помилки": "mistake*|error*|wrong" }
+   },
+   {
+    "sit": "Подруга вже годину розбирає одне коротке повідомлення від хлопця.",
+    "say": "Ти занадто аналізуєш кожне його слово.",
+    "ans": ["You're analyzing every word he writes too much.", "You analyze every single word of his way too much.", "Stop analyzing every little word he sends!"],
+    "keys": { "кожне слово": "every|each|word*", "занадто": "too much|stop|overly|so much" }
+   }
+  ]
+ },
+ {
+  "id": 408, "w": "evaluate", "uk": "оцінювати (якість, придатність)", "lvl": "B2",
+  "forms": "evaluate|evaluates|evaluated|evaluated|evaluating",
+  "near": "assess*|judge*|rate|rated|rates|rating|review*|grade*|apprais*|analy*|test*",
+  "tasks": [
+   {
+    "sit": "Ти проводиш співбесіди на посаду дизайнера й пояснюєш колезі, як усе влаштовано.",
+    "say": "Ми оцінюємо кожного кандидата за трьома критеріями.",
+    "ans": ["We evaluate each candidate on three criteria.", "We evaluate every candidate based on three criteria.", "We evaluate each candidate against three main criteria."],
+    "keys": { "кандидат": "candidate*|applicant*|person|people", "три критерії": "three|3|criteria|criterion" }
+   },
+   {
+    "sit": "Ти викладач і на першому занятті пояснюєш студентам правила курсу.",
+    "say": "Вашу роботу оцінюватимуть два викладачі.",
+    "ans": ["Your work will be evaluated by two teachers.", "Two teachers will evaluate your work.", "Two different teachers are going to evaluate your work."],
+    "keys": { "робота": "work|project|paper|essay", "два викладачі": "two|2|teacher*|professor*|lecturer*" }
+   },
+   {
+    "sit": "Ти обираєш між двома квартирами для оренди й не можеш вирішити.",
+    "say": "Треба спокійно оцінити всі плюси й мінуси.",
+    "ans": ["I need to calmly evaluate all the pros and cons.", "I have to evaluate the pros and cons carefully.", "Let me evaluate the pros and cons properly first."],
+    "keys": { "плюси й мінуси": "pros|cons|advantage*|disadvantage*|plus*|minus*" }
+   }
+  ]
+ },
+ {
+  "id": 409, "w": "assess", "uk": "оцінювати (ситуацію, шкоду, ризик)", "lvl": "B2",
+  "forms": "assess|assesses|assessed|assessed|assessing",
+  "near": "evaluat*|judge*|estimat*|analy*|examin*|check*|inspect*|review*|size up",
+  "tasks": [
+   {
+    "sit": "Після граду твоя машина вся в ямках. Ти розповідаєш про це колезі.",
+    "say": "Завтра приїде страховий агент оцінити збитки.",
+    "ans": ["An insurance agent is coming tomorrow to assess the damage.", "Tomorrow an insurance agent will come to assess the damage.", "The insurance guy is coming tomorrow to assess the damage."],
+    "keys": { "збитки": "damage*|loss*", "завтра": "tomorrow" }
+   },
+   {
+    "sit": "Ти впав із велосипеда, і тебе привезли в травмпункт. Ти пишеш мамі.",
+    "say": "Лікар спершу оцінить, наскільки серйозна травма.",
+    "ans": ["The doctor will assess how serious the injury is first.", "First, the doctor will assess how bad the injury is.", "The doctor is going to assess how serious it is first."],
+    "keys": { "наскільки серйозна": "serious|bad|severe", "лікар": "doctor|doc|nurse" }
+   },
+   {
+    "sit": "Ти керівник проєкту, а клієнт за тиждень до запуску раптом хоче змінити все.",
+    "say": "Дайте мені час оцінити ризики.",
+    "ans": ["Give me some time to assess the risks.", "Let me take some time to assess the risks.", "I need a bit of time to assess the risks."],
+    "keys": { "ризики": "risk*", "час": "time|day|moment|while" }
+   }
+  ]
+ },
+ {
+  "id": 410, "w": "estimate", "uk": "прикидати, приблизно оцінювати", "lvl": "B2",
+  "forms": "estimate|estimates|estimated|estimated|estimating",
+  "near": "guess*|reckon*|calculat*|work out|worked out|figure*|evaluat*|assess*",
+  "tasks": [
+   {
+    "sit": "Будівельник оглядає твою стару ванну кімнату.",
+    "say": "Скільки, на вашу думку, приблизно коштуватиме ремонт?",
+    "ans": ["How much do you estimate the renovation will cost?", "What do you estimate the renovation will cost?", "Roughly how much would you estimate the repairs will cost?"],
+    "keys": { "коштуватиме": "cost*|price|how much", "ремонт": "renovation|repair*|work|job" }
+   },
+   {
+    "sit": "Ви з другом у поході, і він питає, коли ви будете на вершині.",
+    "say": "Я прикидаю, що ми дійдемо за чотири години.",
+    "ans": ["I estimate we'll get there in four hours.", "I estimate it will take us about four hours.", "I'd estimate we'll reach the top in about four hours."],
+    "keys": { "чотири години": "four|4|hours" }
+   },
+   {
+    "sit": "Менеджер питає, скільки часу займе розробка нової функції в додатку.",
+    "say": "Важко оцінити, але десь два тижні.",
+    "ans": ["It's hard to estimate, but about two weeks.", "It's difficult to estimate, maybe two weeks.", "It's tricky to estimate, but probably around two weeks."],
+    "keys": { "важко": "hard|difficult|tough|tricky", "два тижні": "two|2|weeks" }
+   }
+  ]
+ },
+ {
+  "id": 411, "w": "reflect", "uk": "розмірковувати, замислюватися", "lvl": "B2",
+  "forms": "reflect|reflects|reflected|reflected|reflecting",
+  "near": "think about|thinking about|thought about|think over|thought over|consider*|ponder*|contemplat*|look back|looked back|meditat*",
+  "tasks": [
+   {
+    "sit": "Тобі виповнилося сорок, і ввечері ти сидиш із другом на балконі.",
+    "say": "Такі дати змушують замислитися про життя.",
+    "ans": ["Birthdays like this make you reflect on life.", "Days like this make me reflect on my life.", "Turning forty really makes you reflect on life."],
+    "keys": { "життя": "life|lives" }
+   },
+   {
+    "sit": "Твоя команда щойно завершила складний проєкт, і ти збираєш усіх на підсумкову зустріч.",
+    "say": "Давайте поміркуємо, що ми могли зробити краще.",
+    "ans": ["Let's reflect on what we could have done better.", "Let's reflect on what we could do better next time.", "Let's take a moment to reflect on what we could have done better."],
+    "keys": { "краще": "better|differently|improve*" }
+   },
+   {
+    "sit": "Після розриву стосунків ти на тиждень поїхав сам у гори. Друг питає, навіщо.",
+    "say": "Мені потрібен був час, щоб усе обміркувати.",
+    "ans": ["I needed some time to reflect on everything.", "I needed time alone to reflect on everything.", "I just needed some time to reflect on it all."],
+    "keys": { "час": "time|week|while", "усе": "everything|it all|all|things|what happened" }
+   }
+  ]
+ },
+ {
+  "id": 412, "w": "contemplate", "uk": "обмірковувати (серйозно розглядати)", "lvl": "C1",
+  "forms": "contemplate|contemplates|contemplated|contemplated|contemplating",
+  "near": "consider*|think about|thinking about|thinking of|thought about|ponder*|weigh*|reflect*|debat*",
+  "tasks": [
+   {
+    "sit": "Друг питає, чому ти останнім часом такий задумливий на роботі.",
+    "say": "Я серйозно обмірковую, чи не звільнитися.",
+    "ans": ["I'm seriously contemplating quitting my job.", "I've been seriously contemplating leaving my job.", "Honestly, I'm seriously contemplating quitting."],
+    "keys": { "звільнитися": "quit*|leav*|resign*|job" }
+   },
+   {
+    "sit": "Батьки за недільним обідом питають про твої плани на майбутнє.",
+    "say": "Я обмірковую переїзд за кордон.",
+    "ans": ["I'm contemplating moving abroad.", "I've been contemplating a move abroad.", "I'm actually contemplating moving abroad."],
+    "keys": { "за кордон": "abroad|overseas|another country|away" }
+   },
+   {
+    "sit": "Ти граєш у шахи з другом, і він уже десять хвилин не робить ходу.",
+    "say": "Він обмірковує наступний хід.",
+    "ans": ["He's contemplating his next move.", "He's still contemplating his next move.", "He's been contemplating his next move for ages."],
+    "keys": { "хід": "move|step" }
+   }
+  ]
+ },
+ {
+  "id": 413, "w": "speculate", "uk": "робити припущення, гадати", "lvl": "C1",
+  "forms": "speculate|speculates|speculated|speculated|speculating",
+  "near": "guess*|assum*|suppos*|theori*|wonder*|predict*|imagin*",
+  "tasks": [
+   {
+    "sit": "Ти обговорюєш із колегою новину про раптову відставку міністра.",
+    "say": "Усі гадають, чому він насправді пішов.",
+    "ans": ["Everyone is speculating about why he really left.", "Everyone is speculating about the real reason he quit.", "People are speculating about why he actually resigned."],
+    "keys": { "чому пішов": "why|reason|left|quit|resign*", "усі": "everyone|everybody|people|all" }
+   },
+   {
+    "sit": "Результатів аналізів дідуся ще немає, а родичі вже вигадують діагнози.",
+    "say": "Давайте не будемо робити припущень, поки немає результатів.",
+    "ans": ["Let's not speculate until we get the results.", "Let's not speculate before the results come in.", "There's no point speculating until the results are in."],
+    "keys": { "результати": "result*|tests|test", "поки": "until|before|till|yet" }
+   },
+   {
+    "sit": "Ти з друзями-фанатами обговорюєш чутки про трансфер зірки вашої команди.",
+    "say": "Журналісти припускають, що він перейде в інший клуб.",
+    "ans": ["Journalists speculate that he'll move to another club.", "Journalists are speculating that he might join another club.", "The media are speculating he'll sign for another club."],
+    "keys": { "клуб": "club|team", "журналісти": "journalist*|media|press|reporter*" }
+   }
+  ]
+ },
+ {
+  "id": 414, "w": "realise", "uk": "усвідомлювати (BrE)", "lvl": "B1",
+  "forms": "realise/realize|realises/realizes|realised/realized|realised/realized|realising/realizing",
+  "near": "understood|understand|figured out|figure out|found out|noticed|dawned on",
+  "tasks": [
+   {
+    "sit": "Ти вже в аеропорту, стоїш у черзі на реєстрацію й відкриваєш сумку.",
+    "say": "Я раптом усвідомив, що залишив паспорт удома.",
+    "ans": ["I suddenly realised I'd left my passport at home.", "Suddenly I realised that I had left my passport at home.", "That's when I realised my passport was still at home."],
+    "keys": { "паспорт": "passport", "вдома": "home|house" }
+   },
+   {
+    "sit": "Сестра питає, чому ти розійшовся з дівчиною після пʼяти років стосунків.",
+    "say": "Я усвідомив, що ми хочемо від життя різного.",
+    "ans": ["I realised we want different things in life.", "I realised that we wanted different things from life.", "I just realised we wanted totally different things."],
+    "keys": { "різного": "different|differ*" }
+   },
+   {
+    "sit": "Ти сам став учителем і згадуєш своїх шкільних учителів.",
+    "say": "Лише тепер я усвідомлюю, як важко було моїм учителям.",
+    "ans": ["Only now I realise how hard it was for my teachers.", "I only realise now how hard my teachers had it.", "Now I finally realise how tough it was for my teachers."],
+    "keys": { "вчителі": "teacher*", "важко": "hard|difficult|tough" }
+   }
+  ]
+ },
+ {
+  "id": 415, "w": "conclude", "uk": "робити висновок, дійти висновку", "lvl": "B2",
+  "forms": "conclude|concludes|concluded|concluded|concluding",
+  "near": "decid*|deduc*|infer*|figure* out|figured out|realiz*|realis*|found|find|determin*|come to the conclusion|came to the conclusion",
+  "tasks": [
+   {
+    "sit": "Ти читаєш за сніданком новину про нове дослідження.",
+    "say": "Вчені дійшли висновку, що кава корисна для серця.",
+    "ans": ["Scientists concluded that coffee is good for the heart.", "The scientists have concluded that coffee is good for your heart.", "Researchers concluded coffee is actually good for the heart."],
+    "keys": { "кава": "coffee", "серце": "heart" }
+   },
+   {
+    "sit": "Ти повертаєшся додому, а на підлозі розгризений пакет із печивом.",
+    "say": "Я зробив висновок, що це був пес.",
+    "ans": ["I concluded that it was the dog.", "I concluded it must have been the dog.", "So I concluded the dog did it."],
+    "keys": { "пес": "dog|puppy" }
+   },
+   {
+    "sit": "Після тижня тестування нової програми керівник питає твою думку.",
+    "say": "Я дійшов висновку, що вона нам не підходить.",
+    "ans": ["I've concluded that it's not right for us.", "I concluded that it doesn't suit us.", "I've concluded it just isn't right for us."],
+    "keys": { "не підходить": "not right|not suit|not work|not for us|not good|not fit" }
+   }
+  ]
+ }
+]

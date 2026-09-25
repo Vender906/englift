@@ -1,0 +1,632 @@
+[
+ {
+  "id": 811, "w": "defrost", "uk": "розморожувати", "lvl": "B2",
+  "forms": "defrost|defrosts|defrosted|defrosted|defrosting",
+  "near": "thaw*|unfreeze*|melt*|de-ice*|warm*|clear*",
+  "tasks": [
+   {
+    "sit": "На завтра ви запланували шашлик, а мʼясо ще в морозилці.",
+    "say": "Треба розморозити мʼясо на ніч.",
+    "ans": ["I need to defrost the meat overnight.", "The meat has to be defrosted overnight.", "I’ve got to defrost the meat overnight."],
+    "keys": { "мʼясо": "meat|chicken|pork|beef", "на ніч": "overnight|night|tonight" }
+   },
+   {
+    "sit": "У морозилці наросла товста шуба льоду, і дверцята вже не зачиняються.",
+    "say": "На вихідних треба розморозити морозилку.",
+    "ans": ["I need to defrost the freezer this weekend.", "The freezer needs defrosting at the weekend.", "I’ve got to defrost the freezer this weekend."],
+    "keys": { "морозилка": "freezer|fridge", "вихідні": "weekend*|saturday|sunday" }
+   },
+   {
+    "sit": "Зимовий ранок, лобове скло машини вкрите інеєм, а ти поспішаєш.",
+    "say": "Зачекай, я тільки розморожу скло.",
+    "ans": ["Wait, I just need to defrost the windshield.", "Hold on, let me defrost the windshield.", "One sec, I’m just defrosting the windscreen."],
+    "keys": { "скло": "windshield*|windscreen*|window*|glass", "зачекай": "wait|hold on|hang on|sec|second|minute" }
+   }
+  ]
+ },
+ {
+  "id": 812, "w": "blend", "uk": "збивати у блендері", "lvl": "B1",
+  "forms": "blend|blends|blended|blended|blending",
+  "near": "mix*|whisk*|beat|beats|beating|puree*|purée*|combine*|stir*|blitz*|whizz*",
+  "tasks": [
+   {
+    "sit": "Ранок, у тебе є банан, ягоди й молоко, а часу обмаль.",
+    "say": "Я просто зібʼю смузі в блендері.",
+    "ans": ["I’ll just blend a smoothie.", "I’m going to blend a quick smoothie.", "I’ll just blend everything into a smoothie."],
+    "keys": { "смузі": "smoothie*|shake" }
+   },
+   {
+    "sit": "Ти готуєш гарбузовий крем-суп за рецептом із відео.",
+    "say": "Тепер треба збити суп до однорідності.",
+    "ans": ["Now I need to blend the soup until smooth.", "Now the soup needs to be blended until it’s smooth.", "Now just blend the soup till it’s smooth."],
+    "keys": { "суп": "soup", "однорідний": "smooth*|creamy" }
+   },
+   {
+    "sit": "Твоїй доньці вісім місяців, і вона вже їсть овочі. Подруга питає, чи купуєш ти баночки.",
+    "say": "Ні, я сам збиваю їй овочі в блендері.",
+    "ans": ["No, I blend vegetables for her myself.", "No, I blend her vegetables myself.", "Nope, I just blend up some veggies for her myself."],
+    "keys": { "овочі": "veg*", "сам": "myself|own|home*" }
+   }
+  ]
+ },
+ {
+  "id": 816, "w": "slap", "uk": "дати ляпаса", "lvl": "B1",
+  "forms": "slap|slaps|slapped|slapped|slapping",
+  "near": "hit|hits|hitting|smack*|punch*|strike*|struck|whack*|spank*",
+  "tasks": [
+   {
+    "sit": "Ти переказуєш подрузі вчорашню серію серіалу.",
+    "say": "Вона дала йому ляпаса просто посеред весілля!",
+    "ans": ["She slapped him right in the middle of the wedding!", "She slapped him in the face at the wedding!", "She actually slapped him in the middle of the wedding!"],
+    "keys": { "весілля": "wedding*|ceremony" }
+   },
+   {
+    "sit": "Ти забрав сина з садочка, і вихователька розповіла неприємну новину. Ти ділишся з дружиною.",
+    "say": "Уяви, він дав ляпаса іншому хлопчику.",
+    "ans": ["Can you believe it, he slapped another boy.", "He slapped another kid today, can you imagine?", "Guess what — he slapped another boy."],
+    "keys": { "хлопчик": "boy|kid|child" }
+   },
+   {
+    "sit": "Колега на нараді при всіх видав твою ідею за свою.",
+    "say": "Мені так хотілося дати йому ляпаса.",
+    "ans": ["I wanted to slap him so badly.", "I really felt like slapping him.", "Honestly, I could have slapped him."],
+    "keys": { "хотілося": "want*|felt like|feel like|could" }
+   }
+  ]
+ },
+ {
+  "id": 817, "w": "smack", "uk": "сильно плеснути, вдарити", "lvl": "B2",
+  "forms": "smack|smacks|smacked|smacked|smacking",
+  "near": "hit|hits|hitting|slap*|whack*|smash*|bang*|punch*|strike*|struck|thump*|spank*",
+  "tasks": [
+   {
+    "sit": "Старий телевізор на дачі знову показує тільки смуги.",
+    "say": "Я сильно плеснув по ньому збоку — і він запрацював.",
+    "ans": ["I smacked it on the side, and it started working.", "I smacked the side of the TV, and it worked again.", "I just smacked it hard, and it came back on."],
+    "keys": { "запрацював": "work*|came back|fine|fixed" }
+   },
+   {
+    "sit": "Ти потягнувся до печива, яке мама спекла для гостей.",
+    "say": "Мама сильно шльопнула мене по руці.",
+    "ans": ["Mom smacked my hand.", "My mom smacked me on the hand.", "Mom smacked my hand away!"],
+    "keys": { "мама": "mom|mum|mother|mommy", "рука": "hand*" }
+   },
+   {
+    "sit": "Ти граєш у теніс із другом і нарешті відбив дуже сильну подачу.",
+    "say": "Я щосили вдарив по мʼячу!",
+    "ans": ["I smacked the ball as hard as I could!", "I really smacked that ball!", "I smacked it so hard!"],
+    "keys": { "мʼяч": "ball|it", "щосили": "hard|really|so" }
+   }
+  ]
+ },
+ {
+  "id": 819, "w": "grab", "uk": "хапати, швидко брати", "lvl": "A2",
+  "forms": "grab|grabs|grabbed|grabbed|grabbing",
+  "near": "take|takes|took|taken|taking|get|got|getting|catch*|caught|seize*|snatch*|pick up|picked up|hold|held",
+  "tasks": [
+   {
+    "sit": "Ти виходиш з дому, а небо затягнуте хмарами.",
+    "say": "Секунду, я лише схоплю парасольку.",
+    "ans": ["One second, I’ll just grab an umbrella.", "Wait, let me grab my umbrella.", "Hang on, I’m just grabbing an umbrella."],
+    "keys": { "парасолька": "umbrella*" }
+   },
+   {
+    "sit": "Ви з донькою підходите до жвавої дороги.",
+    "say": "Швидко візьми мене за руку!",
+    "ans": ["Grab my hand!", "Quick, grab my hand!", "Hey, grab my hand before we cross!"],
+    "keys": { "рука": "hand*" }
+   },
+   {
+    "sit": "Нарада закінчилася, і до наступної в тебе є пʼятнадцять хвилин.",
+    "say": "Давай швиденько випʼємо кави.",
+    "ans": ["Let’s grab a coffee.", "Want to grab a quick coffee?", "Let’s go grab a coffee real quick."],
+    "keys": { "кава": "coffee*|latte*|cup" }
+   }
+  ]
+ },
+ {
+  "id": 820, "w": "snatch", "uk": "вихоплювати", "lvl": "B2",
+  "forms": "snatch|snatches|snatched|snatched|snatching",
+  "near": "grab*|steal*|stole|stolen|take|took|taken|rip*|pull*|swipe*|pinch*",
+  "tasks": [
+   {
+    "sit": "Ти у відділку поліції в Барселоні й пояснюєш, що сталося.",
+    "say": "Хлопець на мопеді вихопив у мене сумку.",
+    "ans": ["A guy on a scooter snatched my bag.", "Someone on a moped snatched my bag.", "This guy on a scooter just snatched my bag!"],
+    "keys": { "сумка": "bag*|purse|handbag", "мопед": "moped|scooter|motorbike|bike" }
+   },
+   {
+    "sit": "Ти сидиш на пляжі з бутербродом.",
+    "say": "Чайка вихопила бутерброд просто з моїх рук!",
+    "ans": ["A seagull snatched the sandwich right out of my hands!", "A seagull snatched my sandwich out of my hand!", "A gull just snatched my sandwich!"],
+    "keys": { "чайка": "gull*|seagull*|bird", "бутерброд": "sandwich*" }
+   },
+   {
+    "sit": "Ви з сестрою дивитеся телевізор і сперечаєтеся, що вмикати.",
+    "say": "Вона вихопила в мене пульт.",
+    "ans": ["She snatched the remote from me.", "She snatched the remote out of my hand.", "She just snatched the remote away from me!"],
+    "keys": { "пульт": "remote*|control*|clicker" }
+   }
+  ]
+ },
+ {
+  "id": 822, "w": "tweak", "uk": "підправляти, підкручувати", "lvl": "B2",
+  "forms": "tweak|tweaks|tweaked|tweaked|tweaking",
+  "near": "adjust*|change*|fix*|modify|modifies|modified|modifying|alter*|fine-tune*|improve*|edit*|correct*",
+  "tasks": [
+   {
+    "sit": "Картинка в комп’ютерній грі трохи смикається.",
+    "say": "Я трохи підкручу налаштування графіки.",
+    "ans": ["I’ll tweak the graphics settings a bit.", "Let me tweak the graphics settings a little.", "I’ll just tweak the settings a bit."],
+    "keys": { "налаштування": "setting*|option*|config*" }
+   },
+   {
+    "sit": "Ти подаєшся на дві різні вакансії з тим самим резюме.",
+    "say": "Під кожну вакансію я трохи підправляю резюме.",
+    "ans": ["I tweak my resume a bit for every job.", "I tweak my CV a little for each position.", "I just tweak my resume for each job."],
+    "keys": { "резюме": "resume*|cv", "кожна": "each|every|all" }
+   },
+   {
+    "sit": "Гості хвалять твій борщ і питають, звідки рецепт.",
+    "say": "Це бабусин рецепт, але я його трохи підправив.",
+    "ans": ["It’s Grandma’s recipe, but I tweaked it a bit.", "It’s my grandma’s recipe — I just tweaked it a little.", "Grandma’s recipe, but I’ve tweaked it a bit."],
+    "keys": { "бабуся": "grandma*|grandmother*|granny|nan*", "рецепт": "recipe*" }
+   }
+  ]
+ },
+ {
+  "id": 823, "w": "modify", "uk": "модифікувати, видозмінювати", "lvl": "B2",
+  "forms": "modify|modifies|modified|modified|modifying",
+  "near": "change*|adapt*|adjust*|alter*|tweak*|edit*|rework*|transform*|convert*|customize*|customise*",
+  "tasks": [
+   {
+    "sit": "На вечерю прийде подруга-веганка, а ти хочеш спекти свій фірмовий торт.",
+    "say": "Я модифікую рецепт — без яєць і масла.",
+    "ans": ["I’ll modify the recipe — no eggs or butter.", "I’m going to modify the recipe without eggs and butter.", "I’ll just modify the recipe, no eggs, no butter."],
+    "keys": { "рецепт": "recipe*|it", "яйця": "egg*|butter|dairy" }
+   },
+   {
+    "sit": "Сусід поставив на свою машину новий двигун і спойлер.",
+    "say": "Він сильно модифікував свою машину.",
+    "ans": ["He’s heavily modified his car.", "He modified his car a lot.", "He’s really modified that car of his."],
+    "keys": { "машина": "car|vehicle|ride" }
+   },
+   {
+    "sit": "Клієнт хоче, щоб програма ще й надсилала сповіщення.",
+    "say": "Нам доведеться модифікувати код.",
+    "ans": ["We’ll have to modify the code.", "The code will have to be modified.", "We’re going to need to modify the code."],
+    "keys": { "код": "code|program*|software|app" }
+   }
+  ]
+ },
+ {
+  "id": 824, "w": "alter", "uk": "переробляти, перешивати", "lvl": "B2",
+  "forms": "alter|alters|altered|altered|altering",
+  "near": "change*|modify|modified|modifies|modifying|adjust*|take in|took in|taken in|shorten*|tailor*|fix*|remake*|redo*",
+  "tasks": [
+   {
+    "sit": "Весільна сукня сестри трохи завелика, а до весілля лишився тиждень.",
+    "say": "Сукню треба віддати перешити.",
+    "ans": ["We need to get the dress altered.", "The dress needs to be altered before the wedding.", "We’ve got to have the dress altered."],
+    "keys": { "сукня": "dress*|gown|it" }
+   },
+   {
+    "sit": "Ти купив костюм на розпродажі, але штани були задовгі. Колега хвалить, як він сидить.",
+    "say": "Я переробив штани в ательє, і тепер він сидить ідеально.",
+    "ans": ["I had the pants altered, and now it fits perfectly.", "I got the trousers altered, and now the suit fits perfectly.", "I had the pants altered — now it fits perfectly."],
+    "keys": { "штани": "pants|trousers|suit", "ідеально": "perfect*|great|well" }
+   },
+   {
+    "sit": "Через шторм ваш рейс скасували, і ви застрягли в аеропорту.",
+    "say": "Доведеться переробити весь план поїздки.",
+    "ans": ["We’ll have to alter our whole travel plan.", "Our travel plans will have to be altered.", "Looks like we’ll have to alter all our plans."],
+    "keys": { "план": "plan*|itinerary|schedule|route" }
+   }
+  ]
+ },
+ {
+  "id": 825, "w": "amend", "uk": "вносити зміни (до документа)", "lvl": "C1",
+  "forms": "amend|amends|amended|amended|amending",
+  "near": "change*|modify|modified|modifies|modifying|revise*|correct*|alter*|update*|edit*|fix*|adjust*",
+  "tasks": [
+   {
+    "sit": "Ти обговорюєш із колегою новини про податкову реформу.",
+    "say": "Парламент хоче внести зміни до податкового кодексу.",
+    "ans": ["Parliament wants to amend the tax code.", "Parliament is planning to amend the tax code.", "They’re going to amend the tax code, apparently."],
+    "keys": { "податковий": "tax*", "кодекс": "code|law*" }
+   },
+   {
+    "sit": "Орендодавець надіслав договір, але в ньому неправильна сума застави.",
+    "say": "Можете внести зміни в договір? Сума застави неправильна.",
+    "ans": ["Could you amend the contract? The deposit is wrong.", "Can you amend the contract? The deposit amount is incorrect.", "Would you mind amending the contract? The deposit’s wrong."],
+    "keys": { "договір": "contract*|agreement|lease", "застава": "deposit*" }
+   },
+   {
+    "sit": "Ти оформив замовлення в інтернет-магазині, але помилився в адресі. Пишеш у підтримку.",
+    "say": "Я хочу внести зміни в замовлення — адреса неправильна.",
+    "ans": ["I’d like to amend my order — the address is wrong.", "Can I amend the delivery address on my order?", "I need to amend the address on my order."],
+    "keys": { "адреса": "address*", "замовлення": "order*" }
+   }
+  ]
+ },
+ {
+  "id": 826, "w": "revise", "uk": "переглядати (і виправляти)", "lvl": "B2",
+  "forms": "revise|revises|revised|revised|revising",
+  "near": "change*|rewrite*|rewrote|rewritten|edit*|update*|rework*|adjust*|amend*|correct*|review*|redo*|reconsider*",
+  "tasks": [
+   {
+    "sit": "Продажі за перший квартал удвічі нижчі, ніж очікували.",
+    "say": "Нам треба переглянути план на рік.",
+    "ans": ["We need to revise the plan for the year.", "Our annual plan needs to be revised.", "We’ve got to revise this year’s plan."],
+    "keys": { "план": "plan*|target*|forecast*|budget*", "рік": "year*|annual*" }
+   },
+   {
+    "sit": "Науковий керівник повернув твою статтю з купою коментарів.",
+    "say": "Мені доведеться переробити весь розділ.",
+    "ans": ["I’ll have to revise the whole chapter.", "The whole chapter will need to be revised.", "Looks like I have to revise the entire chapter."],
+    "keys": { "розділ": "chapter*|section*|part", "весь": "whole|entire|all" }
+   },
+   {
+    "sit": "Раніше ти не любив джаз, але після концерту в Одесі все змінилося.",
+    "say": "Мені довелося переглянути свою думку про джаз.",
+    "ans": ["I had to revise my opinion of jazz.", "I’ve had to revise my opinion about jazz.", "Okay, I’ve revised my opinion of jazz."],
+    "keys": { "думка": "opinion*|view*|thought*|mind", "джаз": "jazz" }
+   }
+  ]
+ },
+ {
+  "id": 827, "w": "boost", "uk": "підвищувати, підсилювати", "lvl": "B2",
+  "forms": "boost|boosts|boosted|boosted|boosting",
+  "near": "raise*|increase*|improve*|lift*|strengthen*|enhance*|pump up|perk up",
+  "tasks": [
+   {
+    "sit": "Команда втомилася після важкого кварталу, і ти пропонуєш улаштувати вечірку.",
+    "say": "Це підніме команді бойовий дух.",
+    "ans": ["It’ll boost the team’s morale.", "This will really boost team morale.", "A party would definitely boost morale."],
+    "keys": { "бойовий дух": "morale|spirit*|mood" }
+   },
+   {
+    "sit": "Восени всі навколо хворіють, а подруга радить пити імбирний чай.",
+    "say": "Кажуть, імбир підвищує імунітет.",
+    "ans": ["They say ginger boosts your immune system.", "Apparently ginger boosts immunity.", "People say ginger really boosts your immune system."],
+    "keys": { "імбир": "ginger", "імунітет": "immun*" }
+   },
+   {
+    "sit": "Інтернет-магазин твого друга продає мало, і він просить поради.",
+    "say": "Знижки на вихідних підвищать продажі.",
+    "ans": ["Weekend discounts will boost sales.", "Discounts on weekends will boost your sales.", "Try weekend discounts — they’ll boost sales."],
+    "keys": { "знижки": "discount*|deal*|promo*", "продажі": "sales|revenue|orders" }
+   }
+  ]
+ },
+ {
+  "id": 828, "w": "draft", "uk": "складати чернетку, накидати", "lvl": "B2",
+  "forms": "draft|drafts|drafted|drafted|drafting",
+  "near": "write*|wrote|written|sketch*|outline*|prepare*|put together|draw up|drew up|drawn up|compose*",
+  "tasks": [
+   {
+    "sit": "Керівник просить до пʼятниці показати, як ви запускатимете новий продукт.",
+    "say": "Я накидаю план до четверга.",
+    "ans": ["I’ll draft a plan by Thursday.", "I’m going to draft the plan by Thursday.", "Let me draft a rough plan by Thursday."],
+    "keys": { "план": "plan*", "четвер": "thursday" }
+   },
+   {
+    "sit": "Твій найкращий друг одружується, і ти в нього свідком.",
+    "say": "Я вже склав чорновий варіант промови.",
+    "ans": ["I’ve already drafted my speech.", "I’ve drafted a first version of the speech.", "I already drafted the speech, sort of."],
+    "keys": { "промова": "speech*|toast" }
+   },
+   {
+    "sit": "Управляюча компанія вже пів року не ремонтує дах. Сусіди збираються писати колективну скаргу.",
+    "say": "Я підготую чернетку листа, а ви всі перевірите.",
+    "ans": ["I’ll draft the letter, and you can all check it.", "I’ll draft the letter, and you can all review it.", "Let me draft the letter, then you all check it."],
+    "keys": { "лист": "letter*|complaint*", "перевірите": "check*|review*|look*|read*" }
+   }
+  ]
+ },
+ {
+  "id": 829, "w": "draw up", "uk": "складати (документ, список)", "lvl": "B2",
+  "forms": "draw|draws|drew|drawn|drawing",
+  "tail": "up",
+  "near": "write*|wrote|written|draft*|prepare*|put together|make|made|compile*|create*",
+  "tasks": [
+   {
+    "sit": "Ти здаєш квартиру новим орендарям.",
+    "say": "Договір оренди складе юрист.",
+    "ans": ["A lawyer will draw up the lease.", "My lawyer is drawing up the rental contract.", "I’ll have a lawyer draw up the lease."],
+    "keys": { "юрист": "lawyer*|attorney|solicitor|notary", "договір": "lease|contract*|agreement" }
+   },
+   {
+    "sit": "За місяць ваше весілля, а ви досі не знаєте, скільки буде гостей.",
+    "say": "Давай нарешті складемо список гостей.",
+    "ans": ["Let’s finally draw up a guest list.", "We should finally draw up the guest list.", "Okay, let’s draw up the guest list already."],
+    "keys": { "список": "list*", "гості": "guest*" }
+   },
+   {
+    "sit": "Ви із сусідами по квартирі постійно сперечаєтеся, чия черга прибирати.",
+    "say": "Я складу графік прибирання.",
+    "ans": ["I’ll draw up a cleaning schedule.", "I’m going to draw up a cleaning rota.", "Let me draw up a schedule for the cleaning."],
+    "keys": { "графік": "schedule*|rota*|timetable*|plan", "прибирання": "clean*|chore*" }
+   }
+  ]
+ },
+ {
+  "id": 830, "w": "knit", "uk": "вʼязати", "lvl": "B2",
+  "forms": "knit|knits|knitted/knit|knitted/knit|knitting",
+  "near": "crochet*|sew*|sewn|make|made|making|weave*|wove*",
+  "tasks": [
+   {
+    "sit": "Друзі хвалять твій теплий светр і питають, де ти його купив.",
+    "say": "Його мені звʼязала бабуся.",
+    "ans": ["My grandma knitted it for me.", "My grandmother knitted it for me.", "Grandma knitted it for me, actually."],
+    "keys": { "бабуся": "grandma*|grandmother*|granny|nan*" }
+   },
+   {
+    "sit": "Колега дивується, чим ти займаєшся вечорами.",
+    "say": "Я навчився вʼязати, і це мене заспокоює.",
+    "ans": ["I’ve learned to knit, and it calms me down.", "I learned how to knit — it really relaxes me.", "I’ve taken up knitting, and it’s so calming."],
+    "keys": { "заспокоює": "calm*|relax*|soothing|stress*|peace*" }
+   },
+   {
+    "sit": "Твоя подруга скоро народжує, і ти хочеш зробити особливий подарунок.",
+    "say": "Я звʼяжу для малюка шапочку й шкарпетки.",
+    "ans": ["I’ll knit a hat and socks for the baby.", "I’m going to knit the baby a little hat and socks.", "I’m knitting a tiny hat and socks for the baby."],
+    "keys": { "шапочка": "hat*|cap*|beanie*", "шкарпетки": "sock*|bootie*", "малюк": "baby|babies|little one" }
+   }
+  ]
+ },
+ {
+  "id": 831, "w": "sew", "uk": "шити, пришивати", "lvl": "B2",
+  "forms": "sew|sews|sewed|sewn/sewed|sewing",
+  "near": "stitch*|mend*|fix*|repair*|patch*|attach*|tailor*|make|made",
+  "tasks": [
+   {
+    "sit": "Перед співбесідою в тебе відірвався ґудзик на сорочці.",
+    "say": "Зачекай, я швиденько пришию ґудзик.",
+    "ans": ["Wait, I’ll quickly sew the button back on.", "Hold on, let me sew this button on.", "One sec, I’ll just sew the button back on."],
+    "keys": { "ґудзик": "button*" }
+   },
+   {
+    "sit": "У доньки в садочку свято, і їй потрібен костюм сніжинки.",
+    "say": "Я сам пошию їй костюм.",
+    "ans": ["I’ll sew her a costume myself.", "I’m going to sew the costume myself.", "I’ll just sew her costume myself."],
+    "keys": { "костюм": "costume*|outfit*|dress", "сам": "myself|own" }
+   },
+   {
+    "sit": "Ти в поході, і в наметі зʼявилася дірка.",
+    "say": "Треба зашити дірку, поки не почався дощ.",
+    "ans": ["We need to sew up the hole before it rains.", "Let’s sew the hole before it starts raining.", "I’ve got to sew up this hole before the rain."],
+    "keys": { "дірка": "hole*|tear*|rip*", "дощ": "rain*" }
+   }
+  ]
+ },
+ {
+  "id": 832, "w": "weave", "uk": "плести, ткати", "lvl": "C1",
+  "forms": "weave|weaves|wove|woven|weaving",
+  "near": "knit*|braid*|plait*|make|made|making|twist*|spin*|spun|build*|built",
+  "tasks": [
+   {
+    "sit": "Ти в Карпатах на майстер-класі з народних ремесел.",
+    "say": "Сьогодні я вперше сплів кошик із лози.",
+    "ans": ["Today I wove a basket from willow for the first time.", "I wove my first willow basket today.", "Today I actually wove my very first basket!"],
+    "keys": { "кошик": "basket*", "вперше": "first" }
+   },
+   {
+    "sit": "Ви з дитиною спостерігаєте за птахом на дереві біля дому.",
+    "say": "Дивись, пташка плете гніздо з гілочок.",
+    "ans": ["Look, the bird is weaving a nest from twigs.", "Look, that bird is weaving its nest out of twigs.", "Look — it’s weaving a nest out of little twigs!"],
+    "keys": { "гніздо": "nest*", "дивись": "look|see|watch" }
+   },
+   {
+    "sit": "У музеї ти розглядаєш старовинний килим і розмовляєш з екскурсоводом.",
+    "say": "Скільки часу треба, щоб виткати такий килим?",
+    "ans": ["How long does it take to weave a rug like this?", "How long would it take to weave a carpet like this?", "How long does it take to weave one of these rugs?"],
+    "keys": { "килим": "rug*|carpet*|tapestr*", "скільки часу": "how long|how much time|time" }
+   }
+  ]
+ },
+ {
+  "id": 833, "w": "carve", "uk": "вирізьблювати", "lvl": "B2",
+  "forms": "carve|carves|carved|carved|carving",
+  "near": "cut|cuts|cutting|whittle*|sculpt*|engrave*|chisel*|etch*|scratch*|make|made",
+  "tasks": [
+   {
+    "sit": "Дідусь показує тобі деревʼяного коника, якого зробив сам.",
+    "say": "Він вирізьбив його з одного шматка дерева.",
+    "ans": ["He carved it from a single piece of wood.", "He carved it out of one piece of wood.", "He carved the whole thing out of one piece of wood."],
+    "keys": { "дерево": "wood*", "один шматок": "single|one" }
+   },
+   {
+    "sit": "У старому парку ти знаходиш дерево з написом, який ви з першим коханням залишили ще школярами.",
+    "say": "Ми вирізали свої ініціали на цьому дереві.",
+    "ans": ["We carved our initials into this tree.", "We carved our initials on this tree.", "We carved our initials into this very tree!"],
+    "keys": { "ініціали": "initial*|names|letters", "дерево": "tree*" }
+   },
+   {
+    "sit": "На зимовому фестивалі в Харбіні ти бачиш величезні крижані скульптури.",
+    "say": "Уяви, їх вирізьблюють із льоду бензопилами.",
+    "ans": ["Imagine, they carve them out of ice with chainsaws.", "They carve these out of blocks of ice with chainsaws!", "Can you believe they carve them from ice with chainsaws?"],
+    "keys": { "лід": "ice", "бензопили": "chainsaw*|saw*" }
+   }
+  ]
+ },
+ {
+  "id": 834, "w": "mold", "uk": "ліпити, формувати", "lvl": "B2",
+  "forms": "mold/mould|molds/moulds|molded/moulded|molded/moulded|molding/moulding",
+  "near": "shape*|sculpt*|form|formed|forming|make|made|making|model*|roll*|press*",
+  "tasks": [
+   {
+    "sit": "Ти вперше прийшов на заняття з кераміки. Удома питають, як усе пройшло.",
+    "say": "Я зліпив із глини маленьку чашку.",
+    "ans": ["I molded a little cup out of clay.", "I molded a small cup from clay.", "I molded a tiny cup out of clay — my first one!"],
+    "keys": { "глина": "clay", "чашка": "cup*|mug*" }
+   },
+   {
+    "sit": "Син за столом зосереджено грається пластиліном.",
+    "say": "Ти ліпиш динозавра?",
+    "ans": ["Are you molding a dinosaur?", "Is that a dinosaur you’re molding?", "Oh, are you molding a dinosaur out of that?"],
+    "keys": { "динозавр": "dinosaur*|dino*" }
+   },
+   {
+    "sit": "Ви з мамою готуєте котлети на свято.",
+    "say": "Я ліпитиму котлети, а ти смаж.",
+    "ans": ["I’ll mold the patties, and you fry them.", "I’ll mold the meat into patties, and you do the frying.", "You fry, and I’ll mold the patties."],
+    "keys": { "котлети": "patt*|meatball*|cutlet*|burger*", "смаж": "fry*|fries|cook*" }
+   }
+  ]
+ },
+ {
+  "id": 835, "w": "tear down", "uk": "зносити (будівлю)", "lvl": "B2",
+  "forms": "tear|tears|tore|torn|tearing",
+  "tail": "down",
+  "near": "demolish*|knock down|knocked down|pull down|pulled down|destroy*|raze*|bulldoze*|remove*",
+  "tasks": [
+   {
+    "sit": "На місці старого кінотеатру у твоєму районі тепер стоїть паркан.",
+    "say": "Кінотеатр знесли — тут будуватимуть торговий центр.",
+    "ans": ["They tore down the cinema to build a mall.", "The cinema was torn down — they’re building a mall here.", "They’ve torn down the old cinema for a shopping center."],
+    "keys": { "кінотеатр": "cinema*|movie theater|theater|theatre", "торговий центр": "mall*|shopping cent*" }
+   },
+   {
+    "sit": "Ви купили квартиру й обговорюєте ремонт із дизайнером.",
+    "say": "Ми хочемо знести стіну між кухнею і вітальнею.",
+    "ans": ["We want to tear down the wall between the kitchen and the living room.", "We’d like to tear down the kitchen wall.", "We’re thinking of tearing down the wall between the kitchen and living room."],
+    "keys": { "стіна": "wall*", "кухня": "kitchen*" }
+   },
+   {
+    "sit": "На дачі стоїть старий сарай, який от-от упаде.",
+    "say": "Цей сарай пора знести.",
+    "ans": ["It’s time to tear down this shed.", "This shed needs to be torn down.", "We should just tear down that old shed."],
+    "keys": { "сарай": "shed*|barn*|hut*" }
+   }
+  ]
+ },
+ {
+  "id": 836, "w": "smash", "uk": "розтрощити, розбити", "lvl": "B1",
+  "forms": "smash|smashes|smashed|smashed|smashing",
+  "near": "break|breaks|broke|broken|breaking|shatter*|crack*|destroy*|wreck*|crush*",
+  "tasks": [
+   {
+    "sit": "Ти виходиш уранці до машини й бачиш на асфальті скло.",
+    "say": "Хтось розбив вікно в моїй машині!",
+    "ans": ["Someone smashed my car window!", "Somebody smashed the window of my car!", "Someone’s smashed my car window!"],
+    "keys": { "вікно": "window*|windshield|glass", "машина": "car" }
+   },
+   {
+    "sit": "Колега бачить павутину тріщин на твоєму телефоні.",
+    "say": "Я впустив його на плитку й розтрощив екран.",
+    "ans": ["I dropped it on the tiles and smashed the screen.", "I smashed the screen when I dropped it on the tiles.", "Dropped it on the tile floor and smashed the screen."],
+    "keys": { "екран": "screen*|display|glass", "впустив": "drop*|fell|fall*" }
+   },
+   {
+    "sit": "Сусідка розповідає про гучну сварку за стіною вчора ввечері.",
+    "say": "Вони так сварилися, що перебили всі тарілки.",
+    "ans": ["They argued so much that they smashed all the plates.", "They had such a big fight that they smashed every plate.", "They had a huge fight and smashed all the plates!"],
+    "keys": { "тарілки": "plate*|dish*", "сварилися": "fight*|fought|argu*|row*" }
+   }
+  ]
+ },
+ {
+  "id": 837, "w": "shatter", "uk": "розлетітися на друзки", "lvl": "B2",
+  "forms": "shatter|shatters|shattered|shattered|shattering",
+  "near": "break|breaks|broke|broken|breaking|smash*|crack*|burst*|explode*|fall apart|fell apart",
+  "tasks": [
+   {
+    "sit": "Кіт стрибнув на полицю, і щось голосно дзенькнуло.",
+    "say": "Мамина ваза впала й розлетілася на друзки.",
+    "ans": ["Mom’s vase fell and shattered.", "Mom’s vase fell off and shattered into pieces.", "Mom’s vase just fell and shattered everywhere!"],
+    "keys": { "ваза": "vase*", "впала": "fell|fall*|drop*|knock*" }
+   },
+   {
+    "sit": "На трасі з-під вантажівки вилетів камінь і влучив у вашу машину.",
+    "say": "Лобове скло просто розлетілося!",
+    "ans": ["The windshield just shattered!", "The windscreen shattered completely!", "The whole windshield just shattered!"],
+    "keys": { "скло": "windshield*|windscreen*|glass|window*" }
+   },
+   {
+    "sit": "Ти поставив скляну форму з холодильника одразу в гарячу духовку.",
+    "say": "Форма розлетілася на друзки просто в духовці.",
+    "ans": ["The dish shattered right in the oven.", "The glass dish shattered inside the oven.", "The baking dish just shattered in the oven!"],
+    "keys": { "форма": "dish*|pan|tray|glass|bowl", "духовка": "oven" }
+   }
+  ]
+ },
+ {
+  "id": 838, "w": "pass around", "uk": "передавати по колу", "lvl": "B1",
+  "forms": "pass|passes|passed|passed|passing",
+  "tail": "around/round",
+  "near": "share*|hand out|handed out|give out|gave out|distribute*|circulate*|offer*|hand round|handed round",
+  "tasks": [
+   {
+    "sit": "У тебе вдома вечірка, і на столі лише одна велика таця з канапками.",
+    "say": "Пустіть тацю по колу, будь ласка.",
+    "ans": ["Could you pass the tray around, please?", "Please pass the tray around.", "Pass the tray around, will you?"],
+    "keys": { "таця": "tray*|plate*|platter*|snack*|food" }
+   },
+   {
+    "sit": "На обідній перерві ти показуєш колегам фото зі свого весілля.",
+    "say": "Передайте телефон по колу, там усі фото.",
+    "ans": ["Pass my phone around — all the photos are there.", "Pass the phone around, the photos are all on it.", "Just pass my phone around, all the pics are on there."],
+    "keys": { "телефон": "phone|mobile", "фото": "photo*|pic*|picture*" }
+   },
+   {
+    "sit": "На лекції ти хочеш зібрати підписи під петицією студентів.",
+    "say": "Я пущу аркуш по колу — підпишіться, будь ласка.",
+    "ans": ["I’ll pass the sheet around — please sign it.", "I’m going to pass a sheet around, so please sign.", "I’ll pass this around — just sign it, please."],
+    "keys": { "підпишіться": "sign*|name*|signature*" }
+   }
+  ]
+ },
+ {
+  "id": 839, "w": "hand over", "uk": "передавати (офіційно, комусь іншому)", "lvl": "B2",
+  "forms": "hand|hands|handed|handed|handing",
+  "tail": "over",
+  "near": "give|gives|gave|given|giving|pass|passed|transfer*|turn over|turned over|deliver*|surrender*|return*",
+  "tasks": [
+   {
+    "sit": "Ти продав квартиру, і сьогодні новий власник заїжджає.",
+    "say": "О шостій я передам йому ключі.",
+    "ans": ["I’ll hand over the keys to him at six.", "I’m handing over the keys at six.", "I’ll hand the keys over to him at six."],
+    "keys": { "ключі": "key*", "шоста": "six|6*" }
+   },
+   {
+    "sit": "Ти звільняєшся, і в офісі в тебе лишився останній тиждень.",
+    "say": "Цього тижня я передам свої проєкти колезі.",
+    "ans": ["This week I’ll hand over my projects to a colleague.", "I’m handing over my projects to a coworker this week.", "I’ll hand my projects over to a colleague this week."],
+    "keys": { "проєкти": "project*|work|clients|tasks", "колега": "colleague*|coworker*|co-worker*|teammate*|someone" }
+   },
+   {
+    "sit": "Ти в захваті від нового фільму про пограбування банку й переказуєш другові сцену.",
+    "say": "Грабіжник наказав касирці віддати всі гроші.",
+    "ans": ["The robber told the cashier to hand over all the money.", "The robber made the teller hand over all the cash.", "The robber yelled at the cashier to hand over the money."],
+    "keys": { "гроші": "money|cash", "касирка": "cashier*|teller*|clerk" }
+   }
+  ]
+ },
+ {
+  "id": 840, "w": "turn in", "uk": "здавати (роботу, знахідку)", "lvl": "B1",
+  "forms": "turn|turns|turned|turned|turning",
+  "tail": "in",
+  "near": "hand in|handed in|submit*|give in|gave in|send|sent|deliver*|hand over|handed over|return*|take to|took to",
+  "tasks": [
+   {
+    "sit": "Зараз друга ночі, а ти ще сидиш над есе.",
+    "say": "Я маю здати есе до ранку.",
+    "ans": ["I have to turn in my essay by the morning.", "My essay has to be turned in by morning.", "I’ve got to turn this essay in by the morning."],
+    "keys": { "есе": "essay*|paper|assignment*", "ранок": "morning" }
+   },
+   {
+    "sit": "На вулиці ти знайшов гаманець із документами. Друг питає, що ти з ним зробив.",
+    "say": "Я відніс гаманець у поліцію.",
+    "ans": ["I turned the wallet in to the police.", "I turned in the wallet at the police station.", "I just turned it in to the police."],
+    "keys": { "поліція": "police|cops" }
+   },
+   {
+    "sit": "Керівниця нагадує тобі про квартальний звіт.",
+    "say": "Я здам звіт до кінця дня.",
+    "ans": ["I’ll turn in the report by the end of the day.", "I’ll turn the report in by end of day.", "Don’t worry, I’ll turn it in by the end of the day."],
+    "keys": { "кінець дня": "end of day|end of the day|today|tonight|eod" }
+   }
+  ]
+ }
+]

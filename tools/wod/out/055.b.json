@@ -1,0 +1,652 @@
+[
+ {
+  "id": 3019, "w": "come up", "uk": "виникати, згадуватися (про тему)", "lvl": "B1",
+  "forms": "come|comes|came|come|coming",
+  "tail": "up",
+  "near": "mention*|brought up|bring up|rais*|discuss*|talked about|talk about",
+  "tasks": [
+   {
+    "sit": "Колега не був на нараді й питає, чи обговорювали там графік відпусток.",
+    "say": "Ні, ця тема взагалі не виникала.",
+    "ans": ["No, it didn’t come up at all.", "No, the topic never came up.", "Nope, that didn’t even come up."],
+    "keys": { "не": "not|never" }
+   },
+   {
+    "sit": "Ти телефонуєш другові після зустрічі випускників, на яку він не прийшов.",
+    "say": "Твоє ім’я кілька разів згадувалося в розмові.",
+    "ans": ["Your name came up a few times in the conversation.", "Your name came up several times.", "You came up a couple of times, actually!"],
+    "keys": { "ім’я": "name|you", "кілька разів": "few times|several|couple|times|lot" }
+   },
+   {
+    "sit": "Ти розповідаєш подрузі про перше побачення.",
+    "say": "Тема колишніх, на щастя, так і не виникла.",
+    "ans": ["Luckily, the topic of exes never came up.", "Thankfully, our exes never came up.", "Luckily, exes didn’t come up at all."],
+    "keys": { "колишні": "ex*", "на щастя": "luck*|thank*|fortunately|phew" }
+   }
+  ]
+ },
+ {
+  "id": 3020, "w": "cover up", "uk": "приховувати (помилку, злочин)", "lvl": "B2",
+  "forms": "cover|covers|covered|covered|covering",
+  "tail": "up",
+  "near": "hid*|hide|conceal*|hush* up|sweep* under|swept under",
+  "tasks": [
+   {
+    "sit": "Бухгалтер помилився у квартальному звіті й зробив усе, щоб ніхто не помітив.",
+    "say": "Він намагався приховати свою помилку.",
+    "ans": ["He tried to cover up his mistake.", "He was trying to cover up the mistake.", "He tried to cover up his mistake, but we noticed."],
+    "keys": { "помилка": "mistake*|error*|blunder*" }
+   },
+   {
+    "sit": "Ти читаєш розслідування про хімічний завод на околиці міста.",
+    "say": "Компанія роками приховувала забруднення річки.",
+    "ans": ["The company covered up the river pollution for years.", "The company had been covering up the pollution of the river for years.", "For years the company covered up polluting the river."],
+    "keys": { "забруднення": "pollut*|toxic*|waste", "роками": "years" }
+   },
+   {
+    "sit": "Ти повертаєшся додому й знаходиш під диваном уламки вази. Розповідаєш чоловікові про дітей.",
+    "say": "Вони розбили вазу й намагалися це приховати!",
+    "ans": ["They broke the vase and tried to cover it up!", "They broke the vase and then tried to cover it up.", "The kids tried to cover up the broken vase!"],
+    "keys": { "ваза": "vase" }
+   }
+  ]
+ },
+ {
+  "id": 3021, "w": "cut short", "uk": "обривати / скорочувати (раніше, ніж планувалося)", "lvl": "B2",
+  "forms": "cut|cuts|cut|cut|cutting",
+  "tail": "short",
+  "near": "shorten*|end* early|ended early|interrupt*|stop* early|stopped early|curtail*",
+  "tasks": [
+   {
+    "sit": "Колеги дивуються, чому ти повернувся з відпустки на тиждень раніше.",
+    "say": "Нам довелося обірвати відпустку, бо захворів син.",
+    "ans": ["We had to cut our vacation short because our son got sick.", "We had to cut short our holiday because our son was ill.", "We had to cut the trip short — our son got sick."],
+    "keys": { "відпустка": "vacation|holiday|trip", "син": "son|kid|boy" }
+   },
+   {
+    "sit": "На конференції один спікер говорив удвічі довше, ніж мав. Ти розповідаєш про це колезі.",
+    "say": "Зрештою модератор обірвав його промову.",
+    "ans": ["In the end, the moderator cut his speech short.", "Eventually the moderator cut short his speech.", "Finally the moderator just cut him short."],
+    "keys": { "модератор": "moderator|host|chair*" }
+   },
+   {
+    "sit": "Ти вболіваєш за теніс і обговорюєш із другом колишнього чемпіона.",
+    "say": "Травма обірвала його кар’єру.",
+    "ans": ["An injury cut his career short.", "His career was cut short by an injury.", "Sadly, an injury cut short his career."],
+    "keys": { "травма": "injur*", "кар’єра": "career" }
+   }
+  ]
+ },
+ {
+  "id": 3022, "w": "fill in", "uk": "вводити в курс справи", "lvl": "B1",
+  "forms": "fill|fills|filled|filled|filling",
+  "tail": "in",
+  "near": "brief*|updat*|catch* up|caught up|bring up to speed|tell|told",
+  "tasks": [
+   {
+    "sit": "Ти повернувся з двотижневої відпустки, а в команді багато змін.",
+    "say": "Можеш ввести мене в курс того, що я пропустив?",
+    "ans": ["Can you fill me in on what I missed?", "Could you fill me in on what happened while I was away?", "So, can someone fill me in on what’s been going on?"],
+    "keys": { "пропустив": "miss*|happened|going on|changed" }
+   },
+   {
+    "sit": "Ти прийшов на вечірку пізно, а всі вже регочуть із якоїсь історії.",
+    "say": "Я все пропустив! Хто мені розповість, що сталося?",
+    "ans": ["I missed everything! Who’s going to fill me in?", "I missed it all — can somebody fill me in?", "Wait, I missed that — fill me in!"],
+    "keys": { "пропустив": "miss*" }
+   },
+   {
+    "sit": "Новий колега приєднався до проєкту посеред тижня й не розуміє, що відбувається.",
+    "say": "Я введу тебе в курс справ після обіду.",
+    "ans": ["I’ll fill you in after lunch.", "I’m going to fill you in after lunch.", "Let me fill you in after lunch, okay?"],
+    "keys": { "обід": "lunch" }
+   }
+  ]
+ },
+ {
+  "id": 3023, "w": "fire away", "uk": "питай сміливо (запрошення ставити питання)", "lvl": "B2",
+  "forms": "fire|fires|fired|fired|firing",
+  "tail": "away",
+  "near": "go ahead|shoot|ask away|go on",
+  "tasks": [
+   {
+    "sit": "Ти закінчив презентацію на конференції, і хтось у залі підняв руку.",
+    "say": "Так, питайте сміливо!",
+    "ans": ["Yes, fire away!", "Sure, fire away!", "Of course — fire away!"],
+    "keys": { "так": "yes|sure|of course|absolutely|okay|ok" }
+   },
+   {
+    "sit": "Журналістка місцевого сайту хоче поставити тобі кілька питань про твою пекарню.",
+    "say": "Я готовий, питайте!",
+    "ans": ["I’m ready, fire away!", "I’m ready — fire away.", "Okay, I’m all set. Fire away!"],
+    "keys": { "готовий": "ready|set" }
+   },
+   {
+    "sit": "Стажер каже, що має купу питань про роботу, але соромиться тебе відволікати.",
+    "say": "Не соромся, питай!",
+    "ans": ["Don’t be shy, fire away!", "Don’t be shy — fire away with your questions!", "No need to be shy, just fire away!"],
+    "keys": { "не соромся": "shy|embarrass*|worry" }
+   }
+  ]
+ },
+ {
+  "id": 3024, "w": "get across", "uk": "донести (думку, ідею)", "lvl": "B2",
+  "forms": "get|gets|got|got/gotten|getting",
+  "tail": "across",
+  "near": "explain*|convey*|communicat*|put across|make clear|made clear|make myself clear",
+  "tasks": [
+   {
+    "sit": "Після твоєї презентації для інвесторів колега питає, як усе пройшло.",
+    "say": "Здається, мені не вдалося донести свою думку.",
+    "ans": ["I don’t think I got my point across.", "I couldn’t get my point across, I think.", "I just couldn’t get my point across."],
+    "keys": { "думка": "point|idea*|message|it", "не": "not|never|fail*" }
+   },
+   {
+    "sit": "Ти вчитель і пояснюєш дітям дроби, розрізаючи піцу.",
+    "say": "Так простіше донести ідею.",
+    "ans": ["It’s easier to get the idea across this way.", "This way it’s easier to get the idea across.", "This makes it much easier to get the idea across."],
+    "keys": { "простіше": "easier|simpler|easy|simple" }
+   },
+   {
+    "sit": "Ти в Іспанії майже без знання мови, але в аптеці тебе зрозуміли. Розповідаєш другові.",
+    "say": "Я якось зміг жестами донести, що мені треба.",
+    "ans": ["I somehow managed to get across what I needed with gestures.", "I got across what I needed using gestures.", "I somehow got my message across with my hands."],
+    "keys": { "жести": "gesture*|hands|sign*" }
+   }
+  ]
+ },
+ {
+  "id": 3025, "w": "get at", "uk": "хилити (мати на увазі) / докопуватися до", "lvl": "B2",
+  "forms": "get|gets|got|got/gotten|getting",
+  "tail": "at",
+  "near": "mean*|meant|impl*|hint*|suggest*|driving at|find out|found out|uncover*",
+  "tasks": [
+   {
+    "sit": "Колега натякає, що ти нібито знав про скорочення заздалегідь.",
+    "say": "Я не розумію, до чого ти хилиш.",
+    "ans": ["I don’t see what you’re getting at.", "I don’t understand what you’re getting at.", "Sorry, I’m not sure what you’re getting at."],
+    "keys": { "не розумію": "not see|not understand|not sure|not get|not follow|no idea|confus*" }
+   },
+   {
+    "sit": "Ти пояснюєш команді, чому запуск проєкту треба відкласти, але тебе не розуміють.",
+    "say": "Я хочу сказати, що нам бракує людей.",
+    "ans": ["What I’m getting at is that we don’t have enough people.", "What I’m getting at is we’re short of staff.", "Look, what I’m getting at is we need more people."],
+    "keys": { "людей": "people|staff|team|hands|workers" }
+   },
+   {
+    "sit": "Ти дивишся документальний фільм про журналістів-розслідувачів.",
+    "say": "Вони роками намагалися докопатися до правди.",
+    "ans": ["They spent years trying to get at the truth.", "They tried for years to get at the truth.", "For years, they were trying to get at the truth."],
+    "keys": { "правда": "truth|facts", "роками": "years" }
+   }
+  ]
+ },
+ {
+  "id": 3026, "w": "get through to", "uk": "достукатися до", "lvl": "B2",
+  "forms": "get|gets|got|got/gotten|getting",
+  "tail": "through to",
+  "near": "reach*|connect with|talk sense|convinc*|persuad*",
+  "tasks": [
+   {
+    "sit": "Твій син-підліток кинув навчання й не слухає жодних порад. Ти ділишся з подругою.",
+    "say": "Я просто не можу до нього достукатися.",
+    "ans": ["I just can’t get through to him.", "I can’t seem to get through to him.", "Nothing I say gets through to him."],
+    "keys": { "не можу": "not|nothing|never" }
+   },
+   {
+    "sit": "Подруга розповіла, що нарешті поговорила з братом, який довго ні з ким не спілкувався.",
+    "say": "Нарешті хтось до нього достукався.",
+    "ans": ["Finally, someone got through to him.", "Someone finally got through to him.", "At last somebody got through to him!"],
+    "keys": { "нарешті": "finally|at last", "хтось": "someone|somebody|she|you" }
+   },
+   {
+    "sit": "Ти вчитель, і найважчий учень у класі раптом почав робити домашні завдання.",
+    "say": "Здається, мені вдалося до нього достукатися.",
+    "ans": ["I think I finally got through to him.", "It seems I’ve managed to get through to him.", "Looks like I’ve finally gotten through to him!"],
+    "keys": { "здається": "think|seem*|looks like|guess" }
+   }
+  ]
+ },
+ {
+  "id": 3027, "w": "give out", "uk": "роздавати", "lvl": "B1",
+  "forms": "give|gives|gave|given|giving",
+  "tail": "out",
+  "near": "hand* out|handed out|distribut*|pass* out|passed out|hand* round|pass* round",
+  "tasks": [
+   {
+    "sit": "Біля входу в метро волонтери зупиняють перехожих. Ти кажеш подрузі по телефону.",
+    "say": "Тут роздають безкоштовні квитки на концерт.",
+    "ans": ["They’re giving out free concert tickets here.", "They’re giving out free tickets to a concert.", "Guess what, they’re giving out free tickets for the concert!"],
+    "keys": { "безкоштовні": "free", "квитки": "ticket*" }
+   },
+   {
+    "sit": "Ти вчитель, урок почався, і тобі потрібна допомога учня біля першої парти.",
+    "say": "Роздай, будь ласка, тести всім.",
+    "ans": ["Please give out the tests to everyone.", "Could you give out the tests, please?", "Can you give these tests out to everyone?"],
+    "keys": { "тести": "test*|papers|quiz*" }
+   },
+   {
+    "sit": "Ти розповідаєш колегам, як минув Гелловін у вашому районі.",
+    "say": "Ми роздали дітям понад сто цукерок.",
+    "ans": ["We gave out over a hundred sweets to the kids.", "We gave out more than a hundred candies.", "We must’ve given out a hundred candies!"],
+    "keys": { "цукерки": "sweet*|cand*|chocolate*", "сто": "hundred|100" }
+   }
+  ]
+ },
+ {
+  "id": 3028, "w": "go on", "uk": "тривати / відбуватися", "lvl": "A2",
+  "forms": "go|goes|went|gone|going",
+  "tail": "on",
+  "near": "happen*|last*|continu*|take place|took place|drag* on",
+  "tasks": [
+   {
+    "sit": "Ти заходиш на кухню, а там діти, борошно на підлозі й розбиті яйця.",
+    "say": "Що тут відбувається?",
+    "ans": ["What’s going on here?", "What is going on in here?", "Hey, what’s going on here?"],
+    "keys": { "тут": "here|kitchen" }
+   },
+   {
+    "sit": "Ти скаржишся другові на нескінченну нараду на роботі.",
+    "say": "Нарада тривала три години!",
+    "ans": ["The meeting went on for three hours!", "That meeting went on for three hours.", "The meeting just went on and on for three hours!"],
+    "keys": { "три години": "three hours|3 hours|hour*", "нарада": "meeting" }
+   },
+   {
+    "sit": "Сусіди знову гучно гуляли, а тобі зранку на роботу. Розповідаєш колезі.",
+    "say": "Їхня вечірка тривала до другої ночі.",
+    "ans": ["Their party went on until two in the morning.", "The party went on till two at night.", "Their party went on till two!"],
+    "keys": { "друга": "two|2", "вечірка": "party" }
+   }
+  ]
+ },
+ {
+  "id": 3029, "w": "go over", "uk": "переглядати / повторювати", "lvl": "B1",
+  "forms": "go|goes|went|gone|going",
+  "tail": "over",
+  "near": "review*|revis*|check*|look* through|look* over|run through|repeat*",
+  "tasks": [
+   {
+    "sit": "Завтра іспит з історії. Однокурсник пропонує зустрітися.",
+    "say": "Давай увечері ще раз переглянемо конспекти.",
+    "ans": ["Let’s go over the notes again tonight.", "Let’s go over our notes once more this evening.", "Why don’t we go over the notes again tonight?"],
+    "keys": { "конспект": "notes|lectures", "увечері": "tonight|evening" }
+   },
+   {
+    "sit": "За пів години зустріч з інвестором. Ти кажеш колезі.",
+    "say": "Пройдімося по плану ще раз.",
+    "ans": ["Let’s go over the plan one more time.", "Let’s go over the plan again.", "Can we go over the plan once more?"],
+    "keys": { "план": "plan|pitch|presentation", "ще раз": "again|once more|one more time" }
+   },
+   {
+    "sit": "Ви з партнеркою сіли за кухонний стіл планувати бюджет на наступний місяць.",
+    "say": "Нам треба переглянути всі витрати.",
+    "ans": ["We need to go over all our expenses.", "We have to go over all the spending.", "We really need to go over our expenses."],
+    "keys": { "витрати": "expens*|spending|bills|costs|money" }
+   }
+  ]
+ },
+ {
+  "id": 3030, "w": "hear about", "uk": "чути про (новину, подію)", "lvl": "A2",
+  "forms": "hear|hears|heard|heard|hearing",
+  "tail": "about",
+  "near": "learn*|know about|found out|find out|read about|see the news",
+  "tasks": [
+   {
+    "sit": "Уранці ти зустрів сусіда біля під’їзду.",
+    "say": "Ти чув про пожежу на ринку?",
+    "ans": ["Did you hear about the fire at the market?", "Have you heard about the fire at the market?", "Hey, did you hear about the market fire?"],
+    "keys": { "пожежа": "fire", "ринок": "market" }
+   },
+   {
+    "sit": "Колега повернувся на роботу після похорону батька.",
+    "say": "Мені дуже шкода, я чув про твого тата.",
+    "ans": ["I’m so sorry, I heard about your dad.", "I’m really sorry — I heard about your father.", "I heard about your dad. I’m so sorry."],
+    "keys": { "тато": "dad|father", "шкода": "sorry" }
+   },
+   {
+    "sit": "Друг пропонує повечеряти в новому грузинському ресторані.",
+    "say": "Я багато чув про нього, але ще там не був.",
+    "ans": ["I’ve heard a lot about it, but I haven’t been there yet.", "I’ve heard lots about it but I’ve never been.", "I’ve heard so much about it — I haven’t tried it yet!"],
+    "keys": { "багато": "lot*|much|many", "не був": "not|never" }
+   }
+  ]
+ },
+ {
+  "id": 3031, "w": "hear from", "uk": "отримувати звістку від", "lvl": "A2",
+  "forms": "hear|hears|heard|heard|hearing",
+  "tail": "from",
+  "near": "contact*|got in touch|get in touch|text*|messag*|repl*|call*",
+  "tasks": [
+   {
+    "sit": "Ти знайшов у соцмережі старого шкільного друга й пишеш йому.",
+    "say": "Привіт! Я вже сто років про тебе нічого не чув!",
+    "ans": ["Hi! I haven’t heard from you in ages!", "Hey! It’s been ages since I heard from you!", "Hey, I haven’t heard from you in forever!"],
+    "keys": { "сто років": "ages|long|years|forever|while" }
+   },
+   {
+    "sit": "Ти пройшов співбесіду тиждень тому. Друг питає, чи є новини.",
+    "say": "Поки що вони мені не відповіли.",
+    "ans": ["I haven’t heard from them yet.", "I still haven’t heard from them.", "Nothing yet — I haven’t heard from them."],
+    "keys": { "поки що": "yet|still|so far" }
+   },
+   {
+    "sit": "Ти закінчуєш ділову зустріч із потенційним партнером.",
+    "say": "Сподіваюся скоро отримати від вас відповідь.",
+    "ans": ["I hope to hear from you soon.", "I look forward to hearing from you soon.", "We hope to hear from you soon!"],
+    "keys": { "скоро": "soon" }
+   }
+  ]
+ },
+ {
+  "id": 3032, "w": "hear of", "uk": "чути про (знати про існування)", "lvl": "B1",
+  "forms": "hear|hears|heard|heard|hearing",
+  "tail": "of",
+  "near": "know*|familiar|recogni*",
+  "tasks": [
+   {
+    "sit": "Друг вмикає тобі пісню якогось інді-гурту й питає, чи знаєш їх.",
+    "say": "Ні, я ніколи про них не чув.",
+    "ans": ["No, I’ve never heard of them.", "No, I have never heard of this band.", "Nope, I’ve never heard of them before."],
+    "keys": { "ніколи": "never|not" }
+   },
+   {
+    "sit": "Колега радить новий застосунок для планування завдань. Ти питаєш команду на нараді.",
+    "say": "Хтось чув про такий застосунок?",
+    "ans": ["Has anyone heard of this app?", "Have any of you heard of this app?", "Has anyone here ever heard of this app?"],
+    "keys": { "застосунок": "app*|tool|program*|software" }
+   },
+   {
+    "sit": "Лікар призначає тобі якісь рідкісні ліки.",
+    "say": "Я про такі ліки ніколи не чув.",
+    "ans": ["I’ve never heard of this medicine.", "I have never heard of that drug.", "Hmm, I’ve never heard of these pills."],
+    "keys": { "ліки": "medicine*|drug*|medication*|pill*", "ніколи": "never|not" }
+   }
+  ]
+ },
+ {
+  "id": 3033, "w": "lay down", "uk": "установлювати (правила)", "lvl": "B2",
+  "forms": "lay|lays|laid|laid|laying",
+  "tail": "down",
+  "near": "set* rules|set the rules|set some rules|establish*|make the rules|made the rules|impos*",
+  "tasks": [
+   {
+    "sit": "Твої діти-підлітки вперше їдуть із друзями на море без батьків.",
+    "say": "Перед поїздкою я встановив кілька суворих правил.",
+    "ans": ["Before the trip, I laid down a few strict rules.", "I laid down some strict rules before the trip.", "I laid down some strict ground rules before they left."],
+    "keys": { "правила": "rule*", "поїздка": "trip|left|leav*|went" }
+   },
+   {
+    "sit": "Новий директор у перший же тиждень змінив порядки в компанії.",
+    "say": "Він одразу встановив нові правила для всіх.",
+    "ans": ["He laid down new rules for everyone right away.", "He immediately laid down new rules for everybody.", "Right away, he laid down the new rules for all of us."],
+    "keys": { "правила": "rule*|polic*", "нові": "new" }
+   },
+   {
+    "sit": "До тебе в орендовану квартиру вселяється новий сусід.",
+    "say": "Давай одразу встановимо правила щодо прибирання.",
+    "ans": ["Let’s lay down some rules about cleaning right away.", "Let’s lay down the cleaning rules from the start.", "Let’s lay down a few ground rules about cleaning."],
+    "keys": { "правила": "rule*", "прибирання": "clean*|chore*|tidy*" }
+   }
+  ]
+ },
+ {
+  "id": 3034, "w": "leave out", "uk": "пропускати / не згадувати", "lvl": "B1",
+  "forms": "leave|leaves|left|left|leaving",
+  "tail": "out",
+  "near": "skip*|omit*|miss* out|forgot|forget|drop*",
+  "tasks": [
+   {
+    "sit": "Подруга переказує вашу спільну пригоду, але забула найсмішніший момент.",
+    "say": "Ти пропустила найцікавіше!",
+    "ans": ["You left out the best part!", "You’ve left out the most interesting part!", "Wait, you left out the best bit!"],
+    "keys": { "найцікавіше": "best|interesting|funn*|good" }
+   },
+   {
+    "sit": "Ти допомагаєш другові з резюме, а там є робота, яка не стосується вакансії.",
+    "say": "Я б не згадував цю роботу в резюме.",
+    "ans": ["I’d leave that job out of your CV.", "I would leave out that job on your resume.", "I’d just leave that job out of the CV."],
+    "keys": { "робота": "job|position|work", "резюме": "cv|resume" }
+   },
+   {
+    "sit": "У твого друга алергія на горіхи, а ти готуєш для гостей салат за рецептом.",
+    "say": "Не хвилюйся, я не додав горіхи в салат.",
+    "ans": ["Don’t worry, I left out the nuts from the salad.", "Don’t worry — I left the nuts out of the salad.", "No worries, I left the nuts out!"],
+    "keys": { "горіхи": "nut*" }
+   }
+  ]
+ },
+ {
+  "id": 3035, "w": "let out", "uk": "видати (звук) / випустити (таємницю)", "lvl": "B1",
+  "forms": "let|lets|let|let|letting",
+  "tail": "out",
+  "near": "blurt*|gave a|give a|utter*|slipped out|spill*",
+  "tasks": [
+   {
+    "sit": "Ти з другом на фільмі жахів, і на екрані раптом з’являється привид.",
+    "say": "Я аж скрикнув від несподіванки.",
+    "ans": ["I let out a scream in surprise.", "I let out a little scream when it jumped out.", "I actually let out a scream — it scared me so much!"],
+    "keys": { "скрикнув": "scream*|shriek*|yell*|cry|cried" }
+   },
+   {
+    "sit": "Найважчий робочий тиждень нарешті закінчився, і ти падаєш на диван.",
+    "say": "Я видихнув із полегшенням.",
+    "ans": ["I let out a sigh of relief.", "I let out a big sigh of relief.", "I just let out a huge sigh of relief."],
+    "keys": { "полегшення": "relief|reliev*", "видихнув": "sigh*|breath*" }
+   },
+   {
+    "sit": "Сестра готувала для мами вечірку-сюрприз, а ти випадково проговорився.",
+    "say": "Я випадково бовкнув про сюрприз.",
+    "ans": ["I accidentally let out the secret about the party.", "I let the secret out by accident.", "Oops, I accidentally let out the surprise!"],
+    "keys": { "випадково": "accident*|by mistake|oops", "сюрприз": "surprise|secret|party" }
+   }
+  ]
+ },
+ {
+  "id": 3036, "w": "look up to", "uk": "брати приклад з, поважати", "lvl": "B1",
+  "forms": "look|looks|looked|looked|looking",
+  "tail": "up to",
+  "near": "admir*|respect*|idoli*|role model|idol",
+  "tasks": [
+   {
+    "sit": "Журналіст питає тебе, молодого спортсмена, хто найбільше вплинув на твою кар’єру.",
+    "say": "Я завжди рівнявся на свого старшого брата.",
+    "ans": ["I’ve always looked up to my older brother.", "I always looked up to my big brother.", "My older brother — I’ve always looked up to him."],
+    "keys": { "брат": "brother", "завжди": "always" }
+   },
+   {
+    "sit": "Ти просиш старшого сина поводитися краще при молодшому.",
+    "say": "Твій братик на тебе рівняється, пам’ятай про це.",
+    "ans": ["Your little brother looks up to you, remember that.", "Remember, your little brother looks up to you.", "Don’t forget, your little brother really looks up to you."],
+    "keys": { "братик": "brother", "пам’ятай": "remember|forget|mind" }
+   },
+   {
+    "sit": "На прощальній вечірці ти кажеш кілька слів про наставницю, яка йде на пенсію.",
+    "say": "Усі ми брали з неї приклад.",
+    "ans": ["We all looked up to her.", "All of us looked up to her.", "Every one of us looked up to her."],
+    "keys": { "усі": "all|every*" }
+   }
+  ]
+ },
+ {
+  "id": 3037, "w": "mix up", "uk": "плутати", "lvl": "B1",
+  "forms": "mix|mixes|mixed|mixed|mixing",
+  "tail": "up",
+  "near": "confus*|muddl*|get wrong|got wrong|mistake* for|mistook",
+  "tasks": [
+   {
+    "sit": "Ти вчитель, і в твоєму класі навчаються близнюки.",
+    "say": "Я завжди їх плутаю.",
+    "ans": ["I always mix them up.", "I keep mixing them up.", "I always mix up the twins."],
+    "keys": { "завжди": "always|keep|all the time|every time|constantly" }
+   },
+   {
+    "sit": "Ти пояснюєш бабусі, як приймати дві схожі на вигляд пігулки.",
+    "say": "Будь ласка, не переплутай ці таблетки.",
+    "ans": ["Please don’t mix up these pills.", "Please don’t mix these pills up.", "Be careful not to mix up the pills, okay?"],
+    "keys": { "таблетки": "pill*|tablet*|medicine*|meds" }
+   },
+   {
+    "sit": "Ти приїхав на екскурсію, а гід каже, що вона була вчора.",
+    "say": "Ой, я переплутав дати.",
+    "ans": ["Oh, I mixed up the dates.", "Oh no, I got the dates mixed up.", "Oops, I must have mixed up the dates!"],
+    "keys": { "дати": "date*|day*" }
+   }
+  ]
+ },
+ {
+  "id": 3038, "w": "name after", "uk": "називати на честь", "lvl": "B1",
+  "forms": "name|names|named|named|naming",
+  "tail": "after",
+  "near": "call* after|name* for|in honor|in honour",
+  "tasks": [
+   {
+    "sit": "Новий знайомий питає, звідки в тебе таке рідкісне ім’я.",
+    "say": "Мене назвали на честь дідуся.",
+    "ans": ["I was named after my grandfather.", "My parents named me after my grandpa.", "I was named after my granddad, actually."],
+    "keys": { "дідусь": "grand*" }
+   },
+   {
+    "sit": "Ви взяли кошеня, і сусідка питає, як його звати і чому саме так.",
+    "say": "Ми назвали його на честь улюбленого футболіста.",
+    "ans": ["We named him after our favorite football player.", "We named him after my favourite footballer.", "We named the kitten after our favorite soccer player."],
+    "keys": { "футболіст": "football*|soccer|player" }
+   },
+   {
+    "sit": "Ти проводиш екскурсію Львовом для іноземних туристів.",
+    "say": "Цю вулицю назвали на честь відомого поета.",
+    "ans": ["This street was named after a famous poet.", "They named this street after a famous poet.", "The street is named after a well-known poet."],
+    "keys": { "поет": "poet|writer" }
+   }
+  ]
+ },
+ {
+  "id": 3039, "w": "note down", "uk": "занотовувати", "lvl": "B1",
+  "forms": "note|notes|noted|noted|noting",
+  "tail": "down",
+  "near": "write* down|wrote down|written down|jot* down|jotted down|record*|take note*",
+  "tasks": [
+   {
+    "sit": "Кур’єр по телефону диктує тобі адресу складу.",
+    "say": "Секунду, я запишу адресу.",
+    "ans": ["One second, I’ll note down the address.", "Hold on, let me note the address down.", "Just a second, I’m noting down the address."],
+    "keys": { "адреса": "address" }
+   },
+   {
+    "sit": "Викладач на лекції каже щось важливе про іспит. Ти шепочеш одногрупникові.",
+    "say": "Занотуй це, це буде на іспиті.",
+    "ans": ["Note this down, it’ll be on the exam.", "Note that down — it’s going to be on the test.", "You should note this down, it’ll be in the exam."],
+    "keys": { "іспит": "exam*|test" }
+   },
+   {
+    "sit": "Лікар швидко перелічує, які аналізи тобі треба здати.",
+    "say": "Зачекайте, я занотую, які аналізи потрібні.",
+    "ans": ["Wait, let me note down which tests I need.", "Hold on, I’ll note down the tests.", "Sorry, can I just note down which tests I need?"],
+    "keys": { "аналізи": "test*|blood*|analys*" }
+   }
+  ]
+ },
+ {
+  "id": 3040, "w": "own up", "uk": "зізнаватися (у провині)", "lvl": "B2",
+  "forms": "own|owns|owned|owned|owning",
+  "tail": "up",
+  "near": "admit*|confess*|come clean|came clean|take the blame|took the blame",
+  "tasks": [
+   {
+    "sit": "У класі хтось розбив вікно м’ячем, і вчитель довго чекав на винного. Розповідаєш удома.",
+    "say": "Ніхто не зізнався, тож покарали весь клас.",
+    "ans": ["Nobody owned up, so the whole class got punished.", "No one owned up, so they punished the whole class.", "Nobody would own up, so the whole class was punished."],
+    "keys": { "ніхто": "nobody|no one|none", "клас": "class|everyone|all" }
+   },
+   {
+    "sit": "Ти випадково видалив важливу папку на спільному диску компанії.",
+    "say": "Мені треба зізнатися начальниці, що це зробив я.",
+    "ans": ["I need to own up to my boss that it was me.", "I have to own up to the boss — it was my fault.", "I should just own up and tell my boss it was me."],
+    "keys": { "начальниця": "boss|manager" }
+   },
+   {
+    "sit": "Хтось із дітей з’їв увесь торт, який ти спік для гостей.",
+    "say": "Хто з’їв торт? Зізнавайтеся!",
+    "ans": ["Who ate the cake? Own up!", "Come on, own up — who ate the cake?", "Okay, who ate the cake? Own up now!"],
+    "keys": { "торт": "cake", "з’їв": "ate|eat*|finish*" }
+   }
+  ]
+ },
+ {
+  "id": 3041, "w": "point out", "uk": "вказувати на / зауважувати", "lvl": "B1",
+  "forms": "point|points|pointed|pointed|pointing",
+  "tail": "out",
+  "near": "mention*|notic*|show*|highlight*|indicat*|remark*",
+  "tasks": [
+   {
+    "sit": "Науковий керівник переглянув чернетку твоєї курсової.",
+    "say": "Він вказав на кілька помилок у висновках.",
+    "ans": ["He pointed out a few mistakes in my conclusions.", "He pointed out several errors in the conclusion.", "He pointed out a couple of mistakes in my conclusion."],
+    "keys": { "помилки": "mistake*|error*|issue*|problem*", "висновки": "conclusion*" }
+   },
+   {
+    "sit": "На касі в супермаркеті тобі двічі пробили той самий товар.",
+    "say": "Я чемно вказав касирці на помилку.",
+    "ans": ["I politely pointed out the mistake to the cashier.", "I pointed out the mistake to the cashier politely.", "I politely pointed out to the cashier that she’d charged me twice."],
+    "keys": { "помилка": "mistake*|error*|twice|double", "чемно": "polite*|nice*|kind*|calm*" }
+   },
+   {
+    "sit": "Друг захоплено показує тобі дуже дешеву квартиру, яку хоче купити.",
+    "say": "Мушу зауважити, що вона далеко від метро.",
+    "ans": ["I have to point out that it’s far from the metro.", "I should point out that it’s a long way from the subway.", "I’ll just point out that it’s pretty far from the metro."],
+    "keys": { "далеко": "far|long way|distance", "метро": "metro|subway|underground|tube|station" }
+   }
+  ]
+ },
+ {
+  "id": 3042, "w": "put across", "uk": "донести / зрозуміло пояснити (думку)", "lvl": "B2",
+  "forms": "put|puts|put|put|putting",
+  "tail": "across",
+  "near": "explain*|convey*|get across|got across|communicat*|present*",
+  "tasks": [
+   {
+    "sit": "Ти тренер дебатного клубу. Після раунду хвалиш студентку.",
+    "say": "Ти чудово донесла свої аргументи.",
+    "ans": ["You put your arguments across really well.", "You put across your arguments brilliantly.", "You really put your point across well!"],
+    "keys": { "аргументи": "argument*|point*|case|idea*", "чудово": "well|brilliant*|great*|perfect*" }
+   },
+   {
+    "sit": "Ти готуєшся до співбесіди й репетируєш відповіді перед дзеркалом.",
+    "say": "Мені треба навчитися чітко доносити свої ідеї.",
+    "ans": ["I need to learn to put my ideas across clearly.", "I have to learn how to put across my ideas clearly.", "I really need to learn to put my ideas across more clearly."],
+    "keys": { "чітко": "clear*|well", "ідеї": "idea*|thought*|point*" }
+   },
+   {
+    "sit": "Ви з другом обговорюєте вчорашній виступ мера по телебаченню.",
+    "say": "Йому зовсім не вдалося донести свою позицію.",
+    "ans": ["He completely failed to put his position across.", "He didn’t manage to put across his position at all.", "He totally failed to put his point across."],
+    "keys": { "позиція": "position|point|message|view*", "не вдалося": "fail*|not" }
+   }
+  ]
+ },
+ {
+  "id": 3043, "w": "put forward", "uk": "висувати (пропозицію, кандидата)", "lvl": "B2",
+  "forms": "put|puts|put|put|putting",
+  "tail": "forward",
+  "near": "propos*|suggest*|submit*|present*|offer*|nominat*",
+  "tasks": [
+   {
+    "sit": "На нараді обговорюють, як скоротити витрати відділу.",
+    "say": "Я хочу висунути одну пропозицію.",
+    "ans": ["I’d like to put forward a proposal.", "I want to put forward a suggestion.", "Can I put forward an idea?"],
+    "keys": { "пропозиція": "proposal|suggestion|idea|plan" }
+   },
+   {
+    "sit": "Ти обговорюєш із батьком місцеві новини.",
+    "say": "Міська рада висунула новий план ремонту доріг.",
+    "ans": ["The city council put forward a new plan to fix the roads.", "The council has put forward a new road repair plan.", "They’ve put forward a new plan for fixing the roads."],
+    "keys": { "план": "plan|proposal|scheme", "дороги": "road*" }
+   },
+   {
+    "sit": "Батьківський комітет школи обирає нового голову. Ти розповідаєш дружині новину.",
+    "say": "Мене висунули кандидатом на голову комітету.",
+    "ans": ["They put me forward as a candidate for chair.", "I’ve been put forward for committee chair.", "They put my name forward for chair of the committee."],
+    "keys": { "голова": "chair*|head|president" }
+   }
+  ]
+ }
+]

@@ -1,0 +1,644 @@
+[
+ {
+  "id": 1630, "w": "appreciate", "uk": "цінувати, бути вдячним", "lvl": "B1",
+  "forms": "appreciate|appreciates|appreciated|appreciated|appreciating",
+  "near": "thank*|grateful|thankful|value|values|valued",
+  "tasks": [
+   {
+    "sit": "Сусід допоміг тобі занести важкий диван на пʼятий поверх.",
+    "say": "Дякую, я дуже ціную твою допомогу.",
+    "ans": ["Thanks, I really appreciate your help.", "I really appreciate you helping me with this.", "Thanks so much, I appreciate it."],
+    "keys": { "допомога": "help*|it|this", "дуже": "really|so much|a lot|very|truly" }
+   },
+   {
+    "sit": "Керівниця залишилася після роботи, щоб перевірити твій звіт перед дедлайном.",
+    "say": "Я ціную, що ви знайшли на це час.",
+    "ans": ["I appreciate you taking the time.", "I appreciate that you found time for this.", "I really appreciate you making the time for this."],
+    "keys": { "час": "time" }
+   },
+   {
+    "sit": "Подруга написала тобі довге тепле повідомлення, коли тобі було дуже погано.",
+    "say": "Я справді ціную твої теплі слова.",
+    "ans": ["I really appreciate your kind words.", "Your kind words mean a lot — I appreciate them.", "Thank you, I truly appreciate the kind words."],
+    "keys": { "слова": "word*|message*|note", "теплі": "kind|warm|nice|lovely|sweet" }
+   }
+  ]
+ },
+ {
+  "id": 1632, "w": "be grateful for", "uk": "бути вдячним за", "lvl": "B2",
+  "forms": "be/am/are|is|was/were|been|being",
+  "tail": "grateful for",
+  "near": "thankful|appreciate*|appreciating|thank*",
+  "tasks": [
+   {
+    "sit": "Після важкої операції лікар каже, що ти скоро одужаєш і болю вже не буде.",
+    "say": "Я вдячний за кожен день без болю.",
+    "ans": ["I’m grateful for every day without pain.", "I am grateful for each day without pain.", "Honestly, I’m just grateful for every day I’m not in pain."],
+    "keys": { "кожен день": "every day|each day|day*", "біль": "pain*|hurt*" }
+   },
+   {
+    "sit": "Ти йдеш з компанії й прощаєшся з командою, яка багато тебе навчила.",
+    "say": "Я вдячний за все, чого ви мене навчили.",
+    "ans": ["I’m grateful for everything you’ve taught me.", "I’ll always be grateful for all you taught me.", "I’m really grateful for everything I’ve learned from you guys."],
+    "keys": { "навчили": "taught|teach*|learn*|learned|learnt", "все": "everything|all" }
+   },
+   {
+    "sit": "Родина зібралася за святковим столом, і кожен каже, за що вдячний цього року.",
+    "say": "Я вдячний за свою сімʼю і здоровʼя.",
+    "ans": ["I’m grateful for my family and my health.", "I am grateful for my family and for good health.", "I’m just grateful for my family and that we’re all healthy."],
+    "keys": { "сімʼя": "family|parents|kids", "здоровʼя": "health*|healthy" }
+   }
+  ]
+ },
+ {
+  "id": 1633, "w": "acknowledge", "uk": "визнавати (заслуги)", "lvl": "C1",
+  "forms": "acknowledge|acknowledges|acknowledged|acknowledged|acknowledging",
+  "near": "recogni*|credit*|appreciat*|thank*|prais*",
+  "tasks": [
+   {
+    "sit": "Ти керівник і на підсумковій нараді хочеш відзначити роботу команди підтримки.",
+    "say": "Хочу визнати зусилля нашої команди підтримки.",
+    "ans": ["I want to acknowledge the efforts of our support team.", "I’d like to acknowledge our support team’s hard work.", "I really want to acknowledge the effort our support team put in."],
+    "keys": { "зусилля": "effort*|work", "команда": "team*|staff|colleagues" }
+   },
+   {
+    "sit": "Ти дописуєш дипломну роботу. Науковий керівник дуже допоміг, і ти пишеш розділ подяк.",
+    "say": "Я хочу визнати внесок мого наукового керівника.",
+    "ans": ["I want to acknowledge my supervisor’s contribution.", "I would like to acknowledge the contribution of my supervisor.", "I’d especially like to acknowledge my supervisor for all her help."],
+    "keys": { "керівник": "supervisor*|advisor*|tutor*|professor*", "внесок": "contribut*|help*|support*|work|guidance" }
+   },
+   {
+    "sit": "Після фіналу капітан команди у промові подякував лише собі. Ти обговорюєш це з іншими вболівальниками.",
+    "say": "Він навіть не визнав заслуг тренера.",
+    "ans": ["He didn’t even acknowledge the coach.", "He never acknowledged the coach’s role in the win.", "He didn’t even acknowledge everything the coach did for us!"],
+    "keys": { "навіть не": "not|never", "тренер": "coach*|trainer*|manager*" }
+   }
+  ]
+ },
+ {
+  "id": 1634, "w": "cherish", "uk": "дорожити, цінувати (моменти, спогади)", "lvl": "C1",
+  "forms": "cherish|cherishes|cherished|cherished|cherishing",
+  "near": "treasur*|value|values|valued|appreciat*|enjoy*|savo*|hold dear",
+  "tasks": [
+   {
+    "sit": "Бабуся показує старі фото й розповідає про ваше літо в селі.",
+    "say": "Я завжди дорожитиму цими спогадами.",
+    "ans": ["I’ll always cherish these memories.", "I will cherish those memories forever.", "I’m going to cherish these memories for the rest of my life."],
+    "keys": { "спогади": "memor*|moment*", "завжди": "always|forever|rest of my life|ever" }
+   },
+   {
+    "sit": "Молодий тато скаржиться тобі, що діти ростуть надто швидко.",
+    "say": "Цінуй кожну мить, поки вони маленькі.",
+    "ans": ["Cherish every moment while they’re little.", "Cherish every moment while they are still small.", "Honestly, just cherish every moment — they grow up so fast."],
+    "keys": { "кожна мить": "every moment|each moment|moment*|time", "маленькі": "little|small|young|grow*|kids" }
+   },
+   {
+    "sit": "Останній вечір подорожі з найкращими друзями на березі моря. Усі замовкли й дивляться на захід сонця.",
+    "say": "Давайте просто цінувати цей момент.",
+    "ans": ["Let’s just cherish this moment.", "Let’s cherish this moment together.", "Guys, let’s just cherish this moment while it lasts."],
+    "keys": { "момент": "moment|evening|night|time" }
+   }
+  ]
+ },
+ {
+  "id": 1635, "w": "count your blessings", "uk": "цінувати те, що маєш", "lvl": "C1",
+  "forms": "count|counts|counted|counted|counting",
+  "tail": "blessings",
+  "near": "be grateful|am grateful|thankful|appreciate*|lucky",
+  "tasks": [
+   {
+    "sit": "Колега скаржиться на дрібний ремонт у квартирі, хоча має гарну роботу й здорову сімʼю.",
+    "say": "Цінуй те, що маєш, — у тебе все добре.",
+    "ans": ["Count your blessings — you’re doing fine.", "You should count your blessings, things are good.", "Come on, count your blessings — your life is pretty good."],
+    "keys": { "все добре": "fine|good|great|ok*|well" }
+   },
+   {
+    "sit": "Після аварії ти вийшов з машини без жодної подряпини. Друг телефонує дізнатися, як ти.",
+    "say": "Тепер я ціную те, що маю, — могло бути набагато гірше.",
+    "ans": ["I count my blessings — it could have been much worse.", "I’m counting my blessings; it could’ve been far worse.", "Honestly, I’m just counting my blessings. It could have been a lot worse."],
+    "keys": { "гірше": "worse|bad*" }
+   },
+   {
+    "sit": "Ти розповідаєш знайомій, як змінився після року волонтерства в лікарні.",
+    "say": "Тепер я щодня ціную те, що маю.",
+    "ans": ["Now I count my blessings every day.", "These days I count my blessings every single day.", "I really count my blessings every day now."],
+    "keys": { "щодня": "every day|every single day|daily|each day" }
+   }
+  ]
+ },
+ {
+  "id": 1636, "w": "take pride in", "uk": "пишатися (чимось, що робиш)", "lvl": "B2",
+  "forms": "take|takes|took|taken|taking",
+  "tail": "pride in",
+  "near": "proud|boast*",
+  "tasks": [
+   {
+    "sit": "Ти маєш маленьку пекарню, і клієнт хвалить твій хліб.",
+    "say": "Я пишаюся тим, що роблю все вручну.",
+    "ans": ["I take pride in making everything by hand.", "I take great pride in doing everything by hand.", "We take real pride in making it all by hand."],
+    "keys": { "вручну": "by hand|hand*|handmade" }
+   },
+   {
+    "sit": "Сусід питає, чому твій сад завжди такий доглянутий.",
+    "say": "Я просто пишаюся своїм садом.",
+    "ans": ["I just take pride in my garden.", "I take a lot of pride in my garden.", "I guess I just take pride in my garden."],
+    "keys": { "сад": "garden*|yard|plants" }
+   },
+   {
+    "sit": "Ти вчитель і пояснюєш учням, що важлива не лише оцінка.",
+    "say": "Пишайтеся своєю роботою, навіть якщо це просто домашнє завдання.",
+    "ans": ["Take pride in your work, even if it’s just homework.", "Take pride in your work, even when it’s only homework.", "Always take pride in what you do, even if it’s just homework."],
+    "keys": { "домашнє завдання": "homework|assignment*", "робота": "work|what you do" }
+   }
+  ]
+ },
+ {
+  "id": 1638, "w": "show off", "uk": "хизуватися", "lvl": "B1",
+  "forms": "show|shows|showed|shown|showing",
+  "tail": "off",
+  "near": "brag*|boast*|flaunt*",
+  "tasks": [
+   {
+    "sit": "Сусід уже втретє за день проїжджає під вашими вікнами на новій машині.",
+    "say": "Він просто хизується своєю новою машиною.",
+    "ans": ["He’s just showing off his new car.", "He is showing off his new car again.", "He’s just showing off with that new car of his."],
+    "keys": { "машина": "car|ride|wheels", "нова": "new" }
+   },
+   {
+    "sit": "На вечірці друг почав робити сальто на дивані, щоб привернути увагу.",
+    "say": "Годі хизуватися, ти ж упадеш!",
+    "ans": ["Stop showing off, you’ll fall!", "Quit showing off — you’re going to fall!", "Stop showing off before you hurt yourself!"],
+    "keys": { "годі": "stop|quit|enough", "впадеш": "fall*|hurt*|break" }
+   },
+   {
+    "sit": "Колега викладає в соцмережі фото з кожного дорогого ресторану й кожної покупки.",
+    "say": "Мені здається, вона просто хизується.",
+    "ans": ["I think she’s just showing off.", "I think she just likes to show off.", "Honestly, I feel like she’s just showing off."],
+    "keys": { "мені здається": "think|feel|seems|guess" }
+   }
+  ]
+ },
+ {
+  "id": 1639, "w": "brag about", "uk": "хвастатися (чимось)", "lvl": "B2",
+  "forms": "brag|brags|bragged|bragged|bragging",
+  "tail": "about",
+  "near": "boast*|show off|shows off|showing off|showed off|shown off",
+  "tasks": [
+   {
+    "sit": "Однокласник щодня всім розповідає про свої найвищі бали.",
+    "say": "Він постійно хвастається своїми оцінками.",
+    "ans": ["He’s always bragging about his grades.", "He constantly brags about his grades.", "He never stops bragging about his grades."],
+    "keys": { "оцінки": "grade*|mark*|score*|result*", "постійно": "always|constantly|never stops|all the time" }
+   },
+   {
+    "sit": "Колега вже місяць розповідає всім у відділі про свою премію.",
+    "say": "Досить хвастатися своєю премією!",
+    "ans": ["Stop bragging about your bonus!", "Enough bragging about your bonus already!", "Can you stop bragging about that bonus?"],
+    "keys": { "премія": "bonus*|raise|pay*", "досить": "stop|enough|quit" }
+   },
+   {
+    "sit": "Твій дідусь щороку на рибалці розповідає про величезну щуку, яку впіймав у молодості.",
+    "say": "Дідусь досі хвастається тією рибою.",
+    "ans": ["Grandpa still brags about that fish.", "Grandpa is still bragging about that fish he caught.", "My grandpa still brags about that fish to everyone."],
+    "keys": { "риба": "fish|pike|catch", "досі": "still|always" }
+   }
+  ]
+ },
+ {
+  "id": 1640, "w": "puff up", "uk": "надуватися (від пихи, гордості)", "lvl": "C1",
+  "forms": "puff|puffs|puffed|puffed|puffing",
+  "tail": "up",
+  "near": "swell*|swollen|proud|show off|showed off|showing off",
+  "tasks": [
+   {
+    "sit": "Начальник при всіх назвав колегу «найкращим менеджером року», і той аж засяяв.",
+    "say": "Він аж надувся від гордості.",
+    "ans": ["He puffed up with pride.", "He totally puffed up with pride.", "You could see him puff up with pride."],
+    "keys": { "гордість": "pride|proud" }
+   },
+   {
+    "sit": "Малий племінник забив свій перший гол і гордо біжить до тебе через усе поле.",
+    "say": "Він надувся від гордості, як павич.",
+    "ans": ["He puffed up with pride like a peacock.", "He was puffing up like a peacock.", "He puffed himself up like a little peacock."],
+    "keys": { "павич": "peacock*|pride|proud" }
+   },
+   {
+    "sit": "Сусіда обрали головою ОСББ, і тепер він говорить з усіма зверхньо.",
+    "say": "Не треба так надуватися — ти просто голова будинку.",
+    "ans": ["Don’t puff yourself up like that — you just run the building.", "There’s no need to puff up like that, you only manage the building.", "Come on, don’t get so puffed up — you just run the building."],
+    "keys": { "будинок": "building|house|block", "не треба": "not|no need" }
+   }
+  ]
+ },
+ {
+  "id": 1641, "w": "gloat", "uk": "зловтішатися", "lvl": "C1",
+  "forms": "gloat|gloats|gloated|gloated|gloating",
+  "near": "rub it in|rubbing it in|laugh*|mock*|smirk*",
+  "tasks": [
+   {
+    "sit": "Твоя команда програла, а друг, який уболіває за суперника, вже набирає тобі повідомлення.",
+    "say": "Тільки не зловтішайся, гаразд?",
+    "ans": ["Just don’t gloat, okay?", "Please don’t gloat about it, okay?", "Don’t you dare gloat, okay?"],
+    "keys": { "не": "not|no|dare" }
+   },
+   {
+    "sit": "Колегу, який тебе колись підставив, звільнили. Інші дивляться на твою реакцію.",
+    "say": "Я не зловтішаюся, але він це заслужив.",
+    "ans": ["I’m not gloating, but he deserved it.", "I don’t want to gloat, but he had it coming.", "I’m not gloating or anything, but he totally deserved it."],
+    "keys": { "заслужив": "deserv*|had it coming|earned" }
+   },
+   {
+    "sit": "Молодший брат уперше виграв у тебе в шахи й танцює по кімнаті.",
+    "say": "Годі зловтішатися, це була лише одна партія!",
+    "ans": ["Stop gloating, it was just one game!", "Quit gloating — it was only one game!", "Okay, stop gloating, it was one game!"],
+    "keys": { "одна партія": "one game|one match|one round|game", "годі": "stop|quit|enough" }
+   }
+  ]
+ },
+ {
+  "id": 1642, "w": "blush", "uk": "червоніти (від сорому)", "lvl": "B2",
+  "forms": "blush|blushes|blushed|blushed|blushing",
+  "near": "turn red|turns red|turned red|went red|go red|goes red|flush*",
+  "tasks": [
+   {
+    "sit": "Учитель при всьому класі вголос прочитав твій невдалий твір.",
+    "say": "Я почервонів від сорому.",
+    "ans": ["I blushed with shame.", "I blushed with embarrassment.", "I totally blushed — it was so embarrassing."],
+    "keys": { "сором": "shame*|embarrass*|ashamed" }
+   },
+   {
+    "sit": "Колега на корпоративі при всіх наговорив тобі компліментів.",
+    "say": "Ти мене змушуєш червоніти!",
+    "ans": ["You’re making me blush!", "Stop it, you’re making me blush!", "Oh, you’ve made me blush!"],
+    "keys": { "ти": "you" }
+   },
+   {
+    "sit": "Друг згадує, як ти на першому побаченні перекинув на себе келих вина.",
+    "say": "Я досі червонію, коли про це згадую.",
+    "ans": ["I still blush when I think about it.", "I still blush whenever I remember it.", "Ugh, I still blush just thinking about it."],
+    "keys": { "досі": "still", "згадую": "think*|remember*|recall*" }
+   }
+  ]
+ },
+ {
+  "id": 1643, "w": "cringe", "uk": "кринжувати, зіщулюватися (від ніяковості)", "lvl": "B2",
+  "forms": "cringe|cringes|cringed|cringed|cringing",
+  "near": "embarrass*|wince*|shudder*|awkward",
+  "tasks": [
+   {
+    "sit": "Ти знайшов старі відео, де в шостому класі співаєш на шкільному концерті.",
+    "say": "Мене аж кринжить від цих відео.",
+    "ans": ["I cringe at these videos.", "These videos make me cringe.", "I cringe so hard watching these videos."],
+    "keys": { "відео": "video*|clip*|footage" }
+   },
+   {
+    "sit": "Начальник на корпоративі розповів дуже невдалий жарт, і запала тиша.",
+    "say": "Усі аж зіщулилися від його жарту.",
+    "ans": ["Everyone cringed at his joke.", "His joke made everyone cringe.", "Everybody just cringed at that joke."],
+    "keys": { "усі": "everyone|everybody|all", "жарт": "joke*" }
+   },
+   {
+    "sit": "Ти перечитуєш свої дописи в соцмережах десятирічної давності.",
+    "say": "Мене кринжить, коли я читаю свої старі пости.",
+    "ans": ["I cringe when I read my old posts.", "Reading my old posts makes me cringe.", "I cringe every time I read my old posts."],
+    "keys": { "пости": "post*|tweet*|status*", "старі": "old|years ago" }
+   }
+  ]
+ },
+ {
+  "id": 1645, "w": "feel guilty", "uk": "почуватися винним", "lvl": "B1",
+  "forms": "feel|feels|felt|felt|feeling",
+  "tail": "guilty",
+  "near": "feel bad|feels bad|felt bad|ashamed|am guilty|was guilty",
+  "tasks": [
+   {
+    "sit": "Ти пообіцяв собі тиждень не їсти солодкого, але ввечері зʼїв цілий торт.",
+    "say": "Тепер я почуваюся винним.",
+    "ans": ["Now I feel guilty.", "I feel so guilty now.", "Ugh, now I feel really guilty about it."],
+    "keys": { "тепер": "now" }
+   },
+   {
+    "sit": "Ти забув про день народження найкращого друга й дзвониш йому наступного дня.",
+    "say": "Я почуваюся винним, що забув про твій день народження.",
+    "ans": ["I feel guilty that I forgot your birthday.", "I feel guilty about forgetting your birthday.", "I feel so guilty for forgetting your birthday."],
+    "keys": { "забув": "forg*", "день народження": "birthday*" }
+   },
+   {
+    "sit": "Ти йдеш у відпустку, а колеги залишаються з купою роботи.",
+    "say": "Я почуваюся винним, що залишаю їм стільки роботи.",
+    "ans": ["I feel guilty for leaving them so much work.", "I feel guilty that I’m leaving them with so much work.", "I kind of feel guilty leaving them with all that work."],
+    "keys": { "роботи": "work|job*|task*", "залишаю": "leav*|left" }
+   }
+  ]
+ },
+ {
+  "id": 1647, "w": "blame yourself", "uk": "звинувачувати себе", "lvl": "B2",
+  "forms": "blame|blames|blamed|blamed|blaming",
+  "tail": "yourself/myself/himself/herself/themselves/ourselves/yourselves",
+  "near": "feel guilty|felt guilty|my fault|your fault|her fault",
+  "tasks": [
+   {
+    "sit": "Друг потрапив у невелику аварію через ожеледицю й каже, що все через нього.",
+    "say": "Не звинувачуй себе, це все ожеледиця.",
+    "ans": ["Don’t blame yourself, it was the ice.", "Don’t blame yourself — the road was icy.", "Hey, don’t blame yourself. It was the ice, not you."],
+    "keys": { "ожеледиця": "ice|icy|road*|weather", "не": "not|never" }
+   },
+   {
+    "sit": "Твій пес утік через відчинену хвіртку, і ти досі не можеш заспокоїтися.",
+    "say": "Я звинувачую себе, що не зачинив хвіртку.",
+    "ans": ["I blame myself for not closing the gate.", "I blame myself because I didn’t shut the gate.", "I keep blaming myself for leaving the gate open."],
+    "keys": { "хвіртка": "gate|door", "не зачинив": "not|open" }
+   },
+   {
+    "sit": "Сестра переживає, що її син погано склав іспит, хоча вона з ним займалася.",
+    "say": "Вона звинувачує себе, хоча це не її провина.",
+    "ans": ["She blames herself, but it’s not her fault.", "She’s blaming herself even though it isn’t her fault.", "She keeps blaming herself, but it’s really not her fault."],
+    "keys": { "провина": "fault|responsib*", "не": "not" }
+   }
+  ]
+ },
+ {
+  "id": 1648, "w": "hide your face", "uk": "ховати обличчя", "lvl": "B2",
+  "forms": "hide|hides|hid|hidden|hiding",
+  "tail": "face*",
+  "near": "cover|covers|covered|covering",
+  "tasks": [
+   {
+    "sit": "У кінотеатрі почалася найстрашніша сцена фільму жахів.",
+    "say": "Я сховав обличчя в долонях.",
+    "ans": ["I hid my face in my hands.", "I hid my face behind my hands.", "I just hid my face in my hands."],
+    "keys": { "долоні": "hand*|palm*" }
+   },
+   {
+    "sit": "До вас прийшли незнайомі гості, і маленька донька соромиться.",
+    "say": "Вона ховає обличчя за маминою спиною.",
+    "ans": ["She’s hiding her face behind her mom.", "She’s hiding her face behind her mother’s back.", "She always hides her face behind her mom."],
+    "keys": { "мама": "mom*|mum*|mother*" }
+   },
+   {
+    "sit": "Твій улюблений футболіст не забив пенальті у фіналі. Ти бачиш це по телевізору.",
+    "say": "Він сховав обличчя під футболкою.",
+    "ans": ["He hid his face under his shirt.", "He hid his face in his shirt.", "He pulled his shirt up and hid his face."],
+    "keys": { "футболка": "shirt*|jersey*|top" }
+   }
+  ]
+ },
+ {
+  "id": 1649, "w": "humiliate", "uk": "принижувати", "lvl": "C1",
+  "forms": "humiliate|humiliates|humiliated|humiliated|humiliating",
+  "near": "embarrass*|shame*|belittl*|put down|put her down|mock*",
+  "tasks": [
+   {
+    "sit": "Начальник накричав на твою колегу при всьому відділі через дрібну помилку.",
+    "say": "Він принизив її перед усіма.",
+    "ans": ["He humiliated her in front of everyone.", "He humiliated her in front of the whole team.", "He totally humiliated her in front of everybody."],
+    "keys": { "перед усіма": "in front of|everyone|everybody|publicly|public" }
+   },
+   {
+    "sit": "Ваша аматорська футбольна команда програла з рахунком 0:9.",
+    "say": "Нас просто принизили на полі.",
+    "ans": ["We were humiliated on the pitch.", "They humiliated us on the field.", "Honestly, we just got humiliated out there."],
+    "keys": { "поле": "pitch|field|out there|game|match" }
+   },
+   {
+    "sit": "Учителька висміяла помилку твого сина перед класом, і ти прийшов до директора.",
+    "say": "Учитель не має права принижувати дітей.",
+    "ans": ["A teacher has no right to humiliate children.", "Teachers shouldn’t humiliate kids.", "A teacher can’t just humiliate kids like that."],
+    "keys": { "діти": "child*|kid*|student*|pupil*", "не має права": "no right|not|never" }
+   }
+  ]
+ },
+ {
+  "id": 1650, "w": "hope for", "uk": "сподіватися на", "lvl": "A2",
+  "forms": "hope|hopes|hoped|hoped|hoping",
+  "tail": "for",
+  "near": "wish*|expect*|pray*|count on|counting on",
+  "tasks": [
+   {
+    "sit": "Завтра у вас пікнік, а прогноз обіцяє дощ.",
+    "say": "Ми сподіваємося на гарну погоду.",
+    "ans": ["We’re hoping for good weather.", "We hope for nice weather tomorrow.", "Fingers crossed — we’re hoping for sunshine."],
+    "keys": { "погода": "weather|sun*|rain" }
+   },
+   {
+    "sit": "Тато в лікарні, лікарі роблять усе можливе. Сусідка питає, як він.",
+    "say": "Ми сподіваємося на краще.",
+    "ans": ["We’re hoping for the best.", "We hope for the best.", "We can only hope for the best."],
+    "keys": { "краще": "best|better" }
+   },
+   {
+    "sit": "Ти пройшов співбесіду і вже тиждень чекаєш відповіді.",
+    "say": "Я сподіваюся на позитивну відповідь.",
+    "ans": ["I’m hoping for a positive answer.", "I hope for a positive reply soon.", "I’m really hoping for good news."],
+    "keys": { "відповідь": "answer*|news|reply|response|yes|call", "позитивну": "positive|good|yes" }
+   }
+  ]
+ },
+ {
+  "id": 1651, "w": "wish for", "uk": "бажати, загадати (бажання)", "lvl": "A2",
+  "forms": "wish|wishes|wished|wished|wishing",
+  "tail": "for",
+  "near": "want*|hope*|dream*|ask* for|asked for",
+  "tasks": [
+   {
+    "sit": "Твій маленький син щойно задув свічки на торті й загадав бажання.",
+    "say": "Що ти побажав?",
+    "ans": ["What did you wish for?", "So what did you wish for?", "Tell me, what did you wish for?"],
+    "keys": { "що": "what" }
+   },
+   {
+    "sit": "Ти маєш усе, про що мріяв: улюблену роботу, дім і сімʼю.",
+    "say": "Я не міг би побажати кращого життя.",
+    "ans": ["I couldn’t wish for a better life.", "I could not wish for a better life.", "Honestly, I couldn’t wish for anything more."],
+    "keys": { "кращого": "better|more", "не міг": "not|never" }
+   },
+   {
+    "sit": "Діти написали листи Святому Миколаю, і ти розповідаєш про це колезі.",
+    "say": "Мій син побажав собі цуценя.",
+    "ans": ["My son wished for a puppy.", "My son wished for a little puppy.", "My son just wished for a puppy this year."],
+    "keys": { "цуценя": "pupp*|dog*", "син": "son|boy|kid" }
+   }
+  ]
+ },
+ {
+  "id": 1652, "w": "dream of", "uk": "мріяти про", "lvl": "A2",
+  "forms": "dream|dreams|dreamt/dreamed|dreamt/dreamed|dreaming",
+  "tail": "of/about",
+  "near": "want*|wish*|hope*|fantasi*",
+  "tasks": [
+   {
+    "sit": "Ти живеш у маленькій квартирі в центрі галасливого міста.",
+    "say": "Я мрію про будинок біля моря.",
+    "ans": ["I dream of a house by the sea.", "I dream of having a house near the sea.", "I’ve always dreamed of a little house by the sea."],
+    "keys": { "будинок": "house|home|cottage|place", "море": "sea|beach|coast|ocean" }
+   },
+   {
+    "sit": "Колега питає, куди ти найбільше хочеш поїхати.",
+    "say": "Я давно мрію про Японію.",
+    "ans": ["I’ve dreamed of Japan for a long time.", "I have long dreamed of visiting Japan.", "I’ve been dreaming of going to Japan for years."],
+    "keys": { "Японія": "japan*" }
+   },
+   {
+    "sit": "На співбесіді в льотній школі тебе питають, чому ти обрав цю професію.",
+    "say": "Я мріяв про небо з дитинства.",
+    "ans": ["I’ve dreamed of flying since I was a kid.", "I have dreamt of the sky since childhood.", "Ever since I was little, I’ve dreamed of flying."],
+    "keys": { "небо": "sky|fly*|plane*|pilot", "з дитинства": "kid|child*|little|young|boy" }
+   }
+  ]
+ },
+ {
+  "id": 1653, "w": "aspire to", "uk": "прагнути (до мети)", "lvl": "C1",
+  "forms": "aspire|aspires|aspired|aspired|aspiring",
+  "tail": "to",
+  "near": "strive*|strove|aim*|seek*|want to|wants to|dream of|hope to",
+  "tasks": [
+   {
+    "sit": "На співбесіді тебе питають про твої плани на найближчі пʼять років.",
+    "say": "Я прагну стати керівником відділу.",
+    "ans": ["I aspire to become head of the department.", "I aspire to lead the department one day.", "Eventually, I aspire to be a department head."],
+    "keys": { "керівник": "head|lead*|manager|director", "відділ": "department|team|division" }
+   },
+   {
+    "sit": "Ти пишеш мотиваційний лист до педагогічного університету.",
+    "say": "Я прагну змінити систему освіти в Україні.",
+    "ans": ["I aspire to change the education system in Ukraine.", "I aspire to help reform education in Ukraine.", "I truly aspire to make a difference in Ukrainian education."],
+    "keys": { "освіта": "educat*|school*", "Україна": "ukrain*" }
+   },
+   {
+    "sit": "Ти молодий музикант і даєш перше інтервʼю місцевому радіо.",
+    "say": "Я не прагну слави, я просто хочу грати.",
+    "ans": ["I don’t aspire to fame, I just want to play.", "I don’t aspire to be famous — I just want to play music.", "Honestly, I don’t aspire to fame. I just love playing."],
+    "keys": { "слава": "fame|famous|celebrit*|star*", "грати": "play*|music" }
+   }
+  ]
+ },
+ {
+  "id": 1655, "w": "pray for", "uk": "молитися за", "lvl": "B1",
+  "forms": "pray|prays|prayed|prayed|praying",
+  "tail": "for",
+  "near": "hope for|hoping for|wish*|thinking of|think of",
+  "tasks": [
+   {
+    "sit": "Подруга каже, що в її мами завтра складна операція.",
+    "say": "Я молитимусь за твою маму.",
+    "ans": ["I’ll pray for your mom.", "I will pray for your mother.", "I’m praying for your mom — she’ll be okay."],
+    "keys": { "мама": "mom*|mum*|mother*" }
+   },
+   {
+    "sit": "Завтра твій перший марафон, а синоптики обіцяють спеку. Ти пишеш друзям.",
+    "say": "Моліться за мене — мені знадобиться удача.",
+    "ans": ["Pray for me — I’ll need luck.", "Pray for me, I’m going to need some luck.", "Pray for me, I’ll need all the luck I can get!"],
+    "keys": { "удача": "luck*" }
+   },
+   {
+    "sit": "Після повені в сусідньому селі громада зібралася в церкві.",
+    "say": "Ми молимося за всіх, хто втратив дім.",
+    "ans": ["We pray for everyone who lost their home.", "We are praying for all those who lost their homes.", "We’re praying for everyone who lost a home."],
+    "keys": { "втратив дім": "lost|home*|house*", "всіх": "everyone|all|people|those|families" }
+   }
+  ]
+ },
+ {
+  "id": 1656, "w": "count on", "uk": "розраховувати на", "lvl": "B2",
+  "forms": "count|counts|counted|counted|counting",
+  "tail": "on",
+  "near": "rely on|relies on|relied on|depend on|depends on|trust*",
+  "tasks": [
+   {
+    "sit": "Друг переїжджає в суботу й просить допомогти перенести речі.",
+    "say": "Можеш на мене розраховувати.",
+    "ans": ["You can count on me.", "You can always count on me.", "Sure, you can count on me!"],
+    "keys": { "можеш": "can|could" }
+   },
+   {
+    "sit": "Ти керівник і доручаєш новому колезі важливу презентацію для клієнта.",
+    "say": "Я розраховую, що ти впораєшся до пʼятниці.",
+    "ans": ["I’m counting on you to finish it by Friday.", "I’m counting on you to have it ready by Friday.", "I’m counting on you — it has to be done by Friday."],
+    "keys": { "пʼятниця": "friday", "впораєшся": "finish*|done|ready|handle*|manage*|do it" }
+   },
+   {
+    "sit": "Ви плануєте весілля просто неба наприкінці вересня.",
+    "say": "Я б не розраховував на гарну погоду.",
+    "ans": ["I wouldn’t count on good weather.", "I would not count on the weather being nice.", "I wouldn’t count on sunny weather in late September."],
+    "keys": { "погода": "weather|sun*|rain", "не": "not|never|no" }
+   }
+  ]
+ },
+ {
+  "id": 1657, "w": "feel lonely", "uk": "почуватися самотнім", "lvl": "A2",
+  "forms": "feel|feels|felt|felt|feeling",
+  "tail": "lonely",
+  "near": "alone|lonesome|isolated|by myself",
+  "tasks": [
+   {
+    "sit": "Ти нещодавно переїхав у нове місто й ще нікого там не знаєш.",
+    "say": "Я іноді почуваюся самотнім.",
+    "ans": ["I sometimes feel lonely.", "Sometimes I feel lonely here.", "I feel kind of lonely sometimes."],
+    "keys": { "іноді": "sometimes|at times|now and then" }
+   },
+   {
+    "sit": "Ти телефонуєш бабусі, яка сама живе в селі.",
+    "say": "Бабусю, ти не почуваєшся самотньою?",
+    "ans": ["Grandma, don’t you feel lonely?", "Grandma, do you ever feel lonely?", "Grandma, do you feel lonely out there?"],
+    "keys": { "бабуся": "grandma|granny|grandmother|nan*" }
+   },
+   {
+    "sit": "Ти вже рік працюєш віддалено, і колега питає, як тобі.",
+    "say": "Працювати вдома зручно, але я почуваюся самотнім.",
+    "ans": ["Working from home is convenient, but I feel lonely.", "It’s comfortable working from home, but I feel lonely.", "Working from home is nice, but I do feel lonely sometimes."],
+    "keys": { "вдома": "home|remote*", "зручно": "convenient|comfortable|nice|easy|great|good" }
+   }
+  ]
+ },
+ {
+  "id": 1658, "w": "miss", "uk": "сумувати (за кимось, чимось)", "lvl": "A2",
+  "forms": "miss|misses|missed|missed|missing",
+  "near": "long for|longing|yearn*|think about|thinking about",
+  "tasks": [
+   {
+    "sit": "Ти в довгому відрядженні й говориш із дружиною по відеозвʼязку.",
+    "say": "Я дуже за тобою сумую.",
+    "ans": ["I miss you so much.", "I really miss you.", "I miss you like crazy."],
+    "keys": { "тебе": "you", "дуже": "so much|really|a lot|crazy" }
+   },
+   {
+    "sit": "Ти вже пів року живеш за кордоном і розповідаєш про це новим знайомим.",
+    "say": "Я сумую за маминим борщем.",
+    "ans": ["I miss my mom’s borscht.", "I really miss Mom’s borscht.", "Oh, I miss my mum’s borscht so much."],
+    "keys": { "борщ": "borscht|borsch*|soup|food|cooking", "мама": "mom*|mum*|mother*" }
+   },
+   {
+    "sit": "Ти вже кілька років працюєш і випадково зустрів старого одногрупника.",
+    "say": "Я сумую за студентськими роками.",
+    "ans": ["I miss my student years.", "I miss being a student.", "Man, I really miss our university days."],
+    "keys": { "студентські роки": "student*|universit*|college|school" }
+   }
+  ]
+ },
+ {
+  "id": 1659, "w": "isolate yourself", "uk": "ізолюватися, відгороджуватися від людей", "lvl": "C1",
+  "forms": "isolate|isolates|isolated|isolated|isolating",
+  "tail": "yourself/myself/himself/herself/themselves/ourselves/yourselves",
+  "near": "withdr*|shut myself|shut yourself|keep to myself|avoid*|cut myself off|cut yourself off",
+  "tasks": [
+   {
+    "sit": "Після розриву друг тижнями не виходить з дому й не відповідає на дзвінки.",
+    "say": "Не ізолюйся від усіх, ми хочемо допомогти.",
+    "ans": ["Don’t isolate yourself, we want to help.", "Please don’t isolate yourself from everyone — we want to help.", "Hey, don’t isolate yourself. We’re here to help."],
+    "keys": { "допомогти": "help*|support|here for you" }
+   },
+   {
+    "sit": "Психолог питає, що ти робиш, коли маєш сильний стрес.",
+    "say": "Коли мені важко, я ізолююся від людей.",
+    "ans": ["When things are hard, I isolate myself from people.", "I tend to isolate myself from people when I’m struggling.", "When I’m stressed, I just isolate myself from everyone."],
+    "keys": { "люди": "people|everyone|everybody|others|friends", "важко": "hard|difficult|struggl*|stress*|tough" }
+   },
+   {
+    "sit": "Перед кожною сесією твій сусід по гуртожитку на тиждень зачиняється в кімнаті.",
+    "say": "Він ізолюється від усіх перед іспитами.",
+    "ans": ["He isolates himself from everyone before exams.", "He isolates himself from everybody during exam season.", "Before exams he totally isolates himself."],
+    "keys": { "іспити": "exam*|test*|finals|session" }
+   }
+  ]
+ }
+]

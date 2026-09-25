@@ -1,0 +1,1211 @@
+[
+ {
+  "id": 2061,
+  "w": "preheat",
+  "uk": "розігрівати (духовку)",
+  "lvl": "B1",
+  "forms": "preheat|preheats|preheated|preheated|preheating",
+  "near": "heat|heats|heated|heating|warm*|turn on|turned on|switch on",
+  "tasks": [
+   {
+    "sit": "Ти печеш печиво з молодшим братом і читаєш йому рецепт.",
+    "say": "Спочатку розігрій духовку до двохсот градусів.",
+    "ans": [
+     "First, preheat the oven to 200 degrees.",
+     "Preheat the oven to 200 degrees first.",
+     "OK, first we preheat the oven to two hundred degrees."
+    ],
+    "keys": {
+     "духовка": "oven",
+     "двісті": "200|two hundred"
+    }
+   },
+   {
+    "sit": "Ви із сусідом по кімнаті поставили заморожену піцу, а через десять хвилин вона все ще холодна.",
+    "say": "Ой, я забув розігріти духовку!",
+    "ans": [
+     "Oops, I forgot to preheat the oven!",
+     "Oh no, I didn’t preheat the oven!",
+     "Oh no — I totally forgot to preheat the oven!"
+    ],
+    "keys": {
+     "забув": "forg*|not|did not"
+    }
+   },
+   {
+    "sit": "Ви з друзями на пікніку, і хтось одразу кладе сосиски на холодний гриль.",
+    "say": "Спочатку розігрій гриль хвилин десять.",
+    "ans": [
+     "Preheat the grill for about ten minutes first.",
+     "You should preheat the grill for ten minutes.",
+     "Wait — preheat the grill for like 10 minutes first."
+    ],
+    "keys": {
+     "гриль": "grill|barbecue|bbq",
+     "десять хвилин": "ten|10|minute*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2062,
+  "w": "sift",
+  "uk": "просіювати",
+  "lvl": "B2",
+  "forms": "sift|sifts|sifted|sifted|sifting",
+  "near": "sieve*|strain*|filter*|mix*",
+  "tasks": [
+   {
+    "sit": "Ти печеш млинці разом із донькою, і вона висипає борошно просто в миску.",
+    "say": "Просій борошно, щоб не було грудочок.",
+    "ans": [
+     "Sift the flour so there are no lumps.",
+     "Let’s sift the flour so we don’t get lumps.",
+     "Sift the flour first, or it’ll be lumpy."
+    ],
+    "keys": {
+     "борошно": "flour",
+     "грудочки": "lump*|clump*"
+    }
+   },
+   {
+    "sit": "Підписниця твого кулінарного блогу питає, чому твій шоколадний торт такий ніжний.",
+    "say": "Какао я завжди просіюю разом з борошном.",
+    "ans": [
+     "I always sift the cocoa together with the flour.",
+     "I always sift the cocoa and the flour together.",
+     "The trick is I always sift the cocoa with the flour."
+    ],
+    "keys": {
+     "какао": "cocoa|chocolate",
+     "борошно": "flour"
+    }
+   },
+   {
+    "sit": "Сусід по дачі цікавиться, чим ти займаєшся з відром землі.",
+    "say": "Я просіюю землю для розсади.",
+    "ans": [
+     "I’m sifting the soil for the seedlings.",
+     "I sift the soil for my seedlings.",
+     "Just sifting some soil for the seedlings."
+    ],
+    "keys": {
+     "земля": "soil|earth|dirt|compost",
+     "розсада": "seedling*|seed*|plant*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2063,
+  "w": "fold in",
+  "uk": "обережно вмішувати",
+  "lvl": "C1",
+  "forms": "fold|folds|folded|folded|folding",
+  "tail": "in/into",
+  "near": "mix*|stir*|beat*|add*|combine*",
+  "tasks": [
+   {
+    "sit": "Ти готуєш шоколадний мус для гостей і пояснюєш сестрі останній крок.",
+    "say": "Тепер обережно вмішай збиті вершки в шоколад.",
+    "ans": [
+     "Now gently fold the whipped cream into the chocolate.",
+     "Now fold the cream into the chocolate, gently.",
+     "Now just fold the whipped cream into the chocolate, nice and slow."
+    ],
+    "keys": {
+     "вершки": "cream",
+     "шоколад": "chocolate"
+    }
+   },
+   {
+    "sit": "Ти печеш мафіни на продаж на шкільному ярмарку й показуєш волонтерові, як додавати ягоди.",
+    "say": "Чорницю вмішуй обережно в самому кінці.",
+    "ans": [
+     "Fold in the blueberries at the very end.",
+     "The blueberries should be folded in at the end.",
+     "Fold the blueberries in right at the end, gently."
+    ],
+    "keys": {
+     "чорниця": "blueberr*|berr*",
+     "в кінці": "end|last|finally"
+    }
+   },
+   {
+    "sit": "У подруги бісквіт вийшов пласким, і вона питає, що пішло не так.",
+    "say": "Білки треба вмішувати обережно, інакше бісквіт не підніметься.",
+    "ans": [
+     "You have to fold in the egg whites gently, or the sponge won’t rise.",
+     "Fold the whites in gently, otherwise the cake won’t rise.",
+     "You’ve got to fold in the whites really gently, or it won’t rise."
+    ],
+    "keys": {
+     "білки": "white*",
+     "не підніметься": "rise|flat|sink*|collapse*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2064,
+  "w": "proof",
+  "uk": "розстоювати (тісто)",
+  "lvl": "C1",
+  "forms": "proof|proofs|proofed|proofed|proofing",
+  "near": "rise|rises|rose|risen|rising|rest*|prove*|leave|left",
+  "tasks": [
+   {
+    "sit": "Ти вперше печеш хліб удома й читаєш вголос рецепт партнерові.",
+    "say": "Тісто має розстоюватися годину в теплому місці.",
+    "ans": [
+     "The dough needs to proof for an hour in a warm place.",
+     "Let the dough proof for one hour somewhere warm.",
+     "It says to proof the dough for an hour in a warm spot."
+    ],
+    "keys": {
+     "година": "hour",
+     "тепле місце": "warm"
+    }
+   },
+   {
+    "sit": "Ти працюєш у пекарні, і новий працівник питає, чому в холодильнику стільки тіста.",
+    "say": "Ми розстоюємо тісто на ніч у холодильнику.",
+    "ans": [
+     "We proof the dough overnight in the fridge.",
+     "The dough proofs in the fridge overnight.",
+     "We leave the dough to proof in the fridge overnight."
+    ],
+    "keys": {
+     "на ніч": "overnight|night",
+     "холодильник": "fridge|refrigerator|cold"
+    }
+   },
+   {
+    "sit": "Друг показує тобі щільний, важкий хліб і питає, що пішло не так.",
+    "say": "Здається, тісто розстоювалося замало.",
+    "ans": [
+     "I think the dough didn’t proof long enough.",
+     "I guess you didn’t proof the dough long enough.",
+     "Looks like you just didn’t proof it long enough."
+    ],
+    "keys": {
+     "замало": "enough|not|short*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2065,
+  "w": "rise",
+  "uk": "підніматися (про тісто)",
+  "lvl": "B2",
+  "forms": "rise|rises|rose|risen|rising",
+  "near": "grow*|grew|proof*|puff* up|go up|went up|double*",
+  "tasks": [
+   {
+    "sit": "Ти вперше печеш хліб і розчаровано дзвониш мамі.",
+    "say": "Тісто зовсім не піднялося.",
+    "ans": [
+     "The dough didn’t rise at all.",
+     "My dough hasn’t risen at all.",
+     "The dough just didn’t rise, not even a bit."
+    ],
+    "keys": {
+     "зовсім не": "not|never|no"
+    }
+   },
+   {
+    "sit": "У тебе піца-вечірка, друзі голодні й питають, коли вже можна пекти.",
+    "say": "Треба дати тісту піднятися ще пів години.",
+    "ans": [
+     "We need to let the dough rise for another half hour.",
+     "The dough has to rise for thirty more minutes.",
+     "Let’s give the dough another half hour to rise."
+    ],
+    "keys": {
+     "пів години": "half|30|thirty"
+    }
+   },
+   {
+    "sit": "Ти розповідаєш колезі, як бабуся пече паски.",
+    "say": "Бабуся накриває тісто рушником, щоб воно краще піднялося.",
+    "ans": [
+     "My grandma covers the dough with a towel so it rises better.",
+     "Grandma puts a towel over the dough so it’ll rise better.",
+     "My granny always covers the dough with a towel so it’ll rise better."
+    ],
+    "keys": {
+     "рушник": "towel|cloth",
+     "бабуся": "grandma|granny|grandmother|nan*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2066,
+  "w": "roll out",
+  "uk": "розкачувати (тісто)",
+  "lvl": "B2",
+  "forms": "roll|rolls|rolled|rolled|rolling",
+  "tail": "out",
+  "near": "flatten*|stretch*|spread*|press*",
+  "tasks": [
+   {
+    "sit": "Ви всією родиною ліпите вареники, і тобі доручили тісто.",
+    "say": "Я розкачаю тісто тонко-тонко.",
+    "ans": [
+     "I’ll roll out the dough really thin.",
+     "I’m going to roll the dough out very thin.",
+     "Let me roll out the dough nice and thin."
+    ],
+    "keys": {
+     "тонко": "thin*"
+    }
+   },
+   {
+    "sit": "Ти ведеш дитячий кулінарний гурток і хвалишся батькам.",
+    "say": "Діти самі розкачали тісто для піци.",
+    "ans": [
+     "The kids rolled out the pizza dough themselves.",
+     "The children rolled out the dough for the pizza on their own.",
+     "The kids rolled out the pizza dough all by themselves!"
+    ],
+    "keys": {
+     "діти": "kid*|child*",
+     "піца": "pizza"
+    }
+   },
+   {
+    "sit": "Ти в орендованій квартирі у відпустці хочеш спекти пиріг, але качалки там немає.",
+    "say": "Нічого, я розкачаю тісто пляшкою.",
+    "ans": [
+     "No problem, I’ll roll out the dough with a bottle.",
+     "That’s fine, I can roll the dough out with a bottle.",
+     "Never mind, I’ll just roll it out with a wine bottle."
+    ],
+    "keys": {
+     "пляшка": "bottle"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2067,
+  "w": "decorate",
+  "uk": "прикрашати",
+  "lvl": "B1",
+  "forms": "decorate|decorates|decorated|decorated|decorating",
+  "near": "garnish*|dress* up|put up|trim*|top*",
+  "tasks": [
+   {
+    "sit": "Завтра день народження твого сина, і ти з партнером закінчуєте торт.",
+    "say": "Давай прикрасимо торт полуницею.",
+    "ans": [
+     "Let’s decorate the cake with strawberries.",
+     "Why don’t we decorate the cake with some strawberries?",
+     "Let’s decorate it with strawberries!"
+    ],
+    "keys": {
+     "полуниця": "strawberr*"
+    }
+   },
+   {
+    "sit": "Іноземна колега питає, як ваша сім’я святкує Новий рік.",
+    "say": "Ми завжди прикрашаємо ялинку разом.",
+    "ans": [
+     "We always decorate the tree together.",
+     "We always decorate the Christmas tree as a family.",
+     "We always decorate the tree all together."
+    ],
+    "keys": {
+     "ялинка": "tree",
+     "разом": "together|family"
+    }
+   },
+   {
+    "sit": "В офісі планують новорічну вечірку, і ти питаєш на загальних зборах.",
+    "say": "Хто прикрасить офіс до свята?",
+    "ans": [
+     "Who’s going to decorate the office for the party?",
+     "Who will decorate the office for the holiday?",
+     "So who’s decorating the office for the party?"
+    ],
+    "keys": {
+     "офіс": "office",
+     "свято": "party|holiday*|celebrat*|christmas|new year"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2068,
+  "w": "frost",
+  "uk": "покривати кремом / глазурувати",
+  "lvl": "C1",
+  "forms": "frost|frosts|frosted|frosted|frosting",
+  "near": "ice|ices|iced|icing|glaze*|decorate*|cover*|spread*",
+  "tasks": [
+   {
+    "sit": "Ти печеш капкейки на дитяче свято, і донька хоче одразу намазати їх кремом.",
+    "say": "Я покрию капкейки кремом, коли вони охолонуть.",
+    "ans": [
+     "I’ll frost the cupcakes when they cool down.",
+     "I’m going to frost the cupcakes once they’ve cooled.",
+     "We’ll frost them once they’re cool, OK?"
+    ],
+    "keys": {
+     "охолонуть": "cool*|cold"
+    }
+   },
+   {
+    "sit": "Ти працюєш в американській пекарні. Друг кличе тебе на обід, а в тебе завал.",
+    "say": "Мені сьогодні треба покрити кремом сто капкейків.",
+    "ans": [
+     "I have to frost a hundred cupcakes today.",
+     "Today I need to frost 100 cupcakes.",
+     "I’ve got a hundred cupcakes to frost today."
+    ],
+    "keys": {
+     "сто": "hundred|100",
+     "сьогодні": "today"
+    }
+   },
+   {
+    "sit": "Гості хвалять твій морквяний торт і питають, що це за крем.",
+    "say": "Морквяний торт я покриваю кремом із крем-чізу.",
+    "ans": [
+     "I frost my carrot cake with cream cheese.",
+     "I always frost carrot cake with cream cheese icing.",
+     "I frost it with a cream cheese topping."
+    ],
+    "keys": {
+     "крем-чіз": "cream cheese|cheese"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2069,
+  "w": "glaze",
+  "uk": "полити глазур’ю",
+  "lvl": "C1",
+  "forms": "glaze|glazes|glazed|glazed|glazing",
+  "near": "ice|iced|icing|frost*|drizzle*|coat*|cover*|brush*",
+  "tasks": [
+   {
+    "sit": "Ти працюєш у пончиковій, і новенька питає, коли покривати пончики глазур’ю.",
+    "say": "Пончики треба глазурувати, поки вони ще теплі.",
+    "ans": [
+     "Glaze the donuts while they’re still warm.",
+     "You need to glaze the doughnuts while they’re warm.",
+     "Glaze them while they’re still warm."
+    ],
+    "keys": {
+     "теплі": "warm|hot"
+    }
+   },
+   {
+    "sit": "Колега-іноземець питає про ваші традиції на Великдень.",
+    "say": "Мама поливає запечену шинку медовою глазур’ю.",
+    "ans": [
+     "My mom glazes the ham with honey.",
+     "Mom always glazes the ham with honey.",
+     "My mum glazes a ham with honey every year."
+    ],
+    "keys": {
+     "шинка": "ham",
+     "мед": "honey"
+    }
+   },
+   {
+    "sit": "Ти печеш лимонний кекс для сусідів і пояснюєш партнерові, що робити далі.",
+    "say": "Коли кекс охолоне, полий його лимонною глазур’ю.",
+    "ans": [
+     "When the cake cools, glaze it with lemon icing.",
+     "Once it’s cool, glaze the cake with the lemon icing.",
+     "Let it cool and then glaze it with lemon."
+    ],
+    "keys": {
+     "охолоне": "cool*|cold",
+     "лимон": "lemon*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2070,
+  "w": "pipe",
+  "uk": "відсаджувати (з кондитерського мішка)",
+  "lvl": "C1",
+  "forms": "pipe|pipes|piped|piped|piping",
+  "near": "squeeze*|squirt*|spread*|decorate*",
+  "tasks": [
+   {
+    "sit": "Друг питає, чому ти вечорами пропадаєш на курсах.",
+    "say": "Я вчуся відсаджувати троянди з крему.",
+    "ans": [
+     "I’m learning to pipe roses out of buttercream.",
+     "I’m learning how to pipe cream roses.",
+     "I’m learning to pipe little roses with cream."
+    ],
+    "keys": {
+     "троянди": "rose*|flower*",
+     "вчуся": "learn*|course|class*|practic*"
+    }
+   },
+   {
+    "sit": "Ти кондитер і роздаєш завдання помічникові.",
+    "say": "Відсади крем на кожен капкейк.",
+    "ans": [
+     "Pipe the cream onto each cupcake.",
+     "Pipe some cream on every cupcake.",
+     "Can you pipe cream onto each of the cupcakes?"
+    ],
+    "keys": {
+     "крем": "cream|frosting|icing",
+     "кожен": "each|every|all"
+    }
+   },
+   {
+    "sit": "Ти готуєш фаршировані яйця для вечірки, і подруга дивується, які вони охайні.",
+    "say": "Начинку я відсаджую з мішка.",
+    "ans": [
+     "I pipe the filling in with a bag.",
+     "I use a piping bag to pipe the filling.",
+     "I just pipe the filling from a bag."
+    ],
+    "keys": {
+     "начинка": "filling|mix*|yolk*",
+     "мішок": "bag"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2071,
+  "w": "knead the dough",
+  "uk": "місити тісто",
+  "lvl": "B2",
+  "forms": "knead|kneads|kneaded|kneaded|kneading",
+  "tail": "dough",
+  "near": "mix*|work* the dough|stir*|press*",
+  "tasks": [
+   {
+    "sit": "Ти вчиш сестру пекти хліб і пояснюєш наступний крок.",
+    "say": "Міси тісто хвилин десять, поки воно не стане гладким.",
+    "ans": [
+     "Knead the dough for ten minutes until it’s smooth.",
+     "Knead the dough for about 10 minutes until it gets smooth.",
+     "Just knead the dough for ten minutes or so, till it’s smooth."
+    ],
+    "keys": {
+     "десять": "ten|10",
+     "гладке": "smooth|elastic|soft"
+    }
+   },
+   {
+    "sit": "Ти працюєш у піцерії. Увечері друг питає, чому в тебе болять руки.",
+    "say": "Я цілий день місив тісто для піци.",
+    "ans": [
+     "I kneaded pizza dough all day.",
+     "I was kneading pizza dough the whole day.",
+     "I’ve been kneading pizza dough all day long."
+    ],
+    "keys": {
+     "цілий день": "day",
+     "піца": "pizza"
+    }
+   },
+   {
+    "sit": "Психолог питає, що допомагає тобі розслабитися після важкого тижня.",
+    "say": "Мене заспокоює, коли я мішу тісто.",
+    "ans": [
+     "Kneading the dough calms me down.",
+     "It calms me down when I knead dough.",
+     "Honestly, kneading dough really relaxes me."
+    ],
+    "keys": {
+     "заспокоює": "calm*|relax*|peace*|therap*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2072,
+  "w": "plate",
+  "uk": "викладати (на тарілку)",
+  "lvl": "B2",
+  "forms": "plate|plates|plated|plated|plating",
+  "near": "serve*|arrange*|dish up|dished up|put on",
+  "tasks": [
+   {
+    "sit": "Ти працюєш кухарем, і після зміни колега питає, чим був незадоволений шеф.",
+    "say": "Шеф хоче, щоб ми викладали страви акуратніше.",
+    "ans": [
+     "The chef wants us to plate the dishes more neatly.",
+     "Chef wants us to plate everything more carefully.",
+     "The chef says we need to plate the food more neatly."
+    ],
+    "keys": {
+     "шеф": "chef|boss",
+     "акуратніше": "neat*|careful*|nice*"
+    }
+   },
+   {
+    "sit": "Ти приймаєш гостей удома, і партнер питає, чим допомогти.",
+    "say": "Я викладу страви на тарілки, а ти відкрий вино.",
+    "ans": [
+     "I’ll plate the food, and you open the wine.",
+     "You open the wine while I plate everything.",
+     "I’ll plate up, you get the wine open."
+    ],
+    "keys": {
+     "вино": "wine"
+    }
+   },
+   {
+    "sit": "Ти ведучий кулінарного шоу й звертаєшся до учасників.",
+    "say": "У вас лишилося дві хвилини, щоб викласти страву!",
+    "ans": [
+     "You have two minutes left to plate your dish!",
+     "Two minutes left to plate up your dishes!",
+     "You’ve got two minutes to plate your food!"
+    ],
+    "keys": {
+     "дві хвилини": "two|2|minute*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2078,
+  "w": "top",
+  "uk": "викласти зверху",
+  "lvl": "B2",
+  "forms": "top|tops|topped|topped|topping",
+  "near": "sprinkle*|cover*|add*|garnish*|put on",
+  "tasks": [
+   {
+    "sit": "Ви з дітьми робите домашню піцу, і вони питають, що класти в кінці.",
+    "say": "Тепер викладемо зверху моцарелу.",
+    "ans": [
+     "Now let’s top the pizza with mozzarella.",
+     "Now we top it with mozzarella.",
+     "Now we just top it with some mozzarella."
+    ],
+    "keys": {
+     "моцарела": "mozzarella|cheese"
+    }
+   },
+   {
+    "sit": "Колега бачить твій яскравий сніданок і питає, що це.",
+    "say": "Я кладу на вівсянку зверху ягоди.",
+    "ans": [
+     "I top my oatmeal with berries.",
+     "I usually top my porridge with berries.",
+     "It’s just oatmeal topped with some berries."
+    ],
+    "keys": {
+     "вівсянка": "oat*|porridge",
+     "ягоди": "berr*|fruit*"
+    }
+   },
+   {
+    "sit": "Ти замовляєш какао в кав’ярні.",
+    "say": "А можна зверху збиті вершки?",
+    "ans": [
+     "Could you top it with whipped cream?",
+     "Can you top the cocoa with whipped cream?",
+     "Could I get it topped with whipped cream?"
+    ],
+    "keys": {
+     "вершки": "cream"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2079,
+  "w": "dish out",
+  "uk": "розкладати (по тарілках)",
+  "lvl": "B2",
+  "forms": "dish|dishes|dished|dished|dishing",
+  "tail": "out",
+  "near": "serve*|pour*|ladle*|hand out|handed out|give out|gave out",
+  "tasks": [
+   {
+    "sit": "Уся родина вже сидить за столом, а каструля з борщем стоїть на плиті.",
+    "say": "Сідайте, я зараз розкладу суп.",
+    "ans": [
+     "Sit down, I’ll dish out the soup.",
+     "Take a seat — I’m going to dish out the soup now.",
+     "Sit down, I’ll dish the soup out right now."
+    ],
+    "keys": {
+     "суп": "soup|borscht|borsch"
+    }
+   },
+   {
+    "sit": "Колега питає, чим ти займаєшся по суботах.",
+    "say": "Я волонтерю в притулку й розкладаю людям гарячу їжу.",
+    "ans": [
+     "I volunteer at a shelter and dish out hot meals.",
+     "I dish out hot food to people at a shelter on Saturdays.",
+     "I help at a shelter — I dish out hot meals."
+    ],
+    "keys": {
+     "притулок": "shelter",
+     "гаряча їжа": "hot|warm|meal*|food"
+    }
+   },
+   {
+    "sit": "Ти працював вожатим у дитячому таборі й розповідаєш про свої обов’язки.",
+    "say": "Щоранку я розкладав кашу на тридцять дітей.",
+    "ans": [
+     "Every morning I dished out porridge to thirty kids.",
+     "Each morning I had to dish out porridge for 30 children.",
+     "Every morning I was dishing out porridge to thirty kids."
+    ],
+    "keys": {
+     "каша": "porridge|oatmeal|oat*",
+     "тридцять": "thirty|30"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2080,
+  "w": "portion",
+  "uk": "порціонувати, ділити на порції",
+  "lvl": "B2",
+  "forms": "portion|portions|portioned|portioned|portioning",
+  "near": "divide*|split*|share*|pack*|put into",
+  "tasks": [
+   {
+    "sit": "Ти готуєшся до спортивних змагань і розповідаєш тренерові про свій раціон.",
+    "say": "Я розкладаю рис по контейнерах на п’ять днів.",
+    "ans": [
+     "I portion the rice into containers for five days.",
+     "I portion out my rice into containers for 5 days.",
+     "I portion all the rice into containers for the next five days."
+    ],
+    "keys": {
+     "рис": "rice",
+     "п’ять днів": "five|5|week"
+    }
+   },
+   {
+    "sit": "Ти керуєш кухнею ресторану й пояснюєш новому кухареві правила.",
+    "say": "М’ясо порціонуй по двісті грамів.",
+    "ans": [
+     "Portion the meat into 200 gram pieces.",
+     "The meat should be portioned into 200 grams each.",
+     "Portion the meat out, two hundred grams each."
+    ],
+    "keys": {
+     "м’ясо": "meat|beef|chicken|pork",
+     "двісті": "200|two hundred"
+    }
+   },
+   {
+    "sit": "Ти їдеш у відрядження, а сусід годуватиме твого собаку.",
+    "say": "Я розділив корм на порції на весь тиждень.",
+    "ans": [
+     "I portioned the dog food for the whole week.",
+     "I’ve portioned out his food for the week.",
+     "I portioned out the food for the whole week, so it’s easy."
+    ],
+    "keys": {
+     "тиждень": "week"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2081,
+  "w": "clear the table",
+  "uk": "прибирати зі столу",
+  "lvl": "A2",
+  "forms": "clear|clears|cleared|cleared|clearing",
+  "tail": "table*",
+  "near": "clean*|tidy*|wipe*|take away|took away|wash* up",
+  "tasks": [
+   {
+    "sit": "Родина щойно повечеряла, і всі вже встають з-за столу.",
+    "say": "Хто прибере зі столу після вечері?",
+    "ans": [
+     "Who’s going to clear the table after dinner?",
+     "Who will clear the table after dinner?",
+     "So who’s clearing the table after dinner?"
+    ],
+    "keys": {
+     "вечеря": "dinner|supper|meal"
+    }
+   },
+   {
+    "sit": "Ти менеджер кафе, і на терасі багато брудного посуду.",
+    "say": "Прибери, будь ласка, столи на терасі.",
+    "ans": [
+     "Please clear the tables on the terrace.",
+     "Could you clear the tables outside on the terrace?",
+     "Can you clear the tables on the patio, please?"
+    ],
+    "keys": {
+     "тераса": "terrace|patio|outside|outdoor*"
+    }
+   },
+   {
+    "sit": "Твій син-підліток хоче десерт, але зовсім не допомагає по дому.",
+    "say": "Прибереш зі столу — отримаєш десерт.",
+    "ans": [
+     "If you clear the table, you’ll get dessert.",
+     "Clear the table and you can have dessert.",
+     "You clear the table, then you get dessert."
+    ],
+    "keys": {
+     "десерт": "dessert|ice cream|cake|sweet*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2082,
+  "w": "set the table",
+  "uk": "накривати на стіл",
+  "lvl": "A2",
+  "forms": "set|sets|set|set|setting",
+  "tail": "table*",
+  "near": "lay the table|laid the table|put out|prepare*",
+  "tasks": [
+   {
+    "sit": "Увечері до вас приходять гості, і ти просиш партнера допомогти.",
+    "say": "Накрий, будь ласка, на стіл на шістьох.",
+    "ans": [
+     "Please set the table for six.",
+     "Can you set the table for six people?",
+     "Could you set the table for six, please?"
+    ],
+    "keys": {
+     "шість": "six|6"
+    }
+   },
+   {
+    "sit": "Подруга дивується, яка самостійна твоя п’ятирічна донька.",
+    "say": "Вона вже сама накриває на стіл.",
+    "ans": [
+     "She already sets the table by herself.",
+     "She sets the table on her own now.",
+     "She already sets the table all by herself!"
+    ],
+    "keys": {
+     "сама": "herself|own|alone"
+    }
+   },
+   {
+    "sit": "Ти працюєш офіціантом, і адміністратор дає тобі завдання.",
+    "say": "Накрий столи до приходу гостей.",
+    "ans": [
+     "Set the tables before the guests arrive.",
+     "Please set the tables before the guests come.",
+     "Get the tables set before the guests show up."
+    ],
+    "keys": {
+     "гості": "guest*|customer*|people",
+     "до приходу": "before|until"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2083,
+  "w": "lay out",
+  "uk": "розкладати (гарно)",
+  "lvl": "B2",
+  "forms": "lay|lays|laid|laid|laying",
+  "tail": "out",
+  "near": "put out|set out|arrange*|spread*|display*|place*",
+  "tasks": [
+   {
+    "sit": "Ти влаштовуєш вечірку вдома, і гості от-от прийдуть.",
+    "say": "Я гарно розкладу закуски на столі.",
+    "ans": [
+     "I’ll lay out the snacks nicely on the table.",
+     "Let me lay the snacks out on the table.",
+     "I’ll just lay out the snacks on the table, nice and neat."
+    ],
+    "keys": {
+     "закуски": "snack*|food|appetizer*|nibbles",
+     "стіл": "table"
+    }
+   },
+   {
+    "sit": "Ти офіс-менеджер. За десять хвилин почнеться нарада з клієнтами.",
+    "say": "Розклади бутерброди перед нарадою.",
+    "ans": [
+     "Lay out the sandwiches before the meeting.",
+     "Could you lay the sandwiches out before the meeting?",
+     "Can you lay out the sandwiches before the meeting starts?"
+    ],
+    "keys": {
+     "бутерброди": "sandwich*",
+     "нарада": "meeting"
+    }
+   },
+   {
+    "sit": "Ти розповідаєш колезі, як провів неділю з друзями.",
+    "say": "Ми розклали їжу на ковдрі в парку.",
+    "ans": [
+     "We laid out the food on a blanket in the park.",
+     "We laid all the food out on a blanket in the park.",
+     "We had a picnic and laid out the food on a blanket in the park."
+    ],
+    "keys": {
+     "ковдра": "blanket|rug|towel",
+     "парк": "park"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2085,
+  "w": "apply foundation",
+  "uk": "наносити тональний крем",
+  "lvl": "B1",
+  "forms": "apply|applies|applied|applied|applying",
+  "tail": "foundation",
+  "near": "put on foundation|put foundation|wear* foundation|use* foundation",
+  "tasks": [
+   {
+    "sit": "Подруга питає, чому твій макіяж виглядає так природно.",
+    "say": "Я наношу тональний спонжем, а не пальцями.",
+    "ans": [
+     "I apply foundation with a sponge, not my fingers.",
+     "I use a sponge to apply my foundation, not my fingers.",
+     "I always apply foundation with a sponge instead of my fingers."
+    ],
+    "keys": {
+     "спонж": "sponge|beauty blender|blender",
+     "пальці": "finger*|hand*"
+    }
+   },
+   {
+    "sit": "Ти візажист і пояснюєш нареченій порядок макіяжу.",
+    "say": "Спочатку я нанесу тональний, а потім консилер.",
+    "ans": [
+     "First I’ll apply foundation, then concealer.",
+     "I’m going to apply the foundation first and then the concealer.",
+     "First I apply your foundation, then we do concealer."
+    ],
+    "keys": {
+     "консилер": "concealer"
+    }
+   },
+   {
+    "sit": "Ти косметолог, і клієнтка скаржиться, що тональний на ній лягає плямами.",
+    "say": "Не наносьте тональний на суху шкіру — спочатку зволожувальний крем.",
+    "ans": [
+     "Don’t apply foundation to dry skin — use moisturizer first.",
+     "Never apply foundation on dry skin; put on moisturizer first.",
+     "Don’t apply foundation straight onto dry skin — moisturize first."
+    ],
+    "keys": {
+     "суха шкіра": "dry|skin",
+     "крем": "moisturi*|cream|lotion"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2086,
+  "w": "blend",
+  "uk": "розтушовувати",
+  "lvl": "B2",
+  "forms": "blend|blends|blended|blended|blending",
+  "near": "smudge*|smooth*|soften*|rub*|spread*",
+  "tasks": [
+   {
+    "sit": "Ти записуєш відео-урок з макіяжу для свого каналу.",
+    "say": "Розтушуйте тіні, щоб не було чітких ліній.",
+    "ans": [
+     "Blend the eyeshadow so there are no harsh lines.",
+     "Blend your eyeshadow well so you don’t see any lines.",
+     "Now blend the shadow so there are no hard lines."
+    ],
+    "keys": {
+     "тіні": "eyeshadow*|shadow*",
+     "лінії": "line*|edge*"
+    }
+   },
+   {
+    "sit": "Ви з подругою збираєтеся на вечірку, і її рум’яна виглядають як дві плями.",
+    "say": "Дай я розтушую рум’яна, вони занадто яскраві.",
+    "ans": [
+     "Let me blend your blush, it’s too bright.",
+     "Let me blend the blush a bit — it’s way too bright.",
+     "Here, let me blend that blush, it’s too strong."
+    ],
+    "keys": {
+     "рум’яна": "blush*|rouge",
+     "яскраві": "bright|strong|heavy|much|obvious"
+    }
+   },
+   {
+    "sit": "Ти відвідуєш курс малювання, і викладач показує, як працювати з пастеллю.",
+    "say": "Розтушуйте пастель пальцем.",
+    "ans": [
+     "Blend the pastel with your finger.",
+     "Use your finger to blend the pastels.",
+     "Just blend the pastel with your fingers."
+    ],
+    "keys": {
+     "пастель": "pastel*|chalk|charcoal",
+     "палець": "finger*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2087,
+  "w": "contour",
+  "uk": "робити контуринг",
+  "lvl": "C1",
+  "forms": "contour|contours|contoured|contoured|contouring",
+  "near": "shade*|sculpt*|define*|bronze*",
+  "tasks": [
+   {
+    "sit": "Подруга питає, як тобі вдається, щоб обличчя на фото виглядало стрункішим.",
+    "say": "Я роблю контуринг під вилицями, щоб обличчя здавалося вужчим.",
+    "ans": [
+     "I contour under my cheekbones to make my face look slimmer.",
+     "I contour my cheekbones so my face looks thinner.",
+     "I just contour under the cheekbones — it makes my face look slimmer."
+    ],
+    "keys": {
+     "обличчя": "face",
+     "вужче": "slim*|thin*|narrow*"
+    }
+   },
+   {
+    "sit": "Ти візажист і пояснюєш клієнтці різницю між макіяжем для зйомки й на щодень.",
+    "say": "Для фотосесії я роблю контуринг сильніше, ніж зазвичай.",
+    "ans": [
+     "For a photo shoot, I contour more than usual.",
+     "I contour more heavily for photo shoots than for every day.",
+     "For photos I always contour a bit stronger than usual."
+    ],
+    "keys": {
+     "фотосесія": "photo*|picture*|camera|shoot*",
+     "сильніше": "more|heav*|strong*"
+    }
+   },
+   {
+    "sit": "Ти гримуєш актора перед виставою в аматорському театрі.",
+    "say": "Треба зробити контуринг носа, щоб його було видно зі сцени.",
+    "ans": [
+     "I need to contour your nose so it shows from the stage.",
+     "We should contour the nose so the audience can see it from the stage.",
+     "Let me contour your nose, or it’ll disappear on stage."
+    ],
+    "keys": {
+     "ніс": "nose",
+     "сцена": "stage|audience"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2088,
+  "w": "highlight",
+  "uk": "підсвічувати (хайлайтером)",
+  "lvl": "B2",
+  "forms": "highlight|highlights|highlighted|highlighted|highlighting",
+  "near": "brighten*|illuminat*|shimmer*|glow*",
+  "tasks": [
+   {
+    "sit": "Сестра дивиться, як ти фарбуєшся, і питає, що ти наносиш на обличчя.",
+    "say": "Я підсвічую вилиці й кінчик носа.",
+    "ans": [
+     "I highlight my cheekbones and the tip of my nose.",
+     "I’m highlighting my cheekbones and the tip of my nose.",
+     "I just highlight my cheekbones and the tip of my nose."
+    ],
+    "keys": {
+     "вилиці": "cheek*",
+     "ніс": "nose"
+    }
+   },
+   {
+    "sit": "Ти візажист і фарбуєш наречену перед весільною фотосесією.",
+    "say": "Я трохи підсвічу вам вилиці, щоб шкіра сяяла на фото.",
+    "ans": [
+     "I’ll highlight your cheekbones a little so your skin glows in the photos.",
+     "Let me highlight your cheekbones so you glow in the photos.",
+     "I’m going to highlight your cheekbones a bit so you look glowing in the pictures."
+    ],
+    "keys": {
+     "сяяла": "glow*|shin*|radiant|bright|fresh",
+     "фото": "photo*|picture*"
+    }
+   },
+   {
+    "sit": "Подруга збирається на побачення й наносить хайлайтер скрізь, навіть на лоб.",
+    "say": "Не підсвічуй лоб, а то він здаватиметься жирним.",
+    "ans": [
+     "Don’t highlight your forehead, or it will look oily.",
+     "Don’t highlight the forehead — it’ll just look greasy.",
+     "Skip the forehead — if you highlight it, it’ll look oily."
+    ],
+    "keys": {
+     "лоб": "forehead",
+     "жирний": "oily|greasy|shiny|sweaty"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2089,
+  "w": "line eyes",
+  "uk": "підводити очі",
+  "lvl": "B2",
+  "forms": "line|lines|lined|lined|lining",
+  "tail": "eye*",
+  "near": "eyeliner|put on eyeliner|draw*|wing*",
+  "tasks": [
+   {
+    "sit": "Колега питає, як ти встигаєш так швидко збиратися на роботу.",
+    "say": "Я лише підводжу очі — і на роботу.",
+    "ans": [
+     "I just line my eyes and go to work.",
+     "I only line my eyes, and then I’m off to work.",
+     "I just line my eyes and head to work."
+    ],
+    "keys": {
+     "лише": "just|only",
+     "на роботу": "work|office"
+    }
+   },
+   {
+    "sit": "Ти візажист, і клієнтка боїться, що чорна підводка буде надто різкою.",
+    "say": "Я підведу вам очі коричневим олівцем — так м’якше.",
+    "ans": [
+     "I’ll line your eyes with a brown pencil — it’s softer.",
+     "Let me line your eyes with brown pencil, it looks softer.",
+     "I’ll line your eyes in brown instead — much softer."
+    ],
+    "keys": {
+     "коричневий": "brown",
+     "м’якше": "soft*|gentle*|natural"
+    }
+   },
+   {
+    "sit": "Ти в музеї з племінником, і він питає, чому в єгипетських статуй такі темні очі.",
+    "say": "Стародавні єгиптяни підводили очі сурмою.",
+    "ans": [
+     "Ancient Egyptians lined their eyes with kohl.",
+     "The ancient Egyptians used kohl to line their eyes.",
+     "In ancient Egypt people lined their eyes with kohl."
+    ],
+    "keys": {
+     "єгиптяни": "egypt*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2090,
+  "w": "curl lashes",
+  "uk": "підкручувати вії",
+  "lvl": "C1",
+  "forms": "curl|curls|curled|curled|curling",
+  "tail": "lash*/eyelash*",
+  "near": "lift*|curler",
+  "tasks": [
+   {
+    "sit": "Молодша сестра вчиться фарбуватися й питає, для чого ці щипчики.",
+    "say": "Я завжди підкручую вії перед тим, як нанести туш.",
+    "ans": [
+     "I always curl my lashes before mascara.",
+     "I always curl my lashes before I put on mascara.",
+     "I always curl my eyelashes before I do my mascara."
+    ],
+    "keys": {
+     "туш": "mascara"
+    }
+   },
+   {
+    "sit": "Ти в салоні краси перед весіллям подруги.",
+    "say": "Можете підкрутити мені вії, щоб вони здавалися довшими?",
+    "ans": [
+     "Can you curl my lashes so they look longer?",
+     "Could you curl my eyelashes to make them look longer?",
+     "Can you curl my lashes? I want them to look longer."
+    ],
+    "keys": {
+     "довші": "long*"
+    }
+   },
+   {
+    "sit": "Ти у відрядженні й зранку помічаєш, що щипчики для вій лишилися вдома.",
+    "say": "Сьогодні я не можу підкрутити вії.",
+    "ans": [
+     "I can’t curl my lashes today.",
+     "Today I can’t curl my eyelashes.",
+     "No way to curl my lashes today — my curler’s at home."
+    ],
+    "keys": {
+     "не": "not|no|cannot",
+     "сьогодні": "today"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2091,
+  "w": "apply mascara",
+  "uk": "наносити туш",
+  "lvl": "B1",
+  "forms": "apply|applies|applied|applied|applying",
+  "tail": "mascara",
+  "near": "put on mascara|put mascara|wear* mascara|use* mascara",
+  "tasks": [
+   {
+    "sit": "Ти ведеш блог про макіяж, і підписниця питає, коли краще фарбувати вії.",
+    "say": "Туш я наношу в останню чергу.",
+    "ans": [
+     "I apply mascara last.",
+     "I always apply mascara at the very end.",
+     "Mascara? I apply it last."
+    ],
+    "keys": {
+     "в останню чергу": "last|end|final*"
+    }
+   },
+   {
+    "sit": "Ви з подругою збираєтеся на пляж, і вона дивується, що ти фарбуєш вії.",
+    "say": "На пляж я наношу тільки водостійку туш.",
+    "ans": [
+     "At the beach I only apply waterproof mascara.",
+     "For the beach I only apply waterproof mascara.",
+     "I only apply waterproof mascara when I go to the beach."
+    ],
+    "keys": {
+     "водостійка": "waterproof|water",
+     "пляж": "beach|swim*|pool"
+    }
+   },
+   {
+    "sit": "Після лазерної корекції зору ти пояснюєш подрузі рекомендації лікаря.",
+    "say": "Тиждень після операції не можна наносити туш.",
+    "ans": [
+     "You can’t apply mascara for a week after the surgery.",
+     "I can’t apply mascara for a week after the operation.",
+     "No applying mascara for a whole week after surgery."
+    ],
+    "keys": {
+     "тиждень": "week|7|seven",
+     "операція": "surgery|operation|procedure"
+    }
+   }
+  ]
+ }
+]

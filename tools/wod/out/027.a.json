@@ -1,0 +1,644 @@
+[
+ {
+  "id": 1468, "w": "marry", "uk": "вінчатися", "lvl": "B1",
+  "forms": "marry|marries|married|married|marrying",
+  "near": "wed|weds|wedded|wedding|got married|get married|getting married|tie the knot|tied the knot",
+  "tasks": [
+   {
+    "sit": "Колега показує фото старовинного собору в Італії й питає, чому він для тебе особливий.",
+    "say": "Мої батьки вінчалися в цьому соборі.",
+    "ans": ["My parents married in this cathedral.", "My parents were married in this cathedral.", "This is actually the cathedral where my parents married."],
+    "keys": { "батьки": "parent*|mom|dad|mum|mother|father", "собор": "cathedral|church" }
+   },
+   {
+    "sit": "Бабуся розповідає онукам, як усе було шістдесят років тому в селі.",
+    "say": "Ми вінчалися в маленькій сільській церкві.",
+    "ans": ["We married in a small village church.", "We were married in a little church in the village.", "We got married — well, we married in a tiny village church."],
+    "keys": { "маленька": "small|little|tiny", "церква": "church*|chapel" }
+   },
+   {
+    "sit": "Ти плануєш весілля і пояснюєш подрузі, чому вам мало лише розпису в РАЦСі.",
+    "say": "Ми хочемо вінчатися в церкві, а не лише розписатися.",
+    "ans": ["We want to marry in a church, not just sign the papers.", "We’d like to be married in church, not only at the registry office.", "We really want to marry in a church, not just do the paperwork."],
+    "keys": { "церква": "church*", "не лише": "not just|not only|just|only" }
+   }
+  ]
+ },
+ {
+  "id": 1470, "w": "cremate", "uk": "кремувати", "lvl": "C1",
+  "forms": "cremate|cremates|cremated|cremated|cremating",
+  "near": "burn*|bury|buried|burying|scatter*",
+  "tasks": [
+   {
+    "sit": "Родина обговорює побажання дідуся щодо похорону. Він давно про це говорив.",
+    "say": "Дідусь хотів, щоб його кремували.",
+    "ans": ["Grandpa wanted to be cremated.", "Grandad wanted us to cremate him.", "Grandpa always said he wanted to be cremated."],
+    "keys": { "дідусь": "grand*|he|him" , "хотів": "want*|wish*|ask*|said" }
+   },
+   {
+    "sit": "Ти дивишся документальний фільм про Індію й пояснюєш другу, що відбувається на березі Гангу.",
+    "say": "Тут кремують тіла померлих просто на березі річки.",
+    "ans": ["They cremate the bodies of the dead right on the riverbank.", "The dead are cremated right on the bank of the river.", "Here they cremate the bodies right by the river."],
+    "keys": { "тіла": "bod*|dead|deceased", "річка": "river*|bank|ganges" }
+   },
+   {
+    "sit": "Твій пес помер, і ветеринар питає, що робити далі. Ти вже вирішив.",
+    "say": "Ми хочемо його кремувати і зберегти прах.",
+    "ans": ["We want to cremate him and keep the ashes.", "We’d like him to be cremated so we can keep his ashes.", "We’re going to cremate him and keep his ashes at home."],
+    "keys": { "прах": "ash*|remains|urn" }
+   }
+  ]
+ },
+ {
+  "id": 1472, "w": "observe", "uk": "дотримуватися (свята, посту)", "lvl": "B2",
+  "forms": "observe|observes|observed|observed|observing",
+  "near": "celebrat*|keep|keeps|kept|keeping|follow*|mark*",
+  "tasks": [
+   {
+    "sit": "Новий колега-мусульманин питає, чи можна буде піти раніше з роботи в Рамадан. Ти пояснюєш менеджеру.",
+    "say": "Він дотримується Рамадану, тому постить до заходу сонця.",
+    "ans": ["He observes Ramadan, so he fasts until sunset.", "He’s observing Ramadan and doesn’t eat until sunset.", "He observes Ramadan, so he can’t eat till the sun goes down."],
+    "keys": { "Рамадан": "ramadan", "захід сонця": "sunset|sun goes down|evening|dark" }
+   },
+   {
+    "sit": "Туристи дивуються, чому в Ізраїлі в суботу все зачинено. Гід пояснює.",
+    "say": "Багато людей тут суворо дотримуються шабату.",
+    "ans": ["Many people here strictly observe the Sabbath.", "Lots of people here observe Shabbat very strictly.", "A lot of people here really observe the Sabbath strictly."],
+    "keys": { "шабат": "sabbath|shabbat|saturday", "суворо": "strict*|careful*|serious*" }
+   },
+   {
+    "sit": "Сусідка-іноземка питає, чи всі в Україні відзначають Великдень за церковним календарем.",
+    "say": "Моя бабуся дотримується всіх церковних свят.",
+    "ans": ["My grandma observes all the church holidays.", "My grandmother observes every religious holiday.", "My gran still observes all the church holidays."],
+    "keys": { "бабуся": "grand*|gran|granny|nan*", "свята": "holiday*|feast*|festival*" }
+   }
+  ]
+ },
+ {
+  "id": 1473, "w": "sacrifice", "uk": "приносити в жертву", "lvl": "C1",
+  "forms": "sacrifice|sacrifices|sacrificed|sacrificed|sacrificing",
+  "near": "offer*|kill*|slaughter*",
+  "tasks": [
+   {
+    "sit": "На лекції з історії студент питає, навіщо ацтеки будували такі високі піраміди.",
+    "say": "На вершині пірамід ацтеки приносили людей у жертву богам.",
+    "ans": ["The Aztecs sacrificed people to their gods on top of the pyramids.", "On top of the pyramids, people were sacrificed to the gods.", "That’s where the Aztecs sacrificed humans to their gods — right at the top."],
+    "keys": { "люди": "people|human*|victim*|person*", "боги": "god*|deit*" }
+   },
+   {
+    "sit": "Ти в музеї Стародавньої Греції розглядаєш вівтар і читаєш табличку другу.",
+    "say": "Греки приносили тут в жертву биків Зевсу.",
+    "ans": ["The Greeks sacrificed bulls to Zeus here.", "Bulls were sacrificed to Zeus at this altar.", "So this is where the Greeks sacrificed bulls to Zeus."],
+    "keys": { "бики": "bull*|ox|oxen|cattle|animal*", "Зевс": "zeus|god*" }
+   },
+   {
+    "sit": "Ти дочитав біблійну історію про Авраама й обговорюєш її в книжковому клубі.",
+    "say": "Бог наказав Авраамові принести в жертву власного сина.",
+    "ans": ["God told Abraham to sacrifice his own son.", "Abraham was ordered by God to sacrifice his son.", "God actually asked Abraham to sacrifice his own son."],
+    "keys": { "син": "son|isaac|child", "наказав": "told|order*|command*|ask*" }
+   }
+  ]
+ },
+ {
+  "id": 1474, "w": "meditate", "uk": "медитувати", "lvl": "B2",
+  "forms": "meditate|meditates|meditated|meditated|meditating",
+  "near": "pray*|relax*|breathe|breathing|reflect*|contemplat*",
+  "tasks": [
+   {
+    "sit": "Колега питає, як тобі вдається залишатися спокійним перед важкими дедлайнами.",
+    "say": "Я щоранку медитую десять хвилин.",
+    "ans": ["I meditate for ten minutes every morning.", "Every morning I meditate for ten minutes.", "I just meditate for ten minutes each morning."],
+    "keys": { "щоранку": "morning*|every day|daily", "десять хвилин": "ten|10|minute*" }
+   },
+   {
+    "sit": "Ти на йога-ретриті в горах. Інструктор питає, чим ти займався на світанку.",
+    "say": "Я медитував біля озера, поки всі спали.",
+    "ans": ["I meditated by the lake while everyone was asleep.", "I was meditating near the lake while the others slept.", "I went and meditated by the lake while everyone was still sleeping."],
+    "keys": { "озеро": "lake|water", "спали": "sleep*|slept|asleep|bed" }
+   },
+   {
+    "sit": "Друг скаржиться на тривогу й безсоння. Ти ділишся, що допомогло тобі.",
+    "say": "Спробуй медитувати перед сном — мені це дуже допомогло.",
+    "ans": ["Try meditating before bed — it really helped me.", "Try to meditate before you go to sleep; it helped me a lot.", "You should try meditating before bed. It helped me so much."],
+    "keys": { "перед сном": "bed*|sleep*|night", "допомогло": "help*" }
+   }
+  ]
+ },
+ {
+  "id": 1476, "w": "seek", "uk": "шукати (духовно, прагнути)", "lvl": "C1",
+  "forms": "seek|seeks|sought|sought|seeking",
+  "near": "look for|looking for|looked for|search*|find|found|pursu*|strive*",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш знайомим, чому твій брат поїхав жити в монастир у Непалі.",
+    "say": "Він шукав внутрішнього спокою і сенсу життя.",
+    "ans": ["He was seeking inner peace and the meaning of life.", "He sought inner peace and a meaning in life.", "He was really seeking inner peace — and some meaning in his life."],
+    "keys": { "спокій": "peace|calm", "сенс": "meaning|purpose|sense" }
+   },
+   {
+    "sit": "На курсі філософії викладач питає, що обʼєднує всіх паломників, яких ви вивчали.",
+    "say": "Усі вони шукали просвітлення.",
+    "ans": ["They were all seeking enlightenment.", "All of them sought enlightenment.", "They were all seeking some kind of enlightenment."],
+    "keys": { "просвітлення": "enlighten*|truth|nirvana|awakening", "усі": "all|every*" }
+   },
+   {
+    "sit": "Після важкого розлучення подруга поїхала до Індії. Ти пояснюєш це спільному знайомому.",
+    "say": "Вона шукає відповіді на духовні питання.",
+    "ans": ["She’s seeking answers to spiritual questions.", "She seeks answers to her spiritual questions.", "She went there seeking answers to some deep spiritual questions."],
+    "keys": { "відповіді": "answer*|truth", "духовні": "spiritual*|soul|deep|faith" }
+   }
+  ]
+ },
+ {
+  "id": 1477, "w": "awaken", "uk": "пробуджуватися (духовно)", "lvl": "C1",
+  "forms": "awaken|awakens|awakened|awakened|awakening",
+  "near": "wake up|woke up|waken*|realiz*|realis*|enlighten*|transform*",
+  "tasks": [
+   {
+    "sit": "Ти читаєш біографію Будди й переказуєш подрузі ключовий момент.",
+    "say": "Будда духовно пробудився під деревом Бодгі.",
+    "ans": ["The Buddha awakened spiritually under the Bodhi tree.", "Under the Bodhi tree, the Buddha finally awakened.", "The Buddha awakened spiritually while sitting under the Bodhi tree."],
+    "keys": { "дерево": "tree|bodhi", "Будда": "buddha|he" }
+   },
+   {
+    "sit": "Друг раніше жив лише роботою, а тепер волонтерить і займається медитацією. Ти пояснюєш, що сталося.",
+    "say": "Після хвороби він ніби духовно пробудився.",
+    "ans": ["After his illness, he seemed to awaken spiritually.", "He kind of awakened spiritually after he was ill.", "It’s like he spiritually awakened after his illness."],
+    "keys": { "хвороба": "ill*|sick*|disease|cancer|hospital", "духовно": "spiritual*|soul|inside|inner" }
+   },
+   {
+    "sit": "На семінарі з медитації ведуча пояснює мету практики новачкам.",
+    "say": "Мета — пробудитися й побачити світ таким, яким він є.",
+    "ans": ["The goal is to awaken and see the world as it is.", "The aim is to awaken and to see the world as it really is.", "Basically, the point is to awaken and see things as they truly are."],
+    "keys": { "мета": "goal|aim|point|purpose|idea", "бачити": "see*|seeing|perceive*|look" }
+   }
+  ]
+ },
+ {
+  "id": 1478, "w": "chant a mantra", "uk": "повторювати мантру", "lvl": "C1",
+  "forms": "chant|chants|chanted|chanted|chanting",
+  "tail": "mantra*",
+  "near": "repeat*|say a mantra|said a mantra|recite*|sing*|sang|pray*|hum*",
+  "tasks": [
+   {
+    "sit": "Сусід чує дивні звуки з твоєї квартири щоранку й питає, що там відбувається.",
+    "say": "Я просто вранці повторюю мантру.",
+    "ans": ["I just chant a mantra in the morning.", "In the mornings I chant a mantra, that’s all.", "Oh, that’s just me chanting a mantra in the morning."],
+    "keys": { "вранці": "morning*|am|early" }
+   },
+   {
+    "sit": "Ти в буддійському храмі в Таїланді й описуєш подрузі в повідомленні, що бачиш.",
+    "say": "Ченці сидять колом і хором повторюють мантру.",
+    "ans": ["The monks are sitting in a circle and chanting a mantra together.", "Monks sit in a circle, chanting a mantra in unison.", "There are monks sitting in a circle, all chanting a mantra together."],
+    "keys": { "ченці": "monk*", "колом": "circle|ring|round|around" }
+   },
+   {
+    "sit": "Ти вчиш подругу, як заспокоїтися перед важливою співбесідою.",
+    "say": "Закрий очі й повтори мантру кілька разів.",
+    "ans": ["Close your eyes and chant a mantra a few times.", "Shut your eyes and chant the mantra several times.", "Just close your eyes and chant a mantra a couple of times."],
+    "keys": { "очі": "eye*", "кілька разів": "few|several|couple|times|again" }
+   }
+  ]
+ },
+ {
+  "id": 1479, "w": "forgive yourself", "uk": "пробачати себе", "lvl": "B2",
+  "forms": "forgive|forgives|forgave|forgiven|forgiving",
+  "tail": "yourself/myself/himself/herself/themselves/ourselves/oneself",
+  "near": "let go|let it go|move on|stop blaming|excuse*|accept yourself|accept myself",
+  "tasks": [
+   {
+    "sit": "Подруга досі картає себе за те, що не встигла попрощатися з бабусею перед її смертю.",
+    "say": "Ти маєш пробачити себе — ти не могла цього знати.",
+    "ans": ["You have to forgive yourself — you couldn’t have known.", "You need to forgive yourself; there was no way you could know.", "Please forgive yourself. You just couldn’t have known."],
+    "keys": { "не могла знати": "known|know|no way" }
+   },
+   {
+    "sit": "Психотерапевт питає, що найважче було після розлучення.",
+    "say": "Найважче було пробачити себе за помилки.",
+    "ans": ["The hardest thing was to forgive myself for my mistakes.", "Forgiving myself for my mistakes was the hardest part.", "Honestly, the hardest part was forgiving myself for the mistakes I made."],
+    "keys": { "найважче": "hard*|difficult*|tough*", "помилки": "mistake*|error*|wrong|fault*" }
+   },
+   {
+    "sit": "Колега провалив важливу презентацію й третій день ходить похмурий.",
+    "say": "Усі помиляються, пробач собі й рухайся далі.",
+    "ans": ["Everyone makes mistakes, forgive yourself and move on.", "We all make mistakes — forgive yourself and keep going.", "Hey, everybody messes up. Forgive yourself and move on."],
+    "keys": { "помиляються": "mistake*|mess* up|screw* up|fail*|wrong", "далі": "move on|keep going|go on|forward|ahead" }
+   }
+  ]
+ },
+ {
+  "id": 1480, "w": "let go", "uk": "відпускати (образу, минуле)", "lvl": "B2",
+  "forms": "let|lets|let|let|letting",
+  "tail": "go",
+  "near": "forget*|forgot|move on|moved on|get over|got over|release*|forgive*|forgave|drop it",
+  "tasks": [
+   {
+    "sit": "Друг досі злиться на колишнього бізнес-партнера, який обдурив його два роки тому.",
+    "say": "Ти маєш відпустити цю злість, вона тебе їсть зсередини.",
+    "ans": ["You have to let go of that anger, it’s eating you up inside.", "You need to let go of the anger — it’s eating you alive.", "Just let go of that anger, man. It’s eating you up."],
+    "keys": { "злість": "anger|angry|rage|resentment|grudge|it", "їсть": "eat*|destroy*|kill*|hurt*" }
+   },
+   {
+    "sit": "Ти переглядаєш старі фото з колишньою і розумієш, що вже спокійно на них дивишся.",
+    "say": "Здається, я нарешті відпустив ці стосунки.",
+    "ans": ["I think I’ve finally let go of that relationship.", "I guess I finally let go of that relationship.", "I think I’ve finally let go of her."],
+    "keys": { "нарешті": "final*|at last", "стосунки": "relationship|her|past|ex" }
+   },
+   {
+    "sit": "Мама досі переживає через сварку з сестрою, що сталася десять років тому.",
+    "say": "Мамо, це було так давно, просто відпусти це.",
+    "ans": ["Mom, that was so long ago, just let it go.", "Mum, it happened ages ago — you have to let it go.", "Mom, it was such a long time ago. Just let it go."],
+    "keys": { "давно": "long ago|long time|ages|years" }
+   }
+  ]
+ },
+ {
+  "id": 1481, "w": "heal", "uk": "зцілювати (душу)", "lvl": "B2",
+  "forms": "heal|heals|healed|healed|healing",
+  "near": "cure*|recover*|fix*|mend*|restor*|help*",
+  "tasks": [
+   {
+    "sit": "Після смерті мами ти пів року жив у селі. Подруга питає, що тобі допомогло.",
+    "say": "Природа і тиша зцілили мою душу.",
+    "ans": ["Nature and silence healed my soul.", "My soul was healed by nature and the quiet.", "Honestly, nature and the silence healed my soul."],
+    "keys": { "природа": "nature|countryside|forest", "душа": "soul|heart|me|spirit" }
+   },
+   {
+    "sit": "Ти слухаєш пісню, яка тобі дуже допомогла в депресії, і ділишся нею з другом.",
+    "say": "Ця музика зцілює мене щоразу, коли мені погано.",
+    "ans": ["This music heals me every time I feel bad.", "Whenever I’m feeling down, this music heals me.", "This song just heals me whenever I’m feeling low."],
+    "keys": { "музика": "music|song*|track|album", "погано": "bad|down|low|sad|depress*|awful" }
+   },
+   {
+    "sit": "На груповій терапії ведучий питає, чого ви очікуєте від зустрічей.",
+    "say": "Я хочу зцілити старі душевні рани.",
+    "ans": ["I want to heal old emotional wounds.", "I’d like to heal the old wounds in my soul.", "I just want to heal some old emotional wounds."],
+    "keys": { "рани": "wound*|scar*|pain|trauma*|hurt*", "старі": "old|past|childhood" }
+   }
+  ]
+ },
+ {
+  "id": 1482, "w": "walk out", "uk": "вийти (демонстративно)", "lvl": "B2",
+  "forms": "walk|walks|walked|walked|walking",
+  "tail": "out",
+  "near": "leave|left|leaving|storm* out|stormed off|go out|went out|quit*|exit*",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш дружині, як минула напружена нарада, коли шеф накричав на команду.",
+    "say": "Половина команди просто демонстративно вийшла з наради.",
+    "ans": ["Half the team just walked out of the meeting.", "Half of the team walked out of the meeting in protest.", "Half the team just walked out — right in the middle of the meeting."],
+    "keys": { "половина": "half", "нарада": "meeting|room|call|team" }
+   },
+   {
+    "sit": "Ти був у театрі на дуже скандальній виставі й ділишся враженнями з другом.",
+    "say": "Кілька глядачів вийшли посеред вистави.",
+    "ans": ["Several people walked out in the middle of the play.", "A few people in the audience walked out halfway through the show.", "Some people actually walked out in the middle of the show."],
+    "keys": { "глядачі": "people|audience|viewer*|spectator*|guest*|several|few|some", "вистава": "play|show|performance" }
+   },
+   {
+    "sit": "Подруга розповідає, чим закінчилася жахлива сварка з хлопцем на вечірці. Ти потім переказуєш це іншим.",
+    "say": "Вона грюкнула дверима і пішла геть посеред вечірки.",
+    "ans": ["She slammed the door and walked out in the middle of the party.", "She walked out of the party and slammed the door.", "She just walked out, slamming the door, right in the middle of the party."],
+    "keys": { "двері": "door*", "вечірка": "party" }
+   }
+  ]
+ },
+ {
+  "id": 1483, "w": "walk in", "uk": "зайти (несподівано, заскочити на чомусь)", "lvl": "B2",
+  "forms": "walk|walks|walked|walked|walking",
+  "tail": "in/into",
+  "near": "come in|came in|enter*|burst in|barge* in|catch|caught|walk into",
+  "tasks": [
+   {
+    "sit": "Ти ніяково розповідаєш другові, що сталося, коли ти без стуку відчинив двері кабінету шефа.",
+    "say": "Я зайшов, коли він якраз сварився з дружиною по телефону.",
+    "ans": ["I walked in just as he was arguing with his wife on the phone.", "I walked in on him while he was fighting with his wife on the phone.", "I walked in right when he was yelling at his wife on the phone."],
+    "keys": { "дружина": "wife", "сварився": "argu*|fight*|fighting|yell*|shout*|row*" }
+   },
+   {
+    "sit": "Ви з друзями готуєте сюрприз для сестри, але вона повернулася додому на годину раніше.",
+    "say": "Вона зайшла саме тоді, коли ми надували кульки.",
+    "ans": ["She walked in right when we were blowing up the balloons.", "She walked in on us while we were blowing up balloons.", "She just walked in as we were blowing up the balloons!"],
+    "keys": { "кульки": "balloon*", "саме тоді": "when|while|as|just|right" }
+   },
+   {
+    "sit": "Ти розповідаєш колегам кумедну історію про підліткові роки.",
+    "say": "Мама якось зайшла, коли я танцював перед дзеркалом у трусах.",
+    "ans": ["My mom once walked in while I was dancing in front of the mirror in my underwear.", "Once my mum walked in on me dancing in front of the mirror in my pants.", "One time my mom walked in when I was dancing in my underwear in front of the mirror."],
+    "keys": { "мама": "mom|mum|mother", "танцював": "danc*", "дзеркало": "mirror" }
+   }
+  ]
+ },
+ {
+  "id": 1484, "w": "walk around", "uk": "обходити навколо, гуляти по", "lvl": "A2",
+  "forms": "walk|walks|walked|walked|walking",
+  "tail": "around/round",
+  "near": "go around|went around|stroll*|wander*|explore*|take a walk|walk through",
+  "tasks": [
+   {
+    "sit": "Після обіду на роботі ти хочеш трохи розім’ятися й кличеш колегу.",
+    "say": "Ходімо обійдемо квартал, мені треба подихати свіжим повітрям.",
+    "ans": ["Let’s walk around the block, I need some fresh air.", "Shall we walk around the block? I need some fresh air.", "Come on, let’s walk around the block — I need some air."],
+    "keys": { "квартал": "block|building|office", "повітря": "air|breath*" }
+   },
+   {
+    "sit": "Ти перший день у Львові. Друг питає по телефону, що ти робив.",
+    "say": "Я весь день гуляв по старому місту.",
+    "ans": ["I walked around the old town all day.", "I spent the whole day walking around the old town.", "I was just walking around the old town all day."],
+    "keys": { "старе місто": "old town|city|centre|center|downtown", "весь день": "all day|whole day|day" }
+   },
+   {
+    "sit": "Ти продаєш машину, покупець ще сумнівається.",
+    "say": "Обійдіть машину і подивіться, на ній жодної подряпини.",
+    "ans": ["Walk around the car and have a look, there isn’t a single scratch.", "Walk around the car — you won’t find any scratches.", "Go on, walk around the car and see, not one scratch."],
+    "keys": { "машина": "car|vehicle|it", "подряпина": "scratch*|dent*|damage" }
+   }
+  ]
+ },
+ {
+  "id": 1485, "w": "walk away", "uk": "відійти, піти (від конфлікту)", "lvl": "B1",
+  "forms": "walk|walks|walked|walked|walking",
+  "tail": "away",
+  "near": "leave|left|leaving|go away|went away|back off|step back|ignore*|turn away",
+  "tasks": [
+   {
+    "sit": "Твого сина-підлітка в школі почав штовхати старшокласник. Ти даєш йому пораду.",
+    "say": "Якщо він тебе провокує, просто розвернися й піди.",
+    "ans": ["If he provokes you, just turn around and walk away.", "Just walk away if he tries to provoke you.", "If he starts provoking you, just turn and walk away."],
+    "keys": { "провокує": "provok*|start*|push*|bother*|pick*|annoy*" }
+   },
+   {
+    "sit": "Друг розповідає, що якийсь п’яний чоловік біля бару хотів із ним побитися. Ти питаєш, чим усе закінчилося.",
+    "say": "І ти просто пішов, не бившись?",
+    "ans": ["And you just walked away without fighting?", "So you walked away instead of fighting him?", "Wait, you just walked away? No fight?"],
+    "keys": { "бійка": "fight*|punch*|hit*" }
+   },
+   {
+    "sit": "На переговорах інша сторона пропонує смішну ціну. Ти пошепки радишся з партнером.",
+    "say": "Якщо вони не піднімуть ціну, ми просто підемо.",
+    "ans": ["If they don’t raise the price, we just walk away.", "We’ll walk away if they don’t increase the price.", "If they won’t go higher, we’ll just walk away."],
+    "keys": { "ціна": "price|offer|higher|more|money", "не": "not|won’t|no" }
+   }
+  ]
+ },
+ {
+  "id": 1486, "w": "walk off", "uk": "розходити (їжу, біль), піти прогулятися, щоб минуло", "lvl": "B2",
+  "forms": "walk|walks|walked|walked|walking",
+  "tail": "off",
+  "near": "take a walk|go for a walk|went for a walk|stroll*|burn off|digest*|work off",
+  "tasks": [
+   {
+    "sit": "Після святкової вечері в бабусі ти ледве встаєш з-за столу й звертаєшся до брата.",
+    "say": "Ходімо прогуляємося, треба розходити цю вечерю.",
+    "ans": ["Let’s go for a stroll, we need to walk off this dinner.", "Come on, we have to walk off that huge dinner.", "Let’s go out and walk off all this food."],
+    "keys": { "вечеря": "dinner|meal|food|feast|lunch" }
+   },
+   {
+    "sit": "На футболі ти вдарив ногу, тренер питає, чи тобі потрібна заміна.",
+    "say": "Нічого страшного, зараз розходжу.",
+    "ans": ["It’s nothing serious, I’ll walk it off.", "No big deal, I’ll just walk it off.", "I’m fine, I’ll walk it off in a minute."],
+    "keys": { "нічого страшного": "nothing|fine|ok*|no big deal|all right|alright" }
+   },
+   {
+    "sit": "Після важкої розмови з шефом ти дуже злий. Колега бачить це.",
+    "say": "Мені треба вийти й розходити цю злість.",
+    "ans": ["I need to go out and walk off this anger.", "I have to step outside and walk off my anger.", "I just need to walk it off — I’m so angry."],
+    "keys": { "злість": "anger|angry|mad|rage|furious|stress" }
+   }
+  ]
+ },
+ {
+  "id": 1487, "w": "run into", "uk": "випадково зустріти (когось)", "lvl": "B1",
+  "forms": "run|runs|ran|run|running",
+  "tail": "into",
+  "near": "meet|met|meeting|bump* into|come across|came across|see|saw|encounter*",
+  "tasks": [
+   {
+    "sit": "Ти прийшов додому з супермаркету й розповідаєш дружині новину.",
+    "say": "Уяви, я випадково зустрів у супермаркеті свою першу вчительку.",
+    "ans": ["Guess what, I ran into my first teacher at the supermarket.", "You won’t believe it, I ran into my first-grade teacher in the supermarket.", "Guess who I ran into at the supermarket — my first teacher!"],
+    "keys": { "вчителька": "teacher", "супермаркет": "supermarket|store|shop|grocery" }
+   },
+   {
+    "sit": "Ти в аеропорту Відня й пишеш повідомлення другові.",
+    "say": "Ти не повіриш, кого я зустрів в аеропорту — нашого старого сусіда!",
+    "ans": ["You won’t believe who I ran into at the airport — our old neighbor!", "I ran into our old neighbour at the airport, can you believe it?", "Guess who I just ran into at the airport? Our old neighbor!"],
+    "keys": { "сусід": "neighbo*", "аеропорт": "airport" }
+   },
+   {
+    "sit": "Колега питає, чому ти запізнився з обідньої перерви.",
+    "say": "Я випадково зустрів Олега біля кафе, і ми розговорилися.",
+    "ans": ["I ran into Oleh near the café and we got talking.", "I ran into Oleh outside the cafe and we started chatting.", "Sorry, I ran into Oleh by the café and we got chatting."],
+    "keys": { "Олег": "oleh|oleg", "розговорилися": "talk*|chat*|conversation" }
+   }
+  ]
+ },
+ {
+  "id": 1488, "w": "run out of", "uk": "вичерпуватися, закінчуватися (запас)", "lvl": "B1",
+  "forms": "run|runs|ran|run|running",
+  "tail": "out of",
+  "near": "finish*|use up|used up|nothing left|no more|there is no|empty|out of",
+  "tasks": [
+   {
+    "sit": "Ти на трасі серед поля, машина зупинилася. Телефонуєш другові.",
+    "say": "У мене закінчився бензин, можеш під’їхати з каністрою?",
+    "ans": ["I’ve run out of gas, can you come with a can?", "I ran out of petrol — could you bring me a canister?", "I ran out of gas, can you come out with a jerry can?"],
+    "keys": { "бензин": "gas*|petrol|fuel", "каністра": "can|canister|jerry can|container" }
+   },
+   {
+    "sit": "Ти стоїш біля принтера, а він видає помилку. Звертаєшся до офіс-менеджерки.",
+    "say": "У принтері закінчився папір.",
+    "ans": ["The printer has run out of paper.", "The printer ran out of paper.", "Looks like the printer’s run out of paper again."],
+    "keys": { "папір": "paper", "принтер": "printer|it" }
+   },
+   {
+    "sit": "Уранці ти відкриваєш холодильник і бачиш, що не можеш зробити сніданок.",
+    "say": "Ой, у нас закінчилися яйця.",
+    "ans": ["Oh, we’ve run out of eggs.", "Oh no, we ran out of eggs.", "Oops, looks like we’ve run out of eggs again."],
+    "keys": { "яйця": "egg*" }
+   }
+  ]
+ },
+ {
+  "id": 1489, "w": "run away", "uk": "втекти (з дому, від когось)", "lvl": "A2",
+  "forms": "run|runs|ran|run|running",
+  "tail": "away",
+  "near": "escape*|flee*|fled|leave|left|get away|got away|take off",
+  "tasks": [
+   {
+    "sit": "Сусідка стривожено стукає у двері й питає, чи ти не бачив її пса.",
+    "say": "Мій собака втік, коли я відчинила хвіртку.",
+    "ans": ["My dog ran away when I opened the gate.", "When I opened the gate, my dog ran away.", "My dog just ran away when I opened the gate!"],
+    "keys": { "собака": "dog|puppy", "хвіртка": "gate|door" }
+   },
+   {
+    "sit": "Ти розповідаєш дітям кумедну історію зі свого дитинства.",
+    "say": "У сім років я втік з дому, бо мене не пустили в кіно.",
+    "ans": ["When I was seven, I ran away from home because they didn’t let me go to the movies.", "I ran away from home at seven because I wasn’t allowed to go to the cinema.", "At seven I ran away from home — just because they wouldn’t let me go to the movies!"],
+    "keys": { "дім": "home|house", "сім": "seven|7", "кіно": "movie*|cinema|film*" }
+   },
+   {
+    "sit": "Ти побачив у парку, як злодій вихопив у жінки сумку. Поліцейський питає, що було далі.",
+    "say": "Він схопив сумку й утік у бік річки.",
+    "ans": ["He grabbed the bag and ran away towards the river.", "He snatched her bag and ran away toward the river.", "He just grabbed the bag and ran away, towards the river."],
+    "keys": { "сумка": "bag|purse|handbag", "річка": "river" }
+   }
+  ]
+ },
+ {
+  "id": 1490, "w": "run over", "uk": "переїхати, збити (машиною)", "lvl": "B2",
+  "forms": "run|runs|ran|run|running",
+  "tail": "over",
+  "near": "hit|hits|hitting|knock* down|knocked over|crush*|drive over|drove over|kill*",
+  "tasks": [
+   {
+    "sit": "Сусідські діти граються з м’ячем прямо на дорозі. Ти кричиш їм з балкона.",
+    "say": "Відійдіть від дороги, вас може переїхати машина!",
+    "ans": ["Get away from the road, a car could run you over!", "Move off the road — you could get run over by a car!", "Get off the road, you’ll get run over!"],
+    "keys": { "дорога": "road|street", "машина": "car|someone|you|get" }
+   },
+   {
+    "sit": "Донька плаче вранці. Ти пояснюєш сусідці, чому ви такі засмучені.",
+    "say": "Учора ввечері машина переїхала нашого кота.",
+    "ans": ["A car ran over our cat last night.", "Our cat got run over by a car last night.", "Last night our cat was run over by a car."],
+    "keys": { "кіт": "cat|kitten", "учора ввечері": "last night|yesterday|evening" }
+   },
+   {
+    "sit": "Ти в’їжджаєш на парковку заднім ходом і раптом чуєш хрускіт.",
+    "say": "Здається, я переїхав чиїсь сонцезахисні окуляри.",
+    "ans": ["I think I just ran over someone’s sunglasses.", "Looks like I ran over somebody’s sunglasses.", "Oh no, I think I’ve run over someone’s sunglasses."],
+    "keys": { "окуляри": "sunglasses|glasses|shades", "здається": "think|looks|seems|guess" }
+   }
+  ]
+ },
+ {
+  "id": 1491, "w": "come over", "uk": "приходити (в гості)", "lvl": "A2",
+  "forms": "come|comes|came|come|coming",
+  "tail": "over",
+  "near": "visit*|drop by|dropped by|drop in|dropped in|stop by|stopped by|pop round|come round|came round|come by|came by",
+  "tasks": [
+   {
+    "sit": "Ти пишеш повідомлення подрузі в п’ятницю ввечері.",
+    "say": "Приходь до мене сьогодні, подивимося фільм.",
+    "ans": ["Come over tonight, we can watch a movie.", "Why don’t you come over tonight and we’ll watch a film?", "Wanna come over tonight? We can watch a movie."],
+    "keys": { "фільм": "movie*|film*|netflix", "сьогодні": "tonight|today|evening" }
+   },
+   {
+    "sit": "Колега питає, які в тебе плани на вихідні.",
+    "say": "У неділю до нас приходять батьки дружини на обід.",
+    "ans": ["My wife’s parents are coming over for lunch on Sunday.", "On Sunday my in-laws are coming over for lunch.", "My in-laws are coming over for Sunday lunch."],
+    "keys": { "батьки дружини": "parent*|in-law*|in-laws|mother|father", "неділя": "sunday" }
+   },
+   {
+    "sit": "Сусідка по телефону каже, що в неї протікає кран, а чоловік у відрядженні.",
+    "say": "Не хвилюйся, я зараз прийду і подивлюся.",
+    "ans": ["Don’t worry, I’ll come over and take a look.", "Don’t worry — I’ll come over right now and have a look.", "No worries, I’ll come over and check it out."],
+    "keys": { "подивлюся": "look|check|see|fix", "не хвилюйся": "worry|worries|relax" }
+   }
+  ]
+ },
+ {
+  "id": 1492, "w": "come back", "uk": "повертатися", "lvl": "A1",
+  "forms": "come|comes|came|come|coming",
+  "tail": "back",
+  "near": "return*|go back|went back|get back|got back|be back",
+  "tasks": [
+   {
+    "sit": "Ти виходиш з офісу на обід. Колега питає, коли тебе чекати.",
+    "say": "Я повернуся о другій.",
+    "ans": ["I’ll come back at two.", "I’m coming back at two o’clock.", "I’ll come back around two."],
+    "keys": { "о другій": "two|2" }
+   },
+   {
+    "sit": "Ти в кафе, яке тобі дуже сподобалось. Прощаєшся з офіціантом.",
+    "say": "Дуже смачно! Ми обов’язково повернемося.",
+    "ans": ["It was delicious! We’ll definitely come back.", "Very tasty! We’ll come back for sure.", "That was so good — we’ll definitely come back!"],
+    "keys": { "обов’язково": "definitely|sure|certainly|surely|promise|for sure" }
+   },
+   {
+    "sit": "Друг питає, чому ти так рано пішов із вечірки вчора.",
+    "say": "Я повернувся додому рано, бо дуже втомився.",
+    "ans": ["I came back home early because I was very tired.", "I came back home early — I was really tired.", "I came back home early because I was so tired."],
+    "keys": { "рано": "early", "втомився": "tired|exhausted|sleepy" }
+   }
+  ]
+ },
+ {
+  "id": 1493, "w": "come across", "uk": "натрапити (випадково)", "lvl": "B2",
+  "forms": "come|comes|came|come|coming",
+  "tail": "across",
+  "near": "find|found|finding|stumble*|discover*|bump into|run into|ran into|happen* upon",
+  "tasks": [
+   {
+    "sit": "Ти розбирав горище в батьків і показуєш мамі знахідку.",
+    "say": "Я натрапив на старі листи тата з армії.",
+    "ans": ["I came across Dad’s old letters from the army.", "I’ve come across some old letters Dad wrote from the army.", "Look what I came across — Dad’s old letters from the army!"],
+    "keys": { "листи": "letter*", "армія": "army|military|service" }
+   },
+   {
+    "sit": "Колега шукає інструмент для автоматизації звітів. Ти згадуєш, що бачив щось подібне.",
+    "say": "Я вчора натрапив на цікаву статтю про це.",
+    "ans": ["I came across an interesting article about it yesterday.", "Yesterday I came across a really interesting article on that.", "I actually came across an interesting article on this yesterday."],
+    "keys": { "стаття": "article|post|blog|piece", "вчора": "yesterday" }
+   },
+   {
+    "sit": "Ти розповідаєш другові, як знайшов свою улюблену кав’ярню в Кракові.",
+    "say": "Ми випадково натрапили на неї, коли загубилися в старому місті.",
+    "ans": ["We came across it when we got lost in the old town.", "We came across it by accident while we were lost in the old town.", "We just came across it when we got lost in the old town."],
+    "keys": { "загубилися": "lost|wander*", "старе місто": "old town|city|centre|center|street*" }
+   }
+  ]
+ },
+ {
+  "id": 1494, "w": "come along", "uk": "піти з (кимось), приєднатися", "lvl": "B1",
+  "forms": "come|comes|came|come|coming",
+  "tail": "along",
+  "near": "join*|go with|come with|came with|tag along|tagged along",
+  "tasks": [
+   {
+    "sit": "Ви з друзями йдете на концерт, а новий сусід стоїть біля під’їзду і нудьгує.",
+    "say": "Ми йдемо на концерт — ходи з нами!",
+    "ans": ["We’re going to a concert — come along!", "We’re off to a concert, why don’t you come along?", "We’re heading to a gig — wanna come along?"],
+    "keys": { "концерт": "concert|gig|show" }
+   },
+   {
+    "sit": "Дружина їде до лікаря і дуже хвилюється. Ти пропонуєш підтримку.",
+    "say": "Хочеш, я піду з тобою?",
+    "ans": ["Do you want me to come along?", "Would you like me to come along with you?", "Want me to come along?"],
+    "keys": { "хочеш": "want*|would you like|like" }
+   },
+   {
+    "sit": "Колега розповідає, як минула вчорашня риболовля. Ти здивовано питаєш.",
+    "say": "То твій син теж ходив з вами?",
+    "ans": ["So your son came along too?", "So did your son come along as well?", "Wait, your son came along too?"],
+    "keys": { "син": "son|kid|boy", "теж": "too|also|as well" }
+   }
+  ]
+ },
+ {
+  "id": 1495, "w": "pull up", "uk": "під’їжджати (і зупинятися)", "lvl": "B2",
+  "forms": "pull|pulls|pulled|pulled|pulling",
+  "tail": "up",
+  "near": "stop*|arriv*|park*|drive up|drove up|come|came|pull over|pulled over|pull in|pulled in",
+  "tasks": [
+   {
+    "sit": "Ти чекаєш на таксі біля готелю й говориш по телефону з дружиною.",
+    "say": "О, таксі якраз під’їхало, я тобі передзвоню.",
+    "ans": ["Oh, the taxi just pulled up, I’ll call you back.", "Oh, my cab has just pulled up — I’ll call you back.", "The taxi’s just pulled up, call you back!"],
+    "keys": { "таксі": "taxi|cab|uber|car", "передзвоню": "call*|ring*|talk later|later" }
+   },
+   {
+    "sit": "Ти свідок ДТП і даєш показання поліцейському.",
+    "say": "Чорний джип під’їхав до світлофора і різко зупинився.",
+    "ans": ["A black SUV pulled up at the lights and stopped sharply.", "A black jeep pulled up at the traffic light and braked hard.", "This black SUV pulled up at the lights and slammed on the brakes."],
+    "keys": { "джип": "jeep|suv|car|4x4", "світлофор": "light*|signal*|junction|intersection" }
+   },
+   {
+    "sit": "Ти везеш друга додому і питаєш, де його висадити.",
+    "say": "Під’їхати до самого під’їзду?",
+    "ans": ["Should I pull up right at your entrance?", "Do you want me to pull up by the front door?", "Shall I pull up right outside your door?"],
+    "keys": { "під’їзд": "entrance|door*|building|house|outside" }
+   }
+  ]
+ }
+]

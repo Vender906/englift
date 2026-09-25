@@ -1,0 +1,637 @@
+[
+ {
+  "id": 1132, "w": "recycle", "uk": "переробляти, сортувати (сміття)", "lvl": "B1",
+  "forms": "recycle|recycles|recycled|recycled|recycling",
+  "near": "sort*|separate*|throw away|reuse*",
+  "tasks": [
+   {
+    "sit": "Ти показуєш гостю кухню, де стоять три окремі відра для сміття.",
+    "say": "Ми сортуємо пластик, скло і папір.",
+    "ans": ["We recycle plastic, glass and paper.", "We recycle all our plastic, glass and paper.", "We try to recycle plastic, glass and paper."],
+    "keys": { "пластик, скло, папір": "plastic*|glass|paper" }
+   },
+   {
+    "sit": "У твоєму офісі всі пляшки викидають у звичайний смітник. Ти пропонуєш керівникові це змінити.",
+    "say": "Давайте поставимо окремий контейнер, щоб здавати пляшки на переробку.",
+    "ans": ["Let’s put a bin here so we can recycle bottles.", "We should get a special bin to recycle the bottles.", "How about a separate bin so we can recycle our bottles?"],
+    "keys": { "пляшки": "bottle*|plastic", "контейнер": "bin*|container*|box*" }
+   },
+   {
+    "sit": "Ти міряєш кросівки, і на етикетці написано щось про екологічні матеріали.",
+    "say": "Ці кросівки справді зроблені з перероблених пляшок?",
+    "ans": ["Are these sneakers really made from recycled bottles?", "Are these shoes made of recycled plastic bottles?", "So these trainers are actually made from recycled bottles?"],
+    "keys": { "кросівки": "sneaker*|shoe*|trainer*|these", "пляшки": "bottle*|plastic" }
+   }
+  ]
+ },
+ {
+  "id": 1133, "w": "conserve", "uk": "зберігати, економити (ресурси)", "lvl": "B2",
+  "forms": "conserve|conserves|conserved|conserved|conserving",
+  "near": "save|saves|saved|saving|preserv*|protect*|use less",
+  "tasks": [
+   {
+    "sit": "Улітку в місті посуха, і влада просить мешканців менше поливати газони.",
+    "say": "Нам усім треба економити воду цього літа.",
+    "ans": ["We all need to conserve water this summer.", "Everyone has to conserve water this summer.", "We’ve all got to conserve water this summer."],
+    "keys": { "вода": "water", "літо": "summer" }
+   },
+   {
+    "sit": "Ви з друзями в горах, до найближчого села ще день ходу, а павербанк майже розряджений.",
+    "say": "Вимкни екран, треба берегти заряд.",
+    "ans": ["Turn off your screen, we need to conserve battery.", "Switch the screen off — we have to conserve the battery.", "Turn your screen off, we’ve got to conserve battery."],
+    "keys": { "екран": "screen|phone|off", "заряд": "battery|charge|power" }
+   },
+   {
+    "sit": "Ти біжиш свій перший марафон. На десятому кілометрі друг поруч питає, чому ти не прискорюєшся.",
+    "say": "Я стримуюсь, щоб зберегти сили на кінець.",
+    "ans": ["I’m holding back to conserve energy for the end.", "I’m going slowly to conserve my energy for the finish.", "I’m trying to conserve my energy for the last few kilometers."],
+    "keys": { "сили": "energy|strength", "кінець": "end|finish|last" }
+   }
+  ]
+ },
+ {
+  "id": 1134, "w": "preserve", "uk": "зберігати (природу, спадщину)", "lvl": "B2",
+  "forms": "preserve|preserves|preserved|preserved|preserving",
+  "near": "protect*|save|saves|saved|saving|conserv*|keep|kept",
+  "tasks": [
+   {
+    "sit": "Ти читаєш новину про рідкісних рисей у Карпатах і обговорюєш її з колегою.",
+    "say": "Цей заповідник створили, щоб зберегти рідкісні види тварин.",
+    "ans": ["This reserve was created to preserve rare species.", "They set up this reserve to preserve rare animal species.", "The whole point of this reserve is to preserve rare species."],
+    "keys": { "заповідник": "reserve*|park*|area|sanctuar*", "рідкісні види": "rare|species|endanger*" }
+   },
+   {
+    "sit": "Ти показуєш туристам старе місто. Хтось питає, чому тут не будують нових висоток.",
+    "say": "Місто хоче зберегти свій історичний центр.",
+    "ans": ["The city wants to preserve its historic centre.", "The city is trying to preserve the old town.", "They really want to preserve the historic centre here."],
+    "keys": { "історичний центр": "histor*|old|centre|center|town" }
+   },
+   {
+    "sit": "Ти розповідаєш другові, чому у вашому селі досі щороку влаштовують старовинне свято.",
+    "say": "Ми хочемо зберегти наші традиції для дітей.",
+    "ans": ["We want to preserve our traditions for our children.", "We’re trying to preserve our traditions for the next generation.", "We just want to preserve our traditions for the kids."],
+    "keys": { "традиції": "tradition*|custom*|culture", "діти": "child*|kid*|generation*" }
+   }
+  ]
+ },
+ {
+  "id": 1135, "w": "protect", "uk": "захищати", "lvl": "A2",
+  "forms": "protect|protects|protected|protected|protecting",
+  "near": "save|saves|saved|keep safe|guard*|defend*|shield*",
+  "tasks": [
+   {
+    "sit": "Ви з дитиною на пляжі, сонце дуже пече. Ти даєш їй кепку.",
+    "say": "Ця кепка захистить тебе від сонця.",
+    "ans": ["This cap will protect you from the sun.", "This hat protects you from the sun.", "Put this cap on — it’ll protect you from the sun."],
+    "keys": { "сонце": "sun*", "кепка": "cap|hat" }
+   },
+   {
+    "sit": "На уроці природознавства вчителька питає, чого ми можемо навчитися з фільму про тайгу.",
+    "say": "Ми маємо захищати ліси і тварин.",
+    "ans": ["We must protect forests and animals.", "We have to protect the forests and the animals.", "We need to protect our forests and wildlife."],
+    "keys": { "ліси": "forest*|wood*|tree*", "тварини": "animal*|wildlife" }
+   },
+   {
+    "sit": "Ти встановлюєш банківський застосунок, і мама питає, навіщо такий довгий пароль.",
+    "say": "Складний пароль захищає мої гроші.",
+    "ans": ["A strong password protects my money.", "A good password will protect my account.", "I use a strong password to protect my money."],
+    "keys": { "пароль": "password*", "гроші": "money|account|bank*|saving*" }
+   }
+  ]
+ },
+ {
+  "id": 1136, "w": "destroy", "uk": "руйнувати", "lvl": "B1",
+  "forms": "destroy|destroys|destroyed|destroyed|destroying",
+  "near": "ruin*|wreck*|damag*|wipe out|wiped out|demolish*|break*|broke",
+  "tasks": [
+   {
+    "sit": "Ти дивишся документальний фільм про орангутанів разом із сестрою.",
+    "say": "Люди руйнують їхні домівки, вирубуючи ліси.",
+    "ans": ["People are destroying their homes by cutting down forests.", "People destroy their habitat when they cut down the forests.", "We’re destroying their homes by cutting down the forests."],
+    "keys": { "домівки": "home*|habitat*|house*", "ліси": "forest*|tree*|jungle*" }
+   },
+   {
+    "sit": "Уночі над селом пройшов ураган. Уранці ти телефонуєш другові.",
+    "say": "Ураган зруйнував наш старий сарай.",
+    "ans": ["The storm destroyed our old shed.", "Our old shed was destroyed by the hurricane.", "The hurricane completely destroyed our old shed."],
+    "keys": { "ураган": "storm|hurricane|wind*|tornado", "сарай": "shed|barn|garage" }
+   },
+   {
+    "sit": "Твій друг постійно бреше своїй дівчині, і тебе це турбує.",
+    "say": "Ця брехня зруйнує ваші стосунки.",
+    "ans": ["These lies will destroy your relationship.", "All this lying is going to destroy your relationship.", "Honestly, the lies will destroy your relationship."],
+    "keys": { "брехня": "lie*|lying", "стосунки": "relationship*|love|together" }
+   }
+  ]
+ },
+ {
+  "id": 1137, "w": "litter", "uk": "смітити", "lvl": "B2",
+  "forms": "litter|litters|littered|littered|littering",
+  "near": "throw*|threw|drop*|leave rubbish|leave trash|make a mess",
+  "tasks": [
+   {
+    "sit": "У парку підліток кидає обгортку від шоколадки просто на траву.",
+    "say": "Будь ласка, не смітіть у парку.",
+    "ans": ["Please don’t litter in the park.", "Please do not litter here in the park.", "Hey, please don’t litter in the park."],
+    "keys": { "не": "not|never", "парк": "park|here|grass" }
+   },
+   {
+    "sit": "Ти пояснюєш колезі-іноземцю, чому в Сінгапурі такі чисті вулиці.",
+    "say": "Там величезні штрафи, якщо смітиш на вулиці.",
+    "ans": ["There are huge fines if you litter in the street.", "You get a big fine if you litter there.", "If you litter there, you pay a massive fine."],
+    "keys": { "штраф": "fine*|pay*", "величезні": "huge|big|massive|large|high" }
+   },
+   {
+    "sit": "Після пікніка на пляжі лишилася купа пляшок. Ти обурюєшся в розмові з другом.",
+    "say": "Люди смітять на пляжі, а потім скаржаться, що брудно.",
+    "ans": ["People litter on the beach and then complain that it’s dirty.", "People litter the beach and then complain about the mess.", "People litter all over the beach, then complain it’s dirty!"],
+    "keys": { "пляж": "beach*", "скаржаться": "complain*|moan*" }
+   }
+  ]
+ },
+ {
+  "id": 1138, "w": "dump", "uk": "скидати, вивалювати (сміття, відходи)", "lvl": "B2",
+  "forms": "dump|dumps|dumped|dumped|dumping",
+  "near": "throw* away|threw away|thrown away|throw* out|threw out|get rid|got rid|toss*|discard*|pour*|drop*",
+  "tasks": [
+   {
+    "sit": "Ти читаєш новину про завод біля річки, а колега питає, що сталося.",
+    "say": "Завод роками скидав хімікати в річку.",
+    "ans": ["The factory dumped chemicals into the river for years.", "The factory had been dumping chemicals into the river for years.", "That factory’s been dumping chemicals in the river for years."],
+    "keys": { "завод": "factory|plant|company", "річка": "river", "хімікати": "chemical*|waste|toxic" }
+   },
+   {
+    "sit": "Ви з сусідом гуляєте лісосмугою і бачите купу старих шин та будівельного сміття.",
+    "say": "Хтось знову вивалив тут купу сміття.",
+    "ans": ["Someone dumped a load of rubbish here again.", "Somebody has dumped trash here again.", "Someone’s been dumping rubbish here again!"],
+    "keys": { "хтось": "someone|somebody|people|they", "сміття": "rubbish|trash|garbage|waste|junk|tyre*|tire*" }
+   },
+   {
+    "sit": "Після ремонту в тебе ціла гора старих дощок. Сусід радить просто кинути їх за гаражами.",
+    "say": "Не можна просто вивалити все це за гаражами.",
+    "ans": ["You can’t just dump all this behind the garages.", "We can’t just dump everything behind the garages.", "No way — you can’t just dump this stuff behind the garages."],
+    "keys": { "не можна": "not|no way|never", "гаражі": "garage*" }
+   }
+  ]
+ },
+ {
+  "id": 1140, "w": "reuse", "uk": "використовувати повторно", "lvl": "B1",
+  "forms": "reuse|reuses|reused|reused|reusing",
+  "near": "use again|used again|using again|recycl*|refill*",
+  "tasks": [
+   {
+    "sit": "У супермаркеті касир питає, чи потрібен тобі новий пакет.",
+    "say": "Ні, дякую, я використовую старі пакети повторно.",
+    "ans": ["No, thanks, I reuse my old bags.", "No thanks — I always reuse old bags.", "I’m fine, thanks, I reuse my old bags."],
+    "keys": { "пакети": "bag*", "старі": "old|own" }
+   },
+   {
+    "sit": "Колега щодня бере нову пластикову склянку для кави.",
+    "say": "Можна ж використовувати одну чашку повторно.",
+    "ans": ["You can reuse the same cup.", "Why don’t you reuse one cup?", "You could just reuse the same mug, you know."],
+    "keys": { "чашка": "cup*|mug*|glass" }
+   },
+   {
+    "sit": "Ти пишеш чернетки на звороті старих роздруківок. Одногрупник питає чому.",
+    "say": "Я використовую папір повторно, щоб менше купувати.",
+    "ans": ["I reuse paper so I buy less.", "I reuse old paper so I don’t have to buy new.", "I just reuse paper — that way I buy less."],
+    "keys": { "папір": "paper*|sheet*", "купувати": "buy*|bought|less|new" }
+   }
+  ]
+ },
+ {
+  "id": 1141, "w": "work out", "uk": "тренуватися", "lvl": "A2",
+  "forms": "work|works|worked|worked|working",
+  "tail": "out",
+  "near": "exercis*|train*|go to the gym|went to the gym|do sport|keep fit",
+  "tasks": [
+   {
+    "sit": "Сусід бачить тебе вранці зі спортивною сумкою.",
+    "say": "Я тренуюся в залі тричі на тиждень.",
+    "ans": ["I work out at the gym three times a week.", "I work out in the gym three times a week.", "I usually work out at the gym three times a week."],
+    "keys": { "зал": "gym|club", "тричі": "three|3" }
+   },
+   {
+    "sit": "Колега кличе тебе на обід о першій, але в тебе інші плани.",
+    "say": "Не можу, я в обідню перерву тренуюся.",
+    "ans": ["I can’t, I work out at lunchtime.", "Sorry, I’m working out during lunch.", "I can’t — I work out on my lunch break."],
+    "keys": { "обід": "lunch*|break" }
+   },
+   {
+    "sit": "Лікар питає, чи ти займаєшся спортом.",
+    "say": "Раніше я багато тренувався, але тепер не маю часу.",
+    "ans": ["I used to work out a lot, but now I don’t have time.", "I worked out a lot before, but now I have no time.", "I used to work out loads, but I just don’t have the time now."],
+    "keys": { "раніше": "used to|before|past|ago", "час": "time|busy" }
+   }
+  ]
+ },
+ {
+  "id": 1142, "w": "train", "uk": "тренуватися (до змагань)", "lvl": "A2",
+  "forms": "train|trains|trained|trained|training",
+  "near": "work* out|practi*|exercis*|prepar*|get ready|getting ready",
+  "tasks": [
+   {
+    "sit": "Друг кличе тебе на вечірку в суботу ввечері, але тобі вставати о шостій.",
+    "say": "Вибач, я тренуюся до марафону.",
+    "ans": ["Sorry, I’m training for a marathon.", "Sorry, I’m training for the marathon.", "Sorry, can’t — I’m training for a marathon."],
+    "keys": { "марафон": "marathon|race|run*" }
+   },
+   {
+    "sit": "Ти розповідаєш колезі про сина, який займається плаванням.",
+    "say": "Мій син тренується щодня після школи.",
+    "ans": ["My son trains every day after school.", "My son trains after school every day.", "My boy trains every single day after school."],
+    "keys": { "син": "son|boy|kid", "щодня": "every day|daily|each day|every single day" }
+   },
+   {
+    "sit": "Подруга дивується, що ти так легко піднявся на високу гору.",
+    "say": "Я пів року тренувався для цього походу.",
+    "ans": ["I trained for six months for this hike.", "I’ve been training for this trip for six months.", "I trained for half a year for this hike!"],
+    "keys": { "пів року": "six month*|6 month*|half a year|months", "похід": "hike|hiking|trip|climb|mountain" }
+   }
+  ]
+ },
+ {
+  "id": 1143, "w": "warm up", "uk": "розігріватися (перед тренуванням)", "lvl": "B1",
+  "forms": "warm|warms|warmed|warmed|warming",
+  "tail": "up",
+  "near": "stretch*|prepar*|get ready|loosen up",
+  "tasks": [
+   {
+    "sit": "Ти прийшов на пробіжку з другом, і він одразу хоче бігти.",
+    "say": "Почекай, мені спершу треба розігрітися.",
+    "ans": ["Wait, I need to warm up first.", "Hold on, I have to warm up first.", "Give me a minute, I need to warm up first."],
+    "keys": { "спершу": "first|before" }
+   },
+   {
+    "sit": "Після футболу в тебе болить нога. Лікар питає, що сталося.",
+    "say": "Я не розігрівся перед грою і потягнув мʼяз.",
+    "ans": ["I didn’t warm up before the game and pulled a muscle.", "I didn’t warm up properly before the match, so I pulled a muscle.", "I forgot to warm up before the game and pulled a muscle."],
+    "keys": { "не": "not|forgot|skipped", "мʼяз": "muscle*|hurt|injur*" }
+   },
+   {
+    "sit": "Ти тренуєш дитячу футбольну команду. Діти вибігли на поле й одразу хочуть грати.",
+    "say": "Спочатку розігріваємося десять хвилин!",
+    "ans": ["First, we warm up for ten minutes!", "Let’s warm up for ten minutes first!", "Warm up for ten minutes first, guys!"],
+    "keys": { "десять хвилин": "ten|10|minute*" }
+   }
+  ]
+ },
+ {
+  "id": 1144, "w": "cool down", "uk": "охолоджуватися (після тренування)", "lvl": "B1",
+  "forms": "cool|cools|cooled|cooled|cooling",
+  "tail": "down",
+  "near": "stretch*|relax*|rest*|slow* down|recover*",
+  "tasks": [
+   {
+    "sit": "Ти закінчив інтенсивну пробіжку. Друг пропонує одразу сісти на лавку.",
+    "say": "Спершу я трохи пройдуся, щоб охолонути.",
+    "ans": ["I’ll walk a bit first to cool down.", "Let me walk for a few minutes to cool down.", "I need to walk around a bit and cool down first."],
+    "keys": { "пройтися": "walk*" }
+   },
+   {
+    "sit": "Ти ведеш групове заняття з фітнесу. Основна частина закінчилася, і ти вимикаєш гучну музику.",
+    "say": "Тепер пʼять хвилин охолоджуємося.",
+    "ans": ["Now let’s cool down for five minutes.", "Now we cool down for five minutes.", "Okay, everyone, five minutes to cool down now."],
+    "keys": { "пʼять хвилин": "five|5|minute*" }
+   },
+   {
+    "sit": "Після зумби в тебе запаморочилося в голові. Інструктор питає, що ти робив після заняття.",
+    "say": "Я не охолонув, а одразу пішов у душ.",
+    "ans": ["I didn’t cool down, I went straight to the shower.", "I went straight to the shower and didn’t cool down.", "I didn’t cool down at all — I just jumped in the shower."],
+    "keys": { "не": "not|never|skipped", "душ": "shower*" }
+   }
+  ]
+ },
+ {
+  "id": 1145, "w": "stretch", "uk": "розтягуватися (робити розтяжку)", "lvl": "A2",
+  "forms": "stretch|stretches|stretched|stretched|stretching",
+  "near": "warm* up|bend*|loosen up|do yoga|did yoga",
+  "tasks": [
+   {
+    "sit": "Ти вісім годин сидиш за компʼютером, і в тебе болить спина.",
+    "say": "Мені треба встати й розтягнутися.",
+    "ans": ["I need to get up and stretch.", "I have to stand up and stretch for a bit.", "I’ve got to get up and stretch."],
+    "keys": { "встати": "get up|stand*|stood|up" }
+   },
+   {
+    "sit": "Колега питає, як ти позбувся болю в шиї.",
+    "say": "Тепер я щоранку розтягуюся десять хвилин.",
+    "ans": ["Now I stretch for ten minutes every morning.", "I stretch every morning for ten minutes now.", "These days I stretch for ten minutes each morning."],
+    "keys": { "щоранку": "morning*", "десять хвилин": "ten|10|minute*" }
+   },
+   {
+    "sit": "Ти вчиш друга бігати. Після пробіжки він одразу хоче сісти в машину.",
+    "say": "Розтягни ноги, бо завтра болітимуть.",
+    "ans": ["Stretch your legs, or they’ll hurt tomorrow.", "You should stretch your legs, or they’ll be sore tomorrow.", "Stretch your legs first — otherwise you’ll be sore tomorrow."],
+    "keys": { "ноги": "leg*|muscle*", "завтра": "tomorrow" }
+   }
+  ]
+ },
+ {
+  "id": 1146, "w": "lift weights", "uk": "піднімати ваги, тягати залізо", "lvl": "B1",
+  "forms": "lift|lifts|lifted|lifted|lifting",
+  "tail": "weight*",
+  "near": "pump iron|pumping iron|work* out|train*|do weights|doing weights",
+  "tasks": [
+   {
+    "sit": "Новий знайомий у спортзалі питає, що ти зазвичай тут робиш.",
+    "say": "Я здебільшого піднімаю ваги, кардіо не люблю.",
+    "ans": ["I mostly lift weights, I don’t like cardio.", "I mainly lift weights because I hate cardio.", "Mostly I lift weights — cardio’s not for me."],
+    "keys": { "кардіо": "cardio|running|treadmill" }
+   },
+   {
+    "sit": "Ти розповідаєш мамі, що порадив лікар після травми спини.",
+    "say": "Лікар сказав місяць не піднімати ваги.",
+    "ans": ["The doctor told me not to lift weights for a month.", "My doctor said I shouldn’t lift weights for a month.", "The doctor says no lifting weights for a month."],
+    "keys": { "лікар": "doctor|doc|physio*", "місяць": "month*|four weeks|4 weeks" }
+   },
+   {
+    "sit": "Подруга здивована, що ти став такий сильний.",
+    "say": "Я вже рік піднімаю ваги.",
+    "ans": ["I’ve been lifting weights for a year.", "I started lifting weights a year ago.", "I’ve been lifting weights for about a year now."],
+    "keys": { "рік": "year*|12 months|twelve months" }
+   }
+  ]
+ },
+ {
+  "id": 1147, "w": "do reps", "uk": "робити повтори (вправи)", "lvl": "B2",
+  "forms": "do|does|did|done|doing",
+  "tail": "rep*",
+  "near": "repeat*|repetition*|times",
+  "tasks": [
+   {
+    "sit": "Ти особистий тренер. Клієнтка питає, скільки разів присідати зі штангою.",
+    "say": "Зроби дванадцять повторів, потім відпочинь.",
+    "ans": ["Do twelve reps, then rest.", "Do 12 reps and then take a break.", "Okay, do twelve reps, then have a rest."],
+    "keys": { "дванадцять": "twelve|12", "відпочинь": "rest*|break|breath*|relax" }
+   },
+   {
+    "sit": "Сусід по кімнаті питає, чому ти так довго на килимку.",
+    "say": "Я щовечора роблю сто повторів присідань.",
+    "ans": ["I do a hundred reps of squats every evening.", "Every evening I do 100 squat reps.", "I do a hundred reps of squats each night."],
+    "keys": { "сто": "hundred|100", "присідання": "squat*", "щовечора": "evening*|night*" }
+   },
+   {
+    "sit": "Після операції на коліні фізіотерапевт дав тобі вправи. Друг питає, як просуваються справи.",
+    "say": "Я роблю повтори повільно, щоб не пошкодити коліно.",
+    "ans": ["I do the reps slowly so I don’t hurt my knee.", "I’m doing my reps slowly so I don’t damage my knee.", "I do my reps really slowly to protect my knee."],
+    "keys": { "повільно": "slow*|careful*", "коліно": "knee*" }
+   }
+  ]
+ },
+ {
+  "id": 1148, "w": "work out abs", "uk": "качати прес", "lvl": "B2",
+  "forms": "work|works|worked|worked|working",
+  "tail": "out abs",
+  "near": "train* abs|do crunches|did crunches|doing crunches|sit-ups|sit ups|pump* abs",
+  "tasks": [
+   {
+    "sit": "Друг питає, як тобі вдалося отримати такий плаский живіт.",
+    "say": "Я щодня качаю прес.",
+    "ans": ["I work out my abs every day.", "I work out my abs daily.", "Honestly, I just work out my abs every day."],
+    "keys": { "щодня": "every day|daily|each day" }
+   },
+   {
+    "sit": "Ви з товаришем у залі, і він питає, що в тебе сьогодні за програмою.",
+    "say": "Сьогодні я качаю прес і спину.",
+    "ans": ["Today I’m working out my abs and back.", "I’m going to work out my abs and back today.", "I’m working out abs and back today."],
+    "keys": { "спина": "back", "сьогодні": "today" }
+   },
+   {
+    "sit": "Лікарка каже, що поперек у тебе болить через слабкі мʼязи.",
+    "say": "Мені треба частіше качати прес.",
+    "ans": ["I need to work out my abs more often.", "I should work out my abs more.", "I really need to work out my abs more often."],
+    "keys": { "частіше": "more|often|regular*" }
+   }
+  ]
+ },
+ {
+  "id": 1149, "w": "jog", "uk": "бігати підтюпцем, робити пробіжку", "lvl": "A2",
+  "forms": "jog|jogs|jogged|jogged|jogging",
+  "near": "run|runs|ran|running|go for a run|went for a run",
+  "tasks": [
+   {
+    "sit": "Колега питає, що ти робиш перед роботою.",
+    "say": "Я щоранку бігаю в парку.",
+    "ans": ["I jog in the park every morning.", "Every morning I jog in the park.", "I go jogging in the park every morning."],
+    "keys": { "парк": "park", "щоранку": "morning*" }
+   },
+   {
+    "sit": "Ти в готелі біля моря і питаєш адміністратора про місцевість.",
+    "say": "Де тут можна побігати вздовж моря?",
+    "ans": ["Where can I go jogging along the beach?", "Is there a good place to jog by the sea?", "Where’s a nice place to jog along the sea?"],
+    "keys": { "море": "sea*|beach|coast*|water*|ocean" }
+   },
+   {
+    "sit": "Сусідка питає, чому твій пес такий спокійний.",
+    "say": "Ми з ним щовечора бігаємо.",
+    "ans": ["We jog together every evening.", "I jog with him every evening.", "He and I go jogging every night."],
+    "keys": { "щовечора": "evening*|night*" }
+   }
+  ]
+ },
+ {
+  "id": 1150, "w": "push up", "uk": "віджиматися", "lvl": "B1",
+  "forms": "push|pushes|pushed|pushed|pushing",
+  "tail": "up*",
+  "near": "press-up*|press up*|press ups",
+  "tasks": [
+   {
+    "sit": "Ти на уроці фізкультури. Учитель питає, скільки разів ти можеш віджатися.",
+    "say": "Я можу віджатися двадцять разів.",
+    "ans": ["I can do twenty push-ups.", "I can do 20 push-ups in a row.", "I think I can do about twenty push-ups."],
+    "keys": { "двадцять": "twenty|20" }
+   },
+   {
+    "sit": "Друг питає, з чого ти починаєш свій день.",
+    "say": "Щоранку я віджимаюся і приймаю холодний душ.",
+    "ans": ["Every morning I do push-ups and take a cold shower.", "I do push-ups every morning and then have a cold shower.", "I start with some push-ups and a cold shower every morning."],
+    "keys": { "душ": "shower*", "щоранку": "morning*" }
+   },
+   {
+    "sit": "Ти пошкодив запʼясток. Тренер у залі пропонує тобі нову вправу.",
+    "say": "Поки що я не можу віджиматися через запʼясток.",
+    "ans": ["I can’t do push-ups yet because of my wrist.", "I can’t do any push-ups right now — my wrist hurts.", "Sorry, no push-ups for me yet, my wrist is still bad."],
+    "keys": { "запʼясток": "wrist*|hand*|arm*", "не можу": "not|no" }
+   }
+  ]
+ },
+ {
+  "id": 1151, "w": "pull up", "uk": "підтягуватися (на турніку)", "lvl": "B1",
+  "forms": "pull|pulls|pulled|pulled|pulling",
+  "tail": "up*",
+  "near": "chin-up*|chin up*|chin ups",
+  "tasks": [
+   {
+    "sit": "У дворі є турнік. Молодший брат питає, чи ти ще у формі.",
+    "say": "Я досі можу підтягнутися десять разів.",
+    "ans": ["I can still do ten pull-ups.", "I can still do 10 pull-ups in a row.", "I can still manage ten pull-ups, easy."],
+    "keys": { "десять": "ten|10", "досі": "still" }
+   },
+   {
+    "sit": "Ти ставиш собі спортивну ціль на рік і розповідаєш про неї тренерові.",
+    "say": "Я хочу навчитися підтягуватися.",
+    "ans": ["I want to learn to do pull-ups.", "My goal is to be able to do a pull-up.", "I’d love to finally learn to do a proper pull-up."],
+    "keys": { "хочу": "want*|goal|love|like" }
+   },
+   {
+    "sit": "Ти купив турнік у дверний проріз і показуєш його сусідові.",
+    "say": "Тепер я підтягуюся щоразу, коли проходжу повз.",
+    "ans": ["Now I do pull-ups every time I walk past.", "I do a few pull-ups whenever I go by.", "Now I do some pull-ups every time I walk through the door."],
+    "keys": { "щоразу": "every time|whenever|each time" }
+   }
+  ]
+ },
+ {
+  "id": 1153, "w": "bulk up", "uk": "набирати (мʼязову) масу", "lvl": "C1",
+  "forms": "bulk|bulks|bulked|bulked|bulking",
+  "tail": "up",
+  "near": "gain* weight|gain* muscle|put on muscle|put on weight|build* muscle|get bigger|got bigger",
+  "tasks": [
+   {
+    "sit": "Колега дивується, чому ти раптом почав їсти вдвічі більше.",
+    "say": "Я набираю масу до змагань.",
+    "ans": ["I’m bulking up for a competition.", "I’m trying to bulk up before the competition.", "I’m bulking up for a comp, so I eat a ton."],
+    "keys": { "змагання": "competition*|comp|contest|tournament|meet" }
+   },
+   {
+    "sit": "Ви з другом обговорюєте нового Бетмена після кіно.",
+    "say": "Актор спеціально набрав масу для цієї ролі.",
+    "ans": ["The actor bulked up for this role.", "The actor had to bulk up for the role.", "He really bulked up for the part."],
+    "keys": { "роль": "role|part|film|movie" }
+   },
+   {
+    "sit": "Друг питає, чому ти перестав бігати взимку.",
+    "say": "Цієї зими я хочу набрати масу, а не худнути.",
+    "ans": ["This winter I want to bulk up, not lose weight.", "I want to bulk up this winter instead of losing weight.", "This winter I’m bulking up, not slimming down."],
+    "keys": { "зима": "winter", "не худнути": "not lose|instead of losing|not slim*|not cut*|not get thin*" }
+   }
+  ]
+ },
+ {
+  "id": 1154, "w": "tone", "uk": "тонізувати, підтягувати (мʼязи)", "lvl": "B2",
+  "forms": "tone|tones|toned|toned|toning",
+  "near": "firm*|strengthen*|shape|sculpt*|tighten*",
+  "tasks": [
+   {
+    "sit": "Подруга питає, чому ти ходиш саме на пілатес.",
+    "say": "Пілатес добре тонізує мʼязи.",
+    "ans": ["Pilates tones your muscles really well.", "Pilates is great for toning muscles.", "I like it — Pilates really tones your muscles."],
+    "keys": { "мʼязи": "muscle*|body" }
+   },
+   {
+    "sit": "Ти фітнес-тренер. Клієнтка хоче підтягнути руки до весілля.",
+    "say": "Ці вправи підтягнуть твої руки.",
+    "ans": ["These exercises will tone your arms.", "These moves will help tone your arms.", "Do these and they’ll really tone your arms."],
+    "keys": { "руки": "arm*" }
+   },
+   {
+    "sit": "Колега питає, чому ти обрав плавання, а не біг.",
+    "say": "Плавання тонізує все тіло і не навантажує коліна.",
+    "ans": ["Swimming tones your whole body without hurting your knees.", "Swimming tones the whole body and it’s easy on the knees.", "It tones your whole body, and it’s kind to your knees."],
+    "keys": { "тіло": "body", "коліна": "knee*|joint*" }
+   }
+  ]
+ },
+ {
+  "id": 1155, "w": "burn calories", "uk": "спалювати калорії", "lvl": "B1",
+  "forms": "burn|burns|burnt/burned|burnt/burned|burning",
+  "tail": "calorie*",
+  "near": "lose weight|lost weight|losing weight|use energy",
+  "tasks": [
+   {
+    "sit": "Колега здивований, що ти ходиш на роботу пішки аж пʼять кілометрів.",
+    "say": "Так я спалюю калорії і не плачу за спортзал.",
+    "ans": ["This way I burn calories and don’t pay for a gym.", "I burn calories and save money on the gym.", "I burn calories and don’t need a gym!"],
+    "keys": { "спортзал": "gym" }
+   },
+   {
+    "sit": "Після тренування ти дивишся на фітнес-браслет.",
+    "say": "Я спалив пʼятсот калорій за годину!",
+    "ans": ["I burned five hundred calories in an hour!", "I’ve burnt 500 calories in one hour!", "Wow, I burned 500 calories in an hour!"],
+    "keys": { "пʼятсот": "five hundred|500", "година": "hour*|60 minutes" }
+   },
+   {
+    "sit": "Подруга кличе тебе на танці, а ти вагаєшся.",
+    "say": "Кажуть, танці спалюють багато калорій.",
+    "ans": ["They say dancing burns a lot of calories.", "I heard dancing burns lots of calories.", "Apparently dancing burns loads of calories."],
+    "keys": { "танці": "danc*", "багато": "a lot|lots|loads|many|plenty" }
+   }
+  ]
+ },
+ {
+  "id": 1156, "w": "play", "uk": "грати (в гру, спорт)", "lvl": "A1",
+  "forms": "play|plays|played|played|playing",
+  "near": "practi*|have fun|having fun",
+  "tasks": [
+   {
+    "sit": "Новий колега питає, що ти робиш у вихідні.",
+    "say": "У суботу я граю у футбол із друзями.",
+    "ans": ["On Saturday I play football with friends.", "I play football with my friends on Saturdays.", "I play soccer with my friends on Saturday."],
+    "keys": { "футбол": "football|soccer", "друзі": "friend*|mate*" }
+   },
+   {
+    "sit": "Ти з донькою в парку. Бабуся телефонує і питає, де ви.",
+    "say": "Ми в парку, вона грається з іншими дітьми.",
+    "ans": ["We’re in the park, she’s playing with other kids.", "We’re at the park — she’s playing with some other children.", "At the park, she’s playing with the other kids."],
+    "keys": { "парк": "park", "діти": "kid*|child*" }
+   },
+   {
+    "sit": "Друг кличе тебе ввечері в кіно, але ти вже зайнятий.",
+    "say": "Не можу, я граю в шахи онлайн.",
+    "ans": ["I can’t, I’m playing chess online.", "Sorry, I’m playing chess online tonight.", "Can’t — I’m playing online chess tonight."],
+    "keys": { "шахи": "chess" }
+   }
+  ]
+ },
+ {
+  "id": 1157, "w": "kick", "uk": "копати, бити ногою (мʼяч)", "lvl": "A2",
+  "forms": "kick|kicks|kicked|kicked|kicking",
+  "near": "hit*|shoot*|shot|boot*|strike*|struck",
+  "tasks": [
+   {
+    "sit": "Ти з сином на подвірʼї, він дуже слабко бʼє по мʼячу.",
+    "say": "Копни мʼяч сильніше!",
+    "ans": ["Kick the ball harder!", "Kick it harder!", "Come on, kick the ball harder!"],
+    "keys": { "сильніше": "hard*|strong*" }
+   },
+   {
+    "sit": "Мʼяч сусідських дітей уже втретє перелітає через паркан у твій двір.",
+    "say": "Хтось знову перекинув мʼяч через паркан.",
+    "ans": ["Someone kicked the ball over the fence again.", "The kids kicked their ball over our fence again.", "Somebody’s kicked the ball over the fence again!"],
+    "keys": { "паркан": "fence|wall", "мʼяч": "ball" }
+   },
+   {
+    "sit": "Ти розповідаєш другові про аматорський матч, де мав чудовий момент.",
+    "say": "Я вдарив по мʼячу, але він пролетів повз ворота.",
+    "ans": ["I kicked the ball, but it missed the goal.", "I kicked it, but it went past the goal.", "I kicked the ball and it just flew wide of the goal."],
+    "keys": { "ворота": "goal*|net|post*", "повз": "miss*|past|wide|over" }
+   }
+  ]
+ },
+ {
+  "id": 1158, "w": "pass", "uk": "пасувати, віддавати пас", "lvl": "A2",
+  "forms": "pass|passes|passed|passed|passing",
+  "near": "throw*|threw|kick*|give*|gave|cross*",
+  "tasks": [
+   {
+    "sit": "Ти граєш у футбол і стоїш сам біля воріт суперника.",
+    "say": "Пасуй мені, я відкритий!",
+    "ans": ["Pass to me, I’m open!", "Pass the ball to me, I’m free!", "Pass it here, I’m wide open!"],
+    "keys": { "мені": "me|here", "відкритий": "free|open|alone|unmarked" }
+   },
+   {
+    "sit": "Ти тренуєш дитячу баскетбольну команду. Один хлопчик постійно кидає сам.",
+    "say": "Треба частіше пасувати товаришам.",
+    "ans": ["You need to pass to your teammates more.", "Pass the ball to your teammates more often.", "You’ve got to pass more to your teammates."],
+    "keys": { "товариші": "team*|friend*|other*", "частіше": "more|often" }
+   },
+   {
+    "sit": "Друг питає, чому ваша команда програла.",
+    "say": "Ми погано пасували, і суперники весь час забирали мʼяч.",
+    "ans": ["We passed badly, and the other team kept taking the ball.", "We didn’t pass well, so they kept getting the ball.", "We just couldn’t pass, and they kept stealing the ball."],
+    "keys": { "погано": "bad*|poor*|not", "мʼяч": "ball" }
+   }
+  ]
+ }
+]

@@ -1,0 +1,1210 @@
+[
+ {
+  "id": 2147,
+  "w": "raise your hand",
+  "uk": "підняти руку",
+  "lvl": "A1",
+  "forms": "raise|raises|raised|raised|raising",
+  "tail": "hand*",
+  "near": "put up|put your hand up|hands up|lift*",
+  "tasks": [
+   {
+    "sit": "Ти вчитель у початковій школі. Діти викрикують відповіді всі разом.",
+    "say": "Підніміть руку, якщо знаєте відповідь.",
+    "ans": [
+     "Raise your hand if you know the answer.",
+     "If you know the answer, raise your hand.",
+     "Please raise your hand if you know the answer!"
+    ],
+    "keys": {
+     "знаєте": "know*",
+     "відповідь": "answer*"
+    }
+   },
+   {
+    "sit": "Ти ведеш онлайн-вебінар, і учасники постійно перебивають одне одного.",
+    "say": "Якщо хочете щось запитати, піднімайте руку.",
+    "ans": [
+     "If you want to ask something, raise your hand.",
+     "If you have a question, please raise your hand.",
+     "Got a question? Just raise your hand."
+    ],
+    "keys": {
+     "запитати": "ask*|question*"
+    }
+   },
+   {
+    "sit": "Ти проводиш збори мешканців будинку і хочеш швидко проголосувати.",
+    "say": "Хто згоден — підніміть руку.",
+    "ans": [
+     "Raise your hand if you agree.",
+     "If you’re in favor, raise your hand.",
+     "Everyone who agrees, please raise your hand."
+    ],
+    "keys": {
+     "згоден": "agree*|favo*|support*|yes"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2148,
+  "w": "answer the teacher",
+  "uk": "відповідати вчителю",
+  "lvl": "A2",
+  "forms": "answer|answers|answered|answered|answering",
+  "tail": "teacher*",
+  "near": "reply*|respond*|tell the teacher|told the teacher",
+  "tasks": [
+   {
+    "sit": "Учителька сина скаржиться тобі, що на уроці він весь час мовчав. Ти говориш із сином удома.",
+    "say": "Треба було відповісти вчительці, а не мовчати.",
+    "ans": [
+     "You should have answered the teacher.",
+     "You needed to answer the teacher instead of staying quiet.",
+     "You should’ve just answered the teacher, you know."
+    ],
+    "keys": {
+     "треба було": "should*|had to|needed|need"
+    }
+   },
+   {
+    "sit": "Ти розповідаєш другу про свій перший урок на курсах іспанської.",
+    "say": "Я так хвилювався, що не зміг відповісти вчителю.",
+    "ans": [
+     "I was so nervous that I couldn’t answer the teacher.",
+     "I couldn’t answer the teacher because I was so nervous.",
+     "I was too nervous to even answer the teacher."
+    ],
+    "keys": {
+     "хвилювався": "nervous|anxious|scared|stress*|worried",
+     "не зміг": "not|too"
+    }
+   },
+   {
+    "sit": "Молодша сестра боїться, що вчитель спитає її, а вона не знатиме відповіді.",
+    "say": "Просто чесно відповідай учителю, що не знаєш.",
+    "ans": [
+     "Just answer the teacher honestly and say you don’t know.",
+     "Answer the teacher honestly — say you don’t know.",
+     "Just be honest when you answer the teacher and say you don’t know."
+    ],
+    "keys": {
+     "чесно": "honest*|truth*",
+     "не знаєш": "not know"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2149,
+  "w": "copy off",
+  "uk": "списувати (у когось)",
+  "lvl": "B1",
+  "forms": "copy|copies|copied|copied|copying",
+  "tail": "off",
+  "near": "cheat*|crib*|peek*|look at",
+  "tasks": [
+   {
+    "sit": "Під час контрольної сусід по парті весь час зазирає у твій зошит.",
+    "say": "Перестань у мене списувати!",
+    "ans": [
+     "Stop copying off me!",
+     "Quit copying off me, okay?",
+     "Hey, stop copying off me!"
+    ],
+    "keys": {
+     "перестань": "stop|quit|do not|enough"
+    }
+   },
+   {
+    "sit": "Син, який зазвичай отримує двійки, приніс ідеальну контрольну. Ти підозрюєш недобре.",
+    "say": "Ти що, списав у сусіда по парті?",
+    "ans": [
+     "Did you copy off the kid next to you?",
+     "You didn’t copy off your deskmate, did you?",
+     "Be honest — did you copy off someone?"
+    ],
+    "keys": {
+     "сусід": "next to|deskmate|neighbo*|someone|somebody|classmate"
+    }
+   },
+   {
+    "sit": "Друзі згадують студентські роки за вечерею.",
+    "say": "Я весь перший курс списував в Олега.",
+    "ans": [
+     "I copied off Oleh for the whole first year.",
+     "In my first year I copied off Oleh all the time.",
+     "Honestly, I spent my whole first year copying off Oleh."
+    ],
+    "keys": {
+     "Олег": "oleh|oleg",
+     "перший курс": "first year|freshman"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2150,
+  "w": "pay attention",
+  "uk": "бути уважним",
+  "lvl": "A2",
+  "forms": "pay|pays|paid|paid|paying",
+  "tail": "attention",
+  "near": "focus*|concentrat*|listen*|careful|watch*",
+  "tasks": [
+   {
+    "sit": "Ти викладаєш англійську підліткам, а вони сидять у телефонах.",
+    "say": "Будьте уважні, це буде на тесті.",
+    "ans": [
+     "Pay attention, this will be on the test.",
+     "Please pay attention — this is going to be on the test.",
+     "Guys, pay attention, this’ll be on the test!"
+    ],
+    "keys": {
+     "тест": "test*|exam*|quiz*"
+    }
+   },
+   {
+    "sit": "Ти вчиш сина водити машину, а він відволікається на музику.",
+    "say": "Будь уважним на дорозі!",
+    "ans": [
+     "Pay attention to the road!",
+     "You need to pay attention to the road.",
+     "Hey, pay attention to the road, please!"
+    ],
+    "keys": {
+     "дорога": "road|traffic|driv*"
+    }
+   },
+   {
+    "sit": "Колега питає тебе про важливу деталь, яку обговорювали на нараді, а ти не знаєш.",
+    "say": "Вибач, я не був уважним на нараді.",
+    "ans": [
+     "Sorry, I wasn’t paying attention in the meeting.",
+     "Sorry, I didn’t pay attention during the meeting.",
+     "Sorry, I wasn’t really paying attention at the meeting."
+    ],
+    "keys": {
+     "нарада": "meeting|call",
+     "не": "not"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2151,
+  "w": "take notes",
+  "uk": "конспектувати, записувати",
+  "lvl": "A2",
+  "forms": "take|takes|took|taken|taking",
+  "tail": "note*",
+  "near": "write down|wrote down|writing down|note down|jot*",
+  "tasks": [
+   {
+    "sit": "Ти на лекції в університеті. Сусідка дивується, чому ти пишеш від руки, а не на ноутбуці.",
+    "say": "Мені легше запамʼятати, коли я конспектую від руки.",
+    "ans": [
+     "It’s easier for me to remember when I take notes by hand.",
+     "I remember things better when I take notes by hand.",
+     "Taking notes by hand helps me remember stuff."
+    ],
+    "keys": {
+     "запамʼятати": "remember*|memori*|learn*",
+     "від руки": "by hand|hand*|paper|pen"
+    }
+   },
+   {
+    "sit": "У тебе важлива зустріч із клієнтом, і ти просиш стажера допомогти.",
+    "say": "Можеш записувати основне, поки я говорю з клієнтом?",
+    "ans": [
+     "Can you take notes while I talk to the client?",
+     "Could you take notes while I’m talking to the client?",
+     "Can you take notes for me while I chat with the client?"
+    ],
+    "keys": {
+     "клієнт": "client*|customer*"
+    }
+   },
+   {
+    "sit": "Ти пішов з мамою до лікаря. Він збирається пояснювати, як приймати нові ліки.",
+    "say": "Я записуватиму все, що скаже лікар.",
+    "ans": [
+     "I’ll take notes on everything the doctor says.",
+     "I’m going to take notes while the doctor explains everything.",
+     "Don’t worry, I’ll take notes on what the doctor says."
+    ],
+    "keys": {
+     "лікар": "doctor*|gp|physician"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2152,
+  "w": "work in pairs",
+  "uk": "працювати в парах",
+  "lvl": "A2",
+  "forms": "work|works|worked|worked|working",
+  "tail": "in pair*",
+  "near": "team up|teamed up|partner up|together|with a partner",
+  "tasks": [
+   {
+    "sit": "Ти ведеш розмовний клуб англійської в бібліотеці й даєш групі нове завдання.",
+    "say": "Зараз попрацюйте в парах десять хвилин.",
+    "ans": [
+     "Now work in pairs for ten minutes.",
+     "Please work in pairs for the next ten minutes.",
+     "Okay, let’s work in pairs for ten minutes."
+    ],
+    "keys": {
+     "десять хвилин": "ten|10|minute*"
+    }
+   },
+   {
+    "sit": "Дружина питає, як пройшов тренінг для нових співробітників.",
+    "say": "Ми весь день працювали в парах.",
+    "ans": [
+     "We worked in pairs all day.",
+     "We were working in pairs the whole day.",
+     "We spent the whole day working in pairs."
+    ],
+    "keys": {
+     "весь день": "all day|whole day|entire day"
+    }
+   },
+   {
+    "sit": "Донька-школярка питає, чому їй не можна робити лабораторну з хімії самій.",
+    "say": "На лабораторних з хімії всі працюють у парах — так безпечніше.",
+    "ans": [
+     "In chemistry labs everyone works in pairs — it’s safer.",
+     "Everyone works in pairs in the chemistry lab because it’s safer.",
+     "You all work in pairs in chem labs, it’s just safer that way."
+    ],
+    "keys": {
+     "хімія": "chem*|lab*",
+     "безпечніше": "safe*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2153,
+  "w": "present a project",
+  "uk": "презентувати проєкт",
+  "lvl": "B1",
+  "forms": "present|presents|presented|presented|presenting",
+  "tail": "project*",
+  "near": "show*|pitch*|demo*|introduc*|talk about",
+  "tasks": [
+   {
+    "sit": "Керівник питає, коли клієнт побачить результат твоєї роботи.",
+    "say": "Я презентую проєкт клієнту в понеділок.",
+    "ans": [
+     "I’m presenting the project to the client on Monday.",
+     "I’ll present the project to the client on Monday.",
+     "I’m going to present the project to the client Monday."
+    ],
+    "keys": {
+     "клієнт": "client*|customer*",
+     "понеділок": "monday"
+    }
+   },
+   {
+    "sit": "Мама питає, чому ти не спав усю ніч.",
+    "say": "Завтра я презентую свій проєкт і дуже хвилююся.",
+    "ans": [
+     "I’m presenting my project tomorrow and I’m really nervous.",
+     "Tomorrow I have to present my project, and I’m so nervous.",
+     "I present my project tomorrow and I’m freaking out."
+    ],
+    "keys": {
+     "завтра": "tomorrow",
+     "хвилююся": "nervous|anxious|worried|scared|stress*|freak*"
+    }
+   },
+   {
+    "sit": "Ти організатор конкурсу стартапів і пояснюєш учасникам правила.",
+    "say": "Кожна команда має презентувати свій проєкт за пʼять хвилин.",
+    "ans": [
+     "Each team has to present its project in five minutes.",
+     "Every team must present their project in five minutes.",
+     "Each team gets five minutes to present their project."
+    ],
+    "keys": {
+     "команда": "team*",
+     "пʼять хвилин": "five|5|minute*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2154,
+  "w": "read aloud",
+  "uk": "читати вголос",
+  "lvl": "A2",
+  "forms": "read|reads|read|read|reading",
+  "tail": "aloud/loud",
+  "near": "recite*|say it|voice*",
+  "tasks": [
+   {
+    "sit": "Друг питає, як тобі вдалося так покращити англійську вимову.",
+    "say": "Я щодня читаю вголос по десять хвилин.",
+    "ans": [
+     "I read aloud for ten minutes every day.",
+     "Every day I read aloud for ten minutes.",
+     "I read out loud for ten minutes a day — it really helps."
+    ],
+    "keys": {
+     "щодня": "every day|daily|a day",
+     "десять хвилин": "ten|10|minute*"
+    }
+   },
+   {
+    "sit": "Під час наради в когось не відкривається файл із листом клієнта.",
+    "say": "Прочитай, будь ласка, лист клієнта вголос.",
+    "ans": [
+     "Please read the client’s email aloud.",
+     "Could you read the client’s email aloud, please?",
+     "Can you just read the client’s email out loud?"
+    ],
+    "keys": {
+     "лист": "email*|e-mail*|letter*|message*",
+     "клієнт": "client*|customer*"
+    }
+   },
+   {
+    "sit": "Бабуся погано бачить, а їй щойно прийшло довге повідомлення.",
+    "say": "Бабусю, давай я прочитаю тобі повідомлення вголос.",
+    "ans": [
+     "Grandma, let me read the message aloud for you.",
+     "Grandma, I’ll read the message aloud to you.",
+     "Here, Grandma, let me read the message out loud."
+    ],
+    "keys": {
+     "повідомлення": "message*|text*|sms|letter*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2155,
+  "w": "write on the board",
+  "uk": "писати на дошці",
+  "lvl": "A2",
+  "forms": "write|writes|wrote|written|writing",
+  "tail": "on board*/whiteboard*/blackboard*",
+  "near": "put up|put on|note*|jot*",
+  "tasks": [
+   {
+    "sit": "Ти вчитель англійської і починаєш нову тему.",
+    "say": "Я напишу нові слова на дошці.",
+    "ans": [
+     "I’ll write the new words on the board.",
+     "Let me write the new words on the board.",
+     "I’m going to write the new words on the board."
+    ],
+    "keys": {
+     "нові слова": "word*|vocab*"
+    }
+   },
+   {
+    "sit": "На мозковому штурмі в офісі колеги сиплють ідеями, і всі їх забувають.",
+    "say": "Давайте запишемо всі ідеї на дошці.",
+    "ans": [
+     "Let’s write all the ideas on the whiteboard.",
+     "Let’s write every idea on the board.",
+     "Let’s just write all the ideas on the whiteboard."
+    ],
+    "keys": {
+     "ідеї": "idea*"
+    }
+   },
+   {
+    "sit": "Ти власник кавʼярні й даєш доручення баристі зранку.",
+    "say": "Напиши, будь ласка, сьогоднішнє меню на дошці біля входу.",
+    "ans": [
+     "Please write today’s menu on the board by the entrance.",
+     "Can you write today’s menu on the board by the door?",
+     "Write today’s menu on the board near the entrance, please."
+    ],
+    "keys": {
+     "меню": "menu|special*",
+     "сьогоднішнє": "today*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2156,
+  "w": "solve a problem",
+  "uk": "розвʼязати задачу",
+  "lvl": "A2",
+  "forms": "solve|solves|solved|solved|solving",
+  "tail": "problem*/equation*",
+  "near": "figure out|figured out|work out|worked out|crack*|do the problem|did the problem",
+  "tasks": [
+   {
+    "sit": "Син уже годину сидить над однією задачею з математики й ледь не плаче.",
+    "say": "Давай разом розвʼяжемо цю задачу.",
+    "ans": [
+     "Let’s solve this problem together.",
+     "Let’s try to solve this problem together.",
+     "Come on, let’s solve this problem together."
+    ],
+    "keys": {
+     "разом": "together|with you|help*"
+    }
+   },
+   {
+    "sit": "Друг питає, як пройшла олімпіада з математики.",
+    "say": "Я розвʼязав лише три задачі з пʼяти.",
+    "ans": [
+     "I only solved three problems out of five.",
+     "I solved just three problems out of five.",
+     "I only managed to solve three problems out of five."
+    ],
+    "keys": {
+     "три": "three|3",
+     "пʼять": "five|5"
+    }
+   },
+   {
+    "sit": "Ти онлайн-репетитор з математики. Учениця застрягла на рівнянні.",
+    "say": "Спробуй розвʼязати цю задачу іншим способом.",
+    "ans": [
+     "Try to solve this problem another way.",
+     "Try solving this problem in a different way.",
+     "Why don’t you try solving the problem a different way?"
+    ],
+    "keys": {
+     "інший спосіб": "another|different|other"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2157,
+  "w": "skip class",
+  "uk": "прогуляти пару (урок)",
+  "lvl": "B1",
+  "forms": "skip|skips|skipped|skipped|skipping",
+  "tail": "class*/lecture*/lesson*",
+  "near": "miss*|cut class|bunk*|truant|ditch*",
+  "tasks": [
+   {
+    "sit": "Друг кличе тебе вдень у кіно, а в тебе пари.",
+    "say": "Я не можу прогуляти пару, у нас сьогодні тест.",
+    "ans": [
+     "I can’t skip class, we have a test today.",
+     "I can’t skip class today because we’ve got a test.",
+     "No way I can skip class — there’s a test today."
+    ],
+    "keys": {
+     "тест": "test*|exam*|quiz*",
+     "не можу": "not|no way"
+    }
+   },
+   {
+    "sit": "Тобі подзвонили зі школи сина. Ввечері ти говориш із ним.",
+    "say": "Мені подзвонили зі школи — ти прогуляв уроки!",
+    "ans": [
+     "The school called — you skipped class!",
+     "The school called me because you skipped class.",
+     "I got a call from school — you skipped class today!"
+    ],
+    "keys": {
+     "школа": "school",
+     "подзвонили": "call*|phon*"
+    }
+   },
+   {
+    "sit": "Колега розповідає, що працював ще студентом. Ти теж.",
+    "say": "В університеті я часто прогулював пари, щоб працювати.",
+    "ans": [
+     "At university I often skipped class to work.",
+     "I often skipped class at uni to go to work.",
+     "Back in college I skipped class a lot so I could work."
+    ],
+    "keys": {
+     "працювати": "work*|job",
+     "часто": "often|a lot|all the time"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2158,
+  "w": "be late for class",
+  "uk": "запізнюватися на пару (урок)",
+  "lvl": "A2",
+  "forms": "be/am/are|is|was/were|been|being",
+  "tail": "late class*/lesson*/lecture*",
+  "near": "late for school|running late|come late|came late|miss*",
+  "tasks": [
+   {
+    "sit": "Ти прокинувся й бачиш, що будильник не спрацював. Знову.",
+    "say": "Я знову запізнюся на пару!",
+    "ans": [
+     "I’m going to be late for class again!",
+     "I’ll be late for class again!",
+     "Oh no, I’m going to be late for class again!"
+    ],
+    "keys": {
+     "знову": "again"
+    }
+   },
+   {
+    "sit": "Ти вбігаєш в аудиторію через пʼятнадцять хвилин після початку.",
+    "say": "Вибачте, що запізнився на пару — автобус зламався.",
+    "ans": [
+     "Sorry I’m late for class, the bus broke down.",
+     "I’m sorry I was late for class — the bus broke down.",
+     "Sorry I’m late for class, my bus broke down."
+    ],
+    "keys": {
+     "автобус": "bus",
+     "зламався": "broke*|break*"
+    }
+   },
+   {
+    "sit": "Молодший брат грає в телефон замість збиратися до школи.",
+    "say": "Швидше, бо запізнишся на урок!",
+    "ans": [
+     "Hurry up or you’ll be late for class!",
+     "Hurry, you’re going to be late for class!",
+     "Come on, hurry — you’ll be late for class!"
+    ],
+    "keys": {
+     "швидше": "hurry|quick*|fast*|come on"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2159,
+  "w": "put your hand down",
+  "uk": "опустити руку",
+  "lvl": "A2",
+  "forms": "put|puts|put|put|putting",
+  "tail": "hand* down",
+  "near": "lower*|hands down|take your hand down|took your hand down",
+  "tasks": [
+   {
+    "sit": "Учень досі тягне руку, хоча ти вже вислухав його відповідь.",
+    "say": "Можеш опустити руку, я тебе вже почув.",
+    "ans": [
+     "You can put your hand down, I heard you.",
+     "You can put your hand down now — I’ve heard you.",
+     "Okay, you can put your hand down, I heard you already."
+    ],
+    "keys": {
+     "почув": "heard|hear|got it"
+    }
+   },
+   {
+    "sit": "На онлайн-зустрічі в колеги досі висить піднята рука, хоча вона вже виступила.",
+    "say": "Олено, здається, ти забула опустити руку.",
+    "ans": [
+     "Olena, I think you forgot to put your hand down.",
+     "Olena, you forgot to put your hand down, I think.",
+     "Olena, looks like you forgot to put your hand down."
+    ],
+    "keys": {
+     "забула": "forg*"
+    }
+   },
+   {
+    "sit": "Ти ведеш збори мешканців і вже порахував голоси «за».",
+    "say": "Дякую, опустіть руки. Тепер — хто проти?",
+    "ans": [
+     "Thank you, put your hands down. Now, who’s against?",
+     "Thanks, you can put your hands down. Who’s against?",
+     "Okay, thanks, put your hands down, please. Now who’s against it?"
+    ],
+    "keys": {
+     "проти": "against|oppos*|no"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2160,
+  "w": "do homework",
+  "uk": "робити домашку",
+  "lvl": "A1",
+  "forms": "do|does|did|done|doing",
+  "tail": "homework",
+  "near": "work on|working on|finish*|study*|studied",
+  "tasks": [
+   {
+    "sit": "Син прийшов зі школи й одразу сів за комп’ютерні ігри.",
+    "say": "Спочатку зроби домашку, потім грай.",
+    "ans": [
+     "Do your homework first, then play.",
+     "First do your homework, and then you can play.",
+     "Go do your homework first, then you can play."
+    ],
+    "keys": {
+     "спочатку": "first|before",
+     "грати": "play*|game*"
+    }
+   },
+   {
+    "sit": "Ти ходиш на вечірні курси англійської. Друг кличе тебе прогулятися.",
+    "say": "Не можу, я ще роблю домашку.",
+    "ans": [
+     "I can’t, I’m still doing my homework.",
+     "Sorry, I can’t — I’m still doing homework.",
+     "I can’t right now, I’m still doing my homework."
+    ],
+    "keys": {
+     "ще": "still|not finish*|yet"
+    }
+   },
+   {
+    "sit": "Колега дивується, коли ти встигаєш вчитися, бо ти працюєш з ранку до вечора.",
+    "say": "Я роблю домашку в метро дорогою на роботу.",
+    "ans": [
+     "I do my homework on the subway on my way to work.",
+     "I do homework on the metro on the way to work.",
+     "I usually do my homework on the subway going to work."
+    ],
+    "keys": {
+     "метро": "subway|metro|underground|tube|train",
+     "робота": "work|office"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2161,
+  "w": "finish an assignment",
+  "uk": "закінчити завдання",
+  "lvl": "B1",
+  "forms": "finish|finishes|finished|finished|finishing",
+  "tail": "assignment*",
+  "near": "complet*|wrap* up|get through|done with|do|did",
+  "tasks": [
+   {
+    "sit": "Одногрупник кличе тебе на вечірку, а ти ще сидиш над роботою для курсу.",
+    "say": "Я прийду, коли закінчу завдання.",
+    "ans": [
+     "I’ll come when I finish the assignment.",
+     "I’ll come as soon as I’ve finished my assignment.",
+     "I’ll come over once I finish my assignment."
+    ],
+    "keys": {
+     "прийду": "come*|join"
+    }
+   },
+   {
+    "sit": "Ти навчаєшся на онлайн-курсі програмування, і скоро дедлайн.",
+    "say": "Мені треба закінчити завдання до неділі.",
+    "ans": [
+     "I need to finish the assignment by Sunday.",
+     "I have to finish my assignment by Sunday.",
+     "I’ve got to finish this assignment by Sunday."
+    ],
+    "keys": {
+     "неділя": "sunday",
+     "треба": "need*|have to|has to|got to|must"
+    }
+   },
+   {
+    "sit": "Ти журналіст. Колега питає, чому редактор на тебе сердиться.",
+    "say": "Я не встиг закінчити завдання від редактора вчасно.",
+    "ans": [
+     "I didn’t finish my editor’s assignment on time.",
+     "I couldn’t finish the assignment from my editor on time.",
+     "I just didn’t manage to finish the editor’s assignment in time."
+    ],
+    "keys": {
+     "вчасно": "on time|in time|deadline",
+     "редактор": "editor*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2162,
+  "w": "hand in homework",
+  "uk": "здавати домашку",
+  "lvl": "A2",
+  "forms": "hand|hands|handed|handed|handing",
+  "tail": "in homework",
+  "near": "submit*|turn* in|give in|gave in|send*|sent",
+  "tasks": [
+   {
+    "sit": "Ти вчитель. Урок закінчується, учні вже збирають речі.",
+    "say": "Не забудьте здати домашку в пʼятницю.",
+    "ans": [
+     "Don’t forget to hand in your homework on Friday.",
+     "Remember to hand in your homework on Friday.",
+     "Don’t forget — hand in your homework by Friday."
+    ],
+    "keys": {
+     "пʼятниця": "friday"
+    }
+   },
+   {
+    "sit": "Син каже, що домашку зробив, але вчителька її не отримала.",
+    "say": "Ти здав домашку чи вона досі в рюкзаку?",
+    "ans": [
+     "Did you hand in your homework or is it still in your backpack?",
+     "Have you handed in your homework, or is it still in your bag?",
+     "So did you actually hand in your homework, or is it still in your backpack?"
+    ],
+    "keys": {
+     "рюкзак": "backpack|bag|schoolbag|rucksack"
+    }
+   },
+   {
+    "sit": "Викладачка курсів питає, чому вона не бачить твою роботу в зошиті.",
+    "say": "Я здав домашку через додаток.",
+    "ans": [
+     "I handed in my homework through the app.",
+     "I handed my homework in using the app.",
+     "I already handed in my homework on the app."
+    ],
+    "keys": {
+     "додаток": "app*|online|platform|website|portal"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2163,
+  "w": "submit an essay",
+  "uk": "подати (здати) есе",
+  "lvl": "B1",
+  "forms": "submit|submits|submitted|submitted|submitting",
+  "tail": "essay*",
+  "near": "hand* in|turn* in|send*|sent|upload*",
+  "tasks": [
+   {
+    "sit": "Одногрупник питає в чаті, до котрої можна здавати есе.",
+    "say": "Есе треба подати до опівночі через сайт.",
+    "ans": [
+     "We need to submit the essay by midnight on the website.",
+     "I think we have to submit our essays on the website by midnight.",
+     "We’ve got to submit the essay online by midnight."
+    ],
+    "keys": {
+     "опівночі": "midnight|12"
+    }
+   },
+   {
+    "sit": "Мама питає, як просувається твоя заявка на стипендію.",
+    "say": "Я вже подав мотиваційне есе для стипендії.",
+    "ans": [
+     "I’ve already submitted my essay for the scholarship.",
+     "I already submitted the scholarship essay.",
+     "I’ve submitted my scholarship essay already!"
+    ],
+    "keys": {
+     "стипендія": "scholarship*|grant*",
+     "вже": "already|just"
+    }
+   },
+   {
+    "sit": "Ти пишеш есе на літературний конкурс, але сумніваєшся в собі.",
+    "say": "Я подам есе на конкурс, навіть якщо не виграю.",
+    "ans": [
+     "I’ll submit my essay to the contest even if I don’t win.",
+     "I’m going to submit the essay to the competition even if I don’t win.",
+     "Even if I don’t win, I’ll submit my essay to the contest."
+    ],
+    "keys": {
+     "не виграю": "win*|won|lose",
+     "конкурс": "contest*|competition*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2164,
+  "w": "copy homework",
+  "uk": "списувати домашку",
+  "lvl": "B1",
+  "forms": "copy|copies|copied|copied|copying",
+  "tail": "homework",
+  "near": "cheat*|crib*",
+  "tasks": [
+   {
+    "sit": "Учителька написала тобі, що домашки твого сина й Андрія однакові слово в слово.",
+    "say": "Ти списав домашку в Андрія?",
+    "ans": [
+     "Did you copy Andriy’s homework?",
+     "Did you copy your homework from Andriy?",
+     "Be honest, did you copy Andriy’s homework?"
+    ],
+    "keys": {
+     "Андрій": "andriy|andrii|andrew"
+    }
+   },
+   {
+    "sit": "Однокласник знову просить твій зошит за пʼять хвилин до уроку.",
+    "say": "Ні, я не дам тобі списати домашку.",
+    "ans": [
+     "No, I’m not letting you copy my homework.",
+     "No, I won’t let you copy my homework.",
+     "No way, you’re not copying my homework again."
+    ],
+    "keys": {
+     "не": "not|no"
+    }
+   },
+   {
+    "sit": "Ти вчитель і бачиш, що половина класу принесла однакові відповіді.",
+    "say": "Якщо ви списуєте домашку, ви нічого не навчитеся.",
+    "ans": [
+     "If you copy homework, you won’t learn anything.",
+     "If you copy your homework, you won’t learn a thing.",
+     "Copying homework won’t help you learn anything."
+    ],
+    "keys": {
+     "навчитеся": "learn*|teach*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2165,
+  "w": "prepare for a test",
+  "uk": "готуватися до тесту",
+  "lvl": "A2",
+  "forms": "prepare|prepares|prepared|prepared|preparing",
+  "tail": "for test*",
+  "near": "study*|studied|revis*|get ready|got ready|getting ready|practi*",
+  "tasks": [
+   {
+    "sit": "Друг кличе тебе на вихідні за місто.",
+    "say": "Не можу, я готуюся до тесту з водіння.",
+    "ans": [
+     "I can’t, I’m preparing for my driving test.",
+     "Sorry, I can’t — I have to prepare for my driving test.",
+     "Can’t this weekend, I’m preparing for my driving test."
+    ],
+    "keys": {
+     "водіння": "driv*"
+    }
+   },
+   {
+    "sit": "Колега хвалиться, що склав тест з англійської на високий бал.",
+    "say": "Скільки часу ти готувався до тесту?",
+    "ans": [
+     "How long did you prepare for the test?",
+     "How much time did you spend preparing for the test?",
+     "How long were you preparing for the test?"
+    ],
+    "keys": {
+     "скільки часу": "how long|how much time"
+    }
+   },
+   {
+    "sit": "Донька хвилюється через завтрашню контрольну з математики.",
+    "say": "Давай разом підготуємося до тесту з математики.",
+    "ans": [
+     "Let’s prepare for the math test together.",
+     "Let’s prepare for your math test together.",
+     "Come on, let’s prepare for the math test together."
+    ],
+    "keys": {
+     "разом": "together",
+     "математика": "math*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2166,
+  "w": "study for exams",
+  "uk": "вчити (готуватися) до іспитів",
+  "lvl": "A2",
+  "forms": "study|studies|studied|studied|studying",
+  "tail": "for exam*/final*",
+  "near": "prepar*|revis*|cram*|learn*",
+  "tasks": [
+   {
+    "sit": "Друзі кличуть тебе на музичний фестиваль у червні.",
+    "say": "У червні не можу, треба вчити до іспитів.",
+    "ans": [
+     "I can’t in June, I have to study for exams.",
+     "I can’t go in June because I need to study for my exams.",
+     "Not in June, I’ve got to study for my exams."
+    ],
+    "keys": {
+     "червень": "june",
+     "треба": "have to|need*|got to|must"
+    }
+   },
+   {
+    "sit": "Об одинадцятій вечора тобі дзвонить мама й питає, де ти.",
+    "say": "Я ще в бібліотеці, вчу до іспитів.",
+    "ans": [
+     "I’m still at the library studying for exams.",
+     "I’m still in the library, I’m studying for my exams.",
+     "I’m still at the library, studying for my exams."
+    ],
+    "keys": {
+     "бібліотека": "library"
+    }
+   },
+   {
+    "sit": "Молодша сестра питає, як ти готувався до сесії, коли навчався.",
+    "say": "Я завжди вчив до іспитів з друзями.",
+    "ans": [
+     "I always studied for exams with friends.",
+     "I always used to study for exams with my friends.",
+     "I always studied for my exams with friends."
+    ],
+    "keys": {
+     "з друзями": "friend*|group"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2167,
+  "w": "look up an answer",
+  "uk": "шукати (знайти) відповідь",
+  "lvl": "B1",
+  "forms": "look|looks|looked|looked|looking",
+  "tail": "up answer*",
+  "near": "search*|google*|find|found|check*",
+  "tasks": [
+   {
+    "sit": "Ти не знаєш слова в кросворді й тягнешся по телефон.",
+    "say": "Зараз пошукаю відповідь в інтернеті.",
+    "ans": [
+     "I’ll look up the answer online.",
+     "Let me look up the answer on the internet.",
+     "Hang on, I’ll just look up the answer online."
+    ],
+    "keys": {
+     "інтернет": "online|internet|web|phone|google"
+    }
+   },
+   {
+    "sit": "Ти перевіряєш тест англійської в сина й бачиш, що він відповів правильно на всі питання.",
+    "say": "Ти сам це зробив чи шукав відповіді в книжці?",
+    "ans": [
+     "Did you do it yourself or look up the answers in the book?",
+     "Did you do this on your own, or did you look up the answers in the book?",
+     "Be honest — did you look up the answers in the book?"
+    ],
+    "keys": {
+     "книжка": "book*|textbook|key"
+    }
+   },
+   {
+    "sit": "На вікторині в барі твій друг хоче підглянути в телефон.",
+    "say": "Не шукай відповідь — це нечесно!",
+    "ans": [
+     "Don’t look up the answer, that’s cheating!",
+     "Don’t look up the answer — it’s not fair!",
+     "Hey, no looking up the answer, that’s cheating!"
+    ],
+    "keys": {
+     "нечесно": "cheat*|fair|unfair"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2168,
+  "w": "solve problems",
+  "uk": "розвʼязувати задачі",
+  "lvl": "A2",
+  "forms": "solve|solves|solved|solved|solving",
+  "tail": "problem*",
+  "near": "work out|worked out|figure* out|crack*|do problems|did problems",
+  "tasks": [
+   {
+    "sit": "Однокласник пропустив урок і питає, що задали з математики.",
+    "say": "Нам задали розвʼязати двадцять задач до завтра.",
+    "ans": [
+     "We have to solve twenty problems by tomorrow.",
+     "We need to solve twenty problems for tomorrow.",
+     "We’ve got to solve twenty problems by tomorrow."
+    ],
+    "keys": {
+     "двадцять": "twenty|20",
+     "завтра": "tomorrow"
+    }
+   },
+   {
+    "sit": "Колега помічає на твоєму телефоні шахову дошку.",
+    "say": "Щоранку за кавою я розвʼязую пʼять шахових задач.",
+    "ans": [
+     "Every morning I solve five chess problems over coffee.",
+     "I solve five chess problems every morning with my coffee.",
+     "I like to solve five chess problems each morning over coffee."
+    ],
+    "keys": {
+     "шахові": "chess",
+     "щоранку": "morning*"
+    }
+   },
+   {
+    "sit": "Ти репетитор. Мама учня питає, як йому підтягнути оцінку з фізики.",
+    "say": "Йому треба розвʼязувати задачі щодня, хоча б пів години.",
+    "ans": [
+     "He needs to solve problems every day, at least for half an hour.",
+     "He should solve problems for at least half an hour every day.",
+     "He really needs to solve problems every day — even just half an hour."
+    ],
+    "keys": {
+     "щодня": "every day|daily|a day",
+     "пів години": "half an hour|30 minutes|thirty minutes"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2169,
+  "w": "turn in an essay",
+  "uk": "здати есе (AmE)",
+  "lvl": "B1",
+  "forms": "turn|turns|turned|turned|turning",
+  "tail": "in essay*/paper*",
+  "near": "hand* in|submit*|send*|sent",
+  "tasks": [
+   {
+    "sit": "Друг питає, чому в тебе така низька оцінка за есе, якщо воно хороше.",
+    "say": "Я здав есе на день пізніше, і мені зняли бали.",
+    "ans": [
+     "I turned in my essay a day late and lost points.",
+     "I turned my essay in a day late, so I lost some points.",
+     "I turned in the essay one day late and got points taken off."
+    ],
+    "keys": {
+     "пізніше": "late|day",
+     "бали": "point*|mark*|grade*"
+    }
+   },
+   {
+    "sit": "Ти викладаєш у коледжі. Кінець заняття.",
+    "say": "Здайте есе до наступного вівторка.",
+    "ans": [
+     "Turn in your essays by next Tuesday.",
+     "Please turn in your essay by next Tuesday.",
+     "Make sure you turn in your essays by next Tuesday."
+    ],
+    "keys": {
+     "вівторок": "tuesday"
+    }
+   },
+   {
+    "sit": "О третій ночі сусід по кімнаті в гуртожитку досі друкує щось на ноутбуці.",
+    "say": "Ти ще не здав есе? Дедлайн же вранці!",
+    "ans": [
+     "You haven’t turned in your essay yet? It’s due in the morning!",
+     "Haven’t you turned in the essay yet? The deadline’s in the morning!",
+     "Wait, you still haven’t turned in your essay? It’s due this morning!"
+    ],
+    "keys": {
+     "вранці": "morning|tomorrow",
+     "ще не": "yet|still"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2170,
+  "w": "play tag",
+  "uk": "грати в квача",
+  "lvl": "A2",
+  "forms": "play|plays|played|played|playing",
+  "tail": "tag",
+  "near": "chase*|tig|run* after|ran after",
+  "tasks": [
+   {
+    "sit": "Ти з племінниками в парку, і їм уже нудно.",
+    "say": "Давайте пограємо в квача — я вожу!",
+    "ans": [
+     "Let’s play tag — I’m it!",
+     "Let’s play tag, and I’ll be it!",
+     "Come on, let’s play tag! I’m it!"
+    ],
+    "keys": {
+     "я вожу": "am it|be it"
+    }
+   },
+   {
+    "sit": "Дитина питає, у що ти грав, коли не було телефонів.",
+    "say": "У дитинстві ми грали в квача у дворі до темряви.",
+    "ans": [
+     "When I was a kid, we played tag in the yard until dark.",
+     "As kids we used to play tag in the yard until it got dark.",
+     "Growing up, we’d play tag outside until dark."
+    ],
+    "keys": {
+     "до темряви": "dark*|night"
+    }
+   },
+   {
+    "sit": "Ти тренер дитячої футбольної секції і починаєш тренування.",
+    "say": "Для розминки пограємо в квача пʼять хвилин.",
+    "ans": [
+     "For the warm-up, let’s play tag for five minutes.",
+     "Let’s play tag for five minutes to warm up.",
+     "We’ll warm up by playing tag for five minutes."
+    ],
+    "keys": {
+     "розминка": "warm*",
+     "пʼять хвилин": "five|5|minute*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2171,
+  "w": "play hide and seek",
+  "uk": "грати у хованки",
+  "lvl": "A2",
+  "forms": "play|plays|played|played|playing",
+  "tail": "hide and seek",
+  "near": "look* for|search*|find|found",
+  "tasks": [
+   {
+    "sit": "За вікном дощ, донька нудьгує вдома.",
+    "say": "Хочеш пограти у хованки, поки йде дощ?",
+    "ans": [
+     "Do you want to play hide and seek while it’s raining?",
+     "Want to play hide and seek while it rains?",
+     "How about we play hide and seek while it’s raining?"
+    ],
+    "keys": {
+     "дощ": "rain*"
+    }
+   },
+   {
+    "sit": "Колега показує фото свого собаки, а ти розповідаєш про свого кота.",
+    "say": "Мій кіт обожнює гратися зі мною в хованки.",
+    "ans": [
+     "My cat loves playing hide and seek with me.",
+     "My cat loves to play hide and seek with me.",
+     "My cat absolutely loves playing hide and seek with me."
+    ],
+    "keys": {
+     "кіт": "cat|kitten"
+    }
+   },
+   {
+    "sit": "Ти розповідаєш друзям про літо в селі в дитинстві.",
+    "say": "Ми з братом гралися в хованки в бабусиному саду.",
+    "ans": [
+     "My brother and I played hide and seek in Grandma’s garden.",
+     "My brother and I used to play hide and seek in our grandma’s garden.",
+     "My brother and I would always play hide and seek in Grandma’s garden."
+    ],
+    "keys": {
+     "брат": "brother*",
+     "сад": "garden|yard"
+    }
+   }
+  ]
+ }
+]

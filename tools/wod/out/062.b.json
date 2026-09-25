@@ -1,0 +1,652 @@
+[
+ {
+  "id": 3369, "w": "pull apart", "uk": "розривати на частини", "lvl": "B2",
+  "forms": "pull|pulls|pulled|pulled|pulling",
+  "tail": "apart",
+  "near": "tear*|tore|torn|rip*|break*|broke*|shred*|take apart|took apart|destroy*",
+  "tasks": [
+   {
+    "sit": "Двоє маленьких племінників тягнуть одного плюшевого ведмедика кожен до себе.",
+    "say": "Обережно, ви зараз розірвете ведмедика!",
+    "ans": ["Careful, you’re going to pull the teddy apart!", "Stop, you’ll pull the teddy bear apart!", "Careful, you’ll pull that bear apart!"],
+    "keys": { "ведмедик": "teddy|bear|toy" }
+   },
+   {
+    "sit": "Ти повертаєшся додому, а по всій вітальні — пірʼя й шматки тканини.",
+    "say": "Пес розірвав подушку на шматки.",
+    "ans": ["The dog pulled the pillow apart.", "The dog has pulled apart the cushion.", "The dog totally pulled the pillow apart!"],
+    "keys": { "подушка": "pillow|cushion", "пес": "dog|puppy" }
+   },
+   {
+    "sit": "Ти готуєш салат за відеорецептом і вже відварив курку.",
+    "say": "Тепер розбери курку на волокна двома виделками.",
+    "ans": ["Now pull the chicken apart with two forks.", "Now pull apart the chicken using two forks.", "Now just pull the chicken apart with a couple of forks."],
+    "keys": { "курка": "chicken|meat", "виделки": "fork*" }
+   }
+  ]
+ },
+ {
+  "id": 3370, "w": "put aside", "uk": "відкладати (вбік)", "lvl": "B2",
+  "forms": "put|puts|put|put|putting",
+  "tail": "aside",
+  "near": "save|saves|saved|saving|set aside|lay aside|leave aside|forget*|forgot|stash*|put away",
+  "tasks": [
+   {
+    "sit": "Двоє твоїх колег посварилися, а завтра у вас важлива спільна презентація.",
+    "say": "Давайте відкладемо розбіжності й зосередимося на проєкті.",
+    "ans": ["Let’s put aside our differences and focus on the project.", "Let’s put our differences aside and focus on the project.", "Can we put our differences aside for now and just focus on the project?"],
+    "keys": { "розбіжності": "difference*|argument*|disagreement*", "проєкт": "project|presentation|work" }
+   },
+   {
+    "sit": "Ти мрієш про поїздку до Японії наступного року.",
+    "say": "Я щомісяця відкладаю сто доларів на поїздку.",
+    "ans": ["I put aside a hundred dollars every month for the trip.", "Every month I put aside 100 dollars for the trip.", "I’m putting aside a hundred bucks a month for the trip."],
+    "keys": { "сто доларів": "hundred|100", "поїздка": "trip|travel*|japan" }
+   },
+   {
+    "sit": "Ти читав цікаву книжку, аж тут сусідка попросила допомогти занести шафу.",
+    "say": "Я відклав книжку й пішов допомагати.",
+    "ans": ["I put aside my book and went to help.", "I put the book aside and went to help.", "I put my book aside and went over to help."],
+    "keys": { "книжка": "book|novel", "допомагати": "help*" }
+   }
+  ]
+ },
+ {
+  "id": 3371, "w": "put back", "uk": "класти на місце", "lvl": "A2",
+  "forms": "put|puts|put|put|putting",
+  "tail": "back",
+  "near": "return*|replace*|give back|gave back|put away",
+  "tasks": [
+   {
+    "sit": "У супермаркеті ти взяв дорогий сир, але глянув на ціну й передумав.",
+    "say": "Покладу його на місце.",
+    "ans": ["I’ll put it back.", "I’m going to put it back on the shelf.", "Never mind, I’ll put it back."],
+    "keys": { "його": "it|cheese" }
+   },
+   {
+    "sit": "Син узяв твої ножиці й залишив їх на дивані.",
+    "say": "Поклади ножиці на місце, будь ласка.",
+    "ans": ["Please put the scissors back.", "Put the scissors back where they belong, please.", "Can you put my scissors back, please?"],
+    "keys": { "ножиці": "scissors" }
+   },
+   {
+    "sit": "Колега постійно бере зі твого столу степлер і не повертає.",
+    "say": "Будь ласка, клади степлер на місце, коли закінчиш.",
+    "ans": ["Please put the stapler back after you use it.", "Could you put the stapler back when you’re done?", "Just put my stapler back when you’ve finished, OK?"],
+    "keys": { "степлер": "stapler", "коли закінчиш": "after|done|finish*|use" }
+   }
+  ]
+ },
+ {
+  "id": 3372, "w": "put down to", "uk": "пояснювати (чимось), списувати на", "lvl": "C1",
+  "forms": "put|puts|put|put|putting",
+  "tail": "down to",
+  "near": "blame*|attribute*|chalk* up|explain*|because of|due to",
+  "tasks": [
+   {
+    "sit": "Ти зробив кілька дурних помилок у звіті й пояснюєш колезі, що сталося.",
+    "say": "Я списую це на втому.",
+    "ans": ["I put it down to tiredness.", "I’d put it down to being tired.", "I’m putting it down to lack of sleep."],
+    "keys": { "втома": "tired*|sleep|exhaust*|fatigue" }
+   },
+   {
+    "sit": "Твоя улюблена команда програла фінал через автогол на останній хвилині.",
+    "say": "Я б списав це на невезіння.",
+    "ans": ["I’d put it down to bad luck.", "I put that down to bad luck.", "I’d just put it down to bad luck, honestly."],
+    "keys": { "невезіння": "luck|unlucky" }
+   },
+   {
+    "sit": "Лікар питає, чому, на твою думку, у тебе останнім часом болить голова.",
+    "say": "Я пояснював це стресом на роботі.",
+    "ans": ["I put it down to stress at work.", "I’ve been putting it down to work stress.", "I just put it down to stress at work."],
+    "keys": { "стрес": "stress*|pressure", "робота": "work|job" }
+   }
+  ]
+ },
+ {
+  "id": 3373, "w": "put out", "uk": "гасити; завдавати клопоту", "lvl": "B1",
+  "forms": "put|puts|put|put|putting",
+  "tail": "out",
+  "near": "extinguish*|stub* out|douse*|inconvenienc*|bother*|trouble|burden|impose",
+  "tasks": [
+   {
+    "sit": "Ви з друзями в поході й уранці згортаєте табір.",
+    "say": "Перед тим як іти, треба загасити багаття.",
+    "ans": ["We need to put out the fire before we go.", "Let’s put the campfire out before we leave.", "Make sure we put the fire out before we go."],
+    "keys": { "багаття": "fire|campfire", "перед тим як іти": "before|leave|leaving|go" }
+   },
+   {
+    "sit": "Подруга пропонує відвезти тебе в аеропорт о пʼятій ранку.",
+    "say": "Я не хочу завдавати тобі клопоту.",
+    "ans": ["I don’t want to put you out.", "I really don’t want to put you out.", "Are you sure? I don’t want to put you out."],
+    "keys": { "не хочу": "not want|rather not" }
+   },
+   {
+    "sit": "Ти охоронець на вокзалі й підходиш до чоловіка з сигаретою під табличкою «Не палити».",
+    "say": "Загасіть, будь ласка, сигарету — тут не можна курити.",
+    "ans": ["Please put out your cigarette — you can’t smoke here.", "Could you put your cigarette out? Smoking isn’t allowed here.", "Put that cigarette out, please, no smoking here."],
+    "keys": { "сигарета": "cigarette", "курити": "smok*|allowed" }
+   }
+  ]
+ },
+ {
+  "id": 3374, "w": "put through", "uk": "зʼєднувати (по телефону)", "lvl": "B2",
+  "forms": "put|puts|put|put|putting",
+  "tail": "through",
+  "near": "connect*|transfer*|patch* through|switch* me",
+  "tasks": [
+   {
+    "sit": "Ти працюєш на ресепшн, і клієнт по телефону хоче поговорити з менеджером.",
+    "say": "Хвилинку, я зʼєдную вас із менеджером.",
+    "ans": ["One moment, I’ll put you through to the manager.", "Just a moment, I’m putting you through to the manager now.", "Hold on, let me put you through to the manager."],
+    "keys": { "менеджер": "manager", "хвилинку": "moment|minute|second|hold|wait" }
+   },
+   {
+    "sit": "Ти телефонуєш у банк, і нарешті після довгого очікування відповідає оператор.",
+    "say": "Чи могли б ви зʼєднати мене з кредитним відділом?",
+    "ans": ["Could you put me through to the loans department?", "Can you put me through to the loans department, please?", "Hi, could you put me through to someone in loans?"],
+    "keys": { "кредитний відділ": "loan*|credit*|mortgage*" }
+   },
+   {
+    "sit": "Ти в готелі й телефонуєш на рецепцію, щоб поговорити з колегою з іншого номера.",
+    "say": "Зʼєднайте мене, будь ласка, з номером 305.",
+    "ans": ["Please put me through to room 305.", "Could you put me through to room 305?", "Can you put me through to room 305, please?"],
+    "keys": { "номер": "room", "305": "305|three" }
+   }
+  ]
+ },
+ {
+  "id": 3375, "w": "rip up", "uk": "рвати на шматки", "lvl": "B1",
+  "forms": "rip|rips|ripped|ripped|ripping",
+  "tail": "up",
+  "near": "tear up|tore up|torn up|tear*|tore|torn|shred*|destroy*|bin*|threw away|throw away",
+  "tasks": [
+   {
+    "sit": "Ти знайшов у шухляді старі листи від колишньої й вирішив покінчити з минулим.",
+    "say": "Я порвав усі її листи.",
+    "ans": ["I ripped up all her letters.", "I ripped all her old letters up.", "I just ripped up every letter she wrote."],
+    "keys": { "листи": "letter*" }
+   },
+   {
+    "sit": "Бізнес-партнер змінив умови угоди в останню хвилину, і ти розповідаєш про це дружині.",
+    "say": "Я просто порвав контракт у нього на очах.",
+    "ans": ["I just ripped up the contract in front of him.", "I ripped the contract up right in front of him.", "So I ripped up the contract right in front of him."],
+    "keys": { "контракт": "contract|deal|agreement", "на очах": "front|face|watch*" }
+   },
+   {
+    "sit": "Ти на курсах малювання, і ескіз зовсім не вдався.",
+    "say": "Мені не подобається цей ескіз, я його порву.",
+    "ans": ["I don’t like this sketch, I’m going to rip it up.", "I hate this sketch — I’ll rip it up.", "This sketch is awful, I’m ripping it up."],
+    "keys": { "ескіз": "sketch|drawing", "не подобається": "not like|hate|awful|bad|terrible" }
+   }
+  ]
+ },
+ {
+  "id": 3376, "w": "run off", "uk": "утікати", "lvl": "B2",
+  "forms": "run|runs|ran|run|running",
+  "tail": "off",
+  "near": "run away|ran away|running away|escape*|flee|fled|bolt*|took off|take off|disappear*|vanish*",
+  "tasks": [
+   {
+    "sit": "Ти гуляєш із псом у парку без повідка, і він помітив білку.",
+    "say": "Мій пес утік за білкою!",
+    "ans": ["My dog ran off after a squirrel!", "My dog has run off after a squirrel!", "Oh no, my dog just ran off chasing a squirrel!"],
+    "keys": { "пес": "dog|puppy", "білка": "squirrel" }
+   },
+   {
+    "sit": "Ти читаєш новини про фірму, яка обіцяла інвесторам шалені прибутки.",
+    "say": "Директор утік з усіма грошима інвесторів.",
+    "ans": ["The director ran off with all the investors’ money.", "The boss ran off with all of the investors’ money.", "The CEO just ran off with everyone’s money."],
+    "keys": { "гроші": "money|cash|fund*", "директор": "director|boss|ceo|head|owner" }
+   },
+   {
+    "sit": "У торговому центрі твій пʼятирічний син щойно кудись зник на хвилину. Ти нарешті його знайшов.",
+    "say": "Тримайся біля мене й більше не тікай!",
+    "ans": ["Stay close and don’t run off again!", "Stay with me and don’t run off again!", "Hey, don’t run off again — stay next to me!"],
+    "keys": { "не": "not|never", "біля мене": "close|with me|next to|near|stay" }
+   }
+  ]
+ },
+ {
+  "id": 3377, "w": "run on", "uk": "працювати на (паливі, живленні)", "lvl": "B2",
+  "forms": "run|runs|ran|run|running",
+  "tail": "on",
+  "near": "use|uses|used|using|powered by|work* on|work* off|charge*|fuel*",
+  "tasks": [
+   {
+    "sit": "Ти купуєш синові іграшкову машинку на радіокеруванні й питаєш продавця.",
+    "say": "Вона працює на батарейках чи від зарядки?",
+    "ans": ["Does it run on batteries or does it need charging?", "Does it run on batteries, or do I charge it?", "Does this one run on batteries or a charger?"],
+    "keys": { "батарейки": "batter*" }
+   },
+   {
+    "sit": "Сусід на парковці питає, на якій заправці ти зазвичай заправляєшся.",
+    "say": "Моя машина їздить на електриці, я заряджаю її вдома.",
+    "ans": ["My car runs on electricity, I charge it at home.", "My car runs on electric power, so I charge it at home.", "It runs on electricity — I just charge it at home."],
+    "keys": { "електрика": "electric*|power", "вдома": "home" }
+   },
+   {
+    "sit": "Цього тижня в тебе дедлайн, і колега дивується, скільки кави ти пʼєш.",
+    "say": "Цього тижня я працюю тільки на каві.",
+    "ans": ["This week I’m running on coffee.", "I’m running on coffee this week.", "Honestly, I’m running on pure coffee this week."],
+    "keys": { "кава": "coffee|caffeine", "тиждень": "week" }
+   }
+  ]
+ },
+ {
+  "id": 3378, "w": "save on", "uk": "заощаджувати на", "lvl": "B1",
+  "forms": "save|saves|saved|saved|saving",
+  "tail": "on",
+  "near": "cut back on|cut down on|cut costs|economi*|spend less|pay less",
+  "tasks": [
+   {
+    "sit": "Узимку рахунки за газ дуже високі, і ти обговорюєш це з партнером.",
+    "say": "Давай заощаджувати на опаленні — ставимо девʼятнадцять градусів.",
+    "ans": ["Let’s save on heating — we’ll set it to 19 degrees.", "We could save on heating by keeping it at 19 degrees.", "Let’s save on heating and keep it at 19."],
+    "keys": { "опалення": "heat*", "19 градусів": "19|nineteen" }
+   },
+   {
+    "sit": "Ти студент і пояснюєш другові, як виживаєш на стипендію.",
+    "say": "Я заощаджую на їжі — готую сам.",
+    "ans": ["I save on food by cooking myself.", "I save on food because I cook at home.", "I save on food — I do all my own cooking."],
+    "keys": { "їжа": "food|eating|meal*|groceries", "готую": "cook*" }
+   },
+   {
+    "sit": "Ти з друзями плануєш поїздку до Праги.",
+    "say": "Якщо поїдемо автобусом, заощадимо на квитках.",
+    "ans": ["If we take the bus, we’ll save on tickets.", "We can save on tickets by going by bus.", "Let’s take the bus and save on tickets."],
+    "keys": { "автобус": "bus|coach", "квитки": "ticket*|fare*|travel" }
+   }
+  ]
+ },
+ {
+  "id": 3379, "w": "send for", "uk": "викликати (когось), посилати по", "lvl": "B2",
+  "forms": "send|sends|sent|sent|sending",
+  "tail": "for",
+  "near": "call*|summon*|fetch*|get a doctor|get someone|ask* for",
+  "tasks": [
+   {
+    "sit": "У ресторані чоловікові за сусіднім столиком раптом стало погано.",
+    "say": "Швидко, викличте лікаря!",
+    "ans": ["Quick, send for a doctor!", "Someone send for a doctor, quickly!", "Quick, somebody send for a doctor!"],
+    "keys": { "лікар": "doctor|ambulance|medic*|paramedic*", "швидко": "quick*|fast|now|hurry" }
+   },
+   {
+    "sit": "Під час грози в заміському будинку зникло світло, і сусіди питають, що робити.",
+    "say": "Ми вже послали по електрика.",
+    "ans": ["We’ve already sent for an electrician.", "We already sent for the electrician.", "Don’t worry, we’ve sent for an electrician."],
+    "keys": { "електрик": "electrician|engineer|repair*|someone" }
+   },
+   {
+    "sit": "Колега повертається від директора блідий, і ти пояснюєш іншим, що сталося.",
+    "say": "Директор викликав його до себе в кабінет.",
+    "ans": ["The director sent for him.", "The boss sent for him this morning.", "The boss sent for him — no idea why."],
+    "keys": { "директор": "director|boss|manager|ceo|head" }
+   }
+  ]
+ },
+ {
+  "id": 3380, "w": "send off", "uk": "відправляти", "lvl": "B1",
+  "forms": "send|sends|sent|sent|sending",
+  "tail": "off",
+  "near": "post*|mail*|ship*|submit*|dispatch*|send it|sent it",
+  "tasks": [
+   {
+    "sit": "Покупець на онлайн-барахолці вже оплатив твій старий фотоапарат.",
+    "say": "Я відправлю посилку завтра зранку.",
+    "ans": ["I’ll send off the parcel tomorrow morning.", "I’ll send the parcel off first thing tomorrow.", "I’m sending off the package tomorrow morning."],
+    "keys": { "посилка": "parcel|package|it|camera", "завтра": "tomorrow" }
+   },
+   {
+    "sit": "Сьогодні останній день подачі документів на грант, і ти пишеш науковому керівнику.",
+    "say": "Я нарешті відправив заявку!",
+    "ans": ["I finally sent off my application!", "I’ve finally sent my application off!", "Done — I finally sent off the application!"],
+    "keys": { "заявка": "application|form*|document*", "нарешті": "finally|at last|done" }
+   },
+   {
+    "sit": "Ти відпочиваєш у Греції й купив листівки для бабусі.",
+    "say": "Треба відправити листівки, поки ми ще тут.",
+    "ans": ["We need to send off the postcards while we’re still here.", "Let’s send the postcards off before we leave.", "I should send off these postcards while we’re here."],
+    "keys": { "листівки": "postcard*|card*" }
+   }
+  ]
+ },
+ {
+  "id": 3381, "w": "set down", "uk": "записувати, фіксувати; ставити (на землю)", "lvl": "C1",
+  "forms": "set|sets|set|set|setting",
+  "tail": "down",
+  "near": "write down|wrote down|written down|put down|put it down|record*|note*|lay down|laid down|place*",
+  "tasks": [
+   {
+    "sit": "У вашому гуртожитку постійні суперечки про те, хто має прибирати.",
+    "say": "Давайте запишемо правила на папері, щоб усе було чесно.",
+    "ans": ["Let’s set down the rules on paper so it’s fair.", "Let’s set the rules down in writing, so it’s fair for everyone.", "Why don’t we set down some rules in writing?"],
+    "keys": { "правила": "rule*", "на папері": "paper|writing|written" }
+   },
+   {
+    "sit": "Дідусь розповідає тобі історії з молодості, і ти хочеш їх зберегти для онуків.",
+    "say": "Я хочу записати твої спогади, поки ти все памʼятаєш.",
+    "ans": ["I want to set down your memories while you still remember everything.", "I’d like to set your stories down while you still remember them.", "I want to set down your memories before they fade."],
+    "keys": { "спогади": "memor*|stor*" }
+   },
+   {
+    "sit": "Ви з другом несете важкі коробки на пʼятий поверх, і ти зупиняєшся на сходах.",
+    "say": "Мені треба поставити коробку на хвилинку.",
+    "ans": ["I need to set this box down for a minute.", "Let me set the box down for a second.", "Hang on, I have to set the box down for a moment."],
+    "keys": { "коробка": "box*|it", "на хвилинку": "minute|second|moment|sec" }
+   }
+  ]
+ },
+ {
+  "id": 3382, "w": "set in", "uk": "наставати (надовго), починатися", "lvl": "C1",
+  "forms": "set|sets|set|set|setting",
+  "tail": "in",
+  "near": "start*|begin*|began|begun|arrive*|kick* in|come|came|here to stay",
+  "tasks": [
+   {
+    "sit": "Кінець листопада. Ти телефонуєш бабусі в село, і вона каже, що вже лежить сніг.",
+    "say": "Здається, зима вже по-справжньому настала.",
+    "ans": ["It looks like winter has really set in.", "Winter seems to have set in for real.", "Looks like winter has properly set in."],
+    "keys": { "зима": "winter|cold|frost*" }
+   },
+   {
+    "sit": "Тиждень тому тебе скоротили, і ти розповідаєш другові про свої відчуття.",
+    "say": "Спочатку було нормально, а потім почалася паніка.",
+    "ans": ["At first I was fine, but then panic set in.", "I was okay at first, then the panic set in.", "I felt fine at first, and then panic set in."],
+    "keys": { "паніка": "panic*|fear", "спочатку": "at first|first|initially" }
+   },
+   {
+    "sit": "Ти порізав руку на дачі й кілька днів не звертав уваги, а тепер вона почервоніла.",
+    "say": "Лікар каже, що вже почалася інфекція.",
+    "ans": ["The doctor says an infection has set in.", "According to the doctor, infection has set in.", "The doctor said infection had already set in."],
+    "keys": { "інфекція": "infect*", "лікар": "doctor|gp" }
+   }
+  ]
+ },
+ {
+  "id": 3383, "w": "sit around", "uk": "сидіти без діла", "lvl": "B1",
+  "forms": "sit|sits|sat|sat|sitting",
+  "tail": "around",
+  "near": "hang around|hung around|hang out|hung out|laze*|lazing|lounge*|chill*|sit about|sat about",
+  "tasks": [
+   {
+    "sit": "У суботу весь день лив дощ, і ти розповідаєш колезі, як минули вихідні.",
+    "say": "Ми весь вечір просто сиділи без діла.",
+    "ans": ["We just sat around all evening.", "We sat around doing nothing all evening.", "We basically just sat around the whole evening."],
+    "keys": { "весь вечір": "evening|night" }
+   },
+   {
+    "sit": "На роботі впала система, і весь відділ чекає на айтішників.",
+    "say": "Ми вже годину сидимо без діла й чекаємо.",
+    "ans": ["We’ve been sitting around for an hour waiting.", "We’ve been sitting around waiting for an hour now.", "We’re just sitting around waiting — it’s been an hour."],
+    "keys": { "годину": "hour", "чекаємо": "wait*" }
+   },
+   {
+    "sit": "Брат після університету вже пів року не шукає роботу, і ти з ним серйозно говориш.",
+    "say": "Не можна просто сидіти без діла цілими днями.",
+    "ans": ["You can’t just sit around all day.", "You can’t sit around all day every day.", "You can’t just sit around doing nothing all day long."],
+    "keys": { "цілими днями": "all day|every day|day*", "не можна": "not|stop" }
+   }
+  ]
+ },
+ {
+  "id": 3384, "w": "sit back", "uk": "відкидатися (на спинку); розслаблятися", "lvl": "B2",
+  "forms": "sit|sits|sat|sat|sitting",
+  "tail": "back",
+  "near": "relax*|lean back|leaned back|leant back|chill*|unwind*|put my feet up|do nothing",
+  "tasks": [
+   {
+    "sit": "Ти ведучий шкільного концерту й звертаєшся до батьків перед першим номером.",
+    "say": "Зручно вмощуйтеся й насолоджуйтеся виступом.",
+    "ans": ["Sit back and enjoy the show.", "Just sit back and enjoy the performance.", "So sit back, relax and enjoy the show!"],
+    "keys": { "насолоджуйтеся": "enjoy*|relax*", "виступ": "show|performance|concert" }
+   },
+   {
+    "sit": "Ти нарешті на пляжі після важкого року й пишеш колезі повідомлення.",
+    "say": "Тепер можу просто відкинутися й нічого не робити.",
+    "ans": ["Now I can just sit back and do nothing.", "Now I can finally sit back and relax.", "Finally I get to sit back and do nothing at all."],
+    "keys": { "нічого не робити": "nothing|relax*|chill*", "тепер": "now|finally" }
+   },
+   {
+    "sit": "Ти на зборах мешканців будинку, де обговорюють незаконну забудову у вашому дворі.",
+    "say": "Ми не можемо просто сидіти склавши руки й дивитися.",
+    "ans": ["We can’t just sit back and watch.", "We can’t just sit back and let this happen.", "I’m not going to just sit back and watch this."],
+    "keys": { "не": "not|never", "дивитися": "watch*|let*|look*" }
+   }
+  ]
+ },
+ {
+  "id": 3385, "w": "sit out", "uk": "пропускати (не брати участі)", "lvl": "C1",
+  "forms": "sit|sits|sat|sat|sitting",
+  "tail": "out",
+  "near": "skip*|miss*|pass|pass on|not play|not take part|stay out|stayed out|watch from",
+  "tasks": [
+   {
+    "sit": "Ви з друзями вже третю годину граєте в настільну гру, а ти дуже втомився.",
+    "say": "Я пропущу цей раунд.",
+    "ans": ["I’ll sit this round out.", "I think I’ll sit out this round.", "You guys go ahead, I’ll sit this round out."],
+    "keys": { "раунд": "round|game" }
+   },
+   {
+    "sit": "Тренер питає, чи готовий ти грати в неділю, а в тебе досі болить коліно.",
+    "say": "Мабуть, мені краще пропустити цей матч через коліно.",
+    "ans": ["I’d better sit out this match because of my knee.", "I should probably sit this game out, my knee hurts.", "I think I’ll sit this one out — my knee is killing me."],
+    "keys": { "коліно": "knee" }
+   },
+   {
+    "sit": "На весіллі ведучий кличе всіх гостей на танцювальний конкурс.",
+    "say": "Я цей конкурс пропущу — подивлюся збоку.",
+    "ans": ["I’ll sit out this contest and just watch.", "I’m going to sit this one out and watch.", "I’ll sit this one out, I’m happy just watching."],
+    "keys": { "подивлюся": "watch*|look*" }
+   }
+  ]
+ },
+ {
+  "id": 3386, "w": "skim through", "uk": "проглядати побіжно", "lvl": "B2",
+  "forms": "skim|skims|skimmed|skimmed|skimming",
+  "tail": "through",
+  "near": "skim|skimmed|flick* through|flip* through|leaf* through|glance* at|glance* over|browse*|scan*|look* through|look* over",
+  "tasks": [
+   {
+    "sit": "Колега питає, чи читав ти статтю, яку він надіслав учора.",
+    "say": "Я лише побіжно проглянув її, ще не читав уважно.",
+    "ans": ["I only skimmed through it, I haven’t read it properly yet.", "I just skimmed through the article, I didn’t read it carefully.", "I only skimmed through it — haven’t really read it yet."],
+    "keys": { "лише": "only|just", "уважно": "properly|carefully|really|yet|in detail" }
+   },
+   {
+    "sit": "За десять хвилин іспит, а ти ще не повторив останній розділ.",
+    "say": "Встигну хоча б швидко проглянути конспект.",
+    "ans": ["I’ll at least skim through my notes.", "At least I can skim through the notes quickly.", "Let me at least skim through my notes."],
+    "keys": { "конспект": "notes|chapter|material*", "хоча б": "least" }
+   },
+   {
+    "sit": "Ти орендуєш квартиру, і рієлтор дає тобі договір на двадцять сторінок.",
+    "say": "Дайте мені кілька хвилин, щоб проглянути договір.",
+    "ans": ["Give me a few minutes to skim through the contract.", "Could I have a few minutes to skim through the lease?", "Just give me a few minutes to skim through this."],
+    "keys": { "хвилини": "minute*|moment*|second*", "договір": "contract|lease|agreement|this|it" }
+   }
+  ]
+ },
+ {
+  "id": 3387, "w": "slip up", "uk": "помилятися, схибити", "lvl": "B2",
+  "forms": "slip|slips|slipped|slipped|slipping",
+  "tail": "up",
+  "near": "mess* up|messed up|screw* up|screwed up|make a mistake|made a mistake|mistake*|goof*|blunder*|get it wrong|got it wrong",
+  "tasks": [
+   {
+    "sit": "Ти забронював готель не на ті дати й пояснюєш це партнерці.",
+    "say": "Вибач, я схибив із датами.",
+    "ans": ["Sorry, I slipped up with the dates.", "I’m sorry, I slipped up on the dates.", "Sorry, I slipped up — I booked the wrong dates."],
+    "keys": { "дати": "date*", "вибач": "sorry|apologi*" }
+   },
+   {
+    "sit": "Ти керівник відділу й заспокоюєш новенького, який помилився в розрахунках.",
+    "say": "Усі іноді помиляються — просто виправ це.",
+    "ans": ["Everyone slips up sometimes — just fix it.", "We all slip up sometimes, just correct it.", "Hey, everybody slips up now and then. Just fix it."],
+    "keys": { "усі": "everyone|everybody|all|we", "виправ": "fix*|correct*|sort*" }
+   },
+   {
+    "sit": "Ти готуєш подрузі вечірку-сюрприз і попереджаєш усіх її друзів у чаті.",
+    "say": "Якщо хтось схибить, сюрприз буде зіпсовано.",
+    "ans": ["If anyone slips up, the surprise will be ruined.", "If someone slips up, it’ll ruin the surprise.", "One person slips up and the surprise is ruined."],
+    "keys": { "сюрприз": "surprise|party", "зіпсовано": "ruin*|spoil*|over" }
+   }
+  ]
+ },
+ {
+  "id": 3388, "w": "smooth over", "uk": "згладжувати (конфлікт)", "lvl": "C1",
+  "forms": "smooth|smooths|smoothed|smoothed|smoothing",
+  "tail": "over",
+  "near": "calm* down|calm* things|patch* up|make peace|made peace|settle*|resolve*|fix things|sort* out|defuse*",
+  "tasks": [
+   {
+    "sit": "Двоє колег гостро посперечалися на нараді, і ти як тимлід хочеш поговорити з кожним.",
+    "say": "Я спробую згладити ситуацію між ними.",
+    "ans": ["I’ll try to smooth things over between them.", "I’m going to try and smooth it over between them.", "Let me try to smooth things over with them."],
+    "keys": { "між ними": "them|between" }
+   },
+   {
+    "sit": "На святковому обіді батько образився на твого брата, але до сварки не дійшло.",
+    "say": "Мама, як завжди, згладила конфлікт.",
+    "ans": ["Mom smoothed things over, as usual.", "As always, Mum smoothed over the conflict.", "Mom smoothed it all over, like she always does."],
+    "keys": { "мама": "mom|mum|mother|mama", "як завжди": "usual|always" }
+   },
+   {
+    "sit": "Клієнт розлютився через запізнення доставки, і ти телефонуєш йому з інтернет-магазину.",
+    "say": "Я запропонував знижку, щоб згладити неприємність.",
+    "ans": ["I offered a discount to smooth things over.", "I smoothed things over by offering a discount.", "I gave him a discount to smooth it over."],
+    "keys": { "знижка": "discount|refund|voucher" }
+   }
+  ]
+ },
+ {
+  "id": 3389, "w": "spring up", "uk": "раптово зʼявлятися, виростати як гриби", "lvl": "C1",
+  "forms": "spring|springs|sprang|sprung|springing",
+  "tail": "up",
+  "near": "appear*|pop* up|popped up|emerge*|crop* up|cropped up|open*|grow*|grew|mushroom*",
+  "tasks": [
+   {
+    "sit": "Ти показуєш гостеві свій район, який дуже змінився за останні роки.",
+    "say": "Тут усюди виростають нові кавʼярні.",
+    "ans": ["New cafés are springing up everywhere here.", "New coffee shops keep springing up all over the area.", "Cafés are springing up all over the place round here."],
+    "keys": { "кавʼярні": "caf*|coffee", "усюди": "everywhere|all over|every" }
+   },
+   {
+    "sit": "Ти розповідаєш колегам про ринок стартапів у сфері штучного інтелекту.",
+    "say": "Нові стартапи зʼявляються майже щодня.",
+    "ans": ["New startups are springing up almost every day.", "New startups spring up nearly every day.", "Startups seem to spring up practically every day."],
+    "keys": { "стартапи": "start*|compan*", "щодня": "day|daily" }
+   },
+   {
+    "sit": "Після теплого дощу ти з дитиною гуляєш у лісі.",
+    "say": "Дивись, скільки грибів виросло за ніч!",
+    "ans": ["Look how many mushrooms have sprung up overnight!", "Look, mushrooms sprang up everywhere overnight!", "Wow, so many mushrooms have sprung up overnight!"],
+    "keys": { "гриби": "mushroom*|fung*", "за ніч": "overnight|night" }
+   }
+  ]
+ },
+ {
+  "id": 3390, "w": "stack up", "uk": "порівнюватися (з іншими); нагромаджуватися", "lvl": "C1",
+  "forms": "stack|stacks|stacked|stacked|stacking",
+  "tail": "up",
+  "near": "compare*|measure* up|pile* up|piled up|build* up|built up|accumulat*|stand* against|match* up",
+  "tasks": [
+   {
+    "sit": "Ти вибираєш новий смартфон і дивишся огляди в інтернеті.",
+    "say": "Цікаво, який він порівняно з останнім айфоном.",
+    "ans": ["I wonder how it stacks up against the latest iPhone.", "I wonder how this one stacks up against the new iPhone.", "Let’s see how it stacks up against the latest iPhone."],
+    "keys": { "айфон": "iphone|apple" }
+   },
+   {
+    "sit": "Ти готуєш презентацію про ваш продукт для інвесторів.",
+    "say": "Треба показати, як ми виглядаємо на тлі конкурентів.",
+    "ans": ["We need to show how we stack up against our competitors.", "We have to show how we stack up against the competition.", "Let’s show them how we stack up against our rivals."],
+    "keys": { "конкуренти": "competit*|rival*" }
+   },
+   {
+    "sit": "Ти три дні хворів і взагалі не підходив до раковини.",
+    "say": "За три дні в раковині нагромадилася гора посуду.",
+    "ans": ["The dishes have stacked up in the sink over three days.", "In three days, the dirty dishes really stacked up in the sink.", "The dishes stacked up in the sink for three days."],
+    "keys": { "посуд": "dish*|plate*", "раковина": "sink" }
+   }
+  ]
+ },
+ {
+  "id": 3391, "w": "stamp out", "uk": "викорінювати", "lvl": "C1",
+  "forms": "stamp|stamps|stamped|stamped|stamping",
+  "tail": "out",
+  "near": "eradicat*|eliminat*|root* out|wipe* out|wiped out|get rid of|got rid of|end|stop*|fight*|fought|crack* down",
+  "tasks": [
+   {
+    "sit": "Ти дивишся передвиборчі теледебати й обговорюєш їх із батьком.",
+    "say": "Кожен уряд обіцяє викорінити корупцію.",
+    "ans": ["Every government promises to stamp out corruption.", "Each government promises it will stamp out corruption.", "Every new government swears it’ll stamp out corruption."],
+    "keys": { "корупція": "corruption|bribe*", "уряд": "government|politician*|minister*|president" }
+   },
+   {
+    "sit": "Ти на батьківських зборах, і всі обговорюють цькування в класі.",
+    "say": "Ми маємо викорінити булінг у школі.",
+    "ans": ["We have to stamp out bullying in school.", "We must stamp out bullying at our school.", "We need to stamp out bullying in this school."],
+    "keys": { "булінг": "bully*|harass*", "школа": "school" }
+   },
+   {
+    "sit": "Ти модератор великої онлайн-спільноти й відповідаєш на скарги учасників.",
+    "say": "Ми намагаємося викорінити спам і фейкові акаунти.",
+    "ans": ["We’re trying to stamp out spam and fake accounts.", "We try to stamp out spam and fake accounts.", "We’re doing our best to stamp out spam and fake profiles."],
+    "keys": { "спам": "spam*|bot*", "фейкові акаунти": "fake*|account*|profile*" }
+   }
+  ]
+ },
+ {
+  "id": 3392, "w": "stick out", "uk": "вирізнятися; стирчати", "lvl": "B2",
+  "forms": "stick|sticks|stuck|stuck|sticking",
+  "tail": "out",
+  "near": "stand* out|stood out|noticeable|visible|obvious|protrud*|poke* out|poking out",
+  "tasks": [
+   {
+    "sit": "Друг зустрічатиме твого брата в аеропорту й питає, як його впізнати.",
+    "say": "Він дуже високий, тож вирізняється в будь-якому натовпі.",
+    "ans": ["He’s very tall, so he sticks out in any crowd.", "He’s really tall — he sticks out in a crowd.", "Don’t worry, he’s super tall, he really sticks out."],
+    "keys": { "високий": "tall|height|big" }
+   },
+   {
+    "sit": "Ти прийшов на ділову зустріч у яскраво-помаранчевому костюмі, а всі довкола в сірому.",
+    "say": "У цьому костюмі я занадто вирізняюся.",
+    "ans": ["I stick out too much in this suit.", "I’m sticking out way too much in this suit.", "In this suit I really stick out too much."],
+    "keys": { "костюм": "suit|outfit", "занадто": "too|way" }
+   },
+   {
+    "sit": "Ви з другом переносите стару шафу, і ти помічаєш цвях збоку.",
+    "say": "Обережно, тут стирчить цвях!",
+    "ans": ["Careful, there’s a nail sticking out here!", "Watch out, a nail is sticking out here!", "Mind the nail sticking out there!"],
+    "keys": { "цвях": "nail*|screw*", "обережно": "careful|watch out|mind|look out" }
+   }
+  ]
+ },
+ {
+  "id": 3393, "w": "strike out", "uk": "починати самостійно; викреслювати", "lvl": "C1",
+  "forms": "strike|strikes|struck|struck|striking",
+  "tail": "out",
+  "near": "go solo|went solo|go it alone|set up|start* my own|start* her own|start* a business|cross* off|cross* out|delete*|remove*",
+  "tasks": [
+   {
+    "sit": "Ти десять років працював у великій корпорації, а тепер відкриваєш власну студію.",
+    "say": "Я вирішив почати власну справу.",
+    "ans": ["I decided to strike out on my own.", "I’ve decided to strike out on my own.", "I finally decided to strike out on my own."],
+    "keys": { "власну": "own|myself|business" }
+   },
+   {
+    "sit": "Твоя донька після школи переїжджає сама в інше місто, і сусідка питає, як ти до цього ставишся.",
+    "say": "Вона хоче почати самостійне життя.",
+    "ans": ["She wants to strike out on her own.", "She’s ready to strike out on her own.", "She wants to strike out on her own in a new city."],
+    "keys": { "самостійне": "own|independen*" }
+   },
+   {
+    "sit": "Ти перевіряєш редагований текст договору, і один пункт вам більше не потрібен.",
+    "say": "Викресли, будь ласка, пункт пʼятий — він зайвий.",
+    "ans": ["Please strike out point five — we don’t need it.", "Strike out clause five, it’s not needed.", "You can strike out point five, we don’t need it anymore."],
+    "keys": { "пункт пʼятий": "five|5|point|clause", "зайвий": "not need*|unnecessary|no need|need" }
+   }
+  ]
+ }
+]

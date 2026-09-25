@@ -1,0 +1,634 @@
+[
+ {
+  "id": 925, "w": "obtain", "uk": "отримувати (дозвіл, документ)", "lvl": "B2",
+  "forms": "obtain|obtains|obtained|obtained|obtaining",
+  "near": "get|gets|got|gotten|getting|receive*|acquire*|secure*",
+  "tasks": [
+   {
+    "sit": "Ти плануєш поїздку до США й пояснюєш другові правила в’їзду.",
+    "say": "Спершу потрібно отримати візу.",
+    "ans": ["First you need to obtain a visa.", "You have to obtain a visa first.", "You’ll need to obtain a visa before you go."],
+    "keys": { "віза": "visa*", "спершу": "first|before" }
+   },
+   {
+    "sit": "Ти хочеш прибудувати терасу до будинку й обговорюєш це з дружиною.",
+    "say": "Нам треба отримати в міській раді дозвіл на будівництво.",
+    "ans": ["We need to obtain a building permit from the city council.", "We have to obtain permission from the council to build it.", "First we’ve got to obtain a permit from the city."],
+    "keys": { "дозвіл": "permit*|permission|approval", "міська рада": "city|council|municipal*|authorit*" }
+   },
+   {
+    "sit": "Ти пишеш дипломну роботу й пояснюєш науковому керівнику, звідки цифри.",
+    "say": "Я отримав ці дані з офіційної статистики.",
+    "ans": ["I obtained this data from official statistics.", "The data was obtained from official statistics.", "I obtained the data from official government statistics."],
+    "keys": { "дані": "data|figures|numbers|information", "статистика": "statistic*|stats" }
+   }
+  ]
+ },
+ {
+  "id": 926, "w": "carry on", "uk": "продовжувати", "lvl": "B1",
+  "forms": "carry|carries|carried|carried|carrying",
+  "tail": "on",
+  "near": "continue*|keep going|kept going|go on|went on|keep on|kept on|proceed*",
+  "tasks": [
+   {
+    "sit": "Під час твоєї презентації хтось зайшов до зали й перепросив за запізнення.",
+    "say": "Нічого страшного, я продовжу.",
+    "ans": ["No problem, I’ll carry on.", "That’s fine, let me carry on.", "No worries — I’ll just carry on."],
+    "keys": { "нічого страшного": "no problem|fine|no worries|okay|ok|all right|alright" }
+   },
+   {
+    "sit": "Лікар оглянув твоє коліно після легкої травми.",
+    "say": "Мені можна продовжувати бігати?",
+    "ans": ["Can I carry on running?", "Is it okay to carry on running?", "So can I carry on with my running?"],
+    "keys": { "бігати": "run*|jog*" }
+   },
+   {
+    "sit": "Ти проводиш урок. Учень поставив запитання, ти відповів і повертаєшся до теми.",
+    "say": "Добре, продовжимо з того місця, де зупинилися.",
+    "ans": ["Okay, let’s carry on from where we stopped.", "Right, let’s carry on where we left off.", "Alright, carrying on from where we left off…"],
+    "keys": { "де зупинилися": "where|left off|stopped" }
+   }
+  ]
+ },
+ {
+  "id": 927, "w": "keep going", "uk": "продовжувати (рухатися, робити)", "lvl": "A2",
+  "forms": "keep|keeps|kept|kept|keeping",
+  "tail": "going",
+  "near": "carry on|carried on|continue*|go on|move on|do not stop|go straight",
+  "tasks": [
+   {
+    "sit": "Твій друг уперше біжить п’ять кілометрів. До фінішу зовсім мало, а він хоче зупинитися.",
+    "say": "Не зупиняйся, біжи далі! Ще трохи!",
+    "ans": ["Keep going! You’re almost there!", "Don’t stop, keep going!", "Come on, keep going, you’re almost done!"],
+    "keys": { "ще трохи": "almost|nearly|close|little more|not far|not stop" }
+   },
+   {
+    "sit": "Ти в таксі й показуєш водієві дорогу. Він збирається повернути.",
+    "say": "Не повертайте, їдьте далі прямо.",
+    "ans": ["Don’t turn, keep going straight.", "Keep going straight, please.", "Just keep going straight ahead."],
+    "keys": { "прямо": "straight|ahead|forward" }
+   },
+   {
+    "sit": "Ти розповідаєш, як ви заблукали в горах, а вже темніло.",
+    "say": "Ми втомилися, але мусили йти далі.",
+    "ans": ["We were tired, but we had to keep going.", "We were very tired but kept going.", "We were so tired, but we just kept going."],
+    "keys": { "втомилися": "tired|exhausted" }
+   }
+  ]
+ },
+ {
+  "id": 928, "w": "linger", "uk": "затримуватися, не поспішати піти", "lvl": "C1",
+  "forms": "linger|lingers|lingered|lingered|lingering",
+  "near": "stay*|stayed|hang around|hung around|hang about|remain*|dawdl*|wait*",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш колезі про вечерю, яку влаштував у себе вдома.",
+    "say": "Гості затрималися до півночі — ніхто не хотів іти.",
+    "ans": ["The guests lingered until midnight — nobody wanted to leave.", "Our guests lingered till midnight; no one wanted to go.", "Everyone lingered until midnight, nobody wanted to leave!"],
+    "keys": { "північ": "midnight|12", "ніхто": "nobody|no one|not want" }
+   },
+   {
+    "sit": "Ви з подругою в Луврі, вона тягне тебе до наступної зали.",
+    "say": "Я хочу ще трохи затриматися біля цієї картини.",
+    "ans": ["I want to linger a bit longer by this painting.", "I’d like to linger in front of this painting a little longer.", "Let me linger by this painting a bit more."],
+    "keys": { "картина": "painting|picture|piece|artwork", "ще трохи": "longer|bit|little|more|minute*" }
+   },
+   {
+    "sit": "Після наради колега не пішов одразу, а постояв біля твого кабінету. Ти розповідаєш про це іншому колезі.",
+    "say": "Він чомусь затримався у дверях, наче хотів щось сказати.",
+    "ans": ["He lingered in the doorway as if he wanted to say something.", "He lingered at the door, like he had something to say.", "He kind of lingered in the doorway, like he wanted to tell me something."],
+    "keys": { "двері": "door*|doorway", "сказати": "say*|tell|said|talk|something" }
+   }
+  ]
+ },
+ {
+  "id": 929, "w": "stretch on", "uk": "розтягуватися (в часі)", "lvl": "B2",
+  "forms": "stretch|stretches|stretched|stretched|stretching",
+  "tail": "on",
+  "near": "drag* on|go on|went on|last*|continu*",
+  "tasks": [
+   {
+    "sit": "Нарада мала тривати годину, а ти вийшов з неї тільки ввечері. Дружина питає, чому ти не відповідав.",
+    "say": "Нарада розтяглася на три години.",
+    "ans": ["The meeting stretched on for three hours.", "It was supposed to take an hour, but the meeting stretched on for three.", "That meeting just stretched on for three hours."],
+    "keys": { "три": "three|3*", "нарада": "meeting|it" }
+   },
+   {
+    "sit": "Ти читаєш ділові новини про злиття двох великих компаній.",
+    "say": "Переговори розтяглися на кілька місяців.",
+    "ans": ["The negotiations stretched on for months.", "Talks stretched on for several months.", "The negotiations just stretched on for months and months."],
+    "keys": { "переговори": "negotiation*|talk*", "місяці": "month*" }
+   },
+   {
+    "sit": "Ти летів до Азії з пересадкою й розповідаєш, як минула дорога.",
+    "say": "Пересадка розтяглася на цілу ніч.",
+    "ans": ["The layover stretched on all night.", "Our layover stretched on through the whole night.", "The layover stretched on for the entire night."],
+    "keys": { "пересадка": "layover*|stopover*|connection|transfer", "ніч": "night" }
+   }
+  ]
+ },
+ {
+  "id": 930, "w": "drag on", "uk": "нудно тягнутися", "lvl": "B2",
+  "forms": "drag|drags|dragged|dragged|dragging",
+  "tail": "on",
+  "near": "stretch* on|go on|went on|last*|continu*",
+  "tasks": [
+   {
+    "sit": "Ти сидиш на обов’язковій лекції о восьмій ранку й пишеш другові повідомлення.",
+    "say": "Ця лекція тягнеться нескінченно.",
+    "ans": ["This lecture is dragging on forever.", "This lecture drags on and on.", "Ugh, this lecture just keeps dragging on."],
+    "keys": { "лекція": "lecture|class|it" }
+   },
+   {
+    "sit": "Твій знайомий розлучається й уже давно судиться за квартиру.",
+    "say": "Судова справа тягнеться вже два роки.",
+    "ans": ["The court case has been dragging on for two years.", "The lawsuit has dragged on for two years now.", "His case has been dragging on for two years already."],
+    "keys": { "справа": "case|lawsuit|trial", "два роки": "two|2" }
+   },
+   {
+    "sit": "Уже кінець березня, а за вікном усе ще лежить сніг.",
+    "say": "Ця зима тягнеться й тягнеться.",
+    "ans": ["This winter is dragging on and on.", "Winter just drags on this year.", "This winter keeps dragging on forever."],
+    "keys": { "зима": "winter" }
+   }
+  ]
+ },
+ {
+  "id": 931, "w": "instruct", "uk": "інструктувати, навчати", "lvl": "B2",
+  "forms": "instruct|instructs|instructed|instructed|instructing",
+  "near": "teach*|taught|train*|coach*|show*|brief*|explain*",
+  "tasks": [
+   {
+    "sit": "Ти працюєш інструктором з дайвінгу. Новий знайомий питає, чим ти займаєшся.",
+    "say": "Я навчаю початківців безпечно пірнати.",
+    "ans": ["I instruct beginners on how to dive safely.", "My job is instructing beginners in safe diving.", "I instruct beginner divers on safety."],
+    "keys": { "початківці": "beginner*|novice*|newcomer*", "пірнати": "div*" }
+   },
+   {
+    "sit": "Ти керуєш складом, і сьогодні прийшли нові працівники.",
+    "say": "Перед початком роботи ми інструктуємо всіх щодо безпеки.",
+    "ans": ["Before starting, we instruct everyone on safety.", "We instruct all new staff on safety before they start.", "Everyone gets instructed on safety before they start work."],
+    "keys": { "безпека": "safety|safe*", "всіх": "everyone|all|staff|everybody|worker*" }
+   },
+   {
+    "sit": "Ти розповідаєш про свій перший переліт над морем.",
+    "say": "Екіпаж проінструктував нас, як користуватися рятувальним жилетом.",
+    "ans": ["The crew instructed us on how to use the life jacket.", "We were instructed on how to put on a life vest.", "The flight crew instructed us how to use the life jackets."],
+    "keys": { "жилет": "jacket*|vest*", "нас": "crew|us|we" }
+   }
+  ]
+ },
+ {
+  "id": 932, "w": "coach", "uk": "тренувати", "lvl": "B1",
+  "forms": "coach|coaches|coached|coached|coaching",
+  "near": "train*|teach*|taught|instruct*|mentor*",
+  "tasks": [
+   {
+    "sit": "Сусід питає, чим ти займаєшся по суботах.",
+    "say": "Я треную дитячу футбольну команду.",
+    "ans": ["I coach a kids’ football team.", "I coach a children’s soccer team on Saturdays.", "I coach my son’s football team."],
+    "keys": { "футбол": "football|soccer", "діти": "kid*|child*|youth|junior*|son*" }
+   },
+   {
+    "sit": "Ти готуєшся до важливої співбесіди з досвідченим наставником. Друг питає, як ідуть справи.",
+    "say": "Він тренує мене відповідати на складні запитання.",
+    "ans": ["He’s coaching me on how to answer tough questions.", "He coaches me on answering difficult questions.", "He’s been coaching me to handle tricky questions."],
+    "keys": { "запитання": "question*", "складні": "tough|difficult|hard|tricky" }
+   },
+   {
+    "sit": "Ти розповідаєш, що твій тато колись професійно грав у теніс.",
+    "say": "Тепер він тренує молодих тенісистів.",
+    "ans": ["Now he coaches young tennis players.", "These days he coaches young tennis players.", "He’s coaching young tennis players now."],
+    "keys": { "теніс": "tennis", "молоді": "young*|junior*|kid*|teen*" }
+   }
+  ]
+ },
+ {
+  "id": 933, "w": "drill", "uk": "прогонити, тренувати повторами", "lvl": "B2",
+  "forms": "drill|drills|drilled|drilled|drilling",
+  "near": "practi*|repeat*|revis*|review*|go over|went over|memori*|cram*",
+  "tasks": [
+   {
+    "sit": "Ти готуєшся до іспиту з англійської й пояснюєш другові свій метод.",
+    "say": "Я щодня прогоню неправильні дієслова, поки не запам’ятаю.",
+    "ans": ["I drill irregular verbs every day until I remember them.", "Every day I drill the irregular verbs until they stick.", "I just drill irregular verbs daily till they stick."],
+    "keys": { "дієслова": "verb*", "щодня": "every day|daily|each day" }
+   },
+   {
+    "sit": "Ти вчитель початкових класів і пояснюєш колезі, як навчив клас таблиці множення.",
+    "say": "Ми прогонили таблицю множення, поки діти не вивчили її напам’ять.",
+    "ans": ["We drilled the times tables until the kids knew them by heart.", "I drilled the multiplication tables with them until they knew them by heart.", "We drilled times tables till they knew them by heart."],
+    "keys": { "таблиця множення": "times table*|multiplication|tables", "напам’ять": "by heart|memor*" }
+   },
+   {
+    "sit": "Ти готуєшся до концерту на гітарі, а в пісні є дуже складний перехід.",
+    "say": "Я годинами відпрацьовую цей складний фрагмент.",
+    "ans": ["I’ve been drilling this tricky passage for hours.", "I drilled this hard part for hours.", "I spent hours drilling this one tough section."],
+    "keys": { "годинами": "hour*", "складний": "tricky|hard|tough|difficult" }
+   }
+  ]
+ },
+ {
+  "id": 934, "w": "quiz", "uk": "опитувати, ганяти (по матеріалу)", "lvl": "B2",
+  "forms": "quiz|quizzes|quizzed|quizzed|quizzing",
+  "near": "test*|ask*|question*|exam*|check*",
+  "tasks": [
+   {
+    "sit": "Твоя донька завтра пише контрольну з історії й нервує.",
+    "say": "Давай я тебе поганяю по датах.",
+    "ans": ["Let me quiz you on the dates.", "Want me to quiz you on the dates?", "Come here, I’ll quiz you on the history dates."],
+    "keys": { "дати": "date*" }
+   },
+   {
+    "sit": "Мама питає, як минув урок англійської.",
+    "say": "На початку уроку вчителька опитала нас по словах.",
+    "ans": ["The teacher quizzed us on vocabulary at the start of the lesson.", "Our teacher quizzed us on the words first thing.", "She quizzed us on vocab right at the start of class."],
+    "keys": { "слова": "vocabulary|vocab|word*", "початок": "start|first|begin*" }
+   },
+   {
+    "sit": "Ти влаштувався офіціантом у ресторан, і завтра маєш знати напам’ять усі сири з меню. Звертаєшся до сестри.",
+    "say": "Поганяй мене, будь ласка, по назвах сирів.",
+    "ans": ["Please quiz me on the cheese names.", "Could you quiz me on the names of the cheeses?", "Quiz me on these cheeses, would you?"],
+    "keys": { "сири": "cheese*" }
+   }
+  ]
+ },
+ {
+  "id": 935, "w": "grade", "uk": "ставити оцінки, перевіряти роботи", "lvl": "B2",
+  "forms": "grade|grades|graded|graded|grading",
+  "near": "mark*|check*|assess*|evaluat*|correct*|score*",
+  "tasks": [
+   {
+    "sit": "Ти викладаєш у коледжі. Друг кличе тебе в неділю в кіно.",
+    "say": "Не можу, мені треба перевірити тридцять есе.",
+    "ans": ["I can’t, I have to grade thirty essays.", "Sorry, I’ve got thirty essays to grade.", "Can’t — I’m stuck grading thirty essays."],
+    "keys": { "есе": "essay*|paper*", "тридцять": "thirty|30" }
+   },
+   {
+    "sit": "Ти отримав низький бал за курсову й обговорюєш це з одногрупником.",
+    "say": "Мені здається, викладачка оцінила мою роботу надто суворо.",
+    "ans": ["I think the professor graded my paper too harshly.", "I feel like my paper was graded too harshly.", "Honestly, she graded my work way too harshly."],
+    "keys": { "суворо": "harsh*|strict*|tough*|hard", "робота": "paper|work|essay|assignment" }
+   },
+   {
+    "sit": "Ти ведеш онлайн-курс з програмування, і колега питає, як ти встигаєш перевіряти стільки студентів.",
+    "say": "Тести оцінюються автоматично, тож я економлю багато часу.",
+    "ans": ["The tests are graded automatically, so I save a lot of time.", "The system grades the tests automatically, which saves me time.", "Tests get graded automatically — saves me tons of time."],
+    "keys": { "автоматично": "automatic*|auto*", "час": "time" }
+   }
+  ]
+ },
+ {
+  "id": 936, "w": "mark", "uk": "перевіряти (роботи, брит.)", "lvl": "B1",
+  "forms": "mark|marks|marked|marked|marking",
+  "near": "grade*|check*|correct*|assess*",
+  "tasks": [
+   {
+    "sit": "Ти вчитель у британській школі. Колега кличе тебе ввечері в паб.",
+    "say": "Сьогодні ввечері мені треба перевірити контрольні сьомого класу.",
+    "ans": ["I need to mark the Year 7 tests tonight.", "I’ve got Year 7 tests to mark tonight.", "Tonight I’m marking the Year 7 tests."],
+    "keys": { "сьомий клас": "7|seven*|year", "контрольні": "test*|exam*|paper*", "сьогодні ввечері": "tonight|this evening" }
+   },
+   {
+    "sit": "Ти навчаєшся у Великій Британії. Минув тиждень після іспиту, і ти пишеш викладачеві.",
+    "say": "Ви вже перевірили наші роботи?",
+    "ans": ["Have you marked our papers yet?", "Have our exams been marked yet?", "Have you finished marking our papers yet?"],
+    "keys": { "роботи": "paper*|exam*|essay*|work|test*", "вже": "yet|already" }
+   },
+   {
+    "sit": "Ти підробляєш екзаменатором під час сесії й розповідаєш другові, як минув день.",
+    "say": "За один день я перевірив сто робіт.",
+    "ans": ["I marked a hundred papers in one day.", "I marked 100 scripts in a single day.", "I managed to mark a hundred exam papers in one day."],
+    "keys": { "сто": "hundred|100", "день": "day" }
+   }
+  ]
+ },
+ {
+  "id": 937, "w": "sit", "uk": "складати (іспит, брит.)", "lvl": "B2",
+  "forms": "sit|sits|sat|sat|sitting",
+  "near": "take|takes|took|taken|taking|write|writes|wrote|writing|pass*",
+  "tasks": [
+   {
+    "sit": "Друг із Лондона питає, які в тебе плани на червень.",
+    "say": "У червні я складаю випускні іспити.",
+    "ans": ["I’m sitting my final exams in June.", "I sit my finals in June.", "In June I’ll be sitting my finals."],
+    "keys": { "червень": "june", "іспити": "exam*|final*" }
+   },
+   {
+    "sit": "Ти живеш у Великій Британії й готуєшся до теоретичного іспиту на водійські права.",
+    "say": "Я вже двічі складав теорію — цього разу мушу здати.",
+    "ans": ["I’ve already sat the theory test twice — this time I have to pass.", "I sat the theory test twice already, so this time I must pass.", "I’ve sat the theory test twice, I really need to pass this time."],
+    "keys": { "двічі": "twice|two times", "теорія": "theory|test" }
+   },
+   {
+    "sit": "Ти реєструєшся на IELTS і телефонуєш у мовний центр.",
+    "say": "Чи можна складати IELTS у суботу?",
+    "ans": ["Can I sit the IELTS on a Saturday?", "Is it possible to sit the IELTS on Saturday?", "Could I sit my IELTS on a Saturday?"],
+    "keys": { "субота": "saturday*", "іспит": "ielts|exam|test" }
+   }
+  ]
+ },
+ {
+  "id": 938, "w": "resit", "uk": "перескладати (іспит)", "lvl": "C1",
+  "forms": "resit|resits|resat|resat|resitting",
+  "near": "retake*|retook|retaking|re-sit*|re-take*|take again|took again|repeat*",
+  "tasks": [
+   {
+    "sit": "Ти не склав іспит з математики в університеті. Мама питає про плани на літо.",
+    "say": "Мені доведеться перескладати математику в серпні.",
+    "ans": ["I’ll have to resit maths in August.", "I’ve got to resit the maths exam in August.", "Looks like I’m resitting maths in August."],
+    "keys": { "математика": "math*", "серпень": "august" }
+   },
+   {
+    "sit": "Тітка питає, як твій молодший брат здав англійську.",
+    "say": "Він не склав, тож перескладатиме її восени.",
+    "ans": ["He failed, so he’s resitting it in the autumn.", "He didn’t pass and has to resit it in the autumn.", "He failed English, so he’ll resit it this autumn."],
+    "keys": { "не склав": "fail*|not pass", "восени": "autumn|fall" }
+   },
+   {
+    "sit": "Колега засмучений, бо не склав бухгалтерський іспит з першої спроби.",
+    "say": "Не переймайся, багато хто перескладає цей іспит.",
+    "ans": ["Don’t worry, lots of people resit this exam.", "It’s fine, loads of people have to resit that exam.", "Plenty of people resit it — don’t stress."],
+    "keys": { "багато хто": "lots|loads|plenty|many|a lot" }
+   }
+  ]
+ },
+ {
+  "id": 939, "w": "flunk", "uk": "завалити (тест, предмет; розм.)", "lvl": "C1",
+  "forms": "flunk|flunks|flunked|flunked|flunking",
+  "near": "fail*|bomb*|screw* up|screwed up|mess* up|blew|blow*",
+  "tasks": [
+   {
+    "sit": "Після уроку однокласник питає, як ти написав тест з хімії.",
+    "say": "Я його завалив. Повністю.",
+    "ans": ["I flunked it. Completely.", "I totally flunked the chemistry test.", "Man, I completely flunked it."],
+    "keys": { "повністю": "complete*|total*|big time" }
+   },
+   {
+    "sit": "Ти вдруге йдеш на практичний іспит з водіння. Інструктор питає, що пішло не так минулого разу.",
+    "say": "Минулого разу я завалив іспит через паркування.",
+    "ans": ["Last time I flunked my driving test because of parking.", "I flunked the test last time because of my parking.", "I flunked last time — parking killed me."],
+    "keys": { "паркування": "park*", "минулого разу": "last time|before" }
+   },
+   {
+    "sit": "Ти розмовляєш з молодшим братом-студентом, який постійно прогулює пари.",
+    "say": "Якщо й далі прогулюватимеш, то завалиш предмет.",
+    "ans": ["If you keep skipping class, you’ll flunk the course.", "Keep skipping classes and you’re going to flunk.", "You’ll flunk the class if you keep skipping."],
+    "keys": { "прогулювати": "skip*|miss*|cut*|bunk*" }
+   }
+  ]
+ },
+ {
+  "id": 940, "w": "ace", "uk": "скласти на відмінно, блискуче впоратися", "lvl": "B2",
+  "forms": "ace|aces|aced|aced|acing",
+  "near": "pass*|nail*|smash*|crush*|breez*",
+  "tasks": [
+   {
+    "sit": "Ти щойно вийшов з іспиту з англійської й одразу дзвониш мамі.",
+    "say": "Мамо, я здав на відмінно!",
+    "ans": ["Mom, I aced it!", "Mum, I aced the English exam!", "Guess what, Mom? I totally aced it!"],
+    "keys": { "мама": "mom|mum|mother|mama" }
+   },
+   {
+    "sit": "Друг дуже хвилюється перед співбесідою в компанію мрії.",
+    "say": "Не хвилюйся, ти пройдеш її блискуче.",
+    "ans": ["Don’t worry, you’re going to ace it.", "Relax, you’ll ace this interview.", "Stop worrying — you’ll totally ace it!"],
+    "keys": { "не хвилюйся": "worry*|relax|calm|stress*" }
+   },
+   {
+    "sit": "Ти репетитор і хвалишся колезі успіхом учениці, з якою довго займався.",
+    "say": "Вона написала тест з математики на відмінно!",
+    "ans": ["She aced her math test!", "She aced the maths test — full marks!", "Guess what, she totally aced her maths test!"],
+    "keys": { "математика": "math*" }
+   }
+  ]
+ },
+ {
+  "id": 941, "w": "markup", "uk": "робити націнку", "lvl": "C1",
+  "forms": "mark/markup|marks/markups|marked|marked|marking",
+  "tail": "up",
+  "near": "raise*|increase*|hike*|put up|jack* up|overcharg*|inflat*",
+  "tasks": [
+   {
+    "sit": "Ти працюєш менеджером у магазині одягу й пояснюєш новенькому, як формуються ціни.",
+    "say": "Ми робимо націнку на всі товари в сто відсотків.",
+    "ans": ["We mark up all our products by a hundred percent.", "Everything we sell is marked up by 100 percent.", "We mark everything up a hundred percent."],
+    "keys": { "сто відсотків": "hundred|100*|double*", "товари": "product*|item*|everything|goods" }
+   },
+   {
+    "sit": "Ти сидиш у кафе біля Ейфелевої вежі й дивишся на ціни в меню.",
+    "say": "Тут на все накручують утричі, бо це туристичне місце.",
+    "ans": ["They mark everything up three times here because it’s a tourist spot.", "Prices here are marked up threefold because it’s so touristy.", "They mark up everything like crazy here — it’s a tourist trap."],
+    "keys": { "туристичне": "tourist*" }
+   },
+   {
+    "sit": "Ти читаєш розслідування журналістів про ціни на ліки.",
+    "say": "Аптеки роблять на ці ліки націнку в п’ятсот відсотків.",
+    "ans": ["Pharmacies mark up these drugs by five hundred percent.", "These medicines are marked up by 500%.", "Pharmacies are marking these meds up five hundred percent!"],
+    "keys": { "ліки": "drug*|medicine*|med*|medication*", "п’ятсот": "five hundred|500*" }
+   }
+  ]
+ },
+ {
+  "id": 942, "w": "discount", "uk": "давати знижку, уцінювати", "lvl": "B1",
+  "forms": "discount|discounts|discounted|discounted|discounting",
+  "near": "reduce*|cut|lower*|mark down|marked down|slash*|sale",
+  "tasks": [
+   {
+    "sit": "Ти власник невеликої книгарні. Кінець літа, ви з продавцем плануєте акцію.",
+    "say": "Ми знизимо ціни на всі літні книжки на тридцять відсотків.",
+    "ans": ["We’ll discount all the summer books by thirty percent.", "All summer titles will be discounted by 30%.", "We’re discounting all our summer books thirty percent."],
+    "keys": { "тридцять": "thirty|30*", "книжки": "book*|title*" }
+   },
+   {
+    "sit": "Ти в магазині з подругою й бачиш куртку, яку давно хотів.",
+    "say": "Цю куртку вже уцінили — тепер вона вдвічі дешевша.",
+    "ans": ["This jacket has been discounted — it’s half price now.", "They’ve discounted this jacket by half.", "Look, this jacket is discounted to half price!"],
+    "keys": { "куртка": "jacket|coat", "вдвічі": "half|50*" }
+   },
+   {
+    "sit": "Ти менеджер з продажу, і клієнт хоче замовити велику партію товару.",
+    "say": "Якщо ви замовите понад тисячу штук, ми дамо знижку.",
+    "ans": ["If you order over a thousand units, we’ll discount the price.", "We can discount orders of more than 1,000 units.", "Order over a thousand and we’ll discount it for you."],
+    "keys": { "тисяча": "thousand|1000|1", "замовите": "order*" }
+   }
+  ]
+ },
+ {
+  "id": 943, "w": "appraise", "uk": "оцінювати (вартість)", "lvl": "C1",
+  "forms": "appraise|appraises|appraised|appraised|appraising",
+  "near": "value*|valuat*|assess*|evaluat*|estimat*|price*",
+  "tasks": [
+   {
+    "sit": "Ви з дружиною вирішили продати будинок і обговорюєте перші кроки.",
+    "say": "Спершу треба, щоб будинок оцінив експерт.",
+    "ans": ["First we need to get the house appraised by an expert.", "We should have the house appraised first.", "Let’s get the house professionally appraised first."],
+    "keys": { "будинок": "house|home|property", "спершу": "first|before" }
+   },
+   {
+    "sit": "Ти знайшов бабусину старовинну брошку й думаєш, чи вона чогось варта.",
+    "say": "Я віднесу її до ювеліра, щоб він її оцінив.",
+    "ans": ["I’ll take it to a jeweller to have it appraised.", "I’m going to get it appraised at a jewelry store.", "I’ll have a jeweler appraise it."],
+    "keys": { "ювелір": "jewel*" }
+   },
+   {
+    "sit": "Після аварії страхова компанія надіслала свого фахівця. Ти розповідаєш про це другові.",
+    "say": "Експерт оцінив збитки у дві тисячі доларів.",
+    "ans": ["The adjuster appraised the damage at two thousand dollars.", "The damage was appraised at $2,000.", "Their expert appraised the damage at about two grand."],
+    "keys": { "збитки": "damage*|loss*", "дві тисячі": "two thousand|2|grand" }
+   }
+  ]
+ },
+ {
+  "id": 944, "w": "value", "uk": "оцінювати (вартість); цінувати", "lvl": "B2",
+  "forms": "value|values|valued|valued|valuing",
+  "near": "appreciat*|apprais*|estimat*|treasure*|cherish*|respect*",
+  "tasks": [
+   {
+    "sit": "Колега завжди чесно каже тобі, що думає про твої проєкти. Ти дякуєш йому.",
+    "say": "Я дуже ціную твою думку.",
+    "ans": ["I really value your opinion.", "I value your opinion a lot.", "You know I really value your opinion."],
+    "keys": { "думка": "opinion*|view*|advice|input|thought*" }
+   },
+   {
+    "sit": "Ти працюєш в аукціонному домі й телефонуєш власникові старовинної картини.",
+    "say": "Наші експерти оцінили картину в п’ятдесят тисяч євро.",
+    "ans": ["Our experts valued the painting at fifty thousand euros.", "The painting was valued at 50,000 euros.", "Our experts have valued the painting at fifty grand."],
+    "keys": { "картина": "painting|picture|artwork|piece", "п’ятдесят": "fifty|50*" }
+   },
+   {
+    "sit": "Ти підписуєш листівку старому шкільному другові на день народження.",
+    "say": "Я дуже ціную нашу дружбу.",
+    "ans": ["I truly value our friendship.", "I value our friendship so much.", "I really do value our friendship."],
+    "keys": { "дружба": "friendship" }
+   }
+  ]
+ },
+ {
+  "id": 945, "w": "undervalue", "uk": "недооцінювати", "lvl": "C1",
+  "forms": "undervalue|undervalues|undervalued|undervalued|undervaluing",
+  "near": "underestimat*|underrat*|underpa*|not appreciate*|sell yourself short",
+  "tasks": [
+   {
+    "sit": "Подруга каже, що не заслуговує на підвищення, хоча тягне на собі весь відділ.",
+    "say": "Не недооцінюй себе — ти робиш більше за всіх.",
+    "ans": ["Don’t undervalue yourself — you do more than anyone.", "Stop undervaluing yourself, you do more than everyone else.", "You undervalue yourself — you do the most work here!"],
+    "keys": { "себе": "yourself|you", "більше за всіх": "more|most" }
+   },
+   {
+    "sit": "Ти виступаєш на зборах профспілки лікарні, де обговорюють зарплати.",
+    "say": "Суспільство недооцінює роботу медсестер.",
+    "ans": ["Society undervalues nurses’ work.", "Nurses’ work is undervalued by society.", "The work nurses do is totally undervalued."],
+    "keys": { "медсестри": "nurse*", "робота": "work|job*|effort*" }
+   },
+   {
+    "sit": "Ти продаєш свою стару якісну гітару, а покупець пропонує смішну суму.",
+    "say": "Ви недооцінюєте цей інструмент — він вартий набагато більше.",
+    "ans": ["You’re undervaluing this guitar — it’s worth much more.", "I think you undervalue this instrument; it’s worth a lot more.", "You’re seriously undervaluing it, it’s worth way more than that."],
+    "keys": { "вартий більше": "worth|more" }
+   }
+  ]
+ },
+ {
+  "id": 946, "w": "stay over", "uk": "заночувати (в когось)", "lvl": "B1",
+  "forms": "stay|stays|stayed|stayed|staying",
+  "tail": "over",
+  "near": "sleep over|slept over|spend the night|spent the night|crash*",
+  "tasks": [
+   {
+    "sit": "Ви з другом допізна дивилися фільми в нього вдома, а метро вже не ходить.",
+    "say": "Можна я в тебе заночую?",
+    "ans": ["Can I stay over at your place?", "Mind if I stay over tonight?", "Is it okay if I stay over?"],
+    "keys": { "можна": "can|mind|okay|ok|could|may|all right" }
+   },
+   {
+    "sit": "Ти телефонуєш своїй мамі щодо онуків і вихідних.",
+    "say": "Діти можуть залишитися в тебе на ніч у суботу?",
+    "ans": ["Can the kids stay over at your place on Saturday?", "Could the children stay over on Saturday night?", "Would it be okay if the kids stayed over on Saturday?"],
+    "keys": { "діти": "kid*|child*", "субота": "saturday*" }
+   },
+   {
+    "sit": "Твій син-підліток питає, чи можна його другові Максу лишитися в вас після вечірки.",
+    "say": "Макс може в нас заночувати, якщо його батьки не проти.",
+    "ans": ["Max can stay over if his parents don’t mind.", "Max is welcome to stay over if it’s okay with his parents.", "Sure, Max can stay over, as long as his parents are okay with it."],
+    "keys": { "батьки": "parent*|mom|dad|mum", "Макс": "max" }
+   }
+  ]
+ },
+ {
+  "id": 947, "w": "crash", "uk": "переночувати, завалитися спати (розм.)", "lvl": "B2",
+  "forms": "crash|crashes|crashed|crashed|crashing",
+  "near": "sleep|sleeps|slept|stay over|stayed over|kip|doss*|spend the night|pass out|passed out|stay|stayed",
+  "tasks": [
+   {
+    "sit": "Друг приїхав у твоє місто на конференцію, а всі готелі страшенно дорогі.",
+    "say": "Можеш переночувати в мене на дивані.",
+    "ans": ["You can crash on my couch.", "You’re welcome to crash on my sofa.", "Just crash at my place — the couch is free."],
+    "keys": { "диван": "couch|sofa|place" }
+   },
+   {
+    "sit": "Ти щойно приземлився після дванадцятигодинного перельоту. Колега пише, чи не хочеш зустрітися.",
+    "say": "Я просто впаду спати, щойно прийду додому.",
+    "ans": ["I’m going to crash as soon as I get home.", "I’ll crash the minute I get home.", "Honestly, I’m gonna crash the second I get home."],
+    "keys": { "додому": "home|house|back" }
+   },
+   {
+    "sit": "Ти на музичному фестивалі й забув свій намет. Пишеш сестрі, що все гаразд.",
+    "say": "Сьогодні я переночую в наметі в друзів.",
+    "ans": ["Tonight I’ll crash in my friends’ tent.", "I’m crashing in my friends’ tent tonight.", "I’ll just crash in my mates’ tent tonight."],
+    "keys": { "намет": "tent*", "друзі": "friend*|mate*|buddies|pal*" }
+   }
+  ]
+ },
+ {
+  "id": 948, "w": "lodge", "uk": "тимчасово жити, квартирувати", "lvl": "C1",
+  "forms": "lodge|lodges|lodged|lodged|lodging",
+  "near": "stay*|stayed|live*|lived|board*|rent*|room* with",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш про свій семестр за обміном у Шотландії.",
+    "say": "Я жив у літньої пари недалеко від університету.",
+    "ans": ["I lodged with an elderly couple near the university.", "I was lodging with an older couple close to campus.", "I lodged with this lovely old couple near uni."],
+    "keys": { "пара": "couple", "університет": "universit*|campus|uni|college" }
+   },
+   {
+    "sit": "Ти показуєш друзям фото з походу в Карпати.",
+    "say": "Ми тиждень жили в дерев’яній хатинці в горах.",
+    "ans": ["We lodged in a wooden cabin in the mountains for a week.", "For a week we lodged in a log cabin up in the mountains.", "We lodged in a little wooden cabin in the mountains for a week."],
+    "keys": { "хатинка": "cabin*|hut*|chalet*", "гори": "mountain*|hill*" }
+   },
+   {
+    "sit": "Ти прораб на будівництві в іншому місті й пояснюєш замовникові умови для бригади.",
+    "say": "Поки триває проєкт, робітники живуть у гуртожитку біля об’єкта.",
+    "ans": ["While the project lasts, the workers lodge in a hostel near the site.", "The workers are lodging in a dormitory near the site during the project.", "During the project, the crew lodges in a hostel by the site."],
+    "keys": { "гуртожиток": "hostel*|dorm*|barrack*|accommodation", "об’єкт": "site" }
+   }
+  ]
+ },
+ {
+  "id": 949, "w": "rent out", "uk": "здавати в оренду", "lvl": "B2",
+  "forms": "rent|rents|rented|rented|renting",
+  "tail": "out",
+  "near": "let|lets|letting|lease*|sublet*|sublease*",
+  "tasks": [
+   {
+    "sit": "Ти переїжджаєш на рік працювати до Польщі. Друг питає, що буде з твоєю квартирою.",
+    "say": "Я здаватиму свою квартиру в Києві, поки мене не буде.",
+    "ans": ["I’ll rent out my apartment in Kyiv while I’m away.", "I’m going to rent out my flat in Kyiv while I’m gone.", "I’ll just rent my place in Kyiv out while I’m away."],
+    "keys": { "квартира": "apartment|flat|place|home", "Київ": "kyiv|kiev" }
+   },
+   {
+    "sit": "Сестра скаржиться, що їй постійно бракує грошей, а в її квартирі є порожня кімната.",
+    "say": "Чому б тобі не здавати вільну кімнату?",
+    "ans": ["Why don’t you rent out your spare room?", "You could rent out the spare room.", "Why not rent out that spare bedroom?"],
+    "keys": { "кімната": "room*|bedroom*", "вільна": "spare|empty|extra|free" }
+   },
+   {
+    "sit": "Твої батьки мають будинок біля моря. Колега питає, чи вони там живуть.",
+    "say": "Влітку вони здають будинок туристам.",
+    "ans": ["In summer they rent out the house to tourists.", "They rent the house out to tourists every summer.", "They rent out their place to tourists during the summer."],
+    "keys": { "туристи": "tourist*|holidaymaker*|visitor*|guest*", "влітку": "summer*" }
+   }
+  ]
+ }
+]

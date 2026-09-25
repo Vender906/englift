@@ -1,0 +1,629 @@
+[
+ {
+  "id": 518, "w": "progress", "uk": "прогресувати", "lvl": "B2",
+  "forms": "progress|progresses|progressed|progressed|progressing",
+  "near": "improve*|advance*|develop*|grow|grew|growing|move up|moved up|get better|getting better|got better",
+  "tasks": [
+   {
+    "sit": "Ти керуєш відділом і проводиш щорічну оцінку з новим співробітником. Він дуже старався.",
+    "say": "Ти дуже швидко прогресуєш цього року.",
+    "ans": ["You've progressed really quickly this year.", "You're progressing very fast this year.", "Honestly, you've progressed so fast this year."],
+    "keys": { "швидко": "quick*|fast|rapid*", "цей рік": "year" }
+   },
+   {
+    "sit": "Ти пів року вчиш іспанську з репетитором, але результат тебе не дуже тішить.",
+    "say": "Я прогресую повільніше, ніж хотілося б.",
+    "ans": ["I'm progressing more slowly than I'd like.", "I'm not progressing as fast as I wanted.", "I'm progressing, just slower than I'd hoped."],
+    "keys": { "повільніше": "slow*|fast|quick*" }
+   },
+   {
+    "sit": "Після операції на коліні ти ходиш на реабілітацію. Лікар питає, як справи.",
+    "say": "Я прогресую щотижня — вже ходжу без палиці.",
+    "ans": ["I'm progressing every week; I can walk without a cane now.", "I've progressed a lot each week — I already walk without a stick.", "I'm progressing week by week — I don't even need a cane anymore!"],
+    "keys": { "щотижня": "week*", "без палиці": "cane|stick|crutch*" }
+   }
+  ]
+ },
+ {
+  "id": 519, "w": "reverse", "uk": "скасовувати (рішення)", "lvl": "B2",
+  "forms": "reverse|reverses|reversed|reversed|reversing",
+  "near": "cancel*|overturn*|undo|undid|undone|undoes|scrap*|overrul*|repeal*|revoke*|revoking|take back|took back|lift*|lifted",
+  "tasks": [
+   {
+    "sit": "Мерія заборонила кататися на велосипедах у парку, але після протестів передумала.",
+    "say": "Мерія скасувала заборону на велосипеди.",
+    "ans": ["The city council reversed the ban on bikes.", "The ban on bicycles was reversed by the city.", "They've reversed the bike ban!"],
+    "keys": { "заборона": "ban*", "велосипеди": "bike*|bicycl*|cycl*" }
+   },
+   {
+    "sit": "Директор заборонив віддалену роботу, але після хвилі скарг від працівників усе повернув.",
+    "say": "Директор скасував своє рішення щодо віддаленої роботи.",
+    "ans": ["The director reversed his decision on remote work.", "Our boss reversed the decision about working from home.", "The boss has reversed his decision on remote work."],
+    "keys": { "рішення": "decision*|policy|rule*", "віддалена робота": "remote*|home" }
+   },
+   {
+    "sit": "Ти дивишся футбол. Суддя призначив пенальті, але потім пішов до монітора.",
+    "say": "Суддя скасував своє рішення після перегляду повтору.",
+    "ans": ["The referee reversed his decision after watching the replay.", "After checking the replay, the ref reversed his decision.", "The ref looked at the replay and reversed his call."],
+    "keys": { "рішення": "decision*|call|penalt*", "повтор": "replay*|video|var|review*" }
+   }
+  ]
+ },
+ {
+  "id": 520, "w": "revive", "uk": "відроджувати", "lvl": "C1",
+  "forms": "revive|revives|revived|revived|reviving",
+  "near": "restor*|bring back|brought back|bringing back|renew*|resurrect*|rebuild*|rebuilt|restart*|reinvent*",
+  "tasks": [
+   {
+    "sit": "У твоєму селі колись щоліта святкували Івана Купала, але вже років тридцять ніхто цього не робить.",
+    "say": "Ми хочемо відродити цю стару традицію.",
+    "ans": ["We want to revive this old tradition.", "We're trying to revive the old tradition.", "We'd love to revive that old tradition."],
+    "keys": { "традиція": "tradition*|custom*|festival*", "стара": "old" }
+   },
+   {
+    "sit": "Колись занедбану вулицю у твоєму районі тепер не впізнати: там відкрилися кавʼярні й пекарні.",
+    "say": "Нові кавʼярні відродили нашу стару вулицю.",
+    "ans": ["The new cafes have revived our old street.", "Our old street was revived by the new cafes.", "Those new cafes really revived the street."],
+    "keys": { "кавʼярні": "cafe*|coffee*|bakeri*", "вулиця": "street*|area|neighbo*" }
+   },
+   {
+    "sit": "Твій улюблений гурт двадцять років нічого не випускав, а тепер вийшов новий альбом.",
+    "say": "Цей альбом відродив інтерес до гурту.",
+    "ans": ["This album revived interest in the band.", "Interest in the band was revived by the new album.", "That album really revived people's interest in the band."],
+    "keys": { "інтерес": "interest*|popular*|attention", "гурт": "band*|group" }
+   }
+  ]
+ },
+ {
+  "id": 521, "w": "assemble", "uk": "збирати (з деталей)", "lvl": "B2",
+  "forms": "assemble|assembles|assembled|assembled|assembling",
+  "near": "put together|putting together|puts together|put it together|build*|built|set up|setting up|sets up|construct*|piece together",
+  "tasks": [
+   {
+    "sit": "Ти купив книжкову полицю, і вона приїхала в коробці з купою деталей і гвинтиків.",
+    "say": "Я збирав цю полицю три години.",
+    "ans": ["It took me three hours to assemble this shelf.", "I spent three hours assembling this shelf.", "I assembled this shelf in three hours — never again!"],
+    "keys": { "полиця": "shel*|bookcase*", "три години": "three hours|3 hours|hours" }
+   },
+   {
+    "sit": "Ти працюєш на заводі й показуєш новачкові свій цех.",
+    "say": "На цій лінії ми збираємо двигуни.",
+    "ans": ["We assemble engines on this line.", "This line is where we assemble engines.", "On this line, we assemble the engines."],
+    "keys": { "двигуни": "engine*|motor*", "лінія": "line*" }
+   },
+   {
+    "sit": "Племінник отримав на день народження збірну модель літака і не знає, з чого почати.",
+    "say": "Давай разом зберемо цю модель літака.",
+    "ans": ["Let's assemble this model plane together.", "Shall we assemble the model airplane together?", "Come on, let's assemble this plane together."],
+    "keys": { "літак": "plane*|airplane*|aircraft|aeroplane*", "разом": "together|we|us" }
+   }
+  ]
+ },
+ {
+  "id": 522, "w": "dismantle", "uk": "розбирати (на частини)", "lvl": "C1",
+  "forms": "dismantle|dismantles|dismantled|dismantled|dismantling",
+  "near": "take apart|took apart|taking apart|takes apart|taken apart|take it apart|took it apart|disassembl*|pull apart|pulled apart|tear down|tore down|strip down|stripped down",
+  "tasks": [
+   {
+    "sit": "Ви переїжджаєте, а стара шафа ніяк не пролазить у двері.",
+    "say": "Доведеться розібрати шафу, щоб її винести.",
+    "ans": ["We'll have to dismantle the wardrobe to get it out.", "We need to dismantle the wardrobe first, or it won't go through the door.", "Let's just dismantle the wardrobe and carry it out in pieces."],
+    "keys": { "шафа": "wardrobe*|closet*|cupboard*|cabinet*", "винести": "out|carry|door*|move" }
+   },
+   {
+    "sit": "Ти в гаражі ремонтуєш старий мотоцикл, а він ніяк не заводиться.",
+    "say": "Я розберу двигун і знайду проблему.",
+    "ans": ["I'll dismantle the engine and find the problem.", "I'm going to dismantle the engine to find out what's wrong.", "I'll dismantle the engine and see what's wrong with it."],
+    "keys": { "двигун": "engine*|motor*", "проблема": "problem*|wrong|fault|issue*" }
+   },
+   {
+    "sit": "Фестиваль закінчився, і ваша технічна команда планує роботу на завтра.",
+    "say": "Завтра зранку ми розбираємо сцену.",
+    "ans": ["We're dismantling the stage tomorrow morning.", "We'll dismantle the stage tomorrow morning.", "Tomorrow morning we dismantle the stage."],
+    "keys": { "сцена": "stage*", "завтра зранку": "tomorrow|morning" }
+   }
+  ]
+ },
+ {
+  "id": 523, "w": "restore", "uk": "відновлювати", "lvl": "B2",
+  "forms": "restore|restores|restored|restored|restoring",
+  "near": "recover*|repair*|fix|fixed|fixing|bring back|brought back|get back|got back|retriev*|renew*|reviv*|undelete*",
+  "tasks": [
+   {
+    "sit": "Ти випадково видалив папку з важливими документами й одразу пишеш у техпідтримку.",
+    "say": "Чи можна відновити видалені файли?",
+    "ans": ["Is it possible to restore the deleted files?", "Can you restore my deleted files?", "Is there any chance you can restore the files I deleted?"],
+    "keys": { "файли": "file*|data|document*", "видалені": "delet*|lost|remov*" }
+   },
+   {
+    "sit": "Бабусина стара фотографія вицвіла й потріскалася, і ти знайшов фотостудію, яка з цим працює.",
+    "say": "Мені відновили старе бабусине фото.",
+    "ans": ["They restored my grandma's old photo.", "I had my grandmother's old photo restored.", "They restored Grandma's old photo — it looks brand new!"],
+    "keys": { "фото": "photo*|picture*|pic*", "бабуся": "grand*|granny|nan*" }
+   },
+   {
+    "sit": "Після сильної бурі у вашому районі цілий день не було електрики. Ти розповідаєш колезі.",
+    "say": "Світло відновили лише ввечері.",
+    "ans": ["The power was only restored in the evening.", "They restored the power only in the evening.", "They didn't restore the electricity until the evening."],
+    "keys": { "світло": "power|electricity|light*", "ввечері": "evening|night|tonight" }
+   }
+  ]
+ },
+ {
+  "id": 524, "w": "demolish", "uk": "зносити (будівлю)", "lvl": "C1",
+  "forms": "demolish|demolishes|demolished|demolished|demolishing",
+  "near": "tear down|tore down|torn down|tearing down|knock down|knocked down|knocking down|pull down|pulled down|destroy*|raze*|flatten*|bulldoz*",
+  "tasks": [
+   {
+    "sit": "Старий кінотеатр у центрі міста вже кілька років стоїть порожній. Ти ділишся чутками з сусідом.",
+    "say": "Кажуть, старий кінотеатр знесуть наступного року.",
+    "ans": ["They say the old cinema will be demolished next year.", "Apparently they're demolishing the old cinema next year.", "I heard they're going to demolish the old cinema next year."],
+    "keys": { "кінотеатр": "cinema*|movie theat*|theat*", "наступного року": "next year|year" }
+   },
+   {
+    "sit": "Ви з партнером плануєте ремонт у квартирі й мрієте про простору кухню. Ти пояснюєш будівельникові.",
+    "say": "Ми хочемо знести стіну між кухнею та вітальнею.",
+    "ans": ["We want to demolish the wall between the kitchen and the living room.", "We're planning to demolish the wall between the kitchen and living room.", "We'd like to demolish that wall and open up the kitchen."],
+    "keys": { "стіна": "wall*", "кухня": "kitchen*" }
+   },
+   {
+    "sit": "Ти показуєш туристам свій район і зупиняєшся біля нового житлового комплексу.",
+    "say": "Тут стояла фабрика, але її знесли десять років тому.",
+    "ans": ["There was a factory here, but it was demolished ten years ago.", "They demolished the factory that stood here ten years ago.", "A factory used to be here — they demolished it about ten years ago."],
+    "keys": { "фабрика": "factor*|plant|mill*", "десять років тому": "ten years|10 years|decade*" }
+   }
+  ]
+ },
+ {
+  "id": 525, "w": "construct", "uk": "конструювати, будувати (з частин)", "lvl": "B2",
+  "forms": "construct|constructs|constructed|constructed|constructing",
+  "near": "build*|built|design*|make|made|making|create*|put together|form|formed|forming|develop*|assembl*",
+  "tasks": [
+   {
+    "sit": "Викладачка англійської питає, що тобі дається найважче.",
+    "say": "Мені важко правильно будувати речення англійською.",
+    "ans": ["It's hard for me to construct sentences correctly in English.", "I find it hard to construct correct sentences in English.", "I struggle to construct proper sentences in English."],
+    "keys": { "речення": "sentence*", "важко": "hard|difficult*|struggl*|problem*" }
+   },
+   {
+    "sit": "Ти студент-інженер і розповідаєш на днях відкритих дверей про командний проєкт.",
+    "say": "Ми сконструювали робота, який сортує сміття.",
+    "ans": ["We constructed a robot that sorts rubbish.", "For our project, we constructed a robot that sorts waste.", "We constructed a robot for the project — it sorts trash."],
+    "keys": { "робот": "robot*", "сміття": "rubbish|trash|waste|garbage|litter" }
+   },
+   {
+    "sit": "Ти готуєшся до студентських дебатів, а твоя позиція поки слабка.",
+    "say": "Треба побудувати переконливий аргумент.",
+    "ans": ["We need to construct a convincing argument.", "I have to construct a strong, convincing argument.", "We've got to construct a really convincing argument."],
+    "keys": { "аргумент": "argument*|case", "переконливий": "convinc*|strong|persuasive|solid" }
+   }
+  ]
+ },
+ {
+  "id": 526, "w": "compose", "uk": "складати (музику, текст)", "lvl": "B2",
+  "forms": "compose|composes|composed|composed|composing",
+  "near": "write|writes|wrote|written|writing|creat*|make up|made up|draft*|put together",
+  "tasks": [
+   {
+    "sit": "На весіллі сестри тобі дали слово, і ти дістаєш аркуш паперу.",
+    "say": "Я склав вірш спеціально для цього дня.",
+    "ans": ["I composed a poem especially for this day.", "I've composed a poem just for today.", "I actually composed a little poem for this special day."],
+    "keys": { "вірш": "poem*|verse*|poetry", "цей день": "day|today|occasion|wedding" }
+   },
+   {
+    "sit": "Ти вже годину сидиш над дуже важливим листом клієнтові, і колега питає, чим ти зайнятий.",
+    "say": "Я вже годину складаю цей лист клієнтові.",
+    "ans": ["I've been composing this email to the client for an hour.", "It's taken me an hour to compose this letter to the client.", "I've spent an hour composing this client email."],
+    "keys": { "лист": "email*|letter*|message*", "годину": "hour*" }
+   },
+   {
+    "sit": "Ви з другом дивитеся фільм, і музика в титрах тобі дуже сподобалася.",
+    "say": "Хто написав музику до цього фільму?",
+    "ans": ["Who composed the music for this film?", "Who composed the soundtrack for this movie?", "Do you know who composed the music for this film?"],
+    "keys": { "фільм": "film*|movie*", "музика": "music*|soundtrack*|score" }
+   }
+  ]
+ },
+ {
+  "id": 527, "w": "sketch", "uk": "робити ескіз, начерк", "lvl": "B2",
+  "forms": "sketch|sketches|sketched|sketched|sketching",
+  "near": "draw|draws|drew|drawn|drawing|outline*|doodl*|paint*|scribbl*",
+  "tasks": [
+   {
+    "sit": "Ти сидиш на площі в Італії з блокнотом, поки друзі пʼють каву.",
+    "say": "Я швидко зробив ескіз собору.",
+    "ans": ["I quickly sketched the cathedral.", "I sketched the cathedral quickly in my notebook.", "I just sketched the cathedral really quickly."],
+    "keys": { "собор": "cathedral*|church*", "швидко": "quick*|fast|rough*" }
+   },
+   {
+    "sit": "Ти дизайнер інтерʼєрів, і клієнтка довго описує кухню своєї мрії.",
+    "say": "Зачекайте, я швидко накидаю ескіз вашої кухні.",
+    "ans": ["Wait, I'll quickly sketch your kitchen.", "Let me sketch your kitchen quickly.", "Hang on, I'll just sketch out your kitchen."],
+    "keys": { "кухня": "kitchen*" }
+   },
+   {
+    "sit": "На ярмарку вуличний художник запропонував намалювати твій портрет. Ти хвалишся другові.",
+    "say": "Він зробив ескіз мого портрета за десять хвилин.",
+    "ans": ["He sketched my portrait in ten minutes.", "He sketched me in just ten minutes.", "The guy sketched my portrait in, like, ten minutes!"],
+    "keys": { "портрет": "portrait*|me|face", "десять хвилин": "ten minutes|10 minutes|minutes" }
+   }
+  ]
+ },
+ {
+  "id": 528, "w": "forge", "uk": "підробляти", "lvl": "C1",
+  "forms": "forge|forges|forged|forged|forging",
+  "near": "fake|faked|fakes|faking|counterfeit*|falsif*|copy|copied|copying|imitat*",
+  "tasks": [
+   {
+    "sit": "Класна керівниця сина телефонує тобі: у щоденнику стоїть якийсь дивний підпис.",
+    "say": "Здається, син підробив мій підпис.",
+    "ans": ["I think my son forged my signature.", "It looks like my son has forged my signature.", "I'm pretty sure my son forged my signature."],
+    "keys": { "підпис": "signature*|sign*", "син": "son|boy|kid" }
+   },
+   {
+    "sit": "Ти читаєш новини вголос за сніданком.",
+    "say": "Чоловіка заарештували за те, що він підробляв паспорти.",
+    "ans": ["A man was arrested for forging passports.", "Police arrested a man who forged passports.", "They arrested some guy for forging passports."],
+    "keys": { "паспорти": "passport*|document*|id*", "заарештували": "arrest*|caught|police|jail*" }
+   },
+   {
+    "sit": "Ти працюєш у відділі кадрів і перевіряєш документи нового кандидата.",
+    "say": "Кандидат підробив свій диплом.",
+    "ans": ["The candidate forged his diploma.", "It turned out the candidate had forged his degree certificate.", "It turns out the candidate forged his diploma!"],
+    "keys": { "диплом": "diploma*|degree*|certificate*|qualification*" }
+   }
+  ]
+ },
+ {
+  "id": 529, "w": "invent", "uk": "вигадувати", "lvl": "B1",
+  "forms": "invent|invents|invented|invented|inventing",
+  "near": "make up|made up|making up|makes up|make it up|made it up|come up with|came up with|coming up with|think up|thought up|fabricat*|creat*|dream up|dreamed up|dreamt up",
+  "tasks": [
+   {
+    "sit": "Ти запізнився на роботу вже втретє за тиждень. Керівник чекає пояснень.",
+    "say": "Я не хочу вигадувати відмазку — я просто проспав.",
+    "ans": ["I don't want to invent an excuse — I just overslept.", "I'm not going to invent an excuse; I simply overslept.", "I won't invent some excuse — I just overslept."],
+    "keys": { "відмазка": "excuse*|story|lie*|reason", "проспав": "overslept|oversleep|slept|alarm" }
+   },
+   {
+    "sit": "Донька просить казку на ніч, а всі книжки ви вже прочитали по десять разів.",
+    "say": "Я вигадаю для тебе нову казку.",
+    "ans": ["I'll invent a new story for you.", "Let me invent a new fairy tale for you.", "How about I invent a brand new story for you?"],
+    "keys": { "казка": "story|stories|tale*|fairy" }
+   },
+   {
+    "sit": "Знайомий розпускає про тебе плітки в соцмережах. Ти пояснюєш друзям, що це неправда.",
+    "say": "Він вигадав усю цю історію, щоб привернути увагу.",
+    "ans": ["He invented the whole story to get attention.", "The whole story was invented just to get attention.", "He just invented all of it to get some attention."],
+    "keys": { "увага": "attention|notice*|famous|popular", "вся історія": "story|all|whole|everything" }
+   }
+  ]
+ },
+ {
+  "id": 530, "w": "grant", "uk": "надавати, виконувати (прохання, бажання)", "lvl": "B2",
+  "forms": "grant|grants|granted|granted|granting",
+  "near": "give|gave|given|giving|allow*|approv*|award*|issu*|fulfil*|let|come true|provid*|permit*",
+  "tasks": [
+   {
+    "sit": "Ти граєшся з донькою: ти — чарівник, а вона щойно тебе «розчаклувала».",
+    "say": "За це я виконаю три твої бажання.",
+    "ans": ["For that, I'll grant you three wishes.", "I will grant three of your wishes for that.", "Okay, for that I'll grant you three wishes!"],
+    "keys": { "бажання": "wish*", "три": "three|3" }
+   },
+   {
+    "sit": "Ти пів року чекав відповіді з посольства щодо поїздки до Канади. Сьогодні прийшов лист.",
+    "say": "Мені нарешті надали візу!",
+    "ans": ["I've finally been granted a visa!", "They finally granted me a visa!", "They granted my visa at last!"],
+    "keys": { "віза": "visa*", "нарешті": "final*|at last" }
+   },
+   {
+    "sit": "Ти просив дозволу працювати з дому, поки триває ремонт у офісі. Розповідаєш другові.",
+    "say": "Керівник дав мені дозвіл працювати віддалено.",
+    "ans": ["My manager granted me permission to work remotely.", "I was granted permission to work from home.", "My boss granted me permission to work remotely for a while."],
+    "keys": { "дозвіл": "permission|allow*|approv*", "віддалено": "remote*|home" }
+   }
+  ]
+ },
+ {
+  "id": 531, "w": "award", "uk": "нагороджувати, присуджувати", "lvl": "B2",
+  "forms": "award|awards|awarded|awarded|awarding",
+  "near": "give|gave|given|giving|present*|honor*|honour*|grant*|win|won|winning|receiv*",
+  "tasks": [
+   {
+    "sit": "Ти подавав документи на стипендію в університеті, і сьогодні прийшли результати.",
+    "say": "Мені присудили стипендію на весь рік!",
+    "ans": ["I was awarded a scholarship for the whole year!", "They awarded me a scholarship for the entire year!", "They've awarded me a full year's scholarship!"],
+    "keys": { "стипендія": "scholarship*|grant*|bursar*", "рік": "year*" }
+   },
+   {
+    "sit": "На корпоративі наприкінці року директор оголошував переможців. Ти розповідаєш дружині.",
+    "say": "Нашу команду нагородили призом за найкращий проєкт року.",
+    "ans": ["Our team was awarded a prize for the best project of the year.", "They awarded our team a prize for the best project of the year.", "We got awarded a prize for the best project this year!"],
+    "keys": { "команда": "team*|we|us", "проєкт": "project*" }
+   },
+   {
+    "sit": "Ти стежиш за чемпіонатом. Спершу спортсменка була другою, але результати переглянули.",
+    "say": "Їй присудили золоту медаль після перевірки результатів.",
+    "ans": ["She was awarded the gold medal after the results were checked.", "They awarded her the gold medal after checking the results.", "They ended up awarding her the gold after reviewing the results."],
+    "keys": { "золота медаль": "gold*|medal*", "результати": "result*|review*|check*|time*" }
+   }
+  ]
+ },
+ {
+  "id": 532, "w": "present", "uk": "представляти (звіт, проєкт)", "lvl": "B1",
+  "forms": "present|presents|presented|presented|presenting",
+  "near": "show|showed|shown|showing|introduc*|demonstrat*|pitch*|talk about|talked about|explain*|share*|shared",
+  "tasks": [
+   {
+    "sit": "Завтра нарада з інвесторами, і ти нервуєш. Друг питає, що сталося.",
+    "say": "Завтра я презентую наш квартальний звіт.",
+    "ans": ["Tomorrow I'm presenting our quarterly report.", "I'll present our quarterly report tomorrow.", "I'm presenting the quarterly report tomorrow — wish me luck!"],
+    "keys": { "звіт": "report*|results|numbers", "завтра": "tomorrow" }
+   },
+   {
+    "sit": "Ти староста групи й пояснюєш одногрупникам правила захисту курсових.",
+    "say": "Кожен має представити свій проєкт за десять хвилин.",
+    "ans": ["Everyone has to present their project in ten minutes.", "Each student must present their project in ten minutes.", "We've each got ten minutes to present our projects."],
+    "keys": { "проєкт": "project*|work|research", "десять хвилин": "ten minutes|10 minutes|minutes" }
+   },
+   {
+    "sit": "Ти активіст у своєму будинку й підготував ідеї, як облаштувати двір.",
+    "say": "На зборах мешканців я представлю план ремонту двору.",
+    "ans": ["I'll present the plan for the courtyard at the residents' meeting.", "At the meeting, I'm presenting our plan to renovate the yard.", "I'm going to present the courtyard plan at the residents' meeting."],
+    "keys": { "план": "plan*|idea*|proposal*", "двір": "yard*|courtyard*|playground*" }
+   }
+  ]
+ },
+ {
+  "id": 533, "w": "submit", "uk": "подавати (документ, заявку)", "lvl": "B2",
+  "forms": "submit|submits|submitted|submitted|submitting",
+  "near": "send|sent|sending|hand in|handed in|hand it in|turn in|turned in|file|filed|filing|apply|applied|deliver*|upload*|lodge*",
+  "tasks": [
+   {
+    "sit": "Одногрупник кличе тебе на вечірку в четвер, але в тебе горить дедлайн.",
+    "say": "Я маю подати курсову до пʼятниці.",
+    "ans": ["I have to submit my term paper by Friday.", "My coursework has to be submitted by Friday.", "I've got to submit my paper by Friday."],
+    "keys": { "курсова": "paper*|coursework|essay*|project*|assignment*|thesis", "пʼятниця": "friday" }
+   },
+   {
+    "sit": "Біля твого будинку пів року стоїть розкопана яма. Сусідка питає, чи хтось щось робить.",
+    "say": "Я подав скаргу до міської ради.",
+    "ans": ["I submitted a complaint to the city council.", "I've submitted a complaint to the council.", "I went ahead and submitted a complaint to the city council."],
+    "keys": { "скарга": "complaint*|complain*", "міська рада": "council*|city|mayor*|authorit*" }
+   },
+   {
+    "sit": "Ти шукаєш нову роботу, і мама питає, як просуваються справи.",
+    "say": "Вчора я подав заявки на три вакансії.",
+    "ans": ["Yesterday I submitted applications for three jobs.", "I submitted three job applications yesterday.", "I submitted applications for three positions yesterday."],
+    "keys": { "заявки": "application*|apply|cv*|resume*", "три": "three|3" }
+   }
+  ]
+ },
+ {
+  "id": 534, "w": "exchange", "uk": "обмінювати(ся)", "lvl": "B1",
+  "forms": "exchange|exchanges|exchanged|exchanged|exchanging",
+  "near": "swap*|switch*|trade*|traded|change|changed|changing|replac*|return*|share*|shared",
+  "tasks": [
+   {
+    "sit": "Подарований светр виявився замалим. Ти прийшов із ним і чеком у магазин.",
+    "say": "Можна обміняти цей светр на більший розмір?",
+    "ans": ["Can I exchange this sweater for a bigger size?", "Could I exchange this jumper for a larger size?", "Is it possible to exchange this sweater for a bigger size?"],
+    "keys": { "більший розмір": "bigger|larger|size*", "светр": "sweater*|jumper*|this" }
+   },
+   {
+    "sit": "На конференції ти познайомився з цікавою людиною з твоєї галузі.",
+    "say": "Давай обміняємося номерами телефонів.",
+    "ans": ["Let's exchange phone numbers.", "Shall we exchange numbers?", "Why don't we exchange numbers?"],
+    "keys": { "номери": "number*|contact*|phone*" }
+   },
+   {
+    "sit": "Новий колега питає, які традиції є у вашому офісі.",
+    "say": "На Різдво ми з колегами обмінюємося подарунками.",
+    "ans": ["At Christmas, my colleagues and I exchange gifts.", "My coworkers and I exchange presents every Christmas.", "We always exchange gifts with each other at Christmas."],
+    "keys": { "подарунки": "gift*|present*", "Різдво": "christmas|xmas|holiday*" }
+   }
+  ]
+ },
+ {
+  "id": 535, "w": "trade", "uk": "торгувати", "lvl": "B2",
+  "forms": "trade|trades|traded|traded|trading",
+  "near": "invest*|buy|buys|buying|bought|sell|sells|selling|sold|deal|deals|dealing|dealt|speculat*|do business|did business",
+  "tasks": [
+   {
+    "sit": "Знайомий помітив у тебе на екрані графіки й питає, що це за хобі.",
+    "say": "Я торгую акціями вже два роки.",
+    "ans": ["I've been trading stocks for two years.", "I've traded stocks for two years now.", "I've been trading shares for a couple of years."],
+    "keys": { "акції": "stock*|share*|equit*", "два роки": "two years|2 years|couple of years|years" }
+   },
+   {
+    "sit": "Ти готуєшся до іспиту з історії й переказуєш подрузі конспект.",
+    "say": "Середньовічні міста торгували сіллю та тканинами.",
+    "ans": ["Medieval cities traded in salt and cloth.", "In the Middle Ages, cities traded salt and fabric.", "Medieval towns traded salt and textiles."],
+    "keys": { "сіль": "salt", "тканини": "cloth*|fabric*|textile*|silk*" }
+   },
+   {
+    "sit": "Потенційний партнер питає про досвід вашої компанії на іноземних ринках.",
+    "say": "Ми торгуємо з Польщею понад десять років.",
+    "ans": ["We've been trading with Poland for over ten years.", "Our company has traded with Poland for more than ten years.", "We've traded with Poland for over a decade."],
+    "keys": { "Польща": "poland|polish", "десять років": "ten years|10 years|decade*" }
+   }
+  ]
+ },
+ {
+  "id": 536, "w": "treat", "uk": "пригощати", "lvl": "B2",
+  "forms": "treat|treats|treated|treated|treating",
+  "near": "buy|bought|buying|buys|pay|pays|paid|paying|invite*|my shout|on me|get you|offer*",
+  "tasks": [
+   {
+    "sit": "Ти отримав першу зарплату на новій роботі й зустрівся з друзями.",
+    "say": "Сьогодні я вас усіх пригощаю піцою!",
+    "ans": ["Today I'm treating you all to pizza!", "I'll treat you all to pizza tonight!", "Pizza's on me — I'm treating everyone today!"],
+    "keys": { "піца": "pizza*", "всіх": "all|everyone|everybody|guys" }
+   },
+   {
+    "sit": "Учора в мами був день народження. Колега питає, як ви святкували.",
+    "say": "Ми пригостили маму вечерею в ресторані.",
+    "ans": ["We treated Mom to dinner at a restaurant.", "We treated my mother to a restaurant dinner.", "We treated Mum to a nice dinner out."],
+    "keys": { "мама": "mom*|mum*|mother*", "вечеря": "dinner*|meal*|supper" }
+   },
+   {
+    "sit": "Колега допоміг тобі до ночі доробити важливий проєкт.",
+    "say": "Дякую! Дозволь пригостити тебе кавою.",
+    "ans": ["Thanks! Let me treat you to a coffee.", "Thank you — I'd like to treat you to coffee.", "Thanks a lot! I'll treat you to a coffee, then."],
+    "keys": { "кава": "coffee*|latte*|cappuccino*", "дякую": "thank*" }
+   }
+  ]
+ },
+ {
+  "id": 537, "w": "provide", "uk": "забезпечувати, надавати", "lvl": "B1",
+  "forms": "provide|provides|provided|provided|providing",
+  "near": "give|gives|gave|given|giving|suppl*|offer*|equip*|furnish*|ensur*|serve*|cover*",
+  "tasks": [
+   {
+    "sit": "Ти щойно почав працювати в новій компанії, і друг питає про умови.",
+    "say": "Компанія забезпечує нас ноутбуками й телефонами.",
+    "ans": ["The company provides us with laptops and phones.", "Laptops and phones are provided by the company.", "The company provides laptops and phones for everyone."],
+    "keys": { "ноутбуки": "laptop*|computer*|notebook*", "телефони": "phone*|mobile*" }
+   },
+   {
+    "sit": "Ти бронюєш відпустку для батьків і пояснюєш їм, як вони доберуться до готелю.",
+    "say": "Готель надає безкоштовний трансфер з аеропорту.",
+    "ans": ["The hotel provides a free airport transfer.", "A free transfer from the airport is provided by the hotel.", "The hotel provides free airport pickup."],
+    "keys": { "безкоштовний": "free|complimentary|no charge", "аеропорт": "airport*" }
+   },
+   {
+    "sit": "Ти волонтериш у благодійному центрі й розповідаєш журналістові про свою роботу.",
+    "say": "Ми забезпечуємо їжею та одягом сотні людей.",
+    "ans": ["We provide food and clothes for hundreds of people.", "We provide hundreds of people with food and clothing.", "We provide food and clothes to hundreds of people."],
+    "keys": { "їжа": "food*|meal*", "одяг": "cloth*" }
+   }
+  ]
+ },
+ {
+  "id": 538, "w": "supply", "uk": "постачати", "lvl": "B2",
+  "forms": "supply|supplies|supplied|supplied|supplying",
+  "near": "provid*|deliver*|stock*|sell|sells|selling|sold|distribut*|furnish*|ship|ships|shipped|shipping",
+  "tasks": [
+   {
+    "sit": "У тебе невелика ферма, і на ярмарку покупець питає, де ще можна скуштувати твої продукти.",
+    "say": "Ми постачаємо овочі в місцеві ресторани.",
+    "ans": ["We supply vegetables to local restaurants.", "We supply local restaurants with vegetables.", "We supply veggies to a few local restaurants."],
+    "keys": { "овочі": "vegetable*|veg*|produce", "ресторани": "restaurant*|cafe*" }
+   },
+   {
+    "sit": "Ти працюєш в енергетичній компанії й розповідаєш школярам на екскурсії.",
+    "say": "Наша компанія постачає електроенергію всьому місту.",
+    "ans": ["Our company supplies electricity to the whole city.", "The whole city is supplied with power by our company.", "Our company supplies power to the entire city."],
+    "keys": { "електроенергія": "electricity|power|energy", "місто": "city|town" }
+   },
+   {
+    "sit": "Ти вчитель, і батьки першокласників питають, що треба купити до школи.",
+    "say": "Школа постачає всі підручники, купувати нічого не треба.",
+    "ans": ["The school supplies all the textbooks, so you don't need to buy anything.", "All textbooks are supplied by the school, so you don't have to buy any.", "The school supplies all the books — there's no need to buy anything."],
+    "keys": { "підручники": "textbook*|book*", "купувати": "buy*|pay*" }
+   }
+  ]
+ },
+ {
+  "id": 539, "w": "withdraw", "uk": "відкликати, забирати назад", "lvl": "C1",
+  "forms": "withdraw|withdraws|withdrew|withdrawn|withdrawing",
+  "near": "take back|took back|taken back|taking back|take it back|took it back|drop|dropped|dropping|cancel*|retract*|revok*|pull out|pulled out|back out|backed out",
+  "tasks": [
+   {
+    "sit": "Сусід судився з тобою через паркан, але зрештою ви домовилися.",
+    "say": "Сусід відкликав свій позов.",
+    "ans": ["My neighbor withdrew his lawsuit.", "My neighbour has withdrawn his claim.", "My neighbor ended up withdrawing the lawsuit."],
+    "keys": { "позов": "lawsuit*|claim*|case|suit|complaint*", "сусід": "neighbo*" }
+   },
+   {
+    "sit": "Ти брав участь у конкурсі на посаду, але отримав кращу пропозицію від іншої компанії.",
+    "say": "Я відкликав свою кандидатуру на ту посаду.",
+    "ans": ["I withdrew my application for that position.", "I've withdrawn my application for that job.", "I withdrew my application for the role — I got a better offer."],
+    "keys": { "кандидатура": "application*|candida*|name", "посада": "position*|job*|role*|post" }
+   },
+   {
+    "sit": "Депутат образив колег у прямому ефірі, а наступного дня зробив заяву.",
+    "say": "Він відкликав свої слова й вибачився.",
+    "ans": ["He withdrew his remarks and apologized.", "He withdrew the comment and apologised.", "He's withdrawn his remarks and said sorry."],
+    "keys": { "слова": "remark*|comment*|word*|statement*", "вибачився": "apologi*|sorry" }
+   }
+  ]
+ },
+ {
+  "id": 540, "w": "catch up", "uk": "наздогнати новини, поспілкуватися після перерви", "lvl": "B2",
+  "forms": "catch|catches|caught|caught|catching",
+  "tail": "up",
+  "near": "chat|chatted|chatting|talk|talked|talking|meet up|met up|get together|got together|hang out|see each other|reconnect*|meet",
+  "tasks": [
+   {
+    "sit": "Ти випадково зустрів однокурсницю, яку не бачив пів року, але обоє поспішаєте.",
+    "say": "Давай якось випʼємо кави й поговоримо, як у кого справи.",
+    "ans": ["Let's grab a coffee sometime and catch up.", "We should get a coffee and catch up soon.", "We really need to catch up over coffee!"],
+    "keys": { "кава": "coffee*|drink*|lunch" }
+   },
+   {
+    "sit": "Ти телефонуєш шкільному другові, з яким не говорив цілу вічність.",
+    "say": "Ми так давно не спілкувалися — треба все наздогнати!",
+    "ans": ["We haven't talked in ages — we need to catch up!", "It's been ages, so we have to catch up!", "It's been so long — we really need to catch up!"],
+    "keys": { "давно": "ages|long|while|forever" }
+   },
+   {
+    "sit": "Сестра приїхала з-за кордону, і колега наступного дня питає, як пройшов вечір.",
+    "say": "Ми з сестрою цілий вечір ділилися новинами.",
+    "ans": ["My sister and I spent the whole evening catching up.", "My sister and I caught up all evening.", "My sister and I spent all evening catching up on news."],
+    "keys": { "сестра": "sister*|sis", "вечір": "evening|night" }
+   }
+  ]
+ },
+ {
+  "id": 541, "w": "hang out", "uk": "тусити, зависати (з кимось)", "lvl": "B1",
+  "forms": "hang|hangs|hung|hung|hanging",
+  "tail": "out",
+  "near": "chill|chilled|chilling|spend time|spent time|spending time|meet up|met up|go out|went out|get together|got together|socializ*|socialis*",
+  "tasks": [
+   {
+    "sit": "У понеділок колега питає, що ти робив у суботу.",
+    "say": "Нічого особливого, просто тусив із друзями в парку.",
+    "ans": ["Nothing special, I just hung out with friends in the park.", "I just hung out in the park with my friends.", "Nothing much — I just hung out at the park with my friends."],
+    "keys": { "друзі": "friend*|mates|guys", "парк": "park*" }
+   },
+   {
+    "sit": "У вашому відділі новий колега, він щойно переїхав і нікого в місті не знає.",
+    "say": "Хочеш позависати з нами після роботи?",
+    "ans": ["Do you want to hang out with us after work?", "Would you like to hang out with us after work?", "Hey, do you want to hang out with us after work?"],
+    "keys": { "після роботи": "after work|tonight|later", "з нами": "us|we" }
+   },
+   {
+    "sit": "Ти скаржишся подрузі на свого сина-підлітка.",
+    "say": "Мій син постійно тусить у торговому центрі.",
+    "ans": ["My son is always hanging out at the mall.", "My son hangs out at the shopping centre all the time.", "My son spends all day hanging out at the mall."],
+    "keys": { "син": "son|boy|kid|teen*", "торговий центр": "mall*|shopping|centre|center" }
+   }
+  ]
+ },
+ {
+  "id": 542, "w": "bond", "uk": "здружуватися, зближуватися", "lvl": "B2",
+  "forms": "bond|bonds|bonded|bonded|bonding",
+  "near": "befriend*|click|clicked|get along|got along|connect*|get close|got close|became close|grow close|grew close|made friends|make friends|became friends",
+  "tasks": [
+   {
+    "sit": "Дружина питає, як тобі новий колектив через місяць після переходу на нову роботу.",
+    "say": "Ми з новою колегою швидко здружилися.",
+    "ans": ["My new colleague and I bonded quickly.", "I bonded with my new coworker really fast.", "My new colleague and I bonded right away."],
+    "keys": { "колега": "colleague*|coworker*|co-worker*|workmate*", "швидко": "quick*|fast|right away|immediately|instantly|straight away" }
+   },
+   {
+    "sit": "Ви з двоюрідним братом раніше майже не спілкувалися, а тепер повернулися з тижневого походу в гори.",
+    "say": "За той похід ми дуже здружилися.",
+    "ans": ["We really bonded on that hiking trip.", "That hike really helped us bond.", "We totally bonded during that trip."],
+    "keys": { "похід": "hik*|trip*|trek*|camp*" }
+   },
+   {
+    "sit": "Друг питає, як ти порозумівся з тестем, бо спочатку ви були дуже різні.",
+    "say": "Ми з тестем здружилися на ґрунті любові до футболу.",
+    "ans": ["My father-in-law and I bonded over football.", "I bonded with my father-in-law over our love of football.", "Funnily enough, my father-in-law and I bonded over football."],
+    "keys": { "футбол": "football|soccer", "тесть": "father*|in-law*|dad" }
+   }
+  ]
+ }
+]

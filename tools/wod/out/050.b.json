@@ -1,0 +1,652 @@
+[
+ {
+  "id": 2760, "w": "process emotions", "uk": "проживати емоції", "lvl": "C1",
+  "forms": "process|processes|processed|processed|processing",
+  "tail": "emotion*/feeling*/grief/everything",
+  "near": "deal with|dealt with|dealing with|cope|coped|coping|work through|worked through|come to terms",
+  "tasks": [
+   {
+    "sit": "Подруга щойно розлучилася й уже наступного дня пішла на побачення з іншим.",
+    "say": "Їй треба спочатку прожити свої емоції.",
+    "ans": ["She needs to process her emotions first.", "First, she needs to process her emotions.", "She really needs time to process her emotions first."],
+    "keys": { "спочатку": "first|before|time" }
+   },
+   {
+    "sit": "Після похорону дідуся ти просиш у керівника кілька днів відпустки.",
+    "say": "Мені потрібен час, щоб прожити свої емоції.",
+    "ans": ["I need some time to process my emotions.", "I need a few days to process my emotions.", "I just need some time to process everything."],
+    "keys": { "час": "time|days|while" }
+   },
+   {
+    "sit": "Ти шкільний психолог і виступаєш на батьківських зборах.",
+    "say": "Дітям важливо вчитися проживати емоції, а не придушувати їх.",
+    "ans": ["It’s important for kids to learn to process emotions, not suppress them.", "Kids need to learn how to process emotions instead of hiding them.", "Children should learn to process their emotions rather than bottle them up."],
+    "keys": { "діти": "kid*|child*", "придушувати": "suppress*|hid*|bottl*|ignor*" }
+   }
+  ]
+ },
+ {
+  "id": 2761, "w": "set boundaries", "uk": "встановлювати особисті межі", "lvl": "B2",
+  "forms": "set|sets|set|set|setting",
+  "tail": "boundar*/limit*",
+  "near": "draw the line|drew the line|drawing the line|say no|said no",
+  "tasks": [
+   {
+    "sit": "Мама щодня приходить до тебе без попередження й переставляє речі.",
+    "say": "Мені треба встановити межі з мамою.",
+    "ans": ["I need to set boundaries with my mom.", "I have to set some boundaries with my mother.", "I really need to set boundaries with my mom."],
+    "keys": { "мама": "mom*|mum*|mother*" }
+   },
+   {
+    "sit": "Керівник пише тобі об одинадцятій вечора й чекає на відповідь. Ти розповідаєш про це другу.",
+    "say": "Я встановив межі: після сьомої не відповідаю на робочі повідомлення.",
+    "ans": ["I’ve set boundaries: I don’t answer work messages after seven.", "I set boundaries — no work messages after 7 p.m.", "I set a boundary: I don’t reply to work stuff after seven."],
+    "keys": { "сьома": "seven|7*", "повідомлення": "message*|text*|email*|work" }
+   },
+   {
+    "sit": "Подруга скаржиться, що всі позичають у неї гроші й не віддають.",
+    "say": "Тобі треба навчитися встановлювати межі.",
+    "ans": ["You have to learn to set boundaries.", "You need to learn how to set boundaries.", "Honestly, you’ve got to learn to set boundaries."],
+    "keys": { "навчитися": "learn*" }
+   }
+  ]
+ },
+ {
+  "id": 2762, "w": "say no", "uk": "казати «ні», відмовляти", "lvl": "A1",
+  "forms": "say|says|said|said|saying",
+  "tail": "no",
+  "near": "refuse*|decline*|turn down|turned down|reject*",
+  "tasks": [
+   {
+    "sit": "Колега знову просить тебе взяти її зміну, а ти й так дуже втомлений.",
+    "say": "Цього разу я скажу ні.",
+    "ans": ["This time I’m going to say no.", "I’ll say no this time.", "Sorry, but this time I’m saying no."],
+    "keys": { "цього разу": "time" }
+   },
+   {
+    "sit": "Твій друг бере на себе всі проєкти й працює ночами.",
+    "say": "Тобі треба навчитися казати ні.",
+    "ans": ["You need to learn to say no.", "You have to learn how to say no.", "You’ve really got to learn to say no, man."],
+    "keys": { "навчитися": "learn*" }
+   },
+   {
+    "sit": "Дитина в магазині просить уже третю шоколадку.",
+    "say": "Я вже сказав «ні» — більше солодкого не буде.",
+    "ans": ["I already said no — no more sweets.", "I’ve already said no, no more candy.", "I said no already. No more sweets today."],
+    "keys": { "солодке": "sweet*|candy|candies|chocolate*", "вже": "already" }
+   }
+  ]
+ },
+ {
+  "id": 2763, "w": "practice self-care", "uk": "дбати про себе, практикувати турботу про себе", "lvl": "B2",
+  "forms": "practice/practise|practices/practises|practiced/practised|practiced/practised|practicing/practising",
+  "tail": "self*",
+  "near": "take care of myself|look after myself|pamper*|treat myself",
+  "tasks": [
+   {
+    "sit": "Після народження дитини ти зовсім забув про себе. Ділишся з другом, що змінюєш.",
+    "say": "Я намагаюся хоч трохи дбати про себе щодня.",
+    "ans": ["I try to practice self-care every day.", "I’m trying to practice a bit of self-care every day.", "I try to practice some self-care daily, even just a little."],
+    "keys": { "щодня": "every day|daily|each day" }
+   },
+   {
+    "sit": "На вебінарі про вигорання ти ставиш запитання спікерці.",
+    "say": "Як практикувати турботу про себе, коли немає часу?",
+    "ans": ["How can I practice self-care when I have no time?", "How do you practice self-care if you don’t have time?", "How do you practice self-care when you’re super busy?"],
+    "keys": { "немає часу": "time|busy" }
+   },
+   {
+    "sit": "Подруга вважає, що ванна з піною й серіал — це марнування часу.",
+    "say": "Це не лінь — я практикую турботу про себе.",
+    "ans": ["It’s not laziness — I’m practicing self-care.", "I’m not being lazy, I’m practicing self-care.", "It’s not lazy, it’s me practicing self-care!"],
+    "keys": { "лінь": "laz*" }
+   }
+  ]
+ },
+ {
+  "id": 2765, "w": "paint your nails", "uk": "фарбувати нігті", "lvl": "A2",
+  "forms": "paint|paints|painted|painted|painting",
+  "tail": "nail*",
+  "near": "polish*|do my nails|do your nails|manicure*|get my nails done",
+  "tasks": [
+   {
+    "sit": "Молодша сестра просить тебе допомогти зібратися на випускний.",
+    "say": "Давай я пофарбую тобі нігті в червоний.",
+    "ans": ["Let me paint your nails red.", "I can paint your nails red if you want.", "Come here, I’ll paint your nails red."],
+    "keys": { "червоний": "red" }
+   },
+   {
+    "sit": "Колега питає, у якому салоні ти робиш такий гарний манікюр.",
+    "say": "Ні, я фарбую нігті вдома — так дешевше.",
+    "ans": ["No, I paint my nails at home — it’s cheaper.", "No, I paint my own nails at home, it’s cheaper.", "Nope, I just paint my nails at home. Way cheaper."],
+    "keys": { "вдома": "home|myself", "дешевше": "cheap*|save*|money" }
+   },
+   {
+    "sit": "Молодший брат-рокер хоче пофарбувати нігті в чорний перед концертом. Мама проти, а ти на його боці.",
+    "say": "Нехай фарбує нігті в чорний, це ж просто лак.",
+    "ans": ["Let him paint his nails black — it’s just polish.", "He can paint his nails black, it’s only nail polish.", "Just let him paint his nails black, it’s only polish."],
+    "keys": { "чорний": "black" }
+   }
+  ]
+ },
+ {
+  "id": 2766, "w": "visit a barber", "uk": "сходити до перукаря (барбера)", "lvl": "A2",
+  "forms": "visit|visits|visited|visited|visiting",
+  "tail": "barber*",
+  "near": "haircut*|hairdresser*|go to the barber|went to the barber|cut my hair",
+  "tasks": [
+   {
+    "sit": "Колега помітив, що ти виглядаєш охайніше, ніж зазвичай.",
+    "say": "Так, учора сходив до барбера.",
+    "ans": ["Yeah, I visited a barber yesterday.", "Yes, I visited the barber yesterday.", "Yeah, I finally visited a barber yesterday."],
+    "keys": { "вчора": "yesterday" }
+   },
+   {
+    "sit": "Ти у відрядженні на місяць і питаєш на рецепції готелю пораду.",
+    "say": "Де тут поблизу можна сходити до хорошого барбера?",
+    "ans": ["Where can I visit a good barber around here?", "Where’s a good place nearby to visit a barber?", "Any tips on where to visit a good barber around here?"],
+    "keys": { "поблизу": "here|nearby|near|close|around" }
+   },
+   {
+    "sit": "Друг питає, як ти доглядаєш за бородою.",
+    "say": "Раз на три тижні я ходжу до барбера.",
+    "ans": ["I visit a barber every three weeks.", "Every three weeks, I visit the barber.", "I visit my barber every three weeks or so."],
+    "keys": { "три": "three|3", "тижні": "week*" }
+   }
+  ]
+ },
+ {
+  "id": 2767, "w": "book a spa day", "uk": "забронювати спа-день", "lvl": "B2",
+  "forms": "book|books|booked|booked|booking",
+  "tail": "spa day*",
+  "near": "reserve*|reservation*|pamper*|spa trip",
+  "tasks": [
+   {
+    "sit": "У сестри скоро день народження, і ти шукаєш подарунок.",
+    "say": "Я забронюю їй спа-день.",
+    "ans": ["I’ll book her a spa day.", "I’m going to book a spa day for her.", "I think I’ll book her a spa day as a gift."],
+    "keys": { "їй": "her" }
+   },
+   {
+    "sit": "Ти щойно закрив великий проєкт і вирішив себе порадувати.",
+    "say": "Я забронював собі спа-день на суботу.",
+    "ans": ["I booked myself a spa day for Saturday.", "I’ve booked a spa day for Saturday.", "I just booked a spa day this Saturday — I deserve it."],
+    "keys": { "субота": "saturday*" }
+   },
+   {
+    "sit": "Ви з подругами плануєте дівич-вечір для нареченої.",
+    "say": "Може, замість вечірки забронюємо спа-день?",
+    "ans": ["Maybe we could book a spa day instead of a party?", "What if we book a spa day instead of a party?", "How about we book a spa day instead of a party?"],
+    "keys": { "замість вечірки": "instead|party|rather" }
+   }
+  ]
+ },
+ {
+  "id": 2768, "w": "scrub in", "uk": "мити руки перед операцією", "lvl": "C1",
+  "forms": "scrub|scrubs|scrubbed|scrubbed|scrubbing",
+  "tail": "in",
+  "near": "wash my hands|wash your hands|wash hands|washed my hands|disinfect*|sanitiz*|saniti*",
+  "tasks": [
+   {
+    "sit": "Ти хірург. Медсестра каже, що пацієнта вже везуть в операційну.",
+    "say": "Добре, помию руки — і за п’ять хвилин буду в операційній.",
+    "ans": ["Okay, I’ll scrub in and be in the OR in five minutes.", "Fine, I’ll scrub in — see you in the OR in five.", "Got it, I’ll scrub in and be there in five minutes."],
+    "keys": { "п’ять": "five|5" }
+   },
+   {
+    "sit": "Ти студент-медик, і хірург уперше дозволяє тобі асистувати на операції.",
+    "say": "Мені теж треба помити руки перед операцією?",
+    "ans": ["Do I need to scrub in too?", "Should I scrub in as well?", "Am I supposed to scrub in too?"],
+    "keys": { "теж": "too|also|as well" }
+   },
+   {
+    "sit": "Ви з другом дивитеся медичний серіал, і ти пояснюєш деталі.",
+    "say": "Перед операцією хірурги миють руки кілька хвилин.",
+    "ans": ["Surgeons scrub in for several minutes before surgery.", "Before an operation, surgeons scrub in for a few minutes.", "They scrub in for a good few minutes before surgery, you know."],
+    "keys": { "хвилини": "minute*", "операція": "surger*|operat*" }
+   }
+  ]
+ },
+ {
+  "id": 2769, "w": "take a selfie", "uk": "зробити селфі", "lvl": "A2",
+  "forms": "take|takes|took|taken|taking",
+  "tail": "selfie*",
+  "near": "photo*|picture*|snap*|pic|pics",
+  "tasks": [
+   {
+    "sit": "Ви з друзями нарешті дійшли до Ейфелевої вежі.",
+    "say": "Давайте зробимо селфі на тлі вежі!",
+    "ans": ["Let’s take a selfie with the tower!", "Let’s take a selfie in front of the tower!", "Come on, let’s take a selfie with the tower behind us!"],
+    "keys": { "вежа": "tower" }
+   },
+   {
+    "sit": "Ти зустрів улюбленого футболіста в аеропорту.",
+    "say": "Можна з вами зробити селфі?",
+    "ans": ["Can I take a selfie with you?", "Could I take a selfie with you, please?", "Would you mind if I took a selfie with you?"],
+    "keys": { "з вами": "you" }
+   },
+   {
+    "sit": "Ти працюєш у музеї, а відвідувач переліз через мотузку до картини.",
+    "say": "Тут не можна робити селфі — відійдіть, будь ласка.",
+    "ans": ["You can’t take a selfie here — please step back.", "You’re not allowed to take selfies here, please move back.", "Sorry, no taking selfies here. Please step back."],
+    "keys": { "не можна": "not|no", "тут": "here" }
+   }
+  ]
+ },
+ {
+  "id": 2770, "w": "pose for a photo", "uk": "позувати для фото", "lvl": "A2",
+  "forms": "pose|poses|posed|posed|posing",
+  "tail": "for photo*/picture*/pic*/camera",
+  "near": "smile for|say cheese|stand still|model*",
+  "tasks": [
+   {
+    "sit": "Ти фотограф на весіллі й збираєш рідних нареченої.",
+    "say": "Станьте ближче одне до одного й позуйте для фото!",
+    "ans": ["Stand closer together and pose for the photo!", "Move in closer and pose for a photo, please!", "Squeeze in a bit closer and pose for the picture!"],
+    "keys": { "ближче": "closer|together|squeeze" }
+   },
+   {
+    "sit": "Ти хочеш опублікувати фото свого кота, але він постійно тікає від камери.",
+    "say": "Мій кіт ніколи не позує для фото.",
+    "ans": ["My cat never poses for photos.", "My cat will never pose for a photo.", "My cat just refuses to pose for pictures."],
+    "keys": { "кіт": "cat*", "ніколи": "never|refus*|not" }
+   },
+   {
+    "sit": "На фестивалі ти в національному костюмі, і туристи просять сфотографуватися з тобою.",
+    "say": "Я вже годину позую для фото з туристами.",
+    "ans": ["I’ve been posing for photos with tourists for an hour.", "For an hour now, I’ve been posing for pictures with tourists.", "I’ve spent a whole hour posing for photos with tourists."],
+    "keys": { "туристи": "tourist*|visitor*", "годину": "hour" }
+   }
+  ]
+ },
+ {
+  "id": 2771, "w": "do a photoshoot", "uk": "зробити (провести) фотосесію", "lvl": "B2",
+  "forms": "do|does|did|done|doing",
+  "tail": "photoshoot*/shoot*",
+  "near": "have a photoshoot|had a photoshoot|photograph*|take photos|took photos|photo session",
+  "tasks": [
+   {
+    "sit": "Ти відкриваєш власну пекарню й готуєш сайт.",
+    "say": "Хочу зробити фотосесію наших тортів для сайту.",
+    "ans": ["I want to do a photoshoot of our cakes for the website.", "I’d like to do a photoshoot of our cakes for the site.", "We should do a proper photoshoot of our cakes for the website."],
+    "keys": { "торти": "cake*", "сайт": "site|website|web*|online" }
+   },
+   {
+    "sit": "Знайома фотографка питає, чи ти вільний у неділю.",
+    "say": "Так! Давай зробимо фотосесію в парку.",
+    "ans": ["Yes! Let’s do a photoshoot in the park.", "Sure, let’s do a photoshoot at the park!", "Totally! We could do a photoshoot in the park."],
+    "keys": { "парк": "park*" }
+   },
+   {
+    "sit": "Ви з партнером показуєте друзям весільний альбом.",
+    "say": "Ми зробили фотосесію в горах перед весіллям.",
+    "ans": ["We did a photoshoot in the mountains before the wedding.", "Before the wedding, we did a photoshoot in the mountains.", "We did this amazing photoshoot in the mountains before the wedding."],
+    "keys": { "гори": "mountain*", "весілля": "wedding*" }
+   }
+  ]
+ },
+ {
+  "id": 2772, "w": "grow a beard", "uk": "відрощувати бороду", "lvl": "B1",
+  "forms": "grow|grows|grew|grown|growing",
+  "tail": "beard*",
+  "near": "stop shaving|stopped shaving|mustache|moustache|let it grow",
+  "tasks": [
+   {
+    "sit": "Друг не впізнав тебе після зимових канікул.",
+    "say": "Я відростив бороду за зиму.",
+    "ans": ["I grew a beard over the winter.", "I’ve grown a beard this winter.", "Yeah, I grew a beard over winter."],
+    "keys": { "зима": "winter" }
+   },
+   {
+    "sit": "Ти розглядаєш старі фото свого тата.",
+    "say": "Тато відростив бороду, коли йому було двадцять.",
+    "ans": ["Dad grew a beard when he was twenty.", "My dad grew a beard at twenty.", "My dad grew a beard back when he was twenty."],
+    "keys": { "тато": "dad*|father*", "двадцять": "twenty|20" }
+   },
+   {
+    "sit": "Ти актор, і режисер хоче, щоб для нової ролі в тебе була борода.",
+    "say": "Мені треба відростити бороду до початку зйомок.",
+    "ans": ["I need to grow a beard before filming starts.", "I have to grow a beard before we start shooting.", "I’ve got to grow a beard for the shoot."],
+    "keys": { "зйомки": "film*|shoot*|role|part" }
+   }
+  ]
+ },
+ {
+  "id": 2773, "w": "shave your beard", "uk": "поголити бороду", "lvl": "B1",
+  "forms": "shave|shaves|shaved|shaved|shaving",
+  "tail": "beard*/it",
+  "near": "trim*|cut off|clean-shaven",
+  "tasks": [
+   {
+    "sit": "Бабуся просить тебе прийти на її ювілей охайним.",
+    "say": "Добре, я поголю бороду перед святом.",
+    "ans": ["Okay, I’ll shave my beard before the party.", "Fine, I’m going to shave my beard for the party.", "All right, I’ll shave my beard before the celebration."],
+    "keys": { "свято": "party|celebrat*|anniversary|birthday|event" }
+   },
+   {
+    "sit": "Колеги не впізнали тебе на ранковій нараді.",
+    "say": "Так, я поголив бороду — тепер виглядаю на десять років молодшим.",
+    "ans": ["Yes, I shaved my beard — now I look ten years younger.", "I shaved my beard, and now I look ten years younger.", "Yeah, I shaved my beard off. I look ten years younger now!"],
+    "keys": { "молодшим": "young*" }
+   },
+   {
+    "sit": "Ти йдеш на військову службу, і друг питає, що зміниться.",
+    "say": "Мені доведеться поголити бороду.",
+    "ans": ["I’ll have to shave my beard.", "I’m going to have to shave my beard.", "I guess I’ll have to shave my beard off."],
+    "keys": { "доведеться": "have to|must|need*|got to" }
+   }
+  ]
+ },
+ {
+  "id": 2774, "w": "floss daily", "uk": "користуватися зубною ниткою щодня", "lvl": "B2",
+  "forms": "floss|flosses|flossed|flossed|flossing",
+  "tail": "daily/every",
+  "near": "brush*|toothpick*|mouthwash",
+  "tasks": [
+   {
+    "sit": "Стоматолог показує тобі, що ясна кровоточать.",
+    "say": "Обіцяю, тепер я буду користуватися зубною ниткою щодня.",
+    "ans": ["I promise I’ll floss daily from now on.", "From now on, I promise to floss every day.", "Okay, I promise — I’ll floss every single day now."],
+    "keys": { "обіцяю": "promise*", "тепер": "now" }
+   },
+   {
+    "sit": "Ти стоматолог, і пацієнт питає, як уникнути карієсу.",
+    "say": "Чистьте зуби двічі на день і щодня користуйтеся ниткою.",
+    "ans": ["Brush twice a day and floss daily.", "Brush your teeth twice a day and floss every day.", "Just brush twice a day and floss daily, that’s it."],
+    "keys": { "двічі": "twice|two times|2", "чистити": "brush*" }
+   },
+   {
+    "sit": "Син-підліток просить не змушувати його користуватися зубною ниткою.",
+    "say": "Якщо щодня користуватимешся ниткою, менше ходитимеш до стоматолога.",
+    "ans": ["If you floss daily, you won’t have to see the dentist so often.", "Floss every day and you’ll go to the dentist less.", "If you floss every day, you’ll have fewer dentist visits."],
+    "keys": { "стоматолог": "dentist*" }
+   }
+  ]
+ },
+ {
+  "id": 2775, "w": "gargle with salt water", "uk": "полоскати горло солоною водою", "lvl": "B2",
+  "forms": "gargle|gargles|gargled|gargled|gargling",
+  "tail": "salt*/saline water",
+  "near": "rinse*|mouthwash|lozenge*",
+  "tasks": [
+   {
+    "sit": "Друг захрип і питає, що робити, бо до аптеки далеко.",
+    "say": "Полощи горло солоною водою кілька разів на день.",
+    "ans": ["Gargle with salt water a few times a day.", "Try gargling with salt water several times a day.", "Just gargle with some salt water a few times a day."],
+    "keys": { "кілька разів": "few|several|times|couple" }
+   },
+   {
+    "sit": "Лікар питає, чим ти лікуєш горло.",
+    "say": "Я полощу горло солоною водою і п’ю чай з медом.",
+    "ans": ["I gargle with salt water and drink tea with honey.", "I’ve been gargling with salt water and drinking honey tea.", "I gargle with salt water and have tea with honey."],
+    "keys": { "чай": "tea", "мед": "honey" }
+   },
+   {
+    "sit": "Ти звукорежисер, а співачка за годину до концерту втратила голос.",
+    "say": "Ти вже полоскала горло солоною водою? Іноді це допомагає.",
+    "ans": ["Have you gargled with salt water? Sometimes it helps.", "Did you try gargling with salt water? It sometimes helps.", "Have you tried gargling with salt water yet? It can help."],
+    "keys": { "допомагає": "help*" }
+   }
+  ]
+ },
+ {
+  "id": 2776, "w": "buckle down", "uk": "серйозно взятися (за навчання, роботу)", "lvl": "C1",
+  "forms": "buckle|buckles|buckled|buckled|buckling",
+  "tail": "down",
+  "near": "focus*|concentrat*|get serious|knuckle down|knuckled down|hit the books|get to work",
+  "tasks": [
+   {
+    "sit": "До сесії два тижні, а ти ще жодного разу не відкривав конспекти.",
+    "say": "Мені треба серйозно взятися за навчання.",
+    "ans": ["I need to buckle down and study.", "I really have to buckle down and start studying.", "Time to buckle down and study, seriously."],
+    "keys": { "навчання": "stud*|learn*|exam*" }
+   },
+   {
+    "sit": "Ти тренуєш футбольну команду, яка програла третю гру поспіль.",
+    "say": "Хлопці, час серйозно взятися за справу.",
+    "ans": ["Guys, it’s time to buckle down.", "Guys, we need to buckle down and get to work.", "Come on, guys, time to buckle down."],
+    "keys": { "хлопці": "guys|boys|team|lads|everyone" }
+   },
+   {
+    "sit": "Твій брат провалив перший семестр, а в другому отримав самі п’ятірки.",
+    "say": "Після першого семестру він серйозно взявся за навчання.",
+    "ans": ["After the first semester, he buckled down.", "He buckled down after his first semester.", "He really buckled down after that first semester."],
+    "keys": { "семестр": "semester*|term" }
+   }
+  ]
+ },
+ {
+  "id": 2777, "w": "hit the books", "uk": "засісти за книги (навчання)", "lvl": "C1",
+  "forms": "hit|hits|hit|hit|hitting",
+  "tail": "books",
+  "near": "study|studied|studying|buckle down|cram*|revis*",
+  "tasks": [
+   {
+    "sit": "Друзі кличуть тебе в бар, а завтра іспит.",
+    "say": "Не можу, мені треба засісти за книги.",
+    "ans": ["I can’t, I have to hit the books.", "Sorry, I can’t — I need to hit the books.", "Not tonight, guys — I’ve got to hit the books."],
+    "keys": { "не можу": "not|sorry" }
+   },
+   {
+    "sit": "Ти повертаєшся з літньої подорожі, а через тиждень починається навчання.",
+    "say": "Канікули скінчилися, пора засідати за книги.",
+    "ans": ["The holidays are over — time to hit the books.", "Vacation’s over, so it’s time to hit the books.", "Well, summer’s over. Time to hit the books!"],
+    "keys": { "скінчилися": "over|end*|done" }
+   },
+   {
+    "sit": "Твоя подруга в тридцять років вирішила вступати на медичний.",
+    "say": "Вона щовечора після роботи сидить за книгами.",
+    "ans": ["She hits the books every night after work.", "Every evening after work, she hits the books.", "She hits the books every single night after work."],
+    "keys": { "щовечора": "night*|evening*", "після роботи": "work" }
+   }
+  ]
+ },
+ {
+  "id": 2778, "w": "take a break", "uk": "робити перерву", "lvl": "A2",
+  "forms": "take|takes|took|taken|taking",
+  "tail": "break*",
+  "near": "rest*|pause*|breather|time off",
+  "tasks": [
+   {
+    "sit": "Ви вже три години розбираєте гараж.",
+    "say": "Давай зробимо перерву на каву.",
+    "ans": ["Let’s take a break for coffee.", "Let’s take a coffee break.", "How about we take a break and grab a coffee?"],
+    "keys": { "кава": "coffee" }
+   },
+   {
+    "sit": "Ти викладаєш онлайн, і студент питає, чи буде пауза.",
+    "say": "Так, о пів на дванадцяту ми зробимо десятихвилинну перерву.",
+    "ans": ["Yes, we’ll take a ten-minute break at half past eleven.", "Yes, at 11:30 we’ll take a ten-minute break.", "Sure, we’ll take a quick ten-minute break at 11:30."],
+    "keys": { "десять хвилин": "ten*|10*" }
+   },
+   {
+    "sit": "Друг-програміст уже дві години тре очі й не може знайти баг.",
+    "say": "Зроби перерву — може, свіжим поглядом побачиш помилку.",
+    "ans": ["Take a break — maybe you’ll see the bug with fresh eyes.", "You should take a break, you might spot the mistake with fresh eyes.", "Take a break, man. You’ll spot the bug with fresh eyes."],
+    "keys": { "помилка": "bug*|mistake*|error*|problem*", "свіжий": "fresh*" }
+   }
+  ]
+ },
+ {
+  "id": 2779, "w": "clock the time", "uk": "засікати час", "lvl": "B2",
+  "forms": "clock|clocks|clocked|clocked|clocking",
+  "tail": "time*",
+  "near": "time it|time me|timed|stopwatch|measure*|track*",
+  "tasks": [
+   {
+    "sit": "Ти бігаєш на стадіоні й просиш друга допомогти.",
+    "say": "Засічеш мені час на цьому колі?",
+    "ans": ["Can you clock my time on this lap?", "Could you clock my time for this lap?", "Hey, will you clock my time on this lap?"],
+    "keys": { "коло": "lap*|round" }
+   },
+   {
+    "sit": "Ви з донькою змагаєтеся, хто швидше збере пазл.",
+    "say": "Я засікаю час — готова? Почали!",
+    "ans": ["I’ll clock the time — ready? Go!", "I’m clocking the time. Ready? Start!", "Okay, I’m clocking the time — ready, set, go!"],
+    "keys": { "готова": "ready" }
+   },
+   {
+    "sit": "Ти репетируєш презентацію, яка має тривати не більше десяти хвилин.",
+    "say": "Засічи, будь ласка, час, поки я говорю.",
+    "ans": ["Could you clock the time while I’m talking?", "Can you clock the time while I present?", "Clock the time for me while I run through it, okay?"],
+    "keys": { "поки я говорю": "talk*|speak*|present*|run through|go through" }
+   }
+  ]
+ },
+ {
+  "id": 2780, "w": "unwind on the couch", "uk": "розслабитися на дивані", "lvl": "B2",
+  "forms": "unwind|unwinds|unwound|unwound|unwinding",
+  "tail": "couch/sofa",
+  "near": "relax*|chill*|rest*|veg out|lounge*",
+  "tasks": [
+   {
+    "sit": "Після дванадцятигодинної зміни друг кличе тебе в клуб.",
+    "say": "Дякую, але сьогодні я просто хочу розслабитися на дивані.",
+    "ans": ["Thanks, but tonight I just want to unwind on the couch.", "Thanks, but I’d rather unwind on the couch tonight.", "Thanks, but I’m just going to unwind on the couch tonight."],
+    "keys": { "сьогодні": "tonight|today|evening" }
+   },
+   {
+    "sit": "Партнер питає, яким ти уявляєш ідеальний недільний вечір.",
+    "say": "Хочу розслабитися на дивані з піцою й фільмом.",
+    "ans": ["I want to unwind on the couch with pizza and a movie.", "I’d love to unwind on the couch with some pizza and a film.", "Honestly? Unwind on the couch with pizza and a good movie."],
+    "keys": { "піца": "pizza*", "фільм": "movie*|film*|show*|series" }
+   },
+   {
+    "sit": "Ти розповідаєш колезі про свої вечірні звички.",
+    "say": "Після роботи я годину розслабляюся на дивані, а потім готую вечерю.",
+    "ans": ["After work, I unwind on the couch for an hour, then make dinner.", "I unwind on the couch for an hour after work before I cook dinner.", "After work I unwind on the couch for an hour, and then I cook."],
+    "keys": { "година": "hour", "вечеря": "dinner|cook*|supper" }
+   }
+  ]
+ },
+ {
+  "id": 2781, "w": "draw the curtains", "uk": "засмикнути штори", "lvl": "A2",
+  "forms": "draw|draws|drew|drawn|drawing",
+  "tail": "curtain*",
+  "near": "close*|shut*|pull*",
+  "tasks": [
+   {
+    "sit": "Сонце світить прямо в екран, коли ви дивитеся фільм.",
+    "say": "Засмикни, будь ласка, штори, нічого не видно.",
+    "ans": ["Could you draw the curtains? I can’t see anything.", "Please draw the curtains, I can’t see a thing.", "Can you draw the curtains? I can’t see the screen at all."],
+    "keys": { "не видно": "see" }
+   },
+   {
+    "sit": "Ти живеш у номері на першому поверсі, а повз вікно ходять люди.",
+    "say": "Я засмикну штори, щоб ніхто не заглядав.",
+    "ans": ["I’ll draw the curtains so no one can look in.", "Let me draw the curtains so people can’t see in.", "I’m going to draw the curtains so nobody peeks in."],
+    "keys": { "ніхто": "no one|nobody|people|anyone" }
+   },
+   {
+    "sit": "Ти гостюєш у бабусі, надворі вечоріє.",
+    "say": "Уже темніє — давай я засмикну штори.",
+    "ans": ["It’s getting dark — let me draw the curtains.", "It’s getting dark, so I’ll draw the curtains.", "It’s already dark out — I’ll draw the curtains."],
+    "keys": { "темніє": "dark*" }
+   }
+  ]
+ },
+ {
+  "id": 2782, "w": "open the blinds", "uk": "підняти (відкрити) жалюзі", "lvl": "A2",
+  "forms": "open|opens|opened|opened|opening",
+  "tail": "blind*",
+  "near": "raise*|pull up|pulled up|lift*",
+  "tasks": [
+   {
+    "sit": "Ранок, у кімнаті темно, а тобі треба розбудити сина до школи.",
+    "say": "Прокидайся, я відкриваю жалюзі!",
+    "ans": ["Wake up, I’m opening the blinds!", "Time to get up — I’m opening the blinds!", "Rise and shine, I’m opening the blinds!"],
+    "keys": { "прокидайся": "wake*|get up|rise*" }
+   },
+   {
+    "sit": "В офісі темно й похмуро, а колега сидить біля вікна.",
+    "say": "Можеш підняти жалюзі? Тут зовсім немає світла.",
+    "ans": ["Can you open the blinds? There’s no light in here.", "Could you open the blinds? It’s so dark in here.", "Mind opening the blinds? It’s really dark in here."],
+    "keys": { "світло": "light|dark*" }
+   },
+   {
+    "sit": "Ти оглядаєш квартиру для оренди разом з агентом.",
+    "say": "Підніміть, будь ласка, жалюзі, хочу побачити краєвид.",
+    "ans": ["Could you open the blinds, please? I want to see the view.", "Please open the blinds — I’d like to see the view.", "Can you open the blinds? I want to check out the view."],
+    "keys": { "краєвид": "view*|outside|scenery" }
+   }
+  ]
+ },
+ {
+  "id": 2783, "w": "take the trash out", "uk": "винести сміття", "lvl": "A2",
+  "forms": "take|takes|took|taken|taking",
+  "tail": "trash/garbage/rubbish out",
+  "near": "throw away|throw out|threw out|dump*|empty the bin*",
+  "tasks": [
+   {
+    "sit": "Партнер уже в дверях, а на кухні стоїть повний пакет зі сміттям.",
+    "say": "Винеси, будь ласка, сміття, коли виходитимеш!",
+    "ans": ["Can you take the trash out on your way?", "Please take out the trash when you leave!", "Hey, take the trash out on your way out, please!"],
+    "keys": { "коли виходитимеш": "way|leav*|go*" }
+   },
+   {
+    "sit": "Твій син питає, які в нього обов’язки вдома.",
+    "say": "Ти виносиш сміття щовечора.",
+    "ans": ["You take the trash out every evening.", "Every evening, you take out the trash.", "Your job is to take the trash out every night."],
+    "keys": { "щовечора": "evening*|night*" }
+   },
+   {
+    "sit": "Ти заходиш на кухню, а там неприємно пахне.",
+    "say": "Здається, хтось забув винести сміття.",
+    "ans": ["I think someone forgot to take the trash out.", "Looks like somebody forgot to take out the trash.", "Seems like someone forgot to take the garbage out."],
+    "keys": { "забув": "forg*", "хтось": "someone|somebody|anyone|you" }
+   }
+  ]
+ },
+ {
+  "id": 2784, "w": "empty the bins", "uk": "вибрати (спорожнити) смітники", "lvl": "B1",
+  "forms": "empty|empties|emptied|emptied|emptying",
+  "tail": "bin*/trash/garbage/wastebasket*",
+  "near": "take out the trash|took out the trash|take the trash out|clear out",
+  "tasks": [
+   {
+    "sit": "Ти адміністратор хостелу й даєш завдання новому працівникові.",
+    "say": "Спочатку вибери смітники в усіх кімнатах.",
+    "ans": ["First, empty the bins in all the rooms.", "Start by emptying the bins in every room.", "First thing, empty all the bins in the rooms."],
+    "keys": { "кімнати": "room*" }
+   },
+   {
+    "sit": "Сусідка скаржиться, що біля будинку смердить.",
+    "say": "Смітники не вибирали вже тиждень.",
+    "ans": ["Nobody has emptied the bins for a week.", "They haven’t emptied the bins in a week.", "They haven’t emptied the bins in over a week!"],
+    "keys": { "тиждень": "week" }
+   },
+   {
+    "sit": "Ви з сусідом по квартирі домовляєтеся про обов’язки.",
+    "say": "Я мию посуд, а ти вибираєш смітники, окей?",
+    "ans": ["I’ll do the dishes, and you empty the bins, okay?", "I do the dishes and you empty the bins — deal?", "How about I wash up and you empty the bins?"],
+    "keys": { "посуд": "dish*|wash*" }
+   }
+  ]
+ },
+ {
+  "id": 2785, "w": "do the dishes", "uk": "мити посуд", "lvl": "A2",
+  "forms": "do|does|did|done|doing",
+  "tail": "dishes",
+  "near": "wash the dishes|washed the dishes|washing the dishes|wash up|washed up|washing up|clean the dishes",
+  "tasks": [
+   {
+    "sit": "Мама приготувала святкову вечерю для всієї родини.",
+    "say": "Мамо, відпочивай, я помию посуд.",
+    "ans": ["Mom, relax — I’ll do the dishes.", "Mom, go and rest, I’m doing the dishes.", "Sit down, Mom. I’ll do the dishes tonight."],
+    "keys": { "мама": "mom*|mum*|mother*" }
+   },
+   {
+    "sit": "Сусід по квартирі залишив у раковині гору брудних тарілок.",
+    "say": "Твоя черга мити посуд!",
+    "ans": ["It’s your turn to do the dishes!", "You’re doing the dishes — it’s your turn!", "Hey, it’s your turn to do the dishes, man!"],
+    "keys": { "черга": "turn" }
+   },
+   {
+    "sit": "Друг питає, що ви купили в нову квартиру.",
+    "say": "Ми купили посудомийку, тож я більше не мию посуд руками.",
+    "ans": ["We bought a dishwasher, so I don’t do the dishes by hand anymore.", "We got a dishwasher — now I don’t have to do the dishes by hand.", "We got a dishwasher, so no more doing the dishes by hand!"],
+    "keys": { "посудомийка": "dishwasher*", "руками": "hand*" }
+   }
+  ]
+ }
+]

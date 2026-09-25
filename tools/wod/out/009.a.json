@@ -1,0 +1,634 @@
+[
+ {
+  "id": 416, "w": "prove", "uk": "доводити", "lvl": "B1",
+  "forms": "prove|proves|proved|proven/proved|proving",
+  "near": "show|shows|showed|shown|showing|demonstrat*|confirm*",
+  "tasks": [
+   {
+    "sit": "Ти сперечаєшся з братом, хто з вас швидше пробіжить до кінця вулиці. Він сміється з тебе.",
+    "say": "Зараз я тобі доведу, що ти помиляєшся!",
+    "ans": ["I’ll prove you wrong!", "I’m going to prove that you’re wrong!", "Just watch, I’ll prove you wrong!"],
+    "keys": { "помиляєшся": "wrong|mistaken" }
+   },
+   {
+    "sit": "На лекції з фізики студент сумнівається в теорії. Викладач відповідає.",
+    "say": "Цю теорію довели експериментами.",
+    "ans": ["This theory was proved by experiments.", "Experiments have proven this theory.", "They’ve proven this theory with experiments."],
+    "keys": { "теорія": "theor*", "експерименти": "experiment*|test*|research" }
+   },
+   {
+    "sit": "Тебе звинувачують у тому, що ти пошкодив чужу машину на парковці. У тебе є записи з камери.",
+    "say": "Я можу довести, що мене там не було.",
+    "ans": ["I can prove I wasn’t there.", "I can prove that I was not there.", "Look, I can prove I wasn’t even there."],
+    "keys": { "не було": "not there|not even there|somewhere else|elsewhere" }
+   }
+  ]
+ },
+ {
+  "id": 417, "w": "deduce", "uk": "робити висновок, вираховувати", "lvl": "C1",
+  "forms": "deduce|deduces|deduced|deduced|deducing",
+  "near": "conclude*|concluding|figure*|figuring|work* out|infer*|guess*",
+  "tasks": [
+   {
+    "sit": "Ви з друзями розвʼязуєте детективну гру. Ти склав усі підказки докупи.",
+    "say": "З підказок я вирахував, хто вбивця.",
+    "ans": ["From the clues, I deduced who the killer was.", "I deduced who the murderer was from the clues.", "I’ve deduced who the killer is just from the clues."],
+    "keys": { "підказки": "clue*|hint*|evidence", "вбивця": "killer|murderer|culprit" }
+   },
+   {
+    "sit": "Колега не сказав, що звільняється, але ти помітив, що він прибирає свій стіл і прощається з усіма.",
+    "say": "З його поведінки я зробив висновок, що він іде з компанії.",
+    "ans": ["From his behavior, I deduced that he was leaving the company.", "I deduced he was leaving the company from the way he acted.", "Judging by how he acted, I deduced he was leaving the company."],
+    "keys": { "поведінка": "behavio*|acted|way he|how he", "іде з компанії": "leav*|quit*|company" }
+   },
+   {
+    "sit": "На уроці хімії ви мали визначити невідому речовину за результатами аналізу.",
+    "say": "Ми вирахували, що це сіль, за температурою плавлення.",
+    "ans": ["We deduced that it was salt from its melting point.", "From the melting point, we deduced it was salt.", "We deduced it had to be salt from the melting point."],
+    "keys": { "сіль": "salt", "температура плавлення": "melt*|temperature|point" }
+   }
+  ]
+ },
+ {
+  "id": 418, "w": "argue", "uk": "аргументувати, доводити свою позицію", "lvl": "B2",
+  "forms": "argue|argues|argued|argued|arguing",
+  "near": "claim*|insist*|maintain*|state*|stated|say*|said|justif*|defend*",
+  "tasks": [
+   {
+    "sit": "Ви з командою обговорюєте, чи варто переходити на віддалену роботу. Ти розповідаєш про свій виступ на нараді.",
+    "say": "Я аргументував, що віддалена робота заощадить гроші компанії.",
+    "ans": ["I argued that remote work would save the company money.", "I argued that working from home would save the company money.", "I argued that going remote would save us money."],
+    "keys": { "віддалена робота": "remote*|home", "заощадить гроші": "save*|money|cost*|cheaper" }
+   },
+   {
+    "sit": "Ти читаєш статтю економіста про ціни на житло й переказуєш її основну думку другові.",
+    "say": "Автор аргументує, що ціни на житло скоро впадуть.",
+    "ans": ["The author argues that house prices will fall soon.", "The author argues that housing prices are going to drop soon.", "He argues house prices will drop pretty soon."],
+    "keys": { "ціни на житло": "price*|housing|house*", "впадуть": "fall|drop|go down|decrease|decline" }
+   },
+   {
+    "sit": "Ти дивився судове засідання по телевізору. Захист дуже переконливо виступав.",
+    "say": "Адвокат блискуче аргументував свою позицію.",
+    "ans": ["The lawyer argued his case brilliantly.", "The defense lawyer argued the case really well.", "Wow, the lawyer argued his case brilliantly."],
+    "keys": { "адвокат": "lawyer|attorney|defen*|counsel", "позиція": "case|point|position|side" }
+   }
+  ]
+ },
+ {
+  "id": 419, "w": "justify", "uk": "обґрунтовувати, виправдовувати", "lvl": "B2",
+  "forms": "justify|justifies|justified|justified|justifying",
+  "near": "explain*|excuse*|defend*|support*|back up|backed up",
+  "tasks": [
+   {
+    "sit": "На співбесіді тебе питають, чому ти хочеш саме таку зарплату.",
+    "say": "Я можу обґрунтувати цю суму своїм досвідом.",
+    "ans": ["I can justify this amount with my experience.", "My experience justifies this salary.", "I think my experience justifies that number."],
+    "keys": { "сума": "amount|salary|sum|number|figure|pay", "досвід": "experience" }
+   },
+   {
+    "sit": "Твій друг кричав на офіціанта, бо той переплутав замовлення. Потім він каже, що мав право.",
+    "say": "Ніщо не виправдовує такої грубості.",
+    "ans": ["Nothing justifies being so rude.", "Nothing can justify that kind of rudeness.", "Come on, nothing justifies being that rude."],
+    "keys": { "ніщо": "nothing|no|not", "грубість": "rude*|rudeness|shout*|yell*" }
+   },
+   {
+    "sit": "Викладач повертає тобі контрольну: відповідь правильна, але балів мало.",
+    "say": "Вам треба було обґрунтувати відповідь.",
+    "ans": ["You needed to justify your answer.", "You should have justified your answer.", "You had to justify your answer, that’s why."],
+    "keys": { "відповідь": "answer*|solution|result" }
+   }
+  ]
+ },
+ {
+  "id": 420, "w": "anticipate", "uk": "передбачати, очікувати (заздалегідь)", "lvl": "C1",
+  "forms": "anticipate|anticipates|anticipated|anticipated|anticipating",
+  "near": "expect*|foresee*|foresaw|predict*|see it coming|saw it coming",
+  "tasks": [
+   {
+    "sit": "Ти керуєш проєктом і пишеш план запуску нового сайту для клієнта.",
+    "say": "Ми передбачаємо деякі затримки на початку.",
+    "ans": ["We anticipate some delays at the start.", "We’re anticipating a few delays at the beginning.", "We do anticipate some delays early on."],
+    "keys": { "затримки": "delay*|late|problem*", "на початку": "start*|beginning|begin*|early|first" }
+   },
+   {
+    "sit": "Готуєшся до важливих переговорів і проходиш список можливих запитань з колегою.",
+    "say": "Нам треба передбачити їхні заперечення.",
+    "ans": ["We need to anticipate their objections.", "We have to anticipate what objections they’ll raise.", "Let’s try to anticipate their objections."],
+    "keys": { "заперечення": "objection*|question*|concern*|push*" }
+   },
+   {
+    "sit": "Ви з друзями організували фестиваль у парку. Прийшло втричі більше людей, ніж планували.",
+    "say": "Ми не передбачили, що прийде стільки людей.",
+    "ans": ["We didn’t anticipate so many people.", "We hadn’t anticipated that so many people would come.", "Honestly, we never anticipated this many people."],
+    "keys": { "не": "not|never", "стільки людей": "many|crowd*|people" }
+   }
+  ]
+ },
+ {
+  "id": 421, "w": "foresee", "uk": "передбачати (майбутнє)", "lvl": "C1",
+  "forms": "foresee|foresees|foresaw|foreseen|foreseeing",
+  "near": "anticipat*|expect*|predict*|see it coming|saw it coming|seen it coming",
+  "tasks": [
+   {
+    "sit": "Ви обговорюєте з колегами, як компанія пережила фінансову кризу.",
+    "say": "Ніхто не міг передбачити цю кризу.",
+    "ans": ["Nobody could foresee this crisis.", "No one could have foreseen this crisis.", "Honestly, nobody could’ve foreseen a crisis like this."],
+    "keys": { "ніхто": "nobody|no one|none", "криза": "crisis" }
+   },
+   {
+    "sit": "Друг питає, чи будуть проблеми, якщо ви поїдете в гори на старій машині.",
+    "say": "Я не передбачаю жодних проблем.",
+    "ans": ["I don’t foresee any problems.", "I foresee no problems at all.", "Nah, I don’t foresee any problems."],
+    "keys": { "жодних": "not|no|any", "проблеми": "problem*|issue*|trouble" }
+   },
+   {
+    "sit": "Ти читаєш старий фантастичний роман і дивуєшся, як точно автор описав смартфони.",
+    "say": "Автор передбачив появу смартфонів.",
+    "ans": ["The author foresaw smartphones.", "The writer foresaw the rise of smartphones.", "This guy foresaw smartphones decades ago!"],
+    "keys": { "смартфони": "smartphone*|phone*" }
+   }
+  ]
+ },
+ {
+  "id": 422, "w": "figure out", "uk": "розкумекати, додуматися", "lvl": "B2",
+  "forms": "figure|figures|figured|figured|figuring",
+  "tail": "out",
+  "near": "work* out|solv*|understand|understood|crack*|get it|got it",
+  "tasks": [
+   {
+    "sit": "Ти годину сидиш над складною головоломкою судоку. Нарешті всі цифри стали на місце.",
+    "say": "Ура, я нарешті розкумекав цю головоломку!",
+    "ans": ["Yes, I finally figured out this puzzle!", "I’ve finally figured this puzzle out!", "Yes! Finally figured the puzzle out!"],
+    "keys": { "нарешті": "finally|at last", "головоломка": "puzzle|sudoku|it" }
+   },
+   {
+    "sit": "Батьки купили новий телевізор і не можуть увімкнути субтитри. Вони дзвонять тобі.",
+    "say": "Не хвилюйтеся, я розберуся, як це працює.",
+    "ans": ["Don’t worry, I’ll figure out how it works.", "Don’t worry, I’ll figure it out.", "No worries, I’ll figure out how it works."],
+    "keys": { "не хвилюйтеся": "worry|worries|relax|fine" }
+   },
+   {
+    "sit": "У грі-квесті ви з друзями застрягли в кімнаті. Ти помічаєш дивні символи на стіні.",
+    "say": "Здається, я додумався, як відкрити двері!",
+    "ans": ["I think I’ve figured out how to open the door!", "I think I figured out how to open the door!", "Guys, I think I’ve figured out the door!"],
+    "keys": { "двері": "door*|lock*" }
+   }
+  ]
+ },
+ {
+  "id": 423, "w": "make sense of", "uk": "розібратися в, зрозуміти", "lvl": "B2",
+  "forms": "make|makes|made|made|making",
+  "tail": "sense of",
+  "near": "understand|understood|figure* out|work* out|get my head around|decipher*|interpret*",
+  "tasks": [
+   {
+    "sit": "Керівник надіслав тобі величезну таблицю з продажами без жодних пояснень.",
+    "say": "Я не можу розібратися в цих даних.",
+    "ans": ["I can’t make sense of this data.", "I can’t make sense of all these numbers.", "Honestly, I can’t make sense of this data at all."],
+    "keys": { "не": "not|never", "дані": "data|number*|figure*|spreadsheet|table" }
+   },
+   {
+    "sit": "Ти отримав лист від податкової, написаний складною юридичною мовою. Просиш допомоги в сусіда.",
+    "say": "Допоможіть мені розібратися в цьому листі.",
+    "ans": ["Can you help me make sense of this letter?", "Could you help me make sense of this letter, please?", "Help me make sense of this letter, please."],
+    "keys": { "допоможіть": "help", "лист": "letter|document|this" }
+   },
+   {
+    "sit": "Після розставання подруга довго не розуміла, що сталося. Тепер вона каже тобі, що їй стало легше.",
+    "say": "Мені потрібен був час, щоб розібратися в усьому, що сталося.",
+    "ans": ["I needed time to make sense of what happened.", "It took me time to make sense of everything that happened.", "I just needed some time to make sense of it all."],
+    "keys": { "час": "time|while" }
+   }
+  ]
+ },
+ {
+  "id": 424, "w": "admire", "uk": "захоплюватися", "lvl": "B2",
+  "forms": "admire|admires|admired|admired|admiring",
+  "near": "respect*|look up to|looked up to|love|loved|adore*|impress*",
+  "tasks": [
+   {
+    "sit": "Бабуся виростила трьох дітей сама й досі щодня допомагає сусідам. Ти розповідаєш про неї другові.",
+    "say": "Я завжди захоплювався її силою.",
+    "ans": ["I’ve always admired her strength.", "I always admired how strong she was.", "I’ve always really admired her strength."],
+    "keys": { "завжди": "always", "сила": "strength|strong" }
+   },
+   {
+    "sit": "На екскурсії в Карпатах ви зупинилися на вершині. Друзі поспішають униз, а ти не хочеш іти.",
+    "say": "Дайте мені ще хвилину помилуватися краєвидом.",
+    "ans": ["Give me another minute to admire the view.", "Let me admire the view for one more minute.", "Wait, just one more minute to admire the view."],
+    "keys": { "хвилина": "minute*|moment|second", "краєвид": "view|landscape|scenery|mountain*" }
+   },
+   {
+    "sit": "Колега прямо сказала керівникові, що його план не спрацює, і запропонувала кращий.",
+    "say": "Я захоплююся тим, як ти відстоюєш свою думку.",
+    "ans": ["I admire the way you stand up for your opinion.", "I admire how you stand up for your ideas.", "I really admire how you speak your mind."],
+    "keys": { "відстоюєш думку": "stand up|speak your mind|opinion*|idea*|view*|defend*" }
+   }
+  ]
+ },
+ {
+  "id": 425, "w": "resent", "uk": "обурюватися, ображатися", "lvl": "C1",
+  "forms": "resent|resents|resented|resented|resenting",
+  "near": "hate*|dislike*|angry|upset|offended|annoyed|mad",
+  "tasks": [
+   {
+    "sit": "На нараді колега натякнув, що ти отримав підвищення лише завдяки знайомствам.",
+    "say": "Мене обурює цей натяк.",
+    "ans": ["I resent that implication.", "I really resent what you’re implying.", "I resent that, actually."],
+    "keys": { "натяк": "implication|implying|imply|that|remark|comment" }
+   },
+   {
+    "sit": "Ти розповідаєш психологу про дитинство: батьки завжди ставили тобі в приклад старшого брата.",
+    "say": "Я довго ображався на батьків за це.",
+    "ans": ["I resented my parents for that for a long time.", "For years, I resented my parents for it.", "I resented my parents for that for a long time, to be honest."],
+    "keys": { "батьки": "parent*|mom|dad|mother|father", "довго": "long|years|while" }
+   },
+   {
+    "sit": "Сусіди постійно просять тебе поливати їхні квіти, але ніколи навіть не дякують.",
+    "say": "Мене дратує, що до мене ставляться як до прислуги.",
+    "ans": ["I resent being treated like a servant.", "I resent the way they treat me like their servant.", "Honestly, I resent being treated like the help."],
+    "keys": { "ставляться": "treat*", "прислуга": "servant|help|maid|slave" }
+   }
+  ]
+ },
+ {
+  "id": 426, "w": "despise", "uk": "зневажати", "lvl": "C1",
+  "forms": "despise|despises|despised|despised|despising",
+  "near": "hate*|detest*|loathe*|can not stand|could not stand|dislike*|look down on",
+  "tasks": [
+   {
+    "sit": "Ти згадуєш школу: один хлопець постійно знущався з молодших учнів.",
+    "say": "Я завжди зневажав людей, які ображають слабших.",
+    "ans": ["I’ve always despised people who pick on the weak.", "I always despised bullies who hurt weaker kids.", "I’ve always despised people who bully the weak."],
+    "keys": { "завжди": "always", "слабших": "weak*|young*|small*|bull*" }
+   },
+   {
+    "sit": "Під час ділової поїздки партнер пропонує тобі збрехати клієнту, щоб швидше закрити угоду.",
+    "say": "Я зневажаю брехню в бізнесі.",
+    "ans": ["I despise lying in business.", "I despise dishonesty in business.", "I despise people who lie to close a deal."],
+    "keys": { "брехня": "l*ing|lie*|dishonest*|cheat*" }
+   },
+   {
+    "sit": "Ти обговорюєш з подругою героя серіалу, який зрадив усіх своїх друзів заради грошей.",
+    "say": "Я його просто зневажаю.",
+    "ans": ["I just despise him.", "I simply despise that character.", "Honestly, I just despise the guy."],
+    "keys": { "його": "him|character|guy|man" }
+   }
+  ]
+ },
+ {
+  "id": 427, "w": "pity", "uk": "жаліти", "lvl": "B2",
+  "forms": "pity|pities|pitied|pitied|pitying",
+  "near": "feel sorry|felt sorry|sorry for|sympathi*|shame",
+  "tasks": [
+   {
+    "sit": "Колега розповідає про чоловіка, який через свою жадібність втратив усіх друзів.",
+    "say": "Мені його по-справжньому жаль.",
+    "ans": ["I really pity him.", "I truly pity that man.", "Honestly, I pity the guy."],
+    "keys": { "його": "him|man|guy" }
+   },
+   {
+    "sit": "Ти впав на ковзанці й зламав руку. Родичі дивляться на тебе з сумними обличчями.",
+    "say": "Не треба мене жаліти, я в порядку.",
+    "ans": ["Don’t pity me, I’m fine.", "You don’t need to pity me, I’m OK.", "Please stop pitying me — I’m totally fine."],
+    "keys": { "не треба": "not|stop|no need", "в порядку": "fine|ok|okay|alright|all right" }
+   },
+   {
+    "sit": "Ви з сестрою бачите у ветеринарній клініці худого бездомного пса, якого щойно привезли.",
+    "say": "Я жалію цього бідолашного пса.",
+    "ans": ["I pity this poor dog.", "I really pity that poor dog.", "Oh, I pity that poor dog."],
+    "keys": { "пес": "dog|puppy|pup" }
+   }
+  ]
+ },
+ {
+  "id": 428, "w": "sympathize", "uk": "співчувати", "lvl": "B2",
+  "forms": "sympathize/sympathise|sympathizes/sympathises|sympathized/sympathised|sympathized/sympathised|sympathizing/sympathising",
+  "near": "feel for|felt for|sorry|understand|understood|pity|pitied|relate",
+  "tasks": [
+   {
+    "sit": "Подруга скаржиться, що через ремонт у сусідів не спить уже тиждень.",
+    "say": "Я тобі співчуваю, у мене було таке саме.",
+    "ans": ["I sympathize with you, I had the same thing.", "I sympathize — the same thing happened to me.", "Oh, I totally sympathize, I went through the same thing."],
+    "keys": { "таке саме": "same" }
+   },
+   {
+    "sit": "На роботі клієнт скаржиться, що посилку затримали вже втретє. Ти ввічливо відповідаєш по телефону.",
+    "say": "Я розумію й співчуваю, але посилка ще на складі.",
+    "ans": ["I sympathize, but the parcel is still in the warehouse.", "I do sympathize, but your package is still at the warehouse.", "I really sympathize, but the parcel’s still in the warehouse."],
+    "keys": { "посилка": "parcel|package|order|delivery", "склад": "warehouse|depot|stock" }
+   },
+   {
+    "sit": "Ти обговорюєш з одногрупниками страйк учителів. Вони вимагають вищих зарплат.",
+    "say": "Я співчуваю вчителям.",
+    "ans": ["I sympathize with the teachers.", "I really sympathize with the teachers.", "Honestly, I sympathize with the teachers."],
+    "keys": { "вчителі": "teacher*" }
+   }
+  ]
+ },
+ {
+  "id": 430, "w": "crave", "uk": "дуже хотіти, жадати", "lvl": "B2",
+  "forms": "crave|craves|craved|craved|craving",
+  "near": "want*|dying for|desire*|long for|longing for|in the mood for|fancy",
+  "tasks": [
+   {
+    "sit": "Ти на дієті вже два тижні. Увечері в тебе думки лише про одне.",
+    "say": "Мене так тягне на шоколад!",
+    "ans": ["I’m craving chocolate so much!", "I really crave chocolate right now!", "Ugh, I’m craving chocolate so badly!"],
+    "keys": { "шоколад": "chocolate|sweet*" }
+   },
+   {
+    "sit": "Після місяця в поході ти нарешті повертаєшся в місто.",
+    "say": "Я страшенно хочу гарячий душ і нормальну їжу.",
+    "ans": ["I’m craving a hot shower and real food.", "I crave a hot shower and some proper food.", "I’m seriously craving a hot shower and a real meal."],
+    "keys": { "душ": "shower|bath", "їжа": "food|meal" }
+   },
+   {
+    "sit": "Колега-інтроверт після трьох днів конференції каже, що дуже втомився від людей.",
+    "say": "Я просто жадаю тиші й спокою.",
+    "ans": ["I just crave peace and quiet.", "I’m craving some peace and quiet.", "Right now I just crave a bit of peace and quiet."],
+    "keys": { "тиша": "quiet|silence|peace|calm" }
+   }
+  ]
+ },
+ {
+  "id": 431, "w": "long for", "uk": "тужити за, прагнути", "lvl": "C1",
+  "forms": "long|longs|longed|longed|longing",
+  "tail": "for",
+  "near": "miss*|yearn*|crave*|craving|wish*|dream* of|pine*",
+  "tasks": [
+   {
+    "sit": "Надворі лютий, темно й холодно вже третій місяць. Ти пишеш у щоденнику.",
+    "say": "Я так тужу за літом.",
+    "ans": ["I long for the summer so much.", "I’m longing for summer.", "Oh, how I long for summer."],
+    "keys": { "літо": "summer|warm*|sun*" }
+   },
+   {
+    "sit": "Ти вже пʼять років живеш за кордоном. Мама питає, чи не хочеш ти повернутися.",
+    "say": "Я часто тужу за домом.",
+    "ans": ["I often long for home.", "I often find myself longing for home.", "I do often long for home, you know."],
+    "keys": { "часто": "often|sometimes|always|lot", "дім": "home|ukrain*" }
+   },
+   {
+    "sit": "Колега працює без відпустки вже рік і показує тобі фото моря на заставці.",
+    "say": "Він прагне хоч тижня відпочинку.",
+    "ans": ["He longs for just one week of rest.", "He’s longing for a week off.", "He’s longing for even a week of vacation."],
+    "keys": { "тиждень": "week*", "відпочинок": "rest|off|holiday|vacation|break" }
+   }
+  ]
+ },
+ {
+  "id": 432, "w": "cheer up", "uk": "підбадьорити, розвеселити", "lvl": "B1",
+  "forms": "cheer|cheers|cheered|cheered|cheering",
+  "tail": "up",
+  "near": "comfort*|encourag*|support*|make you feel better|made him feel better|make her feel better|brighten*",
+  "tasks": [
+   {
+    "sit": "Друг провалив іспит на права і сидить сумний. Ти купив йому піцу.",
+    "say": "Я хотів тебе трохи підбадьорити.",
+    "ans": ["I wanted to cheer you up a bit.", "I just wanted to cheer you up a little.", "Thought this might cheer you up a bit."],
+    "keys": { "трохи": "bit|little" }
+   },
+   {
+    "sit": "Сестра засмучена через сварку з подругою. Ти намагаєшся її розрадити.",
+    "say": "Ну, не сумуй! Все буде добре.",
+    "ans": ["Cheer up! It’ll be OK.", "Come on, cheer up! Everything will be fine.", "Hey, cheer up — it’s gonna be OK."],
+    "keys": { "все буде добре": "ok|okay|fine|all right|alright|good" }
+   },
+   {
+    "sit": "Ваша команда програла важливий матч. Тренер увімкнув у роздягальні веселу пісню.",
+    "say": "Ця пісня завжди мене підбадьорює.",
+    "ans": ["This song always cheers me up.", "That song always cheers me up.", "This song never fails to cheer me up."],
+    "keys": { "пісня": "song|music|track|tune", "завжди": "always|never fails" }
+   }
+  ]
+ },
+ {
+  "id": 433, "w": "calm down", "uk": "заспокоїти(-ся)", "lvl": "A2",
+  "forms": "calm|calms|calmed|calmed|calming",
+  "tail": "down",
+  "near": "relax*|chill*|settle down|take it easy|quiet*",
+  "tasks": [
+   {
+    "sit": "Твій друг кричить на працівника аеропорту, бо його рейс скасували.",
+    "say": "Заспокойся, будь ласка. Ми щось придумаємо.",
+    "ans": ["Calm down, please. We’ll think of something.", "Please calm down, we’ll figure something out.", "Hey, calm down. We’ll sort something out."],
+    "keys": { "придумаємо": "something|solution|way" }
+   },
+   {
+    "sit": "Ти няньчиш маленького племінника. Він плаче вже пів години.",
+    "say": "Я не можу заспокоїти дитину.",
+    "ans": ["I can’t calm the baby down.", "I can’t calm down the baby.", "I just can’t get the baby to calm down."],
+    "keys": { "не можу": "not|never", "дитина": "baby|child|kid|him" }
+   },
+   {
+    "sit": "Після важкого робочого дня ти розповідаєш подрузі, як відпочиваєш.",
+    "say": "Прогулянка з собакою допомагає мені заспокоїтися.",
+    "ans": ["Walking the dog helps me calm down.", "A walk with my dog helps me calm down.", "Taking the dog for a walk really helps me calm down."],
+    "keys": { "прогулянка": "walk*", "собака": "dog" }
+   }
+  ]
+ },
+ {
+  "id": 434, "w": "freak out", "uk": "панікувати, психувати", "lvl": "B2",
+  "forms": "freak|freaks|freaked|freaked|freaking",
+  "tail": "out",
+  "near": "panic*|lose it|lost it|flip out|flipped out|stress* out|go crazy|went crazy|scared",
+  "tasks": [
+   {
+    "sit": "Ти дзвониш подрузі, щоб сказати, що трохи подряпав її машину. Починаєш обережно.",
+    "say": "Тільки не панікуй, добре?",
+    "ans": ["Just don’t freak out, OK?", "Please don’t freak out, all right?", "OK, promise me you won’t freak out."],
+    "keys": { "не": "not|never|promise" }
+   },
+   {
+    "sit": "Ти розповідаєш, як уперше вів презентацію перед усією компанією.",
+    "say": "Коли згасло світло, я просто запанікував.",
+    "ans": ["When the lights went out, I just freaked out.", "I freaked out when the lights went off.", "The lights went out and I totally freaked out."],
+    "keys": { "світло": "light*|power", "згасло": "went out|went off|off|out|died" }
+   },
+   {
+    "sit": "Мама прочитала в новинах про шторм у місті, де ти відпочиваєш, і дзвонить тобі двадцять разів.",
+    "say": "Мама запанікувала через новини.",
+    "ans": ["Mom freaked out because of the news.", "My mom freaked out over the news.", "Mom totally freaked out after seeing the news."],
+    "keys": { "мама": "mom|mum|mother", "новини": "news|report*|storm" }
+   }
+  ]
+ },
+ {
+  "id": 435, "w": "chill out", "uk": "розслабитися, відпочити", "lvl": "B2",
+  "forms": "chill|chills|chilled|chilled|chilling",
+  "tail": "out",
+  "near": "relax*|rest*|calm* down|take it easy|unwind*|hang* out|kick back",
+  "tasks": [
+   {
+    "sit": "Друг пише в пʼятницю ввечері й кличе в клуб. Ти втомився за тиждень.",
+    "say": "Я краще просто відпочину вдома на дивані.",
+    "ans": ["I’d rather just chill out at home on the sofa.", "I think I’ll just chill out on the couch at home.", "Nah, I’m just gonna chill out on the sofa tonight."],
+    "keys": { "диван": "sofa|couch|home" }
+   },
+   {
+    "sit": "Сусід по кімнаті нервує через дрібну подряпину на ноутбуці.",
+    "say": "Розслабся, це просто подряпина.",
+    "ans": ["Chill out, it’s just a scratch.", "Just chill out — it’s only a scratch.", "Dude, chill out, it’s just a tiny scratch."],
+    "keys": { "подряпина": "scratch*|mark|nothing" }
+   },
+   {
+    "sit": "Ти розповідаєш колезі, як провів відпустку на морі.",
+    "say": "Ми цілий тиждень просто відпочивали на пляжі.",
+    "ans": ["We just chilled out on the beach for a whole week.", "For a whole week we just chilled out on the beach.", "We spent the whole week chilling out on the beach."],
+    "keys": { "тиждень": "week*", "пляж": "beach|sea|seaside" }
+   }
+  ]
+ },
+ {
+  "id": 436, "w": "grieve", "uk": "сумувати, горювати (за кимось)", "lvl": "C1",
+  "forms": "grieve|grieves|grieved|grieved|grieving",
+  "near": "mourn*|sad|sorrow*|cry|cried|crying|miss*",
+  "tasks": [
+   {
+    "sit": "У колеги нещодавно помер батько. Керівник питає, чи не варто дати їй більше завдань.",
+    "say": "Дай їй час, вона ще горює за батьком.",
+    "ans": ["Give her time, she’s still grieving for her father.", "Give her some time — she’s still grieving her dad.", "Let’s give her time, she’s still grieving for her father."],
+    "keys": { "час": "time", "батько": "father|dad" }
+   },
+   {
+    "sit": "Твій старий пес помер минулого місяця. Друг здивований, що ти досі сумний.",
+    "say": "Я досі сумую за своїм псом.",
+    "ans": ["I’m still grieving for my dog.", "I’m still grieving the loss of my dog.", "Honestly, I’m still grieving for my dog."],
+    "keys": { "досі": "still", "пес": "dog" }
+   },
+   {
+    "sit": "На лекції з психології викладач розповідає про втрату близьких.",
+    "say": "Кожна людина переживає горе по-своєму.",
+    "ans": ["Everyone grieves in their own way.", "Every person grieves differently.", "We all grieve in our own way."],
+    "keys": { "кожна людина": "everyone|everybody|every person|all|each", "по-своєму": "own way|differently|different*" }
+   }
+  ]
+ },
+ {
+  "id": 437, "w": "mourn", "uk": "оплакувати, сумувати", "lvl": "C1",
+  "forms": "mourn|mourns|mourned|mourned|mourning",
+  "near": "griev*|lament*|sorrow*|cry|cried|crying|miss*",
+  "tasks": [
+   {
+    "sit": "Ти дивишся новини: помер відомий письменник, біля його будинку люди несуть квіти.",
+    "say": "Уся країна оплакує його смерть.",
+    "ans": ["The whole country is mourning his death.", "The whole nation mourns his death.", "The entire country is mourning him."],
+    "keys": { "уся країна": "whole|entire|all|nation|country" }
+   },
+   {
+    "sit": "На уроці історії ви обговорюєте, як у давнину родини прощалися з померлими.",
+    "say": "Родина оплакувала померлого сорок днів.",
+    "ans": ["The family mourned the dead for forty days.", "The family would mourn the deceased for forty days.", "Families mourned their dead for forty days."],
+    "keys": { "родина": "famil*|relatives", "сорок днів": "forty|40" }
+   },
+   {
+    "sit": "У вашому селі закрили стару пекарню, куди всі ходили десятиліттями. Сусідка засмучена.",
+    "say": "Ми всі оплакуємо втрату нашої пекарні.",
+    "ans": ["We’re all mourning the loss of our bakery.", "We all mourn the loss of our bakery.", "Everyone here is mourning the loss of the old bakery."],
+    "keys": { "втрата": "loss|closing|closure", "пекарня": "bakery|bakehouse|shop" }
+   }
+  ]
+ },
+ {
+  "id": 438, "w": "glimpse", "uk": "мигцем побачити", "lvl": "B2",
+  "forms": "glimpse|glimpses|glimpsed|glimpsed|glimpsing",
+  "near": "saw|see|seen|spot*|notice*|caught sight|catch sight|glance*|caught a glimpse",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш подрузі, що вчора, здається, бачив її колишнього в торговому центрі.",
+    "say": "Я мигцем побачив його біля ескалатора.",
+    "ans": ["I glimpsed him near the escalator.", "I glimpsed him by the escalator for a second.", "I just glimpsed him by the escalator, I think."],
+    "keys": { "ескалатор": "escalator*" }
+   },
+   {
+    "sit": "Ви їдете поїздом через гори. Ти показуєш сусідові по купе у вікно.",
+    "say": "Я на мить побачив озеро між деревами!",
+    "ans": ["I glimpsed a lake between the trees!", "I just glimpsed a lake through the trees!", "Look, I glimpsed a lake between the trees!"],
+    "keys": { "озеро": "lake|water", "дерева": "tree*|forest|wood*" }
+   },
+   {
+    "sit": "Ти був на концерті улюбленої співачки, але стояв дуже далеко від сцени.",
+    "say": "Я лише мигцем побачив її обличчя.",
+    "ans": ["I only glimpsed her face.", "I only glimpsed her face for a second.", "I barely glimpsed her face, to be honest."],
+    "keys": { "лише": "only|barely|just", "обличчя": "face" }
+   }
+  ]
+ },
+ {
+  "id": 439, "w": "peek", "uk": "підглядати, зазирати", "lvl": "B2",
+  "forms": "peek|peeks|peeked|peeked|peeking",
+  "near": "peep*|look*|glance*|spy*|snoop*|sneak a look|sneaked a look",
+  "tasks": [
+   {
+    "sit": "Ви з друзями граєте в хованки. Ти рахуєш до двадцяти, а хтось звинувачує тебе в обмані.",
+    "say": "Я не підглядав, чесно!",
+    "ans": ["I didn’t peek, I swear!", "I wasn’t peeking, honestly!", "I swear I didn’t peek!"],
+    "keys": { "не": "not|never", "чесно": "swear|honest*|promise|really" }
+   },
+   {
+    "sit": "Ти загорнув подарунок для сестри й поклав його в шафу. Вона вже крутиться поруч.",
+    "say": "Не зазирай у шафу до свого дня народження!",
+    "ans": ["Don’t peek in the closet until your birthday!", "No peeking in the closet before your birthday!", "Don’t you dare peek in the wardrobe before your birthday!"],
+    "keys": { "шафа": "closet|wardrobe|cupboard", "день народження": "birthday*" }
+   },
+   {
+    "sit": "Ти працюєш у кавʼярні. Хтось із гостей постійно заглядає на кухню через двері.",
+    "say": "Клієнт весь час зазирає до нас на кухню.",
+    "ans": ["A customer keeps peeking into our kitchen.", "That customer keeps peeking into the kitchen.", "Some guy keeps peeking into the kitchen."],
+    "keys": { "кухня": "kitchen", "весь час": "keep*|always|constantly|all the time" }
+   }
+  ]
+ },
+ {
+  "id": 440, "w": "gaze", "uk": "пильно дивитися, задивитися", "lvl": "B2",
+  "forms": "gaze|gazes|gazed|gazed|gazing",
+  "near": "stare*|staring|look*|watch*|admir*|glance*",
+  "tasks": [
+   {
+    "sit": "Ти згадуєш ніч, проведену з друзями в наметі далеко від міста.",
+    "say": "Ми годинами дивилися на зорі.",
+    "ans": ["We gazed at the stars for hours.", "For hours, we just gazed at the stars.", "We spent hours gazing at the stars."],
+    "keys": { "зорі": "star*|sky", "годинами": "hour*" }
+   },
+   {
+    "sit": "Колега на нараді зовсім не слухає керівника й щось мріє.",
+    "say": "Він просто задивився у вікно.",
+    "ans": ["He was just gazing out of the window.", "He just gazed out the window.", "He’s just gazing out the window again."],
+    "keys": { "вікно": "window" }
+   },
+   {
+    "sit": "Ви з сестрою в музеї. Вона вже десять хвилин стоїть перед однією картиною.",
+    "say": "Ти так довго дивишся на цю картину!",
+    "ans": ["You’ve been gazing at this painting for so long!", "You’re gazing at that painting for ages!", "Wow, you’ve been gazing at this painting forever!"],
+    "keys": { "картина": "painting|picture|art*", "довго": "long|ages|forever|minutes" }
+   }
+  ]
+ },
+ {
+  "id": 441, "w": "detect", "uk": "виявляти", "lvl": "B2",
+  "forms": "detect|detects|detected|detected|detecting",
+  "near": "find|found|finds|finding|discover*|notice*|spot*|sense*|identif*|pick* up",
+  "tasks": [
+   {
+    "sit": "Ти встановлюєш нову пожежну сигналізацію й читаєш інструкцію сусідові.",
+    "say": "Датчик виявляє дим за кілька секунд.",
+    "ans": ["The sensor detects smoke in a few seconds.", "The detector can detect smoke within seconds.", "This sensor detects smoke in just a few seconds."],
+    "keys": { "датчик": "sensor|detector|alarm|device", "дим": "smoke" }
+   },
+   {
+    "sit": "Лікар дзвонить тобі з результатами аналізів після планового обстеження.",
+    "say": "Аналіз виявив проблему на ранній стадії.",
+    "ans": ["The test detected the problem at an early stage.", "The problem was detected early by the test.", "Luckily, the test detected the problem early."],
+    "keys": { "аналіз": "test*|scan|analysis", "рано": "early" }
+   },
+   {
+    "sit": "Твій антивірус показав повідомлення, коли ти завантажував файл з незнайомого сайту.",
+    "say": "Антивірус виявив вірус у файлі.",
+    "ans": ["The antivirus detected a virus in the file.", "A virus was detected in the file.", "My antivirus just detected a virus in that file."],
+    "keys": { "вірус": "virus|malware|threat", "файл": "file|download" }
+   }
+  ]
+ }
+]

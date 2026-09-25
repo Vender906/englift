@@ -1,0 +1,629 @@
+[
+ {
+  "id": 1105, "w": "meow", "uk": "мʼявкати", "lvl": "A2",
+  "forms": "meow/miaow|meows/miaows|meowed/miaowed|meowed/miaowed|meowing/miaowing",
+  "near": "purr*|yowl*|cried|crying",
+  "tasks": [
+   {
+    "sit": "Колега питає, чому ти сьогодні такий невиспаний.",
+    "say": "Мій кіт мʼявкав о пʼятій ранку, бо хотів їсти.",
+    "ans": ["My cat meowed at five in the morning because he wanted food.", "My cat was meowing at 5 a.m. because he was hungry.", "My cat started meowing at five because he wanted breakfast."],
+    "keys": { "пʼята": "five|5*", "їсти": "food|hungry|eat*|breakfast|feed*" }
+   },
+   {
+    "sit": "Ти йдеш увечері додому й чуєш тоненький звук з-під припаркованої машини.",
+    "say": "Здається, під машиною мʼявкає кошеня.",
+    "ans": ["I think a kitten is meowing under the car.", "There’s a kitten meowing under that car, I think.", "Listen, a kitten is meowing under the car!"],
+    "keys": { "кошеня": "kitten*|cat*", "машина": "car*" }
+   },
+   {
+    "sit": "Ветеринар питає, що турбує твою кішку.",
+    "say": "Вона голосно мʼявкає всю ніч.",
+    "ans": ["She meows loudly all night.", "She keeps meowing loudly all night.", "She’s been meowing really loudly all night."],
+    "keys": { "голосно": "loud*", "ніч": "night*" }
+   }
+  ]
+ },
+ {
+  "id": 1106, "w": "purr", "uk": "муркотіти", "lvl": "B1",
+  "forms": "purr|purrs|purred|purred|purring",
+  "near": "meow*|hum*|rumbl*",
+  "tasks": [
+   {
+    "sit": "Подруга питає, чи подобається кошеняті у вас удома.",
+    "say": "Воно муркоче щоразу, коли я його гладжу.",
+    "ans": ["It purrs every time I pet it.", "It purrs whenever I stroke it.", "He purrs every single time I pet him."],
+    "keys": { "гладжу": "pet*|strok*|cuddl*|scratch*" }
+   },
+   {
+    "sit": "Ти в котокафе, і рудий кіт заснув у тебе на колінах.",
+    "say": "Слухай, він муркоче!",
+    "ans": ["Listen, he’s purring!", "Listen — he’s purring!", "Hey, listen, he’s actually purring!"],
+    "keys": { "слухай": "listen|hear" }
+   },
+   {
+    "sit": "Ти забрав машину з сервісу після ремонту й хвалишся другові.",
+    "say": "Двигун тепер муркоче, як кіт.",
+    "ans": ["The engine purrs like a cat now.", "Now the engine purrs like a kitten.", "The engine’s purring like a cat now."],
+    "keys": { "двигун": "engine|motor|car", "як кіт": "cat|kitten" }
+   }
+  ]
+ },
+ {
+  "id": 1107, "w": "growl", "uk": "гарчати", "lvl": "B2",
+  "forms": "growl|growls|growled|growled|growling",
+  "near": "snarl*|bark*|rumbl*",
+  "tasks": [
+   {
+    "sit": "Ти гуляєш зі своїм псом, і до вас підходить незнайомець, щоб його погладити.",
+    "say": "Обережно, він гарчить на чужих.",
+    "ans": ["Careful, he growls at strangers.", "Be careful — he growls at people he doesn’t know.", "Watch out, he tends to growl at strangers."],
+    "keys": { "обережно": "careful|watch out|caution", "чужі": "stranger*|people|know" }
+   },
+   {
+    "sit": "На тихій нараді в тебе дуже голосно забурчало в животі.",
+    "say": "Вибачте, у мене бурчить у животі — я не снідав.",
+    "ans": ["Sorry, my stomach is growling — I skipped breakfast.", "Excuse me, my stomach’s growling, I didn’t have breakfast.", "Sorry, that’s my stomach growling — no breakfast today."],
+    "keys": { "живіт": "stomach|tummy|belly", "сніданок": "breakfast" }
+   },
+   {
+    "sit": "Ветеринар хоче оглянути лапу твого пса.",
+    "say": "Він гарчить, коли хтось торкається його лапи.",
+    "ans": ["He growls when someone touches his paw.", "He growls whenever anybody touches his paw.", "He always growls if you touch his paw."],
+    "keys": { "лапа": "paw*|leg*|foot", "торкається": "touch*" }
+   }
+  ]
+ },
+ {
+  "id": 1108, "w": "roar", "uk": "ричати, ревіти", "lvl": "B2",
+  "forms": "roar|roars|roared|roared|roaring",
+  "near": "growl*|scream*|shout*|yell*|thunder*",
+  "tasks": [
+   {
+    "sit": "Ти з дитиною в зоопарку біля вольєра з левом.",
+    "say": "Чуєш, лев ричить!",
+    "ans": ["Listen, the lion is roaring!", "Can you hear the lion roar?", "Hear that? The lion’s roaring!"],
+    "keys": { "лев": "lion*" }
+   },
+   {
+    "sit": "Ти розповідаєш другові про фінальний матч, на якому був.",
+    "say": "Коли ми забили, весь стадіон заревів.",
+    "ans": ["When we scored, the whole stadium roared.", "The whole stadium roared when we scored.", "The entire stadium roared as soon as we scored."],
+    "keys": { "стадіон": "stadium|crowd|fans", "забили": "score*|goal" }
+   },
+   {
+    "sit": "Сусід щодня о шостій ранку заводить мотоцикл, і ти скаржишся на це в чаті будинку.",
+    "say": "Його мотоцикл реве під моїм вікном щоранку.",
+    "ans": ["His motorbike roars under my window every morning.", "Every morning his motorcycle roars outside my window.", "His bike roars right under my window every morning."],
+    "keys": { "мотоцикл": "motorbike|motorcycle|bike", "щоранку": "morning*" }
+   }
+  ]
+ },
+ {
+  "id": 1109, "w": "hiss", "uk": "шипіти", "lvl": "B2",
+  "forms": "hiss|hisses|hissed|hissed|hissing",
+  "near": "sizzl*|whistl*|growl*",
+  "tasks": [
+   {
+    "sit": "Ти приніс додому цуценя, а твоя кішка явно не в захваті.",
+    "say": "Кішка шипить на цуценя.",
+    "ans": ["The cat hisses at the puppy.", "The cat is hissing at the puppy.", "My cat keeps hissing at the new puppy."],
+    "keys": { "цуценя": "puppy|dog" }
+   },
+   {
+    "sit": "Ви в поході, і друг ледь не наступив на щось у високій траві.",
+    "say": "Стій! Щось шипить у траві.",
+    "ans": ["Stop! Something is hissing in the grass.", "Wait! Something’s hissing in the grass.", "Freeze! Something’s hissing in the grass."],
+    "keys": { "трава": "grass|bush*", "щось": "something|snake" }
+   },
+   {
+    "sit": "Ти накачуєш колесо велосипеда й чуєш дивний звук.",
+    "say": "Колесо шипить — десь дірка.",
+    "ans": ["The tire is hissing — there must be a hole.", "The tyre’s hissing, so there’s a hole somewhere.", "Hear that? The tire’s hissing — it’s got a puncture."],
+    "keys": { "колесо": "tire*|tyre*|wheel", "дірка": "hole|puncture|leak*|flat" }
+   }
+  ]
+ },
+ {
+  "id": 1110, "w": "chirp", "uk": "цвірінькати, цвірчати", "lvl": "B2",
+  "forms": "chirp|chirps|chirped|chirped|chirping",
+  "near": "tweet*|sing*|sang|twitter*",
+  "tasks": [
+   {
+    "sit": "Ти приїхав на дачу й розповідаєш колезі по телефону, як тут добре.",
+    "say": "Зранку тут цвірінькають пташки — неймовірно.",
+    "ans": ["The birds chirp here in the morning — it’s amazing.", "In the morning, birds chirp here. It’s incredible.", "The birds are chirping here every morning — it’s amazing!"],
+    "keys": { "пташки": "bird*|sparrow*", "зранку": "morning*" }
+   },
+   {
+    "sit": "Ви з другом ночуєте в наметі біля озера, і він не може заснути через звуки.",
+    "say": "Це просто цвіркуни цвірчать.",
+    "ans": ["It’s just the crickets chirping.", "Those are just crickets chirping.", "Relax, it’s only crickets chirping."],
+    "keys": { "цвіркуни": "cricket*|insect*|bug*" }
+   },
+   {
+    "sit": "Під твоїм балконом горобці звили гніздо, і ти розповідаєш про це сестрі.",
+    "say": "Пташенята цвірінькають із самого світанку.",
+    "ans": ["The chicks start chirping at dawn.", "The baby birds have been chirping since dawn.", "The chicks are chirping as soon as the sun comes up."],
+    "keys": { "пташенята": "chick*|baby bird*|bird*", "світанок": "dawn|sunrise|sun|early|morning" }
+   }
+  ]
+ },
+ {
+  "id": 1111, "w": "tweet", "uk": "чірікати (про пташок)", "lvl": "B1",
+  "forms": "tweet|tweets|tweeted|tweeted|tweeting",
+  "near": "chirp*|sing*|sang|twitter*",
+  "tasks": [
+   {
+    "sit": "Ти гуляєш із маленьким сином у парку навесні.",
+    "say": "Послухай, як пташки чірікають!",
+    "ans": ["Listen to the birds tweeting!", "Listen, the birds are tweeting!", "Can you hear the little birds tweet?"],
+    "keys": { "пташки": "bird*|birdie*" }
+   },
+   {
+    "sit": "Ти пʼєш каву в саду й пишеш подрузі повідомлення.",
+    "say": "Сиджу в саду, пташки чірікають — просто рай.",
+    "ans": ["I’m sitting in the garden and the birds are tweeting — it’s heaven.", "The birds are tweeting in the garden and I’m loving it.", "I’m in the garden, the birds are tweeting, it’s paradise."],
+    "keys": { "сад": "garden|yard|backyard", "пташки": "bird*" }
+   },
+   {
+    "sit": "У зоомагазині донька хоче папужок, а ти попереджаєш її про одну річ.",
+    "say": "Вони чірікають цілий день.",
+    "ans": ["They tweet all day.", "They tweet all day long.", "They’re tweeting the whole day."],
+    "keys": { "цілий день": "all day|whole day|day" }
+   }
+  ]
+ },
+ {
+  "id": 1112, "w": "quack", "uk": "крякати", "lvl": "B2",
+  "forms": "quack|quacks|quacked|quacked|quacking",
+  "near": "honk*|squawk*",
+  "tasks": [
+   {
+    "sit": "Ти з донькою годуєш качок у парку біля ставка.",
+    "say": "Дивись, качки крякають, бо хочуть хліба!",
+    "ans": ["Look, the ducks are quacking because they want bread!", "Look, the ducks quack because they want some bread!", "See? The ducks are quacking for bread!"],
+    "keys": { "качки": "duck*", "хліб": "bread|food" }
+   },
+   {
+    "sit": "Ти вибираєш у магазині іграшку для купання малюка.",
+    "say": "Ця гумова качечка крякає, якщо її стиснути.",
+    "ans": ["This rubber duck quacks when you squeeze it.", "The rubber duck quacks if you squeeze it.", "Squeeze this rubber duck and it quacks."],
+    "keys": { "стиснути": "squeez*|press*|squish*" }
+   },
+   {
+    "sit": "Ти відпочивав у будиночку біля озера й скаржишся другові, що не виспався.",
+    "say": "Качки крякали під вікном із пʼятої ранку.",
+    "ans": ["The ducks were quacking outside the window from five in the morning.", "Ducks quacked outside my window from 5 a.m.", "The ducks started quacking outside my window at five."],
+    "keys": { "пʼята": "five|5*", "вікно": "window*" }
+   }
+  ]
+ },
+ {
+  "id": 1113, "w": "moo", "uk": "мукати", "lvl": "B2",
+  "forms": "moo|moos|mooed|mooed|mooing",
+  "near": "bellow*|low|lowing",
+  "tasks": [
+   {
+    "sit": "Ти вперше ночуєш у бабусі в селі й прокинувся надто рано.",
+    "say": "Сусідська корова мукає з шостої ранку.",
+    "ans": ["The neighbor’s cow has been mooing since six in the morning.", "The neighbor’s cow moos every morning at six.", "The neighbors’ cow started mooing at six."],
+    "keys": { "корова": "cow*", "шоста": "six|6*" }
+   },
+   {
+    "sit": "Ти показуєш маленькій дитині стадо на пасовищі.",
+    "say": "Чуєш? Корови мукають.",
+    "ans": ["Can you hear? The cows are mooing.", "Hear that? The cows are mooing.", "Listen, the cows are mooing!"],
+    "keys": { "корови": "cow*", "чуєш": "hear|listen" }
+   },
+   {
+    "sit": "Ти їдеш сільською дорогою й мусиш зупинитися, бо стадо переходить дорогу.",
+    "say": "Корови стоять посеред дороги й мукають на нас.",
+    "ans": ["The cows are standing in the road and mooing at us.", "Cows are standing in the middle of the road, mooing at us.", "There are cows in the middle of the road mooing at us!"],
+    "keys": { "дорога": "road", "корови": "cow*" }
+   }
+  ]
+ },
+ {
+  "id": 1114, "w": "neigh", "uk": "іржати (про коня)", "lvl": "C1",
+  "forms": "neigh|neighs|neighed|neighed|neighing",
+  "near": "whinn*|snort*",
+  "tasks": [
+   {
+    "sit": "Ти вперше на кінній прогулянці й питаєш інструктора.",
+    "say": "Чому кінь так голосно ірже?",
+    "ans": ["Why is the horse neighing so loudly?", "Why does the horse neigh so loudly?", "How come the horse is neighing so loud?"],
+    "keys": { "кінь": "horse*|pony", "голосно": "loud*" }
+   },
+   {
+    "sit": "Ти працюєш волонтером на кінній фермі й заходиш у стайню з відром вівса.",
+    "say": "Коні іржуть, бо знають, що я приніс їжу.",
+    "ans": ["The horses are neighing because they know I brought food.", "The horses neigh because they know I’ve brought food.", "The horses are neighing — they know I’ve got food."],
+    "keys": { "коні": "horse*", "їжа": "food|oat*|feed|breakfast|dinner" }
+   },
+   {
+    "sit": "Ти озвучуєш аматорський фільм і складаєш список звуків для сцени.",
+    "say": "Тут має тихо заіржати кінь.",
+    "ans": ["A horse should neigh softly here.", "A horse needs to neigh quietly here.", "We need a horse neighing softly here."],
+    "keys": { "кінь": "horse*", "тихо": "soft*|quiet*|gentl*" }
+   }
+  ]
+ },
+ {
+  "id": 1115, "w": "buzz", "uk": "дзижчати", "lvl": "B2",
+  "forms": "buzz|buzzes|buzzed|buzzed|buzzing",
+  "near": "hum*|drone*|whir*",
+  "tasks": [
+   {
+    "sit": "Ви на пікніку, і подруга злякано махає руками.",
+    "say": "Не бійся, бджола просто дзижчить навколо квітів.",
+    "ans": ["Don’t worry, the bee is just buzzing around the flowers.", "Don’t be scared — the bee’s just buzzing around the flowers.", "Relax, the bee is only buzzing around the flowers."],
+    "keys": { "бджола": "bee*", "квіти": "flower*" }
+   },
+   {
+    "sit": "Ти скаржишся колезі, що не виспався в готелі.",
+    "say": "Цілу ніч над вухом дзижчав комар.",
+    "ans": ["A mosquito was buzzing in my ear all night.", "All night a mosquito buzzed around my ear.", "There was a mosquito buzzing in my ear the whole night."],
+    "keys": { "комар": "mosquito*|bug|insect", "ніч": "night" }
+   },
+   {
+    "sit": "Ти обідаєш на терасі, і тобі заважає набридлива комаха.",
+    "say": "Над моєю тарілкою дзижчить муха.",
+    "ans": ["A fly is buzzing over my plate.", "There’s a fly buzzing around my plate.", "This fly keeps buzzing over my plate."],
+    "keys": { "муха": "fly|flies", "тарілка": "plate|food" }
+   }
+  ]
+ },
+ {
+  "id": 1116, "w": "sting", "uk": "жалити", "lvl": "B2",
+  "forms": "sting|stings|stung|stung|stinging",
+  "near": "bit|bite*|bitten|biting|prick*",
+  "tasks": [
+   {
+    "sit": "Ти показуєш подрузі червону пляму на руці після пікніка.",
+    "say": "Мене вжалила оса.",
+    "ans": ["A wasp stung me.", "I got stung by a wasp.", "I was stung by a wasp."],
+    "keys": { "оса": "wasp*" }
+   },
+   {
+    "sit": "Ви відпочиваєте на морі, і друг вибігає з води, тримаючись за ногу.",
+    "say": "Тебе вжалила медуза?",
+    "ans": ["Did a jellyfish sting you?", "Have you been stung by a jellyfish?", "Did you get stung by a jellyfish?"],
+    "keys": { "медуза": "jellyfish*" }
+   },
+   {
+    "sit": "Ти прийшов до лікаря зі страшенно набряклою рукою.",
+    "say": "Мене вжалила бджола, і рука набрякла.",
+    "ans": ["A bee stung me and my hand swelled up.", "I was stung by a bee and my hand is swollen.", "A bee stung me, and now my hand’s all swollen."],
+    "keys": { "бджола": "bee*", "набрякла": "swell*|swollen|swelled" }
+   }
+  ]
+ },
+ {
+  "id": 1117, "w": "bite", "uk": "кусати", "lvl": "A2",
+  "forms": "bite|bites|bit|bitten|biting",
+  "near": "snap*|nip*|chew*|sting*|stung",
+  "tasks": [
+   {
+    "sit": "У парку до тебе біжить чужий великий пес, а власник іде слідом.",
+    "say": "Ваш пес не кусається?",
+    "ans": ["Does your dog bite?", "Your dog doesn’t bite, does it?", "Is your dog going to bite?"],
+    "keys": { "пес": "dog*|puppy" }
+   },
+   {
+    "sit": "Ти повернувся з кемпінгу, і колега бачить червоні цятки на твоїх ногах.",
+    "say": "Мене всю ніч кусали комарі.",
+    "ans": ["Mosquitoes bit me all night.", "I got bitten by mosquitoes all night.", "The mosquitoes were biting me all night long."],
+    "keys": { "комарі": "mosquito*|bug*", "ніч": "night" }
+   },
+   {
+    "sit": "Ти забираєш сина з садочка й бачиш сліди зубів на його руці. Пояснюєш дружині.",
+    "say": "Його сьогодні вкусив інший хлопчик.",
+    "ans": ["Another boy bit him today.", "He was bitten by another boy today.", "Some other kid bit him today."],
+    "keys": { "хлопчик": "boy|kid|child", "сьогодні": "today" }
+   }
+  ]
+ },
+ {
+  "id": 1118, "w": "scratch", "uk": "дряпати, подряпати", "lvl": "B1",
+  "forms": "scratch|scratches|scratched|scratched|scratching",
+  "near": "claw*|scrap*|damag*|ruin*",
+  "tasks": [
+   {
+    "sit": "Мама приїхала подивитися на ваш новий диван.",
+    "say": "Кіт уже подряпав новий диван!",
+    "ans": ["The cat has already scratched the new sofa!", "The cat already scratched the new couch!", "The cat’s already scratched up the new sofa!"],
+    "keys": { "диван": "sofa|couch", "новий": "new" }
+   },
+   {
+    "sit": "Ти повертаєшся до машини на парковці торгового центру.",
+    "say": "Хтось подряпав мені двері машини.",
+    "ans": ["Someone scratched my car door.", "Somebody scratched the door of my car.", "Someone’s scratched my car door!"],
+    "keys": { "машина": "car", "двері": "door*" }
+   },
+   {
+    "sit": "Ти купуєш захисне скло для нового телефона в магазині електроніки.",
+    "say": "Я не хочу подряпати екран.",
+    "ans": ["I don’t want to scratch the screen.", "I don’t want the screen to get scratched.", "I really don’t want to scratch my screen."],
+    "keys": { "екран": "screen|display|phone", "не": "not|no" }
+   }
+  ]
+ },
+ {
+  "id": 1119, "w": "prey on", "uk": "полювати (на слабших)", "lvl": "C1",
+  "forms": "prey|preys|preyed|preyed|preying",
+  "tail": "on/upon",
+  "near": "hunt*|feed on|feeds on|fed on|target*",
+  "tasks": [
+   {
+    "sit": "Ти працюєш на фермі й пояснюєш гостям, навіщо в амбарі живуть сови.",
+    "say": "Сови полюють на мишей і щурів.",
+    "ans": ["Owls prey on mice and rats.", "The owls prey on the mice and rats.", "Owls prey on mice and rats, so they help us."],
+    "keys": { "миші": "mice|mouse|rat*|rodent*" }
+   },
+   {
+    "sit": "Ви з сином дивитеся документальний фільм про африканську савану.",
+    "say": "Леви полюють на слабких тварин.",
+    "ans": ["Lions prey on weak animals.", "Lions prey on the weaker animals.", "Lions usually prey on the weakest animals."],
+    "keys": { "леви": "lion*", "слабкі": "weak*|old|sick|young" }
+   },
+   {
+    "sit": "Ти попереджаєш батьків про телефонних шахраїв.",
+    "say": "Ці шахраї полюють на літніх людей.",
+    "ans": ["These scammers prey on elderly people.", "Scammers like these prey on old people.", "These scammers prey on the elderly."],
+    "keys": { "шахраї": "scammer*|fraudster*|crook*|con*|thie*", "літні люди": "elderly|old*|senior*|pensioner*" }
+   }
+  ]
+ },
+ {
+  "id": 1120, "w": "hibernate", "uk": "впадати в сплячку", "lvl": "C1",
+  "forms": "hibernate|hibernates|hibernated|hibernated|hibernating",
+  "near": "sleep*|slept|dormant",
+  "tasks": [
+   {
+    "sit": "Восени сусід хоче прибрати купу листя у твоєму саду.",
+    "say": "Не чіпай, там у сплячці їжак.",
+    "ans": ["Don’t touch it, a hedgehog is hibernating there.", "Leave it — there’s a hedgehog hibernating in there.", "Please don’t, a hedgehog’s hibernating in that pile."],
+    "keys": { "їжак": "hedgehog*", "не чіпай": "not|leave" }
+   },
+   {
+    "sit": "Подруга дивується, чому твоя черепаха вже тиждень не рухається.",
+    "say": "Вона впадає в сплячку на зиму.",
+    "ans": ["She hibernates for the winter.", "She’s hibernating for the winter.", "She hibernates every winter."],
+    "keys": { "зима": "winter" }
+   },
+   {
+    "sit": "Колега кличе тебе на прогулянку містом у січні.",
+    "say": "Взимку я впадаю в сплячку й нікуди не ходжу.",
+    "ans": ["In winter I hibernate and don’t go anywhere.", "I hibernate in winter — I never go out.", "Sorry, I’m hibernating till spring — I don’t go anywhere."],
+    "keys": { "взимку": "winter|spring|january", "нікуди": "anywhere|go out|nowhere|stay*" }
+   }
+  ]
+ },
+ {
+  "id": 1121, "w": "migrate", "uk": "мігрувати", "lvl": "C1",
+  "forms": "migrate|migrates|migrated|migrated|migrating",
+  "near": "fly south|flew south|flying south|relocat*|move*|travel*",
+  "tasks": [
+   {
+    "sit": "Ви з дитиною дивитеся на клин птахів у осінньому небі.",
+    "say": "Восени птахи мігрують у теплі краї.",
+    "ans": ["In autumn birds migrate to warm countries.", "Birds migrate to warmer countries in the fall.", "Every fall the birds migrate somewhere warm."],
+    "keys": { "птахи": "bird*", "восени": "autumn|fall" }
+   },
+   {
+    "sit": "Ти плануєш поїздку до Ісландії, щоб побачити китів, і пишеш турагентові.",
+    "say": "У якому місяці мігрують кити?",
+    "ans": ["In what month do the whales migrate?", "Which month do whales migrate?", "When do the whales migrate — which month?"],
+    "keys": { "кити": "whale*", "місяць": "month|when" }
+   },
+   {
+    "sit": "Бабуся радіє, що лелеки повернулися в село, і розповідає, де вони зимували.",
+    "say": "Невже лелеки мігрують аж до Африки?",
+    "ans": ["Do storks really migrate all the way to Africa?", "Is it true storks migrate as far as Africa?", "Wait, storks migrate all the way to Africa?"],
+    "keys": { "лелеки": "stork*", "африка": "africa" }
+   }
+  ]
+ },
+ {
+  "id": 1123, "w": "nest", "uk": "гніздитися, вити гніздо", "lvl": "B2",
+  "forms": "nest|nests|nested|nested|nesting",
+  "near": "breed*|roost*|settl*|live|lives|lived",
+  "tasks": [
+   {
+    "sit": "Ти пояснюєш сусідові, чому на твоєму балконі завжди брудно.",
+    "say": "Під нашим дахом гніздяться ластівки.",
+    "ans": ["Swallows are nesting under our roof.", "Swallows nest under our roof.", "There are swallows nesting under our roof."],
+    "keys": { "ластівки": "swallow*|bird*", "дах": "roof*|eave*" }
+   },
+   {
+    "sit": "Ви з другом у поході біля озера, у тебе в руках бінокль.",
+    "say": "Тут кожної весни гніздяться лебеді.",
+    "ans": ["Swans nest here every spring.", "Every spring, swans nest here.", "The swans come and nest here every spring."],
+    "keys": { "лебеді": "swan*", "весна": "spring" }
+   },
+   {
+    "sit": "Ти повісив на дереві шпаківню й показуєш її доньці.",
+    "say": "Сподіваюся, навесні тут загніздяться пташки.",
+    "ans": ["I hope birds will nest here in spring.", "Hopefully some birds will nest here in the spring.", "I’m hoping birds nest in it this spring."],
+    "keys": { "пташки": "bird*|starling*", "навесні": "spring" }
+   }
+  ]
+ },
+ {
+  "id": 1124, "w": "erupt", "uk": "вивергатися (про вулкан)", "lvl": "C1",
+  "forms": "erupt|erupts|erupted|erupted|erupting",
+  "near": "explod*|blew|blow up|blown|burst*",
+  "tasks": [
+   {
+    "sit": "Ти на екскурсії біля Етни на Сицилії й питаєш гіда.",
+    "say": "Коли вулкан востаннє вивергався?",
+    "ans": ["When did the volcano last erupt?", "When was the last time the volcano erupted?", "So when did Etna last erupt?"],
+    "keys": { "вулкан": "volcano*|etna", "востаннє": "last" }
+   },
+   {
+    "sit": "Колега питає, чому скасували твій рейс до Ісландії.",
+    "say": "Там вивергся вулкан, і аеропорт закрили.",
+    "ans": ["A volcano erupted there and the airport closed.", "A volcano erupted, so they closed the airport.", "A volcano erupted over there and they shut the airport."],
+    "keys": { "вулкан": "volcano*", "аеропорт": "airport|flight*" }
+   },
+   {
+    "sit": "Ти готуєшся до іспиту з історії й розповідаєш одногрупнику про Помпеї.",
+    "say": "Везувій вивергся в 79 році й знищив місто.",
+    "ans": ["Vesuvius erupted in 79 AD and destroyed the city.", "In 79 AD Vesuvius erupted and destroyed the town.", "Vesuvius erupted in 79 and wiped out the whole city."],
+    "keys": { "79": "79*|seventy*", "знищив": "destroy*|wiped|buried|ruin*" }
+   }
+  ]
+ },
+ {
+  "id": 1125, "w": "quake", "uk": "тремтіти, здригатися (про землю)", "lvl": "C1",
+  "forms": "quake|quakes|quaked|quaked|quaking",
+  "near": "shook|shake*|shaking|trembl*|vibrat*|rumbl*",
+  "tasks": [
+   {
+    "sit": "Ти був у Туреччині під час землетрусу й розповідаєш родині, як це було.",
+    "say": "Земля тремтіла кілька секунд.",
+    "ans": ["The ground quaked for a few seconds.", "For a few seconds the ground quaked.", "The whole ground quaked for several seconds."],
+    "keys": { "земля": "ground|earth|floor", "секунди": "second*" }
+   },
+   {
+    "sit": "Під твоїм будинком прокладають тунель, і ти пишеш у чат мешканців.",
+    "say": "Коли працює техніка, весь будинок тремтить.",
+    "ans": ["The whole building quakes when the machines are working.", "When the machines work, the whole building quakes.", "The whole building quakes whenever those machines run."],
+    "keys": { "будинок": "building|house|flat|apartment", "техніка": "machine*|drill*|equipment" }
+   },
+   {
+    "sit": "Ти розповідаєш другові про рок-концерт на стадіоні.",
+    "say": "Від басів аж земля тремтіла.",
+    "ans": ["The bass made the ground quake.", "The ground quaked from the bass.", "The bass was so loud the ground was quaking."],
+    "keys": { "баси": "bass*|music|sound*", "земля": "ground|floor|earth|stadium" }
+   }
+  ]
+ },
+ {
+  "id": 1126, "w": "flood", "uk": "затоплювати", "lvl": "B2",
+  "forms": "flood|floods|flooded|flooded|flooding",
+  "near": "overflow*|swamp*|submerg*|inundat*|under water|underwater",
+  "tasks": [
+   {
+    "sit": "У тебе вночі прорвало трубу, і ти йдеш до сусіда знизу.",
+    "say": "Вибачте, я затопив вашу ванну — прорвало трубу.",
+    "ans": ["Sorry, I flooded your bathroom — a pipe burst.", "I’m sorry, a pipe burst and I flooded your bathroom.", "So sorry, a pipe burst and flooded your bathroom."],
+    "keys": { "ванна": "bathroom|bath*|flat|apartment", "труба": "pipe*|leak*" }
+   },
+   {
+    "sit": "Ти переказуєш колезі новини про тиждень злив у сусідній області.",
+    "say": "Річка затопила півміста.",
+    "ans": ["The river flooded half the town.", "Half the city was flooded by the river.", "The river’s flooded half of the town."],
+    "keys": { "річка": "river", "півміста": "half" }
+   },
+   {
+    "sit": "Після нічної зливи ти телефонуєш керівникові зранку.",
+    "say": "Метро затопило, тому я запізнюся.",
+    "ans": ["The metro is flooded, so I’ll be late.", "The subway got flooded, so I’m going to be late.", "The metro’s flooded — I’ll be late."],
+    "keys": { "метро": "metro|subway|underground|station*|tube", "запізнюся": "late|delay*" }
+   }
+  ]
+ },
+ {
+  "id": 1127, "w": "burn down", "uk": "згоріти дотла, вигоріти", "lvl": "B2",
+  "forms": "burn|burns|burned/burnt|burned/burnt|burning",
+  "tail": "down",
+  "near": "destroy*|went up in flames|caught fire|catch fire|on fire",
+  "tasks": [
+   {
+    "sit": "Ти показуєш другові пустир у своєму селі, де колись була стара школа.",
+    "say": "Стара школа згоріла дотла двадцять років тому.",
+    "ans": ["The old school burned down twenty years ago.", "The old school burnt down 20 years ago.", "The old school burned down about twenty years ago."],
+    "keys": { "школа": "school", "двадцять": "twent*|20*" }
+   },
+   {
+    "sit": "Ви з другом плануєте похід, але ти побачив новини про лісові пожежі.",
+    "say": "Ліс, куди ми хотіли піти, вигорів.",
+    "ans": ["The forest we wanted to go to has burned down.", "The forest we planned to hike in burnt down.", "That forest we wanted to visit burned down."],
+    "keys": { "ліс": "forest|woods" }
+   },
+   {
+    "sit": "Ти оформлюєш страховку на дачу, і агент питає, навіщо тобі повне покриття.",
+    "say": "Якщо будинок згорить, я втрачу все.",
+    "ans": ["If the house burns down, I’ll lose everything.", "I’d lose everything if the house burned down.", "If the place burns down, I’ll lose everything."],
+    "keys": { "будинок": "house|home|cottage|cabin|place", "все": "everything|all" }
+   }
+  ]
+ },
+ {
+  "id": 1128, "w": "collapse", "uk": "обвалюватися", "lvl": "B2",
+  "forms": "collapse|collapses|collapsed|collapsed|collapsing",
+  "near": "fell down|fall down|cave* in|caved in|crumbl*|came down|give way|gave way",
+  "tasks": [
+   {
+    "sit": "Ти переказуєш родині головну новину дня.",
+    "say": "У центрі міста обвалився старий міст.",
+    "ans": ["An old bridge collapsed in the city center.", "The old bridge downtown has collapsed.", "An old bridge in the city center just collapsed."],
+    "keys": { "міст": "bridge", "центр": "center|centre|downtown" }
+   },
+   {
+    "sit": "Ти пояснюєш орендодавцеві, що сталося у квартирі за вихідні.",
+    "say": "Стеля у ванній обвалилася після протікання.",
+    "ans": ["The bathroom ceiling collapsed after the leak.", "After the leak, the ceiling in the bathroom collapsed.", "The ceiling in the bathroom collapsed because of the leak."],
+    "keys": { "стеля": "ceiling", "протікання": "leak*|water" }
+   },
+   {
+    "sit": "Увечері ти склав на нову полицю всі книжки, а зранку побачив їх на підлозі.",
+    "say": "Полиця обвалилася під вагою книжок.",
+    "ans": ["The shelf collapsed under the weight of the books.", "The shelf collapsed because the books were too heavy.", "The shelf just collapsed under all those books."],
+    "keys": { "полиця": "shel*", "книжки": "book*" }
+   }
+  ]
+ },
+ {
+  "id": 1130, "w": "avalanche", "uk": "сходити лавиною", "lvl": "C1",
+  "forms": "avalanche|avalanches|avalanched|avalanched|avalanching",
+  "near": "slid*|slide*|came down|come down|fell|fall*|tumbl*",
+  "tasks": [
+   {
+    "sit": "Ти на гірськолижному курорті, і рятувальники закрили один зі схилів. Пояснюєш другові.",
+    "say": "Уночі сніг зійшов лавиною по цьому схилу.",
+    "ans": ["Snow avalanched down this slope last night.", "Last night the snow avalanched down this slope.", "The snow avalanched down this slope overnight."],
+    "keys": { "схил": "slope*|mountain*|hill*", "вночі": "night|overnight" }
+   },
+   {
+    "sit": "Ви з другом у горах навесні, і раптом ти чуєш гуркіт угорі.",
+    "say": "Дивись, там сніг сходить лавиною з вершини!",
+    "ans": ["Look, the snow is avalanching off the peak!", "Look — snow’s avalanching down from the summit!", "Look over there, snow is avalanching off the top!"],
+    "keys": { "вершина": "peak|summit|top|mountain*" }
+   },
+   {
+    "sit": "Ти пояснюєш колезі, чому в Альпах закрили перевал, про який писали в новинах.",
+    "say": "Після снігопаду сніг сходив лавинами по всіх схилах.",
+    "ans": ["After the snowfall, snow avalanched down all the slopes.", "Snow avalanched down every slope after the heavy snowfall.", "After the big snowfall, snow avalanched down the slopes."],
+    "keys": { "снігопад": "snowfall|storm*|heavy snow", "схили": "slope*" }
+   }
+  ]
+ },
+ {
+  "id": 1131, "w": "pollute", "uk": "забруднювати", "lvl": "B2",
+  "forms": "pollute|pollutes|polluted|polluted|polluting",
+  "near": "contaminat*|poison*|dirty|dirties|dirtied|foul*",
+  "tasks": [
+   {
+    "sit": "Ти читаєш новину про завод неподалік свого міста.",
+    "say": "Цей завод роками забруднює річку.",
+    "ans": ["This factory has been polluting the river for years.", "The factory has polluted the river for years.", "That plant’s been polluting the river for years."],
+    "keys": { "завод": "factory|plant|company", "річка": "river" }
+   },
+   {
+    "sit": "Ти переконуєш колегу їздити на роботу велосипедом.",
+    "say": "Машини забруднюють повітря в місті.",
+    "ans": ["Cars pollute the air in the city.", "Cars are polluting the city air.", "All these cars pollute the air in town."],
+    "keys": { "машини": "car*|traffic|vehicle*", "повітря": "air" }
+   },
+   {
+    "sit": "Ви з друзями прибираєте пляж після вихідних.",
+    "say": "Пластик забруднює море.",
+    "ans": ["Plastic pollutes the sea.", "Plastic is polluting the sea.", "All this plastic pollutes the ocean."],
+    "keys": { "пластик": "plastic*|trash|rubbish|litter", "море": "sea|ocean|beach|water" }
+   }
+  ]
+ }
+]

@@ -1,0 +1,634 @@
+[
+ {
+  "id": 1436, "w": "check out", "uk": "оформити замовлення", "lvl": "B1",
+  "forms": "check|checks|checked|checked|checking",
+  "tail": "out",
+  "near": "pay|paid|place the order|placed the order|place an order|placed an order|complete the order|completed the order|order*|buy|bought",
+  "tasks": [
+   {
+    "sit": "Ти вже годину вибираєш речі на онлайн-розпродажі, а кошик переповнений.",
+    "say": "Все, я оформлюю замовлення, поки діють знижки.",
+    "ans": ["That’s it, I’m checking out while the sale is on.", "Okay, I’ll check out before the discounts end.", "Right, I’m checking out now while the sale lasts."],
+    "keys": { "знижки": "sale*|discount*|deal*|offer*" }
+   },
+   {
+    "sit": "Сайт магазину вимагає створити акаунт, а тобі ліньки реєструватися.",
+    "say": "Можна оформити замовлення без реєстрації?",
+    "ans": ["Can I check out without an account?", "Can I check out as a guest?", "Is there a way to check out without signing up?"],
+    "keys": { "без реєстрації": "account*|guest|register*|registration|sign*" }
+   },
+   {
+    "sit": "Колега тиждень тому накидав речей у кошик і, схоже, про них забув.",
+    "say": "Ти так і не оформив замовлення?",
+    "ans": ["You still haven’t checked out?", "So you never checked out?", "Wait, you never actually checked out?"],
+    "keys": { "не": "not|never" }
+   }
+  ]
+ },
+ {
+  "id": 1440, "w": "ship", "uk": "відправляти (замовлення)", "lvl": "B1",
+  "forms": "ship|ships|shipped|shipped|shipping",
+  "near": "send|sends|sent|sending|dispatch*|deliver*|post|posted|mail*",
+  "tasks": [
+   {
+    "sit": "Ти пишеш у чат іноземного інтернет-магазину, бо хочеш замовити кросівки.",
+    "say": "Ви відправляєте в Україну?",
+    "ans": ["Do you ship to Ukraine?", "Can you ship to Ukraine?", "Hi, do you guys ship to Ukraine?"],
+    "keys": { "Україна": "ukrain*" }
+   },
+   {
+    "sit": "Ти продаєш свою кераміку онлайн. Покупець питає, коли чекати посилку.",
+    "say": "Я відправлю ваше замовлення завтра вранці.",
+    "ans": ["I’ll ship your order tomorrow morning.", "Your order will be shipped tomorrow morning.", "I’m shipping your order first thing tomorrow."],
+    "keys": { "замовлення": "order*|package|parcel", "завтра": "tomorrow" }
+   },
+   {
+    "sit": "Ти чекаєш на нову камеру й перевіряєш статус замовлення.",
+    "say": "Її вже відправили, завтра буде в мене.",
+    "ans": ["It’s already been shipped, I’ll get it tomorrow.", "They’ve already shipped it — it arrives tomorrow.", "They shipped it already, so it should be here tomorrow."],
+    "keys": { "вже": "already", "завтра": "tomorrow" }
+   }
+  ]
+ },
+ {
+  "id": 1441, "w": "unbox", "uk": "розпаковувати", "lvl": "B2",
+  "forms": "unbox|unboxes|unboxed|unboxed|unboxing",
+  "near": "open*|unpack*|unwrap*",
+  "tasks": [
+   {
+    "sit": "Ти ведеш блог про техніку, і тобі надіслали новий смартфон на огляд.",
+    "say": "Сьогодні я розпакую новий телефон на камеру.",
+    "ans": ["Today I’m unboxing the new phone on camera.", "I’m going to unbox the new phone on camera today.", "Today we’re unboxing the brand-new phone!"],
+    "keys": { "телефон": "phone*|smartphone*", "сьогодні": "today" }
+   },
+   {
+    "sit": "Посилка з новим пилососом прийшла ще в понеділок. Друг питає, як він прибирає.",
+    "say": "Чесно, я його ще навіть не розпакував.",
+    "ans": ["Honestly, I haven’t even unboxed it yet.", "To be honest, I still haven’t unboxed the vacuum.", "Honestly? I haven’t even unboxed it yet."],
+    "keys": { "ще не": "not|yet|still" }
+   },
+   {
+    "sit": "Донька отримала на день народження ляльковий будиночок у великій коробці.",
+    "say": "Вона розпакувала його за дві хвилини.",
+    "ans": ["She unboxed it in two minutes.", "She had it unboxed in two minutes.", "She unboxed the whole thing in about two minutes."],
+    "keys": { "дві хвилини": "two|2*|minute*" }
+   }
+  ]
+ },
+ {
+  "id": 1442, "w": "review", "uk": "писати відгук", "lvl": "B1",
+  "forms": "review|reviews|reviewed|reviewed|reviewing",
+  "near": "rate*|rating|comment*|feedback|write about|wrote about",
+  "tasks": [
+   {
+    "sit": "Ти купив навушники, а вони зламалися за тиждень.",
+    "say": "Я напишу чесний відгук про ці навушники.",
+    "ans": ["I’m going to review these headphones honestly.", "I’ll review these headphones — honestly.", "I’m definitely going to review these headphones, and honestly."],
+    "keys": { "навушники": "headphone*|earbuds|earphone*", "чесний": "honest*|truth*" }
+   },
+   {
+    "sit": "Ти ведеш кулінарний блог, і новий ресторан запрошує тебе на дегустацію.",
+    "say": "Я пишу відгуки про нові ресторани в місті.",
+    "ans": ["I review new restaurants in town.", "I review new restaurants in the city.", "I review all the new restaurants in town."],
+    "keys": { "ресторани": "restaurant*|place*|cafe*" }
+   },
+   {
+    "sit": "Інтернет-магазин пише, що за відгук дасть знижку на наступне замовлення.",
+    "say": "Якщо я напишу відгук про покупку, отримаю знижку.",
+    "ans": ["If I review my purchase, I get a discount.", "I’ll get a discount if I review the purchase.", "If I review what I bought, I get ten percent off."],
+    "keys": { "покупка": "purchase*|bought|order*|item*", "знижка": "discount*|off|percent*" }
+   }
+  ]
+ },
+ {
+  "id": 1443, "w": "rate", "uk": "оцінювати (зірочками)", "lvl": "B1",
+  "forms": "rate|rates|rated|rated|rating",
+  "near": "review*|score*|grade*|gave five stars|give five stars|gave one star|give one star",
+  "tasks": [
+   {
+    "sit": "Після поїздки на таксі застосунок просить оцінити водія.",
+    "say": "Я поставив водієві пʼять зірок.",
+    "ans": ["I rated the driver five stars.", "I’ve rated the driver five stars.", "I rated the driver five stars — he was great."],
+    "keys": { "пʼять": "five|5*", "водій": "driver*" }
+   },
+   {
+    "sit": "Ти купив чохол на маркетплейсі, а продавець надіслав не той колір.",
+    "say": "Я поставив продавцеві лише одну зірку.",
+    "ans": ["I rated the seller one star.", "I rated this seller just one star.", "I rated the seller one star because of the wrong color."],
+    "keys": { "продавець": "seller*|shop|store|vendor", "одна": "one|1|low*" }
+   },
+   {
+    "sit": "Ти шукаєш рецепт торта в застосунку й показуєш сестрі найкращий.",
+    "say": "Цей рецепт оцінили на чотири і вісім із пʼяти.",
+    "ans": ["This recipe is rated 4.8 out of 5.", "People rated this recipe 4.8 out of five.", "This recipe’s rated 4.8 out of 5!"],
+    "keys": { "рецепт": "recipe*", "з пʼяти": "out of|5*|five" }
+   }
+  ]
+ },
+ {
+  "id": 1444, "w": "redeem", "uk": "активувати (купон, бали, сертифікат)", "lvl": "C1",
+  "forms": "redeem|redeems|redeemed|redeemed|redeeming",
+  "near": "use*|using|appl*|activat*|enter*|cash in|claim*|exchange*",
+  "tasks": [
+   {
+    "sit": "Ти оформлюєш замовлення онлайн, і в тебе є подарунковий сертифікат.",
+    "say": "Як активувати подарунковий сертифікат?",
+    "ans": ["How do I redeem a gift card?", "How can I redeem my gift card?", "Where do I redeem this gift card?"],
+    "keys": { "сертифікат": "gift*|card*|voucher*|certificate*" }
+   },
+   {
+    "sit": "У застосунку кавʼярні в тебе накопичилося десять штампів.",
+    "say": "Я хочу обміняти бали на безкоштовну каву.",
+    "ans": ["I’d like to redeem my points for a free coffee.", "I want to redeem my points for a free coffee.", "Can I redeem my points for a free coffee?"],
+    "keys": { "бали": "point*|stamp*|reward*", "безкоштовна кава": "free|coffee" }
+   },
+   {
+    "sit": "Друг скаржиться, що промокод, який ти йому надіслав, не спрацював.",
+    "say": "Промокод можна активувати лише до кінця місяця.",
+    "ans": ["You can only redeem the code until the end of the month.", "The promo code can only be redeemed until the end of the month.", "You can only redeem it before the end of the month."],
+    "keys": { "кінець місяця": "month*" }
+   }
+  ]
+ },
+ {
+  "id": 1445, "w": "apply a code", "uk": "застосувати промокод", "lvl": "B2",
+  "forms": "apply|applies|applied|applied|applying",
+  "tail": "code*",
+  "near": "use*|using|enter*|redeem*|put in|type in|typed in|add*",
+  "tasks": [
+   {
+    "sit": "Ти оплачуєш кросівки, а знижка чомусь не порахувалася.",
+    "say": "Я застосував промокод, але ціна не змінилася.",
+    "ans": ["I applied the promo code, but the price didn’t change.", "I applied the code, but the price is still the same.", "I applied the discount code and the price stayed the same."],
+    "keys": { "ціна": "price*|total|cost", "не змінилась": "not change*|same|still" }
+   },
+   {
+    "sit": "Сестра купує онлайн квитки в кіно, а в неї є знижка від банку.",
+    "say": "Не забудь застосувати код на знижку!",
+    "ans": ["Don’t forget to apply the discount code!", "Remember to apply the discount code!", "Don’t forget to apply the code for the discount!"],
+    "keys": { "знижка": "discount*|promo*|off" }
+   },
+   {
+    "sit": "Ти працюєш у підтримці інтернет-магазину. Клієнт скаржиться, що не отримав знижку.",
+    "say": "Я можу застосувати код вручну.",
+    "ans": ["I can apply the code manually.", "Let me apply the code for you manually.", "No worries, I can apply the code manually."],
+    "keys": { "вручну": "manual*|by hand|myself|for you" }
+   }
+  ]
+ },
+ {
+  "id": 1446, "w": "wishlist", "uk": "додати до списку бажань", "lvl": "C1",
+  "forms": "wishlist|wishlists|wishlisted|wishlisted|wishlisting",
+  "near": "save*|saved for later|bookmark*|favorite*|favourite*|like*|liked|heart*",
+  "tasks": [
+   {
+    "sit": "Ти побачив в інтернеті гарну лампу, але до зарплати ще тиждень.",
+    "say": "Я додам цю лампу в бажане, а куплю після зарплати.",
+    "ans": ["I’ll wishlist this lamp and buy it after payday.", "I’m wishlisting this lamp until I get paid.", "I’ll just wishlist this lamp for now and get it after payday."],
+    "keys": { "лампа": "lamp*|light", "зарплата": "pay*|salary|paid|paycheck*" }
+   },
+   {
+    "sit": "Друг питає, що тобі подарувати на день народження.",
+    "say": "Я додав кілька книжок у список бажань — глянь там.",
+    "ans": ["I’ve wishlisted a few books — have a look there.", "I wishlisted some books, so check there.", "I wishlisted a few books, just take a look."],
+    "keys": { "книжки": "book*" }
+   },
+   {
+    "sit": "Нова відеогра, на яку ти чекаєш, виходить наступного місяця.",
+    "say": "Я вже додав гру в бажане, щоб не пропустити знижку.",
+    "ans": ["I’ve already wishlisted the game so I don’t miss the sale.", "I already wishlisted the game so I won’t miss a discount.", "I’ve wishlisted the game already so I don’t miss a sale."],
+    "keys": { "гра": "game*", "знижка": "sale*|discount*|deal*" }
+   }
+  ]
+ },
+ {
+  "id": 1448, "w": "worship", "uk": "поклонятися, вклонятися (богові)", "lvl": "B2",
+  "forms": "worship|worships|worshipped/worshiped|worshipped/worshiped|worshipping/worshiping",
+  "near": "pray*|venerat*|honor*|honour*|adore*|serve*|believe in|believed in",
+  "tasks": [
+   {
+    "sit": "На уроці історії ти робиш доповідь про Давній Єгипет.",
+    "say": "Єгиптяни поклонялися сонцю.",
+    "ans": ["The Egyptians worshipped the sun.", "Ancient Egyptians worshipped the sun god.", "The ancient Egyptians basically worshipped the sun."],
+    "keys": { "сонце": "sun*|ra" }
+   },
+   {
+    "sit": "Ти проводиш екскурсію старовинною синагогою для іноземних туристів.",
+    "say": "Громада молилася в цих стінах понад триста років.",
+    "ans": ["The community worshipped here for over three hundred years.", "For more than three hundred years, the community worshipped here.", "People worshipped in this building for over three hundred years."],
+    "keys": { "триста": "three hundred|300*|centur*", "тут": "here|this" }
+   },
+   {
+    "sit": "Друг збирається до Індії й питає про місцеву релігію.",
+    "say": "Індуси поклоняються багатьом богам.",
+    "ans": ["Hindus worship many gods.", "Hindus worship lots of different gods.", "In Hinduism, people worship many gods."],
+    "keys": { "боги": "god*|deit*", "багатьом": "many|lots|lot|several|multiple" }
+   }
+  ]
+ },
+ {
+  "id": 1449, "w": "attend Mass", "uk": "ходити на месу", "lvl": "B2",
+  "forms": "attend|attends|attended|attended|attending",
+  "tail": "mass",
+  "near": "go to mass|goes to mass|went to mass|go to church|goes to church|went to church",
+  "tasks": [
+   {
+    "sit": "Колега питає, як твоя бабуся-католичка проводить неділю.",
+    "say": "Вона щонеділі ходить на месу.",
+    "ans": ["She attends Mass every Sunday.", "She attends Mass each Sunday morning.", "She never misses it — she attends Mass every Sunday."],
+    "keys": { "щонеділі": "sunday*|weekly" }
+   },
+   {
+    "sit": "Ви з другом плануєте різдвяну поїздку до Рима.",
+    "say": "Я хочу побувати на різдвяній месі в соборі Святого Петра.",
+    "ans": ["I want to attend Christmas Mass at Saint Peter’s.", "I’d love to attend Mass at Saint Peter’s on Christmas.", "I’m hoping to attend Christmas Mass at Saint Peter’s."],
+    "keys": { "Різдво": "christmas|xmas", "собор": "peter*|basilica|cathedral" }
+   },
+   {
+    "sit": "Ти навчаєшся за обміном у католицькій школі й розповідаєш про розклад.",
+    "say": "Щопʼятниці всі учні мають ходити на месу.",
+    "ans": ["Every Friday all students have to attend Mass.", "All the students must attend Mass on Fridays.", "Every Friday we all have to attend Mass."],
+    "keys": { "пʼятниця": "friday*", "учні": "student*|we|pupil*|everyone" }
+   }
+  ]
+ },
+ {
+  "id": 1451, "w": "bow", "uk": "кланятися", "lvl": "B2",
+  "forms": "bow|bows|bowed|bowed|bowing",
+  "near": "kneel*|knelt|nod*|bend*|bent",
+  "tasks": [
+   {
+    "sit": "Ти в православному храмі з другом-іноземцем, який не знає звичаїв.",
+    "say": "Перед іконою треба вклонитися.",
+    "ans": ["You should bow before the icon.", "People bow in front of the icon.", "You’re supposed to bow before the icon."],
+    "keys": { "ікона": "icon*" }
+   },
+   {
+    "sit": "Ти у відрядженні в Японії й пояснюєш колезі, як вітатися з партнерами.",
+    "say": "Тут люди кланяються замість рукостискання.",
+    "ans": ["Here people bow instead of shaking hands.", "In Japan, people bow instead of shaking hands.", "People here bow instead of shaking hands."],
+    "keys": { "замість рукостискання": "instead|hand*|handshake*" }
+   },
+   {
+    "sit": "Ти граєш в аматорському театрі й пояснюєш новачкові, як закінчується вистава.",
+    "say": "Наприкінці ми всі разом кланяємося глядачам.",
+    "ans": ["At the end we all bow to the audience together.", "At the end, we all bow together to the audience.", "At the end we all come out and bow to the audience."],
+    "keys": { "глядачі": "audience|crowd|public" }
+   }
+  ]
+ },
+ {
+  "id": 1452, "w": "chant", "uk": "наспівувати (молитви, мантри)", "lvl": "C1",
+  "forms": "chant|chants|chanted|chanted|chanting",
+  "near": "sing*|sang|sung|recit*|pray*|hum*",
+  "tasks": [
+   {
+    "sit": "Ти ночуєш у буддійському монастирі в Непалі й прокидаєшся о шостій від звуків.",
+    "say": "Ченці співають мантри на світанку.",
+    "ans": ["The monks chant mantras at dawn.", "Monks chant mantras every morning at dawn.", "The monks are chanting mantras at dawn."],
+    "keys": { "ченці": "monk*", "світанок": "dawn|sunrise|morning|early" }
+   },
+   {
+    "sit": "Ти ведеш заняття з йоги й пояснюєш новачкам, що буде наприкінці.",
+    "say": "Наприкінці заняття ми разом наспівуємо «Ом».",
+    "ans": ["At the end of class we chant “Om” together.", "We chant Om together at the end of the class.", "At the end we all chant Om together."],
+    "keys": { "Ом": "om", "разом": "together|all" }
+   },
+   {
+    "sit": "На семінарі з історії музики ти розповідаєш про григоріанський спів.",
+    "say": "Середньовічні ченці наспівували молитви латиною.",
+    "ans": ["Medieval monks chanted prayers in Latin.", "In the Middle Ages, monks chanted their prayers in Latin.", "Back then, monks chanted prayers in Latin."],
+    "keys": { "латиною": "latin", "молитви": "prayer*|psalm*|hymn*" }
+   }
+  ]
+ },
+ {
+  "id": 1454, "w": "confess", "uk": "сповідатися", "lvl": "B2",
+  "forms": "confess|confesses|confessed|confessed|confessing",
+  "near": "go to confession|went to confession|admit*|repent*|own up|owned up",
+  "tasks": [
+   {
+    "sit": "Твоя бабуся-католичка готується до Великодня.",
+    "say": "Перед Великоднем вона завжди сповідається у своїх гріхах.",
+    "ans": ["Before Easter she always confesses her sins.", "She always confesses her sins before Easter.", "She confesses her sins to the priest before every Easter."],
+    "keys": { "Великдень": "easter", "гріхи": "sin*" }
+   },
+   {
+    "sit": "Ви з другом дивитеся детектив, де вбивця приходить до священника.",
+    "say": "Він прийшов до церкви, щоб висповідатися у своєму злочині.",
+    "ans": ["He went to church to confess his crime.", "He came to the church to confess his crime to the priest.", "He goes to church to confess his crime."],
+    "keys": { "злочин": "crime*|murder*|sin*", "церква": "church*|priest*" }
+   },
+   {
+    "sit": "Ти розповідаєш про знайомого священника з маленької парафії.",
+    "say": "Щосуботи люди приходять до нього сповідатися.",
+    "ans": ["Every Saturday people come to him to confess.", "People come to confess to him every Saturday.", "On Saturdays, people come to him to confess."],
+    "keys": { "щосуботи": "saturday*|weekly" }
+   }
+  ]
+ },
+ {
+  "id": 1455, "w": "repent", "uk": "каятися", "lvl": "C1",
+  "forms": "repent|repents|repented|repented|repenting",
+  "near": "regret*|sorry|apologi*|confess*|feel bad|felt bad|remorse",
+  "tasks": [
+   {
+    "sit": "Ти переказуєш другові недільну проповідь.",
+    "say": "Священник сказав, що покаятися ніколи не пізно.",
+    "ans": ["The priest said it’s never too late to repent.", "The priest told us it’s never too late to repent.", "The priest said it’s never too late to repent, you know."],
+    "keys": { "ніколи не пізно": "never|late", "священник": "priest*|pastor|father" }
+   },
+   {
+    "sit": "На уроці літератури ви обговорюєте «Злочин і кару» Достоєвського.",
+    "say": "Зрештою Раскольников кається у своєму злочині.",
+    "ans": ["In the end, Raskolnikov repents of his crime.", "Eventually, Raskolnikov repents of the murder.", "Raskolnikov finally repents of what he did."],
+    "keys": { "злочин": "crime*|murder*|what he did|sin*", "зрештою": "end|eventually|finally" }
+   },
+   {
+    "sit": "У новинах показують суд над корупціонером, який вкрав мільйони.",
+    "say": "Він так і не покаявся у своїх вчинках.",
+    "ans": ["He never repented of his actions.", "He has never repented of what he did.", "He never once repented of what he did."],
+    "keys": { "не": "never|not", "вчинки": "action*|what he did|deed*|crime*" }
+   }
+  ]
+ },
+ {
+  "id": 1456, "w": "sing hymns", "uk": "співати псалми, гімни", "lvl": "B2",
+  "forms": "sing|sings|sang|sung|singing",
+  "tail": "hymn*",
+  "near": "chant*|pray*|carol*|worship*|psalm*",
+  "tasks": [
+   {
+    "sit": "Сусідка питає, куди ти ходиш щонеділі зранку.",
+    "say": "Я співаю псалми в церковному хорі.",
+    "ans": ["I sing hymns in the church choir.", "I sing hymns with the church choir.", "I sing hymns in our church choir every Sunday."],
+    "keys": { "хор": "choir*", "церква": "church*" }
+   },
+   {
+    "sit": "На похороні дідуся ти пояснюєш двоюрідному братові з-за кордону, як усе минуло.",
+    "say": "Після служби всі разом співали псалми.",
+    "ans": ["After the service everyone sang hymns together.", "Everyone sang hymns together after the service.", "After the service, we all sang hymns together."],
+    "keys": { "разом": "together|everyone|all", "служба": "service|mass|ceremony|funeral" }
+   },
+   {
+    "sit": "Ти згадуєш, як у дитинстві рік навчався в англійській школі.",
+    "say": "Щоранку на загальних зборах ми співали гімни.",
+    "ans": ["Every morning at assembly we sang hymns.", "We sang hymns at assembly every morning.", "Every morning we would sing hymns at assembly."],
+    "keys": { "щоранку": "morning*", "збори": "assembl*|school|hall" }
+   }
+  ]
+ },
+ {
+  "id": 1457, "w": "believe in", "uk": "вірити у", "lvl": "A2",
+  "forms": "believe|believes|believed|believed|believing",
+  "tail": "in",
+  "near": "trust*|have faith|has faith|faith",
+  "tasks": [
+   {
+    "sit": "Подруга з захватом розповідає, що їй напророкувала ворожка.",
+    "say": "Я не вірю в гороскопи.",
+    "ans": ["I don’t believe in horoscopes.", "I really don’t believe in horoscopes.", "Honestly, I don’t believe in horoscopes."],
+    "keys": { "гороскопи": "horoscope*|astrolog*|star sign*|zodiac", "не": "not|never" }
+   },
+   {
+    "sit": "Малий племінник питає тебе, чи ти в дитинстві чекав подарунків від Святого Миколая.",
+    "say": "Коли мені було шість, я вірив у Святого Миколая.",
+    "ans": ["When I was six, I believed in Santa.", "I believed in Santa Claus when I was six.", "I still believed in Santa when I was six."],
+    "keys": { "шість": "six|6*", "Миколай": "santa*|nicholas|saint*|father christmas" }
+   },
+   {
+    "sit": "Колега-іноземець питає про твою віру.",
+    "say": "Я вірю в Бога, але до церкви не ходжу.",
+    "ans": ["I believe in God, but I don’t go to church.", "I believe in God, but I never go to church.", "I do believe in God — I just don’t go to church."],
+    "keys": { "Бог": "god", "церква": "church*" }
+   }
+  ]
+ },
+ {
+  "id": 1459, "w": "convert", "uk": "навертатися (у віру), переходити в іншу віру", "lvl": "C1",
+  "forms": "convert|converts|converted|converted|converting",
+  "near": "become*|became|join*|embrac*|turn* to|turned to",
+  "tasks": [
+   {
+    "sit": "Друг розповідає тобі про свого знайомого з Лондона.",
+    "say": "Він прийняв іслам два роки тому.",
+    "ans": ["He converted to Islam two years ago.", "Two years ago he converted to Islam.", "He converted to Islam a couple of years ago."],
+    "keys": { "іслам": "islam*|muslim*", "два роки": "two|2*|couple|year*" }
+   },
+   {
+    "sit": "На уроці історії ви говорите про Київську Русь.",
+    "say": "Князь Володимир навернувся до християнства в 988 році.",
+    "ans": ["Prince Volodymyr converted to Christianity in 988.", "In 988 Prince Volodymyr converted to Christianity.", "Volodymyr converted to Christianity back in 988."],
+    "keys": { "християнство": "christian*", "988": "988|nine*" }
+   },
+   {
+    "sit": "Подруга виходить заміж за юдея, і родина нареченого не наполягає на зміні віри.",
+    "say": "Вона не збирається переходити в юдаїзм заради весілля.",
+    "ans": ["She isn’t going to convert to Judaism for the wedding.", "She’s not planning to convert to Judaism for the wedding.", "She has no plans to convert to Judaism just for the wedding."],
+    "keys": { "юдаїзм": "juda*|jewish", "весілля": "wedding|marriage|marry*", "не": "not|no" }
+   }
+  ]
+ },
+ {
+  "id": 1460, "w": "convert", "uk": "навертати (в іншу віру)", "lvl": "C1",
+  "forms": "convert|converts|converted|converted|converting",
+  "near": "persuade*|preach*|win over|won over|recruit*|proselyt*|brainwash*",
+  "tasks": [
+   {
+    "sit": "У двері подзвонили люди з брошурами про свою релігію й пів години не відпускали тебе.",
+    "say": "Вони намагалися навернути мене у свою віру.",
+    "ans": ["They tried to convert me.", "They were trying to convert me to their religion.", "They tried to convert me right on my doorstep."],
+    "keys": { "намагалися": "tri*|try*" }
+   },
+   {
+    "sit": "Ти готуєш доповідь про історію Латинської Америки.",
+    "say": "Місіонери навертали місцевих жителів у християнство.",
+    "ans": ["Missionaries converted the locals to Christianity.", "The missionaries converted local people to Christianity.", "Missionaries went there to convert the locals to Christianity."],
+    "keys": { "місцеві": "local*|native*|indigenous|people", "християнство": "christian*" }
+   },
+   {
+    "sit": "Твій друг-веган на кожній вечірці читає лекції про мʼясо.",
+    "say": "Він хоче всіх нас навернути у веганство.",
+    "ans": ["He wants to convert us all to veganism.", "He’s trying to convert all of us to veganism.", "He’s on a mission to convert us all to veganism."],
+    "keys": { "веганство": "vegan*", "всіх": "all|everyone|everybody" }
+   }
+  ]
+ },
+ {
+  "id": 1461, "w": "baptize", "uk": "хрестити", "lvl": "C1",
+  "forms": "baptize/baptise|baptizes/baptises|baptized/baptised|baptized/baptised|baptizing/baptising",
+  "near": "christen*|name*",
+  "tasks": [
+   {
+    "sit": "Ти запрошуєш друга на сімейне свято.",
+    "say": "У неділю ми хрестимо нашого сина.",
+    "ans": ["We’re baptizing our son on Sunday.", "Our son is being baptized on Sunday.", "We’re getting our son baptized this Sunday."],
+    "keys": { "син": "son|baby|boy", "неділя": "sunday" }
+   },
+   {
+    "sit": "Друг питає, чи ти хрещений.",
+    "say": "Мене охрестили ще немовлям.",
+    "ans": ["I was baptized when I was a baby.", "I got baptized as a baby.", "They baptized me when I was just a baby."],
+    "keys": { "немовля": "baby|infant|newborn" }
+   },
+   {
+    "sit": "Ти ведеш екскурсію для іноземців берегом Дніпра в Києві.",
+    "say": "Саме тут у 988 році хрестили киян.",
+    "ans": ["The people of Kyiv were baptized here in 988.", "The people of Kyiv were baptized right here in 988.", "Right here, in 988, they baptized the people of Kyiv."],
+    "keys": { "тут": "here", "кияни": "kyiv*|kiev*" }
+   }
+  ]
+ },
+ {
+  "id": 1462, "w": "bless", "uk": "благословляти, святити", "lvl": "B2",
+  "forms": "bless|blesses|blessed|blessed|blessing",
+  "near": "consecrat*|sanctif*|say grace|said grace|pray over|prayed over",
+  "tasks": [
+   {
+    "sit": "На Великдень ти ведеш друга-іноземця до церкви з кошиком.",
+    "say": "Священник святить паски святою водою.",
+    "ans": ["The priest blesses the Easter bread with holy water.", "The priest is blessing the Easter baskets with holy water.", "The priest blesses the food with holy water."],
+    "keys": { "вода": "water", "паски": "bread|basket*|food|cake*|paska*" }
+   },
+   {
+    "sit": "Ти в гостях у родини друга, і перед вечерею всі беруться за руки.",
+    "say": "Дідусь завжди благословляє їжу перед вечерею.",
+    "ans": ["Grandpa always blesses the food before dinner.", "Before dinner, Grandpa always blesses the meal.", "Grandpa always blesses the food before we eat."],
+    "keys": { "їжа": "food|meal|dinner", "дідусь": "grandpa|grandfather|granddad" }
+   },
+   {
+    "sit": "Ти розповідаєш колезі з Канади про українське весілля.",
+    "say": "Батьки благословляють молодих іконою.",
+    "ans": ["The parents bless the couple with an icon.", "The parents bless the newlyweds with an icon.", "The parents bless the bride and groom with an icon."],
+    "keys": { "батьки": "parent*", "ікона": "icon*" }
+   }
+  ]
+ },
+ {
+  "id": 1463, "w": "curse", "uk": "проклинати", "lvl": "B2",
+  "forms": "curse|curses|cursed|cursed|cursing",
+  "near": "damn*|hex*|jinx*|put a spell|swear*|swore",
+  "tasks": [
+   {
+    "sit": "Ти читаєш дитині казку про сплячу красуню.",
+    "say": "Зла фея прокляла принцесу.",
+    "ans": ["The evil fairy cursed the princess.", "An evil fairy cursed the princess.", "So the wicked fairy cursed the princess."],
+    "keys": { "принцеса": "princess*", "фея": "fairy|witch" }
+   },
+   {
+    "sit": "Екскурсовод у Єгипті розповідає легенду біля входу до гробниці.",
+    "say": "Кажуть, фараон прокляв усіх, хто відкриє його гробницю.",
+    "ans": ["They say the pharaoh cursed anyone who opened his tomb.", "Legend says the pharaoh cursed whoever opened his tomb.", "Supposedly, the pharaoh cursed anyone who would open his tomb."],
+    "keys": { "гробниця": "tomb*|grave*|pyramid*", "фараон": "pharaoh*|king" }
+   },
+   {
+    "sit": "Ти переказуєш подрузі сюжет сімейної драми, яку дивишся.",
+    "say": "Мати прокляла сина, коли він пішов з дому.",
+    "ans": ["The mother cursed her son when he left home.", "His mother cursed him when he left home.", "His own mother cursed him for leaving home."],
+    "keys": { "мати": "mother|mom|mum", "пішов": "left|leav*|went" }
+   }
+  ]
+ },
+ {
+  "id": 1464, "w": "forgive", "uk": "прощати", "lvl": "B1",
+  "forms": "forgive|forgives|forgave|forgiven|forgiving",
+  "near": "pardon*|excuse*|let it go|let go|absolv*|over it",
+  "tasks": [
+   {
+    "sit": "Друг сумнівається, чи прийме його церква після всього, що він накоїв.",
+    "say": "Бог прощає тих, хто щиро кається.",
+    "ans": ["God forgives those who truly repent.", "God forgives anyone who sincerely repents.", "God forgives everyone who’s truly sorry."],
+    "keys": { "Бог": "god|lord", "щиро": "true*|truly|sincere*|really|honest*" }
+   },
+   {
+    "sit": "Брат колись розбив твою машину й досі почувається винним.",
+    "say": "Я тебе давно простив, забудь.",
+    "ans": ["I forgave you a long time ago, forget it.", "I’ve forgiven you long ago, so just forget it.", "I forgave you ages ago — let it go."],
+    "keys": { "давно": "long|ages|while" }
+   },
+   {
+    "sit": "Колега, з яким ви дружили, збрехав про тебе начальникові.",
+    "say": "Я не можу простити йому цю брехню.",
+    "ans": ["I can’t forgive him for that lie.", "I can’t forgive him for lying to me.", "I just can’t forgive him for lying."],
+    "keys": { "брехня": "lie*|lying|lied", "не": "not|never" }
+   }
+  ]
+ },
+ {
+  "id": 1465, "w": "fast", "uk": "постувати, дотримуватися посту", "lvl": "B2",
+  "forms": "fast|fasts|fasted|fasted|fasting",
+  "near": "diet*|starv*|skip* meals|not eat|no meat|go without|not eating",
+  "tasks": [
+   {
+    "sit": "Колега-мусульманин відмовляється від обіду з командою.",
+    "say": "Зараз Рамадан, тому він постить до заходу сонця.",
+    "ans": ["It’s Ramadan, so he’s fasting until sunset.", "He fasts until sunset during Ramadan.", "It’s Ramadan — he’s fasting till sundown."],
+    "keys": { "захід сонця": "sunset|sundown|dark|evening", "Рамадан": "ramadan" }
+   },
+   {
+    "sit": "Бабуся питає, чи ти дотримуєшся посту перед Великоднем.",
+    "say": "Цього року я пощу весь Великий піст.",
+    "ans": ["This year I’m fasting for all of Lent.", "I’m fasting for the whole of Lent this year.", "Yeah, I’m fasting all through Lent this year."],
+    "keys": { "Великий піст": "lent", "цього року": "year" }
+   },
+   {
+    "sit": "Сусід-юдей пояснює тобі, чому завтра не прийде на ваші посиденьки.",
+    "say": "На Йом Кіпур ми постимо цілу добу.",
+    "ans": ["On Yom Kippur we fast for a whole day.", "We fast for a full day on Yom Kippur.", "We fast for twenty-four hours on Yom Kippur."],
+    "keys": { "Йом Кіпур": "yom|kippur", "добу": "day|24*|twenty*|hour*" }
+   }
+  ]
+ },
+ {
+  "id": 1466, "w": "light a candle", "uk": "запалити свічку", "lvl": "B1",
+  "forms": "light|lights|lit/lighted|lit/lighted|lighting",
+  "tail": "candle*",
+  "near": "burn*|put a candle|place* a candle|put up a candle",
+  "tasks": [
+   {
+    "sit": "Ти з друзями в соборі у Львові. Бабуся нещодавно померла.",
+    "say": "Я поставлю свічку за бабусю.",
+    "ans": ["I’m going to light a candle for my grandma.", "I’ll light a candle for Grandma.", "Let me light a candle for my grandma."],
+    "keys": { "бабуся": "grandm*|granny|nan*" }
+   },
+   {
+    "sit": "Раптом вимкнули світло, і в квартирі стало зовсім темно.",
+    "say": "Запали свічку, поки я шукаю ліхтарик.",
+    "ans": ["Light a candle while I look for the flashlight.", "Can you light a candle while I find the flashlight?", "Quick, light a candle while I look for the torch."],
+    "keys": { "ліхтарик": "flashlight*|torch*" }
+   },
+   {
+    "sit": "У День памʼяті жертв Голодомору ти пишеш колезі з Канади.",
+    "say": "Сьогодні ввечері ми запалимо свічку в памʼять про жертв.",
+    "ans": ["Tonight we’ll light a candle in memory of the victims.", "We’re going to light a candle tonight to remember the victims.", "Tonight we light a candle for the victims."],
+    "keys": { "ввечері": "tonight|evening", "жертви": "victim*|dead" }
+   }
+  ]
+ },
+ {
+  "id": 1467, "w": "cross yourself", "uk": "хреститися, перехреститися", "lvl": "C1",
+  "forms": "cross|crosses|crossed|crossed|crossing",
+  "tail": "yourself/myself/himself/herself/ourselves/themselves/yourselves",
+  "near": "sign of the cross|make the sign|made the sign|pray*|bless*",
+  "tasks": [
+   {
+    "sit": "Ти пояснюєш другові-іноземцю звичаї в православній церкві.",
+    "say": "Коли заходиш у церкву, треба перехреститися.",
+    "ans": ["When you enter a church, you should cross yourself.", "You cross yourself when you walk into a church.", "You’re supposed to cross yourself when you go into a church."],
+    "keys": { "церква": "church*" }
+   },
+   {
+    "sit": "Ви з бабусею летите на відпочинок, і літак виїжджає на злітну смугу.",
+    "say": "Бабуся завжди хреститься перед зльотом.",
+    "ans": ["Grandma always crosses herself before takeoff.", "Before takeoff, Grandma always crosses herself.", "My grandma always crosses herself before the plane takes off."],
+    "keys": { "бабуся": "grandm*|granny", "зліт": "takeoff|take-off|takes off|take off|flight" }
+   },
+   {
+    "sit": "Ви з другом дивитеся футбол, і гравець підходить до мʼяча.",
+    "say": "Бачиш, він перехрестився перед пенальті.",
+    "ans": ["Look, he crossed himself before the penalty.", "See? He crossed himself before taking the penalty.", "Did you see him cross himself before the penalty?"],
+    "keys": { "пенальті": "penalt*|kick|shot" }
+   }
+  ]
+ }
+]

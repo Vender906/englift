@@ -1,0 +1,645 @@
+[
+ {
+  "id": 2493, "w": "cross fingers", "uk": "схрестити пальці (на удачу)", "lvl": "B1",
+  "forms": "cross|crosses|crossed|crossed|crossing",
+  "tail": "finger*",
+  "near": "wish me luck|wish you luck|good luck|knock on wood|touch wood|pray*|hope*",
+  "tasks": [
+   {
+    "sit": "Завтра в тебе співбесіда в компанії мрії. Ти пишеш подрузі ввечері.",
+    "say": "Схрести за мене пальці!",
+    "ans": ["Cross your fingers for me!", "Please cross your fingers for me tomorrow!", "Cross your fingers for me, okay?"],
+    "keys": { "за мене": "me|for me" }
+   },
+   {
+    "sit": "Ви з друзями дивитеся лотерейний розіграш, і випадають останні номери.",
+    "say": "Я схрестив пальці й чекав останнього номера.",
+    "ans": ["I crossed my fingers and waited for the last number.", "I was crossing my fingers, waiting for the final number.", "I crossed my fingers and just waited for that last number."],
+    "keys": { "останній номер": "last|final|number", "чекав": "wait*|watch*" }
+   },
+   {
+    "sit": "Колега питає, чи встигне ваш рейс, бо в аеропорту через погоду затримки.",
+    "say": "Поки не скасували, тож схрещуємо пальці.",
+    "ans": ["It hasn’t been cancelled yet, so let’s cross our fingers.", "It’s not cancelled so far — we’re crossing our fingers.", "Not cancelled yet, so we’ll just cross our fingers."],
+    "keys": { "не скасували": "not cancel*|not been cancel*|not canceled|still on|yet" }
+   }
+  ]
+ },
+ {
+  "id": 2496, "w": "beckon", "uk": "поманити (жестом підкликати)", "lvl": "C1",
+  "forms": "beckon|beckons|beckoned|beckoned|beckoning",
+  "near": "wave* me over|wave* him over|wave* her over|wave* over|gestur*|signal*|call* over|motion*",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш, як потрапив на закриту вечірку, де нікого не знав.",
+    "say": "Господиня поманила мене до свого столика.",
+    "ans": ["The host beckoned me over to her table.", "The hostess beckoned me to her table.", "The host just beckoned me over to her table."],
+    "keys": { "столик": "table" }
+   },
+   {
+    "sit": "На екскурсії в музеї гід помітив щось цікаве й хоче показати групі, не підвищуючи голосу.",
+    "say": "Гід мовчки поманив нас ближче до картини.",
+    "ans": ["The guide silently beckoned us closer to the painting.", "Without a word, the guide beckoned us closer to the painting.", "The guide quietly beckoned us over to the painting."],
+    "keys": { "мовчки": "silent*|quiet*|without a word|word", "картина": "painting|picture|canvas" }
+   },
+   {
+    "sit": "Ти в кафе, і офіціант довго не підходить. Ти вже кілька разів махав йому.",
+    "say": "Я поманив офіціанта, але він удав, що не бачить.",
+    "ans": ["I beckoned the waiter, but he pretended not to see.", "I beckoned to the waiter, but he acted like he didn’t see me.", "I beckoned the waiter over, but he pretended he didn’t notice."],
+    "keys": { "офіціант": "waiter|server|staff", "удав": "pretend*|act* like|ignor*" }
+   }
+  ]
+ },
+ {
+  "id": 2497, "w": "slouch", "uk": "сутулитися, горбитися", "lvl": "B2",
+  "forms": "slouch|slouches|slouched|slouched|slouching",
+  "near": "hunch*|stoop*|bend*|bent|lean*|slump*",
+  "tasks": [
+   {
+    "sit": "Фізіотерапевт питає, чому в тебе болить спина після робочого дня.",
+    "say": "Мабуть, я цілий день сутулюся за компʼютером.",
+    "ans": ["I guess I slouch at my computer all day.", "I probably slouch at the computer all day long.", "I think I’m slouching over my laptop all day."],
+    "keys": { "компʼютер": "computer|laptop|desk|screen", "цілий день": "all day|whole day|day" }
+   },
+   {
+    "sit": "За вечерею твій син-підліток майже лежить на стільці.",
+    "say": "Не горбся за столом, сядь рівно.",
+    "ans": ["Don’t slouch at the table, sit up straight.", "Stop slouching at the table and sit up straight.", "Hey, no slouching at the table — sit up straight."],
+    "keys": { "за столом": "table|dinner", "рівно": "straight|up|properly" }
+   },
+   {
+    "sit": "Ти дивишся запис свого виступу на конференції разом із наставником.",
+    "say": "Я помітив, що сутулюся, коли нервую.",
+    "ans": ["I’ve noticed that I slouch when I’m nervous.", "I noticed I slouch whenever I get nervous.", "I realized I slouch a lot when I’m nervous."],
+    "keys": { "нервую": "nervous|anxious|stress*" }
+   }
+  ]
+ },
+ {
+  "id": 2498, "w": "straighten up", "uk": "випрямитися", "lvl": "B2",
+  "forms": "straighten|straightens|straightened|straightened|straightening",
+  "tail": "up",
+  "near": "sit up|sat up|stand up straight|stood up straight|stand straight|sit straight|stretch*",
+  "tasks": [
+   {
+    "sit": "Фотограф на весіллі робить загальне фото, а гості в задньому ряду стоять як попало.",
+    "say": "Випрямтеся, будь ласка, і посміхніться!",
+    "ans": ["Straighten up, please, and smile!", "Please straighten up and give me a smile!", "Everyone, straighten up and smile, please!"],
+    "keys": { "посміхніться": "smile*|say cheese|cheese" }
+   },
+   {
+    "sit": "Ти годину полов грядки на дачі й розповідаєш сусідові, як почуваєшся.",
+    "say": "Я ледве випрямився — так болить спина.",
+    "ans": ["I could barely straighten up, my back hurts so much.", "My back hurts so much I can hardly straighten up.", "I could barely straighten up — my back’s killing me."],
+    "keys": { "ледве": "barely|hardly|could not|can not|struggle*", "спина": "back" }
+   }
+   ,
+   {
+    "sit": "Ти розповідаєш другу, як на співбесіду зайшов директор компанії.",
+    "say": "Коли він зайшов, усі раптом випрямилися.",
+    "ans": ["When he walked in, everyone suddenly straightened up.", "Everyone straightened up as soon as he came in.", "The moment he walked in, everybody straightened up."],
+    "keys": { "зайшов": "walk* in|came in|come in|enter*|in", "усі": "everyone|everybody|all" }
+   }
+  ]
+ },
+ {
+  "id": 2499, "w": "stand tall", "uk": "стояти рівно, розправивши плечі", "lvl": "B2",
+  "forms": "stand|stands|stood|stood|standing",
+  "tail": "tall",
+  "near": "stand straight|stood straight|stand up straight|straighten up|straightened up|chin up|shoulders back",
+  "tasks": [
+   {
+    "sit": "Ти тренер з публічних виступів і даєш пораду студентці перед першою презентацією.",
+    "say": "Стій рівно, розправ плечі й не дивися в підлогу.",
+    "ans": ["Stand tall and don’t look at the floor.", "Stand tall, shoulders back, and don’t stare at the floor.", "Just stand tall and keep your eyes off the floor."],
+    "keys": { "підлога": "floor|ground|down" }
+   },
+   {
+    "sit": "На випускному ти дивишся, як твій сором’язливий брат виходить отримувати диплом.",
+    "say": "Він ішов по сцені, розправивши плечі, — я так пишаюся!",
+    "ans": ["He stood tall on stage — I’m so proud!", "He was standing tall up there on stage, and I’m so proud of him.", "He stood so tall on that stage — I’m really proud!"],
+    "keys": { "сцена": "stage|up there", "пишаюся": "proud|pride" }
+   },
+   {
+    "sit": "Інструктор із самооборони пояснює групі, як поводитися на темній вулиці.",
+    "say": "Тримайтеся рівно й упевнено — так ви менше схожі на жертву.",
+    "ans": ["Stand tall and look confident, so you look less like a victim.", "Stand tall and act confident — you’ll look less like an easy target.", "Always stand tall and confident; you’ll seem less like a target."],
+    "keys": { "упевнено": "confident*|sure", "жертва": "victim|target|easy" }
+   }
+  ]
+ },
+ {
+  "id": 2500, "w": "lean forward", "uk": "нахилитися вперед", "lvl": "B1",
+  "forms": "lean|leans|leaned/leant|leaned/leant|leaning",
+  "tail": "forward*",
+  "near": "bend* over|bent over|bend* down|bent down|lean* in|lean* closer|move* closer|moved closer",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш про лекцію, де викладач говорив дуже тихо.",
+    "say": "Мені доводилося нахилятися вперед, щоб хоч щось почути.",
+    "ans": ["I had to lean forward to hear anything.", "I kept having to lean forward just to hear him.", "I had to lean forward the whole time to hear anything."],
+    "keys": { "почути": "hear*|listen*" }
+   },
+   {
+    "sit": "Стоматолог просить тебе змінити положення в кріслі.",
+    "say": "Трохи нахиліться вперед, будь ласка.",
+    "ans": ["Lean forward a little, please.", "Please lean forward a bit.", "Could you lean forward a little for me?"],
+    "keys": { "трохи": "little|bit|slightly" }
+   },
+   {
+    "sit": "Ти переказуєш подрузі, як пройшли переговори з інвестором.",
+    "say": "Коли я назвав цифри, він нахилився вперед — йому стало цікаво.",
+    "ans": ["When I showed the numbers, he leaned forward — he was interested.", "He leaned forward when I mentioned the numbers; he got interested.", "The moment I said the numbers, he leaned forward. He was hooked."],
+    "keys": { "цифри": "number*|figure*|stat*", "цікаво": "interest*|hooked|curious" }
+   }
+  ]
+ },
+ {
+  "id": 2501, "w": "lean back", "uk": "відкинутися назад", "lvl": "B1",
+  "forms": "lean|leans|leaned/leant|leaned/leant|leaning",
+  "tail": "back",
+  "near": "recline*|sit back|sat back|lie back|lay back|relax*|stretch*",
+  "tasks": [
+   {
+    "sit": "Масажист перед сеансом розслаблення підлаштовує для тебе крісло.",
+    "say": "Відкиньтеся назад і заплющте очі.",
+    "ans": ["Lean back and close your eyes.", "Just lean back and close your eyes.", "Go ahead, lean back and shut your eyes."],
+    "keys": { "заплющте очі": "close*|shut|eye*" }
+   },
+   {
+    "sit": "Ти розповідаєш, як твій батько реагує на погані оцінки.",
+    "say": "Він відкидається на стільці, схрещує руки й мовчить.",
+    "ans": ["He leans back in his chair, crosses his arms and says nothing.", "He just leans back in his chair with his arms crossed and stays quiet.", "He leans back, crosses his arms, and doesn’t say a word."],
+    "keys": { "мовчить": "nothing|quiet|silent|not say|word" }
+   },
+   {
+    "sit": "У літаку сусід позаду просить тебе про щось, поки розносять їжу.",
+    "say": "Вибачте, можна я не відкидатимуся, поки ви їсте?",
+    "ans": ["Sorry, I won’t lean back while you’re eating.", "Don’t worry, I’m not going to lean back while you eat.", "Oh sure — I won’t lean back until you’ve finished eating."],
+    "keys": { "поки ви їсте": "eat*|meal|food|finish*" }
+   }
+  ]
+ },
+ {
+  "id": 2502, "w": "cross arms", "uk": "схрестити руки (на грудях)", "lvl": "B2",
+  "forms": "cross|crosses|crossed|crossed|crossing",
+  "tail": "arm*",
+  "near": "fold* arms|fold* my arms|fold* his arms|fold* her arms|fold* your arms|hug* myself",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш колезі про нараду, де ваш план не сподобався клієнту.",
+    "say": "Він схрестив руки й навіть не посміхнувся.",
+    "ans": ["He crossed his arms and didn’t even smile.", "He crossed his arms and didn’t smile once.", "He just crossed his arms and didn’t crack a smile."],
+    "keys": { "не посміхнувся": "not smile|not even smile|no smile|not crack a smile|smile" }
+   },
+   {
+    "sit": "Психолог на тренінгу пояснює групі мову тіла.",
+    "say": "Коли людина схрещує руки, вона часто захищається.",
+    "ans": ["When people cross their arms, they’re often being defensive.", "If someone crosses their arms, they often feel defensive.", "People who cross their arms are often just being defensive."],
+    "keys": { "захищається": "defens*|protect*|closed" }
+   },
+   {
+    "sit": "На морозній зупинці подруга дивується, чому ти так стоїш.",
+    "say": "Я схрестив руки, бо мені дуже холодно.",
+    "ans": ["I crossed my arms because I’m freezing.", "I’m crossing my arms because it’s so cold.", "It’s so cold, so I’m crossing my arms to keep warm."],
+    "keys": { "холодно": "cold|freez*|warm" }
+   }
+  ]
+ },
+ {
+  "id": 2503, "w": "cross legs", "uk": "закинути ногу на ногу, схрестити ноги", "lvl": "B2",
+  "forms": "cross|crosses|crossed|crossed|crossing",
+  "tail": "leg*",
+  "near": "sit cross-legged|sat cross-legged|put my feet up|put your feet up|tuck* my legs",
+  "tasks": [
+   {
+    "sit": "Лікар-флеболог оглядає твої ноги й питає, як ти зазвичай сидиш.",
+    "say": "Я постійно закидаю ногу на ногу, коли працюю.",
+    "ans": ["I always cross my legs when I work.", "When I’m working, I cross my legs all the time.", "I’m always crossing my legs at work."],
+    "keys": { "постійно": "always|all the time|constantly", "працюю": "work*|desk" }
+   },
+   {
+    "sit": "Ти вчиш подругу медитувати на килимку в парку.",
+    "say": "Сядь, схрести ноги й розслаб плечі.",
+    "ans": ["Sit down, cross your legs and relax your shoulders.", "Sit and cross your legs, then relax your shoulders.", "Okay, sit, cross your legs, and let your shoulders relax."],
+    "keys": { "плечі": "shoulder*", "розслаб": "relax*|loose*|drop" }
+   },
+   {
+    "sit": "Ти описуєш другові, як поводилася зірка на ток-шоу.",
+    "say": "Вона елегантно закинула ногу на ногу й усміхнулася в камеру.",
+    "ans": ["She elegantly crossed her legs and smiled at the camera.", "She crossed her legs elegantly and smiled into the camera.", "She crossed her legs super elegantly and flashed a smile at the camera."],
+    "keys": { "елегантно": "elegant*|graceful*|stylish*", "камера": "camera" }
+   }
+  ]
+ },
+ {
+  "id": 2504, "w": "stretch out", "uk": "розтягнутися (лягти на весь зріст)", "lvl": "B1",
+  "forms": "stretch|stretches|stretched|stretched|stretching",
+  "tail": "out",
+  "near": "lie down|lay down|lying down|lie back|lay back|sprawl*|lounge*|relax*",
+  "tasks": [
+   {
+    "sit": "Ти нарешті повернувся додому після довгого робочого дня.",
+    "say": "Хочу просто розтягнутися на дивані й нічого не робити.",
+    "ans": ["I just want to stretch out on the sofa and do nothing.", "All I want is to stretch out on the couch and do nothing.", "I’m just going to stretch out on the couch and do absolutely nothing."],
+    "keys": { "диван": "sofa|couch", "нічого не робити": "nothing|relax|not do anything" }
+   },
+   {
+    "sit": "Ти обираєш квитки на нічний потяг і радишся з партнером.",
+    "say": "Візьмімо купе, щоб можна було розтягнутися на повний зріст.",
+    "ans": ["Let’s get a sleeper so we can stretch out fully.", "Let’s book a sleeper cabin so we can actually stretch out.", "Let’s get the sleeper so we can properly stretch out."],
+    "keys": { "купе": "sleeper|cabin|compartment|bed*", "повністю": "fully|properly|actually|all the way" }
+   },
+   {
+    "sit": "Ти ділишся з другом враженнями від пляжу в Греції.",
+    "say": "Там було так мало людей, що можна було розтягнутися де завгодно.",
+    "ans": ["There were so few people that you could stretch out anywhere.", "It was so empty you could stretch out wherever you liked.", "Hardly anyone was there, so you could stretch out anywhere."],
+    "keys": { "мало людей": "few|empty|hardly anyone|no one|nobody|quiet", "де завгодно": "anywhere|wherever|any spot" }
+   }
+  ]
+ },
+ {
+  "id": 2505, "w": "curl up", "uk": "згорнутися калачиком", "lvl": "B2",
+  "forms": "curl|curls|curled|curled|curling",
+  "tail": "up",
+  "near": "cuddle*|snuggle*|huddle*|lie down|lay down|tuck* my legs|ball",
+  "tasks": [
+   {
+    "sit": "За вікном дощ, а подруга кличе тебе в клуб.",
+    "say": "Я краще згорнуся калачиком у ліжку з книжкою.",
+    "ans": ["I’d rather curl up in bed with a book.", "I think I’ll curl up in bed with a good book instead.", "Honestly, I’d rather just curl up in bed with a book."],
+    "keys": { "ліжко": "bed|blanket", "книжка": "book|novel" }
+   },
+   {
+    "sit": "Ти показуєш гостям фото свого кота.",
+    "say": "Він завжди згортається клубочком у мене на колінах.",
+    "ans": ["He always curls up on my lap.", "He’s always curling up in my lap.", "He always curls up right on my lap."],
+    "keys": { "на колінах": "lap|knees" }
+   },
+   {
+    "sit": "Ти розповідаєш мамі, як малий поводився після щеплення.",
+    "say": "Він згорнувся калачиком на дивані й заснув.",
+    "ans": ["He curled up on the sofa and fell asleep.", "He curled up on the couch and went to sleep.", "He just curled up on the sofa and dozed off."],
+    "keys": { "диван": "sofa|couch", "заснув": "asleep|sleep|doz*|nap*" }
+   }
+  ]
+ },
+ {
+  "id": 2506, "w": "perch", "uk": "примоститися, сісти на край (високого сидіння)", "lvl": "C1",
+  "forms": "perch|perches|perched|perched|perching",
+  "near": "sit|sat|sitting|sits|balance*|squeeze* in|lean*",
+  "tasks": [
+   {
+    "sit": "На кухні в друга всього два високі табурети, а гостей п’ятеро.",
+    "say": "Я примощуся на краєчку барної стійки, нічого страшного.",
+    "ans": ["I’ll perch on the edge of the counter, it’s fine.", "Don’t worry, I can perch on the edge of the counter.", "It’s fine, I’ll just perch on the edge of the counter."],
+    "keys": { "край": "edge|end|corner", "стійка": "counter|bar|worktop" }
+   },
+   {
+    "sit": "Ти описуєш у листі кафе, яке тобі сподобалося в Парижі.",
+    "say": "Ми сиділи на високих табуретах біля вікна й дивилися на перехожих.",
+    "ans": ["We perched on high stools by the window and watched people go by.", "We were perched on tall stools by the window, people-watching.", "We perched on stools by the window and just watched people walk past."],
+    "keys": { "табурети": "stool*|seat*|chair*", "вікно": "window" }
+   },
+   {
+    "sit": "Ти розповідаєш про візит до лікаря, де почувався незатишно.",
+    "say": "Я весь час сидів на краєчку стільця, бо дуже нервував.",
+    "ans": ["I perched on the edge of my chair the whole time because I was so nervous.", "I was so nervous I just perched on the edge of the chair.", "I sat perched on the edge of my chair the whole time — so nervous."],
+    "keys": { "край стільця": "edge|chair|seat", "нервував": "nervous|anxious|tense|scared" }
+   }
+  ]
+ },
+ {
+  "id": 2507, "w": "squat down", "uk": "присісти навпочіпки", "lvl": "B2",
+  "forms": "squat|squats|squatted/squat|squatted/squat|squatting",
+  "tail": "down",
+  "near": "crouch*|kneel*|knelt|bend down|bent down|get down|got down|sit down",
+  "tasks": [
+   {
+    "sit": "Ти вихователь у дитсадку і пояснюєш новій колезі, як говорити з малюками.",
+    "say": "Присідай, щоб бути на рівні очей дитини.",
+    "ans": ["Squat down so you’re at the child’s eye level.", "Squat down to get to the kid’s eye level.", "Just squat down so you’re at eye level with the kid."],
+    "keys": { "дитина": "child*|kid*|little one", "рівень очей": "eye level|eye|level" }
+   },
+   {
+    "sit": "Ти розповідаєш про похід, де вперше побачив дикого їжака.",
+    "say": "Я тихенько присів, щоб його сфотографувати.",
+    "ans": ["I quietly squatted down to take a photo of it.", "I squatted down quietly so I could take a picture.", "I squatted down super quietly to snap a photo of it."],
+    "keys": { "тихенько": "quiet*|slow*|careful*|gentl*", "сфотографувати": "photo*|picture*|pic|snap*|shot" }
+   },
+   {
+    "sit": "На вокзалі хтось упустив монети, і ти допомагаєш їх збирати.",
+    "say": "Я присів і почав збирати монети з підлоги.",
+    "ans": ["I squatted down and started picking up the coins.", "I squatted down to pick the coins up off the floor.", "I squatted down and started grabbing the coins off the floor."],
+    "keys": { "монети": "coin*|change|money", "збирати": "pick*|grab*|collect*|gather*" }
+   }
+  ]
+ },
+ {
+  "id": 2508, "w": "tower over", "uk": "височіти (зростом) над кимось", "lvl": "C1",
+  "forms": "tower|towers|towered|towered|towering",
+  "tail": "over/above",
+  "near": "taller than|much taller|bigger than|loom* over|dwarf*|higher than",
+  "tasks": [
+   {
+    "sit": "Твоєму синові чотирнадцять, і за літо він дуже виріс. Ти показуєш сімейне фото колезі.",
+    "say": "Він уже височіє наді мною!",
+    "ans": ["He already towers over me!", "He’s already towering over me!", "Can you believe he already towers over me?"],
+    "keys": { "уже": "already|now" }
+   },
+   {
+    "sit": "Ти дивишся баскетбол і коментуєш новачка команди.",
+    "say": "Він на голову вищий за всіх інших гравців — просто нависає над ними.",
+    "ans": ["He towers over all the other players.", "He’s a head taller and towers over everyone else on the court.", "That guy totally towers over the other players."],
+    "keys": { "гравці": "player*|everyone|everybody|team*" }
+   },
+   {
+    "sit": "Ти розповідаєш про першу зустріч із тестем, дуже високим і суворим чоловіком.",
+    "say": "Він стояв наді мною, і я почувався дуже маленьким.",
+    "ans": ["He towered over me, and I felt really small.", "I felt tiny with him towering over me.", "He towered over me and I felt like a little kid."],
+    "keys": { "маленьким": "small|tiny|little|short" }
+   }
+  ]
+ },
+ {
+  "id": 2509, "w": "frown", "uk": "хмуритися, насуплюватися", "lvl": "B1",
+  "forms": "frown|frowns|frowned|frowned|frowning",
+  "near": "scowl*|grimace*|glare*|pull* a face|made a face|make a face|wrinkle*",
+  "tasks": [
+   {
+    "sit": "Ти в банку оформлюєш кредит, а менеджер довго дивиться у твої документи.",
+    "say": "Він чомусь нахмурився, коли побачив мою довідку про доходи.",
+    "ans": ["He frowned when he saw my income statement.", "For some reason, he frowned at my proof of income.", "He kind of frowned when he looked at my income papers."],
+    "keys": { "довідка про доходи": "income|salary|pay*|statement|papers|document*" }
+   },
+   {
+    "sit": "Ти пояснюєш бабусі, як користуватися відеозвʼязком, а вона нічого не розуміє.",
+    "say": "Бабуся розгублено насупилася й перепитала.",
+    "ans": ["Grandma frowned in confusion and asked again.", "My grandma frowned, confused, and asked me to repeat it.", "Grandma just frowned, totally confused, and asked again."],
+    "keys": { "бабуся": "grand*|granny|nan*", "перепитала": "ask*|repeat*|again" }
+   },
+   {
+    "sit": "Фотограф на випускному помічає твій вираз обличчя.",
+    "say": "Не хмурся, розслаб обличчя!",
+    "ans": ["Don’t frown, relax your face!", "Stop frowning and relax your face.", "Hey, no frowning — relax your face a bit!"],
+    "keys": { "не": "not|stop|no", "обличчя": "face|forehead|brow*" }
+   }
+  ]
+ },
+ {
+  "id": 2510, "w": "grin", "uk": "широко усміхатися", "lvl": "B1",
+  "forms": "grin|grins|grinned|grinned|grinning",
+  "near": "smile*|smiling|beam*|laugh*|smirk*",
+  "tasks": [
+   {
+    "sit": "Твій друг щойно дізнався, що його взяли на роботу мрії, і прийшов до тебе.",
+    "say": "Чого ти так широко всміхаєшся? Розповідай!",
+    "ans": ["Why are you grinning like that? Tell me!", "What are you grinning about? Come on, tell me!", "Why are you grinning like an idiot? Spill it!"],
+    "keys": { "розповідай": "tell|spill|say|talk" }
+   },
+   {
+    "sit": "Ти описуєш, як твій племінник уперше побачив море.",
+    "say": "Він усміхався від вуха до вуха весь день.",
+    "ans": ["He was grinning from ear to ear all day.", "He grinned from ear to ear the whole day.", "The kid was grinning ear to ear all day long."],
+    "keys": { "від вуха до вуха": "ear|wide*|big|huge", "весь день": "day" }
+   },
+   {
+    "sit": "Колега виграв корпоративний конкурс і тепер ходить офісом дуже задоволений.",
+    "say": "Він досі широко посміхається, навіть коли ніхто не дивиться.",
+    "ans": ["He’s still grinning, even when nobody’s looking.", "He keeps grinning even when no one is looking.", "He’s still grinning away, even when nobody’s watching."],
+    "keys": { "досі": "still|keep*", "ніхто не дивиться": "nobody|no one|alone|not look*" }
+   }
+  ]
+ },
+ {
+  "id": 2511, "w": "smirk", "uk": "глузливо (самовдоволено) посміхатися", "lvl": "B2",
+  "forms": "smirk|smirks|smirked|smirked|smirking",
+  "near": "grin*|smile*|smiling|sneer*|laugh*|snicker*|smug",
+  "tasks": [
+   {
+    "sit": "Ти посварився зі старшим братом, і він явно вважає, що переміг у суперечці.",
+    "say": "Годі самовдоволено посміхатися, ти не маєш рації!",
+    "ans": ["Stop smirking, you’re not right!", "Quit smirking — you’re wrong!", "Stop smirking at me, you’re totally wrong!"],
+    "keys": { "годі": "stop|quit|enough", "не маєш рації": "not right|wrong|mistaken" }
+   },
+   {
+    "sit": "Ти розповідаєш колезі, як конкурент поводився на презентації, коли в тебе зламався проєктор.",
+    "say": "Він глузливо посміхнувся, коли в мене впала презентація.",
+    "ans": ["He smirked when my presentation crashed.", "When my slides crashed, he smirked.", "He just smirked when my presentation crashed — so annoying."],
+    "keys": { "презентація": "presentation|slides|projector|laptop", "впала": "crash*|fail*|froze|broke*|die*|died" }
+   },
+   {
+    "sit": "Ти граєш у покер із друзями, і один із них раптом змінився на обличчі.",
+    "say": "Він так хитро посміхається — точно блефує.",
+    "ans": ["He’s smirking like that — he must be bluffing.", "He keeps smirking, so he’s definitely bluffing.", "Look at him smirking — he’s totally bluffing."],
+    "keys": { "блефує": "bluff*|lying|lie*|fake" }
+   }
+  ]
+ },
+ {
+  "id": 2512, "w": "pout", "uk": "надувати губи, дутися", "lvl": "B2",
+  "forms": "pout|pouts|pouted|pouted|pouting",
+  "near": "sulk*|sulking|be upset|get upset|got upset|be offended|take offense|whine*|whinge*",
+  "tasks": [
+   {
+    "sit": "Ти граєш із шестирічною донькою в настільну гру, і вона програла.",
+    "say": "Не дуйся, це лише гра!",
+    "ans": ["Don’t pout, it’s just a game!", "Come on, stop pouting — it’s only a game.", "Hey, no pouting, it’s just a game!"],
+    "keys": { "лише гра": "game", "не": "not|stop|no" }
+   },
+   {
+    "sit": "Ти переказуєш подрузі, як твій хлопець відреагував, коли ти відмовилася йти на футбол.",
+    "say": "Він цілий вечір дувся, як дитина.",
+    "ans": ["He pouted like a child all evening.", "He was pouting like a little kid the whole evening.", "He sat there pouting like a kid all night."],
+    "keys": { "як дитина": "child|kid|baby|toddler", "вечір": "evening|night|all" }
+   },
+   {
+    "sit": "Фотограф на зйомці для журналу дає моделі вказівки.",
+    "say": "Трохи надуйте губи й подивіться вбік.",
+    "ans": ["Pout a little and look to the side.", "Could you pout slightly and look to the side?", "Pout a bit and look away from the camera."],
+    "keys": { "вбік": "side|away|left|right" }
+   }
+  ]
+ },
+ {
+  "id": 2513, "w": "wrinkle your nose", "uk": "морщити ніс", "lvl": "B2",
+  "forms": "wrinkle|wrinkles|wrinkled|wrinkled|wrinkling",
+  "tail": "nose*",
+  "near": "screw* up my nose|scrunch* up|scrunch*|make a face|made a face|grimace*|frown*",
+  "tasks": [
+   {
+    "sit": "Ти пригостив дочку новим сиром із пліснявою.",
+    "say": "Вона зморщила носа, щойно відчула запах.",
+    "ans": ["She wrinkled her nose as soon as she smelled it.", "The moment she smelled it, she wrinkled her nose.", "She wrinkled her nose the second she caught the smell."],
+    "keys": { "запах": "smell*|sniff*|whiff" }
+   },
+   {
+    "sit": "Ти прийшов на оглядини квартири, а в підʼїзді дивно пахне. Потім розповідаєш партнерові.",
+    "say": "Я одразу зморщив ніс — там пахло сирістю.",
+    "ans": ["I immediately wrinkled my nose — it smelled damp.", "I wrinkled my nose right away because of the damp smell.", "I wrinkled my nose straight away, it smelled so musty."],
+    "keys": { "сирість": "damp*|musty|mold*|mould*", "одразу": "immediately|right away|straight away|at once|instantly" }
+   },
+   {
+    "sit": "Ти запропонував колезі сходити на обід у фастфуд.",
+    "say": "Вона зморщила носа й запропонувала салатний бар.",
+    "ans": ["She wrinkled her nose and suggested the salad bar.", "She wrinkled her nose and said we should try the salad bar.", "She just wrinkled her nose and went, ‘How about the salad bar?’"],
+    "keys": { "салатний бар": "salad*" }
+   }
+  ]
+ },
+ {
+  "id": 2514, "w": "raise an eyebrow", "uk": "звести брову (здивовано чи скептично)", "lvl": "B2",
+  "forms": "raise|raises|raised|raised|raising",
+  "tail": "eyebrow*/brow*",
+  "near": "frown*|squint*|look* surprised|look* doubtful|shocked|surprised|smirk*",
+  "tasks": [
+   {
+    "sit": "Ти сказав колегам, що наступного тижня біжиш марафон, хоча ніколи не бігав.",
+    "say": "Мій начальник скептично звів брову.",
+    "ans": ["My boss raised an eyebrow skeptically.", "My manager raised an eyebrow, clearly skeptical.", "My boss just raised an eyebrow, like, really?"],
+    "keys": { "начальник": "boss|manager|supervisor|head" }
+   },
+   {
+    "sit": "Ти прийшов на роботу у дуже яскравому костюмі. Колега питає, як відреагували на ресепшені.",
+    "say": "Адміністраторка звела брову, але нічого не сказала.",
+    "ans": ["The receptionist raised an eyebrow but said nothing.", "The receptionist raised an eyebrow, but she didn’t say anything.", "The receptionist raised an eyebrow and didn’t say a word."],
+    "keys": { "нічого не сказала": "nothing|not say|word|silent|quiet" }
+   },
+   {
+    "sit": "Митник дивиться на твою валізу, повну банок із варенням від мами.",
+    "say": "Коли він побачив двадцять банок варення, він звів брову.",
+    "ans": ["When he saw twenty jars of jam, he raised an eyebrow.", "He raised an eyebrow at the twenty jars of jam.", "He saw twenty jars of jam and raised an eyebrow, of course."],
+    "keys": { "варення": "jam|jars|preserves", "двадцять": "twenty|20" }
+   }
+  ]
+ },
+ {
+  "id": 2515, "w": "stick out your tongue", "uk": "показувати язика", "lvl": "B1",
+  "forms": "stick|sticks|stuck|stuck|sticking",
+  "tail": "out tongue*",
+  "near": "make a face|made a face|pull* a face|make faces|made faces|tease*|teasing",
+  "tasks": [
+   {
+    "sit": "Ти ведеш дітей зі школи, і твій син у вікні автобуса дражнить іншу дитину.",
+    "say": "Не показуй язика, це негарно.",
+    "ans": ["Don’t stick out your tongue, it’s not nice.", "Stop sticking your tongue out — that’s rude.", "Hey, don’t stick your tongue out, it’s not nice."],
+    "keys": { "не": "not|stop|no", "негарно": "not nice|rude|impolite|bad|mean" }
+   },
+   {
+    "sit": "Педіатр оглядає горло твоєї доньки.",
+    "say": "Покажи язика й скажи «а-а-а».",
+    "ans": ["Stick out your tongue and say ‘ahh’.", "Can you stick your tongue out and say ‘ahh’?", "Stick your tongue out for me and say ‘aaah’."],
+    "keys": { "скажи": "say|go" }
+   },
+   {
+    "sit": "Ти показуєш друзям смішне фото з відпустки, де ти з сестрою корчиш пики.",
+    "say": "Ми обоє показали язики в камеру.",
+    "ans": ["We both stuck our tongues out at the camera.", "We both stuck out our tongues for the photo.", "We both stuck our tongues out at the camera, obviously."],
+    "keys": { "обоє": "both|we", "камера": "camera|photo|picture|shot|lens" }
+   }
+  ]
+ },
+ {
+  "id": 2516, "w": "bite your lip", "uk": "кусати губу (від хвилювання)", "lvl": "B2",
+  "forms": "bite|bites|bit|bitten|biting",
+  "tail": "lip*",
+  "near": "chew* my lip|chew* her lip|chew* his lip|fidget*|bite* my nails|bit my nails|bite* nails",
+  "tasks": [
+   {
+    "sit": "Ти чекаєш у коридорі результатів іспиту на водійські права і розповідаєш про це потім подрузі.",
+    "say": "Я так нервував, що весь час кусав губу.",
+    "ans": ["I was so nervous that I kept biting my lip.", "I kept biting my lip because I was so nervous.", "I was so nervous I bit my lip the whole time."],
+    "keys": { "нервував": "nervous|anxious|stress*|scared", "весь час": "kept|whole time|all the time|time" }
+   },
+   {
+    "sit": "Ти описуєш другові, як його дівчина реагувала, поки він читав її вірш уголос.",
+    "say": "Вона нервово кусала губу й дивилася в підлогу.",
+    "ans": ["She was nervously biting her lip and looking at the floor.", "She bit her lip nervously and stared at the floor.", "She kept biting her lip and staring at the floor, all nervous."],
+    "keys": { "підлога": "floor|ground|down", "дивилася": "look*|star*|watch*" }
+   },
+   {
+    "sit": "Акторка на кастингу отримує пораду від режисера, як зіграти невпевнену героїню.",
+    "say": "Покусуй губу, коли вона чекає на відповідь.",
+    "ans": ["Bite your lip while she’s waiting for an answer.", "Try biting your lip as she waits for the answer.", "Maybe bite your lip while she’s waiting to hear back."],
+    "keys": { "чекає": "wait*", "відповідь": "answer|reply|response|hear back|back" }
+   }
+  ]
+ },
+ {
+  "id": 2517, "w": "purse your lips", "uk": "стиснути (підібгати) губи", "lvl": "C1",
+  "forms": "purse|purses|pursed|pursed|pursing",
+  "tail": "lip*",
+  "near": "press* my lips|press* her lips|press* his lips|tighten* lips|frown*|pout*|scowl*",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш про вечерю з мамою дівчини, коли ти сказав, що не любиш її пиріг.",
+    "say": "Вона невдоволено підібгала губи.",
+    "ans": ["She pursed her lips in disapproval.", "She pursed her lips, clearly unhappy.", "She just pursed her lips — she was not pleased."],
+    "keys": { "невдоволено": "disapprov*|unhappy|not pleased|annoy*|displeas*|not happy" }
+   },
+   {
+    "sit": "Ти переказуєш колезі, як фінансовий директор дивився на ваш бюджет на новий проєкт.",
+    "say": "Він стиснув губи й довго мовчав.",
+    "ans": ["He pursed his lips and said nothing for a long time.", "He pursed his lips and stayed silent for a while.", "He pursed his lips and just didn’t say anything for ages."],
+    "keys": { "мовчав": "nothing|silent|quiet|not say|anything" }
+   },
+   {
+    "sit": "Ти вчишся свистіти, а друг показує тобі, як це робити.",
+    "say": "Стисни губи трубочкою й легенько дмухни.",
+    "ans": ["Purse your lips and blow gently.", "Purse your lips and gently blow out.", "Just purse your lips and blow really softly."],
+    "keys": { "дмухни": "blow*|breathe*", "легенько": "gentl*|soft*|light*|slow*" }
+   }
+  ]
+ },
+ {
+  "id": 2518, "w": "beam", "uk": "сяяти усмішкою (від радості)", "lvl": "C1",
+  "forms": "beam|beams|beamed|beamed|beaming",
+  "near": "smile*|smiling|grin*|glow*|shine*|shone|light* up|lit up",
+  "tasks": [
+   {
+    "sit": "Ти був на шкільному концерті, де твоя донька вперше співала соло. Розповідаєш бабусі.",
+    "say": "Після виступу вона просто сяяла від радості.",
+    "ans": ["After the show she was just beaming with joy.", "She beamed with joy after her performance.", "She was absolutely beaming after the show!"],
+    "keys": { "після виступу": "after|show|performance|concert|solo" }
+   },
+   {
+    "sit": "Ти розповідаєш колегам, як твій дід отримав у подарунок відреставровану стару машину.",
+    "say": "Коли він її побачив, він сяяв, як дитина.",
+    "ans": ["When he saw it, he beamed like a kid.", "He was beaming like a child when he saw it.", "The moment he saw it, he was beaming like a little kid."],
+    "keys": { "як дитина": "kid|child|boy|little" }
+   },
+   {
+    "sit": "Твій друг щойно став батьком і показує тобі фото з пологового.",
+    "say": "Ти весь сяєш! Вітаю!",
+    "ans": ["You’re beaming! Congratulations!", "Look at you beaming! Congrats!", "You’re totally beaming, man — congratulations!"],
+    "keys": { "вітаю": "congrat*|well done|happy for you" }
+   }
+  ]
+ },
+ {
+  "id": 2519, "w": "make eye contact", "uk": "дивитися в очі (встановлювати зоровий контакт)", "lvl": "B1",
+  "forms": "make|makes|made|made|making",
+  "tail": "eye contact",
+  "near": "look me in the eye|look him in the eye|look her in the eye|look you in the eye|look people in the eye|look* at|stare*|meet* my eyes|met my eyes",
+  "tasks": [
+   {
+    "sit": "Ти готуєш молодшого брата до першої співбесіди.",
+    "say": "Коли відповідаєш, дивися людині в очі.",
+    "ans": ["Make eye contact when you answer.", "When you’re answering, make eye contact.", "Make sure you make eye contact when you answer."],
+    "keys": { "відповідаєш": "answer*|talk*|speak*|reply*" }
+   },
+   {
+    "sit": "Ти розповідаєш подрузі, чому підозрюєш продавця вживаних авто в обмані.",
+    "say": "Він жодного разу не подивився мені в очі.",
+    "ans": ["He never made eye contact with me.", "He didn’t make eye contact once.", "He wouldn’t make eye contact with me — not even once."],
+    "keys": { "жодного разу": "never|not once|once|not" }
+   },
+   {
+    "sit": "Ви з другом у метро, і навпроти сидить дуже дивний чоловік, який усіх розглядає.",
+    "say": "Тільки не дивися йому в очі.",
+    "ans": ["Just don’t make eye contact with him.", "Whatever you do, don’t make eye contact.", "Don’t make eye contact, just look away."],
+    "keys": { "не": "not|never|avoid" }
+   }
+  ]
+ }
+]

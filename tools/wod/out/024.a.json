@@ -1,0 +1,627 @@
+[
+ {
+  "id": 1292, "w": "crochet", "uk": "вʼязати гачком", "lvl": "C1",
+  "forms": "crochet|crochets|crocheted|crocheted|crocheting",
+  "near": "knit|knits|knitted|knitting|sew|sewed|sewn|make|made",
+  "tasks": [
+   {
+    "sit": "Гостя хвалить твій теплий шарф і питає, де ти його купив.",
+    "say": "Я сам звʼязав цей шарф гачком минулої зими.",
+    "ans": ["I crocheted this scarf last winter.", "This scarf? I crocheted it myself last winter.", "I actually crocheted it myself last winter."],
+    "keys": { "шарф": "scarf*|it", "зима": "winter" }
+   },
+   {
+    "sit": "Ти записуєшся на онлайн-курс рукоділля, і викладачка питає про твій досвід.",
+    "say": "Я вмію вʼязати спицями, але гачком ще ніколи не вʼязав.",
+    "ans": ["I can knit, but I’ve never crocheted before.", "I know how to knit, but I’ve never tried to crochet.", "I knit, but I’ve never crocheted anything."],
+    "keys": { "спицями": "knit*", "ніколи": "never|not" }
+   },
+   {
+    "sit": "Бабуся хоче зробити онукові подарунок на день народження й питає твоєї поради.",
+    "say": "Бабусю, звʼяжи йому гачком іграшку — він буде в захваті!",
+    "ans": ["Grandma, why don’t you crochet him a toy? He’ll love it!", "You could crochet a little toy for him, Grandma.", "Crochet him a little toy, Grandma — he’ll be thrilled!"],
+    "keys": { "іграшка": "toy*|teddy|bear|animal*", "бабуся": "grandma|granny|grandmother|gran|nana" }
+   }
+  ]
+ },
+ {
+  "id": 1293, "w": "embroider", "uk": "вишивати", "lvl": "C1",
+  "forms": "embroider|embroiders|embroidered|embroidered|embroidering",
+  "near": "stitch|stitches|stitched|stitching|sew|sews|sewed|sewn|sewing",
+  "tasks": [
+   {
+    "sit": "Іноземний колега захоплюється твоєю вишиванкою і питає, де ти її купив.",
+    "say": "Мама сама вишила її для мене.",
+    "ans": ["My mom embroidered it for me.", "My mother embroidered this shirt herself.", "Actually, my mum embroidered it for me herself."],
+    "keys": { "мама": "mom|mum|mother|mama|mommy" }
+   },
+   {
+    "sit": "Ти замовляєш форму для футбольної команди й уточнюєш деталі з ательє.",
+    "say": "Можете вишити наш логотип на кожній футболці?",
+    "ans": ["Can you embroider our logo on each T-shirt?", "Could you embroider our logo onto every shirt?", "Is it possible to embroider our logo on all the shirts?"],
+    "keys": { "логотип": "logo*|emblem*|badge*", "футболка": "shirt*|t-shirt*|tee*|jersey*" }
+   },
+   {
+    "sit": "Подруга питає, чим ти займаєшся довгими зимовими вечорами.",
+    "say": "Я вишиваю — зараз роблю рушник із квітами.",
+    "ans": ["I embroider — right now I’m doing a towel with flowers.", "I’m embroidering a towel with flowers at the moment.", "I’ve been embroidering a towel with flowers on it lately."],
+    "keys": { "рушник": "towel*", "квіти": "flower*|floral|rose*" }
+   }
+  ]
+ },
+ {
+  "id": 1295, "w": "quilt", "uk": "шити (клаптеву) ковдру", "lvl": "C1",
+  "forms": "quilt|quilts|quilted|quilted|quilting",
+  "near": "sew|sews|sewed|sewn|sewing|stitch*|make|made|patch together",
+  "tasks": [
+   {
+    "sit": "Ти в гостях у бабусі й помічаєш на її ліжку яскраву клаптеву ковдру.",
+    "say": "Ти сама шила цю ковдру з клаптиків?",
+    "ans": ["Did you quilt this blanket yourself?", "Was this blanket quilted by you?", "Wait, did you quilt this blanket yourself?"],
+    "keys": { "ковдра": "blanket*|bedspread*|cover*", "сама": "you|yourself" }
+   },
+   {
+    "sit": "У вашому районі збирають речі для дитячого будинку, і ти пропонуєш допомогу від свого гуртка рукоділля.",
+    "say": "Наш гурток може пошити кілька ковдр для дітей.",
+    "ans": ["Our group can quilt a few blankets for the kids.", "Our club could quilt some blankets for the children.", "We could quilt a couple of blankets for the kids."],
+    "keys": { "діти": "kid*|child*|orphan*", "ковдри": "blanket*|bedspread*|cover*" }
+   },
+   {
+    "sit": "Колега питає, навіщо ти купуєш стільки різнокольорових шматочків тканини.",
+    "say": "Я шию клаптеві ковдри — це моє нове хобі.",
+    "ans": ["I quilt — it’s my new hobby.", "I’ve started quilting, it’s my new hobby.", "I’m into quilting now — it’s my new hobby."],
+    "keys": { "хобі": "hobby|hobbies|pastime|thing" }
+   }
+  ]
+ },
+ {
+  "id": 1296, "w": "whittle", "uk": "вирізати (ножем з дерева)", "lvl": "C1",
+  "forms": "whittle|whittles|whittled|whittled|whittling",
+  "near": "carve|carves|carved|carving|cut|cuts|cutting|shape*",
+  "tasks": [
+   {
+    "sit": "Ви з друзями в поході біля вогнища, і ти дістаєш кишеньковий ніж та кілька гілок.",
+    "say": "Зараз виріжу нам палички для ковбасок.",
+    "ans": ["I’ll whittle us some sticks for the sausages.", "Let me whittle a few sticks for the sausages.", "Hang on, I’ll whittle some sticks for roasting sausages."],
+    "keys": { "палички": "stick*|skewer*|twig*", "ковбаски": "sausage*|hot dog*|wiener*" }
+   },
+   {
+    "sit": "Твій дідусь любить сидіти на ґанку з ножиком і шматком липи. Ти розповідаєш про нього другові.",
+    "say": "Дідусь вирізає маленьких деревʼяних звірят для онуків.",
+    "ans": ["Grandpa whittles little wooden animals for his grandkids.", "My grandfather whittles tiny animals out of wood for the grandchildren.", "Grandpa loves whittling little wooden animals for the grandkids."],
+    "keys": { "звірята": "animal*|creature*|figur*", "онуки": "grandkid*|grandchild*|kids|children" }
+   },
+   {
+    "sit": "У магазині інструментів продавець питає, для чого тобі ніж.",
+    "say": "Я вирізаю ложки з дерева, тому мені потрібен гостріший ніж.",
+    "ans": ["I whittle spoons out of wood, so I need a sharper knife.", "I’m whittling wooden spoons and I need a sharper knife.", "I whittle spoons, so I need something sharper."],
+    "keys": { "ложки": "spoon*", "ніж": "knife|knives|sharp*|blade*" }
+   }
+  ]
+ },
+ {
+  "id": 1297, "w": "weld", "uk": "варити (метал)", "lvl": "C1",
+  "forms": "weld|welds|welded|welded|welding",
+  "near": "solder*|join|joined|fuse*|attach*|fix|fixed|repair*",
+  "tasks": [
+   {
+    "sit": "Ти приїхав на СТО, бо в машини відпала вихлопна труба.",
+    "say": "Можете приварити вихлопну трубу назад?",
+    "ans": ["Can you weld the exhaust pipe back on?", "Could you weld the exhaust back on?", "Is it possible to weld the exhaust pipe back?"],
+    "keys": { "вихлопна труба": "exhaust*|pipe*|muffler*", "назад": "back|again" }
+   },
+   {
+    "sit": "На співбесіді на будівельному обʼєкті тебе питають про твої навички.",
+    "say": "Я вмію варити метал і маю сертифікат зварника.",
+    "ans": ["I can weld metal and I have a welding certificate.", "I know how to weld, and I’m certified.", "I can weld — I’ve got a welding certificate too."],
+    "keys": { "сертифікат": "certif*|licen*|qualif*|diploma*" }
+   },
+   {
+    "sit": "Сусід питає, звідки у тебе на подвірʼї нова металева хвіртка.",
+    "say": "Я сам зварив її зі старих труб.",
+    "ans": ["I welded it myself from old pipes.", "I welded it together out of some old pipes.", "I just welded it from old pipes myself."],
+    "keys": { "труби": "pipe*|tube*", "старі": "old|scrap|used" }
+   }
+  ]
+ },
+ {
+  "id": 1298, "w": "pottery", "uk": "займатися гончарством", "lvl": "C1",
+  "forms": "pottery|pottery|pottery|pottery|pottery",
+  "near": "ceramic*|clay|throw pots|make pots|making pots|potter’s wheel|sculpt*",
+  "tasks": [
+   {
+    "sit": "Подруга питає, як ти відпочиваєш після цілого дня за компʼютером.",
+    "say": "Я займаюся гончарством — ліплю чашки й миски.",
+    "ans": ["I do pottery — I make cups and bowls.", "I’ve taken up pottery, I make mugs and bowls.", "I’m into pottery — mostly cups and bowls."],
+    "keys": { "чашки": "cup*|mug*", "миски": "bowl*|plate*|dish*" }
+   },
+   {
+    "sit": "У відпустці ти бачиш оголошення про майстер-клас у місцевій гончарні.",
+    "say": "Давай завтра вранці спробуємо гончарство!",
+    "ans": ["Let’s try pottery tomorrow morning!", "Why don’t we do a pottery class tomorrow morning?", "Let’s sign up for pottery tomorrow morning!"],
+    "keys": { "завтра": "tomorrow", "вранці": "morning|am" }
+   },
+   {
+    "sit": "Батьки в шкільному чаті обговорюють гуртки для дітей.",
+    "say": "Мій син ходить на гончарство, і йому дуже подобається.",
+    "ans": ["My son does pottery and he really loves it.", "My son goes to pottery classes and he loves them.", "My son is doing pottery and he absolutely loves it."],
+    "keys": { "син": "son|boy|kid", "подобається": "love*|like*|enjoy*" }
+   }
+  ]
+ },
+ {
+  "id": 1299, "w": "origami", "uk": "складати орігамі", "lvl": "C1",
+  "forms": "origami|origami|origami|origami|origami",
+  "near": "fold|folds|folded|folding|paper crane*|paper figure*|paper animal*",
+  "tasks": [
+   {
+    "sit": "Ти сидиш з малим племінником, і йому нудно без планшета.",
+    "say": "Хочеш, навчу тебе складати орігамі?",
+    "ans": ["Do you want me to teach you origami?", "Shall I show you how to do origami?", "Want me to teach you some origami?"],
+    "keys": { "навчу": "teach*|show*|learn*" }
+   },
+   {
+    "sit": "Ви з друзями готуєтеся до весілля подруги й думаєте, як прикрасити зал.",
+    "say": "Давайте зробимо сотню паперових журавликів-орігамі!",
+    "ans": ["Let’s make a hundred origami cranes!", "We could fold a hundred origami cranes for the hall.", "How about a hundred origami cranes?"],
+    "keys": { "журавлики": "crane*|bird*", "сотня": "hundred|100" }
+   },
+   {
+    "sit": "Колега дивується, що ти на перерві складаєш фігурки з паперових стікерів.",
+    "say": "Орігамі мене заспокоює після важких нарад.",
+    "ans": ["Origami calms me down after tough meetings.", "Doing origami helps me relax after hard meetings.", "Origami really relaxes me after long meetings."],
+    "keys": { "заспокоює": "calm*|relax*|chill*|stress*|unwind*", "наради": "meeting*|call*" }
+   }
+  ]
+ },
+ {
+  "id": 1300, "w": "assemble", "uk": "збирати (докупи)", "lvl": "B2",
+  "forms": "assemble|assembles|assembled|assembled|assembling",
+  "near": "put together|put it together|putting together|build|builds|built|building|set up|setting up",
+  "tasks": [
+   {
+    "sit": "Ти купив нову шафу в IKEA, і вона досі стоїть у коробках. Дзвониш другові.",
+    "say": "Допоможеш мені зібрати шафу в суботу?",
+    "ans": ["Can you help me assemble the wardrobe on Saturday?", "Will you help me assemble my new wardrobe on Saturday?", "Could you come over on Saturday and help me assemble the wardrobe?"],
+    "keys": { "шафа": "wardrobe*|closet*|cupboard*|cabinet*", "субота": "saturday" }
+   },
+   {
+    "sit": "Ти купив дитині велосипед, і його привезли в коробці по частинах.",
+    "say": "Мені знадобилося дві години, щоб зібрати цей велосипед.",
+    "ans": ["It took me two hours to assemble this bike.", "I spent two hours assembling the bike.", "Assembling this bike took me two whole hours!"],
+    "keys": { "велосипед": "bike*|bicycle*", "дві години": "two hours|2 hours|hours" }
+   },
+   {
+    "sit": "Ви з колегами готуєте стенд на виставці, а до відкриття лишається година.",
+    "say": "Нам треба зібрати стенд до девʼятої.",
+    "ans": ["We need to assemble the stand by nine.", "We have to get the stand assembled before nine.", "We’ve got to assemble the booth by nine o’clock."],
+    "keys": { "стенд": "stand*|booth*|display*", "девʼята": "nine|9*" }
+   }
+  ]
+ },
+ {
+  "id": 1301, "w": "fight", "uk": "битися", "lvl": "A2",
+  "forms": "fight|fights|fought|fought|fighting",
+  "near": "battle*|combat|struggl*|hit|hitting|punch*|kick*|beat",
+  "tasks": [
+   {
+    "sit": "У музеї ти розповідаєш іноземному другові про свого прадіда.",
+    "say": "Мій прадід бився на війні з нацистами.",
+    "ans": ["My great-grandfather fought in the war against the Nazis.", "My great-grandpa fought the Nazis in the war.", "My great-grandad fought against the Nazis."],
+    "keys": { "прадід": "grand*|great*", "нацисти": "nazi*|german*" }
+   },
+   {
+    "sit": "Вчителька дзвонить тобі й каже, що твій син посварився з однокласником на перерві.",
+    "say": "Він що, бився з кимось у школі?",
+    "ans": ["Did he fight with someone at school?", "Was he fighting with another kid at school?", "Wait, he got into a fight at school?"],
+    "keys": { "школа": "school|class*" }
+   },
+   {
+    "sit": "Увечері біля бару двоє чоловіків почали штовхатися, і ти кличеш охорону.",
+    "say": "Швидше, там двоє чоловіків бʼються біля входу!",
+    "ans": ["Quick, two guys are fighting by the entrance!", "Hurry, there are two men fighting near the door!", "Come quick — two guys are fighting outside the entrance!"],
+    "keys": { "двоє": "two|couple", "вхід": "entrance|door*|outside" }
+   }
+  ]
+ },
+ {
+  "id": 1302, "w": "attack", "uk": "атакувати, нападати", "lvl": "B1",
+  "forms": "attack|attacks|attacked|attacked|attacking",
+  "near": "assault*|strike|struck|raid*|charge*|invade*|go at|went for|go for",
+  "tasks": [
+   {
+    "sit": "Уранці ти читаєш батькам новини вголос.",
+    "say": "Уночі ворог атакував енергетичні обʼєкти.",
+    "ans": ["The enemy attacked energy facilities last night.", "Last night the enemy attacked our power plants.", "They attacked the power grid overnight."],
+    "keys": { "уночі": "night|overnight", "енергетичні": "energy|power|electric*|grid" }
+   },
+   {
+    "sit": "Ти дивишся футбол із другом і коментуєш тактику своєї команди.",
+    "say": "Нам треба більше атакувати, а не лише захищатися.",
+    "ans": ["We need to attack more, not just defend.", "We should attack more instead of just defending.", "We’ve got to attack more — stop just sitting back and defending!"],
+    "keys": { "більше": "more", "захищатися": "defend*|defense|defence|sit* back" }
+   },
+   {
+    "sit": "У парку до дитячого майданчика біжить великий пес без повідка, і ти кричиш власникові.",
+    "say": "Заберіть собаку, він зараз нападе на дитину!",
+    "ans": ["Get your dog, it’s going to attack the child!", "Call your dog off — it’s about to attack the kid!", "Grab your dog before it attacks the child!"],
+    "keys": { "собака": "dog", "дитина": "child*|kid*|boy|girl|baby" }
+   }
+  ]
+ },
+ {
+  "id": 1303, "w": "defend", "uk": "обороняти", "lvl": "B2",
+  "forms": "defend|defends|defended|defended|defending",
+  "near": "protect*|guard*|hold|held|holding|resist*|keep them out",
+  "tasks": [
+   {
+    "sit": "Ви з другом граєте в онлайн-стратегію, і до твоєї бази наближається ворог.",
+    "say": "Я обороняю базу, а ти йди в атаку!",
+    "ans": ["I’ll defend the base, you go and attack!", "I’m defending the base — you attack!", "I’ll stay and defend the base, you go on the attack!"],
+    "keys": { "база": "base", "атака": "attack*|push|go" }
+   },
+   {
+    "sit": "Знайомий з-за кордону питає тебе, що відбувалося в Маріуполі 2022 року.",
+    "say": "Наші бійці обороняли місто майже три місяці.",
+    "ans": ["Our soldiers defended the city for almost three months.", "Our fighters defended the city for nearly three months.", "They defended the city for almost three months."],
+    "keys": { "місто": "city|town|mariupol", "три місяці": "three months|3 months|months" }
+   },
+   {
+    "sit": "Ви з друзями граєте у футбол, рахунок 1:0 на вашу користь, а до кінця пʼять хвилин.",
+    "say": "Усі назад, обороняймо ворота!",
+    "ans": ["Everyone back, let’s defend the goal!", "Everybody back — we need to defend our goal!", "All back, defend the goal!"],
+    "keys": { "ворота": "goal*|net", "назад": "back" }
+   }
+  ]
+ },
+ {
+  "id": 1304, "w": "ambush", "uk": "влаштувати засідку, напасти із засідки", "lvl": "C1",
+  "forms": "ambush|ambushes|ambushed|ambushed|ambushing",
+  "near": "attack*|trap*|surprise*|jump*|pounce*|lie in wait",
+  "tasks": [
+   {
+    "sit": "Ти переказуєш колезі новину з фронту.",
+    "say": "Наші бійці влаштували засідку на ворожу колону біля лісу.",
+    "ans": ["Our soldiers ambushed an enemy convoy near the forest.", "Our troops ambushed an enemy column by the woods.", "Our guys ambushed an enemy convoy near the woods."],
+    "keys": { "колона": "convoy*|column*", "ліс": "forest*|wood*" }
+   },
+   {
+    "sit": "Ви граєте в онлайн-шутер, і ти бачиш, що суперники йдуть через міст.",
+    "say": "Сховаймося за будинком і влаштуймо їм засідку!",
+    "ans": ["Let’s hide behind the house and ambush them!", "We can hide behind the building and ambush them.", "Hide behind the house — we’ll ambush them!"],
+    "keys": { "будинок": "house|building", "сховатися": "hid*|cover|wait" }
+   },
+   {
+    "sit": "Гість питає, чому ти ходиш квартирою так обережно.",
+    "say": "Мій кіт влаштовує засідки й нападає на мої ноги з-під ліжка.",
+    "ans": ["My cat ambushes my feet from under the bed.", "My cat likes to ambush my feet from under the bed.", "My cat keeps ambushing my ankles from under the bed!"],
+    "keys": { "кіт": "cat|kitten", "ліжко": "bed" }
+   }
+  ]
+ },
+ {
+  "id": 1305, "w": "charge", "uk": "кидатися в атаку", "lvl": "B2",
+  "forms": "charge|charges|charged|charged|charging",
+  "near": "attack*|rush*|storm*|run at|ran at|go for|went for",
+  "tasks": [
+   {
+    "sit": "Ви дивитеся історичний фільм, і ти пояснюєш другові, що зараз буде в сцені битви.",
+    "say": "Зараз кіннота кинеться в атаку на ворога.",
+    "ans": ["The cavalry is about to charge the enemy.", "Now the cavalry will charge at the enemy.", "Watch — the cavalry is going to charge!"],
+    "keys": { "кіннота": "cavalry|horse*|rider*|knight*" }
+   },
+   {
+    "sit": "На фермі ти бачиш, як бик нахиляє голову й бʼє копитом, дивлячись на вас.",
+    "say": "Обережно, бик зараз кинеться на нас!",
+    "ans": ["Careful, the bull is going to charge at us!", "Watch out, that bull is about to charge!", "Careful — the bull is going to charge us!"],
+    "keys": { "бик": "bull*|ox|cow" }
+   },
+   {
+    "sit": "Ви граєте в пейнтбол, і ти помічаєш, що суперники перестали стріляти.",
+    "say": "У них скінчилися кульки — в атаку!",
+    "ans": ["They’re out of ammo — charge!", "They’ve run out of paint, let’s charge!", "They’re out of paintballs — charge!"],
+    "keys": { "скінчилися": "out|empty|no more", "кульки": "ammo|paint*|ball*|bullet*" }
+   }
+  ]
+ },
+ {
+  "id": 1306, "w": "retreat", "uk": "відступати", "lvl": "B2",
+  "forms": "retreat|retreats|retreated|retreated|retreating",
+  "near": "withdr*|pull back|pulled back|pulling back|fall back|fell back|back off|backed off|go back|turn back|turned back",
+  "tasks": [
+   {
+    "sit": "Ти обговорюєш із колегою ситуацію на фронті.",
+    "say": "Ворог відступив від міста після великих втрат.",
+    "ans": ["The enemy retreated from the city after heavy losses.", "After heavy losses, the enemy retreated from the town.", "They retreated from the city after losing a lot of men."],
+    "keys": { "втрати": "loss*|losing|lost|casualt*", "місто": "city|town" }
+   },
+   {
+    "sit": "Ви в горах, і раптом починається гроза, а до вершини ще далеко.",
+    "say": "Треба відступати вниз, поки не стало гірше.",
+    "ans": ["We need to retreat down the mountain before it gets worse.", "We should retreat to the valley before it gets any worse.", "Let’s retreat back down before it gets worse."],
+    "keys": { "гірше": "worse|bad" }
+   },
+   {
+    "sit": "У компʼютерній грі твій загін майже знищено, і ти командуєш у мікрофон.",
+    "say": "Відступаємо, нас оточують!",
+    "ans": ["Retreat, we’re being surrounded!", "We need to retreat — they’re surrounding us!", "Retreat! They’re surrounding us!"],
+    "keys": { "оточують": "surround*|flank*|encircl*" }
+   }
+  ]
+ },
+ {
+  "id": 1307, "w": "surrender", "uk": "здаватися", "lvl": "B2",
+  "forms": "surrender|surrenders|surrendered|surrendered|surrendering",
+  "near": "give up|gave up|giving up|given up|capitulat*|lay down|laid down|put down",
+  "tasks": [
+   {
+    "sit": "Ти читаєш новини про війну й переказуєш їх татові.",
+    "say": "Кажуть, сотні ворожих солдатів здалися в полон.",
+    "ans": ["They say hundreds of enemy soldiers surrendered.", "Reportedly, hundreds of enemy troops have surrendered.", "Apparently hundreds of enemy soldiers surrendered."],
+    "keys": { "сотні": "hundred*", "солдати": "soldier*|troop*|men" }
+   },
+   {
+    "sit": "Ви дивитеся детектив, і поліція оточила будинок злочинця.",
+    "say": "Зараз він вийде з піднятими руками й здасться.",
+    "ans": ["He’ll come out with his hands up and surrender.", "He’s going to walk out with his hands up and surrender.", "Watch, he’ll come out with his hands up and surrender."],
+    "keys": { "руки": "hand*|arm*" }
+   },
+   {
+    "sit": "Ви з дітьми влаштували бій подушками, і вони тебе повалили на диван.",
+    "say": "Все, я здаюся! Ви перемогли!",
+    "ans": ["Okay, I surrender! You win!", "Fine, I surrender — you won!", "All right, I surrender! You guys win!"],
+    "keys": { "перемогли": "win|won|winner*|beat" }
+   }
+  ]
+ },
+ {
+  "id": 1308, "w": "conquer", "uk": "завойовувати", "lvl": "B2",
+  "forms": "conquer|conquers|conquered|conquered|conquering",
+  "near": "invade*|occup*|take over|took over|taken over|seize*|captur*",
+  "tasks": [
+   {
+    "sit": "Ти допомагаєш синові з домашнім завданням з історії.",
+    "say": "Римляни завоювали більшу частину Європи.",
+    "ans": ["The Romans conquered most of Europe.", "The Romans conquered a large part of Europe.", "The Romans conquered most of Europe, you know."],
+    "keys": { "римляни": "roman*|rome", "Європа": "europe*" }
+   },
+   {
+    "sit": "Ви з друзями граєте в настільну гру про завоювання світу, і тобі лишився один хід.",
+    "say": "Якщо я завоюю Австралію, то виграю!",
+    "ans": ["If I conquer Australia, I win!", "Once I conquer Australia, I’ll win the game!", "Just let me conquer Australia and I’ve won!"],
+    "keys": { "Австралія": "australia", "виграю": "win|won|victory" }
+   },
+   {
+    "sit": "Ви з батьком дивитеся документальний фільм про Чингісхана.",
+    "say": "Монголи завоювали величезну імперію всього за кілька десятиліть.",
+    "ans": ["The Mongols conquered a huge empire in just a few decades.", "In only a few decades, the Mongols conquered an enormous empire.", "The Mongols conquered a massive empire in just a couple of decades."],
+    "keys": { "монголи": "mongol*", "десятиліття": "decade*|years" }
+   }
+  ]
+ },
+ {
+  "id": 1309, "w": "invade", "uk": "вторгатися", "lvl": "B2",
+  "forms": "invade|invades|invaded|invaded|invading",
+  "near": "attack*|occup*|enter*|march* into|conquer*|take over|took over",
+  "tasks": [
+   {
+    "sit": "Іноземна колега питає, коли почалася повномасштабна війна.",
+    "say": "Росія вторглася в Україну двадцять четвертого лютого 2022 року.",
+    "ans": ["Russia invaded Ukraine on February 24, 2022.", "Russia invaded Ukraine on the 24th of February 2022.", "Russia invaded on February 24th, 2022."],
+    "keys": { "лютий": "february|feb", "2022": "2022" }
+   },
+   {
+    "sit": "Ти дзвониш у службу боротьби зі шкідниками.",
+    "say": "Мурахи вторглися на мою кухню — вони всюди!",
+    "ans": ["Ants have invaded my kitchen — they’re everywhere!", "My kitchen has been invaded by ants.", "Ants invaded my kitchen, they’re literally everywhere!"],
+    "keys": { "мурахи": "ant|ants", "кухня": "kitchen" }
+   },
+   {
+    "sit": "Друг питає, про що фільм, який ти вчора дивився в кінотеатрі.",
+    "say": "Це фільм про те, як прибульці вторгаються на Землю.",
+    "ans": ["It’s a movie about aliens invading Earth.", "It’s about aliens who invade the Earth.", "Basically, aliens invade Earth."],
+    "keys": { "прибульці": "alien*|extraterrestrial*|martian*", "Земля": "earth|planet|world" }
+   }
+  ]
+ },
+ {
+  "id": 1310, "w": "besiege", "uk": "брати в облогу", "lvl": "C1",
+  "forms": "besiege|besieges|besieged|besieged|besieging",
+  "near": "surround*|siege|blockad*|encircl*|lay siege|laid siege",
+  "tasks": [
+   {
+    "sit": "На екскурсії Камʼянець-Подільською фортецею ти перекладаєш розповідь гіда другові.",
+    "say": "Турки кілька разів брали фортецю в облогу, але не змогли її взяти.",
+    "ans": ["The Turks besieged the fortress several times but couldn’t take it.", "The fortress was besieged by the Turks several times, but it never fell.", "The Turks besieged this castle a few times and never took it."],
+    "keys": { "турки": "turk*|ottoman*", "фортеця": "fortress*|castle*|fort" }
+   },
+   {
+    "sit": "Ти працюєш на ресепшені готелю, де зупинився відомий співак. Дзвониш менеджерові.",
+    "say": "Фанати буквально взяли готель в облогу з самого ранку.",
+    "ans": ["Fans have literally besieged the hotel since this morning.", "The hotel has been besieged by fans since early morning.", "Fans have been besieging the hotel all morning."],
+    "keys": { "фанати": "fan|fans", "готель": "hotel" }
+   },
+   {
+    "sit": "Ти читаєш книжку про Другу світову й розповідаєш дружині, що дізнався.",
+    "say": "Німці тримали Ленінград в облозі майже девʼятсот днів.",
+    "ans": ["The Germans besieged Leningrad for almost 900 days.", "Leningrad was besieged by the Germans for nearly nine hundred days.", "The Germans besieged Leningrad for almost nine hundred days."],
+    "keys": { "Ленінград": "leningrad|city", "900 днів": "day*|900*|nin*" }
+   }
+  ]
+ },
+ {
+  "id": 1311, "w": "liberate", "uk": "звільняти (від окупанта)", "lvl": "B2",
+  "forms": "liberate|liberates|liberated|liberated|liberating",
+  "near": "free|freed|freeing|frees|reclaim*|retake|retook|retaken|recaptur*|take back|took back",
+  "tasks": [
+   {
+    "sit": "Листопад 2022 року. Ти бачиш у новинах людей із прапорами на центральній площі.",
+    "say": "ЗСУ звільнили Херсон!",
+    "ans": ["Ukrainian forces have liberated Kherson!", "The army liberated Kherson!", "They’ve liberated Kherson!"],
+    "keys": { "Херсон": "kherson" }
+   },
+   {
+    "sit": "Бабуся розповідає онукам про своє дитинство, а ти перекладаєш її слова гостеві з Канади.",
+    "say": "Наше село звільнили восени сорок третього року.",
+    "ans": ["Our village was liberated in the autumn of 1943.", "They liberated our village in the fall of 1943.", "Our village got liberated in autumn 1943."],
+    "keys": { "село": "village|town", "осінь": "autumn|fall" }
+   },
+   {
+    "sit": "Ти пояснюєш молодшому братові, як пройти рівень у грі.",
+    "say": "Спочатку треба звільнити всі аванпости на карті.",
+    "ans": ["First you need to liberate all the outposts on the map.", "You have to liberate every outpost on the map first.", "Liberate all the outposts on the map first."],
+    "keys": { "аванпости": "outpost*|base*|camp*", "карта": "map" }
+   }
+  ]
+ },
+ {
+  "id": 1312, "w": "occupy", "uk": "окуповувати", "lvl": "B2",
+  "forms": "occupy|occupies|occupied|occupied|occupying",
+  "near": "seize*|captur*|take over|took over|taken over|control*|invade*|conquer*",
+  "tasks": [
+   {
+    "sit": "Нова знайома в Польщі питає, чому ти переїхав.",
+    "say": "Моє рідне місто окупували ще у 2014 році.",
+    "ans": ["My hometown was occupied back in 2014.", "They occupied my hometown in 2014.", "My hometown has been occupied since 2014."],
+    "keys": { "місто": "town|city|hometown", "2014": "2014" }
+   },
+   {
+    "sit": "Ти переказуєш подрузі новини з іноземного університету.",
+    "say": "Студенти на знак протесту окупували головний корпус.",
+    "ans": ["Students occupied the main building in protest.", "In protest, the students occupied the main university building.", "The students have occupied the main building as a protest."],
+    "keys": { "студенти": "student*", "протест": "protest*", "корпус": "building*|hall|campus" }
+   },
+   {
+    "sit": "На уроці історії вчителька питає, що сталося з Францією в 1940 році.",
+    "say": "Німеччина окупувала більшу частину Франції.",
+    "ans": ["Germany occupied most of France.", "The Germans occupied a large part of France.", "Germany occupied most of France in 1940."],
+    "keys": { "Франція": "france|french" }
+   }
+  ]
+ },
+ {
+  "id": 1313, "w": "bomb", "uk": "бомбити", "lvl": "B1",
+  "forms": "bomb|bombs|bombed|bombed|bombing",
+  "near": "strike|struck|shell*|attack*|hit|drop bombs|dropped bombs|destroy*",
+  "tasks": [
+   {
+    "sit": "Сусідка питає, що це були за вибухи вночі за містом.",
+    "say": "Ворог бомбив аеродром під містом.",
+    "ans": ["The enemy bombed the airfield outside the city.", "They bombed the airport near the city.", "They bombed the airfield just outside town."],
+    "keys": { "аеродром": "airfield*|airport*|air base|airbase" }
+   },
+   {
+    "sit": "На екскурсії в Дрездені ти розповідаєш другові історію міста.",
+    "say": "Під час війни це місто майже повністю розбомбили.",
+    "ans": ["This city was almost completely bombed during the war.", "They bombed almost the entire city during the war.", "During the war, they bombed nearly the whole city."],
+    "keys": { "війна": "war", "майже": "almost|nearly|practically" }
+   },
+   {
+    "sit": "Ви з друзями дивитеся фільм «Перл-Гарбор», і одна подруга не знає історії.",
+    "say": "Японці бомбили американський флот у 1941 році.",
+    "ans": ["The Japanese bombed the American fleet in 1941.", "In 1941, Japan bombed the US fleet.", "Japan bombed the American navy in 1941."],
+    "keys": { "японці": "japan*", "флот": "fleet|navy|ship*|base" }
+   }
+  ]
+ },
+ {
+  "id": 1314, "w": "shell", "uk": "обстрілювати (з артилерії)", "lvl": "C1",
+  "forms": "shell|shells|shelled|shelled|shelling",
+  "near": "bomb*|fire|fired|firing|attack*|pound*|strike|struck|hit|hits",
+  "tasks": [
+   {
+    "sit": "Ти пишеш другові за кордон, чому погано спав.",
+    "say": "Росіяни всю ніч обстрілювали наш район.",
+    "ans": ["The Russians shelled our area all night.", "Russia shelled our district all night long.", "They were shelling our neighborhood all night."],
+    "keys": { "всю ніч": "all night|whole night|night", "район": "area|district|neighbo*|part of town" }
+   },
+   {
+    "sit": "Ти волонтериш і збираєш кошти на відновлення сільської школи.",
+    "say": "Цю школу обстріляли минулого місяця, тож потрібні нові вікна.",
+    "ans": ["This school was shelled last month, so it needs new windows.", "They shelled this school last month, and now it needs new windows.", "The school got shelled last month — it needs new windows."],
+    "keys": { "вікна": "window*", "минулого місяця": "last month|month" }
+   },
+   {
+    "sit": "Ти телефонуєш родичам у прикордонне село на Харківщині.",
+    "say": "Вас сьогодні знову обстрілювали?",
+    "ans": ["Were you shelled again today?", "Did they shell your village again today?", "Were they shelling you again today?"],
+    "keys": { "знову": "again", "сьогодні": "today" }
+   }
+  ]
+ },
+ {
+  "id": 1315, "w": "shoot", "uk": "стріляти", "lvl": "A2",
+  "forms": "shoot|shoots|shot|shot|shooting",
+  "near": "fire|fires|fired|firing|gun down|gunned down",
+  "tasks": [
+   {
+    "sit": "Ти вперше прийшов у тир, і інструктор дає тобі пістолет.",
+    "say": "Я ніколи раніше не стріляв зі справжньої зброї.",
+    "ans": ["I’ve never shot a real gun before.", "I have never shot a real pistol before.", "Honestly, I’ve never shot a real gun."],
+    "keys": { "ніколи": "never|not", "зброя": "gun*|pistol*|weapon*|firearm*" }
+   },
+   {
+    "sit": "Ви з сином граєте у водяні пістолети, і ти вже весь мокрий.",
+    "say": "Не стріляй у мене, я здаюся!",
+    "ans": ["Don’t shoot me, I give up!", "Stop shooting at me, I give up!", "Don’t shoot, I surrender!"],
+    "keys": { "не": "not|stop|no", "здаюся": "give up|surrender|quit|win|stop" }
+   },
+   {
+    "sit": "Ти чуєш у новинах про інцидент на кордоні й переказуєш його колезі.",
+    "say": "Прикордонники стріляли в повітря, щоб зупинити машину.",
+    "ans": ["Border guards shot into the air to stop the car.", "The border guards were shooting in the air to stop a car.", "The guards shot in the air to make the car stop."],
+    "keys": { "повітря": "air", "машина": "car|vehicle|truck" }
+   }
+  ]
+ },
+ {
+  "id": 1316, "w": "fire", "uk": "стріляти, вести вогонь", "lvl": "B1",
+  "forms": "fire|fires|fired|fired|firing",
+  "near": "shoot|shoots|shot|shooting|launch*|open up",
+  "tasks": [
+   {
+    "sit": "Ви з другом граєте в кооперативну гру, і до вас біжить загін ворогів.",
+    "say": "Не стріляй, поки я не скажу!",
+    "ans": ["Don’t fire until I say so!", "Hold on, don’t fire until I tell you!", "Don’t fire till I give the word!"],
+    "keys": { "не": "not|hold", "поки": "until|till|before" }
+   },
+   {
+    "sit": "Ти переказуєш бабусі нічні новини.",
+    "say": "Ворог випустив по місту десять ракет.",
+    "ans": ["The enemy fired ten missiles at the city.", "They fired ten rockets at the city.", "They fired ten missiles at our city overnight."],
+    "keys": { "ракети": "missile*|rocket*", "десять": "ten|10" }
+   },
+   {
+    "sit": "На святі в старій фортеці ти стоїш із туристом біля гармат, і реконструктори готуються до салюту.",
+    "say": "Зараз гармати вистрілять — затуліть вуха!",
+    "ans": ["The cannons are about to fire — cover your ears!", "They’re going to fire the cannons now, cover your ears!", "Cover your ears, the cannons are about to fire!"],
+    "keys": { "гармати": "cannon*|gun*", "вуха": "ear*" }
+   }
+  ]
+ },
+ {
+  "id": 1317, "w": "aim", "uk": "цілитися", "lvl": "B1",
+  "forms": "aim|aims|aimed|aimed|aiming",
+  "near": "point|points|pointed|pointing|target*",
+  "tasks": [
+   {
+    "sit": "Ти вчиш друга стріляти з лука, а його стріли летять нижче мішені.",
+    "say": "Цілься трохи вище — вітер зносить стрілу.",
+    "ans": ["Aim a bit higher — the wind is pushing the arrow.", "Aim slightly higher, the wind is blowing the arrow down.", "Aim a little higher, the wind is moving your arrow."],
+    "keys": { "вище": "high*|up", "вітер": "wind*" }
+   },
+   {
+    "sit": "Ви з колегами граєте в дартс у барі, і твій дротик застряг у стіні.",
+    "say": "Я цілився в центр, а влучив у стіну.",
+    "ans": ["I aimed for the bullseye but hit the wall.", "I was aiming at the center, and I hit the wall.", "I aimed at the middle and hit the wall instead."],
+    "keys": { "стіна": "wall", "центр": "bull*|cent*|middle" }
+   },
+   {
+    "sit": "Ви з дітьми граєте в сніжки у дворі.",
+    "say": "Не ціляйтеся в обличчя, тільки в куртку!",
+    "ans": ["Don’t aim at the face, only at the jacket!", "Don’t aim for anyone’s face, just the jacket!", "No aiming at faces — jackets only!"],
+    "keys": { "обличчя": "face*|head*", "куртка": "jacket*|coat*|body" }
+   }
+  ]
+ }
+]

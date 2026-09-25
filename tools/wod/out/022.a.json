@@ -1,0 +1,634 @@
+[
+ {
+  "id": 1186, "w": "drizzle", "uk": "мжичити", "lvl": "B2",
+  "forms": "drizzle|drizzles|drizzled|drizzled|drizzling",
+  "near": "rain*|spit*|sprinkl*|shower*",
+  "tasks": [
+   {
+    "sit": "Ви збираєтеся на прогулянку, і дружина питає, чи варто брати парасольку.",
+    "say": "Надворі трохи мжичить, тож парасолька не завадить.",
+    "ans": ["It's drizzling a bit outside, so take an umbrella.", "It's only drizzling, but you might want an umbrella.", "It's drizzling out — better grab an umbrella."],
+    "keys": { "парасолька": "umbrella*|brolly" }
+   },
+   {
+    "sit": "Ви з друзями домовилися пограти у футбол у парку. Хтось у чаті питає, чи не скасувати гру.",
+    "say": "Тільки мжичить — граємо далі.",
+    "ans": ["It's only drizzling, so we're still playing.", "It's just drizzling — the game is still on.", "It's only drizzling, let's keep playing."],
+    "keys": { "тільки": "only|just|little|bit|light*", "граємо": "play*|game|match|on" }
+   },
+   {
+    "sit": "Колега з Варшави на відеодзвінку питає, яка погода в Києві.",
+    "say": "У Києві з самого ранку мжичить.",
+    "ans": ["It's been drizzling in Kyiv since the morning.", "It has been drizzling here in Kyiv all morning.", "It's been drizzling in Kyiv since early this morning."],
+    "keys": { "з ранку": "morning", "Київ": "kyiv|kiev|here" }
+   }
+  ]
+ },
+ {
+  "id": 1187, "w": "pour", "uk": "лити (як з відра)", "lvl": "B1",
+  "forms": "pour|pours|poured|poured|pouring",
+  "near": "rain*|bucket*|teem*|downpour|cats and dogs",
+  "tasks": [
+   {
+    "sit": "Ти вже вдягнув кросівки, щоб піти на пробіжку, але глянув у вікно.",
+    "say": "Надворі ллє як з відра, пробіжку доведеться пропустити.",
+    "ans": ["It's pouring outside, so I'll have to skip my run.", "It's pouring, so I can't go for a run today.", "It's absolutely pouring out there — no run for me today."],
+    "keys": { "пробіжка": "run*|jog*" }
+   },
+   {
+    "sit": "Ти на музичному фестивалі просто неба. Сестра в месенджері питає, як там концерт.",
+    "say": "Ллє як з відра, ми всі промокли до нитки.",
+    "ans": ["It's pouring, and we're all soaked.", "It's pouring, and we are completely soaked.", "It's absolutely pouring — we're soaked to the skin!"],
+    "keys": { "промокли": "soak*|wet|drench*" }
+   },
+   {
+    "sit": "Ти запізнився на роботу, і керівник питає, що сталося.",
+    "say": "Вранці лило як з відра, і на дорогах був жахливий затор.",
+    "ans": ["It was pouring this morning and the traffic was terrible.", "It poured all morning, so there was a huge traffic jam.", "It was pouring this morning — the traffic was a nightmare."],
+    "keys": { "вранці": "morning", "затор": "traffic|jam*|road*" }
+   }
+  ]
+ },
+ {
+  "id": 1188, "w": "snow", "uk": "падати (сніг)", "lvl": "A1",
+  "forms": "snow|snows|snowed|snowed|snowing",
+  "near": "snowfall|flurr*|blizzard*",
+  "tasks": [
+   {
+    "sit": "Подруга кличе тебе в кіно, але за вікном уже з ранку біле все.",
+    "say": "Весь день падає сніг, тому я сиджу вдома.",
+    "ans": ["It is snowing all day, so I am at home.", "It's been snowing all day, so I'm staying home.", "It's snowing all day — I'm staying at home."],
+    "keys": { "весь день": "all day|day", "вдома": "home|house|inside" }
+   },
+   {
+    "sit": "Ти в аеропорту, і рейс затримують. Пишеш мамі.",
+    "say": "Мій рейс затримали, бо сильно падає сніг.",
+    "ans": ["My flight is late because it is snowing a lot.", "The flight is delayed because it's snowing hard.", "They delayed my flight — it's snowing really hard."],
+    "keys": { "рейс": "flight|plane", "затримали": "late|delay*|cancel*" }
+   },
+   {
+    "sit": "Діти питають, що ви робитимете завтра на вихідних.",
+    "say": "Якщо завтра піде сніг, ми підемо кататися на санчатах.",
+    "ans": ["If it snows tomorrow, we will go sledding.", "We'll go sledding if it snows tomorrow.", "If it snows tomorrow, we're going sledding!"],
+    "keys": { "санчата": "sled*|sledg*|sleigh*|toboggan*", "завтра": "tomorrow" }
+   }
+  ]
+ },
+ {
+  "id": 1189, "w": "hail", "uk": "іти (про град)", "lvl": "B2",
+  "forms": "hail|hails|hailed|hailed|hailing",
+  "near": "hailstone*|hailstorm*|sleet*",
+  "tasks": [
+   {
+    "sit": "Сусід питає, звідки на твоїй машині стільки вмʼятин.",
+    "say": "Вчора град ішов так сильно, що машина вся у вмʼятинах.",
+    "ans": ["It hailed so hard yesterday that my car got dented.", "It was hailing so hard yesterday that my car is full of dents.", "It hailed like crazy yesterday — my car's covered in dents."],
+    "keys": { "машина": "car", "вмʼятини": "dent*|damag*" }
+   },
+   {
+    "sit": "Бабуся телефонує з села й засмучено розповідає про город.",
+    "say": "Годину ішов град і побив усі помідори.",
+    "ans": ["It hailed for an hour and ruined all the tomatoes.", "It was hailing for an hour, and all the tomatoes got destroyed.", "It hailed for a whole hour — the tomatoes are ruined."],
+    "keys": { "помідори": "tomato*", "годину": "hour" }
+   },
+   {
+    "sit": "Ти розповідаєш колегам про весілля друга, яке проходило просто неба.",
+    "say": "Уявіть, посеред церемонії пішов град!",
+    "ans": ["Imagine, it started hailing in the middle of the ceremony!", "It began to hail right in the middle of the ceremony.", "Can you believe it hailed right in the middle of the ceremony?"],
+    "keys": { "церемонія": "ceremon*|wedding|vows", "посеред": "middle|during" }
+   }
+  ]
+ },
+ {
+  "id": 1190, "w": "sleet", "uk": "іти (про мокрий сніг)", "lvl": "C1",
+  "forms": "sleet|sleets|sleeted|sleeted|sleeting",
+  "near": "wet snow|snow*|rain*|slush*",
+  "tasks": [
+   {
+    "sit": "Колега питає, чому ти сьогодні приїхав на роботу автобусом, а не машиною.",
+    "say": "Весь ранок іде мокрий сніг, тож дороги жахливі.",
+    "ans": ["It's been sleeting all morning, so the roads are awful.", "It sleeted all morning and the roads are terrible.", "It's been sleeting since the morning — the roads are a nightmare."],
+    "keys": { "дороги": "road*|street*|driv*", "ранок": "morning" }
+   },
+   {
+    "sit": "Сусід питає, чому твій син так рано повернувся з футбольного матчу.",
+    "say": "Матч скасували, бо ішов мокрий сніг.",
+    "ans": ["The match was cancelled because it was sleeting.", "They called off the match because it was sleeting.", "They cancelled the game — it was sleeting."],
+    "keys": { "матч": "match|game", "скасували": "cancel*|called off|call off|postpon*" }
+   },
+   {
+    "sit": "Ви з другом плануєте нічну поїздку машиною до Львова. Ти глянув прогноз.",
+    "say": "Кажуть, що вночі йтиме мокрий сніг.",
+    "ans": ["They say it will sleet tonight.", "According to the forecast, it's going to sleet overnight.", "Apparently it's going to sleet tonight."],
+    "keys": { "вночі": "night|tonight|overnight" }
+   }
+  ]
+ },
+ {
+  "id": 1191, "w": "pour down", "uk": "іти (про зливу)", "lvl": "B2",
+  "forms": "pour|pours|poured|poured|pouring",
+  "tail": "down",
+  "near": "bucket*|teem*|downpour|rain* hard|rain* heavily|heavy rain",
+  "tasks": [
+   {
+    "sit": "Подруга питає, як минув твій вихідний.",
+    "say": "Злива йшла весь вечір, тож ми замовили піцу й дивилися кіно.",
+    "ans": ["It poured down all evening, so we ordered pizza and watched a movie.", "It was pouring down the whole evening, so we got pizza and watched a film.", "It poured down all evening — we just ordered pizza and watched movies."],
+    "keys": { "вечір": "evening|night", "кіно": "movie*|film*" }
+   },
+   {
+    "sit": "Ти розповідаєш про кемпінг у Карпатах.",
+    "say": "Щойно ми поставили намет, як почалася злива.",
+    "ans": ["As soon as we put up the tent, it started pouring down.", "It started to pour down right after we set up the tent.", "We'd just put the tent up when it started pouring down."],
+    "keys": { "намет": "tent*" }
+   },
+   {
+    "sit": "Ти працюєш курʼєром на велосипеді і пишеш диспетчеру.",
+    "say": "Тут злива, я пережду хвилин десять.",
+    "ans": ["It's pouring down here, so I'll wait ten minutes.", "It's pouring down, so I'm going to wait about ten minutes.", "It's really pouring down — give me ten minutes."],
+    "keys": { "десять хвилин": "ten|10|minute*" }
+   }
+  ]
+ },
+ {
+  "id": 1192, "w": "clear up", "uk": "прояснюватися (про погоду, ситуацію)", "lvl": "B2",
+  "forms": "clear|clears|cleared|cleared|clearing",
+  "tail": "up",
+  "near": "brighten*|improv*|get better|got better|clarif*|sort* out|sun came out",
+  "tasks": [
+   {
+    "sit": "Ви приїхали на пікнік, а небо затягнуло хмарами. Друзі хочуть їхати додому.",
+    "say": "Зачекаймо пів години — може, проясниться.",
+    "ans": ["Let's wait half an hour — maybe it will clear up.", "Let's wait thirty minutes, it might clear up.", "Let's give it half an hour, it might clear up."],
+    "keys": { "пів години": "half|thirty|30|hour*|minute*", "може": "maybe|might|may|perhaps|hope*" }
+   },
+   {
+    "sit": "Твій рейс затримали через туман. Ти розповідаєш рідним, як усе минуло.",
+    "say": "До обіду прояснилося, і ми нарешті вилетіли.",
+    "ans": ["It cleared up by lunchtime, and we finally took off.", "By lunch it had cleared up, so we finally flew out.", "It cleared up around noon, and we finally took off."],
+    "keys": { "обід": "lunch*|noon|midday|afternoon", "вилетіли": "took off|take off|flew|fly|flight|left|depart*" }
+   },
+   {
+    "sit": "Колега образився через твоє коротке повідомлення в робочому чаті.",
+    "say": "Давай зідзвонимося і прояснимо це непорозуміння.",
+    "ans": ["Let's have a call and clear up this misunderstanding.", "Let's talk on the phone and clear this misunderstanding up.", "Let's jump on a call and clear this up."],
+    "keys": { "непорозуміння": "misunderstanding|confusion|this|it", "зідзвонимося": "call*|phone|talk" }
+   }
+  ]
+ },
+ {
+  "id": 1193, "w": "blow", "uk": "дути (про вітер)", "lvl": "A2",
+  "forms": "blow|blows|blew|blown|blowing",
+  "near": "gust*|howl*|windy",
+  "tasks": [
+   {
+    "sit": "Зранку колега бачить, що ти дуже втомлений, і питає чому.",
+    "say": "Уночі вітер дув так сильно, що я не міг заснути.",
+    "ans": ["The wind blew so hard last night that I couldn't sleep.", "The wind was blowing so hard at night that I couldn't sleep.", "The wind was blowing like crazy last night — I couldn't sleep."],
+    "keys": { "вночі": "night", "не міг заснути": "sleep*|slept|awake" }
+   },
+   {
+    "sit": "Ви з родиною на пляжі. Донька хоче зняти кофту.",
+    "say": "Сьогодні вітер дує з моря, тому прохолодно.",
+    "ans": ["The wind is blowing from the sea today, so it's cool.", "Today the wind blows from the sea, so it's chilly.", "The wind's blowing in off the sea today, so it's a bit cold."],
+    "keys": { "море": "sea|ocean|water", "прохолодно": "cool*|cold*|chilly" }
+   },
+   {
+    "sit": "Ти прийшов на зустріч мокрий, з поламаною парасолькою в руках.",
+    "say": "Вітер дув так сильно, що зламав мою парасольку.",
+    "ans": ["The wind blew so hard that it broke my umbrella.", "My umbrella broke because the wind was blowing so hard.", "The wind was blowing so hard it broke my umbrella!"],
+    "keys": { "парасолька": "umbrella*", "зламав": "broke|break*|broken|ruin*" }
+   }
+  ]
+ },
+ {
+  "id": 1194, "w": "gust", "uk": "дути поривами", "lvl": "C1",
+  "forms": "gust|gusts|gusted|gusted|gusting",
+  "near": "blow*|blew|howl*|windy",
+  "tasks": [
+   {
+    "sit": "Ти пілот і звертаєшся до пасажирів перед посадкою.",
+    "say": "Вітер поривами сягає вісімдесяти кілометрів на годину, тож може трусити.",
+    "ans": ["The wind is gusting up to eighty kilometres an hour, so it may be bumpy.", "Winds are gusting to 80 km/h, so expect some turbulence.", "It's gusting up to eighty kilometres an hour, so it might get a bit bumpy."],
+    "keys": { "вісімдесят": "eight*|80", "трусити": "bump*|turbulen*|shak*|rough" }
+   },
+   {
+    "sit": "Ви з друзями на яхті, і раптом її сильно нахиляє.",
+    "say": "Вітер дме поривами — тримайся міцніше!",
+    "ans": ["The wind is gusting — hold on tight!", "The wind's gusting a lot, so hold on tight!", "It's really gusting out here, hold on!"],
+    "keys": { "тримайся": "hold*|grab*" }
+   },
+   {
+    "sit": "Ти приїхав на роботу велосипедом і розповідаєш колегам про дорогу.",
+    "say": "Вітер дув такими поривами, що мене мало не здуло з велосипеда.",
+    "ans": ["The wind was gusting so strongly that I nearly got blown off my bike.", "It was gusting so hard that I almost fell off my bike.", "The wind was gusting like mad — I nearly came off my bike!"],
+    "keys": { "велосипед": "bike|bicycle|cycl*", "мало не": "nearly|almost" }
+   }
+  ]
+ },
+ {
+  "id": 1195, "w": "howl", "uk": "завивати (про вітер)", "lvl": "C1",
+  "forms": "howl|howls|howled|howled|howling",
+  "near": "whistl*|roar*|blow*|blew|moan*|wail*",
+  "tasks": [
+   {
+    "sit": "Ти працюєш на двадцятому поверсі. Новенька колега злякалася дивних звуків за вікном.",
+    "say": "Не хвилюйся, це просто вітер завиває.",
+    "ans": ["Don't worry, it's just the wind howling.", "Don't worry, that's only the wind howling outside.", "Relax, it's just the wind howling out there."],
+    "keys": { "не хвилюйся": "worry|relax|fine|okay|ok|calm", "просто": "just|only" }
+   },
+   {
+    "sit": "Увечері ти пишеш подрузі з дому.",
+    "say": "За вікном завиває вітер, а я сиджу під ковдрою з чаєм.",
+    "ans": ["The wind is howling outside, and I'm sitting under a blanket with some tea.", "The wind's howling outside while I'm curled up under a blanket with tea.", "It's howling outside, and I'm snuggled up under a blanket with a cup of tea."],
+    "keys": { "ковдра": "blanket*|duvet|quilt", "чай": "tea" }
+   },
+   {
+    "sit": "Ви ночували в наметі в горах. Зранку друг питає, як тобі спалося.",
+    "say": "Вітер так завивав, що я майже не спав.",
+    "ans": ["The wind was howling so loudly that I hardly slept.", "The wind howled so much that I barely slept.", "With the wind howling all night, I hardly got any sleep."],
+    "keys": { "не спав": "sleep*|slept|awake" }
+   }
+  ]
+ },
+ {
+  "id": 1196, "w": "swirl", "uk": "кружляти", "lvl": "C1",
+  "forms": "swirl|swirls|swirled|swirled|swirling",
+  "near": "whirl*|spin*|spun|circl*|twirl*|danc*",
+  "tasks": [
+   {
+    "sit": "Ти гуляєш з дітьми в осінньому парку й пишеш про це мамі.",
+    "say": "Листя кружляло на вітрі, а діти намагалися його ловити.",
+    "ans": ["The leaves were swirling in the wind, and the kids were trying to catch them.", "Leaves swirled in the wind while the children tried to catch them.", "The leaves were swirling everywhere, and the kids kept trying to catch them."],
+    "keys": { "листя": "lea*", "діти": "kid*|child*" }
+   },
+   {
+    "sit": "Ти ввечері повертаєшся додому зимовим містом і телефонуєш другові.",
+    "say": "Сніжинки кружляють під ліхтарями — так гарно!",
+    "ans": ["Snowflakes are swirling under the streetlights — it's so beautiful!", "The snowflakes swirl around the street lamps, and it's beautiful.", "The snow is swirling under the streetlights — so pretty!"],
+    "keys": { "сніжинки": "snow*", "ліхтарі": "light*|lamp*|streetlight*|street" }
+   },
+   {
+    "sit": "Ти розповідаєш про подорож пустелею на джипі.",
+    "say": "Пил кружляв над дорогою, і ми нічого не бачили.",
+    "ans": ["Dust was swirling over the road, and we couldn't see anything.", "The dust swirled over the road so we couldn't see a thing.", "There was dust swirling all over the road — we couldn't see anything."],
+    "keys": { "пил": "dust*|sand", "не бачили": "see|saw|visib*" }
+   }
+  ]
+ },
+ {
+  "id": 1197, "w": "whirl", "uk": "кружляти вихором", "lvl": "C1",
+  "forms": "whirl|whirls|whirled|whirled|whirling",
+  "near": "swirl*|spin*|spun|twirl*|rush*|circl*",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш друзям про весілля сестри.",
+    "say": "Дідусь вихором закружляв бабусю по танцполу!",
+    "ans": ["Grandpa whirled Grandma around the dance floor!", "Grandpa whirled Grandma across the dance floor.", "Grandpa grabbed Grandma and whirled her around the dance floor!"],
+    "keys": { "дідусь": "grand*", "танцпол": "danc*|floor" }
+   },
+   {
+    "sit": "Ти подорожуєш США і бачиш у новинах відео зі штату Канзас.",
+    "say": "Смерч вихором пронісся повз ферму.",
+    "ans": ["A tornado whirled past the farm.", "The tornado whirled right past the farm.", "A tornado came whirling past the farm!"],
+    "keys": { "смерч": "tornado*|twister|storm", "ферма": "farm*" }
+   },
+   {
+    "sit": "Друг питає, як ти почувався перед важливою співбесідою.",
+    "say": "Перед співбесідою думки вихором крутилися в голові.",
+    "ans": ["Thoughts were whirling in my head before the interview.", "Before the interview, my thoughts whirled around my head.", "My mind was whirling before the interview."],
+    "keys": { "співбесіда": "interview*", "думки": "thought*|mind|head" }
+   }
+  ]
+ },
+ {
+  "id": 1198, "w": "die down", "uk": "стихати", "lvl": "B2",
+  "forms": "die|dies|died|died|dying",
+  "tail": "down",
+  "near": "calm* down|subsid*|eas*|stop*|quiet* down|abat*",
+  "tasks": [
+   {
+    "sit": "Ви з другом прийшли на риболовлю з човна, але на озері великі хвилі.",
+    "say": "Почекаймо, поки вітер стихне, а тоді вийдемо на воду.",
+    "ans": ["Let's wait until the wind dies down, and then we'll go out on the water.", "Let's wait for the wind to die down before we go out.", "Let's wait till the wind dies down, then head out."],
+    "keys": { "вітер": "wind", "почекаймо": "wait*" }
+   },
+   {
+    "sit": "Ти виступаєш на загальних зборах компанії. Після новини про премії в залі гамір.",
+    "say": "Я почекаю, поки шум трохи стихне.",
+    "ans": ["I'll wait until the noise dies down a bit.", "I'm going to wait for the noise to die down.", "Let me wait for the noise to die down a little."],
+    "keys": { "шум": "noise|talk*|chatter|applause", "почекаю": "wait*" }
+   },
+   {
+    "sit": "Під твоїм постом у соцмережі розгорілася суперечка, і подруга хвилюється за тебе.",
+    "say": "Нічого, за тиждень увесь ажіотаж стихне.",
+    "ans": ["Don't worry, the fuss will die down in a week.", "It'll all die down within a week.", "Relax, the hype will die down in a week or so."],
+    "keys": { "тиждень": "week*", "ажіотаж": "fuss|hype|buzz|drama|it|excitement|scandal|attention" }
+   }
+  ]
+ },
+ {
+  "id": 1199, "w": "warm up", "uk": "теплішати", "lvl": "A2",
+  "forms": "warm|warms|warmed|warmed|warming",
+  "tail": "up",
+  "near": "warmer|hotter|heat* up|get* warm|got warm",
+  "tasks": [
+   {
+    "sit": "Ви з сином гуляєте зранку, і сонце вже гріє. Він скаржиться, що йому жарко.",
+    "say": "Надворі теплішає — можеш зняти куртку.",
+    "ans": ["It's warming up outside, so you can take off your jacket.", "It's warming up, you can take your jacket off.", "It's really warming up — take your jacket off."],
+    "keys": { "куртка": "jacket|coat" }
+   },
+   {
+    "sit": "Сусідка питає, коли ти почнеш садити квіти на клумбі.",
+    "say": "Коли в квітні потеплішає, я посаджу квіти.",
+    "ans": ["When it warms up in April, I'll plant flowers.", "I'll plant the flowers in April, when it warms up.", "Once it warms up in April, I'm planting flowers."],
+    "keys": { "квітень": "april", "квіти": "flower*" }
+   },
+   {
+    "sit": "Ви на морі. Друг питає, чи можна вже купатися.",
+    "say": "Вода вже потеплішала, можна купатися.",
+    "ans": ["The water has warmed up, so we can swim.", "The water's warmed up — we can go swimming.", "The water's finally warmed up, let's go for a swim!"],
+    "keys": { "вода": "water|sea", "купатися": "swim*|swam" }
+   }
+  ]
+ },
+ {
+  "id": 1200, "w": "cool off", "uk": "холоднішати", "lvl": "B1",
+  "forms": "cool|cools|cooled|cooled|cooling",
+  "tail": "off",
+  "near": "colder|chilly|chill*|get* cold|got cold",
+  "tasks": [
+   {
+    "sit": "Ви їдете в гори з ночівлею, а друг бере тільки футболки.",
+    "say": "У горах вночі холоднішає, тож візьми светр.",
+    "ans": ["It cools off at night in the mountains, so take a sweater.", "In the mountains it cools off at night, so bring a sweater.", "It really cools off at night up there — grab a sweater."],
+    "keys": { "светр": "sweater|jumper|hoodie|jacket|fleece|warm*", "вночі": "night|evening" }
+   },
+   {
+    "sit": "У місті спека, і подруга кличе тебе гуляти просто зараз, о другій дня.",
+    "say": "Прогуляймося ввечері, коли трохи похолоднішає.",
+    "ans": ["Let's go for a walk in the evening when it cools off a bit.", "Let's take a walk tonight after it cools off.", "Let's walk later, once it's cooled off a bit."],
+    "keys": { "прогуляймося": "walk*", "ввечері": "evening|tonight|later|night" }
+   },
+   {
+    "sit": "Колега з офісу питає, коли ти бігаєш улітку.",
+    "say": "Я бігаю після шостої, коли вже холоднішає.",
+    "ans": ["I run after six, when it cools off.", "I prefer to run after six o'clock, once it cools off.", "I only go running after six, when it's cooled off."],
+    "keys": { "бігаю": "run*|jog*", "шоста": "six|6" }
+   }
+  ]
+ },
+ {
+  "id": 1201, "w": "freeze", "uk": "замерзати", "lvl": "B1",
+  "forms": "freeze|freezes|froze|frozen|freezing",
+  "near": "ice* over|iced over|turn* to ice|frost*",
+  "tasks": [
+   {
+    "sit": "Ти дзвониш другові в січні, щоб покликати його на вихідні.",
+    "say": "Озеро замерзло, можна кататися на ковзанах!",
+    "ans": ["The lake has frozen, so we can go skating!", "The lake froze, so we can skate now.", "The lake's frozen over — let's go skating!"],
+    "keys": { "озеро": "lake|pond", "ковзани": "skat*" }
+   },
+   {
+    "sit": "Ти телефонуєш сантехніку після морозної ночі.",
+    "say": "За ніч труби замерзли, і в нас немає води.",
+    "ans": ["The pipes froze overnight, and we have no water.", "Our pipes froze during the night, so there's no water.", "The pipes froze overnight — we've got no water!"],
+    "keys": { "труби": "pipe*", "вода": "water" }
+   },
+   {
+    "sit": "Зранку ти запізнюєшся на роботу й пишеш колезі.",
+    "say": "Двері машини замерзли, я не можу їх відчинити.",
+    "ans": ["My car door froze, and I can't open it.", "The car door has frozen shut, so I can't open it.", "My car door's frozen shut — I can't get it open!"],
+    "keys": { "машина": "car", "відчинити": "open*" }
+   }
+  ]
+ },
+ {
+  "id": 1202, "w": "thaw", "uk": "танути (про сніг, лід)", "lvl": "C1",
+  "forms": "thaw|thaws|thawed|thawed|thawing",
+  "near": "melt*|defrost*|unfreez*",
+  "tasks": [
+   {
+    "sit": "Друг хоче в березні піти в похід горами. Ти маєш сумніви.",
+    "say": "Навесні сніг у горах тане, і стежки стають дуже слизькими.",
+    "ans": ["In spring the snow thaws in the mountains, and the trails get really slippery.", "When the snow thaws in spring, the mountain paths get very slippery.", "The snow's thawing up there in spring, so the trails get super slippery."],
+    "keys": { "стежки": "trail*|path*|track*", "слизькі": "slip*|muddy|wet|icy" }
+   },
+   {
+    "sit": "Сусід збирається на зимову риболовлю на річку.",
+    "say": "Лід на річці почав танути, тож рибалити вже небезпечно.",
+    "ans": ["The ice on the river has started to thaw, so fishing is dangerous now.", "The river ice is thawing, so it's not safe to fish anymore.", "The ice on the river's started thawing — it's too dangerous to fish now."],
+    "keys": { "лід": "ice", "небезпечно": "danger*|unsafe|risk*|safe" }
+   },
+   {
+    "sit": "Ви з батьком плануєте весняні роботи на дачі.",
+    "say": "Щойно земля розтане, почнемо садити картоплю.",
+    "ans": ["As soon as the ground thaws, we'll start planting potatoes.", "Once the ground thaws, we'll plant the potatoes.", "We'll get the potatoes in as soon as the ground thaws."],
+    "keys": { "земля": "ground|soil|earth", "картопля": "potato*" }
+   }
+  ]
+ },
+ {
+  "id": 1203, "w": "boil", "uk": "варитися (від спеки)", "lvl": "B1",
+  "forms": "boil|boils|boiled|boiled|boiling",
+  "near": "roast*|bak*|melt*|sweat*|dying",
+  "tasks": [
+   {
+    "sit": "В офісі зламався кондиціонер, а надворі плюс тридцять п'ять.",
+    "say": "Кондиціонер зламався, я тут просто варюся!",
+    "ans": ["The air conditioning is broken, and I'm boiling in here!", "I'm boiling in here because the air conditioning is broken.", "The air con's broken and I'm absolutely boiling!"],
+    "keys": { "кондиціонер": "air con*|ac|air-con*|conditioning|conditioner|aircon" }
+   },
+   {
+    "sit": "Ти їдеш у переповненому автобусі в липні, а вікна зачинені.",
+    "say": "Відчиніть, будь ласка, вікно — ми тут варимося!",
+    "ans": ["Could you open the window, please? We're boiling in here!", "Please open a window — we're boiling!", "Can someone open a window? We're boiling back here!"],
+    "keys": { "вікно": "window*" }
+   },
+   {
+    "sit": "Ти на літньому весіллі друга, і на тобі темний костюм.",
+    "say": "Я в цьому костюмі просто варюся.",
+    "ans": ["I'm boiling in this suit.", "I'm just boiling in this suit.", "This suit is way too warm — I'm boiling!"],
+    "keys": { "костюм": "suit|jacket" }
+   }
+  ]
+ },
+ {
+  "id": 1204, "w": "freeze to death", "uk": "страшенно мерзнути", "lvl": "B2",
+  "forms": "freeze|freezes|froze|frozen|freezing",
+  "tail": "to death",
+  "near": "cold|chill*|shiver*|numb",
+  "tasks": [
+   {
+    "sit": "Ти вже пів години чекаєш автобус на зупинці в мороз і телефонуєш дружині.",
+    "say": "Автобуса досі немає, я тут страшенно змерз!",
+    "ans": ["The bus still hasn't come, and I'm freezing to death!", "I'm still waiting for the bus and I'm freezing to death.", "Where's the bus? I'm freezing to death here!"],
+    "keys": { "автобус": "bus" }
+   },
+   {
+    "sit": "Ви з другом на футбольному матчі в грудні. У нього є зайвий шарф.",
+    "say": "Дай мені свій шарф, я страшенно мерзну.",
+    "ans": ["Give me your scarf, I'm freezing to death.", "Can I have your scarf? I'm freezing to death.", "Pass me your scarf — I'm freezing to death!"],
+    "keys": { "шарф": "scarf|scarves" }
+   },
+   {
+    "sit": "У квартирі знову вимкнули опалення. Ти пишеш у чат будинку.",
+    "say": "Опалення знову немає, ми тут замерзаємо!",
+    "ans": ["The heating is off again, and we're freezing to death.", "There's no heating again — we're freezing to death here.", "They've turned off the heating again, and we're freezing to death!"],
+    "keys": { "опалення": "heat*|radiator*" }
+   }
+  ]
+ },
+ {
+  "id": 1205, "w": "melt", "uk": "танути", "lvl": "A2",
+  "forms": "melt|melts|melted|melted|melting",
+  "near": "thaw*|defrost*",
+  "tasks": [
+   {
+    "sit": "Ви з донькою гуляєте в спекотний день, а вона повільно їсть морозиво.",
+    "say": "Їж швидше, морозиво тане!",
+    "ans": ["Eat faster, your ice cream is melting!", "Eat it quickly, the ice cream is melting.", "Hurry up, your ice cream's melting!"],
+    "keys": { "морозиво": "ice cream*|ice-cream*|it", "швидше": "fast*|quick*|hurry" }
+   },
+   {
+    "sit": "Ти хотів пригостити колег шоколадом, але відкриваєш сумку в офісі.",
+    "say": "Я залишив шоколад у машині, і він розтанув.",
+    "ans": ["I left the chocolate in the car, and it melted.", "The chocolate melted because I left it in the car.", "I left the chocolate in the car — it's totally melted."],
+    "keys": { "шоколад": "chocolate*", "машина": "car" }
+   },
+   {
+    "sit": "Діти питають, куди подівся сніговик, якого ви зліпили у дворі.",
+    "say": "Наш сніговик розтанув за два дні.",
+    "ans": ["Our snowman melted in two days.", "The snowman melted within two days.", "The snowman we made melted in just two days."],
+    "keys": { "сніговик": "snowm*", "два дні": "two|2|day*" }
+   }
+  ]
+ },
+ {
+  "id": 1206, "w": "fall", "uk": "падати (як листя, сніг)", "lvl": "A1",
+  "forms": "fall|falls|fell|fallen|falling",
+  "near": "drop*|come down|comes down|came down|coming down",
+  "tasks": [
+   {
+    "sit": "Молодший брат питає, чому дерева в парку стали голими.",
+    "say": "Восени листя падає з дерев.",
+    "ans": ["In autumn, leaves fall from the trees.", "The leaves fall from the trees in autumn.", "Leaves fall off the trees in autumn."],
+    "keys": { "листя": "lea*", "дерева": "tree*" }
+   },
+   {
+    "sit": "Ти дивишся у вікно ввечері й кличеш сина.",
+    "say": "Дивись, падає сніг!",
+    "ans": ["Look, snow is falling!", "Look! The snow is falling.", "Look, the snow's falling!"],
+    "keys": { "сніг": "snow*" }
+   },
+   {
+    "sit": "Ти на дачі й просиш сестру допомогти в саду.",
+    "say": "Яблука падають з дерева, збери їх, будь ласка.",
+    "ans": ["The apples are falling from the tree, please pick them up.", "Apples fall from the tree every day, can you pick them up?", "The apples keep falling — can you pick them up, please?"],
+    "keys": { "яблука": "apple*", "збери": "pick*|collect*|gather*" }
+   }
+  ]
+ },
+ {
+  "id": 1207, "w": "shine", "uk": "сяяти, світити", "lvl": "A2",
+  "forms": "shine|shines|shone/shined|shone/shined|shining",
+  "near": "sunny|glow*|sparkl*|glitter*",
+  "tasks": [
+   {
+    "sit": "Субота, ранок. Ти заходиш у кімнату до друзів, з якими відпочиваєш на морі.",
+    "say": "Сонце світить, ходімо на пляж!",
+    "ans": ["The sun is shining, let's go to the beach!", "The sun's shining, so let's go to the beach.", "The sun is shining — come on, beach time!"],
+    "keys": { "пляж": "beach|sea" }
+   },
+   {
+    "sit": "Ви з другом вночі йдете додому через поле без ліхтарика.",
+    "say": "Місяць світить так яскраво, що видно всю дорогу.",
+    "ans": ["The moon is shining so brightly that we can see the whole road.", "The moon shines so brightly, we can see the road.", "The moon's shining so bright we can see the whole path."],
+    "keys": { "місяць": "moon", "дорога": "road|path|way" }
+   },
+   {
+    "sit": "Ти прасуєш одяг удома, а сусідка питає, чи варто сушити білизну надворі.",
+    "say": "Сонце сяє весь день, тож білизна швидко висохне.",
+    "ans": ["The sun is shining all day, so the laundry will dry fast.", "The sun has been shining all day, so the washing will dry quickly.", "The sun's shining all day — the clothes will dry in no time."],
+    "keys": { "білизна": "laundry|washing|clothes", "висохне": "dry|dried" }
+   }
+  ]
+ },
+ {
+  "id": 1208, "w": "set", "uk": "заходити (про сонце)", "lvl": "A2",
+  "forms": "set|sets|set|set|setting",
+  "near": "go down|goes down|went down|going down|sunset",
+  "tasks": [
+   {
+    "sit": "Ви у відпустці на морі. Подруга хоче зробити гарні фото.",
+    "say": "Ходімо на пляж — сонце сідає о восьмій.",
+    "ans": ["Let's go to the beach, the sun sets at eight.", "The sun sets at eight, so let's go to the beach.", "Come on, let's hit the beach — the sun sets at eight."],
+    "keys": { "вісім": "eight|8" }
+   },
+   {
+    "sit": "Колега з Іспанії питає, як тобі зима в Україні.",
+    "say": "Взимку сонце сідає так рано, що я повертаюся з роботи в темряві.",
+    "ans": ["In winter the sun sets so early that I come home from work in the dark.", "The sun sets so early in winter that it's dark when I leave work.", "In winter the sun sets super early — I get home from work in the dark."],
+    "keys": { "з роботи": "work|office", "темрява": "dark*" }
+   },
+   {
+    "sit": "Ви з друзями в поході на вершині гори, і вже вечоріє.",
+    "say": "Треба спускатися з гори, поки не сіло сонце.",
+    "ans": ["We need to get down the mountain before the sun sets.", "We have to get off the mountain before the sun sets.", "Let's head down the mountain before the sun sets."],
+    "keys": { "гора": "mountain|hill" }
+   }
+  ]
+ },
+ {
+  "id": 1209, "w": "rise", "uk": "сходити (про сонце)", "lvl": "A2",
+  "forms": "rise|rises|rose|risen|rising",
+  "near": "come up|comes up|came up|coming up|sunrise|dawn*",
+  "tasks": [
+   {
+    "sit": "Ви з друзями плануєте похід на гору, і хтось питає, чому виходити так рано.",
+    "say": "Ми вийдемо о четвертій, щоб побачити з вершини, як сходить сонце.",
+    "ans": ["We'll leave at four to watch the sun rise from the top.", "We're leaving at four so we can see the sun rise from the top.", "We'll head out at four to catch the sun rising from the top."],
+    "keys": { "четверта": "four|4", "вершина": "top|peak|summit|mountain" }
+   },
+   {
+    "sit": "Колега питає, чому влітку ти прокидаєшся так рано без будильника.",
+    "say": "Влітку сонце сходить о пʼятій, і я прокидаюся разом з ним.",
+    "ans": ["In summer the sun rises at five, and I wake up with it.", "The sun rises at five in summer, so I wake up then too.", "In summer the sun rises at five, and I'm up with it."],
+    "keys": { "пʼята": "five|5", "прокидаюся": "wak*|woke|get up|up" }
+   },
+   {
+    "sit": "Ти в круїзі й рано-вранці стукаєш у каюту до друга.",
+    "say": "Прокидайся, сонце сходить над морем!",
+    "ans": ["Wake up, the sun is rising over the sea!", "Get up! The sun is rising over the sea.", "Wake up — the sun's rising over the ocean!"],
+    "keys": { "море": "sea|ocean|water" }
+   }
+  ]
+ },
+ {
+  "id": 1210, "w": "pace back and forth", "uk": "ходити туди-сюди", "lvl": "B2",
+  "forms": "pace|paces|paced|paced|pacing",
+  "tail": "back and forth",
+  "near": "walk* up and down|walk* around|walk* to and fro|walk* back and forth",
+  "tasks": [
+   {
+    "sit": "Ти чекав у лікарні, поки дружині зроблять операцію. Друг питає, як минув той день.",
+    "say": "Я пів години ходив туди-сюди коридором.",
+    "ans": ["I paced back and forth in the hallway for half an hour.", "I was pacing back and forth down the corridor for thirty minutes.", "I spent half an hour pacing back and forth in the hallway."],
+    "keys": { "коридор": "hall*|corridor", "пів години": "half|thirty|30|hour|minute*" }
+   },
+   {
+    "sit": "Перед презентацією колега нервово міряє кроками переговорну.",
+    "say": "Перестань ходити туди-сюди, ти мене нервуєш!",
+    "ans": ["Stop pacing back and forth, you're making me nervous!", "Please stop pacing back and forth — it's making me nervous.", "Can you stop pacing back and forth? You're stressing me out!"],
+    "keys": { "перестань": "stop|quit", "нервуєш": "nervous|anxious|stress*" }
+   },
+   {
+    "sit": "Сестра сміється, що під час дзвінків ти ніколи не сидиш на місці.",
+    "say": "Коли я говорю по телефону, я завжди ходжу туди-сюди.",
+    "ans": ["I always pace back and forth when I'm on the phone.", "When I talk on the phone, I always pace back and forth.", "I can't sit still on the phone — I always pace back and forth."],
+    "keys": { "телефон": "phone|call*", "завжди": "always|every time" }
+   }
+  ]
+ }
+]

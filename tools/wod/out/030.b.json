@@ -1,0 +1,642 @@
+[
+ {
+  "id": 1660, "w": "withdraw", "uk": "віддалятися (від людей)", "lvl": "C1",
+  "forms": "withdraw|withdraws|withdrew|withdrawn|withdrawing",
+  "near": "isolat*|pull away|pulled away|pulling away|distanc*|shut down|shut off|clos* off",
+  "tasks": [
+   {
+    "sit": "Після смерті бабусі твій брат перестав спілкуватися з друзями.",
+    "say": "Він віддалився від усіх друзів.",
+    "ans": ["He withdrew from all his friends.", "He has withdrawn from all his friends.", "He’s really withdrawn from his friends lately."],
+    "keys": { "друзі": "friend*|everyone|people" }
+   },
+   {
+    "sit": "Учителька каже тобі, що твоя донька останнім часом зовсім тиха на уроках.",
+    "say": "Вона віддаляється від однокласників, і я хвилююся.",
+    "ans": ["She’s withdrawing from her classmates, and I’m worried.", "She has been withdrawing from her classmates — I’m worried.", "She’s been withdrawing from the other kids, and it worries me."],
+    "keys": { "однокласники": "classmate*|kids|children|friends|other*", "хвилююся": "worr*|concern*" }
+   },
+   {
+    "sit": "Новий колега весь час обідає сам і уникає розмов. Ти вирішуєш з ним поговорити.",
+    "say": "Тобі не треба віддалятися від команди.",
+    "ans": ["You don’t have to withdraw from the team.", "There’s no need to withdraw from the team.", "Hey, you don’t need to withdraw from everyone on the team."],
+    "keys": { "команда": "team|colleagues|us|everyone", "не треба": "not|no need" }
+   }
+  ]
+ },
+ {
+  "id": 1661, "w": "ache for", "uk": "нудитися, тужити (за чимось)", "lvl": "C1",
+  "forms": "ache|aches|ached|ached|aching",
+  "tail": "for",
+  "near": "long for|longing for|longed for|yearn*|miss|missing|missed|crav*",
+  "tasks": [
+   {
+    "sit": "Ти пів року працюєш на кораблі далеко від дому й пишеш другові.",
+    "say": "Я нуджуся за домом і рідними.",
+    "ans": ["I ache for home and my family.", "I’m aching for home and my family.", "I just ache for home and my family."],
+    "keys": { "дім": "home|house", "рідні": "family|loved ones|parents|kids" }
+   },
+   {
+    "sit": "Кінець довгої сірої зими, за вікном знову мокрий сніг.",
+    "say": "Я так нуджуся за сонцем і теплом.",
+    "ans": ["I ache for sunshine and warmth.", "I’m aching for some sun and warm weather.", "I really ache for the sun and some warmth."],
+    "keys": { "сонце": "sun*", "тепло": "warm*|heat|summer" }
+   },
+   {
+    "sit": "Подруга після переїзду в чуже місто рідко з кимось бачиться. Ти розповідаєш про неї мамі.",
+    "say": "Вона нудиться за справжнім товариством.",
+    "ans": ["She aches for real company.", "She’s aching for some real friendship.", "She really aches for proper company."],
+    "keys": { "товариство": "company|friend*|people|connection" }
+   }
+  ]
+ },
+ {
+  "id": 1662, "w": "reach out", "uk": "звертатися (по допомогу), виходити на звʼязок", "lvl": "B2",
+  "forms": "reach|reaches|reached|reached|reaching",
+  "tail": "out",
+  "near": "contact*|get in touch|got in touch|call*|text*|message*|ask for help|asked for help",
+  "tasks": [
+   {
+    "sit": "Ти тімлід і в перший день знайомиш нового працівника з командою.",
+    "say": "Якщо щось знадобиться — звертайся до мене будь-коли.",
+    "ans": ["If you need anything, reach out to me anytime.", "Feel free to reach out anytime if you need something.", "Just reach out whenever you need anything."],
+    "keys": { "будь-коли": "anytime|any time|whenever", "щось знадобиться": "need*|anything|something|question*" }
+   },
+   {
+    "sit": "Друг переживає важкий період, але нікому нічого не розповідає.",
+    "say": "Не бійся звернутися по допомогу.",
+    "ans": ["Don’t be afraid to reach out for help.", "Don’t be scared to reach out if you need help.", "It’s okay to reach out for help, you know."],
+    "keys": { "допомога": "help|support", "не бійся": "afraid|scared|okay|ok|fine" }
+   },
+   {
+    "sit": "Ти шукаєш роботу й знайшов у мережі людину, яка працює в компанії твоєї мрії.",
+    "say": "Я звернувся до неї по пораду через соцмережу.",
+    "ans": ["I reached out to her for advice on social media.", "I reached out to her online to ask for advice.", "I just reached out to her for some advice online."],
+    "keys": { "порада": "advice|tips|help", "соцмережа": "social media|online|linkedin|message*" }
+   }
+  ]
+ },
+ {
+  "id": 1663, "w": "lob", "uk": "кинути (по дузі)", "lvl": "C1",
+  "forms": "lob|lobs|lobbed|lobbed|lobbing",
+  "near": "throw*|threw|thrown|toss*|chuck*",
+  "tasks": [
+   {
+    "sit": "У тенісному матчі суперник підбіг до самої сітки.",
+    "say": "Я перекинув мʼяч дугою через його голову.",
+    "ans": ["I lobbed the ball over his head.", "I lobbed it right over his head.", "I just lobbed the ball over him."],
+    "keys": { "через голову": "over|head", "мʼяч": "ball|it" }
+   },
+   {
+    "sit": "Ти стоїш на балконі третього поверху, а друг унизу забув ключі.",
+    "say": "Тримай, я кину тобі ключі!",
+    "ans": ["Catch, I’ll lob you the keys!", "Here, I’ll lob the keys down to you!", "Catch — I’m lobbing the keys down!"],
+    "keys": { "ключі": "key*" }
+   },
+   {
+    "sit": "Друг сидить на дивані в іншому кінці кімнати й просить подати яблуко.",
+    "say": "Кинь мені яблуко, я впіймаю.",
+    "ans": ["Lob me an apple, I’ll catch it.", "Just lob the apple over, I’ll catch it.", "Lob it over here — I’ll catch it!"],
+    "keys": { "яблуко": "apple|it", "впіймаю": "catch*|got it" }
+   }
+  ]
+ },
+ {
+  "id": 1664, "w": "scatter", "uk": "розсипати, розкидати", "lvl": "B2",
+  "forms": "scatter|scatters|scattered|scattered|scattering",
+  "near": "sprinkl*|spread*|spill*|throw*|strew*",
+  "tasks": [
+   {
+    "sit": "Навесні ви з дідом засіваєте газон біля хати.",
+    "say": "Розсип насіння рівномірно по всьому газону.",
+    "ans": ["Scatter the seeds evenly over the lawn.", "Scatter the seeds all over the lawn.", "Just scatter the seeds evenly across the grass."],
+    "keys": { "насіння": "seed*", "газон": "lawn|grass|garden|yard" }
+   },
+   {
+    "sit": "Узимку ти годуєш птахів у парку, і знайомий питає, що ти робиш.",
+    "say": "Я розсипав крихти для горобців.",
+    "ans": ["I scattered some crumbs for the sparrows.", "I scattered bread crumbs for the sparrows.", "I’ve scattered crumbs for the little sparrows."],
+    "keys": { "крихти": "crumb*|bread", "горобці": "sparrow*|bird*" }
+   },
+   {
+    "sit": "Ти приходиш додому, а по всій вітальні валяються дитячі іграшки.",
+    "say": "Діти розкидали іграшки по всій кімнаті.",
+    "ans": ["The kids scattered their toys all over the room.", "The kids have scattered toys all over the living room.", "Wow, the kids scattered toys everywhere!"],
+    "keys": { "іграшки": "toy*|lego*|stuff", "по всій кімнаті": "all over|everywhere|room|floor" }
+   }
+  ]
+ },
+ {
+  "id": 1665, "w": "toss out", "uk": "викинути", "lvl": "B1",
+  "forms": "toss|tosses|tossed|tossed|tossing",
+  "tail": "out",
+  "near": "throw out|throws out|threw out|thrown out|throw away|threw away|thrown away|bin|binned|get rid|got rid|dump*",
+  "tasks": [
+   {
+    "sit": "Ти розбираєш холодильник і знаходиш прострочений йогурт.",
+    "say": "Я викину цей старий йогурт.",
+    "ans": ["I’ll toss out this old yogurt.", "I’m going to toss this old yogurt out.", "I’ll just toss out that old yogurt."],
+    "keys": { "йогурт": "yog*" }
+   },
+   {
+    "sit": "Проєкт закінчено, і ти прибираєш на робочому столі в офісі.",
+    "say": "Можна викинути ці старі документи?",
+    "ans": ["Can I toss out these old documents?", "Can we toss these old papers out?", "Is it okay to toss out these old files?"],
+    "keys": { "документи": "document*|paper*|file*|folder*", "старі": "old" }
+   },
+   {
+    "sit": "Сестра розбирає шафу, але не може розлучитися зі старими светрами.",
+    "say": "Просто викинь те, що не носиш роками.",
+    "ans": ["Just toss out what you haven’t worn in years.", "Just toss out anything you haven’t worn for years.", "Toss out everything you haven’t worn in years!"],
+    "keys": { "не носиш": "worn|wear*", "роками": "years|ages" }
+   }
+  ]
+ },
+ {
+  "id": 1666, "w": "heave", "uk": "жбурнути (щось важке)", "lvl": "C1",
+  "forms": "heave|heaves|heaved|heaved|heaving",
+  "near": "throw*|threw|thrown|hurl*|lift*|toss*|chuck*|fling|flung",
+  "tasks": [
+   {
+    "sit": "Ви переїжджаєте, і вантажник закидає важкий мішок у кузов.",
+    "say": "Він одним рухом жбурнув мішок у кузов.",
+    "ans": ["He heaved the bag into the truck in one go.", "He heaved the heavy sack into the back of the truck.", "He just heaved the bag into the truck like it was nothing."],
+    "keys": { "мішок": "bag*|sack*", "кузов": "truck|van|back" }
+   },
+   {
+    "sit": "Ви з друзями на річці будуєте загату з каміння.",
+    "say": "Я жбурнув великий камінь у воду.",
+    "ans": ["I heaved a big rock into the water.", "I heaved a huge stone into the river.", "I heaved the biggest rock I could find into the water."],
+    "keys": { "камінь": "rock*|stone*|boulder*", "вода": "water|river|stream" }
+   },
+   {
+    "sit": "Ти розповідаєш, як провів вихідні в селі в дядька, коли збирали сіно.",
+    "say": "Ми цілий день жбурляли тюки сіна на віз.",
+    "ans": ["We heaved hay bales onto the cart all day.", "We spent the whole day heaving bales of hay onto the cart.", "We were heaving hay bales all day long."],
+    "keys": { "сіно": "hay|bale*", "цілий день": "all day|whole day|day" }
+   }
+  ]
+ },
+ {
+  "id": 1667, "w": "pick up", "uk": "легко вивчити, нахопитися (з практики)", "lvl": "B2",
+  "forms": "pick|picks|picked|picked|picking",
+  "tail": "up",
+  "near": "learn*|learnt|master*|acquir*|get the hang|got the hang",
+  "tasks": [
+   {
+    "sit": "Твій сусід-італієць живе в Києві лише пів року, а вже вільно говорить українською.",
+    "say": "Як ти так швидко вивчив українську?",
+    "ans": ["How did you pick up Ukrainian so fast?", "How did you pick Ukrainian up so quickly?", "Wow, how did you pick up Ukrainian so fast?"],
+    "keys": { "українська": "ukrainian", "швидко": "fast|quick*|so soon" }
+   },
+   {
+    "sit": "Діти за тиждень розібралися в новій настільній грі й уже тебе обігрують.",
+    "say": "Діти так швидко все схоплюють!",
+    "ans": ["Kids pick things up so fast!", "Kids pick up everything so quickly!", "Kids just pick stuff up so fast!"],
+    "keys": { "швидко": "fast|quick*", "діти": "kid*|child*" }
+   },
+   {
+    "sit": "Колега чує, як ти граєш на гітарі, і питає, де ти вчився.",
+    "say": "Я навчився сам, просто з відео в інтернеті.",
+    "ans": ["I picked it up from videos online.", "I picked up the guitar by myself from online videos.", "I just picked it up watching videos online."],
+    "keys": { "відео": "video*|youtube|online|tutorial*" }
+   }
+  ]
+ },
+ {
+  "id": 1668, "w": "snap up", "uk": "розхопити, швидко вихопити (товар)", "lvl": "C1",
+  "forms": "snap|snaps|snapped|snapped|snapping",
+  "tail": "up",
+  "near": "grab*|buy|buys|bought|sold out|scoop*",
+  "tasks": [
+   {
+    "sit": "Квитки на концерт улюбленого гурту надійшли в продаж о десятій ранку.",
+    "say": "Усі квитки розхопили за десять хвилин.",
+    "ans": ["All the tickets were snapped up in ten minutes.", "People snapped up all the tickets in ten minutes.", "The tickets got snapped up within ten minutes."],
+    "keys": { "квитки": "ticket*", "десять хвилин": "ten minutes|10 minutes|minutes" }
+   },
+   {
+    "sit": "У твоєму улюбленому магазині розпродаж: кросівки за пів ціни.",
+    "say": "Я вхопив останню пару за пів ціни.",
+    "ans": ["I snapped up the last pair at half price.", "I snapped up the last pair for half the price.", "I managed to snap up the last pair at half price!"],
+    "keys": { "остання пара": "last|pair", "пів ціни": "half|50*|discount" }
+   },
+   {
+    "sit": "Ріелтор показує квартиру в центрі за дуже вигідною ціною.",
+    "say": "Таку квартиру швидко розхоплять.",
+    "ans": ["A flat like this will be snapped up quickly.", "Someone will snap up this apartment fast.", "Trust me, this place will get snapped up in no time."],
+    "keys": { "квартира": "flat|apartment|place|property", "швидко": "quick*|fast|no time|soon" }
+   }
+  ]
+ },
+ {
+  "id": 1669, "w": "seize on", "uk": "вхопитися за (ідею, помилку, шанс)", "lvl": "C1",
+  "forms": "seize|seizes|seized|seized|seizing",
+  "tail": "on/upon",
+  "near": "grab*|jump at|jumped at|take advantage|took advantage",
+  "tasks": [
+   {
+    "sit": "Міністр помилився в цифрах під час телевізійного інтервʼю.",
+    "say": "Опозиція одразу вхопилася за цю помилку.",
+    "ans": ["The opposition immediately seized on the mistake.", "The opposition seized on his mistake right away.", "Of course, the opposition instantly seized on that mistake."],
+    "keys": { "помилка": "mistake|error|slip", "одразу": "immediately|right away|instantly|quickly|at once" }
+   },
+   {
+    "sit": "Ти розповідаєш, як твоя маленька кавʼярня вижила, коли перед нею пів року ремонтували дорогу.",
+    "say": "Ми вхопилися за ідею доставки.",
+    "ans": ["We seized on the idea of delivery.", "We seized on the delivery idea.", "We quickly seized on the idea of doing deliveries."],
+    "keys": { "доставка": "deliver*" }
+   },
+   {
+    "sit": "На студентських дебатах суперник обмовився, і твоя команда цим скористалася.",
+    "say": "Ми вхопилися за його обмовку й виграли.",
+    "ans": ["We seized on his slip and won.", "We seized on his slip of the tongue and won the debate.", "We seized on that one slip and won the whole debate."],
+    "keys": { "обмовка": "slip*|mistake|error", "виграли": "won|win*" }
+   }
+  ]
+ },
+ {
+  "id": 1670, "w": "check in", "uk": "реєструватися (на рейс)", "lvl": "B1",
+  "forms": "check|checks|checked|checked|checking",
+  "tail": "in",
+  "near": "register*|board*|sign in|signed in",
+  "tasks": [
+   {
+    "sit": "Завтра зранку рейс до Барселони. Дружина хвилюється, чи все готово.",
+    "say": "Я вже зареєструвався онлайн.",
+    "ans": ["I’ve already checked in online.", "I already checked in online.", "Relax, I checked in online already."],
+    "keys": { "онлайн": "online|app|website", "вже": "already" }
+   },
+   {
+    "sit": "В аеропорту ти не можеш знайти стійку своєї авіакомпанії й звертаєшся до працівника.",
+    "say": "Де я можу зареєструватися на рейс до Лондона?",
+    "ans": ["Where can I check in for the flight to London?", "Where do I check in for the London flight?", "Excuse me, where can I check in for London?"],
+    "keys": { "Лондон": "london", "де": "where" }
+   },
+   {
+    "sit": "Колега вперше летить у відрядження і питає в тебе поради.",
+    "say": "Зареєструйся за добу до вильоту.",
+    "ans": ["Check in a day before the flight.", "Check in 24 hours before departure.", "Make sure you check in a day before your flight."],
+    "keys": { "за добу": "day|24*|twenty*", "виліт": "flight|departure|fly*" }
+   }
+  ]
+ },
+ {
+  "id": 1671, "w": "put up", "uk": "поселити (у себе), прихистити", "lvl": "B2",
+  "forms": "put|puts|put|put|putting",
+  "tail": "up",
+  "near": "host*|let you stay|let him stay|let me stay|stay with|accommodat*",
+  "tasks": [
+   {
+    "sit": "Друг їде до Львова на конференцію, а готелі в ці дні дуже дорогі.",
+    "say": "Не бронюй готель, я тебе поселю.",
+    "ans": ["Don’t book a hotel, I can put you up.", "Don’t book a hotel — I’ll put you up.", "Forget the hotel, I’ll put you up at my place."],
+    "keys": { "готель": "hotel", "не бронюй": "not|forget|no need" }
+   },
+   {
+    "sit": "Двоюрідний брат залишився без житла після пожежі. Колега питає, як він.",
+    "say": "Ми поселили його в себе на місяць.",
+    "ans": ["We put him up for a month.", "We’ve put him up at our place for a month.", "We put him up for a month until he found something."],
+    "keys": { "місяць": "month*|weeks" }
+   },
+   {
+    "sit": "Ти запізнився на останній потяг у чужому місті й дзвониш знайомому.",
+    "say": "Можеш прихистити мене на одну ніч?",
+    "ans": ["Could you put me up for one night?", "Can you put me up for the night?", "Is there any chance you could put me up tonight?"],
+    "keys": { "одна ніч": "night|tonight" }
+   }
+  ]
+ },
+ {
+  "id": 1672, "w": "put up with", "uk": "терпіти, миритися з", "lvl": "B2",
+  "forms": "put|puts|put|put|putting",
+  "tail": "up with",
+  "near": "tolerat*|stand|bear|endur*|live with|deal with",
+  "tasks": [
+   {
+    "sit": "Сусіди зверху вже третій тиждень щоночі влаштовують вечірки.",
+    "say": "Я більше не можу терпіти цей шум.",
+    "ans": ["I can’t put up with this noise anymore.", "I won’t put up with the noise any longer.", "Honestly, I can’t put up with that noise anymore."],
+    "keys": { "шум": "noise|music|parties|racket", "більше не": "anymore|any more|any longer|no longer" }
+   },
+   {
+    "sit": "Колега з іншого відділу дивується, як ти працюєш з дуже різким і вимогливим начальником.",
+    "say": "Як ти терпиш його характер?",
+    "ans": ["How do you put up with him?", "How do you put up with his temper?", "Seriously, how do you put up with that guy?"],
+    "keys": { "він": "him|his|guy|boss" }
+   },
+   {
+    "sit": "Ти живеш у дешевому хостелі з тонкими стінами й холодним душем.",
+    "say": "Я терплю це лише тому, що тут дешево.",
+    "ans": ["I only put up with it because it’s cheap.", "I put up with all this only because it’s cheap.", "I’m only putting up with this because it’s so cheap."],
+    "keys": { "дешево": "cheap|price|money|budget", "лише": "only|just" }
+   }
+  ]
+ },
+ {
+  "id": 1673, "w": "settle in", "uk": "облаштовуватися, звикати на новому місці", "lvl": "B2",
+  "forms": "settle|settles|settled|settled|settling",
+  "tail": "in",
+  "near": "get used|got used|adapt*|adjust*|unpack*",
+  "tasks": [
+   {
+    "sit": "Ти тиждень тому переїхав, і мама телефонує дізнатися, як справи.",
+    "say": "Я вже потроху облаштовуюся.",
+    "ans": ["I’m slowly settling in.", "I’m settling in little by little.", "I’m slowly settling in, don’t worry."],
+    "keys": { "потроху": "slowly|little by little|gradually|bit by bit" }
+   },
+   {
+    "sit": "Ти керівник, і до тебе тиждень тому прийшла нова працівниця.",
+    "say": "Як ви облаштувалися на новому місці?",
+    "ans": ["How are you settling in at your new job?", "Have you settled in at the new job?", "So, how are you settling in here?"],
+    "keys": { "нове місце": "new|here|job|office" }
+   },
+   {
+    "sit": "Це твій перший тиждень у гуртожитку за кордоном. Ти пишеш другові.",
+    "say": "Мені потрібно кілька днів, щоб облаштуватися.",
+    "ans": ["I need a few days to settle in.", "It’ll take me a few days to settle in.", "Give me a few days to settle in first."],
+    "keys": { "кілька днів": "few days|couple of days|days|week" }
+   }
+  ]
+ },
+ {
+  "id": 1674, "w": "move in", "uk": "вʼїжджати, заселятися", "lvl": "B1",
+  "forms": "move|moves|moved|moved|moving",
+  "tail": "in/into",
+  "near": "live together|living together|settle in|settled in",
+  "tasks": [
+   {
+    "sit": "Ви з дівчиною зустрічаєтеся два роки. Друг питає про ваші плани.",
+    "say": "Наступного місяця ми вʼїжджаємо в спільну квартиру.",
+    "ans": ["We’re moving in together next month.", "We’ve decided to move in together next month.", "Next month we’re finally moving in together!"],
+    "keys": { "разом": "together|our|shared", "наступного місяця": "next month|month" }
+   },
+   {
+    "sit": "У квартиру навпроти хтось заносить меблі.",
+    "say": "Здається, вʼїжджають нові сусіди.",
+    "ans": ["I think the new neighbors are moving in.", "It looks like new neighbors are moving in.", "Oh, I think some new neighbors are moving in!"],
+    "keys": { "сусіди": "neighbo*", "нові": "new" }
+   },
+   {
+    "sit": "Ти домовляєшся з орендодавцем про нову квартиру.",
+    "say": "Коли я можу вʼїхати?",
+    "ans": ["When can I move in?", "When would I be able to move in?", "So when can I move in?"],
+    "keys": { "коли": "when|what day|date" }
+   }
+  ]
+ },
+ {
+  "id": 1675, "w": "move out", "uk": "виїжджати (з житла)", "lvl": "B1",
+  "forms": "move|moves|moved|moved|moving",
+  "tail": "out",
+  "near": "leav*|left|relocat*|move away|moved away|moving away",
+  "tasks": [
+   {
+    "sit": "Тобі двадцять пʼять, і ти досі живеш з батьками. Нарешті знайшов свою квартиру.",
+    "say": "Я нарешті виїжджаю від батьків.",
+    "ans": ["I’m finally moving out of my parents’ place.", "I’m finally moving out of my parents’ house.", "I’m finally moving out — no more living with my parents!"],
+    "keys": { "батьки": "parent*|mom|dad|family", "нарешті": "finally|at last" }
+   },
+   {
+    "sit": "Орендодавець попросив звільнити квартиру, бо продає її.",
+    "say": "Ми маємо виїхати до кінця місяця.",
+    "ans": ["We have to move out by the end of the month.", "We need to move out before the end of the month.", "We’ve got to move out by the end of the month."],
+    "keys": { "кінець місяця": "end of the month|month", "маємо": "have to|need to|must|got to" }
+   },
+   {
+    "sit": "Сусід по кімнаті постійно скаржиться на все у вашій квартирі.",
+    "say": "Якщо тобі не подобається, можеш виїхати.",
+    "ans": ["If you don’t like it, you can move out.", "You can move out if you don’t like it.", "Don’t like it? Then feel free to move out."],
+    "keys": { "не подобається": "not like|hate|unhappy" }
+   }
+  ]
+ },
+ {
+  "id": 1676, "w": "catch", "uk": "встигнути на, сісти на (транспорт)", "lvl": "A2",
+  "forms": "catch|catches|caught|caught|catching",
+  "near": "take|takes|took|taken|get on|got on|make it|made it|board*",
+  "tasks": [
+   {
+    "sit": "Ти біжиш на зупинку й бачиш, що автобус ще не поїхав.",
+    "say": "Я встиг на автобус в останню секунду.",
+    "ans": ["I caught the bus at the last second.", "I caught the bus just in time.", "Phew, I just caught the bus!"],
+    "keys": { "автобус": "bus", "в останню секунду": "last second|last minute|just in time|just" }
+   },
+   {
+    "sit": "Новий колега питає, як ти добираєшся на роботу.",
+    "say": "Я сідаю на потяг о сьомій.",
+    "ans": ["I catch the train at seven.", "I catch the seven o’clock train.", "I usually catch the 7 a.m. train."],
+    "keys": { "потяг": "train", "о сьомій": "seven|7*" }
+   },
+   {
+    "sit": "Ви з друзями засиділися в барі, а метро скоро закривається.",
+    "say": "Мені треба встигнути на останній поїзд метро.",
+    "ans": ["I need to catch the last metro.", "I have to catch the last train.", "Sorry, I’ve got to catch the last metro."],
+    "keys": { "останній": "last", "метро": "metro|subway|underground|tube|train" }
+   }
+  ]
+ },
+ {
+  "id": 1677, "w": "miss", "uk": "пропустити, запізнитися на (транспорт)", "lvl": "A2",
+  "forms": "miss|misses|missed|missed|missing",
+  "near": "too late|did not catch|not make it|did not make it",
+  "tasks": [
+   {
+    "sit": "Ти приїхав в аеропорт, коли посадку вже закрили.",
+    "say": "Я запізнився на рейс!",
+    "ans": ["I missed my flight!", "I’ve missed my flight!", "Oh no, I missed the flight!"],
+    "keys": { "рейс": "flight|plane" }
+   },
+   {
+    "sit": "Ти задрімав у метро й проїхав потрібну станцію. Пишеш другові, що запізнишся.",
+    "say": "Я пропустив свою зупинку.",
+    "ans": ["I missed my stop.", "I’ve missed my station.", "Oh no, I fell asleep and missed my stop!"],
+    "keys": { "зупинка": "stop|station" }
+   },
+   {
+    "sit": "Мама пропонує тобі ще чаю, а твій потяг відходить за двадцять хвилин.",
+    "say": "Мені треба йти, інакше я не встигну на потяг.",
+    "ans": ["I have to go, or I’ll miss my train.", "I need to leave now or I’ll miss the train.", "I’ve got to run, or I’m going to miss my train!"],
+    "keys": { "потяг": "train", "треба йти": "go|leave|run" }
+   }
+  ]
+ },
+ {
+  "id": 1678, "w": "transfer", "uk": "пересідати (на інший транспорт)", "lvl": "B2",
+  "forms": "transfer|transfers|transferred|transferred|transferring",
+  "near": "change|changes|changed|changing|switch*",
+  "tasks": [
+   {
+    "sit": "Турист у метро питає тебе, як доїхати до вокзалу.",
+    "say": "Пересядьте на зелену лінію на наступній станції.",
+    "ans": ["Transfer to the green line at the next station.", "At the next station, transfer to the green line.", "You’ll need to transfer to the green line at the next stop."],
+    "keys": { "зелена лінія": "green", "наступна станція": "next" }
+   },
+   {
+    "sit": "Ти летиш до Торонто з пересадкою, і колега питає про маршрут.",
+    "say": "Я пересідаю у Франкфурті.",
+    "ans": ["I transfer in Frankfurt.", "I’m transferring in Frankfurt.", "I have to transfer in Frankfurt."],
+    "keys": { "Франкфурт": "frankfurt" }
+   },
+   {
+    "sit": "Сусідка скаржиться, що дорога на роботу забирає багато часу. Ти розумієш її.",
+    "say": "Мені теж доводиться двічі пересідати, щоб дістатися до офісу.",
+    "ans": ["I also have to transfer twice to get to the office.", "I need to transfer twice on my way to work too.", "Same here — I have to transfer twice to get to work."],
+    "keys": { "двічі": "twice|two times", "офіс": "office|work" }
+   }
+  ]
+ },
+ {
+  "id": 1679, "w": "hop on", "uk": "застрибнути, сісти (на транспорт)", "lvl": "B2",
+  "forms": "hop|hops|hopped|hopped|hopping",
+  "tail": "on/onto",
+  "near": "get on|got on|jump on|jumped on|board*|take|took",
+  "tasks": [
+   {
+    "sit": "Друзі кличуть тебе на вихідні до Праги, а ти в Берліні, це недалеко.",
+    "say": "Я просто застрибну в потяг і приїду.",
+    "ans": ["I’ll just hop on a train and come over.", "I’ll hop on a train and be there.", "I can just hop on a train and join you!"],
+    "keys": { "потяг": "train" }
+   },
+   {
+    "sit": "Колега дивується, як ти так швидко доїхав до офісу в годину пік.",
+    "say": "Я просто сів на міський велосипед.",
+    "ans": ["I just hopped on a city bike.", "I hopped on a rental bike.", "I just hopped on one of those city bikes."],
+    "keys": { "велосипед": "bike*|bicycle*|scooter*" }
+   },
+   {
+    "sit": "Подруга знайшла дуже дешевий квиток до Рима на завтра, але вагається.",
+    "say": "Я б на твоєму місці просто сіла в літак і полетіла.",
+    "ans": ["If I were you, I’d just hop on the plane.", "I’d just hop on that plane if I were you.", "Honestly, I’d hop on a plane and go!"],
+    "keys": { "літак": "plane|flight" }
+   }
+  ]
+ },
+ {
+  "id": 1680, "w": "hop off", "uk": "вискочити (з транспорту)", "lvl": "B2",
+  "forms": "hop|hops|hopped|hopped|hopping",
+  "tail": "off",
+  "near": "get off|got off|get out|got out|jump off|jumped off",
+  "tasks": [
+   {
+    "sit": "Ви з другом катаєтеся туристичним автобусом по Лондону.",
+    "say": "Давай вискочимо біля музею.",
+    "ans": ["Let’s hop off at the museum.", "Let’s hop off near the museum.", "Let’s hop off by the museum and look around."],
+    "keys": { "музей": "museum" }
+   },
+   {
+    "sit": "Автобус стоїть у заторі, а до твого офісу лише один квартал.",
+    "say": "Я вискочу тут і дійду пішки.",
+    "ans": ["I’ll hop off here and walk.", "I’m going to hop off here and walk the rest.", "I’ll just hop off here and walk — it’s faster."],
+    "keys": { "пішки": "walk*|on foot", "тут": "here" }
+   },
+   {
+    "sit": "Ти пояснюєш гостеві, як доїхати до тебе трамваєм.",
+    "say": "Вискакуй на третій зупинці.",
+    "ans": ["Hop off at the third stop.", "Hop off at the third stop and I’ll meet you.", "Just hop off at stop number three."],
+    "keys": { "третя": "third|3*|three", "зупинка": "stop" }
+   }
+  ]
+ },
+ {
+  "id": 1681, "w": "tie", "uk": "завʼязувати, привʼязувати", "lvl": "A2",
+  "forms": "tie|ties|tied|tied|tying",
+  "near": "knot*|lace up|fasten*|do up",
+  "tasks": [
+   {
+    "sit": "Маленький син сидить на сходах, а шнурки в нього розвʼязані.",
+    "say": "Давай я завʼяжу тобі шнурки.",
+    "ans": ["Let me tie your shoelaces.", "Let me tie your laces for you.", "Come here, I’ll tie your shoes."],
+    "keys": { "шнурки": "lace*|shoelace*|shoe*" }
+   },
+   {
+    "sit": "Ви з другом на рибалці й причалили човен до пірсу.",
+    "say": "Привʼяжи човен до стовпа.",
+    "ans": ["Tie the boat to the post.", "Tie the boat up to that post.", "Can you tie the boat to the post?"],
+    "keys": { "човен": "boat", "стовп": "post|pole|pier|dock" }
+   },
+   {
+    "sit": "Перед тренуванням у спортзалі подруга кличе тебе, а ти ще не готова.",
+    "say": "Я завʼязую волосся, зачекай секунду.",
+    "ans": ["I’m tying my hair up, wait a second.", "I’m tying back my hair — one second.", "Hang on, I’m just tying my hair up."],
+    "keys": { "волосся": "hair" }
+   }
+  ]
+ },
+ {
+  "id": 1682, "w": "outrun", "uk": "обігнати (на бігу), утекти (бігом)", "lvl": "C1",
+  "forms": "outrun|outruns|outran|outrun|outrunning",
+  "near": "overtak*|overtook|pass|passed|beat|beaten|faster",
+  "tasks": [
+   {
+    "sit": "На шкільних змаганнях твій син прибіг першим, і ти розповідаєш про це колегам.",
+    "say": "Він обігнав усіх старших хлопців.",
+    "ans": ["He outran all the older boys.", "He outran every boy from the older class.", "He outran all the older kids!"],
+    "keys": { "старші": "older|senior", "усіх": "all|every*" }
+   },
+   {
+    "sit": "Під час ранкової пробіжки за тобою щоразу женеться пес сусіда.",
+    "say": "Я ніяк не можу обігнати цього пса.",
+    "ans": ["I just can’t outrun that dog.", "I can never outrun this dog.", "There’s no way I can outrun that dog."],
+    "keys": { "пес": "dog|pup*", "не можу": "not|never|no way" }
+   },
+   {
+    "sit": "Ти дивишся футбол з друзями й коментуєш голевий момент.",
+    "say": "Нападник обігнав двох захисників і забив.",
+    "ans": ["The striker outran two defenders and scored.", "The forward outran two defenders and scored.", "He outran two defenders and scored!"],
+    "keys": { "захисники": "defender*|two", "забив": "scor*|goal" }
+   }
+  ]
+ },
+ {
+  "id": 1683, "w": "outplay", "uk": "переграти", "lvl": "C1",
+  "forms": "outplay|outplays|outplayed|outplayed|outplaying",
+  "near": "beat|beaten|outclass*|outperform*|dominat*|outsmart*",
+  "tasks": [
+   {
+    "sit": "Ти тренер аматорської футбольної команди. Після поразки журналіст місцевої газети питає, що сталося.",
+    "say": "Чесно кажучи, вони нас переграли.",
+    "ans": ["Honestly, they outplayed us.", "To be honest, we were outplayed.", "Honestly, they just outplayed us today."],
+    "keys": { "чесно": "honest*|frank*|truth" }
+   },
+   {
+    "sit": "Ти граєш онлайн у шахи з незнайомцем і програєш за пʼятнадцять ходів.",
+    "say": "Він мене повністю переграв.",
+    "ans": ["He completely outplayed me.", "He totally outplayed me.", "I got completely outplayed."],
+    "keys": { "повністю": "completely|totally|fully|entirely" }
+   },
+   {
+    "sit": "Твоя молодша сестра вперше виграла сет у свого тренера з тенісу.",
+    "say": "Вона переграла свого тренера!",
+    "ans": ["She outplayed her coach!", "She outplayed her own coach!", "Can you believe she outplayed her coach?"],
+    "keys": { "тренер": "coach*|trainer*|instructor*" }
+   }
+  ]
+ },
+ {
+  "id": 1684, "w": "knock down", "uk": "збити з ніг", "lvl": "B2",
+  "forms": "knock|knocks|knocked|knocked|knocking",
+  "tail": "down",
+  "near": "push over|pushed over|floor|floored|topple*|flatten*",
+  "tasks": [
+   {
+    "sit": "Ви з батьком дивитеся бій за титул чемпіона з боксу.",
+    "say": "Він двічі збив суперника з ніг у першому раунді.",
+    "ans": ["He knocked his opponent down twice in the first round.", "He knocked down his opponent twice in round one.", "He knocked the guy down twice in the first round!"],
+    "keys": { "двічі": "twice|two times", "перший раунд": "first|round one|1st" }
+   },
+   {
+    "sit": "Величезний сусідський пес радісно стрибнув на тебе в парку.",
+    "say": "Він мало не збив мене з ніг!",
+    "ans": ["He almost knocked me down!", "He nearly knocked me down!", "That dog almost knocked me down!"],
+    "keys": { "мало не": "almost|nearly" }
+   },
+   {
+    "sit": "Ти з дитиною на морі, а сьогодні великі хвилі.",
+    "say": "Хвиля може збити тебе з ніг, тримай мене за руку.",
+    "ans": ["A wave could knock you down, so hold my hand.", "The waves can knock you down, so hold my hand.", "Careful, a wave might knock you down! Hold my hand."],
+    "keys": { "хвиля": "wave*", "рука": "hand" }
+   }
+  ]
+ }
+]

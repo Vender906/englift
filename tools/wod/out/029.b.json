@@ -1,0 +1,629 @@
+[
+ {
+  "id": 1602, "w": "evaporate", "uk": "випаровуватися", "lvl": "C1",
+  "forms": "evaporate|evaporates|evaporated|evaporated|evaporating",
+  "near": "dry up|dried up|dries up|disappear*|vanish*|boil away|boiled away|boil off|boiled off",
+  "tasks": [
+   {
+    "sit": "Ви в поході, стоїть страшна спека. Друг лишив для собаки миску з водою просто на сонці.",
+    "say": "На такій спеці вода випарується за годину.",
+    "ans": ["In this heat, the water will evaporate in an hour.", "The water will evaporate within an hour in this heat.", "In this heat it’ll all evaporate in an hour."],
+    "keys": { "спека": "heat|hot|sun*", "година": "hour" }
+   },
+   {
+    "sit": "Ти готуєш соус і пояснюєш другові, чому його треба ще довго варити.",
+    "say": "Треба, щоб більша частина рідини випарувалася.",
+    "ans": ["Most of the liquid needs to evaporate.", "We need most of the liquid to evaporate.", "We’ve got to let most of the liquid evaporate."],
+    "keys": { "рідина": "liquid|water|juice|sauce", "більша частина": "most|majority|much" }
+   },
+   {
+    "sit": "Молодший брат питає, куди зникають калюжі після дощу.",
+    "say": "Вода випаровується і стає парою.",
+    "ans": ["The water evaporates and turns into vapor.", "Water evaporates and becomes steam.", "The water just evaporates — it turns into vapour."],
+    "keys": { "вода": "water|it", "пара": "vapor*|vapour*|steam|gas|air|cloud*" }
+   }
+  ]
+ },
+ {
+  "id": 1603, "w": "freeze", "uk": "заморожувати", "lvl": "B1",
+  "forms": "freeze|freezes|froze|frozen|freezing",
+  "near": "chill*|refrigerat*|put in the freezer|put it in the freezer|keep cold|store*",
+  "tasks": [
+   {
+    "sit": "Ти наварив величезну каструлю борщу, а живеш сам.",
+    "say": "Половину я заморожу на наступний тиждень.",
+    "ans": ["I’ll freeze half for next week.", "I’m going to freeze half of it for next week.", "I’ll just freeze half of it for next week."],
+    "keys": { "половина": "half|some|rest", "тиждень": "week" }
+   },
+   {
+    "sit": "Ти лаборант. Колега питає, що робити зі зразками крові після аналізу в п’ятницю.",
+    "say": "Зразки треба заморозити до понеділка.",
+    "ans": ["The samples need to be frozen until Monday.", "We have to freeze the samples until Monday.", "Freeze the samples and keep them till Monday."],
+    "keys": { "зразки": "sample*|specimen*|blood", "понеділок": "monday" }
+   },
+   {
+    "sit": "Ти повернувся з риболовлі з цілим відром риби.",
+    "say": "Частину риби я заморожу на зиму.",
+    "ans": ["I’ll freeze some of the fish for the winter.", "I’m going to freeze part of the fish for winter.", "I’ll freeze some of it for the winter."],
+    "keys": { "частину": "some|part|half|rest", "зима": "winter" }
+   }
+  ]
+ },
+ {
+  "id": 1604, "w": "heat up", "uk": "нагрівати(ся)", "lvl": "A2",
+  "forms": "heat|heats|heated|heated|heating",
+  "tail": "up",
+  "near": "warm*|boil*|preheat*",
+  "tasks": [
+   {
+    "sit": "На практичному занятті з хімії ти працюєш у парі з одногрупником.",
+    "say": "Тепер нагрій розчин до шістдесяти градусів.",
+    "ans": ["Now heat up the solution to sixty degrees.", "Now heat the solution up to sixty degrees.", "Okay, now heat up the solution to 60 degrees."],
+    "keys": { "розчин": "solution|liquid|mixture", "шістдесят": "sixt*|60*" }
+   },
+   {
+    "sit": "Узимку ти приїхав на дачу, а там страшенно холодно. Вмикаєш обігрівач.",
+    "say": "Кімната нагріється хвилин за двадцять.",
+    "ans": ["The room will heat up in about twenty minutes.", "It’ll take about twenty minutes for the room to heat up.", "Give it twenty minutes — the room will heat up."],
+    "keys": { "кімната": "room|house|place|it", "двадцять": "twent*|20*" }
+   },
+   {
+    "sit": "Ти в майстерні показуєш учневі, як гнути металевий прут.",
+    "say": "Спершу треба нагріти прут, інакше він зламається.",
+    "ans": ["First you need to heat up the rod, or it will break.", "Heat the rod up first, otherwise it’ll snap.", "You have to heat up the rod first or it’ll crack."],
+    "keys": { "прут": "rod|bar|metal|it", "зламається": "break*|snap*|crack*|broke" }
+   }
+  ]
+ },
+ {
+  "id": 1605, "w": "research", "uk": "досліджувати", "lvl": "B1",
+  "forms": "research|researches|researched|researched|researching",
+  "near": "stud*|investigat*|look into|looked into|look up|looked up|read up|google*|explor*",
+  "tasks": [
+   {
+    "sit": "Ти плануєш поїздку до Японії й розповідаєш про підготовку колезі.",
+    "say": "Я цілий тиждень досліджував, де краще зупинитися.",
+    "ans": ["I spent a whole week researching where to stay.", "I researched where to stay for a whole week.", "I’ve been researching places to stay all week."],
+    "keys": { "тиждень": "week", "зупинитися": "stay|hotel*|accommodation|sleep" }
+   },
+   {
+    "sit": "Ти пишеш курсову й розповідаєш науковому керівникові про свою тему.",
+    "say": "Я досліджую вплив соцмереж на підлітків.",
+    "ans": ["I’m researching the impact of social media on teenagers.", "I research how social media affects teenagers.", "I’m researching how social media affects teens."],
+    "keys": { "соцмережі": "social media|social network*|instagram|tiktok", "підлітки": "teen*|adolescent*|young people|kids" }
+   },
+   {
+    "sit": "Друг збирається купити перший-ліпший ноутбук, який побачить у магазині.",
+    "say": "Не купуй навмання — спочатку добре все досліди.",
+    "ans": ["Don’t buy one at random — research it properly first.", "Research the options first, then buy.", "Before you buy anything, research it properly."],
+    "keys": { "спочатку": "first|before", "купувати": "buy*|bought|purchas*" }
+   }
+  ]
+ },
+ {
+  "id": 1606, "w": "investigate", "uk": "розслідувати", "lvl": "B2",
+  "forms": "investigate|investigates|investigated|investigated|investigating",
+  "near": "look into|looked into|looking into|examin*|check*|research*|probe*|probing|inquir*",
+  "tasks": [
+   {
+    "sit": "Сусідка питає, чи вже знайшли того, хто обікрав квартиру на третьому поверсі.",
+    "say": "Поліція ще розслідує цю справу.",
+    "ans": ["The police are still investigating the case.", "The police are still investigating it.", "Police are still investigating the burglary."],
+    "keys": { "поліція": "police|cops|detective*", "ще": "still|yet|now" }
+   },
+   {
+    "sit": "Ти працюєш у службі безпеки банку. Клієнт скаржиться на дивне списання з картки.",
+    "say": "Ми розслідуємо цей випадок і відповімо вам протягом трьох днів.",
+    "ans": ["We are investigating this case and will reply within three days.", "We’re investigating the matter and will get back to you within three days.", "We’re investigating it, and we’ll get back to you in three days."],
+    "keys": { "три дні": "three days|3 days|days" }
+   },
+   {
+    "sit": "Ти журналіст. Редактор питає про твою нову тему.",
+    "say": "Я розслідую, куди поділися гроші на ремонт школи.",
+    "ans": ["I’m investigating where the school repair money went.", "I’m investigating what happened to the money for the school renovation.", "I’m investigating where the money for fixing the school went."],
+    "keys": { "гроші": "money|funds|cash|budget", "школа": "school" }
+   }
+  ]
+ },
+ {
+  "id": 1607, "w": "study", "uk": "вивчати (досліджувати)", "lvl": "A1",
+  "forms": "study|studies|studied|studied|studying",
+  "near": "research*|investigat*|examin*|explor*|look at|observ*",
+  "tasks": [
+   {
+    "sit": "Ти працюєш в океанографічному інституті. Нові знайомі питають, чим ти займаєшся.",
+    "say": "Я вивчаю дельфінів.",
+    "ans": ["I study dolphins.", "I’m studying dolphins.", "I study dolphins at the institute."],
+    "keys": { "дельфіни": "dolphin*" }
+   },
+   {
+    "sit": "Дитина питає, що роблять люди в обсерваторії.",
+    "say": "Вони вивчають зорі та планети.",
+    "ans": ["They study stars and planets.", "They study the stars and the planets.", "They’re studying stars and planets there."],
+    "keys": { "зорі": "star*|sky", "планети": "planet*" }
+   },
+   {
+    "sit": "На екскурсії в заповіднику друг питає, хто ці люди з біноклями.",
+    "say": "Це вчені, вони вивчають птахів.",
+    "ans": ["They’re scientists. They study birds.", "Those are scientists who study birds.", "They’re scientists — they’re studying the birds here."],
+    "keys": { "вчені": "scientist*|researcher*|expert*", "птахи": "bird*" }
+   }
+  ]
+ },
+ {
+  "id": 1609, "w": "cite", "uk": "цитувати, посилатися на (джерело)", "lvl": "B2",
+  "forms": "cite|cites|cited|cited|citing",
+  "near": "quot*|referenc*|mention*|refer*|credit*",
+  "tasks": [
+   {
+    "sit": "Одногрупник скопіював абзац зі статті у свою курсову без жодних позначок.",
+    "say": "Ти маєш процитувати джерело, інакше це плагіат.",
+    "ans": ["You have to cite the source, or it’s plagiarism.", "You need to cite the source; otherwise it’s plagiarism.", "You’ve got to cite the source, otherwise that’s plagiarism."],
+    "keys": { "джерело": "source*|article|author", "плагіат": "plagiar*|cheat*|copy*|stealing" }
+   },
+   {
+    "sit": "Ти редактор новин. Автор написав матеріал про медицину без жодного посилання.",
+    "say": "Будь ласка, наведи хоча б два дослідження.",
+    "ans": ["Please cite at least two studies.", "Could you cite at least two studies?", "Please cite at least a couple of studies."],
+    "keys": { "хоча б два": "at least|minimum|two|2|couple", "дослідження": "stud*|research|paper*|source*" }
+   },
+   {
+    "sit": "Ти сперечаєшся в коментарях із людиною, яка наводить дивні цифри.",
+    "say": "Можете назвати джерело цих даних?",
+    "ans": ["Can you cite a source for these numbers?", "Could you cite the source of that data?", "Can you cite where those figures come from?"],
+    "keys": { "дані": "number*|data|figure*|stat*|claim*" }
+   }
+  ]
+ },
+ {
+  "id": 1610, "w": "publish", "uk": "публікувати (статтю, книжку)", "lvl": "B1",
+  "forms": "publish|publishes|published|published|publishing",
+  "near": "print*|post*|releas*|put out|come out|came out",
+  "tasks": [
+   {
+    "sit": "Твоя подруга-біологиня три роки працювала над дослідженням.",
+    "say": "Її статтю нарешті опублікували в серйозному журналі.",
+    "ans": ["Her paper was finally published in a serious journal.", "They finally published her article in a major journal.", "She finally got her paper published in a top journal."],
+    "keys": { "стаття": "paper|article|study|research", "журнал": "journal|magazine" }
+   },
+   {
+    "sit": "Ти журналіст. Головний редактор питає, коли вийде твій матеріал.",
+    "say": "Ми опублікуємо інтерв’ю в понеділок.",
+    "ans": ["We’ll publish the interview on Monday.", "We’re publishing the interview on Monday.", "The interview will be published on Monday."],
+    "keys": { "інтерв’ю": "interview*", "понеділок": "monday" }
+   },
+   {
+    "sit": "Твій дядько двадцять років писав роман.",
+    "say": "Він мріє видати свою книжку.",
+    "ans": ["He dreams of publishing his book.", "His dream is to publish his novel.", "He really wants to get his book published one day."],
+    "keys": { "книжка": "book|novel", "мріє": "dream*|want*|hope*|wish*" }
+   }
+  ]
+ },
+ {
+  "id": 1611, "w": "peer-review", "uk": "рецензувати (наукову статтю)", "lvl": "C1",
+  "forms": "peer-review|peer-reviews|peer-reviewed|peer-reviewed|peer-reviewing",
+  "near": "referee*|evaluat*|assess*|check*|vet|vetted",
+  "tasks": [
+   {
+    "sit": "Ти науковець. Колега питає, чи можна вже цитувати твоє нове дослідження.",
+    "say": "Поки що ні — статтю ще не прорецензували.",
+    "ans": ["Not yet — the paper hasn’t been peer-reviewed yet.", "Not yet, it still needs to be peer-reviewed.", "Not yet. It’s still being peer-reviewed."],
+    "keys": { "ще": "yet|still", "стаття": "paper|article|study|it" }
+   },
+   {
+    "sit": "Редактор наукового журналу просить тебе оцінити статтю, але в тебе завал.",
+    "say": "Цього місяця я не можу рецензувати статтю — надто багато роботи.",
+    "ans": ["I can’t peer-review the article this month — I have too much work.", "I’m unable to peer-review it this month; I have too much work.", "Sorry, I can’t peer-review anything this month, I’m too busy."],
+    "keys": { "цей місяць": "month", "багато роботи": "work|busy|swamped|workload" }
+   },
+   {
+    "sit": "Мама пересилає тобі новину про «чудо-ліки від усіх хвороб».",
+    "say": "Це дослідження ніхто не рецензував.",
+    "ans": ["Nobody has peer-reviewed this study.", "This study hasn’t been peer-reviewed by anyone.", "Mom, this study was never even peer-reviewed."],
+    "keys": { "дослідження": "stud*|research|paper|article", "ніхто": "nobody|no one|anyone|never|not" }
+   }
+  ]
+ },
+ {
+  "id": 1612, "w": "reference", "uk": "посилатися на", "lvl": "B2",
+  "forms": "reference|references|referenced|referenced|referencing",
+  "near": "cit*|mention*|refer to|referred to|refers to|quot*|point to|pointed to",
+  "tasks": [
+   {
+    "sit": "Ти готуєш презентацію для інвесторів і показуєш колезі один зі слайдів.",
+    "say": "На цьому слайді я посилаюся на свіже дослідження Гарварду.",
+    "ans": ["On this slide, I reference a recent Harvard study.", "This slide references a new study from Harvard.", "Here I’m referencing that recent Harvard study."],
+    "keys": { "дослідження": "stud*|research|paper|report", "Гарвард": "harvard" }
+   },
+   {
+    "sit": "Ви з другом дивитеся новий мультфільм, і ти впізнаєш знайому сцену.",
+    "say": "Ця сцена посилається на «Зоряні війни».",
+    "ans": ["This scene references Star Wars.", "That scene is referencing Star Wars.", "Oh, this scene totally references Star Wars!"],
+    "keys": { "Зоряні війни": "star wars", "сцена": "scene|bit|part|moment" }
+   },
+   {
+    "sit": "Викладач повернув твоє есе з приміткою про оформлення.",
+    "say": "Я забув послатися на дві статті, які використовував.",
+    "ans": ["I forgot to reference two articles I used.", "I didn’t reference two of the articles that I used.", "I forgot to reference a couple of articles I’d used."],
+    "keys": { "статті": "article*|paper*|source*|stud*", "дві": "two|2|couple" }
+   }
+  ]
+ },
+ {
+  "id": 1613, "w": "debunk", "uk": "розвінчувати", "lvl": "C1",
+  "forms": "debunk|debunks|debunked|debunked|debunking",
+  "near": "disprov*|refut*|expos*|bust*|prove wrong|proved wrong|proven wrong",
+  "tasks": [
+   {
+    "sit": "Ти ведеш науково-популярний блог. Підписники просять нову тему.",
+    "say": "У наступному відео я розвінчаю п’ять міфів про схуднення.",
+    "ans": ["In the next video, I’ll debunk five weight-loss myths.", "My next video debunks five myths about losing weight.", "Next video, I’m debunking five myths about weight loss."],
+    "keys": { "міфи": "myth*", "схуднення": "weight|diet*|slim*|fat" }
+   },
+   {
+    "sit": "Дядько за святковим столом розповідає, що вежі 5G поширюють віруси.",
+    "say": "Це давно розвінчали.",
+    "ans": ["That was debunked years ago.", "Scientists debunked that a long time ago.", "That’s been debunked a hundred times already."],
+    "keys": { "давно": "ago|long|years|already|times" }
+   },
+   {
+    "sit": "Ти працюєш у фактчекінговій організації. Колега показує вірусне фото.",
+    "say": "Ми розвінчали цей фейк за годину.",
+    "ans": ["We debunked this fake within an hour.", "We debunked that fake story in an hour.", "It took us an hour to debunk that fake."],
+    "keys": { "фейк": "fake*|false|hoax|story|news|photo|lie", "година": "hour" }
+   }
+  ]
+ },
+ {
+  "id": 1614, "w": "measure", "uk": "вимірювати", "lvl": "A2",
+  "forms": "measure|measures|measured|measured|measuring",
+  "near": "check*|size*|calculat*|count*|weigh*",
+  "tasks": [
+   {
+    "sit": "Ти в меблевому магазині обираєш шафу, але не знаєш, чи вона влізе.",
+    "say": "Мені треба виміряти стіну вдома.",
+    "ans": ["I need to measure the wall at home.", "I have to measure the wall at home first.", "I need to go home and measure the wall."],
+    "keys": { "стіна": "wall|space|room", "вдома": "home" }
+   },
+   {
+    "sit": "Ти в ательє, хочеш пошити костюм на весілля брата.",
+    "say": "Спочатку кравець має зняти з мене мірки.",
+    "ans": ["First the tailor needs to measure me.", "The tailor has to measure me first.", "First, the tailor needs to measure me for the suit."],
+    "keys": { "кравець": "tailor", "спочатку": "first|before" }
+   },
+   {
+    "sit": "Ти бігаєш у парку. Друг питає, звідки ти знаєш, скільки пробіг.",
+    "say": "Я вимірюю відстань за допомогою додатка на телефоні.",
+    "ans": ["I measure the distance with an app on my phone.", "I use an app on my phone to measure the distance.", "I just measure the distance with a phone app."],
+    "keys": { "відстань": "distance|how far|kilomet*|km", "додаток": "app*|phone" }
+   }
+  ]
+ },
+ {
+  "id": 1615, "w": "weigh", "uk": "важити / зважувати (на вагах)", "lvl": "B1",
+  "forms": "weigh|weighs|weighed|weighed|weighing",
+  "near": "measure*|put on the scale*|check the weight",
+  "tasks": [
+   {
+    "sit": "Ти на пошті надсилаєш посилку за кордон.",
+    "say": "Скільки важить ця посилка?",
+    "ans": ["How much does this parcel weigh?", "How much does the package weigh?", "Could you tell me how much this parcel weighs?"],
+    "keys": { "посилка": "parcel|package|box", "скільки": "how much|how heavy" }
+   },
+   {
+    "sit": "Ти почав худнути й розповідаєш подрузі про свої звички.",
+    "say": "Я зважуюся щоранку.",
+    "ans": ["I weigh myself every morning.", "Every morning I weigh myself.", "I weigh myself first thing every morning."],
+    "keys": { "щоранку": "morning*", "себе": "myself|me" }
+   },
+   {
+    "sit": "Твоя сестра щойно народила. Ти пишеш батькам радісну новину.",
+    "say": "Малюк важить три з половиною кілограми!",
+    "ans": ["The baby weighs three and a half kilos!", "He weighs three and a half kilograms!", "The little one weighs three and a half kilos!"],
+    "keys": { "кілограми": "kilo*|kg", "три з половиною": "three|3*" }
+   }
+  ]
+ },
+ {
+  "id": 1616, "w": "calculate", "uk": "обчислювати, розраховувати", "lvl": "B1",
+  "forms": "calculate|calculates|calculated|calculated|calculating",
+  "near": "count*|work out|worked out|figure out|figured out|estimat*|comput*|add up|added up",
+  "tasks": [
+   {
+    "sit": "Ви з партнером плануєте ремонт кухні.",
+    "say": "Давай спочатку розрахуємо, скільки це коштуватиме.",
+    "ans": ["Let’s calculate how much it will cost first.", "First, let’s calculate the total cost.", "Let’s calculate how much it’s going to cost before we start."],
+    "keys": { "коштувати": "cost*|price*|money|spend", "спочатку": "first|before" }
+   },
+   {
+    "sit": "Ви їдете машиною до Польщі, і друг хвилюється за бензин.",
+    "say": "Я вже розрахував, скільки нам потрібно пального.",
+    "ans": ["I’ve already calculated how much fuel we need.", "I already calculated how much gas we’ll need.", "Don’t worry, I’ve already calculated the fuel we’ll need."],
+    "keys": { "пальне": "fuel|gas|petrol|diesel", "вже": "already" }
+   },
+   {
+    "sit": "На уроці фізики ти пояснюєш однокласникові задачу.",
+    "say": "Спочатку обчисли швидкість, а потім час.",
+    "ans": ["First calculate the speed, then the time.", "Calculate the speed first and then the time.", "You calculate the speed first, then the time."],
+    "keys": { "швидкість": "speed|velocity", "час": "time" }
+   }
+  ]
+ },
+ {
+  "id": 1617, "w": "count", "uk": "рахувати", "lvl": "A1",
+  "forms": "count|counts|counted|counted|counting",
+  "near": "calculat*|add up|added up|tally",
+  "tasks": [
+   {
+    "sit": "Ти граєш із маленьким племінником у хованки.",
+    "say": "Я рахую до десяти, а ти ховайся!",
+    "ans": ["I’ll count to ten, and you hide!", "I’m counting to ten — go and hide!", "I count to ten and you hide, okay?"],
+    "keys": { "десять": "ten|10", "ховайся": "hide|hiding" }
+   },
+   {
+    "sit": "Ти працюєш касиром у супермаркеті й закінчуєш зміну.",
+    "say": "Мені треба порахувати гроші в касі.",
+    "ans": ["I need to count the money in the till.", "I have to count the cash in the register.", "I need to count the money before I go."],
+    "keys": { "гроші": "money|cash" }
+   },
+   {
+    "sit": "На зборах мешканців будинку голосують за ремонт даху. Ти головуєш.",
+    "say": "Зараз порахуємо голоси.",
+    "ans": ["Now let’s count the votes.", "Let’s count the votes now.", "Okay, now we count the votes."],
+    "keys": { "голоси": "vote*|hands|ballot*" }
+   }
+  ]
+ },
+ {
+  "id": 1618, "w": "estimate", "uk": "оцінювати (на око)", "lvl": "B2",
+  "forms": "estimate|estimates|estimated|estimated|estimating",
+  "near": "guess*|reckon*|judge*|approximat*|calculat*|eyeball*",
+  "tasks": [
+   {
+    "sit": "Ви з другом у горах дивитеся на вершину й думаєте, чи встигнете до темряви.",
+    "say": "На око я б сказав, що до вершини кілометрів п’ять.",
+    "ans": ["I’d estimate it’s about five kilometers to the top.", "I estimate the top is about five kilometres away.", "I’d estimate it’s five kilometers or so to the peak."],
+    "keys": { "вершина": "top|peak|summit", "п’ять": "five|5*" }
+   },
+   {
+    "sit": "Ти волонтер на благодійному забігу. Журналіст питає про кількість учасників.",
+    "say": "Ми оцінюємо, що тут близько десяти тисяч людей.",
+    "ans": ["We estimate there are about ten thousand people here.", "We estimate the crowd at around ten thousand people.", "I’d estimate there are around ten thousand people here."],
+    "keys": { "десять тисяч": "ten thousand|10*", "люди": "people|crowd|runner*|participant*" }
+   },
+   {
+    "sit": "Ти будівельник. Клієнт питає, скільки плитки треба на ванну кімнату.",
+    "say": "На око я б сказав, що треба десь двадцять квадратних метрів.",
+    "ans": ["I’d estimate you need about twenty square meters.", "At a glance, I’d estimate around twenty square metres.", "Just by looking, I’d estimate twenty square meters or so."],
+    "keys": { "двадцять": "twent*|20*", "метри": "meter*|metre*|square" }
+   }
+  ]
+ },
+ {
+  "id": 1619, "w": "time", "uk": "засікати час", "lvl": "B2",
+  "forms": "time|times|timed|timed|timing",
+  "near": "clock*|stopwatch|track*",
+  "tasks": [
+   {
+    "sit": "Ви з другом на стадіоні. Ти хочеш пробігти коло якнайшвидше.",
+    "say": "Засічи, за скільки я пробіжу коло.",
+    "ans": ["Can you time me on this lap?", "Time me running one lap, please.", "Time my lap, okay? Here I go!"],
+    "keys": { "коло": "lap|circuit" }
+   },
+   {
+    "sit": "Ти вариш яйця на сніданок, а кухонного таймера немає.",
+    "say": "Я засічу вісім хвилин на телефоні.",
+    "ans": ["I’ll time eight minutes on my phone.", "I’m timing the eggs on my phone — eight minutes.", "I’ll time them with my phone: eight minutes."],
+    "keys": { "вісім": "eight|8*", "телефон": "phone|mobile" }
+   },
+   {
+    "sit": "Ти репетируєш виступ на конференції, а колега тебе слухає.",
+    "say": "Засічи, скільки триває моя промова.",
+    "ans": ["Please time my speech.", "Can you time how long my talk takes?", "Could you time my presentation for me?"],
+    "keys": { "промова": "speech|talk|presentation" }
+   }
+  ]
+ },
+ {
+  "id": 1620, "w": "convert", "uk": "переводити (одиниці виміру)", "lvl": "B2",
+  "forms": "convert|converts|converted|converted|converting",
+  "near": "change*|turn into|translat*|switch*|calculat*",
+  "tasks": [
+   {
+    "sit": "Ти готуєш за американським рецептом, а там усе в чашках і унціях.",
+    "say": "Мені треба перевести унції в грами.",
+    "ans": ["I need to convert ounces into grams.", "I have to convert the ounces to grams.", "I’ve got to convert all these ounces to grams."],
+    "keys": { "унції": "ounce*|oz", "грами": "gram*|g" }
+   },
+   {
+    "sit": "Ви в США, і прогноз обіцяє вісімдесят градусів. Друг лякається.",
+    "say": "Спокійно, я переведу Фаренгейти в Цельсії.",
+    "ans": ["Relax, I’ll convert Fahrenheit to Celsius.", "Don’t worry, let me convert it from Fahrenheit to Celsius.", "Hang on, I’ll convert that into Celsius."],
+    "keys": { "Цельсій": "celsius|centigrade" }
+   },
+   {
+    "sit": "Британський друг хвалиться, що пробіг шість миль.",
+    "say": "Зачекай, я переведу милі в кілометри.",
+    "ans": ["Wait, let me convert miles to kilometers.", "Hold on, I’ll convert the miles into kilometres.", "Hang on, let me convert that to kilometers."],
+    "keys": { "кілометри": "kilomet*|km" }
+   }
+  ]
+ },
+ {
+  "id": 1621, "w": "round off", "uk": "округлювати", "lvl": "B2",
+  "forms": "round|rounds|rounded|rounded|rounding",
+  "tail": "off",
+  "near": "round up|rounded up|round down|rounded down|approximat*",
+  "tasks": [
+   {
+    "sit": "Учень питає, скільки знаків після коми писати у відповіді.",
+    "say": "Округли до двох знаків після коми.",
+    "ans": ["Round it off to two decimal places.", "Round off the answer to two decimal places.", "Just round it off to two decimals."],
+    "keys": { "два": "two|2", "знаки після коми": "decimal*|place*|digit*" }
+   },
+   {
+    "sit": "Ви з друзями ділите рахунок у ресторані, і кожному виходить по 347 гривень.",
+    "say": "Давай округлимо до трьохсот п’ятдесяти.",
+    "ans": ["Let’s round it off to three hundred and fifty.", "Let’s just round it off to 350.", "Let’s round off to 350 each."],
+    "keys": { "триста п’ятдесят": "fifty|350*" }
+   },
+   {
+    "sit": "Ти готуєш звіт, і керівник просить не писати надто точних цифр.",
+    "say": "Я округлю всі цифри до тисяч.",
+    "ans": ["I’ll round off all the figures to the nearest thousand.", "I’ll round all the numbers off to thousands.", "I’ll just round off the numbers to the nearest thousand."],
+    "keys": { "цифри": "figure*|number*|amount*|sum*", "тисячі": "thousand*|1000" }
+   }
+  ]
+ },
+ {
+  "id": 1622, "w": "discover", "uk": "відкривати (щось нове)", "lvl": "A2",
+  "forms": "discover|discovers|discovered|discovered|discovering",
+  "near": "find|found|finding|finds|invent*|come across|came across",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш дитині про космос.",
+    "say": "Учені відкрили нову планету.",
+    "ans": ["Scientists discovered a new planet.", "Scientists have discovered a new planet.", "Guess what? Scientists discovered a new planet!"],
+    "keys": { "планета": "planet*", "нова": "new" }
+   },
+   {
+    "sit": "Ти повернувся з Португалії й ділишся враженнями з колегами.",
+    "say": "Я відкрив для себе маленьке містечко біля моря.",
+    "ans": ["I discovered a small town by the sea.", "I discovered this little town near the ocean.", "I discovered a tiny town right by the sea."],
+    "keys": { "містечко": "town|village|city|place", "море": "sea|ocean|coast|beach" }
+   },
+   {
+    "sit": "Подруга питає, звідки ти знаєш цей гурт.",
+    "say": "Я відкрив його випадково по радіо.",
+    "ans": ["I discovered them by chance on the radio.", "I discovered this band on the radio by accident.", "I just discovered them randomly on the radio."],
+    "keys": { "радіо": "radio", "випадково": "chance|accident*|random*|luck*" }
+   }
+  ]
+ },
+ {
+  "id": 1624, "w": "uncover", "uk": "розкривати, викривати", "lvl": "C1",
+  "forms": "uncover|uncovers|uncovered|uncovered|uncovering",
+  "near": "reveal*|expos*|find out|found out|discover*|dig up|dug up|bring to light",
+  "tasks": [
+   {
+    "sit": "Ти читаєш журналістське розслідування про міську раду.",
+    "say": "Журналісти розкрили схему розкрадання бюджету.",
+    "ans": ["Journalists uncovered a scheme to steal budget money.", "Reporters uncovered a scheme to embezzle city funds.", "The journalists uncovered a whole scheme for stealing public money."],
+    "keys": { "журналісти": "journalist*|reporter*|press|media", "схема": "scheme|plot|fraud|corruption", "бюджет": "budget|money|fund*" }
+   },
+   {
+    "sit": "Ти досліджуєш свій родовід в архівах.",
+    "say": "Я розкрив сімейну таємницю — у прадіда була друга родина.",
+    "ans": ["I uncovered a family secret: my great-grandfather had a second family.", "I’ve uncovered a family secret — my great-grandpa had another family.", "I uncovered this crazy family secret: my great-grandad had a second family!"],
+    "keys": { "таємниця": "secret*|mystery", "друга родина": "second|another|other" }
+   },
+   {
+    "sit": "Ти внутрішній аудитор. Директор питає про результати перевірки.",
+    "say": "Ми виявили серйозні порушення в бухгалтерії.",
+    "ans": ["We uncovered serious violations in accounting.", "We’ve uncovered some serious problems in the accounts.", "We uncovered some serious issues in accounting."],
+    "keys": { "серйозні": "serious|major|big|significant", "бухгалтерія": "account*|financ*|books|bookkeeping" }
+   }
+  ]
+ },
+ {
+  "id": 1625, "w": "reveal", "uk": "виявляти (результат дослідження)", "lvl": "B2",
+  "forms": "reveal|reveals|revealed|revealed|revealing",
+  "near": "show|showed|shown|shows|indicat*|uncover*|find|found|suggest*|disclos*",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш рідним про результати свого аналізу.",
+    "say": "Аналіз крові виявив нестачу заліза.",
+    "ans": ["The blood test revealed an iron deficiency.", "My blood test revealed that I’m low on iron.", "Turns out the blood test revealed low iron."],
+    "keys": { "аналіз крові": "blood|test*", "залізо": "iron" }
+   },
+   {
+    "sit": "Ти презентуєш керівництву результати опитування клієнтів.",
+    "say": "Опитування виявило, що клієнти хочуть доставку на вихідних.",
+    "ans": ["The survey revealed that customers want weekend delivery.", "Our survey revealed customers want delivery on weekends.", "The survey revealed that people really want weekend delivery."],
+    "keys": { "опитування": "survey*|poll*|research", "доставка": "deliver*|shipping", "вихідні": "weekend*" }
+   },
+   {
+    "sit": "Ти переказуєш колезі статтю про сон.",
+    "say": "Нове дослідження виявило, що підлітки сплять менше семи годин.",
+    "ans": ["A new study revealed that teenagers sleep less than seven hours.", "New research reveals teens get less than seven hours of sleep.", "This new study revealed teens sleep under seven hours a night."],
+    "keys": { "підлітки": "teen*|adolescent*|young", "сім": "seven|7" }
+   }
+  ]
+ },
+ {
+  "id": 1627, "w": "identify", "uk": "визначати, ідентифікувати", "lvl": "B2",
+  "forms": "identify|identifies|identified|identified|identifying",
+  "near": "recogni*|determin*|spot*|pinpoint*|tell|name|figure out",
+  "tasks": [
+   {
+    "sit": "У лісі ви з другом знайшли гриб і не впевнені, чи він їстівний.",
+    "say": "Спочатку треба точно визначити, що це за гриб.",
+    "ans": ["First we need to identify the mushroom.", "We have to identify this mushroom first.", "Let’s identify it properly before we eat it."],
+    "keys": { "гриб": "mushroom*|fungus|it", "спочатку": "first|before" }
+   },
+   {
+    "sit": "Тебе пограбували на вулиці, і поліція показує тобі фото підозрюваних.",
+    "say": "Я зможу впізнати його за татуюванням.",
+    "ans": ["I can identify him by his tattoo.", "I’ll be able to identify him by the tattoo.", "I could identify him from his tattoo."],
+    "keys": { "татуювання": "tattoo*" }
+   },
+   {
+    "sit": "Друг чує в парку незнайомий пташиний спів і питає, що це.",
+    "say": "Цей додаток може визначити птаха за звуком.",
+    "ans": ["This app can identify birds by their song.", "This app can identify a bird from its sound.", "There’s an app that can identify the bird by its call."],
+    "keys": { "додаток": "app*|application|program", "звук": "sound*|song*|call*|voice|sing*" }
+   }
+  ]
+ },
+ {
+  "id": 1628, "w": "classify", "uk": "класифікувати", "lvl": "C1",
+  "forms": "classify|classifies|classified|classified|classifying",
+  "near": "sort*|categori*|group*|organi*|divid*|label*|rank*",
+  "tasks": [
+   {
+    "sit": "Ти впорядковуєш документи в архіві компанії. Колега питає, як ти їх розкладаєш.",
+    "say": "Я класифікую всі договори за роком підписання.",
+    "ans": ["I’m classifying all the contracts by year.", "I classify the contracts by the year they were signed.", "I’m classifying every contract by the year it was signed."],
+    "keys": { "договори": "contract*|agreement*|document*", "рік": "year*" }
+   },
+   {
+    "sit": "На уроці біології однокласник каже, що кит — це риба.",
+    "say": "Кита класифікують як ссавця, а не як рибу.",
+    "ans": ["Whales are classified as mammals, not fish.", "Scientists classify the whale as a mammal, not a fish.", "A whale is classified as a mammal, not a fish."],
+    "keys": { "ссавець": "mammal*", "риба": "fish*" }
+   },
+   {
+    "sit": "Ти розробник і пояснюєш бабусі, куди зникають деякі її листи.",
+    "say": "Програма автоматично класифікує деякі листи як спам.",
+    "ans": ["The program automatically classifies some emails as spam.", "The app classifies certain messages as spam automatically.", "It automatically classifies some emails as spam."],
+    "keys": { "спам": "spam|junk", "листи": "email*|e-mail*|letter*|message*|mail*" }
+   }
+  ]
+ },
+ {
+  "id": 1629, "w": "map", "uk": "картографувати", "lvl": "C1",
+  "forms": "map|maps|mapped|mapped|mapping",
+  "near": "chart*|survey*|plot*|sequenc*|decod*",
+  "tasks": [
+   {
+    "sit": "Ти читаєш науково-популярну книжку про ДНК і ділишся фактом із другом.",
+    "say": "Учені повністю картографували геном людини у 2003 році.",
+    "ans": ["Scientists fully mapped the human genome in 2003.", "The human genome was completely mapped in 2003.", "They finished mapping the human genome back in 2003."],
+    "keys": { "геном": "genome|dna", "2003": "2003|two thousand*" }
+   },
+   {
+    "sit": "Ви з сестрою дивитеся документальний фільм про океан.",
+    "say": "Людство картографувало лише малу частину океанського дна.",
+    "ans": ["We’ve only mapped a small part of the ocean floor.", "Only a small part of the ocean floor has been mapped.", "We’ve mapped just a tiny fraction of the seabed so far."],
+    "keys": { "дно океану": "ocean*|sea*", "мала частина": "small|tiny|fraction|little|part|percent" }
+   },
+   {
+    "sit": "Після повені ти з командою волонтерів запускаєш дрон над селом.",
+    "say": "Ми картографуємо затоплені райони для рятувальників.",
+    "ans": ["We’re mapping the flooded areas for the rescue teams.", "We map the flooded areas so rescuers know where to go.", "We’re mapping all the flooded areas for the rescuers."],
+    "keys": { "затоплені": "flood*|under water|underwater", "рятувальники": "rescue*|emergency|responder*" }
+   }
+  ]
+ }
+]

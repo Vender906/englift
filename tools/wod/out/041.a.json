@@ -1,0 +1,634 @@
+[
+ {
+  "id": 2251, "w": "assemble", "uk": "збирати (з деталей)", "lvl": "B2",
+  "forms": "assemble|assembles|assembled|assembled|assembling",
+  "near": "put together|puts together|put it together|putting together|build|built|building|set up|sets up|setting up",
+  "tasks": [
+   {
+    "sit": "Ти купив нову шафу в магазині меблів, і вона приїхала в коробках. Сусід питає, чи потрібна допомога.",
+    "say": "Дякую, я сам зберу шафу за інструкцією.",
+    "ans": ["Thanks, I’ll assemble the wardrobe myself using the instructions.", "Thanks, but I can assemble the wardrobe on my own with the manual.", "Thanks, I’ll just assemble the wardrobe myself — the instructions look easy."],
+    "keys": { "шафа": "wardrobe*|closet*|cupboard*|cabinet*", "сам": "myself|on my own|alone|by myself" }
+   },
+   {
+    "sit": "На дачі ви з батьком будуєте садовий сарай із готового набору. Він питає, з чого почати.",
+    "say": "Давай спочатку зберемо каркас, а потім дах.",
+    "ans": ["Let’s assemble the frame first and then the roof.", "First we should assemble the frame, then do the roof.", "Let’s assemble the frame first — the roof can wait."],
+    "keys": { "каркас": "frame*|base|structure", "дах": "roof*" }
+   },
+   {
+    "sit": "Ти працюєш на заводі, де збирають велосипеди. Новий знайомий питає, чим ти займаєшся.",
+    "say": "Я збираю велосипеди на заводі.",
+    "ans": ["I assemble bikes at a factory.", "I work at a factory where I assemble bicycles.", "I assemble bikes — at a factory, on the production line."],
+    "keys": { "велосипеди": "bike*|bicycle*|cycle*", "завод": "factory|plant|line|work*" }
+   }
+  ]
+ },
+ {
+  "id": 2252, "w": "lay", "uk": "закладати (фундамент)", "lvl": "B2",
+  "forms": "lay|lays|laid|laid|laying",
+  "near": "pour|poured|pouring|build|built|building|put in|set|install*",
+  "tasks": [
+   {
+    "sit": "Ви з дружиною будуєте будинок за містом. Друг питає, як просуваються справи.",
+    "say": "Минулого тижня ми нарешті заклали фундамент.",
+    "ans": ["We finally laid the foundation last week.", "Last week we finally laid the foundations.", "We finally got the foundation laid last week!"],
+    "keys": { "фундамент": "foundation*|base", "минулого тижня": "last week|week" }
+   },
+   {
+    "sit": "Бригадир на будмайданчику пояснює новачкові, чому роботи так затягнулися.",
+    "say": "Ми не можемо закладати фундамент, поки земля мерзла.",
+    "ans": ["We can’t lay the foundation while the ground is frozen.", "We won’t lay the foundation until the ground thaws.", "We can’t lay the foundation yet — the ground’s still frozen."],
+    "keys": { "фундамент": "foundation*|base", "земля мерзла": "frozen|froze|frost*|thaw*|ice|icy|cold" }
+   },
+   {
+    "sit": "Ти читаєш міські новини й розповідаєш колезі про нову школу у вашому районі.",
+    "say": "Уже заклали фундамент нової школи.",
+    "ans": ["They’ve already laid the foundation for the new school.", "The foundation of the new school has already been laid.", "They’ve already laid the foundations for the new school, apparently."],
+    "keys": { "фундамент": "foundation*|base", "школа": "school*" }
+   }
+  ]
+ },
+ {
+  "id": 2253, "w": "pour concrete", "uk": "заливати бетон", "lvl": "B2",
+  "forms": "pour|pours|poured|poured|pouring",
+  "tail": "concrete",
+  "near": "fill*|lay|laid|laying|cast|casting|concreted|concreting",
+  "tasks": [
+   {
+    "sit": "Сусід питає, чому у вас на подвірʼї ніхто не ходить уже третій день.",
+    "say": "Ми залили бетон під альтанку, і він має висохнути.",
+    "ans": ["We poured concrete for the gazebo, and it needs to dry.", "We’ve poured concrete for the gazebo base, so it has to set first.", "We just poured concrete for the gazebo — it needs a few days to dry."],
+    "keys": { "альтанка": "gazebo*|pergola*|summerhouse*|arbor*|arbour*", "висохнути": "dry|dries|set|harden*|cure*" }
+   },
+   {
+    "sit": "Ти прораб. Замовник питає, чому роботи перенесли на завтра.",
+    "say": "Не можна заливати бетон під дощем.",
+    "ans": ["You can’t pour concrete in the rain.", "We shouldn’t pour concrete when it’s raining.", "We can’t pour concrete in this rain, sorry."],
+    "keys": { "не можна": "not|never|shouldn|can", "дощ": "rain*|wet" }
+   },
+   {
+    "sit": "Ти подивився відео про облаштування гаража й ділишся з братом планом на вихідні.",
+    "say": "У суботу заллю бетон на підлогу в гаражі.",
+    "ans": ["I’m going to pour concrete for the garage floor on Saturday.", "On Saturday I’ll pour concrete on the garage floor.", "I’m pouring concrete for the garage floor this Saturday."],
+    "keys": { "гараж": "garage*", "субота": "saturday*|weekend" }
+   }
+  ]
+ },
+ {
+  "id": 2254, "w": "frame", "uk": "робити каркас", "lvl": "C1",
+  "forms": "frame|frames|framed|framed|framing",
+  "near": "build|built|building|put up|set up|construct*",
+  "tasks": [
+   {
+    "sit": "Ти ділиш велику кімнату на дві й пояснюєш дружині, як це буде.",
+    "say": "Спочатку я зроблю каркас стіни з профілю, а потім обшию гіпсокартоном.",
+    "ans": ["First I’ll frame the wall with metal studs, then cover it with drywall.", "I’m going to frame the wall first and then put up plasterboard.", "I’ll frame the wall first, then drywall it."],
+    "keys": { "стіна": "wall*|partition*", "гіпсокартон": "drywall*|plasterboard*|gypsum*|board*|sheet*" }
+   },
+   {
+    "sit": "Ти працюєш теслею. Колега питає, що ви робили сьогодні на обʼєкті.",
+    "say": "Ми цілий день робили каркас даху.",
+    "ans": ["We spent the whole day framing the roof.", "We were framing the roof all day.", "We framed the roof — took us all day."],
+    "keys": { "дах": "roof*", "цілий день": "all day|whole day|entire day|day" }
+   },
+   {
+    "sit": "Ви з другом будуєте будиночок на дереві для його дітей. Він хоче одразу прибивати дошки.",
+    "say": "Спершу треба зробити каркас, інакше все розвалиться.",
+    "ans": ["We need to frame it first, or it’ll all fall apart.", "First we have to frame the whole thing, otherwise it’ll collapse.", "Let’s frame it first — otherwise the whole thing will fall apart."],
+    "keys": { "спершу": "first", "розвалиться": "fall apart|falls apart|collapse*|fall down|break*" }
+   }
+  ]
+ },
+ {
+  "id": 2255, "w": "brick up", "uk": "замуровувати", "lvl": "C1",
+  "forms": "brick|bricks|bricked|bricked|bricking",
+  "tail": "up",
+  "near": "wall* up|wall* off|seal* up|seal* off|block* up|block* off|close* up",
+  "tasks": [
+   {
+    "sit": "Ви з родиною переплановуєте стару квартиру. Між кухнею і коридором є зайвий дверний отвір.",
+    "say": "Давай замуруємо цей дверний отвір — він нам не потрібен.",
+    "ans": ["Let’s brick up this doorway — we don’t need it.", "We could brick up that doorway, since we never use it.", "Let’s just brick up that doorway, we don’t need it."],
+    "keys": { "дверний отвір": "doorway*|door*|opening*", "не потрібен": "not need|never use|no need|useless|need" }
+   },
+   {
+    "sit": "Екскурсовод у старому замку показує на дивну стіну. Ти пояснюєш другові, що почув.",
+    "say": "Колись тут було вікно, але його замурували.",
+    "ans": ["There used to be a window here, but they bricked it up.", "This was once a window, but it was bricked up.", "There was a window here once — they bricked it up at some point."],
+    "keys": { "вікно": "window*" }
+   },
+   {
+    "sit": "Сантехнік каже, що до труби немає доступу. Ти розповідаєш про це сусідові.",
+    "say": "Попередні власники замурували нішу з трубами.",
+    "ans": ["The previous owners bricked up the niche with the pipes.", "The old owners had bricked up the recess where the pipes are.", "The last owners bricked up the pipe niche, can you believe it?"],
+    "keys": { "попередні власники": "previous|old owner*|last owner*|owner*", "труби": "pipe*" }
+   }
+  ]
+ },
+ {
+  "id": 2256, "w": "cement", "uk": "скріплювати цементом", "lvl": "C1",
+  "forms": "cement|cements|cemented|cemented|cementing",
+  "near": "mortar*|glue*|stick|stuck|fix|fixed|set in concrete",
+  "tasks": [
+   {
+    "sit": "Ти будуєш на дачі невеликий мангал із цегли. Батько питає, чи не краще просто скласти цеглу.",
+    "say": "Ні, цеглу треба скріпити цементом, інакше мангал розвалиться.",
+    "ans": ["No, the bricks need to be cemented together, or the grill will fall apart.", "No, we have to cement the bricks, otherwise the barbecue will collapse.", "No, let’s cement the bricks together — otherwise it’ll fall apart."],
+    "keys": { "цегла": "brick*", "розвалиться": "fall apart|collapse*|fall down|break*" }
+   },
+   {
+    "sit": "Ти ремонтуєш стару огорожу. Сусід помітив, що один стовпчик хитається.",
+    "say": "Я закріплю цей стовпчик цементом у землі.",
+    "ans": ["I’ll cement this post into the ground.", "I’m going to cement the post in the ground.", "I’ll just cement that post in — it won’t move after that."],
+    "keys": { "стовпчик": "post*|pole*|pillar*", "земля": "ground|in|hole|earth|soil" }
+   },
+   {
+    "sit": "Під час реставрації в музеї колега питає, чому розбиту каміну плиту досі не поставили на місце.",
+    "say": "Уламки ще не скріпили цементом.",
+    "ans": ["The pieces haven’t been cemented together yet.", "Nobody has cemented the broken pieces yet.", "They haven’t cemented the pieces back together yet."],
+    "keys": { "уламки": "piece*|fragment*|part*|bit*", "ще не": "not|yet|nobody|no one" }
+   }
+  ]
+ },
+ {
+  "id": 2257, "w": "weld", "uk": "зварювати", "lvl": "C1",
+  "forms": "weld|welds|welded|welded|welding",
+  "near": "solder*|join*|fuse*|attach*",
+  "tasks": [
+   {
+    "sit": "Твій двоюрідний брат працює на суднобудівному заводі. Ти розповідаєш про нього новим знайомим.",
+    "say": "Він зварює металеві конструкції на верфі.",
+    "ans": ["He welds metal structures at a shipyard.", "He works at a shipyard, welding steel structures.", "He welds big metal structures down at the shipyard."],
+    "keys": { "металеві конструкції": "metal*|steel*|structure*|beam*", "верф": "shipyard*|dock*|yard" }
+   },
+   {
+    "sit": "У вас на подвірʼї зламалася металева хвіртка. Ти телефонуєш знайомому майстрові.",
+    "say": "Можете заварити петлю на хвіртці?",
+    "ans": ["Could you weld the hinge on my gate?", "Can you weld the gate hinge back on?", "Any chance you could come and weld the hinge on the gate?"],
+    "keys": { "петля": "hinge*", "хвіртка": "gate*" }
+   },
+   {
+    "sit": "У вас на курсах художньої ковки інструктор питає, що ти хочеш зробити на підсумковий проект.",
+    "say": "Хочу зварити скульптуру зі старих автозапчастин.",
+    "ans": ["I want to weld a sculpture out of old car parts.", "I’d like to weld a sculpture from old car parts.", "I’m thinking of welding a sculpture out of old car parts."],
+    "keys": { "скульптура": "sculpture*|statue*|piece|artwork", "автозапчастини": "car part*|auto part*|part*|scrap" }
+   }
+  ]
+ },
+ {
+  "id": 2258, "w": "pave", "uk": "мостити / асфальтувати", "lvl": "C1",
+  "forms": "pave|paves|paved|paved|paving",
+  "near": "asphalt*|tarmac*|resurface*|surface*|cobble*",
+  "tasks": [
+   {
+    "sit": "Ти роками їздиш на дачу розбитою ґрунтовою дорогою. Нарешті там щось змінилося — розповідаєш другові.",
+    "say": "Нарешті заасфальтували дорогу до нашого села!",
+    "ans": ["They’ve finally paved the road to our village!", "The road to our village has finally been paved!", "Guess what — they finally paved the road to our village!"],
+    "keys": { "дорога": "road*|street*", "село": "village*|countryside|town" }
+   },
+   {
+    "sit": "Ти плануєш облаштувати подвірʼя приватного будинку й обговорюєш це з дружиною.",
+    "say": "Я хочу вимостити доріжку до хвіртки бруківкою.",
+    "ans": ["I want to pave the path to the gate with stones.", "I’d like to pave the path up to the gate with paving stones.", "I’m thinking of paving the path to the gate with cobblestones."],
+    "keys": { "доріжка": "path*|walkway*|driveway*", "бруківка": "stone*|brick*|cobble*|slab*|tile*" }
+   },
+   {
+    "sit": "На зборах мешканців обговорюють, куди витратити гроші з бюджету громади.",
+    "say": "Спершу треба заасфальтувати двір, бо після дощу там болото.",
+    "ans": ["First we need to pave the yard, because it turns to mud after rain.", "The courtyard should be paved first — it’s all mud when it rains.", "We should pave the yard first — it’s a mud bath every time it rains."],
+    "keys": { "двір": "yard*|courtyard*|parking|lot", "болото": "mud*|swamp*|puddle*|dirt*" }
+   }
+  ]
+ },
+ {
+  "id": 2259, "w": "dig a foundation", "uk": "копати котлован (під фундамент)", "lvl": "B2",
+  "forms": "dig|digs|dug|dug|digging",
+  "tail": "foundation*",
+  "near": "excavat*|lay|laid|laying",
+  "tasks": [
+   {
+    "sit": "Ви з тестем будуєте на ділянці лазню. Він хоче найняти екскаватор, а ти пропонуєш заощадити.",
+    "say": "Ми можемо самі викопати котлован під фундамент — лазня ж невелика.",
+    "ans": ["We can dig the foundation ourselves — the sauna is small.", "We could dig the foundation on our own, since the sauna isn’t big.", "Let’s just dig the foundation ourselves, it’s only a small sauna."],
+    "keys": { "самі": "ourselves|on our own|alone|by hand", "лазня": "sauna*|bathhouse*|banya" }
+   },
+   {
+    "sit": "Ти керуєш будівництвом. Замовник телефонує й питає, що зараз відбувається на ділянці.",
+    "say": "Сьогодні почали копати котлован під фундамент.",
+    "ans": ["Today we started to dig the foundation.", "We started digging the foundation this morning.", "We began digging the foundation today — it’s going well."],
+    "keys": { "сьогодні": "today|this morning|this afternoon", "почали": "start*|began|begin*" }
+   },
+   {
+    "sit": "Твій друг-археолог розповідає про знахідку, а ти переказуєш це колегам.",
+    "say": "Робітники копали котлован під фундамент і знайшли давні монети.",
+    "ans": ["Workers were digging a foundation and found old coins.", "While they were digging the foundation, the builders found ancient coins.", "The builders were digging a foundation when they found some old coins!"],
+    "keys": { "монети": "coin*|treasure*|money", "знайшли": "found|discover*|dug up|came across|find*" }
+   }
+  ]
+ },
+ {
+  "id": 2261, "w": "renovate", "uk": "робити (капітальний) ремонт", "lvl": "B2",
+  "forms": "renovate|renovates|renovated|renovated|renovating",
+  "near": "redo|redid|redone|remodel*|refurbish*|do up|did up|done up|doing up|redecorat*|repair*|fix up|fixed up",
+  "tasks": [
+   {
+    "sit": "Колега питає, чому ти вже місяць живеш у батьків.",
+    "say": "Ми робимо ремонт у квартирі, там зараз неможливо жити.",
+    "ans": ["We’re renovating our flat, so we can’t live there right now.", "Our apartment is being renovated, and it’s impossible to live there.", "We’re renovating the flat — it’s totally unlivable at the moment."],
+    "keys": { "квартира": "flat*|apartment*|place|home|house", "неможливо жити": "can not live|impossible|unlivable|live" }
+   },
+   {
+    "sit": "Ти знімаєш житло через сайт і пишеш відгук про нову квартиру.",
+    "say": "Квартиру нещодавно відремонтували, усе нове.",
+    "ans": ["The apartment was recently renovated, and everything is new.", "They renovated the apartment recently, so it’s all brand new.", "It’s been recently renovated — everything’s brand new."],
+    "keys": { "нещодавно": "recent*|just|lately|last year", "нове": "new|brand new|modern" }
+   },
+   {
+    "sit": "Ти працюєш у готелі. Гість питає, чому закритий ресторан на першому поверсі.",
+    "say": "Ресторан закрито, бо ми його ремонтуємо до весни.",
+    "ans": ["The restaurant is closed because we’re renovating it until spring.", "We’re renovating the restaurant, so it’s closed until spring.", "Sorry, we’re renovating the restaurant — it reopens in the spring."],
+    "keys": { "ресторан": "restaurant*", "весна": "spring|march|april|may" }
+   }
+  ]
+ },
+ {
+  "id": 2262, "w": "remodel", "uk": "перепланувати / перебудувати", "lvl": "C1",
+  "forms": "remodel|remodels|remodeled/remodelled|remodeled/remodelled|remodeling/remodelling",
+  "near": "renovat*|redesign*|redo|redid|redone|rebuild*|rebuilt|refurbish*|do up|did up|redecorat*",
+  "tasks": [
+   {
+    "sit": "Вам тісно в маленькій ванній. Ти ділишся з дружиною ідеєю.",
+    "say": "Давай переплануємо ванну й приберемо ванну під душову кабіну.",
+    "ans": ["Let’s remodel the bathroom and replace the tub with a walk-in shower.", "We could remodel the bathroom and put in a shower instead of the tub.", "Why don’t we remodel the bathroom — get rid of the tub and put in a shower?"],
+    "keys": { "ванна кімната": "bathroom*", "душ": "shower*" }
+   },
+   {
+    "sit": "Ти дизайнер інтерʼєрів. Клієнт питає про твій досвід.",
+    "say": "Я перепланував десятки кухонь у старих будинках.",
+    "ans": ["I’ve remodeled dozens of kitchens in old houses.", "I have remodelled dozens of kitchens in older homes.", "I’ve remodeled dozens of kitchens, mostly in old houses."],
+    "keys": { "десятки": "dozen*|many|lots|hundred*|fifty|forty|thirty", "кухні": "kitchen*" }
+   },
+   {
+    "sit": "Ти заходиш у знайоме кафе, яке довго було закрите, і не впізнаєш його.",
+    "say": "Вони повністю перебудували приміщення — тепер тут відкрита кухня.",
+    "ans": ["They completely remodeled the place — now there’s an open kitchen.", "The whole place has been remodeled, and now it has an open kitchen.", "Wow, they totally remodeled the place — there’s an open kitchen now!"],
+    "keys": { "повністю": "complete*|total*|whole|entire*|fully", "відкрита кухня": "open kitchen|kitchen" }
+   }
+  ]
+ },
+ {
+  "id": 2263, "w": "redecorate", "uk": "робити косметичний ремонт, переоформлювати", "lvl": "B2",
+  "forms": "redecorate|redecorates|redecorated|redecorated|redecorating",
+  "near": "renovat*|remodel*|refurbish*|do up|did up|done up|doing up|repaint*|freshen* up",
+  "tasks": [
+   {
+    "sit": "Донька-підліток скаржиться, що її кімната досі виглядає як дитяча.",
+    "say": "Давай цього літа переоформимо твою кімнату — нові шпалери, нові штори.",
+    "ans": ["Let’s redecorate your room this summer — new wallpaper, new curtains.", "We could redecorate your room this summer with new wallpaper and curtains.", "How about we redecorate your room this summer? New wallpaper, new curtains, the lot."],
+    "keys": { "кімната": "room*|bedroom*", "шпалери": "wallpaper*|curtain*|paint*" }
+   },
+   {
+    "sit": "Ти працюєш адміністратором в офісі. Керівник питає, як зробити приміщення приємнішим без великих витрат.",
+    "say": "Можна просто зробити косметичний ремонт у переговорній, без перепланування.",
+    "ans": ["We could just redecorate the meeting room, without any major work.", "Let’s just redecorate the conference room — no structural changes.", "We could simply redecorate the meeting room, nothing major."],
+    "keys": { "переговорна": "meeting room*|conference room*|boardroom*|room" }
+   },
+   {
+    "sit": "Подруга показує фото своєї вітальні. Ти помічаєш, що все виглядає інакше.",
+    "say": "О, ти зробила косметичний ремонт у вітальні? Так затишно!",
+    "ans": ["Oh, you’ve redecorated the living room? It’s so cozy!", "Did you redecorate your living room? It looks really cosy!", "Oh wow, you redecorated the living room! It’s so cozy now."],
+    "keys": { "вітальня": "living room*|lounge*|sitting room*", "затишно": "cozy|cosy|nice|warm|comfortable|comfy" }
+   }
+  ]
+ },
+ {
+  "id": 2264, "w": "paint", "uk": "фарбувати (стіни)", "lvl": "A2",
+  "forms": "paint|paints|painted|painted|painting",
+  "near": "color*|colour*|decorat*|whitewash*|stain*",
+  "tasks": [
+   {
+    "sit": "Мама питає, чим ти займався у вихідні.",
+    "say": "Я пофарбував стіни в спальні.",
+    "ans": ["I painted the walls in the bedroom.", "I painted my bedroom walls.", "I spent the weekend painting the bedroom walls."],
+    "keys": { "стіни": "wall*", "спальня": "bedroom*|room" }
+   },
+   {
+    "sit": "Ти заходиш у підʼїзд і бачиш табличку. Попереджаєш сусідку з дитиною.",
+    "say": "Обережно, тут щойно пофарбували двері!",
+    "ans": ["Careful, they just painted the door!", "Be careful, the door has just been painted!", "Watch out, they’ve just painted the door!"],
+    "keys": { "двері": "door*", "щойно": "just|fresh*|wet|now" }
+   },
+   {
+    "sit": "Ви з другом обираєте колір для його нового кафе.",
+    "say": "Давай пофарбуємо стіни в зелений.",
+    "ans": ["Let’s paint the walls green.", "We can paint the walls green.", "Why don’t we paint the walls green?"],
+    "keys": { "стіни": "wall*", "зелений": "green" }
+   }
+  ]
+ },
+ {
+  "id": 2265, "w": "wallpaper", "uk": "клеїти шпалери", "lvl": "C1",
+  "forms": "wallpaper|wallpapers|wallpapered|wallpapered|wallpapering",
+  "near": "paper*|put up wallpaper|hang wallpaper|hung wallpaper|decorat*",
+  "tasks": [
+   {
+    "sit": "Сестра питає, чому ти не відповідав на дзвінки в суботу.",
+    "say": "Я весь день клеїв шпалери в коридорі.",
+    "ans": ["I was wallpapering the hallway all day.", "I spent the whole day wallpapering the hall.", "Sorry, I was wallpapering the hallway all day long."],
+    "keys": { "коридор": "hall*|corridor*|entrance", "весь день": "all day|whole day|day long|day" }
+   },
+   {
+    "sit": "Ти щойно купив стару квартиру. Друг радить одразу поклеїти шпалери.",
+    "say": "Ні, спершу вирівняю стіни, а вже потім поклею шпалери.",
+    "ans": ["No, I’ll level the walls first and wallpaper them after that.", "No, first I need to smooth the walls, then I’ll wallpaper.", "No way — I’ll fix the walls first and wallpaper later."],
+    "keys": { "стіни": "wall*", "спершу": "first|before|then|later|after" }
+   },
+   {
+    "sit": "Ти в квартирі, яку хочеш зняти. Рієлтор показує дитячу кімнату.",
+    "say": "Тут нещодавно поклеїли нові шпалери?",
+    "ans": ["Was this room recently wallpapered?", "Have you recently wallpapered this room?", "Did you just wallpaper this room? It looks new."],
+    "keys": { "нещодавно": "recent*|just|new|lately" }
+   }
+  ]
+ },
+ {
+  "id": 2266, "w": "tile", "uk": "класти плитку", "lvl": "C1",
+  "forms": "tile|tiles|tiled|tiled|tiling",
+  "near": "lay tile*|laid tile*|laying tile*|put tile*|put down tile*|cover* with tile*",
+  "tasks": [
+   {
+    "sit": "Ти робиш ремонт у ванній і обговорюєш бюджет із дружиною.",
+    "say": "Давай покладемо плитку тільки на підлогу, а стіни пофарбуємо.",
+    "ans": ["Let’s only tile the floor and paint the walls.", "We could tile just the floor and paint the walls instead.", "How about we tile the floor and just paint the walls?"],
+    "keys": { "підлога": "floor*", "стіни пофарбуємо": "paint*|wall*" }
+   },
+   {
+    "sit": "Ти плиточник. Замовник питає, скільки часу займе робота на кухні.",
+    "say": "Я покладу плитку над робочою поверхнею за два дні.",
+    "ans": ["I’ll tile the backsplash in two days.", "I can tile the wall above the counter in two days.", "I’ll have the backsplash tiled in a couple of days."],
+    "keys": { "над робочою поверхнею": "backsplash*|splashback*|counter*|worktop*|wall*", "два дні": "two days|2 days|couple of days|days" }
+   }
+  ,
+   {
+    "sit": "Ти оглядаєш будинок, який продається, і ділишся враженнями з братом.",
+    "say": "Вони поклали плитку навіть на терасі — виглядає класно.",
+    "ans": ["They even tiled the terrace — it looks great.", "Even the terrace has been tiled, and it looks amazing.", "They’ve even tiled the terrace, it looks awesome."],
+    "keys": { "тераса": "terrace*|patio*|deck*|porch*", "класно": "great|amazing|awesome|nice|good|cool|lovely|beautiful" }
+   }
+  ]
+ },
+ {
+  "id": 2267, "w": "grout", "uk": "затирати шви (між плиткою)", "lvl": "C1",
+  "forms": "grout|grouts|grouted|grouted|grouting",
+  "near": "fill the joints|fill the gaps|fill in the gaps|seal*|caulk*",
+  "tasks": [
+   {
+    "sit": "Майстер поклав плитку у ванній і збирається йти. Ти питаєш, чи все готово.",
+    "say": "А коли ви затиратимете шви?",
+    "ans": ["When are you going to grout the tiles?", "When will you grout the joints?", "So when are you coming back to grout the tiles?"],
+    "keys": { "коли": "when|what time|what day" }
+   },
+   {
+    "sit": "Ти вперше самостійно клав плитку на кухні й радишся з досвідченим другом.",
+    "say": "Скільки треба чекати, перш ніж затирати шви?",
+    "ans": ["How long should I wait before I grout?", "How long do I have to wait before grouting the tiles?", "How long should I leave it before I grout?"],
+    "keys": { "скільки чекати": "how long|wait*|leave|hours|days" }
+   },
+   {
+    "sit": "Ти ведеш блог про ремонт своїми руками й даєш підписникам пораду.",
+    "say": "Затирайте шви невеликими ділянками, бо суміш швидко висихає.",
+    "ans": ["Grout small areas at a time, because the mix dries quickly.", "Always grout a small section at a time — the grout dries fast.", "Grout in small sections, since the stuff dries really quickly."],
+    "keys": { "невеликими ділянками": "small|little|section*|area*|bit", "висихає": "dr*|set*|harden*" }
+   }
+  ]
+ },
+ {
+  "id": 2268, "w": "plaster", "uk": "штукатурити", "lvl": "C1",
+  "forms": "plaster|plasters|plastered|plastered|plastering",
+  "near": "render*|skim*|level*|smooth*|coat*",
+  "tasks": [
+   {
+    "sit": "Бригадир питає, чи можна вже фарбувати стіни в новому будинку.",
+    "say": "Ні, стіни ще треба поштукатурити.",
+    "ans": ["No, the walls still need to be plastered.", "No, we still have to plaster the walls.", "Not yet — we still need to plaster the walls."],
+    "keys": { "стіни": "wall*", "ще": "still|yet|first" }
+   },
+   {
+    "sit": "Ти купив старий будинок у селі й розповідаєш колезі, як минула відпустка.",
+    "say": "Цілу відпустку я штукатурив стіни в старій хаті.",
+    "ans": ["I spent my whole vacation plastering walls in the old house.", "I plastered walls in the old house all through my holiday.", "My whole holiday went on plastering walls in that old house."],
+    "keys": { "відпустка": "vacation*|holiday*|time off|leave", "хата": "house*|cottage*|home" }
+   }
+  ,
+   {
+    "sit": "Після заміни проводки в стіні залишилися борозни. Ти пояснюєш дружині, що буде далі.",
+    "say": "Електрик сказав, що борозни поштукатурять завтра.",
+    "ans": ["The electrician said they’ll plaster the channels tomorrow.", "According to the electrician, the grooves will be plastered tomorrow.", "The electrician says they’re plastering over the grooves tomorrow."],
+    "keys": { "борозни": "channel*|groove*|gap*|trench*|hole*|crack*", "завтра": "tomorrow" }
+   }
+  ]
+ },
+ {
+  "id": 2269, "w": "sand", "uk": "шліфувати", "lvl": "B2",
+  "forms": "sand|sands|sanded|sanded|sanding",
+  "near": "polish*|smooth*|rub* down|file|filed|filing|grind*",
+  "tasks": [
+   {
+    "sit": "Ти знайшов на смітнику старий дерев'яний стіл і хочеш його оновити. Дружина скептично дивиться на нього.",
+    "say": "Я його відшліфую й покрию олією — буде як новий.",
+    "ans": ["I’ll sand it and oil it — it’ll look like new.", "I’m going to sand it down and cover it with oil, and it’ll be as good as new.", "Once I sand it and oil it, it’ll be like new, trust me."],
+    "keys": { "олія": "oil*|varnish*|wax*|stain*", "як новий": "new" }
+   },
+   {
+    "sit": "Сусід скаржиться на гучний звук з твоєї квартири в неділю.",
+    "say": "Вибачте, я шліфую паркет, закінчу за годину.",
+    "ans": ["Sorry, I’m sanding the floor — I’ll be done in an hour.", "I’m sorry, I’m sanding the parquet and I’ll finish in an hour.", "Sorry about the noise, I’m sanding the floors — an hour, tops."],
+    "keys": { "паркет": "floor*|parquet*", "за годину": "hour|60 minutes|soon" }
+   },
+   {
+    "sit": "Ти вчишся робити дерев'яні іграшки на майстер-класі. Майстер показує готовий виріб.",
+    "say": "Треба добре відшліфувати краї, щоб дитина не поранилася.",
+    "ans": ["You need to sand the edges well so the child doesn’t get hurt.", "The edges have to be sanded properly so kids don’t hurt themselves.", "Make sure you sand the edges really well so no kid gets a splinter."],
+    "keys": { "краї": "edge*|corner*|side*", "дитина": "child*|kid*|baby|babies" }
+   }
+  ]
+ },
+ {
+  "id": 2270, "w": "varnish", "uk": "вкривати лаком", "lvl": "C1",
+  "forms": "varnish|varnishes|varnished|varnished|varnishing",
+  "near": "lacquer*|seal*|coat*|finish*|stain*|oil*",
+  "tasks": [
+   {
+    "sit": "Ти щойно відшліфував паркет і пояснюєш родині, чому їм не можна заходити в кімнату.",
+    "say": "Завтра я вкрию підлогу лаком, тож два дні туди не заходимо.",
+    "ans": ["Tomorrow I’ll varnish the floor, so nobody goes in there for two days.", "I’m varnishing the floor tomorrow, so we can’t go in for two days.", "I’ll varnish the floor tomorrow — so stay out of there for a couple of days."],
+    "keys": { "підлога": "floor*|parquet*", "два дні": "two days|2 days|couple of days|days" }
+   },
+   {
+    "sit": "Ти будуєш із батьком човен у гаражі. Він питає, чи вже можна спускати його на воду.",
+    "say": "Ще ні, спочатку треба покрити корпус лаком у три шари.",
+    "ans": ["Not yet, first we need to varnish the hull with three coats.", "No, the hull has to be varnished three times first.", "Not yet — we still have to varnish the hull, three coats."],
+    "keys": { "корпус": "hull*|boat*|body|wood*", "три шари": "three|3|coat*|layer*" }
+   },
+   {
+    "sit": "На ярмарку майстер продає дерев'яні миски. Ти питаєш, чи можна їсти з них салат.",
+    "say": "Ви покрили їх лаком чи олією?",
+    "ans": ["Did you varnish them or use oil?", "Are they varnished, or did you oil them?", "Have you varnished these, or are they just oiled?"],
+    "keys": { "олія": "oil*|wax*" }
+   }
+  ]
+ },
+ {
+  "id": 2271, "w": "seal", "uk": "замазувати / герметизувати", "lvl": "B2",
+  "forms": "seal|seals|sealed|sealed|sealing",
+  "near": "caulk*|fill*|patch*|plug*|block*|close up|closed up",
+  "tasks": [
+   {
+    "sit": "Взимку у квартирі холодно, а з вікон дме. Ти обговорюєш це з мамою.",
+    "say": "Треба загерметизувати щілини навколо вікон.",
+    "ans": ["We need to seal the gaps around the windows.", "The gaps around the windows should be sealed.", "We’ve got to seal those gaps around the windows."],
+    "keys": { "щілини": "gap*|crack*|hole*", "вікна": "window*" }
+   },
+   {
+    "sit": "Сусід знизу скаржиться, що у нього мокра стеля. Ти оглядаєш ванну й кажеш дружині, що знайшов.",
+    "say": "Шов біля ванни тріснув — я його сьогодні замажу герметиком.",
+    "ans": ["The joint by the bath has cracked — I’ll seal it today.", "The seam around the tub cracked, so I’m going to seal it with silicone today.", "The joint by the bath is cracked, I’ll seal it up today."],
+    "keys": { "шов": "joint*|seam*|gap*|edge*|it", "сьогодні": "today|tonight|now" }
+   },
+   {
+    "sit": "Ти відкриваєш своє перше кафе, і будівельний інспектор дає пораду щодо підвалу.",
+    "say": "Замажте тріщини в підвалі, інакше буде волога.",
+    "ans": ["Seal the cracks in the basement, or you’ll get damp.", "You should seal the cracks in the basement, otherwise it’ll get damp.", "Seal up those cracks in the basement or you’ll have a damp problem."],
+    "keys": { "тріщини": "crack*|gap*|hole*", "підвал": "basement*|cellar*" }
+   }
+  ]
+ },
+ {
+  "id": 2272, "w": "patch", "uk": "латати, закладати (діру)", "lvl": "B2",
+  "forms": "patch|patches|patched|patched|patching",
+  "near": "fix*|repair*|mend*|fill*|seal*|cover*",
+  "tasks": [
+   {
+    "sit": "Ти перевісив полицю, і на стіні залишилися дірки від дюбелів. Орендодавець скоро прийде з перевіркою.",
+    "say": "Треба швидко залатати дірки в стіні до його приходу.",
+    "ans": ["I need to patch the holes in the wall before he comes.", "I have to patch those wall holes quickly before he arrives.", "Gotta patch the holes in the wall before he shows up."],
+    "keys": { "дірки": "hole*", "до його приходу": "before|until|arriv*|come*|show* up|visit*" }
+   },
+   {
+    "sit": "Ти в поході, і в наметі зʼявилася дірка. Друг питає, що робити.",
+    "say": "Не хвилюйся, у мене є ремкомплект — я залатаю намет.",
+    "ans": ["Don’t worry, I have a repair kit — I’ll patch the tent.", "Relax, I’ve got a repair kit, so I can patch the tent.", "No worries, I’ll patch the tent with my repair kit."],
+    "keys": { "намет": "tent*", "ремкомплект": "repair kit*|kit|tape|patch*" }
+   },
+   {
+    "sit": "Ти їдеш на роботу на велосипеді й телефонуєш колезі, що запізнишся.",
+    "say": "Проколов колесо, зараз залатаю камеру й поїду далі.",
+    "ans": ["I got a flat — I’ll patch the tube and keep going.", "I’ve got a puncture, so I’m patching the inner tube right now.", "Flat tyre — I’ll just patch the tube and be on my way."],
+    "keys": { "камера": "tube*|tire*|tyre*|wheel*", "проколов": "flat|puncture*|hole" }
+   }
+  ]
+ },
+ {
+  "id": 2273, "w": "restore", "uk": "реставрувати", "lvl": "B2",
+  "forms": "restore|restores|restored|restored|restoring",
+  "near": "renovat*|refurbish*|repair*|fix* up|rebuild*|rebuilt|do up|did up",
+  "tasks": [
+   {
+    "sit": "Ти працюєш в архітектурному бюро. Знайомий питає, над яким проектом ти зараз працюєш.",
+    "say": "Ми реставруємо старий купецький будинок у центрі міста.",
+    "ans": ["We’re restoring an old merchant’s house in the city centre.", "We’re working on restoring an old merchant house downtown.", "We’re restoring this old merchant’s house right in the centre of town."],
+    "keys": { "будинок": "house*|building*|mansion*", "центр": "centre|center|downtown|middle" }
+   },
+   {
+    "sit": "Дідусь залишив тобі старий мотоцикл, і ти показуєш його другові в гаражі.",
+    "say": "Я хочу відреставрувати його й знову на ньому їздити.",
+    "ans": ["I want to restore it and ride it again.", "I’m planning to restore it so I can ride it again.", "I’d love to restore it and get it back on the road."],
+    "keys": { "їздити": "ride|riding|drive|road|use" }
+   },
+   {
+    "sit": "Ти на екскурсії в соборі й бачиш риштування біля стіни. Питаєш гіда.",
+    "say": "Ці фрески зараз реставрують?",
+    "ans": ["Are they restoring these frescoes now?", "Are these frescoes being restored at the moment?", "So are they restoring the frescoes right now?"],
+    "keys": { "фрески": "fresco*|painting*|mural*" }
+   }
+  ]
+ },
+ {
+  "id": 2274, "w": "hammer", "uk": "забивати молотком", "lvl": "B1",
+  "forms": "hammer|hammers|hammered|hammered|hammering",
+  "near": "nail*|knock*|bang*|hit|pound*|drive in|drove in",
+  "tasks": [
+   {
+    "sit": "Ти вішаєш картину, а дружина питає, чи не потрібна дриль.",
+    "say": "Ні, я просто заб'ю цвях молотком.",
+    "ans": ["No, I’ll just hammer in a nail.", "No, I’m only going to hammer a nail into the wall.", "Nah, I’ll just hammer a nail in."],
+    "keys": { "цвях": "nail*|it" }
+   },
+   {
+    "sit": "Ви з друзями ставите намет на кемпінгу, і земля дуже тверда.",
+    "say": "Кілки не заходять — треба забити їх каменем.",
+    "ans": ["The pegs won’t go in — we need to hammer them in with a rock.", "The stakes won’t go in, so let’s hammer them in with a stone.", "These pegs won’t go in — we’ll have to hammer them with a rock."],
+    "keys": { "кілки": "peg*|stake*|them", "камінь": "rock*|stone*" }
+   }
+  ,
+   {
+    "sit": "Ти працюєш на дачі й просиш сина допомогти з парканом.",
+    "say": "Потримай дошку, а я заб'ю цвяхи.",
+    "ans": ["Hold the board while I hammer in the nails.", "Can you hold the plank? I’ll hammer the nails in.", "Just hold that board and I’ll hammer the nails in."],
+    "keys": { "дошка": "board*|plank*|wood", "цвяхи": "nail*" }
+   }
+  ]
+ },
+ {
+  "id": 2275, "w": "screw in", "uk": "вкручувати", "lvl": "B1",
+  "forms": "screw|screws|screwed|screwed|screwing",
+  "tail": "in/into",
+  "near": "put in|fit*|replace*|change*|install*|tighten*|attach*",
+  "tasks": [
+   {
+    "sit": "Лампочка в коридорі перегоріла. Ти просиш сина допомогти.",
+    "say": "Потримай стілець, я вкручу нову лампочку.",
+    "ans": ["Hold the chair, I’ll screw in a new bulb.", "Can you hold the chair while I screw in the new light bulb?", "Hold the chair for me — I’ll screw the new bulb in."],
+    "keys": { "стілець": "chair*|stool*|ladder*", "лампочка": "bulb*|light*|lamp*" }
+   },
+   {
+    "sit": "Ти збираєш ліжко. Друг подає тобі інструменти.",
+    "say": "Дай мені шуруповерт, треба вкрутити ще чотири шурупи.",
+    "ans": ["Pass me the drill, I need to screw in four more screws.", "Give me the screwdriver — there are four more screws to screw in.", "Hand me the drill, I’ve got four more screws to screw in."],
+    "keys": { "шуруповерт": "drill*|screwdriver*|driver", "чотири": "four|4" }
+   },
+   {
+    "sit": "Ти ставиш на велосипед нові педалі. Досвідчений велосипедист застерігає тебе.",
+    "say": "Ліву педаль вкручують проти годинникової стрілки.",
+    "ans": ["You screw in the left pedal counterclockwise.", "The left pedal is screwed in anticlockwise.", "Remember, the left pedal screws in counterclockwise."],
+    "keys": { "ліва педаль": "left|pedal*", "проти годинникової": "counterclockwise|counter-clockwise|anticlockwise|anti-clockwise|other way|reverse|backwards" }
+   }
+  ]
+ },
+ {
+  "id": 2276, "w": "unscrew", "uk": "викручувати, відкручувати", "lvl": "B1",
+  "forms": "unscrew|unscrews|unscrewed|unscrewed|unscrewing",
+  "near": "open*|take off|took off|remove*|loosen*|twist off|twisted off|screw off",
+  "tasks": [
+   {
+    "sit": "На кухні ти не можеш відкрити банку з огірками. Просиш брата.",
+    "say": "Відкрути, будь ласка, кришку — вона дуже туго сидить.",
+    "ans": ["Can you unscrew the lid, please? It’s really tight.", "Please unscrew this lid for me — it’s stuck.", "Could you unscrew the lid? It won’t budge."],
+    "keys": { "кришка": "lid*|cap*|top" }
+   },
+   {
+    "sit": "Ти замінюєш батарейки в дитячій іграшці й пояснюєш доньці, що робиш.",
+    "say": "Спочатку треба викрутити цей маленький гвинтик.",
+    "ans": ["First we need to unscrew this tiny screw.", "First I have to unscrew this little screw.", "We’ve got to unscrew this tiny screw first."],
+    "keys": { "гвинтик": "screw*|bolt*", "спочатку": "first" }
+   },
+   {
+    "sit": "Ти ремонтуєш світильник і дзвониш другові-електрику за порадою.",
+    "say": "Я вже викрутив лампочку, що далі?",
+    "ans": ["I’ve already unscrewed the bulb, what’s next?", "I unscrewed the light bulb already. What do I do now?", "OK, I’ve unscrewed the bulb — now what?"],
+    "keys": { "лампочка": "bulb*|light*|lamp*", "що далі": "next|now what|what now|what do i do|then" }
+   }
+  ]
+ }
+]

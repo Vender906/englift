@@ -1,0 +1,635 @@
+[
+ {
+  "id": 898, "w": "waver", "uk": "вагатися (між варіантами)", "lvl": "C1",
+  "forms": "waver|wavers|wavered|wavered|wavering",
+  "near": "hesitat*|dither*|vacillat*|torn|undecided|can not decide|could not decide|not sure",
+  "tasks": [
+   {
+    "sit": "Тобі одночасно запропонували роботу у великій корпорації та в невеликому стартапі. Розповідаєш колишньому колезі, що обрав.",
+    "say": "Я довго вагався між двома пропозиціями, але зрештою обрав стартап.",
+    "ans": ["I wavered between the two offers for a long time, but in the end I chose the startup.", "I’d been wavering between the two offers for weeks before I finally went with the startup.", "Honestly, I wavered for ages, but I ended up picking the startup."],
+    "keys": { "стартап": "startup*|start-up*", "довго": "long|ages|weeks|days|months|while|forever" }
+   },
+   {
+    "sit": "Ви з дружиною вже третій вечір обираєте новий диван в інтернет-магазині. Вона питає, чи ти вже вирішив.",
+    "say": "Я досі вагаюся між сірим і синім.",
+    "ans": ["I’m still wavering between the grey and the blue one.", "I’m wavering between grey and blue at the moment.", "Ugh, I keep wavering between grey and blue!"],
+    "keys": { "сірий": "grey|gray", "синій": "blue|navy" }
+   },
+   {
+    "sit": "За тиждень вибори. Ти обговорюєш з колегою свіже опитування.",
+    "say": "Багато виборців досі вагаються, за кого голосувати.",
+    "ans": ["Many voters are still wavering about who to vote for.", "A lot of voters are still wavering between the candidates.", "Loads of people are still wavering on who to vote for."],
+    "keys": { "виборці": "voter*|people|electorate", "голосувати": "vote*|candidate*|ballot*" }
+   }
+  ]
+ },
+ {
+  "id": 899, "w": "tune in", "uk": "налаштовуватися (на радіо, трансляцію)", "lvl": "B2",
+  "forms": "tune|tunes|tuned|tuned|tuning",
+  "tail": "in",
+  "near": "listen*|watch*|switch on|switched on|turn on|turned on|put on",
+  "tasks": [
+   {
+    "sit": "Ви з другом їдете машиною, і він безуспішно шукає, що послухати. Ти знаєш чудову джазову станцію.",
+    "say": "Спробуй налаштуватися на джазову станцію.",
+    "ans": ["Try tuning in to the jazz station.", "Why don’t you tune in to the jazz station?", "Tune in to the jazz station — it’s great."],
+    "keys": { "джаз": "jazz*", "станція": "station*|radio|channel*" }
+   },
+   {
+    "sit": "Твій друг-стример запрошує всіх на свій перший прямий ефір у суботу.",
+    "say": "Обов’язково підключуся до твого ефіру в суботу!",
+    "ans": ["I’ll definitely tune in on Saturday!", "I’m definitely going to tune in to your stream on Saturday.", "Count me in — I’ll tune in on Saturday for sure!"],
+    "keys": { "субота": "saturday*", "обов’язково": "definitely|sure|surely|count me in|of course" }
+   },
+   {
+    "sit": "Мама дивується, що ти завжди першим дізнаєшся всі новини.",
+    "say": "Я щоранку о сьомій вмикаю новини по радіо.",
+    "ans": ["I tune in to the news on the radio at seven every morning.", "Every morning at seven, I tune in to the radio news.", "I always tune in to the seven o’clock news in the morning."],
+    "keys": { "новини": "news", "сьома": "seven|7*" }
+   }
+  ]
+ },
+ {
+  "id": 900, "w": "tune out", "uk": "перестати чути, ігнорувати", "lvl": "B2",
+  "forms": "tune|tunes|tuned|tuned|tuning",
+  "tail": "out",
+  "near": "ignore*|block* out|shut out|zone* out|zoned out|stop listening|stopped listening|switch* off",
+  "tasks": [
+   {
+    "sit": "Ти працюєш в опенспейсі, де колеги весь день голосно розмовляють по телефону. Новенька питає, як ти це витримуєш.",
+    "say": "Я навчився просто не чути шум навколо.",
+    "ans": ["I’ve learned to tune out the noise around me.", "I’ve learned to just tune the noise out.", "Honestly, I just tune out all the noise now."],
+    "keys": { "шум": "noise*|chatter|sound*|talk*" }
+   },
+   {
+    "sit": "Лектор уже годину монотонно читає слайди. Після пари одногрупник питає, що ти запам’ятав.",
+    "say": "Через десять хвилин я просто відключився й перестав слухати.",
+    "ans": ["After ten minutes I just tuned out.", "I tuned out about ten minutes into the lecture.", "Ten minutes in, I completely tuned out."],
+    "keys": { "десять хвилин": "ten|10*" }
+   },
+   {
+    "sit": "Тітка на кожному родинному святі розпитує, коли ти нарешті одружишся. Брат питає, як ти це терпиш.",
+    "say": "Я вже навчився пропускати її коментарі повз вуха.",
+    "ans": ["I’ve learned to tune out her comments.", "I just tune out her comments these days.", "Honestly, I tune her out whenever she starts."],
+    "keys": { "її коментарі": "comment*|her|remark*|question*" }
+   }
+  ]
+ },
+ {
+  "id": 901, "w": "listen in", "uk": "підслуховувати", "lvl": "B2",
+  "forms": "listen|listens|listened|listened|listening",
+  "tail": "in",
+  "near": "eavesdrop*|overhear*|overheard|spy*|spied|snoop*|bug*|tap*",
+  "tasks": [
+   {
+    "sit": "Ти говориш по телефону з дівчиною, а молодший брат завмер під дверима твоєї кімнати.",
+    "say": "Припини підслуховувати мою розмову!",
+    "ans": ["Stop listening in on my conversation!", "Hey, quit listening in on my call!", "Could you stop listening in on my call, please?"],
+    "keys": { "припини": "stop*|quit", "розмова": "conversation*|call|chat|talk*" }
+   },
+   {
+    "sit": "У кав’ярні пара за сусіднім столиком гучно сварилася, і ти мимоволі все чув. Розповідаєш про це другові.",
+    "say": "Я не хотів підслуховувати, але вони говорили дуже голосно.",
+    "ans": ["I didn’t mean to listen in, but they were talking really loudly.", "I wasn’t trying to listen in, but they were so loud.", "I didn’t want to listen in — they were just really loud!"],
+    "keys": { "голосно": "loud*|shout*|yell*", "не хотів": "not mean|not want|not trying|not try|not intend*" }
+   },
+   {
+    "sit": "Ти читаєш новину про гучний скандал: журналісти з’ясували, що розмови кількох політиків прослуховували.",
+    "say": "Виявилося, що хтось роками підслуховував їхні телефонні розмови.",
+    "ans": ["It turned out someone had been listening in on their phone calls for years.", "Apparently someone listened in on their calls for years.", "Turns out somebody was listening in on their phone calls for years."],
+    "keys": { "розмови": "call*|conversation*|phone*", "роками": "year*" }
+   }
+  ]
+ },
+ {
+  "id": 902, "w": "pick up", "uk": "вловити (звук)", "lvl": "B2",
+  "forms": "pick|picks|picked|picked|picking",
+  "tail": "up",
+  "near": "hear*|heard|catch|catches|caught|detect*|notice*|register*",
+  "tasks": [
+   {
+    "sit": "Ти записуєш подкаст на кухні й переслуховуєш запис у навушниках.",
+    "say": "Мікрофон вловлює навіть гудіння холодильника.",
+    "ans": ["The mic picks up even the fridge humming.", "The microphone even picks up the sound of the fridge.", "This mic picks up everything — even the fridge!"],
+    "keys": { "мікрофон": "mic*", "холодильник": "fridge|refrigerator" }
+   },
+   {
+    "sit": "Ви з другом сидите вночі біля намету в лісі. Раптом ти насторожився.",
+    "say": "Я вловив якийсь шурхіт у кущах.",
+    "ans": ["I picked up a rustling sound in the bushes.", "I just picked up some rustling in the bushes.", "Wait, I picked up a rustle in the bushes."],
+    "keys": { "кущі": "bush*|shrub*|grass", "шурхіт": "rustl*|noise|sound*" }
+   },
+   {
+    "sit": "Малюк спить у дитячій, радіоняня стоїть біля ліжечка, а ти на кухні з гостями.",
+    "say": "Радіоняня вловлює кожен звук, навіть як малюк перевертається.",
+    "ans": ["The baby monitor picks up every sound, even when the baby turns over.", "The monitor picks up every little sound — even the baby turning over.", "That monitor picks up everything, even when he rolls over."],
+    "keys": { "радіоняня": "monitor*", "кожен звук": "every*|all|each|any" }
+   }
+  ]
+ },
+ {
+  "id": 903, "w": "reek", "uk": "смердіти (чимось)", "lvl": "C1",
+  "forms": "reek|reeks|reeked|reeked|reeking",
+  "near": "stink*|stank|stunk|smell*|smelt|pong*",
+  "tasks": [
+   {
+    "sit": "Ти заселився в готельний номер «для некурців», відчиняєш двері — і скаржишся на рецепції.",
+    "say": "Цей номер просто смердить сигаретами.",
+    "ans": ["This room reeks of cigarettes.", "The whole room reeks of cigarette smoke.", "Sorry, but this room absolutely reeks of cigarettes!"],
+    "keys": { "сигарети": "cigarette*|smoke*|tobacco", "номер": "room" }
+   },
+   {
+    "sit": "Ти відкрив спортивну сумку, яку тиждень тому забув у багажнику.",
+    "say": "Моя спортивна форма смердить потом.",
+    "ans": ["My gym clothes reek of sweat.", "My gym kit reeks of sweat.", "Oh god, my gym stuff reeks of sweat!"],
+    "keys": { "форма": "clothes|kit|gear|stuff|outfit|shirt*", "піт": "sweat*" }
+   },
+   {
+    "sit": "Сусід по квартирі смажив рибу й не відчинив вікно. Ти повертаєшся додому.",
+    "say": "Уся квартира смердить смаженою рибою.",
+    "ans": ["The whole flat reeks of fried fish.", "The entire apartment reeks of fried fish.", "Seriously, the whole place reeks of fish now."],
+    "keys": { "риба": "fish", "квартира": "flat|apartment|place|house|home" }
+   }
+  ]
+ },
+ {
+  "id": 904, "w": "stink", "uk": "смердіти", "lvl": "B2",
+  "forms": "stink|stinks|stank/stunk|stunk|stinking",
+  "near": "reek*|smell*|smelt|pong*",
+  "tasks": [
+   {
+    "sit": "Ти повернувся з двотижневої відпустки й відчиняєш холодильник.",
+    "say": "Фу, тут щось страшенно смердить!",
+    "ans": ["Ugh, something in here stinks!", "Something really stinks in the fridge.", "Eww, what stinks so badly in here?"],
+    "keys": { "щось": "something|what" }
+   },
+   {
+    "sit": "Твій пес повернувся з прогулянки, де радісно валявся в багнюці.",
+    "say": "Собака смердить болотом — його треба помити.",
+    "ans": ["The dog stinks of mud — he needs a bath.", "The dog stinks, we need to wash him.", "Man, the dog really stinks, he needs a bath."],
+    "keys": { "собака": "dog", "помити": "wash*|bath*|clean*|shower*" }
+   },
+   {
+    "sit": "Сміття на вашій вулиці не вивозили вже тиждень, а надворі спека. Ти скаржишся сусідові.",
+    "say": "Контейнери на нашій вулиці жахливо смердять.",
+    "ans": ["The bins on our street stink terribly.", "The bins on our street really stink in this heat.", "Those bins stink so bad right now."],
+    "keys": { "контейнери": "bin*|trash|garbage|rubbish|dumpster*|container*" }
+   }
+  ]
+ },
+ {
+  "id": 905, "w": "whiff", "uk": "відчути легкий запах, нюхнути", "lvl": "C1",
+  "forms": "whiff|whiffs|whiffed|whiffed|whiffing",
+  "near": "smell*|smelt|sniff*|scent*|notice*",
+  "tasks": [
+   {
+    "sit": "Ти зранку поспішав на роботу повз пекарню, але все одно зайшов. Пояснюєш колезі, звідки круасани.",
+    "say": "Я відчув запах свіжого хліба й не встояв.",
+    "ans": ["I caught a whiff of fresh bread and couldn’t resist.", "I got a whiff of fresh bread and just had to go in.", "One whiff of fresh bread and I was in!"],
+    "keys": { "хліб": "bread|baking|loaf|bakery", "свіжий": "fresh*|warm" }
+   },
+   {
+    "sit": "Ти заходиш у ліфт в офісі й відчуваєш знайомі парфуми колеги.",
+    "say": "Я вловив ледь чутний запах її парфумів — вона щойно була тут.",
+    "ans": ["I caught a whiff of her perfume — she was just here.", "I got a faint whiff of her perfume, so she’d just left.", "I caught a whiff of her perfume, she must’ve just been here."],
+    "keys": { "парфуми": "perfume*|scent|fragrance", "щойно": "just|recently" }
+   },
+   {
+    "sit": "Ти заходиш на кухню у старій орендованій квартирі й на мить відчуваєш підозрілий запах.",
+    "say": "Мені здалося, що я відчув запах газу.",
+    "ans": ["I think I caught a whiff of gas.", "I thought I got a whiff of gas in the kitchen.", "Did anyone else catch a whiff of gas just now?"],
+    "keys": { "газ": "gas" }
+   }
+  ]
+ },
+ {
+  "id": 906, "w": "chug", "uk": "випити залпом", "lvl": "C1",
+  "forms": "chug|chugs|chugged|chugged|chugging",
+  "near": "down*|gulp*|guzzl*|knock* back|neck*|drink*|drank|drunk",
+  "tasks": [
+   {
+    "sit": "На студентській вечірці всі скандують, а твій одногрупник тримає пляшку пива. Наступного дня ти розповідаєш про це.",
+    "say": "Він випив цілу пляшку пива залпом!",
+    "ans": ["He chugged a whole bottle of beer!", "He just chugged the entire bottle of beer!", "Dude, he chugged that whole beer in seconds!"],
+    "keys": { "пиво": "beer*|bottle*", "ціла": "whole|entire|all" }
+   },
+   {
+    "sit": "Ти пробіг десять кілометрів у спеку, нарешті добрався до кулера з водою.",
+    "say": "Я залпом випив пів літра води.",
+    "ans": ["I chugged half a litre of water.", "I chugged about half a liter of water in one go.", "I literally chugged half a bottle of water."],
+    "keys": { "вода": "water", "пів": "half" }
+   },
+   {
+    "sit": "Ти запізнюєшся на нараду, а щойно налита кава ще гаряча.",
+    "say": "Не встигаю — доведеться випити каву залпом.",
+    "ans": ["No time — I’ll have to chug my coffee.", "I’m running late, so I’m going to chug this coffee.", "Gotta chug this coffee and run."],
+    "keys": { "кава": "coffee", "не встигаю": "time|late|run*|hurry|rush*" }
+   }
+  ]
+ },
+ {
+  "id": 907, "w": "guzzle", "uk": "жадібно пити", "lvl": "C1",
+  "forms": "guzzle|guzzles|guzzled|guzzled|guzzling",
+  "near": "chug*|gulp*|down*|slurp*|drink*|drank|drunk",
+  "tasks": [
+   {
+    "sit": "Твій восьмирічний племінник на дні народження дорвався до газованки. Ти кажеш сестрі.",
+    "say": "Він жадібно п’є вже третю банку газованки.",
+    "ans": ["He’s guzzling his third can of soda.", "He has guzzled three cans of soda already.", "He’s already guzzling his third soda!"],
+    "keys": { "третя": "third|three|3*", "газованка": "soda*|pop|coke|fizzy*|cola" }
+   },
+   {
+    "sit": "У спеку ти повернувся з собакою з довгої прогулянки й налив йому води.",
+    "say": "Пес жадібно вихлебтав цілу миску води.",
+    "ans": ["The dog guzzled a whole bowl of water.", "The dog guzzled down his entire bowl of water.", "Wow, the dog just guzzled the whole bowl!"],
+    "keys": { "миска": "bowl*", "ціла": "whole|entire|all" }
+   },
+   {
+    "sit": "Ви з друзями після важкого підйому в горах дійшли до джерела. Ти розповідаєш про похід.",
+    "say": "Ми жадібно пили холодну воду просто з джерела.",
+    "ans": ["We guzzled cold water straight from the spring.", "We were guzzling cold water right from the spring.", "We just guzzled that ice-cold spring water."],
+    "keys": { "джерело": "spring*|source|stream", "холодна": "cold|icy|cool" }
+   }
+  ]
+ },
+ {
+  "id": 908, "w": "pour out", "uk": "розливати (напої)", "lvl": "B1",
+  "forms": "pour|pours|poured|poured|pouring",
+  "tail": "out",
+  "near": "serve*|fill*|dish out|hand out|top up",
+  "tasks": [
+   {
+    "sit": "Новорічна ніч, до півночі хвилина, пляшка шампанського в тебе в руках.",
+    "say": "Зараз я розіллю шампанське — давайте келихи!",
+    "ans": ["Let me pour out the champagne — pass me your glasses!", "I’ll pour out the champagne, give me your glasses!", "Glasses up, I’m pouring out the champagne!"],
+    "keys": { "шампанське": "champagne|bubbly|fizz", "келихи": "glass*" }
+   },
+   {
+    "sit": "До тебе прийшли гості, чайник щойно закипів.",
+    "say": "Сідайте, я розіллю чай.",
+    "ans": ["Sit down, I’ll pour out the tea.", "Have a seat and I’ll pour out some tea.", "Take a seat — I’ll pour the tea out."],
+    "keys": { "чай": "tea", "сідайте": "sit*|seat*" }
+   },
+   {
+    "sit": "Ти розповідаєш, як минув дитячий пікнік, на якому ти відповідав за напої.",
+    "say": "Я розливав сік по стаканчиках для всіх дітей.",
+    "ans": ["I poured out juice for all the kids.", "I was pouring out juice into everyone’s cups.", "I poured the juice out for all the kids."],
+    "keys": { "сік": "juice", "діти": "kid*|child*|cup*|everyone" }
+   }
+  ]
+ },
+ {
+  "id": 909, "w": "refill", "uk": "наповнювати повторно, доливати", "lvl": "B1",
+  "forms": "refill|refills|refilled|refilled|refilling",
+  "near": "top up|topped up|top off|fill up|filled up|fill|filled|more",
+  "tasks": [
+   {
+    "sit": "Ти обідаєш у кафе, твоя склянка з водою порожня. Звертаєшся до офіціанта.",
+    "say": "Можете долити мені води?",
+    "ans": ["Could you refill my water, please?", "Can you refill my glass of water?", "Sorry, could I get my water refilled?"],
+    "keys": { "вода": "water" }
+   },
+   {
+    "sit": "Принтер в офісі почав друкувати ледь помітно. Колега питає, що з ним.",
+    "say": "Треба перезаправити картридж.",
+    "ans": ["We need to refill the cartridge.", "The cartridge needs to be refilled.", "Time to refill the ink cartridge."],
+    "keys": { "картридж": "cartridge*|ink|toner" }
+   },
+   {
+    "sit": "Ти пройшов контроль в аеропорту з порожньою пляшкою й бачиш питний фонтанчик.",
+    "say": "Я наберу воду в пляшку біля фонтанчика.",
+    "ans": ["I’ll refill my bottle at the water fountain.", "I’m going to refill my water bottle at the fountain.", "Let me just refill my bottle at the fountain."],
+    "keys": { "пляшка": "bottle*", "фонтанчик": "fountain*|tap|station|dispenser" }
+   }
+  ]
+ },
+ {
+  "id": 911, "w": "quench", "uk": "тамувати (спрагу)", "lvl": "C1",
+  "forms": "quench|quenches|quenched|quenched|quenching",
+  "near": "satisf*|slake*|satiat*|drink*",
+  "tasks": [
+   {
+    "sit": "Після футболу в спеку друг пропонує тобі солодку газованку.",
+    "say": "Газованка не тамує спрагу, краще дай води.",
+    "ans": ["Soda doesn’t quench your thirst, give me water instead.", "Fizzy drinks don’t really quench thirst — I’d rather have water.", "Soda won’t quench my thirst, just give me some water."],
+    "keys": { "спрага": "thirst*", "вода": "water" }
+   },
+   {
+    "sit": "Ти маркетолог і пишеш рекламний текст для нового лимонаду.",
+    "say": "Цей лимонад ідеально тамує спрагу у спекотний день.",
+    "ans": ["This lemonade perfectly quenches your thirst on a hot day.", "Nothing quenches your thirst on a hot day like this lemonade.", "This lemonade really quenches your thirst when it’s hot out."],
+    "keys": { "лимонад": "lemonade", "спекотний": "hot|heat|summer*" }
+   },
+   {
+    "sit": "Ви з друзями на пляжі, ти приніс великий кавун з холодильника.",
+    "say": "Ніщо так не тамує спрагу, як холодний кавун.",
+    "ans": ["Nothing quenches thirst like cold watermelon.", "Cold watermelon quenches your thirst better than anything.", "Honestly, nothing quenches my thirst like an ice-cold watermelon."],
+    "keys": { "кавун": "watermelon*|melon*", "холодний": "cold|chilled|cool" }
+   }
+  ]
+ },
+ {
+  "id": 912, "w": "hurl", "uk": "жбурляти (з силою)", "lvl": "C1",
+  "forms": "hurl|hurls|hurled|hurled|hurling",
+  "near": "throw*|threw|thrown|fling*|flung|chuck*|toss*|lob*",
+  "tasks": [
+   {
+    "sit": "Ти дивишся репортаж про протест, що переріс у сутички, і коментуєш побачене.",
+    "say": "Протестувальники жбурляли каміння в поліцію.",
+    "ans": ["Protesters hurled stones at the police.", "The protesters were hurling rocks at the police.", "People were hurling stones at the cops."],
+    "keys": { "каміння": "stone*|rock*", "поліція": "police|cop*|officer*" }
+   },
+   {
+    "sit": "Ти розповідаєш другові, як твій брат програв фінал аматорського тенісного турніру.",
+    "say": "Він у люті жбурнув ракетку об корт.",
+    "ans": ["He hurled his racket onto the court in anger.", "He got so angry he hurled his racket at the ground.", "He totally lost it and hurled his racket across the court."],
+    "keys": { "ракетка": "racket*|racquet*", "лють": "anger|angry|furious|rage|lost it|mad" }
+   },
+   {
+    "sit": "Ти модеруєш форум, і суперечка про політику в коментарях вийшла з-під контролю.",
+    "say": "Вони почали кидатися образами одне в одного.",
+    "ans": ["They started hurling insults at each other.", "People began hurling insults at one another in the comments.", "Then they just started hurling insults at each other."],
+    "keys": { "образи": "insult*|abuse|swear*", "одне одного": "each other|one another|everyone|them" }
+   }
+  ]
+ },
+ {
+  "id": 913, "w": "chuck", "uk": "кинути (розмовне)", "lvl": "B2",
+  "forms": "chuck|chucks|chucked|chucked|chucking",
+  "near": "throw*|threw|thrown|toss*|fling*|flung|hurl*|pass|bin",
+  "tasks": [
+   {
+    "sit": "Ти сидиш на дивані, а друг стоїть біля відчиненого холодильника.",
+    "say": "Кинь мені пиво, будь ласка.",
+    "ans": ["Chuck me a beer, please.", "Can you chuck me a beer?", "Hey, chuck us a beer, would you?"],
+    "keys": { "пиво": "beer*|drink|can" }
+   },
+   {
+    "sit": "Ти розбираєш шухляду, повну старих зарядок і кабелів невідомо від чого.",
+    "say": "Я просто викину все це в смітник.",
+    "ans": ["I’ll just chuck all this in the bin.", "I’m going to chuck all of it in the trash.", "Honestly, I’m just chucking the lot in the bin."],
+    "keys": { "смітник": "bin|trash|garbage|rubbish|away", "все": "all|lot|everything|it" }
+   },
+   {
+    "sit": "Ви з сестрою граєте в парку, і м’яч покотився до неї.",
+    "say": "Кинь м’яч сюди!",
+    "ans": ["Chuck the ball over here!", "Can you chuck the ball over to me?", "Chuck the ball back here, mate!"],
+    "keys": { "м’яч": "ball", "сюди": "here|me|over" }
+   }
+  ]
+ },
+ {
+  "id": 914, "w": "fling", "uk": "жбурляти (розмашисто)", "lvl": "C1",
+  "forms": "fling|flings|flung|flung|flinging",
+  "near": "throw*|threw|thrown|toss*|hurl*|chuck*",
+  "tasks": [
+   {
+    "sit": "Ти повертаєшся додому після дуже важкого дня. Згодом розповідаєш, як минув вечір.",
+    "say": "Я кинув куртку на крісло й упав на диван.",
+    "ans": ["I flung my coat onto the chair and collapsed on the sofa.", "I flung my jacket on the chair and fell onto the couch.", "I just flung my coat on a chair and flopped onto the sofa."],
+    "keys": { "куртка": "coat|jacket", "крісло": "chair*|armchair" }
+   },
+   {
+    "sit": "Ти розповідаєш, як сестра дізналася, що вступила до омріяного університету.",
+    "say": "Вона розчахнула двері й закричала від радості.",
+    "ans": ["She flung the door open and screamed with joy.", "She flung open the door, screaming with happiness.", "She flung the door open and just screamed!"],
+    "keys": { "двері": "door*", "закричала": "scream*|shout*|yell*" }
+   },
+   {
+    "sit": "Ти згадуєш перший день відпустки на морі з друзями.",
+    "say": "Ми пожбурляли речі на пісок і побігли в море.",
+    "ans": ["We flung our stuff on the sand and ran into the sea.", "We flung our things down on the sand and raced into the sea.", "We just flung everything on the sand and ran into the water."],
+    "keys": { "пісок": "sand*|beach", "море": "sea|water|ocean|wave*" }
+   }
+  ]
+ },
+ {
+  "id": 915, "w": "toss aside", "uk": "відкидати вбік", "lvl": "B2",
+  "forms": "toss|tosses|tossed|tossed|tossing",
+  "tail": "aside",
+  "near": "throw*|threw|thrown|put aside|set aside|push* aside|chuck*|fling*|flung|drop*|dump*",
+  "tasks": [
+   {
+    "sit": "Ти почав читати розрекламований роман, але він виявився нудним. Розповідаєш подрузі.",
+    "say": "Після двох розділів я відкинув книжку вбік.",
+    "ans": ["After two chapters, I tossed the book aside.", "I tossed the book aside after just two chapters.", "Two chapters in, I tossed it aside."],
+    "keys": { "два розділи": "two|2|second", "книжка": "book|novel|it" }
+   },
+   {
+    "sit": "Ти тиждень готував звіт, а начальник навіть не відкрив його. Жалієшся колезі.",
+    "say": "Він навіть не глянув — просто відкинув звіт убік.",
+    "ans": ["He didn’t even look — he just tossed the report aside.", "He tossed my report aside without even looking at it.", "He just tossed it aside without a glance."],
+    "keys": { "звіт": "report|it", "не глянув": "not even look|without|not look*|glance" }
+   },
+   {
+    "sit": "Ти розповідаєш близькому другові, як дівчина кинула тебе заради іншого.",
+    "say": "Вона просто відкинула мене, наче я ніщо.",
+    "ans": ["She just tossed me aside like I was nothing.", "She tossed me aside as if I meant nothing.", "Honestly, she tossed me aside like yesterday’s trash."],
+    "keys": { "ніщо": "nothing|trash|garbage|rubbish" }
+   }
+  ]
+ },
+ {
+  "id": 917, "w": "shred", "uk": "подрібнити, знищити (документи)", "lvl": "B2",
+  "forms": "shred|shreds|shredded|shredded|shredding",
+  "near": "destroy*|tear*|tore|torn|rip*|cut up|dispos*|burn*|burnt",
+  "tasks": [
+   {
+    "sit": "Ти розбираєш в офісі старі папки з даними клієнтів, а стажер збирається просто винести їх на смітник.",
+    "say": "Ці документи треба знищити в шредері, а не просто викинути.",
+    "ans": ["These documents need to be shredded, not just thrown away.", "We should shred these papers instead of just binning them.", "Shred these, don’t just toss them in the bin."],
+    "keys": { "документи": "document*|paper*|these|file*", "не просто": "not just|instead|do not" }
+   },
+   {
+    "sit": "Ти переїжджаєш і знайшов коробку старих банківських виписок.",
+    "say": "Я подрібню всі старі виписки, перш ніж викинути.",
+    "ans": ["I’ll shred all the old bank statements before throwing them out.", "I’m going to shred these old statements before I throw them away.", "Let me shred all these old statements first."],
+    "keys": { "виписки": "statement*|bill*|record*", "старі": "old" }
+   },
+   {
+    "sit": "Ти обговорюєш із колегою новину про компанію, яку підозрюють у шахрайстві.",
+    "say": "Вони знищили в шредері всі докази ще до приходу поліції.",
+    "ans": ["They shredded all the evidence before the police arrived.", "They’d shredded the evidence before the police showed up.", "Apparently they shredded everything before the cops got there."],
+    "keys": { "докази": "evidence|document*|file*|everything|record*|paper*", "поліція": "police|cop*|investigator*" }
+   }
+  ]
+ },
+ {
+  "id": 918, "w": "snip", "uk": "розрізати, відрізати (ножицями)", "lvl": "C1",
+  "forms": "snip|snips|snipped|snipped|snipping",
+  "near": "cut*|trim*|clip*",
+  "tasks": [
+   {
+    "sit": "Ти вдягнув нову сорочку, а ярлик на комірці неприємно коле шию.",
+    "say": "Дай ножиці — зріжу цю бирку.",
+    "ans": ["Pass me the scissors, I’ll snip off this tag.", "Give me the scissors so I can snip the tag off.", "Hand me the scissors — I’ll just snip this label off."],
+    "keys": { "ножиці": "scissor*", "бирка": "tag*|label*" }
+   },
+   {
+    "sit": "Ти пришив ґудзик до піджака, і лишився довгий кінчик нитки.",
+    "say": "Я відріжу зайву нитку.",
+    "ans": ["I’ll snip the extra thread.", "Let me snip off the loose thread.", "I’ll just snip that thread off."],
+    "keys": { "нитка": "thread*|string" }
+   },
+   {
+    "sit": "Ти показуєш молодшому братові, як доглядати троянди в саду.",
+    "say": "Зрізай сухі квіти маленькими ножицями.",
+    "ans": ["Snip off the dead flowers with small scissors.", "You should snip the dry flowers off with little scissors.", "Just snip off the dead ones with the small scissors."],
+    "keys": { "квіти": "flower*|bloom*|head*|ones|rose*", "ножиці": "scissor*|shears|clippers|secateurs" }
+   }
+  ]
+ },
+ {
+  "id": 919, "w": "saw", "uk": "пиляти", "lvl": "B2",
+  "forms": "saw|saws|sawed|sawn/sawed|sawing",
+  "near": "cut*|chop*|trim*",
+  "tasks": [
+   {
+    "sit": "Ти робиш полицю своїми руками, але дошка трохи задовга.",
+    "say": "Мені треба відпиляти від цієї дошки десять сантиметрів.",
+    "ans": ["I need to saw ten centimetres off this board.", "I have to saw 10 cm off this plank.", "Gotta saw about ten centimeters off this board."],
+    "keys": { "дошка": "board*|plank*|wood*", "десять": "ten|10*" }
+   },
+   {
+    "sit": "Ти на дачі готуєш дрова на зиму. Увечері дзвонить мама.",
+    "say": "Я цілий ранок пиляв дрова.",
+    "ans": ["I spent the whole morning sawing wood.", "I’ve been sawing firewood all morning.", "All morning I was out sawing firewood."],
+    "keys": { "ранок": "morning*", "дрова": "wood|firewood|log*" }
+   },
+   {
+    "sit": "Після бурі велика гілка впала на ваш паркан. Ви з сусідом думаєте, як її прибрати.",
+    "say": "Давай розпиляємо цю гілку навпіл.",
+    "ans": ["Let’s saw this branch in half.", "We could saw the branch in two.", "Let’s just saw that branch in half and move it."],
+    "keys": { "гілка": "branch*|limb|it", "навпіл": "half|two|pieces" }
+   }
+  ]
+ },
+ {
+  "id": 920, "w": "mow", "uk": "косити (траву)", "lvl": "B2",
+  "forms": "mow|mows|mowed|mown/mowed|mowing",
+  "near": "cut*|trim*",
+  "tasks": [
+   {
+    "sit": "Сусід питає, які в тебе плани на суботу.",
+    "say": "Мені треба покосити газон.",
+    "ans": ["I need to mow the lawn.", "I’ve got to mow the lawn on Saturday.", "Gotta mow the lawn, it’s a jungle out there."],
+    "keys": { "газон": "lawn|grass|yard|garden|jungle" }
+   },
+   {
+    "sit": "Неділя, сьома ранку, а за вікном реве газонокосарка. Ти бурчиш на кухні.",
+    "say": "Хто взагалі косить траву о сьомій ранку в неділю?",
+    "ans": ["Who even mows the grass at seven on a Sunday morning?", "Who mows their lawn at 7 a.m. on a Sunday?", "Seriously, who mows the lawn at seven on Sunday?"],
+    "keys": { "сьома": "seven|7*", "неділя": "sunday*" }
+   },
+   {
+    "sit": "Ти розповідаєш дітям, як сам заробляв гроші в їхньому віці.",
+    "say": "Влітку я косив газони сусідам за гроші.",
+    "ans": ["In summer I mowed lawns for the neighbours for money.", "I used to mow the neighbors’ lawns for cash in the summer.", "I made money mowing lawns every summer."],
+    "keys": { "гроші": "money|cash|pay*|paid|earn*|buck*", "літо": "summer*" }
+   }
+  ]
+ },
+ {
+  "id": 921, "w": "grab hold of", "uk": "вхопитися (за щось)", "lvl": "B2",
+  "forms": "grab|grabs|grabbed|grabbed|grabbing",
+  "tail": "hold of",
+  "near": "hold on|held on|catch|caught|seize*|grip*|clutch*|hang on|take hold|took hold",
+  "tasks": [
+   {
+    "sit": "Ви з другом переходите бурхливу гірську річку по каменях, і він посковзнувся.",
+    "say": "Хапайся за мою руку!",
+    "ans": ["Grab hold of my hand!", "Here, grab hold of my hand!", "Quick, grab hold of my arm!"],
+    "keys": { "рука": "hand*|arm*" }
+   },
+   {
+    "sit": "Ти в переповненому автобусі, водій різко гальмує, а поруч стоїть літня жінка без опори.",
+    "say": "Вхопіться за поручень, будь ласка!",
+    "ans": ["Please grab hold of the rail!", "Grab hold of the handrail, please.", "You’d better grab hold of the rail — it’s bumpy."],
+    "keys": { "поручень": "rail*|handrail*|pole|bar|strap*|handle*" }
+   },
+   {
+    "sit": "Ти розповідаєш про вітрильну прогулянку, під час якої хвиля мало не змила тебе за борт.",
+    "say": "Я ледве встиг ухопитися за мотузку.",
+    "ans": ["I barely managed to grab hold of the rope.", "I just managed to grab hold of a rope in time.", "Luckily I grabbed hold of the rope just in time."],
+    "keys": { "мотузка": "rope*|line", "ледве": "barely|just|luck*|nearly|almost|time" }
+   }
+  ]
+ },
+ {
+  "id": 922, "w": "seize", "uk": "хапати (можливість), скористатися шансом", "lvl": "B2",
+  "forms": "seize|seizes|seized|seized|seizing",
+  "near": "grab*|take|took|taken|taking|jump at|jumped at|make the most|use|used",
+  "tasks": [
+   {
+    "sit": "Тобі запропонували піврічне стажування в Лондоні. Друзі питають, чи ти погодишся.",
+    "say": "Такий шанс буває раз у житті — я ним скористаюся.",
+    "ans": ["It’s a once-in-a-lifetime chance, and I’m going to seize it.", "I’ll seize this chance — it only comes once in a lifetime.", "Chances like this come once in a lifetime, so I’m seizing it."],
+    "keys": { "раз у житті": "once|lifetime|rare" }
+   },
+   {
+    "sit": "Ти тренуєш дитячу футбольну команду. У фіналі суперники явно видихлися.",
+    "say": "Вони втомилися — хапайте момент і атакуйте!",
+    "ans": ["They’re tired — seize the moment and attack!", "Seize the moment, they’re exhausted, go on the attack!", "Come on, seize the moment — they’re tired!"],
+    "keys": { "втомилися": "tired|exhausted|worn out", "момент": "moment|chance|opportunit*" }
+   },
+   {
+    "sit": "На нараді ти пропонуєш вийти на новий ринок, поки конкуренти не встигли.",
+    "say": "Треба скористатися цією можливістю, поки конкуренти нас не випередили.",
+    "ans": ["We need to seize this opportunity before our competitors do.", "Let’s seize the opportunity before the competition gets there first.", "We’ve got to seize this before our rivals beat us to it."],
+    "keys": { "конкуренти": "competitor*|competition|rival*" }
+   }
+  ]
+ },
+ {
+  "id": 923, "w": "snatch up", "uk": "розхапати, швидко розкупити", "lvl": "B2",
+  "forms": "snatch|snatches|snatched|snatched|snatching",
+  "tail": "up",
+  "near": "grab*|snap* up|buy* up|bought up|sell* out|sold out",
+  "tasks": [
+   {
+    "sit": "Ти хотів купити квитки на концерт улюбленого гурту, але зайшов на сайт із запізненням.",
+    "say": "Квитки розхапали за десять хвилин.",
+    "ans": ["The tickets were snatched up in ten minutes.", "People snatched up all the tickets in ten minutes.", "Fans snatched up the tickets within ten minutes!"],
+    "keys": { "квитки": "ticket*", "десять хвилин": "ten|10*" }
+   },
+   {
+    "sit": "У торговому центрі розпродаж — зимові куртки за півціни. Ти тягнеш подругу за руку.",
+    "say": "Ходімо швидше, бо всі хороші куртки розхапають.",
+    "ans": ["Let’s hurry before all the good jackets get snatched up.", "Come on, the good coats will get snatched up soon.", "Quick, someone’s going to snatch up all the good jackets!"],
+    "keys": { "куртки": "jacket*|coat*", "швидше": "hurry|quick*|soon|fast|come on" }
+   },
+   {
+    "sit": "Ти вже місяць шукаєш квартиру в оренду в центрі Києва. Скаржишся колезі.",
+    "say": "Хороші квартири розхапують за день.",
+    "ans": ["Good apartments get snatched up in a day.", "The good flats are snatched up within a day.", "Anything decent gets snatched up in like a day."],
+    "keys": { "квартири": "apartment*|flat*|place*|anything|decent", "день": "day*|24" }
+   }
+  ]
+ },
+ {
+  "id": 924, "w": "acquire", "uk": "здобувати, набувати (навичок, знань)", "lvl": "B2",
+  "forms": "acquire|acquires|acquired|acquired|acquiring",
+  "near": "gain*|get|got|gotten|learn*|develop*|pick* up|obtain*",
+  "tasks": [
+   {
+    "sit": "На співбесіді тебе питають, що дала тобі попередня робота.",
+    "say": "Там я набув цінних навичок управління проєктами.",
+    "ans": ["There I acquired valuable project management skills.", "I acquired a lot of valuable project management skills there.", "That’s where I acquired my project management skills."],
+    "keys": { "навички": "skill*|experience", "проєкти": "project*" }
+   },
+   {
+    "sit": "Ви з одногрупниками обговорюєте статтю про вивчення іноземних мов.",
+    "say": "Діти засвоюють мову набагато легше, ніж дорослі.",
+    "ans": ["Children acquire languages much more easily than adults.", "Kids acquire a language far more easily than adults do.", "Kids acquire languages way faster than adults."],
+    "keys": { "діти": "child*|kid*", "дорослі": "adult*|grown*" }
+   },
+   {
+    "sit": "Ти рік займаєшся гончарством і показуєш друзям свої перші горщики.",
+    "say": "За рік я здобув базові навички, але до майстра ще далеко.",
+    "ans": ["In a year I’ve acquired the basic skills, but I’m far from being a master.", "I’ve acquired the basics over the past year, but I’m no expert yet.", "I’ve acquired the basic skills this year — still a long way to go though."],
+    "keys": { "рік": "year*", "базові": "basic*" }
+   }
+  ]
+ }
+]

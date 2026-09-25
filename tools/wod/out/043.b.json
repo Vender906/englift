@@ -1,0 +1,646 @@
+[
+ {
+  "id": 2388, "w": "illuminate", "uk": "освітлювати", "lvl": "C1",
+  "forms": "illuminate|illuminates|illuminated|illuminated|illuminating",
+  "near": "light up|lit up|lights up|lighting up|brighten*|decorat*",
+  "tasks": [
+   {
+    "sit": "Ти працюєш у міській раді й розповідаєш журналістові про підготовку до свят.",
+    "say": "Цього року ми освітимо головну площу тисячами вогників.",
+    "ans": ["This year we’ll illuminate the main square with thousands of lights.", "We’re going to illuminate the main square with thousands of lights.", "We plan to illuminate the central square with thousands of lights this year."],
+    "keys": { "площа": "square|plaza", "тисячі": "thousand*" }
+   },
+   {
+    "sit": "Ти екскурсовод і ввечері показуєш туристам старий собор.",
+    "say": "Уночі собор освітлюють прожектори.",
+    "ans": ["At night the cathedral is illuminated by floodlights.", "Floodlights illuminate the cathedral at night.", "At night, spotlights illuminate the whole cathedral."],
+    "keys": { "собор": "cathedral|church", "уночі": "night*|dark" }
+   },
+   {
+    "sit": "Сусід питає, навіщо ви встановили у дворі стільки нових ліхтарів.",
+    "say": "Ми хочемо, щоб уночі будинок і подвір’я були освітлені.",
+    "ans": ["We want to illuminate the house and the yard at night.", "We’d like to illuminate our house and yard at night.", "The idea is to illuminate the house and garden at night."],
+    "keys": { "будинок": "house|home", "подвір’я": "yard|garden|driveway" }
+   }
+  ]
+ },
+ {
+  "id": 2389, "w": "give a gift", "uk": "дарувати подарунок", "lvl": "A1",
+  "forms": "give|gives|gave|given|giving",
+  "tail": "gift*/present*",
+  "near": "buy|bought|get you|got|send|sent|surprise",
+  "tasks": [
+   {
+    "sit": "Сьогодні в мами день народження. Тато питає, коли ти її привітаєш.",
+    "say": "Увечері я подарую мамі подарунок.",
+    "ans": ["I will give Mom a gift tonight.", "I’ll give my mom a present this evening.", "I’m giving Mom her gift tonight."],
+    "keys": { "мама": "mom|mum|mother", "увечері": "tonight|evening" }
+   },
+   {
+    "sit": "Кінець навчального року. Ти говориш з однокласником.",
+    "say": "Давай подаруємо вчительці подарунок від усього класу.",
+    "ans": ["Let’s give the teacher a gift from the whole class.", "Let’s give our teacher a present from the class.", "We should give the teacher a gift from all of us."],
+    "keys": { "вчителька": "teacher", "клас": "class|all of us|everyone" }
+   },
+   {
+    "sit": "Колега йде на пенсію. Ти домовляєшся з іншими колегами.",
+    "say": "Ми подаруємо йому подарунок у п’ятницю.",
+    "ans": ["We will give him a gift on Friday.", "We’re giving him a present on Friday.", "On Friday we’ll give him a gift."],
+    "keys": { "п’ятниця": "friday" }
+   }
+  ]
+ },
+ {
+  "id": 2390, "w": "receive a gift", "uk": "отримувати подарунок", "lvl": "A2",
+  "forms": "receive|receives|received|received|receiving",
+  "tail": "gift*/present*",
+  "near": "get|gets|got|gotten|getting|was given|were given|accept*",
+  "tasks": [
+   {
+    "sit": "Подруга питає, як минуло твоє Різдво.",
+    "say": "Я отримав чудовий подарунок від брата.",
+    "ans": ["I received a great gift from my brother.", "I received a wonderful present from my brother.", "I received a really nice gift from my brother."],
+    "keys": { "брат": "brother", "чудовий": "great|wonderful|nice|amazing|lovely|beautiful" }
+   },
+   {
+    "sit": "Ти пишеш листа діловому партнерові, який надіслав тобі подарунок до свят.",
+    "say": "Дякую, я отримав ваш подарунок сьогодні.",
+    "ans": ["Thank you, I received your gift today.", "Thanks, I received your present today.", "Thank you so much — I received your gift this morning."],
+    "keys": { "дякую": "thank*", "сьогодні": "today|this morning" }
+   },
+   {
+    "sit": "Ти працюєш у держустанові. Друг дивується, чому ти відмовився від дорогого подарунка.",
+    "say": "Мені не можна отримувати подарунки на роботі.",
+    "ans": ["I’m not allowed to receive gifts at work.", "I can’t receive gifts at work.", "At work we’re not allowed to receive gifts."],
+    "keys": { "не можна": "not|never", "робота": "work|job" }
+   }
+  ]
+ },
+ {
+  "id": 2391, "w": "wrap a present", "uk": "загортати подарунок", "lvl": "A2",
+  "forms": "wrap|wraps|wrapped|wrapped|wrapping",
+  "tail": "present*/gift*",
+  "near": "pack*|cover*",
+  "tasks": [
+   {
+    "sit": "Завтра день народження сестри, а ти ввечері вдома.",
+    "say": "Мені треба загорнути подарунок для сестри.",
+    "ans": ["I need to wrap a present for my sister.", "I have to wrap my sister’s present.", "I still need to wrap my sister’s present."],
+    "keys": { "сестра": "sister*" }
+   },
+   {
+    "sit": "Ти купуєш у книгарні книжку для друга.",
+    "say": "Загорніть, будь ласка, подарунок у святковий папір.",
+    "ans": ["Could you wrap the present in holiday paper, please?", "Please wrap the present in festive paper.", "Can you wrap this present in some nice paper?"],
+    "keys": { "папір": "paper" }
+   },
+   {
+    "sit": "Друг сміється, що твої подарунки завжди виглядають ідеально акуратно.",
+    "say": "Я навчився загортати подарунки з відео в інтернеті.",
+    "ans": ["I learned to wrap presents from videos online.", "I learned how to wrap presents by watching videos online.", "I watched online videos to learn how to wrap presents."],
+    "keys": { "відео": "video*|youtube|tutorial*|online" }
+   }
+  ]
+ },
+ {
+  "id": 2392, "w": "unwrap", "uk": "розгортати", "lvl": "A2",
+  "forms": "unwrap|unwraps|unwrapped|unwrapped|unwrapping",
+  "near": "open*|unpack*|unbox*|rip open|tear open|tore open",
+  "tasks": [
+   {
+    "sit": "Різдвяний ранок, діти прибігли до ялинки й чекають твого дозволу.",
+    "say": "Можна розгортати подарунки!",
+    "ans": ["You can unwrap your presents now!", "OK, you can unwrap the gifts!", "Go ahead, unwrap your presents!"],
+    "keys": { "подарунки": "present*|gift*" }
+   },
+   {
+    "sit": "Друзі сміються, що ти так довго відкриваєш подарунок.",
+    "say": "Я повільно розгортаю, щоб не порвати папір.",
+    "ans": ["I unwrap presents slowly so I don’t tear the paper.", "I’m unwrapping it slowly so the paper doesn’t rip.", "I always unwrap gifts carefully so I don’t rip the paper."],
+    "keys": { "папір": "paper", "порвати": "tear|rip*|tore|torn|damage*" }
+   },
+   {
+    "sit": "Ти в кінотеатрі, і фільм постійно заглушає шарудіння.",
+    "say": "Хтось позаду весь фільм розгортає цукерки.",
+    "ans": ["Someone behind me has been unwrapping candy the whole movie.", "The guy behind me keeps unwrapping sweets.", "Somebody behind us was unwrapping candy through the entire film."],
+    "keys": { "цукерки": "candy|candies|sweet*|chocolate*", "позаду": "behind" }
+   }
+  ]
+ },
+ {
+  "id": 2393, "w": "tie a ribbon", "uk": "зав’язати стрічку", "lvl": "B1",
+  "forms": "tie|ties|tied|tied|tying",
+  "tail": "ribbon*",
+  "near": "put a ribbon|add a ribbon|wrap*|attach*|bow",
+  "tasks": [
+   {
+    "sit": "Ти загорнув подарунок, але він виглядає якось простувато.",
+    "say": "Зав’яжу зверху червону стрічку.",
+    "ans": ["I’ll tie a red ribbon on top.", "Let me tie a red ribbon around it.", "I’ll just tie a red ribbon on top."],
+    "keys": { "червона": "red" }
+   },
+   {
+    "sit": "Ти збираєш доньку до школи на свято.",
+    "say": "Давай я зав’яжу тобі стрічку у волосся.",
+    "ans": ["Let me tie a ribbon in your hair.", "I’ll tie a ribbon in your hair.", "Come here, let me tie a ribbon in your hair."],
+    "keys": { "волосся": "hair" }
+   },
+   {
+    "sit": "Ти пакуєш валізу перед поїздкою. Друг питає, навіщо тобі стрічка.",
+    "say": "Я зав’яжу стрічку на ручці, щоб швидко впізнати свою валізу.",
+    "ans": ["I’ll tie a ribbon on the handle so I can spot my suitcase quickly.", "I tie a ribbon to the handle to recognize my suitcase fast.", "I always tie a ribbon on my bag so I can find it quickly."],
+    "keys": { "валіза": "suitcase*|bag*|luggage", "швидко": "quick*|fast|easily" }
+   }
+  ]
+ },
+ {
+  "id": 2394, "w": "regift", "uk": "передарувати", "lvl": "C1",
+  "forms": "regift|regifts|regifted|regifted|regifting",
+  "near": "pass on|passed on|pass it on|give away|gave away|give it away|give it to someone|gave it to",
+  "tasks": [
+   {
+    "sit": "Тобі цього року вже втретє подарували набір свічок. Подруга питає, що ти з ним робитимеш.",
+    "say": "Мабуть, передарую його комусь на Новий рік.",
+    "ans": ["I’ll probably regift it to someone for New Year’s.", "I’m probably going to regift it to someone at New Year.", "Honestly, I’ll probably just regift it for New Year."],
+    "keys": { "мабуть": "probabl*|maybe|might|guess", "Новий рік": "new year*" }
+   },
+   {
+    "sit": "Колега вагається, чи нормально дарувати річ, яку сама отримала в подарунок.",
+    "say": "Передаровувати нормально, тільки не тій самій людині, яка тобі це подарувала.",
+    "ans": ["It’s fine to regift, just not to the person who gave it to you.", "Regifting is OK, just never to the same person who gave it to you.", "You can regift — just don’t give it back to the person who gave it to you!"],
+    "keys": { "та сама людина": "person|same|whoever", "не": "not|never" }
+   },
+   {
+    "sit": "Ти розповідаєш другові про ніяковий момент на родинному святі.",
+    "say": "Здається, тітка передарувала мені свій старий шарф.",
+    "ans": ["I think my aunt regifted me her old scarf.", "I’m pretty sure my aunt regifted her old scarf to me.", "Pretty sure my aunt just regifted her old scarf to me."],
+    "keys": { "тітка": "aunt*|auntie", "шарф": "scarf|scarves" }
+   }
+  ]
+ },
+ {
+  "id": 2395, "w": "exchange gifts", "uk": "обмінюватися подарунками", "lvl": "B1",
+  "forms": "exchange|exchanges|exchanged|exchanged|exchanging",
+  "tail": "gift*/present*",
+  "near": "swap*|trade*|give each other|gave each other|giving each other",
+  "tasks": [
+   {
+    "sit": "Іноземний друг питає про ваші різдвяні традиції.",
+    "say": "Ми обмінюємося подарунками на Святвечір.",
+    "ans": ["We exchange gifts on Christmas Eve.", "On Christmas Eve we exchange presents.", "We usually exchange gifts on Christmas Eve."],
+    "keys": { "Святвечір": "christmas eve|eve" }
+   },
+   {
+    "sit": "В офісі організовують «Таємного Санту». Нова колега питає, як це працює.",
+    "say": "Ми обмінюємося подарунками до двадцяти доларів.",
+    "ans": ["We exchange gifts that cost under twenty dollars.", "We exchange gifts worth up to twenty dollars.", "We exchange gifts, but nothing over twenty bucks."],
+    "keys": { "двадцять": "twenty|20", "долари": "dollar*|buck*" }
+   },
+   {
+    "sit": "Ти дивишся новини про зустріч двох президентів і коментуєш батькові.",
+    "say": "Лідери обмінялися подарунками після переговорів.",
+    "ans": ["The leaders exchanged gifts after the talks.", "After the negotiations, the leaders exchanged gifts.", "The two presidents exchanged gifts after their meeting."],
+    "keys": { "лідери": "leader*|president*", "переговори": "talk*|negotiation*|meeting*" }
+   }
+  ]
+ },
+ {
+  "id": 2396, "w": "donate to charity", "uk": "жертвувати на благодійність", "lvl": "B1",
+  "forms": "donate|donates|donated|donated|donating",
+  "tail": "to",
+  "near": "give to|gave to|giving to|contribut*|support*|sponsor*",
+  "tasks": [
+   {
+    "sit": "Колега питає, чи ти кудись переказуєш гроші зі своєї зарплати.",
+    "say": "Щомісяця я жертвую на благодійність.",
+    "ans": ["I donate to charity every month.", "Every month I donate to charity.", "I try to donate to charity every month."],
+    "keys": { "щомісяця": "month*" }
+   },
+   {
+    "sit": "Друг питає, на який фонд ти регулярно переказуєш гроші.",
+    "say": "Я жертвую на фонд, який допомагає армії.",
+    "ans": ["I donate to a fund that helps the army.", "I donate to a foundation that supports the army.", "I’m donating to a charity that helps the military."],
+    "keys": { "армія": "army|military|soldier*|troops", "фонд": "fund*|foundation|charit*|organi*" }
+   },
+   {
+    "sit": "Ти розбираєш шафу й знаходиш купу речей, які давно не носиш.",
+    "say": "Цей одяг я віддам на благодійність.",
+    "ans": ["I’ll donate these clothes to charity.", "I’m going to donate these clothes to charity.", "I’ll donate all this stuff to a charity shop."],
+    "keys": { "одяг": "cloth*|stuff|things" }
+   }
+  ]
+ },
+ {
+  "id": 2397, "w": "tip Santa's helper", "uk": "дати чайові (помічникові Санти)", "lvl": "C1",
+  "forms": "tip|tips|tipped|tipped|tipping",
+  "tail": "helper*/elf/elves/santa*",
+  "near": "pay*|paid|give him some money|gave him some money|give him money|gave him money|reward*",
+  "tasks": [
+   {
+    "sit": "Ти з дітьми фотографувався із Сантою в торговому центрі. Ельф увесь час допомагав і смішив дітей.",
+    "say": "Давай дамо ельфові чайові — він так старався.",
+    "ans": ["Let’s tip the elf — he worked so hard.", "We should tip Santa’s helper, he really tried hard.", "I think we should tip the elf, he was great with the kids."],
+    "keys": { "старався": "hard|tried|great|so good|wonderful|amazing" }
+   },
+   {
+    "sit": "На дитячому святі у вашій фірмі працював аніматор — помічник Санти. Колега питає, чи треба йому щось дати.",
+    "say": "Так, я вже дав помічникові Санти двісті гривень чайових.",
+    "ans": ["Yes, I already tipped Santa’s helper two hundred hryvnias.", "Yeah, I tipped the elf 200 hryvnias.", "Sure, I already tipped Santa’s helper two hundred."],
+    "keys": { "двісті": "two hundred|200" }
+   },
+   {
+    "sit": "На Святвечір до вас додому приходив найнятий Санта з помічником. Дружина питає, чи ти розрахувався.",
+    "say": "Так, я заплатив Санті й дав чайові його помічникові.",
+    "ans": ["Yes, I paid Santa and tipped his helper.", "Yeah, I paid Santa and tipped the helper too.", "Yep, Santa got paid, and I tipped his helper as well."],
+    "keys": { "заплатив": "paid|pay*" }
+   }
+  ]
+ },
+ {
+  "id": 2398, "w": "stuff a stocking", "uk": "наповнити різдвяну шкарпетку", "lvl": "C1",
+  "forms": "stuff|stuffs|stuffed|stuffed|stuffing",
+  "tail": "stocking*",
+  "near": "fill*|put*|pack*|load*",
+  "tasks": [
+   {
+    "sit": "Святвечір, діти вже сплять. Ти з дружиною сидиш біля каміна.",
+    "say": "Давай наповнимо шкарпетки цукерками, поки діти сплять.",
+    "ans": ["Let’s stuff the stockings with candy while the kids are asleep.", "Let’s stuff their stockings with sweets while they sleep.", "Quick, let’s stuff the stockings with candy while the kids are sleeping."],
+    "keys": { "цукерки": "candy|candies|sweet*|chocolate*", "сплять": "sleep*|asleep|slept" }
+   },
+   {
+    "sit": "У грудні ти купуєш у магазині купу дрібничок. Продавчиня питає, для чого стільки.",
+    "say": "Це щоб наповнити дітям різдвяні шкарпетки.",
+    "ans": ["They’re to stuff the kids’ Christmas stockings.", "I’m stuffing Christmas stockings for my kids.", "It’s all for stuffing the kids’ stockings."],
+    "keys": { "діти": "kid*|child*|son*|daughter*" }
+   },
+   {
+    "sit": "Колега питає, як ви святкуєте Різдво у вашій інтернаціональній родині.",
+    "say": "Моя дружина з Англії, тож ми завжди наповнюємо різдвяні шкарпетки.",
+    "ans": ["My wife is English, so we always stuff stockings.", "Since my wife is British, we always stuff Christmas stockings.", "My wife’s from England, so we always stuff stockings at Christmas."],
+    "keys": { "дружина": "wife", "Англія": "english|england|brit*|uk" }
+   }
+  ]
+ },
+ {
+  "id": 2399, "w": "observe a tradition", "uk": "дотримуватися традиції", "lvl": "B2",
+  "forms": "observe|observes|observed|observed|observing",
+  "tail": "tradition*/custom*",
+  "near": "follow*|keep|keeps|kept|keeping|stick to|stuck to|respect*|honou?r*|maintain*",
+  "tasks": [
+   {
+    "sit": "Іноземний колега питає, чому ти не їси м’яса на Святвечір.",
+    "say": "Ми дотримуємося традиції: на Святвечір — дванадцять пісних страв.",
+    "ans": ["We observe a tradition: twelve meatless dishes on Christmas Eve.", "We observe the tradition of twelve meatless dishes on Christmas Eve.", "We still observe the old tradition — twelve dishes and no meat on Christmas Eve."],
+    "keys": { "дванадцять": "twelve|12", "Святвечір": "christmas eve|eve", "м’ясо": "meat*" }
+   },
+   {
+    "sit": "Ти їдеш на весілля до друзів в Індію й питаєш їх про правила.",
+    "say": "Я хочу дотримуватися всіх місцевих традицій.",
+    "ans": ["I want to observe all the local traditions.", "I’d like to observe every local tradition.", "I really want to observe all the local customs."],
+    "keys": { "місцеві": "local" }
+   },
+   {
+    "sit": "Колега-мусульманин цього місяця не обідає з вами. Новий працівник питає чому.",
+    "say": "Він дотримується релігійної традиції посту.",
+    "ans": ["He observes the religious tradition of fasting.", "He’s observing a religious tradition — he’s fasting.", "He observes a religious tradition, so he fasts this month."],
+    "keys": { "піст": "fast*", "релігійна": "relig*" }
+   }
+  ]
+ },
+ {
+  "id": 2400, "w": "attend a mass", "uk": "відвідати месу (службу)", "lvl": "B1",
+  "forms": "attend|attends|attended|attended|attending",
+  "tail": "mass/service*/liturgy",
+  "near": "go to|goes to|went to|going to|visit*|hear mass|heard mass",
+  "tasks": [
+   {
+    "sit": "Друг з іншої країни питає, як ваша сім’я проводить різдвяну ніч.",
+    "say": "Опівночі ми йдемо на месу в собор.",
+    "ans": ["At midnight we attend mass at the cathedral.", "We attend midnight mass at the cathedral.", "We always attend midnight mass at the cathedral."],
+    "keys": { "опівночі": "midnight", "собор": "cathedral|church" }
+   },
+   {
+    "sit": "Ти подорожуєш Італією й проводиш вихідні в Римі.",
+    "say": "У неділю я хочу відвідати месу у Ватикані.",
+    "ans": ["On Sunday I want to attend mass at the Vatican.", "I’d like to attend a mass in the Vatican on Sunday.", "I’m hoping to attend Sunday mass at the Vatican."],
+    "keys": { "неділя": "sunday", "Ватикан": "vatican|rome|st peter*" }
+   },
+   {
+    "sit": "Бабуся просить тебе піти з нею до церкви на Великдень.",
+    "say": "Добре, бабусю, я піду з тобою на службу.",
+    "ans": ["OK, Grandma, I’ll attend the service with you.", "Sure, Grandma, I’ll attend mass with you.", "Fine, Grandma, I’ll come and attend the service with you."],
+    "keys": { "бабуся": "grandma|granny|grandmother", "з тобою": "with you" }
+   }
+  ]
+ },
+ {
+  "id": 2401, "w": "visit relatives", "uk": "відвідувати родичів", "lvl": "A2",
+  "forms": "visit|visits|visited|visited|visiting",
+  "tail": "relative*/family/aunt*/uncle*/grand*/cousin*",
+  "near": "go to see|went to see|see|saw|stay with|stayed with|drop by|dropped by|call on",
+  "tasks": [
+   {
+    "sit": "Колега питає про твої плани на Великдень.",
+    "say": "На Великдень ми відвідуємо родичів у селі.",
+    "ans": ["At Easter we visit relatives in the village.", "We visit our relatives in the village for Easter.", "For Easter we usually visit relatives in the countryside."],
+    "keys": { "Великдень": "easter", "село": "village|countryside|country" }
+   },
+   {
+    "sit": "Ти прилетів до Канади. Прикордонник питає мету візиту.",
+    "say": "Я приїхав відвідати родичів.",
+    "ans": ["I’m here to visit relatives.", "I came to visit my relatives.", "I’m here visiting relatives."],
+    "keys": { "приїхав": "here|came|come" }
+   },
+   {
+    "sit": "Друг кличе тебе на риболовлю в суботу.",
+    "say": "Не можу, у суботу я відвідую родичів.",
+    "ans": ["I can’t, I’m visiting relatives on Saturday.", "Sorry, I have to visit relatives on Saturday.", "Can’t this Saturday — I’m visiting my relatives."],
+    "keys": { "субота": "saturday" }
+   }
+  ]
+ },
+ {
+  "id": 2402, "w": "bring flowers", "uk": "приносити квіти", "lvl": "A2",
+  "forms": "bring|brings|brought|brought|bringing",
+  "tail": "flower*/rose*/tulip*/bouquet*",
+  "near": "give|gave|given|buy|bought|get|got|take|took",
+  "tasks": [
+   {
+    "sit": "Ти йдеш у гості до бабусі на її день народження.",
+    "say": "Я принесу бабусі квіти.",
+    "ans": ["I’ll bring Grandma some flowers.", "I’m going to bring flowers to Grandma.", "I’ll bring my grandma flowers."],
+    "keys": { "бабуся": "grandma|granny|grandmother" }
+   },
+   {
+    "sit": "Перед першим побаченням ти радишся з другом.",
+    "say": "Як думаєш, принести їй квіти?",
+    "ans": ["Do you think I should bring her flowers?", "Should I bring flowers for her?", "What do you think — should I bring her some flowers?"],
+    "keys": { "як думаєш": "think|should" }
+   },
+   {
+    "sit": "Колега лежить у лікарні після операції. Ви з командою збираєтеся його провідати.",
+    "say": "Давайте принесемо йому квіти й фрукти.",
+    "ans": ["Let’s bring him flowers and fruit.", "Let’s bring him some flowers and fruit.", "Why don’t we bring him flowers and some fruit?"],
+    "keys": { "фрукти": "fruit*|apple*|orange*" }
+   }
+  ]
+ },
+ {
+  "id": 2404, "w": "break the fast", "uk": "розговлятися", "lvl": "C1",
+  "forms": "break|breaks|broke|broken|breaking",
+  "tail": "fast",
+  "near": "eat|ate|eaten|eating|end the fast|ended the fast|end my fast|iftar",
+  "tasks": [
+   {
+    "sit": "Великодній ранок. Ви повернулися з церкви з освяченим кошиком.",
+    "say": "Тепер можна розговлятися — сідаймо за стіл.",
+    "ans": ["Now we can break the fast — let’s sit down at the table.", "Now it’s time to break the fast, so let’s sit down.", "Alright, we can finally break the fast. Everyone to the table!"],
+    "keys": { "стіл": "table|sit*" }
+   },
+   {
+    "sit": "Колега-мусульманин запросив тебе ввечері на іфтар. Друг питає, чому так пізно.",
+    "say": "Він розговляється лише після заходу сонця.",
+    "ans": ["He breaks the fast only after sunset.", "He breaks his fast after the sun goes down.", "He only breaks his fast once the sun sets."],
+    "keys": { "захід сонця": "sunset|sun*|dark" }
+   },
+   {
+    "sit": "Ти практикуєш інтервальне голодування. О десятій ранку колега пропонує тобі печиво.",
+    "say": "Дякую, але я розговляюся лише о дванадцятій.",
+    "ans": ["Thanks, but I don’t break my fast until noon.", "Thanks, I only break my fast at twelve.", "No thanks, I break my fast at noon."],
+    "keys": { "о дванадцятій": "noon|twelve|12|midday" }
+   }
+  ]
+ },
+ {
+  "id": 2405, "w": "carol", "uk": "колядувати", "lvl": "C1",
+  "forms": "carol|carols|caroled/carolled|caroled/carolled|caroling/carolling",
+  "near": "sing|sang|sung|singing|sings",
+  "tasks": [
+   {
+    "sit": "Іноземний колега питає, що ви робили на Різдво, коли ти був дитиною.",
+    "say": "Ми з друзями колядували по хатах на все село.",
+    "ans": ["My friends and I went caroling door to door.", "We carolled door to door with friends.", "As kids, my friends and I went caroling door to door around the village."],
+    "keys": { "друзі": "friend*", "по хатах": "door*|house*|village" }
+   },
+   {
+    "sit": "Ти організовуєш благодійну акцію перед Різдвом у своєму районі.",
+    "say": "Ми будемо колядувати й збирати гроші для лікарні.",
+    "ans": ["We’ll carol and collect money for the hospital.", "We’re going to carol to raise money for the hospital.", "We’re caroling around the neighborhood to raise money for the hospital."],
+    "keys": { "гроші": "money|fund*|donation*", "лікарня": "hospital*" }
+   },
+   {
+    "sit": "Увечері хтось дзвонить у двері, і ти чуєш спів. Дружина питає з кухні, хто там.",
+    "say": "Це діти колядують!",
+    "ans": ["It’s some kids caroling!", "Some kids are caroling at the door!", "It’s just the kids from next door caroling!"],
+    "keys": { "діти": "kid*|child*" }
+   }
+  ]
+ },
+ {
+  "id": 2406, "w": "trick-or-treat", "uk": "ходити за цукерками (Хелловін)", "lvl": "B2",
+  "forms": "trick-or-treat|trick-or-treats|trick-or-treated|trick-or-treated|trick-or-treating",
+  "near": "go door to door|went door to door|ask for candy|asking for candy|collect candy|collecting candy",
+  "tasks": [
+   {
+    "sit": "Ти з дітьми купуєш костюми на Хелловін.",
+    "say": "Увечері підемо по сусідах за цукерками.",
+    "ans": ["Tonight we’ll go trick-or-treating around the neighborhood.", "We’re going trick-or-treating in the neighborhood tonight.", "Tonight we’re trick-or-treating on our street."],
+    "keys": { "увечері": "tonight|evening", "по сусідах": "neighbo*|street|block|around" }
+   },
+   {
+    "sit": "Колега з Канади питає, чи в Україні святкують Хелловін.",
+    "say": "У нас діти рідко ходять по будинках за цукерками.",
+    "ans": ["Kids here rarely go trick-or-treating.", "Children in Ukraine don’t really trick-or-treat.", "Our kids hardly ever go trick-or-treating."],
+    "keys": { "рідко": "rarely|seldom|hardly|not really|not often|not usually", "діти": "kid*|child*" }
+   },
+   {
+    "sit": "Друг знаходить старе фото, де ти в костюмі привида.",
+    "say": "Мені тут вісім — я тоді вперше ходив за цукерками.",
+    "ans": ["I was eight — it was my first time trick-or-treating.", "I was eight and went trick-or-treating for the first time.", "That’s me at eight, trick-or-treating for the first time!"],
+    "keys": { "вісім": "eight|8", "вперше": "first" }
+   }
+  ]
+ },
+ {
+  "id": 2407, "w": "light fireworks", "uk": "запалювати феєрверки", "lvl": "B1",
+  "forms": "light|lights|lit/lighted|lit/lighted|lighting",
+  "tail": "firework*",
+  "near": "set off|let off|launch*|shoot off|shot off|fire off|fired off",
+  "tasks": [
+   {
+    "sit": "За хвилину до півночі ви з друзями виходите у двір.",
+    "say": "Опівночі запалимо феєрверки!",
+    "ans": ["We’ll light fireworks at midnight!", "At midnight we’re going to light the fireworks!", "Let’s light the fireworks right at midnight!"],
+    "keys": { "опівночі": "midnight|twelve|12" }
+   },
+   {
+    "sit": "Твій племінник-підліток хоче сам підпалити великий салют.",
+    "say": "Не запалюй феєрверки сам — це небезпечно.",
+    "ans": ["Don’t light fireworks by yourself — it’s dangerous.", "Never light fireworks alone, it’s dangerous.", "Hey, don’t light fireworks on your own, it’s not safe!"],
+    "keys": { "небезпечно": "danger*|not safe|unsafe|risky", "не": "not|never" }
+   },
+   {
+    "sit": "Турист питає тебе про правила святкування в місті.",
+    "say": "У центрі міста заборонено запускати феєрверки.",
+    "ans": ["You’re not allowed to light fireworks in the city center.", "It’s forbidden to light fireworks downtown.", "Lighting fireworks in the city centre is banned."],
+    "keys": { "заборонено": "not allowed|forbidden|banned|illegal|prohibited|can not", "центр": "cent*|downtown" }
+   }
+  ]
+ },
+ {
+  "id": 2408, "w": "dress up in costume", "uk": "вдягнути костюм, перевдягнутися", "lvl": "B1",
+  "forms": "dress|dresses|dressed|dressed|dressing",
+  "tail": "up costume*",
+  "near": "put on|wear*|wore|worn|disguis*",
+  "tasks": [
+   {
+    "sit": "Тебе запросили на вечірку на Хелловін. Ти пояснюєш партнерові умови.",
+    "say": "Там усі мають прийти в костюмах.",
+    "ans": ["Everyone has to dress up in costume.", "We all have to dress up in costumes.", "It’s a party where everyone dresses up in costume."],
+    "keys": { "усі": "everyone|everybody|all" }
+   },
+   {
+    "sit": "У школі в сина карнавал. Мама питає, ким він буде.",
+    "say": "Він перевдягнеться в костюм пірата.",
+    "ans": ["He’s going to dress up in a pirate costume.", "He’ll dress up in a pirate costume.", "He wants to dress up in his pirate costume."],
+    "keys": { "пірат": "pirate*" }
+   },
+   {
+    "sit": "На корпоратив у стилі двадцятих треба прийти у вбранні тієї епохи. Колега вагається.",
+    "say": "Давай теж перевдягнемося — буде весело!",
+    "ans": ["Let’s dress up in costumes too — it’ll be fun!", "Come on, let’s dress up in costume, it’ll be fun!", "We should dress up in costumes too, it’ll be a blast!"],
+    "keys": { "весело": "fun|blast|great|laugh*" }
+   }
+  ]
+ },
+ {
+  "id": 2409, "w": "honor tradition", "uk": "вшановувати традицію", "lvl": "C1",
+  "forms": "honor/honour|honors/honours|honored/honoured|honored/honoured|honoring/honouring",
+  "tail": "tradition*/custom*",
+  "near": "respect*|observe*|keep|kept|keeping|follow*|preserv*|celebrat*|maintain*",
+  "tasks": [
+   {
+    "sit": "Ти пояснюєш дітям, чому на Святвечір на столі завжди ставлять ще одну тарілку.",
+    "say": "Так ми вшановуємо традицію наших прадідів.",
+    "ans": ["This is how we honor our ancestors’ tradition.", "We honor a tradition that goes back to our great-grandparents.", "It’s our way of honoring our great-grandparents’ tradition."],
+    "keys": { "прадіди": "ancest*|great-grand*|grand*" }
+   },
+   {
+    "sit": "Ти керуєш невеликою фірмою. Новий працівник питає, чому першого робочого дня року всі обідають разом.",
+    "say": "Ми вшановуємо традицію, яку започаткував засновник компанії.",
+    "ans": ["We honor a tradition started by the company’s founder.", "We’re honoring a tradition that our founder started.", "It’s how we honor a tradition our founder began."],
+    "keys": { "засновник": "founder*", "започаткував": "start*|began|begun|creat*" }
+   },
+   {
+    "sit": "На випускному в університеті всі випускники підкидають шапки. Мама питає, навіщо.",
+    "say": "Так випускники вшановують давню традицію.",
+    "ans": ["That’s how graduates honor an old tradition.", "Graduates do it to honor a long-standing tradition.", "They’re just honoring an old tradition."],
+    "keys": { "давня": "old|long-standing|ancient|long" }
+   }
+  ]
+ },
+ {
+  "id": 2410, "w": "pass down", "uk": "передавати (з покоління в покоління)", "lvl": "B2",
+  "forms": "pass|passes|passed|passed|passing",
+  "tail": "down",
+  "near": "hand down|handed down|hands down|inherit*|pass on|passed on|passes on",
+  "tasks": [
+   {
+    "sit": "Подруга хвалить твій борщ і просить рецепт.",
+    "say": "Цей рецепт у нашій родині передається з покоління в покоління.",
+    "ans": ["This recipe has been passed down in our family for generations.", "In my family, this recipe is passed down from generation to generation.", "It’s a family recipe, passed down for generations."],
+    "keys": { "рецепт": "recipe*", "родина": "family", "покоління": "generation*" }
+   },
+   {
+    "sit": "Наречена питає про старовинний перстень, який ти їй подарував.",
+    "say": "Цей перстень мені передала бабуся.",
+    "ans": ["This ring was passed down to me by my grandmother.", "My grandmother passed this ring down to me.", "My grandma passed this ring down to me."],
+    "keys": { "перстень": "ring", "бабуся": "grand*|granny|nan*" }
+   },
+   {
+    "sit": "Колега дивується, як вправно ти лагодиш старі годинники.",
+    "say": "Це ремесло в нашій родині передається від батька до сина.",
+    "ans": ["This craft is passed down from father to son in our family.", "In our family, this skill gets passed down from father to son.", "It’s a craft that’s been passed down from father to son."],
+    "keys": { "батько, син": "father*|dad*|son*", "ремесло": "craft*|skill*|trade" }
+   }
+  ]
+ },
+ {
+  "id": 2411, "w": "play video games", "uk": "грати у відеоігри", "lvl": "A2",
+  "forms": "play|plays|played|played|playing",
+  "tail": "game*",
+  "near": "gaming|gamer|game on",
+  "tasks": [
+   {
+    "sit": "Колега питає, як ти відпочиваєш після роботи.",
+    "say": "Увечері я граю у відеоігри.",
+    "ans": ["I play video games in the evening.", "In the evenings I play video games.", "I usually play video games after work."],
+    "keys": { "увечері": "evening*|night|after work" }
+   },
+   {
+    "sit": "Твій син сидить за приставкою, а уроки не зроблені.",
+    "say": "Жодних відеоігор, поки не зробиш домашнє завдання.",
+    "ans": ["You can’t play video games until you do your homework.", "You can’t play video games before your homework is done.", "No playing video games until your homework is done!"],
+    "keys": { "домашнє завдання": "homework|school work|lessons", "ні": "not|no" }
+   },
+   {
+    "sit": "Ти кличеш друга до себе на вихідні.",
+    "say": "Давай у суботу пограємо у відеоігри в мене.",
+    "ans": ["Let’s play video games at my place on Saturday.", "Come over on Saturday and we’ll play video games.", "Do you want to play video games at my place on Saturday?"],
+    "keys": { "субота": "saturday", "в мене": "my place|my house|mine|over|my apartment" }
+   }
+  ]
+ },
+ {
+  "id": 2412, "w": "level up", "uk": "прокачувати (персонажа)", "lvl": "B2",
+  "forms": "level|levels|leveled/levelled|leveled/levelled|leveling/levelling",
+  "tail": "up",
+  "near": "upgrade*|boost*|train*|grind*|ground|farm*",
+  "tasks": [
+   {
+    "sit": "Ти граєш онлайн з другом, і вас постійно перемагають.",
+    "say": "Спочатку треба прокачати наших персонажів.",
+    "ans": ["First we need to level up our characters.", "We have to level our characters up first.", "Let’s level up our characters first."],
+    "keys": { "персонажі": "character*|hero*|guy*", "спочатку": "first|before" }
+   },
+   {
+    "sit": "Сестра питає, чому ти не спав до третьої ночі.",
+    "say": "Я прокачував свого мага до п’ятдесятого рівня.",
+    "ans": ["I was leveling up my mage to level fifty.", "I leveled my wizard up to level 50.", "I was busy leveling up my mage to fifty!"],
+    "keys": { "маг": "mage|wizard|character", "п’ятдесятий": "fift*|50*" }
+   },
+   {
+    "sit": "Ти читаєш форум гравців і обурюєшся новою грою.",
+    "say": "У цій грі героя можна прокачати за гроші — це нечесно.",
+    "ans": ["In this game you can level up your hero for money — that’s unfair.", "You can pay to level up your hero in this game. It’s not fair.", "This game lets you level up your hero with real money — so unfair."],
+    "keys": { "гроші": "money|pay*|paid|cash", "нечесно": "unfair|not fair|cheat*" }
+   }
+  ]
+ },
+ {
+  "id": 2413, "w": "grind", "uk": "фармити, гриндити (досвід)", "lvl": "C1",
+  "forms": "grind|grinds|ground|ground|grinding",
+  "near": "farm*|level up|leveling up|levelling up|repeat*",
+  "tasks": [
+   {
+    "sit": "Друг кличе тебе прогулятися, а ти саме граєш.",
+    "say": "Не можу, я фармлю досвід для наступного рівня.",
+    "ans": ["I can’t, I’m grinding XP for the next level.", "Can’t right now — I’m grinding XP for the next level.", "Sorry, I’m grinding experience to reach the next level."],
+    "keys": { "досвід": "xp|exp*", "рівень": "level*" }
+   },
+   {
+    "sit": "Ти пишеш відгук на нову гру в онлайн-магазині.",
+    "say": "Щоб пройти далі, доводиться годинами фармити тих самих монстрів.",
+    "ans": ["You have to grind the same monsters for hours to progress.", "To move on, you have to grind the same monsters for hours.", "You’re stuck grinding the same monsters for hours just to progress."],
+    "keys": { "години": "hour*", "монстри": "monster*|enem*|mob*" }
+   },
+   {
+    "sit": "Колега питає, як минули твої вихідні.",
+    "say": "Я всі вихідні фармив досвід у новій грі.",
+    "ans": ["I spent the whole weekend grinding XP in the new game.", "I ground XP all weekend in the new game.", "I was grinding XP in the new game all weekend."],
+    "keys": { "вихідні": "weekend*", "гра": "game*" }
+   }
+  ]
+ }
+]

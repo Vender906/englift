@@ -1,0 +1,641 @@
+[
+ {
+  "id": 2439, "w": "play a hand", "uk": "грати роздачу", "lvl": "B2",
+  "forms": "play|plays|played|played|playing",
+  "tail": "hand*",
+  "near": "round*|deal|game",
+  "tasks": [
+   {
+    "sit": "Друзі кличуть тебе на покер, але ти маєш рано вставати на роботу.",
+    "say": "Гаразд, зіграю ще одну роздачу, і все — додому.",
+    "ans": ["Okay, I’ll play one more hand and then I’m going home.", "Fine, I’ll play one more hand and then head home.", "All right, let me play one last hand and then I’m off home."],
+    "keys": { "ще одну": "one more|last|another|one", "додому": "home|leav*|off|go" }
+   },
+   {
+    "sit": "Ти розповідаєш колезі про вечір у казино під час відрядження.",
+    "say": "Я зіграв лише кілька роздач у блекджек і вчасно зупинився.",
+    "ans": ["I only played a few hands of blackjack and stopped in time.", "I played just a couple of hands of blackjack and then quit while I was ahead.", "I only played a few hands of blackjack, then I stopped."],
+    "keys": { "кілька": "few|couple|some|two|three", "блекджек": "blackjack|twenty-one|21|cards" }
+   },
+   {
+    "sit": "Ти вчиш подругу грати в покер онлайн, і вона скидає всі карти.",
+    "say": "З такими картами варто зіграти роздачу, не пасуй!",
+    "ans": ["With cards like that, you should play the hand — don’t fold!", "You should play this hand with those cards, don’t fold!", "Don’t fold — those cards are good, play the hand!"],
+    "keys": { "не пасуй": "fold*|not quit|give up|throw" }
+   }
+  ]
+ },
+ {
+  "id": 2440, "w": "fold", "uk": "скинути карти (спасувати)", "lvl": "B2",
+  "forms": "fold|folds|folded|folded|folding",
+  "near": "pass*|give up|gave up|quit*|throw* in|threw in|drop out|dropped out|muck*",
+  "tasks": [
+   {
+    "sit": "Ти граєш у покер з друзями. У тебе на руках двійка і сімка, а хтось сильно підняв ставку.",
+    "say": "З такими картами я пасую.",
+    "ans": ["With cards like these, I fold.", "I’m folding with these cards.", "Nope, with this hand I fold."],
+    "keys": { "карти": "card*|hand|these|this" }
+   },
+   {
+    "sit": "Ви з колегою дивитеся трансляцію покерного турніру.",
+    "say": "Не можу повірити, що він скинув карти з двома тузами!",
+    "ans": ["I can’t believe he folded with two aces!", "I can’t believe he folded pocket aces!", "No way — he folded with two aces?!"],
+    "keys": { "тузи": "ace*", "не можу повірити": "believe|no way|seriously|crazy|what" }
+   },
+   {
+    "sit": "Ти навчаєш новачка грати в покер у клубі.",
+    "say": "Якщо в тебе нічого немає, краще скинути карти одразу.",
+    "ans": ["If you have nothing, it’s better to fold right away.", "If you’ve got nothing, you should just fold straight away.", "Got nothing? Then fold right away."],
+    "keys": { "нічого": "nothing|not have anything|bad|weak", "одразу": "right away|straight away|immediately|early|now|at once" }
+   }
+  ]
+ },
+ {
+  "id": 2441, "w": "call", "uk": "колити (зрівняти ставку)", "lvl": "B2",
+  "forms": "call|calls|called|called|calling",
+  "near": "match*|see his bet|see your bet|see the bet|meet* the bet|stay in",
+  "tasks": [
+   {
+    "sit": "Ти граєш у покер з друзями, і сусід підняв ставку до п’ятдесяти фішок. Ти віриш у свої карти.",
+    "say": "Я зрівнюю — колю твої п’ятдесят.",
+    "ans": ["I call your fifty.", "I’ll call your fifty chips.", "Okay, I call — fifty."],
+    "keys": { "п’ятдесят": "fifty|50" }
+   },
+   {
+    "sit": "Після покерного вечора ти розповідаєш дружині, як програв.",
+    "say": "Я заколив його ставку, а в нього виявився флеш.",
+    "ans": ["I called his bet, and he had a flush.", "I called his bet, but it turned out he had a flush.", "I called, and of course he had a flush."],
+    "keys": { "флеш": "flush", "в нього": "he|his" }
+   },
+   {
+    "sit": "Ти дивишся покерний турнір і коментуєш другу, що зробив би на місці гравця.",
+    "say": "Я б на його місці не колив, це ж очевидний блеф… або ні.",
+    "ans": ["I wouldn’t call if I were him — it’s obviously a bluff… or not.", "If I were him, I wouldn’t call; it looks like a bluff… maybe.", "I wouldn’t call there — it’s a bluff… or is it?"],
+    "keys": { "не": "not|never", "блеф": "bluff*" }
+   }
+  ]
+ },
+ {
+  "id": 2442, "w": "raise", "uk": "підвищити ставку (рейзити)", "lvl": "B2",
+  "forms": "raise|raises|raised|raised|raising",
+  "near": "bet more|up the bet|upped the bet|increase*|go higher|went higher|put in more|re-raise*",
+  "tasks": [
+   {
+    "sit": "Граючи в покер удома з друзями, ти отримав дві королеви. Настав твій хід.",
+    "say": "Я підвищую ставку на сто фішок.",
+    "ans": ["I raise a hundred chips.", "I’ll raise by one hundred.", "I raise — another hundred chips."],
+    "keys": { "сто": "hundred|100", "фішки": "chip*|hundred|100" }
+   },
+   {
+    "sit": "Ти розповідаєш другу, як поводився новачок за покерним столом.",
+    "say": "Він підвищував ставку щоразу, навіть зі слабкими картами.",
+    "ans": ["He raised every time, even with weak cards.", "He kept raising every single hand, even with bad cards.", "The guy raised every time, even with a terrible hand."],
+    "keys": { "щоразу": "every*|always|kept", "слабкі карти": "weak|bad|terrible|nothing|rubbish|trash" }
+   },
+   {
+    "sit": "Твоя подруга вчиться грати в покер онлайн і питає поради.",
+    "say": "Якщо в тебе сильні карти, підвищуй ставку, а не просто зрівнюй.",
+    "ans": ["If you have strong cards, raise instead of just calling.", "When you’ve got a strong hand, raise — don’t just call.", "Got good cards? Raise, don’t just call."],
+    "keys": { "сильні карти": "strong|good|great|big", "не просто зрівнюй": "call*|match*|instead|not just" }
+   }
+  ]
+ },
+ {
+  "id": 2443, "w": "bluff", "uk": "блефувати", "lvl": "B2",
+  "forms": "bluff|bluffs|bluffed|bluffed|bluffing",
+  "near": "lie|lied|lying|fake*|pretend*|trick*|fool*|con",
+  "tasks": [
+   {
+    "sit": "Після покеру з друзями виявилося, що той, хто виграв банк, мав на руках лише двійку.",
+    "say": "Він блефував із двійкою, і всі повірили!",
+    "ans": ["He bluffed with a two, and everyone believed him!", "He was bluffing with a two and we all fell for it!", "He bluffed with just a two — and everybody bought it!"],
+    "keys": { "двійка": "two|2|deuce", "всі повірили": "everyone|everybody|all|we|believ*|fell for|bought" }
+   },
+   {
+    "sit": "Ти граєш у карти з братом, і він раптом дуже впевнено ставить усе.",
+    "say": "Ти блефуєш, у тебе нічого немає!",
+    "ans": ["You’re bluffing, you’ve got nothing!", "You’re bluffing — you don’t have anything!", "Come on, you’re bluffing, you have nothing!"],
+    "keys": { "нічого": "nothing|not have anything|anything" }
+   },
+   {
+    "sit": "Колега питає, як ти навчився так добре грати в покер.",
+    "say": "Головне — не блефувати надто часто.",
+    "ans": ["The key is not to bluff too often.", "The main thing is not bluffing too often.", "Basically, just don’t bluff too much."],
+    "keys": { "не": "not|never", "надто часто": "too often|too much|all the time|often" }
+   }
+  ]
+ },
+ {
+  "id": 2444, "w": "go all-in", "uk": "піти олл-ін (поставити все)", "lvl": "C1",
+  "forms": "go|goes|went|gone|going",
+  "tail": "all-in",
+  "near": "bet everything|bet it all|put everything|put all|shove*|push* all|risk* everything",
+  "tasks": [
+   {
+    "sit": "Ви з друзями дивитеся фінал покерного турніру по телевізору.",
+    "say": "Він пішов олл-ін на флопі з парою сімок!",
+    "ans": ["He went all-in on the flop with a pair of sevens!", "He went all-in with pocket sevens on the flop!", "He just went all-in on the flop — with a pair of sevens!"],
+    "keys": { "флоп": "flop", "сімки": "seven*|7*" }
+   },
+   {
+    "sit": "Ти граєш у покер онлайн, і в тебе залишилося зовсім мало фішок.",
+    "say": "Фішок майже не лишилося, тож я йду олл-ін.",
+    "ans": ["I’m almost out of chips, so I’m going all-in.", "I have hardly any chips left, so I’ll go all-in.", "Barely any chips left — I’m going all-in."],
+    "keys": { "фішки": "chip*|stack", "майже не лишилося": "almost|hardly|barely|few|short|out of|little" }
+   },
+   {
+    "sit": "Друг розповідає, що вчора програв усе в покер. Ти питаєш, як це сталося.",
+    "say": "Навіщо ти пішов олл-ін з такими слабкими картами?",
+    "ans": ["Why did you go all-in with such weak cards?", "Why would you go all-in with a hand that bad?", "Seriously, why did you go all-in with those terrible cards?"],
+    "keys": { "навіщо": "why|what for", "слабкі карти": "weak|bad|terrible|awful|trash|rubbish" }
+   }
+  ]
+ },
+ {
+  "id": 2445, "w": "win the pot", "uk": "забрати банк", "lvl": "B2",
+  "forms": "win|wins|won|won|winning",
+  "tail": "pot*",
+  "near": "take the pot|took the pot|scoop*|collect*|rake* in|got the money|take it all",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш дружині, як минув покерний вечір із колегами.",
+    "say": "Я забрав увесь банк останньою роздачею!",
+    "ans": ["I won the whole pot on the last hand!", "On the very last hand, I won the whole pot!", "I won the entire pot on the final hand!"],
+    "keys": { "увесь": "whole|entire|all|big", "остання роздача": "last|final|end" }
+   },
+   {
+    "sit": "Ти навчаєш племінника правил покеру на сірниках.",
+    "say": "Хто має найкращу комбінацію, той забирає банк.",
+    "ans": ["Whoever has the best hand wins the pot.", "The player with the best hand wins the pot.", "Best hand wins the pot — simple."],
+    "keys": { "найкраща комбінація": "best|highest|strongest|top" }
+   },
+   {
+    "sit": "Ти дивишся покер онлайн, і гравець виграв величезну суму, лише блефуючи.",
+    "say": "Він забрав банк, не маючи навіть пари!",
+    "ans": ["He won the pot without even having a pair!", "He won the pot and didn’t even have a pair!", "He won the pot with nothing — not even a pair!"],
+    "keys": { "навіть пари": "pair|nothing", "не": "not|without|nothing|no" }
+   }
+  ]
+ },
+ {
+  "id": 2446, "w": "cheat with a marked deck", "uk": "жульничати міченими картами", "lvl": "C1",
+  "forms": "cheat|cheats|cheated|cheated|cheating",
+  "tail": "with marked deck*/card*",
+  "near": "trick*|scam*|con|rig*|swindl*|use* marked|used marked",
+  "tasks": [
+   {
+    "sit": "Ти дивишся з другом фільм про гангстерів 30-х років. Головний герой постійно виграє в карти.",
+    "say": "Він точно жульничає міченими картами.",
+    "ans": ["He’s definitely cheating with marked cards.", "He must be cheating with a marked deck.", "No way that’s luck — he’s cheating with marked cards."],
+    "keys": { "точно": "definitely|must|sure|clearly|obviously|no way|surely" }
+   },
+   {
+    "sit": "Ти читаєш новини й розповідаєш колезі про скандал у казино.",
+    "say": "Дилера спіймали на тому, що він жульничав міченою колодою.",
+    "ans": ["A dealer was caught cheating with a marked deck.", "They caught a dealer who was cheating with a marked deck.", "Apparently a dealer got caught cheating with marked cards."],
+    "keys": { "дилер": "dealer*|croupier*|employee*|guy", "спіймали": "caught|busted|arrest*|found" }
+   },
+   {
+    "sit": "Твій дядько колись був професійним картярем і показує тобі старі фокуси.",
+    "say": "Колись у поїздах шахраї жульничали міченими картами.",
+    "ans": ["Back in the day, con men on trains cheated with marked cards.", "Years ago, swindlers used to cheat with marked decks on trains.", "In the old days, card sharks would cheat with marked cards on trains."],
+    "keys": { "шахраї": "con*|swindler*|shark*|sharp*|crook*|scammer*|cheat*|gambler*", "поїзди": "train*|railway*" }
+   }
+  ]
+ },
+ {
+  "id": 2447, "w": "solve a puzzle", "uk": "розв’язати головоломку", "lvl": "A2",
+  "forms": "solve|solves|solved|solved|solving",
+  "tail": "puzzle*/riddle*/sudoku*/it",
+  "near": "figure out|figured out|work out|worked out|crack*|finish*|do|did|done",
+  "tasks": [
+   {
+    "sit": "У неділю зранку ти п’єш каву й розповідаєш партнерові про свій ранок.",
+    "say": "Я розв’язав складну головоломку за десять хвилин!",
+    "ans": ["I solved a hard puzzle in ten minutes!", "I solved a really difficult puzzle in just ten minutes!", "I solved that tricky puzzle in ten minutes!"],
+    "keys": { "складну": "hard|difficult|tricky|tough|really", "десять хвилин": "ten|10|minute*" }
+   },
+   {
+    "sit": "Твоя донька не може впоратися з логічною задачею в дитячому журналі.",
+    "say": "Давай розв’яжемо цю головоломку разом.",
+    "ans": ["Let’s solve this puzzle together.", "Come on, let’s solve the puzzle together.", "How about we solve this puzzle together?"],
+    "keys": { "разом": "together|with me|both|we" }
+   },
+   {
+    "sit": "Колега показує тобі щоденне судоку в газеті.",
+    "say": "Я щодня розв’язую судоку в метро по дорозі на роботу.",
+    "ans": ["I solve a sudoku puzzle on the subway every day on my way to work.", "Every day I solve the sudoku on the metro on my way to work.", "I solve a sudoku every morning on the subway to work."],
+    "keys": { "метро": "subway|metro|underground|tube|train", "робота": "work|office|job" }
+   }
+  ]
+ },
+ {
+  "id": 2448, "w": "do a crossword", "uk": "розгадувати кросворд", "lvl": "B1",
+  "forms": "do|does|did|done|doing",
+  "tail": "crossword*",
+  "near": "solve*|solving|fill* in|complet*|finish*|work on|worked on",
+  "tasks": [
+   {
+    "sit": "Твоя бабуся каже, що її пам’ять досі чудова. Ти пояснюєш подрузі, у чому секрет.",
+    "say": "Вона щоранку розгадує кросворд за кавою.",
+    "ans": ["She does a crossword every morning with her coffee.", "Every morning she does the crossword over coffee.", "She does the crossword every morning with a cup of coffee."],
+    "keys": { "щоранку": "every morning|each morning|morning*|daily", "кава": "coffee" }
+   },
+   {
+    "sit": "У довгому перельоті сусід питає, як ти не нудьгуєш.",
+    "say": "Я завжди розгадую кросворди в літаку, так час летить швидше.",
+    "ans": ["I always do crosswords on planes; it makes the time go faster.", "I always do a crossword on the plane — time flies.", "I always do crosswords when I fly, it makes time go by quicker."],
+    "keys": { "літак": "plane*|flight*|fly|flying|flies", "час": "time|faster|quick*" }
+   },
+   {
+    "sit": "Твій друг-лінгвіст хвалиться, що вчить англійську через газету.",
+    "say": "Я розгадую англійський кросворд щонеділі, щоб вивчити нові слова.",
+    "ans": ["I do an English crossword every Sunday to learn new words.", "Every Sunday I do the English crossword to learn new words.", "I do an English crossword every Sunday — great for new vocabulary."],
+    "keys": { "щонеділі": "sunday*|weekend*|every week|weekly", "нові слова": "word*|vocabulary|vocab" }
+   }
+  ]
+ },
+ {
+  "id": 2450, "w": "assemble a jigsaw", "uk": "збирати пазл", "lvl": "B1",
+  "forms": "assemble|assembles|assembled|assembled|assembling",
+  "tail": "jigsaw*/puzzle*",
+  "near": "do|did|done|put together|put it together|finish*|complet*|build*|built|solv*",
+  "tasks": [
+   {
+    "sit": "Колега питає, чим ви з родиною займалися під час вимкнень світла взимку.",
+    "say": "Ми при свічках збирали пазл на тисячу деталей.",
+    "ans": ["We assembled a thousand-piece jigsaw by candlelight.", "We assembled a 1,000-piece jigsaw puzzle by candlelight.", "We assembled a huge jigsaw — a thousand pieces — by candlelight."],
+    "keys": { "тисяча деталей": "thousand|1,000|1000|piece*", "свічки": "candle*" }
+   },
+   {
+    "sit": "Ти в магазині вибираєш подарунок для семирічного племінника.",
+    "say": "Йому подобається збирати пазли з динозаврами.",
+    "ans": ["He likes to assemble jigsaws with dinosaurs.", "He loves assembling dinosaur jigsaw puzzles.", "He really enjoys assembling jigsaw puzzles with dinosaurs on them."],
+    "keys": { "динозаври": "dinosaur*|dino*", "подобається": "like*|love*|enjoy*" }
+   },
+   {
+    "sit": "Ти розповідаєш подрузі про свій спокійний відпочинок у будиночку в горах.",
+    "say": "Ми цілий тиждень збирали пазл і пили какао.",
+    "ans": ["We spent the whole week assembling a jigsaw and drinking cocoa.", "All week we assembled a jigsaw and drank hot chocolate.", "We just assembled a jigsaw and drank cocoa all week."],
+    "keys": { "тиждень": "week*", "какао": "cocoa|hot chocolate|chocolate" }
+   }
+  ]
+ },
+ {
+  "id": 2451, "w": "take apart", "uk": "розбирати (на частини)", "lvl": "B2",
+  "forms": "take|takes|took|taken|taking",
+  "tail": "apart",
+  "near": "disassembl*|dismantl*|break up|broke up|break it up|pull apart|pulled apart|undo|undid",
+  "tasks": [
+   {
+    "sit": "Ти з донькою зібрали пазл, але помітили, що одна деталь стоїть не на своєму місці.",
+    "say": "Доведеться розібрати цю частину і почати спочатку.",
+    "ans": ["We’ll have to take this part apart and start over.", "We need to take this bit apart and start again.", "Looks like we have to take this section apart and redo it."],
+    "keys": { "спочатку": "start* over|start* again|again|redo|from scratch|over" }
+   },
+   {
+    "sit": "Кубик Рубіка в тебе застряг, і ти питаєш друга-спідкубера, що робити.",
+    "say": "Можна його розібрати, щоб змастити?",
+    "ans": ["Can I take it apart to oil it?", "Is it okay to take it apart and lubricate it?", "Can I just take the cube apart and oil it?"],
+    "keys": { "змастити": "oil*|lub*|grease*|clean*|fix*" }
+   },
+   {
+    "sit": "У магазині іграшок продавець показує тобі дерев’яну головоломку для дорослих.",
+    "say": "Її легко розібрати, а скласти назад майже неможливо.",
+    "ans": ["It’s easy to take apart, but almost impossible to put back together.", "Taking it apart is easy — putting it back together is almost impossible.", "You can take it apart easily, but getting it back together is nearly impossible."],
+    "keys": { "легко": "easy|easily|simple", "майже неможливо": "impossible|hard|difficult|tough" }
+   }
+  ]
+ },
+ {
+  "id": 2452, "w": "crack a code", "uk": "розгадати (зламати) код", "lvl": "B2",
+  "forms": "crack|cracks|cracked|cracked|cracking",
+  "tail": "code*/cipher*/password*",
+  "near": "break*|broke|broken|solv*|figure* out|figured out|work* out|decod*|decipher*|guess*",
+  "tasks": [
+   {
+    "sit": "Ви з друзями в квест-кімнаті, і до кінця гри лишилося п’ять хвилин.",
+    "say": "Швидше, нам треба розгадати код від сейфа!",
+    "ans": ["Hurry, we need to crack the code to the safe!", "Quick, we have to crack the safe code!", "Come on, we’ve got to crack the code for the safe!"],
+    "keys": { "сейф": "safe|lock*|box", "швидше": "hurry|quick*|fast|come on" }
+   },
+   {
+    "sit": "Ти дивишся документальний фільм про Другу світову й ділишся враженнями з батьком.",
+    "say": "Математики зламали код «Енігми», і це врятувало мільйони життів.",
+    "ans": ["Mathematicians cracked the Enigma code, and it saved millions of lives.", "The mathematicians who cracked the Enigma code saved millions of lives.", "They cracked the Enigma code — that saved millions of lives."],
+    "keys": { "енігма": "enigma|german*|nazi*", "врятувало": "sav*|rescu*" }
+   },
+   {
+    "sit": "Твій син грає в пригодницьку гру й просить підказки.",
+    "say": "Я ніяк не можу розгадати код на дверях у вежі.",
+    "ans": ["I just can’t crack the code on the tower door.", "I can’t crack the code on the door in the tower.", "I can’t crack this tower door code no matter what I do."],
+    "keys": { "двері": "door*|gate*", "вежа": "tower*" }
+   }
+  ]
+ },
+ {
+  "id": 2453, "w": "unlock", "uk": "відкрити (рівень, функцію в грі)", "lvl": "B1",
+  "forms": "unlock|unlocks|unlocked|unlocked|unlocking",
+  "near": "open*|get access|got access|earn*|reach*|get to|got to",
+  "tasks": [
+   {
+    "sit": "Твій син скаржиться, що не може грати новою картою в гонках.",
+    "say": "Спочатку треба виграти три гонки, щоб відкрити цю трасу.",
+    "ans": ["First you need to win three races to unlock this track.", "You have to win three races first to unlock the track.", "Win three races first, and you’ll unlock this track."],
+    "keys": { "три гонки": "three|3|race*", "траса": "track*|map*|level*|course*" }
+   },
+   {
+    "sit": "Ти вивчаєш мову в застосунку й хвалишся подрузі.",
+    "say": "Я нарешті відкрив наступний рівень у застосунку!",
+    "ans": ["I finally unlocked the next level in the app!", "I’ve finally unlocked the next level!", "Guess what — I finally unlocked the next level in the app!"],
+    "keys": { "наступний рівень": "next|level*|new" }
+   },
+   {
+    "sit": "Колега показує тобі мобільну гру з купою платних бонусів.",
+    "say": "Можна відкрити всіх персонажів, але тільки за гроші.",
+    "ans": ["You can unlock all the characters, but only if you pay.", "You can unlock every character, but you have to pay for it.", "Sure, you can unlock all the characters — for money."],
+    "keys": { "персонажі": "character*|hero*|player*", "гроші": "pay*|paid|money|cash|buy*|real" }
+   }
+  ]
+ },
+ {
+  "id": 2454, "w": "stump", "uk": "поставити в глухий кут (спантеличити)", "lvl": "C1",
+  "forms": "stump|stumps|stumped|stumped|stumping",
+  "near": "puzzl*|baffl*|confus*|perplex*|throw* me|threw me|beat me|lost|no idea",
+  "tasks": [
+   {
+    "sit": "Племінник загадав тобі загадку, і ти вже п’ять хвилин не можеш відповісти.",
+    "say": "Добре, ця загадка поставила мене в глухий кут.",
+    "ans": ["Okay, this riddle has stumped me.", "Okay, you’ve stumped me with this riddle.", "All right, this riddle’s got me stumped."],
+    "keys": { "загадка": "riddle*|puzzle*|question*|this one|you" }
+   },
+   {
+    "sit": "Ти розповідаєш другові про співбесіду в айті-компанію.",
+    "say": "Одне питання про алгоритми мене зовсім спантеличило.",
+    "ans": ["One question about algorithms completely stumped me.", "I was totally stumped by one question about algorithms.", "One algorithm question had me completely stumped."],
+    "keys": { "питання": "question*|task*|problem*", "алгоритми": "algorithm*" }
+   },
+   {
+    "sit": "Ви з колегами граєте у вікторину в пабі, і твоя команда отримала останнє питання.",
+    "say": "Це питання поставило в глухий кут усю нашу команду.",
+    "ans": ["This question stumped our whole team.", "Our whole team was stumped by this question.", "That question had our entire team stumped."],
+    "keys": { "уся команда": "team*|all of us|everyone|everybody|whole", "питання": "question*|one" }
+   }
+  ]
+ },
+ {
+  "id": 2455, "w": "guess the answer", "uk": "вгадати відповідь", "lvl": "A2",
+  "forms": "guess|guesses|guessed|guessed|guessing",
+  "tail": "answer*/it",
+  "near": "know|knew|known|find out|found out|figure out|figured out|work out|worked out|get it right",
+  "tasks": [
+   {
+    "sit": "Ти загадуєш дітям загадку під час довгої поїздки в машині.",
+    "say": "Спробуйте вгадати відповідь, перш ніж я скажу.",
+    "ans": ["Try to guess the answer before I tell you.", "Try guessing the answer before I tell you.", "Go on, guess the answer before I say it."],
+    "keys": { "перш ніж я скажу": "before|tell*|say*" }
+   },
+   {
+    "sit": "Після іспиту подруга питає, як ти впорався з тестом.",
+    "say": "Я не знав половини питань, тому просто вгадував відповіді.",
+    "ans": ["I didn’t know half the questions, so I just guessed the answers.", "I just guessed the answers because I didn’t know half of them.", "Half the questions I had no idea, so I just guessed the answers."],
+    "keys": { "половина": "half|many|lot*", "не знав": "not know|no idea|did not|didn’t" }
+   },
+   {
+    "sit": "Ти дивишся вікторину по телевізору з батьками.",
+    "say": "Я вгадав відповідь раніше за учасника!",
+    "ans": ["I guessed the answer before the contestant!", "I guessed the answer before the player did!", "Ha, I guessed the answer faster than the contestant!"],
+    "keys": { "учасник": "contestant*|player*|participant*|guy|woman|man|him|her", "раніше": "before|faster|quicker|first" }
+   }
+  ]
+ },
+ {
+  "id": 2456, "w": "give up", "uk": "здатися (не можу вгадати)", "lvl": "A2",
+  "forms": "give|gives|gave|given|giving",
+  "tail": "up",
+  "near": "surrender*|quit*|no idea|do not know|don’t know|pass|stop",
+  "tasks": [
+   {
+    "sit": "Друг загадав тобі загадку, і ти довго думаєш, але нічого не спадає на думку.",
+    "say": "Я здаюся, яка відповідь?",
+    "ans": ["I give up, what’s the answer?", "Okay, I give up — tell me the answer.", "I give up! What is it?"],
+    "keys": { "відповідь": "answer|what is it|tell me|what" }
+   },
+   {
+    "sit": "Ви з родиною граєте в «Крокодила», і тато вже п’ять хвилин показує щось незрозуміле.",
+    "say": "Тату, ми здаємося, що це було?",
+    "ans": ["Dad, we give up, what was it?", "Okay, Dad, we give up — what was that?", "We give up, Dad! What was it?"],
+    "keys": { "тату": "dad*|father|daddy|papa", "що це було": "what" }
+   },
+   {
+    "sit": "На вечірці ти загадуєш гостям складне питання, і вони вже хочуть дізнатися відповідь.",
+    "say": "Не здавайтеся так швидко, подумайте ще хвилинку!",
+    "ans": ["Don’t give up so fast, think for another minute!", "Don’t give up so quickly — think one more minute!", "Come on, don’t give up yet, give it another minute!"],
+    "keys": { "не": "not|never", "ще хвилинку": "minute|moment|sec*|more|another|yet" }
+   }
+  ]
+ },
+ {
+  "id": 2457, "w": "escape a room", "uk": "вибратися з квест-кімнати", "lvl": "B2",
+  "forms": "escape|escapes|escaped|escaped|escaping",
+  "tail": "room*",
+  "near": "get out|got out|got out of|break out|broke out|finish*|beat the room|leave|left",
+  "tasks": [
+   {
+    "sit": "Колега питає, як пройшов ваш тимбілдинг у квест-кімнаті.",
+    "say": "Ми вибралися з кімнати за сорок п’ять хвилин — це рекорд!",
+    "ans": ["We escaped the room in forty-five minutes — a record!", "We escaped the room in 45 minutes, which is a record!", "We escaped the room in just 45 minutes — new record!"],
+    "keys": { "сорок п’ять": "forty-five|45|forty five", "рекорд": "record|best|fastest" }
+   },
+   {
+    "sit": "Ти вмовляєш подругу піти на новий квест, а вона боїться, що буде страшно.",
+    "say": "Нам просто треба знайти всі підказки, щоб вибратися з кімнати.",
+    "ans": ["We just need to find all the clues to escape the room.", "To escape the room, we just have to find all the clues.", "We only need to find the clues and escape the room — easy."],
+    "keys": { "підказки": "clue*|hint*|key*|code*" }
+   },
+   {
+    "sit": "Ти розповідаєш родичам, як ви з друзями святкували день народження.",
+    "say": "Ми так і не вибралися з кімнати — забракло двох хвилин.",
+    "ans": ["We didn’t escape the room — we were two minutes short.", "We never escaped the room; we needed two more minutes.", "We didn’t manage to escape the room — just two minutes short!"],
+    "keys": { "не": "not|never|didn’t", "дві хвилини": "two|2|minute*" }
+   }
+  ]
+ },
+ {
+  "id": 2458, "w": "buckle up", "uk": "пристібнутися", "lvl": "B1",
+  "forms": "buckle|buckles|buckled|buckled|buckling",
+  "tail": "up",
+  "near": "fasten*|put on your seatbelt|put your seatbelt on|put on the seatbelt|seat belt on|belt on|strap* in",
+  "tasks": [
+   {
+    "sit": "Ти сідаєш за кермо і бачиш, що діти на задньому сидінні ще не готові.",
+    "say": "Діти, пристібніться, ми рушаємо!",
+    "ans": ["Kids, buckle up, we’re leaving!", "Buckle up, kids — we’re going!", "Okay kids, buckle up, let’s go!"],
+    "keys": { "діти": "kid*|child*|guys|everyone", "рушаємо": "leav*|go*|off|start*|drive" }
+   },
+   {
+    "sit": "Ти береш таксі в чужому місті. Водій їде дуже швидко, а ремінь безпеки звисає.",
+    "say": "Мені краще пристібнутися — він жене як шалений.",
+    "ans": ["I’d better buckle up — he’s driving like crazy.", "I should buckle up, he’s driving like a maniac.", "Better buckle up, this guy drives like crazy."],
+    "keys": { "шалений": "crazy|maniac|mad|fast|insane|wild" }
+   },
+   {
+    "sit": "Друг підвозить тебе додому й кепкує, що ти завжди перевіряєш ремінь.",
+    "say": "Я завжди пристібаюся, навіть якщо їхати п’ять хвилин.",
+    "ans": ["I always buckle up, even for a five-minute drive.", "I always buckle up, even if it’s just five minutes.", "I buckle up every time, even for a five-minute ride."],
+    "keys": { "завжди": "always|every time", "п’ять хвилин": "five|5|minute*|short" }
+   }
+  ]
+ },
+ {
+  "id": 2459, "w": "unbuckle", "uk": "відстебнутися", "lvl": "B2",
+  "forms": "unbuckle|unbuckles|unbuckled|unbuckled|unbuckling",
+  "near": "unfasten*|undo*|undid|take off|took off|release*|unstrap*|unclip*",
+  "tasks": [
+   {
+    "sit": "Ви в літаку, він ще рулить, а пасажир поруч уже підводиться.",
+    "say": "Не відстібайтеся, поки літак повністю не зупиниться.",
+    "ans": ["Don’t unbuckle until the plane stops completely.", "Please don’t unbuckle until the plane has fully stopped.", "Don’t unbuckle yet — wait till the plane stops."],
+    "keys": { "поки не": "until|till|yet|wait", "зупиниться": "stop*|park*" }
+   },
+   {
+    "sit": "Ти везеш трирічного сина, і він з’ясував, як працює його дитяче крісло.",
+    "say": "Він навчився сам відстібатися і тепер постійно це робить.",
+    "ans": ["He’s learned to unbuckle himself and does it all the time.", "He figured out how to unbuckle himself, and now he keeps doing it.", "He can unbuckle himself now and does it constantly."],
+    "keys": { "сам": "himself|on his own|by himself", "постійно": "all the time|constantly|keep*|always|every" }
+   },
+   {
+    "sit": "Ви з мамою заїхали на заправку, вона хоче вийти з машини, але ремінь заїло.",
+    "say": "Я не можу відстебнутися, ремінь заїло!",
+    "ans": ["I can’t unbuckle, the belt is stuck!", "I can’t unbuckle — the seatbelt is jammed!", "Help, I can’t unbuckle, it’s stuck!"],
+    "keys": { "не можу": "can not|cannot|not", "заїло": "stuck|jammed|broken|not work*|won’t" }
+   }
+  ]
+ },
+ {
+  "id": 2460, "w": "beep", "uk": "бібікати (сигналити)", "lvl": "B1",
+  "forms": "beep|beeps|beeped|beeped|beeping",
+  "near": "honk*|hoot*|sound* the horn|use the horn|hit the horn|toot*",
+  "tasks": [
+   {
+    "sit": "Ти стоїш у заторі, і водій позаду весь час сигналить.",
+    "say": "Навіщо він бібікає? Ми ж усі стоїмо в заторі!",
+    "ans": ["Why is he beeping? We’re all stuck in traffic!", "Why does he keep beeping? Everyone’s stuck in traffic!", "What’s he beeping for? We’re all in a traffic jam!"],
+    "keys": { "навіщо": "why|what for|for", "затор": "traffic|jam|stuck" }
+   },
+   {
+    "sit": "Ти домовляєшся з подругою, що заїдеш за нею зранку.",
+    "say": "Я під’їду й посигналю, коли буду біля будинку.",
+    "ans": ["I’ll beep when I’m outside your house.", "I’ll drive up and beep when I’m at your house.", "I’ll just beep when I get to your place."],
+    "keys": { "будинок": "house|place|outside|building|home" }
+   },
+   {
+    "sit": "Ти вчишся водити, і інструктор пояснює правила в місті.",
+    "say": "Тут не можна бібікати, поруч лікарня.",
+    "ans": ["You can’t beep here, there’s a hospital nearby.", "Don’t beep here — there’s a hospital close by.", "No beeping here, there’s a hospital next door."],
+    "keys": { "не можна": "not|no|don’t|can’t", "лікарня": "hospital*" }
+   }
+  ]
+ },
+ {
+  "id": 2461, "w": "binge-watch", "uk": "передивитися серіал запоєм", "lvl": "B2",
+  "forms": "binge-watch|binge-watches|binge-watched|binge-watched|binge-watching",
+  "near": "watch*|binge*|marathon*|stream*",
+  "tasks": [
+   {
+    "sit": "У понеділок колега питає, чому ти виглядаєш таким невиспаним.",
+    "say": "Я за вихідні подивився запоєм увесь новий сезон.",
+    "ans": ["I binge-watched the whole new season over the weekend.", "Over the weekend I binge-watched the entire new season.", "I binge-watched the whole new season this weekend — no sleep."],
+    "keys": { "увесь сезон": "season*|whole|entire|series", "вихідні": "weekend*|saturday|sunday" }
+   },
+   {
+    "sit": "Ти захворів і лежиш удома з температурою. Подруга пише, як ти.",
+    "say": "Лежу під ковдрою й дивлюся серіали запоєм.",
+    "ans": ["I’m lying under a blanket and binge-watching shows.", "I’m just binge-watching series under a blanket.", "Just binge-watching TV shows under a blanket."],
+    "keys": { "ковдра": "blanket*|bed|duvet|cover*|sofa|couch", "серіали": "show*|series|tv|netflix" }
+   },
+   {
+    "sit": "Друг радить тобі новий детективний серіал.",
+    "say": "Не починай його в будній день — ти подивишся все за одну ніч.",
+    "ans": ["Don’t start it on a weekday — you’ll binge-watch it all in one night.", "Don’t start it on a work night; you’ll end up binge-watching the whole thing.", "Don’t start it midweek — you’ll binge-watch it in one night."],
+    "keys": { "будній день": "weekday|work night|school night|midweek|week", "за одну ніч": "one night|night|whole|all" }
+   }
+  ]
+ },
+ {
+  "id": 2462, "w": "chill", "uk": "чилити, відпочивати (нічого не робити)", "lvl": "A2",
+  "forms": "chill|chills|chilled|chilled|chilling",
+  "near": "relax*|rest*|hang out|hanging out|hung out|take it easy|do nothing|doing nothing|lounge*|laze*",
+  "tasks": [
+   {
+    "sit": "Друг пише у п’ятницю ввечері й кличе тебе в клуб.",
+    "say": "Ні, дякую, я сьогодні просто чилю вдома.",
+    "ans": ["No thanks, I’m just chilling at home tonight.", "Thanks, but tonight I’m chilling at home.", "Nah, I’m just gonna chill at home tonight."],
+    "keys": { "вдома": "home|house|place", "сьогодні": "tonight|today|night" }
+   },
+   {
+    "sit": "Мама телефонує в неділю й питає, що ти робиш.",
+    "say": "Нічого особливого, лежу на дивані й відпочиваю.",
+    "ans": ["Nothing special, I’m just chilling on the couch.", "Not much, just chilling on the sofa.", "Nothing really — I’m chilling on the couch."],
+    "keys": { "нічого особливого": "nothing|not much|special|really", "диван": "couch|sofa|bed" }
+   },
+   {
+    "sit": "Ти у відпустці на морі. Колега пише в месенджері, як справи.",
+    "say": "Я цілими днями чилю на пляжі й читаю.",
+    "ans": ["I chill on the beach and read all day.", "I’m chilling on the beach all day and reading.", "Just chilling on the beach and reading all day long."],
+    "keys": { "пляж": "beach|sea|sand", "читаю": "read*|book*" }
+   }
+  ]
+ },
+ {
+  "id": 2464, "w": "believe blindly", "uk": "вірити сліпо", "lvl": "C1",
+  "forms": "believe|believes|believed|believed|believing",
+  "tail": "blindly",
+  "near": "trust*|buy it|fall for|fell for|swallow*|take* it at face value|accept*",
+  "tasks": [
+   {
+    "sit": "Твоя бабуся переслала тобі в месенджері новину про «чудо-ліки від усього».",
+    "say": "Бабусю, не вір сліпо всьому, що пишуть в інтернеті.",
+    "ans": ["Grandma, don’t blindly believe everything you read online.", "Grandma, you shouldn’t blindly believe everything on the internet.", "Grandma, please don’t blindly believe whatever you see online."],
+    "keys": { "інтернет": "internet|online|web|social media", "всьому": "everything|all|whatever|anything" }
+   },
+   {
+    "sit": "На лекції з критичного мислення викладач пояснює, як розпізнати маніпуляції.",
+    "say": "Люди часто сліпо вірять лідерам, не перевіряючи фактів.",
+    "ans": ["People often blindly believe in leaders without checking the facts.", "People tend to believe blindly in their leaders and never check the facts.", "A lot of people believe blindly in leaders — they don’t check facts."],
+    "keys": { "лідери": "leader*|politician*|authorit*", "факти": "fact*|check*|evidence" }
+   },
+   {
+    "sit": "Подруга розповідає, що вклала всі заощадження за порадою знайомого «інвестора».",
+    "say": "Ти не можеш сліпо вірити людині, яку знаєш два тижні.",
+    "ans": ["You can’t blindly believe someone you’ve known for two weeks.", "You shouldn’t believe blindly in a guy you’ve only known for two weeks.", "You can’t just blindly believe someone you met two weeks ago."],
+    "keys": { "два тижні": "two weeks|2 weeks|week*", "людина": "someone|somebody|person|guy|man|people" }
+   }
+  ]
+ },
+ {
+  "id": 2465, "w": "clicker-train", "uk": "тренувати (дресирувати) клікером", "lvl": "C1",
+  "forms": "clicker-train|clicker-trains|clicker-trained|clicker-trained|clicker-training",
+  "near": "train*|teach*|taught|drill*|reward*",
+  "tasks": [
+   {
+    "sit": "Сусід дивується, що твій собака так швидко вивчив нові команди.",
+    "say": "Я тренував його клікером — це працює дуже швидко.",
+    "ans": ["I clicker-trained him — it works really fast.", "I’ve been clicker-training him, and it works super quickly.", "I clicker-trained him, honestly it works so fast."],
+    "keys": { "швидко": "fast|quick*|really well|works" }
+   },
+   {
+    "sit": "На форумі власників котів хтось питає, чи можна дресирувати кота.",
+    "say": "Так, котів теж можна тренувати клікером, просто потрібне терпіння.",
+    "ans": ["Yes, you can clicker-train cats too; it just takes patience.", "Yes, cats can be clicker-trained too — you just need patience.", "Totally, you can clicker-train cats too, just be patient."],
+    "keys": { "коти": "cat*|kitten*", "терпіння": "patien*|time" }
+   },
+   {
+    "sit": "Ти пишеш повідомлення кінологу перед першим заняттям із цуценям.",
+    "say": "Я хочу тренувати цуценя клікером, а не криком.",
+    "ans": ["I want to clicker-train my puppy instead of yelling at him.", "I’d like to clicker-train the puppy, not shout at him.", "I want to clicker-train my puppy rather than yell at it."],
+    "keys": { "цуценя": "pupp*|dog*", "не криком": "yell*|shout*|scream*|instead|rather|not" }
+   }
+  ]
+ }
+]

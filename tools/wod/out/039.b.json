@@ -1,0 +1,1224 @@
+[
+ {
+  "id": 2172,
+  "w": "swing",
+  "uk": "гойдатися (на гойдалці)",
+  "lvl": "A2",
+  "forms": "swing|swings|swung|swung|swinging",
+  "near": "rock*|sway*|back and forth",
+  "tasks": [
+   {
+    "sit": "Ти з донькою на дитячому майданчику, а в тебе болять ноги.",
+    "say": "Іди погойдайся, а я тут посиджу на лавці.",
+    "ans": [
+     "Go and swing for a bit, I’ll sit here on the bench.",
+     "You can swing on the swings while I sit on the bench.",
+     "Go swing, sweetie — I’ll just sit here on the bench."
+    ],
+    "keys": {
+     "посиджу": "sit*|wait*",
+     "лавка": "bench|here"
+    }
+   },
+   {
+    "sit": "Ви з друзями ввечері гуляєте парком і проходите повз гойдалки.",
+    "say": "Я вже дорослий, але досі люблю гойдатися на гойдалках.",
+    "ans": [
+     "I’m an adult, but I still love to swing on swings.",
+     "Even as an adult I still love swinging on the swings.",
+     "I’m a grown-up, but I still love swinging!"
+    ],
+    "keys": {
+     "досі": "still",
+     "дорослий": "adult|grown*"
+    }
+   },
+   {
+    "sit": "Колега питає, як ти провів вихідні на дачі.",
+    "say": "Я весь день гойдався в гамаку й читав.",
+    "ans": [
+     "I swung in the hammock and read all day.",
+     "I spent the whole day swinging in the hammock and reading.",
+     "I just swung in the hammock with a book all day."
+    ],
+    "keys": {
+     "гамак": "hammock",
+     "читав": "read*|book*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2173,
+  "w": "slide down",
+  "uk": "зʼїжджати (з гірки)",
+  "lvl": "A2",
+  "forms": "slide|slides|slid|slid|sliding",
+  "tail": "down",
+  "near": "go down|went down|going down|ride down|rode down|sled*",
+  "tasks": [
+   {
+    "sit": "Ти повернувся з аквапарку і хвалишся друзям.",
+    "say": "Я зʼїхав з найвищої гірки в аквапарку!",
+    "ans": [
+     "I slid down the highest slide at the water park!",
+     "I slid down the tallest slide in the water park!",
+     "I finally slid down the biggest slide at the water park!"
+    ],
+    "keys": {
+     "найвища": "high*|tall*|big*",
+     "аквапарк": "water park|waterpark|aquapark"
+    }
+   },
+   {
+    "sit": "Син стоїть на верху гірки на майданчику й боїться зʼїхати.",
+    "say": "Не бійся, зʼїжджай — я тебе зловлю внизу.",
+    "ans": [
+     "Don’t be scared, slide down — I’ll catch you at the bottom.",
+     "Don’t be afraid, just slide down and I’ll catch you.",
+     "It’s okay, slide down — I’ll catch you!"
+    ],
+    "keys": {
+     "зловлю": "catch|caught"
+    }
+   },
+   {
+    "sit": "Ти з дітьми в гостях у батьків, і діти дивляться на старі перила сходів.",
+    "say": "У дитинстві я постійно зʼїжджав по цих перилах.",
+    "ans": [
+     "As a kid I used to slide down this banister all the time.",
+     "When I was little, I slid down this banister all the time.",
+     "I loved sliding down this banister when I was a kid."
+    ],
+    "keys": {
+     "перила": "banister*|bannister*|railing*|handrail*",
+     "у дитинстві": "kid|child*|little|young"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2174,
+  "w": "climb the monkey bars",
+  "uk": "лазити по рукоході",
+  "lvl": "B1",
+  "forms": "climb|climbs|climbed|climbed|climbing",
+  "tail": "monkey bar*",
+  "near": "swing*|hang*|go across|went across|cross*",
+  "tasks": [
+   {
+    "sit": "Донька біжить до рукохода одразу після дощу.",
+    "say": "Обережно лізь по рукоході, він мокрий після дощу.",
+    "ans": [
+     "Be careful climbing the monkey bars, they’re wet after the rain.",
+     "Careful when you climb the monkey bars — they’re wet from the rain.",
+     "Watch out climbing the monkey bars, they’re still wet from the rain."
+    ],
+    "keys": {
+     "мокрий": "wet|slippery",
+     "обережно": "careful|watch out"
+    }
+   },
+   {
+    "sit": "Ти тренуєшся на вуличному спортмайданчику, і знайомий питає, навіщо тобі дитячий рукохід.",
+    "say": "Я лажу по рукоході, щоб зміцнити руки.",
+    "ans": [
+     "I climb the monkey bars to build up my arms.",
+     "I climb the monkey bars to make my arms stronger.",
+     "I’ve been climbing the monkey bars to strengthen my arms."
+    ],
+    "keys": {
+     "руки": "arm*|upper body|grip|hand*",
+     "зміцнити": "strong*|strength*|build*"
+    }
+   },
+   {
+    "sit": "Ви з колегами згадуєте, якими були в початковій школі.",
+    "say": "Я на кожній перерві лазив по рукоході.",
+    "ans": [
+     "I climbed the monkey bars every break.",
+     "I used to climb the monkey bars at every recess.",
+     "I’d climb the monkey bars every single recess."
+    ],
+    "keys": {
+     "перерва": "break*|recess*|lunch*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2175,
+  "w": "jump rope",
+  "uk": "стрибати на скакалці",
+  "lvl": "A2",
+  "forms": "jump|jumps|jumped|jumped|jumping",
+  "tail": "rope*",
+  "near": "skip*|hop*",
+  "tasks": [
+   {
+    "sit": "Друг питає, яке кардіо ти робиш, якщо не бігаєш.",
+    "say": "Я стрибаю на скакалці десять хвилин замість бігу.",
+    "ans": [
+     "I jump rope for ten minutes instead of running.",
+     "Instead of running, I jump rope for ten minutes.",
+     "I just jump rope for ten minutes instead of going for a run."
+    ],
+    "keys": {
+     "десять хвилин": "ten|10|minute*",
+     "біг": "run*|jog*"
+    }
+   },
+   {
+    "sit": "Ти у відрядженні, і колега питає, як ти тримаєш форму.",
+    "say": "У готелі немає спортзалу, тож я стрибаю на скакалці в номері.",
+    "ans": [
+     "There’s no gym at the hotel, so I jump rope in my room.",
+     "The hotel has no gym, so I’m jumping rope in my room.",
+     "The hotel doesn’t have a gym, so I just jump rope in my room."
+    ],
+    "keys": {
+     "спортзал": "gym|fitness",
+     "номер": "room"
+    }
+   },
+   {
+    "sit": "Донька прийшла зі школи засмучена й розповідає, що сталося.",
+    "say": "Дівчата на перерві стрибають на скакалці, а мене не беруть.",
+    "ans": [
+     "The girls jump rope at recess, but they don’t let me join.",
+     "At break the girls jump rope and won’t let me play.",
+     "The girls are jumping rope at recess and they won’t let me in."
+    ],
+    "keys": {
+     "перерва": "recess|break|lunch",
+     "не беруть": "not"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2176,
+  "w": "play catch",
+  "uk": "грати в мʼяча (кидати й ловити)",
+  "lvl": "A2",
+  "forms": "play|plays|played|played|playing",
+  "tail": "catch",
+  "near": "throw*|threw|toss*|play ball|kick*",
+  "tasks": [
+   {
+    "sit": "Сусід питає, куди ти щовечора ходиш з бейсбольними рукавицями.",
+    "say": "Ми з сином щовечора кидаємо мʼяч одне одному в парку.",
+    "ans": [
+     "My son and I play catch in the park every evening.",
+     "Every evening my son and I play catch in the park.",
+     "My son and I go play catch in the park every evening."
+    ],
+    "keys": {
+     "син": "son|kid|boy",
+     "щовечора": "evening*|night*"
+    }
+   },
+   {
+    "sit": "Ви з друзями на пляжі, і всім уже набридло просто лежати.",
+    "say": "Я взяв мʼяч — давайте покидаємо його одне одному.",
+    "ans": [
+     "I brought a ball — let’s play catch.",
+     "I’ve got a ball, so let’s play catch.",
+     "I brought a ball, anyone want to play catch?"
+    ],
+    "keys": {
+     "мʼяч": "ball"
+    }
+   },
+   {
+    "sit": "Після травми плеча ти розповідаєш колезі про реабілітацію.",
+    "say": "Лікар порадив мені кидати й ловити мʼяч, щоб розробити руку.",
+    "ans": [
+     "My doctor told me to play catch to get my arm moving again.",
+     "The doctor said I should play catch to help my shoulder recover.",
+     "My physio wants me to play catch to get my arm working again."
+    ],
+    "keys": {
+     "лікар": "doctor*|therapist*|physio*",
+     "рука": "arm|hand|shoulder"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2177,
+  "w": "fight in the yard",
+  "uk": "битися у дворі",
+  "lvl": "B1",
+  "forms": "fight|fights|fought|fought|fighting",
+  "tail": "yard*/schoolyard*/playground*",
+  "near": "beat*|punch*|hit|hitting|brawl*|scuffl*|scrap*|quarrel*|argu*",
+  "tasks": [
+   {
+    "sit": "Тебе терміново викликали до школи. Ти телефонуєш дружині.",
+    "say": "Мені сказали, що наш син бився зі старшим хлопцем у шкільному дворі.",
+    "ans": [
+     "They told me our son fought in the schoolyard with an older boy.",
+     "I was told our son was fighting in the school yard with an older boy.",
+     "Apparently our son fought in the schoolyard with an older kid."
+    ],
+    "keys": {
+     "старший": "older|bigger",
+     "хлопець": "boy|kid|student|guy"
+    }
+   },
+   {
+    "sit": "Сусідка питає, чи чув ти вночі крики під вікнами.",
+    "say": "Вчора вночі двоє пʼяних билися у нас у дворі.",
+    "ans": [
+     "Last night two drunk guys were fighting in our yard.",
+     "Two drunk men fought in our yard last night.",
+     "Two drunk guys were fighting in the yard last night."
+    ],
+    "keys": {
+     "пʼяних": "drunk*",
+     "вночі": "night|midnight"
+    }
+   },
+   {
+    "sit": "Ти заходиш у дім і бачиш на своїх собаках подряпини.",
+    "say": "Наші собаки знову билися у дворі.",
+    "ans": [
+     "Our dogs were fighting in the yard again.",
+     "Our dogs fought in the yard again.",
+     "Ugh, the dogs were fighting in the yard again."
+    ],
+    "keys": {
+     "собаки": "dog*",
+     "знову": "again"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2178,
+  "w": "tell on a friend",
+  "uk": "ябедничати, доносити на когось",
+  "lvl": "B2",
+  "forms": "tell|tells|told|told|telling",
+  "tail": "on",
+  "near": "snitch*|rat on|ratted|report*|grass*|dob*|betray*",
+  "tasks": [
+   {
+    "sit": "Ти випадково розбив мамину вазу, а молодша сестра все бачила.",
+    "say": "Тільки не ябедничай мамі!",
+    "ans": [
+     "Please don’t tell on me to Mom!",
+     "Don’t you dare tell on me to Mom!",
+     "Come on, don’t tell on me to Mom!"
+    ],
+    "keys": {
+     "мама": "mom|mum|mother|mommy"
+    }
+   },
+   {
+    "sit": "Начальник зробив тобі зауваження за запізнення, хоча його самого зранку не було в офісі.",
+    "say": "Хтось наябедничав на мене шефу, що я запізнився.",
+    "ans": [
+     "Someone told on me to the boss about being late.",
+     "Somebody told on me, and now the boss knows I was late.",
+     "Someone told on me — now my boss knows I came in late."
+    ],
+    "keys": {
+     "шеф": "boss|manager",
+     "запізнився": "late"
+    }
+   },
+   {
+    "sit": "Ти розповідаєш дружині історію зі своїх шкільних років.",
+    "say": "Ти не повіриш: мій найкращий друг наябедничав на мене вчительці.",
+    "ans": [
+     "My best friend told on me to the teacher.",
+     "Believe it or not, my best friend told on me to the teacher.",
+     "You won’t believe it — my best friend told on me to the teacher!"
+    ],
+    "keys": {
+     "найкращий друг": "friend",
+     "вчителька": "teacher"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2179,
+  "w": "make new friends",
+  "uk": "заводити нових друзів",
+  "lvl": "A2",
+  "forms": "make|makes|made|made|making",
+  "tail": "friend*",
+  "near": "meet new people|met new people|meeting new people|befriend*|get to know|got to know",
+  "tasks": [
+   {
+    "sit": "Ти пів року тому переїхав в інше місто. Сестра питає, як ти там.",
+    "say": "Мені важко заводити нових друзів у новому місті.",
+    "ans": [
+     "It’s hard for me to make new friends in a new city.",
+     "I find it hard to make new friends in a new city.",
+     "Making new friends in a new city is really hard for me."
+    ],
+    "keys": {
+     "важко": "hard|difficult|tough|struggl*",
+     "місто": "city|town|place"
+    }
+   },
+   {
+    "sit": "Син переходить у новий клас і боїться, що буде сам.",
+    "say": "Не хвилюйся, ти швидко заведеш нових друзів.",
+    "ans": [
+     "Don’t worry, you’ll make new friends quickly.",
+     "Don’t worry, you’ll make new friends in no time.",
+     "Don’t worry, you’re going to make new friends really fast."
+    ],
+    "keys": {
+     "швидко": "quick*|fast|soon|in no time"
+    }
+   },
+   {
+    "sit": "Колега дивується, що ти раптом почав бігати по суботах.",
+    "say": "Я пішов у біговий клуб, щоб заводити нових друзів.",
+    "ans": [
+     "I joined a running club to make new friends.",
+     "I joined the running club so I could make new friends.",
+     "I joined a running club, partly to make new friends."
+    ],
+    "keys": {
+     "біговий клуб": "run*|club"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2180,
+  "w": "enroll",
+  "uk": "зараховувати(ся) (до навчального закладу)",
+  "lvl": "B2",
+  "forms": "enroll/enrol|enrolls/enrols|enrolled|enrolled|enrolling",
+  "near": "sign* up|register*|join*|admit*|get into|got into|accepted",
+  "tasks": [
+   {
+    "sit": "Колега питає, чи вже знайшли ви школу для доньки.",
+    "say": "Ми зарахували доньку до школи біля дому.",
+    "ans": [
+     "We enrolled our daughter in the school near our house.",
+     "We’ve enrolled our daughter at the school near home.",
+     "We just enrolled our daughter in the local school nearby."
+    ],
+    "keys": {
+     "донька": "daughter|girl|kid",
+     "біля дому": "near*|close|local|nearby"
+    }
+   },
+   {
+    "sit": "На співбесіді тебе питають, чим ти зараз займаєшся, крім роботи.",
+    "say": "Минулого року я зарахувався до університету на заочне навчання.",
+    "ans": [
+     "Last year I enrolled at university as a part-time student.",
+     "I enrolled in a part-time program at university last year.",
+     "I enrolled at uni last year as a part-time student."
+    ],
+    "keys": {
+     "заочне": "part-time|part time|distance|remote*|online",
+     "університет": "universit*|uni|college"
+    }
+   },
+   {
+    "sit": "Ви з родиною щойно переїхали за кордон, і друг питає про школу для дітей.",
+    "say": "Щоб зарахувати дітей до школи, потрібні довідки про щеплення.",
+    "ans": [
+     "To enroll the kids in school, you need vaccination records.",
+     "You need vaccination records to enroll your kids in school.",
+     "If you want to enroll the kids in school, you’ll need their vaccination records."
+    ],
+    "keys": {
+     "щеплення": "vaccin*|immuni*|shot*",
+     "діти": "kid*|child*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2181,
+  "w": "transfer",
+  "uk": "переводитися (до іншої школи)",
+  "lvl": "B2",
+  "forms": "transfer|transfers|transferred|transferred|transferring",
+  "near": "move*|moving|switch*|chang*",
+  "tasks": [
+   {
+    "sit": "Учителька питає, чому ти забираєш документи сина посеред року.",
+    "say": "Ми переїжджаємо, тому син переводиться в іншу школу.",
+    "ans": [
+     "We’re moving, so my son is transferring to another school.",
+     "My son is transferring to a different school because we’re moving.",
+     "We’re moving, so my son’s going to transfer to a new school."
+    ],
+    "keys": {
+     "переїжджаємо": "mov*|relocat*",
+     "інша школа": "another|different|new|other"
+    }
+   },
+   {
+    "sit": "Друг питає, чому ти раптом зацікавився іншим університетом.",
+    "say": "Я хочу перевестися в університет, де є програма з дизайну.",
+    "ans": [
+     "I want to transfer to a university that has a design program.",
+     "I’d like to transfer to a university with a design program.",
+     "I’m thinking of transferring to a uni that has a design program."
+    ],
+    "keys": {
+     "дизайн": "design*",
+     "університет": "universit*|uni|college|school"
+    }
+   },
+   {
+    "sit": "Колега розповідає, що її доньку цькують однокласники.",
+    "say": "Може, варто перевести її в іншу школу?",
+    "ans": [
+     "Maybe you should transfer her to another school?",
+     "Have you thought about transferring her to a different school?",
+     "Why not just transfer her to another school?"
+    ],
+    "keys": {
+     "інша школа": "another|different|new|other"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2182,
+  "w": "expel",
+  "uk": "виключити (зі школи, університету)",
+  "lvl": "C1",
+  "forms": "expel|expels|expelled|expelled|expelling",
+  "near": "kick* out|throw* out|threw out|thrown out|dismiss*|suspend*|remov*",
+  "tasks": [
+   {
+    "sit": "Ти читаєш новини й переказуєш колезі скандал в університеті.",
+    "say": "Трьох студентів виключили з університету за списування.",
+    "ans": [
+     "Three students were expelled from the university for cheating.",
+     "The university expelled three students for cheating.",
+     "Three students got expelled for cheating on their exams."
+    ],
+    "keys": {
+     "три": "three|3",
+     "списування": "cheat*|plagiar*|cop*"
+    }
+   },
+   {
+    "sit": "Син утретє за місяць побився в школі. Ти серйозно говориш із ним.",
+    "say": "Ще одна бійка — і тебе виключать зі школи.",
+    "ans": [
+     "One more fight and you’ll be expelled from school.",
+     "If you get into one more fight, they’ll expel you.",
+     "One more fight and they’ll expel you — I mean it."
+    ],
+    "keys": {
+     "бійка": "fight*",
+     "ще одна": "one more|another|again"
+    }
+   },
+   {
+    "sit": "У книжковому клубі ви обговорюєте роман, і ти нагадуєш сюжет.",
+    "say": "У першому розділі героя виключають із приватної школи.",
+    "ans": [
+     "In the first chapter, the main character gets expelled from a private school.",
+     "The hero is expelled from his private school in the first chapter.",
+     "In chapter one, the main character gets expelled from private school."
+    ],
+    "keys": {
+     "перший розділ": "first chapter|chapter one|chapter 1",
+     "приватна школа": "private|boarding|prep"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2183,
+  "w": "suspend",
+  "uk": "тимчасово відсторонити (учня від занять)",
+  "lvl": "C1",
+  "forms": "suspend|suspends|suspended|suspended|suspending",
+  "near": "expel*|ban*|kick* out|send* home|sent home|exclud*",
+  "tasks": [
+   {
+    "sit": "Ти телефонуєш на роботу й пояснюєш, чому цього тижня працюватимеш з дому.",
+    "say": "Мого сина відсторонили від занять на три дні за бійку.",
+    "ans": [
+     "My son was suspended for three days for fighting.",
+     "They suspended my son for three days for fighting.",
+     "My son got suspended for three days — for fighting."
+    ],
+    "keys": {
+     "три дні": "three|3",
+     "бійка": "fight*"
+    }
+   },
+   {
+    "sit": "Ти вчитель на педраді. Обговорюють учня, який зламав шкільне обладнання.",
+    "say": "Пропоную відсторонити його на тиждень, а не виключати.",
+    "ans": [
+     "I suggest we suspend him for a week instead of expelling him.",
+     "I think we should suspend him for a week rather than expel him.",
+     "Let’s just suspend him for a week, not expel him."
+    ],
+    "keys": {
+     "тиждень": "week",
+     "не виключати": "expel*|kick* out|not|instead|rather"
+    }
+   },
+   {
+    "sit": "Друг питає, чому одногрупника не видно на парах уже місяць.",
+    "say": "Його відсторонили від навчання, поки розслідують справу про плагіат.",
+    "ans": [
+     "He’s been suspended while they investigate the plagiarism case.",
+     "They suspended him while the plagiarism case is being investigated.",
+     "He got suspended until they finish looking into the plagiarism case."
+    ],
+    "keys": {
+     "плагіат": "plagiar*|cheat*|cop*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2184,
+  "w": "graduate",
+  "uk": "закінчити школу, випуститися",
+  "lvl": "B1",
+  "forms": "graduate|graduates|graduated|graduated|graduating",
+  "near": "finish*|leave school|left school|complet*",
+  "tasks": [
+   {
+    "sit": "На співбесіді тебе питають, чому в тебе немає вищої освіти.",
+    "say": "Я закінчив школу у 2015 році й одразу пішов працювати.",
+    "ans": [
+     "I graduated from high school in 2015 and started working right away.",
+     "I graduated in 2015 and went straight to work.",
+     "I graduated high school in 2015 and started working right after."
+    ],
+    "keys": {
+     "2015": "2015",
+     "працювати": "work*|job"
+    }
+   },
+   {
+    "sit": "Ти з дружиною переглядаєш старі фото доньки з першого класу.",
+    "say": "Не віриться, що наша донька вже закінчує школу!",
+    "ans": [
+     "I can’t believe our daughter is graduating from high school!",
+     "I can’t believe our daughter’s already graduating!",
+     "Wow, I can’t believe our daughter is graduating this year!"
+    ],
+    "keys": {
+     "не віриться": "believe",
+     "донька": "daughter|girl"
+    }
+   },
+   {
+    "sit": "Колишній однокласник кличе тебе на зустріч випускників.",
+    "say": "Невже вже десять років, як ми закінчили школу?",
+    "ans": [
+     "Has it really been ten years since we graduated?",
+     "Has it been ten years since we graduated from high school?",
+     "Wow, it’s been ten years since we graduated!"
+    ],
+    "keys": {
+     "десять": "ten|10|decade"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2185,
+  "w": "apply to college",
+  "uk": "вступати (подаватися) до коледжу",
+  "lvl": "B1",
+  "forms": "apply|applies|applied|applied|applying",
+  "tail": "college*/universit*/uni",
+  "near": "enroll*|enrol*|get into|got into|sign up|register*",
+  "tasks": [
+   {
+    "sit": "Тітка питає, куди ти вступаєш після школи.",
+    "say": "Я подаюся в пʼять коледжів, щоб мати більше шансів.",
+    "ans": [
+     "I’m applying to five colleges to have a better chance.",
+     "I’ll apply to five colleges so I have more chances.",
+     "I’m applying to five colleges, just to be safe."
+    ],
+    "keys": {
+     "пʼять": "five|5"
+    }
+   },
+   {
+    "sit": "Син-випускник цілими днями грає в ігри, а час спливає.",
+    "say": "Коли ти будеш подавати документи до коледжу? Дедлайн уже скоро.",
+    "ans": [
+     "When are you going to apply to college? The deadline is coming up.",
+     "When will you apply to college? The deadline is soon.",
+     "So when are you applying to college? The deadline’s pretty soon."
+    ],
+    "keys": {
+     "дедлайн": "deadline|due",
+     "скоро": "soon|coming up|close"
+    }
+   },
+   {
+    "sit": "Колега дивується, що ти в тридцять пʼять знову сів за парту.",
+    "say": "У тридцять пʼять я вирішив вступати до коледжу на медсестринство.",
+    "ans": [
+     "At thirty-five I decided to apply to college for nursing.",
+     "I decided to apply to nursing college at thirty-five.",
+     "At 35, I decided to apply to college to study nursing."
+    ],
+    "keys": {
+     "медсестринство": "nurs*",
+     "тридцять пʼять": "thirty*|35"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2186,
+  "w": "get accepted",
+  "uk": "бути зарахованим (прийнятим)",
+  "lvl": "B1",
+  "forms": "get|gets|got|got/gotten|getting",
+  "tail": "accepted",
+  "near": "been accepted|was accepted|admitted|made it in",
+  "tasks": [
+   {
+    "sit": "Ти відкриваєш лист із приймальної комісії й одразу дзвониш мамі.",
+    "say": "Мене зарахували до Львівської політехніки!",
+    "ans": [
+     "I got accepted to Lviv Polytechnic!",
+     "I just got accepted into Lviv Polytechnic!",
+     "Guess what? I got accepted to Lviv Polytechnic!"
+    ],
+    "keys": {
+     "політехніка": "polytech*|lviv"
+    }
+   },
+   {
+    "sit": "Ти подав заявку на стажування у великій компанії й чекаєш на відповідь.",
+    "say": "Дуже сподіваюся, що мене візьмуть на це стажування.",
+    "ans": [
+     "I really hope I get accepted for this internship.",
+     "I hope I get accepted into this internship.",
+     "Fingers crossed I get accepted for the internship!"
+    ],
+    "keys": {
+     "сподіваюся": "hope|fingers crossed",
+     "стажування": "intern*"
+    }
+   },
+   {
+    "sit": "Ти ділишся радісною новиною з сусідкою.",
+    "say": "Нашу доньку прийняли в програму обміну в Канаді!",
+    "ans": [
+     "Our daughter got accepted into an exchange program in Canada!",
+     "Our daughter got accepted to the exchange program in Canada!",
+     "Guess what — our daughter got accepted into a Canadian exchange program!"
+    ],
+    "keys": {
+     "обмін": "exchange",
+     "Канада": "canad*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2187,
+  "w": "drop a class",
+  "uk": "кинути предмет (курс)",
+  "lvl": "B2",
+  "forms": "drop|drops|dropped|dropped|dropping",
+  "tail": "class*/course*",
+  "near": "quit*|withdraw*|withdrew|give up|gave up|leave|left|stop*",
+  "tasks": [
+   {
+    "sit": "Друг питає, чому ти більше не ходиш на статистику.",
+    "say": "Я кинув курс статистики — він забирав надто багато часу.",
+    "ans": [
+     "I dropped the statistics class — it took up too much time.",
+     "I dropped my statistics course because it took too much time.",
+     "I dropped the stats class, it was eating up all my time."
+    ],
+    "keys": {
+     "статистика": "statistic*|stats",
+     "час": "time"
+    }
+   },
+   {
+    "sit": "Одногрупник скаржиться, що набрав забагато предметів і не спить ночами.",
+    "say": "Кинь один предмет, поки не пізно.",
+    "ans": [
+     "Drop one class before it’s too late.",
+     "You should drop a class before it’s too late.",
+     "Just drop one class before it gets too late."
+    ],
+    "keys": {
+     "поки не пізно": "late|deadline"
+    }
+   },
+   {
+    "sit": "Ти записався на вечірні курси, але розумієш, що не тягнеш їх.",
+    "say": "Якщо я кину курс до пʼятниці, мені повернуть гроші.",
+    "ans": [
+     "If I drop the class before Friday, I’ll get my money back.",
+     "I’ll get a refund if I drop the course by Friday.",
+     "If I drop the class by Friday, they’ll give me my money back."
+    ],
+    "keys": {
+     "гроші": "money|refund*",
+     "пʼятниця": "friday"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2188,
+  "w": "repeat a year",
+  "uk": "залишитися на другий рік",
+  "lvl": "B2",
+  "forms": "repeat|repeats|repeated|repeated|repeating",
+  "tail": "year/grade",
+  "near": "held back|kept back|stay* back|redo*|retake*",
+  "tasks": [
+   {
+    "sit": "Класна керівниця сина попереджає тебе про його оцінки. Ти переказуєш це дружині.",
+    "say": "Якщо він не складе іспити, йому доведеться залишитися на другий рік.",
+    "ans": [
+     "If he doesn’t pass his exams, he’ll have to repeat the year.",
+     "He’ll have to repeat the year if he fails his exams.",
+     "If he fails the exams, he’s going to have to repeat the year."
+    ],
+    "keys": {
+     "іспити": "exam*|test*",
+     "не складе": "not pass|fail*"
+    }
+   },
+   {
+    "sit": "Друзі жартують, що погані оцінки в школі — це кінець кар’єри.",
+    "say": "Мій брат колись залишився на другий рік, а тепер він професор.",
+    "ans": [
+     "My brother once repeated a year, and now he’s a professor.",
+     "My brother had to repeat a year at school, and now he’s a professor!",
+     "Funny thing — my brother repeated a year, and now he’s a professor."
+    ],
+    "keys": {
+     "брат": "brother",
+     "професор": "professor|prof"
+    }
+   },
+   {
+    "sit": "Ти вчитель, і гість з-за кордону питає про вашу школу.",
+    "say": "У нашій школі майже ніхто не залишається на другий рік.",
+    "ans": [
+     "Almost nobody repeats a year at our school.",
+     "At our school hardly anyone repeats a year.",
+     "Hardly anyone ever repeats a year at our school."
+    ],
+    "keys": {
+     "майже ніхто": "almost no*|hardly any*|barely any*|few|rarely"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2190,
+  "w": "take the bus",
+  "uk": "їхати автобусом",
+  "lvl": "A1",
+  "forms": "take|takes|took|taken|taking",
+  "tail": "bus*",
+  "near": "go by bus|went by bus|ride the bus|rode the bus|catch the bus|caught the bus|get the bus|got the bus|by bus",
+  "tasks": [
+   {
+    "sit": "Новий колега питає, як ти добираєшся до офісу.",
+    "say": "Я щодня їжджу на роботу автобусом.",
+    "ans": [
+     "I take the bus to work every day.",
+     "Every day I take the bus to work.",
+     "I just take the bus to work every day."
+    ],
+    "keys": {
+     "робота": "work|office|job"
+    }
+   },
+   {
+    "sit": "Ви з другом прилетіли в нове місто, і він хоче викликати таксі.",
+    "say": "До центру дешевше їхати автобусом, ніж таксі.",
+    "ans": [
+     "It’s cheaper to take the bus to the center than a taxi.",
+     "Taking the bus downtown is cheaper than a taxi.",
+     "Let’s just take the bus to the center — it’s way cheaper than a taxi."
+    ],
+    "keys": {
+     "дешевше": "cheap*|less|save",
+     "таксі": "taxi|cab|uber"
+    }
+   },
+   {
+    "sit": "Сусід дивується, що не бачить твоєї машини біля будинку.",
+    "say": "Моя машина в ремонті, тож цього тижня я їжджу автобусом.",
+    "ans": [
+     "My car’s in the shop, so I’m taking the bus this week.",
+     "My car is being repaired, so this week I’m taking the bus.",
+     "My car’s getting fixed, so I’m taking the bus this week."
+    ],
+    "keys": {
+     "машина": "car",
+     "ремонт": "shop|repair*|fix*|garage|broken"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2191,
+  "w": "take the subway",
+  "uk": "їхати метро (AmE)",
+  "lvl": "A2",
+  "forms": "take|takes|took|taken|taking",
+  "tail": "subway",
+  "near": "metro|underground|tube|ride the train|rode the train",
+  "tasks": [
+   {
+    "sit": "Друзі питають, як ви пересувалися під час поїздки до Нью-Йорка.",
+    "say": "У Нью-Йорку ми всюди їздили метро — це швидше за таксі.",
+    "ans": [
+     "In New York we took the subway everywhere — it’s faster than a taxi.",
+     "We took the subway everywhere in New York because it’s faster than a cab.",
+     "In New York we just took the subway everywhere, it was way faster than a taxi."
+    ],
+    "keys": {
+     "Нью-Йорк": "new york|nyc",
+     "швидше": "fast*|quick*"
+    }
+   },
+   {
+    "sit": "Ви з колегою виходите з офісу, а надворі раптом злива.",
+    "say": "Надворі злива, давай поїдемо метро.",
+    "ans": [
+     "It’s pouring outside, let’s take the subway.",
+     "It’s raining hard, so let’s take the subway.",
+     "It’s pouring — let’s just take the subway."
+    ],
+    "keys": {
+     "злива": "rain*|pour*|storm*|wet"
+    }
+   },
+   {
+    "sit": "Турист на вулиці питає тебе, як дістатися до центрального вокзалу.",
+    "say": "Найпростіше — поїхати метро, це дві зупинки.",
+    "ans": [
+     "The easiest way is to take the subway, it’s two stops.",
+     "Just take the subway — it’s only two stops.",
+     "Your best bet is to take the subway, it’s just two stops away."
+    ],
+    "keys": {
+     "дві зупинки": "two|2|stop*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2192,
+  "w": "take the tube",
+  "uk": "їхати лондонським метро",
+  "lvl": "B1",
+  "forms": "take|takes|took|taken|taking",
+  "tail": "tube",
+  "near": "underground|subway|metro|ride the train|rode the train",
+  "tasks": [
+   {
+    "sit": "Друг уперше їде в Лондон і питає, чим краще їздити містом.",
+    "say": "Метро найшвидше, але в годину пік там дуже тісно.",
+    "ans": [
+     "It’s fastest to take the tube, but it’s packed at rush hour.",
+     "Taking the tube is the quickest way, but it gets really crowded at rush hour.",
+     "Just take the tube — it’s quickest, but it’s packed at rush hour."
+    ],
+    "keys": {
+     "година пік": "rush hour|peak",
+     "тісно": "packed|crowded|full|busy|rammed"
+    }
+   },
+   {
+    "sit": "Ти працюєш у Лондоні. Колега питає, як ти добираєшся на роботу.",
+    "say": "Я щоранку їду метро до Кінгс-Кросу.",
+    "ans": [
+     "I take the tube to King’s Cross every morning.",
+     "Every morning I take the tube to King’s Cross.",
+     "I usually take the tube to King’s Cross in the morning."
+    ],
+    "keys": {
+     "Кінгс-Крос": "king*|cross",
+     "щоранку": "morning*"
+    }
+   },
+   {
+    "sit": "У новинах кажуть, що завтра в Лондоні страйк працівників метро.",
+    "say": "Через страйк я завтра не зможу поїхати метро — поїду велосипедом.",
+    "ans": [
+     "Because of the strike I can’t take the tube tomorrow, so I’ll cycle.",
+     "I won’t be able to take the tube tomorrow because of the strike — I’ll go by bike.",
+     "With the strike tomorrow, I can’t take the tube, so I’ll just ride my bike."
+    ],
+    "keys": {
+     "страйк": "strike*",
+     "велосипед": "bike|cycl*|bicycle"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2193,
+  "w": "hail a cab",
+  "uk": "зупинити (зловити) таксі на вулиці",
+  "lvl": "B2",
+  "forms": "hail|hails|hailed|hailed|hailing",
+  "tail": "cab*/taxi*",
+  "near": "call* a taxi|call* a cab|get a taxi|got a taxi|catch* a cab|caught a cab|flag* down|stop* a taxi|order*",
+  "tasks": [
+   {
+    "sit": "Ви з дружиною повернулися з театру змоклі до нитки. Друг питає, що сталося.",
+    "say": "Ми пів години намагалися зловити таксі під дощем.",
+    "ans": [
+     "We spent half an hour trying to hail a cab in the rain.",
+     "We tried to hail a cab in the rain for half an hour.",
+     "We were out in the rain for half an hour trying to hail a cab."
+    ],
+    "keys": {
+     "дощ": "rain*",
+     "пів години": "half an hour|30 minutes|thirty minutes"
+    }
+   },
+   {
+    "sit": "Друг їде до Лондона й питає, чи обовʼязково замовляти таксі через додаток.",
+    "say": "У Лондоні можна просто зупинити таксі рукою на вулиці.",
+    "ans": [
+     "In London you can just hail a cab on the street.",
+     "You can simply hail a cab in the street in London.",
+     "In London, you can just hail a cab right on the street."
+    ],
+    "keys": {
+     "вулиця": "street|road|curb|kerb|sidewalk"
+    }
+   },
+   {
+    "sit": "Ти запізнювався на зустріч і розповідаєш колегам, як устиг.",
+    "say": "Я вискочив з офісу й зупинив перше таксі, яке побачив.",
+    "ans": [
+     "I ran out of the office and hailed the first cab I saw.",
+     "I rushed out of the office and hailed the first taxi I could see.",
+     "I ran outside and hailed the first cab that came by."
+    ],
+    "keys": {
+     "перше": "first"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2194,
+  "w": "order an Uber",
+  "uk": "замовити Убер (таксі через додаток)",
+  "lvl": "B1",
+  "forms": "order|orders|ordered|ordered|ordering",
+  "tail": "uber*",
+  "near": "call* a taxi|call* a cab|book*|taxi|cab",
+  "tasks": [
+   {
+    "sit": "Вечірка в друзів затяглася, метро вже не ходить.",
+    "say": "Вже друга ночі, я замовлю Убер додому.",
+    "ans": [
+     "It’s already two in the morning, I’ll order an Uber home.",
+     "It’s two in the morning, so I’m ordering an Uber home.",
+     "It’s so late — I’ll just order an Uber home."
+    ],
+    "keys": {
+     "додому": "home",
+     "друга ночі": "two|2|late|night|morning"
+    }
+   },
+   {
+    "sit": "Мама в тебе в гостях, їй треба на потяг, а з валізою їхати незручно.",
+    "say": "Мамо, я замовлю тобі Убер до вокзалу.",
+    "ans": [
+     "Mom, I’ll order you an Uber to the train station.",
+     "Mom, let me order an Uber for you to the station.",
+     "Mom, I’ll just order you an Uber to the station."
+    ],
+    "keys": {
+     "вокзал": "station|train"
+    }
+   },
+   {
+    "sit": "Ви з другом летите у відпустку, і він хвилюється, як дістатися з аеропорту до готелю.",
+    "say": "Щойно ми приземлимося, я замовлю Убер.",
+    "ans": [
+     "As soon as we land, I’ll order an Uber.",
+     "I’ll order an Uber as soon as we land.",
+     "Once we land, I’ll order us an Uber."
+    ],
+    "keys": {
+     "приземлимося": "land*|arrive*|touch down"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2195,
+  "w": "get off (a bus)",
+  "uk": "виходити (з транспорту)",
+  "lvl": "A2",
+  "forms": "get|gets|got|got/gotten|getting",
+  "tail": "off",
+  "near": "exit*|leave|left|step off|stepped off|hop off|hopped off|jump off",
+  "tasks": [
+   {
+    "sit": "Ти турист в автобусі й не знаєш, де зупинка біля музею. Питаєш водія.",
+    "say": "Вибачте, де мені вийти, щоб потрапити до музею?",
+    "ans": [
+     "Excuse me, where should I get off for the museum?",
+     "Excuse me, where do I get off to go to the museum?",
+     "Sorry, which stop do I get off at for the museum?"
+    ],
+    "keys": {
+     "музей": "museum"
+    }
+   },
+   {
+    "sit": "Друг уперше їде до тебе в гості й пише, що вже сів в автобус.",
+    "say": "Виходь на третій зупинці після мосту.",
+    "ans": [
+     "Get off at the third stop after the bridge.",
+     "You need to get off at the third stop after the bridge.",
+     "Just get off at the third stop past the bridge."
+    ],
+    "keys": {
+     "третій": "third|3rd",
+     "міст": "bridge"
+    }
+   },
+   {
+    "sit": "Ти запізнився на роботу й пояснюєш колезі чому.",
+    "say": "Я заснув в автобусі й вийшов не на тій зупинці.",
+    "ans": [
+     "I fell asleep on the bus and got off at the wrong stop.",
+     "I fell asleep and got off at the wrong stop.",
+     "I dozed off on the bus and got off at the wrong stop."
+    ],
+    "keys": {
+     "заснув": "asleep|sleep*|doz*|nap*",
+     "не на тій": "wrong"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2196,
+  "w": "get on (a bus)",
+  "uk": "сідати (в транспорт)",
+  "lvl": "A2",
+  "forms": "get|gets|got|got/gotten|getting",
+  "tail": "on",
+  "near": "board*|hop on|hopped on|jump* on|catch*|caught",
+  "tasks": [
+   {
+    "sit": "Син уперше їде до школи сам. Ти даєш йому інструкції.",
+    "say": "Сідай через передні двері й покажи квиток водієві.",
+    "ans": [
+     "Get on at the front door and show your ticket to the driver.",
+     "Get on through the front door and show the driver your ticket.",
+     "Get on at the front and show your ticket to the driver."
+    ],
+    "keys": {
+     "квиток": "ticket*|pass",
+     "водій": "driver"
+    }
+   },
+   {
+    "sit": "Ти запізнився на зустріч із друзями й пояснюєш чому.",
+    "say": "Автобус був такий переповнений, що я не зміг у нього сісти.",
+    "ans": [
+     "The bus was so full that I couldn’t get on.",
+     "The bus was so crowded I couldn’t get on it.",
+     "It was so packed I couldn’t even get on the bus."
+    ],
+    "keys": {
+     "переповнений": "full|crowded|packed|jam*",
+     "не зміг": "not"
+    }
+   },
+   {
+    "sit": "Ви з дружиною бігли пероном і в останню секунду заскочили у вагон.",
+    "say": "Ми ледве встигли сісти на потяг.",
+    "ans": [
+     "We only just managed to get on the train.",
+     "We barely managed to get on the train in time.",
+     "Phew, we just managed to get on the train!"
+    ],
+    "keys": {
+     "ледве": "barely|just|nearly|almost",
+     "потяг": "train"
+    }
+   }
+  ]
+ },
+ {
+  "id": 2197,
+  "w": "validate a ticket",
+  "uk": "компостувати квиток",
+  "lvl": "B2",
+  "forms": "validate|validates|validated|validated|validating",
+  "tail": "ticket*",
+  "near": "punch*|stamp*|scan*|tap*|activat*",
+  "tasks": [
+   {
+    "sit": "У трамваї до тебе підходить контролер.",
+    "say": "Вибачте, я забув прокомпостувати квиток — ось він.",
+    "ans": [
+     "Sorry, I forgot to validate my ticket — here it is.",
+     "I’m sorry, I forgot to validate the ticket. Here it is.",
+     "Sorry, I totally forgot to validate my ticket — here you go."
+    ],
+    "keys": {
+     "забув": "forg*"
+    }
+   },
+   {
+    "sit": "Друг їде в Італію, і ти ділишся досвідом про місцеві потяги.",
+    "say": "Обовʼязково компостуй квиток перед посадкою на потяг, бо оштрафують.",
+    "ans": [
+     "Always validate your ticket before you get on the train, or you’ll get fined.",
+     "Make sure you validate your ticket before boarding the train, or you’ll be fined.",
+     "You have to validate your ticket before the train, otherwise you get a fine."
+    ],
+    "keys": {
+     "оштрафують": "fine*|penalty",
+     "потяг": "train*"
+    }
+   },
+   {
+    "sit": "Син-підліток уперше їде тролейбусом сам.",
+    "say": "Щойно зайдеш у тролейбус, одразу компостуй квиток.",
+    "ans": [
+     "As soon as you get on the trolleybus, validate your ticket.",
+     "Validate your ticket right after you get on the trolleybus.",
+     "Get on the trolleybus and validate your ticket straight away."
+    ],
+    "keys": {
+     "одразу": "soon|right|straight|immediately",
+     "тролейбус": "trolley*|bus"
+    }
+   }
+  ]
+ }
+]

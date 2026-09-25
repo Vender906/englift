@@ -1,0 +1,639 @@
+[
+ {
+  "id": 1685, "w": "splash", "uk": "хлюпати(ся), бризкати водою", "lvl": "B1",
+  "forms": "splash|splashes|splashed|splashed|splashing",
+  "near": "spray*|splatter*|sprinkl*|paddl*|soak*",
+  "tasks": [
+   {
+    "sit": "Ви з сестрою відпочиваєте біля басейну в готелі й дивитеся на її дітей.",
+    "say": "Діти пів дня хлюпалися в басейні.",
+    "ans": ["The kids splashed around in the pool all afternoon.", "The kids were splashing in the pool for half the day.", "The kids spent half the day splashing around in the pool."],
+    "keys": { "діти": "kid*|child*|children", "басейн": "pool" }
+   },
+   {
+    "sit": "Ти прийшов на роботу з мокрими штанами. Колега питає, що сталося.",
+    "say": "Машина проїхала по калюжі й облила мене водою.",
+    "ans": ["A car splashed me when it drove through a puddle.", "A passing car splashed water all over me.", "A car went through a puddle and splashed me head to toe."],
+    "keys": { "машина": "car|truck|bus|van|driver", "калюжа": "puddle*|water|mud*" }
+   },
+   {
+    "sit": "Ви з другом стоїте по коліна в озері, і він бризкає на тебе.",
+    "say": "Не хлюпай на мене, вода холодна!",
+    "ans": ["Don’t splash me, the water’s cold!", "Stop splashing me — the water is freezing!", "Hey, quit splashing me, it’s freezing!"],
+    "keys": { "не": "not|stop|quit", "холодна": "cold|freez*|ic*" }
+   }
+  ]
+ },
+ {
+  "id": 1687, "w": "trickle", "uk": "стікати краплями, цівкою", "lvl": "C1",
+  "forms": "trickle|trickles|trickled|trickled|trickling",
+  "near": "drip*|run* down|ran down|flow*|stream*|roll* down|rolled down",
+  "tasks": [
+   {
+    "sit": "Ти сидиш у кавʼярні біля вікна, надворі осінній дощ. Описуєш цей момент у щоденнику.",
+    "say": "Дощ повільно стікав по склу.",
+    "ans": ["Rain trickled slowly down the glass.", "Raindrops were trickling down the window.", "I watched the rain trickle down the window."],
+    "keys": { "дощ": "rain*", "скло": "glass|window*|pane*" }
+   },
+   {
+    "sit": "Ти розповідаєш, як бігав кросс у тридцятиградусну спеку.",
+    "say": "Піт стікав мені по спині.",
+    "ans": ["Sweat was trickling down my back.", "Sweat trickled down my back.", "I could feel the sweat trickling down my back."],
+    "keys": { "піт": "sweat*", "спина": "back|spine" }
+   },
+   {
+    "sit": "Ти телефонуєш сантехніку, бо помітив мокру пляму у ванній.",
+    "say": "Вода потроху стікає по стіні з квартири сусідів.",
+    "ans": ["Water is trickling down the wall from the flat upstairs.", "There’s water trickling down our wall from the neighbors’ apartment.", "Water keeps trickling down the wall from upstairs."],
+    "keys": { "вода": "water|leak*", "стіна": "wall*" }
+   }
+  ]
+ },
+ {
+  "id": 1688, "w": "pelt down", "uk": "хлистати (про сильний дощ)", "lvl": "C1",
+  "forms": "pelt|pelts|pelted|pelted|pelting",
+  "tail": "down",
+  "near": "pour*|bucket*|rain* heavily|rain* hard|teem*|lash*|cats and dogs",
+  "tasks": [
+   {
+    "sit": "Зранку ти невиспаний. Колега питає, що сталося.",
+    "say": "Дощ хлистав усю ніч, і я не міг заснути.",
+    "ans": ["The rain pelted down all night and I couldn’t sleep.", "It was pelting down all night, so I didn’t sleep much.", "It pelted down all night — I barely slept."],
+    "keys": { "уся ніч": "night", "не міг заснути": "sleep*|slept|awake" }
+   },
+   {
+    "sit": "Ти заходиш в офіс весь мокрий. Колега дивується.",
+    "say": "Надворі хлище дощ, а парасольки в мене немає.",
+    "ans": ["It’s pelting down outside and I don’t have an umbrella.", "It’s pelting down out there, and I forgot my umbrella.", "It’s absolutely pelting down and I’ve got no umbrella."],
+    "keys": { "парасолька": "umbrella*" }
+   },
+   {
+    "sit": "Ви в поході, сидите в наметі й збиралися сьогодні підніматися на гору.",
+    "say": "Якщо дощ і далі так хлиститиме, ми нікуди не підемо.",
+    "ans": ["If it keeps pelting down, we’re not going anywhere.", "We’ll stay in the tent if the rain keeps pelting down.", "If it’s still pelting down later, we’re not going anywhere today."],
+    "keys": { "і далі": "keep*|still|continu*", "нікуди не підемо": "not going|stay*|nowhere|cancel*" }
+   }
+  ]
+ },
+ {
+  "id": 1689, "w": "rustle", "uk": "шелестіти", "lvl": "C1",
+  "forms": "rustle|rustles|rustled|rustled|rustling",
+  "near": "crackl*|crinkl*|crunch*|whisper*|swish*",
+  "tasks": [
+   {
+    "sit": "Ви з подругою гуляєте осіннім парком, і ти кажеш, що найбільше любиш у цій порі року.",
+    "say": "Люблю, як восени шелестить листя під ногами.",
+    "ans": ["I love how the leaves rustle under your feet in autumn.", "In the fall I love hearing dry leaves rustling under my feet.", "I just love the way leaves rustle underfoot in autumn."],
+    "keys": { "листя": "lea*", "восени": "autumn|fall" }
+   },
+   {
+    "sit": "Ти розповідаєш, чому вечір у кінотеатрі був зіпсований.",
+    "say": "Хлопець поруч увесь фільм шелестів пакетом з чипсами.",
+    "ans": ["The guy next to me rustled his bag of chips through the whole movie.", "Someone next to me kept rustling a packet of crisps during the film.", "The guy beside me was rustling his chip bag the entire movie."],
+    "keys": { "пакет": "bag|packet|wrapper", "фільм": "film|movie" }
+   },
+   {
+    "sit": "Ви ночуєте в наметі в лісі. Ти пошепки будиш друга.",
+    "say": "Чуєш? Щось шелестить у кущах.",
+    "ans": ["Can you hear that? Something is rustling in the bushes.", "Listen, I heard something rustling in the bushes.", "Hey, there’s something rustling in the bushes out there!"],
+    "keys": { "кущі": "bush*|grass|tree*", "щось": "something|someone|somebody|animal" }
+   }
+  ]
+ },
+ {
+  "id": 1690, "w": "whistle", "uk": "свистіти (про вітер)", "lvl": "B2",
+  "forms": "whistle|whistles|whistled|whistled|whistling",
+  "near": "howl*|blow*|blew|whoosh*|whine*|moan*",
+  "tasks": [
+   {
+    "sit": "Ти скаржишся майстрові на старі вікна у своїй квартирі.",
+    "say": "Взимку вітер свистить крізь щілини у вікнах.",
+    "ans": ["In winter the wind whistles through the gaps in the windows.", "In winter the wind is always whistling through the cracks in the old windows.", "You can hear the wind whistling through the cracks every winter."],
+    "keys": { "щілини": "gap*|crack*|hole*", "взимку": "winter" }
+   },
+   {
+    "sit": "Ти розповідаєш про похід у гори.",
+    "say": "На вершині так свистів вітер, що ми не чули одне одного.",
+    "ans": ["The wind was whistling so loudly at the top that we couldn’t hear each other.", "At the summit the wind whistled so hard we couldn’t hear each other.", "The wind was whistling like crazy up there — we couldn’t hear a thing."],
+    "keys": { "вітер": "wind*", "не чули": "hear*|heard" }
+   },
+   {
+    "sit": "Ти щойно переїхав на двадцятий поверх і ділишся враженнями з мамою.",
+    "say": "Вночі за вікном так свистить вітер, що мені страшно.",
+    "ans": ["At night the wind whistles outside the window and it scares me.", "The wind whistles so much outside at night that I get scared.", "At night the wind is whistling outside like crazy — it’s kind of scary."],
+    "keys": { "вночі": "night", "страшно": "scar*|afraid|creepy|frighten*" }
+   }
+  ]
+ },
+ {
+  "id": 1691, "w": "calm down", "uk": "вгамовуватися, стихати (про вітер, шторм)", "lvl": "B1",
+  "forms": "calm|calms|calmed|calmed|calming",
+  "tail": "down",
+  "near": "die* down|died down|eas*|subsid*|stop*|settl*|drop*",
+  "tasks": [
+   {
+    "sit": "Ти в порту, всі чекають на пором. Пояснюєш по телефону, чому затримуєшся.",
+    "say": "Пором не відпливе, доки не вгамується шторм.",
+    "ans": ["The ferry won’t leave until the storm calms down.", "We have to wait for the storm to calm down before the ferry goes.", "Apparently there’s no ferry until the storm calms down."],
+    "keys": { "пором": "ferry|boat", "шторм": "storm|wind|sea|weather" }
+   },
+   {
+    "sit": "Ви на морі. Вчора купатися не можна було, а сьогодні ти кличеш друзів на пляж.",
+    "say": "Вчора були великі хвилі, а сьогодні море вгамувалося.",
+    "ans": ["Yesterday there were huge waves, but today the sea has calmed down.", "The sea calmed down overnight after yesterday’s big waves.", "The sea has finally calmed down — yesterday the waves were huge."],
+    "keys": { "море": "sea|water|ocean", "хвилі": "wave*" }
+   },
+   {
+    "sit": "Ви з другом приїхали в кемпінг, а там сильний вітер.",
+    "say": "Зачекаймо, поки вітер трохи вгамується, і тоді поставимо намет.",
+    "ans": ["Let’s wait until the wind calms down a bit, then put up the tent.", "Let’s put the tent up once the wind calms down.", "Let’s just wait for the wind to calm down before we pitch the tent."],
+    "keys": { "вітер": "wind*", "намет": "tent" }
+   }
+  ]
+ },
+ {
+  "id": 1692, "w": "drop", "uk": "опускатися, падати (про температуру)", "lvl": "B1",
+  "forms": "drop|drops|dropped|dropped|dropping",
+  "near": "fall|falls|fell|fallen|falling|go down|went down|goes down|decreas*|plummet*|sink*",
+  "tasks": [
+   {
+    "sit": "Ти дивишся прогноз погоди й попереджаєш сусіда, який ще не зняв шланги в саду.",
+    "say": "Уночі температура опуститься нижче нуля.",
+    "ans": ["Tonight the temperature will drop below zero.", "The temperature is going to drop below zero tonight.", "It’s supposed to drop below freezing tonight."],
+    "keys": { "нижче нуля": "below|zero|freezing|minus", "уночі": "night|tonight" }
+   },
+   {
+    "sit": "Ти розповідаєш про вечір у горах, коли всі швидко вдягли светри.",
+    "say": "Щойно сіло сонце, температура різко впала.",
+    "ans": ["When the sun set, the temperature dropped sharply.", "The temperature dropped fast after sunset.", "As soon as the sun went down, the temperature really dropped."],
+    "keys": { "сонце": "sun*", "різко": "sharp*|fast|quick*|really|a lot|sudden*" }
+   },
+   {
+    "sit": "У сина вночі була висока температура. Ти зранку телефонуєш мамі.",
+    "say": "Слава богу, температура в нього нарешті знизилася.",
+    "ans": ["Thank God, his temperature has finally dropped.", "His fever finally dropped, thank goodness.", "Good news — his temperature finally dropped this morning."],
+    "keys": { "температура": "temperature|fever|temp", "нарешті": "finally|at last" }
+   }
+  ]
+ },
+ {
+  "id": 1693, "w": "soar", "uk": "різко зростати, злітати (про температуру)", "lvl": "B2",
+  "forms": "soar|soars|soared|soared|soaring",
+  "near": "rise|rises|rose|risen|rising|climb*|shoot up|shot up|skyrocket*|jump*|go up|went up",
+  "tasks": [
+   {
+    "sit": "Ти пишеш друзям за кордон про літню спеку вдома.",
+    "say": "Цього тижня температура злетіла до сорока градусів.",
+    "ans": ["This week temperatures soared to forty degrees.", "Temperatures have soared to 40 degrees this week.", "This week the temperature soared to forty — it’s crazy."],
+    "keys": { "сорок": "forty|40*", "тиждень": "week" }
+   },
+   {
+    "sit": "Ти пояснюєш керівнику, чому команда не може працювати після обіду.",
+    "say": "Зламався кондиціонер, і температура в офісі підскочила до тридцяти.",
+    "ans": ["The AC broke and the temperature in the office soared to thirty degrees.", "The temperature in the office soared to thirty after the air conditioning broke.", "Our AC died and the office temperature just soared to thirty."],
+    "keys": { "кондиціонер": "ac|air con*|conditioning|conditioner|air-con*", "офіс": "office" }
+   },
+   {
+    "sit": "Ти залишив машину на парковці без тіні й повертаєшся до неї.",
+    "say": "Машина стояла на сонці, і температура всередині злетіла до пʼятдесяти градусів.",
+    "ans": ["The car was in the sun and the temperature inside soared to fifty degrees.", "Inside the parked car, the temperature soared to 50 degrees.", "I left the car in the sun and the temperature inside soared to fifty!"],
+    "keys": { "машина": "car", "пʼятдесят": "fifty|50*" }
+   }
+  ]
+ },
+ {
+  "id": 1694, "w": "turn cold", "uk": "холоднішати, похолодати", "lvl": "B1",
+  "forms": "turn|turns|turned|turned|turning",
+  "tail": "cold",
+  "near": "get* cold|got cold|gotten cold|cool* down|cooled|chill*|freez*|became cold|become cold",
+  "tasks": [
+   {
+    "sit": "Колега бачить тебе в теплій зимовій куртці й дивується, адже вчора була майже весна.",
+    "say": "За ніч похолодало, довелося дістати зимову куртку.",
+    "ans": ["It turned cold overnight, so I had to get out my winter coat.", "It suddenly turned cold, and I had to dig out my winter jacket.", "It turned really cold overnight — time for the winter coat."],
+    "keys": { "куртка": "coat|jacket" }
+   },
+   {
+    "sit": "Ти розповідаєш про подорож Карпатами.",
+    "say": "Коли ми піднялися в гори, погода раптом похолоднішала.",
+    "ans": ["When we got up into the mountains, the weather suddenly turned cold.", "The weather turned cold as soon as we reached the mountains.", "Up in the mountains it turned cold really fast."],
+    "keys": { "гори": "mountain*" }
+   },
+   {
+    "sit": "Ви з батьком на городі, кінець вересня.",
+    "say": "Треба зібрати помідори, поки не похолодало.",
+    "ans": ["We need to pick the tomatoes before it turns cold.", "Let’s harvest the tomatoes before the weather turns cold.", "Better get those tomatoes in before it turns cold."],
+    "keys": { "помідори": "tomato*" }
+   }
+  ]
+ },
+ {
+  "id": 1697, "w": "go on tour", "uk": "їхати в тур (з концертами)", "lvl": "B2",
+  "forms": "go|goes|went|gone|going",
+  "tail": "on tour",
+  "near": "travel*|on the road|hit the road|play* gigs|played gigs",
+  "tasks": [
+   {
+    "sit": "Ти в захваті від новини й ділишся нею з другом.",
+    "say": "Мій улюблений гурт восени їде в тур Європою!",
+    "ans": ["My favorite band is going on tour in Europe this fall!", "My favourite band goes on tour around Europe in the autumn.", "My favorite band is going on a European tour this fall!"],
+    "keys": { "гурт": "band|group", "Європа": "europe*" }
+   },
+   {
+    "sit": "Ти питаєш подругу, чому її хлопця-барабанщика давно не видно.",
+    "say": "Його група щойно поїхала в тур на три місяці.",
+    "ans": ["His band just went on tour for three months.", "His band has gone on tour for three months.", "His band has just gone on tour for three months, so he’s never home."],
+    "keys": { "три місяці": "three months|3 months|month*", "група": "band|group" }
+   },
+   {
+    "sit": "Ти менеджер молодого гурту й розповідаєш журналісту про плани.",
+    "say": "Навесні, після виходу альбому, ми поїдемо в тур.",
+    "ans": ["We’ll go on tour in the spring, after the album comes out.", "After the album is released, we’re going on tour in spring.", "Once the album is out in spring, we’re going on tour."],
+    "keys": { "альбом": "album|record", "навесні": "spring" }
+   }
+  ]
+ },
+ {
+  "id": 1698, "w": "encore", "uk": "виходити (грати) на біс", "lvl": "C1",
+  "forms": "encore|encores|encored|encored|encoring",
+  "near": "play* again|sang again|another song|one more song|bis",
+  "tasks": [
+   {
+    "sit": "Ти вчора був на концерті. Друг питає, як усе пройшло.",
+    "say": "Гурт двічі виходив на біс!",
+    "ans": ["The band encored twice!", "The band came back and did two encores.", "They did two encores — the crowd went wild!"],
+    "keys": { "двічі": "twice|two|2" }
+   },
+   {
+    "sit": "Ти розповідаєш колезі про фортепіанний вечір у філармонії.",
+    "say": "На біс піаністка зіграла коротку пʼєсу Шопена.",
+    "ans": ["The pianist played a short Chopin piece as an encore.", "For her encore, the pianist played a short piece by Chopin.", "She encored with a little Chopin piece."],
+    "keys": { "Шопен": "chopin", "пʼєса": "piece|waltz|nocturne|prelude|song" }
+   },
+   {
+    "sit": "Ти вперше виступав зі шкільним хором і ввечері розповідаєш мамі.",
+    "say": "Нас навіть попросили заспівати на біс!",
+    "ans": ["They even asked us for an encore!", "We even got asked to sing an encore!", "The audience actually wanted an encore from us!"],
+    "keys": { "попросили": "ask*|want*|call*|demand*|shout*", "навіть": "even|actually" }
+   }
+  ]
+ },
+ {
+  "id": 1699, "w": "self-publish", "uk": "видавати самвидавом (власним коштом)", "lvl": "C1",
+  "forms": "self-publish|self-publishes|self-published|self-published|self-publishing",
+  "near": "print* it myself|put out|put it out|release*|indie",
+  "tasks": [
+   {
+    "sit": "Ти три роки писав роман, але видавництва відповіли відмовою. Ділишся планами з другом.",
+    "say": "Жодне видавництво не взяло мій роман, тому я видам його сам.",
+    "ans": ["No publisher wanted my novel, so I’m going to self-publish it.", "I’ll self-publish my novel since no publisher took it.", "Nobody would take my novel, so I’m just going to self-publish."],
+    "keys": { "роман": "novel|book", "видавництво": "publisher*|nobody|no one|agenc*" }
+   },
+   {
+    "sit": "Подруга-кулінарка давно збирала рецепти. Ти розповідаєш про неї колегам.",
+    "say": "Вона сама видала свою кулінарну книжку й продає її в інтернеті.",
+    "ans": ["She self-published her cookbook and sells it online.", "Her cookbook was self-published, and she sells it online.", "She self-published her own cookbook and sells it on the internet."],
+    "keys": { "кулінарна книжка": "cookbook*|cook book|recipe*", "інтернет": "online|internet|web*" }
+   },
+   {
+    "sit": "Ти програміст, і колега питає, звідки в тебе додатковий дохід.",
+    "say": "Я сам видав посібник з програмування як електронну книгу.",
+    "ans": ["I self-published a programming guide as an e-book.", "My programming guide was self-published as an ebook.", "I just self-published my coding guide as an e-book."],
+    "keys": { "посібник": "guide|manual|tutorial|handbook", "електронна книга": "e-book*|ebook*|electronic|digital|kindle|pdf" }
+   }
+  ]
+ },
+ {
+  "id": 1701, "w": "tie-dye", "uk": "фарбувати в техніці тай-дай", "lvl": "C1",
+  "forms": "tie-dye|tie-dyes|tie-dyed|tie-dyed|tie-dyeing",
+  "near": "dye|dyes|dyed|dyeing|color*|colour*|paint*",
+  "tasks": [
+   {
+    "sit": "Батьки питають, що ви робили в літньому таборі.",
+    "say": "У таборі ми фарбували футболки в техніці тай-дай.",
+    "ans": ["At camp we tie-dyed T-shirts.", "We tie-dyed some T-shirts at summer camp.", "At camp we spent a whole day tie-dyeing T-shirts."],
+    "keys": { "футболки": "t-shirt*|shirt*|tee*|top*", "табір": "camp" }
+   },
+   {
+    "sit": "Ти розбираєш шафу з постільною білизною й кличеш молодшу сестру.",
+    "say": "Давай пофарбуємо ці старі білі наволочки в техніці тай-дай!",
+    "ans": ["Let’s tie-dye these old white pillowcases!", "Why don’t we tie-dye the old white pillowcases?", "Hey, let’s tie-dye these boring old white pillowcases!"],
+    "keys": { "наволочки": "pillowcase*|pillow*|cover*", "білі": "white" }
+   },
+   {
+    "sit": "Ти показуєш подрузі маленький магазин одягу, який тобі подобається.",
+    "say": "Тут усі худі фарбують тай-даєм вручну.",
+    "ans": ["They tie-dye all their hoodies here by hand.", "All the hoodies in this store are tie-dyed by hand.", "They tie-dye every single hoodie here by hand."],
+    "keys": { "худі": "hood*|sweatshirt*|top*", "вручну": "by hand|hand*|themselves|own" }
+   }
+  ]
+ },
+ {
+  "id": 1702, "w": "paint by number", "uk": "малювати за номерами", "lvl": "C1",
+  "forms": "paint|paints|painted|painted|painting",
+  "tail": "by number*",
+  "near": "color*|colour*|draw*|sketch*",
+  "tasks": [
+   {
+    "sit": "Колега питає, як ти розслабляєшся після важкого дня.",
+    "say": "Щоб розслабитися після роботи, я малюю за номерами.",
+    "ans": ["I paint by numbers to relax after work.", "After work I like to paint by numbers to unwind.", "Painting by numbers is how I relax after work."],
+    "keys": { "розслабитися": "relax*|unwind*|chill*|de-stress*|calm*", "робота": "work|job" }
+   },
+   {
+    "sit": "Ти показуєш другові картини на стінах у бабусиній квартирі.",
+    "say": "Бабуся цілу зиму малювала за номерами.",
+    "ans": ["Grandma painted by numbers all winter.", "My grandma spent the whole winter painting by numbers.", "All winter Grandma has been painting by numbers."],
+    "keys": { "бабуся": "grandma|granny|grandmother|nan*|gran", "зима": "winter" }
+   },
+   {
+    "sit": "Ти організовував день народження доньки. Інша мама питає, як усе пройшло.",
+    "say": "На святі діти малювали за номерами, і всім сподобалося.",
+    "ans": ["At the party the kids painted by numbers, and everyone loved it.", "The kids painted by numbers at the birthday party and they all loved it.", "We had the kids paint by numbers at the party — they loved it!"],
+    "keys": { "діти": "kid*|child*", "свято": "party|birthday", "сподобалося": "lov*|lik*|enjoy*|fun" }
+   }
+  ]
+ },
+ {
+  "id": 1703, "w": "outsmart", "uk": "перехитрити", "lvl": "B2",
+  "forms": "outsmart|outsmarts|outsmarted|outsmarted|outsmarting",
+  "near": "outwit*|trick*|fool*|beat*|outplay*|outfox*",
+  "tasks": [
+   {
+    "sit": "Ти граєш у шахи з восьмирічним сином і програєш. Розповідаєш дружині.",
+    "say": "Уяви, мій восьмирічний син мене перехитрив!",
+    "ans": ["My eight-year-old son outsmarted me at chess!", "Can you believe it? My eight-year-old outsmarted me!", "Imagine, my eight-year-old totally outsmarted me at chess!"],
+    "keys": { "син": "son|eight*|8*|kid|boy" }
+   },
+   {
+    "sit": "Ти сховав ковбасу на верхню полицю, але повернувся — а її вже немає.",
+    "say": "Кіт знову мене перехитрив і дістав ковбасу.",
+    "ans": ["The cat outsmarted me again and got the sausage.", "Once again the cat outsmarted me and got to the sausage.", "The cat outsmarted me again — he stole the sausage!"],
+    "keys": { "кіт": "cat", "ковбаса": "sausage*|salami|ham|meat" }
+   },
+   {
+    "sit": "Тобі дзвонили нібито з банку й просили код з СМС. Ти розповідаєш колегам.",
+    "say": "Шахраї хотіли виманити в мене гроші, але я їх перехитрив.",
+    "ans": ["The scammers tried to get money out of me, but I outsmarted them.", "I outsmarted the scammers who tried to take my money.", "Those scammers wanted my money, but I outsmarted them."],
+    "keys": { "шахраї": "scam*|fraud*|con*|crook*|thie*", "гроші": "money|cash|pay*" }
+   }
+  ]
+ },
+ {
+  "id": 1704, "w": "outmaneuver", "uk": "переграти (маневром, тактикою)", "lvl": "C1",
+  "forms": "outmaneuver/outmanoeuvre|outmaneuvers/outmanoeuvres|outmaneuvered/outmanoeuvred|outmaneuvered/outmanoeuvred|outmaneuvering/outmanoeuvring",
+  "near": "outsmart*|outplay*|outwit*|beat*|outflank*|outfox*",
+  "tasks": [
+   {
+    "sit": "Інвестор питає, як ваш маленький стартап відбив клієнтів у великих компаній.",
+    "say": "Ми переграли великих конкурентів, бо діяли швидше.",
+    "ans": ["We outmaneuvered the big competitors because we moved faster.", "We outmaneuvered the bigger players by moving faster.", "We just moved faster and outmaneuvered the big guys."],
+    "keys": { "конкуренти": "compet*|rival*|players|guys|compan*|corporation*", "швидше": "fast*|quick*" }
+   },
+   {
+    "sit": "Твоя футбольна команда програла. Ти пояснюєш другові, що сталося.",
+    "say": "Їхній тренер просто переграв нас тактично.",
+    "ans": ["Their coach just outmaneuvered us tactically.", "We were outmaneuvered tactically by their coach.", "Honestly, their coach just outmaneuvered us."],
+    "keys": { "тренер": "coach|manager", "нас": "us|we" }
+   },
+   {
+    "sit": "Ти переказуєш новини з парламенту.",
+    "say": "Опозиція переграла уряд і заблокувала закон.",
+    "ans": ["The opposition outmaneuvered the government and blocked the law.", "The government was outmaneuvered by the opposition, and the bill was blocked.", "The opposition outmaneuvered the government and killed the bill."],
+    "keys": { "опозиція": "opposition", "закон": "law|bill|legislation" }
+   }
+  ]
+ },
+ {
+  "id": 1705, "w": "salute", "uk": "віддавати честь (прапору)", "lvl": "B2",
+  "forms": "salute|salutes|saluted|saluted|saluting",
+  "near": "stand* to attention|stood to attention|honor*|honour*|bow*|hand on heart",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш про військовий парад у День Незалежності.",
+    "say": "Коли проносили прапор, усі військові віддали йому честь.",
+    "ans": ["When the flag went by, all the soldiers saluted it.", "All the soldiers saluted the flag as it passed.", "As the flag went past, every soldier saluted."],
+    "keys": { "прапор": "flag|colors|colours|it", "військові": "soldier*|troops|military|officer*" }
+   },
+   {
+    "sit": "У школі урочиста лінійка, прийшли ветерани. Ти розповідаєш про це.",
+    "say": "Коли піднімали прапор, ветерани віддали йому честь.",
+    "ans": ["When the flag was raised, the veterans saluted it.", "The veterans saluted as the flag went up.", "As they raised the flag, the veterans all saluted."],
+    "keys": { "ветерани": "veteran*", "піднімали": "rais*|went up|hoist*|up" }
+   },
+   {
+    "sit": "Ти дивишся Олімпіаду й коментуєш нагородження другові.",
+    "say": "Під час гімну спортсмен віддав честь прапору.",
+    "ans": ["During the anthem, the athlete saluted the flag.", "The athlete saluted the flag while the anthem played.", "When the anthem started, he stood on the podium and saluted the flag."],
+    "keys": { "гімн": "anthem", "прапор": "flag" }
+   }
+  ]
+ },
+ {
+  "id": 1706, "w": "discharge", "uk": "звільняти (з військової служби)", "lvl": "C1",
+  "forms": "discharge|discharges|discharged|discharged|discharging",
+  "near": "releas*|dismiss*|demobiliz*|demobilis*|let go|kicked out|fired",
+  "tasks": [
+   {
+    "sit": "Знайомий питає, чому твій дядько повернувся з армії раніше.",
+    "say": "Його звільнили зі служби за станом здоровʼя.",
+    "ans": ["He was discharged from the army for health reasons.", "They discharged him from the army because of his health.", "He got a medical discharge from the army."],
+    "keys": { "армія": "army|military|service", "здоровʼя": "health|medical*|injur*" }
+   },
+   {
+    "sit": "Ти ветеран і проходиш співбесіду в цивільну компанію.",
+    "say": "Мене з честю звільнили зі служби два роки тому.",
+    "ans": ["I was honorably discharged two years ago.", "I got an honorable discharge two years ago.", "They discharged me honorably two years ago."],
+    "keys": { "з честю": "honorabl*|honourabl*|honor*|honour*", "два роки": "two years|2 years" }
+   },
+   {
+    "sit": "Ти переказуєш новину про скандал у військовій частині.",
+    "say": "Солдата звільнили зі служби за порушення дисципліни.",
+    "ans": ["The soldier was discharged for breaking discipline.", "They discharged the soldier for a breach of discipline.", "The soldier got discharged for breaking the rules."],
+    "keys": { "солдат": "soldier|he|private", "порушення": "break*|breach*|violat*|misconduct|disciplin*|rules" }
+   }
+  ]
+ },
+ {
+  "id": 1707, "w": "kneel down", "uk": "опускатися на коліна", "lvl": "B2",
+  "forms": "kneel|kneels|knelt/kneeled|knelt/kneeled|kneeling",
+  "tail": "down",
+  "near": "crouch*|squat*|bend down|bent down|on my knees|on his knees|on one knee",
+  "tasks": [
+   {
+    "sit": "Ти вперше був на службі в старій церкві й розповідаєш про неї другові.",
+    "say": "Під час молитви всі опустилися на коліна.",
+    "ans": ["Everyone knelt down to pray.", "During the prayer, everybody knelt down.", "When the prayer started, we all knelt down."],
+    "keys": { "молитва": "pray*", "всі": "everyone|everybody|all" }
+   },
+   {
+    "sit": "Сусідка питає, чому в тебе брудні штани. Ти працював у саду.",
+    "say": "Мені довелося стати на коліна, щоб прополоти грядку.",
+    "ans": ["I had to kneel down to weed the garden bed.", "I knelt down to pull the weeds out of the bed.", "I had to kneel down in the dirt to do the weeding."],
+    "keys": { "прополоти": "weed*" }
+   },
+   {
+    "sit": "У парку плаче загублений малюк. Ти розповідаєш, як допоміг йому.",
+    "say": "Я присів на коліна, щоб поговорити з малим на рівні його очей.",
+    "ans": ["I knelt down to talk to the little boy at his eye level.", "I knelt down so I could talk to the kid at eye level.", "I kneeled down to be at his level when I talked to him."],
+    "keys": { "поговорити": "talk*|speak*|chat*", "рівень": "level|eye*" }
+   }
+  ]
+ },
+ {
+  "id": 1708, "w": "give thanks", "uk": "дякувати (Богові, у молитві)", "lvl": "B2",
+  "forms": "give|gives|gave|given|giving",
+  "tail": "thanks",
+  "near": "thank god|thank you|thanked|say grace|said grace|pray*|grateful|bless*",
+  "tasks": [
+   {
+    "sit": "Іноземний друг гостює у твоїй родині й дивується, чому всі перед вечерею замовкли.",
+    "say": "У нашій родині ми завжди дякуємо Богові перед їжею.",
+    "ans": ["In our family we always give thanks before meals.", "My family always gives thanks before we eat.", "We always give thanks before dinner in my family."],
+    "keys": { "перед їжею": "before|meal*|eat*|dinner|food", "родина": "family" }
+   },
+   {
+    "sit": "Ти розповідаєш про свято в селі, де живуть твої дідусь і бабуся.",
+    "say": "Щоосені все село дякує за врожай.",
+    "ans": ["Every autumn the whole village gives thanks for the harvest.", "Every fall, the village gives thanks for the harvest.", "The whole village gets together every autumn to give thanks for the harvest."],
+    "keys": { "врожай": "harvest|crop*", "село": "village|everyone|people" }
+   },
+   {
+    "sit": "Тато одужав після важкої операції. Ти розповідаєш про це подрузі.",
+    "say": "Коли тато одужав, ми пішли до церкви подякувати Богові.",
+    "ans": ["After Dad recovered, we went to church to give thanks.", "We went to church to give thanks when Dad got better.", "Once Dad was better, we went to church to give thanks to God."],
+    "keys": { "церква": "church|chapel|temple", "тато": "dad|father" }
+   }
+  ]
+ },
+ {
+  "id": 1709, "w": "breathe deeply", "uk": "глибоко дихати", "lvl": "A2",
+  "forms": "breathe|breathes|breathed|breathed|breathing",
+  "tail": "deeply",
+  "near": "deep breath|deep breaths|inhal*|exhal*",
+  "tasks": [
+   {
+    "sit": "Ти ведеш заняття з йоги для друзів.",
+    "say": "Дихайте глибоко й розслабтеся.",
+    "ans": ["Breathe deeply and relax.", "Just relax and breathe deeply.", "Close your eyes, relax, and breathe deeply."],
+    "keys": { "розслабтеся": "relax*|calm*" }
+   },
+   {
+    "sit": "Ти розповідаєш мамі про огляд у лікаря.",
+    "say": "Лікар попросив мене глибоко дихати.",
+    "ans": ["The doctor asked me to breathe deeply.", "The doctor told me to breathe deeply.", "My doctor asked me to breathe deeply a few times."],
+    "keys": { "лікар": "doctor|nurse|dr|doc" }
+   },
+   {
+    "sit": "Однокурсник питає, як ти не нервуєш на іспитах.",
+    "say": "Перед іспитом я глибоко дихаю, щоб заспокоїтися.",
+    "ans": ["Before an exam I breathe deeply to calm down.", "I always breathe deeply before exams to calm down.", "I try to breathe deeply before an exam so I don’t panic."],
+    "keys": { "іспит": "exam*|test*", "заспокоїтися": "calm*|relax*|nervous|panic*|stress*" }
+   }
+  ]
+ },
+ {
+  "id": 1710, "w": "send back", "uk": "відправляти назад, повертати", "lvl": "B1",
+  "forms": "send|sends|sent|sent|sending",
+  "tail": "back",
+  "near": "return*|ship* back|post* back|mail* back|give back|gave back|take back|took back",
+  "tasks": [
+   {
+    "sit": "Ти замовив кросівки в інтернет-магазині, міряєш їх удома.",
+    "say": "Вони завеликі — відправлю їх назад.",
+    "ans": ["They’re too big, so I’ll send them back.", "I’m sending these sneakers back — they’re too big.", "They’re way too big, so I’m going to send them back."],
+    "keys": { "завеликі": "big|large|size" }
+   },
+   {
+    "sit": "Ти розповідаєш другові про невдалий обід у ресторані.",
+    "say": "Суп був холодний, тож я відправив його назад на кухню.",
+    "ans": ["The soup was cold, so I sent it back to the kitchen.", "I sent the soup back because it was cold.", "My soup was cold, so I sent it back."],
+    "keys": { "суп": "soup|it", "холодний": "cold|lukewarm" }
+   },
+   {
+    "sit": "Ти засмучений після розмови з бухгалтерією на роботі.",
+    "say": "Мені відправили звіт назад, бо там помилки.",
+    "ans": ["They sent my report back because there were mistakes.", "My report got sent back because of some errors.", "They sent my report back — apparently it’s full of mistakes."],
+    "keys": { "звіт": "report", "помилки": "mistake*|error*|wrong" }
+   }
+  ]
+ },
+ {
+  "id": 1712, "w": "check the receipt", "uk": "перевірити чек", "lvl": "A2",
+  "forms": "check|checks|checked|checked|checking",
+  "tail": "receipt*",
+  "near": "look* at|looked at|verif*|go through|went through|bill",
+  "tasks": [
+   {
+    "sit": "Ви з подругою вийшли з супермаркету, і сума здається тобі завеликою.",
+    "say": "Зачекай, треба перевірити чек — здається, хліб порахували двічі.",
+    "ans": ["Wait, I need to check the receipt — I think they charged me twice for the bread.", "Hang on, let me check the receipt. I think the bread was charged twice.", "Hold on, let me check the receipt — I think I paid for the bread twice."],
+    "keys": { "хліб": "bread", "двічі": "twice|two times|double*" }
+   },
+   {
+    "sit": "Ти вчиш сина-підлітка, як правильно робити покупки.",
+    "say": "Завжди перевіряй чек, перш ніж іти з магазину.",
+    "ans": ["Always check the receipt before you leave the shop.", "Before leaving the store, always check your receipt.", "Always check the receipt before you walk out of the store."],
+    "keys": { "магазин": "shop|store|supermarket", "завжди": "always" }
+   },
+   {
+    "sit": "Ти розповідаєш другові про вечерю в кафе.",
+    "say": "Я перевірив чек і знайшов помилку.",
+    "ans": ["I checked the receipt and found a mistake.", "When I checked the receipt, I found a mistake.", "I checked the receipt and there was a mistake on it."],
+    "keys": { "помилка": "mistake*|error*|wrong" }
+   }
+  ]
+ },
+ {
+  "id": 1713, "w": "jog in place", "uk": "бігти на місці", "lvl": "B2",
+  "forms": "jog|jogs|jogged|jogged|jogging",
+  "tail": "in place",
+  "near": "on the spot|run* in place|ran in place|march* in place|jumping jacks",
+  "tasks": [
+   {
+    "sit": "Ти тренер і починаєш заняття з групою.",
+    "say": "Для розігріву дві хвилини побігайте на місці.",
+    "ans": ["Jog in place for two minutes to warm up.", "To warm up, jog in place for two minutes.", "Let’s warm up — jog in place for a couple of minutes."],
+    "keys": { "дві хвилини": "two minutes|2 minutes|couple of minutes|minute*", "розігрів": "warm*" }
+   },
+   {
+    "sit": "Автобус запізнювався на пів години, а надворі мінус пʼятнадцять. Ти розповідаєш колегам.",
+    "say": "Я бігав на місці на зупинці, щоб зігрітися.",
+    "ans": ["I jogged in place at the bus stop to keep warm.", "I was jogging in place at the stop to stay warm.", "I was literally jogging in place at the bus stop just to keep warm."],
+    "keys": { "зупинка": "stop|bus|station", "зігрітися": "warm*|cold|freez*" }
+   },
+   {
+    "sit": "Друг питає, як ти тренуєшся, коли надворі погода погана.",
+    "say": "Коли йде дощ, я просто бігаю на місці перед телевізором.",
+    "ans": ["When it rains, I just jog in place in front of the TV.", "On rainy days I jog in place in front of the TV.", "If it’s raining, I just jog in place while watching TV."],
+    "keys": { "дощ": "rain*", "телевізор": "tv|television|telly" }
+   }
+  ]
+ },
+ {
+  "id": 1714, "w": "leap over", "uk": "перестрибувати (через щось)", "lvl": "B2",
+  "forms": "leap|leaps|leapt/leaped|leapt/leaped|leaping",
+  "tail": "over",
+  "near": "jump*|hop*|vault*|clear*|step* over|stepped over",
+  "tasks": [
+   {
+    "sit": "Ти прийшов в офіс після зливи й знімаєш мокрі кросівки.",
+    "say": "Я перестрибнув через калюжу, але все одно промочив ноги.",
+    "ans": ["I leapt over the puddle but still got my feet wet.", "I leaped over a puddle, and my feet got wet anyway.", "I tried to leap over the puddle but still soaked my feet."],
+    "keys": { "калюжа": "puddle*", "промочив": "wet|soak*" }
+   },
+   {
+    "sit": "Ти вперше на кінних змаганнях і ділишся враженнями з другом.",
+    "say": "Кінь легко перестрибнув через колоду.",
+    "ans": ["The horse leapt over the log easily.", "The horse easily leaped over the log.", "That horse just leapt right over the log!"],
+    "keys": { "кінь": "horse", "колода": "log|obstacle|fence|jump|barrier" }
+   },
+   {
+    "sit": "Ти телефонуєш сусідам, бо ваш собака втік із двору.",
+    "say": "Собака перестрибнув через паркан і втік.",
+    "ans": ["The dog leapt over the fence and ran away.", "Our dog leaped over the fence and escaped.", "The dog just leapt over the fence and took off."],
+    "keys": { "собака": "dog|puppy", "паркан": "fence|wall|gate" }
+   }
+  ]
+ }
+]

@@ -1,0 +1,643 @@
+[
+ {
+  "id": 1743, "w": "attend a meeting", "uk": "бути присутнім на нараді, відвідати збори", "lvl": "B1",
+  "forms": "attend|attends|attended|attended|attending",
+  "tail": "meeting*",
+  "near": "go to|going to|went to|be at|was at|join*|sit in|sat in",
+  "tasks": [
+   {
+    "sit": "Колега кличе тебе разом пообідати о другій, але саме тоді в тебе важлива нарада з клієнтом.",
+    "say": "Вибач, не можу — о другій я маю бути на нараді.",
+    "ans": ["Sorry, I can’t — I have to attend a meeting at two.", "I can’t make it, I’m attending a meeting at two.", "Can’t today, sorry — I’ve got to attend a meeting at two."],
+    "keys": { "о другій": "two|2*|14*", "не можу": "not|sorry|busy" }
+   },
+   {
+    "sit": "У школі сина збирають батьків, і тобі треба відпроситися з роботи раніше.",
+    "say": "Мені треба відвідати батьківські збори в школі.",
+    "ans": ["I need to attend a meeting at my son’s school.", "I have to attend a parents’ meeting at school.", "I’ve got to attend a school meeting for parents today."],
+    "keys": { "школа": "school*" }
+   },
+   {
+    "sit": "Мешканці будинку збираються, щоб вирішити, коли ремонтувати дах. Сусідка питає, чи прийдеш ти.",
+    "say": "Так, я обовʼязково буду на зборах.",
+    "ans": ["Yes, I’ll definitely attend the meeting.", "Sure, I’m definitely planning to attend the residents’ meeting.", "Yeah, I’ll attend the meeting for sure."],
+    "keys": { "обовʼязково": "definitely|for sure|sure|of course|certainly" }
+   }
+  ]
+ },
+ {
+  "id": 1744, "w": "join a call", "uk": "приєднатися до дзвінка", "lvl": "B1",
+  "forms": "join|joins|joined|joined|joining",
+  "tail": "call*",
+  "near": "get on|got on|hop on|hopped on|jump on|jumped on|dial in|dialed in|log in|logged in|connect*",
+  "tasks": [
+   {
+    "sit": "Робоча нарада вже почалася, а колега пише тобі в чаті: «Де ти?»",
+    "say": "Вибач, уже приєднуюся до дзвінка!",
+    "ans": ["Sorry, I’m joining the call now!", "Sorry, I’ll join the call in a minute!", "Sorry! I’m joining the call right now."],
+    "keys": { "уже": "now|minute|second|sec|right away" }
+   },
+   {
+    "sit": "Родина збирається на відеодзвінок із бабусею, а ти ще їдеш в автобусі.",
+    "say": "Я приєднаюся до дзвінка, щойно доберуся додому.",
+    "ans": ["I’ll join the call as soon as I get home.", "I’ll join the call once I’m home.", "Start without me — I’ll join the call when I get home."],
+    "keys": { "додому": "home" }
+   },
+   {
+    "sit": "Перед іспитом у групи онлайн-консультація, а в тебе ще не закінчилася зміна на підробітку. Пишеш викладачу.",
+    "say": "Можна я приєднаюся до дзвінка трохи пізніше?",
+    "ans": ["Can I join the call a bit later?", "Is it okay if I join the call a little later?", "Would you mind if I join the call a bit late?"],
+    "keys": { "пізніше": "later|late" }
+   }
+  ]
+ },
+ {
+  "id": 1745, "w": "host a call", "uk": "вести дзвінок", "lvl": "B2",
+  "forms": "host|hosts|hosted|hosted|hosting",
+  "tail": "call*",
+  "near": "run*|ran|lead*|led|moderat*|chair*|organiz*|organis*",
+  "tasks": [
+   {
+    "sit": "Керівник захворів, а щотижневий дзвінок із командою ніхто не скасовував.",
+    "say": "Не хвилюйтеся, завтрашній дзвінок проведу я.",
+    "ans": ["Don’t worry, I’ll host tomorrow’s call.", "Don’t worry, I can host the call tomorrow.", "No worries — I’ll host the call tomorrow."],
+    "keys": { "завтра": "tomorrow*" }
+   },
+   {
+    "sit": "Ти організовуєш онлайн-книжковий клуб. Нова учасниця питає, хто модерує зустрічі.",
+    "say": "Зазвичай дзвінки веду я, але іноді ми чергуємося.",
+    "ans": ["I usually host the calls, but sometimes we take turns.", "I host most of the calls, but we take turns sometimes.", "Usually I host the calls, but we swap now and then."],
+    "keys": { "зазвичай": "usually|most|normally|generally", "чергуємося": "turn*|swap*|switch*|rotate*|alternate*" }
+   },
+   {
+    "sit": "Завтра в тебе перший дзвінок із великим клієнтом, і ти маєш бути ведучим. Зізнаєшся подрузі, що хвилюєшся.",
+    "say": "Я ще ніколи не вів дзвінок із клієнтами.",
+    "ans": ["I’ve never hosted a call with clients before.", "I have never hosted a client call before.", "Honestly, I’ve never hosted a call with clients."],
+    "keys": { "ніколи": "never|first time", "клієнти": "client*|customer*" }
+   }
+  ]
+ },
+ {
+  "id": 1746, "w": "chair a meeting", "uk": "головувати на нараді", "lvl": "C1",
+  "forms": "chair|chairs|chaired|chaired|chairing",
+  "tail": "meeting*",
+  "near": "lead*|led|run*|ran|host*|preside*|moderat*|in charge",
+  "tasks": [
+   {
+    "sit": "Директорка у відпустці, і тебе попросили замінити її на засіданні правління.",
+    "say": "Цього разу на засіданні правління головуватиму я.",
+    "ans": ["I’ll be chairing the board meeting this time.", "This time I’m chairing the board meeting.", "I’m chairing the board meeting this time round."],
+    "keys": { "правління": "board*|director*", "цього разу": "this time|this week|this one" }
+   },
+   {
+    "sit": "Мешканці будинку зібралися обговорити ремонт, але всі говорять одночасно, і ніхто не веде збори.",
+    "say": "Хто буде головувати на зборах?",
+    "ans": ["Who’s going to chair the meeting?", "Who will chair the meeting?", "So who’s chairing the meeting?"],
+    "keys": { "хто": "who" }
+   },
+   {
+    "sit": "Ти голова студентського дебатного клубу. Новий учасник питає про твої обовʼязки.",
+    "say": "Я головую на щомісячних зборах клубу.",
+    "ans": ["I chair the monthly club meetings.", "I chair our monthly club meetings.", "Basically, I chair the club’s monthly meetings."],
+    "keys": { "щомісячних": "month*", "клуб": "club*|society" }
+   }
+  ]
+ },
+ {
+  "id": 1747, "w": "take minutes", "uk": "вести протокол", "lvl": "C1",
+  "forms": "take|takes|took|taken|taking",
+  "tail": "minutes",
+  "near": "note*|write down|wrote down|written down|record*|jot*|keep notes",
+  "tasks": [
+   {
+    "sit": "Перед початком наради керівник питає, хто сьогодні записуватиме рішення.",
+    "say": "Я можу сьогодні вести протокол.",
+    "ans": ["I can take minutes today.", "I’ll take the minutes today.", "I don’t mind taking minutes today."],
+    "keys": { "сьогодні": "today|this time" }
+   },
+   {
+    "sit": "Після зборів мешканців сусід питає, де подивитися, що вирішили.",
+    "say": "Секретарка вела протокол, я надішлю тобі копію.",
+    "ans": ["The secretary took minutes — I’ll send you a copy.", "Our secretary was taking minutes, so I’ll send you a copy.", "The secretary took the minutes, I’ll forward you a copy."],
+    "keys": { "секретарка": "secretary", "копія": "copy|send*|forward*" }
+   },
+   {
+    "sit": "На засіданні студради тебе вперше попросили вести протокол, і половину сказаного ти пропустив.",
+    "say": "Я ще ніколи не вів протокол — це складніше, ніж здається.",
+    "ans": ["I’d never taken minutes before — it’s harder than it looks.", "I had never taken minutes before, and it’s harder than it looks.", "Honestly, I’d never taken minutes before — it’s tougher than it looks."],
+    "keys": { "складніше": "hard*|difficult|tough*|tricky", "ніколи": "never|first time" }
+   }
+  ]
+ },
+ {
+  "id": 1748, "w": "brainstorm", "uk": "проводити мозковий штурм, накидати ідеї", "lvl": "B2",
+  "forms": "brainstorm|brainstorms|brainstormed|brainstormed|brainstorming",
+  "near": "come up with|came up with|think of|thought of|think up|thought up|discuss*|throw around|bounce around",
+  "tasks": [
+   {
+    "sit": "Клієнт хоче нову назву для продукту, а ідей у команди поки немає.",
+    "say": "Давайте влаштуємо мозковий штурм і накидаємо варіантів назви.",
+    "ans": ["Let’s brainstorm some ideas for the name.", "Let’s brainstorm names for the product.", "Okay, let’s brainstorm a few name ideas."],
+    "keys": { "назва": "name*|title*" }
+   },
+   {
+    "sit": "Ви з друзями готуєте сюрприз на день народження подруги.",
+    "say": "Збираймося ввечері й поштурмуємо, як її здивувати.",
+    "ans": ["Let’s get together tonight and brainstorm how to surprise her.", "Tonight let’s brainstorm ways to surprise her.", "Let’s meet up tonight and brainstorm surprise ideas."],
+    "keys": { "ввечері": "tonight|evening", "здивувати": "surpris*" }
+   },
+   {
+    "sit": "Вам із групою треба вибрати тему для спільного проєкту. Одногрупниця, яка пропустила зустріч, питає, що вирішили.",
+    "say": "Ми цілу годину штурмували ідеї, але так нічого й не вибрали.",
+    "ans": ["We brainstormed for an hour but didn’t pick anything.", "We spent an hour brainstorming and still didn’t choose anything.", "We brainstormed for a whole hour and still couldn’t decide."],
+    "keys": { "годину": "hour", "не вибрали": "not|nothing|never|no" }
+   }
+  ]
+ },
+ {
+  "id": 1749, "w": "present", "uk": "презентувати", "lvl": "B1",
+  "forms": "present|presents|presented|presented|presenting",
+  "near": "show*|pitch*|walk through|walked through|talk about|talked about|go through|went through|demo*",
+  "tasks": [
+   {
+    "sit": "Завтра ти показуєш керівництву, як компанія спрацювала за квартал.",
+    "say": "Завтра я презентую результати за квартал.",
+    "ans": ["Tomorrow I’m presenting the quarterly results.", "I’ll present the results for the quarter tomorrow.", "I’m presenting our quarterly numbers tomorrow."],
+    "keys": { "результати": "result*|number*|figure*", "завтра": "tomorrow" }
+   },
+   {
+    "sit": "Викладач розподіляє, хто яку частину проєкту показує на захисті.",
+    "say": "Я презентую перші три слайди.",
+    "ans": ["I’ll present the first three slides.", "I’m presenting the first three slides.", "I can present the first three slides."],
+    "keys": { "слайди": "slide*", "три": "three|3" }
+   },
+   {
+    "sit": "Ти придумав застосунок і виходиш до інвесторів на конкурсі стартапів. Час обмежений.",
+    "say": "Мені треба презентувати свою ідею за пʼять хвилин.",
+    "ans": ["I have to present my idea in five minutes.", "I need to present my idea in just five minutes.", "I’ve only got five minutes to present my idea."],
+    "keys": { "ідея": "idea*|app*|project|startup", "пʼять хвилин": "five|5*" }
+   }
+  ]
+ },
+ {
+  "id": 1750, "w": "wrap up", "uk": "завершувати (нараду, розмову)", "lvl": "B2",
+  "forms": "wrap|wraps|wrapped|wrapped|wrapping",
+  "tail": "up",
+  "near": "finish*|end*|close*|conclude*|round off|round up|call it a day",
+  "tasks": [
+   {
+    "sit": "Нарада затягнулася, а до обідньої перерви лишилося пʼять хвилин.",
+    "say": "Давайте завершувати, бо вже майже обід.",
+    "ans": ["Let’s wrap up, it’s almost lunchtime.", "Let’s wrap this up — it’s nearly lunch.", "Okay, let’s wrap it up, it’s almost lunch."],
+    "keys": { "обід": "lunch*" }
+   },
+   {
+    "sit": "Ти репетитор, онлайн-заняття закінчується за дві хвилини, а учень тягне руку.",
+    "say": "Ми вже завершуємо, тож лише одне останнє питання.",
+    "ans": ["We’re wrapping up now, so just one last question.", "We’re about to wrap up — one last question.", "We’re wrapping up, so just one more question."],
+    "keys": { "питання": "question*", "останнє": "one|last" }
+   },
+   {
+    "sit": "Ти ведеш подкаст, і гість питає, скільки ще триватиме запис.",
+    "say": "Ми завершимо десь за десять хвилин.",
+    "ans": ["We’ll wrap up in about ten minutes.", "We should wrap up in ten minutes or so.", "We’ll wrap things up in like ten minutes."],
+    "keys": { "десять хвилин": "ten|10*" }
+   }
+  ]
+ },
+ {
+  "id": 1751, "w": "follow up", "uk": "нагадати про себе, повернутися до питання пізніше", "lvl": "B2",
+  "forms": "follow|follows|followed|followed|following",
+  "tail": "up",
+  "near": "remind*|check in|checked in|check back|get back|got back|ping*|chase*|touch base",
+  "tasks": [
+   {
+    "sit": "Тиждень тому ти надіслав клієнтові комерційну пропозицію, а відповіді досі немає.",
+    "say": "Я ще раз нагадаю йому в понеділок.",
+    "ans": ["I’ll follow up with him on Monday.", "I’m going to follow up with him on Monday.", "I’ll follow up on Monday if he doesn’t reply."],
+    "keys": { "понеділок": "monday" }
+   },
+   {
+    "sit": "Минуло десять днів після співбесіди, а з компанії мовчать.",
+    "say": "Мабуть, варто написати їм листа й нагадати про себе.",
+    "ans": ["I should probably follow up with an email.", "Maybe I should follow up with a short email.", "I’ll probably follow up with them by email."],
+    "keys": { "лист": "email*|e-mail*|mail|message|note|write" }
+   },
+   {
+    "sit": "Лікарка подивилася твої аналізи й сказала, що один показник треба ще перевірити. Мама питає, що далі.",
+    "say": "Лікарка сказала, що перевірить це ще раз через місяць.",
+    "ans": ["The doctor said she’d follow up in a month.", "The doctor said she would follow up on it in a month.", "The doctor’s going to follow up in a month or so."],
+    "keys": { "лікарка": "doctor*|doc|gp", "місяць": "month*|weeks" }
+   }
+  ]
+ },
+ {
+  "id": 1752, "w": "loop in", "uk": "підключити (до розмови, листування)", "lvl": "C1",
+  "forms": "loop|loops|looped|looped|looping",
+  "tail": "in",
+  "near": "include*|cc|add*|involve*|keep posted|let know|bring in|brought in|fill in|filled in",
+  "tasks": [
+   {
+    "sit": "Проблема з клієнтом виявилася серйознішою, ніж ви з колегою думали.",
+    "say": "Давай підключимо до цього менеджера.",
+    "ans": ["Let’s loop in the manager.", "Let’s loop the manager in on this.", "We should loop our manager in."],
+    "keys": { "менеджер": "manager*|boss|lead*" }
+   },
+   {
+    "sit": "Ви з другом плануєте поїздку в гори, а Оля теж казала, що хоче поїхати.",
+    "say": "Давай підключимо Олю до переписки, вона теж хоче поїхати.",
+    "ans": ["Let’s loop Olya in, she wants to come too.", "Let’s loop in Olya — she wants to come too.", "We should loop Olya in, she’s keen to come too."],
+    "keys": { "Оля": "olya|olia|her|she", "поїхати": "come|go|join*|trip" }
+   },
+   {
+    "sit": "Ти волонтериш у притулку для тварин. Власники питають про ліки для собаки, а ти не впевнений у дозуванні.",
+    "say": "Я підключу до розмови нашого ветеринара.",
+    "ans": ["I’ll loop in our vet.", "I’ll loop our vet in on this.", "Let me loop in our vet."],
+    "keys": { "ветеринар": "vet*|doctor" }
+   }
+  ]
+ },
+ {
+  "id": 1753, "w": "catch up", "uk": "наздогнати (по інформації), синхронізуватися", "lvl": "B1",
+  "forms": "catch|catches|caught|caught|catching",
+  "tail": "up",
+  "near": "sync*|touch base|update*|fill in|filled in|brief*|go over|went over",
+  "tasks": [
+   {
+    "sit": "Ти повернувся з відпустки, а в робочому чаті триста непрочитаних повідомлень.",
+    "say": "Мені треба наздогнати все, що сталося, поки мене не було.",
+    "ans": ["I need to catch up on everything I missed.", "I have to catch up on what happened while I was away.", "I’ve got a lot to catch up on after my vacation."],
+    "keys": { "поки мене не було": "missed|away|gone|vacation|holiday|off" }
+   },
+   {
+    "sit": "Вам із колегою треба звірити, хто що зробив за тиждень, але сьогодні часу немає.",
+    "say": "Давай синхронізуємося в понеділок зранку.",
+    "ans": ["Let’s catch up on Monday morning.", "Can we catch up Monday morning?", "Let’s catch up first thing Monday."],
+    "keys": { "понеділок": "monday" }
+   },
+   {
+    "sit": "Ти тиждень хворів і пропустив лекції з історії. Підходиш до одногрупниці.",
+    "say": "Можна взяти твої конспекти, щоб наздогнати матеріал?",
+    "ans": ["Can I borrow your notes to catch up?", "Could I borrow your notes so I can catch up?", "Mind if I borrow your notes to catch up on the lectures?"],
+    "keys": { "конспекти": "note*" }
+   }
+  ]
+ },
+ {
+  "id": 1754, "w": "draft an email", "uk": "написати чернетку листа", "lvl": "B1",
+  "forms": "draft|drafts|drafted|drafted|drafting",
+  "tail": "email*/e-mail*/mail*",
+  "near": "write*|wrote|written|put together|sketch*|compose*",
+  "tasks": [
+   {
+    "sit": "Клієнтові треба відмовити, і ти хочеш, щоб керівник спершу подивився текст.",
+    "say": "Я напишу чернетку листа, а ви гляньте перед відправкою.",
+    "ans": ["I’ll draft the email and you can check it before I send it.", "Let me draft an email first, and you can review it.", "I’ll draft the email — can you take a look before it goes out?"],
+    "keys": { "гляньте": "check*|look|review*|read|see" }
+   },
+   {
+    "sit": "Орендодавець уже місяць не лагодить бойлер, і терпіння закінчується. Показуєш текст другові.",
+    "say": "Я накидав чернетку листа орендодавцю — глянь, чи не надто різко.",
+    "ans": ["I drafted an email to the landlord — is it too harsh?", "I’ve drafted an email to my landlord, is it too rude?", "I drafted an email to the landlord, can you check it’s not too harsh?"],
+    "keys": { "орендодавець": "landlord*|owner", "різко": "harsh|rude|aggressive|angry|strong|blunt" }
+   },
+   {
+    "sit": "Через хворобу ти не зможеш прийти на іспит і хочеш попросити викладача про перенесення.",
+    "say": "Допоможи мені скласти чернетку листа викладачу.",
+    "ans": ["Can you help me draft an email to my professor?", "Help me draft an email to the teacher, please.", "Could you help me draft an email to my prof?"],
+    "keys": { "викладач": "professor|teacher|prof|tutor|lecturer|instructor", "допоможи": "help" }
+   }
+  ]
+ },
+ {
+  "id": 1755, "w": "forward", "uk": "переслати", "lvl": "A2",
+  "forms": "forward|forwards|forwarded|forwarded|forwarding",
+  "near": "send*|sent|pass on|passed on|share*|resend*",
+  "tasks": [
+   {
+    "sit": "Тобі прийшов лист з інструкцією, а колега, якому він теж потрібен, його не отримав.",
+    "say": "Я перешлю тобі цей лист.",
+    "ans": ["I’ll forward you the email.", "I’ll forward the email to you.", "Hang on, I’ll forward that email to you."],
+    "keys": { "лист": "email*|e-mail*|mail|letter|message|it" }
+   },
+   {
+    "sit": "Квиток на потяг прийшов мамі на пошту, а їдеш ти.",
+    "say": "Мамо, перешли мені, будь ласка, квиток.",
+    "ans": ["Mom, please forward me the ticket.", "Mom, can you forward the ticket to me?", "Mom, could you forward me the ticket?"],
+    "keys": { "квиток": "ticket*" }
+   },
+   {
+    "sit": "Друг скинув тобі смішне відео, і ти показав його сестрі. Пишеш другові.",
+    "say": "Я переслав сестрі твоє відео, вона досі сміється.",
+    "ans": ["I forwarded your video to my sister, she’s still laughing.", "I forwarded my sister your video — she’s still laughing.", "I forwarded your video to my sister and she can’t stop laughing."],
+    "keys": { "відео": "video*|clip", "сестра": "sister|sis" }
+   }
+  ]
+ },
+ {
+  "id": 1756, "w": "reply all", "uk": "відповісти всім", "lvl": "B1",
+  "forms": "reply|replies|replied|replied|replying",
+  "tail": "all",
+  "near": "answer*|respond*|write back|wrote back|everyone",
+  "tasks": [
+   {
+    "sit": "Бухгалтерія надіслала лист усьому офісу, і хтось відповів на нього всім, розповідаючи про свої вихідні.",
+    "say": "Прошу, не відповідайте всім на такі листи.",
+    "ans": ["Please don’t reply all to emails like this.", "Please don’t hit reply all on emails like that.", "Guys, please stop replying all to these emails."],
+    "keys": { "не": "not|stop|never|no", "листи": "email*|mail*|message*|thread*" }
+   },
+   {
+    "sit": "Ти хотів написати колезі приватний коментар, але повідомлення пішло всій розсилці.",
+    "say": "Ой, я випадково відповів усім!",
+    "ans": ["Oops, I accidentally replied all!", "Oh no, I replied all by mistake!", "Ugh, I just replied all by accident!"],
+    "keys": { "випадково": "accident*|mistake|mistakenly" }
+   },
+   {
+    "sit": "Сусіди в спільному листі обговорюють суботник у дворі, і ти готовий допомогти.",
+    "say": "Я відповім усім, щоб кожен знав, що я теж прийду.",
+    "ans": ["I’ll reply all so everyone knows I’m coming too.", "I’ll reply all so that everybody knows I’ll be there.", "I’ll just reply all so everyone knows I’m in."],
+    "keys": { "кожен": "everyone|everybody|all of", "прийду": "com*|join*|there|help*|in" }
+   }
+  ]
+ },
+ {
+  "id": 1757, "w": "CC", "uk": "поставити в копію", "lvl": "B2",
+  "forms": "cc|ccs|cced|cced|ccing",
+  "near": "copy|copied|include*|add*|loop in|looped in|forward*",
+  "tasks": [
+   {
+    "sit": "Ти пишеш клієнтові про затримку поставки і хочеш, щоб керівниця теж бачила листування.",
+    "say": "Я поставлю менеджерку в копію.",
+    "ans": ["I’ll CC my manager.", "I’m going to CC the manager on this.", "I’ll CC my manager, just so she knows."],
+    "keys": { "менеджерка": "manager*|boss" }
+   },
+   {
+    "sit": "Сусід пише скаргу керуючій компанії через нічний шум на будівництві, а тебе це теж стосується.",
+    "say": "Постав мене в копію, коли писатимеш їм.",
+    "ans": ["CC me when you write to them.", "Can you CC me when you email them?", "Just CC me on the email, okay?"],
+    "keys": { "писатимеш": "writ*|email*|e-mail*|mail|message" }
+   },
+   {
+    "sit": "Ти пишеш учительці сина про пропущений урок і хочеш, щоб дружина теж була в курсі.",
+    "say": "Я поставлю дружину в копію.",
+    "ans": ["I’ll CC my wife.", "I’m going to CC my wife too.", "I’ll CC my wife so she’s in the loop."],
+    "keys": { "дружина": "wife|partner" }
+   }
+  ]
+ },
+ {
+  "id": 1758, "w": "BCC", "uk": "поставити в приховану копію", "lvl": "C1",
+  "forms": "bcc|bccs|bcced|bcced|bccing",
+  "near": "cc|copy|copied|hidden copy|blind copy|forward*",
+  "tasks": [
+   {
+    "sit": "Ти пишеш клієнтові жорсткий лист і хочеш, щоб юрист компанії все бачив, але клієнт про це не знав.",
+    "say": "Я поставлю юриста в приховану копію.",
+    "ans": ["I’ll BCC our lawyer.", "I’m going to BCC the lawyer on this.", "I’ll just BCC our lawyer, to be safe."],
+    "keys": { "юрист": "lawyer*|legal|attorney" }
+   },
+   {
+    "sit": "Сестра розсилає запрошення на весілля пʼятдесятьом гостям одним листом.",
+    "say": "Постав усіх у приховану копію, щоб ніхто не бачив чужих адрес.",
+    "ans": ["BCC everyone so nobody sees the other addresses.", "Just BCC all the guests so no one can see the email addresses.", "BCC everyone, so people can’t see the other addresses."],
+    "keys": { "адреси": "address*|email*|e-mail*" }
+   },
+   {
+    "sit": "Ти пишеш власникові квартири про поломку й хочеш, щоб сусід по квартирі непомітно бачив листування.",
+    "say": "Я поставлю тебе в приховану копію, щоб ти все бачив.",
+    "ans": ["I’ll BCC you so you can see everything.", "I’m going to BCC you so you see the whole thing.", "I’ll BCC you, so you’ll see everything."],
+    "keys": { "все": "everything|all|whole|thread|what" }
+   }
+  ]
+ },
+ {
+  "id": 1759, "w": "attach", "uk": "прикріпити (файл)", "lvl": "B1",
+  "forms": "attach|attaches|attached|attached|attaching",
+  "near": "add*|include*|enclose*|upload*|send*|sent",
+  "tasks": [
+   {
+    "sit": "Ти відгукуєшся на вакансію електронною поштою. Роботодавець питає, де твоє резюме.",
+    "say": "Я прикріпив резюме до листа.",
+    "ans": ["I’ve attached my CV to the email.", "I attached my resume to the email.", "I attached my CV to that email."],
+    "keys": { "резюме": "cv|resume*" }
+   },
+   {
+    "sit": "Страхова просить документи для компенсації за скасований рейс. Нагадуєш про це дружині, яка заповнює форму.",
+    "say": "Не забудь прикріпити фото квитків.",
+    "ans": ["Don’t forget to attach photos of the tickets.", "Remember to attach a photo of the tickets.", "Make sure you attach the ticket photos."],
+    "keys": { "фото": "photo*|picture*|pic*|scan*|screenshot*", "квитки": "ticket*|boarding" }
+   },
+   {
+    "sit": "Одногрупник надіслав тобі лист «Ось курсова», але вкладення немає.",
+    "say": "Ти забув прикріпити файл!",
+    "ans": ["You forgot to attach the file!", "You didn’t attach the file!", "Hey, I think you forgot to attach the file."],
+    "keys": { "файл": "file*|document*|doc*|paper|it", "забув": "forg*|not|no" }
+   }
+  ]
+ },
+ {
+  "id": 1760, "w": "proofread", "uk": "вичитати (текст на помилки)", "lvl": "B2",
+  "forms": "proofread|proofreads|proofread|proofread|proofreading",
+  "near": "check*|read over|read through|look over|looked over|go over|went over|edit*|review*",
+  "tasks": [
+   {
+    "sit": "Ти закінчив квартальний звіт пізно ввечері й боїшся, що там купа описок. Звертаєшся до колеги.",
+    "say": "Можеш вичитати мій звіт, перш ніж я його відправлю?",
+    "ans": ["Could you proofread my report before I send it?", "Can you proofread my report before I send it off?", "Would you mind proofreading my report before I send it?"],
+    "keys": { "звіт": "report*", "перш ніж": "before" }
+   },
+   {
+    "sit": "Ти здав курсову, а викладач повернув її з підкресленими помилками.",
+    "say": "Я тричі вичитав курсову, а помилки все одно лишилися.",
+    "ans": ["I proofread my paper three times, but there were still mistakes.", "I’d proofread my essay three times and there were still typos.", "I proofread it three times and still missed some typos."],
+    "keys": { "тричі": "three|3|twice|several|again", "помилки": "mistake*|typo*|error*" }
+   },
+   {
+    "sit": "Ти ведеш блог про подорожі, а подруга-філологиня пропонує допомогу.",
+    "say": "Буду вдячний, якщо ти вичитаєш мій новий пост.",
+    "ans": ["I’d be grateful if you could proofread my new post.", "It would be great if you could proofread my new post.", "I’d really appreciate it if you proofread my new post."],
+    "keys": { "пост": "post*|article|blog*" }
+   }
+  ]
+ },
+ {
+  "id": 1761, "w": "file", "uk": "подати (звіт, декларацію, заяву)", "lvl": "B2",
+  "forms": "file|files|filed|filed|filing",
+  "near": "submit*|send*|sent|hand in|handed in|lodge*|report*|make|made",
+  "tasks": [
+   {
+    "sit": "Квітень, до кінця строку подання податкової декларації лишився тиждень.",
+    "say": "Мені ще треба подати податкову декларацію.",
+    "ans": ["I still need to file my taxes.", "I still have to file my tax return.", "I haven’t filed my taxes yet."],
+    "keys": { "податкова": "tax*", "ще": "still|yet" }
+   },
+   {
+    "sit": "Біля магазину в тебе вкрали велосипед. Друг питає, що ти вже зробив.",
+    "say": "Я вже подав заяву в поліцію.",
+    "ans": ["I’ve already filed a police report.", "I already filed a report with the police.", "I filed a police report this morning."],
+    "keys": { "поліція": "police|cop*", "заява": "report*|complaint|claim" }
+   },
+   {
+    "sit": "Авіакомпанія загубила твою валізу, і ти не збираєшся це так лишати.",
+    "say": "Я подам претензію авіакомпанії.",
+    "ans": ["I’m going to file a claim with the airline.", "I’ll file a claim with the airline.", "I’ll file a complaint with the airline."],
+    "keys": { "авіакомпанія": "airline*|carrier|company", "претензія": "claim*|complaint*|report*" }
+   }
+  ]
+ },
+ {
+  "id": 1762, "w": "sign off", "uk": "підписатися (в кінці листа)", "lvl": "B2",
+  "forms": "sign|signs|signed|signed|signing",
+  "tail": "off",
+  "near": "end*|finish*|close*|wrap up|say goodbye",
+  "tasks": [
+   {
+    "sit": "Колега-іноземка питає, як ти закінчуєш офіційні листи англійською.",
+    "say": "Я зазвичай підписуюся «З повагою».",
+    "ans": ["I usually sign off with “Best regards.”", "I normally sign off with “Kind regards.”", "Usually I just sign off with “Best regards.”"],
+    "keys": { "з повагою": "regards|sincerely|respect*" }
+   },
+   {
+    "sit": "Ти пишеш перший лист викладачці й не знаєш, як його правильно закінчити.",
+    "say": "Як краще підписатися в кінці листа викладачці?",
+    "ans": ["How should I sign off an email to my teacher?", "What’s the best way to sign off an email to a professor?", "How do I sign off an email to my professor?"],
+    "keys": { "викладачка": "teacher|professor|tutor|lecturer|prof" }
+   },
+   {
+    "sit": "Ти показуєш подрузі сімейний чат і смієшся з брата.",
+    "say": "Мій брат завжди підписується в кінці смайликом-сонечком.",
+    "ans": ["My brother always signs off with a sun emoji.", "My brother always signs off his messages with a sun emoji.", "My brother always signs off with a little sun emoji."],
+    "keys": { "брат": "brother|bro", "смайлик": "emoji*|smiley|sun" }
+   }
+  ]
+ },
+ {
+  "id": 1763, "w": "draft up", "uk": "скласти (план, пропозицію)", "lvl": "C1",
+  "forms": "draft|drafts|drafted|drafted|drafting",
+  "tail": "up",
+  "near": "write*|wrote|written|put together|sketch*|come up with|prepare*",
+  "tasks": [
+   {
+    "sit": "Клієнт зацікавився співпрацею, але хоче бачити конкретні умови.",
+    "say": "Я складу пропозицію до пʼятниці.",
+    "ans": ["I’ll draft up a proposal by Friday.", "I’ll have a proposal drafted up by Friday.", "Let me draft up a proposal by Friday."],
+    "keys": { "пропозиція": "proposal*|offer|quote", "пʼятниця": "friday" }
+   },
+   {
+    "sit": "Сусіди хочуть домовитися, хто й коли прибирає подвірʼя, але ніхто не бере це на себе.",
+    "say": "Я складу графік і скину в чат.",
+    "ans": ["I’ll draft up a schedule and post it in the chat.", "I can draft up a rota and share it in the chat.", "Let me draft up a schedule and drop it in the chat."],
+    "keys": { "графік": "schedule*|rota|plan|timetable", "чат": "chat*|group" }
+   },
+   {
+    "sit": "Друзі погодилися поїхати до Львова, але плануванням ніхто займатися не хоче.",
+    "say": "Гаразд, я складу план поїздки.",
+    "ans": ["Fine, I’ll draft up a plan for the trip.", "Okay, I’ll draft up a trip plan.", "Alright, let me draft up a plan for the trip."],
+    "keys": { "план": "plan*|itinerary|schedule" }
+   }
+  ]
+ },
+ {
+  "id": 1764, "w": "send out", "uk": "розіслати", "lvl": "B1",
+  "forms": "send|sends|sent|sent|sending",
+  "tail": "out",
+  "near": "mail*|email*|distribut*|hand out|handed out|circulat*|share*",
+  "tasks": [
+   {
+    "sit": "До весілля три місяці, а гості ще нічого не знають.",
+    "say": "Нам треба розіслати запрошення вже цього тижня.",
+    "ans": ["We need to send out the invitations this week.", "We have to send the invitations out this week.", "We’ve got to send out the invites this week."],
+    "keys": { "запрошення": "invit*", "цього тижня": "this week|week" }
+   },
+   {
+    "sit": "Менеджерка з персоналу питає, чи всі працівники отримали опитування.",
+    "say": "Так, я розіслав опитування всім працівникам учора.",
+    "ans": ["Yes, I sent out the survey to all employees yesterday.", "Yes, I sent the survey out to all staff yesterday.", "Yep, I sent out the survey to everyone yesterday."],
+    "keys": { "опитування": "survey*|questionnaire|poll", "учора": "yesterday" }
+   },
+   {
+    "sit": "Ти ведеш книжковий клуб. Новенька питає, як дізнатися про наступну зустріч.",
+    "say": "Я щопонеділка розсилаю нагадування.",
+    "ans": ["I send out a reminder every Monday.", "Every Monday I send out reminders.", "I usually send reminders out on Mondays."],
+    "keys": { "нагадування": "reminder*|remind*", "щопонеділка": "monday*" }
+   }
+  ]
+ },
+ {
+  "id": 1765, "w": "collaborate", "uk": "співпрацювати", "lvl": "B2",
+  "forms": "collaborate|collaborates|collaborated|collaborated|collaborating",
+  "near": "work together|worked together|working together|work with|worked with|cooperat*|co-operat*|team up|teamed up|partner*",
+  "tasks": [
+   {
+    "sit": "На співбесіді тебе питають, як ти взаємодієш з іншими відділами.",
+    "say": "Я щодня співпрацюю з дизайнерами й розробниками.",
+    "ans": ["I collaborate with designers and developers every day.", "Every day I collaborate closely with designers and developers.", "I collaborate with the design and dev teams daily."],
+    "keys": { "дизайнери": "design*", "щодня": "every day|daily|day" }
+   },
+   {
+    "sit": "Ти пишеш музику вдома, і знайомий репер пропонує записати щось разом.",
+    "say": "Я радо співпрацюватиму з тобою над треком!",
+    "ans": ["I’d love to collaborate with you on a track!", "I’d love to collaborate on a song with you.", "I’d be happy to collaborate with you on a track!"],
+    "keys": { "трек": "track*|song*|music" }
+   },
+   {
+    "sit": "Твоя лабораторія в університеті запускає спільний проєкт із польськими колегами.",
+    "say": "Ми співпрацюватимемо з університетом у Варшаві.",
+    "ans": ["We’ll be collaborating with a university in Warsaw.", "We’re going to collaborate with a university in Warsaw.", "We’ll collaborate with a Warsaw university."],
+    "keys": { "університет": "universit*|uni|college", "Варшава": "warsaw" }
+   }
+  ]
+ },
+ {
+  "id": 1766, "w": "team up", "uk": "обʼєднатися (з кимось)", "lvl": "B2",
+  "forms": "team|teams|teamed|teamed|teaming",
+  "tail": "up",
+  "near": "join forces|joined forces|work together|worked together|partner*|collaborat*|pair up|paired up|unite*",
+  "tasks": [
+   {
+    "sit": "Проєкт завеликий для однієї людини, і тимлід пропонує тобі напарника — Сашка.",
+    "say": "Давай обʼєднаємося з Сашком — так буде швидше.",
+    "ans": ["Let’s team up with Sasha — it’ll be faster.", "Why don’t we team up with Sasha? It’ll be quicker.", "Let’s team up with Sasha, that way it’s faster."],
+    "keys": { "швидше": "fast*|quick*|sooner", "Сашко": "sasha|sashko|him" }
+   },
+   {
+    "sit": "Ви з другом граєте в онлайн-гру, а в іншій команді дуже сильні гравці.",
+    "say": "Давай обʼєднаємося проти них!",
+    "ans": ["Let’s team up against them!", "We should team up against them.", "Come on, let’s team up and beat them!"],
+    "keys": { "проти них": "against|beat|them" }
+   },
+   {
+    "sit": "Сусідському хлопчикові потрібні гроші на лікування. Колега питає, чи вдалося щось зробити.",
+    "say": "Ми обʼєдналися із сусідами й зібрали гроші.",
+    "ans": ["We teamed up with the neighbors and raised the money.", "We teamed up with our neighbors to raise money.", "We teamed up with the neighbours and collected the money."],
+    "keys": { "сусіди": "neighbo*", "гроші": "money|cash|fund*|raise*|raised" }
+   }
+  ]
+ },
+ {
+  "id": 1768, "w": "cover for", "uk": "підмінити (колегу)", "lvl": "B2",
+  "forms": "cover|covers|covered|covered|covering",
+  "tail": "for",
+  "near": "replace*|fill in|filled in|stand in|stood in|substitut*|take over|took over|take my shift",
+  "tasks": [
+   {
+    "sit": "Колега просить відпустити його на дві години до лікаря, але боїться, що шеф помітить.",
+    "say": "Іди, я тебе підміню.",
+    "ans": ["Go ahead, I’ll cover for you.", "Go, I can cover for you.", "Don’t worry, go — I’ll cover for you."],
+    "keys": { "іди": "go|leave|off" }
+   },
+   {
+    "sit": "Ти працюєш у кавʼярні, а в суботу весілля брата. Пишеш колезі.",
+    "say": "Можеш підмінити мене в суботу?",
+    "ans": ["Can you cover for me on Saturday?", "Could you cover for me this Saturday?", "Any chance you could cover for me on Saturday?"],
+    "keys": { "субота": "saturday" }
+   },
+   {
+    "sit": "Завтра в тебе медогляд, а в розкладі дві пари, які ти маєш вести. Завуч питає, що з ними.",
+    "say": "Колега погодилася підмінити мене завтра.",
+    "ans": ["My colleague agreed to cover for me tomorrow.", "A colleague said she’d cover for me tomorrow.", "My coworker’s going to cover for me tomorrow."],
+    "keys": { "колега": "colleague*|coworker*|co-worker*|friend", "завтра": "tomorrow" }
+   }
+  ]
+ }
+]

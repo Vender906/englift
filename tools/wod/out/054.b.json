@@ -1,0 +1,652 @@
+[
+ {
+  "id": 2968, "w": "start a book", "uk": "почати (читати) книжку", "lvl": "A2",
+  "forms": "start|starts|started|started|starting",
+  "tail": "book*/novel*",
+  "near": "begin*|began|begun|pick up|picked up|open*|dive into|get into|got into",
+  "tasks": [
+   {
+    "sit": "Ти в книгарні, продавець питає, що тобі порадити.",
+    "say": "Я щойно дочитав одну серію і хочу почати нову книжку.",
+    "ans": ["I just finished a series and want to start a new book.", "I’ve just finished one series, so I want to start a new book.", "I just finished a series — I’m ready to start a new book."],
+    "keys": { "нова": "new|another|next" }
+   },
+   {
+    "sit": "Друг питає, чому ти досі не прочитав роман, який він тобі подарував.",
+    "say": "Я почав книжку, але покинув після першого розділу.",
+    "ans": ["I started the book but stopped after the first chapter.", "I started the book, but I gave up after chapter one.", "I did start the book, but I quit after the first chapter."],
+    "keys": { "перший розділ": "chapter*|first|one", "покинув": "stop*|gave up|quit|put it down|abandon*|dropped" }
+   },
+   {
+    "sit": "Ти в поході, ввечері сидиш біля багаття. Завтра довгий переїзд автобусом.",
+    "say": "Завтра в автобусі почну нову книжку.",
+    "ans": ["I’ll start a new book on the bus tomorrow.", "Tomorrow I’m going to start a new book on the bus.", "I’m starting a new book on the bus tomorrow."],
+    "keys": { "завтра": "tomorrow", "автобус": "bus|coach" }
+   }
+  ]
+ },
+ {
+  "id": 2969, "w": "recommend a book", "uk": "порадити (рекомендувати) книжку", "lvl": "B1",
+  "forms": "recommend|recommends|recommended|recommended|recommending",
+  "tail": "book*/novel*",
+  "near": "suggest*|advis*|tell me about|told me about|told me to read|point* me to",
+  "tasks": [
+   {
+    "sit": "Колега скаржиться на вигорання і не знає, з чого почати.",
+    "say": "Можу порекомендувати тобі одну книжку про стрес.",
+    "ans": ["I can recommend a book about stress.", "Let me recommend a great book on stress.", "I can recommend a really good book about burnout."],
+    "keys": { "стрес": "stress|burnout|burn out|anxiety" }
+   },
+   {
+    "sit": "Ти в бібліотеці й звертаєшся до бібліотекарки.",
+    "say": "Чи можете порекомендувати книжку для підлітка?",
+    "ans": ["Could you recommend a book for a teenager?", "Can you recommend a good book for a teenager?", "Can you recommend a book for my teenage son?"],
+    "keys": { "підліток": "teen*|young|kid*|son|daughter|boy|girl" }
+   },
+   {
+    "sit": "Подруга питає, звідки ти дізнався про цього письменника.",
+    "say": "Мені цю книжку порекомендував викладач.",
+    "ans": ["My teacher recommended this book to me.", "My professor recommended the book to me.", "Actually, my teacher recommended this book to me in class."],
+    "keys": { "викладач": "teacher|professor|lecturer|tutor|instructor" }
+   }
+  ]
+ },
+ {
+  "id": 2970, "w": "listen to music", "uk": "слухати музику", "lvl": "A1",
+  "forms": "listen|listens|listened|listened|listening",
+  "tail": "to music",
+  "near": "hear music|heard music|play music|played music|put on music|put some music on|music on",
+  "tasks": [
+   {
+    "sit": "Сусідка по кімнаті питає, як тобі вдається зосередитися на навчанні.",
+    "say": "Я слухаю музику в навушниках.",
+    "ans": ["I listen to music on headphones.", "I listen to music with my headphones on.", "I just listen to music on my headphones."],
+    "keys": { "навушники": "headphone*|earphone*|earbud*|airpods" }
+   },
+   {
+    "sit": "Ви з друзями вже третю годину їдете машиною в тиші.",
+    "say": "Давайте послухаємо музику, бо нудно.",
+    "ans": ["Let’s listen to music, I’m bored!", "Why don’t we listen to some music? It’s boring.", "Let’s listen to some music — this is so boring."],
+    "keys": { "нудно": "bor*|dull|quiet" }
+   },
+   {
+    "sit": "Психологиня питає, що допомагає тобі розслабитися.",
+    "say": "Вечорами я слухаю класичну музику.",
+    "ans": ["In the evenings I listen to classical music.", "I listen to classical music in the evening.", "I like to listen to classical music at night."],
+    "keys": { "класична": "classic*", "вечорами": "evening*|night*" }
+   }
+  ]
+ },
+ {
+  "id": 2971, "w": "listen to a podcast", "uk": "слухати подкаст", "lvl": "A2",
+  "forms": "listen|listens|listened|listened|listening",
+  "tail": "to podcast*",
+  "near": "hear a podcast|heard a podcast|play* a podcast|put on a podcast|audiobook*|radio",
+  "tasks": [
+   {
+    "sit": "Колега питає, як ти не нудьгуєш у довгій дорозі на роботу.",
+    "say": "Я слухаю подкасти в машині.",
+    "ans": ["I listen to podcasts in the car.", "In the car I listen to podcasts.", "I just listen to podcasts while I drive."],
+    "keys": { "машина": "car|driv*|commute" }
+   },
+   {
+    "sit": "Друг вчить англійську й питає, як покращити сприйняття на слух.",
+    "say": "Слухай подкасти англійською щодня.",
+    "ans": ["Listen to podcasts in English every day.", "Try to listen to an English podcast every day.", "Just listen to English podcasts every day."],
+    "keys": { "англійською": "english", "щодня": "every day|daily|day" }
+   },
+   {
+    "sit": "Ти прибираєш квартиру, а дружина питає, чому ти в навушниках.",
+    "say": "Я слухаю цікавий подкаст про історію.",
+    "ans": ["I’m listening to an interesting podcast about history.", "I’m listening to a history podcast.", "I’m listening to this cool podcast about history."],
+    "keys": { "історія": "histor*" }
+   }
+  ]
+ },
+ {
+  "id": 2972, "w": "watch a movie", "uk": "дивитися фільм", "lvl": "A1",
+  "forms": "watch|watches|watched|watched|watching",
+  "tail": "movie*/film*",
+  "near": "see a movie|saw a movie|seen a movie|see a film|saw a film|stream*|go to the cinema|go to the movies",
+  "tasks": [
+   {
+    "sit": "Пʼятниця ввечері, дружина питає, як проведемо вечір.",
+    "say": "Давай подивимося фільм удома.",
+    "ans": ["Let’s watch a movie at home.", "Why don’t we watch a movie at home?", "Let’s just stay home and watch a movie."],
+    "keys": { "вдома": "home|stay in|couch|sofa" }
+   },
+   {
+    "sit": "У нічному літаку сусід питає, чи ти збираєшся спати.",
+    "say": "Ні, подивлюся якийсь фільм, спати не хочеться.",
+    "ans": ["No, I’ll watch a movie — I’m not sleepy.", "No, I’m going to watch a film, I’m not tired.", "Nah, I’ll just watch a movie, I’m not sleepy."],
+    "keys": { "спати не хочеться": "not sleepy|not tired|awake" }
+   },
+   {
+    "sit": "Викладачка англійської питає, як ти практикуєш мову поза уроками.",
+    "say": "Я дивлюся фільми англійською із субтитрами.",
+    "ans": ["I watch movies in English with subtitles.", "I watch films in English with subtitles on.", "I watch English movies with subtitles."],
+    "keys": { "субтитри": "subtitle*|caption*", "англійською": "english" }
+   }
+  ]
+ },
+ {
+  "id": 2973, "w": "pick a movie", "uk": "вибрати фільм", "lvl": "A2",
+  "forms": "pick|picks|picked|picked|picking",
+  "tail": "movie*/film*",
+  "near": "choose|chose|chosen|choosing|select*|decide*|find a movie|found a movie",
+  "tasks": [
+   {
+    "sit": "Ви з друзями вже пів години гортаєте каталог стримінгового сервісу.",
+    "say": "Давайте нарешті виберемо фільм!",
+    "ans": ["Let’s finally pick a movie!", "Can we just pick a movie already?", "Come on, let’s just pick a movie!"],
+    "keys": { "нарешті": "finally|already|just|come on" }
+   },
+   {
+    "sit": "Дружина питає, що ви дивитиметеся сьогодні ввечері.",
+    "say": "Сьогодні твоя черга вибирати фільм.",
+    "ans": ["It’s your turn to pick a movie tonight.", "Tonight it’s your turn to pick the movie.", "You pick the movie tonight — it’s your turn."],
+    "keys": { "черга": "turn", "сьогодні": "tonight|today" }
+   },
+   {
+    "sit": "Ти організовуєш кіновечір для колег в офісі.",
+    "say": "Я вже вибрав фільм — це стара комедія.",
+    "ans": ["I’ve already picked a movie — it’s an old comedy.", "I picked the film already: an old comedy.", "I picked a movie, a classic old comedy."],
+    "keys": { "комедія": "comed*|funny" }
+   }
+  ]
+ },
+ {
+  "id": 2974, "w": "stream a movie", "uk": "дивитися фільм онлайн (на стримінгу)", "lvl": "B1",
+  "forms": "stream|streams|streamed|streamed|streaming",
+  "tail": "movie*/film*",
+  "near": "watch* online|watched it online|download*|netflix|watch* a movie|watched the movie",
+  "tasks": [
+   {
+    "sit": "Друг питає, чи ходили ви в кіно на новий фільм.",
+    "say": "Ні, ми подивилися його онлайн удома.",
+    "ans": ["No, we streamed the movie at home.", "No, we just streamed the film at home.", "Nah, we streamed the movie at home instead."],
+    "keys": { "вдома": "home" }
+   },
+   {
+    "sit": "У готелі дуже слабкий вайфай, а ти хотів увечері подивитися фільм.",
+    "say": "Інтернет занадто повільний, щоб дивитися фільм онлайн.",
+    "ans": ["The internet is too slow to stream a movie.", "The Wi-Fi is too slow to stream a film.", "The connection’s way too slow to stream a movie."],
+    "keys": { "повільний": "slow" }
+   },
+   {
+    "sit": "Бабуся дивується, як ти дивишся нові фільми без телевізора.",
+    "say": "Я дивлюся фільми онлайн на ноутбуці.",
+    "ans": ["I stream movies on my laptop.", "I usually stream films on my laptop.", "I just stream movies on my laptop, Grandma."],
+    "keys": { "ноутбук": "laptop|computer|notebook" }
+   }
+  ]
+ },
+ {
+  "id": 2975, "w": "go to work", "uk": "іти (їхати) на роботу", "lvl": "A1",
+  "forms": "go|goes|went|gone|going",
+  "tail": "to work",
+  "near": "leave for work|left for work|commute*|head* to work|drive to work|walk to work|get to work",
+  "tasks": [
+   {
+    "sit": "Сусід щоранку бачить тебе на зупинці й питає, чому так рано.",
+    "say": "Я щодня їду на роботу о сьомій.",
+    "ans": ["I go to work at seven every day.", "Every day I go to work at 7.", "I go to work at seven every morning."],
+    "keys": { "сьома": "seven|7*" }
+   },
+   {
+    "sit": "Ти захворів, і тобі телефонує мама.",
+    "say": "Сьогодні я не піду на роботу, у мене температура.",
+    "ans": ["I’m not going to work today, I have a fever.", "I won’t go to work today — I’ve got a temperature.", "I’m not going to work today, I’m running a fever."],
+    "keys": { "температура": "fever|temperature|sick|ill" }
+   },
+   {
+    "sit": "Новий знайомий питає, як ти добираєшся до офісу.",
+    "say": "Я ходжу на роботу пішки.",
+    "ans": ["I go to work on foot.", "I usually go to work on foot.", "I go to work on foot, it’s only ten minutes."],
+    "keys": { "пішки": "on foot|walk*" }
+   }
+  ]
+ },
+ {
+  "id": 2976, "w": "come home from work", "uk": "повертатися з роботи", "lvl": "A2",
+  "forms": "come|comes|came|come|coming",
+  "tail": "home work",
+  "near": "get home|got home|gets home|return*|go home|went home|get back|got back|leave work|left work",
+  "tasks": [
+   {
+    "sit": "Подруга хоче зателефонувати тобі ввечері.",
+    "say": "Дзвони після сьомої, я пізно приходжу з роботи.",
+    "ans": ["Call after seven, I come home from work late.", "Call me after 7 — I come home from work late.", "Call after seven, I usually come home from work pretty late."],
+    "keys": { "після сьомої": "seven|7*", "дзвони": "call*|ring|phone" }
+   },
+   {
+    "sit": "Дружина питає, чому ти такий утомлений і навіть не роздягнувся.",
+    "say": "Я щойно прийшов з роботи.",
+    "ans": ["I’ve just come home from work.", "I just came home from work.", "I only just came home from work, give me a minute."],
+    "keys": { "щойно": "just" }
+   },
+   {
+    "sit": "Ти розповідаєш колезі про свого пса.",
+    "say": "Він завжди радіє, коли я приходжу з роботи.",
+    "ans": ["He’s always happy when I come home from work.", "He always gets excited when I come home from work.", "He goes crazy every time I come home from work."],
+    "keys": { "радіє": "happy|excited|glad|crazy|wag*|jump*|thrilled" }
+   }
+  ]
+ },
+ {
+  "id": 2977, "w": "take a taxi", "uk": "взяти таксі", "lvl": "A2",
+  "forms": "take|takes|took|taken|taking",
+  "tail": "taxi*/cab*/uber",
+  "near": "get a taxi|got a taxi|call* a taxi|order* a taxi|catch a cab|caught a cab|grab a cab|ride",
+  "tasks": [
+   {
+    "sit": "Надворі злива, а до вокзалу пів години пішки.",
+    "say": "Візьмімо таксі, бо промокнемо.",
+    "ans": ["Let’s take a taxi, or we’ll get wet.", "We should take a taxi — we’ll get soaked otherwise.", "Let’s just take a cab, it’s pouring."],
+    "keys": { "промокнемо": "wet|soak*|rain*|pouring" }
+   },
+   {
+    "sit": "Ти прилетів уночі в незнайоме місто. Друг питає, як ти дістався до готелю.",
+    "say": "Я взяв таксі з аеропорту.",
+    "ans": ["I took a taxi from the airport.", "I took a cab from the airport to the hotel.", "I just took a taxi from the airport."],
+    "keys": { "аеропорт": "airport" }
+   },
+   {
+    "sit": "Після корпоративу колега збирається сісти за кермо.",
+    "say": "Ти випив, краще візьми таксі.",
+    "ans": ["You’ve been drinking — take a taxi instead.", "You had a drink, so you’d better take a taxi.", "You’ve had a few drinks — just take a cab."],
+    "keys": { "випив": "drink*|drank|drunk|alcohol|beer*|wine" }
+   }
+  ]
+ },
+ {
+  "id": 2978, "w": "walk the dog", "uk": "вигуляти пса", "lvl": "A2",
+  "forms": "walk|walks|walked|walked|walking",
+  "tail": "dog*/puppy",
+  "near": "take the dog out|took the dog out|take the dog for a walk|took the dog for a walk|let the dog out",
+  "tasks": [
+   {
+    "sit": "Друг кличе тебе на каву одразу після роботи.",
+    "say": "Спочатку мені треба вигуляти собаку.",
+    "ans": ["First I need to walk the dog.", "I have to walk the dog first.", "I’ve got to walk the dog first, then I’m free."],
+    "keys": { "спочатку": "first" }
+   },
+   {
+    "sit": "Ти їдеш у відрядження й просиш сусіда про допомогу.",
+    "say": "Можеш вигулювати мого пса, поки мене не буде?",
+    "ans": ["Could you walk my dog while I’m away?", "Can you walk my dog while I’m gone?", "Would you mind walking my dog while I’m away?"],
+    "keys": { "поки мене не буде": "away|gone|while|trip" }
+   },
+   {
+    "sit": "Лікар питає, чи ти достатньо ходиш пішки.",
+    "say": "Так, я щодня годину вигулюю собаку.",
+    "ans": ["Yes, I walk my dog for an hour every day.", "Yes, every day I walk the dog for an hour.", "Yeah, I walk the dog for an hour a day."],
+    "keys": { "годину": "hour", "щодня": "every day|daily|a day|day" }
+   }
+  ]
+ },
+ {
+  "id": 2979, "w": "feed the cat", "uk": "нагодувати кота", "lvl": "A2",
+  "forms": "feed|feeds|fed|fed|feeding",
+  "tail": "cat*/kitten*",
+  "near": "give the cat food|gave the cat food|give food|gave food|food in the bowl",
+  "tasks": [
+   {
+    "sit": "Ти їдеш на вихідні, а сестра погодилася наглядати за квартирою.",
+    "say": "Не забудь нагодувати кота зранку і ввечері.",
+    "ans": ["Don’t forget to feed the cat morning and evening.", "Please remember to feed the cat in the morning and in the evening.", "Don’t forget to feed the cat twice a day."],
+    "keys": { "не забудь": "forget|remember" }
+   },
+   {
+    "sit": "Кіт голосно нявчить на кухні. Дружина питає, що з ним.",
+    "say": "Він голодний — я ще не нагодував кота.",
+    "ans": ["He’s hungry — I haven’t fed the cat yet.", "He’s hungry because I haven’t fed the cat.", "He’s just hungry, I forgot to feed the cat."],
+    "keys": { "голодний": "hungry|starv*" }
+   },
+   {
+    "sit": "Сусіди у відпустці, а ти доглядаєш їхнього кота. Вони пишуть тобі.",
+    "say": "Не хвилюйтеся, я годую кота двічі на день.",
+    "ans": ["Don’t worry, I feed the cat twice a day.", "No worries, I’m feeding the cat twice a day.", "Don’t worry — I feed your cat twice a day."],
+    "keys": { "двічі на день": "twice|two times|2 times" }
+   }
+  ]
+ },
+ {
+  "id": 2980, "w": "water the plants", "uk": "полити рослини", "lvl": "A2",
+  "forms": "water|waters|watered|watered|watering",
+  "tail": "plant*/flower*",
+  "near": "give water|gave water|spray*|pour water|poured water|sprinkl*|hose*",
+  "tasks": [
+   {
+    "sit": "Ти їдеш у відрядження на тиждень і телефонуєш сусідці.",
+    "say": "Можете полити мої рослини в четвер?",
+    "ans": ["Could you water my plants on Thursday?", "Can you water my plants on Thursday, please?", "Would you mind watering my plants on Thursday?"],
+    "keys": { "четвер": "thursday" }
+   },
+   {
+    "sit": "Дружина повернулася з відрядження й питає, чому всі вазони сухі.",
+    "say": "Вибач, я забув полити рослини.",
+    "ans": ["Sorry, I forgot to water the plants.", "Sorry, I didn’t water the plants.", "Oops, sorry — I totally forgot to water the plants."],
+    "keys": { "вибач": "sorry|oops" }
+   },
+   {
+    "sit": "Ти працюєш у квітковому магазині й пояснюєш покупцеві, як доглядати за новою рослиною.",
+    "say": "Поливайте цю рослину раз на тиждень, не частіше.",
+    "ans": ["Water this plant once a week, no more.", "You should water this plant only once a week.", "Just water this plant once a week — no more than that."],
+    "keys": { "раз на тиждень": "once|week*" }
+   }
+  ]
+ },
+ {
+  "id": 2981, "w": "call a friend", "uk": "подзвонити другові", "lvl": "A1",
+  "forms": "call|calls|called|called|calling",
+  "tail": "friend*/buddy/mate",
+  "near": "phone*|ring|rang|text*|message*|facetime|video call|give him a call",
+  "tasks": [
+   {
+    "sit": "Неділя ввечері, тобі сумно й нема чим зайнятися.",
+    "say": "Подзвоню другові, може, він вільний.",
+    "ans": ["I’ll call a friend, maybe he’s free.", "I’m going to call my friend — maybe he’s free.", "I think I’ll call a friend and see if he’s free."],
+    "keys": { "вільний": "free|available|busy" }
+   },
+   {
+    "sit": "У тебе зламалася машина на трасі, а евакуатор приїде лише за три години.",
+    "say": "Я подзвоню другові — у нього є буксирний трос.",
+    "ans": ["I’ll call a friend — he has a tow rope.", "I’m going to call my friend, he’s got a tow rope.", "Let me call a friend who has a tow rope."],
+    "keys": { "трос": "rope|cable|strap|tow*" }
+   },
+   {
+    "sit": "Колега питає, як ти впорався з самотністю в перші місяці після переїзду за кордон.",
+    "say": "Щовечора я дзвонив друзям додому.",
+    "ans": ["Every evening I called my friends back home.", "I called a friend back home every evening.", "I’d call my friends back home every night."],
+    "keys": { "щовечора": "evening|night" }
+   }
+  ]
+ },
+ {
+  "id": 2982, "w": "text a friend", "uk": "написати другові (повідомлення)", "lvl": "A2",
+  "forms": "text|texts|texted|texted|texting",
+  "tail": "friend*/buddy/mate",
+  "near": "message*|messag*|write|wrote|written|dm*|call*|send a message|sent a message",
+  "tasks": [
+   {
+    "sit": "Ти стоїш біля кінотеатру, а друга немає вже двадцять хвилин.",
+    "say": "Напишу другові, де він.",
+    "ans": ["I’ll text my friend and ask where he is.", "Let me text my friend to see where he is.", "I’m going to text my friend — where is he?"],
+    "keys": { "де": "where" }
+   },
+   {
+    "sit": "Мама питає, чому ти за вечерею посміхаєшся в телефон.",
+    "say": "Я пишу другові, він щойно отримав роботу.",
+    "ans": ["I’m texting a friend — he just got a job.", "I’m texting my friend because he just got a new job.", "I’m just texting a friend, he got the job!"],
+    "keys": { "робота": "job|work|position" }
+   },
+   {
+    "sit": "Ти на концерті й загубив друга в натовпі.",
+    "say": "Я написав другові, щоб зустрітися біля сцени.",
+    "ans": ["I texted my friend to meet by the stage.", "I texted a friend so we could meet near the stage.", "I texted my friend — we’ll meet by the stage."],
+    "keys": { "сцена": "stage" }
+   }
+  ]
+ },
+ {
+  "id": 2983, "w": "invite a friend over", "uk": "запросити друга в гості", "lvl": "A2",
+  "forms": "invite|invites|invited|invited|inviting",
+  "tail": "over",
+  "near": "have a friend over|had a friend over|have friends over|had friends over|ask* over|come over|host*",
+  "tasks": [
+   {
+    "sit": "Мама питає, що ти робитимеш у суботу.",
+    "say": "Запрошу друга в гості на піцу.",
+    "ans": ["I’m going to invite a friend over for pizza.", "I’ll invite a friend over for pizza.", "I think I’ll invite some friends over for pizza."],
+    "keys": { "піца": "pizza" }
+   },
+   {
+    "sit": "Ти домовляєшся із сусідом по квартирі про правила.",
+    "say": "Можна я запрошу друга в гості в пʼятницю?",
+    "ans": ["Can I invite a friend over on Friday?", "Is it okay if I invite a friend over on Friday?", "Do you mind if I invite a friend over on Friday?"],
+    "keys": { "пʼятниця": "friday" }
+   },
+   {
+    "sit": "Колега питає, як ти відсвяткував день народження.",
+    "say": "Я просто запросив кількох друзів у гості.",
+    "ans": ["I just invited a few friends over.", "I simply invited some friends over to my place.", "I just invited a couple of friends over, nothing big."],
+    "keys": { "кількох друзів": "few|some|couple|friend*" }
+   }
+  ]
+ },
+ {
+  "id": 2984, "w": "host a friend", "uk": "приймати друга в себе (в гостях)", "lvl": "B1",
+  "forms": "host|hosts|hosted|hosted|hosting",
+  "tail": "friend*",
+  "near": "have a friend staying|put up|putting up|stay with me|staying with me|guest*|visit*",
+  "tasks": [
+   {
+    "sit": "Колега питає, чому ти береш відгул наступного тижня.",
+    "say": "Я прийматиму в себе друга з Канади.",
+    "ans": ["I’m hosting a friend from Canada.", "I’ll be hosting a friend from Canada next week.", "I’m hosting a friend who’s visiting from Canada."],
+    "keys": { "Канада": "canad*" }
+   },
+   {
+    "sit": "Ти орендуєш квартиру, і власниця питає, чи житиме хтось із тобою.",
+    "say": "Ні, лише іноді прийматиму друзів на кілька днів.",
+    "ans": ["No, I’ll only host a friend now and then for a few days.", "No, but I might occasionally host friends for a few days.", "No — just sometimes I’ll host a friend for a couple of days."],
+    "keys": { "іноді": "sometimes|occasional*|now and then|once in a while", "кілька днів": "few days|couple of days|days" }
+   },
+   {
+    "sit": "Ти пишеш у чат свого будинку, бо тобі терміново потрібна розкладачка.",
+    "say": "Шукаю розкладне ліжко — на вихідних приймаю друга.",
+    "ans": ["I’m looking for a folding bed — I’m hosting a friend this weekend.", "Does anyone have a folding bed? I’m hosting a friend on the weekend.", "Anyone got a camp bed? I’m hosting a friend this weekend."],
+    "keys": { "ліжко": "bed*|cot|mattress", "вихідні": "weekend" }
+   }
+  ]
+ },
+ {
+  "id": 2985, "w": "help a friend move", "uk": "допомогти другові з переїздом", "lvl": "B1",
+  "forms": "help|helps|helped|helped|helping",
+  "tail": "move*/moving",
+  "near": "give a hand|gave a hand|carry boxes|carried boxes|assist*|lend a hand|lent a hand",
+  "tasks": [
+   {
+    "sit": "Колега кличе тебе на футбол у суботу.",
+    "say": "Не можу, я допомагаю другові з переїздом.",
+    "ans": ["I can’t, I’m helping a friend move.", "Sorry, I’m helping my friend move on Saturday.", "Can’t make it — I’m helping a buddy move."],
+    "keys": { "не можу": "not|sorry" }
+   },
+   {
+    "sit": "Друг помітив, що ти ходиш, тримаючись за спину.",
+    "say": "Учора цілий день допомагав другові переїжджати.",
+    "ans": ["Yesterday I helped a friend move all day.", "I spent all day yesterday helping my friend move.", "I helped a friend move yesterday — all day long."],
+    "keys": { "вчора": "yesterday", "цілий день": "all day|whole day|day" }
+   },
+   {
+    "sit": "Ти купив мікроавтобус, і про це вже знають усі твої знайомі.",
+    "say": "Тепер усі друзі просять мене допомогти з переїздом.",
+    "ans": ["Now all my friends ask me to help them move.", "Now all my friends want me to help them move.", "Now everybody wants me to help them with moving!"],
+    "keys": { "усі": "everyone|everybody|all|friends" }
+   }
+  ]
+ },
+ {
+  "id": 2986, "w": "give advice", "uk": "давати пораду", "lvl": "B1",
+  "forms": "give|gives|gave|given|giving",
+  "tail": "advice",
+  "near": "advis*|recommend*|suggest*|tip|tips|tell you what to do|consult*",
+  "tasks": [
+   {
+    "sit": "Молодший брат вступає до університету й не може обрати спеціальність.",
+    "say": "Дам тобі пораду: обирай те, що тобі цікаво.",
+    "ans": ["Let me give you some advice: choose what interests you.", "I’ll give you one piece of advice — pick what you’re interested in.", "Can I give you some advice? Pick what you actually enjoy."],
+    "keys": { "цікаво": "interest*|enjoy|like|love|passion*" }
+   },
+   {
+    "sit": "Подруга скаржиться на начальника, але явно хоче, щоб її просто вислухали.",
+    "say": "Я не даватиму порад, якщо ти не просиш.",
+    "ans": ["I won’t give advice if you don’t ask for it.", "I’m not going to give you advice unless you ask.", "I won’t give any advice unless you want it."],
+    "keys": { "не просиш": "ask*|want*" }
+   },
+   {
+    "sit": "Ти фінансовий консультант, і знайомий питає, чим ти займаєшся.",
+    "say": "Я даю людям поради щодо інвестицій.",
+    "ans": ["I give people advice on investments.", "I give advice about investing.", "I give clients advice on where to invest their money."],
+    "keys": { "інвестиції": "invest*|money|financ*" }
+   }
+  ]
+ },
+ {
+  "id": 2987, "w": "ask for advice", "uk": "попросити поради", "lvl": "B1",
+  "forms": "ask|asks|asked|asked|asking",
+  "tail": "for advice",
+  "near": "consult*|seek advice|sought advice|get advice|got advice|turn to|turned to|ask* what to do",
+  "tasks": [
+   {
+    "sit": "Ти новенький у компанії й не знаєш, як правильно оформити звіт.",
+    "say": "Попрошу поради в досвідченішого колеги.",
+    "ans": ["I’ll ask an experienced colleague for advice.", "I’m going to ask a senior colleague for advice.", "I think I’ll ask a more experienced colleague for advice."],
+    "keys": { "колега": "colleague*|coworker*|co-worker*|senior*" }
+   },
+   {
+    "sit": "Сестра питає, як ти обрав нову машину.",
+    "say": "Я попросив поради в брата — він механік.",
+    "ans": ["I asked my brother for advice — he’s a mechanic.", "I asked for advice from my brother, the mechanic.", "I asked my mechanic brother for advice."],
+    "keys": { "брат": "brother", "механік": "mechanic*" }
+   },
+   {
+    "sit": "Друг соромиться спитати в дієтолога про харчування.",
+    "say": "Не соромся просити поради — це нормально.",
+    "ans": ["Don’t be shy about asking for advice — it’s normal.", "It’s normal to ask for advice, don’t be embarrassed.", "Don’t be afraid to ask for advice, it’s totally fine."],
+    "keys": { "не соромся": "shy|embarrass*|afraid|ashamed|scared", "нормально": "normal|fine|okay|ok" }
+   }
+  ]
+ },
+ {
+  "id": 2988, "w": "share news", "uk": "поділитися новинами", "lvl": "A2",
+  "forms": "share|shares|shared|shared|sharing",
+  "tail": "news",
+  "near": "tell|told|telling|announc*|let you know|post*|spread the word",
+  "tasks": [
+   {
+    "sit": "Сестра дзвонить тобі з-за кордону, а ти ледве стримуєшся.",
+    "say": "Я маю поділитися новинами про роботу!",
+    "ans": ["I have to share some news about work!", "I want to share my news about the new job!", "I’ve got to share some big news about work!"],
+    "keys": { "робота": "job|work|promot*" }
+   },
+   {
+    "sit": "Ти ведеш сторінку місцевої бібліотеки в соцмережах.",
+    "say": "Ми щотижня ділимося новинами бібліотеки.",
+    "ans": ["We share library news every week.", "Every week we share news from the library.", "We share the library’s news every week on Facebook."],
+    "keys": { "бібліотека": "librar*", "щотижня": "week*" }
+   },
+   {
+    "sit": "Ви з дружиною чекаєте дитину, і вона питає, коли сказати батькам.",
+    "say": "Поділимося новиною з батьками на вихідних.",
+    "ans": ["Let’s share the news with our parents this weekend.", "We’ll share the news with the parents on the weekend.", "Let’s share the news with our folks this weekend."],
+    "keys": { "батьки": "parent*|folks|mom|dad|family", "вихідні": "weekend" }
+   }
+  ]
+ },
+ {
+  "id": 2989, "w": "break bad news", "uk": "повідомити погану новину", "lvl": "B2",
+  "forms": "break|breaks|broke|broken|breaking",
+  "tail": "news",
+  "near": "tell|told|telling|inform*|let them know|let him know|let her know|deliver*",
+  "tasks": [
+   {
+    "sit": "Ти лікар-інтерн. Старший колега вчить тебе говорити з родинами пацієнтів, і ти підсумовуєш його пораду.",
+    "say": "Погані новини треба повідомляти спокійно й чесно.",
+    "ans": ["You need to break bad news calmly and honestly.", "You should always break bad news gently and honestly.", "You’ve got to break bad news calmly and honestly."],
+    "keys": { "спокійно": "calm*|gentl*|careful*|soft*", "чесно": "honest*|truth*" }
+   },
+   {
+    "sit": "Концерт, на який ви з друзями купили квитки, скасували, і ти дізнався про це першим.",
+    "say": "Не знаю, як повідомити їм цю погану новину.",
+    "ans": ["I don’t know how to break the bad news to them.", "I’m not sure how to break the news to them.", "How do I break the bad news to the guys?"],
+    "keys": { "не знаю як": "how" }
+   },
+   {
+    "sit": "Компанія скорочує твій відділ, і тобі як керівникові треба сказати про це людям.",
+    "say": "Завтра я маю повідомити команді погану новину.",
+    "ans": ["Tomorrow I have to break the bad news to my team.", "I’ll have to break the bad news to the team tomorrow.", "I’ve got to break some bad news to the team tomorrow."],
+    "keys": { "команда": "team|staff|people|everyone|employee*", "завтра": "tomorrow" }
+   }
+  ]
+ },
+ {
+  "id": 2990, "w": "share good news", "uk": "поділитися хорошою новиною", "lvl": "A2",
+  "forms": "share|shares|shared|shared|sharing",
+  "tail": "good/great news",
+  "near": "tell|told|telling|announc*|let you know|guess what|post*",
+  "tasks": [
+   {
+    "sit": "Ти щойно склав іспит на водійські права й дзвониш мамі.",
+    "say": "Мамо, хочу поділитися хорошою новиною — я склав на права!",
+    "ans": ["Mom, I want to share some good news — I passed my driving test!", "Mom, I’d like to share good news: I passed my driving test!", "Mom, I’ve got to share some great news — I passed my driving test!"],
+    "keys": { "права": "driv*|licen*|test" }
+   },
+   {
+    "sit": "На щотижневій нараді ти першим береш слово.",
+    "say": "Спершу поділюся хорошою новиною: ми отримали нового клієнта.",
+    "ans": ["First, I’d like to share some good news: we’ve got a new client.", "Let me share some good news first — we signed a new client.", "First I want to share good news: we won a new client."],
+    "keys": { "клієнт": "client*|customer*|account" }
+   },
+   {
+    "sit": "Друзі давно не мали від тебе звісток, і ти пишеш у спільний чат.",
+    "say": "Ділюся хорошою новиною: ми переїжджаємо в новий дім!",
+    "ans": ["I want to share some good news: we’re moving to a new house!", "Let me share some good news — we’re moving into a new home!", "I just wanted to share some good news: we’re moving house!"],
+    "keys": { "новий дім": "house|home|flat|apartment|mov*" }
+   }
+  ]
+ },
+ {
+  "id": 2991, "w": "buy a ticket", "uk": "купити квиток", "lvl": "A2",
+  "forms": "buy|buys|bought|bought|buying",
+  "tail": "ticket*",
+  "near": "get a ticket|got a ticket|book*|order*|purchas*|pay for|paid for",
+  "tasks": [
+   {
+    "sit": "Ти на вокзалі, до потяга десять хвилин, а біля каси довга черга.",
+    "say": "Куплю квиток у застосунку, так швидше.",
+    "ans": ["I’ll buy a ticket in the app, it’s faster.", "I’m going to buy the ticket on the app — it’s quicker.", "I’ll just buy a ticket on my phone, it’s faster."],
+    "keys": { "застосунок": "app|phone|online", "швидше": "fast*|quick*" }
+   },
+   {
+    "sit": "Ти щойно приїхав у нове місто, і контролер в автобусі просить показати квиток.",
+    "say": "Вибачте, я не знав, де купити квиток.",
+    "ans": ["Sorry, I didn’t know where to buy a ticket.", "I’m sorry, I didn’t know where I could buy a ticket.", "Sorry, I had no idea where to buy a ticket."],
+    "keys": { "не знав": "not know|no idea|not sure", "де": "where" }
+   },
+   {
+    "sit": "Твій улюблений гурт анонсував концерт у вашому місті. Друг питає, чи ти підеш.",
+    "say": "Я вже купив квиток на концерт!",
+    "ans": ["I’ve already bought a ticket for the concert!", "I already bought a concert ticket!", "I’ve already bought my ticket for the gig!"],
+    "keys": { "концерт": "concert|gig|show" }
+   }
+  ]
+ },
+ {
+  "id": 2992, "w": "book a flight", "uk": "забронювати рейс", "lvl": "A2",
+  "forms": "book|books|booked|booked|booking",
+  "tail": "flight*",
+  "near": "buy a ticket|bought a ticket|get a ticket|got a ticket|reserv*|order*|purchas*",
+  "tasks": [
+   {
+    "sit": "Колега питає, коли ти летиш на конференцію до Варшави.",
+    "say": "Я ще навіть не забронював рейс.",
+    "ans": ["I haven’t booked a flight yet.", "I still haven’t booked my flight.", "I haven’t even booked a flight yet!"],
+    "keys": { "ще не": "not|yet|still" }
+   },
+   {
+    "sit": "Подруга планує відпустку й питає, коли краще купувати квитки.",
+    "say": "Бронюй рейс за два місяці — так дешевше.",
+    "ans": ["Book a flight two months ahead — it’s cheaper.", "You should book your flight two months in advance, it’s cheaper.", "Book your flight about two months early — it’s way cheaper."],
+    "keys": { "два місяці": "two|2*|month*", "дешевше": "cheap*|less|save*|money" }
+   },
+   {
+    "sit": "Бабуся хоче прилетіти до тебе на Різдво, але не вміє користуватися сайтами.",
+    "say": "Не хвилюйся, бабусю, я сам забронюю тобі рейс.",
+    "ans": ["Don’t worry, Grandma, I’ll book a flight for you.", "Don’t worry, Grandma — I’ll book your flight myself.", "No worries, Gran, I’ll book the flight for you."],
+    "keys": { "не хвилюйся": "worr*|relax" }
+   }
+  ]
+ }
+]

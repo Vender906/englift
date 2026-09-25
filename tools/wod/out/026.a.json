@@ -1,0 +1,639 @@
+[
+ {
+  "id": 1408, "w": "look for", "uk": "шукати", "lvl": "A2",
+  "forms": "look|looks|looked|looked|looking",
+  "tail": "for",
+  "near": "search*|seek*|seeking|sought|hunt* for|try to find|trying to find",
+  "tasks": [
+   {
+    "sit": "Ти заходиш у магазин одягу, і до тебе підходить консультант.",
+    "say": "Я шукаю теплу куртку.",
+    "ans": ["I’m looking for a warm jacket.", "I’m looking for a warm winter jacket.", "Hi, I’m just looking for a warm jacket."],
+    "keys": { "куртка": "jacket*|coat*|parka*", "тепла": "warm*|winter" }
+   },
+   {
+    "sit": "Мама бачить, що ти вже десять хвилин перевертаєш усе в кімнаті.",
+    "say": "Я шукаю ключі від машини.",
+    "ans": ["I’m looking for my car keys.", "I’ve been looking for the car keys for ten minutes.", "I’m looking for my car keys — have you seen them?"],
+    "keys": { "ключі": "key*", "машина": "car" }
+   },
+   {
+    "sit": "Твоя компанія розширюється, і знайомий питає, чи є у вас вакансії.",
+    "say": "Так, ми шукаємо нового дизайнера.",
+    "ans": ["Yes, we’re looking for a new designer.", "Yes, we are looking for a designer right now.", "Yeah, actually we’re looking for a new designer."],
+    "keys": { "дизайнер": "designer*" }
+   }
+  ]
+ },
+ {
+  "id": 1409, "w": "check out", "uk": "перевіряти / глянути", "lvl": "B1",
+  "forms": "check|checks|checked|checked|checking",
+  "tail": "out",
+  "near": "look at|looked at|have a look|take a look|visit*|explore*|see",
+  "tasks": [
+   {
+    "sit": "Біля твого дому відкрився новий книжковий магазин. Ти пишеш подрузі.",
+    "say": "Давай глянемо новий книжковий у суботу.",
+    "ans": ["Let’s check out the new bookstore on Saturday.", "We should check out that new bookshop this Saturday.", "Do you want to check out the new bookstore on Saturday?"],
+    "keys": { "книжковий": "book*", "субота": "saturday|weekend" }
+   },
+   {
+    "sit": "Ти знайшов смішне відео і надсилаєш посилання братові.",
+    "say": "Глянь це відео, воно дуже смішне!",
+    "ans": ["Check out this video, it’s so funny!", "Check this video out — it’s hilarious!", "Dude, check out this video, it’s so funny!"],
+    "keys": { "відео": "video*|clip*", "смішне": "funny|hilarious" }
+   },
+   {
+    "sit": "Ти розповідаєш колезі про свої плани на відпустку в Лісабоні.",
+    "say": "Я хочу глянути місцеві ринки.",
+    "ans": ["I want to check out the local markets.", "I’d like to check out some local markets there.", "I really want to check out the local markets while I’m there."],
+    "keys": { "ринки": "market*|bazaar*", "місцеві": "local" }
+   }
+  ]
+ },
+ {
+  "id": 1410, "w": "haul", "uk": "тягти (покупки), тягати", "lvl": "C1",
+  "forms": "haul|hauls|hauled|hauled|hauling",
+  "near": "drag*|carr*|lug*|schlep*|tow*",
+  "tasks": [
+   {
+    "sit": "Ти повернувся з великого закупу в супермаркеті, а ліфт не працює. Живеш ти на пʼятому поверсі.",
+    "say": "Я тягнув шість важких пакетів на пʼятий поверх.",
+    "ans": ["I hauled six heavy bags up to the fifth floor.", "I had to haul six heavy bags up five floors.", "I just hauled six bags of groceries up five flights of stairs."],
+    "keys": { "пакети": "bag*|groceries|shopping", "пʼятий поверх": "fifth|five|5*|floor*|stair*" }
+   },
+   {
+    "sit": "Ти щойно прилетів і розповідаєш друзям, як діставався до виходу.",
+    "say": "Я тягнув цю величезну валізу через увесь аеропорт.",
+    "ans": ["I hauled this huge suitcase through the whole airport.", "I’ve hauled this huge suitcase across the entire airport.", "I had to haul this massive suitcase all the way through the airport."],
+    "keys": { "валіза": "suitcase*|luggage|bag*", "аеропорт": "airport*|terminal*" }
+   },
+   {
+    "sit": "Ти купив на ринку мішок картоплі й ніс його додому пішки. Скаржишся сусідові.",
+    "say": "Я приволік додому з ринку цілий мішок картоплі.",
+    "ans": ["I hauled a sack of potatoes home from the market.", "I hauled a big bag of potatoes all the way home from the market.", "I just hauled a whole sack of potatoes home from the market."],
+    "keys": { "картопля": "potato*", "ринок": "market*" }
+   }
+  ]
+ },
+ {
+  "id": 1411, "w": "grab", "uk": "хапнути (швидко купити)", "lvl": "A2",
+  "forms": "grab|grabs|grabbed|grabbed|grabbing",
+  "near": "buy|buys|bought|get|got|pick up|picked up|pick * up",
+  "tasks": [
+   {
+    "sit": "У тебе лише пʼятнадцять хвилин перерви між зустрічами.",
+    "say": "Я швиденько візьму сендвіч у кафе навпроти.",
+    "ans": ["I’ll grab a sandwich from the café across the street.", "I’m going to grab a quick sandwich across the road.", "Let me just grab a sandwich from the café over there."],
+    "keys": { "сендвіч": "sandwich*" }
+   },
+   {
+    "sit": "Ти вертаєшся з роботи, а вдома закінчився хліб. Пишеш сімʼї в чат.",
+    "say": "Я куплю хліб по дорозі додому.",
+    "ans": ["I’ll grab some bread on the way home.", "I’m going to grab bread on my way home.", "No worries, I’ll grab some bread on my way back."],
+    "keys": { "хліб": "bread|loaf|baguette", "по дорозі": "way|home|back" }
+   },
+   {
+    "sit": "Ви з другом вийшли з кінотеатру, і до вашого поїзда ще пів години.",
+    "say": "Давай швидко візьмемо каву перед поїздом.",
+    "ans": ["Let’s grab a coffee before the train.", "Let’s grab some coffee before our train leaves.", "Shall we grab a quick coffee before the train?"],
+    "keys": { "кава": "coffee*|latte|espresso", "поїзд": "train*" }
+   }
+  ]
+ },
+ {
+  "id": 1412, "w": "stock up", "uk": "закупатися (про запас)", "lvl": "B2",
+  "forms": "stock|stocks|stocked|stocked|stocking",
+  "tail": "up",
+  "near": "stockpil*|hoard*|load up|loaded up|buy|bought|fill up",
+  "tasks": [
+   {
+    "sit": "По радіо попереджають про сильну хуртовину завтра.",
+    "say": "Треба закупитися їжею і водою про запас.",
+    "ans": ["We need to stock up on food and water.", "We should stock up on food and water tonight.", "We’d better stock up on food and water."],
+    "keys": { "їжа": "food|groceries|supplies", "вода": "water" }
+   },
+   {
+    "sit": "У супермаркеті акція на твою улюблену каву: мінус сорок відсотків.",
+    "say": "Я закуплюся кавою на кілька місяців.",
+    "ans": ["I’m going to stock up on coffee for a few months.", "I’ll stock up on coffee for the next few months.", "I’m totally stocking up on coffee for months."],
+    "keys": { "кава": "coffee", "місяці": "month*" }
+   },
+   {
+    "sit": "Ви з мамою їдете на місяць у село, де немає аптеки.",
+    "say": "Давай закупимося ліками про всяк випадок.",
+    "ans": ["Let’s stock up on medicine just in case.", "We should stock up on medicine before we go, just in case.", "Let’s stock up on meds, just in case."],
+    "keys": { "ліки": "medicine*|meds|pills|drug*|medication*", "про всяк випадок": "just in case|in case|safe" }
+   }
+  ]
+ },
+ {
+  "id": 1413, "w": "splurge", "uk": "розщедритися, витратитися (на щось розкішне)", "lvl": "C1",
+  "forms": "splurge|splurges|splurged|splurged|splurging",
+  "near": "spent a fortune|spend a fortune|blew|blow|treat*|spoil*|spent a lot|spend a lot|indulg*",
+  "tasks": [
+   {
+    "sit": "Ти отримав першу премію на новій роботі.",
+    "say": "Я вирішив витратитися на хороший годинник.",
+    "ans": ["I decided to splurge on a nice watch.", "I splurged on a really good watch.", "I finally splurged on a nice watch with my bonus."],
+    "keys": { "годинник": "watch*" }
+   },
+   {
+    "sit": "Ви з дружиною плануєте поїздку до Рима на річницю весілля.",
+    "say": "Цього разу витратимося на гарний готель.",
+    "ans": ["This time we’ll splurge on a nice hotel.", "Let’s splurge on a really nice hotel this time.", "This time we’re splurging on a fancy hotel."],
+    "keys": { "готель": "hotel*|room*", "цього разу": "this time|for once" }
+   },
+   {
+    "sit": "Подруга бачить у твоєму кошику дорогий сир і вино й піднімає брови.",
+    "say": "Інколи можна й розщедритися на хорошу їжу.",
+    "ans": ["Sometimes it’s okay to splurge on good food.", "It’s fine to splurge on nice food once in a while.", "Hey, you’ve got to splurge on good food sometimes."],
+    "keys": { "їжа": "food|cheese|wine|groceries", "інколи": "sometimes|once in a while|now and then|occasionally" }
+   }
+  ]
+ },
+ {
+  "id": 1414, "w": "treat yourself", "uk": "побалувати себе", "lvl": "B2",
+  "forms": "treat|treats|treated|treated|treating",
+  "tail": "yourself/myself/himself/herself/ourselves/themselves/yourselves",
+  "near": "spoil*|pamper*|splurge*|indulge*",
+  "tasks": [
+   {
+    "sit": "Подруга здала важкий іспит і вагається, чи купувати дорогі навушники.",
+    "say": "Ти це заслужила — побалуй себе!",
+    "ans": ["Treat yourself — you deserve it!", "You’ve earned it, so treat yourself!", "Come on, treat yourself, you totally deserve it!"],
+    "keys": { "заслужила": "deserve*|earn*" }
+   },
+   {
+    "sit": "Після важкого тижня на роботі ти записався в спа. Пояснюєш колезі.",
+    "say": "Я вирішив побалувати себе масажем.",
+    "ans": ["I decided to treat myself to a massage.", "I’m treating myself to a massage this weekend.", "I thought I’d treat myself to a massage."],
+    "keys": { "масаж": "massage*|spa" }
+   },
+   {
+    "sit": "Мама завжди все віддає дітям і нічого не купує собі.",
+    "say": "Мамо, хоч раз побалуй себе чимось!",
+    "ans": ["Mom, treat yourself for once!", "Mom, treat yourself to something nice for once.", "Mom, just treat yourself for once!"],
+    "keys": { "мамо": "mom|mum|mother", "хоч раз": "once|for a change" }
+   }
+  ]
+ },
+ {
+  "id": 1415, "w": "queue", "uk": "стояти в черзі", "lvl": "B1",
+  "forms": "queue|queues|queued|queued|queuing/queueing",
+  "near": "line up|lined up|lining up|wait* in line|stand* in line|stood in line|wait*",
+  "tasks": [
+   {
+    "sit": "У супермаркеті працює лише одна каса. Ти пишеш другові, чому запізнюєшся.",
+    "say": "Я стою в черзі на касі вже двадцять хвилин.",
+    "ans": ["I’ve been queuing at the checkout for twenty minutes.", "I’m still queuing at the till — twenty minutes now!", "I’ve been queuing at the checkout for twenty minutes already."],
+    "keys": { "каса": "checkout*|till*|cash*|register*", "двадцять хвилин": "twenty|20*|minute*" }
+   },
+   {
+    "sit": "Друзі питають про твою поїздку до Лондона і відомий музей.",
+    "say": "Ми дві години стояли в черзі, щоб потрапити в музей.",
+    "ans": ["We queued for two hours to get into the museum.", "We had to queue for two hours to get into the museum.", "We queued for two whole hours just to get into the museum."],
+    "keys": { "музей": "museum*", "дві години": "two|2*|hour*" }
+   },
+   {
+    "sit": "Квитки на концерт улюбленого гурту почнуть продавати о девʼятій ранку.",
+    "say": "Люди стоять у черзі з пʼятої ранку.",
+    "ans": ["People have been queuing since five in the morning.", "People started queuing at five in the morning.", "People have been queuing since five a.m.!"],
+    "keys": { "пʼята": "five|5*", "люди": "people|fans|everyone|crowd" }
+   }
+  ]
+ },
+ {
+  "id": 1416, "w": "line up", "uk": "ставати в чергу (AmE)", "lvl": "B1",
+  "forms": "line|lines|lined|lined|lining",
+  "tail": "up",
+  "near": "queue*|queuing|wait* in line|stand in line|stood in line|get in line|got in line",
+  "tasks": [
+   {
+    "sit": "Ти вчитель на шкільній екскурсії. Діти юрбою стоять біля входу до зоопарку.",
+    "say": "Діти, станьте в чергу біля входу!",
+    "ans": ["Kids, line up by the entrance!", "Okay kids, please line up at the entrance.", "Kids, everybody line up by the gate, please!"],
+    "keys": { "діти": "kid*|children|everybody|everyone|guys", "вхід": "entrance|gate|door*|entry" }
+   },
+   {
+    "sit": "Ти розповідаєш колезі з Нью-Йорка про старт продажів нового смартфона.",
+    "say": "Люди ставали в чергу ще вночі, щоб купити новий телефон.",
+    "ans": ["People lined up overnight to buy the new phone.", "People were lining up at night to get the new phone.", "People lined up all night for the new phone."],
+    "keys": { "телефон": "phone*|iphone*|smartphone*", "вночі": "night*|overnight" }
+   },
+   {
+    "sit": "Ти в аеропорту Чикаго, і біля виходу на посадку оголошують вашу групу.",
+    "say": "Ставаймо в чергу — нашу групу вже кличуть.",
+    "ans": ["Let’s line up — they’re calling our group.", "Let’s line up, they’ve just called our group.", "Come on, let’s line up, that’s our group."],
+    "keys": { "група": "group*|zone*|row*" }
+   }
+  ]
+ },
+ {
+  "id": 1417, "w": "ring up", "uk": "пробити (на касі)", "lvl": "C1",
+  "forms": "ring|rings|rang|rung|ringing",
+  "tail": "up",
+  "near": "scan*|charg*|check out|checked out|process*",
+  "tasks": [
+   {
+    "sit": "Ти працюєш касиром. Покупець просить оплатити дві покупки окремо.",
+    "say": "Звісно, я пробʼю їх окремо.",
+    "ans": ["Sure, I’ll ring them up separately.", "Of course, I can ring them up separately.", "No problem, I’ll ring those up separately."],
+    "keys": { "окремо": "separate*|split" }
+   },
+   {
+    "sit": "Ти дивишся на чек у супермаркеті й бачиш той самий сир двічі.",
+    "say": "Здається, ви пробили цей сир двічі.",
+    "ans": ["I think you rang up this cheese twice.", "I think this cheese was rung up twice.", "Sorry, I think you rang this cheese up twice."],
+    "keys": { "двічі": "twice|two times|double*", "сир": "cheese|item" }
+   },
+   {
+    "sit": "У маленькій крамниці продавець питає, чи ти ще щось дивитимешся.",
+    "say": "Ні, це все — можете пробивати.",
+    "ans": ["No, that’s everything — you can ring me up.", "No, that’s all, you can ring it all up.", "Nope, that’s it — go ahead and ring me up."],
+    "keys": { "це все": "all|everything|that is it" }
+   }
+  ]
+ },
+ {
+  "id": 1418, "w": "scan", "uk": "сканувати", "lvl": "B1",
+  "forms": "scan|scans|scanned|scanned|scanning",
+  "near": "read|beep*|ring up|photograph*|take a picture|swipe*|copy|copied",
+  "tasks": [
+   {
+    "sit": "Ти на касі самообслуговування, і апарат не бачить товар.",
+    "say": "Каса ніяк не може відсканувати штрих-код.",
+    "ans": ["The machine can’t scan the barcode.", "It won’t scan the barcode.", "Ugh, it just won’t scan the barcode."],
+    "keys": { "штрих-код": "barcode*|bar code*|code*|label|sticker", "не": "not|never" }
+   },
+   {
+    "sit": "Ти в ресторані, паперового меню немає, і офіціант показує на табличку на столі.",
+    "say": "Відскануйте QR-код, щоб побачити меню.",
+    "ans": ["Scan the QR code to see the menu.", "Just scan the QR code for the menu.", "You can scan this QR code to see the menu."],
+    "keys": { "меню": "menu*", "код": "code*|qr" }
+   },
+   {
+    "sit": "Колега питає, як передати тобі договір, який він підписав ручкою.",
+    "say": "Просто відскануй його й надішли мені.",
+    "ans": ["Just scan it and send it to me.", "Scan the document and email it to me.", "Just scan it and send it over."],
+    "keys": { "надішли": "send*|email*|mail*" }
+   }
+  ]
+ },
+ {
+  "id": 1419, "w": "swipe", "uk": "провести (карткою)", "lvl": "B1",
+  "forms": "swipe|swipes|swiped|swiped|swiping",
+  "near": "tap*|insert*|scan*|use my card|pay by card",
+  "tasks": [
+   {
+    "sit": "Касир каже, що чип на твоїй картці чомусь не зчитується.",
+    "say": "Можна я просто проведу карткою?",
+    "ans": ["Can I just swipe my card?", "Could I swipe my card instead?", "Mind if I just swipe the card?"],
+    "keys": { "картка": "card*" }
+   },
+   {
+    "sit": "Новий колега стоїть перед зачиненими дверима офісу.",
+    "say": "Проведи пропуском по зчитувачу біля дверей.",
+    "ans": ["Swipe your badge at the reader by the door.", "You need to swipe your pass by the door.", "Just swipe your key card next to the door."],
+    "keys": { "пропуск": "badge*|pass*|card*|id", "двері": "door*|reader|entrance" }
+   },
+   {
+    "sit": "Турист у нью-йоркському метро не може пройти через турнікет.",
+    "say": "Проведи карткою ще раз, але повільніше.",
+    "ans": ["Swipe the card again, but slower.", "Try swiping your card again, more slowly.", "Swipe it again, just a bit slower."],
+    "keys": { "ще раз": "again|once more", "повільніше": "slow*" }
+   }
+  ]
+ },
+ {
+  "id": 1420, "w": "tap", "uk": "прикласти (картку / телефон безконтактно)", "lvl": "B1",
+  "forms": "tap|taps|tapped|tapped|tapping",
+  "near": "swipe*|insert*|scan*|wave*|hold * to|touch*",
+  "tasks": [
+   {
+    "sit": "Ти в кавʼярні, і продавець простягає тобі термінал.",
+    "say": "Можна прикласти телефон?",
+    "ans": ["Can I tap my phone?", "Can I just tap my phone to pay?", "Is it okay if I tap with my phone?"],
+    "keys": { "телефон": "phone*|watch" }
+   },
+   {
+    "sit": "Друг у Лондоні вперше їде автобусом і не знає, де купити квиток.",
+    "say": "Просто приклади картку до зчитувача, коли заходиш.",
+    "ans": ["Just tap your card on the reader when you get on.", "Tap your bank card on the reader as you get on.", "You just tap your card when you get on."],
+    "keys": { "картка": "card*", "заходиш": "reader|get on|board*|enter*" }
+   },
+   {
+    "sit": "Термінал пищить, але оплата не проходить. Касирка пояснює, що робити.",
+    "say": "Прикладіть ще раз і потримайте трохи довше.",
+    "ans": ["Tap again and hold it a bit longer.", "Try tapping it again and holding it longer.", "Tap it again and hold it there a little longer."],
+    "keys": { "ще раз": "again", "довше": "longer|long" }
+   }
+  ]
+ },
+ {
+  "id": 1421, "w": "insert", "uk": "вставляти (картку)", "lvl": "B2",
+  "forms": "insert|inserts|inserted|inserted|inserting",
+  "near": "put*|stick*|swipe*|tap*|slide*|push*",
+  "tasks": [
+   {
+    "sit": "Банкомат показує повідомлення англійською, а ти перекладаєш його мамі.",
+    "say": "Тут написано: вставте картку і введіть пін-код.",
+    "ans": ["It says: insert your card and enter your PIN.", "It says to insert your card and then enter your PIN.", "It’s saying insert the card and type in your PIN."],
+    "keys": { "картка": "card*", "пін-код": "pin*|code" }
+   },
+   {
+    "sit": "Касир каже, що безконтактно таку велику суму оплатити не вийде.",
+    "say": "Добре, тоді я вставлю картку.",
+    "ans": ["Okay, then I’ll insert my card.", "Okay, I’ll insert the card instead.", "Fine, I’ll just insert it then."],
+    "keys": { "картка": "card*|it" }
+   },
+   {
+    "sit": "Ти заселився в готель, але світло в номері не вмикається. Дзвониш на рецепцію, і тобі пояснюють.",
+    "say": "Треба вставити ключ-картку в слот біля дверей.",
+    "ans": ["You have to insert the key card into the slot by the door.", "You need to insert your key card in the slot by the door.", "Just insert the key card in that slot by the door."],
+    "keys": { "ключ-картка": "card*|key*", "слот": "slot*|holder|door" }
+   }
+  ]
+ },
+ {
+  "id": 1422, "w": "cash out", "uk": "вивести (гроші / бали)", "lvl": "C1",
+  "forms": "cash|cashes|cashed|cashed|cashing",
+  "tail": "out",
+  "near": "withdraw*|redeem*|convert*|claim*|take out|took out",
+  "tasks": [
+   {
+    "sit": "У застосунку кешбеку в тебе накопичилося пʼять тисяч бонусних балів.",
+    "say": "Я нарешті виведу свої бали на картку.",
+    "ans": ["I’m finally going to cash out my points to my card.", "I’ll finally cash out my points.", "I’m finally cashing out my points."],
+    "keys": { "бали": "point*|reward*|bonus*|cashback" }
+   },
+   {
+    "sit": "Ти працюєш фрилансером, і гроші від клієнтів спочатку приходять на платформу.",
+    "say": "Я виводжу гроші з платформи раз на місяць.",
+    "ans": ["I cash out from the platform once a month.", "I cash out my earnings once a month.", "I usually cash out once a month."],
+    "keys": { "раз на місяць": "month*|monthly" }
+   },
+   {
+    "sit": "Криптовалюта, яку ти купив рік тому, подорожчала вдвічі.",
+    "say": "Може, варто вивести гроші, поки ціна висока?",
+    "ans": ["Maybe I should cash out while the price is high.", "Maybe it’s time to cash out while the price is still high.", "Should I cash out now, while it’s high?"],
+    "keys": { "ціна висока": "high|up|peak" }
+   }
+  ]
+ },
+ {
+  "id": 1423, "w": "charge", "uk": "списувати (з картки)", "lvl": "B1",
+  "forms": "charge|charges|charged|charged|charging",
+  "near": "bill*|take*|took|debit*|withdr*",
+  "tasks": [
+   {
+    "sit": "Після поїздки ти перевіряєш банківську виписку й дзвониш у готель.",
+    "say": "Ви списали з мене гроші двічі за той самий номер.",
+    "ans": ["You charged me twice for the same room.", "I was charged twice for one room.", "Hi, you’ve charged me twice for the room."],
+    "keys": { "двічі": "twice|two times|double*", "номер": "room*|night|stay" }
+   },
+   {
+    "sit": "Ти скасував підписку на стрімінговий сервіс, але гроші все одно знімають.",
+    "say": "Вони досі щомісяця списують з мене гроші.",
+    "ans": ["They’re still charging me every month.", "They still charge me every month.", "They keep charging me every single month!"],
+    "keys": { "щомісяця": "month*", "досі": "still|keep*" }
+   },
+   {
+    "sit": "Ти купуєш куртку, а на терміналі сума більша, ніж на ціннику.",
+    "say": "Ви списали більше, ніж написано на ціннику.",
+    "ans": ["You charged me more than the price on the tag.", "I’ve been charged more than the price tag says.", "You charged me more than it says on the tag."],
+    "keys": { "більше": "more|extra|too much", "цінник": "tag|label|price|sticker" }
+   }
+  ]
+ },
+ {
+  "id": 1424, "w": "tip", "uk": "дати чайові", "lvl": "B1",
+  "forms": "tip|tips|tipped|tipped|tipping",
+  "near": "leave a|left a|gratuity|give extra|gave extra|pay extra|paid extra",
+  "tasks": [
+   {
+    "sit": "Ви з друзями в кафе, і офіціант весь вечір був дуже уважний.",
+    "say": "Давайте дамо офіціантові хороші чайові.",
+    "ans": ["Let’s tip the waiter well.", "We should tip the waiter generously.", "Let’s tip the waiter well, he was great."],
+    "keys": { "офіціант": "waiter*|waitress*|server*|him|her", "добре": "well|generous*|big|good" }
+   },
+   {
+    "sit": "Ти вперше в США й питаєш знайомого американця про місцеві звичаї.",
+    "say": "Скільки тут прийнято давати чайових у ресторані?",
+    "ans": ["How much do people tip in restaurants here?", "How much should I tip at a restaurant here?", "So how much do you usually tip at restaurants?"],
+    "keys": { "ресторан": "restaurant*", "скільки": "how much|percent*" }
+   },
+   {
+    "sit": "Таксист допоміг тобі занести важкі валізи аж до під’їзду.",
+    "say": "Я дав таксистові двадцять доларів чайових.",
+    "ans": ["I tipped the taxi driver twenty dollars.", "I tipped the driver an extra twenty dollars.", "I tipped the cab driver twenty bucks."],
+    "keys": { "таксист": "driver*|taxi*|cab*", "двадцять": "twenty|20*" }
+   }
+  ]
+ },
+ {
+  "id": 1425, "w": "add up", "uk": "скласти, підсумувати (суму)", "lvl": "B1",
+  "forms": "add|adds|added|added|adding",
+  "tail": "up",
+  "near": "count*|calculat*|total*|sum*|tally|tallied",
+  "tasks": [
+   {
+    "sit": "Ви з сусідами скинулися на спільну вечірку, і тепер треба порахувати витрати.",
+    "say": "Давай складемо всі чеки.",
+    "ans": ["Let’s add up all the receipts.", "Let’s add all the receipts up.", "Okay, let’s add up all these receipts."],
+    "keys": { "чеки": "receipt*|bill*|cost*|expens*" }
+   },
+   {
+    "sit": "Офіціант приніс рахунок, і сума здається тобі завеликою.",
+    "say": "Я все склав, і в мене виходить менше.",
+    "ans": ["I added it all up and it comes to less.", "I’ve added everything up, and it should be less.", "I added it up and it’s less than that."],
+    "keys": { "менше": "less|lower|smaller" }
+   },
+   {
+    "sit": "Ти ведеш бюджет і вирішив подивитися, скільки витратив на каву за місяць.",
+    "say": "Коли я склав усі витрати на каву, я був у шоці.",
+    "ans": ["When I added up what I spend on coffee, I was shocked.", "I added up my coffee spending and was shocked.", "I added up all my coffee costs — I was shocked!"],
+    "keys": { "кава": "coffee*", "шок": "shock*|surpris*|horrif*" }
+   }
+  ]
+ },
+ {
+  "id": 1426, "w": "split the bill", "uk": "розділити рахунок", "lvl": "B2",
+  "forms": "split|splits|split|split|splitting",
+  "tail": "bill*/check*/tab",
+  "near": "go dutch|went dutch|pay half|paid half|share the cost|shared the cost|pay separately",
+  "tasks": [
+   {
+    "sit": "Ви з колегою обідаєте разом, і колега хоче заплатити за обох.",
+    "say": "Ні-ні, давай поділимо рахунок навпіл.",
+    "ans": ["No, no, let’s split the bill in half.", "No way — let’s split the bill fifty-fifty.", "No, come on, let’s split the bill evenly."],
+    "keys": { "ні": "no|not", "навпіл": "half|fifty*|evenly|equally" }
+   },
+   {
+    "sit": "Вас шестеро в піцерії, і хтось замовив набагато більше за інших.",
+    "say": "Я не хочу ділити рахунок порівну — я їв тільки салат.",
+    "ans": ["I don’t want to split the bill evenly — I only had a salad.", "I’d rather not split the bill equally, I just had a salad.", "Can we not split the bill evenly? I only had a salad."],
+    "keys": { "салат": "salad*", "порівну": "even*|equal*" }
+   },
+   {
+    "sit": "Ти ділиш квартиру з сусідом, і прийшов рахунок за інтернет.",
+    "say": "Ми завжди ділимо рахунок за інтернет навпіл.",
+    "ans": ["We always split the bill for the internet.", "We always split the internet bill in half.", "We just split the internet bill, like always."],
+    "keys": { "інтернет": "internet|wi-fi|wifi|broadband", "завжди": "always|usually" }
+   }
+  ]
+ },
+ {
+  "id": 1427, "w": "round up", "uk": "округлити (в більший бік)", "lvl": "B2",
+  "forms": "round|rounds|rounded|rounded|rounding",
+  "tail": "up",
+  "near": "make it|call it|keep the change",
+  "tasks": [
+   {
+    "sit": "Рахунок у кавʼярні — вісімнадцять шістдесят, а ти даєш касирці двадцятку.",
+    "say": "Округліть до двадцяти, решту залиште собі.",
+    "ans": ["Round it up to twenty and keep the change.", "Just round it up to twenty, keep the rest.", "Round up to twenty — keep the change."],
+    "keys": { "двадцять": "twenty|20*", "решта": "change|rest|keep" }
+   },
+   {
+    "sit": "Касир у супермаркеті питає, чи хочеш ти округлити суму на користь благодійного фонду.",
+    "say": "Так, округліть, будь ласка.",
+    "ans": ["Yes, please round it up.", "Sure, round it up to the nearest dollar.", "Yeah, go ahead and round it up."],
+    "keys": { "так": "yes|sure|yeah|okay" }
+   },
+   {
+    "sit": "Ти допомагаєш молодшому братові з математикою, і в нього вийшло три цілих сім десятих.",
+    "say": "Тут треба округлити до чотирьох.",
+    "ans": ["You need to round it up to four.", "Here you have to round up to four.", "Just round it up to four."],
+    "keys": { "чотири": "four|4*" }
+   }
+  ]
+ },
+ {
+  "id": 1428, "w": "return", "uk": "повертати (товар)", "lvl": "A2",
+  "forms": "return|returns|returned|returned|returning",
+  "near": "take back|took back|take * back|bring back|brought back|send back|sent back|send * back|exchange*|refund*",
+  "tasks": [
+   {
+    "sit": "Ти купив кросівки онлайн, але вони тиснуть.",
+    "say": "Я їх поверну, бо вони замалі.",
+    "ans": ["I’m going to return them because they’re too small.", "I’ll return them — they’re too small.", "I need to return these, they’re way too small."],
+    "keys": { "замалі": "small|tight|size" }
+   },
+   {
+    "sit": "Ти прийшов у магазин із чеком і сорочкою, яку купив учора.",
+    "say": "Добрий день, я хочу повернути цю сорочку.",
+    "ans": ["Hi, I’d like to return this shirt.", "Hello, I want to return this shirt, please.", "Hi, can I return this shirt? I bought it yesterday."],
+    "keys": { "сорочка": "shirt*" }
+   },
+   {
+    "sit": "Подруга купила дорогий блендер і досі навіть не відкрила коробку.",
+    "say": "Якщо він тобі не потрібен, поверни його протягом тридцяти днів.",
+    "ans": ["If you don’t need the blender, return it within thirty days.", "Return it within thirty days if you don’t need it.", "If you don’t need the blender, just return it within the thirty days."],
+    "keys": { "тридцять днів": "thirty|30*|day*|month", "потрібен": "need*|use|want" }
+   }
+  ]
+ },
+ {
+  "id": 1432, "w": "reject", "uk": "відхиляти (товар, купон)", "lvl": "B2",
+  "forms": "reject|rejects|rejected|rejected|rejecting",
+  "near": "decline*|refuse*|not accept|did not accept|does not accept|will not take|not take|turn* down|turned * down|deny|denied|send back|sent back",
+  "tasks": [
+   {
+    "sit": "На касі самообслуговування ти вже вдруге пробуєш використати купон.",
+    "say": "Автомат знову відхилив мій купон.",
+    "ans": ["The machine rejected my coupon again.", "The machine has rejected my coupon again.", "Ugh, it rejected my coupon again."],
+    "keys": { "купон": "coupon*|voucher*|code", "знову": "again|twice" }
+   },
+   {
+    "sit": "Ти працюєш на складі. Прийшла партія тарілок, і половина з них розбита.",
+    "say": "Ми відхилили всю партію, бо половина тарілок розбита.",
+    "ans": ["We rejected the whole shipment because half the plates were broken.", "We rejected the entire delivery — half the plates were broken.", "We rejected the whole lot, half the plates were smashed."],
+    "keys": { "тарілки": "plate*|dish*", "розбиті": "broken|smashed|cracked|damaged" }
+   },
+   {
+    "sit": "У застосунку доставки можна не прийняти окремі товари. Молоко, яке тобі привезли, прострочене.",
+    "say": "Я відхилив молоко, бо воно прострочене.",
+    "ans": ["I rejected the milk because it was out of date.", "I rejected the milk — it had expired.", "I rejected the milk, it was already expired."],
+    "keys": { "молоко": "milk", "прострочене": "expire*|out of date|old|bad|sour|off" }
+   }
+  ]
+ },
+ {
+  "id": 1433, "w": "file a claim", "uk": "подавати скаргу / претензію", "lvl": "C1",
+  "forms": "file|files|filed|filed|filing",
+  "tail": "claim*",
+  "near": "complain*|make a claim|made a claim|submit*|lodge*|report*|put in a claim|claim",
+  "tasks": [
+   {
+    "sit": "Авіакомпанія загубила твою валізу, і ти розповідаєш про це колезі.",
+    "say": "Я подав претензію до авіакомпанії.",
+    "ans": ["I filed a claim with the airline.", "I’ve filed a claim with the airline.", "I already filed a claim with the airline."],
+    "keys": { "авіакомпанія": "airline*|carrier" }
+   },
+   {
+    "sit": "Нова пральна машина зламалася через тиждень після покупки.",
+    "say": "Я подам у магазин претензію по гарантії.",
+    "ans": ["I’ll file a claim with the store under the warranty.", "I’m going to file a warranty claim with the store.", "I’m filing a claim with the store — it’s under warranty."],
+    "keys": { "гарантія": "warrant*|guarantee*", "магазин": "store*|shop*|retailer" }
+   },
+   {
+    "sit": "Після граду на твоїй машині вмʼятини. Ти телефонуєш другові.",
+    "say": "Мені треба подати заяву до страхової.",
+    "ans": ["I need to file a claim with my insurance.", "I have to file an insurance claim.", "I’ve got to file a claim with the insurance company."],
+    "keys": { "страхова": "insur*" }
+   }
+  ]
+ },
+ {
+  "id": 1434, "w": "dispute", "uk": "оскаржувати (списання, рахунок)", "lvl": "C1",
+  "forms": "dispute|disputes|disputed|disputed|disputing",
+  "near": "challeng*|contest*|chargeback|complain*|report*|appeal*",
+  "tasks": [
+   {
+    "sit": "У банківській виписці є списання з магазину, де ти ніколи не був.",
+    "say": "Я оскаржу це списання в банку.",
+    "ans": ["I’m going to dispute this charge with my bank.", "I’ll dispute the charge with the bank.", "I’m disputing this charge with my bank."],
+    "keys": { "списання": "charge*|payment*|transaction*", "банк": "bank*" }
+   },
+   {
+    "sit": "Продавець з інтернету не надіслав товар і вже тиждень не відповідає.",
+    "say": "Якщо він не поверне гроші, я оскаржу платіж.",
+    "ans": ["If he doesn’t refund me, I’ll dispute the payment.", "I’ll dispute the payment if he doesn’t give my money back.", "If I don’t get a refund, I’m disputing the payment."],
+    "keys": { "поверне гроші": "refund*|money|back", "не": "not|no" }
+   },
+   {
+    "sit": "Ти бухгалтер, і в рахунку від постачальника одна послуга стоїть двічі.",
+    "say": "Ми оскаржуємо цей рахунок, бо там подвійна оплата.",
+    "ans": ["We’re disputing this invoice because it has a double charge.", "We dispute this invoice — we were charged twice.", "We’re disputing the invoice, they’ve billed us twice."],
+    "keys": { "рахунок": "invoice*|bill*", "подвійна": "double*|twice|two times" }
+   }
+  ]
+ },
+ {
+  "id": 1435, "w": "add to cart", "uk": "додати в кошик", "lvl": "A2",
+  "forms": "add|adds|added|added|adding",
+  "tail": "to cart*/basket*",
+  "near": "put in|put it in|put them in|buy|bought|order*|save*",
+  "tasks": [
+   {
+    "sit": "Ви з сестрою разом вибираєте онлайн подарунок для тата.",
+    "say": "Я вже додав навушники в кошик.",
+    "ans": ["I’ve already added the headphones to the cart.", "I already added the headphones to my cart.", "Done — I added the headphones to the cart."],
+    "keys": { "навушники": "headphone*|earbuds|earphone*" }
+   },
+   {
+    "sit": "Друг скаржиться, що сайт не дає йому оформити замовлення.",
+    "say": "Спочатку треба додати товар у кошик.",
+    "ans": ["First you need to add the item to your cart.", "You have to add it to your cart first.", "First, add it to the cart."],
+    "keys": { "спочатку": "first" }
+   },
+   {
+    "sit": "Ти замовляєш продукти онлайн, а мама диктує тобі список.",
+    "say": "Молоко і хліб я вже додав у кошик.",
+    "ans": ["I’ve added milk and bread to the cart.", "I already added the milk to the cart, and the bread too.", "Milk and bread — I already added them to the cart."],
+    "keys": { "молоко": "milk", "хліб": "bread|loaf" }
+   }
+  ]
+ }
+]

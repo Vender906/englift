@@ -1,0 +1,652 @@
+[
+ {
+  "id": 2892, "w": "save a photo", "uk": "зберегти фото", "lvl": "A2",
+  "forms": "save|saves|saved|saved|saving",
+  "tail": "photo*/pic*/picture*",
+  "near": "download*|keep|kept|store*|screenshot*",
+  "tasks": [
+   {
+    "sit": "Подруга надіслала в чат гарне фото з вашої спільної поїздки. Воно тобі дуже подобається.",
+    "say": "Я збережу це фото собі на телефон.",
+    "ans": ["I’ll save this photo on my phone.", "I’m going to save that photo to my phone.", "Oh, I love it — I’m saving this photo to my phone!"],
+    "keys": { "телефон": "phone|mobile|gallery" }
+   },
+   {
+    "sit": "Колега надіслав тобі на пошту фото документів. Ти боїшся, що лист загубиться серед інших.",
+    "say": "Я зберіг фото на комп’ютер про всяк випадок.",
+    "ans": ["I saved the photo on my computer just in case.", "I’ve saved the photos to my laptop, just in case.", "Don’t worry, I saved the photo on my computer just in case."],
+    "keys": { "комп’ютер": "computer|laptop|pc|desktop|drive", "про всяк випадок": "just in case|in case|safe" }
+   },
+   {
+    "sit": "Ти робиш ремонт і побачив в інтернеті фото кухні, яка тобі дуже сподобалася.",
+    "say": "Я зберіг фото, щоб показати дизайнеру.",
+    "ans": ["I saved the photo to show the designer.", "I’ve saved a photo of it to show my designer.", "I saved a pic so I can show it to the designer."],
+    "keys": { "дизайнер": "designer*" }
+   }
+  ]
+ },
+ {
+  "id": 2893, "w": "delete a photo", "uk": "видалити фото", "lvl": "A2",
+  "forms": "delete|deletes|deleted|deleted|deleting",
+  "tail": "photo*/pic*/picture*",
+  "near": "remove*|erase*|get rid of|got rid of|throw away|threw away|clear*",
+  "tasks": [
+   {
+    "sit": "Друг сфотографував тебе із заплющеними очима й хоче викласти знімок у мережу.",
+    "say": "Будь ласка, видали це фото!",
+    "ans": ["Please delete this photo!", "Can you delete that photo, please?", "Oh no, please delete that photo right now!"],
+    "keys": { "будь ласка": "please|can you|could you" }
+   },
+   {
+    "sit": "На телефоні закінчилася пам’ять, а ти хочеш зняти відео на концерті.",
+    "say": "Мені треба видалити старі фото.",
+    "ans": ["I need to delete some old photos.", "I have to delete my old photos first.", "Hold on, I need to delete a bunch of old photos."],
+    "keys": { "старі": "old", "треба": "need*|have to|must|got to" }
+   },
+   {
+    "sit": "Після відпустки в тебе тисяча знімків, і багато з них розмиті.",
+    "say": "Я видалив усі розмиті фото.",
+    "ans": ["I deleted all the blurry photos.", "I’ve deleted all the blurry pictures.", "I’ve already deleted all the blurry photos."],
+    "keys": { "розмиті": "blurr*|out of focus|bad" }
+   }
+  ]
+ },
+ {
+  "id": 2894, "w": "back up photos", "uk": "робити бекап фото", "lvl": "B1",
+  "forms": "back|backs|backed|backed|backing",
+  "tail": "up photo*/pic*/picture*",
+  "near": "save*|saving|copy|copied|copies|upload*|store*",
+  "tasks": [
+   {
+    "sit": "Ти купуєш новий телефон і боїшся втратити знімки своїх дітей.",
+    "say": "Спершу я зроблю бекап усіх фото.",
+    "ans": ["First, I’ll back up all my photos.", "I’m going to back up all the photos first.", "Before anything else, I need to back up my photos."],
+    "keys": { "спершу": "first|before" }
+   },
+   {
+    "sit": "У колеги вкрали ноутбук, і разом із ним зникли всі фото з корпоративів. Ти даєш пораду всій команді.",
+    "say": "Треба регулярно робити бекап фото в хмару.",
+    "ans": ["You should back up your photos to the cloud regularly.", "It’s important to back up photos to the cloud regularly.", "Always back up your photos to the cloud, guys!"],
+    "keys": { "хмара": "cloud|icloud|google|online|drive", "регулярно": "regular*|always|every*|often" }
+   },
+   {
+    "sit": "Ти в довгій подорожі, а фотоапарат старий і може будь-коли зламатися.",
+    "say": "Щовечора я роблю бекап фото на ноутбук.",
+    "ans": ["I back up my photos to my laptop every evening.", "Every evening I back up the photos on my laptop.", "I back up my pics to the laptop every night."],
+    "keys": { "щовечора": "evening*|night*", "ноутбук": "laptop|computer|notebook" }
+   }
+  ]
+ },
+ {
+  "id": 2895, "w": "send a voice note", "uk": "надіслати голосове", "lvl": "A2",
+  "forms": "send|sends|sent|sent|sending",
+  "tail": "voice note*/message*/memo*",
+  "near": "record*|call*|text*|write|wrote|type*",
+  "tasks": [
+   {
+    "sit": "Ти за кермом і не можеш писати, а друг чекає на твою відповідь.",
+    "say": "Я за кермом, тож надішлю тобі голосове.",
+    "ans": ["I’m driving, so I’ll send you a voice note.", "I’ll send you a voice note because I’m driving.", "Can’t type now, I’m driving — I’ll send you a voice note."],
+    "keys": { "за кермом": "driv*|car|wheel" }
+   },
+   {
+    "sit": "Керівник попросив коротко пояснити проблему, а писати довгий текст незручно.",
+    "say": "Я надіслав йому голосове з поясненням.",
+    "ans": ["I sent him a voice note explaining the problem.", "I’ve sent him a voice note with an explanation.", "I just sent him a quick voice note to explain."],
+    "keys": { "пояснення": "expla*" }
+   },
+   {
+    "sit": "Бабуся погано бачить дрібний текст на телефоні. Ти радиш братові, як із нею спілкуватися.",
+    "say": "Надсилай бабусі голосові замість повідомлень.",
+    "ans": ["Send Grandma voice notes instead of texts.", "You should send voice notes to Grandma instead of messages.", "Just send Grandma a voice note instead of texting."],
+    "keys": { "бабуся": "grandma|granny|grandmother|nan*", "замість": "instead" }
+   }
+  ]
+ },
+ {
+  "id": 2896, "w": "send money", "uk": "переслати гроші (через застосунок)", "lvl": "A2",
+  "forms": "send|sends|sent|sent|sending",
+  "tail": "money",
+  "near": "transfer*|pay|paid|pays|wire*",
+  "tasks": [
+   {
+    "sit": "Друг заплатив за тебе в кафе. Ти відкриваєш банківський застосунок.",
+    "say": "Я зараз перешлю тобі гроші.",
+    "ans": ["I’ll send you the money now.", "I’m sending you the money right now.", "Hang on, I’ll send you the money in a sec."],
+    "keys": { "зараз": "now|second|sec|minute|moment" }
+   },
+   {
+    "sit": "Твоя сестра навчається за кордоном, і їй часто бракує грошей до кінця місяця.",
+    "say": "Я щомісяця пересилаю сестрі гроші через застосунок.",
+    "ans": ["I send my sister money every month through an app.", "Every month I send money to my sister via the app.", "I send my sister some money every month on the app."],
+    "keys": { "сестра": "sister", "щомісяця": "month*" }
+   },
+   {
+    "sit": "Ти купуєш уживаний велосипед на сайті оголошень і домовляєшся з продавцем про оплату.",
+    "say": "Можна я перешлю гроші вам на картку?",
+    "ans": ["Can I send the money to your card?", "Is it okay if I send the money to your card?", "Could I just send the money to your card instead?"],
+    "keys": { "картка": "card|account" }
+   }
+  ]
+ },
+ {
+  "id": 2897, "w": "receive money", "uk": "отримати гроші", "lvl": "A2",
+  "forms": "receive|receives|received|received|receiving",
+  "tail": "money/payment*",
+  "near": "get|gets|got|gotten|getting|earn*",
+  "tasks": [
+   {
+    "sit": "Ти продав гітару онлайн. Покупець питає, чи дійшов його переказ.",
+    "say": "Так, я отримав гроші, дякую!",
+    "ans": ["Yes, I received the money, thanks!", "Yes, I’ve received the money — thank you!", "Yeah, I’ve just received the money, thanks a lot!"],
+    "keys": { "дякую": "thank*" }
+   },
+   {
+    "sit": "Ти фрілансер, і клієнт уже два тижні затримує оплату.",
+    "say": "Я досі не отримав гроші за проєкт.",
+    "ans": ["I still haven’t received the money for the project.", "I haven’t received the money for the project yet.", "I still haven’t received any money for that project."],
+    "keys": { "досі не": "not|never|no", "проєкт": "project*|job|work" }
+   },
+   {
+    "sit": "У банку ти пояснюєш, навіщо відкриваєш валютний рахунок.",
+    "say": "Мені треба отримувати гроші з-за кордону.",
+    "ans": ["I need to receive money from abroad.", "I have to receive money from other countries.", "I need an account to receive money from abroad."],
+    "keys": { "з-за кордону": "abroad|overseas|foreign|other countr*|another countr*" }
+   }
+  ]
+ },
+ {
+  "id": 2898, "w": "drink water", "uk": "пити воду", "lvl": "A1",
+  "forms": "drink|drinks|drank|drunk|drinking",
+  "tail": "water",
+  "near": "have|had|sip*|hydrat*",
+  "tasks": [
+   {
+    "sit": "Лікар питає, скільки води ти випиваєш за день.",
+    "say": "Я п’ю мало води.",
+    "ans": ["I don’t drink much water.", "I drink very little water.", "Honestly, I don’t drink enough water."],
+    "keys": { "мало": "not|little|much|enough" }
+   },
+   {
+    "sit": "Після пробіжки тренер бачить, що ти весь червоний і важко дихаєш.",
+    "say": "Мені треба попити води.",
+    "ans": ["I need to drink some water.", "I have to drink water.", "I really need to drink some water."],
+    "keys": { "треба": "need*|have to|must|should|got to" }
+   },
+   {
+    "sit": "Твоя дитина просить газовану воду до обіду.",
+    "say": "Пий краще воду, а не солодкі напої.",
+    "ans": ["Drink water instead of sweet drinks.", "You should drink water, not soda.", "How about you drink some water instead of soda?"],
+    "keys": { "солодкі напої": "soda|sweet|sugar*|fizzy|juice|pop|cola" }
+   }
+  ]
+ },
+ {
+  "id": 2899, "w": "stay hydrated", "uk": "пити достатньо води", "lvl": "B1",
+  "forms": "stay|stays|stayed|stayed|staying",
+  "tail": "hydrated",
+  "near": "drink*|drank|keep hydrated|kept hydrated|hydrate",
+  "tasks": [
+   {
+    "sit": "Ви з другом у відпустці в Єгипті, на вулиці +40.",
+    "say": "У таку спеку важливо пити достатньо води.",
+    "ans": ["It’s important to stay hydrated in this heat.", "In heat like this, you have to stay hydrated.", "Make sure you stay hydrated in this heat!"],
+    "keys": { "спека": "heat|hot|weather|sun" }
+   },
+   {
+    "sit": "Ти готуєшся до марафону, і новачок у клубі питає про твої поради.",
+    "say": "Під час бігу я намагаюся пити достатньо води.",
+    "ans": ["I try to stay hydrated while I run.", "I try to stay hydrated during my runs.", "I always try to stay hydrated when I’m running."],
+    "keys": { "біг": "run*|jog*|race*|marathon" }
+   },
+   {
+    "sit": "Подруга захворіла на грип і лежить удома. Ти пишеш їй повідомлення.",
+    "say": "Відпочивай і пий достатньо води.",
+    "ans": ["Get some rest and stay hydrated.", "Rest a lot and stay hydrated.", "Take it easy and stay hydrated, okay?"],
+    "keys": { "відпочивай": "rest|easy|relax*|sleep" }
+   }
+  ]
+ },
+ {
+  "id": 2900, "w": "kill time", "uk": "вбивати час", "lvl": "B1",
+  "forms": "kill|kills|killed|killed|killing",
+  "tail": "time",
+  "near": "pass the time|passed the time|spend time|spent time|wait*",
+  "tasks": [
+   {
+    "sit": "Рейс затримали на три години, і ти сидиш в аеропорту.",
+    "say": "Я вбиваю час, гортаючи стрічку в телефоні.",
+    "ans": ["I’m killing time scrolling on my phone.", "To kill time, I’m scrolling through my phone.", "I’m just killing time on my phone."],
+    "keys": { "телефон": "phone|mobile|instagram|online|feed" }
+   },
+   {
+    "sit": "Ти прийшов на зустріч на пів години раніше й пишеш другові.",
+    "say": "Я прийшов зарано, тож убиваю час у кав’ярні.",
+    "ans": ["I came too early, so I’m killing time in a café.", "I got here early, so I’m killing time at a coffee shop.", "I was early, so I’m just killing time in a café."],
+    "keys": { "кав’ярня": "caf*|coffee*", "зарано": "early" }
+   },
+   {
+    "sit": "Сусід бачить, що ти розв’язуєш кросворди в черзі до лікаря.",
+    "say": "Я розв’язую кросворди, щоб убити час.",
+    "ans": ["I do crosswords to kill time.", "I’m doing crosswords to kill time.", "Crosswords are just a way to kill time."],
+    "keys": { "кросворди": "crossword*|puzzle*" }
+   }
+  ]
+ },
+ {
+  "id": 2901, "w": "waste time", "uk": "марнувати час", "lvl": "A2",
+  "forms": "waste|wastes|wasted|wasted|wasting",
+  "tail": "time",
+  "near": "lose|lost|losing|spend|spent|spending|kill*",
+  "tasks": [
+   {
+    "sit": "Ти помічаєш, що вже три години сидиш у соцмережах.",
+    "say": "Я марную стільки часу в інтернеті!",
+    "ans": ["I waste so much time online!", "I’m wasting so much time on the internet!", "I waste way too much time on social media!"],
+    "keys": { "в інтернеті": "online|internet|social media|phone|web", "стільки": "so much|too much|lot" }
+   },
+   {
+    "sit": "Нарада триває вже дві години, і ніхто нічого не вирішив.",
+    "say": "Ми марнуємо час на цій нараді.",
+    "ans": ["We’re wasting time in this meeting.", "This meeting is wasting our time.", "Honestly, we’re just wasting time in this meeting."],
+    "keys": { "нарада": "meeting*" }
+   },
+   {
+    "sit": "Друг хоче вчити англійську, але вже місяць вибирає ідеальний підручник.",
+    "say": "Не марнуй час, просто починай!",
+    "ans": ["Don’t waste time, just start!", "Stop wasting time and just start!", "Don’t waste any more time — just get started!"],
+    "keys": { "починай": "start*|begin|go", "не": "not|stop" }
+   }
+  ]
+ },
+ {
+  "id": 2902, "w": "save time", "uk": "економити час", "lvl": "A2",
+  "forms": "save|saves|saved|saved|saving",
+  "tail": "time",
+  "near": "economi*|spare time|gain time",
+  "tasks": [
+   {
+    "sit": "Колега дивується, що в тебе щодня є домашній обід.",
+    "say": "Я готую їжу на тиждень у неділю — це економить час.",
+    "ans": ["I cook for the week on Sunday — it saves time.", "Cooking for the whole week on Sunday saves me time.", "I meal prep on Sundays, it saves so much time."],
+    "keys": { "неділя": "sunday*", "готую": "cook*|prep*|meal*|food" }
+   },
+   {
+    "sit": "Ви з подругою запізнюєтеся в аеропорт, а автобус їде дуже довго.",
+    "say": "Візьмімо таксі, так ми зекономимо час.",
+    "ans": ["Let’s take a taxi, it’ll save time.", "Let’s get a taxi — we’ll save time.", "Let’s grab a taxi, it’ll save us some time."],
+    "keys": { "таксі": "taxi|cab|uber" }
+   },
+   {
+    "sit": "Ти показуєш новому колезі гарячі клавіші в таблицях.",
+    "say": "Ці комбінації клавіш економлять купу часу.",
+    "ans": ["These shortcuts save a lot of time.", "These keyboard shortcuts save you tons of time.", "Trust me, these shortcuts save so much time."],
+    "keys": { "клавіші": "shortcut*|key*|hotkey*", "купу": "lot|tons|so much|loads|much" }
+   }
+  ]
+ },
+ {
+  "id": 2903, "w": "greet a friend", "uk": "вітатися з другом", "lvl": "A2",
+  "forms": "greet|greets|greeted|greeted|greeting",
+  "tail": "friend*",
+  "near": "say hello|said hello|say hi|said hi|wave*|welcom*",
+  "tasks": [
+   {
+    "sit": "На вокзалі ти зустрічаєш друга, якого не бачив п’ять років.",
+    "say": "Я тепло привітався з другом і обійняв його.",
+    "ans": ["I greeted my friend warmly and hugged him.", "I warmly greeted my friend and gave him a hug.", "I greeted my friend with a big hug."],
+    "keys": { "обійняв": "hug*" }
+   },
+   {
+    "sit": "На вечірці ти так захопився розмовою, що не помітив, як прийшла твоя найкраща подруга.",
+    "say": "Я навіть не привітався з найкращою подругою — мені так соромно.",
+    "ans": ["I didn’t even greet my best friend — I feel so bad.", "I forgot to greet my best friend, and I feel terrible.", "I didn’t even greet my best friend, how embarrassing!"],
+    "keys": { "не": "not|forgot|never", "найкраща": "best" }
+   },
+   {
+    "sit": "Твій син-підліток пройшов повз свого друга на вулиці, наче його не знає.",
+    "say": "Чому ти не привітався з другом?",
+    "ans": ["Why didn’t you greet your friend?", "Why didn’t you greet your friend on the street?", "Hey, how come you didn’t even greet your friend?"],
+    "keys": { "чому": "why|how come" }
+   }
+  ]
+ },
+ {
+  "id": 2904, "w": "say goodbye", "uk": "попрощатися", "lvl": "A1",
+  "forms": "say|says|said|said|saying",
+  "tail": "goodbye/bye",
+  "near": "farewell*|wave*",
+  "tasks": [
+   {
+    "sit": "Ти йдеш з вечірки, а господиня зайнята на кухні.",
+    "say": "Я не можу піти, не попрощавшись.",
+    "ans": ["I can’t leave without saying goodbye.", "I don’t want to leave without saying goodbye.", "I can’t go without saying goodbye!"],
+    "keys": { "піти": "leave|go" }
+   },
+   {
+    "sit": "Донька біжить до школи й забула попрощатися з бабусею.",
+    "say": "Попрощайся з бабусею!",
+    "ans": ["Say goodbye to Grandma!", "Go and say goodbye to Grandma!", "Hey, say bye to Grandma!"],
+    "keys": { "бабуся": "grandma|granny|grandmother|nan*" }
+   },
+   {
+    "sit": "Сьогодні колега востаннє в офісі, бо переїжджає в інше місто.",
+    "say": "Ми всі прийшли з нею попрощатися.",
+    "ans": ["We all came to say goodbye to her.", "We’ve all come to say goodbye to her.", "Everyone came to say goodbye to her."],
+    "keys": { "всі": "all|everyone|everybody" }
+   }
+  ]
+ },
+ {
+  "id": 2905, "w": "say hello", "uk": "привітатися", "lvl": "A1",
+  "forms": "say|says|said|said|saying",
+  "tail": "hello/hi",
+  "near": "greet*|wave*",
+  "tasks": [
+   {
+    "sit": "Ти на відеодзвінку з мамою, а поруч сидить твій друг.",
+    "say": "Привітайся з моєю мамою!",
+    "ans": ["Say hello to my mom!", "Come and say hello to my mom!", "Come say hi to my mom!"],
+    "keys": { "мама": "mom|mum|mother|mama" }
+   },
+   {
+    "sit": "Новий сусід щоранку проходить повз тебе мовчки. Ти розповідаєш про це дружині.",
+    "say": "Він ніколи навіть не вітається!",
+    "ans": ["He never says hello!", "He doesn’t even say hello!", "He never even says hello to me!"],
+    "keys": { "ніколи не": "never|not" }
+   },
+   {
+    "sit": "Ти приїхав у рідне місто, де досі живе твоя стара вчителька.",
+    "say": "Я зайду до неї привітатися.",
+    "ans": ["I’ll go and say hello to her.", "I’m going to drop by and say hello to her.", "I’ll pop in and say hi to her."],
+    "keys": { "зайду": "go|going|drop*|stop*|pop*|visit*|come" }
+   }
+  ]
+ },
+ {
+  "id": 2906, "w": "say sorry", "uk": "вибачитися", "lvl": "A1",
+  "forms": "say|says|said|said|saying",
+  "tail": "sorry",
+  "near": "apologi*|apologis*",
+  "tasks": [
+   {
+    "sit": "Ти посварився з братом і розумієш, що був неправий.",
+    "say": "Мені треба попросити вибачення в брата.",
+    "ans": ["I need to say sorry to my brother.", "I should say sorry to my brother.", "I really have to say sorry to my brother."],
+    "keys": { "брат": "brother|bro" }
+   },
+   {
+    "sit": "Твій син штовхнув іншого хлопчика на майданчику.",
+    "say": "Попроси вибачення в хлопчика.",
+    "ans": ["Say sorry to the boy.", "Go and say sorry to that boy.", "Come on, say sorry to him."],
+    "keys": { "хлопчик": "boy|kid|him|child" }
+   },
+   {
+    "sit": "Ти запізнився на зустріч із клієнтом на двадцять хвилин.",
+    "say": "Я вибачився й пояснив, що був затор.",
+    "ans": ["I said sorry and explained there was traffic.", "I said sorry and explained about the traffic jam.", "I said sorry — there was terrible traffic."],
+    "keys": { "затор": "traffic|jam" }
+   }
+  ]
+ },
+ {
+  "id": 2907, "w": "say thanks", "uk": "подякувати", "lvl": "A1",
+  "forms": "say|says|said|said|saying",
+  "tail": "thanks/thank",
+  "near": "thanked|appreciat*|grateful",
+  "tasks": [
+   {
+    "sit": "Сусід допоміг тобі занести диван на п’ятий поверх.",
+    "say": "Я піду подякую сусідові.",
+    "ans": ["I’ll go and say thanks to my neighbor.", "I want to say thanks to my neighbor.", "I’ll pop over and say thanks to my neighbor."],
+    "keys": { "сусід": "neighbo*" }
+   },
+   {
+    "sit": "Ви гостювали в друзів на вихідних, і тепер ти пишеш їм повідомлення.",
+    "say": "Хочу ще раз подякувати за чудові вихідні!",
+    "ans": ["I just want to say thanks again for a great weekend!", "I wanted to say thanks for the amazing weekend!", "Just wanted to say thanks again for the lovely weekend!"],
+    "keys": { "вихідні": "weekend*" }
+   },
+   {
+    "sit": "Колега допоміг тобі зі складним звітом і одразу поїхав у відрядження.",
+    "say": "Я навіть не встиг подякувати йому за допомогу.",
+    "ans": ["I didn’t even get to say thanks for his help.", "I didn’t have time to say thanks for his help.", "I never even said thanks for his help!"],
+    "keys": { "допомога": "help*" }
+   }
+  ]
+ },
+ {
+  "id": 2908, "w": "say please", "uk": "казати «будь ласка»", "lvl": "A1",
+  "forms": "say|says|said|said|saying",
+  "tail": "please",
+  "near": "ask nicely|asked nicely|magic word",
+  "tasks": [
+   {
+    "sit": "Малий син вимагає: «Дай сік!»",
+    "say": "Спершу скажи «будь ласка», тоді дам сік.",
+    "ans": ["Say please first, then I’ll give you the juice.", "First say please, and then you’ll get your juice.", "You can have the juice after you say please."],
+    "keys": { "сік": "juice", "спершу": "first|then|after|before" }
+   },
+   {
+    "sit": "Друг грубо замовляє каву в кав’ярні, навіть не глянувши на баристу.",
+    "say": "Ти міг би хоча б сказати «будь ласка».",
+    "ans": ["You could at least say please.", "You could’ve at least said please.", "You could at least say please, you know."],
+    "keys": { "хоча б": "at least|even" }
+   },
+   {
+    "sit": "Новий керівник завжди дає доручення тоном наказу.",
+    "say": "Він ніколи не каже «будь ласка».",
+    "ans": ["He never says please.", "He doesn’t ever say please.", "He never, ever says please!"],
+    "keys": { "ніколи": "never|not" }
+   }
+  ]
+ },
+ {
+  "id": 2909, "w": "say cheers", "uk": "сказати «будьмо»", "lvl": "A2",
+  "forms": "say|says|said|said|saying",
+  "tail": "cheers",
+  "near": "toast*|clink*",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш іноземному колезі про українське застілля.",
+    "say": "У нас перед кожною чаркою кажуть «будьмо».",
+    "ans": ["In Ukraine, we say cheers before every shot.", "Before every drink, we say cheers.", "Back home, we say cheers before every single shot."],
+    "keys": { "перед": "before", "чарка": "shot*|drink*|glass*" }
+   },
+   {
+    "sit": "На дні народження всі підняли келихи, а ти вже встиг відпити.",
+    "say": "Ой, я забув сказати «будьмо»!",
+    "ans": ["Oops, I forgot to say cheers!", "Oh no, I forgot to say cheers first!", "Oops, I drank before we even said cheers!"],
+    "keys": { "забув": "forg*|before" }
+   },
+   {
+    "sit": "Ти на весіллі друга, і ведучий просить усіх підняти келихи.",
+    "say": "Скажімо всі разом «будьмо» за молодят!",
+    "ans": ["Let’s all say cheers to the newlyweds!", "Let’s say cheers to the happy couple!", "Everyone, let’s say cheers to the bride and groom!"],
+    "keys": { "молодята": "newlywed*|couple|bride*|groom" }
+   }
+  ]
+ },
+ {
+  "id": 2910, "w": "give a hug", "uk": "обійняти", "lvl": "A2",
+  "forms": "give|gives|gave|given|giving",
+  "tail": "hug*",
+  "near": "hug|hugs|hugged|hugging|embrac*|cuddl*",
+  "tasks": [
+   {
+    "sit": "Подруга розплакалася після важкого дня на роботі.",
+    "say": "Іди сюди, я тебе обійму.",
+    "ans": ["Come here, let me give you a hug.", "Come here, I’ll give you a hug.", "Aw, come here — let me give you a big hug."],
+    "keys": { "іди сюди": "come here|come" }
+   },
+   {
+    "sit": "Ти зустрічаєш маму в аеропорту після року розлуки. Друг питає, як минула зустріч.",
+    "say": "Я міцно обійняв маму.",
+    "ans": ["I gave my mom a big hug.", "I gave Mom a really tight hug.", "I ran up and gave my mom a huge hug."],
+    "keys": { "мама": "mom|mum|mother", "міцно": "big|tight*|huge|warm*|long|strong" }
+   },
+   {
+    "sit": "Син уперше йде до школи й нервує біля входу.",
+    "say": "Обійми мене, і все буде добре.",
+    "ans": ["Give me a hug, and everything will be fine.", "Give me a hug — it’ll all be okay.", "Give me a hug, you’ll be just fine."],
+    "keys": { "все буде добре": "fine|okay|ok|alright|all right|good" }
+   }
+  ]
+ },
+ {
+  "id": 2912, "w": "give a call", "uk": "подзвонити", "lvl": "A2",
+  "forms": "give|gives|gave|given|giving",
+  "tail": "call",
+  "near": "call|called|calling|ring|rang|phone*",
+  "tasks": [
+   {
+    "sit": "Ти закінчуєш розмову з клієнтом, який хоче обговорити деталі пізніше.",
+    "say": "Подзвоніть мені завтра зранку.",
+    "ans": ["Give me a call tomorrow morning.", "Could you give me a call tomorrow morning?", "Just give me a call tomorrow morning, okay?"],
+    "keys": { "завтра": "tomorrow", "зранку": "morning|am" }
+   },
+   {
+    "sit": "Мама скаржиться, що ти рідко з нею розмовляєш.",
+    "say": "Я подзвоню тобі на вихідних.",
+    "ans": ["I’ll give you a call on the weekend.", "I’ll give you a call this weekend, I promise.", "I’ll give you a call at the weekend, okay?"],
+    "keys": { "вихідні": "weekend*|saturday|sunday" }
+   },
+   {
+    "sit": "У тебе протікає кран, а друг радить знайомого сантехніка.",
+    "say": "Дай мені його номер — я йому подзвоню.",
+    "ans": ["Give me his number, and I’ll give him a call.", "Send me his number and I’ll give him a call.", "Text me his number, I’ll give him a call today."],
+    "keys": { "номер": "number|contact*" }
+   }
+  ]
+ },
+ {
+  "id": 2913, "w": "do the shopping", "uk": "робити покупки", "lvl": "A2",
+  "forms": "do|does|did|done|doing",
+  "tail": "shopping",
+  "near": "go shopping|went shopping|buy*|bought|get groceries|got groceries",
+  "tasks": [
+   {
+    "sit": "Ви з партнером ділите хатні обов’язки на тиждень.",
+    "say": "Я робитиму покупки, а ти прибиратимеш.",
+    "ans": ["I’ll do the shopping, and you’ll clean.", "I’ll do the shopping and you do the cleaning.", "How about I do the shopping and you clean?"],
+    "keys": { "прибирати": "clean*|tidy*|vacuum*" }
+   },
+   {
+    "sit": "Літня сусідка зламала ногу й не може виходити з дому.",
+    "say": "Я можу робити за вас покупки, поки нога не загоїться.",
+    "ans": ["I can do the shopping for you until your leg heals.", "I can do your shopping until your leg gets better.", "Let me do the shopping for you till your leg heals."],
+    "keys": { "нога": "leg|foot|better|heal*" }
+   },
+   {
+    "sit": "Колега питає про твої плани на суботу.",
+    "say": "Зранку я зазвичай роблю покупки на тиждень.",
+    "ans": ["I usually do the shopping for the week in the morning.", "In the morning I usually do the weekly shopping.", "On Saturday mornings I usually do the shopping for the week."],
+    "keys": { "тиждень": "week*", "зранку": "morning*" }
+   }
+  ]
+ },
+ {
+  "id": 2914, "w": "do the cooking", "uk": "займатися готуванням", "lvl": "A2",
+  "forms": "do|does|did|done|doing",
+  "tail": "cooking",
+  "near": "cook|cooks|cooked|make dinner|made dinner|prepare*",
+  "tasks": [
+   {
+    "sit": "Новий знайомий питає, хто у вашій родині готує їжу.",
+    "say": "У нас зазвичай готує тато.",
+    "ans": ["In our family, Dad usually does the cooking.", "My dad usually does the cooking.", "Dad does all the cooking at our place."],
+    "keys": { "тато": "dad|father|papa" }
+   },
+   {
+    "sit": "Ви з друзями влаштовуєте вечірку й розподіляєте, хто що робить.",
+    "say": "Я займуся готуванням, а ви принесіть напої.",
+    "ans": ["I’ll do the cooking, and you bring the drinks.", "I’ll do the cooking if you guys bring drinks.", "I can do the cooking — you just bring the drinks."],
+    "keys": { "напої": "drink*|beer|wine|juice" }
+   },
+   {
+    "sit": "Ви в поході, і хтось має готувати їжу на вогнищі.",
+    "say": "Сьогодні моя черга готувати.",
+    "ans": ["It’s my turn to do the cooking today.", "Today it’s my turn to do the cooking.", "I’ll do the cooking tonight — it’s my turn."],
+    "keys": { "черга": "turn" }
+   }
+  ]
+ },
+ {
+  "id": 2915, "w": "do the ironing", "uk": "займатися прасуванням", "lvl": "A2",
+  "forms": "do|does|did|done|doing",
+  "tail": "ironing",
+  "near": "iron|irons|ironed|press*",
+  "tasks": [
+   {
+    "sit": "Перед робочим тижнем на стільці лежить гора зім’ятих сорочок.",
+    "say": "Сьогодні ввечері мені треба попрасувати.",
+    "ans": ["I need to do the ironing tonight.", "I have to do the ironing this evening.", "Ugh, I’ve got to do the ironing tonight."],
+    "keys": { "ввечері": "tonight|evening|night" }
+   },
+   {
+    "sit": "Подруга питає, яку хатню роботу ти ненавидиш найбільше.",
+    "say": "Ненавиджу прасувати.",
+    "ans": ["I hate doing the ironing.", "I really hate doing the ironing.", "Doing the ironing is the worst."],
+    "keys": { "ненавиджу": "hate|worst|can not stand|dislike" }
+   },
+   {
+    "sit": "Ви з сестрою ділите домашні справи на неділю.",
+    "say": "Ти прасуєш, а я мию посуд.",
+    "ans": ["You do the ironing, and I’ll wash the dishes.", "If you do the ironing, I’ll do the dishes.", "You do the ironing and I’ll do the washing up."],
+    "keys": { "посуд": "dish*|washing" }
+   }
+  ]
+ },
+ {
+  "id": 2916, "w": "make the bed", "uk": "застеляти ліжко", "lvl": "A2",
+  "forms": "make|makes|made|made|making",
+  "tail": "bed*",
+  "near": "tidy*|fix the bed|straighten*",
+  "tasks": [
+   {
+    "sit": "Донька вже біжить снідати, а в її кімнаті безлад.",
+    "say": "Спершу застели ліжко!",
+    "ans": ["Make your bed first!", "First, make your bed!", "Hey, make your bed before breakfast!"],
+    "keys": { "спершу": "first|before" }
+   },
+   {
+    "sit": "Ти в готелі й бачиш покоївку біля своїх дверей.",
+    "say": "Не треба застеляти ліжко, дякую.",
+    "ans": ["You don’t need to make the bed, thanks.", "There’s no need to make the bed, thank you.", "Please don’t make the bed, thanks."],
+    "keys": { "не треба": "not|no need" }
+   },
+   {
+    "sit": "Ти розповідаєш у блозі про свої ранкові звички.",
+    "say": "Я щоранку застеляю ліжко.",
+    "ans": ["I make my bed every morning.", "Every morning I make the bed.", "I always make my bed first thing in the morning."],
+    "keys": { "щоранку": "morning*|always" }
+   }
+  ]
+ },
+ {
+  "id": 2917, "w": "make breakfast", "uk": "готувати сніданок", "lvl": "A2",
+  "forms": "make|makes|made|made|making",
+  "tail": "breakfast",
+  "near": "cook*|prepar*|fix*",
+  "tasks": [
+   {
+    "sit": "Сьогодні в мами день народження, а вона ще спить. Ти шепочеш молодшому братові.",
+    "say": "Давай приготуємо мамі сніданок!",
+    "ans": ["Let’s make Mom breakfast!", "Let’s make breakfast for Mom!", "Hey, let’s make Mom breakfast in bed!"],
+    "keys": { "мама": "mom|mum|mother" }
+   },
+   {
+    "sit": "Друг питає, чи в хостелі, де ви зупинилися, дають сніданок.",
+    "say": "Ні, ми самі готуємо сніданок на кухні.",
+    "ans": ["No, we make breakfast ourselves in the kitchen.", "No, we make our own breakfast in the kitchen.", "Nope, we make breakfast ourselves in the shared kitchen."],
+    "keys": { "кухня": "kitchen", "самі": "ourselves|own" }
+   },
+   {
+    "sit": "Колега питає, чому ти завжди голодний уже о десятій.",
+    "say": "Я не встигаю приготувати сніданок уранці.",
+    "ans": ["I don’t have time to make breakfast in the morning.", "In the morning I have no time to make breakfast.", "I never have time to make breakfast in the mornings."],
+    "keys": { "не встигаю": "time|rush*|busy|late" }
+   }
+  ]
+ }
+]

@@ -1,0 +1,648 @@
+[
+ {
+  "id": 2576, "w": "cut in", "uk": "перебивати", "lvl": "B2",
+  "forms": "cut|cuts|cut|cut|cutting",
+  "tail": "in",
+  "near": "interrupt*|butt in|butted in|butting in|jump in|jumped in|chime in|chimed in",
+  "tasks": [
+   {
+    "sit": "На нараді ти бачиш, що колега розповідає вже двадцять хвилин, а часу майже не лишилося.",
+    "say": "Вибач, що перебиваю, але в нас закінчується час.",
+    "ans": ["Sorry to cut in, but we’re running out of time.", "Sorry for cutting in, but we’re almost out of time.", "Sorry to cut in, but we really need to wrap up — we’re out of time."],
+    "keys": { "вибач": "sorry|excuse|apolog*", "час": "time|late" }
+   },
+   {
+    "sit": "Ти розповідаєш мамі важливу новину, а молодша сестра постійно вставляє свої коментарі.",
+    "say": "Не перебивай мене, я ще не договорив.",
+    "ans": ["Don’t cut in, I haven’t finished yet.", "Please don’t cut in — I’m not done.", "Hey, stop cutting in and let me finish!"],
+    "keys": { "не": "not|stop|let me", "договорив": "finish*|done" }
+   },
+   {
+    "sit": "Ти розповідаєш другові про вечерю в гостях, де один чоловік нікому не давав сказати й слова.",
+    "say": "Він постійно перебивав, коли хтось говорив.",
+    "ans": ["He kept cutting in whenever someone was talking.", "He cut in every time somebody spoke.", "He just kept cutting in while people were talking."],
+    "keys": { "постійно": "kept|keep|always|every time|constantly|all the time|whenever", "хтось говорив": "talk*|speak*|spoke|someone|somebody|people|anyone" }
+   }
+  ]
+ },
+ {
+  "id": 2577, "w": "stumble over words", "uk": "плутатися в словах", "lvl": "C1",
+  "forms": "stumble|stumbles|stumbled|stumbled|stumbling",
+  "tail": "over word*",
+  "near": "mumbl*|stammer*|stutter*|tongue-tied|tongue tied|got confused|mix* up|mixed up|trip* over|tripped over",
+  "tasks": [
+   {
+    "sit": "Після співбесіди подруга питає, як усе пройшло.",
+    "say": "Я так нервував, що плутався в словах.",
+    "ans": ["I was so nervous that I stumbled over my words.", "I kept stumbling over my words because I was nervous.", "I was so nervous, I was stumbling over my words the whole time."],
+    "keys": { "нервував": "nerv*|anxious|stress*|scared" }
+   },
+   {
+    "sit": "Ти виголошував тост на весіллі брата, і гості потім тебе хвалили.",
+    "say": "Спочатку я трохи плутався в словах, але потім заспокоївся.",
+    "ans": ["I stumbled over my words at first, but then I calmed down.", "At the beginning I stumbled over my words a bit, but then I relaxed.", "I stumbled over my words a bit at first, but then I was fine."],
+    "keys": { "спочатку": "first|beginning|start*", "заспокоївся": "calm*|relax*|fine|better|okay|ok" }
+   },
+   {
+    "sit": "Викладач на курсах питає, що тобі найважче в розмовній практиці.",
+    "say": "Коли я говорю англійською, я часто плутаюся в словах.",
+    "ans": ["I often stumble over my words when I speak English.", "When I speak English, I often stumble over my words.", "I tend to stumble over my words when I’m speaking English."],
+    "keys": { "англійською": "english", "часто": "often|tend|usually|always|a lot" }
+   }
+  ]
+ },
+ {
+  "id": 2578, "w": "mull over", "uk": "розмірковувати, обмірковувати (рішення)", "lvl": "C1",
+  "forms": "mull|mulls|mulled|mulled|mulling",
+  "tail": "over",
+  "near": "think over|thinks over|think it over|thought it over|thought over|think about|thought about|consider*|ponder*|sleep on|reflect*",
+  "tasks": [
+   {
+    "sit": "Тобі запропонували роботу в іншому місті, і рекрутер хоче відповідь уже сьогодні.",
+    "say": "Дайте мені кілька днів, щоб усе обміркувати.",
+    "ans": ["Give me a few days to mull it over.", "Can I have a few days to mull it over?", "Let me mull it over for a couple of days."],
+    "keys": { "кілька днів": "day*|week*" }
+   },
+   {
+    "sit": "Батьки питають, чи ви з дружиною вже купили квартиру, яку дивилися минулого тижня.",
+    "say": "Ми ще розмірковуємо, чи купувати цю квартиру.",
+    "ans": ["We’re still mulling over whether to buy this apartment.", "We’re still mulling over buying the flat.", "Honestly, we’re still mulling over the apartment."],
+    "keys": { "квартира": "apartment*|flat*|place|house", "ще": "still|yet" }
+   },
+   {
+    "sit": "Ти обираєш між двома університетами й не можеш думати ні про що інше.",
+    "say": "Я цілий тиждень обмірковую цей вибір.",
+    "ans": ["I’ve been mulling over this choice all week.", "I’ve spent the whole week mulling over this decision.", "I’ve been mulling it over all week, and I still can’t decide."],
+    "keys": { "тиждень": "week*", "вибір": "choice|decision|decid*|option*|it" }
+   }
+  ]
+ },
+ {
+  "id": 2579, "w": "weigh options", "uk": "зважувати варіанти", "lvl": "B2",
+  "forms": "weigh|weighs|weighed|weighed|weighing",
+  "tail": "option*",
+  "near": "consider*|compare*|think over|thought over|think about|thought about|pros and cons|look at all|looked at all",
+  "tasks": [
+   {
+    "sit": "Продавець в автосалоні наполягає, щоб ти підписав договір просто зараз.",
+    "say": "Перш ніж купувати машину, я хочу зважити всі варіанти.",
+    "ans": ["I want to weigh all the options before I buy a car.", "Before buying a car, I want to weigh my options.", "I’d like to weigh up all my options before I buy a car."],
+    "keys": { "машина": "car*|vehicle" }
+   },
+   {
+    "sit": "Команда сперечається, якого постачальника обрати, і хтось пропонує вирішити за п’ять хвилин.",
+    "say": "Давайте не поспішати й спершу зважимо варіанти.",
+    "ans": ["Let’s not rush and weigh our options first.", "Let’s weigh the options first — there’s no need to rush.", "Let’s take our time and weigh our options first."],
+    "keys": { "не поспішати": "rush*|hurry|time|slow*", "спершу": "first|before" }
+   },
+   {
+    "sit": "Після обстеження лікар запропонував тобі два шляхи лікування коліна. Ти розповідаєш про це дружині.",
+    "say": "Лікар сказав мені зважити варіанти: операція чи фізіотерапія.",
+    "ans": ["The doctor told me to weigh my options: surgery or physiotherapy.", "My doctor said I should weigh the options — surgery or physio.", "The doctor wants me to weigh my options between surgery and physio."],
+    "keys": { "лікар": "doctor|doc|gp", "операція": "surg*|operation" }
+   }
+  ]
+ },
+ {
+  "id": 2580, "w": "crack up", "uk": "розсміятися, валитися зі сміху", "lvl": "B2",
+  "forms": "crack|cracks|cracked|cracked|cracking",
+  "tail": "up",
+  "near": "laugh*|burst out|in stitches|lol|lmao|die* laughing|died laughing",
+  "tasks": [
+   {
+    "sit": "Під час серйозної онлайн-наради за спиною колеги пройшов кіт у шапочці.",
+    "say": "Усі розсміялися, навіть бос.",
+    "ans": ["Everyone cracked up, even the boss.", "The whole team cracked up — even the boss.", "Everybody just cracked up, even our boss!"],
+    "keys": { "усі": "everyone|everybody|all|whole|team", "бос": "boss|manager|director" }
+   },
+   {
+    "sit": "Ти сидиш у тихій бібліотеці, і друг надсилає тобі дуже смішний мем.",
+    "say": "Я не стримався й розсміявся просто в бібліотеці.",
+    "ans": ["I couldn’t help it and cracked up in the library.", "I cracked up right in the middle of the library.", "I totally cracked up in the library — everyone looked at me."],
+    "keys": { "бібліотека": "library" }
+   },
+   {
+    "sit": "Твій п’ятирічний син з серйозним виглядом пояснював гостям, чому тато не вміє готувати.",
+    "say": "Мій син мене просто вбиває — я з нього валюся зі сміху.",
+    "ans": ["My son cracks me up.", "My son always cracks me up.", "Honestly, my kid cracks me up every time."],
+    "keys": { "син": "son|kid|boy|child" }
+   }
+  ]
+ },
+ {
+  "id": 2581, "w": "tear up", "uk": "розчулитися до сліз", "lvl": "B2",
+  "forms": "tear|tears|teared|teared|tearing",
+  "tail": "up",
+  "near": "cry|cries|cried|crying|weep*|wept|in tears|emotional|choke* up|choked up|well* up|welled up",
+  "tasks": [
+   {
+    "sit": "На весіллі твоєї сестри тато виголошує тост.",
+    "say": "Коли тато почав говорити, я розчулився до сліз.",
+    "ans": ["I teared up when Dad started speaking.", "When my dad started his speech, I teared up.", "I totally teared up as soon as Dad started talking."],
+    "keys": { "тато": "dad*|father|papa", "говорити": "speak*|talk*|speech|toast" }
+   },
+   {
+    "sit": "Друзі кличуть тебе вдруге переглянути старий фільм про собаку, яка чекає на господаря.",
+    "say": "Я завжди розчулююся до сліз наприкінці цього фільму.",
+    "ans": ["I always tear up at the end of this movie.", "This film always makes me tear up at the end.", "I tear up at the end of this movie every single time."],
+    "keys": { "фільм": "movie|film", "кінець": "end*|final*" }
+   },
+   {
+    "sit": "Колеги на прощання подарували тобі альбом із теплими побажаннями від кожного.",
+    "say": "Я читав їхні побажання й трохи розчулився.",
+    "ans": ["I teared up a bit reading their messages.", "Reading their wishes, I teared up a little.", "I’ll be honest, I teared up reading what they wrote."],
+    "keys": { "побажання": "message*|wish*|wrote|note*|card*|words" }
+   }
+  ]
+ },
+ {
+  "id": 2582, "w": "come down with a fever", "uk": "злягти з температурою", "lvl": "B2",
+  "forms": "come|comes|came|come|coming",
+  "tail": "down with fever",
+  "near": "got a fever|get a fever|have a fever|had a fever|ran a fever|running a fever|fell ill|fall ill|got sick|get sick|caught",
+  "tasks": [
+   {
+    "sit": "Уранці ти прокинувся з гарячим лобом і пишеш керівникові.",
+    "say": "Вибачте, сьогодні не вийду на роботу: я зліг із температурою.",
+    "ans": ["Sorry, I can’t come in today — I’ve come down with a fever.", "I came down with a fever, so I won’t be at work today.", "Sorry, I’ve come down with a fever and can’t make it in today."],
+    "keys": { "сьогодні": "today", "не": "not|off" }
+   },
+   {
+    "sit": "Ти дзвониш педіатрові, бо донька ввечері стала млявою й гарячою.",
+    "say": "Моя донька злягла з температурою вчора ввечері.",
+    "ans": ["My daughter came down with a fever last night.", "Last night my daughter came down with a fever.", "My little girl came down with a fever last night."],
+    "keys": { "донька": "daughter|girl|kid|child", "вчора ввечері": "last night|yesterday|evening" }
+   },
+   {
+    "sit": "Колеги питають, як минула твоя відпустка на морі.",
+    "say": "Я зліг із температурою в перший же день відпустки.",
+    "ans": ["I came down with a fever on the first day of my vacation.", "On the very first day of my holiday, I came down with a fever.", "Of course, I came down with a fever on day one of my trip."],
+    "keys": { "перший день": "first|day one", "відпустка": "vacation|holiday*|trip|break" }
+   }
+  ]
+ },
+ {
+  "id": 2583, "w": "work up a sweat", "uk": "впріти (від зусиль)", "lvl": "B2",
+  "forms": "work|works|worked|worked|working",
+  "tail": "up sweat",
+  "near": "sweaty|got sweaty|was sweating|were sweating|perspir*|drenched|soaked",
+  "tasks": [
+   {
+    "sit": "Ти повернувся зі спортзалу, і сусід питає, чого ти такий червоний.",
+    "say": "Сорок хвилин на велотренажері — і я добряче впрів.",
+    "ans": ["I worked up a real sweat after forty minutes on the bike.", "Forty minutes on the exercise bike, and I’d worked up a good sweat.", "I really worked up a sweat on the bike — forty minutes!"],
+    "keys": { "велотренажер": "bike|cycl*|bicycle", "сорок хвилин": "forty|40|minute*" }
+   },
+   {
+    "sit": "Ти весь ранок перекопував город на дачі, а тепер дзвониш мамі.",
+    "say": "Поки перекопав город, я неабияк упрів.",
+    "ans": ["I worked up quite a sweat digging the garden.", "Digging the vegetable garden, I really worked up a sweat.", "Man, I worked up a sweat digging up that garden."],
+    "keys": { "город": "garden*|plot|yard|bed*", "перекопав": "dig*|dug" }
+   },
+   {
+    "sit": "Наступного дня після весілля друга ви з компанією згадуєте, як гуляли до ранку.",
+    "say": "Ми так танцювали, що всі впріли.",
+    "ans": ["We danced so much that we all worked up a sweat.", "We all worked up a sweat on the dance floor.", "We were dancing so hard that we all worked up a sweat."],
+    "keys": { "танцювали": "danc*" }
+   }
+  ]
+ },
+ {
+  "id": 2584, "w": "impulse-buy", "uk": "купувати імпульсивно", "lvl": "B2",
+  "forms": "impulse-buy|impulse-buys|impulse-bought|impulse-bought|impulse-buying",
+  "near": "buy|buys|bought|buying|splurg*|shopping spree|on a whim",
+  "tasks": [
+   {
+    "sit": "Ти прийшов із супермаркету по молоко, а в пакеті ще й купа шоколадок.",
+    "say": "Я знову імпульсивно накупив солодощів на касі.",
+    "ans": ["I impulse-bought sweets at the checkout again.", "Again I impulse-bought candy at the checkout.", "Ugh, I impulse-bought chocolate at the till again."],
+    "keys": { "солодощі": "sweet*|candy|candies|chocolate*|snack*", "знову": "again" }
+   },
+   {
+    "sit": "Ти береш участь у челенджі «місяць без зайвих покупок» і розповідаєш про нього друзям.",
+    "say": "Цього місяця я намагаюся нічого не купувати імпульсивно в інтернеті.",
+    "ans": ["This month I’m trying not to impulse-buy anything online.", "I’m trying not to impulse-buy online this month.", "This month I’m really trying not to impulse-buy stuff online."],
+    "keys": { "в інтернеті": "online|internet|web", "не": "not|stop|avoid" }
+   },
+   {
+    "sit": "Подруга помічає в шафі куртку, на якій досі висить бирка.",
+    "say": "Я купив її імпульсивно на розпродажі й жодного разу не вдягнув.",
+    "ans": ["I impulse-bought it in a sale and never wore it.", "I impulse-bought that jacket at a sale and haven’t worn it once.", "I impulse-bought it on sale, and I’ve never even worn it."],
+    "keys": { "розпродаж": "sale|discount*|deal", "не вдягнув": "never|not|once" }
+   }
+  ]
+ },
+ {
+  "id": 2585, "w": "pay off", "uk": "погасити (кредитку)", "lvl": "B2",
+  "forms": "pay|pays|paid|paid|paying",
+  "tail": "off",
+  "near": "repay*|repaid|clear*|settle*|pay back|paid back|pay it back",
+  "tasks": [
+   {
+    "sit": "Консультант у банку питає, чи маєш ти борг за кредитною карткою.",
+    "say": "Я щомісяця погашаю кредитку повністю.",
+    "ans": ["I pay off my credit card in full every month.", "Every month I pay off my card in full.", "I always pay my credit card off in full each month."],
+    "keys": { "кредитка": "card*|credit", "щомісяця": "month*" }
+   },
+   {
+    "sit": "Пів року ти економив на всьому, щоб закрити борг за карткою, і сьогодні зробив останній платіж.",
+    "say": "Я нарешті погасив кредитку!",
+    "ans": ["I finally paid off my credit card!", "My credit card is finally paid off!", "I’ve finally paid off my credit card!"],
+    "keys": { "кредитка": "card*|credit", "нарешті": "finally|at last" }
+   },
+   {
+    "sit": "Молодший брат хоче новий телефон, хоча на його картці висить чималий борг.",
+    "say": "Спершу погаси кредитку, а тоді вже купуй новий телефон.",
+    "ans": ["Pay off your credit card first, then buy a new phone.", "First pay off the card, and then buy the new phone.", "Pay your card off first — then you can get a new phone."],
+    "keys": { "кредитка": "card*|credit", "телефон": "phone|iphone|mobile" }
+   }
+  ]
+ },
+ {
+  "id": 2586, "w": "circle back", "uk": "повернутися до питання (в листі, на нараді)", "lvl": "C1",
+  "forms": "circle|circles|circled|circled|circling",
+  "tail": "back",
+  "near": "get back|got back|come back|return*|follow up|followed up|revisit*|touch base",
+  "tasks": [
+   {
+    "sit": "Клієнт у листі питає про ціни, але фінансовий відділ ще не надіслав тобі цифр.",
+    "say": "Я повернуся до цього питання, щойно отримаю цифри.",
+    "ans": ["I’ll circle back on this once I have the numbers.", "I’ll circle back to you as soon as I get the figures.", "Let me circle back once I’ve got the numbers."],
+    "keys": { "цифри": "number*|figure*|data|price*" }
+   },
+   {
+    "sit": "Нарада затягнулася, а до обговорення бюджету ви так і не дійшли.",
+    "say": "Повернімося до бюджету завтра.",
+    "ans": ["Let’s circle back to the budget tomorrow.", "We can circle back on the budget tomorrow.", "Let’s circle back on the budget tomorrow, okay?"],
+    "keys": { "бюджет": "budget|cost*|money", "завтра": "tomorrow" }
+   },
+   {
+    "sit": "Ти повернувся з відпустки й бачиш лист колеги двотижневої давнини без відповіді.",
+    "say": "Хочу повернутися до твого питання про звіт.",
+    "ans": ["I wanted to circle back on your question about the report.", "I’d like to circle back to your question about the report.", "I’m just circling back on your question about the report — sorry for the delay."],
+    "keys": { "питання": "question*|query|ask*|request", "звіт": "report" }
+   }
+  ]
+ },
+ {
+  "id": 2587, "w": "deep-dive", "uk": "глибоко занурюватися (в тему)", "lvl": "C1",
+  "forms": "deep-dive|deep-dives|deep-dived|deep-dived|deep-diving",
+  "near": "dig into|dig deeper|dug into|look into|looked into|explor*|analy*|drill down|go deep|study|studied",
+  "tasks": [
+   {
+    "sit": "Наприкінці наради ти пропонуєш, чим зайнятися наступного разу.",
+    "say": "Наступного тижня давайте глибоко заглибимося в дані продажів.",
+    "ans": ["Let’s deep-dive into the sales data next week.", "Next week we’ll deep-dive into the sales numbers.", "Next week, let’s really deep-dive into the sales data."],
+    "keys": { "продажі": "sale*|revenue", "наступного тижня": "next week|week" }
+   },
+   {
+    "sit": "Ти захопився історією Стародавнього Риму й розповідаєш про плани на вихідні.",
+    "say": "На вихідних хочу глибоко зануритися в історію Риму.",
+    "ans": ["I want to deep-dive into Roman history this weekend.", "This weekend I’m going to deep-dive into the history of Rome.", "I’m planning to deep-dive into ancient Rome this weekend."],
+    "keys": { "Рим": "rom*", "вихідні": "weekend" }
+   },
+   {
+    "sit": "Ти ведеш подкаст про технології й записуєш вступ до нового випуску.",
+    "say": "У цьому випуску ми глибоко занурюємося в тему штучного інтелекту.",
+    "ans": ["In this episode, we deep-dive into artificial intelligence.", "In this episode we’re deep-diving into AI.", "In this episode, we’ll deep-dive into the world of AI."],
+    "keys": { "штучний інтелект": "ai|artificial|intelligence", "випуск": "episode|show|today" }
+   }
+  ]
+ },
+ {
+  "id": 2588, "w": "boost engagement", "uk": "збільшувати залученість", "lvl": "C1",
+  "forms": "boost|boosts|boosted|boosted|boosting",
+  "tail": "engagement",
+  "near": "increas*|raise*|raising|improv*|drive engagement|driving engagement|more engagement|grow engagement",
+  "tasks": [
+   {
+    "sit": "Ти ведеш сторінку кав’ярні в соцмережах, і власник питає, що працює найкраще.",
+    "say": "Короткі відео справді збільшують залученість.",
+    "ans": ["Short videos really boost engagement.", "Short videos have really boosted our engagement.", "Honestly, short videos boost engagement like nothing else."],
+    "keys": { "відео": "video*|reel*|clip*" }
+   },
+   {
+    "sit": "Ти вчитель і розповідаєш колегам про нову гру, яку спробував на уроках.",
+    "say": "Ця гра помітно збільшила залученість учнів.",
+    "ans": ["This game has really boosted student engagement.", "The game boosted engagement among the students a lot.", "This game boosted class engagement big time."],
+    "keys": { "гра": "game*", "учні": "student*|pupil*|kid*|class" }
+   },
+   {
+    "sit": "Ти щойно відкрив блог про в’язання і питаєш поради в досвідченої блогерки.",
+    "say": "Як збільшити залученість, якщо в мене мало підписників?",
+    "ans": ["How can I boost engagement if I don’t have many followers?", "How do I boost engagement with so few followers?", "What’s the best way to boost engagement when I only have a few followers?"],
+    "keys": { "підписники": "follower*|subscriber*|audience" }
+   }
+  ]
+ },
+ {
+  "id": 2589, "w": "land safely", "uk": "успішно приземлитися", "lvl": "A2",
+  "forms": "land|lands|landed|landed|landing",
+  "tail": "safe*",
+  "near": "arrive|arrived|touch down|touched down|got there|got here",
+  "tasks": [
+   {
+    "sit": "Ти з родиною прилетів у Барселону. Мама вдома хвилюється.",
+    "say": "Мамо, ми успішно приземлилися!",
+    "ans": ["Mom, we landed safely!", "Mom, we’ve landed safely!", "Hi Mom, we just landed safely!"],
+    "keys": { "мама": "mom|mum|mother|mommy|mummy" }
+   },
+   {
+    "sit": "Під час польоту була сильна турбулентність. Ти пишеш другові після посадки.",
+    "say": "Було страшно, але ми успішно приземлилися.",
+    "ans": ["It was scary, but we landed safely.", "We landed safely, but it was scary.", "That was scary, but we landed safely in the end."],
+    "keys": { "страшно": "scar*|afraid|terrif*|fright*" }
+   },
+   {
+    "sit": "Ти вперше запускав у парку свій новий дрон і дуже переживав.",
+    "say": "Мій дрон успішно приземлився.",
+    "ans": ["My drone landed safely.", "The drone landed safely.", "My drone landed safely — phew!"],
+    "keys": { "дрон": "drone" }
+   }
+  ]
+ },
+ {
+  "id": 2590, "w": "debug code", "uk": "дебажити код", "lvl": "C1",
+  "forms": "debug|debugs|debugged|debugged|debugging",
+  "tail": "code",
+  "near": "fix*|troubleshoot*|find the bug|look for bug*|looking for bug*",
+  "tasks": [
+   {
+    "sit": "Увечері дружина питає, чому ти такий виснажений після роботи.",
+    "say": "Я цілий день дебажив код і так і не знайшов помилку.",
+    "ans": ["I spent the whole day debugging code and still didn’t find the bug.", "I debugged the code all day and never found the bug.", "I’ve been debugging this code all day, and I still can’t find the bug."],
+    "keys": { "цілий день": "day", "помилка": "bug*|error*|problem|issue" }
+   },
+   {
+    "sit": "Ти на курсах програмування, і одногрупник перед дедлайном просить допомоги.",
+    "say": "Давай разом подебажимо твій код після пар.",
+    "ans": ["Let’s debug your code together after class.", "We can debug your code together after class.", "After class, let’s debug your code together."],
+    "keys": { "разом": "together|with you|both", "після пар": "class*|lesson*|lecture*|later" }
+   },
+   {
+    "sit": "Ти вночі робиш власну гру і пишеш про це в чат друзям.",
+    "say": "Не можу заснути — дебажу код своєї гри.",
+    "ans": ["I can’t sleep, so I’m debugging the code for my game.", "I’m debugging my game code instead of sleeping.", "I can’t fall asleep — I’m debugging code for my game."],
+    "keys": { "гра": "game*", "заснути": "sleep*|asleep|bed|night" }
+   }
+  ]
+ },
+ {
+  "id": 2591, "w": "push code", "uk": "пушити код (на ГітХаб)", "lvl": "C1",
+  "forms": "push|pushes|pushed|pushed|pushing",
+  "tail": "code",
+  "near": "upload*|commit*|deploy*|merge*",
+  "tasks": [
+   {
+    "sit": "Тімлід у чаті питає, коли зможе подивитися твої зміни.",
+    "say": "Я запушу код до кінця дня.",
+    "ans": ["I’ll push the code by the end of the day.", "I’m going to push my code before the end of the day.", "I’ll push the code later today, before I log off."],
+    "keys": { "кінець дня": "end of|today|tonight|day" }
+   },
+   {
+    "sit": "Ти тімлід і пояснюєш новачкам правила роботи з репозиторієм.",
+    "say": "Не пуште код у головну гілку без рев’ю.",
+    "ans": ["Don’t push code to the main branch without a review.", "Please don’t push any code to main without a review.", "Never push code straight to main without a code review."],
+    "keys": { "головна гілка": "main|master|branch", "рев’ю": "review*|approv*|check*" }
+   },
+   {
+    "sit": "Ти робиш навчальний проєкт, і викладач просить показати прогрес.",
+    "say": "Я щойно запушив код на ГітХаб.",
+    "ans": ["I just pushed the code to GitHub.", "I’ve just pushed my code to GitHub.", "I just pushed my code to GitHub — take a look!"],
+    "keys": { "ГітХаб": "github|git|repo*", "щойно": "just" }
+   }
+  ]
+ },
+ {
+  "id": 2592, "w": "take a bow", "uk": "вклонитися (після виступу)", "lvl": "C1",
+  "forms": "take|takes|took|taken|taking",
+  "tail": "bow*",
+  "near": "bowed|bowing|curtsy*|curtsied",
+  "tasks": [
+   {
+    "sit": "Твоя донька вперше грала в шкільній виставі. Ти розповідаєш про це бабусі.",
+    "say": "Наприкінці вона вклонилася, і всі аплодували.",
+    "ans": ["At the end she took a bow, and everyone clapped.", "She took a bow at the end, and everyone applauded.", "At the end she took a bow and the whole room clapped."],
+    "keys": { "аплодували": "clap*|applau*|cheer*" }
+   },
+   {
+    "sit": "Твій гурт уперше виступив на великій сцені. Друг питає, як усе минуло.",
+    "say": "Після останньої пісні ми вклонилися публіці.",
+    "ans": ["After the last song, we took a bow.", "We took a bow after the final song.", "After the last song we all took a bow to the crowd."],
+    "keys": { "остання пісня": "last|final|song" }
+   },
+   {
+    "sit": "Ти режисер аматорського театру й даєш акторам останні вказівки перед прем’єрою.",
+    "say": "Після фіналу виходьте всі разом і вклоніться.",
+    "ans": ["After the finale, come out together and take a bow.", "When the show ends, come out together and take a bow.", "After the last scene, all of you come out and take a bow together."],
+    "keys": { "разом": "together|all", "після фіналу": "after|end*|finale" }
+   }
+  ]
+ },
+ {
+  "id": 2594, "w": "lash up", "uk": "нарощувати вії", "lvl": "C1",
+  "forms": "lash|lashes|lashed|lashed|lashing",
+  "tail": "up",
+  "near": "lash extensions|extension*|get my lashes done|getting my lashes done|false lashes|falsies",
+  "tasks": [
+   {
+    "sit": "Подруга питає, як ти готуєшся до весілля вашої спільної знайомої.",
+    "say": "Перед весіллям подруги я наросту вії.",
+    "ans": ["I’m going to lash up before my friend’s wedding.", "I’ll lash up for my friend’s wedding.", "Before my friend’s wedding, I’m definitely lashing up."],
+    "keys": { "весілля": "wedding" }
+   },
+   {
+    "sit": "Ти працюєш лешмейкером, і нова клієнтка питає, як часто зазвичай приходять.",
+    "say": "Більшість моїх клієнток нарощують вії раз на три тижні.",
+    "ans": ["Most of my clients lash up every three weeks.", "Most clients lash up once every three weeks.", "Most of my clients come in to lash up every three weeks."],
+    "keys": { "клієнтки": "client*|customer*|girls|women", "три тижні": "three|3|week*" }
+   },
+   {
+    "sit": "Колега збирається на море й питає, як не витрачати там час на макіяж.",
+    "say": "Перед відпусткою варто наростити вії — не доведеться щодня фарбуватися.",
+    "ans": ["It’s worth lashing up before a vacation, so you don’t need mascara every day.", "Lash up before your holiday — then you won’t need makeup every day.", "I always lash up before a vacation, so I don’t have to do mascara every day."],
+    "keys": { "відпустка": "vacation|holiday*|trip", "фарбуватися": "mascara|makeup|make-up|make up" }
+   }
+  ]
+ },
+ {
+  "id": 2595, "w": "cram for exams", "uk": "зубрити перед іспитом", "lvl": "B2",
+  "forms": "cram|crams|crammed|crammed|cramming",
+  "tail": "for exam*",
+  "near": "study|studies|studied|studying|revis*|swot*|memoriz*|memoris*|learn* by heart",
+  "tasks": [
+   {
+    "sit": "Уранці одногрупниця питає, чому в тебе такі червоні очі.",
+    "say": "Я всю ніч зубрив перед іспитом.",
+    "ans": ["I crammed for the exam all night.", "I was up all night cramming for my exam.", "I spent the whole night cramming for the exam."],
+    "keys": { "всю ніч": "night" }
+   },
+   {
+    "sit": "Твій син-підліток знову відкладає навчання на останній вечір перед сесією.",
+    "say": "Якщо зубрити до іспитів в останню ніч, нічого не запам’ятаєш.",
+    "ans": ["If you cram for exams the night before, you won’t remember anything.", "Cramming for exams the night before won’t help — you’ll forget everything.", "You can’t just cram for exams the night before — nothing will stick."],
+    "keys": { "не запам’ятаєш": "remember|forget|stick|nothing|not", "остання ніч": "night|last minute" }
+   },
+   {
+    "sit": "На роботі тобі треба скласти сертифікаційний іспит, а часу обмаль.",
+    "say": "Цього тижня я після роботи зубрю до іспиту з сертифікації.",
+    "ans": ["This week I’m cramming for my certification exam after work.", "I’m cramming for the certification exam after work this week.", "This week I’m spending every evening cramming for my certification exam."],
+    "keys": { "сертифікація": "certif*", "після роботи": "after work|evening*|work" }
+   }
+  ]
+ },
+ {
+  "id": 2596, "w": "jaywalk", "uk": "переходити дорогу в неположеному місці", "lvl": "C1",
+  "forms": "jaywalk|jaywalks|jaywalked|jaywalked|jaywalking",
+  "near": "cross* the road|cross* the street|crossed|cross on red|ran across|run across",
+  "tasks": [
+   {
+    "sit": "Під час поїздки до США поліцейський зупинив тебе посеред вулиці. Ти розповідаєш про це другові.",
+    "say": "Мене оштрафували за те, що я перейшов дорогу в неположеному місці.",
+    "ans": ["I got fined for jaywalking.", "I was fined for jaywalking.", "I got a ticket for jaywalking, can you believe it?"],
+    "keys": { "оштрафували": "fine*|ticket*|pay*|paid" }
+   },
+   {
+    "sit": "Ти йдеш із малим сином, і він хоче перебігти дорогу просто тут, між машинами.",
+    "say": "Не переходь дорогу де заманеться, ходімо до переходу.",
+    "ans": ["Don’t jaywalk — let’s go to the crosswalk.", "Don’t jaywalk, we’ll use the crossing.", "Hey, don’t jaywalk, let’s walk to the crosswalk."],
+    "keys": { "перехід": "crosswalk|crossing|zebra|lights" }
+   },
+   {
+    "sit": "Колега з іншої країни питає, як поводяться пішоходи у твоєму місті.",
+    "say": "У центрі всі переходять дорогу де попало, навіть на червоне.",
+    "ans": ["Everyone jaywalks in the city centre, even on red.", "In the city center, people jaywalk all the time, even on red.", "Downtown, everyone just jaywalks — even when the light’s red."],
+    "keys": { "всі": "everyone|everybody|people|all", "червоне": "red" }
+   }
+  ]
+ },
+ {
+  "id": 2597, "w": "insulate", "uk": "утеплювати, ізолювати", "lvl": "C1",
+  "forms": "insulate|insulates|insulated|insulated|insulating",
+  "near": "seal*|draught-proof*|draft-proof*|weatherproof*|soundproof*|lag|lagging",
+  "tasks": [
+   {
+    "sit": "Сусід питає про ваші плани на ремонт старого будинку.",
+    "say": "Цього літа ми утеплимо стіни, бо взимку в будинку холодно.",
+    "ans": ["This summer we’re going to insulate the walls because the house is cold in winter.", "We’ll insulate the walls this summer — it’s freezing in winter.", "We’re insulating the walls this summer; the house gets so cold in winter."],
+    "keys": { "стіни": "wall*", "холодно": "cold|freez*|chilly" }
+   },
+   {
+    "sit": "Знайомий скаржиться на величезні рахунки за опалення приватного будинку.",
+    "say": "Тобі треба утеплити горище — рахунки одразу зменшаться.",
+    "ans": ["You need to insulate your attic — your bills will drop right away.", "If you insulate the attic, your bills will go down.", "Insulate the attic, and you’ll see your bills drop."],
+    "keys": { "горище": "attic|loft|roof", "рахунки": "bill*|cost*|pay*" }
+   },
+   {
+    "sit": "Синоптики обіцяють сильні морози, а труби на твоїй дачі проходять надворі.",
+    "say": "Треба утеплити труби, щоб вони не замерзли.",
+    "ans": ["We need to insulate the pipes so they don’t freeze.", "I have to insulate the pipes before they freeze.", "I’d better insulate those pipes so they don’t freeze."],
+    "keys": { "труби": "pipe*", "замерзли": "freez*|froze*|burst" }
+   }
+  ]
+ },
+ {
+  "id": 2598, "w": "pull off a look", "uk": "вдало носити образ (їй/йому пасує)", "lvl": "B2",
+  "forms": "pull|pulls|pulled|pulled|pulling",
+  "tail": "off",
+  "near": "suit|suits|suited|looks good|look good|looks great|rock*|carry off|carries off|carried off|wear it well|wears it well",
+  "tasks": [
+   {
+    "sit": "Подруга зробила дуже коротку сміливу стрижку й питає твою думку.",
+    "say": "Не кожен зможе носити таку зачіску, а тобі вона пасує.",
+    "ans": ["Not everyone can pull off that haircut, but you can.", "You really pull off that haircut — not everyone could.", "Honestly, not many people can pull off that haircut, but you can!"],
+    "keys": { "зачіска": "haircut|hair*|cut|style", "не кожен": "not everyone|not many|not every|few|not everybody" }
+   },
+   {
+    "sit": "У магазині продавчиня радить тобі яскраво-жовтий піджак.",
+    "say": "Я не впевнений, що зможу носити такий яскравий жовтий піджак.",
+    "ans": ["I’m not sure I can pull off such a bright yellow jacket.", "I’m not sure I could pull off a bright yellow blazer.", "I don’t think I can pull off this yellow jacket."],
+    "keys": { "жовтий": "yellow", "піджак": "jacket|blazer|coat|suit" }
+   },
+   {
+    "sit": "Ви з подругою гортаєте фото зірок із червоної доріжки.",
+    "say": "Тільки вона могла вдало носити такий дивний образ.",
+    "ans": ["Only she could pull off such a weird look.", "Nobody but her could pull off a look that strange.", "Honestly, only she could pull off a look like that."],
+    "keys": { "тільки вона": "only|nobody but|no one but", "дивний": "weird|strange|crazy|odd|wild|bold|like that" }
+   }
+  ]
+ },
+ {
+  "id": 2599, "w": "host Christmas dinner", "uk": "приймати різдвяну вечерю (у себе)", "lvl": "B2",
+  "forms": "host|hosts|hosted|hosted|hosting",
+  "tail": "christmas",
+  "near": "have everyone over|had everyone over|invite*|throw*|threw|cook christmas dinner|cooking christmas dinner",
+  "tasks": [
+   {
+    "sit": "Тітка телефонує дізнатися, у кого родина збирається на свята.",
+    "say": "Цього року різдвяну вечерю приймаємо ми.",
+    "ans": ["This year we’re hosting Christmas dinner.", "We’re hosting Christmas dinner this year.", "It’s our turn to host Christmas dinner this year."],
+    "keys": { "цього року": "this year|year" }
+   },
+   {
+    "sit": "Колега бачить, як ти в обідню перерву гортаєш рецепти запеченої качки.",
+    "say": "Я вперше приймаю різдвяну вечерю і страшенно хвилююся.",
+    "ans": ["I’m hosting Christmas dinner for the first time, and I’m really nervous.", "It’s my first time hosting Christmas dinner, and I’m so nervous.", "It’s my first time hosting Christmas dinner — I’m freaking out!"],
+    "keys": { "вперше": "first", "хвилююся": "nerv*|worried|anxious|stress*|freak*|scared" }
+   },
+   {
+    "sit": "Ти живеш за кордоном, і знайомі питають, де ти святкуватимеш Різдво.",
+    "say": "Я приймаю в себе різдвяну вечерю для друзів, які не можуть поїхати додому.",
+    "ans": ["I’m hosting Christmas dinner for friends who can’t go home.", "I’m hosting Christmas dinner at my place for friends who can’t travel home.", "I’m hosting a Christmas dinner for friends who can’t make it home."],
+    "keys": { "друзі": "friend*|people|everyone", "додому": "home" }
+   }
+  ]
+ },
+ {
+  "id": 2600, "w": "noob out", "uk": "облажатися (як новачок)", "lvl": "C1",
+  "forms": "noob|noobs|noobed|noobed|noobing",
+  "tail": "out",
+  "near": "mess* up|messed up|screw* up|screwed up|blew it|blow it|choke*|choked|fail*|throw*|threw",
+  "tasks": [
+   {
+    "sit": "Ваша команда програла онлайн-турнір, і ти пишеш у загальний чат.",
+    "say": "Вибачте, я облажався, як новачок, у фінальному раунді.",
+    "ans": ["Sorry, I noobed out in the final round.", "Sorry guys, I totally noobed out in the last round.", "My bad, I noobed out in the final round."],
+    "keys": { "фінальний раунд": "final|last|round" }
+   },
+   {
+    "sit": "Ви з другом граєте в шутер, і він знову вибіг просто під вогонь ворогів.",
+    "say": "Чувак, ти знову облажався, як новачок!",
+    "ans": ["Dude, you noobed out again!", "Man, you noobed out again!", "Bro, you just noobed out again!"],
+    "keys": { "знову": "again" }
+   },
+   {
+    "sit": "Ти стримиш гру, і глядачі в чаті сміються з твоєї безглуздої помилки.",
+    "say": "Так, я облажався, як новачок, — забув перезарядитися.",
+    "ans": ["Yeah, I noobed out — I forgot to reload.", "Okay, I noobed out, I forgot to reload.", "Yep, I totally noobed out there — I forgot to reload."],
+    "keys": { "забув": "forg*", "перезарядитися": "reload*" }
+   }
+  ]
+ },
+ {
+  "id": 2601, "w": "say a prayer", "uk": "промовити молитву, помолитися", "lvl": "B1",
+  "forms": "say|says|said|said|saying",
+  "tail": "prayer*",
+  "near": "pray|prays|prayed|praying|keep you in my thoughts|fingers crossed|cross my fingers",
+  "tasks": [
+   {
+    "sit": "Подруга завтра лягає на операцію й дуже боїться.",
+    "say": "Я помолюся за тебе. Усе буде добре.",
+    "ans": ["I’ll say a prayer for you. Everything will be fine.", "I’m going to say a prayer for you — it’ll be okay.", "I’ll say a little prayer for you. It’s going to be fine."],
+    "keys": { "усе буде добре": "fine|okay|ok|well|alright|all right" }
+   },
+   {
+    "sit": "Бабуся з дідусем приїхали на свята, і вся родина сіла за стіл. Твій друг-іноземець дивується, чому ніхто не їсть.",
+    "say": "Перед їжею дідусь завжди промовляє молитву.",
+    "ans": ["Grandpa always says a prayer before we eat.", "Before meals, my grandfather always says a prayer.", "Grandpa always says a prayer before dinner."],
+    "keys": { "дідусь": "grand*", "перед їжею": "eat*|meal*|dinner|food|lunch" }
+   },
+   {
+    "sit": "Сусід у літаку помічає, що ти заплющив очі й щось шепочеш.",
+    "say": "Я завжди тихенько молюся перед зльотом.",
+    "ans": ["I always say a quiet prayer before takeoff.", "Before takeoff, I always say a little prayer.", "I always say a quick prayer before the plane takes off."],
+    "keys": { "зліт": "takeoff|take off|takes off|take-off|flight|fly*|plane" }
+   }
+  ]
+ }
+]

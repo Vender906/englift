@@ -1,0 +1,652 @@
+[
+ {
+  "id": 3394, "w": "switch off", "uk": "вимикати; відключатися (від усього)", "lvl": "A2",
+  "forms": "switch|switches|switched|switched|switching",
+  "tail": "off",
+  "near": "turn off|turned off|turning off|turns off|shut down|shut off|power off|powered off|unplug*|unwind*|chill out|disconnect*",
+  "tasks": [
+   {
+    "sit": "Ти йдеш спати, а у вітальні досі працює телевізор, який ніхто не дивиться.",
+    "say": "Вимкни, будь ласка, телевізор.",
+    "ans": ["Please switch off the TV.", "Could you switch the TV off, please?", "Can you switch off the telly, please?"],
+    "keys": { "телевізор": "tv|telly|television" }
+   },
+   {
+    "sit": "Ти останнім виходиш з офісу, і керівник просить подбати про світло.",
+    "say": "Не хвилюйся, я вимкну світло, коли йтиму.",
+    "ans": ["Don’t worry, I’ll switch off the lights when I leave.", "Don’t worry — I’ll switch the lights off on my way out.", "No worries, I’ll switch off the lights before I go."],
+    "keys": { "світло": "light*|lamp*", "коли йтиму": "leave|go|out|way" }
+   },
+   {
+    "sit": "Подруга питає, як ти відпочиваєш після важкого робочого тижня.",
+    "say": "У вихідні я просто відключаюся від усього.",
+    "ans": ["At weekends I just switch off from everything.", "I just switch off completely on weekends.", "On weekends I just switch off and forget about work."],
+    "keys": { "вихідні": "weekend*|saturday*|sunday*" }
+   }
+  ]
+ },
+ {
+  "id": 3395, "w": "switch on", "uk": "вмикати", "lvl": "A2",
+  "forms": "switch|switches|switched|switched|switching",
+  "tail": "on",
+  "near": "turn on|turned on|turning on|turns on|power on|powered on|put on|boot up|booted up",
+  "tasks": [
+   {
+    "sit": "Взимку ти повертаєшся з родиною додому, а в квартирі дуже холодно.",
+    "say": "Зараз увімкну опалення.",
+    "ans": ["I’ll switch on the heating.", "Let me switch the heating on.", "I’m going to switch the heating on right now."],
+    "keys": { "опалення": "heating|heater*|radiator*" }
+   },
+   {
+    "sit": "Молодший брат читає книжку в майже темній кімнаті.",
+    "say": "Увімкни лампу, бо зіпсуєш очі.",
+    "ans": ["Switch on the lamp or you’ll hurt your eyes.", "You should switch the lamp on, or you’ll ruin your eyes.", "Switch the lamp on — you’ll ruin your eyes!"],
+    "keys": { "лампа": "lamp|light*", "очі": "eye*" }
+   },
+   {
+    "sit": "Колега скаржиться, що новий ноутбук взагалі не реагує на жодну кнопку.",
+    "say": "А ти його взагалі увімкнув?",
+    "ans": ["Did you switch it on?", "Have you actually switched it on?", "Wait, did you even switch it on?"],
+    "keys": { "його": "it|laptop|computer" }
+   }
+  ]
+ },
+ {
+  "id": 3396, "w": "switch over", "uk": "перемикатися; переходити (на інше)", "lvl": "B1",
+  "forms": "switch|switches|switched|switched|switching",
+  "tail": "over",
+  "near": "change*|move to|moved to|moving to|went over|go over|going over|flip*|turn over|turned over|convert*",
+  "tasks": [
+   {
+    "sit": "Ви з другом дивитеся нудний матч, а на іншому каналі якраз починається фільм.",
+    "say": "Давай перемкнемо на інший канал.",
+    "ans": ["Let’s switch over to another channel.", "Can we switch over to the other channel?", "This is boring — let’s just switch over to the film on the other channel."],
+    "keys": { "канал": "channel*" }
+   },
+   {
+    "sit": "Сусід цікавиться, чому у вас такі маленькі рахунки за електрику.",
+    "say": "Минулого року ми перейшли на сонячну енергію.",
+    "ans": ["We switched over to solar power last year.", "Last year we switched over to solar energy.", "We switched over to solar last year, and our bills went way down."],
+    "keys": { "сонячна": "solar|sun*", "минулого року": "last year|year" }
+   },
+   {
+    "sit": "На нараді ти повідомляєш команді про важливі зміни в роботі.",
+    "say": "Наступного місяця ми переходимо на нову систему.",
+    "ans": ["We’re switching over to a new system next month.", "Next month we’ll switch over to the new system.", "We’re switching over to the new system next month, so get ready."],
+    "keys": { "система": "system*|software|program*|platform*", "наступного місяця": "next month|month" }
+   }
+  ]
+ },
+ {
+  "id": 3397, "w": "take out on", "uk": "зганяти злість на комусь", "lvl": "C1",
+  "forms": "take|takes|took|taken|taking",
+  "tail": "out on",
+  "near": "blame*|snap* at|snapped at|lash* out|yell* at|vent*|shout* at|shouted at",
+  "tasks": [
+   {
+    "sit": "Ти прийшов з роботи злий і ні за що нагримав на сестру. Тепер тобі соромно.",
+    "say": "Вибач, мені не варто було зганяти на тобі злість.",
+    "ans": ["Sorry, I shouldn’t have taken it out on you.", "I’m sorry — I had no right to take it out on you.", "Sorry, I was stressed and I took it out on you."],
+    "keys": { "вибач": "sorry|apologi*" }
+   },
+   {
+    "sit": "Після неприємного дзвінка з клієнтом керівник кричить на всю команду. Ти пояснюєш це новенькому колезі.",
+    "say": "Він зганяє на нас злість через клієнта.",
+    "ans": ["He’s taking it out on us because of the client.", "He’s angry about the client and he’s taking it out on us.", "The client annoyed him, so he’s taking it out on us."],
+    "keys": { "клієнт": "client*|customer*", "нас": "us|everyone|team" }
+   },
+   {
+    "sit": "Твій друг програв важливий матч і тепер грубить офіціантові в кафе.",
+    "say": "Не зганяй злість на офіціантові, він тут ні до чого.",
+    "ans": ["Don’t take it out on the waiter, it’s not his fault.", "Don’t take it out on the waiter — he didn’t do anything.", "Hey, don’t take it out on the waiter, he’s done nothing wrong."],
+    "keys": { "офіціант": "waiter*|server|staff" }
+   }
+  ]
+ },
+ {
+  "id": 3398, "w": "throw away", "uk": "викидати", "lvl": "A2",
+  "forms": "throw|throws|threw|thrown|throwing",
+  "tail": "away",
+  "near": "throw out|threw out|thrown out|throwing out|bin|binned|get rid|got rid|toss*|chuck*|dump*|waste*",
+  "tasks": [
+   {
+    "sit": "Ти миєш холодильник і знаходиш у кутку старий йогурт.",
+    "say": "Цей йогурт прострочений, я його викину.",
+    "ans": ["This yogurt is out of date, I’ll throw it away.", "This yogurt has expired, so I’m throwing it away.", "This yogurt’s gone off — I’m going to throw it away."],
+    "keys": { "йогурт": "yog*|it", "прострочений": "expire*|out of date|off|old|bad" }
+   },
+   {
+    "sit": "Ти переїжджаєш і розбираєш шафу. Сусідка питає, чому так багато пакетів біля смітника.",
+    "say": "Я викинув половину старого одягу.",
+    "ans": ["I threw away half of my old clothes.", "I’ve thrown away half my old clothes.", "I threw half my old clothes away."],
+    "keys": { "половина": "half", "одяг": "cloth*" }
+   },
+   {
+    "sit": "Друг отримав стипендію на навчання за кордоном, але хоче відмовитися, бо боїться змін.",
+    "say": "Не викидай такий шанс на вітер!",
+    "ans": ["Don’t throw away a chance like this!", "Don’t throw this chance away!", "You can’t just throw away an opportunity like this!"],
+    "keys": { "шанс": "chance*|opportunit*" }
+   }
+  ]
+ },
+ {
+  "id": 3399, "w": "throw in", "uk": "додавати (безкоштовно, на додачу)", "lvl": "B2",
+  "forms": "throw|throws|threw|thrown|throwing",
+  "tail": "in",
+  "near": "add|added|adding|adds|include|includes|including|bundle*|chuck* in|toss* in|gave|give|gives",
+  "tasks": [
+   {
+    "sit": "Ти купив новий телефон, і продавець несподівано дав тобі ще й чохол. Розповідаєш другові.",
+    "say": "Вони ще й додали безкоштовний чохол.",
+    "ans": ["They threw in a free case.", "They threw in a phone case for free.", "And they even threw in a free case!"],
+    "keys": { "чохол": "case|cover", "безкоштовно": "free|nothing|no charge" }
+   },
+   {
+    "sit": "Ти купуєш уживаний велосипед з рук і торгуєшся з продавцем.",
+    "say": "Якщо додасте шолом, я візьму.",
+    "ans": ["If you throw in a helmet, I’ll take it.", "I’ll buy it if you throw in the helmet.", "Throw in a helmet and it’s a deal."],
+    "keys": { "шолом": "helmet*", "візьму": "take|buy|deal" }
+   },
+   {
+    "sit": "Ти бронюєш готель на морі й розповідаєш подрузі, чому обрав саме його.",
+    "say": "Сніданок вони дають безкоштовно на додачу.",
+    "ans": ["They throw in breakfast for free.", "Breakfast is thrown in for free.", "They throw in breakfast at no extra cost."],
+    "keys": { "сніданок": "breakfast*", "безкоштовно": "free|no extra|nothing|no charge" }
+   }
+  ]
+ },
+ {
+  "id": 3400, "w": "throw out", "uk": "відхиляти; викидати", "lvl": "B1",
+  "forms": "throw|throws|threw|thrown|throwing",
+  "tail": "out",
+  "near": "reject*|turn down|turned down|dismiss*|throw away|threw away|thrown away|bin|binned|get rid|got rid|scrap*|dump*",
+  "tasks": [
+   {
+    "sit": "На нараді ти запропонував нову ідею, але керівник навіть не став її обговорювати.",
+    "say": "Шеф одразу відкинув мою пропозицію.",
+    "ans": ["My boss threw out my suggestion right away.", "The boss immediately threw out my idea.", "My boss just threw my suggestion out straight away."],
+    "keys": { "пропозиція": "suggestion*|idea*|proposal*|plan*", "одразу": "right away|immediately|straight away|at once|instantly" }
+   },
+   {
+    "sit": "Ти читаєш новини про гучний судовий процес і переказуєш їх колезі.",
+    "say": "Суддя відхилив справу через брак доказів.",
+    "ans": ["The judge threw out the case for lack of evidence.", "The case was thrown out because there wasn’t enough evidence.", "The judge threw the case out — there just wasn’t enough evidence."],
+    "keys": { "справа": "case|lawsuit|charge*", "докази": "evidence|proof" }
+   },
+   {
+    "sit": "Батьки роками не хотіли розлучатися зі старим диваном. Ти ділишся новиною з сестрою.",
+    "say": "Ми нарешті викинули старий диван.",
+    "ans": ["We finally threw out the old sofa.", "We’ve finally thrown out that old sofa.", "We finally threw the old sofa out!"],
+    "keys": { "диван": "sofa|couch", "нарешті": "finally|at last" }
+   }
+  ]
+ },
+ {
+  "id": 3401, "w": "throw together", "uk": "нашвидкуруч зробити, зліпити", "lvl": "B2",
+  "forms": "throw|throws|threw|thrown|throwing",
+  "tail": "together",
+  "near": "whip up|whipped up|whipping up|rustle up|rustled up|knock up|knocked up|put together|cobble* together|made|make|cook*",
+  "tasks": [
+   {
+    "sit": "До тебе несподівано прийшли друзі, а в холодильнику майже нічого немає.",
+    "say": "Зараз швиденько зроблю салат з того, що є.",
+    "ans": ["I’ll throw together a salad with whatever we have.", "Let me throw together a quick salad from what’s in the fridge.", "Give me a minute, I’ll throw a salad together."],
+    "keys": { "салат": "salad*" }
+   },
+   {
+    "sit": "Колега хвалить твою презентацію, а ти насправді підготував її в останню мить.",
+    "say": "Дякую, але я зліпив її нашвидкуруч за годину.",
+    "ans": ["Thanks, but I threw it together in an hour.", "Thanks, I actually threw it together in an hour.", "Thanks, but honestly, I just threw it together in about an hour."],
+    "keys": { "за годину": "hour*|minute*" }
+   },
+   {
+    "sit": "На вечірці до Хелловіну друзі хвалять твій костюм і питають, де ти його купив.",
+    "say": "Я нашвидкуруч зробив костюм зі старих речей.",
+    "ans": ["I threw together a costume from old clothes.", "I threw this costume together from some old clothes.", "I just threw a costume together out of old stuff."],
+    "keys": { "костюм": "costume*|outfit*", "старі речі": "old|stuff|cloth*" }
+   }
+  ]
+ },
+ {
+  "id": 3402, "w": "tidy away", "uk": "прибирати на місце", "lvl": "B1",
+  "forms": "tidy|tidies|tidied|tidied|tidying",
+  "tail": "away",
+  "near": "put away|put back|putting away|tidy up|tidied up|clean up|cleaned up|clear away|cleared away|clear up|pack away|packed away",
+  "tasks": [
+   {
+    "sit": "Діти гралися у вітальні, а за пів години прийдуть гості.",
+    "say": "Приберіть, будь ласка, іграшки на місце.",
+    "ans": ["Please tidy away your toys.", "Could you tidy your toys away, please?", "Come on, kids, tidy away your toys before the guests arrive."],
+    "keys": { "іграшки": "toy*|lego|thing*" }
+   },
+   {
+    "sit": "У вашій компанії діє правило чистого столу. Ти пояснюєш його новому працівникові.",
+    "say": "Перед виходом треба прибрати всі документи.",
+    "ans": ["You have to tidy away all your papers before you leave.", "All documents must be tidied away before you go home.", "Make sure you tidy away your papers before you leave."],
+    "keys": { "документи": "paper*|document*|file*", "перед виходом": "before|leave|go|end" }
+   },
+   {
+    "sit": "Ти малюєш на кухонному столі, а вже час вечеряти.",
+    "say": "Зараз приберу фарби, і можна накривати на стіл.",
+    "ans": ["I’ll tidy away my paints, and then we can set the table.", "Let me tidy the paints away so we can lay the table.", "Just a sec — I’ll tidy away my paints first."],
+    "keys": { "фарби": "paint*|brush*" }
+   }
+  ]
+ },
+ {
+  "id": 3403, "w": "tie in with", "uk": "узгоджуватися, збігатися з", "lvl": "C1",
+  "forms": "tie|ties|tied|tied|tying",
+  "tail": "in with",
+  "near": "match*|fit in with|fits in with|fits with|fit with|agree* with|consistent|line up|lines up|coincide*|align*|connect*|link*|correspond*|chime*",
+  "tasks": [
+   {
+    "sit": "Колега з техпідтримки розповідає про збій, і ти пригадуєш вчорашню скаргу.",
+    "say": "Це збігається з тим, що казав клієнт.",
+    "ans": ["That ties in with what the client said.", "This ties in with what the client told us.", "That totally ties in with what the client was saying."],
+    "keys": { "клієнт": "client*|customer*", "казав": "said|told|saying|say*" }
+   },
+   {
+    "sit": "Ви плануєте великий івент, і ти пропонуєш дату керівнику.",
+    "say": "Дата конференції чудово узгоджується із запуском продукту.",
+    "ans": ["The conference date ties in nicely with the product launch.", "The conference ties in well with our product launch.", "The timing of the conference ties in perfectly with the launch."],
+    "keys": { "конференція": "conference*|event", "запуск": "launch*|release*" }
+   },
+   {
+    "sit": "Ти пишеш курсову роботу й знаходиш свіжу наукову статтю на свою тему.",
+    "say": "Це дослідження узгоджується з моїми висновками.",
+    "ans": ["This study ties in with my findings.", "The research ties in with what I found.", "This study really ties in with my own conclusions."],
+    "keys": { "дослідження": "study|research|paper|article", "висновки": "finding*|found|conclusion*|result*|data" }
+   }
+  ]
+ },
+ {
+  "id": 3404, "w": "tip over", "uk": "перекидати(ся)", "lvl": "B1",
+  "forms": "tip|tips|tipped|tipped|tipping",
+  "tail": "over",
+  "near": "knock over|knocked over|knocking over|fall over|fell over|fallen over|spill*|spilt|topple*|overturn*|turn over|turned over|capsiz*|keel* over",
+  "tasks": [
+   {
+    "sit": "У кафе ти випадково зачепив ліктем склянку на столі.",
+    "say": "Ой, я перекинув склянку з водою.",
+    "ans": ["Oops, I tipped over my glass of water.", "Oh no, I’ve tipped my water glass over.", "Oops, sorry, I tipped over the glass."],
+    "keys": { "склянка": "glass*|cup|water" }
+   },
+   {
+    "sit": "Ти чуєш гуркіт у кімнаті, а потім бачиш кота на полиці й калюжу на підлозі.",
+    "say": "Кіт перекинув вазу з квітами.",
+    "ans": ["The cat tipped over the vase of flowers.", "The cat tipped the flower vase over.", "Guess what — the cat tipped over the vase again."],
+    "keys": { "кіт": "cat|kitten", "ваза": "vase" }
+   },
+   {
+    "sit": "Ви з другом пливете на каное, і він раптом різко встає.",
+    "say": "Сиди спокійно, бо човен перекинеться!",
+    "ans": ["Sit still or the boat will tip over!", "Keep still, or the boat’s going to tip over!", "Don’t move, the boat might tip over!"],
+    "keys": { "човен": "boat|canoe|kayak", "сиди": "sit|still|move|stay" }
+   }
+  ]
+ },
+ {
+  "id": 3405, "w": "trade in", "uk": "здавати в рахунок нового", "lvl": "B2",
+  "forms": "trade|trades|traded|traded|trading",
+  "tail": "in",
+  "near": "exchange*|swap*|part-exchange*|part exchange*|sell|sold|selling|sells",
+  "tasks": [
+   {
+    "sit": "Магазин електроніки пропонує вигідну акцію, і ти нею скористався.",
+    "say": "Я здав старий телефон і отримав знижку на новий.",
+    "ans": ["I traded in my old phone and got a discount on a new one.", "I got a discount by trading in my old phone.", "I traded my old phone in and got money off the new one."],
+    "keys": { "телефон": "phone*", "знижка": "discount*|sav*|off|cheaper|money" }
+   },
+   {
+    "sit": "Твоїй машині вже п’ятнадцять років, і ти задумуєшся про нову.",
+    "say": "Може, здам свою машину в рахунок нової?",
+    "ans": ["Maybe I’ll trade in my car for a new one.", "Maybe I should trade in my old car.", "I might trade my car in for a newer one."],
+    "keys": { "машина": "car*|vehicle", "може": "maybe|might|should|perhaps|could" }
+   },
+   {
+    "sit": "Ти показуєш другові магазин відеоігор біля дому.",
+    "say": "Тут можна здати старі ігри й купити нові дешевше.",
+    "ans": ["You can trade in your old games here and buy new ones cheaper.", "Here you can trade in old games for new ones.", "You can trade your old games in here and get new ones cheaper."],
+    "keys": { "ігри": "game*" }
+   }
+  ]
+ },
+ {
+  "id": 3406, "w": "tuck away", "uk": "ховати, запихати (у затишне місце)", "lvl": "C1",
+  "forms": "tuck|tucks|tucked|tucked|tucking",
+  "tail": "away",
+  "near": "hide|hid|hides|hiding|stash*|put away|stow*|squirrel* away|shove*|stuff*|keep|kept",
+  "tasks": [
+   {
+    "sit": "Ти ведеш туриста до свого улюбленого кафе, яке важко знайти.",
+    "say": "Це кафе заховане в тихому провулку.",
+    "ans": ["This café is tucked away in a quiet side street.", "The café is tucked away down a quiet little lane.", "It’s a little café tucked away in a quiet side street."],
+    "keys": { "кафе": "cafe|café|caf*|coffee|place", "провулок": "street|lane|alley*|road" }
+   },
+   {
+    "sit": "Бабуся хвилюється, чи є в тебе заощадження на випадок проблем.",
+    "say": "У мене відкладено трохи грошей на чорний день.",
+    "ans": ["I’ve got some money tucked away for a rainy day.", "I have a bit of money tucked away for emergencies.", "Don’t worry, I’ve tucked away a bit of cash for a rainy day."],
+    "keys": { "гроші": "money|cash|savings|saved" }
+   },
+   {
+    "sit": "Перед відпусткою мама питає, де твій паспорт.",
+    "say": "Я сховав паспорт у шухляду, щоб не загубити.",
+    "ans": ["I tucked my passport away in a drawer so I wouldn’t lose it.", "I tucked away my passport in the drawer so I wouldn’t lose it.", "My passport’s tucked away in a drawer, so I won’t lose it."],
+    "keys": { "паспорт": "passport*", "шухляда": "drawer*|desk|cupboard|safe" }
+   }
+  ]
+ },
+ {
+  "id": 3407, "w": "tune up", "uk": "налаштовувати (двигун, інструмент)", "lvl": "C1",
+  "forms": "tune|tunes|tuned|tuned|tuning",
+  "tail": "up",
+  "near": "service*|adjust*|repair*|fix*|warm up|warmed up|warming up|overhaul*|calibrat*",
+  "tasks": [
+   {
+    "sit": "Машина останнім часом погано заводиться, а на вихідних у тебе далека поїздка.",
+    "say": "Треба налаштувати двигун перед довгою поїздкою.",
+    "ans": ["I need to get the engine tuned up before the long trip.", "The engine needs tuning up before our road trip.", "I should tune up the engine before the long drive."],
+    "keys": { "двигун": "engine|car|motor", "поїздка": "trip|drive|journey" }
+   },
+   {
+    "sit": "Ти за лаштунками перед концертом, і друг питає, чому шоу ще не почалося.",
+    "say": "Зачекай, музиканти ще налаштовують інструменти.",
+    "ans": ["Hang on, the band is still tuning up.", "Wait, the musicians are still tuning up.", "Just a sec — they’re still tuning up."],
+    "keys": { "ще": "still", "музиканти": "band|musician*|they" }
+   },
+   {
+    "sit": "Сусід бачить, як ти навесні несеш велосипед до веломайстерні.",
+    "say": "Щовесни я налаштовую велосипед у майстерні.",
+    "ans": ["Every spring I get my bike tuned up.", "I have my bike tuned up at the shop every spring.", "I always take my bike in to get it tuned up in spring."],
+    "keys": { "велосипед": "bike|bicycle", "навесні": "spring" }
+   }
+  ]
+ },
+ {
+  "id": 3408, "w": "wait on", "uk": "обслуговувати (за столом)", "lvl": "B2",
+  "forms": "wait|waits|waited|waited|waiting",
+  "tail": "on",
+  "near": "serve*|served|waitress*|waiter*|work as a waiter|worked as a waiter|look after|looked after|attend to|attended to",
+  "tasks": [
+   {
+    "sit": "На співбесіді в готель тебе питають про досвід роботи з гостями.",
+    "say": "У студентські роки я обслуговував столики в ресторані.",
+    "ans": ["When I was a student, I waited on tables in a restaurant.", "I waited on tables at a restaurant during university.", "Back in my student days, I used to wait on tables."],
+    "keys": { "студент": "student*|university|college|uni" }
+   },
+   {
+    "sit": "Ти повернувся з відпочинку в розкішному готелі й розповідаєш колегам.",
+    "say": "Нас обслуговували, як королів.",
+    "ans": ["They waited on us like royalty.", "We were waited on like kings.", "Honestly, they waited on us like we were royalty."],
+    "keys": { "як королів": "king*|royal*|queen*|vip*|prince*" }
+   },
+   {
+    "sit": "Син-підліток сидить за столом і чекає, що ти принесеш йому вечерю.",
+    "say": "Я не буду тебе обслуговувати — бери тарілку сам!",
+    "ans": ["I’m not going to wait on you — get your own plate!", "I won’t wait on you, get your plate yourself!", "I’m not here to wait on you — go and get your own plate!"],
+    "keys": { "не": "not|never", "тарілка": "plate*|food|dish*" }
+   }
+  ]
+ },
+ {
+  "id": 3409, "w": "wake up", "uk": "прокидатися", "lvl": "A1",
+  "forms": "wake|wakes|woke|woken|waking",
+  "tail": "up",
+  "near": "get up|got up|gets up|getting up|awake*|awoke*|rise|rose|rises",
+  "tasks": [
+   {
+    "sit": "Колега дивується, що ти завжди приходиш на роботу першим.",
+    "say": "Я прокидаюся о шостій щодня.",
+    "ans": ["I wake up at six every day.", "Every day I wake up at 6.", "I usually wake up at six every morning."],
+    "keys": { "о шостій": "six|6*" }
+   },
+   {
+    "sit": "Уночі сусідський собака довго гавкав. Зранку ти розповідаєш про це сестрі.",
+    "say": "Я прокинувся о третій ночі через собаку сусідів.",
+    "ans": ["I woke up at three in the morning because of the neighbours’ dog.", "The neighbours’ dog barked and I woke up at 3 a.m.", "I woke up at three last night — the neighbours’ dog was barking."],
+    "keys": { "о третій": "three|3*", "собака": "dog*|bark*" }
+   },
+   {
+    "sit": "Ти заснув у нічному поїзді й тепер телефонуєш мамі.",
+    "say": "Я прокинувся, а ми вже у Львові.",
+    "ans": ["I woke up and we were already in Lviv.", "When I woke up, we were already in Lviv.", "I just woke up and we’re already in Lviv!"],
+    "keys": { "вже": "already", "Львів": "lviv" }
+   }
+  ]
+ },
+ {
+  "id": 3410, "w": "ward off", "uk": "відганяти; захищати від", "lvl": "C1",
+  "forms": "ward|wards|warded|warded|warding",
+  "tail": "off",
+  "near": "prevent*|protect*|fend off|fended off|fight off|fought off|keep away|kept away|repel*|avert*|stave off|staved off|scare away|scare off|deter*",
+  "tasks": [
+   {
+    "sit": "Взимку бабуся заварює тобі чай з імбиром і пояснює навіщо.",
+    "say": "Кажуть, імбир допомагає відганяти застуду.",
+    "ans": ["They say ginger helps ward off colds.", "Ginger is supposed to ward off colds.", "Apparently ginger can ward off a cold."],
+    "keys": { "імбир": "ginger", "застуда": "cold*|flu|illness" }
+   },
+   {
+    "sit": "Ви в поході, настає вечір, і навколо дзижчать комарі. Ти дістаєш балончик.",
+    "say": "Цей спрей має відганяти комарів.",
+    "ans": ["This spray should ward off mosquitoes.", "This spray is meant to ward off mosquitoes.", "This spray is supposed to ward off the mosquitoes."],
+    "keys": { "спрей": "spray|repellent", "комарі": "mosquito*|bug*|insect*" }
+   },
+   {
+    "sit": "У етнографічному музеї ти пояснюєш іноземному другові, що це за вишиті знаки.",
+    "say": "Ці обереги мали відганяти злих духів.",
+    "ans": ["These charms were meant to ward off evil spirits.", "People believed these symbols would ward off evil spirits.", "These charms were supposed to ward off evil spirits."],
+    "keys": { "обереги": "charm*|amulet*|talisman*|symbol*|these", "злі духи": "evil|spirit*|demon*|ghost*" }
+   }
+  ]
+ },
+ {
+  "id": 3411, "w": "wash off", "uk": "змивати(ся)", "lvl": "A2",
+  "forms": "wash|washes|washed|washed|washing",
+  "tail": "off",
+  "near": "rinse*|clean off|cleaned off|scrub*|wipe off|wiped off|remove*|come out|came out|wash out|washed out",
+  "tasks": [
+   {
+    "sit": "Після дитячого свята в доньки розмальоване обличчя, і вона боїться, що так і залишиться.",
+    "say": "Не хвилюйся, фарба легко змивається водою.",
+    "ans": ["Don’t worry, the paint washes off easily with water.", "Don’t worry, it washes off with just water.", "It’s fine, the face paint washes off easily."],
+    "keys": { "фарба": "paint|it", "легко водою": "easily|water|easy" }
+   },
+   {
+    "sit": "Ти повернувся з пляжу, і весь у піску.",
+    "say": "Піду змию пісок у душі.",
+    "ans": ["I’m going to wash off the sand in the shower.", "Let me wash the sand off in the shower.", "I’ll just go and wash off all this sand in the shower."],
+    "keys": { "пісок": "sand", "душ": "shower" }
+   },
+   {
+    "sit": "Ти цілий ранок працював у саду, а тебе кличуть обідати.",
+    "say": "Спершу змию бруд з рук.",
+    "ans": ["I’ll wash the dirt off my hands first.", "First I need to wash the mud off my hands.", "Hang on, let me wash the dirt off my hands first."],
+    "keys": { "бруд": "dirt*|mud*|soil|muck", "руки": "hand*" }
+   }
+  ]
+ },
+ {
+  "id": 3412, "w": "wash up", "uk": "мити посуд", "lvl": "A2",
+  "forms": "wash|washes|washed|washed|washing",
+  "tail": "up",
+  "near": "do the dishes|did the dishes|doing the dishes|done the dishes|does the dishes|wash the dishes|washed the dishes|washing the dishes|dishwasher",
+  "tasks": [
+   {
+    "sit": "Мама весь вечір готувала святкову вечерю й тепер втомлена.",
+    "say": "Сідай відпочивай, я помию посуд.",
+    "ans": ["Sit down and relax, I’ll wash up.", "You sit down — I’m going to wash up.", "Go and relax, I’ll wash up tonight."],
+    "keys": { "відпочивай": "relax*|rest|sit*" }
+   },
+   {
+    "sit": "У раковині гора брудних тарілок, а твій сусід по квартирі вдає, що не помічає.",
+    "say": "Сьогодні твоя черга мити посуд.",
+    "ans": ["It’s your turn to wash up today.", "Today it’s your turn to wash up.", "Come on, it’s your turn to wash up tonight."],
+    "keys": { "твоя черга": "turn" }
+   },
+   {
+    "sit": "Ти в гостях у друзів, усі вже поїли, і господарі збирають тарілки.",
+    "say": "Дайте я хоч посуд помию!",
+    "ans": ["At least let me wash up!", "Let me wash up, at least.", "Please, at least let me help wash up!"],
+    "keys": { "хоч": "at least|least" }
+   }
+  ]
+ },
+ {
+  "id": 3413, "w": "waste away", "uk": "марніти, чахнути", "lvl": "C1",
+  "forms": "waste|wastes|wasted|wasted|wasting",
+  "tail": "away",
+  "near": "wither*|lose weight|lost weight|losing weight|fade away|faded away|fading away|deteriorat*|decline*|languish*",
+  "tasks": [
+   {
+    "sit": "Друг питає, як почувається твій дідусь після хвороби.",
+    "say": "Після інсульту дід просто марнів на очах.",
+    "ans": ["After his stroke, Grandpa just wasted away before our eyes.", "Grandpa wasted away after the stroke.", "After the stroke, my grandpa was just wasting away."],
+    "keys": { "інсульт": "stroke", "дід": "grand*" }
+   },
+   {
+    "sit": "Тебе перевели працювати в архів, де цілий день нічого не відбувається. Друг питає, як тобі там.",
+    "say": "Я тут просто марнію від нудьги.",
+    "ans": ["I’m just wasting away here from boredom.", "Honestly, I’m wasting away in this boring job.", "I’m literally wasting away here — it’s so boring."],
+    "keys": { "нудьга": "bor*" }
+   },
+   {
+    "sit": "Ви з другом подивилися документальний фільм про Другу світову війну й обговорюєте його.",
+    "say": "Люди в таборі марніли від голоду.",
+    "ans": ["People in the camp were wasting away from hunger.", "The prisoners in the camp wasted away from starvation.", "People in that camp were slowly wasting away from hunger."],
+    "keys": { "голод": "hunger|starv*|hungry|food", "табір": "camp|prison*" }
+   }
+  ]
+ },
+ {
+  "id": 3414, "w": "watch out", "uk": "бути обережним, стерегтися", "lvl": "A2",
+  "forms": "watch|watches|watched|watched|watching",
+  "tail": "out",
+  "near": "be careful|careful|look out|mind|beware|caution",
+  "tasks": [
+   {
+    "sit": "Ви з другом ідете взимку тротуаром, і ти помічаєш під ногами ожеледь.",
+    "say": "Обережно, тут лід!",
+    "ans": ["Watch out, there’s ice here!", "Watch out — it’s icy here!", "Watch out, the path’s icy!"],
+    "keys": { "лід": "ice|icy|slippery" }
+   },
+   {
+    "sit": "Друг уперше їде до Барселони й просить поради.",
+    "say": "Остерігайся кишенькових злодіїв у метро.",
+    "ans": ["Watch out for pickpockets on the metro.", "On the metro, watch out for pickpockets.", "Watch out for pickpockets in the subway, they’re everywhere."],
+    "keys": { "злодії": "pickpocket*|thie*|thief", "метро": "metro|subway|underground|tube" }
+   },
+   {
+    "sit": "Ти готуєш вечерю з малим племінником, і він тягнеться до плити.",
+    "say": "Обережно, сковорідка гаряча!",
+    "ans": ["Watch out, the pan is hot!", "Watch out — that pan’s really hot!", "Watch out, don’t touch the pan, it’s hot!"],
+    "keys": { "гаряча": "hot", "сковорідка": "pan|it" }
+   }
+  ]
+ },
+ {
+  "id": 3415, "w": "wipe out", "uk": "знищувати повністю, стирати", "lvl": "C1",
+  "forms": "wipe|wipes|wiped|wiped|wiping",
+  "tail": "out",
+  "near": "destroy*|devastat*|eliminat*|erase*|kill*|ruin*|obliterat*|decimat*|flatten*|wreck*|delete*",
+  "tasks": [
+   {
+    "sit": "Ти дивишся новини про наслідки повені на півдні країни.",
+    "say": "Повінь знищила весь урожай.",
+    "ans": ["The flood wiped out the whole harvest.", "The entire crop was wiped out by the flood.", "The flood completely wiped out the crops."],
+    "keys": { "повінь": "flood*", "урожай": "crop*|harvest" }
+   },
+   {
+    "sit": "Друг питає, чому ти цього року не поїдеш у відпустку.",
+    "say": "Ремонт машини повністю з’їв мої заощадження.",
+    "ans": ["The car repair wiped out my savings.", "My savings were completely wiped out by the car repair.", "Fixing the car totally wiped out my savings."],
+    "keys": { "заощадження": "saving*", "машина": "car" }
+   },
+   {
+    "sit": "Молодша сестра готується до уроку біології й питає тебе про динозаврів.",
+    "say": "Динозаврів знищив астероїд.",
+    "ans": ["An asteroid wiped out the dinosaurs.", "The dinosaurs were wiped out by an asteroid.", "It was an asteroid that wiped out the dinosaurs."],
+    "keys": { "динозаври": "dinosaur*", "астероїд": "asteroid*|meteor*|comet*" }
+   }
+  ]
+ },
+ {
+  "id": 3416, "w": "work up to", "uk": "поступово доходити до", "lvl": "C1",
+  "forms": "work|works|worked|worked|working",
+  "tail": "up to",
+  "near": "build up to|built up to|building up to|progress* to|get up to|got up to|increase*|build up|built up",
+  "tasks": [
+   {
+    "sit": "Ти тренер з бігу й даєш пораду новачкові, який одразу хоче бігати багато.",
+    "say": "Почни з трьох кілометрів і поступово доходь до десяти.",
+    "ans": ["Start with three kilometres and work up to ten.", "Start at 3 km and slowly work up to 10.", "Begin with three kilometres, then gradually work your way up to ten."],
+    "keys": { "три": "three|3*", "десять": "ten|10*" }
+   },
+   {
+    "sit": "У спортзалі знайомий питає про твої успіхи в жимі лежачи.",
+    "say": "Зараз я піднімаю сорок кілограмів, але хочу поступово дійти до шістдесяти.",
+    "ans": ["I’m lifting 40 kilos now, but I want to work up to 60.", "Right now I lift 40 kg, and I’m working up to 60.", "I’m at forty kilos now, working up to sixty."],
+    "keys": { "сорок": "40*|forty", "шістдесят": "60*|sixty" }
+   },
+   {
+    "sit": "Колега питає, як ти вивчаєш англійську самостійно.",
+    "say": "Я читаю прості книжки й поступово доходжу до справжніх романів.",
+    "ans": ["I’m reading simple books and working up to real novels.", "I read easy books first, and I’m working up to novels in English.", "I started with easy readers, and I’m slowly working up to proper novels."],
+    "keys": { "книжки": "book*|reader*", "романи": "novel*" }
+   }
+  ]
+ },
+ {
+  "id": 3417, "w": "write out", "uk": "виписувати", "lvl": "B1",
+  "forms": "write|writes|wrote|written|writing",
+  "tail": "out",
+  "near": "write down|wrote down|written down|writing down|jot* down|note down|noted down|fill in|filled in|fill out|filled out|copy|copied|issue*|issued",
+  "tasks": [
+   {
+    "sit": "Ти живеш в Англії, і орендодавець прийшов по оплату за місяць.",
+    "say": "Зараз випишу вам чек за оренду.",
+    "ans": ["I’ll write out a cheque for the rent now.", "Let me write out the rent cheque for you.", "Hang on, I’ll just write you out a cheque for the rent."],
+    "keys": { "чек": "cheque*|check*", "оренда": "rent*" }
+   },
+   {
+    "sit": "Після візиту до лікаря друг питає, чим тебе лікуватимуть.",
+    "say": "Лікар виписав мені рецепт на антибіотики.",
+    "ans": ["The doctor wrote out a prescription for antibiotics.", "The doctor wrote me out a prescription for antibiotics.", "My doctor wrote out a prescription for some antibiotics."],
+    "keys": { "рецепт": "prescription*", "антибіотики": "antibiotic*" }
+   },
+   {
+    "sit": "Ти викладаєш англійську й даєш класу завдання до прочитаного тексту.",
+    "say": "Випишіть усі нові слова з тексту.",
+    "ans": ["Write out all the new words from the text.", "Please write out all the new words from the text.", "Go through the text and write out all the new words."],
+    "keys": { "нові слова": "word*|vocab*", "текст": "text|article|passage|story" }
+   }
+  ]
+ },
+ {
+  "id": 3418, "w": "zoom in", "uk": "наближати (зображення)", "lvl": "A2",
+  "forms": "zoom|zooms|zoomed|zoomed|zooming",
+  "tail": "in",
+  "near": "enlarge*|magnify*|make it bigger|close-up|pinch*",
+  "tasks": [
+   {
+    "sit": "Друг показує тобі на телефоні фото з концерту, але сцена ледь видно.",
+    "say": "Наблизь — хочу побачити обличчя співака.",
+    "ans": ["Zoom in — I want to see the singer’s face.", "Can you zoom in on the singer’s face?", "Zoom in a bit, I want to see the singer’s face."],
+    "keys": { "обличчя": "face*", "співак": "singer*|him|guitarist*" }
+   },
+   {
+    "sit": "Ви шукаєте готель на карті в телефоні, але все надто дрібне.",
+    "say": "Наблизь карту, я не бачу назв вулиць.",
+    "ans": ["Zoom in on the map, I can’t see the street names.", "Can you zoom in? I can’t read the street names.", "Zoom in a bit — I can’t see the street names."],
+    "keys": { "вулиці": "street*|road*", "назви": "name*" }
+   },
+   {
+    "sit": "На онлайн-нараді колега показує таблицю на екрані, але нічого не розібрати.",
+    "say": "Можеш наблизити? Цифри занадто дрібні.",
+    "ans": ["Can you zoom in? The numbers are too small.", "Could you zoom in, please? The numbers are too small to read.", "Zoom in a bit, the numbers are tiny."],
+    "keys": { "цифри": "number*|figure*|digit*", "дрібні": "small|tiny|read" }
+   }
+  ]
+ }
+]

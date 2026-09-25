@@ -1,0 +1,628 @@
+[
+ {
+  "id": 1237, "w": "squat", "uk": "присідати (над унітазом)", "lvl": "B2",
+  "forms": "squat|squats|squatted|squatted|squatting",
+  "near": "crouch*|hover*",
+  "tasks": [
+   {
+    "sit": "Ти подорожуєш Азією й заходиш у придорожній туалет. Замість унітаза там лише дірка в підлозі.",
+    "say": "Унітаза тут немає — доведеться присідати над діркою.",
+    "ans": ["There’s no toilet seat here — you have to squat over a hole.", "You’ll have to squat, there’s just a hole in the floor.", "There’s no proper toilet, so you just squat over the hole."],
+    "keys": { "дірка": "hole|floor|ground|pit" }
+   },
+   {
+    "sit": "Ви з другом у поході, до найближчого туалету кілька кілометрів. Він питає, що робити.",
+    "say": "Тут туалету немає, тож просто присядь за кущем.",
+    "ans": ["There’s no toilet here, so just squat behind a bush.", "Just squat behind that bush over there.", "No toilets out here — you’ll have to squat behind a bush."],
+    "keys": { "кущ": "bush*|tree*|behind" }
+   },
+   {
+    "sit": "Друг дивується, чому ти так довго пробув у туалеті на вокзалі. Ти пояснюєш.",
+    "say": "Сидіння було брудне, тож я присідав над унітазом.",
+    "ans": ["The seat was dirty, so I squatted over the toilet.", "The seat was so dirty that I squatted over it.", "Honestly, the seat was gross, so I just squatted."],
+    "keys": { "брудне сидіння": "dirt*|gross|filthy|disgusting|seat" }
+   }
+  ]
+ },
+ {
+  "id": 1238, "w": "wet the bed", "uk": "мочитися в ліжко", "lvl": "B2",
+  "forms": "wet|wets|wet|wet|wetting",
+  "tail": "bed",
+  "near": "pee*|peed|wet himself|wet herself|had an accident|have an accident",
+  "tasks": [
+   {
+    "sit": "Уранці ти знімаєш постіль у кімнаті п’ятирічного сина й пишеш дружині повідомлення.",
+    "say": "Син знову обмочився в ліжко цієї ночі.",
+    "ans": ["My son wet the bed again last night.", "Our son has wet the bed again.", "Ugh, he wet the bed again last night."],
+    "keys": { "знову": "again", "син": "son|he|boy|kid" }
+   },
+   {
+    "sit": "Ти на прийомі в педіатра й розповідаєш про проблему доньки.",
+    "say": "Моя донька досі мочиться в ліжко, хоча їй уже сім.",
+    "ans": ["My daughter still wets the bed, even though she’s seven.", "She’s seven and she still wets the bed.", "She still wets the bed, and she’s already seven."],
+    "keys": { "досі": "still", "сім": "seven|7" }
+   },
+   {
+    "sit": "Племінник уперше ночує в тебе й соромиться, що вночі може статися неприємність.",
+    "say": "Не бійся, навіть якщо ти обмочишся в ліжку, нічого страшного.",
+    "ans": ["Don’t worry, it’s okay if you wet the bed.", "Even if you wet the bed, it’s no big deal.", "Hey, if you wet the bed, it’s fine — it happens."],
+    "keys": { "нічого страшного": "okay|ok|fine|no big deal|all right|alright|worry|happens" }
+   }
+  ]
+ },
+ {
+  "id": 1239, "w": "poo", "uk": "какати (дитяче)", "lvl": "A2",
+  "forms": "poo|poos|pooed|pooed|pooing",
+  "near": "poop*|pee*|potty|number two",
+  "tasks": [
+   {
+    "sit": "Ви з чоловіком гуляєте з немовлям, і ти відчуваєш характерний запах.",
+    "say": "Малюк покакав, треба поміняти підгузок.",
+    "ans": ["The baby has pooed, we need to change his nappy.", "The baby pooed, so I need to change his diaper.", "Uh-oh, he pooed again — time for a new nappy."],
+    "keys": { "підгузок": "nappy|nappies|diaper*" }
+   },
+   {
+    "sit": "Ти вигулюєш собаку, і він зупинився просто на газоні біля сусідського будинку.",
+    "say": "Собака покакав на газоні сусіда, треба прибрати.",
+    "ans": ["The dog pooed on the neighbour’s lawn, I need to clean it up.", "Our dog pooed on our neighbor’s grass, so I have to pick it up.", "The dog just pooed on next door’s lawn — I’d better clean it up."],
+    "keys": { "газон": "lawn|grass|garden|yard", "прибрати": "clean*|pick*|bag|tidy" }
+   },
+   {
+    "sit": "Ви вже місяць привчаєте сина до горщика. Увечері ти радісно розповідаєш про успіх бабусі.",
+    "say": "Сьогодні він сам покакав на горщик!",
+    "ans": ["Today he pooed in the potty by himself!", "He pooed on the potty by himself today!", "Guess what — he pooed in the potty all by himself!"],
+    "keys": { "горщик": "potty|toilet", "сам": "by himself|himself|first time|on his own" }
+   }
+  ]
+ },
+ {
+  "id": 1240, "w": "paint", "uk": "малювати (фарбами)", "lvl": "A2",
+  "forms": "paint|paints|painted|painted|painting",
+  "near": "draw*|drew|sketch*",
+  "tasks": [
+   {
+    "sit": "Нова знайома питає, яке в тебе хобі. Ти вже кілька років малюєш олією.",
+    "say": "Я малюю олійними фарбами — здебільшого пейзажі.",
+    "ans": ["I paint landscapes in oils.", "I mostly paint landscapes with oil paints.", "I paint with oils, mostly landscapes."],
+    "keys": { "пейзажі": "landscape*|nature|scenery" }
+   },
+   {
+    "sit": "Гості помічають у вітальні великий портрет у рамі й питають, звідки він.",
+    "say": "Художник намалював мій портрет на день народження.",
+    "ans": ["An artist painted my portrait for my birthday.", "I had my portrait painted for my birthday.", "Someone painted a portrait of me for my birthday."],
+    "keys": { "портрет": "portrait|picture of me|me", "день народження": "birthday*" }
+   },
+   {
+    "sit": "Ти в музеї в Амстердамі й розповідаєш другові про картину, біля якої ви стоїте.",
+    "say": "Ван Гог намалював цю картину за рік до смерті.",
+    "ans": ["Van Gogh painted this a year before he died.", "This picture was painted by Van Gogh a year before his death.", "Van Gogh painted this one just a year before he died."],
+    "keys": { "рік": "year", "смерть": "die*|death|dead" }
+   }
+  ]
+ },
+ {
+  "id": 1241, "w": "draw", "uk": "малювати (олівцем)", "lvl": "A2",
+  "forms": "draw|draws|drew|drawn|drawing",
+  "near": "sketch*|paint*|doodl*",
+  "tasks": [
+   {
+    "sit": "Маленька племінниця простягає тобі олівець і аркуш паперу.",
+    "say": "Намалюй мені кота, будь ласка!",
+    "ans": ["Please draw me a cat!", "Can you draw a cat for me?", "Draw me a cat, please!"],
+    "keys": { "кіт": "cat*|kitt*" }
+   },
+   {
+    "sit": "На нараді колеги не розуміють, як працюватиме новий процес. Ти береш маркер і підходиш до дошки.",
+    "say": "Давайте я намалюю схему, так буде зрозуміліше.",
+    "ans": ["Let me draw a diagram, it’ll be clearer.", "I’ll draw a diagram so it’s easier to understand.", "Here, let me draw it — it’ll make more sense."],
+    "keys": { "схема": "diagram|scheme|chart|it|picture|map", "зрозуміліше": "clear*|easier|sense|understand" }
+   },
+   {
+    "sit": "Друг уперше їде до тебе в гості, а навігатор у вашому селі погано працює.",
+    "say": "Я намалюю тобі мапу, як дійти до мого дому.",
+    "ans": ["I’ll draw you a map to my house.", "Let me draw you a map of how to get to my place.", "I’ll just draw you a quick map to my place."],
+    "keys": { "мапа": "map|plan|directions", "дім": "house|home|place|flat|apartment" }
+   }
+  ]
+ },
+ {
+  "id": 1243, "w": "doodle", "uk": "каляти-маляти, машинально малювати", "lvl": "C1",
+  "forms": "doodle|doodles|doodled|doodled|doodling",
+  "near": "draw*|drew|sketch*|scribbl*",
+  "tasks": [
+   {
+    "sit": "Колега бачить у твоєму блокноті поля, повністю вкриті квіточками й спіралями.",
+    "say": "На нудних нарадах я завжди щось малюю в блокноті.",
+    "ans": ["I always doodle in my notebook during boring meetings.", "During boring meetings I always doodle in the margins.", "Boring meetings? I just doodle the whole time."],
+    "keys": { "нудні наради": "boring|meeting*|call*" }
+   },
+   {
+    "sit": "Після батьківських зборів ти переказуєш дружині, що сказала вчителька про сина.",
+    "say": "Учителька каже, що він увесь урок малює в зошиті замість того, щоб слухати.",
+    "ans": ["The teacher says he doodles in his notebook instead of listening.", "Apparently he spends the whole lesson doodling instead of listening.", "His teacher says he just doodles all through class instead of listening."],
+    "keys": { "замість слухати": "instead|listen*" }
+   },
+   {
+    "sit": "Подруга сміється з каракуль на конверті біля твого телефона.",
+    "say": "Коли довго розмовляю по телефону, машинально щось малюю.",
+    "ans": ["When I’m on the phone for a long time, I doodle without thinking.", "I doodle absent-mindedly during long phone calls.", "Long phone calls? I always end up doodling."],
+    "keys": { "телефон": "phone|call*" }
+   }
+  ]
+ },
+ {
+  "id": 1244, "w": "illustrate", "uk": "ілюструвати", "lvl": "B2",
+  "forms": "illustrate|illustrates|illustrated|illustrated|illustrating",
+  "near": "draw*|drew|paint*|design*",
+  "tasks": [
+   {
+    "sit": "Знайомий питає, чим займається твоя подруга-художниця.",
+    "say": "Вона ілюструє дитячі книжки.",
+    "ans": ["She illustrates children’s books.", "She illustrates books for kids.", "She illustrates children’s books for a living."],
+    "keys": { "дитячі": "child*|kid*", "книжки": "book*" }
+   },
+   {
+    "sit": "Ти написав казку для конкурсу і розповідаєш другові, хто зробить до неї малюнки.",
+    "say": "Казку я написав сам, а ілюструвати її буде моя сестра.",
+    "ans": ["I wrote the story myself, and my sister is going to illustrate it.", "My sister will illustrate the fairy tale I wrote.", "I wrote it, and my sister’s illustrating it."],
+    "keys": { "сестра": "sister", "казка": "story|tale|it|book" }
+   },
+   {
+    "sit": "Ти показуєш гостеві старе подарункове видання з гарними малюнками.",
+    "say": "Цю книжку ілюстрував відомий художник.",
+    "ans": ["This book was illustrated by a famous artist.", "A famous artist illustrated this book.", "A really well-known artist illustrated this one."],
+    "keys": { "відомий": "famous|well-known|known|renowned", "художник": "artist|painter|illustrator" }
+   }
+  ]
+ },
+ {
+  "id": 1245, "w": "design", "uk": "розробляти дизайн, дизайнити", "lvl": "B1",
+  "forms": "design|designs|designed|designed|designing",
+  "near": "creat*|draw*|develop*|make|made|come up with|came up with",
+  "tasks": [
+   {
+    "sit": "Ти фрилансер-дизайнер і показуєш портфоліо потенційному клієнту.",
+    "say": "Я розробив логотип для кавʼярні мого друга.",
+    "ans": ["I designed a logo for my friend’s café.", "I’ve designed the logo for my friend’s coffee shop.", "I designed my friend’s cafe logo."],
+    "keys": { "логотип": "logo*", "кавʼярня": "caf*|coffee" }
+   },
+   {
+    "sit": "Гості захоплюються твоєю новою кухнею й питають, хто її планував.",
+    "say": "Ми самі спроєктували нашу кухню.",
+    "ans": ["We designed our kitchen ourselves.", "We designed the whole kitchen on our own.", "We actually designed our kitchen ourselves."],
+    "keys": { "кухня": "kitchen", "самі": "ourselves|our own" }
+   },
+   {
+    "sit": "Ти вперше бронюєш житло на новому сайті, і все вийшло за хвилину.",
+    "say": "Хто розробляв дизайн цього сайту? Він дуже зручний.",
+    "ans": ["Who designed this website? It’s really easy to use.", "Who designed this site? It’s so convenient.", "Who designed this website? It’s super user-friendly."],
+    "keys": { "сайт": "site|website|page|app" }
+   }
+  ]
+ },
+ {
+  "id": 1246, "w": "photograph", "uk": "фотографувати", "lvl": "B2",
+  "forms": "photograph|photographs|photographed|photographed|photographing",
+  "near": "shoot*|shot|take pictures|took pictures|take photos|took photos|film*|snap*",
+  "tasks": [
+   {
+    "sit": "Новий знайомий питає, чим ти заробляєш додатково.",
+    "say": "На вихідних я фотографую весілля.",
+    "ans": ["I photograph weddings on weekends.", "At weekends I photograph weddings.", "I photograph weddings on the weekends for extra money."],
+    "keys": { "весілля": "wedding*", "вихідні": "weekend*" }
+   },
+   {
+    "sit": "Ти щоранку ходиш у парк із камерою й великим обʼєктивом. Сусід цікавиться, що ти знімаєш.",
+    "say": "Я люблю фотографувати птахів у парку.",
+    "ans": ["I love photographing birds in the park.", "I like to photograph birds in the park.", "I really love photographing the birds in the park."],
+    "keys": { "птахи": "bird*" }
+   },
+   {
+    "sit": "Ти працюєш доглядачем у музеї. Турист підніс телефон до картини.",
+    "say": "Вибачте, тут не можна фотографувати картини.",
+    "ans": ["Sorry, you’re not allowed to photograph the paintings.", "Excuse me, the paintings may not be photographed here.", "Sorry, you can’t photograph the paintings in here."],
+    "keys": { "не можна": "not|no|forbidden", "картини": "painting*|picture*|art*" }
+   }
+  ]
+ },
+ {
+  "id": 1247, "w": "snap", "uk": "клацнути (фото)", "lvl": "B1",
+  "forms": "snap|snaps|snapped|snapped|snapping",
+  "near": "take|took|taken|shoot|shot|photograph*",
+  "tasks": [
+   {
+    "sit": "Ви з другом їдете машиною вздовж моря, і небо стає яскраво-рожевим.",
+    "say": "Зупинись на секунду, я швиденько клацну фото заходу сонця.",
+    "ans": ["Stop for a second, let me quickly snap a photo of the sunset.", "Stop for a sec — I’ll just snap a quick picture of the sunset.", "Hang on, let me snap a pic of that sunset!"],
+    "keys": { "захід сонця": "sunset|sun" }
+   },
+   {
+    "sit": "У магазині техніки ти побачив навушники й хочеш перевірити ціну в інтернеті.",
+    "say": "Я клацнув фото цінника, щоб порівняти ціни.",
+    "ans": ["I snapped a photo of the price tag to compare prices.", "I snapped a picture of the price so I could compare.", "I just snapped a pic of the price tag to compare later."],
+    "keys": { "цінник": "price*|tag|label", "порівняти": "compar*|check*" }
+   },
+   {
+    "sit": "На парковці хтось подряпав твою машину й хотів поїхати. Ти розповідаєш поліцейському.",
+    "say": "Я встиг клацнути фото його номера.",
+    "ans": ["I managed to snap a photo of his number plate.", "I snapped a picture of his license plate before he left.", "Luckily I snapped a pic of his plate."],
+    "keys": { "номер": "plate*|number|registration" }
+   }
+  ]
+ },
+ {
+  "id": 1248, "w": "film", "uk": "знімати (на відео, фільм)", "lvl": "B1",
+  "forms": "film|films|filmed|filmed|filming",
+  "near": "shoot*|shot|record*|video*",
+  "tasks": [
+   {
+    "sit": "Ти повернувся з концерту улюбленого гурту. Подруга питає, чи є відео.",
+    "say": "Я зняв на телефон увесь концерт.",
+    "ans": ["I filmed the whole concert on my phone.", "I filmed the entire concert with my phone.", "I literally filmed the whole concert on my phone."],
+    "keys": { "концерт": "concert|show|gig" }
+   },
+   {
+    "sit": "Ви з другом дивитеся фільм, і на екрані зʼявляються знайомі гори.",
+    "say": "Цей фільм знімали в Карпатах.",
+    "ans": ["This movie was filmed in the Carpathians.", "They filmed this movie in the Carpathian Mountains.", "They filmed it in the Carpathians, actually."],
+    "keys": { "Карпати": "carpathian*|mountain*" }
+   },
+   {
+    "sit": "Ти щойно прокинувся, а сестра наводить на тебе камеру телефона.",
+    "say": "Не знімай мене, я жахливо виглядаю!",
+    "ans": ["Don’t film me, I look terrible!", "Please stop filming me, I look awful!", "Stop filming, I look like a mess!"],
+    "keys": { "жахливо виглядаю": "terrible|awful|horrible|mess|bad|ugly" }
+   }
+  ]
+ },
+ {
+  "id": 1250, "w": "crop", "uk": "обрізати (фото)", "lvl": "B2",
+  "forms": "crop|crops|cropped|cropped|cropping",
+  "near": "cut*|trim*|edit*",
+  "tasks": [
+   {
+    "sit": "Подруга хоче викласти спільне фото, а ти на ньому з заплющеними очима.",
+    "say": "Можеш обрізати фото так, щоб мене там не було?",
+    "ans": ["Can you crop me out of the photo?", "Could you crop the photo so I’m not in it?", "Just crop me out of that pic, please."],
+    "keys": { "фото": "photo*|pic*|picture*|image*", "мене": "me|i" }
+   },
+   {
+    "sit": "Колега готує слайди, і на картинці видно зайвий шматок чужого робочого столу.",
+    "say": "Обріж краї зображення, перш ніж вставляти його в презентацію.",
+    "ans": ["Crop the edges of the image before you put it in the presentation.", "Crop the image before adding it to the slides.", "Just crop the edges before you drop it into the presentation."],
+    "keys": { "презентація": "presentation|slide*|deck" }
+   },
+   {
+    "sit": "Для аватарки в соцмережі тобі потрібне фото лише з обличчям, а в тебе — на повний зріст.",
+    "say": "Я обрізав фото, залишив тільки обличчя для аватарки.",
+    "ans": ["I cropped the photo so only my face is left for my profile picture.", "I cropped the picture to just my face for my avatar.", "I cropped it down to just my face for my profile pic."],
+    "keys": { "обличчя": "face", "аватарка": "profile|avatar|userpic|account" }
+   }
+  ]
+ },
+ {
+  "id": 1251, "w": "retouch", "uk": "ретушувати", "lvl": "C1",
+  "forms": "retouch|retouches|retouched|retouched|retouching",
+  "near": "edit*|photoshop*|airbrush*|fix*|touch* up|touched up",
+  "tasks": [
+   {
+    "sit": "Ти гортаєш глянцевий журнал і показуєш подрузі обкладинку з відомою моделлю.",
+    "say": "Її так заретушували, що не впізнати.",
+    "ans": ["They retouched her so much that she’s unrecognizable.", "She’s been retouched so much you can’t recognize her.", "They retouched her so heavily she looks like a different person."],
+    "keys": { "не впізнати": "recogni*|unrecogni*|different|not" }
+   },
+   {
+    "sit": "Ти весільний фотограф. Молодята питають, коли отримають знімки.",
+    "say": "Я заретушую фото й надішлю вам за тиждень.",
+    "ans": ["I’ll retouch the photos and send them to you in a week.", "The photos will be retouched and sent to you within a week.", "I’ll retouch everything and send it over in about a week."],
+    "keys": { "надіслати": "send*|sent|email*", "тиждень": "week*" }
+   },
+   {
+    "sit": "Ти робив фото для резюме, але того дня на обличчі вискочили прищики.",
+    "say": "Я попросив фотографа трохи заретушувати шкіру.",
+    "ans": ["I asked the photographer to retouch my skin a little.", "I had the photographer retouch my skin slightly.", "I got the photographer to retouch my skin a bit."],
+    "keys": { "шкіра": "skin|face|spot*|pimple*", "фотограф": "photographer" }
+   }
+  ]
+ },
+ {
+  "id": 1252, "w": "color", "uk": "розфарбовувати", "lvl": "A2",
+  "forms": "color/colour|colors/colours|colored/coloured|colored/coloured|coloring/colouring",
+  "near": "paint*|draw*|drew|fill in|filled in",
+  "tasks": [
+   {
+    "sit": "Сусідка питає, як твоя донька проводить вечори без мультиків.",
+    "say": "Вона годинами розфарбовує картинки.",
+    "ans": ["She colors pictures for hours.", "She can spend hours coloring.", "She’ll happily sit and color for hours."],
+    "keys": { "годинами": "hour*" }
+   },
+   {
+    "sit": "Колега бачить у тебе на столі розмальовку-антистрес і дивується.",
+    "say": "Я розфарбовую малюнки, щоб розслабитися.",
+    "ans": ["I color pictures to relax.", "I color mandalas to help me relax.", "Coloring really helps me relax."],
+    "keys": { "розслабитися": "relax*|calm*|stress*|unwind" }
+   },
+   {
+    "sit": "Ти сидиш із маленьким племінником над розмальовкою і підказуєш йому.",
+    "say": "Розфарбуй сонце жовтим, а небо — синім.",
+    "ans": ["Color the sun yellow and the sky blue.", "Color the sky blue and the sun yellow.", "Let’s color the sun yellow and the sky blue!"],
+    "keys": { "жовтим": "yellow", "синім": "blue" }
+   }
+  ]
+ },
+ {
+  "id": 1253, "w": "shade", "uk": "затінювати, робити тіні (у малюнку)", "lvl": "C1",
+  "forms": "shade|shades|shaded|shaded|shading",
+  "near": "darken*|hatch*|colo*",
+  "tasks": [
+   {
+    "sit": "Ти ведеш заняття з малювання й підходиш до учня, який малює яблуко.",
+    "say": "Затіни ліву сторону яблука, бо світло падає справа.",
+    "ans": ["Shade the left side of the apple, because the light comes from the right.", "Since the light is coming from the right, shade the left side.", "The light’s on the right, so shade the left side of the apple."],
+    "keys": { "ліва": "left", "світло": "light" }
+   },
+   {
+    "sit": "Знайома питає, чого ти навчаєшся на онлайн-курсі малювання.",
+    "say": "Я вчуся правильно затінювати обличчя в портретах.",
+    "ans": ["I’m learning how to shade faces in portraits.", "I’m learning to shade faces properly.", "Right now I’m practicing how to shade faces."],
+    "keys": { "обличчя": "face*", "вчуся": "learn*|practi*|work*|study*" }
+   },
+   {
+    "sit": "Друг показує тобі свій олівцевий малюнок будинку — він виглядає пласким.",
+    "say": "Якщо трохи затінити, малюнок виглядатиме обʼємнішим.",
+    "ans": ["If you shade it a bit, the drawing will have more depth.", "Shade it a little and it’ll look more three-dimensional.", "Just shade it a bit — it’ll look way more realistic."],
+    "keys": { "обʼємніший": "depth|dimension*|three|3d|real*|solid|volume" }
+   }
+  ]
+ },
+ {
+  "id": 1254, "w": "trace", "uk": "обводити (контур)", "lvl": "B2",
+  "forms": "trace|traces|traced|traced|tracing",
+  "near": "draw* around|drew around|draw* round|outline*|copy*|copied",
+  "tasks": [
+   {
+    "sit": "Ви з донькою робите листівку до Дня матері з відбитком її долоньки.",
+    "say": "Поклади долоньку на папір, і я обведу її олівцем.",
+    "ans": ["Put your hand on the paper and I’ll trace around it.", "Put your hand on the paper so I can trace it with a pencil.", "Put your hand down flat and I’ll trace around it."],
+    "keys": { "долонька": "hand|palm" }
+   },
+   {
+    "sit": "Ти шиєш сукню за викрійкою. Подруга питає, як ти переносиш деталі на тканину.",
+    "say": "Я обводжу викрійку крейдою на тканині.",
+    "ans": ["I trace the pattern onto the fabric with chalk.", "I trace around the pattern in chalk on the fabric.", "I just trace the pattern onto the fabric with chalk."],
+    "keys": { "викрійка": "pattern|template|shape", "тканина": "fabric|cloth|material" }
+   },
+   {
+    "sit": "Бабуся питає, як син-першокласник вчиться писати.",
+    "say": "Він обводить літери по пунктиру.",
+    "ans": ["He traces letters along the dotted lines.", "He’s learning to write by tracing dotted letters.", "He’s tracing letters over the dotted lines."],
+    "keys": { "літери": "letter*", "пунктир": "dot*|line*" }
+   }
+  ]
+ },
+ {
+  "id": 1255, "w": "sculpt", "uk": "ліпити, створювати скульптуру", "lvl": "C1",
+  "forms": "sculpt|sculpts|sculpted|sculpted|sculpting",
+  "near": "carv*|mould*|mold*|shap*|model*|make|made",
+  "tasks": [
+   {
+    "sit": "Ти проводиш екскурсію в музеї й зупиняєшся біля величезної білої статуї.",
+    "say": "Цю статую висікли з одного шматка мармуру.",
+    "ans": ["This statue was sculpted from a single block of marble.", "Someone sculpted this statue out of one piece of marble.", "They sculpted the whole statue from one block of marble."],
+    "keys": { "мармур": "marble", "один шматок": "single|one|block|piece" }
+   },
+   {
+    "sit": "Друг бачить у тебе на полиці кумедні фігурки й питає, де ти їх купив.",
+    "say": "Мій дідусь ліпить фігурки з глини.",
+    "ans": ["My grandpa sculpts figures out of clay.", "My grandfather sculpts little clay figures.", "Grandpa sculpts little figures from clay in his garage."],
+    "keys": { "глина": "clay", "дідусь": "grand*" }
+   },
+   {
+    "sit": "Ти надсилаєш другові фото з пляжу, де стоїть піщана фігура завбільшки з авто.",
+    "say": "Діти зліпили з піску величезного дракона.",
+    "ans": ["The kids sculpted a huge dragon out of sand.", "The kids sculpted a giant sand dragon on the beach.", "The kids sculpted this massive dragon out of sand!"],
+    "keys": { "дракон": "dragon", "пісок": "sand*|beach" }
+   }
+  ]
+ },
+ {
+  "id": 1256, "w": "exhibit", "uk": "виставляти (у галереї)", "lvl": "B2",
+  "forms": "exhibit|exhibits|exhibited|exhibited|exhibiting",
+  "near": "show*|display*|present*|hang|hung",
+  "tasks": [
+   {
+    "sit": "Ти художник і хвалишся друзям великою новиною.",
+    "say": "Наступного місяця мої картини виставлятимуть у галереї.",
+    "ans": ["My paintings will be exhibited at a gallery next month.", "A gallery is going to exhibit my paintings next month.", "I’m exhibiting my paintings at a gallery next month!"],
+    "keys": { "галерея": "gallery", "наступного місяця": "next month|month" }
+   },
+   {
+    "sit": "Ти готуєш короткий текст про українську художницю для сайту культурного центру.",
+    "say": "Вона виставлялася в Парижі та Лондоні.",
+    "ans": ["She has exhibited in Paris and London.", "She has exhibited her work in Paris and London.", "She’s exhibited in both Paris and London."],
+    "keys": { "Париж": "paris", "Лондон": "london" }
+   },
+   {
+    "sit": "Ти кличеш подругу на виставку старих фотографій міста.",
+    "say": "Музей уперше виставляє ці рідкісні фото.",
+    "ans": ["The museum is exhibiting these rare photos for the first time.", "These rare photographs are being exhibited for the first time.", "For the first time ever, the museum is exhibiting these rare photos."],
+    "keys": { "уперше": "first", "фото": "photo*|picture*|image*" }
+   }
+  ]
+ },
+ {
+  "id": 1257, "w": "sing", "uk": "співати", "lvl": "A1",
+  "forms": "sing|sings|sang|sung|singing",
+  "near": "hum*|rap|raps|rapped|perform*",
+  "tasks": [
+   {
+    "sit": "Колеги кличуть тебе в караоке-бар, а ти чесно попереджаєш їх.",
+    "say": "Я не вмію співати, але люблю караоке.",
+    "ans": ["I can’t sing, but I love karaoke.", "I don’t sing well, but I love karaoke.", "I can’t sing at all, but I love karaoke!"],
+    "keys": { "караоке": "karaoke" }
+   },
+   {
+    "sit": "У кафе виносять торт зі свічками для твого друга. Ти звертаєшся до всіх за столом.",
+    "say": "Давайте заспіваємо «З днем народження»!",
+    "ans": ["Let’s sing Happy Birthday!", "Let’s all sing Happy Birthday to him!", "Come on, everyone, let’s sing Happy Birthday!"],
+    "keys": { "день народження": "birthday*" }
+   },
+   {
+    "sit": "Стіни у вашому будинку тонкі. Ти скаржишся подрузі на сусіда.",
+    "say": "Мій сусід щоранку співає в душі.",
+    "ans": ["My neighbor sings in the shower every morning.", "Every morning my neighbour sings in the shower.", "My neighbor sings in the shower every single morning."],
+    "keys": { "душ": "shower|bath*", "щоранку": "morning*|every day|daily" }
+   }
+  ]
+ },
+ {
+  "id": 1258, "w": "hum", "uk": "мугикати", "lvl": "B2",
+  "forms": "hum|hums|hummed|hummed|humming",
+  "near": "sing*|sang|sung|whistl*",
+  "tasks": [
+   {
+    "sit": "Ти намагаєшся пояснити другові, яку пісню почув у магазині, але назви не знаєш.",
+    "say": "Я не памʼятаю слів, але можу помугикати мелодію.",
+    "ans": ["I don’t remember the words, but I can hum the tune.", "I can’t remember the lyrics, but I can hum the melody.", "I forget the words, but I can hum it for you."],
+    "keys": { "слова": "word*|lyric*", "мелодія": "tune|melody|song|it" }
+   },
+   {
+    "sit": "Подруга питає, як зрозуміти, що в твоєї мами гарний настрій.",
+    "say": "Мама завжди щось мугикає, коли готує.",
+    "ans": ["Mom always hums something when she cooks.", "My mom hums to herself while she’s cooking.", "My mum is always humming while she cooks."],
+    "keys": { "мама": "mom|mum|mother", "готує": "cook*" }
+   },
+   {
+    "sit": "Дружина питає, як тобі вдалося так швидко приспати малюка.",
+    "say": "Я тихенько мугикав колискову, поки він не заснув.",
+    "ans": ["I quietly hummed a lullaby until he fell asleep.", "I hummed a lullaby till he fell asleep.", "I just hummed a lullaby until he dozed off."],
+    "keys": { "колискова": "lullaby|song|tune", "заснув": "asleep|sleep*|dozed|drifted" }
+   }
+  ]
+ },
+ {
+  "id": 1259, "w": "whistle", "uk": "свистіти, насвистувати", "lvl": "B2",
+  "forms": "whistle|whistles|whistled|whistled|whistling",
+  "near": "hum*|sing*|sang",
+  "tasks": [
+   {
+    "sit": "Ти працюєш у відкритому офісі й уже не можеш зосередитися. Пишеш у чат другові.",
+    "say": "Колега весь день насвистує ту саму мелодію.",
+    "ans": ["My colleague whistles the same tune all day.", "My coworker has been whistling the same tune all day.", "My colleague keeps whistling the same song all day long."],
+    "keys": { "та сама": "same", "весь день": "all day|whole day" }
+   },
+   {
+    "sit": "У парку собака з’їхав із повідця й побіг далеко. Ти розповідаєш дружині, як його повернув.",
+    "say": "Я свиснув, і собака одразу прибіг.",
+    "ans": ["I whistled and the dog came running straight away.", "I whistled, and the dog ran back to me right away.", "I just whistled and the dog came straight back."],
+    "keys": { "собака": "dog", "прибіг": "came|ran|run*|back" }
+   },
+   {
+    "sit": "Тебе щойно підвищили на роботі. Сусід бачить тебе у дворі й питає, що сталося.",
+    "say": "У мене такий гарний настрій, що я аж насвистую.",
+    "ans": ["I’m in such a good mood that I’m whistling.", "I’m so happy today I’ve been whistling all morning.", "I’m in such a great mood I can’t stop whistling!"],
+    "keys": { "гарний настрій": "mood|happy|cheerful|great" }
+   }
+  ]
+ },
+ {
+  "id": 1260, "w": "rap", "uk": "читати реп, репувати", "lvl": "B2",
+  "forms": "rap|raps|rapped|rapped|rapping",
+  "near": "sing*|sang|sung|recit*",
+  "tasks": [
+   {
+    "sit": "Нова колега питає, чим захоплюється твій молодший брат.",
+    "say": "Мій брат читає реп англійською та українською.",
+    "ans": ["My brother raps in English and Ukrainian.", "My brother can rap in both English and Ukrainian.", "My brother raps in English and in Ukrainian too."],
+    "keys": { "англійська": "english", "українська": "ukrainian" }
+   },
+   {
+    "sit": "Ви з другом обираєте пісню в караоке й ділите партії.",
+    "say": "Я беру приспів, а ти зачитуєш куплет.",
+    "ans": ["I’ll do the chorus and you rap the verse.", "You rap the verse, and I’ll take the chorus.", "I’ve got the chorus, you rap the verse."],
+    "keys": { "куплет": "verse*|part", "приспів": "chorus|hook" }
+   },
+   {
+    "sit": "Ти розповідаєш подрузі про незвичний урок математики в школі сина.",
+    "say": "Учитель зачитав реп про таблицю множення, і діти були в захваті.",
+    "ans": ["The teacher rapped about the times tables, and the kids loved it.", "The teacher rapped the times tables and the kids went crazy for it.", "Their teacher actually rapped the times tables — the kids loved it!"],
+    "keys": { "таблиця множення": "times|multiplication", "діти": "kid*|child*|class|student*" }
+   }
+  ]
+ },
+ {
+  "id": 1261, "w": "play", "uk": "грати (на музичному інструменті)", "lvl": "A1",
+  "forms": "play|plays|played|played|playing",
+  "near": "strum*|perform*",
+  "tasks": [
+   {
+    "sit": "На співбесіді в музичну школу тебе просять коротко розповісти про себе.",
+    "say": "Я граю на гітарі вже десять років.",
+    "ans": ["I’ve played the guitar for ten years.", "I’ve been playing guitar for ten years.", "I’ve been playing the guitar for about ten years now."],
+    "keys": { "гітара": "guitar", "десять": "ten|10" }
+   },
+   {
+    "sit": "Ти в гостях і помічаєш у кутку піаніно. Господиня каже, що колись займалася музикою.",
+    "say": "Ти вмієш грати на піаніно? Зіграй щось!",
+    "ans": ["Can you play the piano? Play something!", "Do you play the piano? Play us something!", "You play piano? Come on, play something!"],
+    "keys": { "піаніно": "piano|keyboard" }
+   },
+   {
+    "sit": "Колега знаходить у тебе вдома старий футляр для скрипки.",
+    "say": "У дитинстві я грав на скрипці, але потім кинув.",
+    "ans": ["I played the violin as a child, but then I gave it up.", "When I was a kid, I played the violin, but I quit.", "I used to play the violin as a kid, but I stopped."],
+    "keys": { "скрипка": "violin|fiddle", "дитинство": "child*|kid|young|little" }
+   }
+  ]
+ },
+ {
+  "id": 1262, "w": "strum", "uk": "бренькати (по струнах)", "lvl": "C1",
+  "forms": "strum|strums|strummed|strummed|strumming",
+  "near": "play*|pluck*",
+  "tasks": [
+   {
+    "sit": "Ти згадуєш із другом вечір у таборі минулого літа.",
+    "say": "Біля вогнища хтось тихенько бренькав на гітарі.",
+    "ans": ["Someone was quietly strumming a guitar by the fire.", "By the campfire, someone softly strummed a guitar.", "Someone was strumming a guitar by the campfire."],
+    "keys": { "гітара": "guitar", "вогнище": "fire|campfire|bonfire" }
+   },
+   {
+    "sit": "Ти лише місяць учишся грати на гітарі, а друзі вже просять виступити на вечірці.",
+    "say": "Поки що я вмію бренькати лише кілька простих акордів.",
+    "ans": ["So far I can only strum a few simple chords.", "I can only strum a couple of easy chords for now.", "For now I just strum a few basic chords."],
+    "keys": { "акорди": "chord*", "прості": "simple|easy|basic" }
+   },
+   {
+    "sit": "Ти не можеш заснути й пишеш повідомлення в чат будинку.",
+    "say": "Сусід знову бренькає на гітарі о першій ночі.",
+    "ans": ["My neighbor is strumming his guitar again at one in the morning.", "It’s one in the morning and my neighbour is strumming his guitar again.", "Someone’s strumming a guitar again at one in the morning."],
+    "keys": { "знову": "again", "перша ночі": "one|1|night|midnight|morning|late" }
+   }
+  ]
+ },
+ {
+  "id": 1263, "w": "drum", "uk": "барабанити", "lvl": "B1",
+  "forms": "drum|drums|drummed|drummed|drumming",
+  "near": "tap*|knock*|bang*|beat*",
+  "tasks": [
+   {
+    "sit": "Ти намагаєшся зосередитися на звіті, а колега поруч нервово стукає пальцями по столу.",
+    "say": "Перестань барабанити пальцями по столу, це дратує.",
+    "ans": ["Stop drumming your fingers on the table, it’s annoying.", "Please stop drumming on the desk, it’s driving me crazy.", "Can you stop drumming your fingers? It’s so annoying."],
+    "keys": { "дратує": "annoy*|crazy|nuts|irritat*|distract*", "пальці": "finger*|table|desk" }
+   },
+   {
+    "sit": "Уранці подруга питає, як ти спав у дерев’яному будиночку в горах.",
+    "say": "Дощ барабанив по даху всю ніч.",
+    "ans": ["The rain drummed on the roof all night.", "Rain was drumming on the roof all night long.", "The rain kept drumming on the roof all night."],
+    "keys": { "дах": "roof|window*", "дощ": "rain*" }
+   },
+   {
+    "sit": "Дружина телефонує й питає, чому вдома такий гуркіт.",
+    "say": "Малий цілий день барабанить ложкою по каструлях.",
+    "ans": ["The little one drums on the pots with a spoon all day.", "Our son has been drumming on the pots with a spoon all day.", "He’s been drumming on pans with a spoon all day."],
+    "keys": { "каструлі": "pot*|pan*", "ложка": "spoon*|stick*" }
+   }
+  ]
+ }
+]

@@ -1,0 +1,652 @@
+[
+ {
+  "id": 2867, "w": "sketch a scene", "uk": "накидати (ескіз) сцени", "lvl": "B2",
+  "forms": "sketch|sketches|sketched|sketched|sketching",
+  "tail": "scene*/landscape*/view*",
+  "near": "draw|draws|drew|drawn|drawing|paint*|doodl*|outline*",
+  "tasks": [
+   {
+    "sit": "Ти сидиш на площі в Празі з блокнотом і олівцем, а сонце вже сідає.",
+    "say": "Хочу швиденько накидати цю сцену, поки не стемніло.",
+    "ans": ["I want to quickly sketch this scene before it gets dark.", "I’d like to sketch the scene quickly before dark.", "Let me just sketch this scene before it gets dark."],
+    "keys": { "стемніло": "dark*|night|sunset" }
+   },
+   {
+    "sit": "Ти малюєш розкадровку для короткометражки, і режисер описує епізод погоні.",
+    "say": "Я накидаю цю сцену, а завтра обговоримо деталі.",
+    "ans": ["I’ll sketch the scene, and we’ll discuss the details tomorrow.", "Let me sketch this scene, and tomorrow we can talk about details.", "I’ll sketch the scene out and we’ll go over the details tomorrow."],
+    "keys": { "завтра": "tomorrow", "деталі": "detail*" }
+   },
+   {
+    "sit": "Ти пишеш роман і розповідаєш подрузі, як працюєш над кожним розділом.",
+    "say": "Спершу я коротко накидаю сцену, а потім додаю діалоги.",
+    "ans": ["First I sketch the scene briefly, and then I add the dialogue.", "I usually sketch the scene first and add dialogue later.", "I just sketch the scene roughly first, then add the dialogue."],
+    "keys": { "діалоги": "dialog*", "спершу": "first|before" }
+   }
+  ]
+ },
+ {
+  "id": 2868, "w": "declare war", "uk": "оголосити війну", "lvl": "C1",
+  "forms": "declare|declares|declared|declared|declaring",
+  "tail": "war",
+  "near": "start* a war|started a war|attack*|invad*|go to war|went to war",
+  "tasks": [
+   {
+    "sit": "Ти готуєшся до іспиту з історії й повторюєш дати разом з одногрупником.",
+    "say": "Британія оголосила війну Німеччині третього вересня 1939 року.",
+    "ans": ["Britain declared war on Germany on September 3, 1939.", "On 3 September 1939, Britain declared war on Germany.", "Britain declared war on Germany on the third of September, 1939."],
+    "keys": { "Німеччина": "germany", "1939": "1939" }
+   },
+   {
+    "sit": "Мама знайшла тарганів на кухні й купила пʼять видів отрути.",
+    "say": "Схоже, мама оголосила війну тарганам.",
+    "ans": ["Looks like Mom has declared war on the cockroaches.", "Mom has declared war on the cockroaches, apparently.", "Mom basically declared war on the cockroaches."],
+    "keys": { "таргани": "cockroach*|roach*|bug*", "мама": "mom|mum|mother" }
+   },
+   {
+    "sit": "Нова мерка міста публічно пообіцяла покінчити з незаконним паркуванням.",
+    "say": "Вона оголосила війну водіям, які паркуються на тротуарах.",
+    "ans": ["She has declared war on drivers who park on sidewalks.", "She declared war on drivers parking on the pavement.", "She has basically declared war on anyone who parks on the sidewalk."],
+    "keys": { "водії": "driver*|people|anyone|car*", "тротуар": "sidewalk*|pavement*" }
+   }
+  ]
+ },
+ {
+  "id": 2869, "w": "score a discount", "uk": "урвати знижку", "lvl": "B2",
+  "forms": "score|scores|scored|scored|scoring",
+  "tail": "discount*",
+  "near": "get|gets|got|gotten|getting|grab*|snag*|nab*",
+  "tasks": [
+   {
+    "sit": "Ти хвалишся колегам новими кросівками.",
+    "say": "Я урвав знижку пʼятдесят відсотків на розпродажі!",
+    "ans": ["I scored a fifty percent discount at the sale!", "I scored a 50% discount in the sale!", "I scored a 50 percent discount during the sale!"],
+    "keys": { "пʼятдесят": "fifty|50*", "розпродаж": "sale*" }
+   },
+   {
+    "sit": "Ти забронював готель на морі напряму, написавши власникові.",
+    "say": "Я урвав знижку, бо бронював на цілий тиждень.",
+    "ans": ["I scored a discount because I booked for a whole week.", "Because I booked a whole week, I scored a discount.", "I scored a nice discount by booking the whole week."],
+    "keys": { "тиждень": "week*", "бронював": "book*|stay*|reserv*" }
+   },
+   {
+    "sit": "Одногрупник скаржиться, що програма для дизайну дуже дорога.",
+    "say": "Зі студентським квитком можна урвати гарну знижку.",
+    "ans": ["You can score a good discount with a student ID.", "With a student card, you can score a great discount.", "Use your student ID — you can score a big discount."],
+    "keys": { "студентський": "student*" }
+   }
+  ]
+ },
+ {
+  "id": 2870, "w": "give alms", "uk": "давати милостиню", "lvl": "C1",
+  "forms": "give|gives|gave|given|giving",
+  "tail": "alms",
+  "near": "donat*|give money|gave money|give to charity|gave to charity|charity",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш іноземному другові про великодні звичаї у своєму селі.",
+    "say": "Після служби бабуся завжди дає милостиню біля церкви.",
+    "ans": ["After the service, my grandma always gives alms outside the church.", "My grandmother always gives alms by the church after the service.", "Grandma always gives alms at the church after the service."],
+    "keys": { "церква": "church*", "бабуся": "grand*" }
+   },
+   {
+    "sit": "У Таїланді ти зранку бачиш на вулиці ченців із мисками.",
+    "say": "Місцеві щоранку дають милостиню ченцям.",
+    "ans": ["Locals give alms to the monks every morning.", "Every morning, local people give alms to the monks.", "The locals give alms to monks every single morning."],
+    "keys": { "ченці": "monk*", "щоранку": "morning*" }
+   },
+   {
+    "sit": "На лекції з релігієзнавства викладач пояснює основи ісламу.",
+    "say": "Давати милостиню — один із пʼяти стовпів ісламу.",
+    "ans": ["Giving alms is one of the five pillars of Islam.", "To give alms is one of Islam’s five pillars.", "In Islam, giving alms is one of the five pillars."],
+    "keys": { "іслам": "islam*|muslim*", "пʼять стовпів": "five pillars|pillar*|5" }
+   }
+  ]
+ },
+ {
+  "id": 2871, "w": "embrace change", "uk": "приймати зміни", "lvl": "C1",
+  "forms": "embrace|embraces|embraced|embraced|embracing",
+  "tail": "change*",
+  "near": "accept*|welcome*|adapt*|get used to|got used to|go with the flow",
+  "tasks": [
+   {
+    "sit": "У компанії змінюється керівництво, і колеги панікують.",
+    "say": "Замість того щоб опиратися, краще прийняти зміни.",
+    "ans": ["Instead of resisting, we should embrace the change.", "It’s better to embrace change than to fight it.", "Honestly, we’d be better off embracing the change instead of fighting it."],
+    "keys": { "опиратися": "resist*|fight*|against" }
+   },
+   {
+    "sit": "Ти переїхав до нового міста, і мама питає, як ти почуваєшся.",
+    "say": "Спершу було важко, але я вчуся приймати зміни.",
+    "ans": ["It was hard at first, but I’m learning to embrace change.", "At first it was tough, but I’m learning to embrace the change.", "It was hard in the beginning, but I’m learning to just embrace change."],
+    "keys": { "важко": "hard|tough|difficult", "вчуся": "learn*" }
+   },
+   {
+    "sit": "Дідусь навідріз відмовляється переходити зі старого кнопкового телефона на смартфон.",
+    "say": "Дідусю, іноді треба просто прийняти зміни.",
+    "ans": ["Grandpa, sometimes you just have to embrace change.", "Sometimes you need to embrace change, Grandpa.", "Come on, Grandpa, sometimes you’ve just got to embrace change."],
+    "keys": { "іноді": "sometimes|occasionally" }
+   }
+  ]
+ },
+ {
+  "id": 2872, "w": "raise a concern", "uk": "висловити занепокоєння, підняти питання", "lvl": "B2",
+  "forms": "raise|raises|raised|raised|raising",
+  "tail": "concern*",
+  "near": "mention*|bring up|brought up|point out|pointed out|voice*|flag*|complain*",
+  "tasks": [
+   {
+    "sit": "На нараді всі погоджуються з дедлайном, але ти бачиш, що команда не встигне.",
+    "say": "Я хочу висловити занепокоєння щодо дедлайну.",
+    "ans": ["I’d like to raise a concern about the deadline.", "I have to raise a concern about the deadline — it’s too tight.", "Can I raise a concern about the deadline?"],
+    "keys": { "дедлайн": "deadline*|timeline|schedule|date" }
+   },
+   {
+    "sit": "На батьківських зборах знову скаржаться, що в класі дуже холодно.",
+    "say": "Я вже піднімав це питання з директором, але нічого не змінилося.",
+    "ans": ["I’ve already raised this concern with the principal, but nothing has changed.", "I already raised my concern with the principal, and nothing changed.", "I raised this concern with the principal before, but nothing’s changed."],
+    "keys": { "директор": "principal|head*|director", "нічого не змінилося": "nothing*|not change*" }
+   },
+   {
+    "sit": "Лікар призначає тобі новий препарат, а ти читав про його побічні ефекти.",
+    "say": "Можна я висловлю одне занепокоєння щодо побічних ефектів?",
+    "ans": ["Can I raise one concern about the side effects?", "May I raise a concern about side effects?", "Could I just raise a concern about the side effects?"],
+    "keys": { "побічні ефекти": "side effect*|side-effect*" }
+   }
+  ]
+ },
+ {
+  "id": 2873, "w": "go trending", "uk": "потрапити в тренди", "lvl": "B2",
+  "forms": "go|goes|went|gone|going",
+  "tail": "trending",
+  "near": "went viral|go viral|goes viral|going viral|blew up|blow up|popular",
+  "tasks": [
+   {
+    "sit": "Ти виклав відео, де твій кіт грає на піаніно, і за годину телефон розривається від сповіщень.",
+    "say": "Моє відео потрапило в тренди!",
+    "ans": ["My video went trending!", "My video has gone trending!", "Guys, my cat video went trending!"],
+    "keys": { "відео": "video*|clip|post" }
+   },
+   {
+    "sit": "Маркетингова команда обговорює нову рекламну кампанію з хештегом.",
+    "say": "Якщо хештег потрапить у тренди, продажі злетять.",
+    "ans": ["If the hashtag goes trending, sales will skyrocket.", "Sales will shoot up if our hashtag goes trending.", "If this hashtag goes trending, our sales will explode."],
+    "keys": { "хештег": "hashtag*|tag", "продажі": "sale*" }
+   },
+   {
+    "sit": "Сусідка зняла, як мер падає в калюжу, і виклала ролик у мережу.",
+    "say": "Цей ролик потрапив у тренди за кілька годин.",
+    "ans": ["The clip went trending within a few hours.", "In just a few hours, the clip went trending.", "That clip went trending in, like, a couple of hours."],
+    "keys": { "кілька годин": "hour*" }
+   }
+  ]
+ },
+ {
+  "id": 2874, "w": "save for a rainy day", "uk": "відкладати на чорний день", "lvl": "C1",
+  "forms": "save|saves|saved|saved|saving",
+  "tail": "rainy day",
+  "near": "put aside|put away|set aside|stash*|nest egg|emergency fund",
+  "tasks": [
+   {
+    "sit": "Ти отримав премію, і друзі кличуть тебе на дорогу вечерю.",
+    "say": "Ні, я відкладаю ці гроші на чорний день.",
+    "ans": ["No, I’m saving this money for a rainy day.", "No, I’m saving it for a rainy day.", "Nah, I’d rather save it for a rainy day."],
+    "keys": { "ні": "no|nah|not|rather", "гроші": "money|it|bonus" }
+   },
+   {
+    "sit": "Ти отримуєш першу зарплату, і тато дає тобі пораду.",
+    "say": "Завжди відкладай трохи на чорний день.",
+    "ans": ["Always save a little for a rainy day.", "You should always save some money for a rainy day.", "Always save a bit for a rainy day, okay?"],
+    "keys": { "завжди": "always", "трохи": "little|some|bit|few" }
+   },
+   {
+    "sit": "Колега дивується, чому ти не купуєш новий телефон, хоча старий ледве працює.",
+    "say": "У такі часи краще відкладати на чорний день.",
+    "ans": ["In times like these, it’s better to save for a rainy day.", "It’s smarter to save for a rainy day in times like these.", "These days, I’d rather save for a rainy day."],
+    "keys": { "такі часи": "times|these days|now", "краще": "better|smart*|rather" }
+   }
+  ]
+ },
+ {
+  "id": 2875, "w": "cuddle a cat", "uk": "обіймати (тискати) кота", "lvl": "B1",
+  "forms": "cuddle|cuddles|cuddled|cuddled|cuddling",
+  "tail": "cat*/kitten*/kitty/him/her/it/them",
+  "near": "hug*|pet|pets|petted|petting|stroke*|stroking|snuggle*|hold|holding|held",
+  "tasks": [
+   {
+    "sit": "Ти прийшов додому після жахливого дня на роботі.",
+    "say": "Мені просто треба потискати кота.",
+    "ans": ["I just need to cuddle my cat.", "All I need is to cuddle my cat.", "I just want to cuddle the cat right now."],
+    "keys": { "просто": "just|all" }
+   },
+   {
+    "sit": "Ви з подругою прийшли в котокавʼярню.",
+    "say": "Тут можна обіймати котів скільки завгодно!",
+    "ans": ["You can cuddle the cats here as much as you want!", "Here you can cuddle cats as much as you like!", "We can cuddle as many cats as we want here!"],
+    "keys": { "скільки завгодно": "as much|as many|want|like" }
+   },
+   {
+    "sit": "Ветеринарка каже, що кошеня після операції має багато відпочивати.",
+    "say": "А можна його хоч трохи потискати?",
+    "ans": ["Can I cuddle him at least a little?", "Can I at least cuddle him for a bit?", "Is it okay if I cuddle the kitten for a minute?"],
+    "keys": { "трохи": "little|bit|minute|moment|while", "можна": "can|may|okay|ok|allowed" }
+   }
+  ]
+ },
+ {
+  "id": 2876, "w": "crack an egg", "uk": "розбити яйце", "lvl": "B1",
+  "forms": "crack|cracks|cracked|cracked|cracking",
+  "tail": "egg*",
+  "near": "break|breaks|broke|broken|breaking",
+  "tasks": [
+   {
+    "sit": "Ти вчиш доньку пекти млинці.",
+    "say": "Розбий два яйця в миску, тільки обережно.",
+    "ans": ["Crack two eggs into the bowl, but carefully.", "Carefully crack two eggs into a bowl.", "Crack two eggs into the bowl — careful now."],
+    "keys": { "два": "two|2|both", "миска": "bowl", "обережно": "careful*|gently" }
+   },
+   {
+    "sit": "Ти знімаєш кулінарне відео й коментуєш кожен крок.",
+    "say": "Тепер розбиваю яйце прямо на сковорідку.",
+    "ans": ["Now I’m cracking an egg right into the pan.", "Now I crack an egg straight into the pan.", "Next, I’ll crack an egg directly into the pan."],
+    "keys": { "сковорідка": "pan|skillet" }
+   },
+   {
+    "sit": "Ти готуєш омлет на сніданок і скаржишся партнерці.",
+    "say": "Я розбив яйце, і в миску потрапила шкаралупа.",
+    "ans": ["I cracked an egg and got shell in the bowl.", "When I cracked the egg, some shell fell into the bowl.", "I cracked an egg and bits of shell went into the bowl."],
+    "keys": { "шкаралупа": "shell*", "миска": "bowl" }
+   }
+  ]
+ },
+ {
+  "id": 2877, "w": "apply lip balm", "uk": "наносити бальзам для губ", "lvl": "B1",
+  "forms": "apply|applies|applied|applied|applying",
+  "tail": "lip* balm*",
+  "near": "put on|put some|use|used|using|wear*|rub*",
+  "tasks": [
+   {
+    "sit": "На вулиці мінус пʼятнадцять і сильний вітер, а донька збирається на ковзанку.",
+    "say": "Перед виходом нанеси бальзам для губ, бо вони потріскаються.",
+    "ans": ["Apply lip balm before you go out, or your lips will crack.", "Before you go out, apply some lip balm so your lips don’t crack.", "Apply some lip balm before heading out — otherwise your lips will crack."],
+    "keys": { "потріскаються": "crack*|chap*|dry", "перед виходом": "go out|going out|heading out|leave|leaving|outside" }
+   },
+   {
+    "sit": "Ти обгорів на пляжі, і губи сухі й болять.",
+    "say": "Я наношу бальзам для губ кожні дві години.",
+    "ans": ["I apply lip balm every two hours.", "I’m applying lip balm every couple of hours.", "I keep applying lip balm every two hours."],
+    "keys": { "години": "hour*" }
+   },
+   {
+    "sit": "Візажистка пояснює тобі, як правильно наносити помаду.",
+    "say": "Спочатку нанеси бальзам для губ, а тоді помаду.",
+    "ans": ["First apply lip balm, then your lipstick.", "Apply lip balm first, and then the lipstick.", "Always apply lip balm first, then put on your lipstick."],
+    "keys": { "помада": "lipstick*" }
+   }
+  ]
+ },
+ {
+  "id": 2878, "w": "ace a test", "uk": "скласти тест на відмінно", "lvl": "B2",
+  "forms": "ace|aces|aced|aced|acing",
+  "tail": "test*/exam*/quiz*/it",
+  "near": "pass*|nail*|smash*|crush*|did great|did well|top marks",
+  "tasks": [
+   {
+    "sit": "Син повертається зі школи з широкою усмішкою й показує щоденник.",
+    "say": "Я написав контрольну з математики на відмінно!",
+    "ans": ["I aced my math test!", "I aced the maths test today!", "Guess what? I totally aced the math test!"],
+    "keys": { "математика": "math*" }
+   },
+   {
+    "sit": "Подруга хвилюється перед теоретичним іспитом з водіння.",
+    "say": "Ти так добре готувалася — ти його складеш на відмінно.",
+    "ans": ["You’ve prepared so well — you’ll ace the test.", "You studied so hard, you’re going to ace the test.", "You prepared so well. You’ll totally ace it."],
+    "keys": { "готувалася": "prepar*|stud*|practi*|ready" }
+   },
+   {
+    "sit": "Ти проходив технічне тестування для нової роботи й розповідаєш про нього вдома.",
+    "say": "Здається, я склав тест на відмінно — розвʼязав усі задачі.",
+    "ans": ["I think I aced the test — I solved every problem.", "I think I aced the test; I solved all the tasks.", "I think I totally aced the test — solved every single task."],
+    "keys": { "здається": "think|guess|seem*|pretty sure", "задачі": "problem*|task*|question*" }
+   }
+  ]
+ },
+ {
+  "id": 2879, "w": "get around by bike", "uk": "пересуватися велосипедом", "lvl": "B1",
+  "forms": "get|gets|got|got/gotten|getting",
+  "tail": "around by bike*/bicycle*",
+  "near": "cycle*|cycling|ride*|rode|ridden|riding|commute*|travel*",
+  "tasks": [
+   {
+    "sit": "Колега з іншого міста питає, чи в тебе є машина.",
+    "say": "Ні, я пересуваюся містом на велосипеді.",
+    "ans": ["No, I get around by bike.", "No, I get around the city by bike.", "Nope, I get around town by bike."],
+    "keys": { "ні": "no|nope|not" }
+   },
+   {
+    "sit": "Твій друг уперше в Амстердамі й питає, чи варто брати таксі.",
+    "say": "Тут усі пересуваються велосипедами — це найзручніше.",
+    "ans": ["Everyone here gets around by bike — it’s the easiest way.", "Here everybody gets around by bike; it’s the most convenient.", "Everyone gets around by bike here. It’s way easier."],
+    "keys": { "усі": "everyone|everybody|all", "найзручніше": "easi*|convenient*|best|quick*" }
+   },
+   {
+    "sit": "Лікар на огляді радить тобі більше рухатися.",
+    "say": "Я вже рік пересуваюся велосипедом і почуваюся чудово.",
+    "ans": ["I’ve been getting around by bike for a year, and I feel great.", "I started getting around by bike a year ago, and I feel great.", "For a year now I’ve been getting around by bike, and I feel fantastic."],
+    "keys": { "рік": "year", "почуваюся": "feel*" }
+   }
+  ]
+ },
+ {
+  "id": 2880, "w": "fix a leak", "uk": "полагодити протікання", "lvl": "B1",
+  "forms": "fix|fixes|fixed|fixed|fixing",
+  "tail": "leak*",
+  "near": "repair*|patch*|seal*|mend*",
+  "tasks": [
+   {
+    "sit": "З-під раковини на кухні капає вода, і ти телефонуєш сантехніку.",
+    "say": "Ви можете сьогодні полагодити протікання під раковиною?",
+    "ans": ["Can you fix a leak under my sink today?", "Could you come and fix the leak under the sink today?", "Any chance you could fix the leak under my sink today?"],
+    "keys": { "раковина": "sink", "сьогодні": "today|tonight" }
+   },
+   {
+    "sit": "Твоє авто щоразу залишає масляну пляму на парковці.",
+    "say": "Треба полагодити протікання масла, поки не стало гірше.",
+    "ans": ["I need to fix the oil leak before it gets worse.", "The oil leak needs fixing before it gets worse.", "I’ve got to fix that oil leak before it gets any worse."],
+    "keys": { "масло": "oil", "гірше": "worse" }
+   },
+   {
+    "sit": "Ти орендуєш квартиру, і вже тиждень зі стелі в ванній капає вода. Ти дзвониш власникові.",
+    "say": "Ви обіцяли полагодити протікання ще минулого тижня!",
+    "ans": ["You promised to fix the leak last week!", "You said you’d fix the leak last week!", "You promised you’d fix that leak a week ago!"],
+    "keys": { "обіцяли": "promis*|said", "минулого тижня": "last week|week ago|week" }
+   }
+  ]
+ },
+ {
+  "id": 2881, "w": "iron a shirt", "uk": "попрасувати сорочку", "lvl": "A2",
+  "forms": "iron|irons|ironed|ironed|ironing",
+  "tail": "shirt*/it",
+  "near": "press*|steam*",
+  "tasks": [
+   {
+    "sit": "Завтра в тебе співбесіда, а сорочка вся мʼята.",
+    "say": "Мені треба попрасувати сорочку на завтра.",
+    "ans": ["I need to iron my shirt for tomorrow.", "I have to iron a shirt for tomorrow.", "I’ve got to iron my shirt for tomorrow."],
+    "keys": { "завтра": "tomorrow" }
+   },
+   {
+    "sit": "Син збирається на випускний і не знає, що робити з мʼятою сорочкою.",
+    "say": "Давай я попрасую тобі сорочку.",
+    "ans": ["Let me iron your shirt for you.", "I’ll iron your shirt for you.", "Here, let me iron that shirt for you."],
+    "keys": { "тобі": "you|your" }
+   },
+   {
+    "sit": "Ти приїхав у відрядження й дзвониш на ресепшн готелю.",
+    "say": "Де я можу попрасувати сорочку?",
+    "ans": ["Where can I iron my shirt?", "Is there somewhere I can iron a shirt?", "Where could I iron a shirt, please?"],
+    "keys": { "де": "where|somewhere|place" }
+   }
+  ]
+ },
+ {
+  "id": 2882, "w": "wrap gifts", "uk": "загортати подарунки", "lvl": "A2",
+  "forms": "wrap|wraps|wrapped|wrapped|wrapping",
+  "tail": "gift*/present*/them/it",
+  "near": "pack*|decorat*",
+  "tasks": [
+   {
+    "sit": "До Різдва два дні, а подарунки досі лежать у пакетах із магазину.",
+    "say": "Сьогодні ввечері я загортатиму подарунки.",
+    "ans": ["Tonight I’m going to wrap the gifts.", "I’ll wrap all the presents tonight.", "I’m wrapping presents tonight."],
+    "keys": { "сьогодні ввечері": "tonight|this evening" }
+   },
+   {
+    "sit": "Ти купуєш книжку для друга в книгарні.",
+    "say": "Ви можете загорнути її як подарунок?",
+    "ans": ["Could you wrap it as a gift?", "Can you wrap it as a gift, please?", "Would you wrap it as a present for me?"],
+    "keys": { "подарунок": "gift*|present*" }
+   },
+   {
+    "sit": "Ви з колегами збираєте подарунки для дітей у лікарні.",
+    "say": "Хто допоможе загорнути подарунки після роботи?",
+    "ans": ["Who can help wrap the gifts after work?", "Who’s going to help me wrap the presents after work?", "Can anyone help wrap gifts after work?"],
+    "keys": { "після роботи": "after work|after*", "допоможе": "help*" }
+   }
+  ]
+ },
+ {
+  "id": 2883, "w": "start a new game", "uk": "розпочати нову гру", "lvl": "A2",
+  "forms": "start|starts|started|started|starting",
+  "tail": "new game*",
+  "near": "begin*|began|begun|play again|restart*|another game|new round",
+  "tasks": [
+   {
+    "sit": "Ти граєш у стратегію й розумієш, що з самого початку все робив неправильно.",
+    "say": "Почну нову гру — цю вже не врятувати.",
+    "ans": ["I’ll start a new game — this one can’t be saved.", "I’m going to start a new game; this one is hopeless.", "I’m just going to start a new game. This one is a lost cause."],
+    "keys": { "не врятувати": "not|hopeless|lost|ruin*" }
+   },
+   {
+    "sit": "Ти щойно виграв у шахи, а друг просить реваншу.",
+    "say": "Добре, почнімо нову гру!",
+    "ans": ["Okay, let’s start a new game!", "Fine, let’s start a new game.", "Sure, let’s start a new game right now!"],
+    "keys": { "добре": "ok*|fine|sure|alright|all right" }
+   },
+   {
+    "sit": "Діти посварилися під час настільної гри через правила.",
+    "say": "Давайте почнемо нову гру, і цього разу без сварок.",
+    "ans": ["Let’s start a new game, and this time no fighting.", "Let’s start a new game — and no arguing this time.", "How about we start a new game, and no fighting this time?"],
+    "keys": { "без сварок": "fight*|argu*|quarrel*", "цього разу": "this time" }
+   }
+  ]
+ },
+ {
+  "id": 2884, "w": "raise a fist", "uk": "підняти кулак", "lvl": "B2",
+  "forms": "raise|raises|raised|raised|raising",
+  "tail": "fist*",
+  "near": "lift*|put up|held up|hold up|punch* the air",
+  "tasks": [
+   {
+    "sit": "Ти показуєш друзям фото з мітингу за права працівників.",
+    "say": "Тут ми всі підняли кулаки на знак солідарності.",
+    "ans": ["Here we all raised our fists in solidarity.", "This is where we all raised our fists in solidarity.", "Look, all of us raised our fists in solidarity."],
+    "keys": { "солідарність": "solidarity|support" }
+   },
+   {
+    "sit": "Ти розповідаєш про церемонію нагородження на Олімпіаді, яку бачив у документальному фільмі.",
+    "say": "Він підняв кулак, коли заграв гімн.",
+    "ans": ["He raised his fist when the anthem started playing.", "When the anthem played, he raised his fist.", "He raised a fist as soon as the anthem began."],
+    "keys": { "гімн": "anthem" }
+   },
+   {
+    "sit": "Ти дивишся з другом фінал тенісного турніру, і твій улюблений гравець щойно виграв.",
+    "say": "Дивись, він упав на корт і підняв кулак угору!",
+    "ans": ["Look, he fell to the court and raised his fist in the air!", "Look, he dropped to the court and raised his fist!", "Look at him — he collapsed on the court and raised a fist in the air!"],
+    "keys": { "корт": "court|ground|floor" }
+   }
+  ]
+ },
+ {
+  "id": 2885, "w": "send a birthday message", "uk": "надіслати вітання з днем народження", "lvl": "A2",
+  "forms": "send|sends|sent|sent|sending",
+  "tail": "birthday*",
+  "near": "wish*|text*|congratulat*|wrote|write|call*",
+  "tasks": [
+   {
+    "sit": "Сьогодні в колишнього однокласника день народження, хоча ви давно не спілкувалися.",
+    "say": "Надішлю йому вітання з днем народження — він буде радий.",
+    "ans": ["I’ll send him a birthday message — he’ll be happy.", "I’m going to send him a birthday message; he’ll like that.", "I’ll just send him a quick birthday message. He’ll appreciate it."],
+    "keys": { "він буде радий": "happy|glad|like|appreciat*|pleased" }
+   },
+   {
+    "sit": "Уся команда підписує листівку для керівниці, але ти працюєш віддалено.",
+    "say": "Я відправлю їй вітання з днем народження в чат.",
+    "ans": ["I’ll send her a birthday message in the chat.", "I’ll send a birthday message to her in the group chat.", "I’m sending her a birthday message on the team chat."],
+    "keys": { "чат": "chat|slack|teams" }
+   },
+   {
+    "sit": "Бабуся нещодавно навчилася користуватися месенджером.",
+    "say": "Бабуся надіслала мені вітання з днем народження з пʼятьма тортиками!",
+    "ans": ["Grandma sent me a birthday message with five cake emojis!", "Grandma sent a birthday message to me with five little cakes!", "My grandma sent me a birthday message — with five cake emojis!"],
+    "keys": { "бабуся": "grand*|nan*", "тортики": "cake*" }
+   }
+  ]
+ },
+ {
+  "id": 2886, "w": "click on a link", "uk": "клікнути на посилання", "lvl": "A2",
+  "forms": "click|clicks|clicked|clicked|clicking",
+  "tail": "link*",
+  "near": "tap*|press*|open*|follow*",
+  "tasks": [
+   {
+    "sit": "Тобі прийшов лист, що «твій банківський рахунок заблоковано», і мама питає, що робити.",
+    "say": "Не клікай на посилання — це шахраї.",
+    "ans": ["Don’t click on the link — it’s a scam.", "Don’t click the link; it’s a scam.", "Whatever you do, don’t click on that link. It’s a scam."],
+    "keys": { "шахраї": "scam*|fraud*|fake|phish*", "не": "not|never" }
+   },
+   {
+    "sit": "Колега не може зайти на онлайн-нараду.",
+    "say": "Просто клікни на посилання в календарі.",
+    "ans": ["Just click on the link in the calendar.", "Just click the link in the calendar invite.", "You just need to click on the link in the calendar."],
+    "keys": { "календар": "calendar|invite*" }
+   },
+   {
+    "sit": "Мама хоче замовити таку саму сукню, як у тебе, і питає, як її знайти.",
+    "say": "Клікни на посилання, яке я надіслав, і відкриється магазин.",
+    "ans": ["Click on the link I sent you, and the store will open.", "Just click the link I sent, and you’ll see the shop.", "Click on the link I sent you — it opens the store."],
+    "keys": { "надіслав": "sent|send", "магазин": "shop|store|site|website|page" }
+   }
+  ]
+ },
+ {
+  "id": 2887, "w": "open an app", "uk": "відкрити застосунок", "lvl": "A2",
+  "forms": "open|opens|opened|opened|opening",
+  "tail": "app*/application*",
+  "near": "launch*|start*|run|runs|ran|running|tap*|go into|go to",
+  "tasks": [
+   {
+    "sit": "Ти в магазині, а термінал не приймає картку. Продавчиня пропонує переказ.",
+    "say": "Зараз, я тільки відкрию банківський застосунок.",
+    "ans": ["One second, I’ll just open my banking app.", "Hang on, let me open the banking app.", "Just a sec, I’m opening my bank app."],
+    "keys": { "банківський": "bank*" }
+   },
+   {
+    "sit": "Ви з друзями стоїте біля клубу о другій ночі, і таксі не видно.",
+    "say": "Відкрий застосунок таксі й виклич машину.",
+    "ans": ["Open the taxi app and call a car.", "Open your taxi app and order a ride.", "Just open the taxi app and get us a car."],
+    "keys": { "таксі": "taxi|uber|cab|bolt", "машину": "car|ride|cab|taxi" }
+   },
+   {
+    "sit": "Тренер у спортзалі хоче подивитися статистику твоїх тренувань.",
+    "say": "Секунду, відкрию застосунок і покажу вам.",
+    "ans": ["One sec, I’ll open the app and show you.", "Just a second, let me open the app and show you.", "Hold on, I’ll open the app so I can show you."],
+    "keys": { "покажу": "show*" }
+   }
+  ]
+ },
+ {
+  "id": 2888, "w": "close an app", "uk": "закрити застосунок", "lvl": "A2",
+  "forms": "close|closes|closed|closed|closing",
+  "tail": "app*/application*/it/them",
+  "near": "quit*|shut*|exit*|kill*|swipe* away",
+  "tasks": [
+   {
+    "sit": "Подруга скаржиться, що її телефон розряджається за пів дня.",
+    "say": "Закривай застосунки, якими не користуєшся.",
+    "ans": ["Close the apps you’re not using.", "You should close any apps you don’t use.", "Try closing the apps you’re not using."],
+    "keys": { "не користуєшся": "use*|using|unused" }
+   },
+   {
+    "sit": "Перед показом екрана на онлайн-нараді ти згадуєш, що в тебе відкрите особисте листування.",
+    "say": "Секунду, я закрию застосунок з повідомленнями.",
+    "ans": ["One sec, I’ll close the messaging app.", "Hang on, let me close my messaging app.", "Wait, I need to close my chat app first."],
+    "keys": { "повідомлення": "messag*|chat*|text*" }
+   },
+   {
+    "sit": "Дідусь не розуміє, чому застосунок погоди завис.",
+    "say": "Закрий застосунок і відкрий його знову.",
+    "ans": ["Close the app and open it again.", "Close the app, then open it again.", "Just close the app and reopen it."],
+    "keys": { "знову": "again|reopen*|restart*" }
+   }
+  ]
+ },
+ {
+  "id": 2889, "w": "update the app", "uk": "оновити застосунок", "lvl": "A2",
+  "forms": "update|updates|updated|updated|updating",
+  "tail": "app*/application*",
+  "near": "upgrade*|install*|reinstall*|download*|refresh*",
+  "tasks": [
+   {
+    "sit": "Друг пише, що банківський застосунок постійно вилітає.",
+    "say": "Спробуй оновити застосунок — може, допоможе.",
+    "ans": ["Try updating the app — maybe it’ll help.", "Try to update the app; it might help.", "Just update the app, maybe that’ll fix it."],
+    "keys": { "може": "maybe|might|perhaps|could" }
+   },
+   {
+    "sit": "Ти працюєш у техпідтримці, і клієнт пише, що нова функція в нього не працює.",
+    "say": "Будь ласка, оновіть застосунок до останньої версії.",
+    "ans": ["Please update the app to the latest version.", "Could you please update the app to the newest version?", "Please update the app — you need the latest version."],
+    "keys": { "остання": "latest|newest|new|recent", "версія": "version" }
+   },
+   {
+    "sit": "Ти хочеш зіграти з друзями онлайн, але гра не запускається.",
+    "say": "Зачекайте, мені треба оновити застосунок.",
+    "ans": ["Wait, I need to update the app.", "Hold on, I have to update the app first.", "Give me a sec, I’ve got to update the app."],
+    "keys": { "треба": "need*|have to|got to|must" }
+   }
+  ]
+ },
+ {
+  "id": 2890, "w": "reset your password", "uk": "скинути пароль", "lvl": "B1",
+  "forms": "reset|resets|reset|reset|resetting",
+  "tail": "password*",
+  "near": "change*|changing|recover*|restore*",
+  "tasks": [
+   {
+    "sit": "Після відпустки ти не можеш згадати пароль до робочої пошти.",
+    "say": "Доведеться скинути пароль до пошти — я його забув.",
+    "ans": ["I’ll have to reset my email password — I forgot it.", "I need to reset my password for email because I forgot it.", "Looks like I have to reset my email password. I totally forgot it."],
+    "keys": { "пошта": "email|e-mail|mail|inbox", "забув": "forg*" }
+   },
+   {
+    "sit": "Ти читаєш новину, що сервіс, яким ти користуєшся, зламали хакери.",
+    "say": "Треба негайно скинути пароль.",
+    "ans": ["I need to reset my password right away.", "I should reset my password immediately.", "I’d better reset my password right now."],
+    "keys": { "негайно": "right away|immediately|now|asap" }
+   },
+   {
+    "sit": "Мама не може увійти в інтернет-банк після трьох невдалих спроб.",
+    "say": "Не хвилюйся, зараз скинемо пароль через телефон.",
+    "ans": ["Don’t worry, we’ll reset your password through your phone.", "Don’t worry, we can reset the password using your phone.", "Relax, let’s reset your password with your phone."],
+    "keys": { "телефон": "phone|mobile|sms|text" }
+   }
+  ]
+ },
+ {
+  "id": 2891, "w": "take a photo", "uk": "сфотографувати, зробити фото", "lvl": "A1",
+  "forms": "take|takes|took|taken|taking",
+  "tail": "photo*/picture*/pic*/selfie*/shot*",
+  "near": "shoot|snap*|film*|capture*",
+  "tasks": [
+   {
+    "sit": "Ти біля Ейфелевої вежі й просиш перехожого про допомогу.",
+    "say": "Вибачте, можете нас сфотографувати?",
+    "ans": ["Excuse me, can you take a photo of us?", "Excuse me, could you take our photo?", "Sorry, would you take a picture of us?"],
+    "keys": { "нас": "us|our" }
+   },
+   {
+    "sit": "У музеї ти бачиш, що інший турист фотографує картину, а поруч висить табличка.",
+    "say": "Тут не можна фотографувати.",
+    "ans": ["You can’t take photos here.", "Taking photos isn’t allowed here.", "Sorry, you can’t take pictures in here."],
+    "keys": { "не можна": "not|no|forbidden" }
+   },
+   {
+    "sit": "Друзі вже тягнуться виделками до торта, який ти спік.",
+    "say": "Стійте! Спершу я сфотографую торт.",
+    "ans": ["Wait! First I’ll take a photo of the cake.", "Stop! Let me take a photo of the cake first.", "Hold on, I want to take a picture of the cake first!"],
+    "keys": { "торт": "cake", "спершу": "first" }
+   }
+  ]
+ }
+]

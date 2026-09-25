@@ -1,0 +1,639 @@
+[
+ {
+  "id": 1913, "w": "boom", "uk": "бурхливо рости (про економіку, бізнес)", "lvl": "B2",
+  "forms": "boom|booms|boomed|boomed|booming",
+  "near": "grow|grows|growing|grew|thriv*|flourish*|take off|took off|taking off|soar*|expand*",
+  "tasks": [
+   {
+    "sit": "Ти пояснюєш іноземному колезі, чому в Польщі щороку відкривається стільки нових офісів і вакансій.",
+    "say": "Економіка там зараз бурхливо росте.",
+    "ans": ["The economy there is booming right now.", "Their economy has been booming for years.", "Honestly, the economy there is booming at the moment."],
+    "keys": { "економіка": "econom*|market*|business*" }
+   },
+   {
+    "sit": "Ви з другом гуляєте новим районом Львова, де на кожному кроці будуються житлові комплекси.",
+    "say": "Ринок житла тут зараз просто процвітає.",
+    "ans": ["The housing market here is booming.", "The housing market is really booming here right now.", "Wow, real estate is booming around here."],
+    "keys": { "житло": "hous*|property|real estate|home*|apartment*|flat*" }
+   },
+   {
+    "sit": "Ти відкрив онлайн-магазин свічок, і перед Різдвом усе закрутилося. Сестра питає, як справи.",
+    "say": "Бізнес бурхливо росте — замовлень дуже багато.",
+    "ans": ["My business is booming — I have tons of orders.", "Sales are booming, and the orders keep coming in.", "Business is booming, I can barely keep up with the orders!"],
+    "keys": { "бізнес": "business*|shop|store|sales", "замовлення": "order*" }
+   }
+  ]
+ },
+ {
+  "id": 1914, "w": "go bust", "uk": "збанкрутувати, розоритися", "lvl": "C1",
+  "forms": "go|goes|went|gone|going",
+  "tail": "bust",
+  "near": "bankrupt|went under|go under|going under|gone under|fold|folded|close down|closed down|shut down",
+  "tasks": [
+   {
+    "sit": "Колишній колега питає, чому ти раптом шукаєш нову роботу.",
+    "say": "Компанія, де я працював, збанкрутувала.",
+    "ans": ["The company I worked for went bust.", "My old company went bust last spring.", "The firm I was at just went bust, so I’m job hunting."],
+    "keys": { "компанія": "company|firm|business|employer" }
+   },
+   {
+    "sit": "Ти купив квитки в дешевої авіакомпанії, а за тиждень до вильоту приходить новина.",
+    "say": "Авіакомпанія збанкрутувала, і наші квитки тепер нічого не варті.",
+    "ans": ["The airline went bust and our tickets are worthless.", "The airline has gone bust, so our tickets are useless.", "Great, the airline went bust and we lost our tickets."],
+    "keys": { "авіакомпанія": "airline*|carrier|company", "квитки": "ticket*|flight*" }
+   },
+   {
+    "sit": "Твоя улюблена книгарня в центрі зачинилася. Ти пояснюєш подрузі чому.",
+    "say": "Книгарня збанкрутувала — покупців було замало.",
+    "ans": ["The bookshop went bust — there weren’t enough customers.", "The bookstore went bust because it didn’t have enough customers.", "It went bust, sadly — not enough people were buying books."],
+    "keys": { "покупців": "customer*|buyer*|people|client*" }
+   }
+  ]
+ },
+ {
+  "id": 1915, "w": "open an account", "uk": "відкрити рахунок", "lvl": "B1",
+  "forms": "open|opens|opened|opened|opening",
+  "tail": "account*",
+  "near": "set up|sign up|signed up|register*|create*|start an account|started an account",
+  "tasks": [
+   {
+    "sit": "Ти щойно переїхав до Німеччини й прийшов у банк із паспортом.",
+    "say": "Я хотів би відкрити рахунок у євро.",
+    "ans": ["I’d like to open an account in euros.", "I want to open a euro account, please.", "Hi, can I open a euro account here?"],
+    "keys": { "євро": "euro*|eur" }
+   },
+   {
+    "sit": "Твоїй доньці виповнилося чотирнадцять, і вона мріє про власну картку.",
+    "say": "Давай відкриємо тобі рахунок, щоб ти вчилася заощаджувати.",
+    "ans": ["Let’s open an account for you so you can learn to save.", "We’ll open a savings account for you.", "How about we open you an account so you can start saving?"],
+    "keys": { "заощаджувати": "sav*" }
+   },
+   {
+    "sit": "Ти почав працювати фрилансером і отримуєш оплату від іноземних клієнтів.",
+    "say": "Мені треба відкрити окремий рахунок для бізнесу.",
+    "ans": ["I need to open a separate account for my business.", "I have to open a business account.", "I should really open a separate business account."],
+    "keys": { "для бізнесу": "business*|work|freelanc*" }
+   }
+  ]
+ },
+ {
+  "id": 1916, "w": "close an account", "uk": "закрити рахунок", "lvl": "B1",
+  "forms": "close|closes|closed|closed|closing",
+  "tail": "account*",
+  "near": "cancel*|shut down|delete*|terminat*|get rid of|got rid of",
+  "tasks": [
+   {
+    "sit": "Ти помітив, що старий банк щомісяця знімає комісію за картку, якою ти давно не користуєшся.",
+    "say": "Я хочу закрити цей рахунок — я ним не користуюся.",
+    "ans": ["I want to close this account — I don’t use it.", "I’d like to close this account because I never use it.", "I’m closing this account, I don’t even use it."],
+    "keys": { "не користуюся": "not use|never use|not even use|not using|no use|not need" }
+   },
+   {
+    "sit": "Ти переїжджаєш за кордон назавжди й складаєш список справ перед від’їздом.",
+    "say": "Перед від’їздом треба закрити всі рахунки.",
+    "ans": ["I need to close all my accounts before I leave.", "Before I move, I have to close all my accounts.", "I’ve got to close all my bank accounts before leaving."],
+    "keys": { "перед від’їздом": "before|leav*|move*", "всі": "all|every" }
+   },
+   {
+    "sit": "Ти допомагаєш бабусі розібратися з банками: у неї три картки в різних банках.",
+    "say": "Давай закриємо зайві рахунки, щоб не платити за них.",
+    "ans": ["Let’s close the extra accounts so you don’t pay for them.", "We should close the accounts you don’t need, so you stop paying fees.", "Let’s just close the extra accounts and stop paying for them."],
+    "keys": { "зайві": "extra|other|unnecessary|not need|unused|spare", "платити": "pay*|fee*|money" }
+   }
+  ]
+ },
+ {
+  "id": 1917, "w": "deposit", "uk": "вносити (готівку на рахунок)", "lvl": "B1",
+  "forms": "deposit|deposits|deposited|deposited|depositing",
+  "near": "put in|put it in|pay in|paid in|paying in|top up|topped up|transfer*",
+  "tasks": [
+   {
+    "sit": "Бабуся подарувала тобі на день народження конверт із готівкою. Ти стоїш біля банкомата.",
+    "say": "Внесу ці гроші на свій рахунок.",
+    "ans": ["I’ll deposit this cash into my account.", "I’m going to deposit the money into my account.", "Let me just deposit this cash in the bank."],
+    "keys": { "гроші": "cash|money|it|this", "рахунок": "account|bank" }
+   },
+   {
+    "sit": "Ти адміністратор кав’ярні. Увечері в касі назбиралося багато готівки.",
+    "say": "Завтра зранку я внесу виручку в банк.",
+    "ans": ["I’ll deposit the cash at the bank tomorrow morning.", "Tomorrow morning I’m depositing today’s takings.", "I’ll go deposit the cash first thing tomorrow."],
+    "keys": { "завтра зранку": "tomorrow|morning|first thing", "виручка": "cash|money|takings|earnings|revenue|sales" }
+   },
+   {
+    "sit": "Ти продав стару машину, і покупець заплатив готівкою. Друг радить не тримати таку суму вдома.",
+    "say": "Так, я внесу все на рахунок сьогодні ж.",
+    "ans": ["Yes, I’ll deposit it all today.", "I’m going to deposit the whole amount today.", "Yeah, I’ll deposit it today, don’t worry."],
+    "keys": { "сьогодні": "today|now|this afternoon" }
+   }
+  ]
+ },
+ {
+  "id": 1919, "w": "wire", "uk": "переказувати (кошти банківським переказом)", "lvl": "C1",
+  "forms": "wire|wires|wired|wired|wiring",
+  "near": "transfer*|send|sends|sent|sending|pay|paid|paying",
+  "tasks": [
+   {
+    "sit": "Ти купуєш обладнання в постачальника з Італії. Він питає, коли чекати оплату.",
+    "say": "Я переведу кошти сьогодні.",
+    "ans": ["I’ll wire the funds today.", "I’m going to wire you the money today.", "I’ll wire it over to you today."],
+    "keys": { "сьогодні": "today|this afternoon|now" }
+   },
+   {
+    "sit": "Син навчається в Канаді й пише, що йому не вистачає грошей на оренду.",
+    "say": "Не хвилюйся, я перекажу тобі гроші на оренду.",
+    "ans": ["Don’t worry, I’ll wire you the rent money.", "I’ll wire the money for the rent, don’t worry.", "Don’t worry — I’ll wire you some money for the rent."],
+    "keys": { "оренда": "rent*|flat|apartment" }
+   },
+   {
+    "sit": "Тобі пише «директор» з незнайомої пошти й терміново просить гроші. Ти пересилаєш лист колезі.",
+    "say": "Він просить переказати п’ятдесят тисяч на якийсь невідомий рахунок.",
+    "ans": ["He’s asking me to wire fifty thousand to an unknown account.", "He wants me to wire fifty grand to some random account.", "They want us to wire fifty thousand to an account nobody knows."],
+    "keys": { "п’ятдесят тисяч": "fifty|50*", "рахунок": "account*" }
+   }
+  ]
+ },
+ {
+  "id": 1921, "w": "cash a check", "uk": "обготівкувати чек", "lvl": "B2",
+  "forms": "cash|cashes|cashed|cashed|cashing",
+  "tail": "check*/cheque*",
+  "near": "deposit*|pay in|paid in|redeem*|exchange*",
+  "tasks": [
+   {
+    "sit": "На підробітку в США тобі видали зарплату паперовим чеком.",
+    "say": "Мені треба сходити в банк і обготівкувати чек.",
+    "ans": ["I need to go to the bank and cash my check.", "I have to cash this check at the bank.", "I’ve got to swing by the bank to cash my check."],
+    "keys": { "банк": "bank" }
+   },
+   {
+    "sit": "Дідусь з Америки надіслав тобі на день народження чек на сто доларів. Мама питає, чи ти ним скористався.",
+    "say": "Я ще не обготівкував чек від дідуся.",
+    "ans": ["I haven’t cashed Grandpa’s check yet.", "I still haven’t cashed the check from my grandpa.", "Oh, I haven’t even cashed Grandpa’s check!"],
+    "keys": { "дідусь": "grand*" }
+   },
+   {
+    "sit": "Ти виграв фотоконкурс, і приз видали чеком. Розповідаєш про це подрузі.",
+    "say": "Завтра обготівкую чек і пригощу тебе обідом.",
+    "ans": ["I’ll cash the check tomorrow and buy you lunch.", "Tomorrow I’m cashing the check, and then lunch is on me.", "Once I cash the check tomorrow, lunch is on me!"],
+    "keys": { "завтра": "tomorrow", "обід": "lunch|dinner|meal|treat" }
+   }
+  ]
+ },
+ {
+  "id": 1922, "w": "bounce a check", "uk": "виписати чек без покриття", "lvl": "C1",
+  "forms": "bounce|bounces|bounced|bounced|bouncing",
+  "tail": "check*/cheque*",
+  "near": "overdr*|insufficient funds|bad check|no money",
+  "tasks": [
+   {
+    "sit": "Ти переглядаєш банківську виписку й бачиш штраф на тридцять п’ять доларів.",
+    "say": "Схоже, я виписав чек без покриття, і тепер мені штраф.",
+    "ans": ["Looks like I bounced a check, and now there’s a fee.", "I bounced a check and got hit with a fee.", "Ugh, I think I bounced a check — now I have to pay a fine."],
+    "keys": { "штраф": "fee*|fine*|penalt*|charge*" }
+   },
+   {
+    "sit": "Орендодавець телефонує й каже, що твій чек за оренду не пройшов.",
+    "say": "Вибачте, що чек виявився без покриття — я зараз же переведу гроші.",
+    "ans": ["Sorry I bounced the check — I’ll transfer the money now.", "I’m sorry I bounced the rent check; I’ll send the money right away.", "So sorry about bouncing that check, I’ll pay you right now."],
+    "keys": { "вибачте": "sorry|apolog*", "зараз": "now|right away|today|immediately" }
+   },
+   {
+    "sit": "У тебе невелика автомайстерня. Той самий клієнт знову розрахувався чеком, який не пройшов.",
+    "say": "Цей клієнт уже вдруге виписує нам чек без покриття.",
+    "ans": ["This client has bounced a check on us twice now.", "This customer bounced another check — that’s the second time.", "He’s bounced a check on us twice already."],
+    "keys": { "вдруге": "twice|second|again|another" }
+   }
+  ]
+ },
+ {
+  "id": 1923, "w": "balance", "uk": "звіряти баланс (рахунку, чекової книжки)", "lvl": "B2",
+  "forms": "balance|balances|balanced|balanced|balancing",
+  "near": "reconcil*|go through|went through|keep track|kept track|sort out|sorted out",
+  "tasks": [
+   {
+    "sit": "Наприкінці кожного місяця ти сідаєш із банківською випискою та чековою книжкою.",
+    "say": "Я звіряю баланс щомісяця, щоб не було сюрпризів.",
+    "ans": ["I balance my checkbook every month so there are no surprises.", "I balance my account every month to avoid surprises.", "I always balance my checkbook monthly — no surprises that way."],
+    "keys": { "щомісяця": "month*", "сюрпризи": "surprise*|shock*" }
+   },
+   {
+    "sit": "Твій брат-студент отримав першу картку й не розуміє, куди зникають гроші.",
+    "say": "Тобі варто хоча б раз на тиждень звіряти свій рахунок.",
+    "ans": ["You should balance your account at least once a week.", "Try to balance your account every week.", "You really need to balance your account weekly."],
+    "keys": { "раз на тиждень": "week*" }
+   },
+   {
+    "sit": "Ти бухгалтер у невеликій фірмі. Директор питає, чому звіт досі не готовий.",
+    "say": "Я ще звіряю рахунки за вересень.",
+    "ans": ["I’m still balancing the books for September.", "I’m still balancing September’s accounts.", "Still balancing the September books, almost done."],
+    "keys": { "вересень": "september|sept*" }
+   }
+  ]
+ },
+ {
+  "id": 1924, "w": "overdraw", "uk": "перевищити ліміт (піти в мінус на рахунку)", "lvl": "C1",
+  "forms": "overdraw|overdraws|overdrew|overdrawn|overdrawing",
+  "near": "overdraft|in the red|overspen*|spent too much|went over|go over|negative",
+  "tasks": [
+   {
+    "sit": "Ти оплатив квитки на концерт і отримав SMS від банку про мінус на рахунку.",
+    "say": "Чорт, я знову пішов у мінус на рахунку.",
+    "ans": ["Damn, I overdrew my account again.", "I’ve overdrawn my account again.", "Ugh, I overdrew my account again!"],
+    "keys": { "знову": "again|another" }
+   },
+   {
+    "sit": "Ти пояснюєш молодшому братові, як користуватися новою дебетовою карткою.",
+    "say": "Стеж за балансом, щоб не піти в мінус.",
+    "ans": ["Watch your balance so you don’t overdraw your account.", "Keep an eye on your balance so you don’t overdraw.", "Just watch your balance — don’t overdraw your account."],
+    "keys": { "баланс": "balance|money|spending", "не": "not|never|avoid" }
+   },
+   {
+    "sit": "Із банку телефонують і питають про від’ємний баланс на твоєму рахунку.",
+    "say": "Вибачте, я не помітив, що рахунок у мінусі.",
+    "ans": ["Sorry, I didn’t notice my account was overdrawn.", "Sorry, I didn’t realize I’d overdrawn my account.", "Oh, sorry — I had no idea the account was overdrawn."],
+    "keys": { "не помітив": "notic*|realiz*|realis*|no idea|not know|aware|see" }
+   }
+  ]
+ },
+ {
+  "id": 1926, "w": "loan", "uk": "позичити (комусь гроші)", "lvl": "B1",
+  "forms": "loan|loans|loaned|loaned|loaning",
+  "near": "lend|lends|lent|lending|give|gave|giving",
+  "tasks": [
+   {
+    "sit": "Друг не може цього місяця заплатити за квартиру й просить допомоги.",
+    "say": "Я можу позичити тобі двісті доларів до п’ятниці.",
+    "ans": ["I can loan you two hundred dollars until Friday.", "I could loan you two hundred bucks till Friday.", "Sure, I’ll loan you two hundred until Friday."],
+    "keys": { "двісті": "two hundred|200*", "до п’ятниці": "friday" }
+   },
+   {
+    "sit": "Мама радить тобі не давати грошей братові, бо він ніколи не повертає борги.",
+    "say": "Я більше не позичатиму йому грошей.",
+    "ans": ["I’m not going to loan him money anymore.", "I won’t loan him any more money.", "That’s it, I’m done loaning him money."],
+    "keys": { "більше не": "not|never|done|no more|anymore|stop*", "гроші": "money|cash" }
+   },
+   {
+    "sit": "Ти розповідаєш колезі, як починав свою пекарню.",
+    "say": "Батьки позичили мені гроші на перше обладнання.",
+    "ans": ["My parents loaned me money for my first equipment.", "My parents loaned me the money for the equipment.", "My folks loaned me some cash to buy the first equipment."],
+    "keys": { "батьки": "parent*|folks|mom|dad|family", "обладнання": "equipment|gear|tools|machine*|oven*" }
+   }
+  ]
+ },
+ {
+  "id": 1928, "w": "pay off", "uk": "виплатити, погасити (борг, кредит)", "lvl": "B2",
+  "forms": "pay|pays|paid|paid|paying",
+  "tail": "off",
+  "near": "clear*|settle*|repay*|repaid|pay back|paid back",
+  "tasks": [
+   {
+    "sit": "Ви з дружиною щойно зробили останній платіж за квартиру й відкриваєте шампанське.",
+    "say": "Ми нарешті виплатили іпотеку!",
+    "ans": ["We finally paid off the mortgage!", "We’ve finally paid off our mortgage!", "We finally paid the mortgage off — it’s all ours!"],
+    "keys": { "іпотека": "mortgage|house|home|flat|apartment|loan", "нарешті": "finally|at last" }
+   },
+   {
+    "sit": "Друг питає, чому ти досі їздиш на старій машині, хоча вже добре заробляєш.",
+    "say": "Спочатку хочу погасити студентський кредит.",
+    "ans": ["First I want to pay off my student loan.", "I want to pay off my student loans first.", "I’d rather pay off my student debt first."],
+    "keys": { "студентський кредит": "student*|loan*|debt*", "спочатку": "first|before" }
+   },
+   {
+    "sit": "Ти в автосалоні обговорюєш із консультантом умови автокредиту.",
+    "say": "Я хочу погасити кредит за три роки, не довше.",
+    "ans": ["I want to pay off the loan in three years.", "I’d like to pay the loan off within three years.", "Ideally I’d pay it off in three years, max."],
+    "keys": { "три роки": "three|3" }
+   }
+  ]
+ },
+ {
+  "id": 1929, "w": "take out a loan", "uk": "взяти кредит", "lvl": "B2",
+  "forms": "take|takes|took|taken|taking",
+  "tail": "out loan*",
+  "near": "borrow*|get a loan|got a loan|apply for|applied for",
+  "tasks": [
+   {
+    "sit": "Ви з дружиною рахуєте, чи вистачить заощаджень на власне житло.",
+    "say": "На квартиру нам доведеться взяти кредит.",
+    "ans": ["We’ll have to take out a loan for the apartment.", "We’re going to need to take out a loan to buy a flat.", "I guess we’ll have to take out a loan for the place."],
+    "keys": { "квартира": "apartment|flat|home|house|place" }
+   },
+   {
+    "sit": "Ти хочеш відкрити кав’ярню, але заощаджень вистачає лише на половину.",
+    "say": "Я візьму кредит на решту.",
+    "ans": ["I’ll take out a loan for the rest.", "I’m going to take out a loan to cover the rest.", "I’ll just take out a loan for the rest of it."],
+    "keys": { "решту": "rest|remaining|other half|difference" }
+   },
+   {
+    "sit": "Друг хоче купити новий смартфон у кредит.",
+    "say": "Не бери кредит на телефон, це погана ідея.",
+    "ans": ["Don’t take out a loan for a phone, it’s a bad idea.", "Taking out a loan for a phone is a bad idea.", "Seriously, don’t take out a loan just for a phone."],
+    "keys": { "телефон": "phone*|smartphone*|iphone*" }
+   }
+  ]
+ },
+ {
+  "id": 1930, "w": "default", "uk": "допустити дефолт, не виплатити (кредит)", "lvl": "C1",
+  "forms": "default|defaults|defaulted|defaulted|defaulting",
+  "near": "stop paying|stopped paying|miss* payment*|missed payment*|fail* to pay|behind on",
+  "tasks": [
+   {
+    "sit": "Ти читаєш новини про боргову кризу в одній країні й обговорюєш їх із колегою.",
+    "say": "Країна може оголосити дефолт за боргами вже цього року.",
+    "ans": ["The country could default on its debt this year.", "The country might default on its debts as early as this year.", "They could actually default on their debt this year."],
+    "keys": { "цього року": "this year|year", "борги": "debt*|loan*|bond*" }
+   },
+   {
+    "sit": "Ти працюєш у банку й пояснюєш стажерові, чому клієнту відмовили в кредиті.",
+    "say": "Він уже двічі не виплатив кредит.",
+    "ans": ["He has defaulted on a loan twice.", "He’s already defaulted on two loans.", "The guy’s defaulted on loans twice already."],
+    "keys": { "двічі": "twice|two|2" }
+   },
+   {
+    "sit": "Друг хоче стати поручителем за кредитом свого знайомого.",
+    "say": "Якщо він не платитиме, борг ляже на тебе.",
+    "ans": ["If he defaults on the loan, you’ll have to pay the debt.", "If he defaults, the debt is on you.", "If the guy defaults, you’re stuck with the debt."],
+    "keys": { "ти": "you", "борг": "debt*|pay*|loan*" }
+   }
+  ]
+ },
+ {
+  "id": 1931, "w": "refinance", "uk": "рефінансувати", "lvl": "C1",
+  "forms": "refinance|refinances|refinanced|refinanced|refinancing",
+  "near": "remortgag*|renegotiat*|restructur*",
+  "tasks": [
+   {
+    "sit": "Ставки по іпотеці помітно впали, і ти обговорюєш це з дружиною.",
+    "say": "Може, варто рефінансувати іпотеку під нижчий відсоток?",
+    "ans": ["Maybe we should refinance the mortgage at a lower rate?", "Should we refinance our mortgage to get a lower rate?", "Why don’t we refinance the mortgage at a lower rate?"],
+    "keys": { "нижчий відсоток": "lower|cheaper|better|less", "іпотека": "mortgage|loan|house|home" }
+   },
+   {
+    "sit": "На нараді фінансовий директор пояснює план на рік. Ти коротко переказуєш його команді.",
+    "say": "Компанія рефінансує борг, щоб зекономити на відсотках.",
+    "ans": ["The company is refinancing its debt to save on interest.", "We’re going to refinance our debt to save on interest.", "We’ll refinance the debt and save on interest payments."],
+    "keys": { "зекономити": "sav*|cheaper|less|lower|cut", "відсотки": "interest|rate*" }
+   },
+   {
+    "sit": "Колись ти взяв автокредит під високий відсоток, а тепер твоя кредитна історія значно краща.",
+    "say": "Я рефінансував автокредит і тепер плачу на сотню менше.",
+    "ans": ["I refinanced my car loan and now I pay a hundred dollars less.", "I’ve refinanced my car loan, so I’m paying a hundred bucks less.", "I refinanced the car loan — I’m saving a hundred a month now."],
+    "keys": { "машина": "car|auto|vehicle", "сотня": "hundred|100" }
+   }
+  ]
+ },
+ {
+  "id": 1932, "w": "restructure debt", "uk": "реструктурувати борг", "lvl": "C1",
+  "forms": "restructure|restructures|restructured|restructured|restructuring",
+  "tail": "debt*",
+  "near": "refinanc*|renegotiat*|reschedul*|consolidat*",
+  "tasks": [
+   {
+    "sit": "Бабуся почула в новинах про міжнародних кредиторів і просить пояснити.",
+    "say": "Україна домовилася реструктурувати свій борг.",
+    "ans": ["Ukraine agreed to restructure its debt.", "Ukraine has reached a deal to restructure its debt.", "Ukraine managed to restructure its debt with the creditors."],
+    "keys": { "Україна": "ukrain*", "домовилася": "agree*|deal|managed|negotiat*" }
+   },
+   {
+    "sit": "Ти працюєш у фінвідділі заводу, який уже кілька місяців не платить банкам вчасно.",
+    "say": "Нам треба реструктурувати борг, інакше ми збанкрутуємо.",
+    "ans": ["We need to restructure our debt or we’ll go bankrupt.", "We have to restructure the debt, otherwise we’ll go under.", "We’ve got to restructure our debt, or we’re finished."],
+    "keys": { "збанкрутуємо": "bankrupt*|go under|bust|finished|clos*|collapse" }
+   },
+   {
+    "sit": "Сусід утратив роботу й не тягне щомісячні платежі за кредитом. Ти даєш пораду.",
+    "say": "Попроси банк реструктурувати твій борг.",
+    "ans": ["Ask the bank to restructure your debt.", "You should ask your bank to restructure the debt.", "Why not ask the bank to restructure your debt?"],
+    "keys": { "банк": "bank|lender" }
+   }
+  ]
+ },
+ {
+  "id": 1933, "w": "foreclose", "uk": "стягнути заставне майно (про банк)", "lvl": "C1",
+  "forms": "foreclose|forecloses|foreclosed|foreclosed|foreclosing",
+  "near": "repossess*|seiz*|take the house|took the house|take away|took away",
+  "tasks": [
+   {
+    "sit": "Сусіди довго не платили іпотеку, і тепер на їхньому паркані висить табличка банку.",
+    "say": "Банк забрав їхній будинок за борги.",
+    "ans": ["The bank foreclosed on their house.", "The bank has foreclosed on their home.", "Sadly, the bank foreclosed on their house."],
+    "keys": { "будинок": "house|home|place|property" }
+   },
+   {
+    "sit": "Друг шукає дешеве житло й переглядає аукціони нерухомості.",
+    "say": "Ці будинки дешеві, бо банки забрали їх за борги.",
+    "ans": ["These houses are cheap because the banks foreclosed on them.", "They’re cheap because the bank foreclosed on them.", "These are cheap — the banks foreclosed on them."],
+    "keys": { "дешеві": "cheap*|low|bargain*" }
+   },
+   {
+    "sit": "Ти юрист банку. Клієнт питає, що буде, якщо він пропустить ще кілька платежів.",
+    "say": "Якщо ви не заплатите до березня, банк стягне заставне майно.",
+    "ans": ["If you don’t pay by March, the bank will foreclose.", "If you don’t pay by March, we’ll have to foreclose on the property.", "Unless you pay by March, the bank will foreclose on the house."],
+    "keys": { "березень": "march", "заплатите": "pay*|payment*" }
+   }
+  ]
+ },
+ {
+  "id": 1934, "w": "file for bankruptcy", "uk": "подати заяву про банкрутство", "lvl": "C1",
+  "forms": "file|files|filed|filed|filing",
+  "tail": "for bankruptcy",
+  "near": "go bankrupt|went bankrupt|gone bankrupt|go bust|went bust|go under|went under|declar* bankruptcy",
+  "tasks": [
+   {
+    "sit": "Ти читаєш новини про відому мережу магазинів одягу.",
+    "say": "Мережа подала на банкрутство й закриває всі магазини.",
+    "ans": ["The chain filed for bankruptcy and is closing all its stores.", "The chain has filed for bankruptcy, and all its stores are closing.", "They just filed for bankruptcy — every store is shutting down."],
+    "keys": { "закриває": "clos*|shut*", "магазини": "store*|shop*" }
+   },
+   {
+    "sit": "Твій ресторан два роки працює в мінус. Ти радишся з юристом.",
+    "say": "Здається, у мене немає іншого вибору, крім як подати на банкрутство.",
+    "ans": ["I have no choice but to file for bankruptcy.", "It seems I have no other option except to file for bankruptcy.", "I guess I’ve got no choice but to file for bankruptcy."],
+    "keys": { "немає вибору": "no choice|no option|no other|only option|have to" }
+   },
+   {
+    "sit": "Двоюрідний брат набрав боргів на кредитках і питає твоєї поради.",
+    "say": "Подавати на банкрутство — це крайній захід.",
+    "ans": ["Filing for bankruptcy is a last resort.", "You should only file for bankruptcy as a last resort.", "Honestly, filing for bankruptcy is the very last resort."],
+    "keys": { "крайній захід": "last resort|last option|extreme*" }
+   }
+  ]
+ },
+ {
+  "id": 1935, "w": "buy stocks", "uk": "купувати акції", "lvl": "B1",
+  "forms": "buy|buys|bought|bought|buying",
+  "tail": "stock*/share*",
+  "near": "invest*|purchas*|put money",
+  "tasks": [
+   {
+    "sit": "Ти отримав річну премію й думаєш, що з нею робити.",
+    "say": "Я хочу купити акції на частину премії.",
+    "ans": ["I want to buy stocks with part of my bonus.", "I’m going to buy some stocks with part of the bonus.", "I think I’ll buy stocks with some of my bonus."],
+    "keys": { "премія": "bonus", "частину": "part|some|half" }
+   },
+   {
+    "sit": "Ринок упав на десять відсотків, і друг у паніці.",
+    "say": "Навпаки, зараз хороший час купувати акції.",
+    "ans": ["Actually, now is a good time to buy stocks.", "It’s actually a great time to buy stocks.", "Now’s the time to buy stocks, not sell!"],
+    "keys": { "зараз": "now|moment|time" }
+   },
+   {
+    "sit": "Твій п’ятнадцятирічний син питає, як люди заробляють на біржі.",
+    "say": "Люди купують акції компаній і чекають, поки вони подорожчають.",
+    "ans": ["People buy stocks in companies and wait for them to go up.", "People buy company stocks and wait until they rise.", "You buy stocks in a company and wait for the price to go up."],
+    "keys": { "компаній": "compan*|business*|firm*", "подорожчають": "go up|rise|grow|increase|higher|worth more" }
+   }
+  ]
+ },
+ {
+  "id": 1936, "w": "sell stocks", "uk": "продавати акції", "lvl": "B1",
+  "forms": "sell|sells|sold|sold|selling",
+  "tail": "stock*/share*",
+  "near": "dump*|cash out|cashed out|get out|got out|unload*",
+  "tasks": [
+   {
+    "sit": "Акції, які ти купив рік тому, подорожчали вдвічі.",
+    "say": "Думаю, пора продати акції й зафіксувати прибуток.",
+    "ans": ["I think it’s time to sell my stocks and take the profit.", "I think I should sell the stocks and lock in the profit.", "Time to sell those stocks and take my profit, I think."],
+    "keys": { "прибуток": "profit*|gain*|cash in|money" }
+   },
+   {
+    "sit": "На весілля не вистачає грошей, і наречена питає, що робити.",
+    "say": "Я продам частину акцій, щоб оплатити весілля.",
+    "ans": ["I’ll sell some stocks to pay for the wedding.", "I’m going to sell some of my stocks for the wedding.", "I’ll just sell a few stocks to cover the wedding."],
+    "keys": { "весілля": "wedding" }
+   },
+   {
+    "sit": "У новинах кажуть, що нова криза неминуча, і колега вже лізе в застосунок брокера.",
+    "say": "Не продавай акції через одну новину.",
+    "ans": ["Don’t sell your stocks because of one piece of news.", "Don’t sell stocks just because of one headline.", "Come on, don’t sell your stocks over one news story."],
+    "keys": { "новину": "news|headline*|article*|story" }
+   }
+  ]
+ },
+ {
+  "id": 1937, "w": "short", "uk": "шортити (грати на пониження)", "lvl": "C1",
+  "forms": "short|shorts|shorted|shorted|shorting",
+  "near": "bet against|betting against|bets against",
+  "tasks": [
+   {
+    "sit": "Ти трейдер-аматор і вважаєш, що акції однієї хайпової компанії сильно переоцінені.",
+    "say": "Я зашортив цю акцію, бо впевнений, що вона впаде.",
+    "ans": ["I shorted this stock because I’m sure it will fall.", "I’ve shorted the stock — I’m sure it’s going to drop.", "I shorted it, I’m sure it’s going down."],
+    "keys": { "впаде": "fall*|drop*|go down|going down|crash*|tank*" }
+   },
+   {
+    "sit": "Колега-аналітик розповідає про фонд, який заробив мільярд на фінансовій кризі.",
+    "say": "Вони шортили банки перед кризою.",
+    "ans": ["They shorted the banks before the crisis.", "They were shorting bank stocks before the crash.", "They shorted banks right before the crisis hit."],
+    "keys": { "банки": "bank*", "перед кризою": "before|crisis|crash" }
+   },
+   {
+    "sit": "Друг хоче зашортити популярну криптомонету на всі свої заощадження.",
+    "say": "Не шорть на всі гроші, це дуже ризиковано.",
+    "ans": ["Don’t short it with all your money, it’s too risky.", "Don’t short with all your savings — it’s really risky.", "Shorting with all your savings? That’s way too risky."],
+    "keys": { "всі гроші": "all|everything|savings", "ризиковано": "risk*|dangerous|crazy" }
+   }
+  ]
+ },
+ {
+  "id": 1938, "w": "go long", "uk": "купити надовго (відкрити довгу позицію)", "lvl": "C1",
+  "forms": "go|goes|went|gone|going",
+  "tail": "long",
+  "near": "buy|buys|bought|buying|invest*|hold|holding|held",
+  "tasks": [
+   {
+    "sit": "Ти віриш у майбутнє сонячної енергетики й розповідаєш знайомому про свою стратегію.",
+    "say": "Я відкрив довгу позицію по сонячних компаніях.",
+    "ans": ["I went long on solar companies.", "I’ve gone long on solar stocks.", "I’m going long on solar — I really believe in it."],
+    "keys": { "сонячних": "solar|sun*" }
+   },
+   {
+    "sit": "Керівник торгового відділу питає, що ти робиш із нафтою після свіжих новин.",
+    "say": "Я купую нафту надовго — ціна ще зросте.",
+    "ans": ["I’m going long on oil — the price will rise.", "I went long on oil because prices will climb.", "I’m going long oil, prices are heading higher."],
+    "keys": { "нафта": "oil|crude", "зросте": "rise*|up|higher|climb*|increase*" }
+   },
+   {
+    "sit": "Подруга питає, чи варто купувати акції на кілька днів, щоб швидко заробити.",
+    "say": "Я б краще купив надовго — так спокійніше.",
+    "ans": ["I’d rather go long — it’s less stressful.", "Honestly, I’d go long instead; it’s calmer.", "I’d just go long and stop worrying."],
+    "keys": { "спокійніше": "stress*|calm*|worry*|relax*|easier|peace*" }
+   }
+  ]
+ },
+ {
+  "id": 1940, "w": "exchange", "uk": "обмінювати (валюту)", "lvl": "B1",
+  "forms": "exchange|exchanges|exchanged|exchanged|exchanging",
+  "near": "change|changes|changed|changing|convert*|swap*",
+  "tasks": [
+   {
+    "sit": "Ти в аеропорту Стамбула, і тобі потрібні ліри на таксі.",
+    "say": "Де тут можна обміняти долари?",
+    "ans": ["Where can I exchange dollars here?", "Is there somewhere I can exchange dollars?", "Excuse me, where can I exchange some dollars?"],
+    "keys": { "долари": "dollar*|usd|money|cash", "де": "where|somewhere" }
+   },
+   {
+    "sit": "Друг летить до Польщі й питає, де вигідніше міняти гроші.",
+    "say": "Краще обміняти гроші в місті, бо в аеропорту поганий курс.",
+    "ans": ["It’s better to exchange money in town — the airport rate is bad.", "Exchange your money in the city, the rate at the airport is terrible.", "Better exchange it downtown; airport rates are awful."],
+    "keys": { "аеропорт": "airport", "курс": "rate*|expensive|price*" }
+   },
+   {
+    "sit": "Ти повернувся з відпустки, і в гаманці залишилися євро.",
+    "say": "Обміняю залишок євро назад на гривні.",
+    "ans": ["I’ll exchange the leftover euros back into hryvnias.", "I’m going to exchange my remaining euros for hryvnias.", "I’ll just exchange the rest of the euros back."],
+    "keys": { "євро": "euro*", "залишок": "leftover|remaining|rest|left" }
+   }
+  ]
+ },
+ {
+  "id": 1941, "w": "bid", "uk": "робити ставку (на аукціоні)", "lvl": "B2",
+  "forms": "bid|bids|bid|bid|bidding",
+  "near": "offer*|bet|bets|betting",
+  "tasks": [
+   {
+    "sit": "Ти на онлайн-аукціоні полюєш на вінтажний фотоапарат.",
+    "say": "Я зроблю ставку до ста доларів, не більше.",
+    "ans": ["I’ll bid up to a hundred dollars, no more.", "I’m going to bid a hundred dollars max.", "I’ll bid a hundred, not a cent more."],
+    "keys": { "сто": "hundred|100" }
+   },
+   {
+    "sit": "На благодійному шкільному аукціоні продають картину, яку намалювали діти.",
+    "say": "Давай зробимо ставку на цю картину — гроші підуть на добру справу.",
+    "ans": ["Let’s bid on this painting — the money goes to a good cause.", "We should bid on the painting, it’s for a good cause.", "Come on, let’s bid on it — it’s for charity!"],
+    "keys": { "добра справа": "cause|charity|kids|school|good" }
+   },
+   {
+    "sit": "Ви з дружиною хочете купити будинок, але на нього вже є інші охочі.",
+    "say": "Кілька людей уже роблять ставки на цей будинок.",
+    "ans": ["Several people are already bidding on this house.", "A few people have already bid on the house.", "There are already a few people bidding on it."],
+    "keys": { "кілька людей": "several|few|people|others|buyers" }
+   }
+  ]
+ },
+ {
+  "id": 1942, "w": "outbid", "uk": "перебити ставку", "lvl": "C1",
+  "forms": "outbid|outbids|outbid|outbid|outbidding",
+  "near": "beat|beats|beaten|beating|offer* more|paid more|pay more",
+  "tasks": [
+   {
+    "sit": "Колега питає, чому ти так і не купив квартиру своєї мрії.",
+    "say": "Хтось перебив нашу ставку в останню хвилину.",
+    "ans": ["Someone outbid us at the last minute.", "We got outbid at the last minute.", "Some guy outbid us right at the last minute!"],
+    "keys": { "в останню хвилину": "last minute|last second|end" }
+   },
+   {
+    "sit": "Ти стежиш за онлайн-аукціоном на рідкісну гітару й бачиш сповіщення.",
+    "say": "Мене знову перебили — ставка вже п’ятсот доларів.",
+    "ans": ["I’ve been outbid again — it’s already five hundred dollars.", "Someone outbid me again, the price is five hundred now.", "Ugh, I got outbid again! It’s up to five hundred already."],
+    "keys": { "знову": "again", "п’ятсот": "five hundred|500*" }
+   },
+   {
+    "sit": "Ти фанат футболу й читаєш новини про гучний трансфер.",
+    "say": "«Реал» перебив ставки всіх інших клубів.",
+    "ans": ["Real Madrid outbid all the other clubs.", "Real outbid every other club for him.", "Real Madrid just outbid everyone else."],
+    "keys": { "всіх": "all|every*|other*" }
+   }
+  ]
+ }
+]

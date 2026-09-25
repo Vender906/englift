@@ -1,0 +1,629 @@
+[
+ {
+  "id": 1318, "w": "reload", "uk": "перезаряджати (зброю)", "lvl": "B2",
+  "forms": "reload|reloads|reloaded|reloaded|reloading",
+  "near": "load|loads|loaded|loading|refill*|change mag*|changing mag*",
+  "tasks": [
+   {
+    "sit": "Ви з другом граєте в онлайн-шутер, і в тебе скінчилися набої.",
+    "say": "Прикрий мене, я перезаряджаю!",
+    "ans": ["Cover me, I’m reloading!", "Cover me while I reload!", "Cover me — I need to reload!"],
+    "keys": { "прикрий": "cover*|protect*|watch" }
+   },
+   {
+    "sit": "Інструктор у тирі пояснює правила, і ти перепитуєш.",
+    "say": "Після кожних десяти пострілів треба перезаряджати пістолет?",
+    "ans": ["Do I need to reload the pistol after every ten shots?", "Should I reload after each ten shots?", "So I reload after every ten shots?"],
+    "keys": { "десять": "ten|10", "постріли": "shot*|round*|bullet*" }
+   },
+   {
+    "sit": "Ви дивитеся вестерн, і головний герой ховається за бочкою від бандитів.",
+    "say": "У нього скінчилися кулі, йому треба перезарядити револьвер.",
+    "ans": ["He’s out of bullets, he needs to reload his revolver.", "He ran out of bullets, so he has to reload.", "He’s out of bullets — he’s got to reload!"],
+    "keys": { "кулі": "bullet*|ammo|round*|shot*", "скінчилися": "out|empty|no more" }
+   }
+  ]
+ },
+ {
+  "id": 1319, "w": "load", "uk": "заряджати (зброю)", "lvl": "B2",
+  "forms": "load|loads|loaded|loaded|loading",
+  "near": "reload*|arm|armed|charg*|put in|fill*",
+  "tasks": [
+   {
+    "sit": "Ви з батьком на полюванні, і він показує, як безпечно поводитися з рушницею.",
+    "say": "Не заряджай рушницю, поки ми не дійдемо до місця.",
+    "ans": ["Don’t load the rifle until we get to the spot.", "Don’t load the gun before we reach the spot.", "Wait to load the rifle until we get there."],
+    "keys": { "рушниця": "rifle*|gun*|shotgun*", "місце": "spot|place|there|reach*" }
+   },
+   {
+    "sit": "У музеї ви з другом розглядаєте старовинну гармату.",
+    "say": "Цікаво, скільки часу займало зарядити таку гармату?",
+    "ans": ["I wonder how long it took to load a cannon like this.", "How long did it take to load this cannon, I wonder?", "I wonder how long it took them to load one of these cannons."],
+    "keys": { "гармата": "cannon*|gun*", "скільки часу": "how long|time" }
+   },
+   {
+    "sit": "На пейнтболі інструктор роздає маркери, а ти тримаєш свій уперше.",
+    "say": "А як зарядити цей маркер кульками?",
+    "ans": ["How do I load this marker with paintballs?", "How do you load paintballs into this gun?", "So how do I load this thing with paintballs?"],
+    "keys": { "кульки": "ball*|paint*|ammo", "як": "how" }
+   }
+  ]
+ },
+ {
+  "id": 1320, "w": "stab", "uk": "колоти, поранити (ножем)", "lvl": "B2",
+  "forms": "stab|stabs|stabbed|stabbed|stabbing",
+  "near": "knifed|cut|cuts|cutting|slash*|pierc*|poke*|prick*|wound*",
+  "tasks": [
+   {
+    "sit": "Ти читаєш кримінальну хроніку в новинах і переказуєш дружині.",
+    "say": "Біля вокзалу чоловіка поранили ножем.",
+    "ans": ["A man was stabbed near the train station.", "Someone stabbed a man near the station.", "A guy got stabbed outside the station."],
+    "keys": { "вокзал": "station|terminal", "чоловік": "man|guy|someone" }
+   },
+   {
+    "sit": "Ти вариш картоплю, а молодша сестра питає, як зрозуміти, що вона готова.",
+    "say": "Проткни картоплину виделкою — якщо мʼяка, то готова.",
+    "ans": ["Stab a potato with a fork — if it’s soft, it’s done.", "Just stab one with a fork; if it’s soft, it’s ready.", "Stab it with a fork — if it’s soft, it’s done."],
+    "keys": { "виделка": "fork", "мʼяка": "soft|tender" }
+   },
+   {
+    "sit": "Друг у поході відкриває консерву ножем, тримаючи її в долоні.",
+    "say": "Обережно, не проколи собі руку!",
+    "ans": ["Careful, don’t stab yourself in the hand!", "Watch out, you’ll stab your hand!", "Careful — don’t stab your hand with that knife!"],
+    "keys": { "рука": "hand*|palm*", "обережно": "careful|watch out|not" }
+   }
+  ]
+ },
+ {
+  "id": 1321, "w": "strike", "uk": "наносити удар, вдаряти", "lvl": "B2",
+  "forms": "strike|strikes|struck|struck/stricken|striking",
+  "near": "hit|hits|hitting|punch*|smack*|bang*|attack*|bomb*",
+  "tasks": [
+   {
+    "sit": "Під час грози ти з вікна бачиш яскравий спалах у сусідньому дворі.",
+    "say": "Здається, блискавка вдарила в стару вербу!",
+    "ans": ["I think lightning struck the old willow!", "Looks like lightning just struck the old willow tree!", "Whoa, lightning struck that old willow!"],
+    "keys": { "блискавка": "lightning", "верба": "willow*|tree*" }
+   },
+   {
+    "sit": "Ти переказуєш колезі нічні новини.",
+    "say": "Наші дрони вдарили по нафтобазі під Брянськом.",
+    "ans": ["Our drones struck an oil depot near Bryansk.", "An oil depot near Bryansk was struck by our drones.", "Our drones struck an oil depot outside Bryansk."],
+    "keys": { "дрони": "drone*|uav*", "нафтобаза": "oil*|fuel*|depot*" }
+   },
+   {
+    "sit": "Друг питає, чим айкідо відрізняється від боксу.",
+    "say": "В айкідо ти ніколи не наносиш удару першим.",
+    "ans": ["In aikido, you never strike first.", "Aikido teaches you never to strike first.", "In aikido you don’t strike first — you just defend."],
+    "keys": { "першим": "first", "ніколи": "never|not" }
+   }
+  ]
+ },
+ {
+  "id": 1323, "w": "detonate", "uk": "підривати", "lvl": "C1",
+  "forms": "detonate|detonates|detonated|detonated|detonating",
+  "near": "blow up|blew up|blown up|blowing up|explod*|set off|setting off",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш сусідові, чому зранку в селі пролунав гучний вибух.",
+    "say": "Сапери підірвали знайдену міну просто в полі.",
+    "ans": ["The sappers detonated the mine right in the field.", "The bomb squad detonated the mine they found in the field.", "They just detonated the mine right there in the field."],
+    "keys": { "міна": "mine*|explosive*|bomb*", "поле": "field*" }
+   },
+   {
+    "sit": "Ви дивитеся бойовик, і лиходій тримає в руці пульт.",
+    "say": "Він підірве бомбу, якщо вони підійдуть ближче!",
+    "ans": ["He’ll detonate the bomb if they get any closer!", "If they come closer, he’s going to detonate the bomb!", "One step closer and he’ll detonate the bomb!"],
+    "keys": { "бомба": "bomb*|device|explosive*", "ближче": "closer|nearer" }
+   },
+   {
+    "sit": "Ти працюєш у каменоломні й пояснюєш групі туристів правила безпеки.",
+    "say": "О дванадцятій ми підриваємо заряди, тож усім треба відійти.",
+    "ans": ["We detonate the charges at twelve, so everyone needs to move back.", "At noon we’ll detonate the explosives, so everybody has to step back.", "We’re detonating at twelve, so please move back, everyone."],
+    "keys": { "дванадцята": "twelve|12*|noon|midday", "відійти": "back|away|clear" }
+   }
+  ]
+ },
+ {
+  "id": 1324, "w": "disarm", "uk": "знешкоджувати, роззброювати", "lvl": "C1",
+  "forms": "disarm|disarms|disarmed|disarmed|disarming",
+  "near": "defus*|neutraliz*|neutralis*|deactivat*|make safe|take away|took away",
+  "tasks": [
+   {
+    "sit": "Ти читаєш про роботу саперів на звільнених територіях і ділишся з колегою.",
+    "say": "Сапери знешкодили понад сто мін за тиждень.",
+    "ans": ["Sappers disarmed over a hundred mines in a week.", "The deminers disarmed more than 100 mines in one week.", "They disarmed over a hundred mines in just a week."],
+    "keys": { "міни": "mine*", "тиждень": "week*", "сто": "hundred|100" }
+   },
+   {
+    "sit": "Ви дивитеся трилер, а на таймері бомби лишилося десять секунд.",
+    "say": "Він не встигне знешкодити бомбу!",
+    "ans": ["He won’t have time to disarm the bomb!", "He’s not going to disarm the bomb in time!", "There’s no way he can disarm that bomb in time!"],
+    "keys": { "бомба": "bomb|device", "встигне": "time" }
+   },
+   {
+    "sit": "На курсі самооборони ти розповідаєш подрузі, чого вас сьогодні навчили.",
+    "say": "Цей прийом допомагає роззброїти нападника з ножем.",
+    "ans": ["This move helps you disarm an attacker with a knife.", "You can use this move to disarm someone with a knife.", "This technique lets you disarm a guy with a knife."],
+    "keys": { "ніж": "knife|knives|blade", "прийом": "move|technique|trick|hold" }
+   }
+  ]
+ },
+ {
+  "id": 1326, "w": "maneuver", "uk": "маневрувати", "lvl": "C1",
+  "forms": "maneuver/manoeuvre|maneuvers/manoeuvres|maneuvered/manoeuvred|maneuvered/manoeuvred|maneuvering/manoeuvring",
+  "near": "steer*|navigat*|squeez*|move|moved|moving|weav*|turn around",
+  "tasks": [
+   {
+    "sit": "Ти намагаєшся припаркуватися у вузькому дворі, а друг підказує з тротуару.",
+    "say": "Тут важко маневрувати — забагато машин.",
+    "ans": ["It’s hard to maneuver here — there are too many cars.", "Maneuvering here is tricky with so many cars.", "There’s no room to maneuver with all these cars."],
+    "keys": { "машини": "car*|vehicle*", "забагато": "too many|so many|all these|many|lot*" }
+   },
+   {
+    "sit": "Іноземний журналіст питає тебе, чому лінія фронту постійно змінюється.",
+    "say": "Наші бригади маневрують, щоб не потрапити в оточення.",
+    "ans": ["Our brigades are maneuvering to avoid being surrounded.", "Our units maneuver so they don’t get encircled.", "Our brigades keep maneuvering so they don’t get surrounded."],
+    "keys": { "оточення": "surround*|encircl*|trap*|cut off" }
+   },
+   {
+    "sit": "Ви з другом заносите новий диван вузькими сходами.",
+    "say": "Треба обережно маневрувати, тут вузький поворот.",
+    "ans": ["We need to maneuver carefully, it’s a tight turn here.", "Let’s maneuver it slowly — the corner is really narrow.", "Careful, we have to maneuver around this tight corner."],
+    "keys": { "поворот": "turn|corner|bend", "вузький": "tight|narrow|small" }
+   }
+  ]
+ },
+ {
+  "id": 1327, "w": "outflank", "uk": "обходити з флангу", "lvl": "C1",
+  "forms": "outflank|outflanks|outflanked|outflanked|outflanking",
+  "near": "flank|flanks|flanked|flanking|surround*|go around|went around|get behind|encircl*|outmaneuver*",
+  "tasks": [
+   {
+    "sit": "Ви з другом граєте в онлайн-стратегію, і ворожа армія стоїть у полі.",
+    "say": "Ти тримай центр, а я обійду їх з флангу.",
+    "ans": ["You hold the center, and I’ll outflank them.", "Hold the middle while I outflank them.", "You keep the center busy — I’ll outflank them."],
+    "keys": { "центр": "cent*|middle|front" }
+   },
+   {
+    "sit": "Ти готуєшся до іспиту з історії разом з одногрупником.",
+    "say": "Під Каннами Ганнібал обійшов римлян з обох флангів.",
+    "ans": ["Hannibal outflanked the Romans on both sides at Cannae.", "At Cannae, Hannibal outflanked the Romans from both sides.", "Hannibal outflanked the Romans on both wings at Cannae."],
+    "keys": { "римляни": "roman*", "обох": "both|two" }
+   },
+   {
+    "sit": "На нараді з маркетингу ти пропонуєш стратегію проти великих конкурентів.",
+    "say": "Ми можемо обійти конкурентів з флангу, якщо запустимо дешевшу версію.",
+    "ans": ["We can outflank our competitors if we launch a cheaper version.", "If we launch a cheaper version, we’ll outflank the competition.", "A cheaper version would let us outflank our rivals."],
+    "keys": { "конкуренти": "compet*|rival*", "дешевша": "cheap*|budget|lower price*" }
+   }
+  ]
+ },
+ {
+  "id": 1328, "w": "intercept", "uk": "перехоплювати", "lvl": "C1",
+  "forms": "intercept|intercepts|intercepted|intercepted|intercepting",
+  "near": "shoot down|shot down|catch|caught|catching|stop|stopped|block*|steal|stole",
+  "tasks": [
+   {
+    "sit": "Уранці сусід питає, що це були за вибухи вночі.",
+    "say": "Це ППО перехопила кілька дронів над містом.",
+    "ans": ["Air defense intercepted several drones over the city.", "Our air defense intercepted a few drones above the city.", "That was air defense intercepting some drones over the city."],
+    "keys": { "дрони": "drone*|shahed*|uav*", "ППО": "air defen*|defen*" }
+   },
+   {
+    "sit": "Ти дивишся матч із друзями й емоційно коментуєш.",
+    "say": "Наш захисник перехопив пас!",
+    "ans": ["Our defender intercepted the pass!", "Our defender just intercepted the pass and he’s off!", "Nice, our defender intercepted the pass!"],
+    "keys": { "пас": "pass|ball", "захисник": "defender|player|guy" }
+   },
+   {
+    "sit": "Ти працюєш в айті й пояснюєш колегам, чому не варто користуватися відкритим вайфаєм у кафе.",
+    "say": "Хакери можуть перехопити ваші паролі.",
+    "ans": ["Hackers can intercept your passwords.", "Your passwords could be intercepted by hackers.", "Someone could easily intercept your passwords."],
+    "keys": { "паролі": "password*|login*|data" }
+   }
+  ]
+ },
+ {
+  "id": 1329, "w": "scout", "uk": "розвідувати", "lvl": "C1",
+  "forms": "scout|scouts|scouted|scouted|scouting",
+  "near": "explor*|recon*|check out|checked out|check it out|survey*|look around|looked around",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш другові, чим займається твій брат в армії.",
+    "say": "Його підрозділ розвідує місцевість дронами.",
+    "ans": ["His unit scouts the area with drones.", "His unit uses drones to scout the terrain.", "His unit is out scouting the area with drones."],
+    "keys": { "дрони": "drone*", "місцевість": "area|terrain|ground|territor*" }
+   },
+   {
+    "sit": "Ви приїхали в кемпінг пізно ввечері й шукаєте, де поставити намет.",
+    "say": "Я піду розвідаю, чи є рівне місце біля озера.",
+    "ans": ["I’ll go scout for a flat spot near the lake.", "Let me scout around the lake for a flat spot.", "I’ll scout out a flat spot by the lake."],
+    "keys": { "озеро": "lake", "місце": "spot|place|site|area" }
+   },
+   {
+    "sit": "Ти працюєш у кіновиробництві й плануєш наступний тиждень із режисеркою.",
+    "say": "Завтра ми їдемо розвідувати локації для зйомок у Карпатах.",
+    "ans": ["Tomorrow we’re going to scout locations in the Carpathians.", "We’ll be scouting locations in the Carpathians tomorrow.", "Tomorrow we’re off to scout filming locations in the Carpathians."],
+    "keys": { "локації": "location*|place*|spot*", "Карпати": "carpathian*|mountain*" }
+   }
+  ]
+ },
+ {
+  "id": 1330, "w": "spy on", "uk": "шпигувати (за кимось)", "lvl": "B2",
+  "forms": "spy|spies|spied|spied|spying",
+  "tail": "on",
+  "near": "watch|watching|watches|watched|follow*|stalk*|monitor*|snoop*|eavesdrop*",
+  "tasks": [
+   {
+    "sit": "Ти помічаєш, що сусідка знову дивиться на твоє подвірʼя з-за фіранки.",
+    "say": "Здається, сусідка за нами шпигує.",
+    "ans": ["I think our neighbor is spying on us.", "Looks like the neighbor is spying on us.", "I swear our neighbor keeps spying on us."],
+    "keys": { "сусідка": "neighbo*" }
+   },
+   {
+    "sit": "Ти керуєш маленькою фірмою і пояснюєш новому працівникові, чому не можна розповідати про роботу.",
+    "say": "Конкуренти можуть за нами шпигувати, тож мовчи про нові проєкти.",
+    "ans": ["Our competitors might spy on us, so keep quiet about new projects.", "Competitors could be spying on us — don’t talk about new projects.", "The competition might be spying on us, so don’t mention any new projects."],
+    "keys": { "конкуренти": "compet*|rival*", "проєкти": "project*" }
+   },
+   {
+    "sit": "Син-підліток обурено питає, чи ти читаєш його переписку.",
+    "say": "Я не шпигую за тобою, просто хвилююся.",
+    "ans": ["I’m not spying on you, I’m just worried.", "I’m not spying on you — I just worry about you.", "Honey, I’m not spying on you, I’m only worried."],
+    "keys": { "не": "not|never", "хвилююся": "worr*|concern*|care" }
+   }
+  ]
+ },
+ {
+  "id": 1331, "w": "deploy", "uk": "розгортати (сили)", "lvl": "C1",
+  "forms": "deploy|deploys|deployed|deployed|deploying",
+  "near": "send|sends|sent|sending|station*|move troops|moved troops|position*",
+  "tasks": [
+   {
+    "sit": "Ти переказуєш колезі новини про ситуацію на північному кордоні.",
+    "say": "Білорусь розгорнула нові війська біля кордону.",
+    "ans": ["Belarus has deployed new troops near the border.", "Belarus deployed more troops along the border.", "Belarus just deployed fresh troops near our border."],
+    "keys": { "війська": "troop*|forces|soldier*|units", "кордон": "border" }
+   },
+   {
+    "sit": "Під час повені ти працюєш у штабі рятувальників.",
+    "say": "Нам треба розгорнути рятувальників у трьох селах.",
+    "ans": ["We need to deploy rescuers to three villages.", "We have to deploy rescue teams in three villages.", "Let’s deploy rescue crews to the three villages."],
+    "keys": { "рятувальники": "rescue*", "села": "village*", "три": "three|3" }
+   },
+   {
+    "sit": "Бабуся питає, хто такі миротворці, про яких говорять у новинах.",
+    "say": "ООН розгортає миротворців у зонах конфлікту.",
+    "ans": ["The UN deploys peacekeepers in conflict zones.", "The UN deploys peacekeeping forces to conflict zones.", "Basically, the UN deploys peacekeepers wherever there’s a conflict."],
+    "keys": { "миротворці": "peacekeep*", "конфлікт": "conflict*|war*" }
+   }
+  ]
+ },
+ {
+  "id": 1332, "w": "strategize", "uk": "розробляти стратегію", "lvl": "C1",
+  "forms": "strategize/strategise|strategizes/strategises|strategized/strategised|strategized/strategised|strategizing/strategising",
+  "near": "plan|plans|planned|planning|brainstorm*|make a plan|come up with a strategy|work out a strategy",
+  "tasks": [
+   {
+    "sit": "До запуску продукту тиждень, а передзамовлень майже немає. Ти пишеш команді.",
+    "say": "Давайте зберемося завтра й розробимо стратегію.",
+    "ans": ["Let’s meet tomorrow and strategize.", "Let’s get together tomorrow to strategize.", "How about we meet up tomorrow and strategize?"],
+    "keys": { "завтра": "tomorrow" }
+   },
+   {
+    "sit": "Ти капітан шкільної команди, і у фіналі ви програєте після першого тайму.",
+    "say": "Перед другим таймом треба разом розробити стратегію.",
+    "ans": ["We need to strategize before the second half.", "Before the second half, let’s strategize together.", "Guys, let’s strategize before the second half."],
+    "keys": { "другий тайм": "second half|half|break" }
+   },
+   {
+    "sit": "Ви з друзями в голосовому чаті перед складним рейдом у грі.",
+    "say": "Давайте спочатку розробимо стратегію, а то знову програємо.",
+    "ans": ["Let’s strategize first, or we’ll lose again.", "We should strategize first, otherwise we’ll lose again.", "Let’s strategize first so we don’t lose again."],
+    "keys": { "програємо": "lose|losing|lost|wipe*|fail*", "знову": "again" }
+   }
+  ]
+ },
+ {
+  "id": 1333, "w": "enlist", "uk": "вступати (на військову службу)", "lvl": "C1",
+  "forms": "enlist|enlists|enlisted|enlisted|enlisting",
+  "near": "join|joins|joined|joining|sign up|signed up|volunteer*|go to the army|went to the army",
+  "tasks": [
+   {
+    "sit": "Колега з-за кордону питає, чому твій брат зараз у війську.",
+    "say": "Він пішов на службу добровольцем у перший же день війни.",
+    "ans": ["He enlisted as a volunteer on the very first day of the war.", "He enlisted on the first day of the war.", "He enlisted on day one of the war."],
+    "keys": { "перший день": "first day|day one|first", "війна": "war|invasion" }
+   },
+   {
+    "sit": "Ви з друзями дивитеся фільм про Другу світову.",
+    "say": "Він збрехав про свій вік, щоб вступити до армії в шістнадцять.",
+    "ans": ["He lied about his age to enlist in the army at sixteen.", "He lied about his age so he could enlist at sixteen.", "He enlisted at sixteen by lying about his age."],
+    "keys": { "вік": "age", "шістнадцять": "sixteen|16" }
+   },
+   {
+    "sit": "Твій племінник після школи хоче служити на флоті, і сестра дуже переживає.",
+    "say": "Він сам вирішив піти служити на флот — підтримай його.",
+    "ans": ["He decided to enlist in the navy himself — support him.", "It was his own decision to enlist in the navy, so support him.", "He chose to enlist in the navy — just back him up."],
+    "keys": { "флот": "navy|marine*|fleet", "підтримай": "support*|back*|proud" }
+   }
+  ]
+ },
+ {
+  "id": 1334, "w": "draft", "uk": "призивати (до армії)", "lvl": "C1",
+  "forms": "draft|drafts|drafted|drafted|drafting",
+  "near": "conscript*|call up|called up|calling up|mobiliz*|mobilis*|enlist*",
+  "tasks": [
+   {
+    "sit": "Ви дивитеся фільм про війну у Вʼєтнамі, і ти пояснюєш подрузі долю героя.",
+    "say": "Його призвали в армію одразу після коледжу.",
+    "ans": ["He was drafted right after college.", "They drafted him straight after college.", "He got drafted right out of college."],
+    "keys": { "коледж": "college|school|graduat*|university" }
+   },
+   {
+    "sit": "Колега-іноземець питає про мобілізацію в Україні.",
+    "say": "Зараз призивають чоловіків від двадцяти пʼяти років.",
+    "ans": ["They’re drafting men from the age of twenty-five.", "Men aged twenty-five and older are being drafted.", "Right now they draft men from 25 up."],
+    "keys": { "чоловіки": "men|man|males", "25": "twenty*|25" }
+   },
+   {
+    "sit": "Бабуся показує старе фото й розповідає про свого батька. Ти перекладаєш гостеві.",
+    "say": "Її батька призвали на фронт у 1941 році.",
+    "ans": ["Her father was drafted in 1941.", "They drafted her father in 1941.", "Her dad got drafted in 1941."],
+    "keys": { "батько": "father|dad|papa", "1941": "1941|forty-one" }
+   }
+  ]
+ },
+ {
+  "id": 1335, "w": "salute", "uk": "віддавати честь", "lvl": "B2",
+  "forms": "salute|salutes|saluted|saluted|saluting",
+  "near": "honor*|honour*|greet*|bow|bowed|bowing|wave*",
+  "tasks": [
+   {
+    "sit": "Твій маленький син дивиться парад і питає, що роблять солдати.",
+    "say": "Вони віддають честь генералові.",
+    "ans": ["They’re saluting the general.", "The soldiers salute the general.", "They’re saluting the general as he passes."],
+    "keys": { "генерал": "general|officer|commander" }
+   },
+   {
+    "sit": "Ти розповідаєш подрузі про похорон воїна у своєму селі.",
+    "say": "Усі військові віддали честь, коли проносили труну.",
+    "ans": ["All the soldiers saluted when the coffin was carried past.", "Every soldier saluted as they carried the coffin by.", "The soldiers all saluted as the coffin went past."],
+    "keys": { "труна": "coffin|casket" }
+   },
+   {
+    "sit": "Молодший брат вступив до військового ліцею й розповідає тобі про тамтешні правила.",
+    "say": "Тобто тепер ти маєш віддавати честь кожному офіцерові?",
+    "ans": ["So now you have to salute every officer?", "So you’re supposed to salute every single officer now?", "Wait, you have to salute every officer now?"],
+    "keys": { "офіцер": "officer*", "кожен": "every|each|all" }
+   }
+  ]
+ },
+ {
+  "id": 1337, "w": "command", "uk": "командувати", "lvl": "B2",
+  "forms": "command|commands|commanded|commanded|commanding",
+  "near": "lead|leads|led|leading|head|heads|headed|in charge|run|runs|ran",
+  "tasks": [
+   {
+    "sit": "Друг питає, чим зараз займається твій дядько в армії.",
+    "say": "Він командує батальйоном на сході.",
+    "ans": ["He commands a battalion in the east.", "He’s commanding a battalion in the east.", "He commands a whole battalion out east."],
+    "keys": { "батальйон": "battalion*|unit*", "схід": "east*" }
+   },
+   {
+    "sit": "Ти робиш презентацію про козацтво на уроці історії.",
+    "say": "Богдан Хмельницький командував великим козацьким військом.",
+    "ans": ["Bohdan Khmelnytsky commanded a large Cossack army.", "Khmelnytsky commanded a huge Cossack army.", "Khmelnytsky commanded a big army of Cossacks."],
+    "keys": { "козацьке": "cossack*", "військо": "army|armies|forces|troop*|host" }
+   },
+   {
+    "sit": "На морській екскурсії ви з другом розглядаєте фото колишнього капітана корабля.",
+    "say": "Цей капітан командував кораблем тридцять років.",
+    "ans": ["This captain commanded the ship for thirty years.", "For thirty years, this captain commanded the ship.", "He commanded this ship for thirty years."],
+    "keys": { "корабель": "ship|vessel|boat", "тридцять": "thirty|30" }
+   }
+  ]
+ },
+ {
+  "id": 1338, "w": "obey", "uk": "підкорятися, слухатися", "lvl": "B2",
+  "forms": "obey|obeys|obeyed|obeyed|obeying",
+  "near": "follow*|listen*|comply|complied|complies|do as i say|do what i say|submit*",
+  "tasks": [
+   {
+    "sit": "Кінолог питає, які проблеми у тебе з собакою.",
+    "say": "Він мене зовсім не слухається, коли бачить котів.",
+    "ans": ["He doesn’t obey me at all when he sees cats.", "He never obeys me when there are cats around.", "He just won’t obey me when he sees a cat."],
+    "keys": { "коти": "cat*", "не": "not|never" }
+   },
+   {
+    "sit": "Твій друг щойно пішов служити й скаржиться на командира.",
+    "say": "В армії треба виконувати накази, навіть якщо ти не згоден.",
+    "ans": ["In the army you have to obey orders, even if you disagree.", "You must obey orders in the army, even when you don’t agree.", "In the army you obey orders, whether you agree or not."],
+    "keys": { "накази": "order*", "не згоден": "disagree*|agree" }
+   },
+   {
+    "sit": "Ти вчиш сина-підлітка водити, і на порожній нічній дорозі він проскакує на червоне.",
+    "say": "Треба дотримуватися правил дорожнього руху, навіть коли дорога порожня.",
+    "ans": ["You have to obey traffic rules even when the road is empty.", "Obey the traffic laws, even if the road is empty.", "Always obey the traffic rules, even on an empty road."],
+    "keys": { "правила": "rule*|law*|sign*|light*", "порожня": "empty|no one|nobody|clear" }
+   }
+  ]
+ },
+ {
+  "id": 1339, "w": "disobey", "uk": "не підкорятися, не слухатися", "lvl": "B2",
+  "forms": "disobey|disobeys|disobeyed|disobeyed|disobeying",
+  "near": "ignor*|not listen|did not listen|does not listen|break the rules|broke the rules|defy|defied|rebel*|not follow|did not follow",
+  "tasks": [
+   {
+    "sit": "Класна керівниця дзвонить тобі щодо поведінки твоєї доньки.",
+    "say": "Вона знову не послухалася вчителя?",
+    "ans": ["Did she disobey the teacher again?", "Has she disobeyed her teacher again?", "Wait, she disobeyed the teacher again?"],
+    "keys": { "вчитель": "teacher*", "знову": "again" }
+   },
+   {
+    "sit": "Ти обговорюєш із колегою новину про військовий трибунал.",
+    "say": "Офіцера судитимуть за те, що він не виконав наказ.",
+    "ans": ["The officer will be tried for disobeying an order.", "The officer is going to court for disobeying orders.", "They’re putting the officer on trial because he disobeyed an order."],
+    "keys": { "наказ": "order*", "суд": "trial|tried|court|charg*|prosecut*" }
+   },
+   {
+    "sit": "Ти розповідаєш дитині перед сном казку про деревʼяного хлопчика.",
+    "say": "Піноккіо не послухався тата Джеппетто й пішов до театру.",
+    "ans": ["Pinocchio disobeyed Geppetto and went to the theater.", "Pinocchio disobeyed his father and ran off to the theater.", "Pinocchio disobeyed Geppetto and went off to the puppet show."],
+    "keys": { "театр": "theat*|show|circus", "Джеппетто": "geppetto|father|dad|papa" }
+   }
+  ]
+ },
+ {
+  "id": 1340, "w": "desert", "uk": "дезертирувати", "lvl": "C1",
+  "forms": "desert|deserts|deserted|deserted|deserting",
+  "near": "run away|ran away|abandon*|flee|fled|go awol|went awol|leave|left|escape*",
+  "tasks": [
+   {
+    "sit": "Ти читаєш аналітику про ворожу армію й обговорюєш її з другом.",
+    "say": "Сотні ворожих солдатів дезертирують щомісяця.",
+    "ans": ["Hundreds of enemy soldiers desert every month.", "Every month, hundreds of enemy troops desert.", "Hundreds of their soldiers are deserting each month."],
+    "keys": { "сотні": "hundred*", "місяць": "month*" }
+   },
+   {
+    "sit": "У книжковому клубі ви обговорюєте роман «Прощавай, зброє!».",
+    "say": "Головний герой дезертирував з армії й утік до Швейцарії.",
+    "ans": ["The main character deserted the army and escaped to Switzerland.", "The hero deserts from the army and flees to Switzerland.", "The main character deserted and ran off to Switzerland."],
+    "keys": { "Швейцарія": "switzerland|swiss" }
+   },
+   {
+    "sit": "Дідусь розповідає тобі історію про чоловіка з сусіднього села, а ти переказуєш її друзям.",
+    "say": "Кажуть, він дезертирував з поста ще в перший тиждень.",
+    "ans": ["They say he deserted his post in the first week.", "Apparently he deserted his post during the very first week.", "Rumor has it he deserted his post in week one."],
+    "keys": { "пост": "post", "перший тиждень": "first week|week one|week" }
+   }
+  ]
+ },
+ {
+  "id": 1341, "w": "guard", "uk": "охороняти", "lvl": "B1",
+  "forms": "guard|guards|guarded|guarded|guarding",
+  "near": "protect*|watch|watches|watching|defend*|keep watch|patrol*|look after",
+  "tasks": [
+   {
+    "sit": "Новий колега питає, чи безпечно лишати ноутбук в офісі на ніч.",
+    "say": "Вночі будівлю охороняють двоє людей.",
+    "ans": ["Two men guard the building at night.", "At night, the building is guarded by two people.", "There are two guys guarding the building at night."],
+    "keys": { "вночі": "night*", "двоє": "two|2" }
+   },
+   {
+    "sit": "Гість боїться твого пса, що лежить біля воріт.",
+    "say": "Не бійся, він просто охороняє подвірʼя.",
+    "ans": ["Don’t worry, he’s just guarding the yard.", "Don’t be scared — he’s only guarding the yard.", "Relax, he’s just guarding the house."],
+    "keys": { "подвірʼя": "yard|house|gate*|garden|property", "не бійся": "worry|scared|afraid|relax|fine|ok*" }
+   },
+   {
+    "sit": "У Лондоні біля палацу син питає про солдатів у високих хутряних шапках.",
+    "say": "Вони охороняють королівський палац.",
+    "ans": ["They guard the royal palace.", "They’re guarding the palace of the King.", "Those soldiers guard the palace where the King lives."],
+    "keys": { "палац": "palace" }
+   }
+  ]
+ },
+ {
+  "id": 1342, "w": "patrol", "uk": "патрулювати", "lvl": "B2",
+  "forms": "patrol|patrols|patrolled|patrolled|patrolling",
+  "near": "guard*|watch|watches|watching|walk around|drive around|monitor*|check on",
+  "tasks": [
+   {
+    "sit": "На зборах мешканців будинку обговорюють крадіжки велосипедів.",
+    "say": "Може, попросимо поліцію частіше патрулювати наш двір?",
+    "ans": ["Maybe we could ask the police to patrol our yard more often?", "Why don’t we ask the police to patrol our courtyard more often?", "Let’s ask the cops to patrol our area more often."],
+    "keys": { "поліція": "police|cop*|officer*", "частіше": "more often|more|regular*" }
+   },
+   {
+    "sit": "На пляжі в Іспанії друг питає, чи безпечно тут плавати.",
+    "say": "Так, рятувальники патрулюють пляж цілий день.",
+    "ans": ["Yes, lifeguards patrol the beach all day.", "Yeah, lifeguards are patrolling the beach all day long.", "Sure, there are lifeguards patrolling the beach all day."],
+    "keys": { "рятувальники": "lifeguard*|rescue*", "пляж": "beach" }
+   },
+   {
+    "sit": "Знайомий-іноземець питає, де служить твій батько.",
+    "say": "Мій батько патрулює кордон на Волині.",
+    "ans": ["My father patrols the border in Volyn.", "My dad patrols the border in the Volyn region.", "My dad is out patrolling the border up in Volyn."],
+    "keys": { "кордон": "border", "батько": "father|dad" }
+   }
+  ]
+ },
+ {
+  "id": 1343, "w": "evacuate", "uk": "евакуювати(ся)", "lvl": "B2",
+  "forms": "evacuate|evacuates|evacuated|evacuated|evacuating",
+  "near": "leave|left|get out|got out|move out|moved out|clear|cleared|rescue*|take out|took out",
+  "tasks": [
+   {
+    "sit": "На роботі лунає пожежна тривога, а колеги спокійно сидять далі.",
+    "say": "Усім треба евакуюватися з будівлі — це не навчання!",
+    "ans": ["Everyone needs to evacuate the building — this isn’t a drill!", "We all have to evacuate the building, it’s not a drill!", "Evacuate the building, everyone — this is not a drill!"],
+    "keys": { "будівля": "building|office", "навчання": "drill|test|exercise|real" }
+   },
+   {
+    "sit": "Ти волонтер і розповідаєш на зустрічі випускників про свою роботу.",
+    "say": "Ми евакуюємо літніх людей із прифронтових сіл.",
+    "ans": ["We evacuate elderly people from villages near the front line.", "We’re evacuating older people from frontline villages.", "We help evacuate elderly folks from villages near the front."],
+    "keys": { "літні": "elderly|old*|senior*|grandparent*", "села": "village*|town*" }
+   },
+   {
+    "sit": "Ти у відпустці у Флориді, і оголошують, що наближається ураган. Пишеш мамі.",
+    "say": "Нас евакуюють з готелю сьогодні ввечері.",
+    "ans": ["They’re evacuating us from the hotel tonight.", "We’re being evacuated from the hotel this evening.", "We’ll be evacuated from the hotel tonight."],
+    "keys": { "готель": "hotel", "ввечері": "tonight|evening" }
+   }
+  ]
+ },
+ {
+  "id": 1344, "w": "take cover", "uk": "сховатися (в укритті)", "lvl": "B2",
+  "forms": "take|takes|took|taken|taking",
+  "tail": "cover",
+  "near": "hide|hid|hiding|shelter*|duck|ducked|get down|go to the shelter|run to the shelter",
+  "tasks": [
+   {
+    "sit": "Ти гуляєш містом з туристом-іноземцем, і раптом лунає сирена повітряної тривоги.",
+    "say": "Сирена — треба швидко сховатися!",
+    "ans": ["That’s the siren — we need to take cover fast!", "It’s an air raid siren, let’s take cover now!", "Siren! Take cover, quick!"],
+    "keys": { "сирена": "siren*|alarm*|alert*|raid", "швидко": "fast|quick*|now|hurry" }
+   },
+   {
+    "sit": "Ви на прогулянці в полі, і раптом починає сипати великий град.",
+    "say": "Град! Сховаймося під тим деревом!",
+    "ans": ["It’s hailing! Let’s take cover under that tree!", "Hail! Let’s take cover under the tree!", "Quick, let’s take cover under that tree — it’s hailing!"],
+    "keys": { "град": "hail*", "дерево": "tree" }
+   },
+   {
+    "sit": "На пейнтболі ворожа команда раптом відкрила вогонь по вашій групі.",
+    "say": "Ховайтеся за барикадою, по нас стріляють!",
+    "ans": ["Take cover behind the barricade, they’re shooting at us!", "Get behind the barricade and take cover — they’re firing at us!", "Take cover behind the wall, they’re shooting!"],
+    "keys": { "барикада": "barricade*|wall|barrier*|bunker*", "стріляють": "shoot*|fir*|shot*" }
+   }
+  ]
+ },
+ {
+  "id": 1345, "w": "drill", "uk": "муштрувати", "lvl": "B2",
+  "forms": "drill|drills|drilled|drilled|drilling",
+  "near": "train|trains|trained|training|exercis*|push|pushed|whip into shape|whipped into shape",
+  "tasks": [
+   {
+    "sit": "Друг питає, як тобі було на строковій службі.",
+    "say": "Сержант муштрував нас із шостої ранку до ночі.",
+    "ans": ["The sergeant drilled us from six in the morning till night.", "Our sergeant drilled us from 6 a.m. until late at night.", "Man, the sergeant drilled us from six in the morning until night!"],
+    "keys": { "сержант": "sergeant*|sarge|officer|commander", "шоста": "six|6*" }
+   },
+   {
+    "sit": "Ви з другом дивитеся фільм «Цільнометалева оболонка».",
+    "say": "Цей інструктор жорстоко муштрує новобранців.",
+    "ans": ["This instructor drills the recruits brutally.", "The instructor is drilling the recruits really hard.", "That instructor drills the recruits mercilessly."],
+    "keys": { "новобранці": "recruit*|cadet*|soldier*|trainee*", "жорстоко": "brutal*|hard|harsh*|merciless*|cruel*|tough" }
+   },
+   {
+    "sit": "Твій племінник вступив до кадетського ліцею, і сестра питає, як там усе влаштовано.",
+    "say": "Там кадетів муштрують, як справжніх солдатів.",
+    "ans": ["They drill the cadets there like real soldiers.", "The cadets are drilled there just like real soldiers.", "They drill those cadets like actual soldiers."],
+    "keys": { "кадети": "cadet*|student*|kid*|boy*", "солдати": "soldier*|army|troop*|recruit*" }
+   }
+  ]
+ }
+]

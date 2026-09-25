@@ -1,0 +1,1222 @@
+[
+ {
+  "id": 1883,
+  "w": "drop charges",
+  "uk": "зняти обвинувачення",
+  "lvl": "C1",
+  "forms": "drop|drops|dropped|dropped|dropping",
+  "tail": "charges",
+  "near": "withdraw*|dismiss*|let him off|let it go|drop the case|dropped the case|clear* him",
+  "tasks": [
+   {
+    "sit": "Ти читаєш новини про гучну справу бізнесмена, якого звинувачували в шахрайстві.",
+    "say": "Прокуратура зняла з нього всі обвинувачення через брак доказів.",
+    "ans": [
+     "Prosecutors dropped all the charges against him due to lack of evidence.",
+     "They dropped all charges against him for lack of evidence.",
+     "They dropped all the charges — there just wasn’t enough evidence."
+    ],
+    "keys": {
+     "доказів": "evidence|proof",
+     "всі": "all"
+    }
+   },
+   {
+    "sit": "Племінника твоєї подруги впіймали на крадіжці в супермаркеті. Вона розповідає тобі новини.",
+    "say": "Магазин погодився зняти обвинувачення, якщо він поверне гроші.",
+    "ans": [
+     "The store agreed to drop the charges if he pays the money back.",
+     "The shop will drop the charges if he returns the money.",
+     "The store’s willing to drop charges as long as he pays them back."
+    ],
+    "keys": {
+     "магазин": "store|shop",
+     "повернути гроші": "pay*|money|return*|refund*"
+    }
+   },
+   {
+    "sit": "Колись ти подав заяву на сусіда через бійку, а тепер ви знову нормально спілкуєтеся. Друг питає, чим усе скінчилося.",
+    "say": "Ми помирилися, тож я зняв обвинувачення.",
+    "ans": [
+     "We made up, so I dropped the charges.",
+     "We’ve settled things, so I’ve dropped the charges.",
+     "We sorted it out, so I dropped the charges."
+    ],
+    "keys": {
+     "помирилися": "made up|make up|settl*|sort*|peace|reconcil*|work* it out"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1884,
+  "w": "post bail",
+  "uk": "внести заставу",
+  "lvl": "C1",
+  "forms": "post|posts|posted|posted|posting",
+  "tail": "bail",
+  "near": "bail out|bailed out|bail him out|pay* bail|paid bail|put up bail|put up the money",
+  "tasks": [
+   {
+    "sit": "Ти переказуєш подрузі серію кримінального серіалу, яку вона пропустила.",
+    "say": "Його брат вніс заставу, і його відпустили до суду.",
+    "ans": [
+     "His brother posted bail, and he was released until the trial.",
+     "He was released after his brother posted bail.",
+     "His brother posted bail, so he’s out until the trial."
+    ],
+    "keys": {
+     "брат": "brother",
+     "відпустили": "releas*|out|free*|let go"
+    }
+   },
+   {
+    "sit": "Ти волонтер правозахисної організації. Після мирного протесту поліція затримала десятки людей.",
+    "say": "Ми зібрали гроші, щоб внести заставу за всіх затриманих.",
+    "ans": [
+     "We raised money to post bail for everyone who was arrested.",
+     "We’ve raised enough to post bail for all the detainees.",
+     "We crowdfunded to post bail for all the people arrested."
+    ],
+    "keys": {
+     "зібрали гроші": "rais*|collect*|crowdfund*|fundrais*|money",
+     "затримані": "arrest*|detain*|detainee*"
+    }
+   },
+   {
+    "sit": "Ти стажуєшся в адвокатській конторі й пояснюєш колезі, чому клієнт досі під вартою.",
+    "say": "Родина не може внести заставу — це п’ятдесят тисяч доларів.",
+    "ans": [
+     "The family can’t post bail — it’s fifty thousand dollars.",
+     "The family can’t afford to post bail of fifty thousand dollars.",
+     "There’s no way the family can post bail; it’s fifty grand."
+    ],
+    "keys": {
+     "родина": "family|parents|they",
+     "п’ятдесят тисяч": "fifty|50*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1885,
+  "w": "ask out",
+  "uk": "запросити на побачення",
+  "lvl": "B1",
+  "forms": "ask|asks|asked|asked|asking",
+  "tail": "out",
+  "near": "invite*|ask* on a date|ask* her on a date|ask* him on a date|go out with|date",
+  "tasks": [
+   {
+    "sit": "Ти щоранку береш каву в одній кав’ярні біля роботи й зізнаєшся другові, що тобі подобається бариста.",
+    "say": "Я хочу запросити баристу на побачення.",
+    "ans": [
+     "I want to ask out the barista at the café near work.",
+     "I’m thinking of asking the barista out.",
+     "I’m finally going to ask that barista out."
+    ],
+    "keys": {
+     "бариста": "barista*"
+    }
+   },
+   {
+    "sit": "Твій одногрупник уже місяць задивляється на дівчину з бібліотеки, але боїться підійти.",
+    "say": "Просто запроси її на побачення — що ти втрачаєш?",
+    "ans": [
+     "Just ask her out — what have you got to lose?",
+     "Just ask her out; what do you have to lose?",
+     "Go on, ask her out! What’s the worst that can happen?"
+    ],
+    "keys": {
+     "втрачаєш": "lose|worst|nothing"
+    }
+   },
+   {
+    "sit": "Ти ділишся з подругою новиною з офісу.",
+    "say": "Мене вчора запросив на побачення хлопець із відділу продажів.",
+    "ans": [
+     "A guy from the sales department asked me out yesterday.",
+     "Yesterday a guy from sales asked me out.",
+     "Guess what — the guy from sales asked me out yesterday!"
+    ],
+    "keys": {
+     "вчора": "yesterday",
+     "відділ продажів": "sales"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1887,
+  "w": "ghost",
+  "uk": "різко зникнути після побачень (перестати відповідати)",
+  "lvl": "B2",
+  "forms": "ghost|ghosts|ghosted|ghosted|ghosting",
+  "near": "disappear*|vanish*|stopped answering|stop answering|stopped replying|stop replying|ignor*|block*",
+  "tasks": [
+   {
+    "sit": "Ти познайомився з дівчиною в застосунку знайомств. Друг питає, чому ти про неї більше не розповідаєш.",
+    "say": "Ми сходили на три побачення, а потім вона просто зникла.",
+    "ans": [
+     "We went on three dates, and then she just ghosted me.",
+     "She ghosted me after three dates.",
+     "Three dates, and then she totally ghosted me."
+    ],
+    "keys": {
+     "три побачення": "three|3|date*"
+    }
+   },
+   {
+    "sit": "Друг сходив на побачення, але продовжувати не хоче й думає просто перестати відповідати дівчині.",
+    "say": "Не зникай просто так — краще чесно скажи, що тобі не цікаво.",
+    "ans": [
+     "Don’t just ghost her — tell her honestly you’re not interested.",
+     "Instead of ghosting her, just be honest and say you’re not interested.",
+     "Don’t ghost her, just tell her you’re not into it."
+    ],
+    "keys": {
+     "чесно скажи": "tell|say|honest*",
+     "не цікаво": "interest*|into"
+    }
+   },
+   {
+    "sit": "Після чудового першого побачення дівчина перестала писати. Ти скаржишся братові.",
+    "say": "Уже тиждень тиші — схоже, вона зникла з радарів.",
+    "ans": [
+     "It’s been a week of silence — I think she’s ghosted me.",
+     "A whole week without a word; I guess she ghosted me.",
+     "No texts for a week — yeah, I’ve been ghosted."
+    ],
+    "keys": {
+     "тиждень": "week"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1888,
+  "w": "friendzone",
+  "uk": "френдзонити (бачити лише другом)",
+  "lvl": "C1",
+  "forms": "friendzone|friendzones|friendzoned|friendzoned|friendzoning",
+  "near": "just friends|only friends|reject*|turn* down|turned down",
+  "tasks": [
+   {
+    "sit": "Ти нарешті зізнався однокурсниці в почуттях, і тепер друзі питають, як усе минуло.",
+    "say": "Я їй зізнався, а вона мене зафрендзонила.",
+    "ans": [
+     "I told her how I felt, and she friendzoned me.",
+     "She friendzoned me after I confessed my feelings.",
+     "I confessed, and she totally friendzoned me."
+    ],
+    "keys": {
+     "зізнався": "told|confess*|feel*"
+    }
+   },
+   {
+    "sit": "Ти обговорюєш із подругою романтичний серіал, який ви обидві дивитеся.",
+    "say": "У цьому серіалі героїня френдзонить його три сезони поспіль.",
+    "ans": [
+     "In this show, she friendzones him for three seasons straight.",
+     "She keeps friendzoning him for three whole seasons.",
+     "She’s friendzoned him for three seasons in a row!"
+    ],
+    "keys": {
+     "три сезони": "three|3|season*"
+    }
+   },
+   {
+    "sit": "Хороший знайомий явно в тебе закоханий, і ти радишся з сестрою, як бути.",
+    "say": "Не хочу його френдзонити, але він мені подобається лише як друг.",
+    "ans": [
+     "I don’t want to friendzone him, but I only like him as a friend.",
+     "I hate to friendzone him, but I just see him as a friend.",
+     "I don’t mean to friendzone him — he’s just a friend to me."
+    ],
+    "keys": {
+     "як друг": "friend"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1889,
+  "w": "come across as",
+  "uk": "справляти враження (здаватися якимось)",
+  "lvl": "B2",
+  "forms": "come|comes|came|come|coming",
+  "tail": "across as",
+  "near": "seem*|look*|appear*|sound*|give the impression|gave the impression|strike*|struck",
+  "tasks": [
+   {
+    "sit": "Ти вийшов зі співбесіди й дзвониш другові.",
+    "say": "Боюся, я здався надто нервовим на співбесіді.",
+    "ans": [
+     "I’m afraid I came across as too nervous in the interview.",
+     "I think I came across as really nervous at the interview.",
+     "I probably came across as way too nervous in that interview."
+    ],
+    "keys": {
+     "нервовим": "nervous|anxious|stress*|tense",
+     "співбесіда": "interview"
+    }
+   },
+   {
+    "sit": "До вас у під’їзд переїхав новий сусід. Ти вже з ним познайомився й розповідаєш дружині.",
+    "say": "Спершу він здається суворим, але насправді дуже добрий.",
+    "ans": [
+     "He comes across as strict at first, but he’s actually really kind.",
+     "At first he comes across as stern, but he’s very kind.",
+     "He can come across as a bit grumpy, but he’s a real sweetheart."
+    ],
+    "keys": {
+     "суворий": "strict|stern|grump*|harsh|serious|cold|tough|rude",
+     "добрий": "kind|nice|sweet*|good"
+    }
+   },
+   {
+    "sit": "Колега показує тобі чернетку листа клієнтові, який затримує оплату.",
+    "say": "Не хочу, щоб лист звучав грубо — давай перепишемо м’якше.",
+    "ans": [
+     "I don’t want the email to come across as rude — let’s soften it.",
+     "I don’t want this email to come across as rude, so let’s rewrite it more gently.",
+     "Let’s rewrite it — I don’t want it to come across as rude."
+    ],
+    "keys": {
+     "лист": "email|e-mail|message|it|letter",
+     "грубо": "rude|harsh|aggressive|blunt"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1890,
+  "w": "strike as",
+  "uk": "здаватися (комусь), справляти враження",
+  "lvl": "C1",
+  "forms": "strike|strikes|struck|struck|striking",
+  "tail": "as",
+  "near": "seem*|appear*|find*|found|look*|sound*|come across|came across",
+  "tasks": [
+   {
+    "sit": "Ви ведете переговори з новим постачальником, але щось тебе насторожує. Ділишся з юристом.",
+    "say": "Мені здалося дивним, що вони не хочуть нічого підписувати.",
+    "ans": [
+     "It struck me as odd that they didn’t want to sign anything.",
+     "It struck me as strange that they refused to sign anything.",
+     "Honestly, it struck me as weird that they wouldn’t sign anything."
+    ],
+    "keys": {
+     "дивним": "odd|strange|weird|suspicious",
+     "підписувати": "sign*"
+    }
+   },
+   {
+    "sit": "Після першої наради з новим керівником дружина питає, яке він справив враження.",
+    "say": "Новий керівник здався мені дуже розумною людиною.",
+    "ans": [
+     "The new manager struck me as a very smart person.",
+     "The new boss struck me as really intelligent.",
+     "Our new manager struck me as a pretty sharp guy."
+    ],
+    "keys": {
+     "керівник": "manager|boss|head|director",
+     "розумний": "smart|intelligent|clever|sharp|bright"
+    }
+   },
+   {
+    "sit": "Ти повернувся з поїздки до Португалії, і колега питає про враження від столиці.",
+    "say": "Лісабон здався мені спокійнішим, ніж я очікував.",
+    "ans": [
+     "Lisbon struck me as calmer than I expected.",
+     "Lisbon struck me as more relaxed than I’d expected.",
+     "Lisbon struck me as way more laid-back than I thought."
+    ],
+    "keys": {
+     "Лісабон": "lisbon",
+     "спокійніший": "calm*|relax*|laid*|quiet*|peaceful"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1891,
+  "w": "whip together",
+  "uk": "нашвидкуруч зліпити (приготувати, зробити)",
+  "lvl": "B2",
+  "forms": "whip|whips|whipped|whipped|whipping",
+  "tail": "together",
+  "near": "throw together|threw together|thrown together|whip up|whipped up|rustle up|rustled up|make something quick|put together",
+  "tasks": [
+   {
+    "sit": "До вас несподівано завітали друзі, і дружина хвилюється, що вдома немає нічого до столу.",
+    "say": "Не хвилюйся, я щось нашвидкуруч зліплю з того, що є в холодильнику.",
+    "ans": [
+     "Don’t worry, I’ll whip something together from what’s in the fridge.",
+     "Don’t worry — I can whip together something from whatever’s in the fridge.",
+     "No worries, I’ll whip something together with what we’ve got in the fridge."
+    ],
+    "keys": {
+     "холодильник": "fridge|refrigerator"
+    }
+   },
+   {
+    "sit": "Керівник попросив презентацію на нараду за годину до її початку. Колега дивується, що ти встиг.",
+    "say": "Я нашвидкуруч зліпив презентацію за годину.",
+    "ans": [
+     "I whipped together a presentation in an hour.",
+     "I whipped the presentation together in just an hour.",
+     "I just whipped together some slides in an hour."
+    ],
+    "keys": {
+     "презентація": "presentation|slide*|deck|pitch",
+     "за годину": "hour"
+    }
+   },
+   {
+    "sit": "Синові терміново потрібен був костюм на шкільне свято, а магазини вже зачинилися.",
+    "say": "Я за вечір зліпив костюм пірата з того, що знайшов удома.",
+    "ans": [
+     "I whipped together a pirate costume in one evening from stuff I found at home.",
+     "I whipped a pirate costume together in an evening using things from home.",
+     "I whipped together a pirate costume out of stuff lying around the house."
+    ],
+    "keys": {
+     "костюм пірата": "pirate*|costume*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1892,
+  "w": "pile up",
+  "uk": "накопичуватися",
+  "lvl": "B2",
+  "forms": "pile|piles|piled|piled|piling",
+  "tail": "up",
+  "near": "accumulat*|build up|built up|builds up|mount* up|stack* up|add up|added up|keep coming",
+  "tasks": [
+   {
+    "sit": "Ти повернувся з відпустки й відкриваєш робочу пошту. Колега питає, як воно.",
+    "say": "Поки я був у відпустці, листів накопичилася купа.",
+    "ans": [
+     "While I was on vacation, my emails piled up.",
+     "My emails piled up while I was on holiday.",
+     "I was away for a week and the emails just piled up."
+    ],
+    "keys": {
+     "листи": "email*|mail|message*|letter*",
+     "відпустка": "vacation|holiday|away|off"
+    }
+   },
+   {
+    "sit": "Ти винаймаєш квартиру разом із друзями й пропонуєш графік миття посуду.",
+    "say": "Якщо не мити посуд щодня, він швидко накопичується.",
+    "ans": [
+     "If you don’t wash the dishes every day, they pile up fast.",
+     "Dishes pile up quickly if nobody washes them daily.",
+     "Skip washing up for a day and the dishes pile up."
+    ],
+    "keys": {
+     "посуд": "dish*|plates|washing",
+     "швидко": "fast|quick*|day"
+    }
+   },
+   {
+    "sit": "Ти ділишся з братом фінансовими проблемами.",
+    "say": "Рахунки накопичуються, а зарплату знову затримують.",
+    "ans": [
+     "The bills are piling up, and my salary is late again.",
+     "Bills keep piling up, and they’ve delayed my pay again.",
+     "The bills are piling up and I still haven’t been paid."
+    ],
+    "keys": {
+     "рахунки": "bill*|debt*",
+     "зарплата": "salary|pay*|paid|wage*|paycheck"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1893,
+  "w": "dwindle",
+  "uk": "поступово зменшуватися, танути",
+  "lvl": "C1",
+  "forms": "dwindle|dwindles|dwindled|dwindled|dwindling",
+  "near": "shrink*|shrank|decreas*|declin*|drop*|fall*|fell|go down|went down|run* out|ran out|melt*|reduc*",
+  "tasks": [
+   {
+    "sit": "Ти вже три місяці шукаєш роботу й обговорюєш із дружиною сімейний бюджет.",
+    "say": "Наші заощадження швидко тануть, поки я без роботи.",
+    "ans": [
+     "Our savings are dwindling fast while I’m out of work.",
+     "Our savings have dwindled quickly since I lost my job.",
+     "With me out of work, our savings are dwindling fast."
+    ],
+    "keys": {
+     "заощадження": "saving*",
+     "без роботи": "work|job*|unemploy*"
+    }
+   },
+   {
+    "sit": "Ти організовуєш книжковий клуб. Колись приходило двадцять людей, а тепер — зовсім мало.",
+    "say": "Наш клуб поступово зменшився до п’яти учасників.",
+    "ans": [
+     "Our book club has dwindled to five members.",
+     "Our club gradually dwindled to just five people.",
+     "Our club has slowly dwindled down to five people."
+    ],
+    "keys": {
+     "п’ять": "five|5",
+     "клуб": "club|member*|group"
+    }
+   },
+   {
+    "sit": "Ти пасічник і даєш інтерв’ю місцевій газеті про екологію.",
+    "say": "Кількість бджіл у регіоні стрімко скорочується.",
+    "ans": [
+     "The bee population in the region is dwindling rapidly.",
+     "Bee numbers in the area are dwindling fast.",
+     "Bees are dwindling in this region at an alarming rate."
+    ],
+    "keys": {
+     "бджоли": "bee*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1894,
+  "w": "go AWOL",
+  "uk": "піти в самоволку",
+  "lvl": "C1",
+  "forms": "go|goes|went|gone|going",
+  "tail": "awol",
+  "near": "desert*|disappear*|vanish*|run away|ran away|went missing|go missing|absent without leave",
+  "tasks": [
+   {
+    "sit": "Дідусь розповідає онукові історії зі своєї служби в армії, а ти переказуєш їх іноземному другові.",
+    "say": "Один солдат у їхній роті пішов у самоволку, щоб побачитися з нареченою.",
+    "ans": [
+     "One soldier in their company went AWOL to see his fiancée.",
+     "A guy in their unit went AWOL just to see his fiancée.",
+     "One of the soldiers in their company went AWOL to visit his girlfriend."
+    ],
+    "keys": {
+     "солдат": "soldier*|guy|one",
+     "наречена": "fianc*|girlfriend|bride|sweetheart"
+    }
+   },
+   {
+    "sit": "Ти працюєш на радіо й зачитуєш коротку новину.",
+    "say": "Поліція затримала військового, який пішов у самоволку.",
+    "ans": [
+     "Police have detained a soldier who went AWOL.",
+     "Police arrested a soldier who had gone AWOL.",
+     "A soldier who had gone AWOL was picked up by the police."
+    ],
+    "keys": {
+     "поліція": "police|cops",
+     "затримала": "detain*|arrest*|picked up|caught"
+    }
+   },
+   {
+    "sit": "Ви з другом вийшли з кіно після воєнної драми, і ти коротко переказуєш сюжет дівчині, яка не ходила.",
+    "say": "У фільмі герой іде в самоволку, щоб урятувати брата.",
+    "ans": [
+     "In the movie, the hero goes AWOL to save his brother.",
+     "The main character goes AWOL to rescue his brother.",
+     "In the film he goes AWOL so he can save his brother."
+    ],
+    "keys": {
+     "брат": "brother",
+     "врятувати": "save*|rescue*|help*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1895,
+  "w": "stand at attention",
+  "uk": "стояти струнко",
+  "lvl": "C1",
+  "forms": "stand|stands|stood|stood|standing",
+  "tail": "at attention",
+  "near": "stand still|stood still|salut*|stand up straight|stood up straight|line* up",
+  "tasks": [
+   {
+    "sit": "Ти був на випускному параді військового ліцею й розповідаєш колегам.",
+    "say": "Під час гімну курсанти стояли струнко.",
+    "ans": [
+     "The cadets stood at attention during the anthem.",
+     "During the national anthem, the cadets stood at attention.",
+     "The cadets were standing at attention through the whole anthem."
+    ],
+    "keys": {
+     "гімн": "anthem",
+     "курсанти": "cadet*|soldier*|student*"
+    }
+   },
+   {
+    "sit": "Твій чоловік дуже суворий на вигляд, і ти з усмішкою розповідаєш подрузі про вашого сина.",
+    "say": "Коли тато заходить у кімнату, син жартома стає струнко.",
+    "ans": [
+     "When Dad walks in, our son stands at attention as a joke.",
+     "Our son jokingly stands at attention when his dad comes in.",
+     "Whenever his dad walks in, our son stands at attention for fun."
+    ],
+    "keys": {
+     "жартома": "joke*|joking*|fun|kidding",
+     "тато": "dad|father"
+    }
+   },
+   {
+    "sit": "Ти згадуєш із друзями строкову службу.",
+    "say": "У перший день нас змусили годину стояти струнко на спеці.",
+    "ans": [
+     "On the first day, they made us stand at attention for an hour in the heat.",
+     "We had to stand at attention for an hour in the heat on our first day.",
+     "First day, they had us stand at attention for an hour in the heat."
+    ],
+    "keys": {
+     "годину": "hour",
+     "спека": "heat|hot|sun"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1899,
+  "w": "hit a deadline",
+  "uk": "вкластися в дедлайн",
+  "lvl": "B2",
+  "forms": "hit|hits|hit|hit|hitting",
+  "tail": "deadline*",
+  "near": "meet* the deadline|met the deadline|meet* deadlines|met deadlines|make the deadline|made the deadline|finish* on time|finished in time|on time",
+  "tasks": [
+   {
+    "sit": "Керівник хвалить команду за вчасно зданий проєкт, а ти пояснюєш, чого це коштувало.",
+    "say": "Ми вклалися в дедлайн, хоча працювали всю ніч.",
+    "ans": [
+     "We hit the deadline, even though we worked all night.",
+     "We worked all night, but we hit the deadline.",
+     "We pulled an all-nighter, but we hit the deadline."
+    ],
+    "keys": {
+     "всю ніч": "night*|all-nighter"
+    }
+   },
+   {
+    "sit": "Ти студент, до здачі курсової лишилося два дні, а друзі кличуть тебе на вечірку.",
+    "say": "Якщо я не вкладуся в дедлайн, мені не зарахують курсову.",
+    "ans": [
+     "If I don’t hit the deadline, my term paper won’t count.",
+     "If I don’t hit the deadline, they won’t accept my paper.",
+     "I have to hit this deadline or my paper won’t count."
+    ],
+    "keys": {
+     "курсова": "paper|essay|project|thesis|coursework|assignment"
+    }
+   },
+   {
+    "sit": "Ти фрилансер і на відеодзвінку розповідаєш новому клієнтові про свої сильні сторони.",
+    "say": "Я завжди вкладаюся в дедлайни — це мій головний плюс.",
+    "ans": [
+     "I always hit my deadlines — that’s my biggest strength.",
+     "I always hit deadlines; it’s my main strength.",
+     "I always hit my deadlines — that’s my thing."
+    ],
+    "keys": {
+     "завжди": "always|every",
+     "плюс": "strength|plus|advantage|thing|selling point"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1900,
+  "w": "unfriend",
+  "uk": "видалити з друзів (у соцмережі)",
+  "lvl": "B2",
+  "forms": "unfriend|unfriends|unfriended|unfriended|unfriending",
+  "near": "delete*|remove*|block*|unfollow*",
+  "tasks": [
+   {
+    "sit": "Мама питає, чому дядько Петро скаржиться, що ти його «кудись подів» у фейсбуці.",
+    "say": "Я видалив дядька з друзів через його політичні пости.",
+    "ans": [
+     "I unfriended my uncle because of his political posts.",
+     "I unfriended my uncle over his political posts.",
+     "I had to unfriend my uncle — his political posts were too much."
+    ],
+    "keys": {
+     "дядько": "uncle",
+     "політичні": "politic*"
+    }
+   },
+   {
+    "sit": "Подруга питає, чи ти ще бачиш у стрічці фото свого колишнього.",
+    "say": "Він видалив мене з друзів одразу після розриву.",
+    "ans": [
+     "He unfriended me right after we broke up.",
+     "He unfriended me as soon as we split up.",
+     "The day we broke up, he unfriended me."
+    ],
+    "keys": {
+     "розрив": "broke up|break*|split*|breakup"
+    }
+   },
+   {
+    "sit": "Колишній однокласник постійно надсилає тобі рекламу свого бізнесу в особисті повідомлення.",
+    "say": "Якщо він ще раз надішле мені рекламу, я видалю його з друзів.",
+    "ans": [
+     "If he sends me one more ad, I’ll unfriend him.",
+     "One more spam message from him and I’m unfriending him.",
+     "If he spams me again, I’m going to unfriend him."
+    ],
+    "keys": {
+     "реклама": "ad|ads|advert*|spam*|promo*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1901,
+  "w": "follow back",
+  "uk": "підписатися у відповідь",
+  "lvl": "B1",
+  "forms": "follow|follows|followed|followed|following",
+  "tail": "back",
+  "near": "subscrib*|follow* you too|follow* me too|return* the follow",
+  "tasks": [
+   {
+    "sit": "Ти почав вести блог про подорожі, і на тебе підписалася відома тревел-блогерка. Ти теж на неї підписався, і вона підписалася у відповідь. Пишеш їй коментар.",
+    "say": "Дякую, що підписалися у відповідь!",
+    "ans": [
+     "Thanks for following back!",
+     "Thank you for following me back!",
+     "Thanks so much for following me back!"
+    ],
+    "keys": {
+     "дякую": "thank*"
+    }
+   },
+   {
+    "sit": "Ти відкрив соцмережу й не віриш своїм очам. Одразу пишеш другові.",
+    "say": "Уявляєш, мій улюблений актор підписався на мене у відповідь!",
+    "ans": [
+     "Can you believe it? My favorite actor followed me back!",
+     "My favorite actor actually followed me back!",
+     "No way — my favourite actor followed me back!"
+    ],
+    "keys": {
+     "актор": "actor|actress"
+    }
+   },
+   {
+    "sit": "Ти ведеш акаунт компанії в соцмережі. Новий стажер питає, чи треба підписуватися на всіх підписників.",
+    "say": "Ми не підписуємося у відповідь на всіх — тільки на партнерів.",
+    "ans": [
+     "We don’t follow everyone back — only our partners.",
+     "We only follow our partners back, not everyone.",
+     "We don’t follow everybody back, just partners."
+    ],
+    "keys": {
+     "партнери": "partner*",
+     "всіх": "everyone|everybody|all"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1903,
+  "w": "diversify",
+  "uk": "диверсифікувати (розподіляти ризики)",
+  "lvl": "C1",
+  "forms": "diversify|diversifies|diversified|diversified|diversifying",
+  "near": "spread*|mix*|balance*|vary|varied",
+  "tasks": [
+   {
+    "sit": "Ти фінансовий консультант. Клієнт хоче вкласти всі заощадження в акції однієї компанії.",
+    "say": "Не вкладайте все в одну компанію — диверсифікуйте портфель.",
+    "ans": [
+     "Don’t put everything into one company — diversify your portfolio.",
+     "Diversify your portfolio instead of betting on one company.",
+     "Don’t go all in on one stock; diversify your investments."
+    ],
+    "keys": {
+     "портфель": "portfolio|investment*|stock*|money",
+     "одну": "one|single"
+    }
+   },
+   {
+    "sit": "У тебе невелика пекарня. Під час локдауну продажі впали, і ви змінили підхід. Розповідаєш знайомому.",
+    "say": "Ми диверсифікували бізнес — тепер ще й доставляємо обіди в офіси.",
+    "ans": [
+     "We diversified the business — now we also deliver lunches to offices.",
+     "We’ve diversified: we now deliver lunch to offices too.",
+     "We diversified a bit, so now we do office lunch deliveries too."
+    ],
+    "keys": {
+     "обіди": "lunch*|meal*|food",
+     "офіси": "office*"
+    }
+   },
+   {
+    "sit": "Ти фермер і розповідаєш журналістові, як господарство переживає посухи.",
+    "say": "Щоб менше залежати від погоди, ми диверсифікуємо посіви.",
+    "ans": [
+     "To depend less on the weather, we’re diversifying our crops.",
+     "We diversify our crops so we rely less on the weather.",
+     "We’re diversifying our crops so the weather doesn’t hit us as hard."
+    ],
+    "keys": {
+     "посіви": "crop*|plant*|harvest*",
+     "погода": "weather|climate"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1904,
+  "w": "allocate",
+  "uk": "розподіляти, виділяти (кошти)",
+  "lvl": "C1",
+  "forms": "allocate|allocates|allocated|allocated|allocating",
+  "near": "distribut*|assign*|set aside|invest*|split*|devote*|earmark*|budget*",
+  "tasks": [
+   {
+    "sit": "Колега цікавиться, як ти будуєш свій інвестиційний портфель.",
+    "say": "Я розподіляю шістдесят відсотків в акції, а решту — в облігації.",
+    "ans": [
+     "I allocate sixty percent to stocks and the rest to bonds.",
+     "I allocate 60% to stocks and the remaining 40% to bonds.",
+     "I’ve allocated sixty percent to stocks, the rest to bonds."
+    ],
+    "keys": {
+     "акції": "stock*|share*|equit*",
+     "облігації": "bond*"
+    }
+   },
+   {
+    "sit": "Ти журналіст місцевого видання й пишеш новину про рішення міської ради.",
+    "say": "Місто виділило кошти на ремонт трьох шкіл.",
+    "ans": [
+     "The city allocated funds to repair three schools.",
+     "The city has allocated money for renovating three schools.",
+     "The council allocated funding to fix up three schools."
+    ],
+    "keys": {
+     "школи": "school*",
+     "ремонт": "repair*|renovat*|fix*|refurbish*"
+    }
+   },
+   {
+    "sit": "Друг питає, як вам із дружиною вдається щороку їздити за кордон.",
+    "say": "Щомісяця ми відкладаємо частину зарплати на відпустку.",
+    "ans": [
+     "Every month we allocate part of our salary to our vacation fund.",
+     "We allocate some of our income each month for vacations.",
+     "Each month we allocate a chunk of our pay to travel."
+    ],
+    "keys": {
+     "щомісяця": "month*",
+     "відпустка": "vacation*|holiday*|travel*|trip*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1905,
+  "w": "put money into",
+  "uk": "вкладати гроші (у щось)",
+  "lvl": "B1",
+  "forms": "put|puts|put|put|putting",
+  "tail": "money into",
+  "near": "invest*|spend* on|spent on|pour*",
+  "tasks": [
+   {
+    "sit": "Колега питає, як ти відкладаєш на пенсію.",
+    "say": "Я щомісяця вкладаю гроші в індексний фонд.",
+    "ans": [
+     "I put money into an index fund every month.",
+     "Every month I put some money into an index fund.",
+     "I put a bit of money into an index fund each month."
+    ],
+    "keys": {
+     "фонд": "fund*|etf*",
+     "щомісяця": "month*"
+    }
+   },
+   {
+    "sit": "Друг умовляє тебе стати інвестором його нового стартапу, а ти не впевнений у ідеї. Радишся з сестрою.",
+    "say": "Я не буду вкладати гроші в стартап друга.",
+    "ans": [
+     "I’m not going to put money into my friend’s startup.",
+     "I won’t put money into my friend’s startup.",
+     "No way I’m putting money into my buddy’s startup."
+    ],
+    "keys": {
+     "стартап": "startup*|start-up*|company|business",
+     "не": "not|no way|never"
+    }
+   },
+   {
+    "sit": "Гості захоплюються вашим відремонтованим старим будинком.",
+    "say": "Ми вклали купу грошей у ремонт цього будинку.",
+    "ans": [
+     "We put a lot of money into renovating this house.",
+     "We’ve put tons of money into fixing up this house.",
+     "We put so much money into this house."
+    ],
+    "keys": {
+     "будинок": "house|home|place",
+     "купу": "lot|tons|so much|loads|fortune"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1906,
+  "w": "cash in",
+  "uk": "продати з прибутком (зафіксувати прибуток)",
+  "lvl": "B2",
+  "forms": "cash|cashes|cashed|cashed|cashing",
+  "tail": "in",
+  "near": "sell|sold|selling|sells|take profit*|took profit*|cash out|cashed out",
+  "tasks": [
+   {
+    "sit": "Ти рік тому купив біткоїн, і сьогодні бачиш, що він подорожчав удвічі. Пишеш другові.",
+    "say": "Біткоїн подвоївся — думаю, час продати й зафіксувати прибуток.",
+    "ans": [
+     "Bitcoin has doubled — I think it’s time to cash in.",
+     "Bitcoin doubled, so I’m going to cash in.",
+     "Bitcoin’s doubled — time to cash in, I reckon."
+    ],
+    "keys": {
+     "біткоїн": "bitcoin*|btc|crypto*",
+     "подвоївся": "doubl*"
+    }
+   },
+   {
+    "sit": "Твоя бабуся багато років тримала державні облігації. Розповідаєш колезі сімейну новину.",
+    "say": "Бабуся продала свої облігації й купила онукові машину.",
+    "ans": [
+     "Grandma cashed in her bonds and bought her grandson a car.",
+     "Grandma cashed her bonds in to buy her grandson a car.",
+     "My grandma cashed in her bonds and got her grandson a car."
+    ],
+    "keys": {
+     "облігації": "bond*",
+     "машина": "car"
+    }
+   },
+   {
+    "sit": "Твоя компанія вийшла на біржу, і в тебе є її акції. Колега питає про твої плани.",
+    "say": "Я продам свої акції, щойно вони виростуть.",
+    "ans": [
+     "I’ll cash in my shares as soon as they go up.",
+     "As soon as the shares rise, I’m cashing in.",
+     "The moment the stock goes up, I’ll cash in."
+    ],
+    "keys": {
+     "акції": "share*|stock*",
+     "виростуть": "go up|goes up|rise*|grow*|climb*|up"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1907,
+  "w": "reinvest",
+  "uk": "реінвестувати",
+  "lvl": "B2",
+  "forms": "reinvest|reinvests|reinvested|reinvested|reinvesting",
+  "near": "invest*|put it back|put them back|plough back|plow back|roll over",
+  "tasks": [
+   {
+    "sit": "Друг дивується, чому ти не витрачаєш виплати, які отримуєш від акцій.",
+    "say": "Я реінвестую всі дивіденди, а не витрачаю їх.",
+    "ans": [
+     "I reinvest all my dividends instead of spending them.",
+     "I don’t spend my dividends — I reinvest them.",
+     "I just reinvest all the dividends rather than spend them."
+    ],
+    "keys": {
+     "дивіденди": "dividend*",
+     "витрачаю": "spend*|spent"
+    }
+   },
+   {
+    "sit": "Ти власник кав’ярні. Журналістка питає, як ви так швидко розвинулися.",
+    "say": "Увесь прибуток за перший рік ми реінвестували в нове обладнання.",
+    "ans": [
+     "We reinvested all of our first-year profit in new equipment.",
+     "We reinvested all the profit from our first year in new equipment.",
+     "We reinvested every penny we made in year one into new equipment."
+    ],
+    "keys": {
+     "обладнання": "equipment|machine*|gear",
+     "прибуток": "profit*|made|earn*|money|penny"
+    }
+   },
+   {
+    "sit": "Ти ведеш кулінарний ютуб-канал, і підписник питає, на що йдуть гроші з реклами.",
+    "say": "Гроші з реклами я реінвестую в кращу камеру та мікрофон.",
+    "ans": [
+     "I reinvest the ad money in a better camera and mic.",
+     "I’m reinvesting my ad revenue into a better camera and microphone.",
+     "I reinvest all the ad money in better gear, like a new camera."
+    ],
+    "keys": {
+     "реклама": "ad|ads|advert*|revenue|sponsor*",
+     "камера": "camera|gear|mic*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1908,
+  "w": "speculate",
+  "uk": "спекулювати (на ринку)",
+  "lvl": "C1",
+  "forms": "speculate|speculates|speculated|speculated|speculating",
+  "near": "gambl*|bet*|trade*|trading|traded|punt*",
+  "tasks": [
+   {
+    "sit": "Мама хвилюється за твого брата, який захопився криптовалютою. Ти пояснюєш подрузі ситуацію.",
+    "say": "Мій брат спекулює на криптовалюті й уже двічі все втратив.",
+    "ans": [
+     "My brother speculates on crypto and has already lost everything twice.",
+     "My brother has been speculating in crypto and lost it all twice.",
+     "My brother speculates on crypto — he’s already lost everything twice."
+    ],
+    "keys": {
+     "криптовалюта": "crypto*|bitcoin*|coin*",
+     "втратив": "lost|lose"
+    }
+   },
+   {
+    "sit": "Ви з другом обговорюєте, чому в місті так подорожчало житло.",
+    "say": "Інвестори спекулюють на нерухомості, і ціни на житло злітають.",
+    "ans": [
+     "Investors are speculating on real estate, and housing prices are soaring.",
+     "Investors speculate on property, so home prices keep going up.",
+     "With investors speculating on real estate, house prices are through the roof."
+    ],
+    "keys": {
+     "нерухомість": "real estate|propert*|housing|house*|home*",
+     "ціни": "price*"
+    }
+   },
+   {
+    "sit": "Ти викладаєш економіку й пояснюєш студентам, хто торгує нафтовими ф’ючерсами.",
+    "say": "Ці трейдери спекулюють на ціні нафти, а не купують її для використання.",
+    "ans": [
+     "These traders speculate on oil prices; they don’t buy oil to use it.",
+     "These traders are speculating on the price of oil, not buying it to use.",
+     "They’re just speculating on oil prices — they don’t actually need the oil."
+    ],
+    "keys": {
+     "нафта": "oil|crude"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1909,
+  "w": "hedge",
+  "uk": "хеджувати (страхувати від ризику)",
+  "lvl": "C1",
+  "forms": "hedge|hedges|hedged|hedged|hedging",
+  "near": "protect*|insur*|cover*|offset*|guard*|safeguard*",
+  "tasks": [
+   {
+    "sit": "Ти керуєш агрохолдингом і пояснюєш новому фінансистові, як ви захищаєтеся від падіння цін на зерно.",
+    "say": "Ми хеджуємо ціну на пшеницю ф’ючерсами.",
+    "ans": [
+     "We hedge the price of wheat with futures.",
+     "We hedge against drops in wheat prices using futures.",
+     "We use futures to hedge our wheat prices."
+    ],
+    "keys": {
+     "пшениця": "wheat|grain",
+     "ф’ючерси": "futures|contract*"
+    }
+   },
+   {
+    "sit": "Друг питає, навіщо ти купуєш золоті монети, якщо вони не приносять доходу.",
+    "say": "Я купую трохи золота, щоб захиститися від інфляції.",
+    "ans": [
+     "I buy some gold to hedge against inflation.",
+     "I’m buying a bit of gold to hedge against inflation.",
+     "I keep some gold to hedge against inflation."
+    ],
+    "keys": {
+     "золото": "gold",
+     "інфляція": "inflation"
+    }
+   },
+   {
+    "sit": "Ти фінансовий директор компанії-імпортера й звітуєш перед правлінням.",
+    "say": "Ми хеджуємо валютний ризик, бо платимо постачальникам у євро.",
+    "ans": [
+     "We hedge our currency risk because we pay suppliers in euros.",
+     "Since we pay our suppliers in euros, we hedge the currency risk.",
+     "We pay suppliers in euros, so we hedge against exchange-rate swings."
+    ],
+    "keys": {
+     "євро": "euro*",
+     "постачальники": "supplier*|vendor*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1910,
+  "w": "compound",
+  "uk": "нараховуватися як складні відсотки",
+  "lvl": "C1",
+  "forms": "compound|compounds|compounded|compounded|compounding",
+  "near": "grow*|add* up|accru*|build* up|multipl*|snowball*",
+  "tasks": [
+   {
+    "sit": "Ти працюєш у банку й пояснюєш клієнтці умови нового депозиту.",
+    "say": "Відсотки за цим депозитом нараховуються щомісяця.",
+    "ans": [
+     "Interest on this deposit compounds monthly.",
+     "The interest on this deposit is compounded every month.",
+     "On this deposit, interest compounds every month."
+    ],
+    "keys": {
+     "щомісяця": "month*",
+     "депозит": "deposit|account|savings"
+    }
+   },
+   {
+    "sit": "Молодша сестра оформила кредитку й не поспішає гасити борг. Ти її застерігаєш.",
+    "say": "Борг на кредитці росте швидко, бо відсотки нараховуються щодня.",
+    "ans": [
+     "Credit card debt grows fast because the interest compounds daily.",
+     "The interest on credit cards compounds every day, so the debt grows quickly.",
+     "Your card debt snowballs because interest compounds daily."
+    ],
+    "keys": {
+     "щодня": "daily|every day|each day",
+     "борг": "debt*|owe*|balance"
+    }
+   },
+   {
+    "sit": "Племінник отримав першу зарплату, і ти радиш йому почати інвестувати.",
+    "say": "Почни відкладати вже зараз — чим довше нараховуються складні відсотки, тим більше в тебе буде.",
+    "ans": [
+     "Start saving now — the longer your money compounds, the more you’ll have.",
+     "If you start saving now, your money will compound for longer.",
+     "Start saving now and let your money compound for years."
+    ],
+    "keys": {
+     "зараз": "now|early|young",
+     "відкладати": "sav*|invest*|money"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1911,
+  "w": "yield",
+  "uk": "приносити (дохід)",
+  "lvl": "C1",
+  "forms": "yield|yields|yielded|yielded|yielding",
+  "near": "bring in|brings in|brought in|earn*|return*|pay*|paid|generat*|produce*",
+  "tasks": [
+   {
+    "sit": "Ти порівнюєш із другом пропозиції банків, куди покласти заощадження.",
+    "say": "Цей депозит приносить п’ять відсотків на рік.",
+    "ans": [
+     "This deposit yields five percent a year.",
+     "This deposit yields 5% annually.",
+     "This deposit yields about five percent per year."
+    ],
+    "keys": {
+     "п’ять відсотків": "five|5*",
+     "на рік": "year*|annual*"
+    }
+   },
+   {
+    "sit": "Батько питає, чому ти частину грошей тримаєш в облігаціях, а не в акціях.",
+    "say": "Облігації зараз приносять менше, ніж акції, але вони надійніші.",
+    "ans": [
+     "Bonds yield less than stocks right now, but they’re safer.",
+     "Right now bonds yield less than stocks, though they’re more reliable.",
+     "Bonds are yielding less than stocks at the moment, but they’re safer."
+    ],
+    "keys": {
+     "облігації": "bond*",
+     "надійніші": "safe*|reliable|secure|stable|less risky"
+    }
+   },
+   {
+    "sit": "Колега розпитує, чи варто купувати квартиру під оренду.",
+    "say": "Квартира, яку ми здаємо, приносить стабільний дохід.",
+    "ans": [
+     "The apartment we rent out yields a steady income.",
+     "Our rental apartment yields a stable income.",
+     "The flat we rent out yields steady income every month."
+    ],
+    "keys": {
+     "квартира": "apartment|flat|rental|property",
+     "стабільний": "steady|stable|regular|reliable|consistent"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1912,
+  "w": "crash",
+  "uk": "обвалюватися (про ринок)",
+  "lvl": "B2",
+  "forms": "crash|crashes|crashed|crashed|crashing",
+  "near": "collaps*|plung*|plummet*|tank*|fall|fell|fallen|drop*|tumbl*|nosedive*",
+  "tasks": [
+   {
+    "sit": "Ти пояснюєш другові, чому батьки так обережно ставляться до інвестицій.",
+    "say": "Ринок обвалився у 2008 році, і батьки втратили половину пенсійних заощаджень.",
+    "ans": [
+     "The market crashed in 2008, and my parents lost half their retirement savings.",
+     "When the market crashed in 2008, my parents lost half of their retirement savings.",
+     "My parents lost half their retirement money when the market crashed in 2008."
+    ],
+    "keys": {
+     "2008": "2008",
+     "половину": "half"
+    }
+   },
+   {
+    "sit": "Ти хвалишся колегам у курилці своєю інтуїцією.",
+    "say": "Я продав усе за день до того, як обвалився крипторинок.",
+    "ans": [
+     "I sold everything the day before the crypto market crashed.",
+     "I sold it all a day before crypto crashed.",
+     "Lucky me — I sold everything a day before the crypto market crashed."
+    ],
+    "keys": {
+     "продав": "sold|sell",
+     "день": "day"
+    }
+   },
+   {
+    "sit": "Ви з дружиною давно мрієте про власне житло й обговорюєте ціни.",
+    "say": "Якщо ринок нерухомості обвалиться, ми купимо квартиру дешевше.",
+    "ans": [
+     "If the housing market crashes, we’ll buy an apartment cheaper.",
+     "If the real estate market crashes, we can buy a flat for less.",
+     "If the housing market crashes, we’ll grab an apartment cheap."
+    ],
+    "keys": {
+     "квартира": "apartment|flat|place|home",
+     "дешевше": "cheap*|less|lower|bargain"
+    }
+   }
+  ]
+ }
+]

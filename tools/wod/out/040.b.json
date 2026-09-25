@@ -1,0 +1,647 @@
+[
+ {
+  "id": 2224, "w": "borrow sugar", "uk": "позичити цукру (у сусіда)", "lvl": "B1",
+  "forms": "borrow|borrows|borrowed|borrowed|borrowing",
+  "tail": "sugar",
+  "near": "lend*|lent|take some|took some|ask for some",
+  "tasks": [
+   {
+    "sit": "Ти почав пекти пиріг і раптом бачиш, що цукор закінчився. Стукаєш до сусідки.",
+    "say": "Можна позичити в тебе трохи цукру? Я печу пиріг.",
+    "ans": ["Can I borrow some sugar? I’m baking a cake.", "Could I borrow a bit of sugar from you? I’m making a pie.", "Hi! Can I borrow some sugar? I’m in the middle of baking."],
+    "keys": { "печу": "bak*|cake|pie|cook*|mak*" }
+   },
+   {
+    "sit": "Дружина питає, хто знову дзвонив у двері.",
+    "say": "Сусід знову приходив позичити цукру — уже втретє за тиждень.",
+    "ans": ["The neighbor came to borrow sugar again — third time this week.", "Our neighbor came to borrow sugar for the third time this week.", "Guess who came to borrow sugar again? Third time this week!"],
+    "keys": { "знову": "again|third|3rd", "тиждень": "week" }
+   },
+   {
+    "sit": "Ти в гуртожитку заварив каву, а цукор скінчився.",
+    "say": "Піду позичу цукру в сусідів по поверху.",
+    "ans": ["I’ll go borrow some sugar from the people on my floor.", "I’m going to borrow sugar from my floormates.", "Let me just go borrow some sugar from someone down the hall."],
+    "keys": { "сусіди по поверху": "neighbo*|floor*|people|someone|hall|room*" }
+   }
+  ]
+ },
+ {
+  "id": 2225, "w": "gossip about neighbors", "uk": "пліткувати про сусідів", "lvl": "B2",
+  "forms": "gossip|gossips|gossiped/gossipped|gossiped/gossipped|gossiping/gossipping",
+  "tail": "about",
+  "near": "talk* about|chat* about|discuss*|talk behind",
+  "tasks": [
+   {
+    "sit": "Друг приїхав у гості й помітив бабусь на лавці біля твого під’їзду.",
+    "say": "Ці бабусі цілими днями пліткують про сусідів.",
+    "ans": ["Those old ladies gossip about the neighbors all day.", "All day long, those grannies gossip about the neighbors.", "Those old ladies spend all day gossiping about the neighbors."],
+    "keys": { "сусіди": "neighbo*", "цілими днями": "all day|whole day|every day|day*" }
+   },
+   {
+    "sit": "Твоя донька за вечерею переказує, що нібито робить сусідка з третього поверху.",
+    "say": "Не пліткуй про сусідів, це негарно.",
+    "ans": ["Don’t gossip about the neighbors, it’s not nice.", "You shouldn’t gossip about our neighbors — it’s rude.", "Hey, don’t gossip about the neighbors, that’s not cool."],
+    "keys": { "сусіди": "neighbo*", "негарно": "not nice|rude|mean|not cool|not good|bad|wrong|not okay" }
+   },
+   {
+    "sit": "Колега питає, чи корисний чат вашого будинку в месенджері.",
+    "say": "У чаті нашого будинку люди тільки пліткують про сусідів.",
+    "ans": ["In our building’s group chat, people just gossip about the neighbors.", "People only gossip about neighbors in our building chat.", "Our building group chat is just people gossiping about the neighbors."],
+    "keys": { "чат": "chat*|group|telegram|viber|whatsapp", "сусіди": "neighbo*" }
+   }
+  ]
+ },
+ {
+  "id": 2226, "w": "complain about noise", "uk": "скаржитися на шум", "lvl": "B1",
+  "forms": "complain|complains|complained|complained|complaining",
+  "tail": "noise*/noisy",
+  "near": "grumble*|moan*|whine*|report*|make a complaint|made a complaint|file a complaint",
+  "tasks": [
+   {
+    "sit": "За стіною знову гучна музика о другій ночі. Ти розповідаєш про це другові.",
+    "say": "Я вже двічі скаржився на шум із сусідньої квартири.",
+    "ans": ["I’ve already complained about the noise from next door twice.", "I complained twice about the noise from the apartment next door.", "I’ve complained about the noise next door twice already!"],
+    "keys": { "двічі": "twice|two times|2", "сусідня квартира": "next door|neighbo*|apartment|flat" }
+   },
+   {
+    "sit": "Ти в готелі, за стіною гучна вечірка. Телефонуєш на рецепцію.",
+    "say": "Я хочу поскаржитися на шум — у сусідньому номері вечірка.",
+    "ans": ["I’d like to complain about the noise. There’s a party in the next room.", "I want to complain about the noise — the room next to mine is having a party.", "Hi, I’m calling to complain about the noise, there’s a party next door."],
+    "keys": { "вечірка": "party|partying" }
+   },
+   {
+    "sit": "Відділ кадрів питає, що найбільше не подобається працівникам у новому офісі.",
+    "say": "У відкритому офісі всі скаржаться на шум.",
+    "ans": ["In the open-plan office everyone complains about the noise.", "Everyone in our open office complains about the noise.", "Everybody’s always complaining about the noise in the open office."],
+    "keys": { "усі": "everyone*|everybody*|all|people", "офіс": "office|open*" }
+   }
+  ]
+ },
+ {
+  "id": 2227, "w": "call the police", "uk": "викликати поліцію", "lvl": "A2",
+  "forms": "call|calls|called|called|calling",
+  "tail": "police/cops/911/112/102",
+  "near": "phone the police|phoned the police|ring the police|rang the police|report*|dial*|contact*",
+  "tasks": [
+   {
+    "sit": "Пізно ввечері хтось смикає ручку ваших вхідних дверей. Дружина налякана.",
+    "say": "Хтось намагається відчинити наші двері — я викликаю поліцію!",
+    "ans": ["Someone is trying to open our door — I’m calling the police!", "Someone’s trying to open the door, I’ll call the police!", "Somebody’s trying to get in — I’m calling the police right now!"],
+    "keys": { "хтось": "someone*|somebody*|stranger*|man|guy|person", "двері": "door*|break in|get in|breaking in" }
+   },
+   {
+    "sit": "У тебе невелика аварія на парковці. Другий водій пропонує просто розійтися.",
+    "say": "Ніхто не постраждав, але треба викликати поліцію для страховки.",
+    "ans": ["Nobody is hurt, but we need to call the police for the insurance.", "We have to call the police for insurance, even though nobody got hurt.", "No one’s hurt, but we still need to call the police for the insurance."],
+    "keys": { "страховка": "insurance|insurer|claim" }
+   },
+   {
+    "sit": "У сусідів гучна вечірка вже третю годину, а тобі рано вставати.",
+    "say": "Якщо музика не стихне до опівночі, я викличу поліцію.",
+    "ans": ["If the music doesn’t stop by midnight, I’ll call the police.", "I’m calling the police if the music is still on at midnight.", "If they don’t turn the music down by midnight, I’m calling the cops."],
+    "keys": { "музика": "music|noise|party", "опівночі": "midnight|twelve|12" }
+   }
+  ]
+ },
+ {
+  "id": 2228, "w": "host a block party", "uk": "влаштувати вечірку для всього кварталу", "lvl": "C1",
+  "forms": "host|hosts|hosted|hosted|hosting",
+  "tail": "block part*",
+  "near": "organi*|throw*|threw|thrown|put on|arrang*|hold|held",
+  "tasks": [
+   {
+    "sit": "Ти розносиш сусідам запрошення на свято просто на вашій вулиці.",
+    "say": "Цього літа ми влаштовуємо вечірку на весь квартал — приходьте!",
+    "ans": ["We’re hosting a block party this summer — come along!", "We’ll host a block party this summer, so please come!", "We’re hosting a block party this summer, you should totally come!"],
+    "keys": { "літо": "summer", "приходьте": "come|join|drop by|welcome" }
+   },
+   {
+    "sit": "Ти працюєш у міській раді й розповідаєш журналістам про нову програму.",
+    "say": "Місто дає гранти жителям, які хочуть влаштувати вечірку для свого кварталу.",
+    "ans": ["The city gives grants to residents who want to host a block party.", "Residents can get a grant from the city to host a block party.", "If residents want to host a block party, the city will give them a grant."],
+    "keys": { "грант": "grant*|money|fund*", "жителі": "resident*|people|neighbo*|locals" }
+   },
+   {
+    "sit": "Знайома дивується, що ти знаєш на ім’я всіх людей на своїй вулиці.",
+    "say": "Минулого року ми влаштували вечірку для кварталу, і всі нарешті перезнайомилися.",
+    "ans": ["Last year we hosted a block party, and everyone finally got to know each other.", "When we hosted a block party last year, we all finally met.", "We hosted a block party last year, and finally everybody met everybody."],
+    "keys": { "минулого року": "last year|year", "перезнайомилися": "know each other|met|meet|introduc*|friends" }
+   }
+  ]
+ },
+ {
+  "id": 2229, "w": "clean up the park", "uk": "прибирати парк", "lvl": "A2",
+  "forms": "clean|cleans|cleaned|cleaned|cleaning",
+  "tail": "up park*",
+  "near": "tidy|tidied|pick up litter|picked up litter|collect* trash|collect* rubbish",
+  "tasks": [
+   {
+    "sit": "Друг кличе тебе в суботу на футбол, але в тебе інші плани.",
+    "say": "У суботу ми з волонтерами прибираємо парк.",
+    "ans": ["On Saturday I’m cleaning up the park with volunteers.", "I’ll clean up the park with some volunteers on Saturday.", "This Saturday I’m cleaning up the park with a group of volunteers."],
+    "keys": { "субота": "saturday", "волонтери": "volunteer*|group|team" }
+   },
+   {
+    "sit": "Ти вчитель і розповідаєш директорці, як пройшов День довкілля.",
+    "say": "Учні прибирали парк після уроків.",
+    "ans": ["The students cleaned up the park after school.", "After classes, the kids cleaned up the park.", "The kids spent the afternoon after school cleaning up the park."],
+    "keys": { "учні": "student*|pupil*|kid*|children|class" }
+   },
+   {
+    "sit": "Міський фестиваль закінчився, і ти обговорюєш із колегою-організатором наступний ранок.",
+    "say": "Після фестивалю треба прибрати парк — там купа сміття.",
+    "ans": ["After the festival we need to clean up the park — there’s trash everywhere.", "We have to clean up the park after the festival, there’s so much garbage.", "Somebody has to clean up the park after the festival, it’s full of rubbish."],
+    "keys": { "сміття": "trash|garbage|rubbish|litter|mess|bottle*" }
+   }
+  ]
+ },
+ {
+  "id": 2230, "w": "post flyers", "uk": "розклеювати оголошення", "lvl": "B2",
+  "forms": "post|posts|posted|posted|posting",
+  "tail": "flyer*/flier*/poster*/leaflet*/notice*",
+  "near": "put up|hang*|hung|stick*|stuck|distribut*|hand out|handed out",
+  "tasks": [
+   {
+    "sit": "Колега питає, чи знайшовся твій кіт, який утік тиждень тому.",
+    "say": "Ще ні, ми розклеїли оголошення по всьому району.",
+    "ans": ["Not yet, we posted flyers all over the neighborhood.", "No, not yet — we’ve posted flyers around the whole area.", "Not yet, but we posted flyers everywhere around here."],
+    "keys": { "ще ні": "not yet|no|not", "район": "neighbo*|area|everywhere|around|street*|town" }
+   },
+   {
+    "sit": "Ти відкриваєш власну студію йоги й розповідаєш подрузі про рекламу.",
+    "say": "Я розклеюватиму оголошення біля спортзалів.",
+    "ans": ["I’ll post flyers near gyms.", "I’m going to post flyers by the gyms.", "I’ll be posting flyers around all the gyms nearby."],
+    "keys": { "спортзали": "gym*|fitness" }
+   },
+   {
+    "sit": "Ваш студентський гурт грає перший концерт, а квитків продано лише п’ять.",
+    "say": "Треба розклеїти оголошення по всьому університету.",
+    "ans": ["We need to post flyers all over the university.", "We have to post flyers around the university.", "We’ve got to post flyers all over campus."],
+    "keys": { "університет": "universit*|uni|campus|college" }
+   }
+  ]
+ },
+ {
+  "id": 2231, "w": "job-hop", "uk": "часто міняти роботу", "lvl": "C1",
+  "forms": "job-hop|job-hops|job-hopped|job-hopped|job-hopping",
+  "near": "change jobs|changed jobs|changing jobs|switch jobs|switched jobs|switching jobs|hop from job to job|jump from job to job",
+  "tasks": [
+   {
+    "sit": "Ти рекрутер і обговорюєш резюме з керівником відділу.",
+    "say": "Цей кандидат часто міняв роботу — чотири місця за три роки.",
+    "ans": ["This candidate has job-hopped a lot — four jobs in three years.", "The candidate job-hopped a lot: four jobs in three years.", "Looks like this candidate job-hops a lot — four jobs in three years."],
+    "keys": { "чотири": "four|4", "три роки": "three|3|year*" }
+   },
+   {
+    "sit": "Племінник переживає, що вже втретє звільняється. Ти ділишся своїм досвідом.",
+    "say": "Коли мені було за двадцять, я постійно міняв роботу, шукаючи себе.",
+    "ans": ["In my twenties I job-hopped a lot, trying to find myself.", "I kept job-hopping in my twenties while I was trying to find myself.", "Back in my twenties, I job-hopped constantly — just trying to figure out what I wanted."],
+    "keys": { "за двадцять": "twenties|20s|twenty|young", "шукаючи себе": "find* myself|figur*|what i wanted|searching|looking" }
+   },
+   {
+    "sit": "Ти читаєш статтю про ринок праці й коментуєш її колезі.",
+    "say": "Молоді айтівці часто міняють роботу заради вищої зарплати.",
+    "ans": ["Young IT workers often job-hop for a higher salary.", "Young developers job-hop a lot to get better pay.", "A lot of young tech people job-hop just for a bigger paycheck."],
+    "keys": { "зарплата": "salar*|pay*|money|wage*", "молоді": "young|junior*" }
+   }
+  ]
+ },
+ {
+  "id": 2232, "w": "land a job", "uk": "здобути роботу", "lvl": "B2",
+  "forms": "land|lands|landed|landed|landing",
+  "tail": "job*/position/role/internship/gig/contract",
+  "near": "get a job|got a job|find a job|found a job|hired|secure*",
+  "tasks": [
+   {
+    "sit": "Після пів року пошуків тобі нарешті надіслали офер. Ти телефонуєш мамі.",
+    "say": "Я нарешті отримав роботу в міжнародній компанії!",
+    "ans": ["I finally landed a job at an international company!", "I’ve finally landed a job with an international company!", "Guess what — I finally landed a job at a big international firm!"],
+    "keys": { "міжнародна компанія": "international|global|company|firm|corporation" }
+   },
+   {
+    "sit": "Молодша сестра вчиться на дизайнера й питає, з чого почати.",
+    "say": "Щоб отримати хорошу роботу, потрібне сильне портфоліо.",
+    "ans": ["To land a good job, you need a strong portfolio.", "You need a strong portfolio if you want to land a good job.", "A solid portfolio is what helps you land a good job."],
+    "keys": { "портфоліо": "portfolio*" }
+   },
+   {
+    "sit": "Сусідка питає, як справи у твого брата після університету.",
+    "say": "Мій брат знайшов роботу мрії через місяць після випуску.",
+    "ans": ["My brother landed his dream job a month after graduation.", "A month after graduating, my brother landed his dream job.", "My brother landed his dream job just a month after he graduated."],
+    "keys": { "мрія": "dream|perfect", "після випуску": "graduat*|month|universit*|college" }
+   }
+  ]
+ },
+ {
+  "id": 2233, "w": "climb the ladder", "uk": "будувати кар’єру, просуватися кар’єрними сходами", "lvl": "C1",
+  "forms": "climb|climbs|climbed|climbed|climbing",
+  "tail": "ladder",
+  "near": "build* a career|built a career|get promoted|got promoted|move up|moved up|moving up|rise|rose|rising",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш другові про однокурсницю, яку за рік підвищили вже двічі.",
+    "say": "Вона швидко робить кар’єру в банку.",
+    "ans": ["She’s climbing the ladder fast at the bank.", "She’s quickly climbing the corporate ladder at the bank.", "She’s really climbing the ladder at the bank — and fast."],
+    "keys": { "банк": "bank*", "швидко": "fast|quick*|rapid*" }
+   },
+   {
+    "sit": "Тобі запропонували підвищення з переїздом в інше місто, і ти пояснюєш дружині, чому відмовився.",
+    "say": "Я не хочу все життя будувати кар’єру — хочу мати час для родини.",
+    "ans": ["I don’t want to spend my whole life climbing the ladder. I want time for my family.", "I don’t want to climb the corporate ladder forever; I want time with my family.", "Climbing the ladder isn’t everything — I want time for my family."],
+    "keys": { "родина": "family|kids|children" }
+   },
+   {
+    "sit": "Ти пишеш статтю для корпоративного блогу про історію свого керівника.",
+    "say": "Він починав кур’єром і за десять років доріс до директора.",
+    "ans": ["He started as a courier and climbed the ladder to director in ten years.", "Starting as a courier, he climbed the ladder all the way to director in ten years.", "He climbed the ladder from courier to director in just ten years."],
+    "keys": { "кур’єр": "courier|delivery", "директор": "director|ceo|boss|head|top" }
+   }
+  ]
+ },
+ {
+  "id": 2234, "w": "pack light", "uk": "брати мінімум речей у дорогу", "lvl": "B2",
+  "forms": "pack|packs|packed|packed|packing",
+  "tail": "light",
+  "near": "travel light|traveled light|travelled light|small bag|carry-on only|take only|bring only",
+  "tasks": [
+   {
+    "sit": "Дружина складає у валізу вже третій светр для поїздки на вихідні.",
+    "say": "Ми їдемо лише на два дні, тож бери мінімум речей.",
+    "ans": ["We’re only going for two days, so pack light.", "Pack light — it’s only a two-day trip.", "It’s just two days, so pack light, okay?"],
+    "keys": { "два дні": "two|2|weekend|days" }
+   },
+   {
+    "sit": "Колега дивується, що ти летиш у відпустку з одним маленьким рюкзаком.",
+    "say": "Я завжди беру мінімум речей, щоб не платити за багаж.",
+    "ans": ["I always pack light so I don’t pay for luggage.", "I always pack light to avoid baggage fees.", "I always pack light — I’m not paying for checked bags."],
+    "keys": { "багаж": "luggage|baggage|bag*|suitcase*", "платити": "pay*|fee*|cost*|money" }
+   },
+   {
+    "sit": "Ви з другом збираєтеся в тижневий похід горами.",
+    "say": "У горах кожен кілограм відчувається, тому бери мінімум речей.",
+    "ans": ["In the mountains every kilo counts, so pack light.", "Pack light — you feel every kilogram in the mountains.", "Every extra kilo hurts in the mountains, so pack light."],
+    "keys": { "гори": "mountain*|hike|hiking|trail", "кілограм": "kilo*|kg|weight|heavy" }
+   }
+  ]
+ },
+ {
+  "id": 2235, "w": "check luggage", "uk": "здавати багаж", "lvl": "B2",
+  "forms": "check|checks|checked|checked|checking",
+  "tail": "luggage/bag*/suitcase*/baggage",
+  "near": "drop off|dropped off|hand in|handed in|send in the hold|put in the hold",
+  "tasks": [
+   {
+    "sit": "Ти в аеропорту, валіза явно завелика для салону літака.",
+    "say": "Мені треба здати валізу — вона завелика для ручної поклажі.",
+    "ans": ["I need to check my suitcase — it’s too big for carry-on.", "I have to check my luggage because it’s too big for the cabin.", "I’ll have to check my bag, it’s way too big for carry-on."],
+    "keys": { "завелика": "fit|big|large|cabin|carry-on|carry on" }
+   },
+   {
+    "sit": "Друг бронює квитки на лоукост і питає, чи додавати багаж.",
+    "say": "Ми не здаємо багаж — це дорого, беремо лише рюкзаки.",
+    "ans": ["We don’t check luggage because it’s expensive; we only take backpacks.", "We’re not checking any bags — it costs too much, so just backpacks.", "Checking luggage is too pricey, so we just bring backpacks."],
+    "keys": { "дорого": "expensive|cost*|pric*|money", "рюкзаки": "backpack*|rucksack*" }
+   },
+   {
+    "sit": "Ти повернувся з відрядження без речей і пояснюєш колегам чому.",
+    "say": "На зворотному шляху я здав валізу, і її загубили.",
+    "ans": ["On the way back I checked my suitcase, and they lost it.", "I checked my luggage on the way home, and the airline lost it.", "I checked my bag on the flight back and of course they lost it."],
+    "keys": { "загубили": "lost|lose|missing|never arrived|gone", "зворотний шлях": "way back|way home|return*|back|home" }
+   }
+  ]
+ },
+ {
+  "id": 2236, "w": "build up", "uk": "розбудовувати (з нуля)", "lvl": "B2",
+  "forms": "build|builds|built|built|building",
+  "tail": "up",
+  "near": "grow*|grew|develop*|creat*|establish*|set up",
+  "tasks": [
+   {
+    "sit": "Журналіст місцевої газети питає тебе про сімейну пекарню.",
+    "say": "Мої батьки двадцять років будували свій бізнес з нуля.",
+    "ans": ["My parents spent twenty years building up their business from scratch.", "My parents built up their business from nothing over twenty years.", "It took my parents twenty years to build up their business from scratch."],
+    "keys": { "з нуля": "scratch|nothing|zero|ground", "двадцять років": "twenty|20|year*" }
+   },
+   {
+    "sit": "Знайомий дивується, що в тебе сто тисяч підписників.",
+    "say": "Я два роки розвиваю свій кулінарний блог.",
+    "ans": ["I’ve been building up my cooking blog for two years.", "For two years I’ve been building up my food blog.", "I’ve spent two years building up my cooking blog."],
+    "keys": { "блог": "blog|channel|page|account", "два роки": "two|2|year*" }
+   },
+   {
+    "sit": "Ти співзасновник стартапу й обговорюєш стратегію з партнером.",
+    "say": "Спершу треба наростити базу клієнтів, а вже потім шукати інвесторів.",
+    "ans": ["First we need to build up our client base, and then look for investors.", "Before we look for investors, we need to build up a client base.", "Let’s build up our customer base first, then find investors."],
+    "keys": { "клієнти": "client*|customer*|user*", "інвестори": "investor*|fund*|money" }
+   }
+  ]
+ },
+ {
+  "id": 2237, "w": "level up", "uk": "підвищити рівень, вийти на новий рівень", "lvl": "B2",
+  "forms": "level|levels|leveled/levelled|leveled/levelled|leveling/levelling",
+  "tail": "up",
+  "near": "reach* level|reached level|next level|rank* up|ranked up|improv*|progress*",
+  "tasks": [
+   {
+    "sit": "Ти весь вечір граєш у рольову гру й пишеш другові в чат.",
+    "say": "Мій персонаж нарешті перейшов на новий рівень — можна йти на боса.",
+    "ans": ["My character finally leveled up, so now I can fight the boss.", "My character has finally leveled up — time to go fight the boss.", "Finally leveled up! Now I can take on the boss."],
+    "keys": { "бос": "boss" }
+   },
+   {
+    "sit": "Ти користуєшся біговим застосунком з ігровими нагородами й хвалишся подрузі.",
+    "say": "Я бігаю щодня і в застосунку вже двічі піднявся на новий рівень.",
+    "ans": ["I run every day, and I’ve already leveled up twice in the app.", "I’ve leveled up twice in the app because I run every day.", "Running every day, I’ve already leveled up twice in the app!"],
+    "keys": { "двічі": "twice|two times|2", "застосунок": "app" }
+   },
+   {
+    "sit": "Колега питає, чи варто було витрачати гроші на дорогий онлайн-курс.",
+    "say": "Після цього курсу я реально вийшов на новий рівень як дизайнер.",
+    "ans": ["After this course, I feel like I’ve really leveled up as a designer.", "I really leveled up as a designer after this course.", "Honestly, this course made me level up as a designer."],
+    "keys": { "курс": "course|class|program*|training", "дизайнер": "design*" }
+   }
+  ]
+ },
+ {
+  "id": 2239, "w": "lose faith", "uk": "втрачати віру", "lvl": "B2",
+  "forms": "lose|loses|lost|lost|losing",
+  "tail": "faith",
+  "near": "give up on|gave up on|stop believing|stopped believing|lose hope|lost hope|lose trust|lost trust",
+  "tasks": [
+   {
+    "sit": "Ти обговорюєш із колегою низьку явку на виборах.",
+    "say": "Багато людей втратили віру в політиків.",
+    "ans": ["Many people have lost faith in politicians.", "A lot of people lost faith in politicians.", "So many people have just lost faith in politicians."],
+    "keys": { "політики": "politician*|government|politic*" }
+   },
+   {
+    "sit": "Подруга вже вдесяте провалила співбесіду й каже, що нічого не вміє.",
+    "say": "Не втрачай віри в себе, ти впораєшся.",
+    "ans": ["Don’t lose faith in yourself, you can do it.", "Don’t lose faith in yourself — you’ll get through this.", "Hey, don’t lose faith in yourself, you’ve got this."],
+    "keys": { "в себе": "yourself" }
+   },
+   {
+    "sit": "Ти розповідаєш про свого дядька, який колись був дуже релігійним.",
+    "say": "Після смерті батька він на деякий час втратив віру в Бога.",
+    "ans": ["After his father died, he lost faith in God for a while.", "He lost his faith in God for a while after his dad’s death.", "When his dad passed away, he lost faith in God for some time."],
+    "keys": { "Бог": "god|religion|church", "батько": "father*|dad*|parent*" }
+   }
+  ]
+ },
+ {
+  "id": 2240, "w": "bandage", "uk": "забинтовувати", "lvl": "B2",
+  "forms": "bandage|bandages|bandaged|bandaged|bandaging",
+  "near": "wrap*|cover*|plaster*|band-aid|patch*|tie|tied",
+  "tasks": [
+   {
+    "sit": "Ти різав хліб і сильно поранив палець. Кличеш сестру з кімнати.",
+    "say": "Я порізав палець, треба його забинтувати.",
+    "ans": ["I cut my finger, I need to bandage it.", "I’ve cut my finger and need to bandage it.", "Ouch, I cut my finger — I’ve got to bandage it."],
+    "keys": { "палець": "finger*|thumb|hand" }
+   },
+   {
+    "sit": "У поході друг упав і розбив коліно до крові.",
+    "say": "Посидь, я забинтую тобі коліно — у мене є аптечка.",
+    "ans": ["Sit down, I’ll bandage your knee — I have a first aid kit.", "Sit down and let me bandage your knee, I’ve got a first aid kit.", "Sit tight, I’ll bandage your knee, I’ve got a first-aid kit right here."],
+    "keys": { "коліно": "knee*|leg", "аптечка": "first aid|first-aid|kit|medical" }
+   },
+   {
+    "sit": "Сусід питає, чому твій пес шкутильгає.",
+    "say": "Він порізав лапу, і ветеринар її забинтував.",
+    "ans": ["He cut his paw, and the vet bandaged it.", "The vet bandaged his paw after he cut it.", "He cut his paw on some glass, so the vet bandaged it up."],
+    "keys": { "лапа": "paw*|leg|foot", "ветеринар": "vet*" }
+   }
+  ]
+ },
+ {
+  "id": 2241, "w": "comb your hair", "uk": "розчісуватися, розчісувати волосся", "lvl": "A2",
+  "forms": "comb|combs|combed|combed|combing",
+  "tail": "hair",
+  "near": "brush*|do your hair|fix your hair|fix my hair|style*",
+  "tasks": [
+   {
+    "sit": "Донька вже в куртці, але волосся в неї скуйовджене.",
+    "say": "Розчешися перед школою!",
+    "ans": ["Comb your hair before school!", "Please comb your hair before you go to school.", "Go comb your hair before school, it’s a mess!"],
+    "keys": { "школа": "school|class*" }
+   },
+   {
+    "sit": "Ти приїхав на співбесіду на мотоциклі, і шолом зіпсував зачіску.",
+    "say": "Я розчешуся в туалеті перед співбесідою.",
+    "ans": ["I’ll comb my hair in the bathroom before the interview.", "Before the interview, I’m going to comb my hair in the restroom.", "Let me just comb my hair in the bathroom before the interview."],
+    "keys": { "співбесіда": "interview" }
+   },
+   {
+    "sit": "Бабуся зламала руку, і ти допомагаєш їй удома.",
+    "say": "Я щоранку розчісую бабусі волосся.",
+    "ans": ["I comb my grandma’s hair every morning.", "Every morning I comb Grandma’s hair for her.", "Each morning I help comb my grandma’s hair."],
+    "keys": { "бабуся": "grandma*|grandmother*|granny|nan*", "щоранку": "morning*|every day|daily" }
+   }
+  ]
+ },
+ {
+  "id": 2242, "w": "feed by hand", "uk": "годувати з руки", "lvl": "B2",
+  "forms": "feed|feeds|fed|fed|feeding",
+  "tail": "by hand",
+  "near": "hand-feed*|hand-fed|from my hand|from your hand|out of my hand",
+  "tasks": [
+   {
+    "sit": "Ти нещодавно завів папугу, і він досі тебе боїться.",
+    "say": "Я годую папугу з руки, щоб він до мене звик.",
+    "ans": ["I feed my parrot by hand so he gets used to me.", "I feed the parrot by hand to get him used to me.", "I’ve been feeding my parrot by hand so he gets used to me."],
+    "keys": { "папуга": "parrot|bird", "звик": "used to|trust*|tame|comfortable|friendly" }
+   },
+   {
+    "sit": "Ти плануєш вихідні з дітьми й розповідаєш їм про ферму за містом.",
+    "say": "На цій фермі можна годувати кіз з руки.",
+    "ans": ["On this farm you can feed the goats by hand.", "You’re allowed to feed the goats by hand at this farm.", "At this farm, you can actually feed goats by hand."],
+    "keys": { "кози": "goat*", "ферма": "farm|zoo" }
+   },
+   {
+    "sit": "Ти підібрав на вулиці виснажене кошеня. Подруга питає, як воно.",
+    "say": "Кошеня таке слабке, що доводиться годувати його з руки.",
+    "ans": ["The kitten is so weak that I have to feed it by hand.", "I have to feed the kitten by hand because it’s so weak.", "The poor kitten’s too weak, so I’m feeding it by hand."],
+    "keys": { "кошеня": "kitten*|kitty|cat", "слабке": "weak|tiny|sick|small" }
+   }
+  ]
+ },
+ {
+  "id": 2243, "w": "day-trade", "uk": "займатися дей-трейдингом (торгувати протягом дня)", "lvl": "C1",
+  "forms": "day-trade|day-trades|day-traded|day-traded|day-trading",
+  "near": "trade*|traded|trading|invest*|speculat*",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш дружині новину про вашого спільного знайомого.",
+    "say": "Він звільнився, щоб займатися дей-трейдингом удома.",
+    "ans": ["He quit his job to day-trade from home.", "He left his job so he could day-trade from home.", "He quit his job, and now he day-trades from home."],
+    "keys": { "звільнився": "quit|left|resign*|job", "вдома": "home" }
+   },
+   {
+    "sit": "Молодший брат хоче вкласти всі заощадження в акції й торгувати щодня.",
+    "say": "Більшість людей, які займаються дей-трейдингом, втрачають гроші.",
+    "ans": ["Most people who day-trade lose money.", "Most people who day-trade end up losing money.", "The truth is, most people who try day-trading lose money."],
+    "keys": { "більшість": "most|majority|many", "втрачають гроші": "lose|losing|lost|money" }
+   },
+   {
+    "sit": "Колеги в курилці обговорюють криптовалюту, і ти ділишся своєю історією.",
+    "say": "Я якось місяць займався дей-трейдингом і втратив тисячу доларів.",
+    "ans": ["I once day-traded for a month and lost a thousand dollars.", "I day-traded stocks for a month once and lost a thousand bucks.", "I tried day-trading for a month and lost a thousand dollars."],
+    "keys": { "місяць": "month", "тисяча": "thousand|grand|1000" }
+   }
+  ]
+ },
+ {
+  "id": 2244, "w": "take the floor", "uk": "взяти слово", "lvl": "C1",
+  "forms": "take|takes|took|taken|taking",
+  "tail": "floor",
+  "near": "speak*|spoke|address*|go up|went up|mic",
+  "tasks": [
+   {
+    "sit": "Ти пишеш звіт про міські громадські слухання для місцевого сайту.",
+    "say": "Після мера слово взяла директорка школи.",
+    "ans": ["After the mayor, the school principal took the floor.", "The principal took the floor after the mayor.", "Once the mayor finished, the school principal took the floor."],
+    "keys": { "мер": "mayor", "директорка": "principal|head*|director" }
+   },
+   {
+    "sit": "На нараді обговорюють бюджет, і ти помічаєш важливу помилку в розрахунках.",
+    "say": "Можна мені взяти слово? Хочу додати дещо важливе.",
+    "ans": ["May I take the floor? I’d like to add something important.", "Could I take the floor for a moment? I want to add something important.", "If I may take the floor — I’d like to add something important."],
+    "keys": { "додати": "add|say|mention|point", "важливе": "important|key|crucial" }
+   },
+   {
+    "sit": "Ти розповідаєш другові про весілля своєї сестри.",
+    "say": "Коли батько нареченої взяв слово, усі замовкли.",
+    "ans": ["When the bride’s father took the floor, everyone went quiet.", "Everyone fell silent when the bride’s father took the floor.", "The moment the bride’s dad took the floor, the whole room went quiet."],
+    "keys": { "наречена": "bride*|wedding", "замовкли": "quiet|silent|silence|hush*" }
+   }
+  ]
+ },
+ {
+  "id": 2245, "w": "go dark", "uk": "зникнути з соцмереж, замовкнути", "lvl": "C1",
+  "forms": "go|goes|went|gone|going",
+  "tail": "dark",
+  "near": "disappear*|vanish*|log off|logged off|offline|detox|take a break|took a break",
+  "tasks": [
+   {
+    "sit": "Ти пояснюєш колезі, чому популярна блогерка давно нічого не публікує.",
+    "say": "Вона зникла з соцмереж на місяць після розриву.",
+    "ans": ["She went dark on social media for a month after the breakup.", "After the breakup she went dark online for a month.", "She totally went dark for a month after the breakup."],
+    "keys": { "місяць": "month", "розрив": "breakup|break-up|split|broke up|relationship" }
+   },
+   {
+    "sit": "Друзі дивуються, що ти не відповідаєш у чатах у червні.",
+    "say": "На час сесії я зникаю з усіх соцмереж.",
+    "ans": ["During exams I go dark on all social media.", "I go dark on social media until my exams are over.", "Exam season means I go dark everywhere online."],
+    "keys": { "сесія": "exam*|session|finals|studying" }
+   },
+   {
+    "sit": "Ти маркетолог і на нараді аналізуєш конкурентів.",
+    "say": "Їхній бренд раптом замовк в інстаграмі — ні постів, ні сторіз.",
+    "ans": ["Their brand suddenly went dark on Instagram — no posts, no stories.", "Their brand has suddenly gone dark on Instagram, with no posts or stories.", "Out of nowhere, their brand just went dark on Instagram."],
+    "keys": { "бренд": "brand|company|account", "інстаграм": "instagram|insta|social" }
+   }
+  ]
+ },
+ {
+  "id": 2246, "w": "log miles", "uk": "набігати (намотувати) кілометри", "lvl": "C1",
+  "forms": "log|logs|logged|logged|logging",
+  "tail": "mile*/kilomet*/km",
+  "near": "run|ran|running|cover*|clock*|rack* up|racked up",
+  "tasks": [
+   {
+    "sit": "Колега питає, як ти готуєшся до першого марафону.",
+    "say": "Перед марафоном я набігаю по шістдесят кілометрів на тиждень.",
+    "ans": ["Before the marathon, I log sixty kilometers a week.", "I’m logging about sixty kilometers a week before the marathon.", "Marathon prep means logging sixty kilometers every week."],
+    "keys": { "марафон": "marathon|race", "на тиждень": "week*" }
+   },
+   {
+    "sit": "Взимку надворі слизько, тож ти тренуєшся вдома. Товариш по велоклубу питає, як ти тримаєш форму.",
+    "say": "Взимку я намотую кілометри на велотренажері.",
+    "ans": ["In winter I log miles on the exercise bike.", "I log my winter miles on an indoor bike.", "In winter, I just log miles on the bike trainer at home."],
+    "keys": { "велотренажер": "bike|trainer|cycl*" }
+   },
+   {
+    "sit": "Ти тренер бігового клубу й пишеш підсумковий пост за місяць.",
+    "say": "Цього місяця наш клуб разом набігав тисячу миль.",
+    "ans": ["Our club logged a thousand miles together this month.", "Together, our running club has logged a thousand miles this month.", "This month our club logged a thousand miles as a team."],
+    "keys": { "клуб": "club|team|group", "тисяча": "thousand|1000" }
+   }
+  ]
+ },
+ {
+  "id": 2247, "w": "peer review", "uk": "рецензувати (наукову статтю)", "lvl": "C1",
+  "forms": "peer|peer/peers|peer|peer|peer",
+  "tail": "review*",
+  "near": "review*|evaluat*|assess*|referee*|critique*",
+  "tasks": [
+   {
+    "sit": "Ти науковець і пояснюєш дружині, чому сидиш над чужим текстом у суботу.",
+    "say": "Мене попросили прорецензувати статтю для наукового журналу.",
+    "ans": ["I’ve been asked to peer review a paper for a journal.", "A scientific journal asked me to peer review an article.", "I got asked to peer review a paper for a journal."],
+    "keys": { "стаття": "paper|article|manuscript|study", "журнал": "journal" }
+   },
+   {
+    "sit": "Ти магістрант і розповідаєш новому одногрупнику про правила курсу.",
+    "say": "Перед здачею ми рецензуємо роботи одне одного.",
+    "ans": ["Before submitting, we peer review each other’s papers.", "We peer review each other’s essays before we hand them in.", "Before the deadline, we peer review each other’s work."],
+    "keys": { "одне одного": "each other*|one another*|classmate*" }
+   },
+   {
+    "sit": "Друг скинув тобі новину про «диво-ліки» з посиланням на свіже дослідження.",
+    "say": "Це дослідження ще не рецензували, тож не поспішай із висновками.",
+    "ans": ["This study hasn’t been peer reviewed yet, so don’t jump to conclusions.", "The study hasn’t been peer reviewed yet, so be careful with conclusions.", "Careful — this study still hasn’t been peer reviewed."],
+    "keys": { "дослідження": "study|research|paper", "ще не": "not|yet" }
+   }
+  ]
+ },
+ {
+  "id": 2249, "w": "construct", "uk": "споруджувати, будувати", "lvl": "B2",
+  "forms": "construct|constructs|constructed|constructed|constructing",
+  "near": "build*|built|erect*|put up",
+  "tasks": [
+   {
+    "sit": "Ти читаєш новини про інфраструктуру й коментуєш їх колезі.",
+    "say": "Новий міст через Дніпро споруджуватимуть три роки.",
+    "ans": ["The new bridge across the Dnipro will be constructed over three years.", "It will take three years to construct the new bridge over the Dnipro.", "Constructing the new bridge over the Dnipro will take three years."],
+    "keys": { "міст": "bridge", "три роки": "three|3|year*" }
+   },
+   {
+    "sit": "Ти працюєш гідом і ведеш групу туристів старим містом.",
+    "say": "Цей собор спорудили в чотирнадцятому столітті.",
+    "ans": ["This cathedral was constructed in the fourteenth century.", "They constructed this cathedral in the 14th century.", "This cathedral was constructed way back in the 1300s."],
+    "keys": { "собор": "cathedral|church", "століття": "century|1300s|14th|fourteenth" }
+   },
+   {
+    "sit": "На співбесіді тебе питають, над яким проєктом зараз працює твоя будівельна компанія.",
+    "say": "Ми споруджуємо житловий комплекс на околиці міста.",
+    "ans": ["We’re constructing a housing complex on the outskirts of the city.", "Our company is constructing a residential complex on the edge of town.", "Right now we’re constructing a new housing complex out on the edge of the city."],
+    "keys": { "житловий комплекс": "housing|residential|apartment*|complex|homes", "околиця": "outskirts|edge|suburb*" }
+   }
+  ]
+ },
+ {
+  "id": 2250, "w": "erect", "uk": "зводити (споруду)", "lvl": "C1",
+  "forms": "erect|erects|erected|erected|erecting",
+  "near": "build*|built|construct*|put up|raise*|raised|set up",
+  "tasks": [
+   {
+    "sit": "Ти пишеш новину для сайту міської ради.",
+    "say": "На центральній площі звели пам’ятник загиблим героям.",
+    "ans": ["A monument to the fallen heroes was erected in the main square.", "They erected a monument to the fallen heroes in the central square.", "A memorial to the fallen heroes has been erected in the main square."],
+    "keys": { "пам’ятник": "monument|memorial|statue", "площа": "square|plaza" }
+   },
+   {
+    "sit": "Ти прораб і пояснюєш замовникові план робіт на тиждень.",
+    "say": "Спершу ми зведемо риштування, а потім почнемо фарбувати фасад.",
+    "ans": ["First we’ll erect the scaffolding, then start painting the facade.", "We’re going to erect scaffolding first and then paint the front.", "We’ll erect the scaffolding first, and after that we’ll paint the facade."],
+    "keys": { "риштування": "scaffold*", "фарбувати": "paint*" }
+   },
+   {
+    "sit": "Уранці ти йдеш парком і бачиш те, чого вчора ще не було. Пишеш другові.",
+    "say": "Організатори за ніч звели величезну сцену в парку.",
+    "ans": ["The organizers erected a huge stage in the park overnight.", "Overnight, the organizers erected an enormous stage in the park.", "They erected a massive stage in the park in just one night."],
+    "keys": { "сцена": "stage", "за ніч": "overnight|night" }
+   }
+  ]
+ }
+]

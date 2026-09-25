@@ -1,0 +1,638 @@
+[
+ {
+  "id": 950, "w": "squat", "uk": "самовільно заселятися (нелегально)", "lvl": "C1",
+  "forms": "squat|squats|squatted|squatted|squatting",
+  "near": "occupied|occupy|occupying|moved into|broke into|break into",
+  "tasks": [
+   {
+    "sit": "Сусід помітив, що в покинутому будинку навпроти вночі світиться вікно, а господарі давно виїхали.",
+    "say": "Схоже, хтось самовільно заселився в той порожній будинок.",
+    "ans": ["It looks like someone is squatting in that empty house.", "Someone seems to have been squatting in the empty house.", "I think people are squatting in that empty house across the street."],
+    "keys": { "хтось": "someone|somebody|people|they", "порожній будинок": "house|building|place|flat|apartment" }
+   },
+   {
+    "sit": "Ти на екскурсії в Берліні й розповідаєш другові історію старої фабрики, де тепер галерея.",
+    "say": "У дев’яностих художники нелегально жили в цій старій фабриці.",
+    "ans": ["In the nineties, artists squatted in this old factory.", "Artists were squatting in this old factory in the nineties.", "Back in the ’90s, a bunch of artists squatted in this old factory."],
+    "keys": { "художники": "artist*|painter*", "фабрика": "factory|plant|building" }
+   },
+   {
+    "sit": "Ти вже пів року не можеш здати свою квартиру, і сусідка тебе попереджає.",
+    "say": "Якщо квартира довго стоятиме порожня, туди можуть самовільно вселитися.",
+    "ans": ["If the flat stays empty too long, people might squat in it.", "Someone could start squatting in the flat if it’s empty for months.", "Leave it empty for too long and you’ll get people squatting there."],
+    "keys": { "порожня": "empty|vacant|unoccupied", "квартира": "flat|apartment|it|there|place" }
+   }
+  ]
+ },
+ {
+  "id": 951, "w": "turn out", "uk": "виявлятися", "lvl": "B1",
+  "forms": "turn|turns|turned|turned|turning",
+  "tail": "out",
+  "near": "proved|proven|prove|seemed|found out|happened to be",
+  "tasks": [
+   {
+    "sit": "Ти купив дешеву куртку в інтернеті й не чекав від неї нічого доброго. Минула зима.",
+    "say": "Куртка виявилася дуже якісною, хоч і дешевою.",
+    "ans": ["The jacket turned out to be really good quality.", "It turned out that the jacket was very good, even though it was cheap.", "That cheap jacket turned out great!"],
+    "keys": { "куртка": "jacket|coat", "якісна": "good|great|quality|well made" }
+   },
+   {
+    "sit": "Новий колега здавався тобі суворим і холодним. Через тиждень ти розповідаєш про нього дружині.",
+    "say": "Виявилося, що він дуже приємна людина.",
+    "ans": ["It turned out that he’s a really nice guy.", "He turned out to be very friendly.", "Turns out he’s actually really nice!"],
+    "keys": { "приємна": "nice|friendly|pleasant|kind|lovely" }
+   },
+   {
+    "sit": "Лікар подзвонив із результатами аналізів, які тебе дуже хвилювали. Ти розповідаєш рідним.",
+    "say": "Виявилося, що це була хибна тривога.",
+    "ans": ["It turned out to be a false alarm.", "It turned out it was just a false alarm.", "Turns out it was nothing — just a false alarm."],
+    "keys": { "хибна тривога": "false alarm|alarm|nothing" }
+   }
+  ]
+ },
+ {
+  "id": 952, "w": "end up", "uk": "опинитися (в результаті), врешті-решт", "lvl": "B1",
+  "forms": "end|ends|ended|ended|ending",
+  "tail": "up",
+  "near": "wound up|found myself|found ourselves|landed|finally got",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш колегам, як минула твоя подорож Італією.",
+    "say": "Ми пропустили потяг і врешті опинилися в зовсім іншому місті.",
+    "ans": ["We missed the train and ended up in a different city.", "We ended up in a completely different city because we missed the train.", "We missed our train and somehow ended up in another town!"],
+    "keys": { "потяг": "train", "інше місто": "city|town" }
+   },
+   {
+    "sit": "Субота. Ви з подругою збиралися просто посидіти, а вечір пішов не за планом.",
+    "say": "Ми хотіли просто випити кави, а врешті опинилися на концерті.",
+    "ans": ["We just wanted a coffee, but we ended up at a concert.", "We ended up at a concert, even though we only planned to have coffee.", "We went out for coffee and ended up at a concert!"],
+    "keys": { "кава": "coffee|café|cafe", "концерт": "concert|gig|show" }
+   },
+   {
+    "sit": "На зустрічі випускників тебе питають, чим ти займаєшся.",
+    "say": "Я вчився на історика, а в результаті опинився в програмуванні.",
+    "ans": ["I studied history, but I ended up in programming.", "I ended up working in programming even though I studied history.", "I did a history degree and somehow ended up as a programmer."],
+    "keys": { "історія": "histor*", "програмування": "programm*|coding|developer|tech" }
+   }
+  ]
+ },
+ {
+  "id": 953, "w": "grow into", "uk": "дорости (до ролі, посади)", "lvl": "B2",
+  "forms": "grow|grows|grew|grown|growing",
+  "tail": "into",
+  "near": "became|become|becoming|got used to|adapted|adjusted",
+  "tasks": [
+   {
+    "sit": "Твою колегу підвищили до керівниці відділу. Через рік про неї питає знайомий.",
+    "say": "Спершу їй було важко, але вона доросла до цієї ролі.",
+    "ans": ["It was hard at first, but she grew into the role.", "She found it hard at first, but she’s grown into the job.", "She struggled at first, but she really grew into it."],
+    "keys": { "спершу важко": "hard|difficult|struggl*|tough", "роль": "role|job|position|it" }
+   },
+   {
+    "sit": "У вашій футбольній команді капітаном обрали наймолодшого гравця. Ти ділишся враженнями з тренером.",
+    "say": "Він наймолодший, але швидко доріс до ролі капітана.",
+    "ans": ["He’s the youngest, but he quickly grew into the role of captain.", "He grew into his role as captain very quickly.", "He’s young, but he grew into the captain’s role really fast."],
+    "keys": { "капітан": "captain*", "швидко": "quick*|fast|soon|no time" }
+   },
+   {
+    "sit": "Ти третій рік викладаєш у школі. Студентка педуніверситету питає, чи було страшно на початку.",
+    "say": "Спочатку я не відчував себе вчителем, але поступово доріс до цього.",
+    "ans": ["At first I didn’t feel like a teacher, but I gradually grew into it.", "I’ve slowly grown into the role of a teacher.", "I didn’t feel like a real teacher at first, but I grew into it over time."],
+    "keys": { "вчитель": "teach*", "поступово": "gradual*|slowly|over time|time" }
+   }
+  ]
+ },
+ {
+  "id": 954, "w": "turn into", "uk": "перетворитися на", "lvl": "A2",
+  "forms": "turn|turns|turned|turned|turning",
+  "tail": "into",
+  "near": "became|become|becoming|changed into|change into|grew into",
+  "tasks": [
+   {
+    "sit": "Ви з сім’єю повернулися з моря: загубили багаж, а в готелі не було місць.",
+    "say": "Наша відпустка перетворилася на кошмар.",
+    "ans": ["Our holiday turned into a nightmare.", "The vacation turned into a real nightmare.", "Our trip totally turned into a nightmare!"],
+    "keys": { "відпустка": "holiday|vacation|trip", "кошмар": "nightmare|disaster|mess" }
+   },
+   {
+    "sit": "Увечері ти дивишся у вікно й кажеш рідним, що зранку буде слизько.",
+    "say": "Дощ перетворився на сніг.",
+    "ans": ["The rain turned into snow.", "The rain has turned into snow.", "Look, the rain’s turning into snow!"],
+    "keys": { "дощ": "rain", "сніг": "snow" }
+   },
+   {
+    "sit": "Ти хотів лише спитати брата про вихідні, але ви посварилися. Розповідаєш мамі.",
+    "say": "Коротка розмова перетворилася на сварку.",
+    "ans": ["A short chat turned into a fight.", "Our short talk turned into an argument.", "What started as a quick chat turned into a big argument."],
+    "keys": { "розмова": "chat|talk|conversation|discussion", "сварка": "fight|argument|quarrel|row" }
+   }
+  ]
+ },
+ {
+  "id": 955, "w": "morph into", "uk": "перевтілюватися, поступово перетворюватися на", "lvl": "C1",
+  "forms": "morph|morphs|morphed|morphed|morphing",
+  "tail": "into",
+  "near": "turned into|turn into|became|become|transformed|transform*|evolved|grew into",
+  "tasks": [
+   {
+    "sit": "На нетворкінгу тебе питають, з чого почалася твоя компанія.",
+    "say": "Мій маленький побічний проєкт поступово переріс у повноцінний бізнес.",
+    "ans": ["My little side project morphed into a full-time business.", "My side project has slowly morphed into a real business.", "What started as a side project kind of morphed into a proper business."],
+    "keys": { "проєкт": "project|hobby|side", "бізнес": "business|company|startup" }
+   },
+   {
+    "sit": "Ти дивишся мультфільм із племінником і пояснюєш, що зараз буде.",
+    "say": "У цьому мультфільмі герой перевтілюється на дракона.",
+    "ans": ["In this cartoon, the hero morphs into a dragon.", "The main character morphs into a dragon in this cartoon.", "Watch, the hero literally morphs into a dragon!"],
+    "keys": { "дракон": "dragon", "герой": "hero|character|guy|boy|girl" }
+   },
+   {
+    "sit": "Ти модеруєш онлайн-спільноту і пишеш іншим модераторам про вчорашню гілку.",
+    "say": "Спокійна дискусія переросла в справжню війну коментарів.",
+    "ans": ["A calm discussion morphed into a real comment war.", "The calm discussion morphed into an all-out flame war.", "It started as a polite discussion and morphed into a full-on flame war."],
+    "keys": { "дискусія": "discussion|debate|conversation|chat|talk", "війна": "war|fight|argument|battle" }
+   }
+  ]
+ },
+ {
+  "id": 956, "w": "emerge", "uk": "постати, з’явитися (як)", "lvl": "C1",
+  "forms": "emerge|emerges|emerged|emerged|emerging",
+  "near": "appeared|appear|became|become|came out|turned out|showed up|stood out",
+  "tasks": [
+   {
+    "sit": "Минулого року в компанії була криза, і всі розгубились, окрім однієї молодої менеджерки. Ти розповідаєш про неї новому директору.",
+    "say": "Під час кризи вона несподівано постала як справжня лідерка.",
+    "ans": ["During the crisis, she unexpectedly emerged as a real leader.", "She emerged as the real leader during the crisis.", "When the crisis hit, she suddenly emerged as the leader we needed."],
+    "keys": { "криза": "crisis|crises|hard times", "лідерка": "leader*|in charge" }
+   },
+   {
+    "sit": "Ти читаєш спортивні новини й обговорюєш сезон із другом-уболівальником.",
+    "say": "Нікому не відома команда несподівано вийшла у фаворити сезону.",
+    "ans": ["An unknown team has emerged as the favorite this season.", "A team nobody knew emerged as the season’s favourite.", "Out of nowhere, this little-known team emerged as the favorite."],
+    "keys": { "фаворит": "favorite*|favourite*", "невідома": "unknown|nobody|known|no one|nowhere" }
+   },
+   {
+    "sit": "Ти стежиш за гучною справою в новинах і переказуєш колезі останнє.",
+    "say": "Після розслідування з’явилися нові подробиці.",
+    "ans": ["New details emerged after the investigation.", "After the investigation, new details have emerged.", "Some new details emerged once the investigation was over."],
+    "keys": { "нові": "new", "подробиці": "detail*|fact*|information|evidence" }
+   }
+  ]
+ },
+ {
+  "id": 957, "w": "stay put", "uk": "залишатися на місці", "lvl": "B2",
+  "forms": "stay|stays|stayed|stayed|staying",
+  "tail": "put",
+  "near": "do not move|remain|remained|wait here|wait there|not go anywhere|keep still",
+  "tasks": [
+   {
+    "sit": "Надворі сильна буря, а сестра по телефону каже, що хоче їхати до тебе.",
+    "say": "Залишайся на місці, поки не закінчиться буря.",
+    "ans": ["Stay put until the storm is over.", "Just stay put until the storm passes.", "Stay put till the storm blows over, okay?"],
+    "keys": { "буря": "storm|weather|wind" }
+   },
+   {
+    "sit": "Ви з маленьким сином ідете у великий торговий центр. Ти пояснюєш йому правило.",
+    "say": "Якщо загубишся, залишайся на місці, і я тебе знайду.",
+    "ans": ["If you get lost, stay put and I’ll find you.", "Stay put if you get lost, and I’ll come find you.", "If you ever get lost, just stay put — I’ll find you."],
+    "keys": { "загубишся": "lost|lose", "знайду": "find|found" }
+   },
+   {
+    "sit": "Друзі питають, чи ви таки переїжджаєте до іншого міста, як планували.",
+    "say": "Ми вирішили поки що нікуди не переїжджати й залишитися тут.",
+    "ans": ["We’ve decided to stay put for now and not move.", "We decided to stay put instead of moving.", "We thought about moving, but we’re staying put for now."],
+    "keys": { "переїжджати": "mov*|relocat*", "поки що": "for now|now|for the moment|instead|for a while" }
+   }
+  ]
+ },
+ {
+  "id": 958, "w": "hang around", "uk": "тусити, никати (без діла)", "lvl": "B2",
+  "forms": "hang|hangs|hung|hung|hanging",
+  "tail": "around/about",
+  "near": "loiter*|chill*|spend time|spent time|killing time|kill time",
+  "tasks": [
+   {
+    "sit": "На зборах мешканців обговорюють безпеку в дворі. Ти береш слово.",
+    "say": "Вечорами біля нашого під’їзду тусять підлітки.",
+    "ans": ["Teenagers hang around outside our building in the evenings.", "Every evening some teenagers hang around near our entrance.", "There are always teens hanging around outside our building at night."],
+    "keys": { "підлітки": "teen*|kids|young|youth*", "вечорами": "evening*|night*" }
+   },
+   {
+    "sit": "Ви з однокласником згадуєте, як проводили час у старших класах.",
+    "say": "Після уроків ми годинами тусили в торговому центрі.",
+    "ans": ["After school, we used to hang around the mall for hours.", "We hung around the mall for hours after class.", "Back in school, we’d hang around the mall for hours."],
+    "keys": { "ТЦ": "mall|shopping|cent*", "годинами": "hour*|all day|forever" }
+   },
+   {
+    "sit": "Ти нарешті долетів до Лісабона і пишеш дружині, чому так пізно.",
+    "say": "Рейс затримали, тож я три години никав по аеропорту.",
+    "ans": ["My flight was delayed, so I hung around the airport for three hours.", "I hung around the airport for three hours because of the delay.", "The flight got delayed, so I was hanging around the airport for hours."],
+    "keys": { "аеропорт": "airport|terminal", "затримали": "delay*|late" }
+   }
+  ]
+ },
+ {
+  "id": 959, "w": "stick around", "uk": "залишитися ще трохи, побути ще", "lvl": "B2",
+  "forms": "stick|sticks|stuck|stuck|sticking",
+  "tail": "around",
+  "near": "stay|stayed|staying|stays|wait|remain*|hang on",
+  "tasks": [
+   {
+    "sit": "Гості на твоєму дні народження вже збираються йти, а торт ще в холодильнику.",
+    "say": "Побудьте ще трохи — зараз буде торт!",
+    "ans": ["Stick around a bit longer, the cake is coming!", "Stick around — we’re about to have cake!", "Why don’t you stick around for some cake?"],
+    "keys": { "торт": "cake|dessert" }
+   },
+   {
+    "sit": "Стажист чудово показав себе, і ти пропонуєш йому постійну посаду.",
+    "say": "Сподіваюся, ти залишишся в нас надовго.",
+    "ans": ["I hope you’ll stick around for a long time.", "I hope you stick around with us for a while.", "Hope you’re going to stick around for years."],
+    "keys": { "надовго": "long|while|years" }
+   },
+   {
+    "sit": "У кінотеатрі починаються титри, і друг підводиться, щоб іти.",
+    "say": "Не йди одразу — після титрів є ще одна сцена.",
+    "ans": ["Stick around after the credits — there’s one more scene.", "Don’t leave yet, stick around, there’s another scene after the credits.", "You’ll want to stick around after the credits, there’s an extra scene."],
+    "keys": { "титри": "credit*", "сцена": "scene*|clip|bonus|extra" }
+   }
+  ]
+ },
+ {
+  "id": 960, "w": "cling to", "uk": "чіплятися за (минуле, звичку, надію)", "lvl": "C1",
+  "forms": "cling|clings|clung|clung|clinging",
+  "tail": "to",
+  "near": "hold on to|held on to|holding on to|hang on to|stick to|stuck to|grasp*",
+  "tasks": [
+   {
+    "sit": "Подруга досі щодня говорить про колишнього, хоча минуло два роки.",
+    "say": "Ти досі чіпляєшся за минуле — час рухатися далі.",
+    "ans": ["You’re still clinging to the past — it’s time to move on.", "You keep clinging to the past; you need to move on.", "Stop clinging to the past and move on already."],
+    "keys": { "минуле": "past|ex", "рухатися далі": "move on|moving on|let go|forward" }
+   },
+   {
+    "sit": "На нараді обговорюють, чому впровадження нової програми йде так повільно.",
+    "say": "Наш відділ досі чіпляється за стару систему, хоча вона нікому не подобається.",
+    "ans": ["Our department still clings to the old system, even though nobody likes it.", "Our team is still clinging to the old system even though no one likes it.", "We’re still clinging to that ancient system nobody even likes."],
+    "keys": { "стара": "old|ancient|outdated|legacy", "система": "system|software|program*|tool*" }
+   },
+   {
+    "sit": "Ваш кіт зник тиждень тому. Сусідка питає, чи ви ще шукаєте.",
+    "say": "Ми досі чіпляємося за надію, що кіт повернеться.",
+    "ans": ["We’re still clinging to the hope that the cat will come back.", "We still cling to the hope that our cat will return.", "We’re clinging to hope that the cat comes home."],
+    "keys": { "надія": "hope*", "кіт": "cat|kitty" }
+   }
+  ]
+ },
+ {
+  "id": 961, "w": "persist", "uk": "наполегливо продовжувати; не минати, зберігатися", "lvl": "C1",
+  "forms": "persist|persists|persisted|persisted|persisting",
+  "near": "continu*|kept going|kept at it|keep going|keep at it|remain*|insist*|stick with|stuck with|linger*",
+  "tasks": [
+   {
+    "sit": "Ти працюєш в аптеці. Покупець бере знеболювальне від болю в спині.",
+    "say": "Якщо біль не минатиме, зверніться до лікаря.",
+    "ans": ["If the pain persists, see a doctor.", "See a doctor if the pain persists for more than a few days.", "If the pain still persists, you should go see a doctor."],
+    "keys": { "біль": "pain|ache|hurt*|symptom*", "лікар": "doctor|gp|physician" }
+   },
+   {
+    "sit": "Ти вчиш німецьку, і перші місяці були жахливі. Розповідаєш, як усе змінилося.",
+    "say": "Я не здавався, і врешті граматика почала складатися в голові.",
+    "ans": ["I persisted, and eventually the grammar started to make sense.", "Because I persisted, the grammar finally made sense.", "I just persisted, and in the end the grammar clicked."],
+    "keys": { "граматика": "grammar", "врешті": "eventual*|finally|in the end|end" }
+   },
+   {
+    "sit": "Уранці ти переказуєш колегам прогноз погоди перед виїздом на об’єкт.",
+    "say": "Туман триматиметься до обіду.",
+    "ans": ["The fog will persist until noon.", "The fog is expected to persist until lunchtime.", "This fog is going to persist till midday."],
+    "keys": { "туман": "fog*|mist*", "до обіду": "noon|lunch*|midday|afternoon" }
+   }
+  ]
+ },
+ {
+  "id": 962, "w": "scrape", "uk": "здерти (шкіру), обдерти", "lvl": "B2",
+  "forms": "scrape|scrapes|scraped|scraped|scraping",
+  "near": "graze*|scratch*|skinned|skin|hurt|injur*",
+  "tasks": [
+   {
+    "sit": "Ви з сином каталися в парку. Дружина бачить пластир і питає, що сталося.",
+    "say": "Він упав з велосипеда й обдер коліно.",
+    "ans": ["He fell off his bike and scraped his knee.", "He scraped his knee when he fell off his bike.", "He took a tumble off his bike and scraped his knee pretty badly."],
+    "keys": { "велосипед": "bike|bicycle|cycl*", "коліно": "knee*" }
+   },
+   {
+    "sit": "Ви з другом у горах. Ти спускаєшся крутою стежкою і хапаєшся за камінь.",
+    "say": "Я обдер руку об скелю.",
+    "ans": ["I scraped my hand on a rock.", "I’ve scraped my hand on the rocks.", "Ouch, I just scraped my hand on that rock."],
+    "keys": { "рука": "hand*|arm*|palm*", "скеля": "rock*|cliff|stone*" }
+   },
+   {
+    "sit": "Після гри в баскетбол тренер помічає кров на твоїй руці.",
+    "say": "Я обдер лікоть, коли впав на майданчику.",
+    "ans": ["I scraped my elbow when I fell on the court.", "I fell on the court and scraped my elbow.", "I scraped up my elbow falling on the court."],
+    "keys": { "лікоть": "elbow*", "впав": "fell|fall*|slipped" }
+   }
+  ]
+ },
+ {
+  "id": 963, "w": "burn", "uk": "обпекти", "lvl": "A2",
+  "forms": "burn|burns|burnt/burned|burnt/burned|burning",
+  "near": "scald*|hurt",
+  "tasks": [
+   {
+    "sit": "Ти готуєш вечерю й раптом скрикуєш. Сестра прибігає на кухню.",
+    "say": "Я обпік руку об сковорідку.",
+    "ans": ["I burned my hand on the pan.", "I’ve burnt my hand on the frying pan.", "Ow! I just burned my hand on the pan."],
+    "keys": { "рука": "hand*|finger*", "сковорідка": "pan|frying|stove|oven" }
+   },
+   {
+    "sit": "Ви з другом у кав’ярні. Він хоче одразу відпити свою каву.",
+    "say": "Обережно, я вже обпік язик — кава дуже гаряча.",
+    "ans": ["Careful, I burned my tongue — the coffee is very hot.", "I burnt my tongue, the coffee is really hot.", "Watch out, it’s super hot — I just burned my tongue."],
+    "keys": { "язик": "tongue|mouth", "гаряча": "hot" }
+   },
+   {
+    "sit": "Ти прасуєш сорочку перед співбесідою і раптом відсмикуєш руку.",
+    "say": "Я обпік палець праскою.",
+    "ans": ["I burned my finger on the iron.", "I burnt my finger while I was ironing.", "I burned my finger ironing my shirt."],
+    "keys": { "палець": "finger*|thumb|hand", "праска": "iron*" }
+   }
+  ]
+ },
+ {
+  "id": 964, "w": "cut", "uk": "порізати (себе, палець)", "lvl": "A1",
+  "forms": "cut|cuts|cut|cut|cutting",
+  "near": "hurt|injur*|scratch*",
+  "tasks": [
+   {
+    "sit": "Ти ріжеш овочі для салату. Раптом на дошці кров.",
+    "say": "Ой, я порізав палець!",
+    "ans": ["I cut my finger.", "I cut my finger with the knife.", "Oh no, I’ve cut my finger!"],
+    "keys": { "палець": "finger*|thumb|hand" }
+   },
+   {
+    "sit": "Колега бачить у тебе на підборідді маленький пластир.",
+    "say": "Я порізався, коли голився.",
+    "ans": ["I cut myself shaving.", "I cut myself when I was shaving.", "I cut myself while shaving this morning."],
+    "keys": { "голився": "shav*|razor" }
+   },
+   {
+    "sit": "Ти йшов босоніж по пляжу й тепер кульгаєш до рятувальника.",
+    "say": "Я порізав ногу об скло.",
+    "ans": ["I cut my foot on some glass.", "I cut my foot on a piece of glass.", "I’ve cut my foot on broken glass!"],
+    "keys": { "нога": "foot|feet|leg|toe*", "скло": "glass|bottle" }
+   }
+  ]
+ },
+ {
+  "id": 965, "w": "stub", "uk": "вдарити (палець ноги)", "lvl": "C1",
+  "forms": "stub|stubs|stubbed|stubbed|stubbing",
+  "near": "hit|bang*|bump*|kick*|smash*",
+  "tasks": [
+   {
+    "sit": "Ти вночі пішов по воду, не вмикаючи світла, і раптом скрикнув. Дружина прокидається.",
+    "say": "Я вдарився пальцем ноги об ліжко в темряві.",
+    "ans": ["I stubbed my toe on the bed in the dark.", "I stubbed my toe against the bed frame in the dark.", "I just stubbed my toe on the bed — it’s killing me!"],
+    "keys": { "палець": "toe*", "ліжко": "bed*" }
+   },
+   {
+    "sit": "Ти працюєш удома в капцях, і колега на відеодзвінку чує, як ти ойкнув.",
+    "say": "Я знову вдарився пальцем ноги об ніжку столу.",
+    "ans": ["I stubbed my toe on the desk leg again.", "I’ve stubbed my toe on the table leg again.", "Ugh, I stubbed my toe on that desk again!"],
+    "keys": { "палець": "toe*", "стіл": "desk|table", "знову": "again|another" }
+   },
+   {
+    "sit": "Друг кличе тебе на ранкову пробіжку, але вчора на пляжі ти невдало ступив.",
+    "say": "Я вдарив палець об камінь, тож сьогодні не бігатиму.",
+    "ans": ["I stubbed my toe on a rock, so I’m not running today.", "I won’t go running today — I stubbed my toe on a rock.", "I stubbed my toe on a rock, so no running for me today."],
+    "keys": { "камінь": "rock|stone", "бігати": "run*|jog*" }
+   }
+  ]
+ },
+ {
+  "id": 966, "w": "pull", "uk": "потягнути (м’яз)", "lvl": "B2",
+  "forms": "pull|pulls|pulled|pulled|pulling",
+  "near": "strain*|tear|tore|torn|sprain*|injur*|hurt",
+  "tasks": [
+   {
+    "sit": "У спортзалі ти різко поставив штангу й скривився. Тренер підходить.",
+    "say": "Здається, я потягнув м’яз на спині.",
+    "ans": ["I think I pulled a muscle in my back.", "I think I’ve pulled a back muscle.", "I must have pulled a muscle in my back."],
+    "keys": { "м’яз": "muscle*", "спина": "back" }
+   },
+   {
+    "sit": "Ти вболіваєш за місцеву футбольну команду й пояснюєш другові, чому найкращого гравця немає на полі.",
+    "say": "Він потягнув м’яз на нозі й пропустить матч.",
+    "ans": ["He pulled a muscle in his leg and will miss the match.", "He’s pulled a leg muscle, so he’ll miss the game.", "He pulled his hamstring, so he’s out for the match."],
+    "keys": { "м’яз": "muscle*|hamstring*|calf|groin", "пропустить": "miss*|out|not play*" }
+   },
+   {
+    "sit": "Учора ви з братом перевозили меблі. Сьогодні ти ледве ходиш.",
+    "say": "Я потягнув м’яз, коли переносив диван.",
+    "ans": ["I pulled a muscle while carrying the sofa.", "I pulled a muscle moving the couch.", "I pulled a muscle lifting that sofa yesterday."],
+    "keys": { "м’яз": "muscle*", "диван": "sofa|couch" }
+   }
+  ]
+ },
+ {
+  "id": 967, "w": "strain", "uk": "розтягнути, перенапружити (спину, шию)", "lvl": "B2",
+  "forms": "strain|strains|strained|strained|straining",
+  "near": "pulled|pull|sprain*|hurt|injur*|twist*",
+  "tasks": [
+   {
+    "sit": "На вихідних ти працював на дачі, а в понеділок ледве встав з ліжка.",
+    "say": "Я розтягнув спину, коли копав город.",
+    "ans": ["I strained my back digging in the garden.", "I strained my back while I was digging the garden.", "I think I strained my back from all that digging in the garden."],
+    "keys": { "спина": "back", "копав": "dig*|garden*" }
+   },
+   {
+    "sit": "Колега бачить, як ти розминаєш шию після довгого робочого дня.",
+    "say": "Я перенапружив шию — цілий день дивився в ноутбук.",
+    "ans": ["I strained my neck looking at my laptop all day.", "I’ve strained my neck from staring at the laptop all day.", "I strained my neck — I was hunched over my laptop all day."],
+    "keys": { "шия": "neck", "ноутбук": "laptop|computer|screen" }
+   },
+   {
+    "sit": "Друг кличе тебе на теніс у суботу, але ти відмовляєшся.",
+    "say": "Я розтягнув плече на тенісі минулого тижня.",
+    "ans": ["I strained my shoulder playing tennis last week.", "I strained my shoulder at tennis last week.", "I’ve strained my shoulder at tennis, so I’m taking a break."],
+    "keys": { "плече": "shoulder*", "теніс": "tennis" }
+   }
+  ]
+ },
+ {
+  "id": 968, "w": "dislocate", "uk": "вивихнути", "lvl": "C1",
+  "forms": "dislocate|dislocates|dislocated|dislocated|dislocating",
+  "near": "sprain*|broke|break|broken|twist*|popped out|injur*",
+  "tasks": [
+   {
+    "sit": "Ти граєш у регбі. Начальник питає, чому в тебе рука на пов’язці.",
+    "say": "Я вивихнув плече на тренуванні.",
+    "ans": ["I dislocated my shoulder at training.", "I dislocated my shoulder during practice.", "I went and dislocated my shoulder at training last night."],
+    "keys": { "плече": "shoulder*", "тренування": "train*|practice|practise|workout|gym" }
+   },
+   {
+    "sit": "Друг повернувся з гірськолижного курорту раніше. Ти пояснюєш компанії, чому його немає.",
+    "say": "Він вивихнув коліно на лижах і тепер ходить на милицях.",
+    "ans": ["He dislocated his knee skiing and now he’s on crutches.", "He’s on crutches because he dislocated his knee while skiing.", "He dislocated his knee on the slopes, so he’s on crutches now."],
+    "keys": { "коліно": "knee*", "милиці": "crutch*" }
+   },
+   {
+    "sit": "У травмпункті лікар питає, як це сталося, і показує на твій опухлий палець.",
+    "say": "Я вивихнув палець, коли грав у волейбол.",
+    "ans": ["I dislocated my finger playing volleyball.", "I dislocated a finger at volleyball.", "I dislocated my finger blocking a ball in volleyball."],
+    "keys": { "палець": "finger*|thumb", "волейбол": "volleyball" }
+   }
+  ]
+ },
+ {
+  "id": 969, "w": "raise a toast", "uk": "проголошувати тост, піднімати келих", "lvl": "B2",
+  "forms": "raise|raises|raised|raised|raising",
+  "tail": "toast*",
+  "near": "toast to|propose|proposed|cheers|drink to|let us drink",
+  "tasks": [
+   {
+    "sit": "Ти свідок на весіллі друга. Музика стихає, усі дивляться на тебе.",
+    "say": "Давайте піднімемо келихи за молодят!",
+    "ans": ["Let’s raise a toast to the newlyweds!", "I’d like to raise a toast to the happy couple.", "Everyone, let’s raise a toast to the bride and groom!"],
+    "keys": { "молодята": "newlywed*|couple|bride|groom" }
+   },
+   {
+    "sit": "Корпоратив після успішного запуску продукту. Ти керівник і встаєш із келихом.",
+    "say": "Хочу підняти тост за нашу команду — ми це зробили!",
+    "ans": ["I’d like to raise a toast to our team — we did it!", "Let’s raise a toast to our amazing team!", "Let me raise a toast to the team, you all did great."],
+    "keys": { "команда": "team|everyone|all of you|colleagues" }
+   },
+   {
+    "sit": "Уся родина зібралася на ювілей бабусі. Ти стукаєш ложечкою по келиху.",
+    "say": "Давайте піднімемо тост за бабусю — їй сьогодні вісімдесят!",
+    "ans": ["Let’s raise a toast to Grandma — she’s eighty today!", "I want to raise a toast to Grandma on her 80th birthday.", "Let’s all raise a toast to Grandma, eighty years young!"],
+    "keys": { "бабуся": "grandma|grandmother|granny|nan*", "вісімдесят": "eight*|80*" }
+   }
+  ]
+ },
+ {
+  "id": 970, "w": "cheer", "uk": "вболівати, підбадьорювати вигуками", "lvl": "B1",
+  "forms": "cheer|cheers|cheered|cheered|cheering",
+  "near": "support*|root*|shout*|clap*|applaud*|encourag*",
+  "tasks": [
+   {
+    "sit": "Колега питає, як ви вчора сходили на футбол.",
+    "say": "Ми голосно вболівали за нашу команду весь матч.",
+    "ans": ["We cheered loudly for our team the whole match.", "We cheered for our team really loudly all game.", "We were cheering our team on like crazy the whole match."],
+    "keys": { "команда": "team|side|guys", "голосно": "loud*|crazy|lungs" }
+   },
+   {
+    "sit": "Твоя подруга вперше біжить марафон і дуже хвилюється.",
+    "say": "Я стоятиму біля фінішу й підбадьорюватиму тебе.",
+    "ans": ["I’ll be at the finish line cheering you on.", "I will cheer for you at the finish line.", "I’ll be right there at the finish, cheering you on!"],
+    "keys": { "фініш": "finish*|end" }
+   },
+   {
+    "sit": "Після шкільного концерту ти розповідаєш бабусі, як виступала онука.",
+    "say": "Коли вона вийшла на сцену, вся зала радісно закричала.",
+    "ans": ["When she came on stage, the whole hall cheered.", "The whole audience cheered when she walked on stage.", "Everyone started cheering the moment she came on stage."],
+    "keys": { "сцена": "stage", "вся зала": "everyone|everybody|audience|whole|crowd|all" }
+   }
+  ]
+ },
+ {
+  "id": 971, "w": "honor", "uk": "вшановувати", "lvl": "B2",
+  "forms": "honor/honour|honors/honours|honored/honoured|honored/honoured|honoring/honouring",
+  "near": "celebrat*|remember*|pay tribute|paid tribute|commemorat*|respect*",
+  "tasks": [
+   {
+    "sit": "Ти ведеш церемонію на міській площі в день пам’яті.",
+    "say": "Сьогодні ми вшановуємо загиблих хвилиною мовчання.",
+    "ans": ["Today we honor the fallen with a minute of silence.", "Today we are honoring those who died with a minute’s silence.", "We’re honoring the fallen today with a moment of silence."],
+    "keys": { "загиблі": "fallen|died|dead|lost|killed|heroes", "мовчання": "silence|silent" }
+   },
+   {
+    "sit": "Ти розповідаєш другові про випускний, на якому була твоя донька.",
+    "say": "Школа вшанувала вчительку, яка пропрацювала там сорок років.",
+    "ans": ["The school honored a teacher who worked there for forty years.", "The school has honoured a teacher who’d been there for forty years.", "They honored a teacher for her forty years at the school."],
+    "keys": { "вчителька": "teach*", "сорок років": "forty|40*" }
+   },
+   {
+    "sit": "Колега дивується, чому ти щороку береш вихідний саме цього дня.",
+    "say": "Щороку в цей день ми вшановуємо пам’ять дідуся.",
+    "ans": ["We honor Grandpa’s memory every year on this day.", "Every year on this day, we honor our grandfather’s memory.", "Every year on this day the whole family gets together to honor Grandpa."],
+    "keys": { "дідусь": "grandpa|grandfather|granddad|grandad", "щороку": "every year|each year|annual*|year" }
+   }
+  ]
+ },
+ {
+  "id": 972, "w": "applaud", "uk": "аплодувати", "lvl": "B2",
+  "forms": "applaud|applauds|applauded|applauded|applauding",
+  "near": "clap*|cheer*|ovation|praise*",
+  "tasks": [
+   {
+    "sit": "Ти ділишся враженнями від прем’єри в театрі.",
+    "say": "Глядачі аплодували акторам десять хвилин.",
+    "ans": ["The audience applauded the actors for ten minutes.", "The actors were applauded for ten whole minutes.", "The audience applauded the cast for ten minutes straight."],
+    "keys": { "актори": "actor*|cast|performer*", "десять хвилин": "ten|10" }
+   },
+   {
+    "sit": "Політ був дуже неспокійний. Ти пишеш другові одразу після посадки.",
+    "say": "Коли літак приземлився, усі пасажири зааплодували.",
+    "ans": ["When the plane landed, all the passengers applauded.", "All the passengers applauded as the plane landed.", "Everyone on the plane applauded when we touched down."],
+    "keys": { "пасажири": "passenger*|everyone|everybody|people", "літак": "plane|landed|touched down|landing" }
+   },
+   {
+    "sit": "Ти вперше презентував свій проєкт на загальних зборах компанії. Дзвониш мамі.",
+    "say": "Після моєї презентації колеги зааплодували.",
+    "ans": ["My colleagues applauded after my presentation.", "After I gave my presentation, the whole team applauded.", "Everyone applauded when I finished my presentation."],
+    "keys": { "презентація": "presentation|talk|speech|pitch" }
+   }
+  ]
+ },
+ {
+  "id": 973, "w": "clash", "uk": "стикатися (у конфлікті), конфліктувати", "lvl": "B2",
+  "forms": "clash|clashes|clashed|clashed|clashing",
+  "near": "argu*|fight|fought|disagree*|quarrel*|conflict*|butt heads",
+  "tasks": [
+   {
+    "sit": "Друг питає, чому ти шукаєш нову роботу.",
+    "say": "Я постійно конфліктую з начальником через дедлайни.",
+    "ans": ["I keep clashing with my boss over deadlines.", "I often clash with my boss about deadlines.", "My boss and I always clash over deadlines."],
+    "keys": { "начальник": "boss|manager|supervisor", "дедлайни": "deadline*" }
+   },
+   {
+    "sit": "Психолог питає тебе про атмосферу в сім’ї, де ти виріс.",
+    "say": "Мої батьки часто конфліктували через гроші.",
+    "ans": ["My parents often clashed over money.", "My mom and dad clashed about money a lot.", "My parents were always clashing over money."],
+    "keys": { "батьки": "parents|mom|dad|mum|mother|father", "гроші": "money|finance*|cash|spending" }
+   },
+   {
+    "sit": "Ти читаєш новини на телефоні й переказуєш їх дружині.",
+    "say": "Протестувальники зіткнулися з поліцією біля парламенту.",
+    "ans": ["Protesters clashed with police near the parliament.", "Protesters and police clashed outside parliament.", "Protesters were clashing with the police near parliament."],
+    "keys": { "протестувальники": "protest*|demonstrator*|crowd", "поліція": "police|cops|officers" }
+   }
+  ]
+ },
+ {
+  "id": 974, "w": "snap at", "uk": "огризнутися, гаркнути на", "lvl": "B2",
+  "forms": "snap|snaps|snapped|snapped|snapping",
+  "tail": "at",
+  "near": "yelled|yell|shouted|shout|bark*|was rude|lash* out",
+  "tasks": [
+   {
+    "sit": "Увечері ти різко відповів дружині на просте питання. За хвилину тобі стало соромно.",
+    "say": "Вибач, що я на тебе огризнувся — я просто дуже втомився.",
+    "ans": ["Sorry I snapped at you — I’m just really tired.", "I’m sorry for snapping at you, I was exhausted.", "Sorry I snapped at you earlier, I’m just so tired."],
+    "keys": { "втомився": "tired|exhausted|worn out|long day" }
+   },
+   {
+    "sit": "За обідом ти розповідаєш колезі, що сталося зранку.",
+    "say": "Начальник гаркнув на мене, хоча я просто спитав про звіт.",
+    "ans": ["My boss snapped at me when I just asked about the report.", "My boss snapped at me, and I only asked about the report!", "I just asked about the report and my boss snapped at me."],
+    "keys": { "начальник": "boss|manager", "звіт": "report" }
+   },
+   {
+    "sit": "На дитячому майданчику подруга роздратовано кричить на свою доньку, яка випадково розлила сік.",
+    "say": "Не гаркай на дитину — вона ж не винна.",
+    "ans": ["Don’t snap at the kid — it’s not her fault.", "Don’t snap at your daughter, she didn’t do anything wrong.", "Try not to snap at her, it’s not her fault."],
+    "keys": { "дитина": "kid*|child*|daughter|her", "не винна": "fault|wrong|blame" }
+   }
+  ]
+ }
+]

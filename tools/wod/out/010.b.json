@@ -1,0 +1,1143 @@
+[
+ {
+  "id": 492,
+  "w": "mop",
+  "uk": "мити (шваброю)",
+  "lvl": "B2",
+  "forms": "mop|mops|mopped|mopped|mopping",
+  "near": "wash*|clean*|wipe*|scrub*|vacuum*|hoover*",
+  "tasks": [
+   {
+    "sit": "Ви з сусідом по квартирі ділите хатні справи на суботу.",
+    "say": "Я пропилососю, а ти помий підлогу шваброю.",
+    "ans": [
+     "I’ll vacuum, and you mop the floor.",
+     "I’ll do the vacuuming if you mop the floors.",
+     "I’ll vacuum and you can mop, okay?"
+    ],
+    "keys": {
+     "пилосос": "vacuum*|hoover*"
+    }
+   },
+   {
+    "sit": "Ти прибиральник в офісі. Колега попереджає людей у коридорі.",
+    "say": "Обережно, я щойно помив тут підлогу — вона слизька.",
+    "ans": [
+     "Careful, I just mopped here — it’s slippery.",
+     "Watch out, I’ve just mopped the floor, it’s slippery.",
+     "Careful, I just mopped, the floor’s still wet!"
+    ],
+    "keys": {
+     "щойно": "just",
+     "слизька": "slippery|wet|slip*"
+    }
+   },
+   {
+    "sit": "Дитина розлила сік на кухні, і тепер там калюжа.",
+    "say": "Візьми швабру й витри цей сік.",
+    "ans": [
+     "Grab the mop and mop up that juice.",
+     "Please mop up the juice.",
+     "Can you mop up that juice before someone slips?"
+    ],
+    "keys": {
+     "сік": "juice|mess|spill*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 493,
+  "w": "rinse",
+  "uk": "полоскати, ополіскувати",
+  "lvl": "B2",
+  "forms": "rinse|rinses|rinsed|rinsed|rinsing",
+  "near": "wash*|clean*|gargl*|flush*",
+  "tasks": [
+   {
+    "sit": "Стоматолог щойно закінчив пломбувати зуб.",
+    "say": "Прополощіть рот водою, будь ласка.",
+    "ans": [
+     "Please rinse your mouth with water.",
+     "Rinse your mouth out with some water, please.",
+     "Okay, go ahead and rinse your mouth."
+    ],
+    "keys": {
+     "рот": "mouth"
+    }
+   },
+   {
+    "sit": "Ти готуєш салат з дитиною й показуєш, що робити з овочами.",
+    "say": "Спочатку ополосни помідори під краном.",
+    "ans": [
+     "First, rinse the tomatoes under the tap.",
+     "Rinse the tomatoes under the tap first.",
+     "First, just rinse the tomatoes under the water."
+    ],
+    "keys": {
+     "помідори": "tomato*|veg*",
+     "кран": "tap|faucet|water"
+    }
+   },
+   {
+    "sit": "Сестра фарбує волосся вдома й читає інструкцію вголос.",
+    "say": "Тут написано: змити фарбу через тридцять хвилин.",
+    "ans": [
+     "It says to rinse out the dye after thirty minutes.",
+     "It says rinse the dye out after 30 minutes.",
+     "It says you rinse it out after half an hour."
+    ],
+    "keys": {
+     "тридцять хвилин": "thirty|30|half an hour"
+    }
+   }
+  ]
+ },
+ {
+  "id": 494,
+  "w": "soak",
+  "uk": "замочувати",
+  "lvl": "B2",
+  "forms": "soak|soaks|soaked|soaked|soaking",
+  "near": "steep*|leave it in water|left it in water|submerg*|wet",
+  "tasks": [
+   {
+    "sit": "Сковорідка після вечері вся в пригорілому. Відмити її одразу не вдається.",
+    "say": "Замочу її на ніч.",
+    "ans": [
+     "I’ll soak it overnight.",
+     "I’m going to soak the pan overnight.",
+     "I’ll just leave it to soak overnight."
+    ],
+    "keys": {
+     "на ніч": "overnight|night|morning"
+    }
+   },
+   {
+    "sit": "Ти готуєш борщ з квасолею, а подруга питає, чому ти почав ще вчора.",
+    "say": "Квасолю треба замочити на кілька годин.",
+    "ans": [
+     "You need to soak the beans for a few hours.",
+     "The beans have to soak for several hours.",
+     "You’ve got to soak the beans for a few hours first."
+    ],
+    "keys": {
+     "квасоля": "bean*",
+     "кілька годин": "hour*|overnight"
+    }
+   },
+   {
+    "sit": "На футболці пляма від вина. Мама дає тобі пораду.",
+    "say": "Замочи футболку в холодній воді.",
+    "ans": [
+     "Soak the T-shirt in cold water.",
+     "Soak your shirt in cold water.",
+     "Just soak it in some cold water."
+    ],
+    "keys": {
+     "холодна вода": "cold"
+    }
+   }
+  ]
+ },
+ {
+  "id": 495,
+  "w": "nap",
+  "uk": "дрімати (подрімати вдень)",
+  "lvl": "B1",
+  "forms": "nap|naps|napped|napped|napping",
+  "near": "sleep|slept|sleeping|doze*|snooze*|take a nap|took a nap|rest*|nod off",
+  "tasks": [
+   {
+    "sit": "Колега питає, чому ти такий бадьорий після обіду.",
+    "say": "Я подрімав двадцять хвилин у машині.",
+    "ans": [
+     "I napped for twenty minutes in the car.",
+     "I napped in my car for 20 minutes.",
+     "I napped in the car for like twenty minutes."
+    ],
+    "keys": {
+     "двадцять хвилин": "twenty|20|minute*",
+     "машина": "car"
+    }
+   },
+   {
+    "sit": "Подруга дзвонить, щоб поговорити про свою маленьку доньку.",
+    "say": "Вона досі дрімає вдень?",
+    "ans": [
+     "Is she still napping during the day?",
+     "She still naps in the afternoons, right?",
+     "So is she still napping every afternoon?"
+    ],
+    "keys": {
+     "досі": "still",
+     "вдень": "day*|afternoon*"
+    }
+   },
+   {
+    "sit": "Ви їдете потягом до Львова, і попереду ще чотири години.",
+    "say": "Спробую трохи подрімати.",
+    "ans": [
+     "I’ll try to nap for a bit.",
+     "I’m going to try and nap a little.",
+     "I think I’ll try to nap for a while."
+    ],
+    "keys": {
+     "трохи": "bit|little|while"
+    }
+   }
+  ]
+ },
+ {
+  "id": 496,
+  "w": "snooze",
+  "uk": "відкладати будильник, дрімати ще трохи",
+  "lvl": "B2",
+  "forms": "snooze|snoozes|snoozed|snoozed|snoozing",
+  "near": "sleep in|slept in|oversl*|doze*|nap*|turn off the alarm|turned off the alarm",
+  "tasks": [
+   {
+    "sit": "Ти запізнився на роботу й пояснюєш колезі, що сталося.",
+    "say": "Я тричі відклав будильник і проспав.",
+    "ans": [
+     "I snoozed my alarm three times and overslept.",
+     "I snoozed the alarm three times and slept in.",
+     "I hit snooze like three times and overslept."
+    ],
+    "keys": {
+     "тричі": "three|3",
+     "проспав": "oversl*|slept|late"
+    }
+   },
+   {
+    "sit": "Сусід по кімнаті щоранку не встає з першого дзвінка будильника.",
+    "say": "Перестань відкладати будильник, він будить мене!",
+    "ans": [
+     "Stop snoozing your alarm, it wakes me up!",
+     "Please stop snoozing the alarm — it keeps waking me up!",
+     "Can you stop snoozing? It wakes me up every time!"
+    ],
+    "keys": {
+     "будить мене": "wak*|woke|me"
+    }
+   },
+   {
+    "sit": "Ти розповідаєш подрузі про свій новий режим сну.",
+    "say": "Я більше не відкладаю будильник — встаю одразу.",
+    "ans": [
+     "I don’t snooze my alarm anymore — I get up right away.",
+     "I’ve stopped snoozing; I get up straight away.",
+     "I never snooze anymore, I just get up right away."
+    ],
+    "keys": {
+     "більше не": "not|never|stopped|any more|anymore",
+     "одразу": "right away|straight away|immediately|at once|first"
+    }
+   }
+  ]
+ },
+ {
+  "id": 497,
+  "w": "yawn",
+  "uk": "позіхати",
+  "lvl": "B2",
+  "forms": "yawn|yawns|yawned|yawned|yawning",
+  "near": "sleepy|tired|stretch*|bored",
+  "tasks": [
+   {
+    "sit": "Викладач помітив, що студенти на задніх партах ледве тримають очі відкритими.",
+    "say": "Ви весь урок позіхаєте. Вам нудно?",
+    "ans": [
+     "You’ve been yawning the whole lesson. Are you bored?",
+     "You keep yawning all class. Are you bored?",
+     "You’ve been yawning all lesson — bored already?"
+    ],
+    "keys": {
+     "урок": "lesson|class|lecture",
+     "нудно": "bor*"
+    }
+   },
+   {
+    "sit": "На нараді ти ненароком позіхнув, і начальник подивився на тебе.",
+    "say": "Вибачте, я не хотів позіхати — просто погано спав.",
+    "ans": [
+     "Sorry, I didn’t mean to yawn — I just slept badly.",
+     "I’m sorry, I didn’t mean to yawn, I didn’t sleep well.",
+     "Sorry for yawning, I barely slept last night."
+    ],
+    "keys": {
+     "погано спав": "slept|sleep|night"
+    }
+   },
+   {
+    "sit": "Ви з подругою сидите пізно ввечері, і вона раптом теж починає позіхати.",
+    "say": "Коли хтось позіхає, мені теж хочеться позіхнути.",
+    "ans": [
+     "When someone yawns, it makes me want to yawn too.",
+     "Whenever somebody yawns, I start yawning too.",
+     "Stop it — when you yawn, I yawn too!"
+    ],
+    "keys": {
+     "теж": "too|also|as well"
+    }
+   }
+  ]
+ },
+ {
+  "id": 499,
+  "w": "clutch",
+  "uk": "міцно стискати, вчепитися",
+  "lvl": "B2",
+  "forms": "clutch|clutches|clutched|clutched|clutching",
+  "near": "grip*|grab*|grasp*|hold tight|held tight|hold on|held on|squeez*|cling*|clung",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш друзям про нічну прогулянку незнайомим районом.",
+    "say": "Я всю дорогу міцно стискав рюкзак.",
+    "ans": [
+     "I clutched my backpack the whole way.",
+     "I was clutching my bag the entire way.",
+     "I clutched my backpack tight the whole time."
+    ],
+    "keys": {
+     "рюкзак": "backpack|bag|rucksack",
+     "всю дорогу": "whole|entire|all the way|time"
+    }
+   },
+   {
+    "sit": "Ви летите літаком, і почалася сильна турбулентність. Потім ти згадуєш це з подругою.",
+    "say": "Ти так вчепилася в мою руку, що аж боляче було!",
+    "ans": [
+     "You clutched my hand so hard it hurt!",
+     "You were clutching my arm so tightly that it hurt!",
+     "You clutched my hand so tight it actually hurt!"
+    ],
+    "keys": {
+     "рука": "hand|arm",
+     "боляче": "hurt*|pain*"
+    }
+   },
+   {
+    "sit": "Ти бачиш фото з церемонії нагородження й коментуєш його з колегою.",
+    "say": "Вона стискає свій диплом, наче боїться його загубити.",
+    "ans": [
+     "She’s clutching her diploma like she’s afraid to lose it.",
+     "She’s clutching the certificate as if she might lose it.",
+     "Look, she’s clutching her diploma like it might disappear."
+    ],
+    "keys": {
+     "диплом": "diploma|certificate|award|degree"
+    }
+   }
+  ]
+ },
+ {
+  "id": 500,
+  "w": "drag",
+  "uk": "тягнути (волочити)",
+  "lvl": "B2",
+  "forms": "drag|drags|dragged|dragged|dragging",
+  "near": "pull*|haul*|tow*|lug*|carry|carried",
+  "tasks": [
+   {
+    "sit": "Сусід знизу скаржиться на гучний скрегіт у твоїй квартирі.",
+    "say": "Вибачте, я тягнув стілець по підлозі.",
+    "ans": [
+     "Sorry, I was dragging a chair across the floor.",
+     "Sorry, I dragged the chair across the floor.",
+     "Sorry about that, I was dragging a chair around."
+    ],
+    "keys": {
+     "стілець": "chair*|furniture"
+    }
+   },
+   {
+    "sit": "На вокзалі в тебе зламалося коліщатко валізи. Дзвониш другові.",
+    "say": "Мені доводиться тягнути валізу по землі.",
+    "ans": [
+     "I have to drag my suitcase along the ground.",
+     "I’m having to drag the suitcase behind me.",
+     "I’m literally dragging my suitcase along the ground."
+    ],
+    "keys": {
+     "валіза": "suitcase|case|luggage|bag"
+    }
+   },
+   {
+    "sit": "Друг не хотів іти з тобою на концерт, але зрештою пішов.",
+    "say": "Мені довелося тягнути його туди силоміць.",
+    "ans": [
+     "I had to drag him there.",
+     "I basically had to drag him there by force.",
+     "I literally had to drag him along."
+    ],
+    "keys": {
+     "його": "him"
+    }
+   }
+  ]
+ },
+ {
+  "id": 501,
+  "w": "drop off",
+  "uk": "підкинути (завезти когось/щось)",
+  "lvl": "B2",
+  "forms": "drop|drops|dropped|dropped|dropping",
+  "tail": "off",
+  "near": "take|took|taken|taking|drive|drove|driven|give a lift|gave a lift|deliver*|leave|left",
+  "tasks": [
+   {
+    "sit": "Ти їдеш у центр на машині, а колега просить підвезти.",
+    "say": "Я можу висадити тебе біля торгового центру.",
+    "ans": [
+     "I can drop you off at the mall.",
+     "I can drop you off by the shopping centre.",
+     "Sure, I’ll drop you off at the mall."
+    ],
+    "keys": {
+     "торговий центр": "mall|shopping cent*|centre|center"
+    }
+   },
+   {
+    "sit": "Дружина питає, хто сьогодні відвезе дітей до школи.",
+    "say": "Я закину дітей до школи по дорозі на роботу.",
+    "ans": [
+     "I’ll drop the kids off at school on my way to work.",
+     "I’ll drop off the kids at school on the way to work.",
+     "I can drop the kids off on my way to work."
+    ],
+    "keys": {
+     "діти": "kid*|child*|them",
+     "на роботу": "work|office"
+    }
+   },
+   {
+    "sit": "Сусід просить тебе передати його посилку на пошту, бо ти туди якраз ідеш.",
+    "say": "Без проблем, я завезу її на пошту.",
+    "ans": [
+     "No problem, I’ll drop it off at the post office.",
+     "Sure, I’ll drop the package off at the post office.",
+     "No worries, I’ll drop it off at the post office for you."
+    ],
+    "keys": {
+     "пошта": "post|office|mail"
+    }
+   }
+  ]
+ },
+ {
+  "id": 502,
+  "w": "pick up",
+  "uk": "забирати (когось/щось)",
+  "lvl": "A2",
+  "forms": "pick|picks|picked|picked|picking",
+  "tail": "up",
+  "near": "get|got|collect*|fetch*|meet|met|take|took",
+  "tasks": [
+   {
+    "sit": "Твоя подруга прилітає пізно ввечері й хвилюється, як дістатися з аеропорту.",
+    "say": "Я заберу тебе з аеропорту.",
+    "ans": [
+     "I’ll pick you up at the airport.",
+     "I’ll pick you up from the airport.",
+     "Don’t worry, I’ll pick you up at the airport."
+    ],
+    "keys": {
+     "аеропорт": "airport"
+    }
+   },
+   {
+    "sit": "Ти на роботі, і дзвонить чоловік, щоб розподілити справи.",
+    "say": "Ти можеш забрати сина зі школи сьогодні?",
+    "ans": [
+     "Can you pick up our son from school today?",
+     "Could you pick our son up from school today?",
+     "Can you pick him up from school today?"
+    ],
+    "keys": {
+     "син": "son|him|boy|kid",
+     "школа": "school"
+    }
+   },
+   {
+    "sit": "Хімчистка надсилає повідомлення, що твій костюм готовий.",
+    "say": "Я заберу костюм завтра після роботи.",
+    "ans": [
+     "I’ll pick up the suit tomorrow after work.",
+     "I’ll pick the suit up tomorrow after work.",
+     "I’ll pick it up tomorrow after work."
+    ],
+    "keys": {
+     "завтра": "tomorrow",
+     "після роботи": "after work|work"
+    }
+   }
+  ]
+ },
+ {
+  "id": 503,
+  "w": "clap",
+  "uk": "плескати (в долоні), аплодувати",
+  "lvl": "B1",
+  "forms": "clap|claps|clapped|clapped|clapping",
+  "near": "applau*|cheer*|give a round of applause",
+  "tasks": [
+   {
+    "sit": "Твоя донька вперше виступала на шкільному концерті. Ти розповідаєш про це бабусі.",
+    "say": "Усі плескали їй дуже довго!",
+    "ans": [
+     "Everyone clapped for her for a long time!",
+     "Everybody was clapping for her for ages!",
+     "Everyone clapped for her forever!"
+    ],
+    "keys": {
+     "усі": "everyone|everybody|all|whole"
+    }
+   },
+   {
+    "sit": "Ти ведеш зарядку для малюків у садочку.",
+    "say": "А тепер плескаємо в долоні три рази!",
+    "ans": [
+     "Now clap your hands three times!",
+     "Now let’s clap our hands three times!",
+     "Okay, everybody clap three times!"
+    ],
+    "keys": {
+     "три рази": "three|3"
+    }
+   },
+   {
+    "sit": "Після посадки літака частина пасажирів почала аплодувати. Колега питає тебе про це.",
+    "say": "Навіщо люди плескають, коли літак сідає?",
+    "ans": [
+     "Why do people clap when the plane lands?",
+     "Why do passengers clap when the plane lands?",
+     "Why do people clap when we land?"
+    ],
+    "keys": {
+     "сідає": "land*|touch* down",
+     "навіщо": "why|what for"
+    }
+   }
+  ]
+ },
+ {
+  "id": 504,
+  "w": "snap",
+  "uk": "клацати (пальцями)",
+  "lvl": "B2",
+  "forms": "snap|snaps|snapped|snapped|snapping",
+  "near": "click*|flick*|clap*",
+  "tasks": [
+   {
+    "sit": "Ти вчиш молодшого брата клацати пальцями, але в нього не виходить.",
+    "say": "Я ніяк не навчуся клацати пальцями!",
+    "ans": [
+     "I just can’t snap my fingers!",
+     "I can never snap my fingers!",
+     "I still can’t snap my fingers, no matter how I try!"
+    ],
+    "keys": {
+     "пальці": "finger*",
+     "не": "not|never"
+    }
+   },
+   {
+    "sit": "У кафе клієнт підкликає офіціантку, гучно клацнувши пальцями. Друг обурюється.",
+    "say": "Хіба можна клацати пальцями на офіціанта?",
+    "ans": [
+     "You don’t snap your fingers at a waiter!",
+     "How can you snap your fingers at a waiter?",
+     "Who snaps their fingers at a waiter?"
+    ],
+    "keys": {
+     "офіціант": "waiter*|waitress*|staff|server"
+    }
+   },
+   {
+    "sit": "Ти розповідаєш, як на джазовому концерті публіка не аплодувала, а робила щось інше.",
+    "say": "Усі клацали пальцями в такт музиці.",
+    "ans": [
+     "Everyone was snapping their fingers to the music.",
+     "Everyone snapped their fingers along to the beat.",
+     "The whole crowd was snapping along to the music."
+    ],
+    "keys": {
+     "музика / такт": "music|beat|rhythm|song"
+    }
+   }
+  ]
+ },
+ {
+  "id": 505,
+  "w": "pinch",
+  "uk": "щипати",
+  "lvl": "B2",
+  "forms": "pinch|pinches|pinched|pinched|pinching",
+  "near": "squeez*|nip*|tweak*|grab*",
+  "tasks": [
+   {
+    "sit": "Після сімейного свята ти згадуєш зі сестрою дитинство.",
+    "say": "Бабуся завжди щипала нас за щоки.",
+    "ans": [
+     "Grandma always pinched our cheeks.",
+     "Grandma was always pinching our cheeks.",
+     "Grandma used to pinch our cheeks all the time."
+    ],
+    "keys": {
+     "щоки": "cheek*",
+     "бабуся": "grandma|granny|grandmother|nan*"
+    }
+   },
+   {
+    "sit": "Ти виграв квитки на концерт улюбленого гурту й досі не віриш.",
+    "say": "Ущипни мене — це точно не сон?",
+    "ans": [
+     "Pinch me — am I dreaming?",
+     "Pinch me, this can’t be real!",
+     "Somebody pinch me, I must be dreaming!"
+    ],
+    "keys": {
+     "мене": "me"
+    }
+   },
+   {
+    "sit": "Твій син скаржиться на старшу сестру батькам.",
+    "say": "Вона мене вщипнула!",
+    "ans": [
+     "She pinched me!",
+     "She just pinched me!",
+     "Mom, she pinched me again!"
+    ],
+    "keys": {
+     "мене": "me"
+    }
+   }
+  ]
+ },
+ {
+  "id": 506,
+  "w": "scratch",
+  "uk": "чухати (свербляче місце)",
+  "lvl": "B2",
+  "forms": "scratch|scratches|scratched|scratched|scratching",
+  "near": "rub*|itch*|pick*",
+  "tasks": [
+   {
+    "sit": "У дитини вітрянка, і вона постійно тягнеться до плям на шкірі.",
+    "say": "Не чухай, бо залишаться шрами!",
+    "ans": [
+     "Don’t scratch, or you’ll get scars!",
+     "Don’t scratch them — they’ll leave scars!",
+     "Stop scratching, you’ll end up with scars!"
+    ],
+    "keys": {
+     "шрами": "scar*|mark*"
+    }
+   },
+   {
+    "sit": "На пікніку тебе покусали комарі. Друг питає, що з тобою.",
+    "say": "Я не можу перестати чухати ці укуси.",
+    "ans": [
+     "I can’t stop scratching these bites.",
+     "I can’t stop scratching these mosquito bites.",
+     "I just can’t stop scratching these bites!"
+    ],
+    "keys": {
+     "укуси": "bite*|bitten"
+    }
+   },
+   {
+    "sit": "Твій пес підходить до тебе й підставляє шию.",
+    "say": "Він хоче, щоб я почухав йому за вухом.",
+    "ans": [
+     "He wants me to scratch behind his ear.",
+     "He wants me to scratch him behind the ears.",
+     "He wants a scratch behind the ears — look!"
+    ],
+    "keys": {
+     "вухо": "ear*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 507,
+  "w": "wave",
+  "uk": "махати (рукою)",
+  "lvl": "A2",
+  "forms": "wave|waves|waved|waved|waving",
+  "near": "say hi|said hi|greet*|nod*|say goodbye|said goodbye|shake hands",
+  "tasks": [
+   {
+    "sit": "Ти побачив подругу на іншому боці вулиці, але вона тебе не помітила.",
+    "say": "Я помахав їй, але вона не побачила.",
+    "ans": [
+     "I waved to her, but she didn’t see me.",
+     "I waved at her, but she didn’t notice.",
+     "I waved, but she didn’t see me."
+    ],
+    "keys": {
+     "не побачила": "not see|not notice|did not|missed"
+    }
+   },
+   {
+    "sit": "Ти з маленьким сином проводжаєш бабусю на вокзалі. Потяг рушає.",
+    "say": "Помахай бабусі на прощання!",
+    "ans": [
+     "Wave goodbye to Grandma!",
+     "Wave bye-bye to Grandma!",
+     "Quick, wave to Grandma!"
+    ],
+    "keys": {
+     "бабуся": "grandma|granny|grandmother|nan*"
+    }
+   },
+   {
+    "sit": "Ти розповідаєш колезі, як загубився в новому місті.",
+    "say": "Я махав таксистам, але ніхто не зупинився.",
+    "ans": [
+     "I waved at the taxis, but nobody stopped.",
+     "I kept waving at taxis, but none of them stopped.",
+     "I waved and waved, but no taxi stopped."
+    ],
+    "keys": {
+     "таксі": "taxi*|cab*",
+     "ніхто не зупинився": "stop*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 508,
+  "w": "point",
+  "uk": "вказувати (пальцем)",
+  "lvl": "A2",
+  "forms": "point|points|pointed|pointed|pointing",
+  "near": "show|showed|shown|showing|indicat*",
+  "tasks": [
+   {
+    "sit": "Ви з маленькою донькою в автобусі. Вона тицяє пальцем у незнайомого чоловіка.",
+    "say": "Не показуй пальцем на людей, це неввічливо.",
+    "ans": [
+     "Don’t point at people, it’s rude.",
+     "Don’t point at people — it’s not polite.",
+     "Honey, don’t point at people, that’s rude."
+    ],
+    "keys": {
+     "люди": "people|person|him|man",
+     "неввічливо": "rude|not polite|impolite|not nice"
+    }
+   },
+   {
+    "sit": "Ти загубився в місті й питав дорогу. Тепер розповідаєш другові, що сталося.",
+    "say": "Жінка показала на міст і сказала йти прямо.",
+    "ans": [
+     "A woman pointed at the bridge and told me to go straight.",
+     "The woman pointed to the bridge and said to go straight on.",
+     "This lady pointed at the bridge and said just go straight."
+    ],
+    "keys": {
+     "міст": "bridge",
+     "прямо": "straight|ahead"
+    }
+   },
+   {
+    "sit": "Ти в зоопарку з племінником і помітив мавпу високо на дереві.",
+    "say": "Дивись, куди я показую — там, на гілці!",
+    "ans": [
+     "Look where I’m pointing — up there on the branch!",
+     "Look where I’m pointing, on that branch!",
+     "Look, I’m pointing at it — up on the branch!"
+    ],
+    "keys": {
+     "гілка": "branch*|tree|there"
+    }
+   }
+  ]
+ },
+ {
+  "id": 509,
+  "w": "transform",
+  "uk": "перетворювати, докорінно змінювати",
+  "lvl": "B2",
+  "forms": "transform|transforms|transformed|transformed|transforming",
+  "near": "change*|turn into|turned into|convert*|make over|revamp*|renovat*",
+  "tasks": [
+   {
+    "sit": "Друзі приходять у гості й не впізнають твою колишню комору.",
+    "say": "Ми перетворили комору на затишний кабінет.",
+    "ans": [
+     "We transformed the storage room into a cozy office.",
+     "We’ve transformed the old storeroom into a cosy study.",
+     "We totally transformed the storage room into a little office."
+    ],
+    "keys": {
+     "комора": "storage|storeroom|pantry|closet|box room",
+     "кабінет": "office|study"
+    }
+   },
+   {
+    "sit": "Колега питає, чому ти так захоплено говориш про біг.",
+    "say": "Біг повністю змінив моє життя.",
+    "ans": [
+     "Running has completely transformed my life.",
+     "Running transformed my life completely.",
+     "Honestly, running totally transformed my life."
+    ],
+    "keys": {
+     "біг": "run*|jog*",
+     "життя": "life"
+    }
+   },
+   {
+    "sit": "Ти читаєш статтю про нові технології й обговорюєш її на роботі.",
+    "say": "Штучний інтелект докорінно змінює нашу галузь.",
+    "ans": [
+     "Artificial intelligence is transforming our industry.",
+     "AI is completely transforming our industry.",
+     "AI is totally transforming our whole field."
+    ],
+    "keys": {
+     "штучний інтелект": "ai|artificial intelligence|a.i.",
+     "галузь": "industry|field|sector|business"
+    }
+   }
+  ]
+ },
+ {
+  "id": 510,
+  "w": "convert",
+  "uk": "конвертувати (файл, формат)",
+  "lvl": "B2",
+  "forms": "convert|converts|converted|converted|converting",
+  "near": "change*|turn into|turned into|export*|save as|saved as|transform*",
+  "tasks": [
+   {
+    "sit": "Клієнт надіслав документ, який не відкривається на твоєму телефоні.",
+    "say": "Можете конвертувати файл у PDF?",
+    "ans": [
+     "Could you convert the file to PDF?",
+     "Can you convert the file into a PDF?",
+     "Could you convert it to a PDF for me?"
+    ],
+    "keys": {
+     "файл": "file|document|it"
+    }
+   },
+   {
+    "sit": "Колега питає, як ти так швидко зробив з відео гіфку.",
+    "say": "Я конвертував відео в онлайн-сервісі.",
+    "ans": [
+     "I converted the video with an online tool.",
+     "I converted the video on a website.",
+     "I just converted the video online."
+    ],
+    "keys": {
+     "відео": "video|clip",
+     "онлайн": "online|website|site|web|tool"
+    }
+   },
+   {
+    "sit": "Ти працюєш з таблицями й скаржишся на застарілий формат файлів.",
+    "say": "Мені довелося конвертувати всі старі таблиці вручну.",
+    "ans": [
+     "I had to convert all the old spreadsheets manually.",
+     "I had to convert every old spreadsheet by hand.",
+     "I ended up converting all the old spreadsheets by hand."
+    ],
+    "keys": {
+     "таблиці": "spreadsheet*|table*|file*",
+     "вручну": "manual*|by hand|hand"
+    }
+   }
+  ]
+ },
+ {
+  "id": 511,
+  "w": "adapt",
+  "uk": "пристосовуватися, адаптуватися",
+  "lvl": "B2",
+  "forms": "adapt|adapts|adapted|adapted|adapting",
+  "near": "adjust*|get used to|got used to|getting used to|settle in|settled in|fit in|cope*",
+  "tasks": [
+   {
+    "sit": "Ти переїхав до Канади, і мама по відеозв’язку питає, як ти.",
+    "say": "Я поступово пристосовуюся до холоду.",
+    "ans": [
+     "I’m slowly adapting to the cold.",
+     "I’m gradually adapting to the cold weather.",
+     "I’m slowly adapting to the cold, don’t worry."
+    ],
+    "keys": {
+     "холод": "cold|weather|winter|climate",
+     "поступово": "slow*|gradual*|little by little|bit by bit"
+    }
+   },
+   {
+    "sit": "Колега нервує, бо у вашій компанії змінили всю систему роботи.",
+    "say": "Не хвилюйся, ми швидко адаптуємося.",
+    "ans": [
+     "Don’t worry, we’ll adapt quickly.",
+     "Don’t worry — we’ll adapt fast.",
+     "Relax, we’ll adapt pretty quickly."
+    ],
+    "keys": {
+     "швидко": "quick*|fast|soon"
+    }
+   },
+   {
+    "sit": "Твоя дитина перейшла в нову школу. Вчителька ділиться враженнями.",
+    "say": "Ваш син дуже добре адаптувався до нового класу.",
+    "ans": [
+     "Your son has adapted really well to the new class.",
+     "Your son adapted very well to his new class.",
+     "Your son’s adapted really well to the new class."
+    ],
+    "keys": {
+     "син": "son|he|boy",
+     "клас": "class|school|group"
+    }
+   }
+  ]
+ },
+ {
+  "id": 512,
+  "w": "evolve",
+  "uk": "розвиватися, еволюціонувати",
+  "lvl": "C1",
+  "forms": "evolve|evolves|evolved|evolved|evolving",
+  "near": "develop*|grow|grew|grown|growing|change*|progress*|mature*",
+  "tasks": [
+   {
+    "sit": "Ти дивишся з другом документальний фільм про тварин Галапагоських островів.",
+    "say": "Ці птахи еволюціонували мільйони років окремо від інших.",
+    "ans": [
+     "These birds evolved separately for millions of years.",
+     "These birds have evolved in isolation for millions of years.",
+     "These birds evolved on their own for millions of years."
+    ],
+    "keys": {
+     "птахи": "bird*|finch*|these",
+     "мільйони років": "million*"
+    }
+   },
+   {
+    "sit": "Колега питає, як змінився ваш стартап від заснування.",
+    "say": "Наш продукт дуже розвинувся за три роки.",
+    "ans": [
+     "Our product has evolved a lot in three years.",
+     "Our product evolved a lot over the past three years.",
+     "Our product’s really evolved over the last three years."
+    ],
+    "keys": {
+     "продукт": "product|app|it",
+     "три роки": "three|3|year*"
+    }
+   },
+   {
+    "sit": "Ти обговорюєш із подругою улюблену співачку, чий стиль змінювався з кожним альбомом.",
+    "say": "Її музика постійно розвивається.",
+    "ans": [
+     "Her music is constantly evolving.",
+     "Her music keeps evolving.",
+     "Her music is always evolving with every album."
+    ],
+    "keys": {
+     "музика": "music|sound|style",
+     "постійно": "constant*|always|keep*|every|continu*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 513,
+  "w": "shift",
+  "uk": "зміщувати, переносити (увагу, акцент)",
+  "lvl": "B2",
+  "forms": "shift|shifts|shifted|shifted|shifting",
+  "near": "move|moved|moving|change*|switch*|turn*|redirect*|refocus*",
+  "tasks": [
+   {
+    "sit": "На нараді обговорення зайшло в глухий кут через дрібниці. Ти береш слово.",
+    "say": "Давайте змістимо фокус на головну проблему.",
+    "ans": [
+     "Let’s shift our focus to the main problem.",
+     "Let’s shift the focus onto the main issue.",
+     "Can we shift the focus back to the main problem?"
+    ],
+    "keys": {
+     "фокус": "focus|attention",
+     "головна проблема": "main|key|real|problem|issue"
+    }
+   },
+   {
+    "sit": "Друг помітив, що ти тепер менше працюєш і більше часу проводиш із родиною.",
+    "say": "Мої пріоритети змістилися після народження доньки.",
+    "ans": [
+     "My priorities shifted after my daughter was born.",
+     "My priorities have shifted since my daughter was born.",
+     "After my daughter came along, my priorities totally shifted."
+    ],
+    "keys": {
+     "пріоритети": "priorit*",
+     "донька": "daughter|baby|kid"
+    }
+   },
+   {
+    "sit": "Ти обговорюєш маркетингову стратегію з командою.",
+    "say": "Нам варто змістити бюджет з телебачення в соцмережі.",
+    "ans": [
+     "We should shift the budget from TV to social media.",
+     "We ought to shift our budget from television to social media.",
+     "I think we should shift more budget from TV to social."
+    ],
+    "keys": {
+     "телебачення": "tv|television",
+     "соцмережі": "social|online|instagram|tiktok|internet"
+    }
+   }
+  ]
+ },
+ {
+  "id": 514,
+  "w": "flip",
+  "uk": "перевертати, підкидати",
+  "lvl": "B2",
+  "forms": "flip|flips|flipped|flipped|flipping",
+  "near": "turn over|turned over|toss*|turn it over|turn them over|throw|threw",
+  "tasks": [
+   {
+    "sit": "Ти вчиш сина пекти млинці на сніданок.",
+    "say": "Коли з’являться бульбашки, переверни млинець.",
+    "ans": [
+     "When bubbles appear, flip the pancake.",
+     "Flip the pancake when you see bubbles.",
+     "Once it starts to bubble, flip it over."
+    ],
+    "keys": {
+     "бульбашки": "bubbl*"
+    }
+   },
+   {
+    "sit": "Ви з другом не можете вирішити, хто сьогодні миє посуд.",
+    "say": "Давай підкинемо монетку.",
+    "ans": [
+     "Let’s flip a coin.",
+     "Why don’t we flip a coin?",
+     "Okay, let’s just flip a coin for it."
+    ],
+    "keys": {
+     "монетка": "coin"
+    }
+   },
+   {
+    "sit": "Ти готуєш стейки на грилі разом із тестем.",
+    "say": "Перевертай м’ясо лише один раз.",
+    "ans": [
+     "Only flip the meat once.",
+     "Flip the steak only once.",
+     "Just flip it once, no more."
+    ],
+    "keys": {
+     "один раз": "once|one time"
+    }
+   }
+  ]
+ },
+ {
+  "id": 515,
+  "w": "swap",
+  "uk": "мінятися, обмінюватися",
+  "lvl": "B2",
+  "forms": "swap/swop|swaps/swops|swapped/swopped|swapped/swopped|swapping/swopping",
+  "near": "exchang*|switch*|trade*|change places|changed places",
+  "tasks": [
+   {
+    "sit": "У літаку тебе посадили окремо від дружини. Ти звертаєшся до сусіда.",
+    "say": "Ви не проти помінятися місцями?",
+    "ans": [
+     "Would you mind swapping seats?",
+     "Would you mind swapping seats with me?",
+     "Do you mind if we swap seats?"
+    ],
+    "keys": {
+     "місця": "seat*|place*"
+    }
+   },
+   {
+    "sit": "У неділю в тебе черговий вихід на роботу, а в колеги — у суботу.",
+    "say": "Може, поміняємося змінами?",
+    "ans": [
+     "Maybe we could swap shifts?",
+     "How about we swap shifts?",
+     "Want to swap shifts with me?"
+    ],
+    "keys": {
+     "зміни": "shift*|days|saturday|sunday"
+    }
+   },
+   {
+    "sit": "Ти з друзями на вечірці з обміном одягом.",
+    "say": "Я обміняв старий светр на класну куртку.",
+    "ans": [
+     "I swapped my old sweater for a cool jacket.",
+     "I swapped an old jumper for a great jacket.",
+     "I swapped my old sweater for this awesome jacket!"
+    ],
+    "keys": {
+     "светр": "sweater|jumper|pullover|hoodie",
+     "куртка": "jacket|coat"
+    }
+   }
+  ]
+ },
+ {
+  "id": 516,
+  "w": "substitute",
+  "uk": "замінювати (одне іншим)",
+  "lvl": "B2",
+  "forms": "substitute|substitutes|substituted|substituted|substituting",
+  "near": "replace*|swap*|use instead|used instead|switch*|exchange*",
+  "tasks": [
+   {
+    "sit": "Подруга хоче спекти твій торт, але в неї немає цукру.",
+    "say": "Можеш замінити цукор медом.",
+    "ans": [
+     "You can substitute honey for sugar.",
+     "You can substitute the sugar with honey.",
+     "Just substitute honey for the sugar."
+    ],
+    "keys": {
+     "цукор": "sugar",
+     "мед": "honey"
+    }
+   },
+   {
+    "sit": "Ти тренуєш дитячу футбольну команду, і один гравець підвернув ногу.",
+    "say": "Я заміню його на Максима.",
+    "ans": [
+     "I’ll substitute Max for him.",
+     "I’m going to substitute him with Max.",
+     "I’ll substitute him — Max, you’re on!"
+    ],
+    "keys": {
+     "Максим": "max*"
+    }
+   },
+   {
+    "sit": "Ти в ресторані й бачиш у салаті інгредієнт, на який маєш алергію.",
+    "say": "Чи можна замінити горіхи на щось інше?",
+    "ans": [
+     "Can you substitute the nuts with something else?",
+     "Could you substitute something else for the nuts?",
+     "Is it possible to substitute the nuts with something else?"
+    ],
+    "keys": {
+     "горіхи": "nut*|walnut*|peanut*|almond*",
+     "щось інше": "something else|else|other"
+    }
+   }
+  ]
+ }
+]

@@ -3,9 +3,9 @@ const { doc, errs, go, finish } = boot();
 
 const routes = [
   '#/', '#/grammar', '#/vocab',
-  '#/vocab/verbs', '#/vocab/verbs/cards', '#/vocab/verbs/enuk', '#/vocab/verbs/uken', '#/vocab/verbs/forms', '#/vocab/verbs/ctx', '#/vocab/verbs/mix',
+  '#/vocab/verbs', '#/vocab/verbs/cards', '#/vocab/verbs/enuk', '#/vocab/verbs/uken', '#/vocab/verbs/forms', '#/vocab/verbs/ctx', '#/vocab/verbs/wod', '#/vocab/verbs/mix',
   '#/vocab/nouns', '#/vocab/nouns/cards', '#/vocab/nouns/enuk', '#/vocab/nouns/cu', '#/vocab/nouns/mix',
-  '#/vocab/adjs', '#/vocab/adjs/cards', '#/vocab/adjs/enuk', '#/vocab/adjs/forms', '#/vocab/adjs/ctx', '#/vocab/adjs/mix',
+  '#/vocab/adjs', '#/vocab/adjs/cards', '#/vocab/adjs/enuk', '#/vocab/adjs/forms', '#/vocab/adjs/ctx', '#/vocab/adjs/mix', '#/vocab/adjs/stories',
   '#/vocab/advs', '#/vocab/advs/cards', '#/vocab/advs/enuk', '#/vocab/advs/uken', '#/vocab/advs/ctx', '#/vocab/advs/mix',
   '#/listen', '#/challenge', '#/read', '#/diary', '#/diary/entries', '#/diary/settings', '#/nonexistent'
 ];

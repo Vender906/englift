@@ -1,0 +1,627 @@
+[
+ {
+  "id": 0, "w": "be", "uk": "бути", "lvl": "A1",
+  "forms": "be/am/are|is|was/were|been|being",
+  "near": "feel|feels|felt|feeling|seem|seems|seemed|look|looks|looked",
+  "tasks": [
+   {
+    "sit": "Ти повернувся з довгої зміни, а мама кличе тебе ввечері в гості до родичів.",
+    "say": "Я сьогодні дуже втомився.",
+    "ans": ["I am very tired today.", "Today I am really tired.", "Honestly, I am just so tired today."],
+    "keys": { "втомився": "tired|exhausted|worn out", "сьогодні": "today|tonight" }
+   },
+   {
+    "sit": "Колега телефонує й питає, де ти, бо нарада вже почалася.",
+    "say": "Я в дорозі, буду за десять хвилин.",
+    "ans": ["I’m on my way, I’ll be there in ten minutes.", "I am on the way — I will be there in ten minutes.", "I’m on my way! I’ll be there in 10 minutes."],
+    "keys": { "в дорозі": "way|coming|road", "десять хвилин": "ten|10|minute*" }
+   },
+   {
+    "sit": "Ти показуєш другу фото з минулорічної відпустки.",
+    "say": "Минулого літа ми були в Італії.",
+    "ans": ["We were in Italy last summer.", "Last summer we were in Italy.", "We were in Italy last summer — it was amazing!"],
+    "keys": { "Італія": "italy", "минулого літа": "last summer|summer" }
+   }
+  ]
+ },
+ {
+  "id": 1, "w": "become", "uk": "ставати (кимось, якимсь)", "lvl": "A2",
+  "forms": "become|becomes|became|become|becoming",
+  "near": "get|gets|got|gotten|getting|turn into|turned into|grow|grew|grown|work as",
+  "tasks": [
+   {
+    "sit": "Племінник питає, ким ти мріяв бути в дитинстві.",
+    "say": "У дитинстві я хотів стати лікарем.",
+    "ans": ["When I was a child, I wanted to become a doctor.", "As a kid, I wanted to become a doctor.", "I always wanted to become a doctor when I was little."],
+    "keys": { "лікар": "doctor*", "у дитинстві": "child*|kid|little|young" }
+   },
+   {
+    "sit": "Ти розповідаєш подрузі про однокласника, якого тепер часто показують у кіно.",
+    "say": "Мій однокласник став відомим актором.",
+    "ans": ["My classmate became a famous actor.", "A guy from my class has become a famous actor.", "One of my classmates became a really famous actor."],
+    "keys": { "однокласник": "classmate*|class|school*", "відомий актор": "famous|actor|star|well-known" }
+   },
+   {
+    "sit": "Сусід давно не був у вашому районі, і ти розповідаєш, що змінилося.",
+    "say": "Наше місто стало набагато чистішим.",
+    "ans": ["Our city has become much cleaner.", "The city became a lot cleaner.", "Our town has become so much cleaner these days."],
+    "keys": { "місто": "city|town", "чистішим": "clean*" }
+   }
+  ]
+ },
+ {
+  "id": 2, "w": "seem", "uk": "здаватися", "lvl": "A2",
+  "forms": "seem|seems|seemed|seemed|seeming",
+  "near": "look|looks|looked|looking|appear|appears|appeared|sound|sounds|sounded|feel like|feels like",
+  "tasks": [
+   {
+    "sit": "Подруга сьогодні мовчазна й майже ні з ким не говорить.",
+    "say": "Ти здаєшся сумною. Що сталося?",
+    "ans": ["You seem sad. What happened?", "You seem a bit sad today — what’s wrong?", "You seem really down. Is everything okay?"],
+    "keys": { "сумна": "sad|down|upset|unhappy" }
+   },
+   {
+    "sit": "Начальник запропонував новий план роботи, і ти обговорюєш його з колегою.",
+    "say": "Цей план здається мені дивним.",
+    "ans": ["This plan seems strange to me.", "The plan seems a bit strange to me.", "Honestly, this plan seems kind of weird."],
+    "keys": { "план": "plan*|idea", "дивний": "strange|weird|odd" }
+   },
+   {
+    "sit": "Ти читаєш в інтернеті відгуки на ноутбук зі знижкою.",
+    "say": "Здається, це хороший ноутбук за такі гроші.",
+    "ans": ["It seems like a good laptop for the money.", "This laptop seems good for that price.", "It seems like a really good laptop for the price."],
+    "keys": { "ноутбук": "laptop|computer", "за такі гроші": "money|price|cost" }
+   }
+  ]
+ },
+ {
+  "id": 3, "w": "appear", "uk": "зʼявлятися", "lvl": "B1",
+  "forms": "appear|appears|appeared|appeared|appearing",
+  "near": "show up|showed up|shows up|turn up|turned up|pop up|popped up|came out|come out|seem|seems|seemed",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш сестрі новину про вашого шкільного вчителя.",
+    "say": "Наш старий учитель учора зʼявився на телебаченні.",
+    "ans": ["Our old teacher appeared on TV yesterday.", "Yesterday our old teacher appeared on television.", "Guess what — our old teacher appeared on TV yesterday!"],
+    "keys": { "учитель": "teacher", "телебачення": "tv|television|show" }
+   },
+   {
+    "sit": "Ти натиснув кнопку «Оплатити» в інтернет-магазині, але щось пішло не так.",
+    "say": "На екрані зʼявилося повідомлення про помилку.",
+    "ans": ["An error message appeared on the screen.", "A message about an error appeared on the screen.", "This error message just appeared on my screen."],
+    "keys": { "помилка": "error|mistake|wrong", "екран": "screen|display" }
+   },
+   {
+    "sit": "Після зливи ти виходиш на балкон і кличеш родину.",
+    "say": "Над річкою зʼявилася веселка.",
+    "ans": ["A rainbow appeared over the river.", "Over the river, a rainbow appeared.", "Look, a rainbow has appeared over the river!"],
+    "keys": { "веселка": "rainbow", "річка": "river" }
+   }
+  ]
+ },
+ {
+  "id": 4, "w": "exist", "uk": "існувати", "lvl": "B1",
+  "forms": "exist|exists|existed|existed|existing",
+  "near": "there is|there are|there was|there were|be real|is real|are real",
+  "tasks": [
+   {
+    "sit": "Малий племінник питає, чи справді десь живуть дракони.",
+    "say": "Драконів не існує, це лише казки.",
+    "ans": ["Dragons don’t exist, they’re just fairy tales.", "Dragons do not exist — it’s only a story.", "Dragons don’t really exist, they’re just in stories."],
+    "keys": { "дракони": "dragon*", "не": "not|never|no", "казки": "fair*|stor*|tale*|book*|film*|movie*" }
+   },
+   {
+    "sit": "Ти відкриваєш посилання, яке надіслав колега, а бачиш помилку.",
+    "say": "Схоже, ця сторінка більше не існує.",
+    "ans": ["This page doesn’t exist anymore.", "It looks like this page no longer exists.", "Looks like this page doesn’t exist any more."],
+    "keys": { "сторінка": "page|link|site|website", "більше не": "anymore|any more|no longer|not" }
+   },
+   {
+    "sit": "На лекції з історії одногрупник питає про незнайому країну на старій мапі.",
+    "say": "Ця країна існувала лише двадцять років.",
+    "ans": ["This country existed for only twenty years.", "The country only existed for twenty years.", "That country existed for just twenty years."],
+    "keys": { "країна": "country|state|nation", "двадцять років": "twenty|20|year*" }
+   }
+  ]
+ },
+ {
+  "id": 5, "w": "remain", "uk": "залишатися (у стані, на місці)", "lvl": "B1",
+  "forms": "remain|remains|remained|remained|remaining",
+  "near": "stay|stays|stayed|staying|keep|keeps|kept|still be",
+  "tasks": [
+   {
+    "sit": "Ти бортпровідник, а літак ще рулить до терміналу, і дехто вже встає.",
+    "say": "Будь ласка, залишайтеся на своїх місцях.",
+    "ans": ["Please remain in your seats.", "Please remain seated.", "Please remain seated until the plane stops."],
+    "keys": { "будь ласка": "please", "місця": "seat*|place*" }
+   },
+   {
+    "sit": "На роботі спрацювала пожежна сигналізація, і колеги панікують.",
+    "say": "Головне — залишатися спокійними.",
+    "ans": ["The main thing is to remain calm.", "We need to remain calm.", "Everyone, just remain calm."],
+    "keys": { "спокійними": "calm|cool|quiet|relax*" }
+   },
+   {
+    "sit": "Ти читаєш новини про ціни на пальне й коментуєш їх колезі.",
+    "say": "Ціни на бензин залишаються високими.",
+    "ans": ["Petrol prices remain high.", "Gas prices remain very high.", "Fuel prices still remain pretty high."],
+    "keys": { "ціни": "price*|cost*", "високими": "high|expensive" }
+   }
+  ]
+ },
+ {
+  "id": 6, "w": "stay", "uk": "залишатися", "lvl": "A1",
+  "forms": "stay|stays|stayed|stayed|staying",
+  "near": "remain|remains|remained|remaining|wait|waited|keep|kept",
+  "tasks": [
+   {
+    "sit": "Ти прокинувся з температурою й пишеш керівникові.",
+    "say": "Сьогодні я залишуся вдома, я захворів.",
+    "ans": ["I’ll stay at home today, I’m sick.", "Today I’m staying home because I’m ill.", "I’m going to stay home today — I’m not feeling well."],
+    "keys": { "вдома": "home|house", "захворів": "sick|ill|unwell|well|cold|flu|fever|temperature" }
+   },
+   {
+    "sit": "Друзі питають, де ти ночуватимеш, коли приїдеш до Львова.",
+    "say": "Я зупинюся в готелі біля центру.",
+    "ans": ["I’ll stay in a hotel near the centre.", "I’m staying at a hotel near the center.", "I’m going to stay at a hotel close to the centre."],
+    "keys": { "готель": "hotel|hostel|apartment*", "центр": "cent*|downtown|old town" }
+   },
+   {
+    "sit": "Вечірка в самому розпалі, а подруга вже вдягає куртку.",
+    "say": "Залишся ще трохи!",
+    "ans": ["Stay a little longer!", "Please stay a bit longer!", "Oh come on, stay a little longer!"],
+    "keys": { "ще трохи": "longer|more|bit|little|while" }
+   }
+  ]
+ },
+ {
+  "id": 7, "w": "belong", "uk": "належати", "lvl": "A2",
+  "forms": "belong|belongs|belonged|belonged|belonging",
+  "near": "own|owns|owned|is mine|is yours|is his|is hers|whose",
+  "tasks": [
+   {
+    "sit": "Після гостини ти прибираєш і знаходиш під диваном чужий шарф.",
+    "say": "Кому належить цей шарф?",
+    "ans": ["Who does this scarf belong to?", "Who does that scarf belong to, then?", "Does anyone know who this scarf belongs to?"],
+    "keys": { "шарф": "scarf" }
+   },
+   {
+    "sit": "У переговорці хтось залишив ноутбук, і адміністратор питає тебе, чий він.",
+    "say": "Цей ноутбук належить моєму колезі.",
+    "ans": ["This laptop belongs to my colleague.", "The laptop belongs to a colleague of mine.", "That laptop belongs to my coworker."],
+    "keys": { "ноутбук": "laptop|computer", "колега": "colleague*|coworker*|co-worker*|workmate*" }
+   },
+   {
+    "sit": "Ти показуєш друзям-туристам старий замок у своєму місті.",
+    "say": "Колись цей замок належав багатій родині.",
+    "ans": ["This castle once belonged to a rich family.", "The castle used to belong to a rich family.", "Back in the day, this castle belonged to a really wealthy family."],
+    "keys": { "замок": "castle", "багата родина": "rich|wealthy|family|noble*" }
+   }
+  ]
+ },
+ {
+  "id": 8, "w": "walk", "uk": "йти пішки / вигулювати", "lvl": "A1",
+  "forms": "walk|walks|walked|walked|walking",
+  "near": "go on foot|went on foot|take out|took out|stroll|strolled|hike|hiked",
+  "tasks": [
+   {
+    "sit": "Колега дивується, що ти ніколи не їздиш на роботу автобусом.",
+    "say": "Я ходжу на роботу пішки, це лише пʼятнадцять хвилин.",
+    "ans": ["I walk to work, it’s only fifteen minutes.", "I walk to work because it only takes fifteen minutes.", "I just walk to work — it’s only fifteen minutes away."],
+    "keys": { "робота": "work|office|job", "пʼятнадцять хвилин": "fifteen|15|minute*|close|near" }
+   },
+   {
+    "sit": "Твій пес стоїть біля дверей і скавчить, а ти пояснюєш це партнерові.",
+    "say": "Мені треба вигуляти собаку.",
+    "ans": ["I need to walk the dog.", "I have to walk my dog.", "I’ve got to go walk the dog."],
+    "keys": { "собака": "dog*|puppy" }
+   },
+   {
+    "sit": "Ви з другом виходите з кафе, таксі не їде, а до дому лише кілометр.",
+    "say": "Ходімо додому пішки.",
+    "ans": ["Let’s walk home.", "Let’s just walk home.", "Why don’t we walk home? It’s not far."],
+    "keys": { "додому": "home|house|back" }
+   }
+  ]
+ },
+ {
+  "id": 9, "w": "go", "uk": "йти / їхати", "lvl": "A1",
+  "forms": "go|goes|went|gone|going",
+  "near": "walk|walked|drive|drove|travel|travelled|traveled|head|headed|leave|left|ride|rode|fly|flew",
+  "tasks": [
+   {
+    "sit": "Колега питає про твої плани на відпустку.",
+    "say": "У серпні ми їдемо на море.",
+    "ans": ["We’re going to the sea in August.", "In August we are going to the seaside.", "We’re going to the coast in August."],
+    "keys": { "море": "sea*|coast|beach", "серпень": "august" }
+   },
+   {
+    "sit": "Уже пізно, ти на вечірці в друзів і дуже втомився.",
+    "say": "Я вже піду додому.",
+    "ans": ["I’m going home now.", "I think I’ll go home now.", "Okay, I’m going home, I’m exhausted."],
+    "keys": { "додому": "home" }
+   },
+   {
+    "sit": "Удома закінчилися хліб і молоко, а скоро прийдуть гості.",
+    "say": "Я сходжу в магазин.",
+    "ans": ["I’ll go to the shop.", "I’m going to the store.", "I’ll just go to the shop quickly."],
+    "keys": { "магазин": "shop*|store|supermarket" }
+   }
+  ]
+ },
+ {
+  "id": 10, "w": "come", "uk": "приходити", "lvl": "A1",
+  "forms": "come|comes|came|come|coming",
+  "near": "arrive|arrives|arrived|get here|got here|visit|visited|drop by|stop by",
+  "tasks": [
+   {
+    "sit": "Ти влаштовуєш вечерю в суботу й кличеш друга.",
+    "say": "Приходь до нас у суботу!",
+    "ans": ["Come to our place on Saturday!", "Come over on Saturday!", "Why don’t you come round on Saturday?"],
+    "keys": { "субота": "saturday" }
+   },
+   {
+    "sit": "Колега питає, чому тебе не було на початку ранкової наради.",
+    "say": "Я прийшов пізно, бо проспав.",
+    "ans": ["I came late because I overslept.", "I came in late — I overslept.", "Sorry, I came in late because I overslept."],
+    "keys": { "пізно": "late", "проспав": "overslept|oversleep|slept|alarm|woke" }
+   },
+   {
+    "sit": "Твій малий син відбіг далеко й грається біля дороги.",
+    "say": "Іди сюди, будь ласка!",
+    "ans": ["Come here, please!", "Please come here!", "Come here right now, please!"],
+    "keys": { "сюди": "here|over" }
+   }
+  ]
+ },
+ {
+  "id": 11, "w": "cross", "uk": "переходити, перетинати", "lvl": "A2",
+  "forms": "cross|crosses|crossed|crossed|crossing",
+  "near": "go across|went across|get across|got across|walk across|walked across|pass|passed",
+  "tasks": [
+   {
+    "sit": "Ти йдеш із малим племінником, а на світлофорі горить червоне.",
+    "say": "Не переходь дорогу на червоне світло!",
+    "ans": ["Don’t cross the road on a red light!", "Do not cross the street when the light is red!", "Hey, don’t cross the road when it’s red!"],
+    "keys": { "не": "not|never", "червоне": "red" }
+   },
+   {
+    "sit": "Ти розповідаєш колезі про поїздку потягом до Польщі.",
+    "say": "Ми перетнули кордон уночі.",
+    "ans": ["We crossed the border at night.", "At night we crossed the border.", "We crossed the border in the middle of the night."],
+    "keys": { "кордон": "border", "уночі": "night" }
+   },
+   {
+    "sit": "У поході ви дійшли до широкого струмка, а мосту ніде немає.",
+    "say": "Як нам перейти цей струмок?",
+    "ans": ["How do we cross this stream?", "How are we going to cross the stream?", "So how do we cross this stream?"],
+    "keys": { "струмок": "stream|creek|river|brook" }
+   }
+  ]
+ },
+ {
+  "id": 12, "w": "step", "uk": "крокнути, ступити", "lvl": "A2",
+  "forms": "step|steps|stepped|stepped|stepping",
+  "near": "move|moved|come forward|go forward|walk|walked|stand|tread|trod",
+  "tasks": [
+   {
+    "sit": "Ти фотографуєш друзів, але одного з них не видно за іншими.",
+    "say": "Зроби крок уперед, тебе не видно.",
+    "ans": ["Step forward, I can’t see you.", "Can you step forward? I can’t see you.", "Step forward a bit — I can’t see you."],
+    "keys": { "вперед": "forward|closer|out", "не видно": "see|seen|visible" }
+   },
+   {
+    "sit": "Ти прийшов на роботу, шкутильгаючи, і пояснюєш колегам, що сталося зранку.",
+    "say": "Я наступив на іграшку сина.",
+    "ans": ["I stepped on my son’s toy.", "I stepped on one of my son’s toys.", "I accidentally stepped on my son’s toy."],
+    "keys": { "іграшка": "toy*|lego", "син": "son|son’s|kid|child" }
+   },
+   {
+    "sit": "Ти стоїш на платформі метро поруч із другом, а потяг уже підʼїжджає.",
+    "say": "Відійди від краю!",
+    "ans": ["Step back from the edge!", "Please step back from the edge.", "Hey, step back from the edge!"],
+    "keys": { "край": "edge|line|platform" }
+   }
+  ]
+ },
+ {
+  "id": 13, "w": "march", "uk": "марширувати", "lvl": "B1",
+  "forms": "march|marches|marched|marched|marching",
+  "near": "walk|walked|walking|stride|strode|go past|went past",
+  "tasks": [
+   {
+    "sit": "Ви з сусідом дивитеся святковий парад із балкона.",
+    "say": "Дивись, військові марширують головною вулицею!",
+    "ans": ["Look, the soldiers are marching down the main street!", "Look — soldiers are marching along the main street!", "Look, there are soldiers marching down the main street!"],
+    "keys": { "військові": "soldier*|army|troops|military", "вулиця": "street|road|avenue" }
+   },
+   {
+    "sit": "Ти згадуєш із друзями шкільні роки й урочисті свята.",
+    "say": "У школі ми марширували на кожному параді.",
+    "ans": ["At school we marched in every parade.", "We marched in every school parade.", "Back in school, we used to march in every parade."],
+    "keys": { "школа": "school", "парад": "parade*" }
+   },
+   {
+    "sit": "Ти читаєш уголос новини про мирний протест у столиці.",
+    "say": "Тисячі людей марширували до парламенту.",
+    "ans": ["Thousands of people marched to parliament.", "Thousands of people marched to the parliament building.", "Thousands of people were marching towards parliament."],
+    "keys": { "тисячі": "thousand*", "парламент": "parliament*" }
+   }
+  ]
+ },
+ {
+  "id": 14, "w": "wander", "uk": "блукати, бродити", "lvl": "B2",
+  "forms": "wander|wanders|wandered|wandered|wandering",
+  "near": "walk around|walked around|stroll|strolled|strolling|roam|roamed|roaming|explore|explored|get lost|got lost",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш, як провів перший день у Лісабоні.",
+    "say": "Я цілий день блукав старими вуличками.",
+    "ans": ["I wandered around the old streets all day.", "I spent the whole day wandering the old streets.", "I just wandered around the old town all day."],
+    "keys": { "вулички": "street*|town|alley*|lane*", "цілий день": "all day|whole day|day" }
+   },
+   {
+    "sit": "Подруга бачить, що ти повернувся з торгового центру з порожніми руками.",
+    "say": "Нічого не купив, я просто блукав магазинами.",
+    "ans": ["I didn’t buy anything, I just wandered around the shops.", "Nothing — I was just wandering around the shops.", "I bought nothing really, I just wandered from shop to shop."],
+    "keys": { "нічого": "nothing|not|anything", "магазини": "shop*|store*|mall" }
+   },
+   {
+    "sit": "Ти розповідаєш про похід, у якому ви загубили стежку.",
+    "say": "Ми годину блукали лісом, поки не знайшли стежку.",
+    "ans": ["We wandered through the forest for an hour until we found the path.", "We wandered around the woods for an hour before we found the trail.", "We had been wandering in the forest for an hour when we finally found the path."],
+    "keys": { "ліс": "forest|wood*", "годину": "hour", "стежка": "path|trail|track|way" }
+   }
+  ]
+ },
+ {
+  "id": 15, "w": "stroll", "uk": "прогулюватися", "lvl": "B2",
+  "forms": "stroll|strolls|strolled|strolled|strolling",
+  "near": "walk|walked|walking|wander|wandered|wandering|go for a walk|went for a walk|take a walk|took a walk",
+  "tasks": [
+   {
+    "sit": "Ви з коханою вийшли з ресторану, а надворі тепла ніч.",
+    "say": "Давай прогуляємося вздовж річки.",
+    "ans": ["Let’s stroll along the river.", "Why don’t we take a stroll along the river?", "Let’s go for a stroll by the river."],
+    "keys": { "річка": "river*|embankment|waterfront|promenade" }
+   },
+   {
+    "sit": "Знайомий питає, як твоя бабуся проводить вихідні.",
+    "say": "Щонеділі вона неспішно прогулюється парком.",
+    "ans": ["Every Sunday she strolls in the park.", "She strolls through the park every Sunday.", "On Sundays she likes to stroll around the park."],
+    "keys": { "неділя": "sunday*", "парк": "park" }
+   },
+   {
+    "sit": "Колега питає, що ви робили на вихідних у Парижі.",
+    "say": "Ми просто прогулювалися містом і пили каву.",
+    "ans": ["We just strolled around the city and drank coffee.", "We strolled around the city and had coffee.", "We just strolled around town, drinking coffee."],
+    "keys": { "місто": "city|town|streets|paris", "кава": "coffee*|cafe*" }
+   }
+  ]
+ },
+ {
+  "id": 16, "w": "hike", "uk": "ходити в похід", "lvl": "B1",
+  "forms": "hike|hikes|hiked|hiked|hiking",
+  "near": "walk|walked|walking|trek|trekked|trekking|climb|climbed|go camping|went camping|camp|camping",
+  "tasks": [
+   {
+    "sit": "Колега питає про твої плани на вихідні.",
+    "say": "У суботу ми йдемо в похід у гори.",
+    "ans": ["We’re going hiking in the mountains on Saturday.", "On Saturday we’re going to hike in the mountains.", "We’re hiking in the mountains this Saturday."],
+    "keys": { "гори": "mountain*|hills|carpathian*", "субота": "saturday|weekend" }
+   },
+   {
+    "sit": "Лікар питає, як ти підтримуєш форму.",
+    "say": "Я часто ходжу в походи, мені це подобається більше за спортзал.",
+    "ans": ["I often go hiking — I like it more than the gym.", "I hike a lot; I prefer it to the gym.", "I go hiking a lot, I like it way more than the gym."],
+    "keys": { "спортзал": "gym|fitness", "часто": "often|a lot|lot|regularly" }
+   },
+   {
+    "sit": "Ти показуєш друзям фото гірського озера з відпустки в Грузії.",
+    "say": "Ми вісім годин ішли гірською стежкою, щоб дістатися цього озера.",
+    "ans": ["We hiked for eight hours to get to this lake.", "We hiked eight hours to reach this lake.", "It took us eight hours of hiking to get to this lake."],
+    "keys": { "вісім годин": "eight|8|hour*", "озеро": "lake" }
+   }
+  ]
+ },
+ {
+  "id": 17, "w": "tiptoe", "uk": "ходити навшпиньки", "lvl": "B2",
+  "forms": "tiptoe|tiptoes|tiptoed|tiptoed|tiptoeing",
+  "near": "sneak|sneaked|snuck|creep|crept|walk quietly|walked quietly",
+  "tasks": [
+   {
+    "sit": "Малюк нарешті заснув, а тобі треба пройти повз його ліжечко на кухню.",
+    "say": "Я навшпиньки пройшов повз малюка, щоб не розбудити його.",
+    "ans": ["I tiptoed past the baby so I wouldn’t wake him.", "I tiptoed past the baby so as not to wake him up.", "I tiptoed past the baby — I didn’t want to wake him."],
+    "keys": { "малюк": "baby|kid|child|son", "не розбудити": "wake*|woke" }
+   },
+   {
+    "sit": "Ти повернувся з вечірки о третій ночі, а вся родина вже спить.",
+    "say": "Я навшпиньки прокрався до своєї кімнати.",
+    "ans": ["I tiptoed to my room.", "I tiptoed into my bedroom.", "I tiptoed all the way to my room."],
+    "keys": { "кімната": "room|bedroom" }
+   },
+   {
+    "sit": "Ти запізнився на лекцію в університеті, яка вже почалася.",
+    "say": "Я навшпиньки зайшов до зали й сів ззаду.",
+    "ans": ["I tiptoed into the hall and sat at the back.", "I tiptoed in and sat down at the back.", "I tiptoed into the room and grabbed a seat at the back."],
+    "keys": { "ззаду": "back|rear|last row", "сів": "sat|seat*|sit" }
+   }
+  ]
+ },
+ {
+  "id": 18, "w": "limp", "uk": "кульгати", "lvl": "B2",
+  "forms": "limp|limps|limped|limped|limping",
+  "near": "hobble|hobbled|hobbling|can not walk properly|walk with difficulty|lame",
+  "tasks": [
+   {
+    "sit": "Після футболу друг помічає, що ти дивно йдеш.",
+    "say": "Я трохи кульгаю, бо підвернув ногу.",
+    "ans": ["I’m limping a bit because I twisted my ankle.", "I’m limping slightly — I twisted my ankle.", "Yeah, I’m limping a little, I twisted my ankle."],
+    "keys": { "підвернув": "twist*|sprain*|hurt*|injur*", "нога": "ankle|leg|foot|knee" }
+   },
+   {
+    "sit": "Ти телефонуєш ветеринарові щодо свого пса.",
+    "say": "Мій пес кульгає на задню лапу.",
+    "ans": ["My dog is limping on his back leg.", "My dog has been limping on his back leg.", "My dog is limping — it’s his back leg."],
+    "keys": { "пес": "dog|puppy", "лапа": "leg|paw|foot" }
+   },
+   {
+    "sit": "Ви з другом бачите на вулиці літню жінку з важкими сумками.",
+    "say": "Та жінка сильно кульгає, давай їй допоможемо.",
+    "ans": ["That woman is limping badly, let’s help her.", "That woman is limping quite badly — let’s help her.", "Look, that lady is limping really badly. Let’s give her a hand."],
+    "keys": { "жінка": "woman|lady", "допоможемо": "help*|hand" }
+   }
+  ]
+ },
+ {
+  "id": 19, "w": "run", "uk": "бігати, бігти", "lvl": "A1",
+  "forms": "run|runs|ran|run|running",
+  "near": "jog|jogs|jogged|jogging|sprint|sprinted|sprinting|rush|rushed|hurry|hurried",
+  "tasks": [
+   {
+    "sit": "Колега питає, як тобі вдається тримати форму.",
+    "say": "Я бігаю щоранку в парку.",
+    "ans": ["I run every morning in the park.", "Every morning I run in the park.", "I go running in the park every morning."],
+    "keys": { "щоранку": "morning*", "парк": "park" }
+   },
+   {
+    "sit": "Друзі дивуються, навіщо ти так багато тренуєшся.",
+    "say": "Наступного року я хочу пробігти марафон.",
+    "ans": ["I want to run a marathon next year.", "Next year I want to run a marathon.", "I’m hoping to run a marathon next year."],
+    "keys": { "марафон": "marathon", "наступного року": "next year" }
+   },
+   {
+    "sit": "Ти засидівся в друга, а твій потяг відходить за пʼять хвилин.",
+    "say": "Мушу бігти, я запізнююся на потяг!",
+    "ans": ["I have to run, I’m late for my train!", "I need to run or I’ll miss the train!", "I’ve got to run — I’m going to miss my train!"],
+    "keys": { "потяг": "train" }
+   }
+  ]
+ },
+ {
+  "id": 20, "w": "jog", "uk": "бігати (пробіжка)", "lvl": "A2",
+  "forms": "jog|jogs|jogged|jogged|jogging",
+  "near": "run|runs|ran|go for a run|went for a run|sprint|sprinted",
+  "tasks": [
+   {
+    "sit": "Сусідка питає, чому ти так рано встаєш у суботу.",
+    "say": "По вихідних я роблю пробіжку в парку.",
+    "ans": ["I jog in the park at weekends.", "On weekends I go jogging in the park.", "I usually go for a jog in the park on weekends."],
+    "keys": { "парк": "park", "вихідні": "weekend*|saturday*|sunday*" }
+   },
+   {
+    "sit": "Лікар радить тобі більше рухатися й менше сидіти.",
+    "say": "Добре, почну робити легкі пробіжки щодня.",
+    "ans": ["Okay, I’ll start jogging every day.", "Fine, I’ll start going jogging every day.", "All right, I’ll start jogging a bit every day."],
+    "keys": { "щодня": "every day|daily|each day" }
+   },
+   {
+    "sit": "Ти в готелі біля моря й розповідаєш другові свої плани на ранок.",
+    "say": "Зранку піду на пробіжку пляжем.",
+    "ans": ["In the morning I’ll jog along the beach.", "I’m going to jog on the beach in the morning.", "I think I’ll go for a jog along the beach in the morning."],
+    "keys": { "пляж": "beach|sea*|shore|coast", "зранку": "morning" }
+   }
+  ]
+ },
+ {
+  "id": 21, "w": "jump", "uk": "стрибати", "lvl": "A1",
+  "forms": "jump|jumps|jumped|jumped|jumping",
+  "near": "leap|leapt|leaped|hop|hopped|climb|climbed|skip|skipped",
+  "tasks": [
+   {
+    "sit": "Ти заходиш на кухню, а кіт знову сидить там, де не можна.",
+    "say": "Кіт знову застрибнув на стіл!",
+    "ans": ["The cat jumped on the table again!", "The cat has jumped onto the table again!", "Ugh, the cat jumped up on the table again!"],
+    "keys": { "кіт": "cat|kitty", "стіл": "table" }
+   },
+   {
+    "sit": "Сусідський хлопчик хоче дістати мʼяч із вашого саду через паркан.",
+    "say": "Не стрибай через паркан, це небезпечно!",
+    "ans": ["Don’t jump over the fence, it’s dangerous!", "Do not jump the fence — it’s dangerous!", "Hey, don’t jump over that fence, you’ll get hurt!"],
+    "keys": { "не": "not|never", "паркан": "fence|wall|gate" }
+   },
+   {
+    "sit": "Колеги питають, як пройшов твій перший стрибок із парашутом.",
+    "say": "Я стрибнув із літака на висоті чотири кілометри!",
+    "ans": ["I jumped out of a plane at four kilometres!", "I jumped from a plane four kilometres up!", "I actually jumped out of a plane at four thousand metres!"],
+    "keys": { "літак": "plane|airplane|aircraft", "висота": "four|4|kilomet*|metre*|meter*|high" }
+   }
+  ]
+ },
+ {
+  "id": 22, "w": "leap", "uk": "стрибати (далеко), перестрибувати", "lvl": "B2",
+  "forms": "leap|leaps|leapt/leaped|leapt/leaped|leaping",
+  "near": "jump|jumps|jumped|jumping|hop|hopped|spring|sprang|dive|dived",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш, як після зливи добирався до офісу.",
+    "say": "Мені довелося перестрибнути через величезну калюжу.",
+    "ans": ["I had to leap over a huge puddle.", "I had to leap across a massive puddle.", "I literally had to leap over this huge puddle."],
+    "keys": { "калюжа": "puddle*|water" }
+   },
+   {
+    "sit": "Ви з другом дивитеся легку атлетику по телевізору, і спортсменка встановлює рекорд.",
+    "say": "Дивись, як далеко вона стрибнула!",
+    "ans": ["Look how far she leapt!", "Did you see how far she leaped?", "Wow, look how far she leapt!"],
+    "keys": { "далеко": "far|long|distance" }
+   },
+   {
+    "sit": "У поході вам треба перебратися через струмок по великих каменях.",
+    "say": "Я перестрибну на той камінь, а ти за мною.",
+    "ans": ["I’ll leap onto that rock, and you follow me.", "I’m going to leap across to that rock — follow me.", "I’ll leap over to that rock first, then you follow."],
+    "keys": { "камінь": "rock|stone", "за мною": "follow*|after me|then you|you next" }
+   }
+  ]
+ },
+ {
+  "id": 23, "w": "hop", "uk": "підстрибувати, скакати", "lvl": "B1",
+  "forms": "hop|hops|hopped|hopped|hopping",
+  "near": "jump|jumps|jumped|jumping|skip|skipped|bounce|bounced|leap|leapt",
+  "tasks": [
+   {
+    "sit": "Ти підвернув ногу вночі, а милиці лишилися в машині.",
+    "say": "Мені довелося стрибати на одній нозі до кухні.",
+    "ans": ["I had to hop on one foot to the kitchen.", "I had to hop to the kitchen on one leg.", "I literally had to hop all the way to the kitchen on one foot."],
+    "keys": { "одна нога": "one foot|one leg|foot|leg", "кухня": "kitchen" }
+   },
+   {
+    "sit": "Ти гуляєш із донькою в парку й помічаєш у траві когось маленького й пухнастого.",
+    "say": "Дивись, зайчик стрибає по траві!",
+    "ans": ["Look, a bunny is hopping on the grass!", "Look, there’s a rabbit hopping across the grass!", "Look at that little bunny hopping around on the grass!"],
+    "keys": { "зайчик": "bunny|rabbit|hare", "трава": "grass|lawn|field" }
+   },
+   {
+    "sit": "Ти вийшов із басейну, і тобі у вухо набралася вода. Друг дивиться здивовано.",
+    "say": "Я стрибаю на одній нозі, щоб вода вилилася з вуха.",
+    "ans": ["I’m hopping on one foot to get the water out of my ear.", "I hop on one leg to get water out of my ear.", "I’m just hopping around to get the water out of my ear."],
+    "keys": { "вухо": "ear*", "вода": "water" }
+   }
+  ]
+ },
+ {
+  "id": 24, "w": "sprint", "uk": "бігти щодуху", "lvl": "B1",
+  "forms": "sprint|sprints|sprinted|sprinted|sprinting",
+  "near": "run|ran|running|rush|rushed|dash|dashed|race|raced|hurry|hurried",
+  "tasks": [
+   {
+    "sit": "Ти вибігаєш із підʼїзду й бачиш, що твій автобус уже на зупинці.",
+    "say": "Мені довелося щодуху бігти до автобуса.",
+    "ans": ["I had to sprint to the bus.", "I had to sprint to catch the bus.", "I had to sprint like crazy to catch the bus."],
+    "keys": { "автобус": "bus" }
+   },
+   {
+    "sit": "Ти пояснюєш новачкові в біговому клубі, як пробігти забіг на пʼять кілометрів.",
+    "say": "Останні сто метрів біжи щосили.",
+    "ans": ["Sprint the last hundred metres.", "For the last hundred metres, sprint.", "Save some energy and sprint the last hundred metres."],
+    "keys": { "сто метрів": "hundred|100|metre*|meter*|last" }
+   },
+   {
+    "sit": "Ти розповідаєш, як ви з дружиною ледь не проґавили пересадку в аеропорту.",
+    "say": "Ми щодуху мчали через увесь термінал до нашого виходу.",
+    "ans": ["We sprinted across the whole terminal to our gate.", "We sprinted through the entire terminal to get to our gate.", "We had to sprint all the way across the terminal to our gate."],
+    "keys": { "термінал": "terminal|airport", "вихід": "gate" }
+   }
+  ]
+ }
+]

@@ -1,0 +1,581 @@
+[
+ {
+  "id": 105,
+  "w": "forget",
+  "uk": "забути",
+  "lvl": "A1",
+  "forms": "forget|forgets|forgot|forgotten|forgetting",
+  "near": "left|leave|leaving|slipped my mind|did not remember|do not remember",
+  "tasks": [
+   {
+    "sit": "Ти прийшов на зустріч і не можеш показати фото, бо телефону при тобі немає.",
+    "say": "Я забув узяти телефон.",
+    "ans": [
+     "I forgot to bring my phone.",
+     "I forgot my phone.",
+     "I forgot to take my phone with me."
+    ],
+    "keys": {
+     "телефон": "phone|mobile|cell*"
+    }
+   },
+   {
+    "sit": "Сьогодні день народження мами, а ти згадав про це лише ввечері. Зізнаєшся сестрі.",
+    "say": "Я мало не забув про мамин день народження.",
+    "ans": [
+     "I almost forgot about Mom’s birthday.",
+     "I nearly forgot it was Mom’s birthday today.",
+     "I’d almost forgotten about Mom’s birthday!"
+    ],
+    "keys": {
+     "мало не": "almost|nearly",
+     "день народження": "birthday*"
+    }
+   },
+   {
+    "sit": "Ти познайомився з людиною на вечірці, а тепер зустрів її знову.",
+    "say": "Вибачте, я забув, як вас звати.",
+    "ans": [
+     "Sorry, I’ve forgotten your name.",
+     "I’m sorry, I forgot your name.",
+     "Sorry, I forget — what was your name again?"
+    ],
+    "keys": {
+     "ім’я": "name*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 103,
+  "w": "realize",
+  "uk": "усвідомити, раптом зрозуміти",
+  "lvl": "B1",
+  "forms": "realize/realise|realizes/realises|realized/realised|realized/realised|realizing/realising",
+  "near": "understood|understand|figured out|figure out|found out|noticed|dawned on",
+  "tasks": [
+   {
+    "sit": "Ти вже вийшов з дому й зачинив двері. Раптом лізеш у кишеню…",
+    "say": "Я раптом зрозумів, що забув ключі.",
+    "ans": [
+     "I suddenly realized that I had forgotten my keys.",
+     "I realized I had left my keys behind.",
+     "That’s when I realized I’d forgotten my keys."
+    ],
+    "keys": {
+     "ключі": "key*",
+     "забув": "forg*|left|leave"
+    }
+   },
+   {
+    "sit": "Ти давно не бачив племінника, а тепер він вищий за тебе.",
+    "say": "Я не усвідомлював, як швидко він виріс.",
+    "ans": [
+     "I didn’t realize how fast he had grown up.",
+     "I hadn’t realized how quickly he’d grown.",
+     "I never realized how fast he was growing up."
+    ],
+    "keys": {
+     "як швидко": "fast|quick*|so much|big",
+     "виріс": "grow*|grew|grown|tall*"
+    }
+   },
+   {
+    "sit": "Друг питає, чому ти змінив роботу.",
+    "say": "Я зрозумів, що ця робота не робить мене щасливим.",
+    "ans": [
+     "I realized that this job wasn’t making me happy.",
+     "I realized the job didn’t make me happy.",
+     "At some point I realized I just wasn’t happy in that job."
+    ],
+    "keys": {
+     "робота": "job|work",
+     "щасливий": "happy|unhappy|miserable"
+    }
+   }
+  ]
+ },
+ {
+  "id": null,
+  "cats": [
+   "feel",
+   "fear",
+   "social"
+  ],
+  "w": "avoid",
+  "uk": "уникати",
+  "lvl": "B1",
+  "forms": "avoid|avoids|avoided|avoided|avoiding",
+  "near": "escape*|stay away|keep away|stayed away|steer clear|dodg*|not go",
+  "tasks": [
+   {
+    "sit": "Друг питає, чому ти більше не ходиш у цей популярний ресторан.",
+    "say": "Я намагаюся уникати людних місць.",
+    "ans": [
+     "I try to avoid crowded places.",
+     "I’m trying to avoid places with lots of people.",
+     "These days I just avoid anywhere that’s too crowded."
+    ],
+    "keys": {
+     "людні місця": "crowd*|busy|lots of people|a lot of people|many people|packed|full of people"
+    }
+   },
+   {
+    "sit": "Колега дивується, що ти щодня виїжджаєш на роботу о сьомій ранку.",
+    "say": "Я виїжджаю рано, щоб не стояти в заторах.",
+    "ans": [
+     "I leave early to avoid traffic jams.",
+     "I leave early so I can avoid the traffic.",
+     "I head out early to avoid getting stuck in traffic."
+    ],
+    "keys": {
+     "затори": "traffic|jam*|rush hour",
+     "рано": "early|seven|7"
+    }
+   },
+   {
+    "sit": "Подруга не відповідає на твої повідомлення вже тиждень. Ти ділишся з іншим другом.",
+    "say": "Мені здається, вона мене уникає.",
+    "ans": [
+     "I think she’s avoiding me.",
+     "It feels like she has been avoiding me.",
+     "I get the feeling she’s avoiding me."
+    ],
+    "keys": {
+     "вона": "she|her",
+     "мене": "me"
+    }
+   }
+  ]
+ },
+ {
+  "id": 179,
+  "w": "afford",
+  "uk": "дозволити собі (грошей вистачає)",
+  "lvl": "A2",
+  "forms": "afford|affords|afforded|afforded|affording",
+  "near": "pay for|paid for|too expensive|enough money|budget",
+  "tasks": [
+   {
+    "sit": "Друг кличе тебе у відпустку на Мальдіви.",
+    "say": "Цього року я не можу собі цього дозволити.",
+    "ans": [
+     "I can’t afford it this year.",
+     "I can’t afford a trip like that this year.",
+     "There’s no way I can afford that this year."
+    ],
+    "keys": {
+     "цього року": "this year|right now|at the moment"
+    }
+   },
+   {
+    "sit": "Колега питає, чому ти досі їздиш на роботу автобусом.",
+    "say": "Нова машина мені поки не по кишені.",
+    "ans": [
+     "I can’t afford a new car yet.",
+     "I can’t afford to buy a new car right now.",
+     "A new car is something I just can’t afford at the moment."
+    ],
+    "keys": {
+     "машина": "car"
+    }
+   },
+   {
+    "sit": "Керівник пропонує ще раз посунути дедлайн. Ти не погоджуєшся.",
+    "say": "Ми не можемо дозволити собі втратити ще один тиждень.",
+    "ans": [
+     "We can’t afford to lose another week.",
+     "We can’t afford to waste another week.",
+     "Losing another week is something we really can’t afford."
+    ],
+    "keys": {
+     "тиждень": "week",
+     "втратити": "lose|losing|lost|wast*|miss*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 65,
+  "w": "admit",
+  "uk": "визнати, зізнатися",
+  "lvl": "B1",
+  "forms": "admit|admits|admitted|admitted|admitting",
+  "near": "confess*|own up|owned up|accept*",
+  "tasks": [
+   {
+    "sit": "Ти довго сперечався з другом, а потім перевірив факти.",
+    "say": "Добре, визнаю — я помилявся.",
+    "ans": [
+     "OK, I admit I was wrong.",
+     "Fine, I have to admit that I was wrong.",
+     "All right, I’ll admit it — I was wrong."
+    ],
+    "keys": {
+     "помилявся": "wrong|mistake*|mistaken"
+    }
+   },
+   {
+    "sit": "Сусід питає, хто розбив його вікно мʼячем. Твій молодший брат мовчить.",
+    "say": "Він так і не зізнався, що це він розбив вікно.",
+    "ans": [
+     "He never admitted that he broke the window.",
+     "He never admitted breaking the window.",
+     "He still hasn’t admitted he was the one who broke the window."
+    ],
+    "keys": {
+     "вікно": "window",
+     "розбив": "broke*|break*|smash*"
+    }
+   },
+   {
+    "sit": "Ти розповідаєш про фільм, який усі хвалять, а тобі він не сподобався.",
+    "say": "Мушу визнати, фільм мені не дуже сподобався.",
+    "ans": [
+     "I have to admit, I didn’t really like the movie.",
+     "I must admit the film wasn’t really my thing.",
+     "I’ll admit it — I wasn’t a big fan of the movie."
+    ],
+    "keys": {
+     "фільм": "film*|movie*|it"
+    }
+   }
+  ]
+ },
+ {
+  "id": 614,
+  "w": "remind",
+  "uk": "нагадати; нагадувати (когось)",
+  "lvl": "A2",
+  "forms": "remind|reminds|reminded|reminded|reminding",
+  "near": "remember*|look* like|similar",
+  "tasks": [
+   {
+    "sit": "Ти боїшся забути купити молоко і просиш сусіда по кімнаті допомогти.",
+    "say": "Нагадай мені, будь ласка, купити молоко.",
+    "ans": [
+     "Can you remind me to buy milk?",
+     "Please remind me to get some milk.",
+     "Remind me to pick up some milk, will you?"
+    ],
+    "keys": {
+     "молоко": "milk",
+     "купити": "buy|get|pick up|grab"
+    }
+   },
+   {
+    "sit": "Ти познайомився з людиною, дуже схожою на твого давнього друга.",
+    "say": "Ти мені нагадуєш одного мого старого друга.",
+    "ans": [
+     "You remind me of an old friend of mine.",
+     "You really remind me of an old friend.",
+     "You know, you remind me of a friend I used to have."
+    ],
+    "keys": {
+     "друг": "friend*|buddy|mate"
+    }
+   },
+   {
+    "sit": "Колега пропустив дедлайн і каже, що ніхто його не попередив. Ти пояснюєш керівнику.",
+    "say": "Я нагадував йому двічі минулого тижня.",
+    "ans": [
+     "I reminded him twice last week.",
+     "I reminded him about it twice last week.",
+     "I did remind him — twice, actually, last week."
+    ],
+    "keys": {
+     "двічі": "twice|two times",
+     "минулого тижня": "last week"
+    }
+   }
+  ]
+ },
+ {
+  "id": 145,
+  "w": "notice",
+  "uk": "помітити",
+  "lvl": "A2",
+  "forms": "notice|notices|noticed|noticed|noticing",
+  "near": "saw|see|seen|spot*|realiz*|realis*|observ*",
+  "tasks": [
+   {
+    "sit": "Подруга змінила зачіску, а ти прийшов додому й не сказав ані слова.",
+    "say": "Вибач, я навіть не помітив, що ти підстриглася.",
+    "ans": [
+     "Sorry, I didn’t even notice you’d had a haircut.",
+     "I’m sorry, I didn’t even notice your new haircut.",
+     "Sorry, I hadn’t even noticed you got your hair cut!"
+    ],
+    "keys": {
+     "зачіска": "hair*"
+    }
+   },
+   {
+    "sit": "Ти розповідаєш про крадіжку в кафе, яку бачив на власні очі.",
+    "say": "Ніхто не помітив, як він узяв сумку.",
+    "ans": [
+     "Nobody noticed him taking the bag.",
+     "No one noticed when he took the bag.",
+     "He took the bag, and nobody even noticed."
+    ],
+    "keys": {
+     "сумка": "bag*|purse|handbag",
+     "ніхто": "nobody|no one|none|anyone|anybody"
+    }
+   },
+   {
+    "sit": "Лікар питає, що тебе турбує.",
+    "say": "Я помітив, що останнім часом часто втомлююся.",
+    "ans": [
+     "I’ve noticed that I get tired a lot lately.",
+     "I noticed I’ve been feeling tired a lot recently.",
+     "Lately I’ve noticed that I’m always tired."
+    ],
+    "keys": {
+     "втомлююся": "tired|exhausted|fatigue*|no energy",
+     "останнім часом": "lately|recently|these days|last few|past few"
+    }
+   }
+  ]
+ },
+ {
+  "id": 76,
+  "w": "blame",
+  "uk": "звинувачувати, вважати винним",
+  "lvl": "B1",
+  "forms": "blame|blames|blamed|blamed|blaming",
+  "near": "fault|accus*",
+  "tasks": [
+   {
+    "sit": "Ви з другом запізнилися на потяг. Він каже, що через тебе, але насправді квитки забув він.",
+    "say": "Не звинувачуй мене — це ти забув квитки!",
+    "ans": [
+     "Don’t blame me — you’re the one who forgot the tickets!",
+     "Don’t blame me, you forgot the tickets!",
+     "Hey, don’t blame me! You were the one who forgot the tickets."
+    ],
+    "keys": {
+     "квитки": "ticket*",
+     "забув": "forg*|left"
+    }
+   },
+   {
+    "sit": "Подруга засмучена: пікнік, який вона організувала, зіпсував дощ.",
+    "say": "Я тебе не звинувачую — ніхто не міг знати, що піде дощ.",
+    "ans": [
+     "I don’t blame you — nobody could have known it would rain.",
+     "Nobody’s blaming you. No one knew it was going to rain.",
+     "You’re not to blame — no one could have predicted the rain."
+    ],
+    "keys": {
+     "дощ": "rain*|weather"
+    }
+   },
+   {
+    "sit": "Ти переказуєш новину про аварію на дорозі.",
+    "say": "Водій звинуватив у всьому погану погоду.",
+    "ans": [
+     "The driver blamed the bad weather for everything.",
+     "The driver blamed everything on the bad weather.",
+     "According to the driver, the bad weather was to blame."
+    ],
+    "keys": {
+     "погода": "weather|rain*|storm*|snow*|fog*",
+     "водій": "driver|he"
+    }
+   }
+  ]
+ },
+ {
+  "id": 387,
+  "w": "convince",
+  "uk": "переконати",
+  "lvl": "B2",
+  "forms": "convince|convinces|convinced|convinced|convincing",
+  "near": "persuad*|talked him into|talk him into",
+  "tasks": [
+   {
+    "sit": "Твій друг завжди казав, що ненавидить спорт, а сьогодні вперше пішов з тобою тренуватися.",
+    "say": "Мені нарешті вдалося переконати його піти зі мною в спортзал.",
+    "ans": [
+     "I finally convinced him to go to the gym with me.",
+     "I managed to convince him to come to the gym with me.",
+     "It took a while, but I finally convinced him to join me at the gym."
+    ],
+    "keys": {
+     "спортзал": "gym|work out|workout|fitness|train*"
+    }
+   },
+   {
+    "sit": "Колега пропонує нову ідею для проєкту. Ти ще сумніваєшся.",
+    "say": "Я ще не зовсім переконаний, що це спрацює.",
+    "ans": [
+     "I’m not totally convinced it will work.",
+     "I’m still not convinced that this will work.",
+     "Honestly, I’m not quite convinced this is going to work."
+    ],
+    "keys": {
+     "спрацює": "work*|succeed*|help"
+    }
+   },
+   {
+    "sit": "Батьки не хотіли відпускати тебе на концерт в інше місто.",
+    "say": "Я ледве переконав батьків відпустити мене на концерт.",
+    "ans": [
+     "I barely managed to convince my parents to let me go to the concert.",
+     "It was hard to convince my parents to let me go to the concert.",
+     "I had a hard time convincing my parents to let me go to the concert."
+    ],
+    "keys": {
+     "батьки": "parent*|mom|dad|mum|mother|father",
+     "концерт": "concert|gig|show|festival"
+    }
+   }
+  ]
+ },
+ {
+  "id": 261,
+  "w": "postpone",
+  "uk": "відкласти, перенести (на пізніше)",
+  "lvl": "B1",
+  "forms": "postpone|postpones|postponed|postponed|postponing",
+  "near": "put off|put it off|putting off|delay*|reschedul*|move* * to|push* back|cancel*",
+  "tasks": [
+   {
+    "sit": "Через шторм скасували рейси. Ти пишеш друзям, які чекали на тебе в суботу.",
+    "say": "Мою поїздку перенесли на тиждень.",
+    "ans": [
+     "My trip has been postponed for a week.",
+     "My trip was postponed by a week.",
+     "They’ve postponed my trip by a week."
+    ],
+    "keys": {
+     "поїздка": "trip|flight|journey|travel*|visit",
+     "тиждень": "week"
+    }
+   },
+   {
+    "sit": "Ти погано почуваєшся і не хочеш сьогодні йти на зустріч із клієнтом.",
+    "say": "Можемо перенести зустріч на завтра?",
+    "ans": [
+     "Can we postpone the meeting until tomorrow?",
+     "Could we postpone our meeting to tomorrow?",
+     "Would it be OK to postpone the meeting till tomorrow?"
+    ],
+    "keys": {
+     "зустріч": "meeting|call|appointment",
+     "завтра": "tomorrow"
+    }
+   },
+   {
+    "sit": "Ти боїшся стоматологів і зізнаєшся в цьому подрузі.",
+    "say": "Я вже тричі відкладав похід до стоматолога.",
+    "ans": [
+     "I’ve postponed my dentist appointment three times already.",
+     "I’ve already postponed going to the dentist three times.",
+     "I keep postponing my visit to the dentist — that’s three times now."
+    ],
+    "keys": {
+     "стоматолог": "dentist*|dental",
+     "тричі": "three times|3 times|third time|thrice"
+    }
+   }
+  ]
+ },
+ {
+  "id": 780,
+  "w": "hesitate",
+  "uk": "вагатися",
+  "lvl": "B1",
+  "forms": "hesitate|hesitates|hesitated|hesitated|hesitating",
+  "near": "think twice|thought twice|doubt*|paus*|waver*|not sure",
+  "tasks": [
+   {
+    "sit": "Ти прощаєшся з новим колегою і пропонуєш йому допомогу.",
+    "say": "Якщо щось знадобиться — не соромся, звертайся.",
+    "ans": [
+     "If you need anything, don’t hesitate to ask.",
+     "Don’t hesitate to ask if you need anything.",
+     "If there’s anything you need, don’t hesitate to get in touch."
+    ],
+    "keys": {
+     "звертайся": "ask|call|contact|get in touch|let me know|reach out|text|message|come",
+     "щось знадобиться": "need*|anything|help"
+    }
+   },
+   {
+    "sit": "Тобі запропонували роботу в іншому місті. Друг питає, як ти вирішив.",
+    "say": "Спочатку я трохи вагався, але зрештою погодився.",
+    "ans": [
+     "I hesitated a bit at first, but in the end I said yes.",
+     "At first I hesitated, but eventually I accepted.",
+     "I was hesitating for a while, but I finally agreed."
+    ],
+    "keys": {
+     "погодився": "yes|accept*|agree*|took it|take it|took the job|decided to go"
+    }
+   },
+   {
+    "sit": "Ти розповідаєш, як твій друг кинувся рятувати собаку, що тонула в річці.",
+    "say": "Він ні секунди не вагався — просто стрибнув у воду.",
+    "ans": [
+     "He didn’t hesitate for a second — he just jumped into the water.",
+     "Without hesitating, he jumped straight into the water.",
+     "He never hesitated — he just jumped right into the river."
+    ],
+    "keys": {
+     "стрибнув": "jump*|dive*|dived|dove|leap*|leapt"
+    }
+   }
+  ]
+ },
+ {
+  "id": 712,
+  "w": "stumble",
+  "uk": "спіткнутися; випадково натрапити (stumble across)",
+  "lvl": "B2",
+  "forms": "stumble|stumbles|stumbled|stumbled|stumbling",
+  "near": "trip|tripped|tripping|trips|slip|slipped|slipping|lost my balance|lose my balance|came across|come across|found",
+  "tasks": [
+   {
+    "sit": "Ти спускався сходами, перечепився, але втримав рівновагу. Розкажи про це другові.",
+    "say": "Я йшов по сходах і спіткнувся, але не впав.",
+    "ans": [
+     "I stumbled on the stairs, but I didn’t fall.",
+     "I stumbled while walking down the stairs, but I didn’t fall.",
+     "I was walking down the stairs when I stumbled, but I didn’t fall."
+    ],
+    "keys": {
+     "сходи": "stair*|step*|staircase",
+     "не впав": "not fall|not fell|never fell|without falling|stay* on my feet|kept my balance|keep my balance|caught myself"
+    }
+   },
+   {
+    "sit": "Друг питає, звідки в тебе синець на коліні. Ти зранку бігав у парку.",
+    "say": "Я спіткнувся об корінь дерева, коли бігав.",
+    "ans": [
+     "I stumbled over a tree root while I was running.",
+     "I was running when I stumbled over a tree root.",
+     "I was out for a run and stumbled over a tree root."
+    ],
+    "keys": {
+     "корінь": "root*",
+     "бігав": "run*|ran|jog*"
+    }
+   },
+   {
+    "sit": "Колега питає, як ти знайшов такий корисний сайт. Ти не шукав його спеціально.",
+    "say": "Я випадково натрапив на цей сайт, коли шукав щось інше.",
+    "ans": [
+     "I stumbled across this website while I was looking for something else.",
+     "I stumbled on this site when I was searching for something else.",
+     "I was looking for something else and just stumbled upon this website."
+    ],
+    "keys": {
+     "сайт": "site|website|page|blog",
+     "шукав щось інше": "look* for|search*|something else|googl*"
+    }
+   }
+  ]
+ }
+]

@@ -1,0 +1,629 @@
+[
+ {
+  "id": 654, "w": "clip", "uk": "обрізати, стригти (нігті)", "lvl": "B1",
+  "forms": "clip|clips|clipped|clipped|clipping",
+  "near": "cut|cuts|cutting|trim*|file*",
+  "tasks": [
+   {
+    "sit": "Донька прибігає з плачем: вона подряпала брата довгими нігтями.",
+    "say": "Треба обрізати тобі нігті, вони задовгі.",
+    "ans": ["We need to clip your nails, they’re too long.", "I have to clip your nails — they’re way too long.", "Time to clip those nails, they’re too long."],
+    "keys": { "нігті": "nail*|fingernail*", "задовгі": "long" }
+   },
+   {
+    "sit": "Ти у ветклініці, і лікар оглядає лапи твого кота.",
+    "say": "Можете заодно підстригти йому кігті?",
+    "ans": ["Could you clip his claws while you’re at it?", "Can you also clip his claws, please?", "While you’re at it, could you clip his claws?"],
+    "keys": { "кігті": "claw*|nail*" }
+   },
+   {
+    "sit": "У поїзді сусід по купе раптом дістає щипчики для нігтів.",
+    "say": "Хіба можна стригти нігті в поїзді?",
+    "ans": ["Is it okay to clip your nails on a train?", "Who clips their nails on a train?", "Seriously, you’re clipping your nails on the train?"],
+    "keys": { "нігті": "nail*", "поїзд": "train" }
+   }
+  ]
+ },
+ {
+  "id": 655, "w": "pluck", "uk": "вищипувати", "lvl": "B2",
+  "forms": "pluck|plucks|plucked|plucked|plucking",
+  "near": "tweeze*|pull out|pulled out|wax*|shape*",
+  "tasks": [
+   {
+    "sit": "Ти збираєшся на побачення і стоїш перед дзеркалом із пінцетом.",
+    "say": "Мені треба вищипати брови.",
+    "ans": ["I need to pluck my eyebrows.", "I have to pluck my eyebrows first.", "Hold on, I’ve got to pluck my eyebrows."],
+    "keys": { "брови": "eyebrow*|brow*" }
+   },
+   {
+    "sit": "Ти помітив у себе на скроні сиву волосину й скаржишся партнерці.",
+    "say": "Я знайшов сиву волосину і одразу її висмикнув.",
+    "ans": ["I found a gray hair and plucked it out right away.", "I found a grey hair, so I plucked it immediately.", "Found a gray hair and plucked it straight out."],
+    "keys": { "сива волосина": "gray|grey|white|hair" }
+   },
+   {
+    "sit": "Ти на кухні в бабусі в селі, вона готує курку до свята.",
+    "say": "Бабусю, давай я допоможу обскубти курку.",
+    "ans": ["Grandma, let me help you pluck the chicken.", "Grandma, I can help pluck the chicken.", "Grandma, want me to help pluck the chicken?"],
+    "keys": { "бабуся": "grandma|granny|grandmother|nan*", "курка": "chicken|hen|bird" }
+   }
+  ]
+ },
+ {
+  "id": 656, "w": "put on makeup", "uk": "робити макіяж, фарбуватися", "lvl": "A2",
+  "forms": "put|puts|put|put|putting",
+  "tail": "on makeup/make-up",
+  "near": "do my makeup|did my makeup|doing my makeup|do your makeup|wear makeup|wearing makeup|apply makeup|applied makeup|paint*",
+  "tasks": [
+   {
+    "sit": "Сестра кличе тебе снідати, а ти ще у ванній.",
+    "say": "Хвилинку, я ще фарбуюся.",
+    "ans": ["One minute, I’m still putting on makeup.", "Just a minute — I’m putting my makeup on.", "Hang on, I’m still putting on my makeup!"],
+    "keys": { "хвилинку": "minute|second|sec|hang on|hold on|wait", "ще": "still|just" }
+   },
+   {
+    "sit": "Колега питає, як ти встигаєш так гарно виглядати на ранковій нараді.",
+    "say": "Я фарбуюся в автобусі дорогою на роботу.",
+    "ans": ["I put on makeup on the bus on my way to work.", "I put my makeup on on the bus to work.", "Honestly, I put on my makeup on the bus to work."],
+    "keys": { "автобус": "bus", "на роботу": "work|office" }
+   },
+   {
+    "sit": "Подруга питає, чому ти так швидко зібралася на прогулянку.",
+    "say": "Сьогодні я навіть не фарбувалася.",
+    "ans": ["I didn’t even put on makeup today.", "I haven’t even put on any makeup today.", "I didn’t even bother to put on makeup today."],
+    "keys": { "навіть не": "not|even", "сьогодні": "today" }
+   }
+  ]
+ },
+ {
+  "id": 657, "w": "take off makeup", "uk": "знімати макіяж", "lvl": "B1",
+  "forms": "take|takes|took|taken|taking",
+  "tail": "off makeup/make-up",
+  "near": "remove*|wash off|washed off|wipe off|wiped off|clean off",
+  "tasks": [
+   {
+    "sit": "Ти повертаєшся з вечірки о третій ночі й ледве тримаєшся на ногах.",
+    "say": "Я така втомлена, але спершу треба зняти макіяж.",
+    "ans": ["I’m so tired, but I need to take off my makeup first.", "I’m exhausted, but I have to take my makeup off first.", "So tired… but I’ve got to take off my makeup first."],
+    "keys": { "втомлена": "tired|exhausted|sleepy|dead", "спершу": "first|before" }
+   },
+   {
+    "sit": "Косметолог пояснює, чому в тебе з'являються висипання.",
+    "say": "Ніколи не лягайте спати, не знявши макіяж.",
+    "ans": ["Never go to bed without taking off your makeup.", "Always take off your makeup before bed.", "Don’t ever sleep without taking off your makeup."],
+    "keys": { "спати": "bed|sleep*|night" }
+   },
+   {
+    "sit": "Ти актор і щойно зіграв виставу. Друзі чекають біля виходу.",
+    "say": "Почекайте десять хвилин, я тільки зніму грим.",
+    "ans": ["Wait ten minutes, I just need to take off my makeup.", "Give me ten minutes to take my makeup off.", "Ten minutes, guys — let me take off this makeup."],
+    "keys": { "десять хвилин": "ten|10|minute*" }
+   }
+  ]
+ },
+ {
+  "id": 658, "w": "apply", "uk": "наносити (крем, мазь)", "lvl": "B1",
+  "forms": "apply|applies|applied|applied|applying",
+  "near": "put on|puts on|putting on|rub*|spread*|use|used|using",
+  "tasks": [
+   {
+    "sit": "Ти на пляжі з дітьми, сонце пече вже годину.",
+    "say": "Треба ще раз нанести сонцезахисний крем.",
+    "ans": ["We need to apply sunscreen again.", "It’s time to apply more sunscreen.", "Let’s apply some more sunscreen, guys."],
+    "keys": { "крем": "sunscreen|sun cream|suncream|cream|spf|lotion", "ще раз": "again|more|another" }
+   },
+   {
+    "sit": "Лікар дає тобі мазь від опіку й пояснює, як нею користуватися.",
+    "say": "Наносьте мазь тонким шаром двічі на день.",
+    "ans": ["Apply the ointment in a thin layer twice a day.", "Apply a thin layer of ointment twice a day.", "Just apply a thin layer twice a day."],
+    "keys": { "тонкий шар": "thin|layer|little", "двічі": "twice|two times|2 times" }
+   },
+   {
+    "sit": "Ти пишеш у блозі про свій ранковий догляд за шкірою.",
+    "say": "Після душу я завжди наношу лосьйон для тіла.",
+    "ans": ["After a shower I always apply body lotion.", "I always apply body lotion after I shower.", "I always apply some body lotion right after my shower."],
+    "keys": { "після душу": "shower*", "лосьйон": "lotion|cream|moisturi*" }
+   }
+  ]
+ },
+ {
+  "id": 659, "w": "moisturize", "uk": "зволожувати (шкіру)", "lvl": "B2",
+  "forms": "moisturize/moisturise|moisturizes/moisturises|moisturized/moisturised|moisturized/moisturised|moisturizing/moisturising",
+  "near": "hydrate*|apply|applied|put on|cream|lotion",
+  "tasks": [
+   {
+    "sit": "Взимку в тебе потріскалися руки, і колега дивиться на них зі співчуттям.",
+    "say": "Тобі треба зволожувати руки кожного вечора.",
+    "ans": ["You need to moisturize your hands every evening.", "You should moisturize your hands every night.", "Try to moisturize your hands every night before bed."],
+    "keys": { "руки": "hand*|skin", "вечір": "evening|night|bed" }
+   },
+   {
+    "sit": "Дерматолог питає про твій щоденний догляд.",
+    "say": "Я очищаю і зволожую обличчя вранці й увечері.",
+    "ans": ["I cleanse and moisturize my face morning and night.", "I wash and moisturize my face every morning and evening.", "I clean my face and moisturize it morning and night."],
+    "keys": { "обличчя": "face|skin|it", "вранці й увечері": "morning*|evening*|night*|twice" }
+   },
+   {
+    "sit": "Ти після перельоту, і шкіра стала сухою й стягнутою.",
+    "say": "Після літака мені треба добре зволожити шкіру.",
+    "ans": ["After a flight I need to moisturize my skin well.", "I really need to moisturize my skin after that flight.", "Planes dry me out — I need to moisturize properly."],
+    "keys": { "літак": "flight|flying|plane*|fly" }
+   }
+  ]
+ },
+ {
+  "id": 660, "w": "exfoliate", "uk": "робити пілінг, відлущувати", "lvl": "C1",
+  "forms": "exfoliate|exfoliates|exfoliated|exfoliated|exfoliating",
+  "near": "scrub*|peel*|buff*",
+  "tasks": [
+   {
+    "sit": "Косметолог розповідає клієнтці про догляд за жирною шкірою.",
+    "say": "Робіть пілінг обличчя не частіше ніж двічі на тиждень.",
+    "ans": ["Exfoliate your face no more than twice a week.", "Don’t exfoliate your face more than twice a week.", "Only exfoliate your face twice a week, max."],
+    "keys": { "двічі на тиждень": "twice|two times|2 times|week", "обличчя": "face|skin" }
+   },
+   {
+    "sit": "Ти готуєшся до засмаги з автозасмагою і читаєш інструкцію вголос подрузі.",
+    "say": "Тут написано, що спочатку треба зробити пілінг шкіри.",
+    "ans": ["It says you should exfoliate your skin first.", "It says to exfoliate your skin before applying it.", "Apparently you have to exfoliate your skin first."],
+    "keys": { "спочатку": "first|before", "шкіра": "skin|body|leg*" }
+   },
+   {
+    "sit": "Ти в магазині косметики, і консультант радить тобі кавовий скраб.",
+    "say": "Він м'яко відлущує мертві клітини шкіри.",
+    "ans": ["It gently exfoliates dead skin cells.", "This gently exfoliates the dead skin cells.", "It’ll gently exfoliate all the dead skin."],
+    "keys": { "м'яко": "gentl*|soft*|mild*", "мертві клітини": "dead|cell*" }
+   }
+  ]
+ },
+ {
+  "id": 661, "w": "soak", "uk": "лежати у ванні, відмокати", "lvl": "B2",
+  "forms": "soak|soaks|soaked|soaked|soaking",
+  "near": "relax*|lie|lay|lying|take a bath|have a bath|bathe*",
+  "tasks": [
+   {
+    "sit": "Ти повернувся після важкого тижня на будівництві, усе тіло болить.",
+    "say": "Хочу просто полежати в гарячій ванні годину.",
+    "ans": ["I just want to soak in a hot bath for an hour.", "All I want is to soak in a hot bath for an hour.", "I just wanna soak in a hot tub for an hour."],
+    "keys": { "гаряча ванна": "hot|bath*|tub", "годину": "hour" }
+   },
+   {
+    "sit": "Ти в Карпатах біля термальних джерел, пишеш другові повідомлення.",
+    "say": "Ми цілий день відмокаємо в гарячих джерелах.",
+    "ans": ["We’re soaking in the hot springs all day.", "We’ve been soaking in hot springs the whole day.", "We spent all day soaking in the hot springs."],
+    "keys": { "джерела": "spring*|pool*", "цілий день": "all day|whole day|day" }
+   },
+   {
+    "sit": "Ти підвернув ногу на пробіжці, а фізіотерапевт дає пораду.",
+    "say": "Потримайте ногу в теплій воді з сіллю двадцять хвилин.",
+    "ans": ["Soak your foot in warm salt water for twenty minutes.", "Let your foot soak in warm salty water for 20 minutes.", "Just soak your foot in warm salt water for twenty minutes."],
+    "keys": { "нога": "foot|feet|ankle|leg", "тепла вода": "warm|water|salt*" }
+   }
+  ]
+ },
+ {
+  "id": 662, "w": "unclog", "uk": "прочищати (злив, трубу)", "lvl": "C1",
+  "forms": "unclog|unclogs|unclogged|unclogged|unclogging",
+  "near": "unblock*|clear*|clean*|fix*|plunge*",
+  "tasks": [
+   {
+    "sit": "У ванній вода не стікає, і ти дзвониш у сервіс.",
+    "say": "Можете прислати когось прочистити злив?",
+    "ans": ["Can you send someone to unclog the drain?", "Could you send somebody over to unclog my drain?", "Can someone come and unclog the drain today?"],
+    "keys": { "злив": "drain|pipe*|sink|shower", "прислати когось": "send|someone|somebody|come" }
+   },
+   {
+    "sit": "Ти в магазині господарських товарів питаєш продавця.",
+    "say": "У вас є щось, щоб прочистити раковину на кухні?",
+    "ans": ["Do you have anything to unclog a kitchen sink?", "Have you got something that will unclog my kitchen sink?", "What do you have that can unclog a kitchen sink?"],
+    "keys": { "раковина": "sink|drain", "кухня": "kitchen" }
+   },
+   {
+    "sit": "Ти хвалишся сусідові, що впорався без сантехніка.",
+    "say": "Я сам прочистив трубу звичайним вантузом.",
+    "ans": ["I unclogged the pipe myself with a plunger.", "I unclogged the pipe on my own with an ordinary plunger.", "I just unclogged it myself with a regular plunger."],
+    "keys": { "сам": "myself|my own|alone", "вантуз": "plunger" }
+   }
+  ]
+ },
+ {
+  "id": 713, "w": "trip", "uk": "перечіплюватися, спотикатися", "lvl": "B1",
+  "forms": "trip|trips|tripped|tripped|tripping",
+  "near": "stumble*|fall|fell|fallen|falling|slip*",
+  "tasks": [
+   {
+    "sit": "У твоєму офісі під столом лежать дроти, і колега щойно ледь не впала.",
+    "say": "Хтось перечепиться через цей дріт і зламає ногу.",
+    "ans": ["Someone will trip over this wire and break a leg.", "Somebody’s going to trip over that cable and break their leg.", "Someone’s gonna trip on that wire and hurt themselves."],
+    "keys": { "дріт": "wire*|cable*|cord*", "зламає ногу": "break*|broke*|hurt*|injur*|leg*" }
+   },
+   {
+    "sit": "Ти прийшов на роботу з гіпсом на руці, і всі питають, що сталося.",
+    "say": "Я спіткнувся об бордюр і невдало впав.",
+    "ans": ["I tripped over the curb and fell badly.", "I tripped on a curb and landed badly.", "I just tripped over a curb and fell the wrong way."],
+    "keys": { "бордюр": "curb|kerb|step|pavement|sidewalk", "впав": "fell|fall*|landed" }
+   },
+   {
+    "sit": "Твоя маленька донька бігає по дому з розв'язаними шнурками.",
+    "say": "Зав'яжи шнурки, бо спіткнешся!",
+    "ans": ["Tie your shoelaces or you’ll trip!", "Tie your laces, you’re going to trip!", "Hey, tie your shoes before you trip!"],
+    "keys": { "шнурки": "lace*|shoelace*|shoe*" }
+   }
+  ]
+ },
+ {
+  "id": 714, "w": "slip", "uk": "послизнутися", "lvl": "B1",
+  "forms": "slip|slips|slipped|slipped|slipping",
+  "near": "fall|fell|fallen|falling|slide*|slid|skid*|trip*",
+  "tasks": [
+   {
+    "sit": "Сьогодні ожеледиця, і ти пишеш мамі, чому запізнився.",
+    "say": "Я послизнувся на льоду біля під'їзду.",
+    "ans": ["I slipped on the ice outside the building.", "I slipped on some ice near the entrance.", "I slipped on the ice right outside my building."],
+    "keys": { "лід": "ice|icy", "під'їзд": "building|entrance|door*|house|home" }
+   },
+   {
+    "sit": "Ти працюєш у кафе і щойно помив підлогу.",
+    "say": "Обережно, підлога мокра, не послизніться!",
+    "ans": ["Careful, the floor is wet, don’t slip!", "Watch out — the floor’s wet, you might slip.", "Careful, it’s wet, don’t slip!"],
+    "keys": { "обережно": "careful|watch|mind", "мокра": "wet|mopped|slippery" }
+   },
+   {
+    "sit": "Друг питає, звідки в тебе синець на лікті.",
+    "say": "Послизнувся у ванній, коли виходив з душу.",
+    "ans": ["I slipped in the bathroom getting out of the shower.", "I slipped in the bathroom as I was getting out of the shower.", "Slipped in the bathroom coming out of the shower."],
+    "keys": { "ванна": "bathroom|shower|bath|tub" }
+   }
+  ]
+ },
+ {
+  "id": 715, "w": "tumble", "uk": "падати, перекидаючись; котитися", "lvl": "C1",
+  "forms": "tumble|tumbles|tumbled|tumbled|tumbling",
+  "near": "fall|fell|fallen|falling|roll*|topple*|trip*",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш лікарю, як твій син отримав струс мозку.",
+    "say": "Він скотився зі сходів головою вниз.",
+    "ans": ["He tumbled down the stairs headfirst.", "He tumbled headfirst down the stairs.", "He took a tumble — he tumbled all the way down the stairs."],
+    "keys": { "сходи": "stair*|steps" }
+   },
+   {
+    "sit": "Ти гірськолижник і розповідаєш друзям про невдалий спуск.",
+    "say": "Я впав і котився схилом метрів двадцять.",
+    "ans": ["I fell and tumbled down the slope for about twenty meters.", "I wiped out and tumbled twenty metres down the slope.", "I crashed and just tumbled down the slope for like twenty meters."],
+    "keys": { "схил": "slope|hill|mountain|piste", "двадцять метрів": "twenty|20|meter*|metre*" }
+   },
+   {
+    "sit": "Ти відкриваєш шафу в кімнаті сестри, і на тебе все сиплеться.",
+    "say": "Щойно я відчинив шафу, звідти вивалилися всі речі.",
+    "ans": ["As soon as I opened the closet, everything tumbled out.", "I opened the wardrobe and all her stuff tumbled out.", "The second I opened the closet, all the clothes tumbled out."],
+    "keys": { "шафа": "closet|wardrobe|cupboard", "речі": "everything|stuff|things|clothes|all" }
+   }
+  ]
+ },
+ {
+  "id": 717, "w": "trudge", "uk": "тягтися, важко плентатися", "lvl": "C1",
+  "forms": "trudge|trudges|trudged|trudged|trudging",
+  "near": "drag*|plod*|walk*|trek*|slog*|shuffl*",
+  "tasks": [
+   {
+    "sit": "Автобус не прийшов через заметіль, і ти розповідаєш колегам, як дістався на роботу.",
+    "say": "Я годину плентався по снігу до офісу.",
+    "ans": ["I trudged through the snow to the office for an hour.", "It took me an hour to trudge through the snow to work.", "I had to trudge through snow for an hour to get here."],
+    "keys": { "сніг": "snow*", "годину": "hour" }
+   },
+   {
+    "sit": "Ти в поході, і вся група вимокла під дощем на останньому підйомі.",
+    "say": "Ми втомлені тяглися до табору під дощем.",
+    "ans": ["We trudged back to camp in the rain, exhausted.", "Exhausted, we trudged up to the camp in the rain.", "We were soaked and just trudged back to camp in the rain."],
+    "keys": { "табір": "camp*|tent*|base", "дощ": "rain*|wet|soaked" }
+   },
+   {
+    "sit": "Ти вчитель і в понеділок зранку дивишся у вікно на учнів.",
+    "say": "Діти неохоче плентаються до школи після канікул.",
+    "ans": ["The kids are trudging to school after the holidays.", "After the break, the children trudge back to school.", "Look at them trudging back to school after the holidays."],
+    "keys": { "школа": "school|class*", "канікули": "holiday*|break|vacation" }
+   }
+  ]
+ },
+ {
+  "id": 718, "w": "stroll", "uk": "неспішно гуляти, прогулюватися", "lvl": "B1",
+  "forms": "stroll|strolls|strolled|strolled|strolling",
+  "near": "walk*|wander*|go for a walk|went for a walk|amble*|saunter*",
+  "tasks": [
+   {
+    "sit": "Колега питає, як ти провів неділю.",
+    "say": "Ми неспішно гуляли парком і годували качок.",
+    "ans": ["We strolled through the park and fed the ducks.", "We strolled around the park and fed some ducks.", "We just strolled through the park and fed the ducks."],
+    "keys": { "парк": "park", "качки": "duck*|bird*" }
+   },
+   {
+    "sit": "Ти у Львові в поїздці й пишеш подрузі, що вам тут подобається.",
+    "say": "Ввечері ми прогулюємося старим містом.",
+    "ans": ["In the evening we stroll around the old town.", "We stroll through the old town every evening.", "Evenings we just stroll around the old town."],
+    "keys": { "ввечері": "evening*|night*", "старе місто": "old town|old city|center|centre|downtown" }
+   },
+   {
+    "sit": "Ти запізнюєшся на важливу зустріч, а колега йде поруч дуже повільно.",
+    "say": "Ми не маємо часу гуляти, треба поспішати!",
+    "ans": ["We don’t have time to stroll, we need to hurry!", "There’s no time to stroll — we have to hurry up!", "Come on, no time to stroll, let’s hurry!"],
+    "keys": { "немає часу": "time", "поспішати": "hurry|rush|quick*|fast|move" }
+   }
+  ]
+ },
+ {
+  "id": 719, "w": "pace", "uk": "ходити туди-сюди (від хвилювання)", "lvl": "B2",
+  "forms": "pace|paces|paced|paced|pacing",
+  "near": "walk*|wander*|stride*|march*",
+  "tasks": [
+   {
+    "sit": "Ти в лікарні чекаєш, поки дружина народжує, і не можеш сидіти.",
+    "say": "Я вже годину ходжу туди-сюди коридором.",
+    "ans": ["I’ve been pacing the hallway for an hour.", "I’ve been pacing up and down the corridor for an hour now.", "I’ve been pacing this hallway for like an hour."],
+    "keys": { "коридор": "hallway|corridor|hall|room", "годину": "hour" }
+   },
+   {
+    "sit": "Ти працюєш з колегою, який нервує перед презентацією.",
+    "say": "Перестань ходити туди-сюди, ти мене нервуєш.",
+    "ans": ["Stop pacing, you’re making me nervous.", "Can you stop pacing? You’re making me nervous.", "Please stop pacing — you’re stressing me out."],
+    "keys": { "перестань": "stop|quit", "нервуєш": "nervous|stress*|anxious|crazy" }
+   },
+   {
+    "sit": "Ти в зоопарку і показуєш дитині тигра за склом.",
+    "say": "Дивись, тигр ходить туди-сюди вздовж клітки.",
+    "ans": ["Look, the tiger is pacing along the cage.", "Look how the tiger paces back and forth in its cage.", "Look, the tiger’s pacing up and down the enclosure."],
+    "keys": { "тигр": "tiger", "клітка": "cage|enclosure|glass|fence" }
+   }
+  ]
+ },
+ {
+  "id": 720, "w": "dash", "uk": "метнутися, кинутися (швидко збігати)", "lvl": "B2",
+  "forms": "dash|dashes|dashed|dashed|dashing",
+  "near": "run|ran|running|runs|rush*|hurr*|race*|pop*|nip*|sprint*",
+  "tasks": [
+   {
+    "sit": "Ти готуєш вечерю, гості от-от прийдуть, а хліба немає.",
+    "say": "Я швиденько метнуся в магазин по хліб.",
+    "ans": ["I’ll quickly dash to the store for bread.", "I’m just going to dash to the shop for some bread.", "Let me dash out to the store and grab some bread."],
+    "keys": { "магазин": "store|shop|supermarket|out", "хліб": "bread|loaf|baguette" }
+   },
+   {
+    "sit": "Посеред наради тобі дзвонять зі школи сина.",
+    "say": "Вибачте, мені треба бігти, щось із дитиною.",
+    "ans": ["Sorry, I have to dash, something’s up with my kid.", "Sorry, I need to dash — it’s about my son.", "Sorry, gotta dash, it’s my kid’s school."],
+    "keys": { "вибачте": "sorry|excuse", "дитина": "kid|child|son|school" }
+   },
+   {
+    "sit": "Ти розповідаєш, як потрапив під зливу на вулиці.",
+    "say": "Почалася злива, і я кинувся до найближчого кафе.",
+    "ans": ["It started pouring, and I dashed into the nearest café.", "When the rain started, I dashed into the nearest cafe.", "It was pouring, so I dashed into the closest café."],
+    "keys": { "злива": "rain*|pour*|storm|downpour", "кафе": "café|cafe|coffee shop|bar|shop" }
+   }
+  ]
+ },
+ {
+  "id": 721, "w": "race", "uk": "мчати, мчатися", "lvl": "B1",
+  "forms": "race|races|raced|raced|racing",
+  "near": "rush*|run|ran|running|hurr*|dash*|speed*|sped",
+  "tasks": [
+   {
+    "sit": "Твоя донька повідомила, що в неї почалися перейми, і ти вже в машині.",
+    "say": "Я мчу до лікарні, буду за десять хвилин!",
+    "ans": ["I’m racing to the hospital, I’ll be there in ten minutes!", "I’m racing over to the hospital — ten minutes!", "Racing to the hospital now, be there in ten!"],
+    "keys": { "лікарня": "hospital", "десять хвилин": "ten|10|minute*" }
+   },
+   {
+    "sit": "Колега питає, чому ти так захеканий о дев'ятій ранку.",
+    "say": "Я мчав до потяга й ледве встиг.",
+    "ans": ["I raced to the train and barely made it.", "I had to race to catch the train, and I just made it.", "I raced for the train and only just caught it."],
+    "keys": { "потяг": "train", "ледве встиг": "barely|just|made it|caught|almost" }
+   },
+   {
+    "sit": "Ти дивишся з вікна, як пожежна машина пролітає вулицею.",
+    "say": "Дивись, пожежники кудись мчать із сиренами.",
+    "ans": ["Look, the fire trucks are racing somewhere with their sirens on.", "Look, a fire engine just raced past with its sirens on.", "Whoa, the firefighters are racing down the street with sirens blaring."],
+    "keys": { "пожежники": "fire*", "сирени": "siren*" }
+   }
+  ]
+ },
+ {
+  "id": 722, "w": "dive", "uk": "пірнати", "lvl": "B1",
+  "forms": "dive|dives|dived/dove|dived|diving",
+  "near": "jump*|leap*|plunge*|swim*|swam",
+  "tasks": [
+   {
+    "sit": "Ти в басейні, а поруч висить табличка про глибину.",
+    "say": "Тут не можна пірнати, дуже мілко.",
+    "ans": ["You can’t dive here, it’s too shallow.", "No diving here — it’s really shallow.", "Don’t dive here, the water’s too shallow."],
+    "keys": { "не можна": "not|no|can not", "мілко": "shallow" }
+   },
+   {
+    "sit": "Ти розповідаєш про відпустку в Єгипті колезі.",
+    "say": "Ми пірнали біля коралового рифу щодня.",
+    "ans": ["We dived near the coral reef every day.", "We went diving by the coral reef every day.", "Every day we dove at the coral reef."],
+    "keys": { "риф": "reef|coral", "щодня": "every day|daily|each day" }
+   },
+   {
+    "sit": "Ти з сином на озері, і він боїться стрибати з пірсу.",
+    "say": "Дивись, як я пірнаю, це зовсім не страшно.",
+    "ans": ["Watch me dive, it’s not scary at all.", "Look how I dive — it isn’t scary at all.", "Watch me dive in, see? Not scary at all."],
+    "keys": { "не страшно": "scary|scared|afraid|fine|easy" }
+   }
+  ]
+ },
+ {
+  "id": 723, "w": "soar", "uk": "ширяти, злітати високо", "lvl": "C1",
+  "forms": "soar|soars|soared|soared|soaring",
+  "near": "fly|flies|flew|flown|flying|glide*|circle*|hover*|rise|rose",
+  "tasks": [
+   {
+    "sit": "Ти в горах із другом, і над вами кружляє великий птах.",
+    "say": "Дивись, орел ширяє просто над нами!",
+    "ans": ["Look, an eagle is soaring right above us!", "Look at that eagle soaring right over us!", "Wow, look, there’s an eagle soaring above us!"],
+    "keys": { "орел": "eagle|hawk|bird", "над нами": "above|over|overhead" }
+   },
+   {
+    "sit": "Ти розповідаєш про свій перший політ на параплані.",
+    "say": "Ми ширяли над долиною майже годину.",
+    "ans": ["We soared over the valley for almost an hour.", "We were soaring above the valley for nearly an hour.", "We soared over the valley for like an hour."],
+    "keys": { "долина": "valley|hill*|mountain*", "годину": "hour" }
+   },
+   {
+    "sit": "Ти на футбольному матчі, і воротар вибив м'яч дуже високо.",
+    "say": "М'яч злетів високо в небо і полетів за стадіон.",
+    "ans": ["The ball soared high into the sky and out of the stadium.", "The ball soared into the air and flew over the stadium.", "Wow, the ball soared right over the stadium!"],
+    "keys": { "м'яч": "ball", "стадіон": "stadium|sky|air|stand*" }
+   }
+  ]
+ },
+ {
+  "id": 724, "w": "plummet", "uk": "стрімко падати, обвалюватися", "lvl": "C1",
+  "forms": "plummet|plummets|plummeted|plummeted|plummeting",
+  "near": "fall|fell|fallen|falling|drop*|crash*|plunge*|dive*|tumble*|sink|sank",
+  "tasks": [
+   {
+    "sit": "Ти працюєш фінансовим аналітиком і коментуєш новини для клієнта.",
+    "say": "Після скандалу акції компанії стрімко обвалилися.",
+    "ans": ["After the scandal, the company’s shares plummeted.", "The company’s stock plummeted after the scandal.", "Their shares just plummeted after the scandal."],
+    "keys": { "акції": "share*|stock*|price*", "скандал": "scandal" }
+   },
+   {
+    "sit": "Ти дивишся документальний фільм про падіння метеорита і переказуєш його другові.",
+    "say": "Метеорит стрімко впав на землю посеред пустелі.",
+    "ans": ["The meteorite plummeted to earth in the middle of a desert.", "A meteorite plummeted to the ground in the desert.", "This meteorite just plummeted to earth, right in the desert."],
+    "keys": { "метеорит": "meteor*|asteroid|rock", "земля": "earth|ground" }
+   },
+   {
+    "sit": "Ти читаєш прогноз погоди на вихідні в горах.",
+    "say": "Уночі температура різко впаде нижче нуля.",
+    "ans": ["At night the temperature will plummet below zero.", "Temperatures are going to plummet below freezing tonight.", "The temperature’s going to plummet below zero at night."],
+    "keys": { "температура": "temperature*", "нижче нуля": "zero|freezing|minus|0" }
+   }
+  ]
+ },
+ {
+  "id": 726, "w": "babble", "uk": "лепетати, белькотіти; молоти язиком", "lvl": "C1",
+  "forms": "babble|babbles|babbled|babbled|babbling",
+  "near": "chatter*|ramble*|prattle*|talk*|go on|went on|going on|blab*|gibber*",
+  "tasks": [
+   {
+    "sit": "Ти молодий тато й хвалишся колегам своєю дев'ятимісячною донькою.",
+    "say": "Вона вже весь день щось лепече.",
+    "ans": ["She babbles all day long now.", "She’s already babbling all day long.", "She just babbles away all day now."],
+    "keys": { "весь день": "all day|whole day|day long|constantly" }
+   },
+   {
+    "sit": "Ти спізнився на побачення і від хвилювання говориш без зупинки.",
+    "say": "Вибач, я від нервів несу якусь нісенітницю.",
+    "ans": ["Sorry, I’m babbling nonsense because I’m nervous.", "Sorry, I always babble when I’m nervous.", "Sorry, I’m just babbling — I’m so nervous."],
+    "keys": { "вибач": "sorry|excuse", "нерви": "nerv*|anxious|stress*" }
+   },
+   {
+    "sit": "Ти вийшов з довгої наради й скаржишся колезі на директора.",
+    "say": "Він дві години молов щось про стратегію, і ніхто нічого не зрозумів.",
+    "ans": ["He babbled about strategy for two hours and nobody understood anything.", "He babbled on about strategy for two hours and no one got it.", "He just babbled about strategy for two hours — nobody understood a thing."],
+    "keys": { "стратегія": "strateg*", "дві години": "two hours|2 hours|hour*" }
+   }
+  ]
+ },
+ {
+  "id": 727, "w": "mutter", "uk": "бурмотіти", "lvl": "B2",
+  "forms": "mutter|mutters|muttered|muttered|muttering",
+  "near": "mumbl*|murmur*|whisper*|grumbl*|say|said",
+  "tasks": [
+   {
+    "sit": "Ти в черзі на пошті, і чоловік попереду тихо щось каже сам собі.",
+    "say": "Він щось бурмоче собі під ніс про довгі черги.",
+    "ans": ["He’s muttering something about long lines under his breath.", "He keeps muttering under his breath about the long queue.", "He’s muttering to himself about the long line."],
+    "keys": { "під ніс": "breath|himself|quietly", "черги": "line*|queue*" }
+   },
+   {
+    "sit": "Твій син-підліток пішов у свою кімнату після суперечки.",
+    "say": "Він пробурмотів щось образливе і гримнув дверима.",
+    "ans": ["He muttered something rude and slammed the door.", "He muttered something rude, then slammed the door.", "He muttered something nasty and slammed his door."],
+    "keys": { "образливе": "rude|nasty|mean|offensive|swear*", "двері": "door" }
+   },
+   {
+    "sit": "Колега на нараді щось сказав, але ти не розчув.",
+    "say": "Що ти там бурмочеш? Скажи голосніше.",
+    "ans": ["What are you muttering? Say it louder.", "What are you muttering about? Speak up.", "What’s that you’re muttering? Say it out loud."],
+    "keys": { "голосніше": "loud*|speak up|up" }
+   }
+  ]
+ },
+ {
+  "id": 728, "w": "stammer", "uk": "заїкатися, затинатися", "lvl": "C1",
+  "forms": "stammer|stammers|stammered|stammered|stammering",
+  "near": "stutter*|mumbl*|hesitat*|falter*",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш другові про свою першу співбесіду англійською.",
+    "say": "Я так нервував, що заїкався на кожному питанні.",
+    "ans": ["I was so nervous that I stammered on every question.", "I was so nervous I stammered through every answer.", "I was so nervous, I stammered on every single question."],
+    "keys": { "нервував": "nervous|scared|anxious|stress*", "кожне питання": "every|each|question*|answer*" }
+   },
+   {
+    "sit": "Ти логопед і розповідаєш батькам про їхнього сина.",
+    "say": "Ваш син заїкається, лише коли хвилюється.",
+    "ans": ["Your son only stammers when he’s anxious.", "Your son stammers only when he gets nervous.", "Your son only really stammers when he’s nervous."],
+    "keys": { "син": "son|boy|he", "хвилюється": "anxious|nervous|upset|excited|stress*|worried" }
+   },
+   {
+    "sit": "Ти впіймав молодшого брата, коли той їв твій торт.",
+    "say": "Він почервонів і, затинаючись, почав вибачатися.",
+    "ans": ["He went red and stammered an apology.", "He turned red and stammered that he was sorry.", "He blushed and stammered out an apology."],
+    "keys": { "почервонів": "red|blush*", "вибачатися": "apolog*|sorry" }
+   }
+  ]
+ },
+ {
+  "id": 729, "w": "chuckle", "uk": "тихо сміятися, посміюватися", "lvl": "B2",
+  "forms": "chuckle|chuckles|chuckled|chuckled|chuckling",
+  "near": "laugh*|giggle*|smile*|smiling|grin*|snicker*|chortl*",
+  "tasks": [
+   {
+    "sit": "Ти в метро читаєш смішну книжку, і люди на тебе озираються.",
+    "say": "Я весь час тихенько сміюся над цією книжкою.",
+    "ans": ["I keep chuckling at this book.", "I can’t stop chuckling at this book.", "This book keeps making me chuckle."],
+    "keys": { "книжка": "book|novel|it", "весь час": "keep|keeps|can not stop|all the time|constantly" }
+   },
+   {
+    "sit": "Ти розповідаєш, як минула презентація перед новим начальником.",
+    "say": "Я пожартував, і бос тихо посміхнувся.",
+    "ans": ["I made a joke, and the boss chuckled.", "When I told a joke, my boss chuckled quietly.", "I cracked a joke and the boss actually chuckled."],
+    "keys": { "пожартував": "joke*", "бос": "boss|manager|he|she" }
+   },
+   {
+    "sit": "Дідусь переглядає ваші старі сімейні фото.",
+    "say": "Дідусь посміювався, коли згадував свою молодість.",
+    "ans": ["Grandpa chuckled as he remembered his youth.", "Grandpa was chuckling while he talked about his younger days.", "Grandpa kept chuckling, remembering when he was young."],
+    "keys": { "дідусь": "grandpa|granddad|grandfather|grandad", "молодість": "youth|young*" }
+   }
+  ]
+ },
+ {
+  "id": 730, "w": "giggle", "uk": "хихикати", "lvl": "B2",
+  "forms": "giggle|giggles|giggled|giggled|giggling",
+  "near": "laugh*|chuckle*|snicker*|titter*|smile*|smiling",
+  "tasks": [
+   {
+    "sit": "Ти вчитель, а двоє учнів на задній парті весь урок щось шепочуть.",
+    "say": "Перестаньте хихикати й слухайте уважно.",
+    "ans": ["Stop giggling and listen carefully.", "Please stop giggling and pay attention.", "Hey, stop giggling and listen up."],
+    "keys": { "перестаньте": "stop|quit|no more", "слухайте": "listen*|pay attention|focus" }
+   },
+   {
+    "sit": "Ти лоскочеш свою маленьку племінницю.",
+    "say": "Вона так мило хихикає, коли її лоскочуть.",
+    "ans": ["She giggles so cutely when you tickle her.", "She giggles like crazy when she’s tickled.", "She always giggles when you tickle her, it’s so cute."],
+    "keys": { "лоскочуть": "tickl*" }
+   },
+   {
+    "sit": "Ти згадуєш із подругою, як ви в школі не могли стриматися на серйозному зібранні.",
+    "say": "Ми хихикали, як діти, і не могли зупинитися.",
+    "ans": ["We giggled like kids and couldn’t stop.", "We were giggling like little kids and just couldn’t stop.", "We kept giggling like kids — we couldn’t stop!"],
+    "keys": { "як діти": "kid*|child*|little girls|schoolgirls", "не могли зупинитися": "stop|kept" }
+   }
+  ]
+ }
+]

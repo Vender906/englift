@@ -1,5 +1,5 @@
 /* EngLift — service worker (offline PWA) */
-const CACHE = 'englift-v4.8.0';
+const CACHE = 'englift-v4.9.0';
 const APP_SHELL = [
   './',
   './index.html',
@@ -54,8 +54,10 @@ const APP_SHELL = [
   './js/lexis/verbs-phrasal-data.js',
   './js/lexis/verbs-merge.js',
   './js/lexis/adjs-prep-data.js',
+  './js/lexis/adj-stories.js',
   './js/core.js',
   './js/lexis.js',
+  './js/wod.js',
   './js/grammar.js',
   './js/app.js',
   './manifest.json',

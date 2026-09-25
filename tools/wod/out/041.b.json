@@ -1,0 +1,641 @@
+[
+ {
+  "id": 2277, "w": "drill", "uk": "свердлити", "lvl": "B1",
+  "forms": "drill|drills|drilled|drilled|drilling",
+  "near": "bore|bored|boring|make a hole|made a hole|punch*|pierce*",
+  "tasks": [
+   {
+    "sit": "Ти хочеш повісити полицю в новій квартирі. Питаєш орендодавця дозволу.",
+    "say": "Можна просвердлити кілька дірок у стіні?",
+    "ans": ["Can I drill a few holes in the wall?", "Is it OK if I drill a couple of holes in the wall?", "Would you mind if I drilled a few holes in the wall?"],
+    "keys": { "дірки": "hole*", "стіна": "wall*" }
+   },
+   {
+    "sit": "Сусід зверху о сьомій ранку в суботу почав щось ремонтувати. Ти пишеш у чат будинку.",
+    "say": "Хто свердлить о сьомій ранку в суботу?!",
+    "ans": ["Who is drilling at seven in the morning on a Saturday?!", "Who’s drilling at 7 a.m. on a Saturday?!", "Seriously, who’s drilling at seven on a Saturday morning?!"],
+    "keys": { "о сьомій": "seven|7", "субота": "saturday*|weekend" }
+   },
+   {
+    "sit": "Ти в стоматолога, і він пояснює, що буде робити з твоїм зубом. Потім ти переказуєш це другові.",
+    "say": "Лікар сказав, що доведеться свердлити зуб.",
+    "ans": ["The dentist said he’d have to drill the tooth.", "The dentist told me he needs to drill my tooth.", "Apparently the dentist has to drill my tooth."],
+    "keys": { "зуб": "tooth|teeth", "лікар": "dentist*|doctor*|he|she|apparently" }
+   }
+  ]
+ },
+ {
+  "id": 2279, "w": "chisel", "uk": "довбати / вирізати долотом", "lvl": "C1",
+  "forms": "chisel|chisels|chiseled/chiselled|chiseled/chiselled|chiseling/chiselling",
+  "near": "carve*|cut|cutting|gouge*|chip*|hack*|knock* out",
+  "tasks": [
+   {
+    "sit": "Ти ставиш нові двері й пояснюєш другові, чому петлі не встановлюються рівно.",
+    "say": "Треба видовбати долотом місце під петлю.",
+    "ans": ["I need to chisel out a recess for the hinge.", "The space for the hinge has to be chiseled out first.", "I’ll have to chisel out a spot for the hinge."],
+    "keys": { "петля": "hinge*", "місце": "recess*|space|spot|slot|room|place|out" }
+   },
+   {
+    "sit": "Ти на виставці сучасного мистецтва й захоплено розповідаєш подрузі про скульптора.",
+    "say": "Він вирізав цю фігуру з цілої брили мармуру вручну.",
+    "ans": ["He chiseled this figure out of a single block of marble by hand.", "He chiselled the whole figure from one block of marble, by hand.", "He chiseled it out of one solid block of marble — by hand!"],
+    "keys": { "мармур": "marble|stone|rock", "вручну": "by hand|hand*|himself|single|one|solid" }
+   },
+   {
+    "sit": "Електрик прокладає кабель у старому цегляному будинку. Ти пояснюєш дружині, чому стільки пилу.",
+    "say": "Він довбає в стіні канал для кабелю.",
+    "ans": ["He’s chiseling a channel in the wall for the cable.", "He has to chisel a groove in the wall for the wiring.", "He’s chiselling out a channel for the cable in the wall."],
+    "keys": { "канал": "channel*|groove*|slot*|trench*|line", "кабель": "cable*|wire*|wiring" }
+   }
+  ]
+ },
+ {
+  "id": 2280, "w": "tighten", "uk": "затягувати, підкручувати", "lvl": "B2",
+  "forms": "tighten|tightens|tightened|tightened|tightening",
+  "near": "screw* in|screw* up|fasten*|secure*|do up|did up|done up",
+  "tasks": [
+   {
+    "sit": "Стілець на кухні хитається. Ти береш інструменти й кажеш синові.",
+    "say": "Зараз підтягну гвинти, і він перестане хитатися.",
+    "ans": ["I’ll tighten the screws and it’ll stop wobbling.", "Let me tighten the screws so it doesn’t wobble anymore.", "I’ll just tighten the screws — that should stop the wobble."],
+    "keys": { "гвинти": "screw*|bolt*", "хитатися": "wobbl*|shak*|rock*|mov*|loose" }
+   },
+   {
+    "sit": "Ти на шиномонтажі. Майстер поставив колесо, а ти просиш перевірити.",
+    "say": "Будь ласка, затягніть гайки ще раз, щоб колесо не відкрутилося.",
+    "ans": ["Please tighten the nuts again so the wheel doesn’t come loose.", "Could you tighten the lug nuts once more, just to be safe?", "Can you tighten the nuts one more time? I don’t want the wheel coming off."],
+    "keys": { "гайки": "nut*|bolt*", "ще раз": "again|once more|one more time|safe|sure|want" }
+   },
+   {
+    "sit": "Ви з другом збираєте велосипед після перевезення. Він помічає, що кермо крутиться.",
+    "say": "Треба затягнути болт на кермі.",
+    "ans": ["We need to tighten the bolt on the handlebars.", "The handlebar bolt needs to be tightened.", "Let’s tighten the handlebar bolt."],
+    "keys": { "болт": "bolt*|screw*", "кермо": "handlebar*|handle*|steering|bar*" }
+   }
+  ]
+ },
+ {
+  "id": 2281, "w": "loosen", "uk": "послаблювати, відпускати (гайку, болт)", "lvl": "B2",
+  "forms": "loosen|loosens|loosened|loosened|loosening",
+  "near": "unscrew*|undo|undid|undone|slacken*|release*|relax*|unfasten*",
+  "tasks": [
+   {
+    "sit": "Ти міняєш пробите колесо на трасі й по телефону питаєш батька, як правильно.",
+    "say": "Спочатку трохи відпусти гайки, а потім піднімай машину домкратом?",
+    "ans": ["So first I loosen the nuts a little and then jack up the car?", "Should I loosen the lug nuts before I jack the car up?", "I loosen the nuts first, then jack it up, right?"],
+    "keys": { "гайки": "nut*|bolt*", "домкрат": "jack*|lift*|raise*" }
+   },
+   {
+    "sit": "Ти налаштовуєш висоту сідла на велосипеді доньки.",
+    "say": "Послаб цей болт, і сідло можна буде підняти.",
+    "ans": ["Loosen this bolt and you can raise the seat.", "If you loosen this bolt, the saddle will go up.", "Just loosen this bolt and then pull the seat up."],
+    "keys": { "болт": "bolt*|screw*|nut*|clamp*", "сідло": "seat*|saddle*" }
+   },
+   {
+    "sit": "Сантехнік по відеозвʼязку допомагає тобі розібрати сифон під мийкою.",
+    "say": "Гайку не відкручуй повністю, просто послаб.",
+    "ans": ["Don’t take the nut off completely, just loosen it.", "Just loosen the nut — don’t unscrew it all the way.", "Don’t remove the nut, just loosen it a bit."],
+    "keys": { "гайка": "nut*|it", "не повністю": "not|just|only|bit|little|slightly" }
+   }
+  ]
+ },
+ {
+  "id": 2283, "w": "level", "uk": "вирівнювати (по рівню)", "lvl": "C1",
+  "forms": "level|levels|leveled/levelled|leveled/levelled|leveling/levelling",
+  "near": "straighten*|even* out|even* up|align*|flatten*|adjust*",
+  "tasks": [
+   {
+    "sit": "Ти встановлюєш нову пральну машину, а вона під час віджиму стрибає по підлозі.",
+    "say": "Треба вирівняти машинку — підкрутити ніжки.",
+    "ans": ["I need to level the washing machine by adjusting the feet.", "The washer has to be leveled — I’ll turn the feet.", "I’ve got to level the machine, just adjust the legs a bit."],
+    "keys": { "машинка": "machine*|washer*", "ніжки": "feet|foot|leg*" }
+   },
+   {
+    "sit": "Будівельники готують ділянку під бруківку. Ти пояснюєш сусідові, що вони роблять.",
+    "say": "Вони вирівнюють пісок, перш ніж класти плитку.",
+    "ans": ["They’re leveling the sand before laying the pavers.", "They level the sand first, then put down the paving stones.", "They’re just levelling the sand before the stones go down."],
+    "keys": { "пісок": "sand*|ground|base", "плитка": "paver*|paving*|stone*|tile*|slab*" }
+   },
+   {
+    "sit": "Ти з другом вішаєш полицю. Він тримає її, а ти дивишся на будівельний рівень.",
+    "say": "Почекай, треба ще вирівняти полицю — лівий край нижче.",
+    "ans": ["Wait, we still need to level the shelf — the left side is lower.", "Hang on, the shelf needs to be leveled, the left end is too low.", "Hold on, let’s level the shelf — it’s lower on the left."],
+    "keys": { "полиця": "shelf|shelves", "лівий край": "left" }
+   }
+  ]
+ },
+ {
+  "id": 2284, "w": "mark", "uk": "робити позначку, позначати", "lvl": "A2",
+  "forms": "mark|marks|marked|marked|marking",
+  "near": "draw*|drew|put a dot|mark* out|highlight*|label*|note*",
+  "tasks": [
+   {
+    "sit": "Ви з батьком вішаєте дзеркало. Він тримає його на стіні.",
+    "say": "Тримай так, я позначу олівцем, де свердлити.",
+    "ans": ["Hold it there, I’ll mark where to drill with a pencil.", "Keep it there while I mark the spot with a pencil.", "Hold it right there — let me mark where to drill."],
+    "keys": { "олівець": "pencil*|pen|spot|where", "тримай": "hold|keep" }
+   },
+   {
+    "sit": "Ви з другом плануєте похід і дивитеся на паперову карту.",
+    "say": "Я позначив на карті, де ми будемо ночувати.",
+    "ans": ["I marked on the map where we’ll sleep.", "I’ve marked the places where we’ll stay the night on the map.", "I marked our campsites on the map."],
+    "keys": { "карта": "map*", "ночувати": "sleep|stay|night|camp*" }
+   },
+   {
+    "sit": "Ти вчитель, і учень питає, як виправляти помилки в зошиті.",
+    "say": "Познач незнайомі слова червоною ручкою.",
+    "ans": ["Mark the new words with a red pen.", "Use a red pen to mark the words you don’t know.", "Mark any words you don’t know in red."],
+    "keys": { "слова": "word*", "червоний": "red" }
+   }
+  ]
+ },
+ {
+  "id": 2285, "w": "strip wires", "uk": "зачищати проводи", "lvl": "C1",
+  "forms": "strip|strips|stripped|stripped|stripping",
+  "tail": "wire*|cable*",
+  "near": "peel*|cut the insulation|remove the insulation|bare the wire*",
+  "tasks": [
+   {
+    "sit": "Ти міняєш розетку й дзвониш другові-електрику, бо щось не виходить.",
+    "say": "Я зачистив проводи, але вони не вставляються в клеми.",
+    "ans": ["I stripped the wires, but they won’t go into the terminals.", "I’ve stripped the wires, but I can’t get them into the terminals.", "I stripped the wires, but they just won’t fit in the terminals."],
+    "keys": { "клеми": "terminal*|socket*|connector*|slot*|hole*", "не вставляються": "not|can not|won|no" }
+   },
+   {
+    "sit": "На уроці робототехніки ти допомагаєш дітям зібрати схему.",
+    "say": "Зачищайте проводи обережно, не пошкодьте мідь.",
+    "ans": ["Strip the wires carefully and don’t damage the copper.", "Be careful when you strip the wires so you don’t cut the copper.", "Strip those wires gently — don’t nick the copper."],
+    "keys": { "обережно": "careful*|gentl*|slow*", "мідь": "copper|metal|core" }
+   },
+   {
+    "sit": "Колега-новачок на обʼєкті питає, навіщо тобі цей інструмент із затискачем.",
+    "say": "Це щоб швидко зачищати проводи.",
+    "ans": ["It’s for stripping wires quickly.", "I use it to strip wires fast.", "This thing? It’s for stripping wires, super quick."],
+    "keys": { "швидко": "quick*|fast|easy|easily|second*" }
+   }
+  ]
+ },
+ {
+  "id": 2287, "w": "mount", "uk": "кріпити (на стіну)", "lvl": "B2",
+  "forms": "mount|mounts|mounted|mounted|mounting",
+  "near": "hang|hung|hanging|attach*|fix*|put up|install*|fasten*",
+  "tasks": [
+   {
+    "sit": "Ви з дружиною купили великий телевізор, але тумба для нього замала.",
+    "say": "Давай закріпимо телевізор на стіні.",
+    "ans": ["Let’s mount the TV on the wall.", "We could mount the TV on the wall instead.", "Why don’t we just mount the TV on the wall?"],
+    "keys": { "телевізор": "tv|television|telly|it", "стіна": "wall*" }
+   },
+   {
+    "sit": "Ти замовляєш установку кондиціонера й уточнюєш деталі з менеджером.",
+    "say": "Зовнішній блок можна закріпити під вікном?",
+    "ans": ["Can you mount the outdoor unit under the window?", "Is it possible to mount the outside unit below the window?", "Could the outdoor unit be mounted under the window?"],
+    "keys": { "зовнішній блок": "unit*|outdoor|outside|compressor*", "під вікном": "window*" }
+   },
+   {
+    "sit": "Ти готуєшся до велопоходу й показуєш другові своє спорядження.",
+    "say": "Я закріпив камеру на кермі, щоб знімати дорогу.",
+    "ans": ["I mounted the camera on the handlebars to film the ride.", "I’ve mounted a camera on my handlebars so I can film the road.", "I mounted the camera on the bars to record the trip."],
+    "keys": { "камера": "camera*|gopro*", "кермо": "handlebar*|bar*|bike" }
+   }
+  ]
+ },
+ {
+  "id": 2288, "w": "hang", "uk": "вішати", "lvl": "A2",
+  "forms": "hang|hangs|hung|hung|hanging",
+  "near": "put up|mount*|attach*|pin*|stick*",
+  "tasks": [
+   {
+    "sit": "Ти купив картину на ярмарку й радишся з дружиною, куди її подіти.",
+    "say": "Давай повісимо її над диваном.",
+    "ans": ["Let’s hang it over the sofa.", "We can hang the picture above the couch.", "Why don’t we hang it above the sofa?"],
+    "keys": { "над диваном": "sofa*|couch*|settee*" }
+   },
+   {
+    "sit": "Ви з мамою прикрашаєте квартиру до Нового року.",
+    "say": "Я повішу гірлянду на вікно.",
+    "ans": ["I’ll hang the lights on the window.", "I’m going to hang the garland in the window.", "I’ll hang the fairy lights over the window."],
+    "keys": { "гірлянда": "light*|garland*|decoration*", "вікно": "window*" }
+   },
+   {
+    "sit": "Ти в готелі, і рецепціоніст питає, чи все гаразд із номером.",
+    "say": "Можна мені ще кілька вішаків? Нема куди повісити одяг.",
+    "ans": ["Could I have some more hangers? I have nowhere to hang my clothes.", "Can I get a few more hangers? There’s nowhere to hang my clothes.", "Any chance of more hangers? I’ve got nowhere to hang my stuff."],
+    "keys": { "вішаки": "hanger*|hook*", "одяг": "cloth*|stuff|shirt*|things|dress*" }
+   }
+  ]
+ },
+ {
+  "id": 2289, "w": "fit", "uk": "встановлювати (замок, деталь)", "lvl": "B2",
+  "forms": "fit|fits|fitted/fit|fitted/fit|fitting",
+  "near": "install*|put in|change*|replace*|mount*|set up",
+  "tasks": [
+   {
+    "sit": "Після квартирної крадіжки в сусідів ти телефонуєш у сервіс замків.",
+    "say": "Мені треба поставити новий замок на вхідні двері.",
+    "ans": ["I need to have a new lock fitted on my front door.", "I want to fit a new lock on the front door.", "Could you fit a new lock on my front door?"],
+    "keys": { "замок": "lock*", "вхідні двері": "door*" }
+   },
+   {
+    "sit": "Сусід питає, чому біля твого будинку стоїть фургон будівельної фірми.",
+    "say": "Нам ставлять нові вікна.",
+    "ans": ["They’re fitting new windows for us.", "We’re having new windows fitted.", "Oh, we’re getting new windows fitted."],
+    "keys": { "вікна": "window*" }
+   },
+   {
+    "sit": "Ти береш машину з сервісу й запитуєш механіка про роботу.",
+    "say": "Ви поставили нові гальмівні колодки?",
+    "ans": ["Did you fit new brake pads?", "Have you fitted the new brake pads?", "So did you fit new brake pads in the end?"],
+    "keys": { "гальмівні колодки": "brake*|pad*" }
+   }
+  ]
+ },
+ {
+  "id": 2290, "w": "wire up", "uk": "проводити електрику, підключати проводку", "lvl": "C1",
+  "forms": "wire|wires|wired|wired|wiring",
+  "tail": "up",
+  "near": "connect*|hook* up|install*|plug* in|rewire*",
+  "tasks": [
+   {
+    "sit": "Ти облаштовуєш майстерню в гаражі й радишся з другом-електриком.",
+    "say": "Допоможеш мені провести світло й розетки в гаражі?",
+    "ans": ["Could you help me wire up the lights and sockets in the garage?", "Will you help me wire up the garage — lights and outlets?", "Can you help me wire up lights and sockets in my garage?"],
+    "keys": { "світло": "light*|lamp*", "розетки": "socket*|outlet*|plug*|power" }
+   },
+   {
+    "sit": "Ти вчишся на курсах електромонтажу й розповідаєш мамі, що робили на практиці.",
+    "say": "Сьогодні ми самі підключили щиток.",
+    "ans": ["Today we wired up a fuse box ourselves.", "We wired up a whole panel on our own today.", "We actually wired up a fuse board ourselves today!"],
+    "keys": { "щиток": "fuse*|panel*|board*|box*|breaker*", "самі": "ourselves|on our own|alone|by ourselves" }
+   },
+   {
+    "sit": "Ви з друзями встановлюєте прожектори на дачі перед вечіркою.",
+    "say": "Прожектори вже підключені, можна вмикати.",
+    "ans": ["The floodlights are wired up — we can turn them on.", "I’ve wired up the spotlights, so let’s switch them on.", "The lights are all wired up, go ahead and turn them on."],
+    "keys": { "прожектори": "floodlight*|spotlight*|light*|lamp*", "вмикати": "turn* on|switch* on|on" }
+   }
+  ]
+ },
+ {
+  "id": 2291, "w": "connect", "uk": "з'єднувати", "lvl": "A2",
+  "forms": "connect|connects|connected|connected|connecting",
+  "near": "join*|link*|attach*|hook* up|plug* in|fit*|put together",
+  "tasks": [
+   {
+    "sit": "Сантехнік ставить нову мийку на кухні. Ти питаєш, скільки ще чекати.",
+    "say": "Вам залишилося тільки з'єднати труби?",
+    "ans": ["Do you only need to connect the pipes now?", "So all that’s left is to connect the pipes?", "You just have to connect the pipes, right?"],
+    "keys": { "труби": "pipe*", "тільки": "only|just|all|left" }
+   },
+   {
+    "sit": "Ти збираєш дитячу залізну дорогу разом із сином.",
+    "say": "З'єднай ці дві рейки, і потяг поїде.",
+    "ans": ["Connect these two rails and the train will go.", "If you connect these two pieces of track, the train can run.", "Connect those two rails — then the train will go."],
+    "keys": { "рейки": "rail*|track*|piece*", "потяг": "train*" }
+   },
+   {
+    "sit": "Колега не може запустити проектор на нараді й просить допомоги.",
+    "say": "Зʼєднай ці два кабелі перехідником.",
+    "ans": ["Connect the two cables with an adapter.", "Use an adapter to connect these two cables.", "Just connect those two cables with the adapter."],
+    "keys": { "кабелі": "cable*|wire*|lead*", "перехідник": "adapter*|adaptor*|connector*" }
+   }
+  ]
+ },
+ {
+  "id": 2292, "w": "plumb", "uk": "підключати до водопроводу / робити сантехніку", "lvl": "C1",
+  "forms": "plumb|plumbs|plumbed|plumbed|plumbing",
+  "near": "connect*|hook* up|install*|fit*|pipe*",
+  "tasks": [
+   {
+    "sit": "Ти купив посудомийну машину. Продавець питає, чи потрібен майстер для встановлення.",
+    "say": "Не треба, я сам підключу її до водопроводу.",
+    "ans": ["No need, I’ll plumb it in myself.", "No thanks, I can plumb the dishwasher in on my own.", "That’s OK, I’ll plumb it in myself."],
+    "keys": { "сам": "myself|on my own|by myself|alone" }
+   },
+   {
+    "sit": "Ви з дружиною обговорюєте кошторис на ремонт ванної.",
+    "say": "Найдорожче — провести сантехніку для нового душу.",
+    "ans": ["The most expensive part is to plumb the new shower.", "Plumbing in the new shower will cost the most.", "What costs the most is getting the new shower plumbed in."],
+    "keys": { "душ": "shower*", "найдорожче": "expensive|cost*|price*|money" }
+   },
+   {
+    "sit": "Ти на співбесіді на будівельному обʼєкті. Бригадир питає про твій досвід.",
+    "say": "Я підключав до водопроводу пральні машини й бойлери.",
+    "ans": ["I’ve plumbed in washing machines and water heaters.", "I have plumbed in washers and boilers.", "I’ve plumbed in plenty of washing machines and boilers."],
+    "keys": { "пральні машини": "washing machine*|washer*", "бойлери": "boiler*|water heater*|heater*" }
+   }
+  ]
+ },
+ {
+  "id": 2293, "w": "lay carpet", "uk": "стелити килимове покриття", "lvl": "B2",
+  "forms": "lay|lays|laid|laid|laying",
+  "tail": "carpet*",
+  "near": "put down|install*|fit*|carpeted|carpeting",
+  "tasks": [
+   {
+    "sit": "Ви з дружиною вибираєте покриття для спальні. Вона хоче ламінат.",
+    "say": "А може, постелимо в спальні килимове покриття? Буде тепліше.",
+    "ans": ["Why don’t we lay carpet in the bedroom? It’ll be warmer.", "Maybe we could lay carpet in the bedroom — it’s warmer.", "How about we lay carpet in the bedroom? It’d be so much warmer."],
+    "keys": { "спальня": "bedroom*|room", "тепліше": "warm*|cozy|cosy" }
+   },
+   {
+    "sit": "Ти працюєш у фірмі з ремонту. Клієнт телефонує й питає, коли прийдуть майстри.",
+    "say": "Ми постелимо килимове покриття в четвер.",
+    "ans": ["We’ll lay the carpet on Thursday.", "We’re going to lay carpet on Thursday.", "We’re coming to lay the carpet on Thursday."],
+    "keys": { "четвер": "thursday*" }
+   },
+   {
+    "sit": "Ти зайшов на новий офіс друга, а там ще голий бетон на підлозі.",
+    "say": "Ви ще не постелили килимове покриття?",
+    "ans": ["You haven’t laid the carpet yet?", "Haven’t you laid carpet here yet?", "So you still haven’t laid the carpet?"],
+    "keys": { "ще не": "not|yet|still" }
+   }
+  ]
+ },
+ {
+  "id": 2294, "w": "screw down", "uk": "прикручувати (до основи)", "lvl": "C1",
+  "forms": "screw|screws|screwed|screwed|screwing",
+  "tail": "down",
+  "near": "nail* down|fix*|fasten*|secure*|attach*|bolt* down",
+  "tasks": [
+   {
+    "sit": "У коридорі скрипить і хитається стара дошка підлоги. Ти кажеш дружині, що робитимеш.",
+    "say": "Я прикручу цю дошку, щоб вона не скрипіла.",
+    "ans": ["I’ll screw down this board so it stops creaking.", "I’m going to screw this floorboard down so it doesn’t creak.", "I’ll screw that board down — no more creaking."],
+    "keys": { "дошка": "board*|floorboard*|plank*", "скрипіла": "creak*|squeak*|nois*" }
+   },
+   {
+    "sit": "Ти працюєш у магазині й готуєш нову вітрину. Керівник переживає за безпеку.",
+    "say": "Не хвилюйтеся, ми прикрутимо стелажі до підлоги.",
+    "ans": ["Don’t worry, we’ll screw the shelves down to the floor.", "Don’t worry, the racks will be screwed down to the floor.", "Relax, we’re screwing the shelving units down to the floor."],
+    "keys": { "стелажі": "shel*|rack*|unit*|stand*", "підлога": "floor*" }
+   },
+   {
+    "sit": "Ти будуєш із другом дерев'яну терасу. Він хоче скласти дошки й піти відпочивати.",
+    "say": "Спершу треба прикрутити всі дошки, інакше вітер їх зірве.",
+    "ans": ["We need to screw down all the boards first, or the wind will blow them away.", "All the boards have to be screwed down first, otherwise the wind will lift them.", "Let’s screw all the boards down first — the wind could rip them off."],
+    "keys": { "дошки": "board*|plank*", "вітер": "wind*" }
+   }
+  ]
+ },
+ {
+  "id": 2295, "w": "seal off", "uk": "герметично ізолювати (приміщення, зону)", "lvl": "C1",
+  "forms": "seal|seals|sealed|sealed|sealing",
+  "tail": "off",
+  "near": "close* off|block* off|cordon* off|shut* off|isolat*|cover*|tape* off",
+  "tasks": [
+   {
+    "sit": "У вашій квартирі почали шліфувати стіни. Ти переживаєш за меблі в сусідній кімнаті.",
+    "say": "Давай ізолюємо вітальню плівкою, щоб туди не йшов пил.",
+    "ans": ["Let’s seal off the living room with plastic so the dust doesn’t get in.", "We should seal the living room off with plastic sheeting to keep the dust out.", "Let’s seal off the living room with plastic — keep the dust out."],
+    "keys": { "плівка": "plastic*|film|sheet*|tape", "пил": "dust*" }
+   },
+   {
+    "sit": "Ти працюєш у фірмі, що знищує цвіль. Клієнт питає, як проходитиме робота.",
+    "say": "Спочатку ми повністю загерметизуємо підвал.",
+    "ans": ["First we’ll seal off the basement completely.", "The basement will be completely sealed off first.", "First thing, we seal off the whole basement."],
+    "keys": { "підвал": "basement*|cellar*" }
+   },
+   {
+    "sit": "Ти лаборант. Новий колега питає, чому в кінці коридору висить табличка «Не входити».",
+    "say": "Ту лабораторію герметично закрили через витік хімікатів.",
+    "ans": ["That lab was sealed off because of a chemical leak.", "They sealed off that lab after a chemical leak.", "They’ve sealed off that lab — there was a chemical leak."],
+    "keys": { "лабораторія": "lab*|room", "витік": "leak*|spill*" }
+   }
+  ]
+ },
+ {
+  "id": 2297, "w": "dress up", "uk": "нарядно вдягатися", "lvl": "B1",
+  "forms": "dress|dresses|dressed|dressed|dressing",
+  "tail": "up",
+  "near": "get dressed|got dressed|put on|wear|wore|smarten* up|doll* up",
+  "tasks": [
+   {
+    "sit": "Колега запрошує тебе на день народження в ресторан. Ти не знаєш, що вдягнути.",
+    "say": "Треба вдягнутися нарядно чи можна в джинсах?",
+    "ans": ["Do I need to dress up, or are jeans OK?", "Should I dress up, or can I come in jeans?", "Is it the kind of place where you dress up, or are jeans fine?"],
+    "keys": { "джинси": "jean*|casual" }
+   },
+   {
+    "sit": "Бабуся розповідає, як колись ходила в театр. Ти переказуєш це сестрі.",
+    "say": "Раніше всі нарядно вдягалися, коли йшли в театр.",
+    "ans": ["People used to dress up to go to the theater.", "In the past, everyone dressed up when they went to the theatre.", "Back then everyone would dress up for the theatre."],
+    "keys": { "раніше": "used to|in the past|back then|before|years ago|would", "театр": "theater*|theatre*" }
+   },
+   {
+    "sit": "Сусід бачить тебе в костюмі в неділю зранку й дивується.",
+    "say": "Я вдягнувся нарядно, бо йду на весілля друга.",
+    "ans": ["I dressed up because I’m going to a friend’s wedding.", "I’m dressed up because my friend’s getting married today.", "I’m all dressed up for my friend’s wedding."],
+    "keys": { "весілля": "wedding*|married|marry" }
+   }
+  ]
+ },
+ {
+  "id": 2298, "w": "dress down", "uk": "вдягатися по-простому", "lvl": "B2",
+  "forms": "dress|dresses|dressed|dressed|dressing",
+  "tail": "down",
+  "near": "casual*|wear jeans|wore jeans|dress casual*",
+  "tasks": [
+   {
+    "sit": "Новий колега питає про дрес-код у вашому офісі.",
+    "say": "У пʼятницю можна вдягатися по-простому.",
+    "ans": ["You can dress down on Fridays.", "On Fridays, everyone is allowed to dress down.", "Fridays we all dress down — jeans are totally fine."],
+    "keys": { "пʼятниця": "friday*" }
+   },
+   {
+    "sit": "Подруга йде на перше побачення в ресторан і хоче вдягнути вечірню сукню. Ти вважаєш, що це занадто.",
+    "say": "Вдягнися простіше — це ж звичайна піцерія.",
+    "ans": ["Dress down a bit — it’s just a pizza place.", "You should dress down, since it’s only a pizzeria.", "Honestly, I’d dress down — it’s just a pizza place."],
+    "keys": { "піцерія": "pizza*|pizzeria*" }
+   },
+   {
+    "sit": "Ти читаєш статтю про мільярдера й розповідаєш другові, що тебе здивувало.",
+    "say": "Він завжди вдягається дуже просто — футболка й кросівки.",
+    "ans": ["He always dresses down — T-shirt and sneakers.", "He always dresses down, just a T-shirt and trainers.", "He always dresses down, like a T-shirt and sneakers."],
+    "keys": { "завжди": "always|every day|all the time", "футболка": "t-shirt*|tee*|shirt*|sneaker*|trainer*|jeans" }
+   }
+  ]
+ },
+ {
+  "id": 2299, "w": "suit up", "uk": "вдягнути костюм (діловий або спеціальний)", "lvl": "B2",
+  "forms": "suit|suits|suited|suited|suiting",
+  "tail": "up",
+  "near": "dress* up|put on a suit|wear a suit|get dressed|gear up|geared up",
+  "tasks": [
+   {
+    "sit": "Сьогодні в тебе зустріч з інвесторами, а зазвичай ти ходиш на роботу в худі. Колега дивується.",
+    "say": "Так, довелося вдягнути костюм — сьогодні зустріч з інвесторами.",
+    "ans": ["Yeah, I had to suit up — we’re meeting investors today.", "Yes, I suited up because of the investor meeting today.", "Yep, had to suit up — big investor meeting today."],
+    "keys": { "інвестори": "investor*|meeting|client*" }
+   },
+   {
+    "sit": "Ти граєш в аматорській хокейній команді. До гри десять хвилин, а партнер ще сидить з телефоном.",
+    "say": "Вдягай форму, ми виходимо через десять хвилин!",
+    "ans": ["Suit up, we’re going out in ten minutes!", "Come on, suit up — we’re on in ten minutes!", "Suit up, man, we’re on the ice in ten!"],
+    "keys": { "десять хвилин": "ten|10|minute*" }
+   },
+   {
+    "sit": "Ти пасічник і пояснюєш другові, як підготуватися до огляду вуликів.",
+    "say": "Перш ніж підходити до вуликів, треба вдягнути захисний костюм.",
+    "ans": ["You need to suit up before you go near the hives.", "Before going near the hives, you have to suit up.", "Suit up first, then we can go near the hives."],
+    "keys": { "вулики": "hive*|bee*" }
+   }
+  ]
+ },
+ {
+  "id": 2300, "w": "throw on", "uk": "накинути (одяг)", "lvl": "B1",
+  "forms": "throw|throws|threw|thrown|throwing",
+  "tail": "on",
+  "near": "put on|puts on|putting on|pull* on|slip* on|slip* into|grab*|wear",
+  "tasks": [
+   {
+    "sit": "Курʼєр дзвонить у двері, а ти ще в піжамі. Кажеш йому через двері.",
+    "say": "Хвилинку, тільки щось накину!",
+    "ans": ["One minute, let me just throw something on!", "Just a second, I’ll throw on some clothes!", "Hang on, I’m just throwing something on!"],
+    "keys": { "хвилинку": "minute|second|moment|hang on|wait|sec" }
+   },
+   {
+    "sit": "Ви з другом вийшли на балкон, а там прохолодно. Він тремтить.",
+    "say": "Накинь мою куртку, вона на кріслі.",
+    "ans": ["Throw on my jacket — it’s on the chair.", "Just throw my jacket on, it’s on the armchair.", "Here, throw on my jacket, it’s on the chair."],
+    "keys": { "куртка": "jacket*|coat*|hoodie*", "крісло": "chair*|armchair*" }
+   },
+   {
+    "sit": "Подруга питає, як ти встиг так швидко прийти в кафе після її дзвінка.",
+    "say": "Я накинув першу-ліпшу кофту й вибіг з дому.",
+    "ans": ["I threw on the first sweater I found and ran out.", "I just threw on a sweater and ran out of the house.", "I threw on whatever hoodie I could find and ran out the door."],
+    "keys": { "кофта": "sweater*|jumper*|hoodie*|cardigan*|top", "вибіг": "ran|run*|rushed|left|out" }
+   }
+  ]
+ },
+ {
+  "id": 2301, "w": "slip into", "uk": "швидко перевдягнутися в (щось зручне)", "lvl": "B2",
+  "forms": "slip|slips|slipped|slipped|slipping",
+  "tail": "into/in",
+  "near": "change* into|put on|puts on|putting on|throw* on|threw on|get into|got into",
+  "tasks": [
+   {
+    "sit": "Ти повернувся з довгого робочого дня. Дружина питає, чи підеш ти в магазин.",
+    "say": "Дай мені хвилинку перевдягнутися в щось зручне.",
+    "ans": ["Give me a minute to slip into something comfortable.", "Let me just slip into something more comfortable first.", "Give me a sec — I’ll slip into something comfy."],
+    "keys": { "зручне": "comfortable|comfy|cozy|cosy|casual" }
+   },
+   {
+    "sit": "Ти в спа-готелі й пояснюєш другові, що робити після роздягальні.",
+    "say": "Перевдягайся в халат і тапочки, зустрінемося біля басейну.",
+    "ans": ["Slip into a robe and slippers, and I’ll see you by the pool.", "Just slip into your bathrobe and slippers — meet me at the pool.", "Slip into the robe and slippers, I’ll meet you by the pool."],
+    "keys": { "халат": "robe*|bathrobe*|gown", "басейн": "pool*" }
+   },
+   {
+    "sit": "Сестра розповідає про ідеальний вечір після важкого тижня. Ти погоджуєшся.",
+    "say": "О, перевдягнутися в піжаму й дивитися фільм — те що треба.",
+    "ans": ["Oh, slipping into pajamas and watching a movie sounds perfect.", "Yes, I’d love to slip into my pajamas and watch a film.", "Slip into pyjamas and watch a movie? That’s exactly what I need."],
+    "keys": { "піжама": "pajama*|pyjama*|pj*", "фільм": "movie*|film*|netflix|tv" }
+   }
+  ]
+ },
+ {
+  "id": 2302, "w": "pull on", "uk": "натягувати (одяг, взуття)", "lvl": "A2",
+  "forms": "pull|pulls|pulled|pulled|pulling",
+  "tail": "on",
+  "near": "put on|puts on|putting on|wear|throw* on|threw on|slip* on",
+  "tasks": [
+   {
+    "sit": "Ви з донькою збираєтеся гуляти, а на вулиці сніг.",
+    "say": "Натягни теплі шкарпетки, на вулиці холодно.",
+    "ans": ["Pull on your warm socks, it’s cold outside.", "It’s cold out, so pull on some warm socks.", "Pull on those warm socks — it’s freezing out there."],
+    "keys": { "шкарпетки": "sock*", "холодно": "cold|freezing|chilly|snow*" }
+   },
+   {
+    "sit": "Ти прокинувся пізно й розповідаєш колезі, як мчав на роботу.",
+    "say": "Я натягнув джинси й вибіг з дому.",
+    "ans": ["I pulled on my jeans and ran out.", "I just pulled on some jeans and ran out of the house.", "I pulled my jeans on and rushed out the door."],
+    "keys": { "джинси": "jean*|trouser*|pant*", "вибіг": "ran|run*|rushed|left|out" }
+   },
+   {
+    "sit": "Ви з другом на риболовлі, і треба зайти у воду.",
+    "say": "Натягни гумові чоботи, тут глибоко.",
+    "ans": ["Pull on your rubber boots, it’s deep here.", "It’s deep here, so pull on your wellies.", "Pull on your boots — the water’s deep here."],
+    "keys": { "чоботи": "boot*|wellies|wellington*|waders", "глибоко": "deep" }
+   }
+  ]
+ },
+ {
+  "id": 2303, "w": "button up", "uk": "застібати на ґудзики", "lvl": "B1",
+  "forms": "button|buttons|buttoned|buttoned|buttoning",
+  "tail": "up",
+  "near": "do up|did up|done up|fasten*|zip* up|close*",
+  "tasks": [
+   {
+    "sit": "Ти ведеш сина до школи, а надворі сильний вітер.",
+    "say": "Застебни пальто, бо змерзнеш.",
+    "ans": ["Button up your coat, or you’ll get cold.", "Button your coat up — you’ll freeze otherwise.", "Button up your coat or you’ll catch a cold."],
+    "keys": { "пальто": "coat*|jacket*", "змерзнеш": "cold|freez*|chill*" }
+   },
+   {
+    "sit": "Ти готуєшся до співбесіди й радишся з братом щодо сорочки.",
+    "say": "Застібати сорочку до самого верху чи ні?",
+    "ans": ["Should I button up my shirt all the way to the top?", "Do I button my shirt up to the top or not?", "Should I button up the shirt all the way, or leave it open?"],
+    "keys": { "сорочка": "shirt*", "до верху": "top|all the way|collar*|neck" }
+   },
+   {
+    "sit": "Колега виходить на сцену вручати нагороду. Ти помічаєш, що в нього розстебнутий піджак.",
+    "say": "Застебни піджак перед тим, як виходити на сцену.",
+    "ans": ["Button up your jacket before you go on stage.", "You should button your jacket up before going on stage.", "Hey, button up your jacket before you go up there."],
+    "keys": { "піджак": "jacket*|blazer*|suit*", "сцена": "stage|up there|out there" }
+   }
+  ]
+ },
+ {
+  "id": 2304, "w": "zip up", "uk": "застібати на блискавку", "lvl": "B1",
+  "forms": "zip|zips|zipped|zipped|zipping",
+  "tail": "up",
+  "near": "do up|did up|done up|fasten*|button* up|close*",
+  "tasks": [
+   {
+    "sit": "Ви з донькою виходите з дому, а на вулиці мінус десять.",
+    "say": "Застебни куртку до кінця!",
+    "ans": ["Zip up your jacket all the way!", "Zip your coat up all the way, please!", "Zip up your jacket — all the way up!"],
+    "keys": { "куртка": "jacket*|coat*", "до кінця": "all the way|to the top|top|fully" }
+   },
+   {
+    "sit": "Ви з другом збираєте речі в аеропорту, і він поспішає до стійки реєстрації.",
+    "say": "Ти не застебнув рюкзак, усе випаде!",
+    "ans": ["You didn’t zip up your backpack, everything will fall out!", "Your backpack isn’t zipped up — your stuff will fall out!", "Hey, zip up your backpack, everything’s going to fall out!"],
+    "keys": { "рюкзак": "backpack*|bag*|rucksack*", "випаде": "fall out|falls out|drop*|lose|fall" }
+   },
+   {
+    "sit": "Ти в поході на вершині гори, і раптом почав дути сильний вітер.",
+    "say": "Я застебну вітрівку, бо тут дуже дме.",
+    "ans": ["I’m going to zip up my windbreaker, it’s really windy here.", "It’s so windy up here — I’ll zip my jacket up.", "Let me zip up my windbreaker, this wind is crazy."],
+    "keys": { "вітрівка": "windbreaker*|windcheater*|jacket*|shell|anorak*", "дме": "wind*" }
+   }
+  ]
+ },
+ {
+  "id": 2305, "w": "tuck in", "uk": "заправляти (сорочку)", "lvl": "B2",
+  "forms": "tuck|tucks|tucked|tucked|tucking",
+  "tail": "in/into",
+  "near": "put in|push* in|straighten*|fix*",
+  "tasks": [
+   {
+    "sit": "Ти з сином на шкільній лінійці, і він виглядає неохайно.",
+    "say": "Заправ сорочку в штани, будь ласка.",
+    "ans": ["Tuck your shirt in, please.", "Please tuck your shirt into your trousers.", "Tuck your shirt in, buddy."],
+    "keys": { "сорочка": "shirt*" }
+   },
+   {
+    "sit": "Ти на співбесіді на посаду офіціанта. Менеджер пояснює правила.",
+    "say": "Сорочку завжди треба заправляти, а волосся — збирати.",
+    "ans": ["You must always tuck in your shirt and tie your hair back.", "Shirts always have to be tucked in, and hair tied back.", "Always tuck your shirt in and tie your hair back."],
+    "keys": { "сорочка": "shirt*", "волосся": "hair" }
+   },
+   {
+    "sit": "Подруга питає, як краще носити нову широку футболку з джинсами.",
+    "say": "Заправ її спереду — так виглядає стильніше.",
+    "ans": ["Tuck it in at the front — it looks more stylish.", "Just tuck the front in, it looks cooler that way.", "Tuck in the front bit — it looks way more stylish."],
+    "keys": { "спереду": "front", "стильніше": "stylish|cool*|better|nice*|good" }
+   }
+  ]
+ }
+]

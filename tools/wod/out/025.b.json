@@ -1,0 +1,1220 @@
+[
+ {
+  "id": 1378,
+  "w": "germinate",
+  "uk": "проростати (про насіння)",
+  "lvl": "C1",
+  "forms": "germinate|germinates|germinated|germinated|germinating",
+  "near": "sprout*|come up|came up|grow*|grew|shoot*",
+  "tasks": [
+   {
+    "sit": "Ти посадив на підвіконні насіння базиліку і пишеш подрузі-садівниці.",
+    "say": "Насіння проросло лише за п’ять днів!",
+    "ans": [
+     "The seeds germinated in just five days!",
+     "The seeds germinated after only five days.",
+     "Only five days and the seeds have already germinated!"
+    ],
+    "keys": {
+     "насіння": "seed*",
+     "п’ять днів": "five|5|day*"
+    }
+   },
+   {
+    "sit": "Ти на уроці біології ставиш дослід і пояснюєш однокласнику, чому нічого не вийшло.",
+    "say": "Без вологи насіння не проростає.",
+    "ans": [
+     "Seeds don’t germinate without moisture.",
+     "Without water, the seeds won’t germinate.",
+     "They won’t germinate if there’s no moisture."
+    ],
+    "keys": {
+     "без": "without|no",
+     "волога": "moisture|water|wet|damp"
+    }
+   },
+   {
+    "sit": "Сусід по дачі питає, чому ти накрив грядку плівкою.",
+    "say": "Під плівкою огірки проростуть швидше.",
+    "ans": [
+     "The cucumbers will germinate faster under the film.",
+     "Under plastic, cucumber seeds germinate more quickly.",
+     "The cucumbers germinate faster under plastic."
+    ],
+    "keys": {
+     "огірки": "cucumber*",
+     "швидше": "fast*|quick*|sooner"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1379,
+  "w": "decay",
+  "uk": "розкладатися, гнити",
+  "lvl": "C1",
+  "forms": "decay|decays|decayed|decayed|decaying",
+  "near": "rot|rots|rotted|rotting|rotten|decompos*|break down|broke down|go bad|went bad",
+  "tasks": [
+   {
+    "sit": "Ти з дитиною в осінньому лісі. Вона питає, куди зникає опале листя.",
+    "say": "Листя розкладається і стає ґрунтом.",
+    "ans": [
+     "The leaves decay and become soil.",
+     "Fallen leaves decay and turn into soil.",
+     "The leaves just decay and turn into earth."
+    ],
+    "keys": {
+     "листя": "lea*",
+     "ґрунт": "soil|earth|dirt|ground"
+    }
+   },
+   {
+    "sit": "Ти оглядаєш старий дерев’яний будинок, який хочеш купити, разом з рієлтором.",
+    "say": "Дошки на ґанку вже гниють.",
+    "ans": [
+     "The boards on the porch are already decaying.",
+     "The porch boards have started to decay.",
+     "The wood on the porch is decaying already."
+    ],
+    "keys": {
+     "дошки": "board*|wood*|plank*",
+     "ґанок": "porch|deck|steps"
+    }
+   },
+   {
+    "sit": "Ти дивишся документальний фільм про природу з другом.",
+    "say": "Повалені дерева гниють десятиліттями.",
+    "ans": [
+     "Fallen trees decay for decades.",
+     "It takes decades for fallen trees to decay.",
+     "Fallen trees can take decades to decay."
+    ],
+    "keys": {
+     "дерева": "tree*|log*",
+     "десятиліття": "decade*|years"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1381,
+  "w": "prowl",
+  "uk": "нишпорити, крадькома блукати (у пошуках здобичі)",
+  "lvl": "C1",
+  "forms": "prowl|prowls|prowled|prowled|prowling",
+  "near": "sneak*|snuck|creep*|crept|lurk*|roam*|wander*|hunt*|stalk*",
+  "tasks": [
+   {
+    "sit": "Ти в кемпінгу, і рейнджер пояснює правила. Ти переказуєш їх друзям.",
+    "say": "Уночі тут нишпорять ведмеді, тому ховайте їжу.",
+    "ans": [
+     "Bears prowl around here at night, so hide your food.",
+     "At night bears prowl the area, so keep your food locked away.",
+     "Bears prowl around at night — put your food away."
+    ],
+    "keys": {
+     "ведмеді": "bear*",
+     "вночі": "night",
+     "їжа": "food"
+    }
+   },
+   {
+    "sit": "Сусідка скаржиться, що хтось підозрілий крутився біля машин.",
+    "say": "Якийсь чоловік нишпорив біля машин опівночі.",
+    "ans": [
+     "Some man was prowling around the cars at midnight.",
+     "A man was prowling around the parked cars at midnight.",
+     "There was some guy prowling around the cars at midnight."
+    ],
+    "keys": {
+     "чоловік": "man|guy|someone|somebody",
+     "машини": "car*",
+     "опівночі": "midnight|night"
+    }
+   },
+   {
+    "sit": "Ти розповідаєш гостям, чому твій кіт не спить уночі.",
+    "say": "Він цілу ніч нишпорить по саду в пошуках мишей.",
+    "ans": [
+     "He prowls the garden all night looking for mice.",
+     "All night he prowls around the garden hunting mice.",
+     "He’s out prowling the garden for mice all night."
+    ],
+    "keys": {
+     "сад": "garden|yard",
+     "миші": "mice|mouse",
+     "всю ніч": "night"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1382,
+  "w": "tie",
+  "uk": "звести внічию, зіграти внічию",
+  "lvl": "B2",
+  "forms": "tie|ties|tied|tied|tying",
+  "near": "draw|drew|drawn|drawing|level*|equaliz*|equalis*",
+  "tasks": [
+   {
+    "sit": "Друг не встиг подивитися матч і питає, хто виграв.",
+    "say": "Ніхто, вони зіграли два–два.",
+    "ans": [
+     "Nobody, they tied 2–2.",
+     "No one won — they tied two-all.",
+     "Nobody won, it was tied 2–2."
+    ],
+    "keys": {
+     "ніхто": "nobody|no one|neither|not",
+     "два": "2*|two"
+    }
+   },
+   {
+    "sit": "Ти граєш у настільну гру з братом, і в кінці у вас однакова кількість очок.",
+    "say": "Ми зіграли внічию — у нас однаково очок!",
+    "ans": [
+     "We tied — we have the same score!",
+     "We tied, we both got the same number of points!",
+     "Looks like we tied — same score!"
+    ],
+    "keys": {
+     "однаково очок": "same|equal|both"
+    }
+   },
+   {
+    "sit": "Ти тренуєш дитячу футбольну команду й підбадьорюєш дітей після гри.",
+    "say": "Ми зіграли внічию з найсильнішою командою ліги — це чудово!",
+    "ans": [
+     "We tied with the best team in the league — that’s great!",
+     "We tied the strongest team in the league, well done!",
+     "We tied with the top team in the league — amazing!"
+    ],
+    "keys": {
+     "найсильніша команда": "best|strongest|top|team",
+     "ліга": "league"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1383,
+  "w": "finish first",
+  "uk": "фінішувати першим",
+  "lvl": "B1",
+  "forms": "finish|finishes|finished|finished|finishing",
+  "tail": "first",
+  "near": "win|won|winning|came first|come first|first place",
+  "tasks": [
+   {
+    "sit": "Твоя донька вперше бігла шкільний крос. Ти хвалишся колегам.",
+    "say": "Моя донька фінішувала першою у крос-забігу!",
+    "ans": [
+     "My daughter finished first in the cross-country race!",
+     "My daughter finished first in her school race!",
+     "Guess what — my daughter finished first in the race!"
+    ],
+    "keys": {
+     "донька": "daughter|girl",
+     "забіг": "race|run*|cross*"
+    }
+   },
+   {
+    "sit": "Ти дивишся з другом велогонку «Тур де Франс».",
+    "say": "Хто фінішував першим на сьогоднішньому етапі?",
+    "ans": [
+     "Who finished first in today’s stage?",
+     "Who finished first on the stage today?",
+     "So who finished first today?"
+    ],
+    "keys": {
+     "сьогодні": "today*"
+    }
+   },
+   {
+    "sit": "Ти розповідаєш, як пройшов твій перший марафон.",
+    "say": "Я не фінішував першим, але добіг до кінця.",
+    "ans": [
+     "I didn’t finish first, but I made it to the end.",
+     "I didn’t finish first, but I completed the race.",
+     "I didn’t finish first, but hey, I got to the finish line!"
+    ],
+    "keys": {
+     "не": "not|never",
+     "добіг": "end|complet*|finish line|made it"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1384,
+  "w": "knock out",
+  "uk": "нокаутувати",
+  "lvl": "B2",
+  "forms": "knock|knocks|knocked|knocked|knocking",
+  "tail": "out",
+  "near": "knock down|knocked down|floor*|beat|beaten|k.o.|ko",
+  "tasks": [
+   {
+    "sit": "Ти дивився бій із боксу і розповідаєш другові, що той пропустив.",
+    "say": "Він нокаутував суперника в першому раунді!",
+    "ans": [
+     "He knocked out his opponent in the first round!",
+     "He knocked his opponent out in round one!",
+     "He knocked the other guy out in the first round!"
+    ],
+    "keys": {
+     "суперник": "opponent|guy|rival|him",
+     "перший раунд": "first|one|1*"
+    }
+   },
+   {
+    "sit": "Ти ходиш на бокс і розповідаєш мамі, чому там безпечно.",
+    "say": "На тренуваннях ніхто нікого не нокаутує.",
+    "ans": [
+     "Nobody knocks anyone out in training.",
+     "No one gets knocked out at practice.",
+     "In training nobody knocks anybody out."
+    ],
+    "keys": {
+     "ніхто": "nobody|no one|not",
+     "тренування": "training|practice|session*"
+    }
+   },
+   {
+    "sit": "Ти граєш у відеогру-файтинг з братом і хвалишся.",
+    "say": "Я нокаутую тебе одним ударом!",
+    "ans": [
+     "I’ll knock you out with one punch!",
+     "I’m going to knock you out in one hit!",
+     "One punch and I’ll knock you out!"
+    ],
+    "keys": {
+     "одним ударом": "punch*|hit|blow|one"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1385,
+  "w": "bat",
+  "uk": "бити битою (відбивати м’яч)",
+  "lvl": "C1",
+  "forms": "bat|bats|batted|batted|batting",
+  "near": "hit|hits|hitting|swing*|swung|strike*|struck",
+  "tasks": [
+   {
+    "sit": "Ти вперше на бейсбольному матчі в США, і американський друг пояснює правила. Ти перепитуєш.",
+    "say": "Отже, зараз б’є наша команда?",
+    "ans": [
+     "So our team is batting now?",
+     "So is our team batting now?",
+     "Wait, so it’s our team batting now?"
+    ],
+    "keys": {
+     "наша команда": "our|we|team",
+     "зараз": "now"
+    }
+   },
+   {
+    "sit": "Ти граєш у крикет з британськими колегами на корпоративі.",
+    "say": "Можна я буду відбивати першим?",
+    "ans": [
+     "Can I bat first?",
+     "Could I bat first, please?",
+     "Mind if I bat first?"
+    ],
+    "keys": {
+     "першим": "first"
+    }
+   },
+   {
+    "sit": "Твій син тренується з бейсболу. Тренер каже тобі про його прогрес.",
+    "say": "Він тепер відбиває набагато краще.",
+    "ans": [
+     "He bats much better now.",
+     "He’s batting a lot better now.",
+     "His batting? He bats way better now."
+    ],
+    "keys": {
+     "краще": "better|improv*",
+     "тепер": "now"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1388,
+  "w": "tread water",
+  "uk": "триматися на воді на місці (плавати вертикально)",
+  "lvl": "C1",
+  "forms": "tread|treads|trod|trodden/trod|treading",
+  "tail": "water",
+  "near": "float*|stay afloat|stayed afloat|keep afloat|kept afloat|swim*|swam",
+  "tasks": [
+   {
+    "sit": "Ти вчиш подругу плавати в морі. Вона запанікувала, бо не дістає дна.",
+    "say": "Не панікуй, просто тримайся на воді на місці.",
+    "ans": [
+     "Don’t panic, just tread water.",
+     "Don’t panic — just tread water for a bit.",
+     "Stay calm and just tread water."
+    ],
+    "keys": {
+     "не панікуй": "panic*|calm|relax"
+    }
+   },
+   {
+    "sit": "Ти розповідаєш про іспит на рятувальника.",
+    "say": "Треба було п’ять хвилин плавати на місці без рук.",
+    "ans": [
+     "We had to tread water for five minutes without our hands.",
+     "You had to tread water for five minutes with no hands.",
+     "We had to tread water for five minutes, hands out of the water."
+    ],
+    "keys": {
+     "п’ять хвилин": "five|5|minute*",
+     "без рук": "hand*|arm*"
+    }
+   },
+   {
+    "sit": "Ти з друзями на озері, і вам довелося чекати на човен посеред води.",
+    "say": "Ми пів години трималися на воді, чекаючи на човен.",
+    "ans": [
+     "We trod water for half an hour waiting for the boat.",
+     "We were treading water for thirty minutes, waiting for the boat.",
+     "We trod water for like half an hour till the boat came."
+    ],
+    "keys": {
+     "пів години": "half|thirty|30|minute*",
+     "човен": "boat"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1389,
+  "w": "drift",
+  "uk": "плисти, лежати (у повітрі, за вітром)",
+  "lvl": "B2",
+  "forms": "drift|drifts|drifted|drifted|drifting",
+  "near": "float*|blow*|blew|blown|fly|flew|flying|flies|carried|waft*",
+  "tasks": [
+   {
+    "sit": "Ти сидиш у кав’ярні на терасі восени й описуєш подрузі атмосферу в голосовому.",
+    "say": "Повз мене пролітає жовте листя.",
+    "ans": [
+     "Yellow leaves are drifting past me.",
+     "Yellow leaves keep drifting by.",
+     "There are yellow leaves drifting past — so pretty."
+    ],
+    "keys": {
+     "листя": "lea*",
+     "жовте": "yellow|golden"
+    }
+   },
+   {
+    "sit": "Сусід запалив мангал, і тобі на балкон тягне дим. Ти пишеш йому ввічливе повідомлення.",
+    "say": "Дим з мангалу несе прямо на мій балкон.",
+    "ans": [
+     "The smoke from your grill is drifting onto my balcony.",
+     "Smoke from the barbecue keeps drifting right onto my balcony.",
+     "Hey, your BBQ smoke is drifting straight onto my balcony."
+    ],
+    "keys": {
+     "дим": "smoke",
+     "балкон": "balcony"
+    }
+   },
+   {
+    "sit": "Ти лежиш на траві з дитиною й дивишся в небо.",
+    "say": "Дивись, як повільно пливуть хмари.",
+    "ans": [
+     "Look how slowly the clouds are drifting.",
+     "Look at the clouds drifting slowly by.",
+     "See how slowly those clouds drift?"
+    ],
+    "keys": {
+     "хмари": "cloud*",
+     "повільно": "slow*|gent*|lazi*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1390,
+  "w": "pick up",
+  "uk": "посилюватися (про вітер)",
+  "lvl": "B2",
+  "forms": "pick|picks|picked|picked|picking",
+  "tail": "up",
+  "near": "get stronger|got stronger|getting stronger|strengthen*|increas*|grow*|rise|rose|rising|intensif*",
+  "tasks": [
+   {
+    "sit": "Ви з другом на пляжі, і хвилі стають вищими.",
+    "say": "Вітер посилюється, ходімо звідси.",
+    "ans": [
+     "The wind is picking up, let’s go.",
+     "The wind’s picking up — let’s get out of here.",
+     "Wind’s picking up, we should head back."
+    ],
+    "keys": {
+     "вітер": "wind"
+    }
+   },
+   {
+    "sit": "Ти на яхті з інструктором. Він пояснює, чому треба прибрати частину вітрила.",
+    "say": "До вечора вітер посилиться.",
+    "ans": [
+     "The wind will pick up by the evening.",
+     "By evening the wind is going to pick up.",
+     "The wind should pick up later this evening."
+    ],
+    "keys": {
+     "вітер": "wind",
+     "вечір": "evening|tonight|night"
+    }
+   },
+   {
+    "sit": "Ти розповідаєш, чому скасували ваш рейс на повітряній кулі.",
+    "say": "Вітер раптом посилився, і політ скасували.",
+    "ans": [
+     "The wind suddenly picked up and the flight was cancelled.",
+     "The wind picked up suddenly, so they cancelled the flight.",
+     "Suddenly the wind picked up and they called off the flight."
+    ],
+    "keys": {
+     "вітер": "wind",
+     "скасували": "cancel*|call* off|called off"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1391,
+  "w": "whip",
+  "uk": "лопотіти, шмагати (на вітрі)",
+  "lvl": "C1",
+  "forms": "whip|whips|whipped|whipped|whipping",
+  "near": "flap*|flutter*|wave*|lash*|blow*|blew|beat*",
+  "tasks": [
+   {
+    "sit": "Ти на морському причалі під час шторму і описуєш по відеозв’язку, що бачиш.",
+    "say": "Прапори шалено лопотять на вітрі.",
+    "ans": [
+     "The flags are whipping wildly in the wind.",
+     "The flags are whipping about in the wind like crazy.",
+     "Look, the flags are whipping in the wind!"
+    ],
+    "keys": {
+     "прапори": "flag*",
+     "вітер": "wind|storm"
+    }
+   },
+   {
+    "sit": "Ти розповідаєш про поїздку в кабріолеті біля моря.",
+    "say": "Волосся шмагало мене по обличчю всю дорогу.",
+    "ans": [
+     "My hair was whipping my face the whole way.",
+     "My hair whipped against my face all the way.",
+     "The whole ride my hair kept whipping my face."
+    ],
+    "keys": {
+     "волосся": "hair",
+     "обличчя": "face"
+    }
+   },
+   {
+    "sit": "Ти в горах, і вночі дуже вітряно. Пишеш друзям із намету.",
+    "say": "Намет лопотить так, що неможливо заснути.",
+    "ans": [
+     "The tent is whipping so hard I can’t sleep.",
+     "The tent’s whipping in the wind — impossible to sleep.",
+     "The tent keeps whipping around, I can’t get any sleep."
+    ],
+    "keys": {
+     "намет": "tent",
+     "заснути": "sleep*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1392,
+  "w": "scorch",
+  "uk": "випалювати (про сонце)",
+  "lvl": "C1",
+  "forms": "scorch|scorches|scorched|scorched|scorching",
+  "near": "burn*|burnt|dry up|dried up|dry out|dried out|parch*|fry*|fried",
+  "tasks": [
+   {
+    "sit": "Ти в серпні говориш із дідом-фермером по телефону.",
+    "say": "Цього літа сонце випалило всю кукурудзу.",
+    "ans": [
+     "This summer the sun scorched all the corn.",
+     "The sun has scorched all our corn this summer.",
+     "The sun scorched the whole corn crop this summer."
+    ],
+    "keys": {
+     "кукурудза": "corn|maize|crop*",
+     "літо": "summer"
+    }
+   },
+   {
+    "sit": "Ти повернувся з відпустки, а твій газон став жовтим. Скаржишся сусідові.",
+    "say": "Поки мене не було, спека випалила газон.",
+    "ans": [
+     "The heat scorched my lawn while I was away.",
+     "While I was away, the sun scorched the lawn.",
+     "The lawn got scorched while I was gone."
+    ],
+    "keys": {
+     "газон": "lawn|grass",
+     "не було": "away|gone|holiday|vacation"
+    }
+   },
+   {
+    "sit": "Ти в Єгипті на екскурсії в пустелі й розповідаєш враження в сторіс.",
+    "say": "Сонце тут випалює все навколо.",
+    "ans": [
+     "The sun here scorches everything around.",
+     "Here the sun scorches everything.",
+     "The sun just scorches everything out here."
+    ],
+    "keys": {
+     "все": "everything|all"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1393,
+  "w": "chill",
+  "uk": "охолоджувати, холодити",
+  "lvl": "B2",
+  "forms": "chill|chills|chilled|chilled|chilling",
+  "near": "cool*|refrigerat*|freez*|froze*|ice|iced",
+  "tasks": [
+   {
+    "sit": "Гості прийдуть за годину, а ти щойно приніс шампанське з магазину.",
+    "say": "Треба охолодити шампанське в морозилці.",
+    "ans": [
+     "We need to chill the champagne in the freezer.",
+     "Let’s chill the champagne in the freezer.",
+     "I’ll chill the champagne in the freezer real quick."
+    ],
+    "keys": {
+     "шампанське": "champagne|bubbly|wine|bottle",
+     "морозилка": "freezer|fridge"
+    }
+   },
+   {
+    "sit": "Ти печеш пиріг із подругою за рецептом бабусі.",
+    "say": "Тісто треба охолодити годину в холодильнику.",
+    "ans": [
+     "The dough needs to chill in the fridge for an hour.",
+     "Chill the dough in the fridge for an hour.",
+     "Let the dough chill for an hour in the fridge."
+    ],
+    "keys": {
+     "тісто": "dough|pastry",
+     "година": "hour|60"
+    }
+   },
+   {
+    "sit": "Ти прийшов додому пізно ввечері в листопаді й розповідаєш, як змерз.",
+    "say": "Вітер пробирав мене до кісток.",
+    "ans": [
+     "The wind chilled me to the bone.",
+     "I was chilled to the bone by the wind.",
+     "That wind chilled me right to the bone."
+    ],
+    "keys": {
+     "вітер": "wind|air",
+     "до кісток": "bone*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1394,
+  "w": "bud",
+  "uk": "брунькуватися, пускати бруньки",
+  "lvl": "C1",
+  "forms": "bud|buds|budded|budded|budding",
+  "near": "bloom*|blossom*|sprout*|flower*|grow*",
+  "tasks": [
+   {
+    "sit": "Кінець березня. Ти гуляєш у парку з мамою і помічаєш зміни на деревах.",
+    "say": "Дивись, дерева вже брунькуються!",
+    "ans": [
+     "Look, the trees are already budding!",
+     "Look — the trees have started budding!",
+     "Oh look, the trees are budding already!"
+    ],
+    "keys": {
+     "дерева": "tree*|branch*",
+     "вже": "already|start*"
+    }
+   },
+   {
+    "sit": "Ти ведеш блог про сад і описуєш цьогорічну весну.",
+    "say": "Троянди цього року брунькувалися на два тижні раніше.",
+    "ans": [
+     "The roses budded two weeks earlier this year.",
+     "This year the roses budded two weeks early.",
+     "My roses budded a whole two weeks early this year."
+    ],
+    "keys": {
+     "троянди": "rose*",
+     "раніше": "early|earlier",
+     "два тижні": "two|2|week*"
+    }
+   },
+   {
+    "sit": "Ти питаєш продавця в садовому центрі про деревце, яке хочеш купити.",
+    "say": "Коли воно почне пускати бруньки?",
+    "ans": [
+     "When will it start to bud?",
+     "When does it start budding?",
+     "So when will it bud?"
+    ],
+    "keys": {
+     "коли": "when"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1395,
+  "w": "shed",
+  "uk": "скидати (листя, шерсть), линяти",
+  "lvl": "C1",
+  "forms": "shed|sheds|shed|shed|shedding",
+  "near": "lose|loses|lost|losing|drop*|molt*|moult*|fall|fell|fallen",
+  "tasks": [
+   {
+    "sit": "Твій друг хоче взяти хаскі й питає твоєї думки.",
+    "say": "Хаскі дуже линяють, шерсть буде всюди.",
+    "ans": [
+     "Huskies shed a lot, there’ll be hair everywhere.",
+     "Huskies shed like crazy — you’ll find fur everywhere.",
+     "Huskies shed so much, hair all over the place."
+    ],
+    "keys": {
+     "хаскі": "husk*|they|dog*",
+     "шерсть": "hair|fur|coat"
+    }
+   },
+   {
+    "sit": "Сусід питає, чому ти щовечора згрібаєш подвір’я.",
+    "say": "Клен скидає листя в жовтні.",
+    "ans": [
+     "The maple sheds its leaves in October.",
+     "In October the maple tree sheds its leaves.",
+     "The maple’s shedding its leaves — it’s October."
+    ],
+    "keys": {
+     "клен": "maple|tree",
+     "листя": "lea*",
+     "жовтень": "october"
+    }
+   },
+   {
+    "sit": "Ти показуєш племінникові в зоопарку тераріум зі змією.",
+    "say": "Змії скидають шкіру кілька разів на рік.",
+    "ans": [
+     "Snakes shed their skin several times a year.",
+     "A snake sheds its skin a few times a year.",
+     "Snakes shed their skin a couple of times a year."
+    ],
+    "keys": {
+     "змії": "snake*",
+     "шкіра": "skin",
+     "на рік": "year*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1396,
+  "w": "nail",
+  "uk": "класно впоратися, «зробити на відмінно»",
+  "lvl": "B2",
+  "forms": "nail|nails|nailed|nailed|nailing",
+  "near": "ace*|crush*|kill*|rock*|smash*|ace it",
+  "tasks": [
+   {
+    "sit": "Друг щойно вийшов зі співбесіди й каже, що всі відповіді були ідеальні.",
+    "say": "Схоже, ти класно пройшов співбесіду!",
+    "ans": [
+     "Sounds like you nailed the interview!",
+     "Looks like you nailed that interview!",
+     "You totally nailed the interview!"
+    ],
+    "keys": {
+     "співбесіда": "interview|it"
+    }
+   },
+   {
+    "sit": "Ти на вокальному конкурсі, і твоя подруга щойно заспівала найважчу пісню.",
+    "say": "Ти ідеально взяла ту високу ноту!",
+    "ans": [
+     "You nailed that high note!",
+     "You nailed the high note perfectly!",
+     "Wow, you absolutely nailed that high note!"
+    ],
+    "keys": {
+     "висока нота": "note|high"
+    }
+   },
+   {
+    "sit": "Ти виходиш з іспиту з водіння в гарному настрої й пишеш мамі.",
+    "say": "Здається, я склав на відмінно паралельне паркування!",
+    "ans": [
+     "I think I nailed the parallel parking!",
+     "I think I nailed parallel parking today!",
+     "I totally nailed the parallel parking, I think!"
+    ],
+    "keys": {
+     "паркування": "park*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1397,
+  "w": "crush",
+  "uk": "розкатати (зробити блискуче)",
+  "lvl": "B2",
+  "forms": "crush|crushes|crushed|crushed|crushing",
+  "near": "nail*|ace*|kill*|rock*|smash*",
+  "tasks": [
+   {
+    "sit": "Колега хвилюється перед важливою презентацією. Ти підбадьорюєш її.",
+    "say": "Не хвилюйся, ти розкатаєш цю презентацію!",
+    "ans": [
+     "Don’t worry, you’re going to crush this presentation!",
+     "Relax, you’ll crush that presentation!",
+     "Don’t worry — you’re gonna crush it!"
+    ],
+    "keys": {
+     "не хвилюйся": "worry|relax|calm|nervous"
+    }
+   },
+   {
+    "sit": "Ти в спортзалі з тренером. Ти підняв більшу вагу, ніж планував.",
+    "say": "Сьогодні я розкатав тренування!",
+    "ans": [
+     "I crushed my workout today!",
+     "Today I totally crushed the workout!",
+     "Crushed my workout today!"
+    ],
+    "keys": {
+     "тренування": "workout|training|session|gym",
+     "сьогодні": "today"
+    }
+   },
+   {
+    "sit": "На щомісячній нараді керівник підсумовує результати відділу продажів.",
+    "say": "Цього кварталу ми розкатали план продажів!",
+    "ans": [
+     "We crushed our sales target this quarter!",
+     "This quarter we crushed the sales goal!",
+     "We absolutely crushed our sales targets this quarter!"
+    ],
+    "keys": {
+     "план продажів": "sales|target*|goal*|plan",
+     "квартал": "quarter"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1398,
+  "w": "conquer",
+  "uk": "перемагати (страх, виклик), долати",
+  "lvl": "B2",
+  "forms": "conquer|conquers|conquered|conquered|conquering",
+  "near": "overcome|overcame|overcoming|beat|beaten|defeat*|get over|got over|master*",
+  "tasks": [
+   {
+    "sit": "Ти вперше стрибнув з парашутом і ділишся враженнями з колегами.",
+    "say": "Я нарешті переміг свій страх висоти!",
+    "ans": [
+     "I finally conquered my fear of heights!",
+     "I’ve finally conquered my fear of heights!",
+     "Guess what? I finally conquered my fear of heights!"
+    ],
+    "keys": {
+     "страх": "fear*|afraid|scared",
+     "висота": "height*"
+    }
+   },
+   {
+    "sit": "Твій друг вирушає на гору Говерлу вперше. Ти пишеш йому напутнє повідомлення.",
+    "say": "Удачі, підкори цю вершину!",
+    "ans": [
+     "Good luck, go conquer that mountain!",
+     "Good luck — conquer that peak!",
+     "Good luck up there, conquer that summit!"
+    ],
+    "keys": {
+     "вершина": "mountain|peak|summit|top"
+    }
+   },
+   {
+    "sit": "Ти розповідаєш психологу, чого досяг за рік терапії.",
+    "say": "Я подолав свою тривожність перед виступами.",
+    "ans": [
+     "I conquered my anxiety about public speaking.",
+     "I’ve conquered my stage fright.",
+     "I think I’ve finally conquered my anxiety about speaking in public."
+    ],
+    "keys": {
+     "тривожність": "anxi*|fear*|fright|nerv*",
+     "виступи": "speak*|stage|present*|perform*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1400,
+  "w": "envision",
+  "uk": "уявляти (майбутнє), бачити в уяві",
+  "lvl": "C1",
+  "forms": "envision|envisions|envisioned|envisioned|envisioning",
+  "near": "imagin*|picture*|envisag*|visualiz*|visualis*|see|saw|foresee*",
+  "tasks": [
+   {
+    "sit": "На співбесіді тебе питають, де ти бачиш себе через п’ять років.",
+    "say": "Я бачу себе керівником власної команди.",
+    "ans": [
+     "I envision myself leading my own team.",
+     "I envision myself as the head of my own team.",
+     "Honestly, I envision myself leading a team of my own."
+    ],
+    "keys": {
+     "себе": "myself|me",
+     "команда": "team"
+    }
+   },
+   {
+    "sit": "Ти з архітектором обговорюєш план нового будинку.",
+    "say": "Я уявляю велику кухню з вікнами в сад.",
+    "ans": [
+     "I envision a big kitchen with windows onto the garden.",
+     "What I envision is a large kitchen looking out on the garden.",
+     "I envision a big kitchen with windows facing the garden."
+    ],
+    "keys": {
+     "кухня": "kitchen",
+     "сад": "garden|yard"
+    }
+   },
+   {
+    "sit": "Ти презентуєш стартап інвесторам.",
+    "say": "Ми уявляємо світ, де кожен може вчитися безкоштовно.",
+    "ans": [
+     "We envision a world where everyone can learn for free.",
+     "We envision a world in which anyone can study for free.",
+     "We envision a world where learning is free for everyone."
+    ],
+    "keys": {
+     "світ": "world",
+     "безкоштовно": "free"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1401,
+  "w": "picture",
+  "uk": "уявляти собі",
+  "lvl": "B1",
+  "forms": "picture|pictures|pictured|pictured|picturing",
+  "near": "imagin*|envision*|visualiz*|visualis*|see|saw|think of",
+  "tasks": [
+   {
+    "sit": "Ти на занятті йоги ведеш медитацію для групи.",
+    "say": "Уявіть собі тихий пляж на заході сонця.",
+    "ans": [
+     "Picture a quiet beach at sunset.",
+     "Picture yourself on a quiet beach at sunset.",
+     "Just picture a calm beach at sunset."
+    ],
+    "keys": {
+     "пляж": "beach|sea|shore",
+     "захід сонця": "sunset|evening"
+    }
+   },
+   {
+    "sit": "Друг розповідає, що ваш однокласник-хуліган став священником.",
+    "say": "Не можу уявити його в ролі священника!",
+    "ans": [
+     "I can’t picture him as a priest!",
+     "I just can’t picture him being a priest!",
+     "Him, a priest? I can’t picture that!"
+    ],
+    "keys": {
+     "не можу": "can not|cannot|could not",
+     "священник": "priest"
+    }
+   },
+   {
+    "sit": "Ти вперше бачиш сестрину нову квартиру ще без меблів.",
+    "say": "Я вже уявляю тут диван і книжкові полиці.",
+    "ans": [
+     "I can already picture a sofa and bookshelves here.",
+     "I’m already picturing a couch and some bookshelves here.",
+     "I can totally picture a sofa and shelves in here."
+    ],
+    "keys": {
+     "диван": "sofa|couch",
+     "полиці": "shel*|bookshel*|bookcase*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1402,
+  "w": "browse",
+  "uk": "переглядати, роздивлятися (не купуючи)",
+  "lvl": "B1",
+  "forms": "browse|browses|browsed|browsed|browsing",
+  "near": "look around|looking around|looked around|just looking|window-shop*|scroll*",
+  "tasks": [
+   {
+    "sit": "Ти заходиш у магазин одягу, і продавець одразу питає, чим допомогти.",
+    "say": "Дякую, я просто дивлюся.",
+    "ans": [
+     "Thanks, I’m just browsing.",
+     "Thank you, I’m only browsing.",
+     "No thanks, just browsing."
+    ],
+    "keys": {
+     "дякую": "thank*|no"
+    }
+   },
+   {
+    "sit": "Партнер питає, чому ти пів вечора сидиш у телефоні.",
+    "say": "Я просто переглядаю кросівки онлайн, нічого не купую.",
+    "ans": [
+     "I’m just browsing sneakers online, not buying anything.",
+     "I’m only browsing trainers online — I’m not buying.",
+     "Just browsing some sneakers online, I won’t buy anything."
+    ],
+    "keys": {
+     "кросівки": "sneaker*|trainer*|shoe*",
+     "не купую": "not buy*|buy*"
+    }
+   },
+   {
+    "sit": "Ти розповідаєш про вихідні в Лондоні.",
+    "say": "Ми годинами роздивлялися книжки в старій книгарні.",
+    "ans": [
+     "We browsed in an old bookshop for hours.",
+     "We spent hours browsing an old bookstore.",
+     "We browsed the shelves of an old bookshop for hours."
+    ],
+    "keys": {
+     "книгарня": "book*",
+     "годинами": "hour*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1403,
+  "w": "window-shop",
+  "uk": "розглядати вітрини (без покупок)",
+  "lvl": "C1",
+  "forms": "window-shop|window-shops|window-shopped|window-shopped|window-shopping",
+  "near": "brows*|look around|looked around|just looking",
+  "tasks": [
+   {
+    "sit": "Подруга кличе тебе в торговий центр, але ти на мілі до зарплати.",
+    "say": "Я можу лише порозглядати вітрини — грошей нема.",
+    "ans": [
+     "I can only window-shop — I’m broke.",
+     "I can only window-shop, I’ve got no money.",
+     "I’ll come, but I can only window-shop — no cash."
+    ],
+    "keys": {
+     "грошей нема": "broke|money|cash"
+    }
+   },
+   {
+    "sit": "Колега питає, як ти провів неділю.",
+    "say": "Ми з дружиною пів дня розглядали вітрини в центрі.",
+    "ans": [
+     "My wife and I window-shopped downtown for half the day.",
+     "We spent half the day window-shopping in the city centre.",
+     "My wife and I window-shopped in town most of the day."
+    ],
+    "keys": {
+     "дружина": "wife|we",
+     "центр": "downtown|centre|center|town|city"
+    }
+   },
+   {
+    "sit": "Ти в Парижі й пишеш сестрі, чим займаєшся.",
+    "say": "Я розглядаю вітрини на Єлисейських полях, але нічого не купую.",
+    "ans": [
+     "I’m window-shopping on the Champs-Élysées, but I’m not buying anything.",
+     "I’m just window-shopping on the Champs-Élysées — not buying a thing.",
+     "Window-shopping on the Champs-Élysées, not buying anything though!"
+    ],
+    "keys": {
+     "Єлисейські поля": "champs*|paris|street",
+     "не купую": "not|nothing|buy*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1404,
+  "w": "pick out",
+  "uk": "вибирати (з багатьох)",
+  "lvl": "B1",
+  "forms": "pick|picks|picked|picked|picking",
+  "tail": "out",
+  "near": "choose|chose|chosen|choosing|select*|go for|went for|decide on|decided on",
+  "tasks": [
+   {
+    "sit": "Ти в магазині з донькою перед її випускним.",
+    "say": "Вибери собі сукню, яка тобі подобається.",
+    "ans": [
+     "Pick out a dress you like.",
+     "Go ahead and pick out any dress you like.",
+     "Pick out whichever dress you like."
+    ],
+    "keys": {
+     "сукня": "dress"
+    }
+   },
+   {
+    "sit": "Ти розповідаєш сусідці, як ви брали собаку з притулку.",
+    "say": "Діти самі вибрали цуценя.",
+    "ans": [
+     "The kids picked out the puppy themselves.",
+     "The kids picked out a puppy on their own.",
+     "The kids picked the puppy out themselves."
+    ],
+    "keys": {
+     "діти": "kid*|child*",
+     "цуценя": "pupp*|dog"
+    }
+   },
+   {
+    "sit": "Ти з мамою в торговому центрі, скоро в тата день народження.",
+    "say": "Допоможи мені вибрати подарунок для тата.",
+    "ans": [
+     "Help me pick out a present for Dad.",
+     "Can you help me pick out a gift for Dad?",
+     "Help me pick a present out for Dad?"
+    ],
+    "keys": {
+     "подарунок": "present|gift",
+     "тато": "dad|father"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1405,
+  "w": "pick",
+  "uk": "обирати",
+  "lvl": "A2",
+  "forms": "pick|picks|picked|picked|picking",
+  "near": "choose|chose|chosen|choosing|select*|take|took",
+  "tasks": [
+   {
+    "sit": "Ти фарбуєш кімнату з сестрою й показуєш їй палітру фарб.",
+    "say": "Обери колір для стін.",
+    "ans": [
+     "Pick a color for the walls.",
+     "You pick the colour for the walls.",
+     "Go on, pick a color for the walls."
+    ],
+    "keys": {
+     "колір": "colo*|shade|paint",
+     "стіни": "wall*"
+    }
+   },
+   {
+    "sit": "Ви з друзями вирішуєте, який фільм дивитися ввечері.",
+    "say": "Сьогодні твоя черга обирати фільм.",
+    "ans": [
+     "It’s your turn to pick the movie tonight.",
+     "Tonight you get to pick the film.",
+     "Your turn to pick a movie tonight!"
+    ],
+    "keys": {
+     "фільм": "movie|film",
+     "твоя черга": "turn|you"
+    }
+   },
+   {
+    "sit": "Ти тримаєш у руках кілька цукерок і пропонуєш малому племінникові.",
+    "say": "Обирай ту, яку хочеш!",
+    "ans": [
+     "Pick the one you want!",
+     "Pick whichever one you like!",
+     "Go on, pick the one you want!"
+    ],
+    "keys": {
+     "яку хочеш": "want|like"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1406,
+  "w": "compare",
+  "uk": "порівнювати",
+  "lvl": "B1",
+  "forms": "compare|compares|compared|compared|comparing",
+  "near": "check|checked|checking|contrast*|weigh up|look at",
+  "tasks": [
+   {
+    "sit": "Ти хочеш купити новий ноутбук і розповідаєш про це колезі.",
+    "say": "Я спершу порівняю ціни в різних магазинах.",
+    "ans": [
+     "I’ll compare prices in different shops first.",
+     "First I’m going to compare prices at different stores.",
+     "I’ll compare prices online first."
+    ],
+    "keys": {
+     "ціни": "price*"
+    }
+   },
+   {
+    "sit": "Мама порівнює тебе з твоїм успішним братом, і ти засмучений.",
+    "say": "Будь ласка, не порівнюй мене з братом.",
+    "ans": [
+     "Please don’t compare me with my brother.",
+     "Please stop comparing me to my brother.",
+     "Mom, please don’t compare me to him."
+    ],
+    "keys": {
+     "не": "not|stop",
+     "брат": "brother|him"
+    }
+   },
+   {
+    "sit": "Ти вчитель і даєш завдання учням на уроці літератури.",
+    "say": "Порівняйте двох головних героїв.",
+    "ans": [
+     "Compare the two main characters.",
+     "Compare the two main heroes.",
+     "I want you to compare the two main characters."
+    ],
+    "keys": {
+     "двох": "two|both",
+     "герої": "character*|hero*"
+    }
+   }
+  ]
+ }
+]

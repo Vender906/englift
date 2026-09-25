@@ -1,0 +1,647 @@
+[
+ {
+  "id": 2466, "w": "snowball debt", "uk": "гасити борги методом «снігової кулі»", "lvl": "C1",
+  "forms": "snowball|snowballs|snowballed|snowballed|snowballing",
+  "tail": "debt*",
+  "near": "pay off|paid off|paying off|pay down|paid down|avalanche*|clear*|consolidat*",
+  "tasks": [
+   {
+    "sit": "Колега скаржиться, що має три кредитки й не знає, з якої почати. Ти вже пройшов цей шлях.",
+    "say": "Гаси борги сніговою кулею: спершу закрий найменший.",
+    "ans": ["Snowball your debt — pay off the smallest one first.", "Try snowballing your debts: start with the smallest balance.", "Just snowball your debt, honestly — knock out the smallest card first."],
+    "keys": { "найменший": "small*|tiny|lowest", "спершу": "first|start*" }
+   },
+   {
+    "sit": "Ти ведеш фінансовий блог і пишеш, як за два роки виплатив студентський кредит і автокредит.",
+    "say": "Я гасив борги методом снігової кулі, і це мене мотивувало.",
+    "ans": ["I snowballed my debt, and it kept me motivated.", "Snowballing my debts is what kept me motivated.", "I snowballed my debt, and every small win kept me going."],
+    "keys": { "мотивувало": "motivat*|kept me going|going|push*" }
+   },
+   {
+    "sit": "Твоя дружина пропонує спершу гасити кредит з найвищим відсотком. Ти не згоден.",
+    "say": "Давай краще гасити борги сніговою кулею — так ми швидше побачимо результат.",
+    "ans": ["Let’s snowball our debt instead — we’ll see results faster.", "I’d rather snowball the debt so we can see progress sooner.", "Why don’t we snowball our debt? We’d see some wins much faster."],
+    "keys": { "швидше": "fast*|soon*|quick*", "результат": "result*|progress|win*" }
+   }
+  ]
+ },
+ {
+  "id": 2467, "w": "read the room", "uk": "відчувати атмосферу (настрій людей)", "lvl": "C1",
+  "forms": "read|reads|read|read|reading",
+  "tail": "room",
+  "near": "sense the mood|sensed the mood|feel the vibe|pick up on|picked up on|get the vibe|tone-deaf",
+  "tasks": [
+   {
+    "sit": "На нараді всі засмучені через звільнення, а новий менеджер почав жартувати про корпоратив.",
+    "say": "Він зовсім не вміє відчувати атмосферу.",
+    "ans": ["He can’t read the room at all.", "He totally failed to read the room.", "Wow, he really doesn’t know how to read the room."],
+    "keys": { "зовсім не": "not|never|fail*|at all" }
+   },
+   {
+    "sit": "Ти на весіллі друга й хотів виголосити смішний тост, але гості чомусь дуже серйозні.",
+    "say": "Я відчув настрій залу й вирішив сказати щось коротке й щире.",
+    "ans": ["I read the room and decided to say something short and sincere.", "After reading the room, I kept my speech short and sincere.", "I read the room and went with something short and heartfelt instead."],
+    "keys": { "коротке": "short|brief|quick", "щире": "sincere|heartfelt|honest|genuine|serious" }
+   },
+   {
+    "sit": "Молодша сестра хоче попросити в батьків гроші на концерт саме тоді, коли вони сваряться.",
+    "say": "Відчуй атмосферу — зараз не найкращий момент.",
+    "ans": ["Read the room — now isn’t the best time.", "Read the room, please. It’s really not a good moment.", "Dude, read the room — this is so not the time."],
+    "keys": { "момент": "time|moment", "не найкращий": "not|bad|wrong" }
+   }
+  ]
+ },
+ {
+  "id": 2468, "w": "quiet quit", "uk": "тихо звільнятися (робити мінімум на роботі)", "lvl": "C1",
+  "forms": "quiet|quiet|quiet|quiet|quiet",
+  "tail": "quit*",
+  "near": "slack*|coast*|do the bare minimum|doing the bare minimum|do the minimum|bare minimum|checked out|check out",
+  "tasks": [
+   {
+    "sit": "Колега перестав відповідати на листи після шостої й більше не бере додаткових проєктів. Керівник питає твою думку.",
+    "say": "Схоже, він тихо звільнився.",
+    "ans": ["It looks like he’s quiet quitting.", "I think he has quiet quit, to be honest.", "Honestly, looks like he’s quiet quitting."],
+    "keys": { "схоже": "look*|think|seem*|guess|feel*" }
+   },
+   {
+    "sit": "Ти читаєш новини про ринок праці й обговорюєш статтю з другом за кавою.",
+    "say": "Пишуть, що після пандемії багато людей почали тихо звільнятися.",
+    "ans": ["They say lots of people started quiet quitting after the pandemic.", "Apparently many workers began quiet quitting after the pandemic.", "So after the pandemic, loads of people just started quiet quitting."],
+    "keys": { "після пандемії": "pandemic|covid|lockdown*", "багато людей": "people|workers|employees|many|lots|loads" }
+   },
+   {
+    "sit": "Тобі вже рік не підвищують зарплату, хоча ти працюєш за двох. Ділишся з партнером увечері.",
+    "say": "Якщо нічого не зміниться, я просто тихо звільнюся.",
+    "ans": ["If nothing changes, I’ll just quiet quit.", "I’m going to quiet quit if nothing changes.", "Honestly, if nothing changes, I’m just gonna quiet quit."],
+    "keys": { "нічого не зміниться": "nothing change*|not change|stays the same|same" }
+   }
+  ]
+ },
+ {
+  "id": 2469, "w": "doomscroll", "uk": "думскролити (безкінечно гортати погані новини)", "lvl": "C1",
+  "forms": "doomscroll/doom-scroll|doomscrolls/doom-scrolls|doomscrolled/doom-scrolled|doomscrolled/doom-scrolled|doomscrolling/doom-scrolling",
+  "near": "scroll*|browse*|browsing|surf*|glued to my phone|on my phone",
+  "tasks": [
+   {
+    "sit": "Уранці ти не виспався і пояснюєш колезі, чому такий втомлений.",
+    "say": "Я до другої ночі гортав погані новини.",
+    "ans": ["I was doomscrolling until two in the morning.", "I doomscrolled until 2 a.m. last night.", "I stayed up doomscrolling till like 2 a.m."],
+    "keys": { "до другої ночі": "two|2|night|late|a m|am|morning" }
+   },
+   {
+    "sit": "Психолог питає, що допомагає тобі спокійніше засинати.",
+    "say": "Я перестав думскролити перед сном.",
+    "ans": ["I stopped doomscrolling before bed.", "I don’t doomscroll before bed anymore.", "I’ve quit doomscrolling before bed, and it really helps."],
+    "keys": { "перестав": "stop*|quit|not|no longer|anymore|any more", "перед сном": "bed*|sleep*|night" }
+   },
+   {
+    "sit": "Ви з подругою на пікніку, а вона вже пів години мовчки сидить у телефоні з похмурим обличчям.",
+    "say": "Годі думскролити, відклади телефон!",
+    "ans": ["Stop doomscrolling and put your phone down!", "Quit doomscrolling — put the phone away!", "Hey, stop doomscrolling and put that phone down."],
+    "keys": { "годі": "stop|quit|enough|no more", "телефон": "phone|mobile" }
+   }
+  ]
+ },
+ {
+  "id": 2470, "w": "portion out", "uk": "розкласти по порціях", "lvl": "B2",
+  "forms": "portion|portions|portioned|portioned|portioning",
+  "tail": "out",
+  "near": "divide*|split*|share out|dish out|dished out|serve*|pack*|separate*",
+  "tasks": [
+   {
+    "sit": "У неділю ти наварив великий казан супу і плануєш обіди на робочий тиждень.",
+    "say": "Я розкладу суп по порціях на весь тиждень.",
+    "ans": ["I’ll portion out the soup for the whole week.", "I’m going to portion the soup out for the week.", "I’ll just portion out the soup so it lasts all week."],
+    "keys": { "суп": "soup", "тиждень": "week*" }
+   },
+   {
+    "sit": "Після вечірки залишилося багато піци. Друзі вже йдуть додому.",
+    "say": "Давайте розкладемо залишки по порціях, щоб кожен забрав собі.",
+    "ans": ["Let’s portion out the leftovers so everyone can take some.", "Let’s portion the leftovers out so everyone gets some to take home.", "Let’s portion out what’s left so everybody can take some home."],
+    "keys": { "залишки": "leftover*|left|pizza|rest", "кожен": "everyone|everybody|each|all" }
+   },
+   {
+    "sit": "Ти доглядаєш за собакою сусідів, поки вони у відпустці. Сусідка залишила інструкції.",
+    "say": "Корм я розклав по порціях на кожен день.",
+    "ans": ["I portioned out the food for each day.", "I’ve portioned the dog food out into daily servings.", "I portioned out all the food, one bag for each day."],
+    "keys": { "корм": "food|kibble", "кожен день": "each day|every day|daily|day" }
+   }
+  ]
+ },
+ {
+  "id": 2471, "w": "tuck hair behind ears", "uk": "заправити волосся за вуха", "lvl": "B2",
+  "forms": "tuck|tucks|tucked|tucked|tucking",
+  "tail": "hair behind ear*",
+  "near": "push*|pushed back|brush*|sweep*|swept|tie*|put my hair|put your hair|pull* back",
+  "tasks": [
+   {
+    "sit": "Перукар підстригає тобі каре і питає, чи часто ти носиш волосся розпущеним.",
+    "say": "Я завжди заправляю волосся за вуха, коли працюю.",
+    "ans": ["I always tuck my hair behind my ears when I work.", "When I’m working, I always tuck my hair behind my ears.", "I pretty much always tuck my hair behind my ears at work."],
+    "keys": { "завжди": "always|usually|all the time", "працюю": "work*" }
+   },
+   {
+    "sit": "Ти фотографуєш подругу для портфоліо, але пасмо волосся закриває її обличчя.",
+    "say": "Заправ волосся за вухо, щоб було видно обличчя.",
+    "ans": ["Tuck your hair behind your ear so we can see your face.", "Can you tuck your hair behind your ear? I want to see your face.", "Tuck your hair behind your ear real quick — your face is hidden."],
+    "keys": { "обличчя": "face" }
+   },
+   {
+    "sit": "Ти розповідаєш другові про побачення і те, як поводилася дівчина.",
+    "say": "Вона весь вечір нервово заправляла волосся за вуха.",
+    "ans": ["She kept nervously tucking her hair behind her ears all evening.", "All evening she nervously tucked her hair behind her ears.", "She was nervously tucking her hair behind her ears the whole night."],
+    "keys": { "нервово": "nervous*|anxious*|shy", "весь вечір": "evening|night|all|kept" }
+   }
+  ]
+ },
+ {
+  "id": 2472, "w": "cheat on a test", "uk": "списувати на тесті / іспиті", "lvl": "B1",
+  "forms": "cheat|cheats|cheated|cheated|cheating",
+  "tail": "on test*/exam*/quiz*",
+  "near": "copy|copied|copying|copies|crib*|use a cheat sheet|used a cheat sheet",
+  "tasks": [
+   {
+    "sit": "Батьки питають, чому сина викликали до директора.",
+    "say": "Його спіймали на тому, що він списував на тесті з математики.",
+    "ans": ["He got caught cheating on his math test.", "They caught him cheating on the maths test.", "He was caught cheating on a math test, apparently."],
+    "keys": { "спіймали": "caught|catch", "математика": "math*" }
+   },
+   {
+    "sit": "Однокурсник пропонує тобі сфотографувати відповіді перед іспитом.",
+    "say": "Ні, я не списуватиму на іспиті — це не варте ризику.",
+    "ans": ["No, I won’t cheat on the exam — it’s not worth the risk.", "No way, I’m not cheating on the exam. It’s too risky.", "Nah, I’m not going to cheat on the exam — not worth it."],
+    "keys": { "ні": "no|nah|not|never", "ризик": "risk*|worth" }
+   }
+   ,
+   {
+    "sit": "Ти вчитель і пояснюєш колезі, чому тепер роздаєш учням різні варіанти тесту.",
+    "say": "Минулого разу половина класу списувала на тесті.",
+    "ans": ["Last time half the class cheated on the test.", "Half the class cheated on the last test.", "Last time, like half the class cheated on the test."],
+    "keys": { "половина класу": "half|class|students", "минулого разу": "last|time|before" }
+   }
+  ]
+ },
+ {
+  "id": 2473, "w": "take a shortcut", "uk": "скоротити шлях, піти навпростець", "lvl": "B2",
+  "forms": "take|takes|took|taken|taking",
+  "tail": "shortcut*/short-cut*",
+  "near": "cut through|cut across|go through|went through|quicker way|faster way",
+  "tasks": [
+   {
+    "sit": "Ви з другом запізнюєтеся на концерт, а до клубу ще два квартали.",
+    "say": "Давай скоротимо через парк.",
+    "ans": ["Let’s take a shortcut through the park.", "We could take a shortcut through the park.", "Come on, let’s take the shortcut through the park."],
+    "keys": { "парк": "park" }
+   },
+   {
+    "sit": "Таксист звертає в якийсь двір. Ти трохи нервуєш і питаєш, куди він їде.",
+    "say": "Ви скорочуєте дорогу? Ми не заблукаємо?",
+    "ans": ["Are you taking a shortcut? We won’t get lost?", "Are you taking some kind of shortcut? Are we going to get lost?", "Oh, are you taking a shortcut? We’re not getting lost, right?"],
+    "keys": { "заблукаємо": "lost|wrong way" }
+   },
+   {
+    "sit": "У поході гід попереджає групу, що стежка вздовж обриву небезпечна.",
+    "say": "Я колись пішов навпростець через ліс і заблукав.",
+    "ans": ["I once took a shortcut through the woods and got lost.", "Once I took a shortcut through the forest and got lost.", "I took a shortcut through the woods once and ended up totally lost."],
+    "keys": { "ліс": "wood*|forest", "заблукав": "lost" }
+   }
+  ]
+ },
+ {
+  "id": 2474, "w": "knock through", "uk": "пробити стіну наскрізь (обʼєднати кімнати)", "lvl": "C1",
+  "forms": "knock|knocks|knocked|knocked|knocking",
+  "tail": "through",
+  "near": "knock down|knocked down|tear down|tore down|remove* the wall|take down the wall|open up|opened up|demolish*",
+  "tasks": [
+   {
+    "sit": "Ти купив стару квартиру з крихітною кухнею і показуєш другу план ремонту.",
+    "say": "Ми хочемо пробити стіну між кухнею та вітальнею.",
+    "ans": ["We want to knock through between the kitchen and the living room.", "We’re planning to knock through from the kitchen into the living room.", "We want to knock through the kitchen wall into the living room."],
+    "keys": { "кухня": "kitchen", "вітальня": "living room|lounge|sitting room" }
+   },
+   {
+    "sit": "Майстер оглядає стіну у твоїй квартирі й хитає головою.",
+    "say": "Це несуча стіна, її не можна пробивати.",
+    "ans": ["It’s a load-bearing wall, so you can’t knock through it.", "You can’t knock through here — it’s a load-bearing wall.", "No, that one’s load-bearing, you can’t just knock through."],
+    "keys": { "несуча": "load-bearing|load bearing|structural|support*", "не можна": "not|no|shouldn’t" }
+   },
+   {
+    "sit": "Сусіди запросили тебе подивитися на результат ремонту. Тепер у них одна світла простора кімната.",
+    "say": "Ви пробили стіну — тепер тут стільки світла!",
+    "ans": ["You knocked through — there’s so much light now!", "So you’ve knocked through! It’s so much brighter now.", "Wow, you knocked through! There’s so much more light."],
+    "keys": { "світло": "light|bright*|sun*" }
+   }
+  ]
+ },
+ {
+  "id": 2475, "w": "nail a look", "uk": "влучити в образ (ідеально втілити стиль)", "lvl": "B2",
+  "forms": "nail|nails|nailed|nailed|nailing",
+  "tail": "look*",
+  "near": "pull off|pulled off|pulling off|rock*|get the look right|got the look|killed it|slay*|slayed",
+  "tasks": [
+   {
+    "sit": "Подруга прийшла на тематичну вечірку в стилі сімдесятих: кльош, окуляри, кучері.",
+    "say": "Ти ідеально влучила в образ сімдесятих!",
+    "ans": ["You nailed the seventies look!", "You’ve totally nailed the 70s look!", "Wow, you absolutely nailed the ’70s look!"],
+    "keys": { "сімдесяті": "seventies|70s|70|retro|disco" }
+   },
+   {
+    "sit": "Ти стиліст і пояснюєш моделі, що ще треба змінити перед фотосесією.",
+    "say": "Ми майже влучили в образ, лишилося змінити помаду.",
+    "ans": ["We’ve almost nailed the look — we just need to change the lipstick.", "We’re nearly nailing the look; only the lipstick has to change.", "We’ve almost nailed the look, just swap the lipstick."],
+    "keys": { "майже": "almost|nearly|close", "помада": "lipstick|lip*" }
+   },
+   {
+    "sit": "Твій брат збирається на співбесіду в модну IT-компанію і питає, чи підійде піджак.",
+    "say": "Піджак із кросівками — ти влучив в образ!",
+    "ans": ["A blazer with sneakers — you’ve nailed the look!", "Blazer and sneakers? You nailed the look.", "Jacket plus sneakers — you totally nailed the look, man."],
+    "keys": { "піджак": "blazer|jacket", "кросівки": "sneaker*|trainer*|shoes" }
+   }
+  ]
+ },
+ {
+  "id": 2476, "w": "jam", "uk": "заклинити (про зброю)", "lvl": "C1",
+  "forms": "jam|jams|jammed|jammed|jamming",
+  "near": "stuck|get stuck|got stuck|misfire*|malfunction*|block*|broke|broken",
+  "tasks": [
+   {
+    "sit": "Ти вперше в тирі. Інструктор пояснює, що робити, якщо пістолет раптом перестане стріляти.",
+    "say": "А що робити, якщо пістолет заклинить?",
+    "ans": ["What do I do if the pistol jams?", "And what should I do if my gun jams?", "So what if the gun jams on me?"],
+    "keys": { "пістолет": "pistol|gun|weapon|handgun" }
+   },
+   {
+    "sit": "Ти граєш в ейрсофт із друзями і пояснюєш, чому програв дуель у фіналі.",
+    "say": "У мене в найгірший момент заклинило гвинтівку.",
+    "ans": ["My rifle jammed at the worst possible moment.", "At the worst moment, my rifle jammed.", "My rifle jammed right at the worst possible time!"],
+    "keys": { "гвинтівка": "rifle|gun|weapon", "найгірший момент": "worst|wrong|moment|time" }
+   },
+   {
+    "sit": "Ви з другом дивитеся бойовик, і в героя в перестрілці раптом не стріляє автомат.",
+    "say": "Звісно, автомат заклинило саме тоді, коли прийшли погані хлопці.",
+    "ans": ["Of course the gun jammed just when the bad guys showed up.", "Of course his rifle jams right when the bad guys arrive.", "Classic — his gun jams just as the bad guys show up."],
+    "keys": { "погані хлопці": "bad guy*|villain*|enem*|bad", "саме тоді": "just|right|when|as" }
+   }
+  ]
+ },
+ {
+  "id": 2477, "w": "self-medicate", "uk": "займатися самолікуванням", "lvl": "C1",
+  "forms": "self-medicate|self-medicates|self-medicated|self-medicated|self-medicating",
+  "near": "treat myself|treat yourself|take pills|took pills|taking pills|without a doctor|without seeing a doctor",
+  "tasks": [
+   {
+    "sit": "Сімейний лікар бачить, що ти тиждень пив антибіотики без рецепта.",
+    "say": "Будь ласка, не займайтеся самолікуванням антибіотиками.",
+    "ans": ["Please don’t self-medicate with antibiotics.", "Please stop self-medicating with antibiotics.", "Please, no self-medicating with antibiotics, okay?"],
+    "keys": { "антибіотики": "antibiotic*|pills|drugs|medic*" }
+   },
+   {
+    "sit": "Ти розповідаєш подрузі, чому твоя застуда тягнеться вже третій тиждень.",
+    "say": "Я займався самолікуванням замість того, щоб піти до лікаря.",
+    "ans": ["I self-medicated instead of going to the doctor.", "Instead of seeing a doctor, I was self-medicating.", "I just kept self-medicating instead of going to a doctor."],
+    "keys": { "лікар": "doctor*|gp|clinic|physician" }
+   },
+   {
+    "sit": "На лекції з психології ви обговорюєте, чому люди в стресі зловживають алкоголем.",
+    "say": "Багато людей намагаються лікувати тривогу алкоголем.",
+    "ans": ["Many people self-medicate their anxiety with alcohol.", "Lots of people try to self-medicate anxiety with alcohol.", "A lot of people self-medicate with alcohol when they’re anxious."],
+    "keys": { "тривога": "anxi*|stress*|worr*", "алкоголь": "alcohol|drink*|booze" }
+   }
+  ]
+ },
+ {
+  "id": 2478, "w": "cross-train", "uk": "робити крос-тренування (чергувати види спорту)", "lvl": "C1",
+  "forms": "cross-train|cross-trains|cross-trained|cross-trained|cross-training",
+  "near": "mix it up|mix up|switch* sports|vary|varied|alternate*",
+  "tasks": [
+   {
+    "sit": "Ти готуєшся до марафону, і тренер помічає, що в тебе болить коліно.",
+    "say": "Бігай менше й роби крос-тренування: плавання або велосипед.",
+    "ans": ["Run less and cross-train with swimming or cycling.", "Cut back on running and cross-train — swim or cycle.", "Maybe run less and cross-train, like swimming or biking."],
+    "keys": { "менше": "less|cut back|fewer|reduce", "плавання": "swim*|cycl*|bik*" }
+   },
+   {
+    "sit": "Колега дивується, що в тебе за рік не було жодної спортивної травми.",
+    "say": "Я роблю крос-тренування, щоб не перевантажувати одні й ті самі мʼязи.",
+    "ans": ["I cross-train so I don’t overload the same muscles.", "I cross-train to avoid overworking the same muscles.", "I cross-train, so I’m not hammering the same muscles all the time."],
+    "keys": { "мʼязи": "muscle*|body|joint*", "ті самі": "same" }
+   },
+   {
+    "sit": "Твій друг-футболіст розповідає, що взимку поле закрите.",
+    "say": "Взимку я роблю крос-тренування в басейні та залі.",
+    "ans": ["In winter, I cross-train at the pool and the gym.", "I cross-train in the pool and the gym during the winter.", "Winters, I just cross-train — pool and gym."],
+    "keys": { "взимку": "winter*", "басейн": "pool|swim*|gym" }
+   }
+  ]
+ },
+ {
+  "id": 2479, "w": "unpack fast", "uk": "швидко розпакуватися", "lvl": "B1",
+  "forms": "unpack|unpacks|unpacked|unpacked|unpacking",
+  "tail": "fast/quick*",
+  "near": "empty my bag|empty the suitcase|put my things away|put everything away|settle in",
+  "tasks": [
+   {
+    "sit": "Ви з подругою щойно заселилися в готель біля моря. Вона хоче спершу відпочити.",
+    "say": "Давай швидко розпакуємося й підемо на пляж!",
+    "ans": ["Let’s unpack fast and go to the beach!", "Let’s unpack quickly and head to the beach!", "Come on, let’s unpack fast and hit the beach!"],
+    "keys": { "пляж": "beach|sea|swim*" }
+   },
+   {
+    "sit": "Після відрядження дружина дивується, що твоя валіза вже порожня.",
+    "say": "Я завжди швидко розпаковуюся, інакше валіза стоїть тиждень.",
+    "ans": ["I always unpack fast, or the suitcase sits there for a week.", "I always unpack quickly — otherwise my suitcase stays there for a week.", "I unpack fast, always, or else the bag just sits there all week."],
+    "keys": { "валіза": "suitcase|bag|case|luggage", "тиждень": "week*|days|forever" }
+   },
+   {
+    "sit": "Ти переїхав у нову квартиру, а ввечері вже прийшли друзі на новосілля.",
+    "say": "Я розпакувався дуже швидко, бо чекав гостей.",
+    "ans": ["I unpacked really fast because I was expecting guests.", "I unpacked everything quickly since guests were coming.", "I unpacked super fast because people were coming over."],
+    "keys": { "гості": "guest*|friends|people|coming" }
+   }
+  ]
+ },
+ {
+  "id": 2481, "w": "stay hopeful", "uk": "не втрачати надії", "lvl": "B2",
+  "forms": "stay|stays|stayed|stayed|staying",
+  "tail": "hopeful",
+  "near": "keep hoping|kept hoping|hope|hoping|stay positive|stayed positive|keep faith|stay optimistic|don’t give up|do not give up",
+  "tasks": [
+   {
+    "sit": "Ти вже три місяці шукаєш роботу. Мама питає по телефону, як ти тримаєшся.",
+    "say": "Важко, але я намагаюся не втрачати надії.",
+    "ans": ["It’s hard, but I’m trying to stay hopeful.", "It’s tough, but I try to stay hopeful.", "It’s rough, but I’m doing my best to stay hopeful."],
+    "keys": { "важко": "hard|tough|difficult|rough|not easy" }
+   },
+   {
+    "sit": "Твій друг чекає результатів аналізів свого батька й дуже переживає.",
+    "say": "Лікарі кажуть, що шанси добрі, тож не втрачай надії.",
+    "ans": ["The doctors say the chances are good, so stay hopeful.", "Stay hopeful — the doctors say his chances are good.", "The doctors think his chances are good, so try to stay hopeful."],
+    "keys": { "лікарі": "doctor*", "шанси": "chance*|odds|good|likely" }
+   },
+   {
+    "sit": "Ти читаєш інтервʼю з волонтеркою, яка роками допомагає переселенцям.",
+    "say": "Як їй вдається не втрачати надії після всього, що вона бачила?",
+    "ans": ["How does she stay hopeful after everything she’s seen?", "How does she manage to stay hopeful after all she’s seen?", "I don’t know how she stays hopeful after everything she’s seen."],
+    "keys": { "після всього": "everything|all|after", "бачила": "seen|saw|been through" }
+   }
+  ]
+ },
+ {
+  "id": 2482, "w": "crack the case", "uk": "розкрити справу", "lvl": "C1",
+  "forms": "crack|cracks|cracked|cracked|cracking",
+  "tail": "case*",
+  "near": "solve*|figure out|figured out|work out|worked out|get to the bottom",
+  "tasks": [
+   {
+    "sit": "Ви з другом дочитуєте детектив, і він питає, хто ж виявився вбивцею.",
+    "say": "Детектив розкрив справу завдяки одному відбитку пальця.",
+    "ans": ["The detective cracked the case thanks to one fingerprint.", "Thanks to a single fingerprint, the detective cracked the case.", "The detective cracked the case with just one fingerprint!"],
+    "keys": { "відбиток": "fingerprint*|print*", "один": "one|single|just|only" }
+   },
+   {
+    "sit": "У новинах повідомили, що злочинця, який пограбував банк двадцять років тому, нарешті знайшли.",
+    "say": "Поліція нарешті розкрила справу через двадцять років.",
+    "ans": ["The police finally cracked the case after twenty years.", "After 20 years, police have finally cracked the case.", "Police finally cracked the case — twenty years later!"],
+    "keys": { "нарешті": "finally|at last", "двадцять років": "twenty|20|years|decades" }
+   },
+   {
+    "sit": "Ти в квест-кімнаті з колегами, і всі вже годину не можуть знайти останній ключ. Раптом ти бачиш підказку.",
+    "say": "Здається, я розкрив цю загадку!",
+    "ans": ["I think I’ve cracked the case!", "I think I just cracked the case!", "Guys, I think I cracked the case!"],
+    "keys": { "здається": "think|guess|believe|maybe" }
+   }
+  ]
+ },
+ {
+  "id": 2483, "w": "one-click order", "uk": "замовити в один клік", "lvl": "C1",
+  "forms": "one-click|one-clicks|one-click|one-click|one-clicking",
+  "tail": "order*",
+  "near": "buy now|bought|buy|buying|ordered|order online|checkout|check out",
+  "tasks": [
+   {
+    "sit": "Партнер дивується, звідки вдома взялися ще одні навушники.",
+    "say": "Вибач, я замовив їх в один клік, навіть не подумавши.",
+    "ans": ["Sorry, I one-click ordered them without even thinking.", "Sorry — it was a one-click order, I didn’t even think.", "Oops, I just one-click ordered them without thinking."],
+    "keys": { "не подумавши": "think*|thought|impulse" }
+   },
+   {
+    "sit": "Ти пояснюєш бабусі, як купувати ліки в онлайн-аптеці.",
+    "say": "Збережи картку, і наступного разу зможеш замовити в один клік.",
+    "ans": ["Save your card, and next time you can one-click order.", "If you save your card, next time it’s a one-click order.", "Just save your card — then next time you can one-click order."],
+    "keys": { "картка": "card|payment|details", "наступного разу": "next time|later|again" }
+   },
+   {
+    "sit": "На нараді маркетинг-команди ви обговорюєте, чому клієнти кидають кошик.",
+    "say": "Якщо дамо можливість замовляти в один клік, продажі зростуть.",
+    "ans": ["If customers can one-click order, sales will go up.", "Let people one-click order, and sales will rise.", "If we let people one-click order, our sales will jump."],
+    "keys": { "продажі": "sales|revenue|conversion*", "зростуть": "go up|rise|grow|jump|increase|boost" }
+   }
+  ]
+ },
+ {
+  "id": 2484, "w": "wave", "uk": "махати рукою (вітаючись чи прощаючись)", "lvl": "A1",
+  "forms": "wave|waves|waved|waved|waving",
+  "near": "say goodbye|said goodbye|say hello|said hello|say hi|said hi|say bye|said bye|nod*",
+  "tasks": [
+   {
+    "sit": "Ти проводжаєш маму на вокзалі. Поїзд рушає.",
+    "say": "Я махав їй рукою, поки поїзд не зник.",
+    "ans": ["I waved to her until the train was gone.", "I waved goodbye until the train disappeared.", "I kept waving until the train was gone."],
+    "keys": { "поїзд": "train" }
+   },
+   {
+    "sit": "Твоя маленька донька вперше йде в садочок і стоїть біля дверей.",
+    "say": "Помахай татові на прощання!",
+    "ans": ["Wave bye-bye to Daddy!", "Wave goodbye to Dad!", "Come on, wave bye to Daddy!"],
+    "keys": { "тато": "dad*|father|papa" }
+   },
+   {
+    "sit": "Ти розповідаєш колезі, що бачив директора на вулиці.",
+    "say": "Я помахав йому, але він мене не помітив.",
+    "ans": ["I waved at him, but he didn’t see me.", "I waved to him, but he didn’t notice me.", "I waved, but he totally didn’t see me."],
+    "keys": { "не помітив": "not see|not notice|not spot|ignor*|missed" }
+   }
+  ]
+ },
+ {
+  "id": 2485, "w": "point", "uk": "показувати пальцем (на щось)", "lvl": "A2",
+  "forms": "point|points|pointed|pointed|pointing",
+  "near": "show*|showed|indicate*|gestur*",
+  "tasks": [
+   {
+    "sit": "Ти в незнайомому місті питаєш дорогу, а перехожий не говорить англійською.",
+    "say": "Можете показати на карті, де ми зараз?",
+    "ans": ["Can you point to where we are on the map?", "Could you point on the map to where we are now?", "Can you just point to where we are on the map?"],
+    "keys": { "карта": "map", "де ми": "where|we are" }
+   },
+   {
+    "sit": "Ви з сином у парку, і він показує пальцем на незнайомого чоловіка з дивною зачіскою.",
+    "say": "Не показуй на людей пальцем, це неввічливо.",
+    "ans": ["Don’t point at people, it’s rude.", "It’s rude to point at people, sweetie.", "Hey, don’t point at people — that’s not nice."],
+    "keys": { "люди": "people|someone|anyone|him|man", "неввічливо": "rude|not nice|not polite|impolite" }
+   },
+   {
+    "sit": "У пекарні ти не знаєш, як називається булочка, яку хочеш купити.",
+    "say": "Я просто показав на неї пальцем.",
+    "ans": ["I just pointed at it.", "I just pointed to the one I wanted.", "I didn’t know the name, so I just pointed at it."],
+    "keys": { "просто": "just|simply|so|only" }
+   }
+  ]
+ },
+ {
+  "id": 2486, "w": "give a thumbs up", "uk": "показати «клас» (палець угору)", "lvl": "A2",
+  "forms": "give|gives|gave|given|giving",
+  "tail": "thumb*",
+  "near": "like*|nod*|approv*|okay sign|ok sign|smile*|smiled",
+  "tasks": [
+   {
+    "sit": "Ти виступав на сцені й хвилювався. Після виступу друг питає, як відреагував тренер.",
+    "say": "Тренер показав мені палець угору!",
+    "ans": ["The coach gave me a thumbs up!", "My coach gave me a thumbs-up!", "The coach just gave me a big thumbs up!"],
+    "keys": { "тренер": "coach|trainer|teacher" }
+   },
+   {
+    "sit": "Ти керуєш зйомкою відео і домовляєшся з оператором, як подати сигнал.",
+    "say": "Коли будеш готовий, покажи палець угору.",
+    "ans": ["When you’re ready, give me a thumbs up.", "Give me a thumbs-up when you’re ready.", "Just give me a thumbs up once you’re ready."],
+    "keys": { "готовий": "ready|set|good to go" }
+   },
+   {
+    "sit": "На співбесіді ти розповідав про свій проєкт. Друг питає, як усе пройшло.",
+    "say": "Директор усміхнувся й показав палець угору — думаю, мене візьмуть.",
+    "ans": ["The director smiled and gave me a thumbs up — I think I got it.", "The boss gave me a thumbs-up with a smile, so I think I’m in.", "The director smiled and gave me a thumbs up, so I think I got the job."],
+    "keys": { "усміхнувся": "smil*|grin*", "візьмуть": "got it|get it|got the job|get the job|in|hire*" }
+   }
+  ]
+ },
+ {
+  "id": 2488, "w": "shake hands", "uk": "тиснути руку", "lvl": "A2",
+  "forms": "shake|shakes|shook|shaken|shaking",
+  "tail": "hand*",
+  "near": "handshake|greet*|hug*|bow*|high-five*|fist bump*",
+  "tasks": [
+   {
+    "sit": "Ти йдеш на першу зустріч із новим клієнтом. Колега дає пораду.",
+    "say": "Потисни йому руку й подивися в очі.",
+    "ans": ["Shake his hand and look him in the eye.", "Shake hands with him and make eye contact.", "Just shake his hand and look him in the eye."],
+    "keys": { "подивися в очі": "eye*|look*" }
+   },
+   {
+    "sit": "Після шахового турніру ти розповідаєш другу про суперника.",
+    "say": "Після гри ми потиснули руки, хоча він програв.",
+    "ans": ["We shook hands after the game, even though he lost.", "After the game we shook hands, although he lost.", "He lost, but we still shook hands after the match."],
+    "keys": { "після гри": "game|match|after", "програв": "lost|lose|beat" }
+   }
+   ,
+   {
+    "sit": "Ти домовився з сусідом, що він купить твій старий велосипед за тисячу гривень.",
+    "say": "Ну що, тиснемо руки — домовилися?",
+    "ans": ["So, shall we shake hands on it?", "Let’s shake hands on it — deal?", "Okay, let’s shake hands — we have a deal?"],
+    "keys": { "домовилися": "deal|on it|agreed|agree*" }
+   }
+  ]
+ },
+ {
+  "id": 2489, "w": "high-five", "uk": "дати пʼять", "lvl": "B1",
+  "forms": "high-five|high-fives|high-fived|high-fived|high-fiving",
+  "near": "fist bump*|fist-bump*|hug*|clap*|shake hands|shook hands|give me five|gimme five",
+  "tasks": [
+   {
+    "sit": "Твоя команда з волейболу виграла вирішальне очко. Ти розповідаєш про матч.",
+    "say": "Після останнього очка ми всі дали одне одному пʼять.",
+    "ans": ["After the last point, we all high-fived each other.", "We all high-fived after the final point.", "We high-fived each other like crazy after that last point."],
+    "keys": { "останнє очко": "last|final|point|winning" }
+   },
+   {
+    "sit": "Твій маленький племінник уперше сам проїхав на велосипеді кілька метрів.",
+    "say": "Молодець! Дай пʼять!",
+    "ans": ["Well done! High-five me!", "Great job! Let’s high-five!", "Awesome, buddy! High-five me!"],
+    "keys": { "молодець": "well done|great|good job|awesome|nice|amazing" }
+   },
+   {
+    "sit": "Колега розповідає, як його сприйняв новий керівник у перший день.",
+    "say": "Він дав мені пʼять, коли ми закрили угоду.",
+    "ans": ["He high-fived me when we closed the deal.", "When we closed the deal, he high-fived me.", "He actually high-fived me when we closed the deal!"],
+    "keys": { "угода": "deal|contract|sale" }
+   }
+  ]
+ },
+ {
+  "id": 2490, "w": "fist bump", "uk": "стукнутися кулаками", "lvl": "B1",
+  "forms": "fist|fists|fist-bumped/fist|fist-bumped/fist|fist-bumping/fist",
+  "tail": "bump*",
+  "near": "high-five*|high five|shake hands|shook hands|handshake|hug*",
+  "tasks": [
+   {
+    "sit": "Ти вперше зустрічаєш друга свого брата, дуже неформального хлопця.",
+    "say": "Ми не тиснули руки, а просто стукнулися кулаками.",
+    "ans": ["We didn’t shake hands, we just gave each other a fist bump.", "Instead of shaking hands, we just fist-bumped.", "We skipped the handshake and just did a fist bump."],
+    "keys": { "просто": "just|instead|skip*|not" }
+   },
+   {
+    "sit": "Під час грипу лікар у поліклініці не хоче тиснути пацієнтам руки.",
+    "say": "Давайте краще стукнемося кулаками.",
+    "ans": ["Let’s do a fist bump instead.", "How about a fist bump instead?", "Let’s just fist-bump instead, okay?"],
+    "keys": { "краще": "instead|rather|how about|better" }
+   },
+   {
+    "sit": "Ти розповідаєш, як пройшло твоє перше тренування з баскетболу в новій команді.",
+    "say": "Капітан стукнувся зі мною кулаками, і я відчув себе своїм.",
+    "ans": ["The captain gave me a fist bump, and I felt like part of the team.", "I got a fist bump from the captain and felt accepted.", "The captain gave me a fist bump, and I felt like I belonged."],
+    "keys": { "капітан": "captain|leader", "своїм": "part of|belong*|accepted|welcome*|team" }
+   }
+  ]
+ },
+ {
+  "id": 2491, "w": "clap hands", "uk": "плескати в долоні", "lvl": "A2",
+  "forms": "clap|claps|clapped|clapped|clapping",
+  "tail": "hand*",
+  "near": "applaud*|cheer*|give a round of applause|gave a round of applause|stamp*",
+  "tasks": [
+   {
+    "sit": "Ти ведеш заняття з музики для дітей і показуєш ритм нової пісні.",
+    "say": "Плескайте в долоні разом зі мною!",
+    "ans": ["Clap your hands with me!", "Everybody, clap your hands along with me!", "Come on, clap your hands with me!"],
+    "keys": { "зі мною": "me|along|together|everybody|everyone" }
+   },
+   {
+    "sit": "Ти розповідаєш бабусі, як твій однорічний син сьогодні радів мультику.",
+    "say": "Він сміявся й плескав у долоні.",
+    "ans": ["He was laughing and clapping his hands.", "He laughed and clapped his hands.", "He kept laughing and clapping his little hands."],
+    "keys": { "сміявся": "laugh*|giggl*|smil*" }
+   },
+   {
+    "sit": "Ти на концерті, і співак просить публіку підтримати барабанщика.",
+    "say": "Весь зал почав плескати в долоні в такт.",
+    "ans": ["The whole crowd started clapping their hands to the beat.", "Everyone in the hall began to clap their hands in time.", "The whole place started clapping hands to the beat."],
+    "keys": { "весь зал": "whole|everyone|everybody|crowd|audience|place", "в такт": "beat|rhythm|in time|time" }
+   }
+  ]
+ },
+ {
+  "id": 2492, "w": "snap fingers", "uk": "клацати пальцями", "lvl": "B1",
+  "forms": "snap|snaps|snapped|snapped|snapping",
+  "tail": "finger*",
+  "near": "click* fingers|click* my fingers|click* your fingers|tap*|clap*",
+  "tasks": [
+   {
+    "sit": "Ви з друзями в джаз-клубі, і хтось питає, чому люди не аплодують після соло.",
+    "say": "Тут замість оплесків клацають пальцями.",
+    "ans": ["Here people snap their fingers instead of clapping.", "Instead of clapping, people snap their fingers here.", "They snap their fingers here instead of clapping."],
+    "keys": { "замість оплесків": "instead|clap*|applau*" }
+   },
+   {
+    "sit": "Твій колега не може пригадати назву фільму, а потім раптом згадує.",
+    "say": "Він клацнув пальцями й вигукнув назву.",
+    "ans": ["He snapped his fingers and shouted the title.", "He snapped his fingers and yelled out the name.", "He snapped his fingers and blurted out the title."],
+    "keys": { "вигукнув": "shout*|yell*|said|cried|blurt*|call*", "назва": "title|name" }
+   },
+   {
+    "sit": "У ресторані за сусіднім столиком чоловік підкликає офіціанта дуже грубим жестом.",
+    "say": "Не можна клацати пальцями на офіціанта, це грубо.",
+    "ans": ["You can’t snap your fingers at a waiter, it’s rude.", "It’s so rude to snap your fingers at the waiter.", "You don’t snap your fingers at waiters — that’s just rude."],
+    "keys": { "офіціант": "waiter*|waitress*|server*|staff", "грубо": "rude|impolite|disrespectful" }
+   }
+  ]
+ }
+]

@@ -1,0 +1,634 @@
+[
+ {
+  "id": 1052, "w": "ignore", "uk": "ігнорувати", "lvl": "A2",
+  "forms": "ignore|ignores|ignored|ignored|ignoring",
+  "near": "not answer*|not pick* up|avoid*|skip*|disregard*|decline*|reject*",
+  "tasks": [
+   {
+    "sit": "Колега бачить, що твій телефон дзвонить, а ти навіть не дивишся на екран.",
+    "say": "Якщо дзвонить невідомий номер, я просто ігнорую.",
+    "ans": ["If an unknown number calls, I just ignore it.", "I always ignore calls from unknown numbers.", "Unknown number? I just ignore it."],
+    "keys": { "невідомий номер": "unknown|private|strange|random|number*" }
+   },
+   {
+    "sit": "Ти поділився з подругою, що твій друг раптом перестав відповідати.",
+    "say": "Він уже три дні ігнорує мої повідомлення.",
+    "ans": ["He’s been ignoring my messages for three days.", "He has ignored my texts for three days now.", "He’s been ignoring me for like three days."],
+    "keys": { "три дні": "three|3|day*", "він": "he|him" }
+   },
+   {
+    "sit": "Лікар питає, чому ти прийшов до нього так пізно.",
+    "say": "Я надто довго ігнорував біль у спині.",
+    "ans": ["I ignored the back pain for too long.", "I’ve been ignoring my back pain for way too long.", "I just kept ignoring the pain in my back for too long."],
+    "keys": { "біль": "pain*|ache*|hurt*", "спина": "back" }
+   }
+  ]
+ },
+ {
+  "id": 1053, "w": "text back", "uk": "написати у відповідь", "lvl": "A2",
+  "forms": "text|texts|texted|texted|texting",
+  "tail": "back",
+  "near": "reply*|replied|respond*|answer*|write* back|wrote back|written back|message* back|call* back",
+  "tasks": [
+   {
+    "sit": "Ти запросив дівчину в кіно, а відповіді все немає. Скаржишся другові.",
+    "say": "Я написав їй ще вчора, а вона досі не відповіла.",
+    "ans": ["I texted her yesterday and she still hasn’t texted back.", "She still hasn’t texted me back since yesterday.", "I messaged her yesterday and she hasn’t texted back yet."],
+    "keys": { "вона": "she|her", "досі": "still|yet" }
+   },
+   {
+    "sit": "Друг писав тобі, поки ти їхав на дачу. Нарешті ти відповідаєш.",
+    "say": "Вибач, що не відповів одразу, — був за кермом.",
+    "ans": ["Sorry I didn’t text back right away, I was driving.", "Sorry for not texting you back sooner — I was driving.", "Sorry, couldn’t text back, I was driving."],
+    "keys": { "за кермом": "driv*|car|road|wheel" }
+   },
+   {
+    "sit": "Донька-студентка вперше сама їде поїздом до іншого міста.",
+    "say": "Напиши мені у відповідь, коли доїдеш.",
+    "ans": ["Text me back when you get there.", "Text me back once you arrive.", "Just text me back when you get there, okay?"],
+    "keys": { "доїдеш": "get there|arrive*|get home|reach*|there|home" }
+   }
+  ]
+ },
+ {
+  "id": 1054, "w": "ping", "uk": "пінганути (коротко написати)", "lvl": "B2",
+  "forms": "ping|pings|pinged|pinged|pinging",
+  "near": "messag*|text*|email*|drop me a line|let me know|slack*|contact*|write me",
+  "tasks": [
+   {
+    "sit": "Колега доробляє слайди, а тобі треба їх переглянути перед відправкою клієнтові.",
+    "say": "Пінгани мене, коли презентація буде готова.",
+    "ans": ["Ping me when the presentation is ready.", "Can you ping me once the presentation is ready?", "Just ping me when the slides are ready."],
+    "keys": { "презентація": "presentation|slide*|deck", "готова": "ready|done|finish*" }
+   },
+   {
+    "sit": "Керівник питає, чи відомо вже щось від розробника Олега.",
+    "say": "Я пінганув Олега в чаті, але він мовчить.",
+    "ans": ["I pinged Oleg in the chat, but he hasn’t replied.", "I’ve pinged Oleg, but there’s no answer yet.", "I pinged Oleg, but he’s been quiet."],
+    "keys": { "Олег": "oleg|him|he", "мовчить": "not repl*|no answer|no reply|no response|quiet|silent|nothing|not answer*|not respond*|not heard" }
+   },
+   {
+    "sit": "Ви з другом хочете піти на концерт, але ти ще не знаєш, чи будуть вільні квитки.",
+    "say": "Я пінгану тебе завтра щодо квитків.",
+    "ans": ["I’ll ping you tomorrow about the tickets.", "I’ll ping you about the concert tickets tomorrow.", "Let me ping you tomorrow about the tickets."],
+    "keys": { "завтра": "tomorrow", "квитки": "ticket*|concert|gig" }
+   }
+  ]
+ },
+ {
+  "id": 1055, "w": "tweet", "uk": "твітнути", "lvl": "B1",
+  "forms": "tweet|tweets|tweeted|tweeted|tweeting",
+  "near": "post*|shar*|publish*|announc*",
+  "tasks": [
+   {
+    "sit": "Ти стоїш у заторі, і друг питає, звідки ти знаєш, що міст закрили.",
+    "say": "Мер твітнув про закриття мосту.",
+    "ans": ["The mayor tweeted about the bridge closure.", "The mayor tweeted that the bridge is closed.", "The mayor just tweeted the bridge is closed."],
+    "keys": { "мер": "mayor", "міст": "bridge" }
+   },
+   {
+    "sit": "Ти хвалишся другу, як популярний став твій допис після вчорашнього концерту.",
+    "say": "Я твітнув фото з концерту, і його лайкнули тисячу разів.",
+    "ans": ["I tweeted a photo from the concert and it got a thousand likes.", "I tweeted a pic from the concert and got a thousand likes.", "I tweeted a concert photo and it got like a thousand likes!"],
+    "keys": { "фото": "photo*|pic*|picture*|video", "концерт": "concert|gig|show" }
+   },
+   {
+    "sit": "Авіакомпанія загубила твою валізу, і ніхто не відповідає на дзвінки.",
+    "say": "Якщо не повернуть багаж, я твітну про це авіакомпанії.",
+    "ans": ["If they don’t return my luggage, I’ll tweet the airline about it.", "If they don’t give my bag back, I’m tweeting the airline.", "I’m going to tweet at the airline if my luggage doesn’t show up."],
+    "keys": { "авіакомпанія": "airline|company", "багаж": "luggage|bag*|suitcase" }
+   }
+  ]
+ },
+ {
+  "id": 1056, "w": "retweet", "uk": "ретвітнути", "lvl": "B2",
+  "forms": "retweet|retweets|retweeted|retweeted|retweeting",
+  "near": "shar*|repost*|forward*|spread*",
+  "tasks": [
+   {
+    "sit": "У вас зник пес, і ти пишеш допис для підписників.",
+    "say": "Ретвітніть, будь ласка, — ми шукаємо зниклого пса.",
+    "ans": ["Please retweet — we’re looking for our missing dog.", "Please retweet this, we’re searching for our lost dog.", "Retweet please! Our dog is missing."],
+    "keys": { "пес": "dog|puppy|pet", "зниклий": "lost|missing|look*|search*|find" }
+   },
+   {
+    "sit": "Ти працюєш у маркетингу маленького бренду й радісно повідомляєш команді новину.",
+    "say": "Наш пост ретвітнула відома блогерка!",
+    "ans": ["A famous blogger retweeted our post!", "Our post was retweeted by a famous blogger!", "Guess what, a big blogger retweeted our post!"],
+    "keys": { "блогерка": "blogger|influencer|celebrity", "пост": "post|tweet" }
+   },
+   {
+    "sit": "Ти гортав стрічку пізно вночі й натиснув не ту кнопку.",
+    "say": "Я випадково ретвітнув старий жарт свого начальника.",
+    "ans": ["I accidentally retweeted my boss’s old joke.", "I retweeted my boss’s old joke by accident.", "Oops, I accidentally retweeted an old joke from my boss."],
+    "keys": { "начальник": "boss*|manager*", "випадково": "accident*|mistake" }
+   }
+  ]
+ },
+ {
+  "id": 1057, "w": "comment", "uk": "коментувати", "lvl": "A2",
+  "forms": "comment|comments|commented|commented|commenting",
+  "near": "repl*|respond*|react*|leave a note|write under",
+  "tasks": [
+   {
+    "sit": "Друг сміється, побачивши під твоїм фото чергове «Яка ти красуня!».",
+    "say": "Бабуся коментує кожне моє фото в інстаграмі.",
+    "ans": ["My grandma comments on every photo I post on Instagram.", "Grandma comments on all my Instagram photos.", "My gran literally comments on every single photo I post."],
+    "keys": { "бабуся": "grandma|gran*|grandmother|nan*", "фото": "photo*|pic*|picture*|post*" }
+   },
+   {
+    "sit": "Ти ведеш кулінарний канал і завершуєш нове відео.",
+    "say": "Якщо маєте питання, коментуйте нижче!",
+    "ans": ["Comment below if you have any questions!", "If you’ve got questions, comment below!", "Got any questions? Just comment down below!"],
+    "keys": { "питання": "question*|ask*", "нижче": "below|down" }
+   },
+   {
+    "sit": "Ти журналіст і доповідаєш редакторові про скандал на заводі.",
+    "say": "Компанія відмовилася коментувати ситуацію.",
+    "ans": ["The company refused to comment on the situation.", "The company declined to comment.", "The company wouldn’t comment on it at all."],
+    "keys": { "компанія": "company|firm|they", "відмовилася": "refus*|declin*|not|no" }
+   }
+  ]
+ },
+ {
+  "id": 1058, "w": "share", "uk": "поширювати (в мережі)", "lvl": "A2",
+  "forms": "share|shares|shared|shared|sharing",
+  "near": "post*|repost*|send*|sent|forward*|spread*|retweet*",
+  "tasks": [
+   {
+    "sit": "Ти збираєш гроші на ліки для сусідки й пишеш у соцмережах.",
+    "say": "Поширте, будь ласка, цей збір — кожна гривня важлива.",
+    "ans": ["Please share this fundraiser — every hryvnia counts.", "Could you share the fundraiser? Every donation helps.", "Share this fundraiser, please — every bit helps."],
+    "keys": { "збір": "fundrais*|donat*|campaign|collection", "кожна гривня": "every|each|all" }
+   },
+   {
+    "sit": "Твій жартівливий допис про котів несподівано став вірусним.",
+    "say": "Мій пост поширили понад десять тисяч разів.",
+    "ans": ["My post was shared over ten thousand times.", "Over ten thousand people shared my post.", "My post got shared more than ten thousand times!"],
+    "keys": { "десять тисяч": "ten thousand|10000|10k|thousand*", "пост": "post|video|tweet" }
+   },
+   {
+    "sit": "Ти організовуєш вебінар і пишеш учасникам нагадування.",
+    "say": "Поширте посилання на вебінар серед колег.",
+    "ans": ["Share the webinar link with your colleagues.", "Please share the link to the webinar with your team.", "Feel free to share the webinar link with coworkers."],
+    "keys": { "посилання": "link|url", "колеги": "colleague*|coworker*|co-worker*|team*|people" }
+   }
+  ]
+ },
+ {
+  "id": 1060, "w": "tag", "uk": "позначати (на фото, в пості)", "lvl": "B1",
+  "forms": "tag|tags|tagged|tagged|tagging",
+  "near": "mark*|mention*|label*",
+  "tasks": [
+   {
+    "sit": "Подруга збирається викласти фото з вечірки, де ти заплющив очі.",
+    "say": "Не познач мене на цьому фото, я там жахливо виглядаю!",
+    "ans": ["Don’t tag me in this photo, I look terrible!", "Please don’t tag me in that picture — I look awful.", "Don’t you dare tag me in that photo, I look awful!"],
+    "keys": { "фото": "photo*|pic*|picture*", "жахливо": "terrible|awful|horrible|bad|ugly" }
+   },
+   {
+    "sit": "Ти власник маленької пекарні й придумуєш акцію для соцмереж.",
+    "say": "Позначте нашу пекарню в сторіз — і отримаєте знижку.",
+    "ans": ["Tag our bakery in your story and get a discount.", "If you tag our bakery in your stories, you get a discount.", "Tag us in your story and you’ll get a discount!"],
+    "keys": { "знижка": "discount|off|free", "сторіз": "stor*|post*|instagram" }
+   },
+   {
+    "sit": "Ти виклав фото з вашої спільної мандрівки в гори й пишеш другові.",
+    "say": "Я позначив тебе в пості про нашу поїздку.",
+    "ans": ["I tagged you in the post about our trip.", "I’ve tagged you in my trip post.", "I tagged you in the trip photos!"],
+    "keys": { "поїздка": "trip|holiday|vacation|travel*|journey" }
+   }
+  ]
+ },
+ {
+  "id": 1061, "w": "shoplift", "uk": "красти з магазину", "lvl": "B2",
+  "forms": "shoplift|shoplifts|shoplifted|shoplifted|shoplifting",
+  "near": "steal*|stole|stolen|nick*|pinch*|swip*|lift*|rob*",
+  "tasks": [
+   {
+    "sit": "Ти власник невеликого магазину одягу й пояснюєш другові, навіщо ставиш камери.",
+    "say": "Минулого тижня хтось вкрав із магазину три куртки.",
+    "ans": ["Someone shoplifted three jackets last week.", "Three jackets were shoplifted last week.", "Last week somebody shoplifted three of our jackets."],
+    "keys": { "куртки": "jacket*|coat*", "минулого тижня": "last week|week" }
+   },
+   {
+    "sit": "Тітка засмучена, і ти пояснюєш дружині, що сталося з її сином-підлітком.",
+    "say": "Мій двоюрідний брат попався на крадіжці в супермаркеті.",
+    "ans": ["My cousin got caught shoplifting at the supermarket.", "My cousin was caught shoplifting in a supermarket.", "My cousin got busted shoplifting at the supermarket."],
+    "keys": { "попався": "caught|busted|arrested", "супермаркет": "supermarket|store|shop" }
+   },
+   {
+    "sit": "Ви з подругою гортаєте новини про знаменитостей.",
+    "say": "Уяви, та акторка вкрала сукню з бутика!",
+    "ans": ["Can you believe that actress shoplifted a dress from a boutique?", "Imagine, that actress shoplifted a dress from a boutique!", "That actress actually shoplifted a dress from a boutique!"],
+    "keys": { "сукня": "dress", "бутик": "boutique|store|shop" }
+   }
+  ]
+ },
+ {
+  "id": 1062, "w": "pickpocket", "uk": "обкрадати (витягати з кишені)", "lvl": "C1",
+  "forms": "pickpocket|pickpockets|pickpocketed|pickpocketed|pickpocketing",
+  "near": "rob*|steal*|stole|stolen|nick*|pinch*|swip*",
+  "tasks": [
+   {
+    "sit": "Ти повернувся з відпустки в Іспанії, і колега питає, як усе пройшло.",
+    "say": "У метро в Барселоні мене обікрали — витягли гаманець.",
+    "ans": ["I got pickpocketed on the metro in Barcelona.", "Someone pickpocketed me on the Barcelona metro.", "I was pickpocketed on the subway in Barcelona — they took my wallet."],
+    "keys": { "метро": "metro|subway|underground|train|tube", "Барселона": "barcelona" }
+   },
+   {
+    "sit": "Ти гід і ведеш групу туристів на людний ринок.",
+    "say": "На ринку туристів часто обкрадають, тож тримайте сумки при собі.",
+    "ans": ["Tourists often get pickpocketed at the market, so keep your bags close.", "People get pickpocketed at the market all the time — hold on to your bags.", "Watch out, tourists get pickpocketed at the market. Keep your bags close."],
+    "keys": { "ринок": "market|bazaar", "сумки": "bag*|wallet*|purse*|belonging*" }
+   },
+   {
+    "sit": "Після музичного фестивалю друг не може до тебе додзвонитися.",
+    "say": "На фестивалі в мене витягли телефон із кишені.",
+    "ans": ["Someone pickpocketed my phone at the festival.", "My phone got pickpocketed at the festival.", "I got pickpocketed at the festival — they took my phone."],
+    "keys": { "телефон": "phone|mobile", "фестиваль": "festival|concert|crowd|gig" }
+   }
+  ]
+ },
+ {
+  "id": 1063, "w": "hack", "uk": "зламувати (акаунт, сайт)", "lvl": "B2",
+  "forms": "hack|hacks|hacked|hacked|hacking",
+  "near": "break* into|broke into|broken into|compromis*|took over|take over|taken over",
+  "tasks": [
+   {
+    "sit": "Твоїм друзям приходять дивні повідомлення від твого імені.",
+    "say": "Мій інстаграм зламали, не відкривайте посилань від мене.",
+    "ans": ["My Instagram got hacked, don’t open any links from me.", "Someone hacked my Instagram — don’t click links from me.", "My Instagram has been hacked, so don’t open any links I send."],
+    "keys": { "акаунт": "instagram|account|profile|page", "посилання": "link*|anything|message*" }
+   },
+   {
+    "sit": "Ти не можеш оплатити рахунок онлайн, і колега питає, у чому справа.",
+    "say": "Минулої ночі хтось зламав сайт банку.",
+    "ans": ["Someone hacked the bank’s website last night.", "The bank’s website was hacked last night.", "Apparently somebody hacked the bank’s site last night."],
+    "keys": { "банк": "bank*", "сайт": "site|website|system*|server*" }
+   },
+   {
+    "sit": "Ти кілька років грав в онлайн-гру і збирав рідкісні речі.",
+    "say": "Хтось зламав мій ігровий акаунт і продав усі скіни.",
+    "ans": ["Someone hacked my gaming account and sold all my skins.", "My game account got hacked and all my skins were sold.", "Some guy hacked my account and sold all my skins!"],
+    "keys": { "продав": "sold|sell*|stole*|took|gone", "скіни": "skin*|item*|stuff" }
+   }
+  ]
+ },
+ {
+  "id": 1064, "w": "scam", "uk": "обманом виманювати гроші", "lvl": "B2",
+  "forms": "scam|scams|scammed|scammed|scamming",
+  "near": "cheat*|con|conned|trick*|swindl*|rip* off|ripped off|fool*|defraud*|rob*",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш сусідці, чому тепер щодня дзвониш своїй бабусі.",
+    "say": "Шахраї виманили в бабусі гроші по телефону.",
+    "ans": ["Someone scammed my grandma out of her money over the phone.", "My grandmother got scammed out of her savings on the phone.", "Some guys scammed my gran over the phone and took her money."],
+    "keys": { "бабуся": "grandma|gran*|grandmother|nan*", "телефон": "phone|call*" }
+   },
+   {
+    "sit": "Ти купував уживаний телефон через сайт оголошень.",
+    "say": "Мене обманули онлайн — я заплатив, а товару так і немає.",
+    "ans": ["I got scammed online — I paid and never got anything.", "I was scammed online: I paid, but the phone never came.", "I paid for a phone online and totally got scammed."],
+    "keys": { "заплатив": "paid|pay*|money", "онлайн": "online|site|website|internet" }
+   },
+   {
+    "sit": "Ви з подругою прилетіли до іншої країни, і таксист узяв утричі більше, ніж показує додаток.",
+    "say": "Таксист в аеропорту нас обдурив!",
+    "ans": ["The taxi driver at the airport scammed us!", "We got scammed by a taxi driver at the airport!", "That airport taxi guy totally scammed us!"],
+    "keys": { "таксист": "taxi|cab*|driver", "аеропорт": "airport" }
+   }
+  ]
+ },
+ {
+  "id": 1066, "w": "tinkle", "uk": "пісяти (дитяче «пі-пі»)", "lvl": "C1",
+  "forms": "tinkle|tinkles|tinkled|tinkled|tinkling",
+  "near": "pee*|wee*|piddle*|go potty|go to the bathroom|go to the toilet|use the bathroom|number one",
+  "tasks": [
+   {
+    "sit": "Ви їдете машиною на море, і малий на задньому сидінні починає вертітися.",
+    "say": "Малому треба пі-пі, давай зупинимося.",
+    "ans": ["The little one needs to tinkle, let’s stop.", "We need to stop, the kid has to tinkle.", "Can we pull over? My little guy needs to tinkle."],
+    "keys": { "зупинитися": "stop*|pull over|pull in|break", "малий": "little|kid*|son|boy|child|baby|one" }
+   },
+   {
+    "sit": "Ви з трирічною донькою збираєтеся надовго вийти з дому.",
+    "say": "Сходи пі-пі, перш ніж ми вийдемо.",
+    "ans": ["Go tinkle before we leave.", "Do you need to tinkle before we go?", "Let’s go tinkle before we head out."],
+    "keys": { "перед виходом": "before" }
+   },
+   {
+    "sit": "Ти вихователь у дитсадку й пояснюєш малюкам правила.",
+    "say": "Хто хоче пі-пі — піднімайте руку.",
+    "ans": ["If you need to tinkle, raise your hand.", "Raise your hand if you need to tinkle.", "Anyone who needs to tinkle, put your hand up!"],
+    "keys": { "рука": "hand*" }
+   }
+  ]
+ },
+ {
+  "id": 1067, "w": "go number one", "uk": "сходити по-маленькому", "lvl": "B2",
+  "forms": "go|goes|went|gone|going",
+  "tail": "number one/1",
+  "near": "pee*|wee*|tinkl*|take a leak|use the bathroom|go to the toilet|go to the bathroom",
+  "tasks": [
+   {
+    "sit": "Ти з трирічною донькою в супермаркеті, і вона тягне тебе за рукав. Звертаєшся до продавчині.",
+    "say": "Доньці треба по-маленькому — де тут туалет?",
+    "ans": ["My daughter needs to go number one — where’s the restroom?", "Sorry, my daughter has to go number one. Where’s the bathroom?", "My little girl needs to go number one — is there a toilet?"],
+    "keys": { "донька": "daughter|girl|she", "туалет": "restroom|bathroom|toilet|loo|washroom" }
+   },
+   {
+    "sit": "Ви з друзями зупинилися на заправці, і всі вже чекають у машині.",
+    "say": "Мені лише по-маленькому, я швидко!",
+    "ans": ["I just need to go number one, I’ll be quick!", "I only have to go number one, back in a minute!", "I just have to go number one — I’ll be super quick."],
+    "keys": { "швидко": "quick*|fast|minute|second|soon" }
+   },
+   {
+    "sit": "Ти привчаєш сина до горщика, і сьогодні в нього вперше все вийшло.",
+    "say": "Молодець, ти сам сходив по-маленькому!",
+    "ans": ["Good job, you went number one all by yourself!", "Well done, you went number one on your own!", "Great job! You went number one by yourself!"],
+    "keys": { "сам": "yourself|own|alone", "молодець": "good|well done|great|proud|awesome" }
+   }
+  ]
+ },
+ {
+  "id": 1068, "w": "go number two", "uk": "сходити по-великому", "lvl": "B2",
+  "forms": "go|goes|went|gone|going",
+  "tail": "number two/2",
+  "near": "poo*|poop*|dump|take a dump|took a dump|use the bathroom|go to the toilet",
+  "tasks": [
+   {
+    "sit": "Ти з пʼятирічним сином гуляєш у парку, і він раптом каже, що не може терпіти. Питаєш перехожого.",
+    "say": "Синові треба по-великому — де найближчий туалет?",
+    "ans": ["My son needs to go number two — where’s the nearest toilet?", "Sorry, my son has to go number two. Is there a bathroom nearby?", "My boy needs to go number two, where’s the closest restroom?"],
+    "keys": { "син": "son|boy|he", "туалет": "toilet|bathroom|restroom|loo" }
+   },
+   {
+    "sit": "Ви з партнером по черзі вигулюєте цуценя. Ти повертаєшся з прогулянки.",
+    "say": "Пес ще не сходив по-великому.",
+    "ans": ["The dog hasn’t gone number two yet.", "The dog still hasn’t gone number two.", "We walked for an hour and the dog still didn’t go number two."],
+    "keys": { "пес": "dog|puppy", "ще не": "not|yet|still" }
+   },
+   {
+    "sit": "Ти на прийомі в педіатра зі своїм немовлям.",
+    "say": "Малюк уже два дні не ходив по-великому.",
+    "ans": ["The baby hasn’t gone number two for two days.", "My baby hasn’t gone number two in two days.", "He hasn’t gone number two in two whole days."],
+    "keys": { "два дні": "days|day" }
+   }
+  ]
+ },
+ {
+  "id": 1069, "w": "take a leak", "uk": "відлити (розмовне)", "lvl": "B2",
+  "forms": "take|takes|took|taken|taking",
+  "tail": "leak",
+  "near": "pee*|wee*|piss*|go number one|use the bathroom|go to the toilet|tinkl*",
+  "tasks": [
+   {
+    "sit": "Ви з другом третю годину їдете трасою, і ти сидиш поруч із водієм.",
+    "say": "Зупинись на заправці, мені треба відлити.",
+    "ans": ["Stop at the gas station, I need to take a leak.", "Pull over at the next gas station — I have to take a leak.", "Can we stop at the gas station? I need to take a leak."],
+    "keys": { "заправка": "gas station|petrol station|station|garage", "зупинись": "stop*|pull over|pull in" }
+   },
+   {
+    "sit": "Ви з друзями дивитеся футбол у барі.",
+    "say": "Піду віділлю, замов мені ще пива.",
+    "ans": ["I’m going to take a leak — order me another beer.", "I’ll just take a leak, order me another beer.", "Just going to take a leak. Can you order me another beer?"],
+    "keys": { "пиво": "beer|pint|drink", "замов": "order|get|buy" }
+   },
+   {
+    "sit": "Ви з друзями в поході, і до найближчого туалету кілометрів двадцять.",
+    "say": "Я відійду за дерево відлити.",
+    "ans": ["I’m going behind that tree to take a leak.", "I’ll take a leak behind the trees.", "Hang on, I need to take a leak behind a tree."],
+    "keys": { "дерево": "tree*|bush*|woods" }
+   }
+  ]
+ },
+ {
+  "id": 1071, "w": "use the bathroom", "uk": "скористатися туалетом", "lvl": "A2",
+  "forms": "use|uses|used|used|using",
+  "tail": "bathroom",
+  "near": "go to the toilet|go to the bathroom|use the toilet|use the restroom|use the loo|go number one|go number two",
+  "tasks": [
+   {
+    "sit": "Ти в місті, тобі терміново треба в туалет, і ти заходиш у кавʼярню.",
+    "say": "Можна скористатися туалетом, якщо я нічого не купую?",
+    "ans": ["Can I use the bathroom if I’m not buying anything?", "Is it okay to use the bathroom if I don’t order anything?", "Sorry, can I use your bathroom even if I’m not buying anything?"],
+    "keys": { "не купую": "buy*|bought|order*|purchas*|customer" }
+   },
+   {
+    "sit": "Ти на письмовому іспиті, і до кінця ще година.",
+    "say": "Можна вийти в туалет під час іспиту?",
+    "ans": ["Can I use the bathroom during the exam?", "Am I allowed to use the bathroom during the test?", "Excuse me, is it okay if I use the bathroom during the exam?"],
+    "keys": { "іспит": "exam*|test" }
+   },
+   {
+    "sit": "Ти гід в автобусному турі й оголошуєш зупинку.",
+    "say": "Ми зупинимося на десять хвилин, якщо хтось хоче в туалет.",
+    "ans": ["We’ll stop for ten minutes if anyone needs to use the bathroom.", "We’re stopping for ten minutes so you can use the bathroom.", "We’ll take a ten minute break if anyone wants to use the bathroom."],
+    "keys": { "десять хвилин": "ten|10|minute*", "зупинка": "stop*|break" }
+   }
+  ]
+ },
+ {
+  "id": 1072, "w": "use the loo", "uk": "скористатися туалетом (брит.)", "lvl": "B1",
+  "forms": "use|uses|used|used|using",
+  "tail": "loo",
+  "near": "use the bathroom|use the toilet|go to the toilet|use the restroom|use the ladies|use the gents|spend a penny|wee*|pee*",
+  "tasks": [
+   {
+    "sit": "Ти в лондонському пабі, але ще нічого не замовив.",
+    "say": "Вибачте, можна скористатися вашим туалетом?",
+    "ans": ["Excuse me, can I use the loo?", "Sorry, could I use your loo, please?", "Excuse me, do you mind if I use the loo?"],
+    "keys": { "можна": "can|could|may|mind|okay|ok|alright" }
+   },
+   {
+    "sit": "Ти їдеш поїздом по Шотландії й сидиш поруч із попутницею.",
+    "say": "Я на хвилинку в туалет — наглянете за моєю сумкою?",
+    "ans": ["I’m just going to use the loo — could you watch my bag?", "Could you keep an eye on my bag while I use the loo?", "Would you mind watching my bag? I need to use the loo."],
+    "keys": { "сумка": "bag*|stuff|suitcase|things", "наглянете": "watch*|eye|look after|mind" }
+   },
+   {
+    "sit": "Ви з британськими друзями вирушаєте в довгу поїздку, і ти збираєш їхніх дітей у машину.",
+    "say": "Сходіть у туалет перед виїздом — їхати три години.",
+    "ans": ["Use the loo before we leave, the drive is three hours.", "Everyone use the loo before we go — it’s three hours in the car.", "Go and use the loo before we leave, we’ll be driving for three hours."],
+    "keys": { "перед виїздом": "before|now", "три години": "three|3|hour*" }
+   }
+  ]
+ },
+ {
+  "id": 1073, "w": "hold it in", "uk": "терпіти (не йти в туалет)", "lvl": "B2",
+  "forms": "hold|holds|held|held|holding",
+  "tail": "it in",
+  "near": "wait*|hang on|can not wait|cross* my legs",
+  "tasks": [
+   {
+    "sit": "Ти за кермом, а син просить у туалет. Найближча заправка трохи попереду.",
+    "say": "Потерпи ще десять хвилин.",
+    "ans": ["Can you hold it in for ten more minutes?", "Just hold it in for another ten minutes.", "Try to hold it in for ten more minutes, okay?"],
+    "keys": { "десять хвилин": "ten|10|minute*", "ще": "more|another|longer" }
+   },
+   {
+    "sit": "Ти вже годину стоїш у черзі на кордоні й звертаєшся до охоронця.",
+    "say": "Я більше не можу терпіти — де тут туалет?",
+    "ans": ["I can’t hold it in any longer — where’s the toilet?", "I can’t hold it in anymore, where’s the bathroom?", "Where’s the toilet? I really can’t hold it in!"],
+    "keys": { "туалет": "toilet|bathroom|restroom|loo|washroom", "не можу": "can not|cannot|not" }
+   },
+   {
+    "sit": "Уролог питає про твої звички протягом робочого дня.",
+    "say": "На роботі я часто терплю, бо немає часу вийти.",
+    "ans": ["At work I often hold it in because I don’t have time to go.", "I often hold it in at work — there’s no time to go.", "I tend to hold it in at work since I’m too busy to go."],
+    "keys": { "робота": "work|job|office|shift", "часто": "often|usually|tend|always|a lot" }
+   }
+  ]
+ },
+ {
+  "id": 1074, "w": "clench", "uk": "стискати (зуби, кулаки)", "lvl": "B2",
+  "forms": "clench|clenches|clenched|clenched|clenching",
+  "near": "squeez*|grit*|tighten*|grip*|ball*",
+  "tasks": [
+   {
+    "sit": "Стоматолог питає, чому в тебе стерті зуби.",
+    "say": "Уночі я стискаю зуби, і зранку болить щелепа.",
+    "ans": ["I clench my teeth at night, and my jaw hurts in the morning.", "I’ve been clenching my teeth at night, so my jaw aches in the morning.", "I clench my jaw at night — it’s so sore in the morning."],
+    "keys": { "зуби": "teeth|tooth|jaw", "вночі": "night|sleep*" }
+   },
+   {
+    "sit": "На нараді колега видав твою ідею за свою. Увечері ти розповідаєш про це другові.",
+    "say": "Я так розлютився, що аж стиснув кулаки.",
+    "ans": ["I was so angry I clenched my fists.", "I got so mad that I clenched my fists.", "I was so furious, I literally clenched my fists."],
+    "keys": { "кулаки": "fist*|hand*", "розлютився": "angry|mad|furious|livid|annoyed" }
+   },
+   {
+    "sit": "Ти фітнес-тренер і ведеш заняття в залі.",
+    "say": "Стисніть сідниці й тримайте пʼять секунд.",
+    "ans": ["Clench your glutes and hold for five seconds.", "Clench your buttocks and hold it for five seconds.", "Now clench your glutes — hold for five seconds."],
+    "keys": { "сідниці": "glute*|butt*|buttock*|bum|muscle*", "пʼять секунд": "five|5|second*" }
+   }
+  ]
+ },
+ {
+  "id": 1075, "w": "release", "uk": "відпускати", "lvl": "B2",
+  "forms": "release|releases|released|released|releasing",
+  "near": "let go|let it go|let me go|let go of|drop*|loosen*|free*",
+  "tasks": [
+   {
+    "sit": "Ти страхуєш друга на скеледромі.",
+    "say": "Не відпускай мотузку, поки я не скажу.",
+    "ans": ["Don’t release the rope until I say so.", "Don’t release the rope until I tell you.", "Whatever you do, don’t release the rope until I say."],
+    "keys": { "мотузка": "rope", "поки не скажу": "until|till|say|tell" }
+   },
+   {
+    "sit": "Ти інструктор з водіння, а учень рвучко рушає з місця.",
+    "say": "Повільно відпускай зчеплення.",
+    "ans": ["Release the clutch slowly.", "Slowly release the clutch.", "Now release the clutch nice and slowly."],
+    "keys": { "зчеплення": "clutch|pedal", "повільно": "slow*|gentl*|careful*" }
+   },
+   {
+    "sit": "Ти вчиш друга стріляти з лука в спортивному клубі.",
+    "say": "Затримай подих, а потім плавно відпусти тятиву.",
+    "ans": ["Hold your breath, then release the string smoothly.", "Hold your breath and gently release the string.", "Breathe in, hold it, and then just release the string smoothly."],
+    "keys": { "тятива": "string|bowstring|arrow", "плавно": "gentl*|smooth*|slow*|soft*" }
+   }
+  ]
+ },
+ {
+  "id": 1076, "w": "cling", "uk": "чіплятися", "lvl": "B2",
+  "forms": "cling|clings|clung|clung|clinging",
+  "near": "hold* on|held on|hang* on|hung on|grab*|grip*|hug*",
+  "tasks": [
+   {
+    "sit": "Вихователька питає, як донька звикає до садочка.",
+    "say": "Щоранку вона чіпляється за мене й не хоче йти в садок.",
+    "ans": ["Every morning she clings to me and won’t go to kindergarten.", "She clings to me every morning — she doesn’t want to go to daycare.", "Every morning she just clings to me and refuses to go to kindergarten."],
+    "keys": { "садок": "kindergarten|daycare|nursery|preschool|school", "щоранку": "morning*" }
+   },
+   {
+    "sit": "Ти розповідаєш про морську прогулянку, під час якої почався шторм.",
+    "say": "Човен так хитало, що я чіплявся за поручні.",
+    "ans": ["The boat was rocking so much that I clung to the railing.", "I clung to the rail the whole time the boat was rocking.", "The boat was shaking like crazy, and I just clung to the railing."],
+    "keys": { "поручні": "rail*|handrail*|side", "човен": "boat|ferry|ship|wave*" }
+   },
+   {
+    "sit": "Ти заходиш у кімнату й бачиш нове кошеня високо на шторі.",
+    "say": "Кошеня вчепилося в штору й не злазить.",
+    "ans": ["The kitten is clinging to the curtain and won’t come down.", "The kitten clung to the curtains and wouldn’t get down.", "The kitten is clinging to the curtain — it won’t let go!"],
+    "keys": { "кошеня": "kitten*|cat*", "штора": "curtain*|drape*" }
+   }
+  ]
+ },
+ {
+  "id": 1077, "w": "double", "uk": "подвоювати(-ся)", "lvl": "B1",
+  "forms": "double|doubles|doubled|doubled|doubling",
+  "near": "twice|two times|increas*|grew|grow*|went up|go up|rise|rose|triple*",
+  "tasks": [
+   {
+    "sit": "Друг питає, чому ти шукаєш нову квартиру.",
+    "say": "Нам подвоїли оренду за один рік.",
+    "ans": ["Our rent has doubled in a year.", "They doubled our rent in just one year.", "Our rent basically doubled in a year!"],
+    "keys": { "оренда": "rent|lease", "рік": "year" }
+   },
+   {
+    "sit": "Ти керівник відділу продажів і звітуєш на загальних зборах.",
+    "say": "Цього кварталу ми подвоїли продажі.",
+    "ans": ["We doubled our sales this quarter.", "Our sales doubled this quarter.", "We managed to double sales this quarter!"],
+    "keys": { "продажі": "sales|revenue|profit*", "квартал": "quarter" }
+   },
+   {
+    "sit": "Ти готуєш вечерю, а сестра каже, що прийде вісім гостей замість чотирьох.",
+    "say": "Тоді треба подвоїти рецепт.",
+    "ans": ["Then we need to double the recipe.", "Then I’ll have to double the recipe.", "Okay, then let’s just double the recipe."],
+    "keys": { "рецепт": "recipe|ingredient*|everything" }
+   }
+  ]
+ },
+ {
+  "id": 1078, "w": "triple", "uk": "потроювати(-ся)", "lvl": "B2",
+  "forms": "triple|triples|tripled|tripled|tripling",
+  "near": "three times|increas*|grew|grow*|went up|go up|rose|double*",
+  "tasks": [
+   {
+    "sit": "Ти засновник стартапу й даєш інтервʼю місцевому виданню.",
+    "say": "За два роки наша команда потроїлася.",
+    "ans": ["Our team has tripled in two years.", "In two years our team tripled in size.", "Our team has basically tripled in the last two years."],
+    "keys": { "команда": "team|staff|company", "два роки": "two years|2 years|years" }
+   },
+   {
+    "sit": "Ти хотів полетіти до батьків на Різдво, але передумав.",
+    "say": "Ціни на квитки на свята потроїлися.",
+    "ans": ["Ticket prices have tripled for the holidays.", "Plane tickets tripled in price over the holidays.", "They tripled the ticket prices for the holidays!"],
+    "keys": { "квитки": "ticket*|flight*|fare*", "свята": "holiday*|christmas|new year" }
+   },
+   {
+    "sit": "Ти ведеш блог про рибалку, і одне відео раптом стало популярним.",
+    "say": "Після того відео кількість підписників потроїлася.",
+    "ans": ["After that video, my subscribers tripled.", "That video tripled my subscriber count.", "My subscribers tripled after that one video!"],
+    "keys": { "підписники": "subscriber*|follower*|audience", "відео": "video|clip|post" }
+   }
+  ]
+ },
+ {
+  "id": 1079, "w": "halve", "uk": "скорочувати вдвічі", "lvl": "B2",
+  "forms": "halve|halves|halved|halved|halving",
+  "near": "in half|by half|split*|reduc*|divid*",
+  "tasks": [
+   {
+    "sit": "Ти фінансовий директор, і в компанії важкі часи.",
+    "say": "Нам треба скоротити витрати вдвічі до кінця року.",
+    "ans": ["We need to halve our costs by the end of the year.", "Costs have to be halved by the end of the year.", "We’ve got to halve our spending by the end of the year."],
+    "keys": { "витрати": "cost*|spend*|expens*|budget", "кінець року": "end of the year|year" }
+   },
+   {
+    "sit": "Ти знайшов рецепт лазаньї на шістьох, але вечеряєш сьогодні сам.",
+    "say": "Я готую лише для себе, тож зменшу рецепт удвічі.",
+    "ans": ["I’m only cooking for myself, so I’ll halve the recipe.", "I’ll halve the recipe since it’s just me.", "It’s just me tonight, so I’ll halve the recipe."],
+    "keys": { "рецепт": "recipe|ingredient*|portion*", "для себе": "myself|just me|only me|alone|one" }
+   },
+   {
+    "sit": "Колега питає, чому ти тепер приходиш на роботу раніше.",
+    "say": "Нова лінія метро скоротила мою дорогу вдвічі.",
+    "ans": ["The new metro line halved my commute.", "My commute has been halved thanks to the new metro line.", "The new subway line basically halved my commute to work."],
+    "keys": { "дорога": "commute|journey|trip|travel*|ride", "метро": "metro|subway|underground|tube|line" }
+   }
+  ]
+ }
+]

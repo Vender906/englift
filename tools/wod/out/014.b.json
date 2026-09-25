@@ -1,0 +1,628 @@
+[
+ {
+  "id": 759, "w": "squat", "uk": "присідати (вправа, навпочіпки)", "lvl": "B2",
+  "forms": "squat|squats|squatted|squatted|squatting",
+  "near": "crouch*|kneel*|knelt|bend* down|bent down|sit down",
+  "tasks": [
+   {
+    "sit": "Тренер у спортзалі показує тобі нову вправу для ніг.",
+    "say": "Присідай повільно й тримай спину прямо.",
+    "ans": ["Squat slowly and keep your back straight.", "Keep your back straight while you squat slowly.", "Squat down slowly and keep that back straight."],
+    "keys": { "повільно": "slow*|careful*", "спина": "back" }
+   },
+   {
+    "sit": "Друг питає, як ти так швидко прибрав усі іграшки з-під ліжка в дитячій.",
+    "say": "Мені довелося присісти, щоб дістати їх з-під ліжка.",
+    "ans": ["I had to squat down to get them from under the bed.", "I squatted down to reach them under the bed.", "I had to squat down and pull them out from under the bed."],
+    "keys": { "ліжко": "bed", "дістати": "get|reach*|pull*|grab*" }
+   },
+   {
+    "sit": "Ти розповідаєш про свій новий ранковий ритуал зарядки.",
+    "say": "Щоранку я присідаю п’ятдесят разів.",
+    "ans": ["I squat fifty times every morning.", "Every morning I squat fifty times.", "I squat fifty times first thing every morning."],
+    "keys": { "п’ятдесят": "fift*|50", "щоранку": "morning*|every day|daily" }
+   }
+  ]
+ },
+ {
+  "id": 760, "w": "hover", "uk": "наводити (курсор)", "lvl": "B2",
+  "forms": "hover|hovers|hovered|hovered|hovering",
+  "near": "point*|move the mouse|move your mouse|mouse over|put the cursor|click*",
+  "tasks": [
+   {
+    "sit": "Ти пояснюєш бабусі, як на сайті інтернет-магазину побачити більше інформації про товар.",
+    "say": "Наведи мишку на фото, і з’являться деталі.",
+    "ans": ["Hover over the photo and the details will appear.", "If you hover over the picture, you’ll see the details.", "Just hover over the photo and the details pop up."],
+    "keys": { "фото": "photo*|picture*|image*", "деталі": "detail*|info*" }
+   },
+   {
+    "sit": "Колега не розуміє, що означає маленька іконка в новій програмі.",
+    "say": "Наведи на іконку курсор — там буде підказка.",
+    "ans": ["Hover over the icon — there’s a tooltip.", "Hover your cursor over the icon to see a hint.", "Just hover over the icon and you’ll get a tooltip."],
+    "keys": { "іконка": "icon|button|symbol", "підказка": "tooltip|hint|tip|explain*|label" }
+   },
+   {
+    "sit": "Ти тестуєш сайт, який розробила твоя команда, і знаходиш помилку.",
+    "say": "Коли я наводжу курсор на меню, воно зникає.",
+    "ans": ["When I hover over the menu, it disappears.", "The menu disappears whenever I hover over it.", "Every time I hover over the menu, it just vanishes."],
+    "keys": { "меню": "menu", "зникає": "disappear*|vanish*|gone|close*|hide*" }
+   }
+  ]
+ },
+ {
+  "id": 761, "w": "drift", "uk": "дрейфувати, повільно пливти за течією", "lvl": "B2",
+  "forms": "drift|drifts|drifted|drifted|drifting",
+  "near": "float*|flow*|sail*|carried|swept|wash*",
+  "tasks": [
+   {
+    "sit": "Ти з другом на річці, і ви забули прив’язати човен до берега.",
+    "say": "Дивись, наш човен пливе за течією!",
+    "ans": ["Look, our boat is drifting downstream!", "Look, the boat’s drifting away down the river!", "Oh no, look — our boat’s drifting off!"],
+    "keys": { "човен": "boat|canoe|kayak", "дивись": "look|see" }
+   },
+   {
+    "sit": "Ти розповідаєш про відпочинок на морі з надувним матрацом.",
+    "say": "Я заснув на матраці й мене віднесло далеко від берега.",
+    "ans": ["I fell asleep on the air mattress and drifted far from the shore.", "I drifted a long way from the beach after I fell asleep on my float.", "I dozed off on the mattress and drifted way out from the shore."],
+    "keys": { "матрац": "mattress|float|lilo|inflatable", "берег": "shore|beach|coast|land" }
+   },
+   {
+    "sit": "У новинах розповідають про рибалок, яких рятувальники знайшли у відкритому морі.",
+    "say": "Їхній човен два дні дрейфував у морі.",
+    "ans": ["Their boat drifted at sea for two days.", "Their boat was drifting at sea for two days.", "Their boat had been drifting at sea for two whole days."],
+    "keys": { "два дні": "two*|2*|48*|day*", "море": "sea|ocean|water" }
+   }
+  ]
+ },
+ {
+  "id": 762, "w": "slide", "uk": "ковзати, з’їжджати", "lvl": "B1",
+  "forms": "slide|slides|slid|slid|sliding",
+  "near": "slip|slips|slipped|slipping|skat*|sled*|sledg*|glid*",
+  "tasks": [
+   {
+    "sit": "Зима, діти просять піти з ними на гірку біля будинку.",
+    "say": "Ходімо з’їжджати з гірки на санчатах!",
+    "ans": ["Let’s go slide down the hill on sleds!", "Let’s go and slide down the hill on the sledge!", "Come on, let’s slide down the hill!"],
+    "keys": { "гірка": "hill|slope" }
+   },
+   {
+    "sit": "Ти розповідаєш про ранок, коли дороги вкрила ожеледиця.",
+    "say": "Моя машина ковзнула прямо на перехресті.",
+    "ans": ["My car slid right at the intersection.", "My car slid across the crossroads.", "My car just slid right into the intersection."],
+    "keys": { "машина": "car", "перехрестя": "intersection|crossroad*|junction|corner" }
+   },
+   {
+    "sit": "Ти показуєш новому сусідові квартиру. Двері в шафі-купе трохи заїдають.",
+    "say": "Двері мають відсуватися легко, але їх заїдає.",
+    "ans": ["The door should slide easily, but it gets stuck.", "The door is supposed to slide open easily, but it sticks.", "It should slide easily, but it keeps getting stuck."],
+    "keys": { "легко": "eas*|smooth*", "заїдає": "stuck|stick*|jam*" }
+   }
+  ]
+ },
+ {
+  "id": 763, "w": "glide", "uk": "плавно рухатися, ширяти, ковзати", "lvl": "C1",
+  "forms": "glide|glides|glided|glided|gliding",
+  "near": "float*|slid*|slide|soar*|sail*|fly|flew|flying|drift*",
+  "tasks": [
+   {
+    "sit": "Ти в горах спостерігаєш за великими птахами над ущелиною.",
+    "say": "Орли плавно ширяють у повітрі, майже не махаючи крилами.",
+    "ans": ["The eagles glide through the air, barely flapping their wings.", "Eagles glide through the air almost without moving their wings.", "The eagles just glide along, hardly flapping their wings at all."],
+    "keys": { "орли": "eagle*|bird*", "крила": "wing*" }
+   },
+   {
+    "sit": "Ти розповідаєш, як уперше побачив професійне фігурне катання наживо.",
+    "say": "Фігуристи плавно ковзали по льоду, наче без зусиль.",
+    "ans": ["The skaters glided across the ice effortlessly.", "The skaters were gliding over the ice without any effort.", "The skaters just glided across the ice like it was nothing."],
+    "keys": { "фігуристи": "skater*|dancer*", "лід": "ice|rink" }
+   },
+   {
+    "sit": "Ти ділишся враженнями від дорогої електрички, якою їхав у Японії.",
+    "say": "Потяг їхав так плавно, що я навіть не відчував швидкості.",
+    "ans": ["The train glided so smoothly that I didn’t even feel the speed.", "The train glided along so smoothly I couldn’t feel how fast we were going.", "The train just glided along — you couldn’t even feel the speed."],
+    "keys": { "потяг": "train", "швидкість": "speed|fast" }
+   }
+  ]
+ },
+ {
+  "id": 764, "w": "venture", "uk": "наважитися піти (кудись)", "lvl": "C1",
+  "forms": "venture|ventures|ventured|ventured|venturing",
+  "near": "dare*|risk*|go out|went out|head* out|brave*",
+  "tasks": [
+   {
+    "sit": "Три дні була сильна хуртовина. Ти розповідаєш колезі, як нарешті вийшов у магазин.",
+    "say": "Сьогодні я нарешті наважився вийти надвір.",
+    "ans": ["Today I finally ventured outside.", "I finally ventured out of the house today.", "I finally ventured outside today — it was about time."],
+    "keys": { "нарешті": "finally|at last", "надвір": "outside|out|outdoors" }
+   },
+   {
+    "sit": "Ти розповідаєш про подорож до Марокко й старе місто з вузькими вуличками.",
+    "say": "Ми наважилися зайти в лабіринт старого міста без гіда.",
+    "ans": ["We ventured into the old town without a guide.", "Without a guide, we ventured into the maze of the old town.", "We ventured deep into the old town without any guide."],
+    "keys": { "старе місто": "old town|old city|medina|maze", "без гіда": "guide" }
+   },
+   {
+    "sit": "Твоя кішка вперше за тиждень після переїзду вийшла з-під дивана.",
+    "say": "Кішка нарешті наважилася вийти з-під дивана.",
+    "ans": ["The cat finally ventured out from under the sofa.", "Our cat has finally ventured out from under the couch.", "The cat finally ventured out from behind the sofa!"],
+    "keys": { "кішка": "cat|kitty", "диван": "sofa|couch" }
+   }
+  ]
+ },
+ {
+  "id": 765, "w": "vent", "uk": "виговоритися, вилити душу", "lvl": "B2",
+  "forms": "vent|vents|vented|vented|venting",
+  "near": "complain*|rant*|moan*|talk it out|let off steam|blow off steam|get it off my chest|open up",
+  "tasks": [
+   {
+    "sit": "Ти дзвониш подрузі ввечері після жахливого дня на роботі.",
+    "say": "Можна я просто виговорюся про роботу?",
+    "ans": ["Can I just vent about work for a minute?", "Do you mind if I vent about work?", "Can I vent for a sec? Work was awful."],
+    "keys": { "робота": "work|job|boss|office" }
+   },
+   {
+    "sit": "Колега вибачається, що занадто довго скаржився тобі за обідом.",
+    "say": "Нічого страшного, іноді всім треба виговоритися.",
+    "ans": ["It’s fine, everyone needs to vent sometimes.", "No worries — we all need to vent sometimes.", "That’s okay, everybody needs to vent now and then."],
+    "keys": { "всім": "everyone|everybody|we all|all", "іноді": "sometimes|now and then|occasionally|from time to time" }
+   },
+   {
+    "sit": "Ти пояснюєш другові, навіщо ведеш щоденник.",
+    "say": "Я пишу щоденник, щоб виговоритися, не навантажуючи інших.",
+    "ans": ["I keep a diary so I can vent without bothering other people.", "I write in a journal to vent without burdening anyone.", "Journaling lets me vent without dumping it all on other people."],
+    "keys": { "щоденник": "diary|journal*", "інших": "other*|anyone|people|anybody" }
+   }
+  ]
+ },
+ {
+  "id": 766, "w": "rant", "uk": "довго й гнівно розводитися", "lvl": "B2",
+  "forms": "rant|rants|ranted|ranted|ranting",
+  "near": "complain*|vent*|rav*|shout*|yell*|go on|went on|goes on|moan*",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш, як минула родинна вечеря у святковий день.",
+    "say": "Дядько знову цілу годину гнівно розводився про політику.",
+    "ans": ["My uncle ranted about politics for an hour again.", "Once again my uncle spent an hour ranting about politics.", "My uncle was ranting about politics for a whole hour again."],
+    "keys": { "дядько": "uncle", "політика": "politic*|government|election*" }
+   },
+   {
+    "sit": "Ти читаєш відгуки про ресторан, де нещодавно вечеряв.",
+    "say": "Один клієнт написав довжелезний гнівний відгук про офіціанта.",
+    "ans": ["One customer ranted about the waiter in a really long review.", "Some guy wrote a huge review ranting about the waiter.", "One customer went off ranting about the waiter in a massive review."],
+    "keys": { "офіціант": "waiter*|waitress*|server|staff|service", "відгук": "review*|comment*" }
+   },
+   {
+    "sit": "Ти щойно десять хвилин кричав другові про дорожні затори й раптом зупиняєшся.",
+    "say": "Вибач, що я так розійшовся про ці затори.",
+    "ans": ["Sorry for ranting about the traffic.", "Sorry, I ranted about the traffic jams for ages.", "Sorry, I didn’t mean to rant about the traffic like that."],
+    "keys": { "вибач": "sorry|apolog*", "затори": "traffic|jam*|road*" }
+   }
+  ]
+ },
+ {
+  "id": 767, "w": "joke", "uk": "жартувати", "lvl": "A2",
+  "forms": "joke|jokes|joked|joked|joking",
+  "near": "kid|kidding|kidded|tease*|teasing|laugh*|funny",
+  "tasks": [
+   {
+    "sit": "Друг сказав, що звільняється й переїжджає в Антарктиду. Ти не віриш.",
+    "say": "Ти жартуєш?",
+    "ans": ["Are you joking?", "You’re joking, right?", "You’re joking, aren’t you?"],
+    "keys": { "ти": "you" }
+   },
+   {
+    "sit": "Сестра питає, чому тобі так подобається новий колега.",
+    "say": "Він постійно жартує, і з ним весело.",
+    "ans": ["He jokes all the time, and he’s fun.", "He’s always joking, so it’s fun to be with him.", "He jokes around constantly — he’s so much fun."],
+    "keys": { "постійно": "all the time|always|constantly|a lot", "весело": "fun*" }
+   },
+   {
+    "sit": "Ти розповідаєш про поїздку з друзями, коли все пішло не за планом.",
+    "say": "Ми застрягли в аеропорту, але весь час жартували.",
+    "ans": ["We got stuck at the airport, but we joked the whole time.", "We were stuck at the airport, but we kept joking.", "We were stuck at the airport but joked around the whole time."],
+    "keys": { "аеропорт": "airport", "застрягли": "stuck|delay*|wait*" }
+   }
+  ]
+ },
+ {
+  "id": 768, "w": "kid", "uk": "жартувати (з кимось), дурити", "lvl": "B1",
+  "forms": "kid|kids|kidded|kidded|kidding",
+  "near": "joke|joking|joked|jokes|tease*|teasing|fool*",
+  "tasks": [
+   {
+    "sit": "Ти сказав мамі, що розбив її улюблену вазу, і бачиш, як вона засмутилася. Ваза ціла.",
+    "say": "Я просто жартую, ваза ціла!",
+    "ans": ["I’m just kidding, the vase is fine!", "Just kidding — the vase is okay!", "I’m only kidding, the vase is totally fine!"],
+    "keys": { "ваза": "vase", "ціла": "fine|okay|ok|all right|intact|not broken" }
+   },
+   {
+    "sit": "Колега каже, що вам усім підвищили зарплату вдвічі.",
+    "say": "Ти мене дуриш?",
+    "ans": ["Are you kidding me?", "You’re kidding me, right?", "You’re kidding me!"],
+    "keys": { "мене": "me" }
+   },
+   {
+    "sit": "Друг питає, чи справді ти вчора бачив у метро відомого актора.",
+    "say": "Я не жартую, він стояв поруч зі мною!",
+    "ans": ["I’m not kidding, he was standing next to me!", "No kidding — he stood right next to me!", "I kid you not, he was standing right beside me!"],
+    "keys": { "поруч": "next to|beside|near|close" }
+   }
+  ]
+ },
+ {
+  "id": 769, "w": "nod", "uk": "кивати (на знак згоди)", "lvl": "B1",
+  "forms": "nod|nods|nodded|nodded|nodding",
+  "near": "agree*|bow*|said yes|say yes",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш, як представив свою ідею на нараді.",
+    "say": "Директор кивнув, і я зрозумів, що він згоден.",
+    "ans": ["The director nodded, and I knew he agreed.", "When the director nodded, I realized he agreed.", "The boss just nodded, so I knew he was on board."],
+    "keys": { "директор": "director|boss|manager|ceo|head" }
+   },
+   {
+    "sit": "Ти в Болгарії й плутаєшся в жестах місцевих жителів. Розповідаєш про це другу.",
+    "say": "Там кивають, коли хочуть сказати «ні».",
+    "ans": ["There, people nod when they want to say no.", "They nod when they mean no there.", "Over there, people nod when they mean “no”."],
+    "keys": { "ні": "no" }
+   },
+   {
+    "sit": "Бабуся погано чує, тому ти пояснюєш їй, як відповідати тобі під час відеодзвінка.",
+    "say": "Якщо ти мене чуєш, просто кивни.",
+    "ans": ["If you can hear me, just nod.", "Just nod if you can hear me.", "Can you hear me? Just nod if you can."],
+    "keys": { "чуєш": "hear*" }
+   }
+  ]
+ },
+ {
+  "id": 770, "w": "shake head", "uk": "хитати головою (на знак «ні»)", "lvl": "B1",
+  "forms": "shake|shakes|shook|shaken|shaking",
+  "tail": "head*",
+  "near": "said no|say no|refus*|disagree*",
+  "tasks": [
+   {
+    "sit": "Ти запитав у продавчині на ринку, чи можна дешевше. Розповідаєш про це дружині.",
+    "say": "Вона просто похитала головою.",
+    "ans": ["She just shook her head.", "She shook her head without saying a word.", "She just shook her head — no discount."],
+    "keys": { "просто": "just|only|without" }
+   },
+   {
+    "sit": "Ти показуєш лікарю, де болить. Він мовчки дивиться на рентген.",
+    "say": "Лікар подивився на знімок і похитав головою.",
+    "ans": ["The doctor looked at the X-ray and shook his head.", "After looking at the X-ray, the doctor shook his head.", "The doctor took one look at the scan and shook his head."],
+    "keys": { "лікар": "doctor|doc", "знімок": "x-ray|xray|scan|image|picture" }
+   },
+   {
+    "sit": "Ти вчиш маленького сина відповідати без слів.",
+    "say": "Якщо не хочеш більше, просто похитай головою.",
+    "ans": ["If you don’t want more, just shake your head.", "Just shake your head if you don’t want any more.", "Don’t want any more? Just shake your head."],
+    "keys": { "більше": "more", "не хочеш": "not want|do not|no" }
+   }
+  ]
+ },
+ {
+  "id": 771, "w": "stutter", "uk": "заїкатися", "lvl": "C1",
+  "forms": "stutter|stutters|stuttered|stuttered|stuttering",
+  "near": "stammer*|mumbl*|mutter*|trip* over my words",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш про свою першу співбесіду англійською.",
+    "say": "Я так хвилювався, що почав заїкатися.",
+    "ans": ["I was so nervous that I started to stutter.", "I started stuttering because I was so nervous.", "I was so nervous I started stuttering."],
+    "keys": { "хвилювався": "nervous|anxious|worried|scared|stress*" }
+   },
+   {
+    "sit": "Батьки знайомої дитини питають тебе, логопеда, чи варто хвилюватися.",
+    "say": "Багато дітей трохи заїкаються, і з часом це минає.",
+    "ans": ["Many children stutter a little, and it goes away with time.", "Lots of kids stutter a bit, and they grow out of it.", "A lot of kids stutter a little — it usually passes with time."],
+    "keys": { "діти": "child*|kid*", "минає": "go* away|goes away|pass*|grow out|disappear*" }
+   },
+   {
+    "sit": "Ти розповідаєш про фільм «Король говорить!» колезі.",
+    "say": "Це історія про короля, який заїкався.",
+    "ans": ["It’s a story about a king who stuttered.", "It’s about a king who stuttered when he spoke.", "It’s the story of a king who stuttered."],
+    "keys": { "король": "king" }
+   }
+  ]
+ },
+ {
+  "id": 772, "w": "lecture", "uk": "читати лекції, викладати", "lvl": "B2",
+  "forms": "lecture|lectures|lectured|lectured|lecturing",
+  "near": "teach*|taught|give a talk|gives talks|speak*|present*",
+  "tasks": [
+   {
+    "sit": "Знайома питає, чим зараз займається твоя колишня наукова керівниця.",
+    "say": "Вона читає лекції з історії у Львівському університеті.",
+    "ans": ["She lectures in history at Lviv University.", "She’s lecturing on history at the university in Lviv.", "She lectures history at Lviv University now."],
+    "keys": { "історія": "histor*", "університет": "universit*|uni|lviv" }
+   },
+   {
+    "sit": "Колега-лікар розповідає тобі про свій графік, крім роботи в лікарні.",
+    "say": "Двічі на місяць я читаю лекції студентам-медикам.",
+    "ans": ["Twice a month I lecture medical students.", "I lecture to medical students twice a month.", "I also lecture medical students a couple of times a month."],
+    "keys": { "студенти": "student*", "двічі на місяць": "twice|two times|couple of times|month*" }
+   },
+   {
+    "sit": "Ти розповідаєш другові про цікавого гостя на IT-конференції.",
+    "say": "Він читав лекцію про штучний інтелект, і зала була повна.",
+    "ans": ["He lectured on artificial intelligence, and the hall was full.", "He was lecturing on AI to a packed hall.", "He lectured about AI and the room was completely packed."],
+    "keys": { "штучний інтелект": "ai|artificial intelligence|a.i.", "повна": "full|packed|crowded" }
+   }
+  ]
+ },
+ {
+  "id": 773, "w": "preach", "uk": "проповідувати", "lvl": "C1",
+  "forms": "preach|preaches|preached|preached|preaching",
+  "near": "teach*|taught|speak*|lectur*|sermon*",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш про маленьку сільську церкву, куди ходить твоя бабуся.",
+    "say": "Щонеділі там проповідує молодий священник.",
+    "ans": ["A young priest preaches there every Sunday.", "Every Sunday a young priest preaches there.", "There’s a young priest who preaches there every Sunday."],
+    "keys": { "священник": "priest|pastor|minister|father|vicar", "щонеділі": "sunday*" }
+   },
+   {
+    "sit": "Ти дивишся документальний фільм про історію християнства разом з другом.",
+    "say": "Апостоли проповідували в багатьох країнах.",
+    "ans": ["The apostles preached in many countries.", "The apostles went and preached in many lands.", "The apostles preached all over the world."],
+    "keys": { "апостоли": "apostle*|disciple*", "країни": "countr*|land*|nation*|world|place*" }
+   },
+   {
+    "sit": "На похороні друга родини ти розповідаєш, хто вів службу.",
+    "say": "Проповідь виголосив його старий друг, пастор.",
+    "ans": ["His old friend, a pastor, preached the sermon.", "The sermon was preached by his old friend, the pastor.", "His old friend, who’s a pastor, preached at the service."],
+    "keys": { "друг": "friend", "пастор": "pastor|priest|minister|vicar" }
+   }
+  ]
+ },
+ {
+  "id": 774, "w": "pray", "uk": "молитися", "lvl": "B1",
+  "forms": "pray|prays|prayed|prayed|praying",
+  "near": "hope*|wish*|worship*|beg*|keep my fingers crossed|fingers crossed",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш іноземному другові, як твоя бабуся проводить вечори.",
+    "say": "Бабуся щовечора молиться за мир.",
+    "ans": ["My grandma prays for peace every evening.", "Every evening my grandmother prays for peace.", "Grandma prays for peace every single night."],
+    "keys": { "бабуся": "grandma|grandmother|granny|nan*", "мир": "peace" }
+   },
+   {
+    "sit": "Твій друг чекає на складну операцію. Ти пишеш йому повідомлення.",
+    "say": "Ми всі молимося за тебе.",
+    "ans": ["We’re all praying for you.", "We all pray for you.", "All of us are praying for you."],
+    "keys": { "всі": "all|everyone|everybody" }
+   },
+   {
+    "sit": "Під час подорожі Туреччиною ти зайшов у мечеть і розповідаєш про це.",
+    "say": "Там люди моляться п’ять разів на день.",
+    "ans": ["People there pray five times a day.", "There, people pray five times a day.", "People there pray five times every day."],
+    "keys": { "п’ять разів": "five|5", "день": "day" }
+   }
+  ]
+ },
+ {
+  "id": 775, "w": "curse", "uk": "лаятися, матюкатися", "lvl": "B2",
+  "forms": "curse|curses|cursed|cursed|cursing",
+  "near": "swear*|swore|sworn|shout*|yell*|damn*",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш, як сусід удома вішав полицю й влучив молотком собі по пальцю.",
+    "say": "Він так голосно лаявся, що було чутно на весь під’їзд.",
+    "ans": ["He cursed so loudly that the whole building heard him.", "He was cursing so loud the whole building could hear.", "He cursed so loud you could hear it all over the building."],
+    "keys": { "голосно": "loud*", "під’їзд": "building|stair*|block|everyone|neighbo*" }
+   },
+   {
+    "sit": "Ти граєш з друзями в онлайн-гру, у кімнаті поруч спить дитина.",
+    "say": "Будь ласка, не лайтеся, дитина поруч.",
+    "ans": ["Please don’t curse, there’s a kid nearby.", "Please stop cursing — the baby is next door.", "Guys, no cursing, please — the kid’s right next door."],
+    "keys": { "дитина": "kid|child|baby|son|daughter", "не": "not|no|stop" }
+   },
+   {
+    "sit": "Ти розповідаєш колезі про ранкову дорогу на роботу в затор.",
+    "say": "Я пів години стояв у заторі й лаявся.",
+    "ans": ["I sat in traffic for half an hour, cursing.", "I was stuck in traffic for thirty minutes and cursed the whole time.", "I spent half an hour in traffic just cursing."],
+    "keys": { "затор": "traffic|jam", "пів години": "half an hour|thirty|30" }
+   }
+  ]
+ },
+ {
+  "id": 776, "w": "brainstorm", "uk": "проводити мозковий штурм, накидати ідеї", "lvl": "B2",
+  "forms": "brainstorm|brainstorms|brainstormed|brainstormed|brainstorming",
+  "near": "discuss*|think up|thought up|come up with|came up with|throw* ideas|bounce* ideas",
+  "tasks": [
+   {
+    "sit": "На роботі треба придумати назву для нового продукту. Ти звертаєшся до команди.",
+    "say": "Давайте накидаємо ідеї для назви.",
+    "ans": ["Let’s brainstorm ideas for the name.", "Let’s brainstorm some names together.", "Okay, let’s brainstorm some name ideas."],
+    "keys": { "назва": "name*|title*|brand*" }
+   },
+   {
+    "sit": "Ви з сестрою готуєте сюрприз на ювілей батьків.",
+    "say": "Сядьмо ввечері й подумаємо разом, що їм подарувати.",
+    "ans": ["Let’s sit down tonight and brainstorm gift ideas.", "Tonight let’s brainstorm what to give them.", "Let’s get together tonight and brainstorm what to get them."],
+    "keys": { "подарувати": "gift*|present*|give|get|buy", "ввечері": "tonight|evening|later" }
+   },
+   {
+    "sit": "Викладачка пояснює групі, як почати писати есе.",
+    "say": "Спочатку накидайте ідеї, а потім складіть план.",
+    "ans": ["First brainstorm ideas, then make a plan.", "Brainstorm first, and then write an outline.", "Start by brainstorming, then put together a plan."],
+    "keys": { "план": "plan|outline|structure" }
+   }
+  ]
+ },
+ {
+  "id": 777, "w": "ponder", "uk": "розмірковувати, обмірковувати", "lvl": "C1",
+  "forms": "ponder|ponders|pondered|pondered|pondering",
+  "near": "think*|thought|consider*|reflect*|wonder*|mull* over|contemplat*",
+  "tasks": [
+   {
+    "sit": "Тобі запропонували роботу в іншій країні. Ти розповідаєш про це батькам.",
+    "say": "Я цілий тиждень розмірковував над цією пропозицією.",
+    "ans": ["I pondered the offer for a whole week.", "I spent a week pondering this offer.", "I’ve been pondering that offer all week."],
+    "keys": { "пропозиція": "offer|proposal|job", "тиждень": "week" }
+   },
+   {
+    "sit": "Ти ділишся враженнями від філософської книжки, яку дочитав учора.",
+    "say": "Вона змушує розмірковувати про сенс життя.",
+    "ans": ["It makes you ponder the meaning of life.", "It makes you ponder what life is really about.", "It really gets you pondering the meaning of life."],
+    "keys": { "сенс життя": "meaning|purpose|life" }
+   },
+   {
+    "sit": "Колега довго дивиться на шахову дошку в обідню перерву.",
+    "say": "Він уже десять хвилин обмірковує наступний хід.",
+    "ans": ["He’s been pondering his next move for ten minutes.", "For ten minutes now he’s been pondering the next move.", "He’s been pondering that next move for ten minutes already."],
+    "keys": { "хід": "move|step", "десять хвилин": "ten|10|minute*" }
+   }
+  ]
+ },
+ {
+  "id": 778, "w": "weigh", "uk": "зважувати (за і проти)", "lvl": "B2",
+  "forms": "weigh|weighs|weighed|weighed|weighing",
+  "near": "consider*|think*|thought|compar*|evaluat*|assess*|balanc*",
+  "tasks": [
+   {
+    "sit": "Друг вагається, чи купувати квартиру в кредит. Ти даєш пораду.",
+    "say": "Спочатку зваж усі за і проти.",
+    "ans": ["First, weigh the pros and cons.", "Weigh all the pros and cons first.", "Make sure you weigh up the pros and cons first."],
+    "keys": { "за і проти": "pros|cons|options|risks" }
+   },
+   {
+    "sit": "Ти розповідаєш колезі, як обирав між двома університетами для магістратури.",
+    "say": "Я довго зважував обидва варіанти.",
+    "ans": ["I weighed both options for a long time.", "I spent ages weighing both options.", "I was weighing up both options for ages."],
+    "keys": { "обидва": "both|two", "варіанти": "option*|choice*|universit*|offer*" }
+   },
+   {
+    "sit": "На нараді керівниця пояснює, чому не відповідає одразу на пропозицію клієнта.",
+    "say": "Нам треба зважити ризики, перш ніж погоджуватися.",
+    "ans": ["We need to weigh the risks before we agree.", "Before agreeing, we have to weigh the risks.", "We need to weigh up the risks before saying yes."],
+    "keys": { "ризики": "risk*", "погоджуватися": "agree*|yes|accept*|sign*" }
+   }
+  ]
+ },
+ {
+  "id": 779, "w": "reconsider", "uk": "переглянути (рішення), ще раз обміркувати", "lvl": "B2",
+  "forms": "reconsider|reconsiders|reconsidered|reconsidered|reconsidering",
+  "near": "rethink*|rethought|change* my mind|changed his mind|think again|think it over|review*",
+  "tasks": [
+   {
+    "sit": "Твій найкращий працівник приніс заяву на звільнення.",
+    "say": "Будь ласка, перегляньте своє рішення.",
+    "ans": ["Please reconsider your decision.", "Would you please reconsider your decision?", "Please, won’t you reconsider?"],
+    "keys": { "будь ласка": "please" }
+   },
+   {
+    "sit": "Банк відмовив тобі в кредиті. Ти пишеш їм листа з новими документами.",
+    "say": "Прошу вас ще раз розглянути мою заявку.",
+    "ans": ["I ask you to reconsider my application.", "Could you please reconsider my application?", "I’d be grateful if you could reconsider my application."],
+    "keys": { "заявка": "application|request|case|loan" }
+   },
+   {
+    "sit": "Після новин про ціни на пальне ти розповідаєш другу про плани на літню поїздку машиною.",
+    "say": "Мабуть, я перегляну свої плани на подорож.",
+    "ans": ["I’ll probably reconsider my travel plans.", "Maybe I should reconsider my trip plans.", "I might have to reconsider my travel plans."],
+    "keys": { "плани": "plan*", "подорож": "travel*|trip|holiday|vacation|journey" }
+   }
+  ]
+ },
+ {
+  "id": 781, "w": "visualize", "uk": "уявляти (подумки бачити)", "lvl": "B2",
+  "forms": "visualize/visualise|visualizes/visualises|visualized/visualised|visualized/visualised|visualizing/visualising",
+  "near": "imagin*|picture|pictured|picturing|see it|envision*|dream*",
+  "tasks": [
+   {
+    "sit": "Тренер з бігу дає тобі пораду перед першими змаганнями.",
+    "say": "Перед стартом уяви, як ти перетинаєш фініш.",
+    "ans": ["Before the start, visualize yourself crossing the finish line.", "Visualize crossing the finish line before the race starts.", "Before you start, just visualize yourself crossing the finish line."],
+    "keys": { "фініш": "finish*", "перетинаєш": "cross*" }
+   },
+   {
+    "sit": "Дизайнерка показує тобі план порожньої квартири, але ти не бачиш, як це буде виглядати.",
+    "say": "Мені важко уявити, як тут буде виглядати кухня.",
+    "ans": ["It’s hard for me to visualize what the kitchen will look like.", "I find it hard to visualize the kitchen here.", "I can’t really visualize how the kitchen is going to look."],
+    "keys": { "кухня": "kitchen", "важко": "hard|difficult|can not|struggl*" }
+   },
+   {
+    "sit": "Ти розповідаєш подрузі, як готуєшся до важливого виступу на роботі.",
+    "say": "Я уявляю, як виступ проходить успішно.",
+    "ans": ["I visualize the presentation going well.", "I visualize myself giving a successful talk.", "I try to visualize the whole presentation going perfectly."],
+    "keys": { "виступ": "presentation|talk|speech|pitch", "успішно": "well|success*|perfect*|great" }
+   }
+  ]
+ },
+ {
+  "id": 782, "w": "daydream", "uk": "мріяти наяву, витати в хмарах", "lvl": "B2",
+  "forms": "daydream|daydreams|daydreamed/daydreamt|daydreamed/daydreamt|daydreaming",
+  "near": "dream|dreamed|dreaming|dreamt|fantasiz*|fantasis*|zone* out|space* out|in the clouds",
+  "tasks": [
+   {
+    "sit": "Понеділок, ти сидиш за робочим столом і дивишся у вікно. Колега питає, про що ти думаєш.",
+    "say": "Вибач, я замріявся про відпустку.",
+    "ans": ["Sorry, I was daydreaming about my vacation.", "Sorry, I was just daydreaming about the holidays.", "Oh, sorry — I was daydreaming about my vacation again."],
+    "keys": { "відпустка": "vacation|holiday*|trip|beach" }
+   },
+   {
+    "sit": "Учителька скаржиться батькам на сина на батьківських зборах.",
+    "say": "На уроках він часто витає в хмарах.",
+    "ans": ["He often daydreams in class.", "In lessons, he’s often daydreaming.", "He spends a lot of class time daydreaming."],
+    "keys": { "уроки": "class*|lesson*|school", "часто": "often|a lot|always|much" }
+   },
+   {
+    "sit": "Ти розповідаєш другові, як проводиш довгу дорогу в автобусі.",
+    "say": "Я дивлюся у вікно й мрію про власний будинок біля моря.",
+    "ans": ["I look out the window and daydream about my own house by the sea.", "I daydream about having a house by the sea while looking out the window.", "I just stare out the window and daydream about a place by the sea."],
+    "keys": { "вікно": "window", "море": "sea|ocean|beach|coast" }
+   }
+  ]
+ },
+ {
+  "id": 783, "w": "draft", "uk": "написати чернетку", "lvl": "B2",
+  "forms": "draft|drafts|drafted|drafted|drafting",
+  "near": "write|wrote|written|writing|sketch*|outline*|prepar*|put together",
+  "tasks": [
+   {
+    "sit": "Потрібно відповісти важливому клієнту, який незадоволений затримкою. Керівник просить тебе допомогти.",
+    "say": "Я напишу чернетку листа, а ви перевірте.",
+    "ans": ["I’ll draft the email, and you can check it.", "I’ll draft a reply and you check it.", "Let me draft the email first, then you can take a look."],
+    "keys": { "лист": "email|e-mail|letter|reply|message", "перевірте": "check*|look|review*|read" }
+   },
+   {
+    "sit": "Ти готуєшся до весілля друга і маєш виголосити тост.",
+    "say": "Я вже написав чернетку промови.",
+    "ans": ["I’ve already drafted my speech.", "I already drafted the speech.", "I’ve already drafted my toast."],
+    "keys": { "промова": "speech|toast|talk", "вже": "already|done" }
+   },
+   {
+    "sit": "Ви з сусідами хочете поскаржитися в управлінську компанію на шум від будівництва.",
+    "say": "Давайте я складу чернетку скарги, а всі підпишуть.",
+    "ans": ["Let me draft the complaint, and everyone can sign it.", "I’ll draft a complaint for everybody to sign.", "How about I draft the complaint and then we all sign it?"],
+    "keys": { "скарга": "complain*|letter|petition", "підпишуть": "sign*" }
+   }
+  ]
+ },
+ {
+  "id": 784, "w": "proofread", "uk": "вичитувати (текст на помилки)", "lvl": "B2",
+  "forms": "proofread|proofreads|proofread|proofread|proofreading",
+  "near": "check*|edit*|review*|correct*|read through|read over|look over|go over",
+  "tasks": [
+   {
+    "sit": "Ти написав резюме англійською й просиш подругу-перекладачку допомогти.",
+    "say": "Можеш вичитати моє резюме?",
+    "ans": ["Can you proofread my CV?", "Could you proofread my résumé for me?", "Would you mind proofreading my CV?"],
+    "keys": { "резюме": "cv|resume|résumé|cover letter" }
+   },
+   {
+    "sit": "Твій одногрупник отримав низьку оцінку за курсову через купу друкарських помилок.",
+    "say": "Треба було вичитати текст перед здачею.",
+    "ans": ["You should have proofread it before handing it in.", "You should’ve proofread the paper before you submitted it.", "You really should’ve proofread it before submitting."],
+    "keys": { "перед здачею": "before|hand* in|submit*|turn* in" }
+   },
+   {
+    "sit": "Колега питає, чому ти досі не надіслав звіт клієнту.",
+    "say": "Я ще раз вичитую, щоб не було помилок.",
+    "ans": ["I’m proofreading it once more so there are no mistakes.", "I’m proofreading it again to catch any mistakes.", "I’m just proofreading it one more time for typos."],
+    "keys": { "помилки": "mistake*|error*|typo*", "ще раз": "again|once more|one more time|second time" }
+   }
+  ]
+ }
+]

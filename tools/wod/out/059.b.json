@@ -1,0 +1,1209 @@
+[
+ {
+  "id": 3219,
+  "w": "go without",
+  "uk": "обходитися без",
+  "lvl": "B2",
+  "forms": "go|goes|went|gone|going",
+  "tail": "without",
+  "near": "do without|did without|live without|lived without|manage without|managed without|skip*|give up|gave up",
+  "tasks": [
+   {
+    "sit": "Друг дивується, що ти замовив трав’яний чай замість звичного капучино.",
+    "say": "Я вже місяць обходжуся без кави.",
+    "ans": [
+     "I’ve gone without coffee for a month now.",
+     "I’ve been going without coffee for a month.",
+     "I’ve gone a whole month without coffee."
+    ],
+    "keys": {
+     "кава": "coffee",
+     "місяць": "month*"
+    }
+   },
+   {
+    "sit": "Ти розповідаєш колегам про похід у Карпати, де не було звʼязку.",
+    "say": "Три дні ми обходилися без інтернету, і це було чудово.",
+    "ans": [
+     "We went without internet for three days, and it was great.",
+     "For three days we went without the internet — it was amazing.",
+     "We went three days without the internet, and honestly it was great."
+    ],
+    "keys": {
+     "інтернет": "internet|wifi|signal|connection",
+     "три дні": "three|3"
+    }
+   },
+   {
+    "sit": "Ти згадуєш студентські роки, коли грошей ледве вистачало на оренду.",
+    "say": "Мені часто доводилося обходитися без обіду.",
+    "ans": [
+     "I often had to go without lunch.",
+     "I often went without lunch to save money.",
+     "I had to go without lunch quite often."
+    ],
+    "keys": {
+     "обід": "lunch|meal*|food",
+     "часто": "often|a lot|frequently"
+    }
+   }
+  ]
+ },
+ {
+  "id": 3220,
+  "w": "head for",
+  "uk": "прямувати до",
+  "lvl": "B1",
+  "forms": "head|heads|headed|headed|heading",
+  "tail": "for",
+  "near": "go to|going to|went to|walk* to|mov* to|make for|made for|toward*",
+  "tasks": [
+   {
+    "sit": "Концерт закінчився, натовп рушив до дверей. Ти пишеш другу, де тебе шукати.",
+    "say": "Я йду до виходу, зустрінемося там.",
+    "ans": [
+     "I’m heading for the exit, meet me there.",
+     "I’m heading for the exit — let’s meet there.",
+     "I’m heading for the exit now, see you there."
+    ],
+    "keys": {
+     "вихід": "exit|door*|way out"
+    }
+   },
+   {
+    "sit": "Ви з друзями виходите з готелю з рушниками, і адміністратор питає, куди ви.",
+    "say": "Ми прямуємо на пляж.",
+    "ans": [
+     "We’re heading for the beach.",
+     "We’re heading for the beach now.",
+     "We’re just heading for the beach."
+    ],
+    "keys": {
+     "пляж": "beach|sea|coast"
+    }
+   },
+   {
+    "sit": "Ти дивишся новини про негоду й коментуєш їх рідним.",
+    "say": "Ураган прямує до узбережжя.",
+    "ans": [
+     "The hurricane is heading for the coast.",
+     "The storm is heading for the coast.",
+     "Looks like the hurricane is heading for the coast."
+    ],
+    "keys": {
+     "ураган": "hurricane|storm|cyclone",
+     "узбережжя": "coast*|shore|land"
+    }
+   }
+  ]
+ },
+ {
+  "id": 3221,
+  "w": "hold back",
+  "uk": "стримувати (сльози, емоції)",
+  "lvl": "B2",
+  "forms": "hold|holds|held|held|holding",
+  "tail": "back",
+  "near": "stop*|control*|suppress*|restrain*|keep in|kept in|fight*|fought",
+  "tasks": [
+   {
+    "sit": "Ти виголошував тост на весіллі найкращого друга. Розповідаєш про це колезі.",
+    "say": "Я ледве стримував сльози.",
+    "ans": [
+     "I could barely hold back my tears.",
+     "I was barely holding back tears.",
+     "I could hardly hold back the tears."
+    ],
+    "keys": {
+     "сльози": "tear*|cry*",
+     "ледве": "barely|hardly|almost|nearly"
+    }
+   },
+   {
+    "sit": "Колега на серйозній нараді сказав щось дуже кумедне з камʼяним обличчям.",
+    "say": "Я не міг стримати сміх.",
+    "ans": [
+     "I couldn’t hold back my laughter.",
+     "I could not hold back a laugh.",
+     "I just couldn’t hold back the laughter."
+    ],
+    "keys": {
+     "сміх": "laugh*|giggl*",
+     "не": "not|never"
+    }
+   },
+   {
+    "sit": "Ти показуєш другові свій бізнес-план і просиш чесної думки.",
+    "say": "Не стримуйся — скажи, що думаєш.",
+    "ans": [
+     "Don’t hold back — tell me what you think.",
+     "Don’t hold back, just tell me what you really think.",
+     "Go on, don’t hold back. What do you think?"
+    ],
+    "keys": {
+     "думаєш": "think"
+    }
+   }
+  ]
+ },
+ {
+  "id": 3222,
+  "w": "keep away",
+  "uk": "триматися подалі",
+  "lvl": "B1",
+  "forms": "keep|keeps|kept|kept|keeping",
+  "tail": "away",
+  "near": "stay away|stayed away|staying away|avoid*|stay back|get away|go away",
+  "tasks": [
+   {
+    "sit": "Ти гуляєш із собакою, яка не любить чужих, а до неї біжить маленький хлопчик.",
+    "say": "Будь ласка, тримайся подалі від собаки!",
+    "ans": [
+     "Please keep away from the dog!",
+     "Please keep away from my dog!",
+     "Sorry, please keep away from the dog — she bites."
+    ],
+    "keys": {
+     "собака": "dog"
+    }
+   },
+   {
+    "sit": "Ви з маленьким племінником на оглядовому майданчику в горах.",
+    "say": "Тримайся подалі від краю!",
+    "ans": [
+     "Keep away from the edge!",
+     "Hey, keep away from the edge, please!",
+     "Keep away from the edge — it’s dangerous!"
+    ],
+    "keys": {
+     "край": "edge|cliff|railing"
+    }
+   },
+   {
+    "sit": "Лікар порадив тобі менше солодкого. Колега пропонує тістечко.",
+    "say": "Дякую, я намагаюся триматися подалі від солодкого.",
+    "ans": [
+     "Thanks, but I’m trying to keep away from sweets.",
+     "Thanks, I try to keep away from sugary stuff.",
+     "No thanks, I’m trying to keep away from sweets these days."
+    ],
+    "keys": {
+     "солодке": "sweet*|sugar*|dessert*|cake*|candy|chocolate"
+    }
+   }
+  ]
+ },
+ {
+  "id": 3223,
+  "w": "keep off",
+  "uk": "не ходити по; уникати",
+  "lvl": "B1",
+  "forms": "keep|keeps|kept|kept|keeping",
+  "tail": "off",
+  "near": "stay off|stayed off|avoid*|stay away|get off|stop drinking|not drink",
+  "tasks": [
+   {
+    "sit": "Ти доглядаєш за міським парком і бачиш, як діти бігають по щойно засіяному газону.",
+    "say": "Будь ласка, не ходіть по газону!",
+    "ans": [
+     "Please keep off the grass!",
+     "Kids, keep off the grass, please!",
+     "Hey, please keep off the grass!"
+    ],
+    "keys": {
+     "газон": "grass|lawn"
+    }
+   },
+   {
+    "sit": "Ти їдеш на родинну вечерю, де завжди сперечаються про вибори. Просиш брата в машині.",
+    "say": "Давай сьогодні не чіпатимемо політику.",
+    "ans": [
+     "Let’s keep off politics tonight.",
+     "Let’s keep off the subject of politics tonight.",
+     "Can we just keep off politics tonight?"
+    ],
+    "keys": {
+     "політика": "politic*"
+    }
+   },
+   {
+    "sit": "Після курсу антибіотиків ти пояснюєш друзям у барі, чому замовив сік.",
+    "say": "Лікар сказав мені місяць не пити алкоголю.",
+    "ans": [
+     "The doctor told me to keep off alcohol for a month.",
+     "My doctor said I should keep off alcohol for a month.",
+     "Doctor’s orders — I have to keep off alcohol for a month."
+    ],
+    "keys": {
+     "алкоголь": "alcohol|drink*|booze|beer|wine",
+     "місяць": "month*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 3224,
+  "w": "keep on",
+  "uk": "продовжувати (уперто)",
+  "lvl": "A2",
+  "forms": "keep|keeps|kept|kept|keeping",
+  "tail": "on",
+  "near": "continue*|carry on|carried on|keep going|kept going|keep trying|go on|went on",
+  "tasks": [
+   {
+    "sit": "Друг утретє провалив іспит з водіння й хоче все кинути.",
+    "say": "Не здавайся, продовжуй пробувати!",
+    "ans": [
+     "Don’t give up, keep on trying!",
+     "Don’t give up — just keep on trying!",
+     "Come on, keep on trying, you’ll get it!"
+    ],
+    "keys": {
+     "пробувати": "try*"
+    }
+   },
+   {
+    "sit": "Ти скаржишся колезі на нараду, де один менеджер говорив дві години.",
+    "say": "Він усе говорив і говорив, і ніхто не міг його зупинити.",
+    "ans": [
+     "He kept on talking, and nobody could stop him.",
+     "He just kept on talking and no one could stop him.",
+     "He kept on talking — nobody could stop him!"
+    ],
+    "keys": {
+     "говорив": "talk*|speak*",
+     "зупинити": "stop*|interrupt*"
+    }
+   },
+   {
+    "sit": "Ти не виспався й пояснюєш колегам, чому такий сонний.",
+    "say": "Собака сусідів гавкав без упину всю ніч.",
+    "ans": [
+     "The neighbours’ dog kept on barking all night.",
+     "The dog next door kept on barking the whole night.",
+     "That dog next door kept on barking all night long."
+    ],
+    "keys": {
+     "гавкав": "bark*",
+     "всю ніч": "night"
+    }
+   }
+  ]
+ },
+ {
+  "id": 3225,
+  "w": "keep out",
+  "uk": "не заходити; не впускати (дощ, холод)",
+  "lvl": "B1",
+  "forms": "keep|keeps|kept|kept|keeping",
+  "tail": "out",
+  "near": "stay out|stayed out|do not enter|no entry|block*|protect*|stop*|keep away",
+  "tasks": [
+   {
+    "sit": "Ти щойно пофарбував стіни у ванній і попереджаєш сусіда по квартирі.",
+    "say": "Не заходь у ванну — фарба ще не висохла.",
+    "ans": [
+     "Keep out of the bathroom — the paint is still wet.",
+     "Please keep out of the bathroom, the paint is wet.",
+     "Keep out of the bathroom for now, the paint is still wet."
+    ],
+    "keys": {
+     "ванна": "bathroom|bath",
+     "фарба": "paint*|wet"
+    }
+   },
+   {
+    "sit": "Ви в поході, починається злива, і в намет уже капає вода.",
+    "say": "Цей намет зовсім не захищає від дощу.",
+    "ans": [
+     "This tent doesn’t keep out the rain at all.",
+     "This tent doesn’t keep the rain out at all.",
+     "This tent is useless — it doesn’t keep the rain out."
+    ],
+    "keys": {
+     "намет": "tent",
+     "дощ": "rain*|water"
+    }
+   },
+   {
+    "sit": "Молодший брат постійно бере твої речі без дозволу.",
+    "say": "Не заходь у мою кімнату!",
+    "ans": [
+     "Keep out of my room!",
+     "Hey, keep out of my room!",
+     "Just keep out of my room, okay?"
+    ],
+    "keys": {
+     "кімната": "room*|bedroom"
+    }
+   }
+  ]
+ },
+ {
+  "id": 3226,
+  "w": "keep to",
+  "uk": "дотримуватися (графіка, плану)",
+  "lvl": "B2",
+  "forms": "keep|keeps|kept|kept|keeping",
+  "tail": "to",
+  "near": "stick to|stuck to|sticking to|follow*|stay on|respect*",
+  "tasks": [
+   {
+    "sit": "Ти керуєш проєктом, і команда вже двічі зсунула терміни.",
+    "say": "Нам треба чітко дотримуватися графіка.",
+    "ans": [
+     "We need to keep to the schedule.",
+     "We have to keep to the schedule from now on.",
+     "Guys, we really need to keep to the schedule."
+    ],
+    "keys": {
+     "графік": "schedule|timetable|plan|deadline*"
+    }
+   },
+   {
+    "sit": "Дієтолог склав тобі план харчування, а друг пригощає тебе тортом.",
+    "say": "Дякую, але я намагаюся дотримуватися дієти.",
+    "ans": [
+     "Thanks, but I’m trying to keep to my diet.",
+     "No thanks, I’m trying to keep to my diet.",
+     "Thanks, but I’m really trying to keep to my diet."
+    ],
+    "keys": {
+     "дієта": "diet|meal plan|plan"
+    }
+   },
+   {
+    "sit": "Ти модеруєш конференцію, а доповідачі затягують виступи.",
+    "say": "Прошу всіх вкладатися в регламент — пʼять хвилин.",
+    "ans": [
+     "Please keep to the time limit — five minutes each.",
+     "Could everyone please keep to the time limit of five minutes?",
+     "Please try to keep to the five minutes you have, everyone."
+    ],
+    "keys": {
+     "пʼять": "five|5*",
+     "регламент": "limit|minute*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 3227,
+  "w": "keep up",
+  "uk": "не відставати; підтримувати (рівень)",
+  "lvl": "B1",
+  "forms": "keep|keeps|kept|kept|keeping",
+  "tail": "up",
+  "near": "follow*|catch up|caught up|maintain*|continue*|stay with|keep pace|keep going",
+  "tasks": [
+   {
+    "sit": "Ви з другом бігаєте в парку, і він раптом різко прискорився.",
+    "say": "Повільніше, я не встигаю за тобою!",
+    "ans": [
+     "Slow down, I can’t keep up with you!",
+     "Slow down — I can’t keep up!",
+     "Hey, slow down, I can’t keep up!"
+    ],
+    "keys": {
+     "повільніше": "slow*",
+     "не": "not|never"
+    }
+   },
+   {
+    "sit": "Ти керівник і хвалиш стажера за чудовий звіт.",
+    "say": "Чудова робота, так тримати!",
+    "ans": [
+     "Great job, keep up the good work!",
+     "Great work — keep it up!",
+     "This is excellent. Keep up the great work!"
+    ],
+    "keys": {
+     "чудова": "great|good|excellent|nice|well done|amazing"
+    }
+   },
+   {
+    "sit": "Ти пропустив тиждень курсів через хворобу, а група пішла далеко вперед.",
+    "say": "Мені важко встигати за групою.",
+    "ans": [
+     "It’s hard for me to keep up with the class.",
+     "I’m finding it hard to keep up with the group.",
+     "I’m struggling to keep up with the rest of the class."
+    ],
+    "keys": {
+     "група": "class*|group|others|rest",
+     "важко": "hard|difficult|struggl*|tough"
+    }
+   }
+  ]
+ },
+ {
+  "id": 3228,
+  "w": "lie around",
+  "uk": "валятися (без діла, безладно)",
+  "lvl": "B1",
+  "forms": "lie|lies|lay|lain|lying",
+  "tail": "around/about",
+  "near": "relax*|chill*|laze*|lazing|do nothing|did nothing|sit around|sat around|lounge*|scattered",
+  "tasks": [
+   {
+    "sit": "Ти повертаєшся додому після того, як діти весь день були самі.",
+    "say": "Чому скрізь валяються іграшки?",
+    "ans": [
+     "Why are there toys lying around everywhere?",
+     "Why are all these toys lying around?",
+     "Why are there toys lying around all over the place?"
+    ],
+    "keys": {
+     "іграшки": "toy*|stuff|thing*"
+    }
+   },
+   {
+    "sit": "У понеділок колега питає, що ти робив на вихідних.",
+    "say": "Нічого особливого, цілий день валявся на дивані.",
+    "ans": [
+     "Nothing much, I just lay around on the sofa all day.",
+     "Not much — I was lying around on the couch all day.",
+     "Honestly, I just lay around all day doing nothing."
+    ],
+    "keys": {
+     "цілий день": "all day|whole day|day"
+    }
+   },
+   {
+    "sit": "Ти не можеш знайти запасні ключі й питаєш сусіда по квартирі.",
+    "say": "Тут десь валялися старі ключі — ти їх не бачив?",
+    "ans": [
+     "There were some old keys lying around here — have you seen them?",
+     "Have you seen the old keys that were lying around here?",
+     "Some old keys were lying around here somewhere. Have you seen them?"
+    ],
+    "keys": {
+     "ключі": "key*",
+     "бачив": "seen|see|saw"
+    }
+   }
+  ]
+ },
+ {
+  "id": 3229,
+  "w": "look around",
+  "uk": "оглядати; озиратися",
+  "lvl": "A2",
+  "forms": "look|looks|looked|looked|looking",
+  "tail": "around/round",
+  "near": "explore*|visit*|check out|walk around|browse*|browsing|tour|see the",
+  "tasks": [
+   {
+    "sit": "Ви з друзями в новому місті, у вас ще дві години до потяга.",
+    "say": "Давайте оглянемо старе місто.",
+    "ans": [
+     "Let’s look around the old town.",
+     "Why don’t we look around the old town?",
+     "We’ve got two hours — let’s look around the old town."
+    ],
+    "keys": {
+     "старе місто": "old town|old city|town|city|centre|center"
+    }
+   },
+   {
+    "sit": "У магазині одягу до тебе підходить продавчиня й питає, чи потрібна допомога.",
+    "say": "Дякую, я просто дивлюся.",
+    "ans": [
+     "Thanks, I’m just looking around.",
+     "No thanks, I’m just looking around.",
+     "I’m fine, thanks — just looking around."
+    ],
+    "keys": {
+     "просто": "just|only"
+    }
+   },
+   {
+    "sit": "Ти йдеш вечірньою вулицею, і хтось голосно гукає тебе на імʼя.",
+    "say": "Я озирнувся, але нікого не побачив.",
+    "ans": [
+     "I looked around, but I didn’t see anyone.",
+     "I looked around but saw nobody.",
+     "I looked around, but there was no one there."
+    ],
+    "keys": {
+     "нікого": "anyone|nobody|no one|anybody"
+    }
+   }
+  ]
+ },
+ {
+  "id": 3230,
+  "w": "look out",
+  "uk": "обережно!; пильнувати, виглядати",
+  "lvl": "A2",
+  "forms": "look|looks|looked|looked|looking",
+  "tail": "out",
+  "near": "watch out|be careful|careful|mind|watch for|keep an eye out|beware",
+  "tasks": [
+   {
+    "sit": "Твій друг переходить дорогу, втупившись у телефон, а з-за рогу виїжджає авто.",
+    "say": "Обережно! Машина!",
+    "ans": [
+     "Look out! There’s a car!",
+     "Look out — a car!",
+     "Look out, a car is coming!"
+    ],
+    "keys": {
+     "машина": "car|vehicle|truck"
+    }
+   },
+   {
+    "sit": "Ти пояснюєш по телефону гостеві, як знайти ваш будинок на незнайомій вулиці.",
+    "say": "Виглядай синю браму — це наш будинок.",
+    "ans": [
+     "Look out for a blue gate — that’s our house.",
+     "Just look out for the blue gate, that’s our place.",
+     "Look out for a blue gate; that’s our house."
+    ],
+    "keys": {
+     "синя брама": "blue|gate"
+    }
+   },
+   {
+    "sit": "Сестра шукає роботу дизайнерки, і ти обіцяєш допомогти.",
+    "say": "Я пильнуватиму вакансії для тебе.",
+    "ans": [
+     "I’ll look out for jobs for you.",
+     "I’ll keep looking out for job openings for you.",
+     "I’ll look out for any design jobs for you."
+    ],
+    "keys": {
+     "вакансії": "job*|vacanc*|opening*|position*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 3231,
+  "w": "make for",
+  "uk": "прямувати до; кинутися до",
+  "lvl": "C1",
+  "forms": "make|makes|made|made|making",
+  "tail": "for",
+  "near": "head for|headed for|heading for|go to|went to|run to|ran to|rush*|toward*",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш, як у кафе хтось закричав «Пожежа!».",
+    "say": "Усі кинулися до виходу.",
+    "ans": [
+     "Everyone made for the exit.",
+     "Everybody immediately made for the exits.",
+     "Everyone just made for the door at once."
+    ],
+    "keys": {
+     "вихід": "exit*|door*",
+     "усі": "everyone|everybody|all|people"
+    }
+   },
+   {
+    "sit": "Ви гуляли в парку, як раптом почалася злива. Розповідаєш про це сестрі.",
+    "say": "Ми одразу попрямували до найближчої кавʼярні.",
+    "ans": [
+     "We made for the nearest coffee shop.",
+     "We immediately made for the closest coffee shop.",
+     "We quickly made for the nearest coffee shop."
+    ],
+    "keys": {
+     "кавʼярня": "coffee shop|cafe*|shelter"
+    }
+   },
+   {
+    "sit": "Ти керуєш невеликою яхтою, а небо на горизонті стрімко темнішає.",
+    "say": "Треба прямувати до берега, поки не почався шторм.",
+    "ans": [
+     "We should make for the shore before the storm hits.",
+     "Let’s make for the shore before the storm starts.",
+     "We need to make for land before the storm comes."
+    ],
+    "keys": {
+     "берег": "shore|land|coast|harbo*|port",
+     "шторм": "storm"
+    }
+   }
+  ]
+ },
+ {
+  "id": 3232,
+  "w": "make off with",
+  "uk": "утекти з (краденим); поцупити",
+  "lvl": "C1",
+  "forms": "make|makes|made|made|making",
+  "tail": "off with",
+  "near": "steal*|stole|stolen|run off|ran off|take|took|taken|grab*|nick*|get away with|got away with",
+  "tasks": [
+   {
+    "sit": "Ти читаєш колегам новину про пограбування ювелірного магазину.",
+    "say": "Грабіжники втекли з прикрасами на мільйон.",
+    "ans": [
+     "The robbers made off with a million dollars’ worth of jewellery.",
+     "Thieves made off with jewellery worth a million.",
+     "The robbers made off with a million in jewelry."
+    ],
+    "keys": {
+     "прикраси": "jewel*|diamond*|ring*",
+     "мільйон": "million*"
+    }
+   },
+   {
+    "sit": "Ти відпочиваєш на пляжі й розповідаєш другові, що щойно сталося.",
+    "say": "Чайка поцупила мій бутерброд і полетіла!",
+    "ans": [
+     "A seagull made off with my sandwich!",
+     "A seagull just made off with my sandwich.",
+     "Can you believe it? A seagull made off with my sandwich!"
+    ],
+    "keys": {
+     "чайка": "gull*|seagull*|bird",
+     "бутерброд": "sandwich*|food|lunch"
+    }
+   },
+   {
+    "sit": "Хтось в офісі постійно забирає речі з твого столу.",
+    "say": "Хтось знову поцупив мій степлер.",
+    "ans": [
+     "Someone has made off with my stapler again.",
+     "Somebody made off with my stapler again!",
+     "Who made off with my stapler this time?"
+    ],
+    "keys": {
+     "степлер": "stapler",
+     "знову": "again|this time"
+    }
+   }
+  ]
+ },
+ {
+  "id": 3233,
+  "w": "move on",
+  "uk": "рухатися далі; перейти до",
+  "lvl": "B1",
+  "forms": "move|moves|moved|moved|moving",
+  "tail": "on",
+  "near": "continue*|go on|proceed*|let it go|forget*|get over|got over|carry on",
+  "tasks": [
+   {
+    "sit": "Ти ведеш нараду, і обговорення бюджету вже затяглося на годину.",
+    "say": "Давайте перейдемо до наступного пункту.",
+    "ans": [
+     "Let’s move on to the next item.",
+     "Okay, let’s move on to the next point.",
+     "Can we move on to the next item, please?"
+    ],
+    "keys": {
+     "наступного": "next"
+    }
+   },
+   {
+    "sit": "Подруга досі сумує за колишнім, хоча вони розійшлися рік тому.",
+    "say": "Минув рік — час рухатися далі.",
+    "ans": [
+     "It’s been a year — it’s time to move on.",
+     "It’s been a whole year. Time to move on.",
+     "It’s been a year already; you need to move on."
+    ],
+    "keys": {
+     "рік": "year"
+    }
+   },
+   {
+    "sit": "Колишній колега питає, чому ти пішов із компанії після десяти років роботи.",
+    "say": "Я відчув, що пора йти далі.",
+    "ans": [
+     "I felt it was time to move on.",
+     "I just felt it was time to move on.",
+     "I felt like it was time for me to move on."
+    ],
+    "keys": {
+     "пора": "time"
+    }
+   }
+  ]
+ },
+ {
+  "id": 3234,
+  "w": "pass by",
+  "uk": "проходити (проїжджати) повз",
+  "lvl": "A2",
+  "forms": "pass|passes|passed|passed|passing",
+  "tail": "by",
+  "near": "walk past|walked past|walking past|go past|went past|going past|drive past|drove past|stop by|stopped by|drop by|dropped by",
+  "tasks": [
+   {
+    "sit": "Ти ввечері телефонуєш другові, якого давно не бачив.",
+    "say": "Я сьогодні проходив повз твій дім і бачив світло у вікнах.",
+    "ans": [
+     "I passed by your house today and saw the lights on.",
+     "Today I passed by your place and saw the lights on.",
+     "I passed by your house earlier — the lights were on."
+    ],
+    "keys": {
+     "дім": "house|place|flat|apartment|home",
+     "сьогодні": "today|earlier"
+    }
+   },
+   {
+    "sit": "Мама просить тебе купити свіжого хліба дорогою додому.",
+    "say": "Добре, я якраз проходитиму повз пекарню.",
+    "ans": [
+     "Okay, I’ll be passing by the bakery anyway.",
+     "Sure, I’m passing by the bakery on my way home.",
+     "No problem, I’ll pass by the bakery anyway."
+    ],
+    "keys": {
+     "пекарня": "bak*|shop|store"
+    }
+   },
+   {
+    "sit": "Ти працюєш гідом у туристичному автобусі й говориш у мікрофон.",
+    "say": "Зараз ми проїжджаємо повз стару ратушу.",
+    "ans": [
+     "We’re now passing by the old town hall.",
+     "Right now we’re passing by the old town hall.",
+     "On the left, we’re passing by the old town hall."
+    ],
+    "keys": {
+     "ратуша": "town hall|city hall|hall"
+    }
+   }
+  ]
+ },
+ {
+  "id": 3235,
+  "w": "pull away",
+  "uk": "відʼїжджати, рушати; віддалятися",
+  "lvl": "B2",
+  "forms": "pull|pulls|pulled|pulled|pulling",
+  "tail": "away",
+  "near": "leave|left|leaving|drive off|drove off|drive away|drove away|move off|moved off|depart*|distance*|drift* apart",
+  "tasks": [
+   {
+    "sit": "Ти запізнився на зупинку буквально на кілька секунд. Розповідаєш колезі.",
+    "say": "Автобус рушив просто в мене перед носом.",
+    "ans": [
+     "The bus pulled away right in front of me.",
+     "The bus pulled away just as I got there.",
+     "I got there just as the bus was pulling away."
+    ],
+    "keys": {
+     "автобус": "bus"
+    }
+   },
+   {
+    "sit": "Ти проводжав батьків на вокзалі й махав їм, поки міг.",
+    "say": "Я стояв на пероні, поки потяг не відʼїхав.",
+    "ans": [
+     "I stood on the platform until the train pulled away.",
+     "I stayed on the platform till the train pulled away.",
+     "I waited on the platform until the train pulled away."
+    ],
+    "keys": {
+     "потяг": "train",
+     "перон": "platform"
+    }
+   },
+   {
+    "sit": "Твій друг після переїзду почав уникати вашої компанії.",
+    "say": "Останнім часом він віддалився від нас.",
+    "ans": [
+     "He’s been pulling away from us lately.",
+     "Lately he has pulled away from all of us.",
+     "He has really pulled away from us recently."
+    ],
+    "keys": {
+     "останнім часом": "lately|recently"
+    }
+   }
+  ]
+ },
+ {
+  "id": 3236,
+  "w": "pull down",
+  "uk": "зносити (будівлю)",
+  "lvl": "B2",
+  "forms": "pull|pulls|pulled|pulled|pulling",
+  "tail": "down",
+  "near": "demolish*|knock* down|tear down|tore down|torn down|destroy*",
+  "tasks": [
+   {
+    "sit": "Ти проходиш повз пустир, де колись був кінотеатр твого дитинства.",
+    "say": "Старий кінотеатр знесли минулого року.",
+    "ans": [
+     "They pulled down the old cinema last year.",
+     "The old cinema was pulled down last year.",
+     "They pulled the old cinema down last year."
+    ],
+    "keys": {
+     "кінотеатр": "cinema|movie theater|theatre|theater",
+     "минулого року": "last year|a year ago|year"
+    }
+   },
+   {
+    "sit": "Ти виступаєш як мешканець на громадських слуханнях у міській раді.",
+    "say": "Не можна зносити цю історичну будівлю!",
+    "ans": [
+     "You can’t pull down this historic building!",
+     "This historic building must not be pulled down!",
+     "You can’t just pull down a historic building like this!"
+    ],
+    "keys": {
+     "будівля": "building|house",
+     "історична": "histor*|old"
+    }
+   },
+   {
+    "sit": "Ти купив будинок за містом і розповідаєш другові про плани на весну.",
+    "say": "Ми збираємося знести старий сарай у дворі.",
+    "ans": [
+     "We’re going to pull down the old shed in the yard.",
+     "We plan to pull the old shed down.",
+     "We’re finally pulling down that old shed in the garden."
+    ],
+    "keys": {
+     "сарай": "shed|barn|garage"
+    }
+   }
+  ]
+ },
+ {
+  "id": 3237,
+  "w": "pull in",
+  "uk": "прибувати (про потяг, автобус); заїжджати",
+  "lvl": "B2",
+  "forms": "pull|pulls|pulled|pulled|pulling",
+  "tail": "in/into",
+  "near": "arrive*|come in|came in|get in|got in|pull up|pulled up|stop*|park*",
+  "tasks": [
+   {
+    "sit": "Ти зустрічаєш бабусю на вокзалі й телефонуєш їй, стоячи на пероні.",
+    "say": "Бачу, твій потяг щойно прибув!",
+    "ans": [
+     "I can see your train just pulled in!",
+     "Your train has just pulled in — I can see it!",
+     "Oh, I can see your train pulling in now!"
+    ],
+    "keys": {
+     "потяг": "train"
+    }
+   },
+   {
+    "sit": "Ти за кермом, і на панелі загорілася лампочка пального.",
+    "say": "Заїду на цю заправку.",
+    "ans": [
+     "I’ll pull in at this petrol station.",
+     "Let me pull in at this gas station.",
+     "I’m going to pull in at this gas station."
+    ],
+    "keys": {
+     "заправка": "station|garage"
+    }
+   },
+   {
+    "sit": "Ти телефонуєш другові, який чекає тебе на автостанції.",
+    "say": "Автобус щойно заїхав на станцію, виходжу.",
+    "ans": [
+     "The bus has just pulled in at the station, I’m getting off.",
+     "The bus just pulled into the station — I’m getting off now.",
+     "My bus just pulled in, so I’m getting off now."
+    ],
+    "keys": {
+     "автобус": "bus|coach",
+     "виходжу": "getting off|get off|getting out|coming out"
+    }
+   }
+  ]
+ },
+ {
+  "id": 3238,
+  "w": "push in",
+  "uk": "лізти без черги",
+  "lvl": "B2",
+  "forms": "push|pushes|pushed|pushed|pushing",
+  "tail": "in",
+  "near": "cut in|cutting in|jump the queue|jumped the queue|skip the line|skipped the line|cut the line|queue-jump*",
+  "tasks": [
+   {
+    "sit": "Ти стоїш у черзі по каву, а чоловік просто стає перед тобою.",
+    "say": "Вибачте, ви влізли без черги.",
+    "ans": [
+     "Excuse me, you just pushed in.",
+     "Sorry, but you’ve pushed in.",
+     "Excuse me, you can’t just push in like that!"
+    ],
+    "keys": {
+     "вибачте": "excuse me|sorry"
+    }
+   },
+   {
+    "sit": "Ви з сином у черзі на атракціон, і він намагається пролізти вперед.",
+    "say": "Не лізь без черги — чекай, поки дійде твоя черга.",
+    "ans": [
+     "Don’t push in — wait your turn.",
+     "Don’t push in, wait for your turn.",
+     "No pushing in — you have to wait your turn."
+    ],
+    "keys": {
+     "чекай": "wait*"
+    }
+   },
+   {
+    "sit": "Ти розповідаєш колезі про довжелезну чергу на паспортному контролі.",
+    "say": "Якийсь чоловік намагався пролізти без черги, і всі на нього накричали.",
+    "ans": [
+     "Some guy tried to push in, and everyone shouted at him.",
+     "A man tried to push in and everybody yelled at him.",
+     "This guy tried to push in and the whole queue shouted at him."
+    ],
+    "keys": {
+     "намагався": "tried|try*",
+     "накричали": "shout*|yell*|scream*|complain*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 3239,
+  "w": "push on",
+  "uk": "рухатися далі (попри труднощі)",
+  "lvl": "B2",
+  "forms": "push|pushes|pushed|pushed|pushing",
+  "tail": "on",
+  "near": "continue*|carry on|carried on|keep going|kept going|press on|pressed on|go on|went on",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш про похід, під час якого весь день лило як із відра.",
+    "say": "Ми йшли далі, попри дощ.",
+    "ans": [
+     "We pushed on despite the rain.",
+     "Despite the rain, we pushed on.",
+     "It was pouring with rain, but we pushed on anyway."
+    ],
+    "keys": {
+     "дощ": "rain*|pouring|storm"
+    }
+   },
+   {
+    "sit": "Ви з другом на велопрогулянці, до міста лишилося кілька кілометрів, а він скаржиться на втому.",
+    "say": "Давай не зупинятися, ми майже на місці.",
+    "ans": [
+     "Let’s push on, we’re almost there.",
+     "Come on, let’s push on — we’re nearly there.",
+     "We should push on, we’re so close."
+    ],
+    "keys": {
+     "майже": "almost|nearly|close|not far"
+    }
+   },
+   {
+    "sit": "Проєкт затримався через проблеми з постачальником, але керівник вирішив не зупинятися.",
+    "say": "Попри все, ми продовжуємо працювати над проєктом.",
+    "ans": [
+     "Despite everything, we’re pushing on with the project.",
+     "We’re pushing on with the project anyway.",
+     "We decided to push on with the project regardless."
+    ],
+    "keys": {
+     "проєкт": "project"
+    }
+   }
+  ]
+ },
+ {
+  "id": 3240,
+  "w": "run after",
+  "uk": "бігти за; ганятися за",
+  "lvl": "A2",
+  "forms": "run|runs|ran|run|running",
+  "tail": "after",
+  "near": "chase*|follow*|go after|went after|run for|ran for|catch",
+  "tasks": [
+   {
+    "sit": "Ти прибігаєш на роботу захеканий, і колега питає, що сталося.",
+    "say": "Мені довелося бігти за автобусом.",
+    "ans": [
+     "I had to run after the bus.",
+     "I ran after the bus this morning.",
+     "I had to run after my bus this morning!"
+    ],
+    "keys": {
+     "автобус": "bus"
+    }
+   },
+   {
+    "sit": "На прогулянці твій пес вирвався з повідка. Ти розповідаєш про це сусідці.",
+    "say": "Пес побіг за білкою, і я ледве його спіймав.",
+    "ans": [
+     "My dog ran after a squirrel, and I barely caught him.",
+     "The dog ran after a squirrel and I could hardly catch him.",
+     "My dog ran after a squirrel — I barely caught him!"
+    ],
+    "keys": {
+     "білка": "squirrel*",
+     "пес": "dog*"
+    }
+   },
+   {
+    "sit": "Ти з маленьким сином цілий день у парку, і він весь час кудись тікає.",
+    "say": "Я цілий день бігаю за дитиною.",
+    "ans": [
+     "I’ve been running after my son all day.",
+     "I spend all day running after my kid.",
+     "I’ve been running after this kid all day long."
+    ],
+    "keys": {
+     "дитина": "son|kid*|child*|boy|little one",
+     "цілий день": "all day|whole day|day"
+    }
+   }
+  ]
+ },
+ {
+  "id": 3241,
+  "w": "rush into",
+  "uk": "поспішати з (рішенням), кидатися стрімголов",
+  "lvl": "B2",
+  "forms": "rush|rushes|rushed|rushed|rushing",
+  "tail": "into",
+  "near": "hurry|hurried|hurrying|jump into|jumped into|jump in|hasty|rash",
+  "tasks": [
+   {
+    "sit": "Друг хоче купити квартиру одразу після першого ж перегляду.",
+    "say": "Не поспішай з рішенням, подивися ще кілька варіантів.",
+    "ans": [
+     "Don’t rush into a decision — look at a few more places.",
+     "Don’t rush into it; see a few more options first.",
+     "Don’t rush into anything — check out some other places."
+    ],
+    "keys": {
+     "не": "not|never",
+     "ще кілька": "few|more|other*|some"
+    }
+   },
+   {
+    "sit": "Сестра хоче вийти заміж за хлопця, з яким знайома лише місяць.",
+    "say": "Навіщо так поспішати з весіллям?",
+    "ans": [
+     "Why rush into marriage?",
+     "Why are you rushing into getting married?",
+     "Why rush into a wedding so fast?"
+    ],
+    "keys": {
+     "весілля": "marr*|wedding|wed"
+    }
+   },
+   {
+    "sit": "Тобі запропонували роботу в іншому місті, але ти хочеш усе зважити.",
+    "say": "Я не хочу кидатися в це стрімголов, мені треба подумати.",
+    "ans": [
+     "I don’t want to rush into it — I need to think.",
+     "I don’t want to rush into anything; I need time to think.",
+     "I’m not going to rush into this, I need to think it over."
+    ],
+    "keys": {
+     "подумати": "think*|thought|consider*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 3242,
+  "w": "see off",
+  "uk": "проводжати (в дорогу)",
+  "lvl": "B2",
+  "forms": "see|sees|saw|seen|seeing",
+  "tail": "off",
+  "near": "say goodbye|said goodbye|say bye|said bye|drop off|dropped off|wave goodbye|waved goodbye|take to|took to|walk to|walked to",
+  "tasks": [
+   {
+    "sit": "Колега питає, чому ти вчора пішов з роботи раніше.",
+    "say": "Я проводжав брата в аеропорт.",
+    "ans": [
+     "I was seeing my brother off at the airport.",
+     "I went to see my brother off at the airport.",
+     "I had to see my brother off at the airport."
+    ],
+    "keys": {
+     "брат": "brother",
+     "аеропорт": "airport"
+    }
+   },
+   {
+    "sit": "Твоя подруга переїжджає за кордон і їде нічним потягом. Ти пишеш їй.",
+    "say": "Я обовʼязково прийду тебе провести на вокзал.",
+    "ans": [
+     "I’ll definitely come to see you off at the station.",
+     "I’ll be at the station to see you off, for sure.",
+     "Of course I’ll come and see you off at the station!"
+    ],
+    "keys": {
+     "вокзал": "station*"
+    }
+   },
+   {
+    "sit": "Гості поїхали пізно ввечері. Зранку розповідаєш про це сусідові.",
+    "say": "Ми провели гостей і одразу пішли спати.",
+    "ans": [
+     "We saw our guests off and went straight to bed.",
+     "After we saw the guests off, we went straight to bed.",
+     "We saw the guests off around midnight and went to bed."
+    ],
+    "keys": {
+     "гостей": "guest*",
+     "спати": "bed|sleep"
+    }
+   }
+  ]
+ },
+ {
+  "id": 3243,
+  "w": "set off",
+  "uk": "вирушати (в дорогу)",
+  "lvl": "B1",
+  "forms": "set|sets|set|set|setting",
+  "tail": "off",
+  "near": "leave|left|leaving|depart*|head off|headed off|start*|hit the road|get going",
+  "tasks": [
+   {
+    "sit": "Ви плануєте похід на Говерлу, і друг питає, який план.",
+    "say": "Ми вирушимо на світанку.",
+    "ans": [
+     "We’ll set off at dawn.",
+     "We’re setting off at dawn.",
+     "We’re going to set off at dawn."
+    ],
+    "keys": {
+     "світанок": "dawn|sunrise|early"
+    }
+   },
+   {
+    "sit": "Ти їдеш машиною до батьків, і вони телефонують, бо хвилюються.",
+    "say": "Я вирушив о восьмій, буду за дві години.",
+    "ans": [
+     "I set off at eight, I’ll be there in two hours.",
+     "I set off at eight, so I’ll arrive in about two hours.",
+     "I set off around eight — see you in two hours."
+    ],
+    "keys": {
+     "о восьмій": "eight|8*",
+     "дві години": "two hours|2 hours|hours"
+    }
+   },
+   {
+    "sit": "Небо затягує хмарами, а ви з друзями збираєтеся на велопрогулянку.",
+    "say": "Давайте вирушати, поки не почався дощ.",
+    "ans": [
+     "Let’s set off before it starts raining.",
+     "We should set off before the rain starts.",
+     "Come on, let’s set off before it rains."
+    ],
+    "keys": {
+     "дощ": "rain*"
+    }
+   }
+  ]
+ }
+]

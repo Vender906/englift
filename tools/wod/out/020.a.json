@@ -1,0 +1,631 @@
+[
+ {
+  "id": 1080, "w": "skyrocket", "uk": "злетіти (стрімко зрости)", "lvl": "C1",
+  "forms": "skyrocket|skyrockets|skyrocketed|skyrocketed|skyrocketing",
+  "near": "soar*|shot up|shoot up|shooting up|went up|go up|going up|rose|rise*|risen|increas*|jump*|surg*",
+  "tasks": [
+   {
+    "sit": "Ти обговорюєш з колегою, як змінилася оренда житла в Києві за останній рік.",
+    "say": "Ціни на оренду просто злетіли.",
+    "ans": ["Rent prices have skyrocketed.", "Rents skyrocketed over the past year.", "Honestly, rent has just skyrocketed lately."],
+    "keys": { "оренда": "rent*" }
+   },
+   {
+    "sit": "Ти виклав відео в соцмережі, а наступного ранку бачиш тисячі нових підписників.",
+    "say": "Кількість моїх підписників злетіла за одну ніч.",
+    "ans": ["My followers skyrocketed overnight.", "The number of my followers skyrocketed overnight.", "My follower count just skyrocketed overnight!"],
+    "keys": { "підписники": "follower*|subscriber*", "за ніч": "overnight|night|one day" }
+   },
+   {
+    "sit": "На нараді ти пояснюєш, що після реклами в мережі замовлень стало в рази більше.",
+    "say": "Після рекламної кампанії продажі злетіли.",
+    "ans": ["Sales skyrocketed after the ad campaign.", "After the campaign, our sales skyrocketed.", "Sales skyrocketed as soon as the ads launched."],
+    "keys": { "продажі": "sale*|order*|revenue", "реклама": "ad|ads|advert*|campaign*|marketing" }
+   }
+  ]
+ },
+ {
+  "id": 1081, "w": "cut back", "uk": "скорочувати (витрати)", "lvl": "B2",
+  "forms": "cut|cuts|cut|cut|cutting",
+  "tail": "back",
+  "near": "reduc*|spend less|spending less|save money|saving money|economi*|tighten*",
+  "tasks": [
+   {
+    "sit": "Цього місяця прийшли великі рахунки, і ти обговорюєш сімейний бюджет із дружиною.",
+    "say": "Нам треба скоротити витрати на доставку їжі.",
+    "ans": ["We need to cut back on food delivery.", "We have to cut back on ordering food.", "We should really cut back on takeout."],
+    "keys": { "доставка їжі": "food|delivery|takeout|takeaway*|order*" }
+   },
+   {
+    "sit": "Лікар питає, скільки кави ти пʼєш, бо в тебе проблеми зі сном.",
+    "say": "Я вже скоротив каву до однієї чашки на день.",
+    "ans": ["I’ve already cut back to one cup of coffee a day.", "I cut back on coffee — just one cup a day now.", "I’ve cut back on coffee, only one cup a day."],
+    "keys": { "кава": "coffee|caffeine", "одна чашка": "one|1|a cup|single" }
+   },
+   {
+    "sit": "Компанія втратила великого клієнта. Керівник пояснює команді нові правила.",
+    "say": "Ми скорочуємо витрати на відрядження.",
+    "ans": ["We’re cutting back on business travel.", "We are cutting back on travel costs.", "We’re going to cut back on business trips."],
+    "keys": { "відрядження": "travel*|trip*" }
+   }
+  ]
+ },
+ {
+  "id": 1082, "w": "tighten your belt", "uk": "затягнути пояси", "lvl": "C1",
+  "forms": "tighten|tightens|tightened|tightened|tightening",
+  "tail": "belt*",
+  "near": "cut back|cut down|save money|saving money|economi*|spend less|spending less",
+  "tasks": [
+   {
+    "sit": "Ти втратив роботу, і вдома ви обговорюєте, як дотягнути до кінця року.",
+    "say": "Поки я шукаю роботу, доведеться затягнути пояси.",
+    "ans": ["We’ll have to tighten our belts while I look for a job.", "We need to tighten our belts until I find a new job.", "Looks like we’ll have to tighten our belts till I find work."],
+    "keys": { "робота": "job*|work*" }
+   },
+   {
+    "sit": "Ви з колегою читаєте новину про підвищення податків і цін на пальне.",
+    "say": "Усім доведеться затягнути пояси цього року.",
+    "ans": ["Everyone will have to tighten their belts this year.", "We’re all going to have to tighten our belts this year.", "Everybody’s got to tighten their belts this year."],
+    "keys": { "усім": "everyone|everybody|all|we", "цього року": "this year|year" }
+   },
+   {
+    "sit": "Ви з другом витратили забагато за перший тиждень відпустки, а попереду ще тиждень.",
+    "say": "Решту поїздки нам треба затягнути пояси.",
+    "ans": ["We need to tighten our belts for the rest of the trip.", "For the rest of the trip, we have to tighten our belts.", "We’d better tighten our belts for the rest of the trip."],
+    "keys": { "решта поїздки": "trip*|vacation*|holiday*|week*" }
+   }
+  ]
+ },
+ {
+  "id": 1083, "w": "bump into", "uk": "випадково зустріти", "lvl": "B2",
+  "forms": "bump|bumps|bumped|bumped|bumping",
+  "tail": "into",
+  "near": "ran into|run into|running into|met|meet|came across|come across",
+  "tasks": [
+   {
+    "sit": "Дружина питає, чому ти так довго був у супермаркеті.",
+    "say": "Я випадково зустрів свого старого вчителя в супермаркеті.",
+    "ans": ["I bumped into my old teacher at the supermarket.", "At the supermarket I bumped into my old teacher.", "Guess who I bumped into at the supermarket — my old teacher!"],
+    "keys": { "вчитель": "teacher*", "супермаркет": "supermarket|store|shop" }
+   },
+   {
+    "sit": "Ти у відпустці в Барселоні й пишеш другові про неймовірний збіг.",
+    "say": "Уяви, я випадково зустрів тут нашу однокласницю!",
+    "ans": ["Imagine, I bumped into our classmate here!", "I just bumped into our old classmate here!", "You won’t believe it — I bumped into our classmate here!"],
+    "keys": { "однокласниця": "classmate*|school*" }
+   },
+   {
+    "sit": "Колега дивується, звідки ти знаєш свіжі новини з іншого відділу.",
+    "say": "Я вчора випадково зустрів Олену біля метро.",
+    "ans": ["I bumped into Olena near the metro yesterday.", "Yesterday I bumped into Olena by the subway.", "I bumped into Olena outside the metro yesterday."],
+    "keys": { "вчора": "yesterday", "метро": "metro|subway|underground|station|tube" }
+   }
+  ]
+ },
+ {
+  "id": 1084, "w": "run into", "uk": "наткнутися (випадково)", "lvl": "B1",
+  "forms": "run|runs|ran|run|running",
+  "tail": "into",
+  "near": "bumped into|bump into|bumping into|met|meet|came across|come across|encounter*|had problems",
+  "tasks": [
+   {
+    "sit": "Колега питає, чому ти так довго не повертався з обідньої перерви.",
+    "say": "Я наткнувся на шефа в кафе, і ми розговорилися.",
+    "ans": ["I ran into the boss at the cafe and we got talking.", "I ran into our boss at the cafe, and we started chatting.", "I ran into the boss in the cafe and we ended up talking."],
+    "keys": { "шеф": "boss|manager|chief|director", "кафе": "caf*|coffee*|restaurant" }
+   },
+   {
+    "sit": "Ти пишеш замовникові, чому ремонт у його квартирі затягнувся.",
+    "say": "Ми наткнулися на проблеми з проводкою.",
+    "ans": ["We ran into problems with the wiring.", "We’ve run into some problems with the wiring.", "We ran into a few issues with the wiring."],
+    "keys": { "проблеми": "problem*|issue*|trouble*|difficult*", "проводка": "wiring|wire*|electric*" }
+   },
+   {
+    "sit": "Ти телефонуєш другові, що не встигаєш на зустріч вчасно.",
+    "say": "Я наткнувся на величезний затор на мосту.",
+    "ans": ["I ran into a huge traffic jam on the bridge.", "I’ve run into heavy traffic on the bridge.", "I ran into a massive jam on the bridge."],
+    "keys": { "затор": "traffic|jam|congestion", "міст": "bridge" }
+   }
+  ]
+ },
+ {
+  "id": 1085, "w": "introduce", "uk": "представляти (когось комусь)", "lvl": "A2",
+  "forms": "introduce|introduces|introduced|introduced|introducing",
+  "near": "present*|meet|met",
+  "tasks": [
+   {
+    "sit": "На твоєму дні народження мама вперше бачить твоїх друзів.",
+    "say": "Мамо, дозволь представити тобі мого друга Макса.",
+    "ans": ["Mom, let me introduce my friend Max.", "Mom, I’d like to introduce you to my friend Max.", "Mom, let me introduce you to Max, my friend."],
+    "keys": { "друг": "friend*", "мама": "mom|mum|mother|mama" }
+   },
+   {
+    "sit": "До вашої команди прийшла нова дизайнерка. Ти ведеш її по офісу.",
+    "say": "Я познайомлю тебе з командою.",
+    "ans": ["I’ll introduce you to the team.", "Let me introduce you to the team.", "Come on, I’ll introduce you to everyone on the team."],
+    "keys": { "команда": "team|everyone|colleague*|everybody" }
+   },
+   {
+    "sit": "Подруга давно хоче з кимось зустрічатися, а в тебе є неодружений брат.",
+    "say": "Хочеш, я познайомлю тебе з моїм братом?",
+    "ans": ["Do you want me to introduce you to my brother?", "Should I introduce you to my brother?", "Want me to introduce you to my brother?"],
+    "keys": { "брат": "brother*" }
+   }
+  ]
+ },
+ {
+  "id": 1086, "w": "mingle", "uk": "спілкуватися (з різними людьми)", "lvl": "C1",
+  "forms": "mingle|mingles|mingled|mingled|mingling",
+  "near": "socializ*|socialis*|chat*|network*|circulat*",
+  "tasks": [
+   {
+    "sit": "Ти на весіллі, а друг весь вечір сидить за столом, утупившись у телефон.",
+    "say": "Іди поспілкуйся з людьми, а не сиди в телефоні!",
+    "ans": ["Go and mingle with people instead of sitting on your phone!", "Go and mingle — don’t just sit on your phone!", "Come on, go and mingle instead of staring at your phone!"],
+    "keys": { "телефон": "phone*" }
+   },
+   {
+    "sit": "Ти на конференції, і колега питає, де ти пропадав усю перерву.",
+    "say": "Я спілкувався з людьми з інших компаній.",
+    "ans": ["I was mingling with people from other companies.", "I mingled with people from other companies.", "I’ve been mingling with folks from other companies."],
+    "keys": { "інші компанії": "compan*|firm*|business*" }
+   },
+   {
+    "sit": "Ти влаштував вечірку, і гість жартома ображається, що ти майже не сидиш із ним.",
+    "say": "Вибач, я господар — мушу спілкуватися з усіма.",
+    "ans": ["Sorry, as the host I have to mingle.", "Sorry, I need to mingle — I’m the host.", "Sorry, I’m the host, so I’ve got to mingle with everyone."],
+    "keys": { "господар": "host*" }
+   }
+  ]
+ },
+ {
+  "id": 1087, "w": "grow", "uk": "рости", "lvl": "A2",
+  "forms": "grow|grows|grew|grown|growing",
+  "near": "got taller|get taller|getting taller|got bigger|get bigger|getting bigger|increas*|develop*",
+  "tasks": [
+   {
+    "sit": "Ти показуєш колезі фото своєї маленької доньки.",
+    "say": "Вона так швидко росте!",
+    "ans": ["She’s growing so fast!", "She grows so quickly!", "Wow, she’s growing up so fast!"],
+    "keys": { "швидко": "fast|quick*|so much" }
+   },
+   {
+    "sit": "Перукар дивується, що ти прийшов стригтися знову лише через три тижні.",
+    "say": "Волосся в мене дуже швидко росте.",
+    "ans": ["My hair grows really fast.", "My hair grows very quickly.", "My hair just grows super fast."],
+    "keys": { "волосся": "hair", "швидко": "fast|quick*" }
+   },
+   {
+    "sit": "Сусід питає про деревце, яке ти посадив три роки тому.",
+    "say": "Воно вже виросло вище за паркан.",
+    "ans": ["It has already grown taller than the fence.", "It grew higher than the fence.", "It’s already grown above the fence!"],
+    "keys": { "паркан": "fence*", "вище": "tall*|high*|above|over" }
+   }
+  ]
+ },
+ {
+  "id": 1088, "w": "bloom", "uk": "квітнути", "lvl": "B1",
+  "forms": "bloom|blooms|bloomed|bloomed|blooming",
+  "near": "blossom*|come out|came out|flowering",
+  "tasks": [
+   {
+    "sit": "Ти плануєш поїздку до Японії й радишся з другом, коли краще їхати.",
+    "say": "Сакури квітнуть на початку квітня.",
+    "ans": ["Cherry trees bloom in early April.", "Sakura trees bloom at the start of April.", "The cherry trees usually bloom in early April."],
+    "keys": { "сакура": "cherry|sakura", "квітень": "april" }
+   },
+   {
+    "sit": "Сусідка колись подарувала тобі кактус і сказала, що він майже ніколи не цвіте.",
+    "say": "Уяви, мій кактус нарешті зацвів!",
+    "ans": ["Guess what, my cactus finally bloomed!", "My cactus has finally bloomed!", "Guess what — my cactus is finally blooming!"],
+    "keys": { "кактус": "cactus*|cacti", "нарешті": "finally|at last" }
+   },
+   {
+    "sit": "Ти купуєш троянди в садовому центрі й питаєш продавця.",
+    "say": "Як довго вони цвітуть?",
+    "ans": ["How long do they bloom?", "How long will they bloom for?", "So how long do these bloom?"],
+    "keys": { "як довго": "how long|how many|week*|month*" }
+   }
+  ]
+ },
+ {
+  "id": 1089, "w": "blossom", "uk": "розквітати", "lvl": "B2",
+  "forms": "blossom|blossoms|blossomed|blossomed|blossoming",
+  "near": "bloom*|flourish*|thriv*|develop*|grew|grow*|grown",
+  "tasks": [
+   {
+    "sit": "Ти показуєш гостям травневі фото свого саду.",
+    "say": "Навесні вся яблуня розквітла.",
+    "ans": ["In spring the whole apple tree blossomed.", "The apple tree blossomed completely in spring.", "In the spring, the whole apple tree just blossomed."],
+    "keys": { "яблуня": "apple*", "навесні": "spring|may" }
+   },
+   {
+    "sit": "Ти розповідаєш подрузі про доньку, яка стала впевненою після переходу в іншу школу.",
+    "say": "У новій школі вона просто розквітла.",
+    "ans": ["She really blossomed at her new school.", "She has blossomed at the new school.", "At her new school, she’s just blossomed."],
+    "keys": { "нова школа": "school" }
+   },
+   {
+    "sit": "Подруга розпитує, як ти познайомився з дружиною.",
+    "say": "Спершу ми просто дружили, а потім це розквітло в кохання.",
+    "ans": ["We were just friends at first, and then it blossomed into love.", "At first we were only friends, but it blossomed into romance.", "It started as friendship and blossomed into love."],
+    "keys": { "друзі": "friend*", "кохання": "love|romance|relationship" }
+   }
+  ]
+ },
+ {
+  "id": 1090, "w": "sprout", "uk": "проростати, пускати паростки", "lvl": "B2",
+  "forms": "sprout|sprouts|sprouted|sprouted|sprouting",
+  "near": "germinat*|come up|came up|coming up|grow*|grew|grown|shoot*",
+  "tasks": [
+   {
+    "sit": "Тиждень тому ти посіяв базилік на підвіконні, а тепер пишеш мамі.",
+    "say": "Мій базилік уже проріс!",
+    "ans": ["My basil has already sprouted!", "My basil sprouted already!", "The basil’s already sprouting!"],
+    "keys": { "базилік": "basil|herb*|seed*" }
+   },
+   {
+    "sit": "Ти знайшов у шафі на кухні давно забутий мішок картоплі.",
+    "say": "Фу, картопля проросла.",
+    "ans": ["Ugh, the potatoes have sprouted.", "The potatoes sprouted, gross.", "Yuck, the potatoes are sprouting."],
+    "keys": { "картопля": "potato*" }
+   },
+   {
+    "sit": "Після тижня дощів ти показуєш сусідові свій город.",
+    "say": "Бурʼяни проросли всюди за кілька днів.",
+    "ans": ["Weeds sprouted everywhere in a few days.", "Weeds have sprouted all over in just a few days.", "In a couple of days, weeds sprouted everywhere."],
+    "keys": { "бурʼяни": "weed*", "всюди": "everywhere|all over|whole" }
+   }
+  ]
+ },
+ {
+  "id": 1091, "w": "wither", "uk": "вʼянути", "lvl": "C1",
+  "forms": "wither|withers|withered|withered|withering",
+  "near": "wilt*|died|dry up|dried up|drie*|droop*|fade*",
+  "tasks": [
+   {
+    "sit": "Ти повернувся з двотижневої відпустки, а вазони ніхто не поливав.",
+    "say": "Усі мої квіти зівʼяли.",
+    "ans": ["All my plants withered.", "All my flowers have withered.", "My flowers all withered while I was away."],
+    "keys": { "квіти": "flower*|plant*" }
+   },
+   {
+    "sit": "Ти читаєш колезі новини про посуху на півдні країни.",
+    "say": "Посіви зівʼяли через спеку.",
+    "ans": ["The crops withered in the heat.", "The crops have withered because of the heat.", "The heat made the crops wither."],
+    "keys": { "посіви": "crop*|harvest|wheat|corn|field*", "спека": "heat|hot|drought" }
+   },
+   {
+    "sit": "Тобі подарували букет у понеділок, а в середу він уже виглядає сумно.",
+    "say": "Букет зівʼяв лише за два дні.",
+    "ans": ["The bouquet withered after just two days.", "The bouquet had withered in two days.", "The bouquet withered in only two days."],
+    "keys": { "букет": "bouquet|flower*", "два дні": "two|2" }
+   }
+  ]
+ },
+ {
+  "id": 1092, "w": "wilt", "uk": "поникнути, вʼянути", "lvl": "C1",
+  "forms": "wilt|wilts|wilted|wilted|wilting",
+  "near": "wither*|droop*|dry up|dried up|died",
+  "tasks": [
+   {
+    "sit": "У спеку ти на день забув полити розсаду на балконі.",
+    "say": "Ой, помідори поникли без води.",
+    "ans": ["Oh no, the tomatoes have wilted without water.", "The tomatoes wilted because they had no water.", "Oops, the tomato plants are wilting — no water."],
+    "keys": { "помідори": "tomato*", "без води": "water*" }
+   },
+   {
+    "sit": "Ти знімаєш кулінарне відео й пояснюєш глядачам рецепт.",
+    "say": "Шпинат на сковорідці зівʼяне за хвилину.",
+    "ans": ["The spinach will wilt in a minute in the pan.", "Spinach wilts in about a minute in the pan.", "Put the spinach in the pan and it’ll wilt in a minute."],
+    "keys": { "шпинат": "spinach", "хвилина": "minute*|second*" }
+   },
+   {
+    "sit": "Колега питає, що сталося з квіткою на твоєму столі.",
+    "say": "Вона поникла, бо стоїть біля батареї.",
+    "ans": ["It wilted because it’s next to the radiator.", "It’s wilting because it’s by the heater.", "It’s wilted — it’s right next to the radiator."],
+    "keys": { "батарея": "radiator|heater|heating" }
+   }
+  ]
+ },
+ {
+  "id": 1093, "w": "ripen", "uk": "дозрівати", "lvl": "B2",
+  "forms": "ripen|ripens|ripened|ripened|ripening",
+  "near": "get ripe|gets ripe|got ripe|getting ripe|mature*",
+  "tasks": [
+   {
+    "sit": "Ти купив зелені авокадо, а дружина хоче зробити гуакамоле вже сьогодні.",
+    "say": "Вони дозріють за кілька днів.",
+    "ans": ["They’ll ripen in a few days.", "They will ripen in a couple of days.", "Give them a few days to ripen."],
+    "keys": { "кілька днів": "day*" }
+   },
+   {
+    "sit": "Сусід питає, коли можна буде скуштувати твій виноград.",
+    "say": "Виноград дозріває наприкінці серпня.",
+    "ans": ["The grapes ripen at the end of August.", "The grapes ripen in late August.", "Our grapes usually ripen by late August."],
+    "keys": { "виноград": "grape*", "серпень": "august" }
+   },
+   {
+    "sit": "Подруга скаржиться, що купила тверді зелені банани. Ти ділишся лайфхаком.",
+    "say": "Поклади їх у паперовий пакет, і вони швидше дозріють.",
+    "ans": ["Put them in a paper bag and they’ll ripen faster.", "If you put them in a paper bag, they ripen quicker.", "Just stick them in a paper bag to ripen faster."],
+    "keys": { "пакет": "bag", "швидше": "fast*|quick*|sooner" }
+   }
+  ]
+ },
+ {
+  "id": 1094, "w": "rot", "uk": "гнити", "lvl": "B2",
+  "forms": "rot|rots|rotted|rotted|rotting",
+  "near": "go bad|went bad|gone bad|goes bad|going bad|spoil*|decay*|go off|went off|gone off",
+  "tasks": [
+   {
+    "sit": "Ти прибираєш холодильник після довгої відпустки.",
+    "say": "Усі овочі згнили.",
+    "ans": ["All the vegetables have rotted.", "All the veggies rotted.", "The vegetables have all rotted away."],
+    "keys": { "овочі": "vegetable*|veggie*" }
+   },
+   {
+    "sit": "Ти пояснюєш сусідові, чому міняєш підлогу на дерев’яній терасі.",
+    "say": "Дошки згнили від вологи.",
+    "ans": ["The boards rotted from the damp.", "The boards have rotted because of the moisture.", "The wood’s rotted from all the moisture."],
+    "keys": { "дошки": "board*|wood*|plank*|deck*", "волога": "damp*|moist*|water|wet|rain" }
+   },
+   {
+    "sit": "Ти вмовляєш сина їсти менше цукерок.",
+    "say": "Від солодкого гниють зуби.",
+    "ans": ["Sweets make your teeth rot.", "Candy rots your teeth.", "Too much sugar will rot your teeth."],
+    "keys": { "зуби": "teeth|tooth", "солодке": "sweet*|sugar*|candy|candies|chocolate*" }
+   }
+  ]
+ },
+ {
+  "id": 1095, "w": "plant", "uk": "садити", "lvl": "A2",
+  "forms": "plant|plants|planted|planted|planting",
+  "near": "sow*|put in|grow|grew",
+  "tasks": [
+   {
+    "sit": "У суботу у вашому районі толока, і колега питає про твої плани.",
+    "say": "Ми садимо дерева в парку.",
+    "ans": ["We’re planting trees in the park.", "We plant trees in the park.", "We’re going to plant trees in the park."],
+    "keys": { "дерева": "tree*", "парк": "park" }
+   },
+   {
+    "sit": "Колега питає, як ваша родина відзначила народження сина.",
+    "say": "Ми посадили яблуню біля будинку.",
+    "ans": ["We planted an apple tree near the house.", "We planted an apple tree by our house.", "We planted an apple tree next to the house."],
+    "keys": { "яблуня": "apple*", "будинок": "house|home" }
+   },
+   {
+    "sit": "Подруга питає, що ти робитимеш на вихідних.",
+    "say": "Я хочу посадити квіти на балконі.",
+    "ans": ["I want to plant flowers on the balcony.", "I’d like to plant some flowers on my balcony.", "I’m going to plant flowers on the balcony."],
+    "keys": { "квіти": "flower*", "балкон": "balcon*" }
+   }
+  ]
+ },
+ {
+  "id": 1096, "w": "sow", "uk": "сіяти", "lvl": "B2",
+  "forms": "sow|sows|sowed|sown/sowed|sowing",
+  "near": "plant*|scatter*|put in",
+  "tasks": [
+   {
+    "sit": "Навесні ти телефонуєш бабусі в село.",
+    "say": "Бабусю, ти вже посіяла моркву?",
+    "ans": ["Grandma, have you sown the carrots yet?", "Grandma, did you sow the carrots already?", "Grandma, have you sowed the carrots yet?"],
+    "keys": { "морква": "carrot*", "бабуся": "grandma|granny|grandmother|nan*" }
+   },
+   {
+    "sit": "Сусід питає, чому частину твого двору огороджено стрічкою.",
+    "say": "Я посіяв нову траву.",
+    "ans": ["I’ve sown new grass.", "I sowed some new grass there.", "I just sowed new grass seed."],
+    "keys": { "трава": "grass|lawn" }
+   },
+   {
+    "sit": "На уроці біології ви готуєте експеримент із рослинами. Учитель питає про план.",
+    "say": "Ми посіємо насіння в різні горщики.",
+    "ans": ["We’ll sow the seeds in different pots.", "We will sow the seeds in separate pots.", "We’re going to sow seeds in different pots."],
+    "keys": { "насіння": "seed*", "горщики": "pot*|container*|tray*" }
+   }
+  ]
+ },
+ {
+  "id": 1097, "w": "harvest", "uk": "збирати урожай", "lvl": "B2",
+  "forms": "harvest|harvests|harvested|harvested|harvesting",
+  "near": "pick*|gather*|collect*|reap*|bring in|brought in",
+  "tasks": [
+   {
+    "sit": "Ти працюєш на фермі й пояснюєш другові, чому весь вересень зайнятий.",
+    "say": "У вересні ми збираємо кукурудзу.",
+    "ans": ["We harvest corn in September.", "In September we harvest the corn.", "We’re harvesting corn all through September."],
+    "keys": { "кукурудза": "corn|maize", "вересень": "september" }
+   },
+   {
+    "sit": "Ти показуєш колегам фото з дачі.",
+    "say": "Цього року ми зібрали аж сто кілограмів картоплі.",
+    "ans": ["This year we harvested a hundred kilos of potatoes.", "We harvested 100 kilograms of potatoes this year.", "We harvested about a hundred kilos of potatoes this year!"],
+    "keys": { "картопля": "potato*", "сто": "hundred|100*" }
+   },
+   {
+    "sit": "Ти на екскурсії на виноробні в Грузії й питаєш гіда.",
+    "say": "Коли ви збираєте виноград?",
+    "ans": ["When do you harvest the grapes?", "When are the grapes harvested?", "So when do you usually harvest the grapes?"],
+    "keys": { "виноград": "grape*", "коли": "when|what time|what month" }
+   }
+  ]
+ },
+ {
+  "id": 1098, "w": "water", "uk": "поливати", "lvl": "A2",
+  "forms": "water|waters|watered|watered|watering",
+  "near": "sprinkl*|hose*|spray*|irrigat*",
+  "tasks": [
+   {
+    "sit": "Ти їдеш у відпустку й просиш сусідку про допомогу.",
+    "say": "Можеш полити мої квіти, поки мене не буде?",
+    "ans": ["Can you water my plants while I’m away?", "Could you water my flowers while I’m gone?", "Would you mind watering my plants while I’m away?"],
+    "keys": { "квіти": "plant*|flower*", "поки мене не буде": "away|gone|out|vacation|holiday|trip" }
+   },
+   {
+    "sit": "Подруга скаржиться, що в спеку її помідори виглядають погано.",
+    "say": "Поливай їх рано вранці.",
+    "ans": ["Water them early in the morning.", "You should water them early in the morning.", "Try watering them first thing in the morning."],
+    "keys": { "вранці": "morning" }
+   },
+   {
+    "sit": "Колега питає, хто доглядає за пальмою в офісі.",
+    "say": "Я поливаю її щопонеділка.",
+    "ans": ["I water it every Monday.", "I water it on Mondays.", "I’m the one who waters it every Monday."],
+    "keys": { "понеділок": "monday*" }
+   }
+  ]
+ },
+ {
+  "id": 1099, "w": "prune", "uk": "обрізати (кущі, дерева)", "lvl": "C1",
+  "forms": "prune|prunes|pruned|pruned|pruning",
+  "near": "trim*|cut*|clip*",
+  "tasks": [
+   {
+    "sit": "Сусід питає, чому твої троянди цього року такі пишні.",
+    "say": "Я обрізав їх ранньою весною.",
+    "ans": ["I pruned them in early spring.", "I pruned them back in early spring.", "I pruned them pretty hard in early spring."],
+    "keys": { "весною": "spring" }
+   },
+   {
+    "sit": "Ти працюєш у садовому центрі, і клієнт питає про догляд за фруктовими деревами.",
+    "say": "Обрізайте яблуні взимку.",
+    "ans": ["Prune apple trees in winter.", "You should prune your apple trees in winter.", "It’s best to prune apple trees in the winter."],
+    "keys": { "яблуні": "apple*|tree*", "взимку": "winter" }
+   },
+   {
+    "sit": "Кущі біля твого будинку так розрослися, що в кімнатах стало темно.",
+    "say": "Треба обрізати кущі біля вікон.",
+    "ans": ["I need to prune the bushes by the windows.", "The bushes by the windows need pruning.", "I’ve got to prune the bushes near the windows."],
+    "keys": { "кущі": "bush*|shrub*|hedge*", "вікна": "window*" }
+   }
+  ]
+ },
+ {
+  "id": 1100, "w": "weed", "uk": "полоти", "lvl": "B2",
+  "forms": "weed|weeds|weeded|weeded|weeding",
+  "near": "pull*|remov*|dig*|hoe*",
+  "tasks": [
+   {
+    "sit": "Друг кличе тебе в кіно в суботу, а ти маєш інші плани.",
+    "say": "Я обіцяв бабусі прополоти город.",
+    "ans": ["I promised Grandma I’d weed the vegetable garden.", "I promised my grandma I would weed her garden.", "I told Grandma I’d weed her veggie patch."],
+    "keys": { "бабуся": "grandma|granny|grandmother|nan*", "город": "garden*|patch|bed*|plot" }
+   },
+   {
+    "sit": "Ви з дітьми працюєте в саду, і ти розподіляєш обовʼязки.",
+    "say": "Ви прополіть клумби, а я підстрижу газон.",
+    "ans": ["You weed the flowerbeds, and I’ll mow the lawn.", "You two weed the flower beds and I’ll cut the grass.", "You’ll weed the flowerbeds while I mow the lawn."],
+    "keys": { "клумби": "flowerbed*|flower*|bed*", "газон": "lawn|grass" }
+   },
+   {
+    "sit": "Подруга, яка тільки купила дачу, питає, що найважче в садівництві.",
+    "say": "Полоти доводиться щотижня.",
+    "ans": ["You have to weed every week.", "You have to weed every single week.", "Weeding every week is the hardest part."],
+    "keys": { "щотижня": "week*" }
+   }
+  ]
+ },
+ {
+  "id": 1101, "w": "fertilize", "uk": "удобрювати", "lvl": "C1",
+  "forms": "fertilize/fertilise|fertilizes/fertilises|fertilized/fertilised|fertilized/fertilised|fertilizing/fertilising",
+  "near": "feed*|fed|manur*|compost*",
+  "tasks": [
+   {
+    "sit": "Продавець у садовому магазині питає, для чого тобі добриво.",
+    "say": "Я удобрюю троянди раз на місяць.",
+    "ans": ["I fertilize my roses once a month.", "I fertilize the roses every month.", "I usually fertilize my roses once a month."],
+    "keys": { "троянди": "rose*", "раз на місяць": "month*" }
+   },
+   {
+    "sit": "Сусід дивується, чому його газон жовтий, а твій зелений.",
+    "say": "Ти пробував удобрювати газон навесні?",
+    "ans": ["Have you tried fertilizing your lawn in spring?", "Did you fertilize the lawn in the spring?", "Try fertilizing your lawn in spring."],
+    "keys": { "газон": "lawn|grass", "навесні": "spring" }
+   },
+   {
+    "sit": "На семінарі з екології ти пояснюєш, чому в річці цвіте вода.",
+    "say": "Фермери надто сильно удобрюють поля.",
+    "ans": ["Farmers fertilize their fields too heavily.", "The farmers fertilize the fields too much.", "Farmers are fertilizing their fields far too much."],
+    "keys": { "фермери": "farm*", "поля": "field*|land|crop*", "надто": "too|much|heavily|excess*" }
+   }
+  ]
+ },
+ {
+  "id": 1102, "w": "pollinate", "uk": "запилювати", "lvl": "C1",
+  "forms": "pollinate|pollinates|pollinated|pollinated|pollinating",
+  "near": "fertiliz*|fertilis*",
+  "tasks": [
+   {
+    "sit": "Ти тримаєш вулики й розповідаєш сусідам-садівникам про користь бджіл.",
+    "say": "Мої бджоли запилюють ваші яблуні.",
+    "ans": ["My bees pollinate your apple trees.", "Your apple trees are pollinated by my bees.", "My bees are the ones pollinating your apple trees."],
+    "keys": { "бджоли": "bee*", "яблуні": "apple*|tree*" }
+   },
+   {
+    "sit": "Ти вирощуєш полуницю в закритій теплиці, де немає комах.",
+    "say": "Мені доводиться запилювати квіти пензликом.",
+    "ans": ["I have to pollinate the flowers with a brush.", "I pollinate the flowers by hand with a brush.", "I’ve got to pollinate the flowers myself using a brush."],
+    "keys": { "пензлик": "brush*|hand" }
+   },
+   {
+    "sit": "Ти читаєш статтю про масове зникнення бджіл і обговорюєш її з колегою.",
+    "say": "Хто запилюватиме посіви, якщо бджоли зникнуть?",
+    "ans": ["Who will pollinate the crops if the bees disappear?", "If bees disappear, who’s going to pollinate the crops?", "Who’ll pollinate crops if all the bees die out?"],
+    "keys": { "посіви": "crop*|plant*|field*", "бджоли": "bee*" }
+   }
+  ]
+ },
+ {
+  "id": 1103, "w": "transplant", "uk": "пересаджувати (рослини)", "lvl": "C1",
+  "forms": "transplant|transplants|transplanted|transplanted|transplanting",
+  "near": "repot*|re-pot*|replant*|move*|moving",
+  "tasks": [
+   {
+    "sit": "Твій фікус так виріс, що корені вилазять із горщика.",
+    "say": "Треба пересадити його в більший горщик.",
+    "ans": ["I need to transplant it into a bigger pot.", "It needs to be transplanted into a larger pot.", "I’ve got to transplant it to a bigger pot."],
+    "keys": { "більший горщик": "bigger|larger|big|pot*" }
+   },
+   {
+    "sit": "Сусідка бачить розсаду помідорів на твоєму підвіконні й питає про плани.",
+    "say": "У травні я пересаджу розсаду в теплицю.",
+    "ans": ["In May I’ll transplant the seedlings into the greenhouse.", "I’ll transplant the seedlings to the greenhouse in May.", "I’m going to transplant the seedlings into the greenhouse in May."],
+    "keys": { "розсада": "seedling*|tomato*|plant*", "травень": "may" }
+   },
+   {
+    "sit": "Ви переїжджаєте в інший будинок, і ти не хочеш залишати улюблений кущ троянд.",
+    "say": "Можна пересадити цей кущ на нову ділянку?",
+    "ans": ["Can we transplant this bush to the new place?", "Is it possible to transplant this bush to our new yard?", "Could we transplant this rose bush to the new garden?"],
+    "keys": { "кущ": "bush*|shrub*|rose*", "нова": "new" }
+   }
+  ]
+ },
+ {
+  "id": 1104, "w": "bark", "uk": "гавкати", "lvl": "A2",
+  "forms": "bark|barks|barked|barked|barking",
+  "near": "woof*|yap*|howl*|growl*",
+  "tasks": [
+   {
+    "sit": "Сусідський пес не дає тобі спати. Ти говориш із сусідом.",
+    "say": "Ваш пес гавкає всю ніч.",
+    "ans": ["Your dog barks all night.", "Your dog barks all night long.", "Your dog was barking all night again."],
+    "keys": { "пес": "dog*|puppy", "всю ніч": "night*" }
+   },
+   {
+    "sit": "Курʼєр боїться підійти до твоїх дверей, бо у дворі великий пес.",
+    "say": "Не бійтеся, він тільки гавкає, але не кусає.",
+    "ans": ["Don’t worry, he only barks, he doesn’t bite.", "Don’t be afraid — he barks, but he won’t bite.", "Relax, he just barks, he never bites."],
+    "keys": { "не кусає": "not bite|never bite*" }
+   },
+   {
+    "sit": "Гості дивуються, чому твій собака раптом кинувся до дверей.",
+    "say": "Він завжди гавкає, коли хтось дзвонить у двері.",
+    "ans": ["He always barks when someone rings the doorbell.", "He barks every time the doorbell rings.", "He always barks whenever somebody rings the bell."],
+    "keys": { "дзвонить": "ring*|doorbell|bell|knock*" }
+   }
+  ]
+ }
+]

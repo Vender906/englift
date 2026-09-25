@@ -1,0 +1,627 @@
+[
+ {
+  "id": 364, "w": "grow", "uk": "ставати (старим, темним, нетерплячим)", "lvl": "A2",
+  "forms": "grow|grows|grew|grown|growing",
+  "near": "get|gets|got|gotten|getting|become|becomes|became|becoming|turn|turns|turned|turning",
+  "tasks": [
+   {
+    "sit": "Ти показуєш другові весільне фото бабусі й дідуся, які прожили разом шістдесят років.",
+    "say": "Вони разом постаріли й досі тримаються за руки.",
+    "ans": ["They grew old together and still hold hands.", "They have grown old together, and they still hold hands.", "They grew old together, and they still hold hands every day."],
+    "keys": { "разом": "together", "тримаються за руки": "hold hands|holding hands|hand*" }
+   },
+   {
+    "sit": "Ви з другом у горах. Сонце сідає, а до табору ще далеко.",
+    "say": "Швидко темніє, нам треба поспішати.",
+    "ans": ["It's growing dark quickly, we need to hurry.", "It's growing dark fast, so we should hurry.", "It's growing dark, so let's hurry up."],
+    "keys": { "темніє": "dark*", "поспішати": "hurry|rush|move|faster|quick*" }
+   },
+   {
+    "sit": "Ти вже дві години стоїш у черзі в держустанові, а віконце досі зачинене.",
+    "say": "Люди в черзі стають дедалі нетерплячішими.",
+    "ans": ["People in the line are growing impatient.", "The people in the queue are growing more and more impatient.", "Everyone in line is growing really impatient."],
+    "keys": { "черга": "line|queue", "нетерплячі": "impatient|annoyed|restless|angry|irritated" }
+   }
+  ]
+ },
+ {
+  "id": 365, "w": "go", "uk": "ставати (божевільним, сивим, зіпсованим)", "lvl": "A2",
+  "forms": "go|goes|went|gone|going",
+  "near": "become|becomes|became|becoming|get|gets|got|getting|turn|turns|turned|turning|drive me crazy|driving me crazy",
+  "tasks": [
+   {
+    "sit": "Сусіди третій тиждень роблять ремонт і свердлять із восьмої ранку.",
+    "say": "Я зараз збожеволію від цього шуму!",
+    "ans": ["I'm going crazy because of this noise!", "This noise is making me go crazy!", "I swear I'm going to go crazy with all this noise!"],
+    "keys": { "шум": "noise|drill*|sound*|loud" }
+   },
+   {
+    "sit": "Ти повернувся з відпустки, відкрив холодильник і відчув дивний запах від пакета.",
+    "say": "Здається, молоко скисло.",
+    "ans": ["I think the milk has gone bad.", "I think the milk went sour.", "Ugh, I think this milk has gone off."],
+    "keys": { "молоко": "milk" }
+   },
+   {
+    "sit": "Ти зустрів однокласника вперше за двадцять років і розповідаєш про це дружині.",
+    "say": "Він зовсім посивів!",
+    "ans": ["He has gone completely grey!", "He went totally gray!", "Wow, he has gone all grey!"],
+    "keys": { "сивий": "grey|gray|white|silver" }
+   }
+  ]
+ },
+ {
+  "id": 367, "w": "keep", "uk": "зберігати (таємницю)", "lvl": "A2",
+  "forms": "keep|keeps|kept|kept|keeping",
+  "near": "hide|hid|hidden|hiding|not tell|never tell|tell no one|zip it|protect*",
+  "tasks": [
+   {
+    "sit": "Подруга по секрету розповідає тобі, що вагітна, але ще нікому про це не казала.",
+    "say": "Не хвилюйся, я збережу це в таємниці.",
+    "ans": ["Don't worry, I'll keep it a secret.", "Don't worry, I will keep your secret.", "Relax, I can keep a secret."],
+    "keys": { "не хвилюйся": "worry|relax|calm", "таємниця": "secret*|quiet|to myself" }
+   },
+   {
+    "sit": "Ти організовуєш сюрприз-вечірку для начальниці й пишеш колегам у робочий чат.",
+    "say": "Будь ласка, тримайте це в секреті до пʼятниці.",
+    "ans": ["Please keep it a secret until Friday.", "Please keep this a secret till Friday.", "Guys, please keep it quiet until Friday."],
+    "keys": { "секрет": "secret*|quiet|to yourself*", "пʼятниця": "friday" }
+   },
+   {
+    "sit": "Брат щойно дізнався, що ти вже пʼять років маєш татуювання, про яке не знають батьки.",
+    "say": "Як тобі вдавалося так довго тримати це в секреті?",
+    "ans": ["How did you keep it a secret for so long?", "How have you kept this a secret for so long?", "How on earth did you keep that secret so long?"],
+    "keys": { "секрет": "secret*|quiet|hidden", "так довго": "long|years" }
+   }
+  ]
+ },
+ {
+  "id": 368, "w": "last", "uk": "тривати", "lvl": "B1",
+  "forms": "last|lasts|lasted|lasted|lasting",
+  "near": "take|takes|took|taken|taking|go on|went on|goes on|continue*|run|ran|runs",
+  "tasks": [
+   {
+    "sit": "Колега запізнився на вчорашню нараду й питає, чи багато пропустив.",
+    "say": "Нарада тривала майже три години.",
+    "ans": ["The meeting lasted almost three hours.", "The meeting lasted nearly three hours.", "Honestly, the meeting lasted almost three hours."],
+    "keys": { "нарада": "meeting", "три години": "three|3|hours" }
+   },
+   {
+    "sit": "Ти обираєш новий телефон у магазині й питаєш продавця про акумулятор.",
+    "say": "На скільки вистачає батареї?",
+    "ans": ["How long does the battery last?", "How long will the battery last on one charge?", "So how long does the battery actually last?"],
+    "keys": { "батарея": "battery|charge" }
+   },
+   {
+    "sit": "На весіллі друзів тебе просять сказати тост.",
+    "say": "Справжнє кохання триває все життя.",
+    "ans": ["True love lasts a lifetime.", "I believe true love can last a lifetime.", "They prove that real love lasts forever."],
+    "keys": { "кохання": "love", "все життя": "lifetime|forever|whole life|all life|always" }
+   }
+  ]
+ },
+ {
+  "id": 369, "w": "reverse", "uk": "давати задній хід, здавати назад", "lvl": "B1",
+  "forms": "reverse|reverses|reversed|reversed|reversing",
+  "near": "back up|backed up|backing up|back out|backed out|back into|backing|go back|drive back",
+  "tasks": [
+   {
+    "sit": "Ти вчиш сестру паркуватися біля супермаркету.",
+    "say": "Здай задом на це вільне місце.",
+    "ans": ["Reverse into that free space.", "Reverse into that empty spot.", "Just reverse into that spot there."],
+    "keys": { "місце": "space|spot|place|parking" }
+   },
+   {
+    "sit": "Ви з другом їдете вузькою сільською дорогою, а назустріч — вантажівка.",
+    "say": "Нам доведеться здати назад до повороту.",
+    "ans": ["We'll have to reverse to the turn.", "We need to reverse up to the corner.", "Looks like we'll have to reverse all the way to the turn."],
+    "keys": { "поворот": "turn*|corner|junction|crossroad*|bend", "доведеться": "have to|need to|must|got to|gotta" }
+   },
+   {
+    "sit": "Ти пояснюєш страховому агентові, як подряпав машину на парковці.",
+    "say": "Я здавав назад і не побачив стовп.",
+    "ans": ["I was reversing and didn't see the pole.", "I was reversing and I didn't notice the post.", "I was reversing out and just didn't see the pole."],
+    "keys": { "стовп": "pole|post|pillar|column|lamppost|lamp post", "не побачив": "not see|not notice|missed|never saw" }
+   }
+  ]
+ },
+ {
+  "id": 370, "w": "honk", "uk": "сигналити (клаксоном)", "lvl": "B2",
+  "forms": "honk|honks|honked|honked|honking",
+  "near": "beep*|hoot*|toot*|sound the horn|blow the horn|use the horn",
+  "tasks": [
+   {
+    "sit": "Ти стоїш у заторі, а водій позаду весь час тисне на клаксон.",
+    "say": "Чого він сигналить? Ми ж однаково не можемо рухатися!",
+    "ans": ["Why is he honking? We can't move anyway!", "Why does he keep honking? Nobody can move!", "What's he honking for? We're all stuck anyway!"],
+    "keys": { "не можемо рухатися": "not move|nobody can move|no one can move|stuck" }
+   },
+   {
+    "sit": "Друг обіцяв підвезти тебе зранку в аеропорт. Ти домовляєшся з ним напередодні.",
+    "say": "Посигналь, коли підʼїдеш, і я вийду.",
+    "ans": ["Honk when you get here and I'll come out.", "Just honk when you arrive, and I'll come down.", "Honk when you're outside and I'll be right out."],
+    "keys": { "підʼїдеш": "arrive*|get here|outside|pull up|here", "вийду": "come out|come down|out|down" }
+   },
+   {
+    "sit": "Ти стоїш на тротуарі, а повз тебе проїжджає весільний кортеж.",
+    "say": "Послухай, як вони всі сигналять!",
+    "ans": ["Listen, they're all honking!", "Listen to them all honking!", "Wow, listen to everyone honking!"],
+    "keys": { "послухай": "listen|hear", "всі": "all|everyone|everybody" }
+   }
+  ]
+ },
+ {
+  "id": 371, "w": "boot", "uk": "вмикати, завантажувати (систему)", "lvl": "B2",
+  "forms": "boot|boots|booted|booted|booting",
+  "near": "start|starts|started|starting|turn on|turned on|switch on|switched on|load|loads|loaded|loading|power on|powered on",
+  "tasks": [
+   {
+    "sit": "Ти вдома поспішаєш роздрукувати квиток на потяг, а ноутбук ніяк не ввімкнеться до кінця.",
+    "say": "Мій ноутбук уже десять хвилин завантажується.",
+    "ans": ["My laptop has been booting for ten minutes.", "My laptop has been booting up for ten minutes already.", "It's been ten minutes and my laptop still won't boot up."],
+    "keys": { "ноутбук": "laptop|computer|pc|notebook", "десять хвилин": "ten|10|minutes" }
+   },
+   {
+    "sit": "Друг пише, що після оновлення його компʼютер показує лише чорний екран.",
+    "say": "Спробуй завантажити його в безпечному режимі.",
+    "ans": ["Try booting it in safe mode.", "Try to boot it in safe mode.", "Maybe try booting into safe mode."],
+    "keys": { "безпечний режим": "safe mode|safe" }
+   },
+   {
+    "sit": "Колега питає, чому ти завжди приходиш в офіс на десять хвилин раніше.",
+    "say": "Старий робочий компʼютер завантажується цілу вічність.",
+    "ans": ["The old work computer takes forever to boot.", "My old computer at work takes ages to boot up.", "That old work PC takes forever to boot up."],
+    "keys": { "вічність": "forever|ages|long time|so long", "компʼютер": "computer|pc|laptop|machine" }
+   }
+  ]
+ },
+ {
+  "id": 372, "w": "reboot", "uk": "перезавантажувати", "lvl": "B2",
+  "forms": "reboot|reboots|rebooted|rebooted|rebooting",
+  "near": "restart*|reset*|turn it off and on|switch it off and on|power cycle",
+  "tasks": [
+   {
+    "sit": "Удома пропав інтернет, і сестра питає, що робити.",
+    "say": "Спробуй перезавантажити роутер.",
+    "ans": ["Try rebooting the router.", "Try to reboot the router.", "Just try rebooting the router first."],
+    "keys": { "роутер": "router|modem|wifi|internet" }
+   },
+   {
+    "sit": "Ти системний адміністратор і попереджаєш колег у робочому чаті про оновлення.",
+    "say": "Сервер перезавантажиться о шостій вечора.",
+    "ans": ["The server will reboot at six this evening.", "The server is going to reboot at 6 tonight.", "Heads up, the server reboots at six tonight."],
+    "keys": { "сервер": "server|system", "о шостій": "six|6" }
+   },
+   {
+    "sit": "Твій телефон завис посеред дзвінка. Подруга питає, як ти це виправив.",
+    "say": "Я перезавантажив телефон, і все запрацювало.",
+    "ans": ["I rebooted my phone and everything worked.", "I rebooted the phone, and it all worked again.", "I just rebooted my phone and it's fine now."],
+    "keys": { "телефон": "phone|mobile|it", "запрацювало": "work*|fine|ok|okay|good" }
+   }
+  ]
+ },
+ {
+  "id": 373, "w": "stream", "uk": "стрімити, дивитися або транслювати онлайн", "lvl": "B1",
+  "forms": "stream|streams|streamed|streamed|streaming",
+  "near": "watch*|broadcast*|download*|livestream*|go live|went live",
+  "tasks": [
+   {
+    "sit": "Друг пропонує піти в кіно в суботу, але надворі злива.",
+    "say": "Давай краще подивимося фільм онлайн удома.",
+    "ans": ["Let's just stream a movie at home instead.", "Why don't we stream a film at home?", "Let's stay in and stream a movie instead."],
+    "keys": { "фільм": "movie|film", "вдома": "home|stay in|house|couch" }
+   },
+   {
+    "sit": "Новий знайомий питає, чим ти захоплюєшся у вільний час.",
+    "say": "Я щовечора стрімлю свої ігри на «Твічі».",
+    "ans": ["I stream my games on Twitch every evening.", "Every evening I stream my gameplay on Twitch.", "I stream on Twitch pretty much every night."],
+    "keys": { "щовечора": "every evening|every night|each evening|each night|evening*|night*|nightly", "ігри": "game*|gaming|twitch" }
+   },
+   {
+    "sit": "Колега засмучений, що не встигне додому на футбольний матч.",
+    "say": "А я подивлюся матч онлайн прямо в телефоні.",
+    "ans": ["I'll stream the match on my phone.", "I'm going to stream the game on my phone.", "I'll just stream the match on my phone."],
+    "keys": { "матч": "match|game|football", "телефон": "phone|mobile" }
+   }
+  ]
+ },
+ {
+  "id": 374, "w": "subscribe", "uk": "підписуватися", "lvl": "B1",
+  "forms": "subscribe|subscribes|subscribed|subscribed|subscribing",
+  "near": "follow*|sign up|signed up|signing up|join*|register*",
+  "tasks": [
+   {
+    "sit": "Ти випадково знайшов кулінарний канал на «Ютубі», і він тобі дуже сподобався.",
+    "say": "Я одразу підписався на цей канал.",
+    "ans": ["I subscribed to this channel right away.", "I immediately subscribed to the channel.", "I subscribed to the channel straight away."],
+    "keys": { "канал": "channel", "одразу": "right away|immediately|straight away|at once|instantly" }
+   },
+   {
+    "sit": "Подруга питає, як ти читаєш статті на платному новинному сайті.",
+    "say": "Я на них підписаний — це пʼять доларів на місяць.",
+    "ans": ["I subscribe to it, it's five dollars a month.", "I've subscribed to them; it costs five dollars a month.", "I'm subscribed, it's just five bucks a month."],
+    "keys": { "пʼять доларів": "five|5|dollar*|bucks", "на місяць": "month*" }
+   },
+   {
+    "sit": "На сайті інтернет-магазину спливає вікно з пропозицією знижки.",
+    "say": "Якщо я підпишуся на розсилку, отримаю знижку десять відсотків.",
+    "ans": ["If I subscribe to the newsletter, I get ten percent off.", "If I subscribe to their newsletter, I'll get a ten percent discount.", "I get ten percent off if I subscribe to the newsletter."],
+    "keys": { "розсилка": "newsletter*|mailing list|email*", "знижка": "discount|off|percent|ten|10*" }
+   }
+  ]
+ },
+ {
+  "id": 375, "w": "unsubscribe", "uk": "відписуватися (від каналу, сервісу)", "lvl": "B1",
+  "forms": "unsubscribe|unsubscribes|unsubscribed|unsubscribed|unsubscribing",
+  "near": "unfollow*|cancel*|opt out|opted out|stop following|stopped following|quit",
+  "tasks": [
+   {
+    "sit": "Блогер, якого ти дивився роками, почав рекламувати сумнівні онлайн-казино.",
+    "say": "Я відписався від його каналу через цю рекламу.",
+    "ans": ["I unsubscribed from his channel because of those ads.", "I unsubscribed from his channel because of all the casino ads.", "I've unsubscribed, I'm done with his casino ads."],
+    "keys": { "канал": "channel|him|his|blog*", "реклама": "ad|ads|advert*|promot*|casino*" }
+   },
+   {
+    "sit": "Ти рахуєш щомісячні витрати й бачиш, що платиш за три стрімінгові сервіси.",
+    "say": "Треба відписатися хоча б від одного сервісу.",
+    "ans": ["I need to unsubscribe from at least one service.", "I should unsubscribe from one of these services.", "I've really got to unsubscribe from at least one of them."],
+    "keys": { "хоча б один": "one|some", "сервіс": "service*|them|platform*" }
+   },
+   {
+    "sit": "Тренер у спортзалі питає, чому ти більше не користуєшся платним фітнес-додатком.",
+    "say": "Я відписався, бо він надто дорогий.",
+    "ans": ["I unsubscribed because it was too expensive.", "I unsubscribed since it was way too expensive.", "I just unsubscribed, it cost too much."],
+    "keys": { "дорогий": "expensive|cost*|pricey|money" }
+   }
+  ]
+ },
+ {
+  "id": 376, "w": "block", "uk": "блокувати (користувача, номер)", "lvl": "B1",
+  "forms": "block|blocks|blocked|blocked|blocking",
+  "near": "ban|banned|banning|bans|report*|unfriend*|delete*|remove*|ignore*",
+  "tasks": [
+   {
+    "sit": "Незнайомець уже третій день пише тобі в соцмережі неприємні коментарі.",
+    "say": "Я просто заблокую його.",
+    "ans": ["I'll just block him.", "I'm just going to block him.", "That's it, I'm blocking him."],
+    "keys": { "його": "him|user|account|guy" }
+   },
+   {
+    "sit": "Тобі вже тиждень дзвонять з того самого невідомого номера й пропонують кредит.",
+    "say": "Я нарешті заблокував цей номер.",
+    "ans": ["I finally blocked this number.", "I've finally blocked that number.", "I finally just blocked the number."],
+    "keys": { "номер": "number|caller|call*" }
+   },
+   {
+    "sit": "Колега скаржиться, що не може відкрити сайт з офісного компʼютера.",
+    "say": "Мабуть, компанія блокує цей сайт.",
+    "ans": ["I think the company blocks this site.", "The company must be blocking this website.", "They're probably blocking that site at work."],
+    "keys": { "сайт": "site|website|page", "мабуть": "probably|must|maybe|guess|think|perhaps" }
+   }
+  ]
+ },
+ {
+  "id": 377, "w": "mute", "uk": "вимикати звук, мʼютити", "lvl": "B1",
+  "forms": "mute|mutes|muted|muted|muting",
+  "near": "silence*|turn off|turned off|switch off|switched off|unfollow*|block*|hide|hid",
+  "tasks": [
+   {
+    "sit": "Ти на онлайн-нараді з дому, а в сусідній кімнаті голосно гавкає собака.",
+    "say": "Вибачте, я вимкну в себе мікрофон.",
+    "ans": ["Sorry, I'll mute my mic.", "Sorry, let me mute my microphone.", "Sorry, I'm going to mute myself for a sec."],
+    "keys": { "вибачте": "sorry|excuse|apolog*", "мікрофон": "mic|microphone|myself|me" }
+   },
+   {
+    "sit": "Батьківський чат класу пише по сто повідомлень на день.",
+    "say": "Я замʼютив цей чат на тиждень.",
+    "ans": ["I muted that chat for a week.", "I've muted the chat for a week.", "I just muted the group chat for a week."],
+    "keys": { "чат": "chat|group|conversation", "тиждень": "week*|seven days|7 days" }
+   },
+   {
+    "sit": "Колишній однокласник постійно викладає в соцмережах політичні пости.",
+    "say": "Не хочу видаляти його з друзів, тому просто замʼючу.",
+    "ans": ["I don't want to unfriend him, so I'll just mute him.", "I don't want to delete him, so I'm muting him.", "I'm not going to unfriend him, I'll just mute him."],
+    "keys": { "не": "not|never", "видаляти": "unfriend*|delete*|remove*|unfollow*" }
+   }
+  ]
+ },
+ {
+  "id": 378, "w": "swipe", "uk": "свайпнути, провести пальцем (по екрану)", "lvl": "B1",
+  "forms": "swipe|swipes|swiped|swiped|swiping",
+  "near": "scroll*|slide*|slid|drag*|flick*|tap*|press*",
+  "tasks": [
+   {
+    "sit": "Подруга показує тобі анкету в додатку для знайомств і питає, що робити.",
+    "say": "Якщо він тобі подобається, свайпни вправо.",
+    "ans": ["If you like him, swipe right.", "Swipe right if you like him.", "You like him? Then swipe right!"],
+    "keys": { "вправо": "right", "подобається": "like*|into him|cute" }
+   },
+   {
+    "sit": "Ти вчиш бабусю користуватися новим смартфоном.",
+    "say": "Щоб відповісти на дзвінок, проведи пальцем угору.",
+    "ans": ["To answer a call, swipe up.", "Swipe up to answer the call.", "Just swipe up to pick up the call."],
+    "keys": { "дзвінок": "call|phone", "угору": "up" }
+   },
+   {
+    "sit": "Ти показуєш колегам на телефоні фото з відпустки.",
+    "say": "Гортай далі, там є фото з моря.",
+    "ans": ["Swipe left, there are pictures of the sea.", "Keep swiping, there are some photos of the sea.", "Swipe to the next one, there are beach photos too."],
+    "keys": { "фото": "photo*|picture*|pic*|shot*", "море": "sea|beach|ocean" }
+   }
+  ]
+ },
+ {
+  "id": 379, "w": "screenshot", "uk": "робити скріншот, скринити", "lvl": "B1",
+  "forms": "screenshot|screenshots|screenshotted|screenshotted|screenshotting",
+  "near": "screen grab*|screengrab*|screencap*|capture*|snap*|save*|print screen",
+  "tasks": [
+   {
+    "sit": "Ти побачив на сайті авіакомпанії квиток за підозріло низькою ціною.",
+    "say": "Я заскринив ціну, поки вона не змінилася.",
+    "ans": ["I screenshotted the price before it changed.", "I screenshotted the price in case it changed.", "I screenshotted the price just in case it changes."],
+    "keys": { "ціна": "price|cost|deal|fare" }
+   },
+   {
+    "sit": "Хтось образив тебе в груповому чаті, а потім видалив повідомлення. Ти розповідаєш другові.",
+    "say": "Добре, що я встиг заскринити його повідомлення.",
+    "ans": ["Good thing I screenshotted his message.", "Luckily I had screenshotted his message before he deleted it.", "I'm so glad I screenshotted his message first."],
+    "keys": { "повідомлення": "message*|text*|comment*|post*", "добре": "good|luck*|glad|thank*" }
+   },
+   {
+    "sit": "Колега з техпідтримки не розуміє, яку помилку ти бачиш на екрані.",
+    "say": "Зараз заскриню помилку й надішлю тобі.",
+    "ans": ["I'll screenshot the error and send it to you.", "Let me screenshot the error and send it over.", "Hang on, I'll screenshot the error and send it."],
+    "keys": { "помилка": "error|message|problem|bug|issue", "надішлю": "send*|sent|email*|share" }
+   }
+  ]
+ },
+ {
+  "id": 380, "w": "emphasize", "uk": "наголошувати, підкреслювати", "lvl": "B2",
+  "forms": "emphasize/emphasise|emphasizes/emphasises|emphasized/emphasised|emphasized/emphasised|emphasizing/emphasising",
+  "near": "stress|stresses|stressed|stressing|highlight*|underline*|point out|pointed out|pointing out",
+  "tasks": [
+   {
+    "sit": "Ти презентуєш команді план проєкту, а дехто вже питає, чи можна перенести терміни.",
+    "say": "Хочу наголосити, що дедлайн не зміниться.",
+    "ans": ["I want to emphasize that the deadline won't change.", "I'd like to emphasize that the deadline is not changing.", "Let me emphasize this: the deadline isn't moving."],
+    "keys": { "дедлайн": "deadline|date", "не зміниться": "not change|not changing|not moving|not move|fixed|same" }
+   },
+   {
+    "sit": "Ти переказуєш мамі, що лікар сказав про твої антибіотики.",
+    "say": "Лікар особливо наголосив, що не можна пропускати жодної дози.",
+    "ans": ["The doctor emphasized that I can't skip a single dose.", "The doctor really emphasized not missing any doses.", "The doctor emphasized that I mustn't skip any doses."],
+    "keys": { "лікар": "doctor|doc|gp", "доза": "dose*|pill*|tablet*" }
+   },
+   {
+    "sit": "Ти готуєшся до іспиту й розповідаєш одногрупникові, що казав викладач на лекції.",
+    "say": "Викладач кілька разів наголошував на цій темі — вона точно буде на іспиті.",
+    "ans": ["The teacher emphasized this topic several times, so it will definitely be on the exam.", "Our professor emphasized this topic a few times, so it's definitely on the exam.", "The lecturer kept emphasizing this topic, so it'll be on the test for sure."],
+    "keys": { "тема": "topic|subject|chapter", "іспит": "exam*|test" }
+   }
+  ]
+ },
+ {
+  "id": 381, "w": "clarify", "uk": "уточнювати, прояснювати", "lvl": "B2",
+  "forms": "clarify|clarifies|clarified|clarified|clarifying",
+  "near": "explain*|specify|specified|make clear|made clear|confirm*|double-check*",
+  "tasks": [
+   {
+    "sit": "Клієнт пише в листі «потрібно до кінця тижня», але не каже, це пʼятниця чи неділя.",
+    "say": "Чи могли б ви уточнити дедлайн?",
+    "ans": ["Could you clarify the deadline?", "Can you clarify when the deadline is?", "Sorry, could you just clarify the deadline for me?"],
+    "keys": { "дедлайн": "deadline|date|when|due" }
+   },
+   {
+    "sit": "На ресепшені готелю тобі кажуть, що сніданок «ніби включений», і ти хочеш знати напевно.",
+    "say": "Хочу уточнити: сніданок входить у вартість?",
+    "ans": ["I'd like to clarify: is breakfast included?", "Just to clarify, is breakfast included in the price?", "Can I just clarify, breakfast is included, right?"],
+    "keys": { "сніданок": "breakfast", "входить у вартість": "includ*|price|free" }
+   },
+   {
+    "sit": "Ти з другом обговорюєш заяву компанії після гучного скандалу з витоком даних.",
+    "say": "Вони так і не уточнили, хто винен.",
+    "ans": ["They never clarified who was responsible.", "They still haven't clarified who is to blame.", "They never actually clarified whose fault it was."],
+    "keys": { "хто винен": "who|whose|blame|fault|responsib*", "так і не": "never|not|still" }
+   }
+  ]
+ },
+ {
+  "id": 382, "w": "summarize", "uk": "підсумовувати, коротко переказувати", "lvl": "B2",
+  "forms": "summarize/summarise|summarizes/summarises|summarized/summarised|summarized/summarised|summarizing/summarising",
+  "near": "sum up|summed up|sums up|summing up|recap*|outline*|retell*|wrap up|wrapped up",
+  "tasks": [
+   {
+    "sit": "На семінарі викладач просить тебе коротко розповісти, про що стаття.",
+    "say": "Я можу підсумувати статтю в трьох реченнях.",
+    "ans": ["I can summarize the article in three sentences.", "Let me summarize the article in three sentences.", "I'll summarize the article in just three sentences."],
+    "keys": { "стаття": "article|paper|text", "три": "three|3|few" }
+   },
+   {
+    "sit": "Нарада затягнулася, всі втомилися. Ти її ведеш і хочеш закінчити.",
+    "say": "Давайте підсумуємо, про що ми домовилися.",
+    "ans": ["Let's summarize what we've agreed on.", "Let's summarize what we agreed.", "OK, let me quickly summarize what we've agreed on."],
+    "keys": { "домовилися": "agree*|decid*" }
+   },
+   {
+    "sit": "Ти не встиг прочитати книжку для книжкового клубу, а зустріч за годину. Пишеш подрузі.",
+    "say": "Можеш коротко підсумувати, про що книжка?",
+    "ans": ["Can you briefly summarize what the book is about?", "Could you quickly summarize the book for me?", "Can you just summarize the book real quick?"],
+    "keys": { "книжка": "book|story|novel", "коротко": "quick*|brief*|short*" }
+   }
+  ]
+ },
+ {
+  "id": 383, "w": "outline", "uk": "окреслювати (коротко описувати головне)", "lvl": "B2",
+  "forms": "outline|outlines|outlined|outlined|outlining",
+  "near": "describe*|summar*|sketch*|present*|explain*|go over|went over|lay out|laid out",
+  "tasks": [
+   {
+    "sit": "На співбесіді тебе просять розповісти про досвід на попередній роботі.",
+    "say": "Дозвольте коротко окреслити мої основні обовʼязки.",
+    "ans": ["Let me briefly outline my main responsibilities.", "I'll briefly outline my main duties.", "Let me just quickly outline my main responsibilities."],
+    "keys": { "обовʼязки": "responsib*|duties|duty|role|tasks", "коротко": "brief*|quick*|short*" }
+   },
+   {
+    "sit": "Ти обговорюєш із батьком учорашній виступ мера на місцевому телебаченні.",
+    "say": "Мер окреслив свої плани щодо нового парку.",
+    "ans": ["The mayor outlined his plans for the new park.", "The mayor outlined what he plans to do with the new park.", "The mayor outlined his ideas for the new park."],
+    "keys": { "мер": "mayor", "парк": "park" }
+   },
+   {
+    "sit": "Ти вперше зустрічаєшся з науковим керівником щодо дипломної роботи.",
+    "say": "Можна я спершу коротко окреслю головну ідею?",
+    "ans": ["Can I briefly outline the main idea first?", "May I first outline my main idea?", "Can I just quickly outline the main idea first?"],
+    "keys": { "головна ідея": "idea|point|argument|concept|thesis" }
+   }
+  ]
+ },
+ {
+  "id": 384, "w": "insist", "uk": "наполягати", "lvl": "B2",
+  "forms": "insist|insists|insisted|insisted|insisting",
+  "near": "demand*|press*|stand firm|push*|keep saying|keeps saying",
+  "tasks": [
+   {
+    "sit": "Ви з другом у ресторані, і він тягнеться по рахунок, хоча минулого разу теж платив він.",
+    "say": "Ні-ні, я наполягаю — сьогодні плачу я.",
+    "ans": ["No, no, I insist, I'm paying today.", "No, I insist on paying this time.", "Come on, I insist, this one is on me."],
+    "keys": { "плачу": "pay*|paid|on me|my treat" }
+   },
+   {
+    "sit": "Ти розповідаєш другові, чому тягнеш у похід величезний рюкзак.",
+    "say": "Мама наполягла, щоб я взяв теплу куртку.",
+    "ans": ["Mom insisted that I take a warm jacket.", "My mom insisted I bring a warm jacket.", "Mum insisted on me taking a warm jacket."],
+    "keys": { "мама": "mom|mum|mother|mama", "куртка": "jacket|coat" }
+   },
+   {
+    "sit": "Колега не визнає помилки у звіті, хоча ти показуєш йому цифри.",
+    "say": "Він наполягає, що все правильно.",
+    "ans": ["He insists that everything is correct.", "He keeps insisting that it's all correct.", "He still insists there's no mistake."],
+    "keys": { "правильно": "correct|right|no mistake|fine|ok" }
+   }
+  ]
+ },
+ {
+  "id": 385, "w": "claim", "uk": "стверджувати / претендувати, вимагати (належне)", "lvl": "B2",
+  "forms": "claim|claims|claimed|claimed|claiming",
+  "near": "say|says|said|saying|insist*|maintain*|assert*|demand*|get|apply for|applied for",
+  "tasks": [
+   {
+    "sit": "Сусід знизу скаржиться, що ти його затопив, але в тебе вдома все сухо.",
+    "say": "Він стверджує, що вода тече з моєї квартири.",
+    "ans": ["He claims the water is coming from my apartment.", "He claims that water is leaking from my flat.", "He's claiming the water comes from my place."],
+    "keys": { "вода": "water|leak*", "моя квартира": "apartment|flat|place|my" }
+   },
+   {
+    "sit": "Ти гортаєш стрічку в соцмережі й натрапляєш на рекламу чудо-таблеток.",
+    "say": "Вони стверджують, що ці таблетки лікують усе.",
+    "ans": ["They claim these pills cure everything.", "They claim that the pills can cure anything.", "They're claiming these pills cure literally everything."],
+    "keys": { "таблетки": "pill*|tablet*", "лікують": "cure*|heal*|fix*|treat*" }
+   },
+   {
+    "sit": "Твій рейс затримали на пʼять годин. Ти розповідаєш про це колезі.",
+    "say": "Я збираюся вимагати компенсацію в авіакомпанії.",
+    "ans": ["I'm going to claim compensation from the airline.", "I'll claim compensation from the airline.", "I'm definitely going to claim compensation from the airline."],
+    "keys": { "компенсація": "compensation|refund|money", "авіакомпанія": "airline|company|them" }
+   }
+  ]
+ },
+ {
+  "id": 386, "w": "protest", "uk": "протестувати", "lvl": "B2",
+  "forms": "protest|protests|protested|protested|protesting",
+  "near": "demonstrat*|rally|rallied|rallies|march*|object*|strike|striking|complain*|oppose*",
+  "tasks": [
+   {
+    "sit": "Ти не можеш проїхати центром міста, бо там натовп із плакатами.",
+    "say": "Люди протестують проти нового закону.",
+    "ans": ["People are protesting against the new law.", "People are protesting the new law.", "Loads of people are out protesting the new law."],
+    "keys": { "закон": "law|bill|rule*" }
+   },
+   {
+    "sit": "Керівництво заводу скасувало премії, і робітники обурені. Ти розповідаєш про це дружині.",
+    "say": "Працівники протестують проти цього рішення.",
+    "ans": ["The workers are protesting against this decision.", "Workers are protesting the decision.", "The staff are protesting the decision to cut bonuses."],
+    "keys": { "рішення": "decision|cut*|bonus*|change*", "працівники": "worker*|staff|employee*|people|team" }
+   },
+   {
+    "sit": "Університет підняв плату за навчання. Ти телефонуєш батькам.",
+    "say": "Завтра ми йдемо протестувати біля головного корпусу.",
+    "ans": ["We're going to protest outside the main building tomorrow.", "Tomorrow we'll protest in front of the main building.", "We're all going to protest outside the main building tomorrow."],
+    "keys": { "завтра": "tomorrow", "корпус": "building|campus|university|office" }
+   }
+  ]
+ },
+ {
+  "id": 388, "w": "persuade", "uk": "умовляти, переконувати", "lvl": "B2",
+  "forms": "persuade|persuades|persuaded|persuaded|persuading",
+  "near": "convinc*|talk* him into|talked me into|talk* her into|get him to|got him to|made him|make him",
+  "tasks": [
+   {
+    "sit": "Друг не хотів іти з тобою на концерт, але зрештою пішов і був у захваті.",
+    "say": "Я ледве вмовив його піти.",
+    "ans": ["It took me ages to persuade him to come.", "I finally persuaded him to come.", "I had a really hard time persuading him to go."],
+    "keys": { "піти": "come|go|went|concert", "ледве": "finally|hard|ages|barely|eventually|long" }
+   },
+   {
+    "sit": "Тато вже пів року відкладає візит до лікаря. Ти обговорюєш це з сестрою.",
+    "say": "Треба вмовити тата піти до лікаря.",
+    "ans": ["We need to persuade Dad to see a doctor.", "We have to persuade Dad to go to the doctor.", "We've got to persuade Dad to see a doctor."],
+    "keys": { "тато": "dad|father|papa", "лікар": "doctor|gp|hospital|clinic" }
+   },
+   {
+    "sit": "Консультант у магазині техніки довго розповідав тобі про різні пилососи.",
+    "say": "Він умовив мене купити дорожчу модель.",
+    "ans": ["He persuaded me to buy the more expensive model.", "He persuaded me to get the pricier model.", "The guy persuaded me to go for the more expensive one."],
+    "keys": { "дорожча": "expensive|pricier|pricey|dearer|cost*" }
+   }
+  ]
+ },
+ {
+  "id": 389, "w": "reveal", "uk": "розкривати (таємницю, правду)", "lvl": "B2",
+  "forms": "reveal|reveals|revealed|revealed|revealing",
+  "near": "tell|told|telling|disclos*|expos*|spoil*|give away|gave away|let slip|uncover*",
+  "tasks": [
+   {
+    "sit": "Подруга тільки почала дивитися детективний серіал, а ти його вже бачив.",
+    "say": "Не хвилюйся, я не розкрию, хто вбивця.",
+    "ans": ["Don't worry, I won't reveal who the killer is.", "Relax, I'm not going to reveal who the killer is.", "Don't worry, I won't reveal the killer."],
+    "keys": { "вбивця": "killer|murderer|who did it", "не": "not|never" }
+   },
+   {
+    "sit": "На сімейному святі бабуся раптом розповіла історію, про яку всі мовчали десятки років.",
+    "say": "Бабуся нарешті розкрила сімейну таємницю.",
+    "ans": ["Grandma finally revealed the family secret.", "Grandma has finally revealed our family secret.", "So Grandma finally revealed the big family secret."],
+    "keys": { "бабуся": "grandma|grandmother|granny|nan*", "таємниця": "secret*|mystery" }
+   },
+   {
+    "sit": "Ти читаєш із колегою новини про великий корупційний скандал.",
+    "say": "Журналісти розкрили, куди насправді пішли гроші.",
+    "ans": ["Journalists revealed where the money really went.", "The journalists revealed where the money actually went.", "Reporters revealed where all the money really ended up."],
+    "keys": { "журналісти": "journalist*|reporter*|press|media", "гроші": "money|cash|funds" }
+   }
+  ]
+ },
+ {
+  "id": 390, "w": "disclose", "uk": "розголошувати, розкривати (офіційно)", "lvl": "C1",
+  "forms": "disclose|discloses|disclosed|disclosed|disclosing",
+  "near": "reveal*|share*|tell|told|announc*|leak*|make public|made public|publish*|report*",
+  "tasks": [
+   {
+    "sit": "Ти підписав угоду про нерозголошення, а друг розпитує про твій новий проєкт.",
+    "say": "Вибач, я не можу розголошувати деталі проєкту.",
+    "ans": ["Sorry, I can't disclose any details about the project.", "I'm sorry, I'm not allowed to disclose details of the project.", "Sorry, I can't disclose anything about the project."],
+    "keys": { "проєкт": "project|work", "не можу": "can not|not allowed|not able|unable" }
+   },
+   {
+    "sit": "Ти заповнюєш податкову декларацію, а консультант пояснює тобі правила.",
+    "say": "Я мушу вказати всі свої доходи, навіть із фрилансу.",
+    "ans": ["I have to disclose all my income, even from freelancing.", "I must disclose all of my income, including freelance work.", "I've got to disclose all my income, freelance included."],
+    "keys": { "доходи": "income*|earning*|money|salary", "фриланс": "freelanc*|side" }
+   },
+   {
+    "sit": "Ти працюєш медсестрою, і сусідка розпитує тебе про діагноз іншої сусідки.",
+    "say": "Вибачте, ми не розголошуємо інформацію про пацієнтів.",
+    "ans": ["Sorry, we don't disclose information about patients.", "I'm sorry, we can't disclose patient information.", "Sorry, we never disclose anything about our patients."],
+    "keys": { "пацієнти": "patient*", "не": "not|never" }
+   }
+  ]
+ }
+]

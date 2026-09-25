@@ -1,0 +1,1203 @@
+[
+ {
+  "id": 1969,
+  "w": "fetch",
+  "uk": "приносити (гра з м’ячем чи палицею)",
+  "lvl": "B1",
+  "forms": "fetch|fetches|fetched|fetched|fetching",
+  "near": "bring|brings|brought|bringing|get it|go get|catch",
+  "tasks": [
+   {
+    "sit": "Ти в парку з собакою. Вона тицяє тобі в руку свій мʼячик і нетерпляче чекає.",
+    "say": "Гаразд, давай пограємо в «принеси»!",
+    "ans": [
+     "Okay, let’s play fetch!",
+     "All right, do you want to play fetch?",
+     "Okay, okay, let’s play fetch, buddy!"
+    ],
+    "keys": {
+     "пограємо": "play*"
+    }
+   },
+   {
+    "sit": "Сусід питає, чи вміє твій новий пес щось робити. Ти кидаєш палицю, і пес приносить її назад.",
+    "say": "Він уже вміє приносити палицю.",
+    "ans": [
+     "He can already fetch a stick.",
+     "He already knows how to fetch sticks.",
+     "Look, he can fetch the stick already!"
+    ],
+    "keys": {
+     "палиця": "stick*",
+     "вже": "already|now"
+    }
+   },
+   {
+    "sit": "Подруга дивується, що твій кіт бігає за іграшкою й несе її тобі, як собака.",
+    "say": "Мій кіт приносить іграшки, як собака.",
+    "ans": [
+     "My cat fetches toys like a dog.",
+     "My cat plays fetch just like a dog.",
+     "Believe it or not, my cat fetches like a dog!"
+    ],
+    "keys": {
+     "кіт": "cat*|kitty",
+     "як собака": "dog*|puppy"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1970,
+  "w": "reward",
+  "uk": "винагороджувати, заохочувати",
+  "lvl": "B1",
+  "forms": "reward|rewards|rewarded|rewarded|rewarding",
+  "near": "give a treat|give him a treat|give her a treat|praise*|treat him|treat her|encourage*",
+  "tasks": [
+   {
+    "sit": "Ти вчиш цуценя команди «сидіти». Кінолог пояснює, що робити, коли воно правильно сіло.",
+    "say": "Щоразу, коли він сідає, я винагороджую його смаколиком.",
+    "ans": [
+     "I reward him with a treat every time he sits.",
+     "Every time he sits, I reward him with a treat.",
+     "Whenever he sits, I reward him with a little treat."
+    ],
+    "keys": {
+     "смаколик": "treat*|snack*|food|biscuit*",
+     "сідає": "sit*|sat"
+    }
+   },
+   {
+    "sit": "Твоя команда закрила важливий проєкт раніше дедлайну. Ти говориш із керівником.",
+    "say": "Нам треба якось винагородити команду.",
+    "ans": [
+     "We need to reward the team somehow.",
+     "We should reward the team for this.",
+     "We’ve really got to reward the team somehow."
+    ],
+    "keys": {
+     "команда": "team*|people|guys|staff"
+    }
+   },
+   {
+    "sit": "Сестра ділиться, що син нарешті добре закінчив чверть. Ти радиш, як його підтримати.",
+    "say": "Винагороди його за старання, а не лише за оцінки.",
+    "ans": [
+     "Reward him for his effort, not just his grades.",
+     "You should reward his effort, not only the grades.",
+     "Reward the effort, not just the grades, you know?"
+    ],
+    "keys": {
+     "старання": "effort*|hard work|work*|try*|tried",
+     "оцінки": "grade*|mark*|score*|result*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1971,
+  "w": "scold",
+  "uk": "сварити (за провину)",
+  "lvl": "B2",
+  "forms": "scold|scolds|scolded|scolded|scolding",
+  "near": "shout at|shouted at|yell at|yelled at|tell off|told off|tell him off|told him off|tell her off|told her off|punish*|give out to",
+  "tasks": [
+   {
+    "sit": "Цуценя знову погризло твої капці. Кінолог пояснює, чому кричати на нього марно.",
+    "say": "Не свари цуценя — воно не розуміє, за що.",
+    "ans": [
+     "Don’t scold the puppy — he doesn’t understand why.",
+     "There’s no point scolding a puppy; he won’t understand why.",
+     "Don’t scold him, he has no idea what he did wrong."
+    ],
+    "keys": {
+     "не": "not|no|never",
+     "розуміє": "understand*|idea|know*"
+    }
+   },
+   {
+    "sit": "Ти згадуєш дитинство: розбив мамину улюблену вазу, і тобі добре за це перепало.",
+    "say": "Мама так мене насварила за ту вазу.",
+    "ans": [
+     "Mom scolded me so much for that vase.",
+     "My mom really scolded me for breaking that vase.",
+     "Oh, Mom scolded me big time over that vase."
+    ],
+    "keys": {
+     "мама": "mom*|mum*|mother",
+     "ваза": "vase*"
+    }
+   },
+   {
+    "sit": "У магазині чужа мама гучно вичитує малого за розлитий сік. Ти тихо коментуєш другові.",
+    "say": "Навіщо сварити дитину при всіх?",
+    "ans": [
+     "Why scold a child in front of everyone?",
+     "Why would you scold your kid in front of all these people?",
+     "Why scold the kid in front of everybody, seriously?"
+    ],
+    "keys": {
+     "дитина": "child*|kid*|boy|son",
+     "при всіх": "in front of|everyone|everybody|people|public"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1972,
+  "w": "walk the dog",
+  "uk": "вигулювати собаку",
+  "lvl": "A2",
+  "forms": "walk|walks|walked|walked|walking",
+  "tail": "dog*",
+  "near": "take the dog out|took the dog out|take the dog for a walk|took the dog for a walk|go for a walk",
+  "tasks": [
+   {
+    "sit": "Сусідка кличе тебе на каву зранку, але в тебе щоденний обовʼязок.",
+    "say": "Спершу мені треба вигуляти собаку.",
+    "ans": [
+     "First I need to walk the dog.",
+     "I have to walk the dog first.",
+     "Let me walk the dog first, okay?"
+    ],
+    "keys": {
+     "спершу": "first|before|then"
+    }
+   },
+   {
+    "sit": "Друг питає, як ти примудряєшся проходити десять тисяч кроків щодня.",
+    "say": "Я вигулюю собаку двічі на день.",
+    "ans": [
+     "I walk the dog twice a day.",
+     "I walk my dog twice a day.",
+     "Well, I walk the dog twice a day, that’s how."
+    ],
+    "keys": {
+     "двічі на день": "twice|two times|2 times"
+    }
+   },
+   {
+    "sit": "Ви з сестрою сперечаєтеся, чия сьогодні черга. Надворі дощ.",
+    "say": "Учора собаку вигулював я, сьогодні твоя черга!",
+    "ans": [
+     "I walked the dog yesterday, today it’s your turn!",
+     "I walked the dog yesterday, so it’s your turn today.",
+     "Hey, I walked the dog yesterday — your turn!"
+    ],
+    "keys": {
+     "учора": "yesterday|last night",
+     "твоя черга": "turn"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1973,
+  "w": "leash",
+  "uk": "тримати на повідку, брати на повідець",
+  "lvl": "C1",
+  "forms": "leash|leashes|leashed|leashed|leashing",
+  "near": "on a leash|on the leash|on a lead|on the lead|put a lead on|tie|tied",
+  "tasks": [
+   {
+    "sit": "Ти гуляєш із собакою в парку, і біля вас пробігає білка. Чужий пес без повідця зривається за нею.",
+    "say": "Люди, будь ласка, тримайте собак на повідку!",
+    "ans": [
+     "Guys, please leash your dogs!",
+     "Please keep your dogs leashed, people!",
+     "Seriously, folks, please leash your dogs!"
+    ],
+    "keys": {
+     "собак": "dog*|pet*",
+     "будь ласка": "please"
+    }
+   },
+   {
+    "sit": "Сусід розповідає, що його пес ледь не вибіг на дорогу. Ти ділишся своєю звичкою.",
+    "say": "Біля дороги я завжди беру його на повідець.",
+    "ans": [
+     "I always leash him near the road.",
+     "Near the road, I always keep him leashed.",
+     "I always leash him up when we’re near the road."
+    ],
+    "keys": {
+     "дорога": "road*|street*|traffic",
+     "завжди": "always|every time"
+    }
+   },
+   {
+    "sit": "Ти читаєш табличку на вході в міський парк і переказуєш її другові, який прийшов із псом.",
+    "say": "Тут собаки мають бути на повідку.",
+    "ans": [
+     "Dogs have to be leashed here.",
+     "All dogs must be leashed in this park.",
+     "Looks like dogs need to be leashed here."
+    ],
+    "keys": {
+     "собаки": "dog*|pet*",
+     "мають": "have to|must|need*|should|required"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1974,
+  "w": "litter-train",
+  "uk": "привчати до лотка",
+  "lvl": "C1",
+  "forms": "litter-train|litter-trains|litter-trained|litter-trained|litter-training",
+  "near": "potty-train*|potty train*|house-train*|toilet-train*|train*|teach*|taught",
+  "tasks": [
+   {
+    "sit": "Ти щойно взяв кошеня з притулку. Подруга питає, чи багато з ним клопоту.",
+    "say": "Мені ще треба привчити його до лотка.",
+    "ans": [
+     "I still need to litter-train him.",
+     "I still have to litter-train the kitten.",
+     "Well, I’ve still got to litter-train him."
+    ],
+    "keys": {
+     "ще": "still|yet|first"
+    }
+   },
+   {
+    "sit": "Зоомагазин продає наповнювач. Продавець питає, чи твоє кошеня вже ходить у лоток.",
+    "say": "Так, вона вже привчена до лотка.",
+    "ans": [
+     "Yes, she’s already litter-trained.",
+     "Yes, she is already litter-trained.",
+     "Yep, she’s already fully litter-trained."
+    ],
+    "keys": {
+     "вже": "already|now"
+    }
+   },
+   {
+    "sit": "Колега бідкається, що його кошеня робить свої справи де попало. У тебе в дитинстві теж було кошеня.",
+    "say": "Ми привчили нашого кота до лотка за тиждень.",
+    "ans": [
+     "We litter-trained our cat in a week.",
+     "It took us a week to litter-train our cat.",
+     "We litter-trained our kitten in about a week."
+    ],
+    "keys": {
+     "за тиждень": "week*|7 days|seven days",
+     "кіт": "cat*|kitten*|him|her"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1978,
+  "w": "microchip",
+  "uk": "чипувати (тварину)",
+  "lvl": "C1",
+  "forms": "microchip|microchips|microchipped|microchipped|microchipping",
+  "near": "chip|chipped|chipping|put a chip|implant*|tag*",
+  "tasks": [
+   {
+    "sit": "Ти плануєш поїздку за кордон із собакою. Ветеринар пояснює вимоги.",
+    "say": "Щоб везти собаку за кордон, її треба чипувати.",
+    "ans": [
+     "You need to microchip your dog to take her abroad.",
+     "To travel abroad, your dog has to be microchipped.",
+     "If you want to take her abroad, you’ve got to microchip her."
+    ],
+    "keys": {
+     "за кордон": "abroad|overseas|another country|travel*",
+     "треба": "need*|have to|has to|got to|must"
+    }
+   },
+   {
+    "sit": "Твій кіт утік, і через добу тобі подзвонили з ветклініки. Ти розповідаєш про це колезі.",
+    "say": "Добре, що ми його чипували — його знайшли за день.",
+    "ans": [
+     "Good thing we microchipped him — they found him in a day.",
+     "Luckily he was microchipped, so they found him in a day.",
+     "Thank God we microchipped him, they found him the next day."
+    ],
+    "keys": {
+     "знайшли": "found|find*|back",
+     "добре": "good|luck*|thank*|glad"
+    }
+   },
+   {
+    "sit": "Ти купуєш цуценя в розплідника й уточнюєш деталі перед оплатою.",
+    "say": "Цуценя вже чиповане?",
+    "ans": [
+     "Is the puppy already microchipped?",
+     "Have you microchipped the puppy yet?",
+     "So, is he microchipped already?"
+    ],
+    "keys": {
+     "вже": "already|yet"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1979,
+  "w": "take to the vet",
+  "uk": "везти до ветеринара",
+  "lvl": "B1",
+  "forms": "take|takes|took|taken|taking",
+  "tail": "to vet*",
+  "near": "go to the vet|went to the vet|bring to the vet|brought him to the vet|brought her to the vet|drive to the vet|drove to the vet|see a vet",
+  "tasks": [
+   {
+    "sit": "Твій кіт уже другий день нічого не їсть і весь час спить.",
+    "say": "Треба відвезти його до ветеринара.",
+    "ans": [
+     "I need to take him to the vet.",
+     "I should take him to the vet today.",
+     "I think I’d better take him to the vet."
+    ],
+    "keys": {
+     "треба": "need*|should|better|have to|must|got to"
+    }
+   },
+   {
+    "sit": "Колега питає, чому ти вчора пішов з роботи раніше.",
+    "say": "Мені довелося відвезти собаку до ветеринара.",
+    "ans": [
+     "I had to take my dog to the vet.",
+     "I had to take the dog to the vet.",
+     "Oh, I had to take the dog to the vet."
+    ],
+    "keys": {
+     "собака": "dog*|puppy|pup"
+    }
+   },
+   {
+    "sit": "Сусідка просить подбати про її кролика, поки її не буде. Ти уточнюєш, що робити, якщо щось станеться.",
+    "say": "Якщо він захворіє, я відвезу його до ветеринара.",
+    "ans": [
+     "If he gets sick, I’ll take him to the vet.",
+     "I’ll take him to the vet if he gets ill.",
+     "Don’t worry, if he gets sick I’ll take him to the vet."
+    ],
+    "keys": {
+     "захворіє": "sick|ill|unwell|wrong"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1980,
+  "w": "put to sleep",
+  "uk": "усипити (тварину)",
+  "lvl": "C1",
+  "forms": "put|puts|put|put|putting",
+  "tail": "to sleep",
+  "near": "put down|put him down|put her down|euthanize*|euthanise*|let him go|let her go",
+  "tasks": [
+   {
+    "sit": "Друг питає, як поживає твій старий пес. Минулого місяця йому стало зовсім погано.",
+    "say": "Нам довелося його усипити.",
+    "ans": [
+     "We had to put him to sleep.",
+     "We had to have him put to sleep.",
+     "Sadly, we had to put him to sleep last month."
+    ],
+    "keys": {
+     "довелося": "had to|have to|no choice|decid*"
+    }
+   },
+   {
+    "sit": "Ветеринар каже, що кішка дуже страждає і шансів немає. Ти ледве стримуєш сльози.",
+    "say": "Я не готовий її усипити.",
+    "ans": [
+     "I’m not ready to put her to sleep.",
+     "I am not ready to have her put to sleep.",
+     "I just can’t put her to sleep yet, I’m not ready."
+    ],
+    "keys": {
+     "не готовий": "not ready|can not|cannot"
+    }
+   },
+   {
+    "sit": "Колега засмучена: її старого кота, можливо, доведеться присипити. Ти намагаєшся підтримати.",
+    "say": "Іноді усипити тварину — це найдобріше, що можна зробити.",
+    "ans": [
+     "Sometimes putting an animal to sleep is the kindest thing to do.",
+     "Sometimes it’s kinder to put a pet to sleep.",
+     "Honestly, sometimes putting them to sleep is the kindest thing you can do."
+    ],
+    "keys": {
+     "іноді": "sometimes|at times",
+     "найдобріше": "kind*|merciful|best|humane"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1981,
+  "w": "treat for fleas",
+  "uk": "обробляти від бліх",
+  "lvl": "C1",
+  "forms": "treat|treats|treated|treated|treating",
+  "tail": "for flea*",
+  "near": "deflea*|de-flea*|flea treatment|flea collar|get rid of fleas|kill the fleas",
+  "tasks": [
+   {
+    "sit": "Твій пес постійно чухається після дачі. Ти пишеш у чат власників собак.",
+    "say": "Здається, мені треба обробити його від бліх.",
+    "ans": [
+     "I think I need to treat him for fleas.",
+     "Looks like I need to treat him for fleas.",
+     "I guess it’s time to treat him for fleas."
+    ],
+    "keys": {
+     "здається": "think|guess|looks like|seems|probably|time"
+    }
+   },
+   {
+    "sit": "Ветеринар питає, як ти доглядаєш за котом, який гуляє надворі.",
+    "say": "Я обробляю його від бліх щомісяця.",
+    "ans": [
+     "I treat him for fleas every month.",
+     "I treat him for fleas once a month.",
+     "Oh, I treat him for fleas monthly."
+    ],
+    "keys": {
+     "щомісяця": "month*"
+    }
+   },
+   {
+    "sit": "Друзі беруть твою кішку на тиждень, поки ти у відпустці. Вони питають, чи не заведуться в них блохи.",
+    "say": "Не хвилюйтеся, я її обробив від бліх минулого тижня.",
+    "ans": [
+     "Don’t worry, I treated her for fleas last week.",
+     "Don’t worry — I treated her for fleas just last week.",
+     "Relax, I treated her for fleas last week."
+    ],
+    "keys": {
+     "минулого тижня": "last week|week ago|days ago"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1982,
+  "w": "check for ticks",
+  "uk": "перевіряти на кліщів",
+  "lvl": "C1",
+  "forms": "check|checks|checked|checked|checking",
+  "tail": "for tick*",
+  "near": "look for ticks|looked for ticks|inspect*|examine*|search for ticks",
+  "tasks": [
+   {
+    "sit": "Ви з дітьми повернулися з лісу після пікніка.",
+    "say": "Перш ніж іти в душ, перевірте себе на кліщів!",
+    "ans": [
+     "Check yourselves for ticks before you shower!",
+     "Before you take a shower, check yourselves for ticks!",
+     "Guys, check for ticks before your shower!"
+    ],
+    "keys": {
+     "душ": "shower*|bath*|wash*"
+    }
+   },
+   {
+    "sit": "Ти берешся доглядати за собакою друга на вихідні. Він дає інструкції.",
+    "say": "Після кожної прогулянки перевіряй її на кліщів.",
+    "ans": [
+     "Check her for ticks after every walk.",
+     "After each walk, check her for ticks.",
+     "Make sure you check her for ticks after every walk."
+    ],
+    "keys": {
+     "прогулянка": "walk*"
+    }
+   },
+   {
+    "sit": "Колега питає, як ти провів вихідні в Карпатах, і чому такий знервований.",
+    "say": "Щовечора ми перевіряли одне одного на кліщів.",
+    "ans": [
+     "We checked each other for ticks every evening.",
+     "Every night we checked each other for ticks.",
+     "We had to check each other for ticks every single night."
+    ],
+    "keys": {
+     "щовечора": "evening*|night*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1983,
+  "w": "praise",
+  "uk": "хвалити",
+  "lvl": "B1",
+  "forms": "praise|praises|praised|praised|praising",
+  "near": "compliment*|say well done|said well done|tell him he did well|reward*|encourage*|speak highly",
+  "tasks": [
+   {
+    "sit": "Твій син сам прибрав кімнату. Бабуся питає, як ти на це відреагував.",
+    "say": "Я похвалив його за те, що він сам прибрав.",
+    "ans": [
+     "I praised him for cleaning up on his own.",
+     "I praised him for tidying his room by himself.",
+     "I praised him a lot for cleaning up all by himself."
+    ],
+    "keys": {
+     "прибрав": "clean*|tid*",
+     "сам": "own|himself|alone"
+    }
+   },
+   {
+    "sit": "На нараді директор перед усіма відзначив твій звіт. Ти ділишся з другом.",
+    "say": "Сьогодні бос похвалив мене при всіх!",
+    "ans": [
+     "My boss praised me in front of everyone today!",
+     "Today the boss praised me in front of the whole team!",
+     "Guess what — my boss praised me in front of everyone today!"
+    ],
+    "keys": {
+     "бос": "boss|manager|director|head",
+     "при всіх": "in front of|everyone|everybody|team|public"
+    }
+   },
+   {
+    "sit": "Ти читаєш відгуки про новий ресторан поруч з офісом.",
+    "say": "Усі хвалять їхні десерти.",
+    "ans": [
+     "Everyone praises their desserts.",
+     "Everybody is praising their desserts.",
+     "Honestly, everyone praises their desserts."
+    ],
+    "keys": {
+     "усі": "everyone|everybody|all|people",
+     "десерти": "dessert*|cake*|sweet*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1984,
+  "w": "appreciate deeply",
+  "uk": "глибоко цінувати",
+  "lvl": "B2",
+  "forms": "appreciate|appreciates|appreciated|appreciated|appreciating",
+  "tail": "deeply",
+  "near": "grateful|thankful|thank you so much|value*|treasure*|mean so much|means so much|means a lot",
+  "tasks": [
+   {
+    "sit": "Друг кілька ночей допомагав тобі з переїздом після важкого розлучення. Ти пишеш йому щиру подяку.",
+    "say": "Я глибоко ціную твою допомогу.",
+    "ans": [
+     "I appreciate your help deeply.",
+     "Your help is something I appreciate deeply.",
+     "Honestly, I appreciate your help more deeply than I can say."
+    ],
+    "keys": {
+     "допомога": "help*|support*"
+    }
+   },
+   {
+    "sit": "Ти виступаєш на прощальній вечірці наставниці, яка йде на пенсію.",
+    "say": "Ми всі глибоко цінуємо вашу підтримку.",
+    "ans": [
+     "We all appreciate your support deeply.",
+     "Your support is something we all appreciate deeply.",
+     "We all appreciate your support more deeply than words can say."
+    ],
+    "keys": {
+     "підтримка": "support*|help*"
+    }
+   },
+   {
+    "sit": "Родина хворої подруги дякує тобі за те, що ти щодня навідував її в лікарні. Ти відповідаєш.",
+    "say": "Я глибоко ціную вашу довіру.",
+    "ans": [
+     "I appreciate your trust deeply.",
+     "Your trust is something I appreciate deeply.",
+     "I appreciate your trust more deeply than you know."
+    ],
+    "keys": {
+     "довіра": "trust*|confidence|faith"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1985,
+  "w": "give credit",
+  "uk": "віддавати належне",
+  "lvl": "C1",
+  "forms": "give|gives|gave|given|giving",
+  "tail": "credit",
+  "near": "acknowledge*|recogni*|admit*|praise*|fair play|hats off|respect|to be fair",
+  "tasks": [
+   {
+    "sit": "Суперник твоєї улюбленої команди зіграв блискуче. Друг бурчить, а ти чесно визнаєш.",
+    "say": "Треба віддати їм належне — вони грали краще.",
+    "ans": [
+     "You have to give them credit — they played better.",
+     "I have to give them credit, they played better than us.",
+     "You’ve got to give them credit, they were just better."
+    ],
+    "keys": {
+     "краще": "better"
+    }
+   },
+   {
+    "sit": "На нараді хвалять тебе за проєкт, хоча головну ідею запропонував стажер.",
+    "say": "Я хочу віддати належне Максу — це була його ідея.",
+    "ans": [
+     "I want to give credit to Max — it was his idea.",
+     "I’d like to give Max credit; the idea was his.",
+     "Honestly, I want to give Max the credit, it was his idea."
+    ],
+    "keys": {
+     "Макс": "max",
+     "ідея": "idea*"
+    }
+   },
+   {
+    "sit": "Сестра критикує свого колишнього, але визнає, що батько він хороший.",
+    "say": "Віддам йому належне: він чудовий тато.",
+    "ans": [
+     "I’ll give him credit: he’s a great dad.",
+     "I’ll give him credit — he is a wonderful father.",
+     "I’ll give him credit, he’s a really great dad."
+    ],
+    "keys": {
+     "тато": "dad*|father*|parent*",
+     "чудовий": "great|wonderful|good|amazing|excellent"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1986,
+  "w": "take credit",
+  "uk": "приписувати собі заслугу",
+  "lvl": "B2",
+  "forms": "take|takes|took|taken|taking",
+  "tail": "credit",
+  "near": "claim*|steal*|stole|stolen|pass off|passed off|brag*",
+  "tasks": [
+   {
+    "sit": "Твій начальник презентував керівництву твій план як свій. Ти скаржишся колезі.",
+    "say": "Він знову приписав собі мою заслугу.",
+    "ans": [
+     "He took credit for my work again.",
+     "He’s taken credit for my work again.",
+     "Once again, he took all the credit for my work."
+    ],
+    "keys": {
+     "знову": "again|once more|another"
+    }
+   },
+   {
+    "sit": "Твою доньку хвалять за перемогу команди в шкільній олімпіаді, хоча працювали всі. Ти радиш їй.",
+    "say": "Не приписуй собі всю заслугу — ви працювали разом.",
+    "ans": [
+     "Don’t take all the credit — you worked together.",
+     "Don’t take credit for everything, you all worked together.",
+     "Don’t take all the credit, you did it as a team."
+    ],
+    "keys": {
+     "не": "not|never",
+     "разом": "together|team"
+    }
+   },
+   {
+    "sit": "Друг хвалить твій ремонт. Насправді плитку клав твій батько.",
+    "say": "Не можу приписати собі цю заслугу — плитку клав тато.",
+    "ans": [
+     "I can’t take credit for that — my dad did the tiles.",
+     "I can’t take the credit; Dad laid the tiles.",
+     "Oh, I can’t take credit for it, my dad did the tiling."
+    ],
+    "keys": {
+     "тато": "dad*|father*",
+     "плитка": "tile*|tiling|floor*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1987,
+  "w": "puff up your chest",
+  "uk": "випʼятити груди (гордо)",
+  "lvl": "C1",
+  "forms": "puff|puffs|puffed|puffed|puffing",
+  "tail": "up chest*",
+  "near": "stick out his chest|stuck out his chest|swell* with pride|show off|showed off|strut*|proud*",
+  "tasks": [
+   {
+    "sit": "Твій племінник отримав медаль на змаганнях з плавання. Ти розповідаєш, як він поводився на нагородженні.",
+    "say": "Він так гордо випʼятив груди!",
+    "ans": [
+     "He puffed up his chest so proudly!",
+     "He really puffed up his chest with pride!",
+     "You should have seen him puff up his chest!"
+    ],
+    "keys": {
+     "гордо": "proud*|so|really|should"
+    }
+   },
+   {
+    "sit": "Ти з другом спостерігаєте в парку за голубами біля лавки.",
+    "say": "Дивись, той голуб випʼятив груди перед самкою.",
+    "ans": [
+     "Look, that pigeon puffed up its chest in front of the female.",
+     "Look at that pigeon puffing up its chest for the female!",
+     "Ha, look — that pigeon’s puffing up its chest to impress her."
+    ],
+    "keys": {
+     "голуб": "pigeon*|bird*|dove*",
+     "дивись": "look*|see|watch"
+    }
+   },
+   {
+    "sit": "Колега хизується новою посадою і постійно всіх повчає. Ти ділишся враженням з подругою.",
+    "say": "Щойно він став менеджером, одразу випʼятив груди.",
+    "ans": [
+     "As soon as he became a manager, he puffed up his chest.",
+     "He puffed up his chest the moment he got promoted to manager.",
+     "The second he became manager, he puffed up his chest."
+    ],
+    "keys": {
+     "менеджер": "manager*|promot*|boss",
+     "щойно": "as soon as|moment|second|once|when|minute"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1988,
+  "w": "kick yourself",
+  "uk": "дорікати собі, шкодувати",
+  "lvl": "C1",
+  "forms": "kick|kicks|kicked|kicked|kicking",
+  "tail": "yourself/myself/himself/herself/themselves/ourselves/oneself",
+  "near": "blame myself|blame yourself|regret*|beat myself up|beat yourself up|angry at myself|annoyed with myself|should have",
+  "tasks": [
+   {
+    "sit": "Ти не купив квитки на концерт улюбленої групи, поки були дешеві. Тепер усе розпродано.",
+    "say": "Я досі собі за це дорікаю.",
+    "ans": [
+     "I’m still kicking myself about it.",
+     "I still kick myself for that.",
+     "Honestly, I’m still kicking myself over it."
+    ],
+    "keys": {
+     "досі": "still"
+    }
+   },
+   {
+    "sit": "Друг вагається, чи йти на співбесіду в компанію мрії. Ти переконуєш його спробувати.",
+    "say": "Якщо не підеш, потім собі не пробачиш і будеш дорікати.",
+    "ans": [
+     "If you don’t go, you’ll kick yourself later.",
+     "You’ll kick yourself later if you don’t go.",
+     "Go — otherwise you’ll be kicking yourself later."
+    ],
+    "keys": {
+     "потім": "later|afterwards|forever|years"
+    }
+   },
+   {
+    "sit": "Ти продав акції, а за тиждень вони подорожчали вдвічі. Розповідаєш колезі.",
+    "say": "Я міг би себе вбити за те, що продав так рано.",
+    "ans": [
+     "I could kick myself for selling so early.",
+     "I could kick myself for selling them so soon.",
+     "Ugh, I could kick myself for selling too early."
+    ],
+    "keys": {
+     "продав": "sell*|sold",
+     "рано": "early|soon"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1989,
+  "w": "beat yourself up",
+  "uk": "картати себе",
+  "lvl": "C1",
+  "forms": "beat|beats|beat|beaten|beating",
+  "tail": "yourself/myself/himself/herself/themselves/ourselves/oneself up",
+  "near": "blame yourself|blame myself|kick yourself|kick myself|feel guilty|feel bad|be so hard on yourself|hard on yourself",
+  "tasks": [
+   {
+    "sit": "Подруга провалила іспит на водійські права і весь вечір себе лає.",
+    "say": "Не картай себе, наступного разу складеш.",
+    "ans": [
+     "Don’t beat yourself up, you’ll pass next time.",
+     "Don’t beat yourself up — you’ll pass it next time.",
+     "Hey, stop beating yourself up, you’ll pass next time."
+    ],
+    "keys": {
+     "наступного разу": "next time|next",
+     "складеш": "pass*|do it|make it"
+    }
+   },
+   {
+    "sit": "Психолог питає, як ти реагуєш на помилки на роботі.",
+    "say": "Я картаю себе навіть за дрібниці.",
+    "ans": [
+     "I beat myself up even over small things.",
+     "I beat myself up even over the smallest things.",
+     "I tend to beat myself up over every little thing."
+    ],
+    "keys": {
+     "дрібниці": "small*|little|tiny|minor"
+    }
+   },
+   {
+    "sit": "Твій брат досі переживає, що не встиг попрощатися з дідусем.",
+    "say": "Він місяцями картав себе за це.",
+    "ans": [
+     "He beat himself up about it for months.",
+     "He was beating himself up over it for months.",
+     "He spent months beating himself up about it."
+    ],
+    "keys": {
+     "місяцями": "month*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1990,
+  "w": "trust",
+  "uk": "довіряти",
+  "lvl": "B1",
+  "forms": "trust|trusts|trusted|trusted|trusting",
+  "near": "believe*|rely on|relied on|count on|have faith|confide*|depend on",
+  "tasks": [
+   {
+    "sit": "Молодша сестра нервує перед першою співбесідою і постійно в собі сумнівається.",
+    "say": "Довіряй собі — ти знаєш більше, ніж думаєш.",
+    "ans": [
+     "Trust yourself — you know more than you think.",
+     "Just trust yourself, you know more than you think.",
+     "Trust yourself, you know way more than you think."
+    ],
+    "keys": {
+     "знаєш": "know*",
+     "думаєш": "think*"
+    }
+   },
+   {
+    "sit": "Сусідка пропонує залишити їй ключі від квартири, поки ти у відпустці. Друг питає, чи це нормально.",
+    "say": "Так, я їй повністю довіряю.",
+    "ans": [
+     "Yes, I trust her completely.",
+     "Yeah, I totally trust her.",
+     "Sure, I trust her one hundred percent."
+    ],
+    "keys": {
+     "повністю": "complete*|total*|fully|100|hundred|absolute*"
+    }
+   },
+   {
+    "sit": "Ти вперше замовляєш ремонт через інтернет-сервіс і сумніваєшся щодо відгуків.",
+    "say": "Я не довіряю цим відгукам в інтернеті.",
+    "ans": [
+     "I don’t trust these online reviews.",
+     "I don’t really trust these reviews online.",
+     "Honestly, I don’t trust those online reviews."
+    ],
+    "keys": {
+     "не": "not|never",
+     "відгуки": "review*|rating*|comment*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1992,
+  "w": "stay in touch",
+  "uk": "тримати звʼязок",
+  "lvl": "B1",
+  "forms": "stay|stays|stayed|stayed|staying",
+  "tail": "in touch",
+  "near": "keep in touch|kept in touch|keep in contact|stay connected|talk to each other|call me|write to me",
+  "tasks": [
+   {
+    "sit": "Ти прощаєшся з колегою, який переїжджає працювати в іншу країну.",
+    "say": "Давай тримати звʼязок!",
+    "ans": [
+     "Let’s stay in touch!",
+     "Let’s make sure we stay in touch!",
+     "We have to stay in touch, okay?"
+    ],
+    "keys": {
+     "давай": "let|we|make sure"
+    }
+   },
+   {
+    "sit": "Нова знайома питає, чи ти спілкуєшся з однокласниками.",
+    "say": "Я досі тримаю звʼязок з двома шкільними друзями.",
+    "ans": [
+     "I still stay in touch with two school friends.",
+     "I’ve stayed in touch with two friends from school.",
+     "I still stay in touch with a couple of my school friends."
+    ],
+    "keys": {
+     "шкільні друзі": "school*|class*",
+     "двома": "two|2|couple"
+    }
+   },
+   {
+    "sit": "Ти ведеш курс англійської й прощаєшся зі студентами в останній день.",
+    "say": "Тримаймо звʼязок у телеграмі.",
+    "ans": [
+     "Let’s stay in touch on Telegram.",
+     "We can stay in touch through Telegram.",
+     "Let’s stay in touch on Telegram, guys."
+    ],
+    "keys": {
+     "телеграм": "telegram|chat*|messenger"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1993,
+  "w": "drift apart",
+  "uk": "поступово віддалятися (у стосунках)",
+  "lvl": "B2",
+  "forms": "drift|drifts|drifted|drifted|drifting",
+  "tail": "apart",
+  "near": "grow apart|grew apart|lose touch|lost touch|lost contact|split up|broke up|break up|fell out",
+  "tasks": [
+   {
+    "sit": "Знайома питає, чому ти більше не спілкуєшся з найкращою подругою з університету. Ви не сварилися.",
+    "say": "Після випуску ми просто поступово віддалилися.",
+    "ans": [
+     "We just drifted apart after graduation.",
+     "After we graduated, we just drifted apart.",
+     "We kind of drifted apart after uni, you know."
+    ],
+    "keys": {
+     "після випуску": "graduat*|uni*|college|school"
+    }
+   },
+   {
+    "sit": "Колега, яка розлучається, розповідає, що з чоловіком вони роками жили як сусіди.",
+    "say": "Ми віддалялися одне від одного багато років.",
+    "ans": [
+     "We’d been drifting apart for years.",
+     "We drifted apart over many years.",
+     "Honestly, we’d been drifting apart for years."
+    ],
+    "keys": {
+     "роки": "year*"
+    }
+   },
+   {
+    "sit": "Брат переживає, що з переїздом у різні міста ви рідше бачитеся.",
+    "say": "Я не хочу, щоб ми віддалилися.",
+    "ans": [
+     "I don’t want us to drift apart.",
+     "I really don’t want us to drift apart.",
+     "I just don’t want us to drift apart, you know?"
+    ],
+    "keys": {
+     "не хочу": "not want|do not|never"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1994,
+  "w": "gauge",
+  "uk": "оцінювати (реакцію, настрій)",
+  "lvl": "C1",
+  "forms": "gauge|gauges|gauged|gauged|gauging",
+  "near": "assess*|judge*|measure*|evaluate*|read the room|figure out|see how|test the waters",
+  "tasks": [
+   {
+    "sit": "Перед великою презентацією ти показуєш ідею кільком колегам у курилці.",
+    "say": "Хочу спершу оцінити їхню реакцію.",
+    "ans": [
+     "I want to gauge their reaction first.",
+     "First I’d like to gauge their reaction.",
+     "I just want to gauge their reaction first."
+    ],
+    "keys": {
+     "реакція": "reaction*|response*|feedback",
+     "спершу": "first|before"
+    }
+   },
+   {
+    "sit": "Ти ведучий на весіллі й думаєш, чи жартувати про наречених.",
+    "say": "Важко оцінити настрій залу.",
+    "ans": [
+     "It’s hard to gauge the mood of the room.",
+     "It’s difficult to gauge the crowd’s mood.",
+     "It’s tough to gauge the room right now."
+    ],
+    "keys": {
+     "важко": "hard|difficult|tough|tricky",
+     "зал": "room|crowd|audience|guests|people"
+    }
+   },
+   {
+    "sit": "Твоя дочка-підліток мовчазна після школи. Ти хочеш зрозуміти, що в неї на душі.",
+    "say": "Я намагаюся оцінити, наскільки вона засмучена.",
+    "ans": [
+     "I’m trying to gauge how upset she is.",
+     "I’m trying to gauge just how upset she really is.",
+     "I’m just trying to gauge how upset she is."
+    ],
+    "keys": {
+     "засмучена": "upset|sad|down|hurt|bad"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1995,
+  "w": "tally",
+  "uk": "підраховувати (голоси, бали)",
+  "lvl": "C1",
+  "forms": "tally|tallies|tallied|tallied|tallying",
+  "near": "count*|add up|added up|total*|calculat*|sum up|work out",
+  "tasks": [
+   {
+    "sit": "Ти в лічильній комісії на виборах голови ОСББ. Голосування щойно закінчилося.",
+    "say": "Давайте підрахуємо голоси.",
+    "ans": [
+     "Let’s tally the votes.",
+     "Let’s tally up the votes now.",
+     "Okay, let’s tally the votes."
+    ],
+    "keys": {
+     "голоси": "vote*|ballot*"
+    }
+   },
+   {
+    "sit": "Ви з друзями граєте в настільну гру, і вже пізно. Всі чекають на результат.",
+    "say": "Я підрахую бали, і розходимося.",
+    "ans": [
+     "I’ll tally the points and then we can go.",
+     "Let me tally up the points, then we’re done.",
+     "I’ll tally the scores and we’ll call it a night."
+    ],
+    "keys": {
+     "бали": "point*|score*"
+    }
+   },
+   {
+    "sit": "Ти відповідаєш за опитування студентів у групі і звітуєш викладачу.",
+    "say": "Я ще не підрахував результати.",
+    "ans": [
+     "I haven’t tallied the results yet.",
+     "I haven’t tallied up the results yet.",
+     "Sorry, I still haven’t tallied the results."
+    ],
+    "keys": {
+     "результати": "result*|answer*|response*",
+     "ще не": "not|yet|still"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1996,
+  "w": "pinpoint",
+  "uk": "точно визначити",
+  "lvl": "B2",
+  "forms": "pinpoint|pinpoints|pinpointed|pinpointed|pinpointing",
+  "near": "identify*|locate*|find*|found|figure out|figured out|work out|point out|determine*|nail down",
+  "tasks": [
+   {
+    "sit": "Сантехнік уже годину шукає, звідки тече вода на кухні. Сусід питає, що там.",
+    "say": "Він досі не може точно визначити, звідки тече.",
+    "ans": [
+     "He still can’t pinpoint where the leak is coming from.",
+     "He still hasn’t pinpointed the source of the leak.",
+     "He still can’t pinpoint where the water’s coming from."
+    ],
+    "keys": {
+     "тече": "leak*|water|drip*",
+     "досі": "still|yet"
+    }
+   },
+   {
+    "sit": "Лікар питає, коли саме почалися головні болі.",
+    "say": "Мені важко точно назвати момент, коли це почалося.",
+    "ans": [
+     "It’s hard for me to pinpoint when it started.",
+     "I can’t really pinpoint when it started.",
+     "Honestly, it’s hard to pinpoint exactly when it began."
+    ],
+    "keys": {
+     "почалося": "start*|began|begin*",
+     "важко": "hard|difficult|can not|cannot|really"
+    }
+   },
+   {
+    "sit": "Після невдалого запуску продукту команда збирається на розбір.",
+    "say": "Нам треба точно визначити, що пішло не так.",
+    "ans": [
+     "We need to pinpoint what went wrong.",
+     "We have to pinpoint exactly what went wrong.",
+     "First, we need to pinpoint what went wrong."
+    ],
+    "keys": {
+     "не так": "wrong|problem*|fail*|mistake*"
+    }
+   }
+  ]
+ },
+ {
+  "id": 1997,
+  "w": "trace back",
+  "uk": "простежити (походження)",
+  "lvl": "C1",
+  "forms": "trace|traces|traced|traced|tracing",
+  "tail": "back",
+  "near": "go back to|goes back to|date back|dates back|find the origin|track down|tracked down|come from|comes from",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш друзям про своє хобі — генеалогію.",
+    "say": "Я простежив свій рід аж до вісімнадцятого століття.",
+    "ans": [
+     "I’ve traced my family back to the 18th century.",
+     "I traced my family tree back to the 1700s.",
+     "I managed to trace my family back to the eighteenth century."
+    ],
+    "keys": {
+     "рід": "family|ancestor*|roots|tree",
+     "вісімнадцяте століття": "18*|eighteen*|1700*"
+    }
+   },
+   {
+    "sit": "На роботі стався збій серверу. Керівник питає про причину.",
+    "say": "Ми простежили проблему до одного оновлення.",
+    "ans": [
+     "We traced the problem back to one update.",
+     "We traced the issue back to a single update.",
+     "Turns out we traced it back to one update."
+    ],
+    "keys": {
+     "оновлення": "update*|patch*|release*",
+     "одного": "one|single|an|a"
+    }
+   },
+   {
+    "sit": "Ти дивишся документальний фільм про спалах харчового отруєння й коментуєш.",
+    "say": "Спалах простежили аж до однієї ферми.",
+    "ans": [
+     "They traced the outbreak back to one farm.",
+     "The outbreak was traced back to a single farm.",
+     "They traced the whole outbreak back to one farm."
+    ],
+    "keys": {
+     "ферма": "farm*",
+     "спалах": "outbreak|it|infection*"
+    }
+   }
+  ]
+ }
+]

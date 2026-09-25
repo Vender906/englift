@@ -1,0 +1,642 @@
+[
+ {
+  "id": 2092, "w": "put on lipstick", "uk": "нафарбувати губи (помадою)", "lvl": "A2",
+  "forms": "put|puts|put|put|putting",
+  "tail": "on lipstick*",
+  "near": "wear*|wore|worn|appl*|lip gloss|do my lips",
+  "tasks": [
+   {
+    "sit": "Таксі вже чекає біля під’їзду, а подруга кличе тебе з коридору.",
+    "say": "Зараз тільки нафарбую губи — і можемо йти.",
+    "ans": ["I’ll just put on some lipstick and we can go.", "Let me put on my lipstick and then we can go.", "Just a sec, I’m putting on lipstick — then we’re good to go."],
+    "keys": { "іти": "go|leave|ready" }
+   },
+   {
+    "sit": "За хвилину відеодзвінок із новим клієнтом, а ти виглядаєш втомлено.",
+    "say": "Треба хоч губи нафарбувати перед дзвінком.",
+    "ans": ["I need to put on some lipstick before the call.", "I should at least put on lipstick before the call.", "Let me at least put some lipstick on before the call."],
+    "keys": { "дзвінок": "call|meeting|zoom" }
+   },
+   {
+    "sit": "Твоя п’ятирічна донька знайшла твою косметичку.",
+    "say": "Вона нафарбувала губи моєю червоною помадою!",
+    "ans": ["She put on my red lipstick!", "She put my red lipstick on!", "She’s gone and put on my red lipstick!"],
+    "keys": { "червона": "red", "моя": "my|mine" }
+   }
+  ]
+ },
+ {
+  "id": 2093, "w": "blot lipstick", "uk": "промокати помаду (серветкою)", "lvl": "C1",
+  "forms": "blot|blots|blotted|blotted|blotting",
+  "tail": "lipstick*/lips",
+  "near": "dab*|press*|wipe*",
+  "tasks": [
+   {
+    "sit": "Молодша сестра вчиться фарбуватися, і помада в неї постійно лишається на зубах.",
+    "say": "Промокни помаду серветкою — тоді вона не буде на зубах.",
+    "ans": ["Blot your lipstick with a tissue so it doesn’t get on your teeth.", "Blot your lips with a tissue — then it won’t end up on your teeth.", "Just blot your lipstick on a tissue, and it won’t smudge onto your teeth."],
+    "keys": { "серветка": "tissue*|napkin*|paper", "зуби": "teeth|tooth" }
+   },
+   {
+    "sit": "Ти візажист на весіллі. Зараз фотограф зніматиме поцілунок молодят.",
+    "say": "Давай я промокну тобі помаду, щоб вона не лишала слідів.",
+    "ans": ["Let me blot your lipstick so it doesn’t leave marks.", "I’ll blot your lipstick so it won’t leave any marks.", "Hold on, let me blot your lipstick so it doesn’t smear everywhere."],
+    "keys": { "сліди": "mark*|trace*|smear*|smudg*|stain*|transfer*" }
+   },
+   {
+    "sit": "Ти в ресторані з колегами й не хочеш лишити червоний відбиток на келиху.",
+    "say": "Я завжди промокаю помаду, перш ніж пити з келиха.",
+    "ans": ["I always blot my lipstick before I drink from a glass.", "I always blot my lipstick before drinking from a glass.", "I always blot my lips first so I don’t leave lipstick on the glass."],
+    "keys": { "келих": "glass*|cup|wine", "завжди": "always|every time" }
+   }
+  ]
+ },
+ {
+  "id": 2094, "w": "set makeup", "uk": "фіксувати макіяж (пудрою)", "lvl": "C1",
+  "forms": "set|sets|set|set|setting",
+  "tail": "makeup/make-up",
+  "near": "fix*|lock* in|lock* it in|seal*|powder*",
+  "tasks": [
+   {
+    "sit": "Ти збираєшся на весілля, яке буде надворі в сорокаградусну спеку.",
+    "say": "Треба добре зафіксувати макіяж, інакше він попливе.",
+    "ans": ["I need to set my makeup well, or it’ll melt.", "I have to set my makeup properly, otherwise it will melt off.", "I’d better set my makeup really well, or it’s going to slide off my face."],
+    "keys": { "попливе": "melt*|slide*|run|come off|wear off|smudg*" }
+   },
+   {
+    "sit": "Ти працюєш візажистом на телебаченні. Ведучий питає, навіщо ще й пудра.",
+    "say": "Я зафіксую макіяж пудрою, щоб під софітами не було блиску.",
+    "ans": ["I’ll set your makeup with powder so you won’t look shiny under the lights.", "I’m going to set the makeup with powder so it doesn’t shine under the lights.", "Let me set your makeup with some powder — otherwise you’ll be shiny under those lights."],
+    "keys": { "пудра": "powder", "блиск": "shin*|glow*|greasy|oily" }
+   },
+   {
+    "sit": "Підписниця в коментарях питає, чому твій макіяж тримається цілий день.",
+    "say": "Секрет у тому, що я фіксую макіяж спреєм.",
+    "ans": ["The secret is that I set my makeup with a spray.", "My secret is that I always set my makeup with setting spray.", "Honestly, the trick is setting my makeup with a spray."],
+    "keys": { "спрей": "spray*|mist", "секрет": "secret|trick|key" }
+   }
+  ]
+ },
+ {
+  "id": 2095, "w": "take off makeup", "uk": "змивати макіяж", "lvl": "A2",
+  "forms": "take|takes|took|taken|taking",
+  "tail": "off makeup/make-up",
+  "near": "remov*|wash* off|wash* my face|clean* off|wipe* off",
+  "tasks": [
+   {
+    "sit": "Ти повертаєшся з вечірки о другій ночі й одразу падаєш на ліжко.",
+    "say": "Немає сил навіть змити макіяж.",
+    "ans": ["I’m too tired to even take off my makeup.", "I don’t have the energy to take my makeup off.", "I can’t even be bothered to take off my makeup."],
+    "keys": { "немає сил": "tired|energy|bothered|exhausted" }
+   },
+   {
+    "sit": "Дерматолог оглядає твою шкіру й питає про щоденний догляд.",
+    "say": "Чесно кажучи, я не завжди змиваю макіяж перед сном.",
+    "ans": ["To be honest, I don’t always take off my makeup before bed.", "Honestly, I don’t always take my makeup off before going to sleep.", "I’ll be honest — sometimes I don’t take off my makeup before bed."],
+    "keys": { "перед сном": "bed|sleep*|night", "не завжди": "not always|sometimes|forget*|skip" }
+   },
+   {
+    "sit": "Ти граєш в аматорському театрі. Після вистави друзі кличуть тебе в кафе.",
+    "say": "Зачекайте десять хвилин, я тільки змию грим.",
+    "ans": ["Wait ten minutes, I just need to take off my makeup.", "Give me ten minutes to take off my stage makeup.", "Hang on ten minutes — I’ve just got to take my makeup off."],
+    "keys": { "десять хвилин": "ten|10|minute*" }
+   }
+  ]
+ },
+ {
+  "id": 2096, "w": "style", "uk": "укладати (волосся)", "lvl": "B1",
+  "forms": "style|styles|styled|styled|styling",
+  "near": "blow-dr*|blow dr*|do my hair|do your hair|did my hair|fix* my hair|brush*|comb*",
+  "tasks": [
+   {
+    "sit": "Ти в перукарні, тобі щойно помили голову. Майстриня питає, що робимо далі.",
+    "say": "Можете укласти мені волосся феном, будь ласка?",
+    "ans": ["Could you style my hair with a blow-dryer, please?", "Can you style my hair with the hairdryer, please?", "Could you just blow-dry my hair and style it a bit?"],
+    "keys": { "фен": "dryer|hairdryer|blow-dr*|blow dr*", "волосся": "hair" }
+   },
+   {
+    "sit": "Колега дивується, що ти завжди приходиш в офіс з ідеальною зачіскою.",
+    "say": "Я щоранку двадцять хвилин укладаю волосся.",
+    "ans": ["I spend twenty minutes styling my hair every morning.", "I style my hair for twenty minutes every morning.", "Every morning I spend about twenty minutes styling my hair."],
+    "keys": { "щоранку": "morning*", "двадцять хвилин": "twenty|20|minute*" }
+   },
+   {
+    "sit": "Подруга виходить заміж і хвилюється, що не встигне до перукаря.",
+    "say": "Не хвилюйся, я укладу тобі волосся перед весіллям.",
+    "ans": ["Don’t worry, I’ll style your hair before the wedding.", "Don’t worry — I’ll style your hair myself for the wedding.", "Relax, I’ll style your hair before the ceremony."],
+    "keys": { "весілля": "wedding|ceremony|big day", "волосся": "hair" }
+   }
+  ]
+ },
+ {
+  "id": 2097, "w": "curl", "uk": "завивати (волосся)", "lvl": "B1",
+  "forms": "curl|curls|curled|curled|curling",
+  "near": "wav*|perm*|crimp*",
+  "tasks": [
+   {
+    "sit": "Ти збираєшся на випускний і показуєш подрузі фото зачіски з інтернету.",
+    "say": "Хочу завити волосся плойкою, як на цьому фото.",
+    "ans": ["I want to curl my hair with a curling iron, like in this photo.", "I’d like to curl my hair like in this picture.", "I’m going to curl my hair — something like this photo."],
+    "keys": { "фото": "photo*|picture|pic|image", "волосся": "hair" }
+   },
+   {
+    "sit": "Ти пишеш на форумі про догляд за волоссям: кінчики стали ламкими.",
+    "say": "Я завиваю волосся майже щодня, і воно стало дуже сухим.",
+    "ans": ["I curl my hair almost every day, and it’s become really dry.", "I’ve been curling my hair nearly every day and now it’s so dry.", "I curl my hair pretty much daily, and it’s got really dry."],
+    "keys": { "щодня": "every day|daily|day", "сухе": "dry|damag*|brittle|fried" }
+   },
+   {
+    "sit": "Донька просить зробити їй зачіску, як у принцеси, на свято в садочку.",
+    "say": "Добре, я завию тобі волосся, але треба посидіти тихо.",
+    "ans": ["OK, I’ll curl your hair, but you need to sit still.", "Fine, I’ll curl your hair if you sit still.", "Alright, I’ll curl your hair — just sit still for me."],
+    "keys": { "сидіти тихо": "sit still|still|quiet*|move" }
+   }
+  ]
+ },
+ {
+  "id": 2098, "w": "straighten", "uk": "випрямляти (волосся)", "lvl": "B1",
+  "forms": "straighten|straightens|straightened|straightened|straightening",
+  "near": "flat iron*|iron*|smooth*|keratin",
+  "tasks": [
+   {
+    "sit": "Ти збираєшся виходити з дому, а надворі мряка й висока вологість.",
+    "say": "Немає сенсу випрямляти волосся — від вологи воно однаково закрутиться.",
+    "ans": ["There’s no point straightening my hair — it’ll just go curly in this humidity.", "It’s pointless to straighten my hair when it’s this humid, it’ll curl up again.", "No point straightening my hair in this weather — it’ll frizz up anyway."],
+    "keys": { "волога": "humid*|weather|rain*|damp", "немає сенсу": "no point|pointless|waste|not worth" }
+   },
+   {
+    "sit": "Майстер у салоні пропонує тобі кератинову процедуру.",
+    "say": "Я хочу випрямити волосся надовго, щоб не мучитися щоранку.",
+    "ans": ["I want to straighten my hair permanently so I don’t have to do it every morning.", "Can you straighten my hair so it lasts for months? I’m tired of doing it every morning.", "I’d love to straighten it for good so I don’t have to bother every morning."],
+    "keys": { "щоранку": "morning*|every day|daily", "надовго": "permanent*|for good|long*|months" }
+   },
+   {
+    "sit": "Твоя дочка-підліток щоранку займає ванну на пів години.",
+    "say": "Вона щоранку пів години випрямляє волосся.",
+    "ans": ["She spends half an hour straightening her hair every morning.", "Every morning she straightens her hair for half an hour.", "She’s in there straightening her hair for thirty minutes every single morning."],
+    "keys": { "пів години": "half an hour|thirty|30|half hour", "щоранку": "morning*" }
+   }
+  ]
+ },
+ {
+  "id": 2100, "w": "braid", "uk": "заплітати (волосся)", "lvl": "B2",
+  "forms": "braid|braids|braided|braided|braiding",
+  "near": "plait*|twist*|ponytail*|pigtail*",
+  "tasks": [
+   {
+    "sit": "Ранок, ви з донькою запізнюєтеся до школи, а вона просить складну зачіску.",
+    "say": "Сьогодні немає часу — я просто заплету тобі косу.",
+    "ans": ["No time today — I’ll just braid your hair.", "We don’t have time today, so I’ll just braid it.", "We’re running late, so I’ll just braid it quickly."],
+    "keys": { "немає часу": "no time|not have time|late|hurry|quick*" }
+   },
+   {
+    "sit": "Ти на морі, а сильний вітер постійно плутає тобі волосся.",
+    "say": "Заплету волосся, щоб воно не плуталося на вітрі.",
+    "ans": ["I’ll braid my hair so it doesn’t get tangled in the wind.", "I’m going to braid my hair so the wind doesn’t tangle it.", "I’d better braid my hair, or the wind will make a mess of it."],
+    "keys": { "вітер": "wind*|breez*", "плутатися": "tangl*|knot*|mess*" }
+   },
+   {
+    "sit": "Подруга скаржиться, що на тренуваннях у спортзалі волосся весь час заважає.",
+    "say": "Спробуй заплітати дві коси — вони нікуди не рухаються.",
+    "ans": ["Try braiding your hair into two braids — they stay in place.", "You should braid your hair in two — it stays put.", "Just braid it into two plaits, they won’t move at all."],
+    "keys": { "дві": "two|2|both", "не рухаються": "stay*|not move|in place|put" }
+   }
+  ]
+ },
+ {
+  "id": 2101, "w": "tie up", "uk": "зібрати (волосся) в хвіст", "lvl": "B1",
+  "forms": "tie|ties|tied|tied|tying",
+  "tail": "up",
+  "near": "ponytail*|pull* back|pull* it back|put* up|put* it up|bun",
+  "tasks": [
+   {
+    "sit": "Ти збираєшся місити тісто на кухні, а волосся весь час спадає на обличчя.",
+    "say": "Зачекай, зберу волосся в хвіст, щоб не заважало.",
+    "ans": ["Wait, let me tie my hair up so it’s not in the way.", "Hold on, I’ll tie up my hair so it doesn’t get in the way.", "One sec — I need to tie my hair up, it keeps getting in my face."],
+    "keys": { "волосся": "hair", "заважало": "way|face|annoy*|bother*" }
+   },
+   {
+    "sit": "Ти тренер у спортзалі. Нова клієнтка прийшла з розпущеним довгим волоссям.",
+    "say": "Краще зберіть волосся в хвіст перед тренуванням.",
+    "ans": ["You’d better tie your hair up before the workout.", "Could you tie up your hair before we start training?", "Tie your hair up before we start, it’ll be easier."],
+    "keys": { "волосся": "hair", "тренування": "workout|training|train*|start|class|exercis*" }
+   },
+   {
+    "sit": "В офісі зламався кондиціонер, і колега бачить, що ти обмахуєшся папкою.",
+    "say": "Так спекотно, що доведеться зібрати волосся в хвіст.",
+    "ans": ["It’s so hot I have to tie my hair up.", "It’s so hot that I’ll have to tie up my hair.", "It’s boiling in here — I’m going to tie my hair up."],
+    "keys": { "спекотно": "hot|boiling|heat|warm" }
+   }
+  ]
+ },
+ {
+  "id": 2102, "w": "let down", "uk": "розпустити (волосся)", "lvl": "B2",
+  "forms": "let|lets|let|let|letting",
+  "tail": "down",
+  "near": "untie*|undo|undid|take * out|took * out|loose",
+  "tasks": [
+   {
+    "sit": "Ти фотограф і знімаєш подругу в осінньому парку. Хочеш змінити образ.",
+    "say": "Розпусти волосся — так буде природніше.",
+    "ans": ["Let your hair down — it’ll look more natural.", "Why don’t you let your hair down? It’ll look more natural.", "Try letting your hair down, it looks more natural that way."],
+    "keys": { "природніше": "natural*|relaxed|better" }
+   },
+   {
+    "sit": "Після довгого робочого дня ти нарешті вдома, а від тугого хвоста болить голова.",
+    "say": "Нарешті можна розпустити волосся — аж голова болить.",
+    "ans": ["I can finally let my hair down — my head actually hurts.", "Finally I can let down my hair, my head is aching.", "Ugh, finally letting my hair down — that ponytail was giving me a headache."],
+    "keys": { "голова болить": "head*|hurt*|ach*|pain", "нарешті": "finally|at last" }
+   },
+   {
+    "sit": "Подруга завжди ходить із зібраним волоссям, а на вечірці ти вперше бачиш її з розпущеним.",
+    "say": "Тобі так гарно, коли ти розпускаєш волосся!",
+    "ans": ["You look so pretty when you let your hair down!", "It really suits you when you let your hair down.", "You should let your hair down more often — it looks great!"],
+    "keys": { "гарно": "pretty|beautiful|great|suits|good|nice|lovely|gorgeous" }
+   }
+  ]
+ },
+ {
+  "id": 2103, "w": "dye", "uk": "фарбувати (волосся)", "lvl": "B1",
+  "forms": "dye|dyes|dyed|dyed|dyeing",
+  "near": "colo*|tint*|bleach*|highlight*",
+  "tasks": [
+   {
+    "sit": "Ти в перукарні, майстер питає, що сьогодні робимо.",
+    "say": "Я хочу пофарбувати волосся в темніший колір.",
+    "ans": ["I want to dye my hair a darker color.", "I’d like to dye my hair darker.", "I’m thinking of dyeing my hair a bit darker."],
+    "keys": { "темніший": "dark*|brown|black" }
+   },
+   {
+    "sit": "Ти розповідаєш другові про свого батька, який останнім часом почав сивіти.",
+    "say": "Тато почав фарбувати волосся, бо соромиться сивини.",
+    "ans": ["Dad has started dyeing his hair because he’s embarrassed about the gray.", "My dad started dyeing his hair because he’s ashamed of his gray hair.", "My dad’s been dyeing his hair — he hates going gray."],
+    "keys": { "сивина": "gray|grey|white|silver", "тато": "dad*|father" }
+   },
+   {
+    "sit": "Школа дозволила учням приходити з кольоровим волоссям, і твоя донька одразу щось задумала.",
+    "say": "Вона хоче пофарбувати волосся в рожевий.",
+    "ans": ["She wants to dye her hair pink.", "She’s planning to dye her hair pink.", "Guess what — she wants to dye her hair bright pink!"],
+    "keys": { "рожевий": "pink" }
+   }
+  ]
+ },
+ {
+  "id": 2104, "w": "bleach", "uk": "знебарвлювати (волосся)", "lvl": "B2",
+  "forms": "bleach|bleaches|bleached|bleached|bleaching",
+  "near": "lighten*|dye*|colo*|highlight*|go blonde|went blonde|gone blonde",
+  "tasks": [
+   {
+    "sit": "Ти перукар. Клієнтка з чорним волоссям хоче за один візит стати платиновою блондинкою.",
+    "say": "Якщо знебарвити волосся за один раз, воно дуже пошкодиться.",
+    "ans": ["If we bleach your hair in one go, it’ll get badly damaged.", "Bleaching your hair all at once will really damage it.", "If I bleach it all in one session, your hair will be ruined."],
+    "keys": { "пошкодиться": "damag*|ruin*|break*|fried|burn*", "за один раз": "one go|once|one session|at once|one time" }
+   },
+   {
+    "sit": "Твій гурт готується до великого концерту, і ви обговорюєте сценічний образ.",
+    "say": "Я знебарвлю волосся, а потім пофарбую його в синій.",
+    "ans": ["I’m going to bleach my hair and dye it blue.", "I’ll bleach my hair and then dye it blue.", "I’m thinking of bleaching my hair and going blue."],
+    "keys": { "синій": "blue" }
+   },
+   {
+    "sit": "Ти надсилаєш подругам у чат фото свого волосся після домашнього експерименту.",
+    "say": "Не варто було знебарвлювати волосся вдома.",
+    "ans": ["I shouldn’t have bleached my hair at home.", "Bleaching my hair at home was a big mistake.", "Big mistake — I should never have bleached my hair myself at home."],
+    "keys": { "вдома": "home|myself|diy", "не варто": "should not|mistake|never|regret*" }
+   }
+  ]
+ },
+ {
+  "id": 2105, "w": "cut hair", "uk": "стригти волосся", "lvl": "A2",
+  "forms": "cut|cuts|cut|cut|cutting",
+  "tail": "hair",
+  "near": "trim*|haircut*|shave*|chop*",
+  "tasks": [
+   {
+    "sit": "Перукарні в місті закриті через ремонт мережі, а твій син дуже заріс.",
+    "say": "Доведеться стригти синові волосся вдома.",
+    "ans": ["I’ll have to cut my son’s hair at home.", "I’m going to cut my son’s hair myself at home.", "Looks like I’ll be cutting my son’s hair at home."],
+    "keys": { "син": "son|boy|kid", "вдома": "home|myself" }
+   },
+   {
+    "sit": "Новий знайомий на вечірці питає, ким ти працюєш.",
+    "say": "Я перукар — стрижу волосся вже десять років.",
+    "ans": ["I’m a hairdresser — I’ve been cutting hair for ten years.", "I cut hair for a living — for ten years now.", "I’m a hairdresser, I’ve been cutting hair for a decade."],
+    "keys": { "десять років": "ten|10|decade" }
+   },
+   {
+    "sit": "Ти в гостях у бабусі, яка дуже вірить у прикмети.",
+    "say": "Бабуся каже, що не можна стригти волосся в понеділок.",
+    "ans": ["Grandma says you shouldn’t cut your hair on Mondays.", "My grandma says it’s bad luck to cut your hair on a Monday.", "According to my grandma, you must never cut your hair on a Monday."],
+    "keys": { "понеділок": "monday*", "бабуся": "grand*|granny|nan*" }
+   }
+  ]
+ },
+ {
+  "id": 2106, "w": "get a haircut", "uk": "постригтися", "lvl": "A2",
+  "forms": "get|gets|got|got/gotten|getting",
+  "tail": "haircut*",
+  "near": "hair cut|cut my hair|cut your hair|trim*|barber*",
+  "tasks": [
+   {
+    "sit": "Завтра в тебе важлива співбесіда, а зачіска виглядає неохайно.",
+    "say": "Треба постригтися перед співбесідою.",
+    "ans": ["I need to get a haircut before the interview.", "I should get a haircut before my interview tomorrow.", "I’ve really got to get a haircut before that interview."],
+    "keys": { "співбесіда": "interview" }
+   },
+   {
+    "sit": "Ти зустрічаєш у коридорі колегу, який виглядає якось інакше.",
+    "say": "Ти постригся? Тобі личить!",
+    "ans": ["Did you get a haircut? It suits you!", "You got a haircut! It looks great on you.", "Hey, you got a haircut — looks really good!"],
+    "keys": { "личить": "suit*|good|great|nice" }
+   },
+   {
+    "sit": "Син уже місяць відмовляється йти до перукаря.",
+    "say": "Тобі терміново треба постригтися — волосся вже в очі лізе.",
+    "ans": ["You really need to get a haircut — your hair is getting in your eyes.", "You need to get a haircut, your hair’s in your eyes.", "Seriously, go get a haircut — you can’t even see through your hair."],
+    "keys": { "очі": "eye*|see" }
+   }
+  ]
+ },
+ {
+  "id": 2108, "w": "shave", "uk": "брити (голову)", "lvl": "B1",
+  "forms": "shave|shaves|shaved|shaved/shaven|shaving",
+  "near": "buzz*|clipper*|cut it all off|cut off|bald",
+  "tasks": [
+   {
+    "sit": "Твій відділ збирає гроші на лікування дітей, і ти пропонуєш колегам челендж.",
+    "say": "Якщо зберемо сто тисяч, я поголю голову.",
+    "ans": ["If we raise a hundred thousand, I’ll shave my head.", "I’ll shave my head if we raise 100,000.", "If we hit a hundred grand, I’m shaving my head."],
+    "keys": { "сто тисяч": "hundred|100*", "зберемо": "raise*|collect*|hit|reach*|get" }
+   },
+   {
+    "sit": "Твій брат іде служити в армію. Мама сумує через його довге волосся.",
+    "say": "В армії йому все одно поголять голову.",
+    "ans": ["They’ll shave his head in the army anyway.", "In the army they’ll shave his head anyway.", "He’s going to get his head shaved in the army anyway."],
+    "keys": { "голова": "head|bald", "армія": "army|military|service" }
+   },
+   {
+    "sit": "Літо, спека під сорок. Друг скаржиться, що йому жарко з густим волоссям.",
+    "say": "Та поголи голову — буде набагато прохолодніше!",
+    "ans": ["Just shave your head — you’ll feel so much cooler!", "Why don’t you shave your head? It’ll be much cooler.", "Shave your head, man — you’ll be way cooler."],
+    "keys": { "голова": "head|bald", "прохолодніше": "cool*|less hot|fresh*" }
+   }
+  ]
+ },
+ {
+  "id": 2109, "w": "gel your hair", "uk": "мазати волосся гелем", "lvl": "B2",
+  "forms": "gel|gels|gelled|gelled|gelling",
+  "tail": "hair",
+  "near": "wax*|mousse|hairspray|spray*|slick*|styl*",
+  "tasks": [
+   {
+    "sit": "Ти збираєшся на вечірку в стилі п’ятдесятих.",
+    "say": "Я зачешу волосся назад гелем, як Елвіс.",
+    "ans": ["I’m going to gel my hair back like Elvis.", "I’ll gel my hair back, Elvis-style.", "I’m thinking of gelling my hair back, just like Elvis."],
+    "keys": { "назад": "back", "Елвіс": "elvis*" }
+   },
+   {
+    "sit": "Твій син-підліток щоранку пів години стоїть перед дзеркалом у ванній.",
+    "say": "Він знову мастить волосся гелем перед школою.",
+    "ans": ["He’s gelling his hair again before school.", "He gels his hair every morning before school.", "He’s in front of the mirror gelling his hair again."],
+    "keys": { "знову": "again|every morning" }
+   },
+   {
+    "sit": "Ви з другом дивитеся футбол. У гравця ідеальна зачіска навіть після дев’яноста хвилин гри.",
+    "say": "Він, мабуть, мастить волосся тонною гелю.",
+    "ans": ["He must gel his hair with a ton of product.", "He must gel his hair like crazy.", "I bet he gels his hair with half a tube of the stuff."],
+    "keys": { "мабуть": "must|bet|probably|surely" }
+   }
+  ]
+ },
+ {
+  "id": 2110, "w": "cleanse", "uk": "очищувати (шкіру обличчя)", "lvl": "B2",
+  "forms": "cleanse|cleanses|cleansed|cleansed|cleansing",
+  "near": "wash*|clean*",
+  "tasks": [
+   {
+    "sit": "Ти косметолог і пояснюєш новій клієнтці базовий догляд за шкірою.",
+    "say": "Очищуйте обличчя двічі на день — уранці й увечері.",
+    "ans": ["Cleanse your face twice a day — morning and evening.", "You should cleanse your face twice a day, in the morning and at night.", "Make sure you cleanse twice a day, morning and night."],
+    "keys": { "двічі на день": "twice|two times", "вранці": "morning" }
+   },
+   {
+    "sit": "Подруга питає, чому після спортзалу ти одразу біжиш умиватися.",
+    "say": "Мені треба очистити шкіру після тренування, інакше висипають прищі.",
+    "ans": ["I need to cleanse my skin after a workout, or I break out.", "I have to cleanse my face after training, otherwise I get spots.", "I’ve got to cleanse right after the gym or I break out."],
+    "keys": { "тренування": "workout|training|gym|exercis*", "прищі": "break out|breakout*|spot*|pimple*|acne|zit*" }
+   },
+   {
+    "sit": "Ти в магазині косметики, і консультантка пропонує тобі пінку для вмивання.",
+    "say": "Мені потрібне щось, що м’яко очищує чутливу шкіру.",
+    "ans": ["I need something that gently cleanses sensitive skin.", "I’m looking for something to gently cleanse sensitive skin.", "Do you have anything that cleanses gently? My skin’s really sensitive."],
+    "keys": { "м’яко": "gentl*|mild|soft*", "чутлива": "sensitiv*" }
+   }
+  ]
+ },
+ {
+  "id": 2112, "w": "tone", "uk": "тонізувати (шкіру)", "lvl": "C1",
+  "forms": "tone|tones|toned|toned|toning",
+  "near": "toner|refresh*|balanc*|mist*",
+  "tasks": [
+   {
+    "sit": "Подруга питає, який у тебе вечірній догляд за шкірою.",
+    "say": "Спочатку вмиваюся, потім тонізую шкіру й наношу крем.",
+    "ans": ["First I cleanse, then I tone my skin and put on cream.", "I wash my face, tone, and then apply moisturizer.", "Cleanse, tone, moisturize — that’s my routine."],
+    "keys": { "крем": "cream|moisturi*", "вмиваюся": "wash*|cleans*" }
+   },
+   {
+    "sit": "Консультантка в магазині косметики питає, чим тобі допомогти.",
+    "say": "Шукаю щось, щоб тонізувати шкіру без спирту.",
+    "ans": ["I’m looking for something to tone my skin without alcohol.", "I need something alcohol-free to tone my skin.", "Do you have anything that tones the skin but doesn’t have alcohol in it?"],
+    "keys": { "спирт": "alcohol*" }
+   },
+   {
+    "sit": "Ти ведеш блог про догляд за шкірою й відповідаєш на запитання підписниці.",
+    "say": "Тонізувати шкіру варто одразу після вмивання.",
+    "ans": ["You should tone your skin right after washing your face.", "It’s best to tone your skin straight after cleansing.", "Always tone right after you wash your face."],
+    "keys": { "одразу після": "after", "вмивання": "wash*|cleans*" }
+   }
+  ]
+ },
+ {
+  "id": 2114, "w": "serum up", "uk": "наносити сироватку", "lvl": "C1",
+  "forms": "serum|serums|serumed|serumed|seruming/serumming",
+  "tail": "up",
+  "near": "appl*|put on|put some|pat*|layer*",
+  "tasks": [
+   {
+    "sit": "Ти знімаєш для підписників відео про свій ранковий догляд.",
+    "say": "Після тоніка я наношу сироватку, а потім крем.",
+    "ans": ["After toner, I serum up and then put on moisturizer.", "Once I’ve toned, I serum up and then add cream.", "Toner first, then I serum up, then cream."],
+    "keys": { "крем": "cream|moisturi*" }
+   },
+   {
+    "sit": "Ти на гірськолижному курорті, і від морозу шкіра стала дуже сухою.",
+    "say": "Тут я наношу сироватку двічі на день, інакше шкіра лущиться.",
+    "ans": ["Here I serum up twice a day, or my skin starts peeling.", "I have to serum up twice a day here, otherwise my skin peels.", "Out here I serum up twice a day or my face gets all flaky."],
+    "keys": { "двічі": "twice|two times", "лущиться": "peel*|flak*|dry|crack*" }
+   },
+   {
+    "sit": "Завтра весілля сестри, і ти хочеш, щоб шкіра сяяла на фото.",
+    "say": "Сьогодні на ніч нанесу сироватку, щоб завтра шкіра сяяла.",
+    "ans": ["I’ll serum up tonight so my skin glows tomorrow.", "Tonight I’m going to serum up so my skin looks glowing tomorrow.", "I’m going to serum up before bed so I’m glowing tomorrow."],
+    "keys": { "сяяла": "glow*|radiant|shin*|fresh", "завтра": "tomorrow" }
+   }
+  ]
+ },
+ {
+  "id": 2115, "w": "apply sunscreen", "uk": "наносити сонцезахисний крем", "lvl": "B1",
+  "forms": "apply|applies|applied|applied|applying",
+  "tail": "sunscreen/sunblock/spf/suncream",
+  "near": "put on|put some|wear*|rub*|slap* on|use sunscreen",
+  "tasks": [
+   {
+    "sit": "Ви з дітьми на пляжі, а вони вже біжать до води.",
+    "say": "Стоп! Спочатку треба нанести сонцезахисний крем.",
+    "ans": ["Stop! You need to apply sunscreen first.", "Wait! First we have to apply sunscreen.", "Hold on, let me apply sunscreen before you go in!"],
+    "keys": { "спочатку": "first|before" }
+   },
+   {
+    "sit": "Колега дивується, що ти мажешся кремом від сонця навіть узимку.",
+    "say": "Я наношу санскрін щодня, навіть коли хмарно.",
+    "ans": ["I apply sunscreen every day, even when it’s cloudy.", "I apply sunscreen daily, even on cloudy days.", "I apply SPF every single day — even when it’s cloudy out."],
+    "keys": { "щодня": "every day|daily|every single day", "хмарно": "cloud*|winter|grey|gray" }
+   },
+   {
+    "sit": "Ви з другом у горах. Прохолодно, але сонце пече нещадно.",
+    "say": "Не забудь нанести сонцезахисний крем на вуха й шию.",
+    "ans": ["Don’t forget to apply sunscreen to your ears and neck.", "Remember to apply sunscreen on your ears and neck.", "Make sure you apply some sunscreen to your ears and neck too."],
+    "keys": { "вуха": "ear*", "шия": "neck" }
+   }
+  ]
+ },
+ {
+  "id": 2116, "w": "reapply", "uk": "повторно наносити (санскрін)", "lvl": "B2",
+  "forms": "reapply|reapplies|reapplied|reapplied|reapplying",
+  "near": "appl*|put more|put on more|put some more|top* up",
+  "tasks": [
+   {
+    "sit": "Ви з подругою вже дві години лежите біля басейну.",
+    "say": "Час повторно нанести крем — ми ж щойно плавали.",
+    "ans": ["Time to reapply sunscreen — we’ve just been swimming.", "We should reapply sunscreen since we’ve been in the water.", "Let’s reapply — we’ve just been swimming."],
+    "keys": { "плавали": "swim*|swam|water|pool" }
+   },
+   {
+    "sit": "Ти вожатий у літньому таборі й збираєш дітей на обід.",
+    "say": "Після обіду всі повторно наносять крем від сонця.",
+    "ans": ["After lunch, everyone reapplies sunscreen.", "Everybody has to reapply sunscreen after lunch.", "Right, after lunch everyone reapplies their sunscreen, OK?"],
+    "keys": { "обід": "lunch", "всі": "everyone|everybody|all" }
+   },
+   {
+    "sit": "Колега питає, як ти оновлюєш захист від сонця протягом дня, якщо в тебе макіяж.",
+    "say": "Я повторно наношу SPF спреєм прямо поверх макіяжу.",
+    "ans": ["I reapply SPF with a spray right over my makeup.", "I use a spray to reapply sunscreen over my makeup.", "I just reapply with an SPF mist on top of my makeup."],
+    "keys": { "спрей": "spray*|mist", "макіяж": "makeup|make-up" }
+   }
+  ]
+ },
+ {
+  "id": 2117, "w": "pop a pimple", "uk": "давити (видавлювати) прищ", "lvl": "B2",
+  "forms": "pop|pops|popped|popped|popping",
+  "tail": "pimple*/zit*/spot*",
+  "near": "squeez*|pick*|burst*",
+  "tasks": [
+   {
+    "sit": "Перед побаченням ти помічаєш на підборідді величезний прищ.",
+    "say": "Знаю, що не можна, але дуже хочеться видавити цей прищ.",
+    "ans": ["I know I shouldn’t, but I really want to pop this pimple.", "I know it’s bad, but I’m dying to pop this pimple.", "I know I shouldn’t, but I’m so tempted to pop this zit."],
+    "keys": { "хочеться": "want*|dying|tempted|urge|itching" }
+   },
+   {
+    "sit": "Ти на прийомі в дерматолога, і лікар помічає сліди на твоїй шкірі.",
+    "say": "Так, я часто давлю прищі, коли нервую.",
+    "ans": ["Yes, I often pop my pimples when I’m nervous.", "I do pop pimples a lot when I’m stressed.", "Yeah, I tend to pop my spots when I’m anxious."],
+    "keys": { "нервую": "nervous|stress*|anxious|worried", "часто": "often|a lot|tend*" }
+   },
+   {
+    "sit": "Син-підліток стоїть перед дзеркалом і тисне собі на обличчя.",
+    "say": "Не дави прищі, бо залишаться шрами!",
+    "ans": ["Don’t pop your pimples, or you’ll get scars!", "Stop popping your pimples — they’ll leave scars.", "Don’t pop those zits, you’ll end up with scars."],
+    "keys": { "шрами": "scar*|mark*" }
+   }
+  ]
+ },
+ {
+  "id": 2118, "w": "steam your face", "uk": "розпарювати обличчя", "lvl": "B2",
+  "forms": "steam|steams|steamed|steamed|steaming",
+  "tail": "face",
+  "near": "sauna|towel*|open* my pores|open* the pores",
+  "tasks": [
+   {
+    "sit": "Ти влаштовуєш собі спа-вечір удома.",
+    "say": "Спочатку розпарю обличчя над гарячою водою, а потім зроблю маску.",
+    "ans": ["First I’ll steam my face over hot water, then do a mask.", "I’m going to steam my face over a bowl of hot water first and then put on a mask.", "I’ll steam my face first, then slap on a mask."],
+    "keys": { "маска": "mask", "спочатку": "first|then" }
+   },
+   {
+    "sit": "Ти працюєш косметологом і готуєш клієнтку до чистки обличчя.",
+    "say": "Спершу я розпарю вам обличчя, щоб розкрилися пори.",
+    "ans": ["First I’ll steam your face to open up the pores.", "I’m going to steam your face first so the pores open up.", "Let me steam your face first — it’ll open your pores."],
+    "keys": { "пори": "pore*" }
+   },
+   {
+    "sit": "Подруга скаржиться на чорні крапки на носі.",
+    "say": "Розпарюй обличчя раз на тиждень — це дуже допомагає.",
+    "ans": ["Steam your face once a week — it really helps.", "Try steaming your face once a week, it helps a lot.", "You should steam your face every week, it honestly makes a huge difference."],
+    "keys": { "раз на тиждень": "week*|weekly", "допомагає": "help*|difference|work*" }
+   }
+  ]
+ },
+ {
+  "id": 2119, "w": "do a face mask", "uk": "робити маску для обличчя", "lvl": "B1",
+  "forms": "do|does|did|done|doing",
+  "tail": "face mask*",
+  "near": "put on|put a|apply*|use a|sheet mask",
+  "tasks": [
+   {
+    "sit": "Подруга пише, чи не хочеш ти ввечері піти в кіно.",
+    "say": "Ні, я сьогодні вдома — зроблю маску для обличчя й відпочину.",
+    "ans": ["No, I’m staying in tonight — I’ll do a face mask and relax.", "Not tonight, I’m going to do a face mask and chill at home.", "I think I’ll just stay home, do a face mask and relax."],
+    "keys": { "вдома": "home|stay* in|staying in", "відпочину": "relax*|chill*|rest" }
+   },
+   {
+    "sit": "Завтра в тебе фотосесія, і ти хочеш, щоб шкіра виглядала свіжою.",
+    "say": "Сьогодні ввечері зроблю зволожувальну маску для обличчя.",
+    "ans": ["I’ll do a moisturizing face mask tonight.", "Tonight I’m doing a hydrating face mask.", "I’m going to do a face mask tonight so my skin looks fresh."],
+    "keys": { "сьогодні ввечері": "tonight|this evening", "зволожувальна": "moistur*|hydrat*|fresh" }
+   },
+   {
+    "sit": "Молодша сестра приїхала до тебе з ночівлею, і ви не знаєте, чим зайнятися.",
+    "say": "Хочеш, зробимо маски для обличчя разом?",
+    "ans": ["Want to do a face mask with me?", "Do you want to do face masks together?", "Come on, let’s do face masks together!"],
+    "keys": { "разом": "together|with me" }
+   }
+  ]
+ },
+ {
+  "id": 2120, "w": "pat dry", "uk": "промокати (не терти)", "lvl": "C1",
+  "forms": "pat|pats|patted|patted|patting",
+  "tail": "dry",
+  "near": "dab*|blot*|wipe*|dry off|dry my face|dry your face",
+  "tasks": [
+   {
+    "sit": "Подруга після вмивання енергійно тре обличчя рушником.",
+    "say": "Не три обличчя — просто промокни його рушником.",
+    "ans": ["Don’t rub your face — just pat it dry with a towel.", "Don’t rub, just pat your face dry with the towel.", "Stop rubbing! Pat your skin dry with the towel instead."],
+    "keys": { "рушник": "towel*", "не три": "rub*" }
+   },
+   {
+    "sit": "Ти вперше купаєш новонародженого племінника під наглядом сестри.",
+    "say": "Після купання обережно промокни малюка, не три.",
+    "ans": ["After the bath, gently pat the baby dry — don’t rub.", "Gently pat him dry after his bath, don’t rub.", "Once he’s out of the bath, just pat him dry gently."],
+    "keys": { "купання": "bath*", "обережно": "gentl*|careful*|soft*" }
+   },
+   {
+    "sit": "Ти тату-майстер і пояснюєш клієнтові, як доглядати за свіжим татуюванням.",
+    "say": "Після душу промокай тату чистим паперовим рушником.",
+    "ans": ["After a shower, pat your tattoo dry with a clean paper towel.", "Pat the tattoo dry with a clean paper towel after you shower.", "When you get out of the shower, just pat it dry with a paper towel."],
+    "keys": { "душ": "shower*", "паперовий рушник": "towel*|paper" }
+   }
+  ]
+ }
+]

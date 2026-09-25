@@ -1,0 +1,653 @@
+[
+ {
+  "id": 2734, "w": "open up to friends", "uk": "відкриватися друзям", "lvl": "B2",
+  "forms": "open|opens|opened|opened|opening",
+  "tail": "up to",
+  "near": "confide*|trust*|talk openly|told|tell|share*",
+  "tasks": [
+   {
+    "sit": "Після розлучення ти довго тримав усе в собі. Тепер розповідаєш психологу, що змінилося.",
+    "say": "Нарешті я відкрився друзям, і мені стало легше.",
+    "ans": ["I finally opened up to my friends, and I felt better.", "When I opened up to my friends, things got a lot easier.", "I finally opened up to my friends and, honestly, it helped a lot."],
+    "keys": { "друзі": "friend*|mates|buddies", "легше": "better|easier|help*|relie*|lighter" }
+   },
+   {
+    "sit": "Ти переїхав у нове місто й почуваєшся самотньо. Сестра радить більше спілкуватися.",
+    "say": "Мені важко відкриватися новим друзям.",
+    "ans": ["It’s hard for me to open up to new friends.", "I find it hard to open up to new friends.", "Honestly, I struggle to open up to new friends."],
+    "keys": { "важко": "hard|difficult|struggl*|not easy", "нові": "new" }
+   },
+   {
+    "sit": "Твій син-підліток удома про все мовчить, а вчителька каже, що в школі він балакучий.",
+    "say": "Він відкривається друзям, а не нам.",
+    "ans": ["He opens up to his friends, not to us.", "He’d rather open up to his friends than to us.", "He opens up to his friends, but never to us."],
+    "keys": { "друзі": "friend*|mates|buddies", "не нам": "not|rather|never" }
+   }
+  ]
+ },
+ {
+  "id": 2735, "w": "call in sick", "uk": "взяти лікарняний (подзвонивши на роботу)", "lvl": "B2",
+  "forms": "call|calls|called|called|calling",
+  "tail": "in sick",
+  "near": "sick day|sick leave|stay home|stayed home|off sick",
+  "tasks": [
+   {
+    "sit": "Ти прокинувся з температурою тридцять дев’ять, а о дев’ятій у тебе нарада.",
+    "say": "Сьогодні я, мабуть, візьму лікарняний.",
+    "ans": ["I think I’ll call in sick today.", "I’m going to call in sick today.", "I’m calling in sick today, I feel awful."],
+    "keys": { "сьогодні": "today|this morning" }
+   },
+   {
+    "sit": "Колега чомусь «хворіє» щопонеділка. Ти обговорюєш це з іншою колегою на кухні.",
+    "say": "Він знову взяв лікарняний у понеділок.",
+    "ans": ["He called in sick on Monday again.", "He’s called in sick again — on a Monday.", "Guess who called in sick again? On a Monday, of course."],
+    "keys": { "знову": "again|another", "понеділок": "monday*" }
+   },
+   {
+    "sit": "Сестра працює в кафе й сильно застудилася, але боїться, що начальник розсердиться.",
+    "say": "Просто подзвони й візьми лікарняний — ти ж хвора.",
+    "ans": ["Just call in sick — you’re ill.", "You should call in sick, you’re really unwell.", "Just call in sick, seriously. You’re not well."],
+    "keys": { "хвора": "ill|unwell|not well|sick|fever|cold" }
+   }
+  ]
+ },
+ {
+  "id": 2737, "w": "clock out early", "uk": "піти з роботи раніше", "lvl": "B2",
+  "forms": "clock|clocks|clocked|clocked|clocking",
+  "tail": "out early/earlier",
+  "near": "leave early|left early|leaving early|go home early|went home early|knock off|knocked off",
+  "tasks": [
+   {
+    "sit": "У доньки сьогодні шкільний концерт о п’ятій. Ти підходиш до керівника.",
+    "say": "Можна я сьогодні піду з роботи раніше? У доньки концерт.",
+    "ans": ["Can I clock out early today? My daughter has a concert.", "Would it be okay if I clocked out early today? It’s my daughter’s concert.", "Mind if I clock out early today? My daughter’s got a concert."],
+    "keys": { "донька": "daughter*|kid*|child*", "концерт": "concert*|show|recital" }
+   },
+   {
+    "sit": "П’ятниця, усі задачі закриті, в офісі порожньо. Ти пишеш другові.",
+    "say": "Я сьогодні пішов з роботи раніше — робити було нічого.",
+    "ans": ["I clocked out early today — there was nothing to do.", "I clocked out early because there was nothing to do.", "I clocked out early today, honestly there was nothing left to do."],
+    "keys": { "нічого": "nothing|no work|not much|anything" }
+   },
+   {
+    "sit": "У компанії з вересня нові правила обліку робочого часу. Ти, як менеджер, пояснюєш їх команді.",
+    "say": "Якщо підете раніше, вам не заплатять за ці години.",
+    "ans": ["If you clock out early, you won’t get paid for those hours.", "Anyone who clocks out early won’t be paid for the missed hours.", "Clock out early and you don’t get paid for those hours."],
+    "keys": { "заплатять": "pa*", "години": "hour*|time" }
+   }
+  ]
+ },
+ {
+  "id": 2738, "w": "clock in late", "uk": "запізнитися на роботу", "lvl": "B2",
+  "forms": "clock|clocks|clocked|clocked|clocking",
+  "tail": "in late",
+  "near": "late for work|be late|was late|come in late|came in late|arrive late|arrived late",
+  "tasks": [
+   {
+    "sit": "Ти застряг у заторі, а на роботі суворо рахують кожне запізнення.",
+    "say": "Через цей затор я знову запізнюся на роботу.",
+    "ans": ["Because of this traffic, I’ll clock in late again.", "I’m going to clock in late again because of this traffic jam.", "Ugh, this traffic — I’m going to clock in late again."],
+    "keys": { "затор": "traffic|jam|stuck", "знову": "again" }
+   },
+   {
+    "sit": "Ти керуєш зміною на складі й інструктуєш новенького працівника.",
+    "say": "Якщо запізнишся тричі за місяць, отримаєш догану.",
+    "ans": ["If you clock in late three times a month, you’ll get a warning.", "Clock in late three times in a month and you get a written warning.", "Just so you know, if you clock in late three times a month, that’s a warning."],
+    "keys": { "тричі": "three|3", "догана": "warning|reprimand*|trouble|written up" }
+   },
+   {
+    "sit": "Сусід по кімнаті ліг спати о третій ночі, а завтра в нього зміна о сьомій ранку.",
+    "say": "Завтра ти точно запізнишся на роботу.",
+    "ans": ["You’re definitely going to clock in late tomorrow.", "You’ll clock in late tomorrow for sure.", "Man, you’re totally going to clock in late tomorrow."],
+    "keys": { "завтра": "tomorrow" }
+   }
+  ]
+ },
+ {
+  "id": 2739, "w": "work from home", "uk": "працювати з дому", "lvl": "A2",
+  "forms": "work|works|worked|worked|working",
+  "tail": "from home",
+  "near": "remote*|home office|telework*|wfh",
+  "tasks": [
+   {
+    "sit": "Сантехнік прийде завтра десь між дев’ятою і третьою. Ти пишеш керівниці.",
+    "say": "Можна я завтра попрацюю з дому? Чекаю на сантехніка.",
+    "ans": ["Can I work from home tomorrow? I’m waiting for a plumber.", "Could I work from home tomorrow? A plumber is coming.", "Is it okay if I work from home tomorrow? The plumber’s coming."],
+    "keys": { "завтра": "tomorrow", "сантехнік": "plumber*" }
+   },
+   {
+    "sit": "На співбесіді тебе питають, чи є в тебе запитання.",
+    "say": "Скільки днів на тиждень можна працювати з дому?",
+    "ans": ["How many days a week can I work from home?", "How many days per week are we allowed to work from home?", "So how many days a week can people work from home?"],
+    "keys": { "днів": "day*", "тиждень": "week*" }
+   },
+   {
+    "sit": "Подруга дивується, що ти щодня зустрічаєш дітей після школи.",
+    "say": "Я тепер працюю з дому, тому завжди поруч із дітьми.",
+    "ans": ["I work from home now, so I’m always there for the kids.", "Since I work from home now, I can always be with the kids.", "I’m working from home these days, so I’m around for the kids."],
+    "keys": { "діти": "kid*|child*", "тепер": "now|these days|nowadays" }
+   }
+  ]
+ },
+ {
+  "id": 2740, "w": "go remote", "uk": "перейти на віддалену роботу", "lvl": "B2",
+  "forms": "go|goes|went|gone|going",
+  "tail": "remote",
+  "near": "work from home|worked from home|working from home|remotely|switch to remote|switched to remote|moved to remote",
+  "tasks": [
+   {
+    "sit": "Друг питає, як ти взагалі зміг переїхати жити в Карпати.",
+    "say": "Наша компанія перейшла на віддалену роботу, тож я можу жити де завгодно.",
+    "ans": ["Our company went remote, so I can live anywhere.", "The company has gone remote, so I can live wherever I want.", "We went fully remote, so I can live anywhere now."],
+    "keys": { "де завгодно": "anywhere|wherever|where i want" }
+   },
+   {
+    "sit": "На нараді обговорюють, як зекономити на оренді офісу.",
+    "say": "А якщо ми повністю перейдемо на віддалену роботу?",
+    "ans": ["What if we go remote completely?", "What if we went fully remote?", "Why don’t we just go fully remote?"],
+    "keys": { "повністю": "complete*|fully|full|entirely|100*" }
+   },
+   {
+    "sit": "Колега читає статтю про ринок праці й ділиться з тобою.",
+    "say": "Тут пишуть, що половина стартапів перейшла на віддалену роботу.",
+    "ans": ["It says half of the startups have gone remote.", "According to this, half of all startups went remote.", "Apparently half the startups have gone remote."],
+    "keys": { "половина": "half|50*", "стартапи": "startup*|start-up*|compan*" }
+   }
+  ]
+ },
+ {
+  "id": 2741, "w": "put in overtime", "uk": "працювати понаднормово", "lvl": "B2",
+  "forms": "put|puts|put|put|putting",
+  "tail": "in overtime",
+  "near": "work overtime|worked overtime|working overtime|extra hours|stay late|stayed late|staying late",
+  "tasks": [
+   {
+    "sit": "Перед запуском проєкту вся команда сидить в офісі до ночі. Партнер питає, коли це скінчиться.",
+    "say": "Цього тижня мені доведеться працювати понаднормово.",
+    "ans": ["I’ll have to put in overtime this week.", "I have to put in some overtime this week.", "Looks like I’m putting in overtime all week."],
+    "keys": { "тиждень": "week*" }
+   },
+   {
+    "sit": "Цього місяця тобі заплатили більше, ніж зазвичай. Колега питає, звідки премія.",
+    "say": "Це не премія — я відпрацював десять годин понаднормово.",
+    "ans": ["It’s not a bonus — I put in overtime, ten extra hours.", "That’s not a bonus. I put in ten hours overtime.", "Not a bonus — I put in overtime, like ten hours."],
+    "keys": { "премія": "bonus", "десять годин": "ten|10|hour*" }
+   },
+   {
+    "sit": "Ти працюєш медбратом у лікарні. Друзі питають, чому тебе ніде не видно.",
+    "say": "Нам бракує людей, тож я постійно працюю понаднормово.",
+    "ans": ["We’re short-staffed, so I’m always putting in overtime.", "We don’t have enough people, so I put in overtime all the time.", "We’re so short-staffed that I keep putting in overtime."],
+    "keys": { "бракує людей": "short*|enough|staff*|people", "постійно": "always|all the time|keep|constant*" }
+   }
+  ]
+ },
+ {
+  "id": 2742, "w": "book a table", "uk": "забронювати столик", "lvl": "A2",
+  "forms": "book|books|booked|booked|booking",
+  "tail": "table*",
+  "near": "reserve*|reservation*",
+  "tasks": [
+   {
+    "sit": "У мами в суботу ювілей, і ви хочете повести її в улюблений ресторан.",
+    "say": "Я забронюю столик на суботу на сьому вечора.",
+    "ans": ["I’ll book a table for Saturday at seven.", "I’m going to book a table for Saturday, 7 p.m.", "Let me book a table for Saturday at seven."],
+    "keys": { "субота": "saturday*", "сьома": "seven|7*" }
+   },
+   {
+    "sit": "Ти телефонуєш у ресторан.",
+    "say": "Добрий день, можна забронювати столик на чотирьох?",
+    "ans": ["Hello, can I book a table for four?", "Hi, I’d like to book a table for four people.", "Hi there, could I book a table for four, please?"],
+    "keys": { "чотирьох": "four|4" }
+   },
+   {
+    "sit": "Ви з другом прийшли в популярне кафе, а там усі місця зайняті.",
+    "say": "Треба було заздалегідь забронювати столик.",
+    "ans": ["We should have booked a table in advance.", "We should’ve booked a table ahead of time.", "Ugh, we really should’ve booked a table."],
+    "keys": { "треба було": "should|ought" }
+   }
+  ]
+ },
+ {
+  "id": 2743, "w": "cancel plans", "uk": "скасувати плани", "lvl": "A2",
+  "forms": "cancel|cancels|cancelled/canceled|cancelled/canceled|cancelling/canceling",
+  "tail": "plan*",
+  "near": "call off|called off|calling off|bail*|flake*|postpone*|reschedul*",
+  "tasks": [
+   {
+    "sit": "Ти прокинувся з мігренню, а ввечері мав іти з друзями в кіно.",
+    "say": "Вибачте, мені доведеться скасувати наші плани на вечір.",
+    "ans": ["Sorry, I have to cancel our plans for tonight.", "I’m sorry, but I’ll have to cancel our evening plans.", "Sorry guys, I need to cancel our plans tonight."],
+    "keys": { "вечір": "tonight|evening" }
+   },
+   {
+    "sit": "Подруга вже втретє за місяць пише «давай іншим разом».",
+    "say": "Вона постійно скасовує плани в останню хвилину.",
+    "ans": ["She always cancels plans at the last minute.", "She keeps cancelling plans at the last minute.", "She’s always canceling plans last minute."],
+    "keys": { "остання хвилина": "last" }
+   },
+   {
+    "sit": "Оголосили штормове попередження, а ви збиралися на шашлики за місто.",
+    "say": "Через погоду нам довелося скасувати плани на вихідні.",
+    "ans": ["Because of the weather, we had to cancel our plans for the weekend.", "We had to cancel our weekend plans because of the storm.", "The weather was awful, so we cancelled our plans for the weekend."],
+    "keys": { "погода": "weather|storm*|rain*", "вихідні": "weekend*" }
+   }
+  ]
+ },
+ {
+  "id": 2744, "w": "raise money", "uk": "збирати гроші (на благодійність)", "lvl": "B2",
+  "forms": "raise|raises|raised|raised|raising",
+  "tail": "money",
+  "near": "collect*|fundrais*|gather*|crowdfund*",
+  "tasks": [
+   {
+    "sit": "Твоя школа влаштовує ярмарок випічки. Покупець питає, на що підуть гроші.",
+    "say": "Ми збираємо гроші для притулку для тварин.",
+    "ans": ["We’re raising money for an animal shelter.", "We’re raising money for the local animal shelter.", "We’re trying to raise money for the animal shelter."],
+    "keys": { "притулок": "shelter*", "тварин": "animal*|dog*|cat*|pet*" }
+   },
+   {
+    "sit": "Ти вирішив пробігти марафон. Колега питає, навіщо тобі це.",
+    "say": "Я біжу марафон, щоб зібрати гроші на лікування дитини.",
+    "ans": ["I’m running a marathon to raise money for a child’s treatment.", "I’m doing the marathon to raise money for a sick kid’s treatment.", "I’m running the marathon to raise money for a little girl’s surgery."],
+    "keys": { "марафон": "marathon*", "лікування": "treat*|surger*|medical|operation*|hospital*" }
+   },
+   {
+    "sit": "Ти волонтер і пишеш пост у соцмережах про результати збору.",
+    "say": "За тиждень ми зібрали гроші на новий генератор для лікарні.",
+    "ans": ["In one week, we raised money for a new generator for the hospital.", "We raised money for a new hospital generator in just a week.", "We raised enough money in a week to buy the hospital a new generator!"],
+    "keys": { "генератор": "generator*", "лікарня": "hospital*", "тиждень": "week*" }
+   }
+  ]
+ },
+ {
+  "id": 2745, "w": "volunteer at", "uk": "волонтерити (десь)", "lvl": "B1",
+  "forms": "volunteer|volunteers|volunteered|volunteered|volunteering",
+  "tail": "at",
+  "near": "help out|helped out|helping out|work for free|worked for free|charity work",
+  "tasks": [
+   {
+    "sit": "На співбесіді тебе питають про досвід поза основною роботою.",
+    "say": "Два роки я волонтерив у притулку для тварин.",
+    "ans": ["I volunteered at an animal shelter for two years.", "For two years, I volunteered at an animal shelter.", "I’ve been volunteering at an animal shelter for two years."],
+    "keys": { "притулок": "shelter*", "два роки": "two|2" }
+   },
+   {
+    "sit": "Сусідка шукає, як провести суботу з користю.",
+    "say": "Можеш волонтерити в продовольчому банку — там завжди потрібні люди.",
+    "ans": ["You can volunteer at the food bank — they always need people.", "Why don’t you volunteer at the food bank? They always need help.", "You could volunteer at the food bank, they’re always short of people."],
+    "keys": { "продовольчий банк": "food", "потрібні": "need*|short|help" }
+   },
+   {
+    "sit": "Нові знайомі питають, чим ти займаєшся у вихідні.",
+    "say": "По неділях я волонтерю в місцевій лікарні.",
+    "ans": ["On Sundays, I volunteer at the local hospital.", "I volunteer at a local hospital every Sunday.", "I volunteer at the hospital nearby on Sundays."],
+    "keys": { "неділя": "sunday*", "лікарня": "hospital*" }
+   }
+  ]
+ },
+ {
+  "id": 2746, "w": "file taxes", "uk": "подати податкову декларацію", "lvl": "B2",
+  "forms": "file|files|filed|filed|filing",
+  "tail": "tax*",
+  "near": "submit*|declar*|pay taxes|paid taxes|paying taxes",
+  "tasks": [
+   {
+    "sit": "Ти працюєш на себе, і наближається кінець кварталу. Друг кличе на вихідні в гори.",
+    "say": "Не можу, мені треба подати податкову до понеділка.",
+    "ans": ["I can’t, I need to file my taxes by Monday.", "I can’t go — I have to file taxes before Monday.", "Sorry, I can’t — I’ve got to file my taxes by Monday."],
+    "keys": { "понеділок": "monday*", "не можу": "not|sorry" }
+   },
+   {
+    "sit": "Ти вперше працюєш у США й розпитуєш колегу про місцеві правила.",
+    "say": "Як тут подають податкову — онлайн чи на папері?",
+    "ans": ["How do you file taxes here — online or on paper?", "Do people file their taxes online or on paper here?", "So how do you file taxes here? Online or paper?"],
+    "keys": { "онлайн": "online|internet|electronic*", "папір": "paper" }
+   },
+   {
+    "sit": "Ти бухгалтер і розсилаєш клієнтам нагадування.",
+    "say": "Не забудьте подати податкову до п’ятнадцятого квітня.",
+    "ans": ["Don’t forget to file your taxes by April 15.", "Remember to file your taxes before April 15th.", "Just a reminder: file your taxes by April 15!"],
+    "keys": { "квітень": "april|apr*", "п’ятнадцяте": "15*|fifteen*" }
+   }
+  ]
+ },
+ {
+  "id": 2747, "w": "go on vacation", "uk": "поїхати у відпустку", "lvl": "A2",
+  "forms": "go|goes|went|gone|going",
+  "tail": "on vacation/holiday*",
+  "near": "travel*|take a trip|took a trip|take time off|trip",
+  "tasks": [
+   {
+    "sit": "Колега питає, чому ти так старанно закриваєш усі задачі.",
+    "say": "Наступного тижня я їду у відпустку.",
+    "ans": ["I’m going on vacation next week.", "Next week I go on vacation.", "I’m finally going on vacation next week!"],
+    "keys": { "наступного тижня": "next week" }
+   },
+   {
+    "sit": "Ви з партнером рахуєте витрати на рік, і грошей обмаль.",
+    "say": "Цього року ми, мабуть, не поїдемо у відпустку.",
+    "ans": ["We probably won’t go on vacation this year.", "I don’t think we’ll go on vacation this year.", "Looks like we’re not going on vacation this year."],
+    "keys": { "не": "not", "цей рік": "year" }
+   },
+   {
+    "sit": "Ти повернувся на роботу засмаглий. Колеги питають, де ти був.",
+    "say": "Я їздив у відпустку до Греції.",
+    "ans": ["I went on vacation to Greece.", "I went on vacation in Greece for two weeks.", "Oh, I went on vacation — to Greece, actually!"],
+    "keys": { "Греція": "greece|greek" }
+   }
+  ]
+ },
+ {
+  "id": 2748, "w": "come back to work", "uk": "повернутися на роботу", "lvl": "A2",
+  "forms": "come|comes|came|come|coming",
+  "tail": "back to work/job*/office",
+  "near": "return*|go back|went back|going back|get back|got back",
+  "tasks": [
+   {
+    "sit": "Ти пів року був у відпустці по догляду за дитиною. Друг питає про плани.",
+    "say": "У вересні я повертаюся на роботу.",
+    "ans": ["I’m coming back to work in September.", "I’ll come back to work in September.", "I come back to work in September, actually."],
+    "keys": { "вересень": "september|sept*" }
+   },
+   {
+    "sit": "Колега довго хворів. Ти пишеш йому повідомлення.",
+    "say": "Коли ти повертаєшся на роботу? Ми сумуємо!",
+    "ans": ["When are you coming back to work? We miss you!", "When will you come back to work? We all miss you!", "So when are you coming back to work? We really miss you!"],
+    "keys": { "сумуємо": "miss*" }
+   },
+   {
+    "sit": "Після двох тижнів відпустки тобі зовсім не хочеться в офіс. Скаржишся другу.",
+    "say": "Так важко повертатися на роботу після відпустки.",
+    "ans": ["It’s so hard to come back to work after a vacation.", "Coming back to work after vacation is so hard.", "Ugh, coming back to work after a holiday is the worst."],
+    "keys": { "відпустка": "vacation*|holiday*|break|time off|trip" }
+   }
+  ]
+ },
+ {
+  "id": 2749, "w": "switch careers", "uk": "змінити кар’єру (професію)", "lvl": "B2",
+  "forms": "switch|switches|switched|switched|switching",
+  "tail": "career*",
+  "near": "change career*|changed career*|changing career*|career change|new career|new profession",
+  "tasks": [
+   {
+    "sit": "Твій знайомий у сорок років пішов із банку й став пекарем.",
+    "say": "Він змінив кар’єру в сорок — і дуже щасливий.",
+    "ans": ["He switched careers at forty, and he’s really happy.", "He switched careers when he was forty, and he loves it.", "He switched careers at 40 and he’s super happy now."],
+    "keys": { "сорок": "forty|40", "щасливий": "happy|love*|glad|great" }
+   },
+   {
+    "sit": "На курсах програмування тебе питають, чому ти тут.",
+    "say": "Хочу змінити кар’єру — дизайн мені набрид.",
+    "ans": ["I want to switch careers — I’m tired of design.", "I’d like to switch careers because I’m sick of design.", "I’m looking to switch careers, honestly, I’m done with design."],
+    "keys": { "дизайн": "design*" }
+   },
+   {
+    "sit": "Подруга боїться міняти професію в тридцять п’ять.",
+    "say": "Змінити кар’єру ніколи не пізно.",
+    "ans": ["It’s never too late to switch careers.", "You’re never too old to switch careers.", "Honestly, it’s never too late to switch careers!"],
+    "keys": { "пізно": "late|old", "ніколи": "never|not" }
+   }
+  ]
+ },
+ {
+  "id": 2750, "w": "go back to school", "uk": "повернутися до навчання", "lvl": "B1",
+  "forms": "go|goes|went|gone|going",
+  "tail": "back to school/college/universit*/uni",
+  "near": "return*|study again|studying again|enroll*|enrol*",
+  "tasks": [
+   {
+    "sit": "Твоя мама в п’ятдесят років вирішила здобути другу освіту. Хвалишся колегам.",
+    "say": "Мама повернулася до навчання в п’ятдесят років!",
+    "ans": ["My mom went back to school at fifty!", "At fifty, my mom went back to school.", "Can you believe my mom went back to school at 50?"],
+    "keys": { "мама": "mom*|mum*|mother*", "п’ятдесят": "fifty|50" }
+   },
+   {
+    "sit": "Тобі набридла робота без перспектив. Ти ділишся планами з партнером.",
+    "say": "Думаю повернутися до навчання й отримати магістра.",
+    "ans": ["I’m thinking of going back to school to get a master’s.", "I’m thinking about going back to school for a master’s degree.", "I might go back to school and get my master’s."],
+    "keys": { "магістр": "master*" }
+   },
+   {
+    "sit": "Колега питає, як тобі вдається поєднувати роботу й університет.",
+    "say": "Повернутися до навчання, коли працюєш, важко, але воно того варте.",
+    "ans": ["Going back to school while working is hard, but it’s worth it.", "It’s hard to go back to school when you work, but it’s worth it.", "Going back to school with a full-time job is tough, but totally worth it."],
+    "keys": { "варте": "worth*", "важко": "hard|tough|difficult" }
+   }
+  ]
+ },
+ {
+  "id": 2751, "w": "stream a show", "uk": "дивитися серіал онлайн", "lvl": "B1",
+  "forms": "stream|streams|streamed|streamed|streaming",
+  "tail": "show*/series/it/episode*",
+  "near": "watch*|binge*",
+  "tasks": [
+   {
+    "sit": "Вечір, ви з сусідом по квартирі думаєте, чим зайнятися.",
+    "say": "Давай подивимося якийсь серіал онлайн і замовимо піцу.",
+    "ans": ["Let’s stream a show and order pizza.", "Why don’t we stream a show and get some pizza?", "How about we just stream a show and order a pizza?"],
+    "keys": { "піца": "pizza*" }
+   },
+   {
+    "sit": "У готелі поганий інтернет, і ти скаржишся на рецепції.",
+    "say": "Інтернет такий повільний, що я не можу подивитися серіал онлайн.",
+    "ans": ["The internet is so slow I can’t stream a show.", "I can’t stream a show because the internet is so slow.", "The internet’s too slow to even stream a show."],
+    "keys": { "повільний": "slow*", "інтернет": "internet|wi-fi|wifi|connection" }
+   },
+   {
+    "sit": "Друг питає, де подивитися новий сезон популярного серіалу.",
+    "say": "Можеш дивитися його онлайн, якщо маєш підписку.",
+    "ans": ["You can stream the show if you have a subscription.", "If you’ve got a subscription, you can stream the show.", "Just stream the show — all you need is a subscription."],
+    "keys": { "підписка": "subscri*|account|membership" }
+   }
+  ]
+ },
+ {
+  "id": 2752, "w": "cook from scratch", "uk": "готувати з нуля", "lvl": "B2",
+  "forms": "cook|cooks|cooked|cooked|cooking",
+  "tail": "from scratch",
+  "near": "homemade|home-made|home-cooked|make from scratch|made from scratch|make everything myself",
+  "tasks": [
+   {
+    "sit": "Сусідка дивується, що в тебе в холодильнику немає жодних напівфабрикатів.",
+    "say": "Я все готую з нуля — так смачніше й дешевше.",
+    "ans": ["I cook everything from scratch — it’s tastier and cheaper.", "I cook everything from scratch because it’s cheaper and tastier.", "I cook it all from scratch, it’s tastier and cheaper."],
+    "keys": { "смачніше": "tast*|better|delicious", "дешевше": "cheap*|money|less" }
+   },
+   {
+    "sit": "Ви з братом згадуєте дитинство й бабусину кухню.",
+    "say": "Бабуся завжди готувала з нуля, навіть тісто для пельменів.",
+    "ans": ["Grandma always cooked from scratch, even the dumpling dough.", "Our grandma cooked everything from scratch, even the dough for dumplings.", "Grandma always cooked from scratch — she even made her own dumpling dough."],
+    "keys": { "бабуся": "grand*|granny|nana", "тісто": "dough|dumpling*" }
+   },
+   {
+    "sit": "Ти працюєш по десять годин і питаєш знайому дієтологиню про харчування.",
+    "say": "Я не встигаю готувати з нуля щодня.",
+    "ans": ["I don’t have time to cook from scratch every day.", "I can’t find the time to cook from scratch every day.", "There’s just no time to cook from scratch every day."],
+    "keys": { "щодня": "every day|daily|each day", "не встигаю": "time|busy" }
+   }
+  ]
+ },
+ {
+  "id": 2753, "w": "order in", "uk": "замовити їжу додому (з доставкою)", "lvl": "B1",
+  "forms": "order|orders|ordered|ordered|ordering",
+  "tail": "in",
+  "near": "deliver*|takeout|takeaway|take-out|get delivery",
+  "tasks": [
+   {
+    "sit": "Ви обоє втомилися після переїзду, а посуд і кухня ще в коробках.",
+    "say": "Давай замовимо піцу додому.",
+    "ans": ["Let’s order in some pizza.", "Why don’t we just order in some pizza?", "Let’s just order in — pizza, maybe?"],
+    "keys": { "піца": "pizza*" }
+   },
+   {
+    "sit": "Колега питає, як ти провів вечір п’ятниці.",
+    "say": "Ми нікуди не ходили — замовили їжу додому й дивилися фільм.",
+    "ans": ["We didn’t go out — we ordered in and watched a movie.", "We just ordered in and watched a movie.", "Nothing special, we ordered in and watched a film."],
+    "keys": { "фільм": "movie*|film*|show*|series" }
+   },
+   {
+    "sit": "У вашій команді сьогодні святкують реліз, але ніхто не хоче йти в кафе.",
+    "say": "На обід замовимо їжу в офіс — компанія платить.",
+    "ans": ["We’re ordering in for lunch — the company is paying.", "Let’s order in for lunch, it’s on the company.", "We’ll order in lunch today. The company’s paying."],
+    "keys": { "обід": "lunch", "компанія": "compan*|boss" }
+   }
+  ]
+ },
+ {
+  "id": 2754, "w": "take a day off", "uk": "взяти вихідний", "lvl": "A2",
+  "forms": "take|takes|took|taken|taking",
+  "tail": "day* off",
+  "near": "day-off|leave|vacation day|time off|sick day|stay home",
+  "tasks": [
+   {
+    "sit": "Твій кіт захворів, і його треба везти до ветеринара в четвер.",
+    "say": "Мені доведеться взяти вихідний у четвер.",
+    "ans": ["I’ll have to take a day off on Thursday.", "I need to take a day off this Thursday.", "I think I’ll take a day off on Thursday."],
+    "keys": { "четвер": "thursday*" }
+   },
+   {
+    "sit": "Колега вже третій тиждень виглядає виснаженим.",
+    "say": "Тобі треба взяти вихідний і нормально відпочити.",
+    "ans": ["You need to take a day off and get some rest.", "You should take a day off and rest properly.", "Seriously, take a day off and just relax."],
+    "keys": { "відпочити": "rest*|relax*|recharge|sleep" }
+   }
+   ,
+   {
+    "sit": "Друг питає, як ви відсвяткували день народження твоєї доньки.",
+    "say": "На день народження доньки я взяв вихідний.",
+    "ans": ["I took a day off for my daughter’s birthday.", "For my daughter’s birthday, I took a day off.", "I took the day off for my daughter’s birthday."],
+    "keys": { "донька": "daughter*", "день народження": "birthday*" }
+   }
+  ]
+ },
+ {
+  "id": 2755, "w": "burn out at work", "uk": "вигоріти на роботі", "lvl": "B2",
+  "forms": "burn|burns|burnt/burned|burnt/burned|burning",
+  "tail": "out",
+  "near": "exhaust*|worn out|wear out|stressed out|overwork*|tired",
+  "tasks": [
+   {
+    "sit": "Твоя сестра три роки працює без відпустки й перестала радіти будь-чому.",
+    "say": "Я боюся, що вона вигорить на роботі.",
+    "ans": ["I’m afraid she’ll burn out at work.", "I’m worried she’s going to burn out at work.", "I’m really scared she’ll burn out at this job."],
+    "keys": { "боюся": "afraid|worr*|scared|fear*" }
+   },
+   {
+    "sit": "Ти керуєш командою й пояснюєш, чому вводиш обов’язкові відпустки.",
+    "say": "Я не хочу, щоб хтось із вас вигорів.",
+    "ans": ["I don’t want any of you to burn out.", "I don’t want anyone on the team to burn out.", "Look, I just don’t want you guys burning out."],
+    "keys": { "не хочу": "not want" }
+   },
+   {
+    "sit": "Друг питає, чому ти пішов із високооплачуваної роботи.",
+    "say": "Я повністю вигорів — працював по сімдесят годин на тиждень.",
+    "ans": ["I completely burnt out — I was working seventy hours a week.", "I burned out after working seventy hours a week.", "I totally burnt out, I was doing like 70 hours a week."],
+    "keys": { "сімдесят": "seventy|70*" }
+   }
+  ]
+ },
+ {
+  "id": 2756, "w": "take a mental health day", "uk": "взяти день для ментального здоров’я", "lvl": "C1",
+  "forms": "take|takes|took|taken|taking",
+  "tail": "mental health day*",
+  "near": "day off|sick day|rest day|break|time off",
+  "tasks": [
+   {
+    "sit": "Після важкого тижня з дедлайнами ти відчуваєш, що більше не витримуєш.",
+    "say": "Завтра візьму собі день для ментального здоров’я.",
+    "ans": ["I’m taking a mental health day tomorrow.", "Tomorrow I’ll take a mental health day.", "I think I need to take a mental health day tomorrow."],
+    "keys": { "завтра": "tomorrow" }
+   },
+   {
+    "sit": "Колега приходить на роботу заплаканий після розриву стосунків.",
+    "say": "Візьми день для ментального здоров’я, я тебе підміню.",
+    "ans": ["Take a mental health day — I’ll cover for you.", "Why don’t you take a mental health day? I can cover for you.", "Go take a mental health day, I’ve got you covered."],
+    "keys": { "підміню": "cover*" }
+   },
+   {
+    "sit": "Ти розповідаєш подрузі про нові правила у своїй компанії.",
+    "say": "Тепер у нас можна брати два дні для ментального здоров’я на рік.",
+    "ans": ["We can now take two mental health days a year.", "Now we’re allowed to take two mental health days per year.", "We get to take two mental health days a year now."],
+    "keys": { "два": "two|2", "рік": "year*" }
+   }
+  ]
+ },
+ {
+  "id": 2757, "w": "see a therapist", "uk": "ходити до психотерапевта", "lvl": "B2",
+  "forms": "see|sees|saw|seen|seeing",
+  "tail": "therapist*",
+  "near": "go to therapy|went to therapy|going to therapy|psychologist*|counsel*",
+  "tasks": [
+   {
+    "sit": "Після втрати роботи ти погано спиш і постійно тривожишся. Ділишся з близьким другом.",
+    "say": "Думаю, мені варто піти до психотерапевта.",
+    "ans": ["I think I should see a therapist.", "Maybe I should go and see a therapist.", "Honestly, I think I need to see a therapist."],
+    "keys": { "варто": "should|need*|ought|maybe" }
+   },
+   {
+    "sit": "Колега здивована, що ти так спокійно реагуєш на критику.",
+    "say": "Я вже рік ходжу до психотерапевта — це дуже допомагає.",
+    "ans": ["I’ve been seeing a therapist for a year — it really helps.", "I’ve been seeing a therapist for a year now, and it helps a lot.", "I see a therapist — it’s been a year, and it helps so much."],
+    "keys": { "рік": "year*", "допомагає": "help*" }
+   },
+   {
+    "sit": "Твій син-підліток після булінгу в школі замкнувся в собі. Ти обговорюєш це з дружиною.",
+    "say": "Думаю, йому треба ходити до психотерапевта.",
+    "ans": ["I think he needs to see a therapist.", "Maybe he should start seeing a therapist.", "I really think he should see a therapist."],
+    "keys": { "йому": "he|him|son" }
+   }
+  ]
+ },
+ {
+  "id": 2758, "w": "go to therapy", "uk": "ходити на терапію", "lvl": "B2",
+  "forms": "go|goes|went|gone|going",
+  "tail": "to therapy",
+  "near": "see a therapist|saw a therapist|seeing a therapist|counsel*|psychologist*",
+  "tasks": [
+   {
+    "sit": "Друг питає, що допомогло тобі пережити розлучення.",
+    "say": "Я пів року ходив на терапію.",
+    "ans": ["I went to therapy for six months.", "For half a year, I went to therapy.", "Honestly, I went to therapy for about six months."],
+    "keys": { "пів року": "six|6|half" }
+   },
+   {
+    "sit": "Ти пояснюєш колезі, чому щовівторка йдеш із роботи раніше.",
+    "say": "По вівторках я ходжу на терапію.",
+    "ans": ["I go to therapy on Tuesdays.", "Every Tuesday I go to therapy.", "I go to therapy every Tuesday, so I leave early."],
+    "keys": { "вівторок": "tuesday*" }
+   },
+   {
+    "sit": "Подруга вважає, що психотерапія — це лише для «божевільних».",
+    "say": "Ходити на терапію — це нормально, як ходити до лікаря.",
+    "ans": ["Going to therapy is normal — it’s like going to the doctor.", "It’s totally normal to go to therapy, just like seeing a doctor.", "There’s nothing weird about going to therapy — it’s like a checkup."],
+    "keys": { "нормально": "normal|nothing wrong|nothing weird|okay|ok|fine", "лікар": "doctor*|checkup|check-up|dentist" }
+   }
+  ]
+ },
+ {
+  "id": 2759, "w": "journal your feelings", "uk": "записувати свої почуття в щоденник", "lvl": "B2",
+  "forms": "journal|journals|journaled/journalled|journaled/journalled|journaling/journalling",
+  "tail": "feeling*/emotion*",
+  "near": "write down|wrote down|writing down|diary|write about|wrote about",
+  "tasks": [
+   {
+    "sit": "Подруга не може заснути від тривожних думок. Ти ділишся, що допомагає тобі.",
+    "say": "Спробуй щовечора записувати свої почуття в щоденник.",
+    "ans": ["Try to journal your feelings every evening.", "Try journaling your feelings every night.", "You could try journaling your feelings before bed."],
+    "keys": { "щовечора": "evening*|night*|bed*" }
+   },
+   {
+    "sit": "Після важкої розмови з батьком ти не знаєш, куди подіти емоції. Згадуєш пораду психолога.",
+    "say": "Коли мені погано, я записую свої почуття в щоденник.",
+    "ans": ["When I feel bad, I journal my feelings.", "I journal my feelings whenever I’m upset.", "Whenever I’m down, I just journal my feelings."],
+    "keys": { "погано": "bad|upset|down|sad|awful|low" }
+   },
+   {
+    "sit": "Ти ведеш тренінг з емоційного інтелекту й даєш учасникам домашнє завдання.",
+    "say": "Цього тижня записуйте свої почуття в щоденник по десять хвилин на день.",
+    "ans": ["This week, journal your feelings for ten minutes a day.", "Please journal your feelings for ten minutes every day this week.", "For this week, just journal your feelings ten minutes a day."],
+    "keys": { "десять хвилин": "ten|10", "тиждень": "week" }
+   }
+  ]
+ }
+]

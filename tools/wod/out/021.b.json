@@ -1,0 +1,629 @@
+[
+ {
+  "id": 1159, "w": "shoot", "uk": "кидати (у кільце), бити по воротах", "lvl": "B1",
+  "forms": "shoot|shoots|shot|shot|shooting",
+  "near": "throw*|threw|aim*|dunk*|take a shot",
+  "tasks": [
+   {
+    "sit": "Твій партнер по команді стоїть із мʼячем біля кільця, і його ніхто не закриває.",
+    "say": "Кидай, ти відкритий!",
+    "ans": ["Shoot, you’re open!", "Shoot it, you’re wide open!", "Just shoot, you’re open!"],
+    "keys": { "відкритий": "open|free|alone" }
+   },
+   {
+    "sit": "Ти розповідаєш колезі про своє нове вечірнє хобі.",
+    "say": "Щовечора я кидаю мʼяч у кільце у дворі.",
+    "ans": ["Every evening I shoot hoops in the yard.", "I shoot hoops in the yard every evening.", "I go out and shoot hoops every evening."],
+    "keys": { "щовечора": "evening*|night*" }
+   },
+   {
+    "sit": "Після гри друг питає, чому ти такий засмучений.",
+    "say": "Я весь матч кидав із трьох очок і жодного разу не влучив.",
+    "ans": ["I shot from three all game and missed every time.", "I shot threes all game and didn’t make a single one.", "I kept shooting threes and missed them all."],
+    "keys": { "три очки": "three*|3*", "не влучив": "miss*|not make|not hit|not score|none" }
+   }
+  ]
+ },
+ {
+  "id": 1160, "w": "score", "uk": "забивати (гол), набирати (очки)", "lvl": "B1",
+  "forms": "score|scores|scored|scored|scoring",
+  "near": "got a goal|netted|put it in|win|won|get points|got points",
+  "tasks": [
+   {
+    "sit": "Друг не дивився матч і питає, хто забив.",
+    "say": "Забив наш новий нападник на останній хвилині.",
+    "ans": ["Our new striker scored in the last minute.", "The new striker scored right at the end.", "Our new forward scored in the very last minute!"],
+    "keys": { "нападник": "striker|forward|player|guy", "остання хвилина": "last minute|end|final minute|late" }
+   },
+   {
+    "sit": "Ти забираєш сина з футбольного тренування, і він сяє від щастя. Удома ти розповідаєш про це бабусі.",
+    "say": "Він сьогодні забив два голи!",
+    "ans": ["He scored two goals today!", "Today he scored twice!", "He scored two goals today, can you believe it?"],
+    "keys": { "два": "two|2|twice", "сьогодні": "today" }
+   },
+   {
+    "sit": "На корпоративі ви граєте в дартс, і колега питає, як твої успіхи.",
+    "say": "Я набрав лише двадцять очок.",
+    "ans": ["I only scored twenty points.", "I scored just 20 points.", "I only managed to score twenty points."],
+    "keys": { "двадцять": "twenty|20", "очки": "point*" }
+   }
+  ]
+ },
+ {
+  "id": 1161, "w": "tackle", "uk": "відбирати мʼяч у підкаті, збивати суперника", "lvl": "B2",
+  "forms": "tackle|tackles|tackled|tackled|tackling",
+  "near": "trip*|foul*|knock* down|bring down|brought down|block*",
+  "tasks": [
+   {
+    "sit": "Ви з другом дивитеся матч. Захисник чисто відібрав мʼяч у нападника в підкаті.",
+    "say": "Він чисто збив нападника!",
+    "ans": ["He tackled the striker cleanly!", "He cleanly tackled the forward!", "Wow, he tackled the striker so cleanly!"],
+    "keys": { "чисто": "clean*|perfect*|fair*", "нападник": "striker|forward|attacker|player" }
+   },
+   {
+    "sit": "Ти вперше зіграв у регбі з колегами. Сестра питає, чому ти весь у синцях.",
+    "say": "Мене збивали на землю разів десять.",
+    "ans": ["I got tackled about ten times.", "They tackled me about ten times.", "I was tackled like ten times!"],
+    "keys": { "десять разів": "ten|10|times" }
+   },
+   {
+    "sit": "Ти тренуєш дітей, і один хлопчик грубо збиває суперників ззаду.",
+    "say": "Не збивай гравців ззаду — це небезпечно!",
+    "ans": ["Don’t tackle players from behind — it’s dangerous!", "Never tackle from behind, it’s dangerous!", "Don’t tackle from behind, someone could get hurt!"],
+    "keys": { "ззаду": "behind|back", "небезпечно": "danger*|hurt|injur*|unsafe" }
+   }
+  ]
+ },
+ {
+  "id": 1162, "w": "dribble", "uk": "вести мʼяч, обводити", "lvl": "B2",
+  "forms": "dribble|dribbles|dribbled|dribbled|dribbling",
+  "near": "run with|ran with|carry*|carried|go past|went past|get past|got past",
+  "tasks": [
+   {
+    "sit": "Ти дивишся футбол із другом і захоплюєшся одним гравцем.",
+    "say": "Він обвів трьох захисників!",
+    "ans": ["He dribbled past three defenders!", "He dribbled around three defenders!", "Did you see that? He dribbled past three defenders!"],
+    "keys": { "три": "three|3", "захисники": "defender*|player*|guy*" }
+   },
+   {
+    "sit": "Ти вчиш сина грати в баскетбол на майданчику біля дому.",
+    "say": "Веди мʼяч, не дивлячись на нього.",
+    "ans": ["Dribble without looking at the ball.", "Try to dribble the ball without looking at it.", "Dribble, but don’t look at the ball."],
+    "keys": { "не дивлячись": "without looking|not look*|eyes up|head up" }
+   },
+   {
+    "sit": "Після матчу тренер сердиться на тебе через втрачений мʼяч.",
+    "say": "Вибачте, я надто довго вів мʼяч і втратив його.",
+    "ans": ["Sorry, I dribbled too long and lost the ball.", "Sorry, I was dribbling too much and lost it.", "My bad — I dribbled for too long and lost the ball."],
+    "keys": { "надто довго": "too long|too much|too many", "втратив": "lost|lose" }
+   }
+  ]
+ },
+ {
+  "id": 1164, "w": "hit", "uk": "вдарити (по мʼячу), влучити (у ціль)", "lvl": "A2",
+  "forms": "hit|hits|hit|hit|hitting",
+  "near": "strike*|struck|kick*|smash*|knock*|swing*",
+  "tasks": [
+   {
+    "sit": "Ти вперше граєш у теніс, і мʼяч постійно летить у сітку.",
+    "say": "Я не можу нормально вдарити по мʼячу.",
+    "ans": ["I can’t hit the ball properly.", "I just can’t hit the ball right.", "I can’t hit the ball well at all."],
+    "keys": { "не можу": "not|never", "мʼяч": "ball|it" }
+   },
+   {
+    "sit": "Ти на ярмарку стріляєш із лука по мішені. Друг не дивився, і ти кличеш його.",
+    "say": "Я влучив у самий центр мішені!",
+    "ans": ["I hit the centre of the target!", "I hit the bullseye!", "Look, I hit the very middle of the target!"],
+    "keys": { "центр мішені": "target|bullseye|bull’s-eye|centre|center|middle" }
+   },
+   {
+    "sit": "Ти дивишся бейсбол із племінником.",
+    "say": "Він так сильно вдарив, що мʼяч вилетів зі стадіону.",
+    "ans": ["He hit the ball so hard it flew out of the stadium.", "He hit it so hard that it left the stadium.", "Wow, he hit it right out of the stadium!"],
+    "keys": { "стадіон": "stadium|park|ballpark" }
+   }
+  ]
+ },
+ {
+  "id": 1165, "w": "referee", "uk": "судити (матч)", "lvl": "C1",
+  "forms": "referee|referees|refereed|refereed|refereeing",
+  "near": "judg*|umpir*|officiat*|run the game|ran the game",
+  "tasks": [
+   {
+    "sit": "Колега дивується, що щонеділі ти зникаєш на стадіоні.",
+    "say": "Я суджу аматорські футбольні матчі.",
+    "ans": ["I referee amateur football matches.", "I referee amateur soccer games on Sundays.", "I referee local amateur matches."],
+    "keys": { "аматорські": "amateur|local|kids|youth", "матчі": "match*|game*|football|soccer" }
+   },
+   {
+    "sit": "Перед шкільною грою захворів суддя. Учитель фізкультури розгублено дивиться на тебе.",
+    "say": "Я можу посудити цю гру, якщо треба.",
+    "ans": ["I can referee this game if you need.", "I could referee the game if you want.", "I’ll referee the match if you need someone."],
+    "keys": { "гра": "game|match" }
+   },
+   {
+    "sit": "Ви з другом обговорюєте фінал Ліги чемпіонів.",
+    "say": "Фінал судив італієць.",
+    "ans": ["An Italian refereed the final.", "The final was refereed by an Italian.", "Some Italian guy refereed the final."],
+    "keys": { "фінал": "final", "італієць": "italian*" }
+   }
+  ]
+ },
+ {
+  "id": 1166, "w": "cheat", "uk": "жухати, шахраювати (у грі)", "lvl": "B1",
+  "forms": "cheat|cheats|cheated|cheated|cheating",
+  "near": "trick*|lie|lied|lying|fake*|play dirty|play unfair*",
+  "tasks": [
+   {
+    "sit": "Ти граєш у карти з племінником і помічаєш карту в нього в рукаві.",
+    "say": "Ти жухаєш! Я бачу карту в рукаві.",
+    "ans": ["You’re cheating! I can see the card in your sleeve.", "You cheated! There’s a card up your sleeve.", "Hey, you’re cheating — I see that card up your sleeve!"],
+    "keys": { "карта": "card*", "рукав": "sleeve*" }
+   },
+   {
+    "sit": "Твій суперник в онлайн-грі набирає неймовірно багато очок.",
+    "say": "Мені здається, він жухає за допомогою якоїсь програми.",
+    "ans": ["I think he’s cheating with some program.", "I think he’s using a hack to cheat.", "Pretty sure he’s cheating with some kind of software."],
+    "keys": { "програма": "program*|hack*|software|app|bot|mod*|tool" }
+   },
+   {
+    "sit": "Ви граєте в «Монополію» всією родиною, і брат знову непомітно взяв зайві гроші з банку.",
+    "say": "Годі жухати, поклади гроші назад!",
+    "ans": ["Stop cheating and put the money back!", "Quit cheating, put that money back!", "No cheating — put the money back!"],
+    "keys": { "гроші": "money|cash|note*|bill*", "назад": "back|return*" }
+   }
+  ]
+ },
+ {
+  "id": 1167, "w": "compete", "uk": "змагатися", "lvl": "B1",
+  "forms": "compete|competes|competed|competed|competing",
+  "near": "take part|took part|taking part|participat*|fight*|race*|enter*",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш колезі про свою доньку-гімнастку.",
+    "say": "У травні вона змагатиметься на чемпіонаті країни.",
+    "ans": ["In May she’ll compete in the national championship.", "She’s competing in the national championship in May.", "She’s going to compete at nationals in May!"],
+    "keys": { "травень": "may", "чемпіонат": "championship*|national*|competition|tournament" }
+   },
+   {
+    "sit": "Ти подав заявку на кулінарний конкурс і ділишся новиною з другом.",
+    "say": "Я змагатимуся з двадцятьма іншими кухарями за головний приз.",
+    "ans": ["I’ll compete with twenty other cooks for the main prize.", "I’m competing against 20 other chefs for the top prize.", "I’m going to compete against twenty other chefs for the grand prize."],
+    "keys": { "двадцять": "twenty|20", "приз": "prize*|award|title" }
+   },
+   {
+    "sit": "Мама скаржиться, що твої діти постійно сперечаються, хто з них перший.",
+    "say": "Вони завжди змагаються одне з одним.",
+    "ans": ["They always compete with each other.", "They’re always competing with one another.", "Those two are always competing with each other."],
+    "keys": { "завжди": "always|constantly|all the time", "одне з одним": "each other|one another" }
+   }
+  ]
+ },
+ {
+  "id": 1168, "w": "win", "uk": "вигравати", "lvl": "A1",
+  "forms": "win|wins|won|won|winning",
+  "near": "beat*|defeat*|came first|come first|took first|take first",
+  "tasks": [
+   {
+    "sit": "Друг питає, як пройшов учорашній матч твоєї команди.",
+    "say": "Ми виграли три — один!",
+    "ans": ["We won three–one!", "We won the game three to one!", "We won, 3–1!"],
+    "keys": { "три": "three|3" }
+   },
+   {
+    "sit": "Ти перевіряєш лотерейний квиток і не віриш своїм очам.",
+    "say": "Я виграв тисячу гривень!",
+    "ans": ["I won a thousand hryvnias!", "I’ve won one thousand hryvnias!", "No way, I won a thousand hryvnias!"],
+    "keys": { "тисяча": "thousand|1000" }
+   },
+   {
+    "sit": "Твоя донька повертається зі шкільних змагань із медаллю. Ти телефонуєш бабусі.",
+    "say": "Вона виграла золоту медаль!",
+    "ans": ["She won a gold medal!", "She won the gold medal!", "She’s won gold!"],
+    "keys": { "золота медаль": "gold*|medal*" }
+   }
+  ]
+ },
+ {
+  "id": 1169, "w": "lose", "uk": "програвати", "lvl": "A1",
+  "forms": "lose|loses|lost|lost|losing",
+  "near": "defeated|beaten|got beat|come last|came last",
+  "tasks": [
+   {
+    "sit": "Твоя улюблена команда вчора грала фінал. Колега питає, який результат.",
+    "say": "Ми програли в серії пенальті.",
+    "ans": ["We lost on penalties.", "We lost in a penalty shootout.", "We lost the final on penalties."],
+    "keys": { "пенальті": "penalt*|shoot*" }
+   },
+   {
+    "sit": "Ти граєш у шахи з дідусем, і він знову ставить тобі мат.",
+    "say": "Я знову тобі програв!",
+    "ans": ["I lost to you again!", "I’ve lost again!", "Oh no, I lost again!"],
+    "keys": { "знову": "again" }
+   },
+   {
+    "sit": "Ви з другом посперечалися, хто швидше добіжить до зупинки, і ти прибіг другим.",
+    "say": "Гаразд, я програв, кава з мене.",
+    "ans": ["Okay, I lost, I’ll buy the coffee.", "Fine, I lost — coffee’s on me.", "All right, I lost, so I’ll get the coffee."],
+    "keys": { "кава": "coffee" }
+   }
+  ]
+ },
+ {
+  "id": 1170, "w": "draw", "uk": "зіграти внічию", "lvl": "B2",
+  "forms": "draw|draws|drew|drawn|drawing",
+  "near": "tie|tied|tying|ties|level|even",
+  "tasks": [
+   {
+    "sit": "Друг питає, чим закінчився вчорашній матч збірної.",
+    "say": "Ми зіграли внічию з Англією.",
+    "ans": ["We drew with England.", "We drew against England last night.", "England? We drew with them."],
+    "keys": { "Англія": "england|english|them" }
+   },
+   {
+    "sit": "Ти розповідаєш тренерові про свій шаховий турнір.",
+    "say": "Дві партії я виграв, а дві зіграв унічию.",
+    "ans": ["I won two games and drew two.", "I drew two games and won the other two.", "Two wins, and I drew the other two."],
+    "keys": { "дві": "two|2" }
+   },
+   {
+    "sit": "Колега-вболівальник дивується, чому ваша команда не вийшла в плей-оф.",
+    "say": "Вони зіграли внічию останні три матчі.",
+    "ans": ["They drew their last three matches.", "They’ve drawn the last three games.", "They drew three games in a row at the end."],
+    "keys": { "три": "three|3", "матчі": "match*|game*" }
+   }
+  ]
+ },
+ {
+  "id": 1171, "w": "defeat", "uk": "перемагати (когось)", "lvl": "B2",
+  "forms": "defeat|defeats|defeated|defeated|defeating",
+  "near": "beat|beats|beaten|win|won|crush*|thrash*",
+  "tasks": [
+   {
+    "sit": "Ти обговорюєш із колегою вчорашній хокейний матч збірної.",
+    "say": "Наші перемогли чемпіонів світу!",
+    "ans": ["Our team defeated the world champions!", "We defeated the world champions!", "Can you believe it? We defeated the world champions!"],
+    "keys": { "чемпіони світу": "champion*|world" }
+   },
+   {
+    "sit": "Ти читаєш новини про вибори мера і коментуєш їх сусідці.",
+    "say": "Молодий кандидат переміг чинного мера.",
+    "ans": ["A young candidate defeated the current mayor.", "The current mayor was defeated by a young candidate.", "Some young candidate defeated the sitting mayor."],
+    "keys": { "мер": "mayor", "молодий": "young|new" }
+   },
+   {
+    "sit": "Ти нарешті пройшов найскладніший рівень у відеогрі й хвалишся братові.",
+    "say": "Я нарешті переміг фінального боса!",
+    "ans": ["I finally defeated the final boss!", "I’ve finally defeated the last boss!", "I finally defeated that boss, at last!"],
+    "keys": { "бос": "boss*", "нарешті": "finally|at last" }
+   }
+  ]
+ },
+ {
+  "id": 1172, "w": "beat", "uk": "побити (рекорд, результат)", "lvl": "A2",
+  "forms": "beat|beats|beat|beaten|beating",
+  "near": "break*|broke|broken|set a new|improv*|top*",
+  "tasks": [
+   {
+    "sit": "Ти щойно пробіг пʼять кілометрів і дивишся на годинник.",
+    "say": "Я побив свій особистий рекорд!",
+    "ans": ["I beat my personal record!", "I’ve beaten my personal best!", "Yes! I beat my PB!"],
+    "keys": { "особистий рекорд": "record*|best|pb" }
+   },
+   {
+    "sit": "Ти вже годину граєш у гру на телефоні, бо друг похвалився своїм результатом.",
+    "say": "Я маю побити його рахунок!",
+    "ans": ["I have to beat his score!", "I need to beat his high score!", "I’m going to beat his score, just watch!"],
+    "keys": { "рахунок": "score*|record|points" }
+   },
+   {
+    "sit": "Ви з колегами дивитеся Олімпіаду в перерві.",
+    "say": "Вона побила світовий рекорд на дві секунди!",
+    "ans": ["She beat the world record by two seconds!", "She’s beaten the world record by two seconds!", "Wow, she beat the world record by two whole seconds!"],
+    "keys": { "світовий рекорд": "record", "дві секунди": "two|2|second*" }
+   }
+  ]
+ },
+ {
+  "id": 1173, "w": "qualify", "uk": "кваліфікуватися, вийти (у наступний етап)", "lvl": "B2",
+  "forms": "qualify|qualifies|qualified|qualified|qualifying",
+  "near": "get through|got through|go through|went through|reach*|make it|made it|advanc*",
+  "tasks": [
+   {
+    "sit": "Друг питає, чому ти такий щасливий після матчу.",
+    "say": "Наша команда вийшла у фінал!",
+    "ans": ["Our team qualified for the final!", "We’ve qualified for the final!", "We qualified for the final, can you believe it?"],
+    "keys": { "фінал": "final*" }
+   },
+   {
+    "sit": "Колега питає, навіщо тобі ще один забіг у жовтні.",
+    "say": "Мені треба кваліфікуватися на Бостонський марафон.",
+    "ans": ["I need to qualify for the Boston Marathon.", "I have to qualify for the Boston marathon.", "I’m trying to qualify for Boston."],
+    "keys": { "Бостон": "boston" }
+   },
+   {
+    "sit": "Ти читаєш спортивні новини вголос за сніданком.",
+    "say": "Три наші спортсменки кваліфікувалися на Олімпіаду.",
+    "ans": ["Three of our athletes qualified for the Olympics.", "Three Ukrainian athletes have qualified for the Olympics.", "Three of our girls qualified for the Olympics!"],
+    "keys": { "три": "three|3", "Олімпіада": "olympic*|games" }
+   }
+  ]
+ },
+ {
+  "id": 1174, "w": "cheer on", "uk": "уболівати (підбадьорювати)", "lvl": "B1",
+  "forms": "cheer|cheers|cheered|cheered|cheering",
+  "tail": "on",
+  "near": "support*|root* for|cheer* for|shout* for",
+  "tasks": [
+   {
+    "sit": "Твоя донька бігає шкільні перегони. Біля фінішу знайома питає, що ви тут робите.",
+    "say": "Ми прийшли вболівати за неї.",
+    "ans": ["We came to cheer her on.", "We’re here to cheer her on.", "We’ve come to cheer her on!"],
+    "keys": { "прийшли": "came|come|here" }
+   },
+   {
+    "sit": "Твій друг уперше біжить марафон і хвилюється.",
+    "say": "Я вболіватиму за тебе на двадцятому кілометрі.",
+    "ans": ["I’ll cheer you on at kilometre 20.", "I’m going to cheer you on at the 20 km mark.", "I’ll be at kilometre twenty to cheer you on!"],
+    "keys": { "двадцятий": "twent*|20*" }
+   },
+   {
+    "sit": "Ти вперше на стадіоні з колегами. Наступного дня розповідаєш про враження сестрі.",
+    "say": "Уся трибуна вболівала за нашу команду.",
+    "ans": ["The whole stand cheered our team on.", "The whole crowd was cheering our team on.", "Everyone in the stands cheered our team on."],
+    "keys": { "уся трибуна": "whole|everyone|all|crowd", "команда": "team|guys|players" }
+   }
+  ]
+ },
+ {
+  "id": 1175, "w": "foul", "uk": "фолити, порушувати правила (на гравцеві)", "lvl": "C1",
+  "forms": "foul|fouls|fouled|fouled|fouling",
+  "near": "trip*|kick*|tackl*|push*|elbow*|hack*",
+  "tasks": [
+   {
+    "sit": "Ви з друзями дивитеся матч, і суддя показує червону картку.",
+    "say": "Він грубо сфолив на нападникові ззаду.",
+    "ans": ["He fouled the striker from behind.", "He badly fouled the forward from behind.", "He fouled the striker from behind — that’s a clear red!"],
+    "keys": { "нападник": "striker|forward|attacker|player", "ззаду": "behind|back" }
+   },
+   {
+    "sit": "Ти граєш у баскетбол із колегами, і під час кидка тебе штовхнули.",
+    "say": "На мені сфолили, я маю право на штрафні!",
+    "ans": ["I was fouled, I get free throws!", "He fouled me — that’s free throws!", "Foul! He fouled me, so I get free throws!"],
+    "keys": { "штрафні": "free throw*|shot*|penalt*" }
+   },
+   {
+    "sit": "Твій син-футболіст отримав дві жовті картки за сезон, і ти говориш із ним після гри.",
+    "say": "Ти забагато фолиш, тебе вилучать.",
+    "ans": ["You foul too much, you’ll get sent off.", "You’re fouling too often — they’ll send you off.", "Stop fouling so much or you’ll be sent off."],
+    "keys": { "забагато": "too much|too often|so much|a lot|stop", "вилучать": "sent off|send you off|red card|out" }
+   }
+  ]
+ },
+ {
+  "id": 1176, "w": "sub in", "uk": "випускати на заміну", "lvl": "C1",
+  "forms": "sub|subs|subbed|subbed|subbing",
+  "tail": "in",
+  "near": "bring on|brought on|put on|put him on|substitut*|replace*",
+  "tasks": [
+   {
+    "sit": "Ти тренуєш аматорську команду. Один гравець уже ледве бігає. Ти радишся з помічником.",
+    "say": "Давай випустимо новенького на заміну.",
+    "ans": ["Let’s sub in the new guy.", "Let’s sub the new guy in.", "Why don’t we sub the new kid in?"],
+    "keys": { "новенький": "new" }
+   },
+   {
+    "sit": "Ти дивишся матч із другом. Тренер довго не робить замін, а команда програє.",
+    "say": "Чому він досі не випустив молодого нападника?",
+    "ans": ["Why hasn’t he subbed in the young striker yet?", "Why hasn’t the young striker been subbed in?", "Come on, he should sub in the young striker!"],
+    "keys": { "молодий": "young|kid", "нападник": "striker|forward|attacker" }
+   },
+   {
+    "sit": "Ти граєш у шкільній баскетбольній команді. Друг питає, чи ти грав у фіналі.",
+    "say": "Мене випустили лише на останні пʼять хвилин.",
+    "ans": ["They only subbed me in for the last five minutes.", "I was subbed in for just the last five minutes.", "Coach only subbed me in for the last five minutes."],
+    "keys": { "пʼять хвилин": "five|5|minute*", "лише": "only|just" }
+   }
+  ]
+ },
+ {
+  "id": 1178, "w": "dive", "uk": "пірнати, стрибати у воду", "lvl": "B1",
+  "forms": "dive|dives|dived/dove|dived|diving",
+  "near": "jump*|swim*|plung*|go under",
+  "tasks": [
+   {
+    "sit": "Ти в басейні з другом, який боїться висоти.",
+    "say": "Дивись, як я пірну з трьох метрів!",
+    "ans": ["Watch me dive from three meters!", "Look, I’m going to dive off the three-meter board!", "Watch this — I’ll dive from the three-meter board!"],
+    "keys": { "три метри": "three|3", "дивись": "watch|look" }
+   },
+   {
+    "sit": "Колега питає, як минула твоя відпустка в Греції.",
+    "say": "Ми щодня пірнали зі скель у море.",
+    "ans": ["We dived off the rocks into the sea every day.", "Every day we dove off the cliffs into the sea.", "We dived off the rocks every single day!"],
+    "keys": { "скелі": "rock*|cliff*" }
+   },
+   {
+    "sit": "Ти бачиш, як підліток збирається стрибнути з пірсу в мілке озеро.",
+    "say": "Не пірнай, тут дуже мілко!",
+    "ans": ["Don’t dive, it’s too shallow here!", "Don’t dive in, the water’s very shallow!", "Hey, don’t dive — it’s really shallow!"],
+    "keys": { "мілко": "shallow|not deep" }
+   }
+  ]
+ },
+ {
+  "id": 1179, "w": "snorkel", "uk": "плавати з маскою і трубкою", "lvl": "B2",
+  "forms": "snorkel|snorkels|snorkeled/snorkelled|snorkeled/snorkelled|snorkeling/snorkelling",
+  "near": "dive|dived|diving|swim*|scuba",
+  "tasks": [
+   {
+    "sit": "Ти показуєш колезі фото з відпустки в Єгипті.",
+    "say": "Ми щодня плавали з трубкою біля рифу.",
+    "ans": ["We snorkeled by the reef every day.", "Every day we snorkeled near the reef.", "We went snorkeling on the reef every day."],
+    "keys": { "риф": "reef*|coral*", "щодня": "every day|daily" }
+   },
+   {
+    "sit": "Ти в спортивному магазині, і продавець питає, що тобі потрібно.",
+    "say": "Мені потрібна маска, бо я вперше плаватиму з трубкою.",
+    "ans": ["I need a mask because I’m going to snorkel for the first time.", "I need a mask — it’s my first time snorkeling.", "I’m snorkeling for the first time, so I need a mask."],
+    "keys": { "маска": "mask*", "вперше": "first" }
+   },
+   {
+    "sit": "Сестра питає, чи можна брати дітей на морську екскурсію до острова.",
+    "say": "Так, діти теж можуть плавати з трубкою в рятувальних жилетах.",
+    "ans": ["Yes, kids can snorkel too, with life jackets.", "Sure, the kids can snorkel in life vests.", "Yeah, kids can snorkel too if they wear vests."],
+    "keys": { "діти": "kid*|child*", "жилети": "vest*|jacket*" }
+   }
+  ]
+ },
+ {
+  "id": 1180, "w": "surf", "uk": "серфити, кататися на дошці по хвилях", "lvl": "B2",
+  "forms": "surf|surfs|surfed|surfed|surfing",
+  "near": "ride* wave*|rode wave*|board*|swim*",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш другові, чому поїхав саме на Балі.",
+    "say": "Я хотів навчитися серфити.",
+    "ans": ["I wanted to learn to surf.", "I wanted to learn how to surf.", "I really wanted to learn to surf."],
+    "keys": { "навчитися": "learn*" }
+   },
+   {
+    "sit": "Ви з друзями на узбережжі, але море сьогодні зовсім спокійне.",
+    "say": "Сьогодні немає хвиль, серфити не вийде.",
+    "ans": ["There are no waves today, so we can’t surf.", "We can’t surf today, there are no waves.", "No waves today — we can’t surf."],
+    "keys": { "хвилі": "wave*", "сьогодні": "today" }
+   },
+   {
+    "sit": "Колега дивується, чому ти щоранку приходиш в офіс із мокрим волоссям.",
+    "say": "Я серфлю перед роботою.",
+    "ans": ["I surf before work.", "I go surfing before work.", "I surf every morning before work."],
+    "keys": { "робота": "work|office|job" }
+   }
+  ]
+ },
+ {
+  "id": 1181, "w": "paddle", "uk": "веслувати, гребти (одним веслом)", "lvl": "B2",
+  "forms": "paddle|paddles|paddled|paddled|paddling",
+  "near": "row|rows|rowed|rowing|kayak*",
+  "tasks": [
+   {
+    "sit": "Ви з другом у каное, і течія зносить вас на камені.",
+    "say": "Греби сильніше зліва!",
+    "ans": ["Paddle harder on the left!", "Paddle harder on the left side!", "Quick, paddle harder on the left!"],
+    "keys": { "зліва": "left", "сильніше": "hard*|fast*" }
+   },
+   {
+    "sit": "Подруга питає, що це за довга дошка в тебе на даху машини.",
+    "say": "Я стою на ній і гребу веслом по озеру.",
+    "ans": ["I stand on it and paddle around the lake.", "I paddle across the lake standing on it.", "I just stand on it and paddle on the lake."],
+    "keys": { "озеро": "lake|river|water" }
+   },
+   {
+    "sit": "Ти розповідаєш колегам про сплав на вихідних.",
+    "say": "Ми гребли шість годин проти течії.",
+    "ans": ["We paddled upstream for six hours.", "We paddled against the current for six hours.", "We paddled six hours upstream!"],
+    "keys": { "шість годин": "six|6|hour*", "проти течії": "upstream|against the current|current" }
+   }
+  ]
+ },
+ {
+  "id": 1182, "w": "row", "uk": "веслувати (двома веслами)", "lvl": "B1",
+  "forms": "row|rows|rowed|rowed|rowing",
+  "near": "paddl*|kayak*|sail*",
+  "tasks": [
+   {
+    "sit": "Ви з мамою взяли в парку човен напрокат.",
+    "say": "Я гребтиму, а ти відпочивай.",
+    "ans": ["I’ll row, and you relax.", "I’ll row the boat — you just relax.", "Let me row, you just rest."],
+    "keys": { "відпочивай": "relax*|rest*|chill*|enjoy" }
+   },
+   {
+    "sit": "Нові знайомі питають, яким спортом ти займався в студентські роки.",
+    "say": "В університеті я займався академічним веслуванням.",
+    "ans": ["I rowed at university.", "I used to row in college.", "I rowed for my uni team back in the day."],
+    "keys": { "університет": "universit*|college|uni|student*" }
+   },
+   {
+    "sit": "Мотор човна зламався посеред озера, і друг панікує.",
+    "say": "Нічого страшного, догребемо до берега.",
+    "ans": ["It’s fine, we’ll row to the shore.", "Don’t worry, we can row back to shore.", "Relax, we’ll just row back to the shore."],
+    "keys": { "берег": "shore|bank|land|beach|dock" }
+   }
+  ]
+ },
+ {
+  "id": 1183, "w": "kayak", "uk": "плавати на каяку", "lvl": "C1",
+  "forms": "kayak|kayaks|kayaked|kayaked|kayaking",
+  "near": "paddl*|canoe*|row|rowed|rowing|raft*",
+  "tasks": [
+   {
+    "sit": "Колега питає, як ти провів відпустку в Норвегії.",
+    "say": "Ми цілий тиждень пливли на каяках уздовж фіордів.",
+    "ans": ["We kayaked along the fjords for a week.", "We spent a week kayaking along the fjords.", "We kayaked through the fjords for a whole week!"],
+    "keys": { "фіорди": "fjord*", "тиждень": "week*" }
+   },
+   {
+    "sit": "Друзі кличуть тебе на сплав річкою, а ти вагаєшся.",
+    "say": "Я ніколи раніше не плавав на каяку.",
+    "ans": ["I’ve never kayaked before.", "I have never been kayaking.", "I’ve never gone kayaking before, to be honest."],
+    "keys": { "ніколи": "never|not" }
+   },
+   {
+    "sit": "Ти гуляєш Києвом з іноземним туристом.",
+    "say": "Улітку тут можна пропливти на каяку Дніпром.",
+    "ans": ["In summer you can kayak down the Dnipro here.", "You can kayak on the Dnipro in the summer.", "In summer, you can go kayaking down the Dnipro."],
+    "keys": { "Дніпро": "dnipro|dnieper|river", "улітку": "summer" }
+   }
+  ]
+ },
+ {
+  "id": 1184, "w": "float", "uk": "триматися на воді, лежати на поверхні", "lvl": "B1",
+  "forms": "float|floats|floated|floated|floating",
+  "near": "swim*|drift*|stay up|not sink|do not sink",
+  "tasks": [
+   {
+    "sit": "Ти вчиш доньку плавати, а вона боїться піти під воду.",
+    "say": "Ляж на спину й розслабся — ти триматимешся на воді.",
+    "ans": ["Lie on your back and relax — you’ll float.", "Lie on your back, relax, and you’ll float.", "Just lie back and relax, you’ll float."],
+    "keys": { "спина": "back", "розслабся": "relax*|calm" }
+   },
+   {
+    "sit": "Ти розповідаєш колегам про поїздку на Мертве море.",
+    "say": "Вода там така солона, що ти просто лежиш на поверхні.",
+    "ans": ["The water is so salty that you just float.", "It’s so salty you float on top of the water.", "The water’s so salty, you just float!"],
+    "keys": { "солона": "salt*" }
+   },
+   {
+    "sit": "Ти з малим сином у ванні, і він кидає у воду гумову качечку й камінець.",
+    "say": "Дивись, качечка плаває, а камінь тоне.",
+    "ans": ["Look, the duck floats, but the stone sinks.", "The duck floats and the stone sinks.", "See? The duck floats and the stone goes down."],
+    "keys": { "качечка": "duck*|toy", "камінь": "stone|rock|pebble" }
+   }
+  ]
+ },
+ {
+  "id": 1185, "w": "rain", "uk": "іти (про дощ)", "lvl": "A1",
+  "forms": "rain|rains|rained|rained|raining",
+  "near": "pour*|drizzl*|shower*|wet|storm*",
+  "tasks": [
+   {
+    "sit": "Сестра збирається на прогулянку, а ти дивишся у вікно.",
+    "say": "Надворі йде дощ, візьми парасольку.",
+    "ans": ["It’s raining outside, take an umbrella.", "It’s raining, so take an umbrella.", "It’s raining out — grab an umbrella."],
+    "keys": { "парасолька": "umbrella*" }
+   },
+   {
+    "sit": "Ти повернувся з Лондона, і друг питає, яка там була погода.",
+    "say": "Там щодня йшов дощ.",
+    "ans": ["It rained every day there.", "It rained every single day.", "It was raining there every day!"],
+    "keys": { "щодня": "every day|each day|every single day|daily" }
+   },
+   {
+    "sit": "Ти організовуєш корпоратив на природі, і колега питає про запасний план.",
+    "say": "Якщо піде дощ, перенесемо все в офіс.",
+    "ans": ["If it rains, we’ll move everything into the office.", "If it rains, we’ll move it to the office.", "If it starts raining, we’ll just go to the office."],
+    "keys": { "офіс": "office|inside|indoors" }
+   }
+  ]
+ }
+]

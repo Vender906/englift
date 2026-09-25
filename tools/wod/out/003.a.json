@@ -1,0 +1,627 @@
+[
+ {
+  "id": 102, "w": "understand", "uk": "розуміти", "lvl": "A1",
+  "forms": "understand|understands|understood|understood|understanding",
+  "near": "get it|got it|get|got|follow|followed|see what you mean|makes sense|make sense|figure out|figured out",
+  "tasks": [
+   {
+    "sit": "Колега розповідає анекдот, усі сміються, а ти не вловив, у чому суть.",
+    "say": "Вибач, я не зрозумів жарт.",
+    "ans": ["Sorry, I didn’t understand the joke.", "Sorry, I don’t understand the joke.", "Sorry, I didn’t really understand that joke."],
+    "keys": { "жарт": "joke*|it|that", "не": "not|never" }
+   },
+   {
+    "sit": "Ти в аптеці за кордоном. Фармацевт швидко пояснює, як приймати ліки.",
+    "say": "Перепрошую, я не розумію. Можете говорити повільніше?",
+    "ans": ["Sorry, I don’t understand. Can you speak more slowly?", "I’m sorry, I don’t understand you. Could you speak slower?", "Sorry, I don’t understand — can you slow down a bit?"],
+    "keys": { "повільніше": "slow*", "не": "not|never" }
+   },
+   {
+    "sit": "Учитель математики пояснив нову тему, і тепер усе склалося в голові.",
+    "say": "Тепер я нарешті розумію, як це працює.",
+    "ans": ["Now I finally understand how it works.", "I finally understand how this works now.", "Oh, now I finally understand how it works!"],
+    "keys": { "нарешті": "finally|at last", "працює": "work*" }
+   }
+  ]
+ },
+ {
+  "id": 104, "w": "remember", "uk": "памʼятати", "lvl": "A1",
+  "forms": "remember|remembers|remembered|remembered|remembering",
+  "near": "recall|recalled|recalling|recollect*|not forget|did not forget|do not forget|never forget|never forgot",
+  "tasks": [
+   {
+    "sit": "Сьогодні день народження подруги. Ти дзвониш їй зранку, і вона дуже здивована.",
+    "say": "Звісно, я памʼятаю твій день народження!",
+    "ans": ["Of course I remember your birthday!", "Of course I remembered your birthday!", "Come on, of course I remember your birthday!"],
+    "keys": { "день народження": "birthday*|b-day", "звісно": "of course|sure|course|obviously" }
+   },
+   {
+    "sit": "Ви з братом розглядаєте старі фото з дитинства й бачите ваш перший будинок біля моря.",
+    "say": "Я досі памʼятаю цей будинок.",
+    "ans": ["I still remember this house.", "I still remember that house.", "Wow, I still remember that house!"],
+    "keys": { "будинок": "house|home|place", "досі": "still" }
+   },
+   {
+    "sit": "Ти стоїш біля дверей квартири й шукаєш ключі по кишенях.",
+    "say": "Не памʼятаю, куди я поклав ключі.",
+    "ans": ["I don’t remember where I put my keys.", "I can’t remember where I left my keys.", "I just can’t remember where I put the keys."],
+    "keys": { "ключі": "key*", "не": "not|never" }
+   }
+  ]
+ },
+ {
+  "id": 106, "w": "recall", "uk": "пригадувати", "lvl": "B1",
+  "forms": "recall|recalls|recalled|recalled|recalling",
+  "near": "remember|remembered|remembering|recollect*|think of|thought of",
+  "tasks": [
+   {
+    "sit": "Поліцейський розпитує тебе про ДТП, яке ти бачив тиждень тому.",
+    "say": "Я не можу пригадати всіх деталей.",
+    "ans": ["I can’t recall all the details.", "I don’t recall every detail.", "Honestly, I can’t recall all the details."],
+    "keys": { "деталі": "detail*|everything", "не": "not|never" }
+   },
+   {
+    "sit": "На нараді колега каже, що вчора відправив тобі звіт. Ти такого листа не бачив.",
+    "say": "Не пригадую, щоб я отримував цей звіт.",
+    "ans": ["I don’t recall getting that report.", "I don’t recall receiving the report.", "Sorry, I don’t recall ever getting that report."],
+    "keys": { "звіт": "report*|it|email|that", "отримував": "get*|got|receiv*|see*|saw" }
+   },
+   {
+    "sit": "На зустрічі випускників до тебе підходить знайома людина, але імʼя вилетіло з голови.",
+    "say": "Я не можу пригадати, як її звати.",
+    "ans": ["I can’t recall her name.", "I can’t recall what her name is.", "I just can’t recall her name right now."],
+    "keys": { "імʼя": "name*", "не": "not|never" }
+   }
+  ]
+ },
+ {
+  "id": 107, "w": "imagine", "uk": "уявляти", "lvl": "A2",
+  "forms": "imagine|imagines|imagined|imagined|imagining",
+  "near": "picture|pictured|picturing|think|thought|dream|dreamed|dreamt|envision*|visualize*",
+  "tasks": [
+   {
+    "sit": "Ти мрієш про переїзд і розповідаєш подрузі, яким бачиш своє майбутнє.",
+    "say": "Я уявляю себе в маленькому будинку біля моря.",
+    "ans": ["I imagine myself in a small house by the sea.", "I can imagine myself living in a little house by the sea.", "I always imagine myself in a small house near the sea."],
+    "keys": { "будинок": "house|home|cottage", "море": "sea|ocean|beach|coast" }
+   },
+   {
+    "sit": "Друг розповідає, що просидів у ліфті три години без звʼязку.",
+    "say": "Навіть не можу уявити, як це було страшно.",
+    "ans": ["I can’t even imagine how scary that was.", "I can’t imagine how frightening that must have been.", "Wow, I can’t even imagine how scary that was!"],
+    "keys": { "страшно": "scar*|frighten*|terrif*|awful|horrible", "не": "not|never" }
+   },
+   {
+    "sit": "Ти перший тиждень у новому місті й розповідаєш мамі по телефону, що воно зовсім інше, ніж ти думав.",
+    "say": "Я уявляв це місто зовсім інакше.",
+    "ans": ["I imagined this city very differently.", "I imagined the city to be completely different.", "Honestly, I imagined this city totally differently."],
+    "keys": { "місто": "city|town|place", "інакше": "different*|another way|other" }
+   }
+  ]
+ },
+ {
+  "id": 108, "w": "dream", "uk": "мріяти; бачити сон", "lvl": "A2",
+  "forms": "dream|dreams|dreamt/dreamed|dreamt/dreamed|dreaming",
+  "near": "wish|wished|wishing|want|wanted|hope|hoped|fantasize*|fantasise*|imagine*",
+  "tasks": [
+   {
+    "sit": "Колега питає, куди ти поїхав би, якби мав гроші й відпустку.",
+    "say": "Я завжди мріяв побачити Париж.",
+    "ans": ["I’ve always dreamed of seeing Paris.", "I have always dreamt of visiting Paris.", "I’ve always dreamed about going to Paris."],
+    "keys": { "Париж": "paris", "завжди": "always|all my life|forever" }
+   },
+   {
+    "sit": "Зранку за сніданком розповідаєш сестрі про дивний сон.",
+    "say": "Мені сьогодні наснилося, що я вмію літати.",
+    "ans": ["Last night I dreamed that I could fly.", "I dreamt I could fly last night.", "I had a weird night — I dreamed I could fly!"],
+    "keys": { "літати": "fly|flying|flew" }
+   },
+   {
+    "sit": "Твій син отримав місце в дитячій футбольній команді. Ти ділишся з другом.",
+    "say": "Він мріяв про це з пяти років.",
+    "ans": ["He has dreamed of this since he was five.", "He’s been dreaming about this since he was five.", "He’s dreamed about this since he was five years old!"],
+    "keys": { "з пяти років": "five|5*" }
+   }
+  ]
+ },
+ {
+  "id": 109, "w": "doubt", "uk": "сумніватися", "lvl": "B1",
+  "forms": "doubt|doubts|doubted|doubted|doubting",
+  "near": "not sure|not think|do not think|not believe|do not believe|question*|unsure|not certain|suspect*",
+  "tasks": [
+   {
+    "sit": "Колега обіцяв прийти на твій день народження, але він завжди все пропускає.",
+    "say": "Сумніваюся, що він прийде.",
+    "ans": ["I doubt he’ll come.", "I doubt that he will come.", "Honestly, I doubt he’ll show up."],
+    "keys": { "прийде": "come|coming|show up|turn up|make it" }
+   },
+   {
+    "sit": "Команда пропонує запустити новий продукт за два тижні. Тобі здається, що це нереально.",
+    "say": "Я сумніваюся, що цей план спрацює.",
+    "ans": ["I doubt this plan will work.", "I doubt that the plan is going to work.", "To be honest, I doubt this plan will work."],
+    "keys": { "план": "plan|it|idea", "спрацює": "work*|succeed*" }
+   },
+   {
+    "sit": "Друг вагається, чи подавати документи в престижний університет. Ти віриш у нього.",
+    "say": "Ніколи не сумнівайся в собі.",
+    "ans": ["Never doubt yourself.", "Don’t ever doubt yourself.", "Hey, never doubt yourself, okay?"],
+    "keys": { "собі": "yourself", "ніколи": "never|not ever|not" }
+   }
+  ]
+ },
+ {
+  "id": 110, "w": "expect", "uk": "очікувати", "lvl": "A2",
+  "forms": "expect|expects|expected|expected|expecting",
+  "near": "wait|waited|waiting|hope|hoped|hoping|anticipate*|think|thought|count on",
+  "tasks": [
+   {
+    "sit": "Ти пройшов співбесіду, і компанія обіцяла відповісти цього тижня.",
+    "say": "Я очікую гарних новин від них.",
+    "ans": ["I’m expecting good news from them.", "I expect some good news from them.", "I’m really expecting good news from them this week."],
+    "keys": { "гарні новини": "good news|news", "від них": "them|company" }
+   },
+   {
+    "sit": "Ти прийшов на концерт маловідомого гурту, а там повна зала людей.",
+    "say": "Я не очікував, що буде стільки людей.",
+    "ans": ["I didn’t expect so many people.", "I didn’t expect there to be so many people.", "Wow, I didn’t expect this many people!"],
+    "keys": { "стільки людей": "people|crowd|many", "не": "not|never" }
+   },
+   {
+    "sit": "Ти вдома чекаєш на курʼєра, тому не хочеш виходити.",
+    "say": "Я чекаю посилку сьогодні.",
+    "ans": ["I’m expecting a parcel today.", "I expect a package to arrive today.", "I can’t go out — I’m expecting a delivery today."],
+    "keys": { "посилка": "parcel|package|delivery", "сьогодні": "today|this afternoon|this morning" }
+   }
+  ]
+ },
+ {
+  "id": 111, "w": "predict", "uk": "передбачати", "lvl": "B1",
+  "forms": "predict|predicts|predicted|predicted|predicting",
+  "near": "forecast*|foresee*|foresaw|guess*|expect*|say|said|tell|told",
+  "tasks": [
+   {
+    "sit": "Ти плануєш пікнік на вихідні й перевіряєш погоду в застосунку.",
+    "say": "Вони передбачають дощ на суботу.",
+    "ans": ["They’re predicting rain for Saturday.", "They predict rain on Saturday.", "Ugh, they’re predicting rain on Saturday."],
+    "keys": { "дощ": "rain*|storm*|shower*", "субота": "saturday|weekend" }
+   },
+   {
+    "sit": "Перед фіналом чемпіонату друзі в чаті роблять ставки.",
+    "say": "Я передбачаю, що вони виграють два-нуль.",
+    "ans": ["I predict they’ll win two-nil.", "I predict that they will win 2–0.", "Okay, I predict they’ll win two-nothing."],
+    "keys": { "виграють": "win*|won|beat*", "два": "two|2*" }
+   },
+   {
+    "sit": "На лекції з економіки викладач питає, чому ніхто не помітив кризу заздалегідь.",
+    "say": "Ніхто не міг передбачити цю кризу.",
+    "ans": ["Nobody could predict this crisis.", "No one could have predicted the crisis.", "Honestly, nobody could’ve predicted this crisis."],
+    "keys": { "криза": "crisis|crash|recession", "ніхто": "nobody|no one|no-one|not anyone" }
+   }
+  ]
+ },
+ {
+  "id": 112, "w": "realize", "uk": "здійснювати (мрію, план)", "lvl": "B2",
+  "forms": "realize/realise|realizes/realises|realized/realised|realized/realised|realizing/realising",
+  "near": "achieve*|fulfil*|make come true|made come true|came true|come true|accomplish*|carry out|carried out|implement*",
+  "tasks": [
+   {
+    "sit": "Твоя подруга відкрила власну пекарню, про яку мріяла з дитинства. Ти розповідаєш про неї колегам.",
+    "say": "Вона нарешті здійснила свою мрію.",
+    "ans": ["She finally realized her dream.", "She has finally realized her dream.", "She’s finally realized her childhood dream."],
+    "keys": { "мрія": "dream*|ambition", "нарешті": "finally|at last" }
+   },
+   {
+    "sit": "Ти пишеш мотиваційний лист на грант для молодих художників.",
+    "say": "Цей грант допоможе мені здійснити мій проєкт.",
+    "ans": ["This grant will help me realize my project.", "This grant would help me to realize my project.", "With this grant, I could finally realize my project."],
+    "keys": { "грант": "grant|funding|money", "проєкт": "project|idea|plan*" }
+   },
+   {
+    "sit": "На конференції спікер каже, що в міста великий потенціал для туризму, але ніхто ним не користується.",
+    "say": "Нам треба реалізувати цей потенціал.",
+    "ans": ["We need to realize this potential.", "We have to realize the city’s potential.", "We really need to realize this potential."],
+    "keys": { "потенціал": "potential" }
+   }
+  ]
+ },
+ {
+  "id": 113, "w": "love", "uk": "любити, дуже подобатися", "lvl": "A1",
+  "forms": "love|loves|loved|loved|loving",
+  "near": "like|liked|likes|adore*|enjoy*|care about|cared about|am into|am crazy about|am a fan",
+  "tasks": [
+   {
+    "sit": "Колега питає, чому ти щовихідних їздиш до батьків у село.",
+    "say": "Я дуже люблю свою сімʼю.",
+    "ans": ["I love my family very much.", "I really love my family.", "I just love my family so much."],
+    "keys": { "сімʼя": "family|parents|folks" }
+   },
+   {
+    "sit": "Ти в кафе, офіціант приніс домашній лимонад. Ти куштуєш і в захваті.",
+    "say": "Мені дуже подобається цей лимонад!",
+    "ans": ["I love this lemonade!", "I really love this lemonade.", "Oh, I love this lemonade!"],
+    "keys": { "лимонад": "lemonade|drink|it|this" }
+   },
+   {
+    "sit": "Знайомий у поїзді питає, що ти робиш у вільний час.",
+    "say": "Я обожнюю подорожувати.",
+    "ans": ["I love traveling.", "I love to travel.", "Oh, I really love travelling."],
+    "keys": { "подорожувати": "travel*|trip*" }
+   }
+  ]
+ },
+ {
+  "id": 114, "w": "like", "uk": "подобатися", "lvl": "A1",
+  "forms": "like|likes|liked|liked|liking",
+  "near": "love|loved|loves|enjoy*|prefer*|am into|am a fan|fond of|want|wanted",
+  "tasks": [
+   {
+    "sit": "Ти в гостях. Господар пропонує чай або каву.",
+    "say": "Мені більше подобається кава, дякую.",
+    "ans": ["I like coffee more, thanks.", "I like coffee better, thank you.", "I’d go for coffee — I like it more, thanks."],
+    "keys": { "кава": "coffee", "більше": "more|better" }
+   },
+   {
+    "sit": "Твоя сестра показує нове плаття й питає твою думку.",
+    "say": "Мені подобається колір.",
+    "ans": ["I like the color.", "I really like the colour.", "Oh, I like the color!"],
+    "keys": { "колір": "colo*r*" }
+   },
+   {
+    "sit": "Після першого робочого тижня друг питає, як тобі новий колектив.",
+    "say": "Мені подобаються мої нові колеги.",
+    "ans": ["I like my new colleagues.", "I really like my new coworkers.", "I actually like my new colleagues a lot."],
+    "keys": { "колеги": "colleague*|coworker*|co-worker*|team|people", "нові": "new" }
+   }
+  ]
+ },
+ {
+  "id": 115, "w": "enjoy", "uk": "насолоджуватися, отримувати задоволення", "lvl": "A2",
+  "forms": "enjoy|enjoys|enjoyed|enjoyed|enjoying",
+  "near": "like|liked|love|loved|have fun|had fun|having fun|have a good time|had a good time|had a great time|savor*|savour*",
+  "tasks": [
+   {
+    "sit": "Ви з другом виходите з кінотеатру після нової комедії.",
+    "say": "Мені дуже сподобався фільм.",
+    "ans": ["I really enjoyed the movie.", "I enjoyed the film a lot.", "I really enjoyed that movie!"],
+    "keys": { "фільм": "movie|film|it" }
+   },
+   {
+    "sit": "Ти офіціант. Ставиш тарілки на стіл перед гостями.",
+    "say": "Смачного!",
+    "ans": ["Enjoy your meal!", "Please enjoy your food!", "Enjoy your dinner!"],
+    "keys": { "їжа": "meal|food|dinner|lunch|breakfast" }
+   },
+   {
+    "sit": "Ти у відпустці на морі, телефонує начальник. Ти відповідаєш ввічливо, але коротко.",
+    "say": "Я зараз просто насолоджуюся відпочинком.",
+    "ans": ["I’m just enjoying my vacation right now.", "Right now I’m just enjoying my holiday.", "I’m just enjoying my time off at the moment."],
+    "keys": { "відпочинок": "vacation|holiday*|time off|rest|break|trip", "зараз": "now|at the moment|currently" }
+   }
+  ]
+ },
+ {
+  "id": 116, "w": "adore", "uk": "обожнювати", "lvl": "B1",
+  "forms": "adore|adores|adored|adored|adoring",
+  "near": "love|loved|loves|am crazy about|am obsessed with|worship*|idolize*|like|liked",
+  "tasks": [
+   {
+    "sit": "У парку ти бачиш кошик із цуценятами, яких роздають безкоштовно.",
+    "say": "Я просто обожнюю цуценят!",
+    "ans": ["I just adore puppies!", "I absolutely adore puppies.", "Oh my God, I adore puppies!"],
+    "keys": { "цуценята": "pupp*|dog*" }
+   },
+   {
+    "sit": "Ти розповідаєш колезі про свою бабусю, яка щонеділі пече пироги для всіх онуків.",
+    "say": "Онуки її просто обожнюють.",
+    "ans": ["The grandkids just adore her.", "Her grandchildren absolutely adore her.", "All the grandkids simply adore her."],
+    "keys": { "онуки": "grandkid*|grandchild*|grandson*|granddaughter*" }
+   },
+   {
+    "sit": "Подруга питає, чи тобі сподобалася нова книжка твого улюбленого автора.",
+    "say": "Я обожнюю все, що він пише.",
+    "ans": ["I adore everything he writes.", "I adore everything he’s ever written.", "Honestly, I adore everything he writes."],
+    "keys": { "все": "everything|all|every", "пише": "write*|wrote|written|book*" }
+   }
+  ]
+ },
+ {
+  "id": 117, "w": "hate", "uk": "ненавидіти", "lvl": "A2",
+  "forms": "hate|hates|hated|hated|hating",
+  "near": "dislike*|do not like|can not stand|detest*|loathe*|not like|can not bear",
+  "tasks": [
+   {
+    "sit": "Неділя ввечері. Ти думаєш про завтрашній ранній підйом і нараду.",
+    "say": "Ненавиджу понеділки.",
+    "ans": ["I hate Mondays.", "I really hate Mondays.", "Ugh, I hate Mondays."],
+    "keys": { "понеділки": "monday*" }
+   },
+   {
+    "sit": "Ти в черзі в банку вже сорок хвилин, а працює лише одне віконце.",
+    "say": "Я ненавиджу стояти в чергах.",
+    "ans": ["I hate standing in lines.", "I hate waiting in queues.", "I really hate waiting in line."],
+    "keys": { "черги": "line*|queue*|wait*" }
+   },
+   {
+    "sit": "Ти мусиш сказати другові, що не зможеш прийти на його весілля.",
+    "say": "Мені дуже неприємно тебе підводити.",
+    "ans": ["I hate to let you down.", "I hate letting you down.", "I really hate to let you down, man."],
+    "keys": { "підводити": "let you down|letting you down|let* you down|disappoint*" }
+   }
+  ]
+ },
+ {
+  "id": 118, "w": "dislike", "uk": "не любити", "lvl": "A2",
+  "forms": "dislike|dislikes|disliked|disliked|disliking",
+  "near": "hate*|hated|do not like|did not like|not like|can not stand|not a fan|not fond",
+  "tasks": [
+   {
+    "sit": "Сусід запрошує тебе на вечірку й попереджає, що буде діджей.",
+    "say": "Я не люблю гучну музику.",
+    "ans": ["I dislike loud music.", "I really dislike loud music.", "To be honest, I dislike loud music."],
+    "keys": { "гучна музика": "loud|noise*|music" }
+   },
+   {
+    "sit": "Ти заповнюєш анкету в сервісі знайомств. Поле: «Що вам не подобається?»",
+    "say": "Я не люблю людей, які запізнюються.",
+    "ans": ["I dislike people who are late.", "I dislike people who are always late.", "I strongly dislike people who show up late."],
+    "keys": { "люди": "people|those|anyone", "запізнюються": "late" }
+   },
+   {
+    "sit": "Колега дивується, чому ти ніколи не замовляєш суші на обід.",
+    "say": "Я з дитинства не люблю сиру рибу.",
+    "ans": ["I’ve disliked raw fish since I was a child.", "I have always disliked raw fish, ever since childhood.", "I’ve disliked raw fish since I was a kid."],
+    "keys": { "сира риба": "fish|sushi|seafood", "з дитинства": "child*|kid|little|young|always" }
+   }
+  ]
+ },
+ {
+  "id": 119, "w": "envy", "uk": "заздрити", "lvl": "B2",
+  "forms": "envy|envies|envied|envied|envying",
+  "near": "jealous|jealousy|wish i had|wish i were|wish i was|am green with",
+  "tasks": [
+   {
+    "sit": "Твій друг щойно повернувся з тримісячної подорожі Азією, а ти весь цей час був в офісі.",
+    "say": "Чесно, я тобі заздрю.",
+    "ans": ["Honestly, I envy you.", "To be honest, I really envy you.", "Honestly, I envy you so much."],
+    "keys": { "чесно": "honest*|really|truth" }
+   },
+   {
+    "sit": "Ти розповідаєш психологу, як почуваєшся, коли бачиш у соцмережах чужі успіхи.",
+    "say": "Я часто заздрю успіху інших людей.",
+    "ans": ["I often envy other people’s success.", "I often envy the success of other people.", "I’ll admit I often envy other people’s success."],
+    "keys": { "успіх": "success*|achievement*", "інших людей": "other*|people", "часто": "often|a lot|all the time|frequently" }
+   },
+   {
+    "sit": "Колега рано встає, бігає, працює без кави й ніколи не втомлюється.",
+    "say": "Я заздрю твоїй енергії.",
+    "ans": ["I envy your energy.", "I really envy all your energy.", "Man, I envy your energy!"],
+    "keys": { "енергія": "energ*" }
+   }
+  ]
+ },
+ {
+  "id": 120, "w": "regret", "uk": "шкодувати", "lvl": "B1",
+  "forms": "regret|regrets|regretted|regretted|regretting",
+  "near": "sorry|wish i had|wish i had not|should have|should not have|rue*|repent*",
+  "tasks": [
+   {
+    "sit": "Пʼять років тому ти звільнився зі стабільної роботи й відкрив власну справу. Друг питає, чи не шкодуєш.",
+    "say": "Ні, я ні про що не шкодую.",
+    "ans": ["No, I regret nothing.", "No, I don’t regret anything.", "Nope, I don’t regret a thing."],
+    "keys": { "ні про що": "nothing|anything|a thing|not" }
+   },
+   {
+    "sit": "Ти відмовився від навчання за кордоном через страх. Тепер розповідаєш про це племінниці.",
+    "say": "Я досі шкодую, що не поїхав.",
+    "ans": ["I still regret not going.", "I still regret that I didn’t go.", "I still regret not going, you know."],
+    "keys": { "досі": "still", "не поїхав": "not go*|did not go|went" }
+   },
+   {
+    "sit": "Учора ввечері ти зʼїв цілу піцу, а зранку болить живіт.",
+    "say": "Я шкодую, що зʼїв стільки.",
+    "ans": ["I regret eating so much.", "I regret that I ate so much.", "Ugh, I really regret eating that much."],
+    "keys": { "зʼїв": "eat*|ate", "стільки": "so much|that much|much|whole" }
+   }
+  ]
+ },
+ {
+  "id": 121, "w": "miss", "uk": "сумувати за, скучати", "lvl": "A2",
+  "forms": "miss|misses|missed|missed|missing",
+  "near": "long for|longed for|yearn*|think about|thinking about|thought about",
+  "tasks": [
+   {
+    "sit": "Ти вже пів року працюєш в іншій країні й телефонуєш мамі.",
+    "say": "Я дуже сумую за вами всіма.",
+    "ans": ["I miss you all so much.", "I really miss all of you.", "Mom, I miss you all so much."],
+    "keys": { "всіма": "all|everyone|everybody|family" }
+   },
+   {
+    "sit": "Ти переїхав у велике місто, а раніше жив у маленькому містечку біля лісу.",
+    "say": "Я скучаю за тишею.",
+    "ans": ["I miss the quiet.", "I really miss the silence.", "Honestly, I miss the peace and quiet."],
+    "keys": { "тиша": "quiet*|silence|peace" }
+   },
+   {
+    "sit": "Колега перейшов в інший відділ, і тепер ви рідко бачитеся. Ти пишеш йому в месенджер.",
+    "say": "Нам бракує тебе в команді.",
+    "ans": ["We miss you on the team.", "We really miss you in our team.", "The team really misses you, man."],
+    "keys": { "команда": "team" }
+   }
+  ]
+ },
+ {
+  "id": 122, "w": "worry", "uk": "хвилюватися, турбуватися", "lvl": "A2",
+  "forms": "worry|worries|worried|worried|worrying",
+  "near": "am nervous|was nervous|nervous|am anxious|anxious|am concerned|concerned|stress*|freak out|fret*|panic*",
+  "tasks": [
+   {
+    "sit": "Подруга запізнюється на екзамен і пише тобі, що вона в паніці.",
+    "say": "Не хвилюйся, ти встигнеш.",
+    "ans": ["Don’t worry, you’ll make it.", "Don’t worry, you will get there in time.", "Hey, don’t worry — you’ll make it!"],
+    "keys": { "не": "not|never", "встигнеш": "make it|in time|on time|get there" }
+   },
+   {
+    "sit": "Твоя донька-підліток уперше поїхала з друзями в похід і не відповідає на дзвінки.",
+    "say": "Я трохи хвилююся за неї.",
+    "ans": ["I’m a bit worried about her.", "I’m worrying about her a little.", "I’m kind of worried about her, to be honest."],
+    "keys": { "за неї": "her|daughter", "трохи": "bit|little|kind of|slightly|somewhat" }
+   },
+   {
+    "sit": "Друг питає, чому ти погано спиш останнім часом.",
+    "say": "Я постійно хвилююся через роботу.",
+    "ans": ["I worry about work all the time.", "I’m always worrying about work.", "I keep worrying about work constantly."],
+    "keys": { "робота": "work|job", "постійно": "all the time|always|constantly|keep|non-stop" }
+   }
+  ]
+ },
+ {
+  "id": 123, "w": "fear", "uk": "боятися, побоюватися", "lvl": "B1",
+  "forms": "fear|fears|feared|feared|fearing",
+  "near": "afraid|scared|am scared|am afraid|frightened|terrified|dread*|worry|worried",
+  "tasks": [
+   {
+    "sit": "Ти читаєш новини про компанію, де працює твій брат. Там масові скорочення.",
+    "say": "Він побоюється втратити роботу.",
+    "ans": ["He fears losing his job.", "He fears he might lose his job.", "He really fears losing his job."],
+    "keys": { "втратити": "los*|lost", "робота": "job|work|position" }
+   },
+   {
+    "sit": "Ти береш інтервʼю в альпініста для студентського журналу.",
+    "say": "Чого ви боїтеся найбільше?",
+    "ans": ["What do you fear most?", "What do you fear the most?", "So what do you fear most of all?"],
+    "keys": { "найбільше": "most" }
+   },
+   {
+    "sit": "Під час пожежної тривоги в офісі колеги метушаться. Ти спокійно пояснюєш, що це навчання.",
+    "say": "Нема чого боятися.",
+    "ans": ["There’s nothing to fear.", "You have nothing to fear.", "Relax, there’s nothing to fear."],
+    "keys": { "нема чого": "nothing|not anything" }
+   }
+  ]
+ },
+ {
+  "id": 124, "w": "scare", "uk": "лякати", "lvl": "B1",
+  "forms": "scare|scares|scared|scared|scaring",
+  "near": "frighten*|terrif*|startle*|spook*|give me a fright|gave me a fright",
+  "tasks": [
+   {
+    "sit": "Сусід непомітно підкрався ззаду й поплескав тебе по плечу в темному підʼїзді.",
+    "say": "Ти мене налякав!",
+    "ans": ["You scared me!", "Oh, you scared me!", "Wow, you really scared me!"],
+    "keys": { "мене": "me" }
+   },
+   {
+    "sit": "Ти дивишся з дітьми мультфільм, а там дуже страшний дракон.",
+    "say": "Не хочу, щоб це налякало дітей.",
+    "ans": ["I don’t want it to scare the kids.", "I don’t want this to scare the children.", "I don’t want that to scare the kids, you know."],
+    "keys": { "дітей": "kid*|child*", "не": "not|never" }
+   },
+   {
+    "sit": "Лікар довго мовчить, дивлячись на твої аналізи.",
+    "say": "Ви мене лякаєте, лікарю.",
+    "ans": ["You’re scaring me, doctor.", "Doctor, you’re scaring me.", "Come on, doc, you’re scaring me."],
+    "keys": { "лікарю": "doctor|doc" }
+   }
+  ]
+ },
+ {
+  "id": 125, "w": "panic", "uk": "панікувати", "lvl": "B1",
+  "forms": "panic|panics|panicked|panicked|panicking",
+  "near": "freak out|freaked out|freaking out|lose it|lost it|stress*|worry|worried|lose my head",
+  "tasks": [
+   {
+    "sit": "У літаку турбулентність, пасажирка поруч хапає тебе за руку.",
+    "say": "Тільки не панікуйте, це нормально.",
+    "ans": ["Don’t panic, this is normal.", "Please don’t panic, it’s normal.", "Just don’t panic — it’s totally normal."],
+    "keys": { "нормально": "normal|fine|okay|ok|usual", "не": "not|never" }
+   },
+   {
+    "sit": "Ти розповідаєш другові, як на іспиті раптом забув усе вивчене.",
+    "say": "Я запанікував і все забув.",
+    "ans": ["I panicked and forgot everything.", "I panicked, and I forgot everything.", "I just panicked and forgot everything."],
+    "keys": { "забув": "forg*", "все": "everything|all" }
+   },
+   {
+    "sit": "Колега бачить, що сервер впав за годину до презентації, і починає метушитися.",
+    "say": "Нема сенсу панікувати, ми це полагодимо.",
+    "ans": ["There’s no point panicking, we’ll fix it.", "There’s no point in panicking — we will fix this.", "No need to panic, we’ll fix it."],
+    "keys": { "полагодимо": "fix*|sort*|solve*|repair*" }
+   }
+  ]
+ },
+ {
+  "id": 126, "w": "relax", "uk": "розслаблятися, відпочивати", "lvl": "A2",
+  "forms": "relax|relaxes|relaxed|relaxed|relaxing",
+  "near": "rest|rested|resting|chill|chilled|chilling|unwind*|calm down|take it easy|wind down",
+  "tasks": [
+   {
+    "sit": "Пʼятниця, вечір. Друзі кличуть у клуб, а ти дуже втомився за тиждень.",
+    "say": "Я просто хочу розслабитися на дивані.",
+    "ans": ["I just want to relax on the couch.", "I just want to relax on the sofa tonight.", "I just wanna relax on the couch."],
+    "keys": { "диван": "couch|sofa|home" }
+   },
+   {
+    "sit": "Масажистка помічає, що в тебе напружені плечі.",
+    "say": "Мені важко розслабитися.",
+    "ans": ["It’s hard for me to relax.", "I find it hard to relax.", "I just can’t relax easily."],
+    "keys": { "важко": "hard|difficult|can not|struggle" }
+   },
+   {
+    "sit": "Твоя сестра хвилюється перед співбесідою й уже вдесяте перечитує резюме.",
+    "say": "Розслабся, усе буде добре.",
+    "ans": ["Relax, everything will be fine.", "Relax — it’s going to be okay.", "Just relax, it’ll be fine."],
+    "keys": { "добре": "fine|okay|ok|good|alright|all right" }
+   }
+  ]
+ },
+ {
+  "id": 127, "w": "calm", "uk": "заспокоювати", "lvl": "B1",
+  "forms": "calm|calms|calmed|calmed|calming",
+  "near": "soothe*|settle*|reassure*|relax*|quiet*|pacify*",
+  "tasks": [
+   {
+    "sit": "Немовля у потязі плаче вже пів години. Ти пропонуєш втомленій мамі допомогу.",
+    "say": "Можна я спробую заспокоїти малюка?",
+    "ans": ["Can I try to calm the baby?", "Could I try to calm the baby down?", "Can I try and calm the baby down?"],
+    "keys": { "малюк": "baby|kid|child|little one" }
+   },
+   {
+    "sit": "Після важкого дня ти вмикаєш тиху музику й запалюєш свічку.",
+    "say": "Мене це завжди заспокоює.",
+    "ans": ["It always calms me.", "This always calms me down.", "That always calms me down."],
+    "keys": { "завжди": "always|every time" }
+   },
+   {
+    "sit": "Клієнт кричить на касира. Менеджер відводить касира вбік і розпитує, що сталося.",
+    "say": "Мені знадобилося десять хвилин, щоб його заспокоїти.",
+    "ans": ["It took me ten minutes to calm him down.", "I needed ten minutes to calm him.", "It took me like ten minutes to calm the guy down."],
+    "keys": { "десять хвилин": "ten|10*|minute*" }
+   }
+  ]
+ },
+ {
+  "id": 128, "w": "upset", "uk": "засмучувати", "lvl": "B1",
+  "forms": "upset|upsets|upset|upset|upsetting",
+  "near": "hurt|hurts|hurting|sadden*|disappoint*|offend*|bother*|make sad|made sad|made her sad|made him sad",
+  "tasks": [
+   {
+    "sit": "Ти відмовився йти на день народження друга, і він не відповідає на твої повідомлення.",
+    "say": "Здається, я його засмутив.",
+    "ans": ["I think I upset him.", "I think I’ve upset him.", "I guess I really upset him."],
+    "keys": { "його": "him|friend|buddy" }
+   },
+   {
+    "sit": "Бабуся весь день готувала, а ти хочеш сказати, що вже поїв у кафе.",
+    "say": "Не хочу її засмучувати.",
+    "ans": ["I don’t want to upset her.", "I really don’t want to upset Grandma.", "I just don’t want to upset her."],
+    "keys": { "її": "her|grandma|granny|grandmother", "не": "not|never" }
+   },
+   {
+    "sit": "Ти прочитав новини про закриття улюбленої книгарні в центрі міста.",
+    "say": "Ця новина мене дуже засмутила.",
+    "ans": ["The news really upset me.", "This news upset me a lot.", "Honestly, that news really upset me."],
+    "keys": { "новина": "news", "мене": "me" }
+   }
+  ]
+ }
+]

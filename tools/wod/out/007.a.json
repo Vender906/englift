@@ -1,0 +1,627 @@
+[
+ {
+  "id": 312, "w": "memorize", "uk": "вивчати напам’ять", "lvl": "B1",
+  "forms": "memorize/memorise|memorizes/memorises|memorized/memorised|memorized/memorised|memorizing/memorising",
+  "near": "learn by heart|learned by heart|learnt by heart|learning by heart|remember|remembered|know by heart",
+  "tasks": [
+   {
+    "sit": "Завтра урок літератури, і вчителька попросила кожного розповісти вірш без листочка.",
+    "say": "Мені треба вивчити цей вірш напам’ять до завтра.",
+    "ans": ["I need to memorize this poem by tomorrow.", "I have to memorize the poem before tomorrow.", "I’ve got to memorize this poem by tomorrow."],
+    "keys": { "вірш": "poem*|verse*|it", "до завтра": "tomorrow" }
+   },
+   {
+    "sit": "У тебе виступ на конференції, і колега питає, чи ти читатимеш із папірця.",
+    "say": "Ні, я вивчив промову напам’ять.",
+    "ans": ["No, I memorized my speech.", "No, I’ve memorized the whole speech.", "Nope, I actually memorized my entire talk."],
+    "keys": { "промова": "speech*|talk|presentation*|text|it" }
+   },
+   {
+    "sit": "Друг дивується, що ти набираєш номер мами, не дивлячись у контакти.",
+    "say": "Я вивчив її номер напам’ять ще в дитинстві.",
+    "ans": ["I memorized her number as a kid.", "I memorized her phone number when I was a child.", "I memorized her number back when I was little."],
+    "keys": { "номер": "number*", "в дитинстві": "kid|child*|little|young|small" }
+   }
+  ]
+ },
+ {
+  "id": 313, "w": "practice", "uk": "практикувати, займатися (чимось)", "lvl": "A2",
+  "forms": "practice/practise|practices/practises|practiced/practised|practiced/practised|practicing/practising",
+  "near": "train|trains|trained|training|rehearse*|rehearsing|work on|worked on|working on|study|studied",
+  "tasks": [
+   {
+    "sit": "Через тиждень у тебе концерт у музичній школі. Друзі кличуть гуляти.",
+    "say": "Не можу, мені треба позайматися на піаніно.",
+    "ans": ["I can’t, I need to practice the piano.", "Sorry, I have to practice the piano.", "I can’t — I’ve got to practice piano."],
+    "keys": { "піаніно": "piano*" }
+   },
+   {
+    "sit": "Ти вчиш англійську й шукаєш співрозмовника на мовному сайті.",
+    "say": "Я хочу практикувати англійську з носієм мови.",
+    "ans": ["I want to practice my English with a native speaker.", "I’d like to practice English with a native speaker.", "I really want to practice my English with a native speaker."],
+    "keys": { "англійська": "english", "носій мови": "native*|speaker*" }
+   },
+   {
+    "sit": "Тренер з баскетболу дивується, чому ти так добре кидаєш штрафні.",
+    "say": "Я відпрацьовую кидки щодня.",
+    "ans": ["I practice my shots every day.", "I practice shooting every single day.", "I practice my free throws every day."],
+    "keys": { "щодня": "every day|daily|each day|every single day", "кидки": "shot*|shoot*|throw*" }
+   }
+  ]
+ },
+ {
+  "id": 314, "w": "graduate", "uk": "закінчувати (виш)", "lvl": "B1",
+  "forms": "graduate|graduates|graduated|graduated|graduating",
+  "near": "finish*|complete*|got my degree|get my degree|got a degree",
+  "tasks": [
+   {
+    "sit": "На співбесіді тебе питають про освіту.",
+    "say": "Я закінчив університет у 2020 році.",
+    "ans": ["I graduated from university in 2020.", "I graduated in 2020.", "I graduated from college back in 2020."],
+    "keys": { "2020": "2020|twenty twenty" }
+   },
+   {
+    "sit": "Сестра на останньому курсі медичного. Знайомий питає, як у неї справи.",
+    "say": "Вона закінчує університет наступного літа.",
+    "ans": ["She graduates next summer.", "She’s graduating from university next summer.", "She’ll graduate next summer."],
+    "keys": { "наступного літа": "next summer|summer" }
+   },
+   {
+    "sit": "Ти з однокурсником згадуєте студентські роки на зустрічі випускників.",
+    "say": "Не віриться, що ми закінчили навчання десять років тому.",
+    "ans": ["I can’t believe we graduated ten years ago.", "It’s hard to believe we graduated ten years ago.", "Can you believe we graduated ten years ago?"],
+    "keys": { "десять років тому": "ten|10|decade", "не віриться": "believe" }
+   }
+  ]
+ },
+ {
+  "id": 315, "w": "pass", "uk": "складати (іспит успішно)", "lvl": "A2",
+  "forms": "pass|passes|passed|passed|passing",
+  "near": "got through|get through|made it|succeed*|aced|ace|nailed",
+  "tasks": [
+   {
+    "sit": "Ти щойно вийшов з автошколи після іспиту з водіння й телефонуєш мамі.",
+    "say": "Мамо, я склав іспит з водіння!",
+    "ans": ["Mom, I passed my driving test!", "Mom, I passed the driving exam!", "Mom, guess what — I passed my driving test!"],
+    "keys": { "водіння": "driv*" }
+   },
+   {
+    "sit": "Колега переживає через сертифікаційний іспит наступного тижня.",
+    "say": "Не хвилюйся, ти точно його складеш.",
+    "ans": ["Don’t worry, you’ll definitely pass it.", "Don’t worry, I’m sure you’ll pass.", "Relax, you’re going to pass for sure."],
+    "keys": { "точно": "sure|definitely|certainly|of course|no doubt" }
+   },
+   {
+    "sit": "Сесія закінчилася, і однокурсник питає про твої результати.",
+    "say": "Я склав усі іспити, крім математики.",
+    "ans": ["I passed all my exams except math.", "I passed every exam except for math.", "I passed everything except math."],
+    "keys": { "математика": "math*", "крім": "except|but|apart" }
+   }
+  ]
+ },
+ {
+  "id": 316, "w": "cheat", "uk": "списувати (на тесті)", "lvl": "B1",
+  "forms": "cheat|cheats|cheated|cheated|cheating",
+  "near": "copy|copied|copying|copies|crib*",
+  "tasks": [
+   {
+    "sit": "Ти вчитель і помічаєш, що в двох учнів однакові помилки в контрольній.",
+    "say": "Вони списували на контрольній!",
+    "ans": ["They cheated on the test!", "They were cheating on the test!", "Those two definitely cheated on the test!"],
+    "keys": { "контрольна": "test*|exam*|quiz*" }
+   },
+   {
+    "sit": "Однокласник перед іспитом пропонує тобі шпаргалку.",
+    "say": "Ні, дякую, я не хочу списувати.",
+    "ans": ["No, thanks, I don’t want to cheat.", "No thanks — I’m not going to cheat.", "Nah, I’d rather not cheat."],
+    "keys": { "ні / не": "not|no|never" }
+   },
+   {
+    "sit": "На онлайн-іспиті в університеті камера мусить бути ввімкнена весь час. Друг питає навіщо.",
+    "say": "Щоб студенти не списували.",
+    "ans": ["So that students don’t cheat.", "It’s to stop students from cheating.", "So nobody can cheat, basically."],
+    "keys": { "щоб не": "not|stop*|prevent*|nobody|no one" }
+   }
+  ]
+ },
+ {
+  "id": 318, "w": "rob", "uk": "грабувати", "lvl": "B1",
+  "forms": "rob|robs|robbed|robbed|robbing",
+  "near": "steal*|stole|stolen|burgl*|mug*|loot*|hold up|held up",
+  "tasks": [
+   {
+    "sit": "Ти переглядаєш новини й переказуєш їх сусідові.",
+    "say": "Уночі хтось пограбував банк на нашій вулиці.",
+    "ans": ["Someone robbed the bank on our street last night.", "The bank on our street was robbed last night.", "Somebody robbed the bank on our street last night!"],
+    "keys": { "банк": "bank*", "уночі": "night|overnight" }
+   },
+   {
+    "sit": "Ти повернувся з відпустки й розповідаєш колегам, що сталося в Барселоні.",
+    "say": "Мене пограбували просто біля готелю.",
+    "ans": ["I got robbed right outside the hotel.", "I was robbed near my hotel.", "Can you believe I got robbed right outside my hotel?"],
+    "keys": { "готель": "hotel*" }
+   },
+   {
+    "sit": "Друг питає, про що новий фільм, який ти вчора дивився.",
+    "say": "Там троє друзів грабують казино.",
+    "ans": ["Three friends rob a casino.", "It’s about three friends who rob a casino.", "Basically, three friends rob a casino."],
+    "keys": { "казино": "casino*", "троє": "three|3" }
+   }
+  ]
+ },
+ {
+  "id": 319, "w": "murder", "uk": "вбивати (навмисно)", "lvl": "B2",
+  "forms": "murder|murders|murdered|murdered|murdering",
+  "near": "kill*|assassinat*|slain|slay*",
+  "tasks": [
+   {
+    "sit": "Ти дочитав детектив і обговорюєш фінал із подругою.",
+    "say": "Виявилося, що господаря вбив садівник.",
+    "ans": ["It turned out the gardener murdered the owner.", "It turns out the owner was murdered by the gardener.", "Turns out the gardener murdered him!"],
+    "keys": { "садівник": "gardener*" }
+   },
+   {
+    "sit": "Ти слухаєш тру-крайм подкаст і переказуєш історію колезі.",
+    "say": "Її вбили в 1994 році, а вбивцю так і не знайшли.",
+    "ans": ["She was murdered in 1994, and the killer was never found.", "She was murdered in 1994, and they never caught the killer.", "She was murdered back in 1994 and they never found who did it."],
+    "keys": { "1994": "1994|ninety*", "не знайшли": "never|not|nobody|no one" }
+   },
+   {
+    "sit": "На уроці історії ви вивчаєте Стародавній Рим, і вчитель питає, як загинув Цезар.",
+    "say": "Юлія Цезаря вбили сенатори.",
+    "ans": ["Julius Caesar was murdered by senators.", "Senators murdered Julius Caesar.", "Caesar was murdered by a group of senators."],
+    "keys": { "Цезар": "caesar", "сенатори": "senator*" }
+   }
+  ]
+ },
+ {
+  "id": 320, "w": "arrest", "uk": "заарештовувати", "lvl": "B1",
+  "forms": "arrest|arrests|arrested|arrested|arresting",
+  "near": "detain*|caught|catch|took into custody|taken into custody|nab*|picked up|pick up",
+  "tasks": [
+   {
+    "sit": "Ти читаєш новини вголос за сніданком.",
+    "say": "Поліція заарештувала підозрюваного вчора ввечері.",
+    "ans": ["The police arrested the suspect last night.", "The suspect was arrested yesterday evening.", "They arrested the suspect last night."],
+    "keys": { "підозрюваний": "suspect*|guy|man", "вчора ввечері": "last night|yesterday|evening" }
+   },
+   {
+    "sit": "Ти розповідаєш другові про протест у центрі міста, на якому був.",
+    "say": "Там заарештували кілька людей.",
+    "ans": ["A few people were arrested there.", "The police arrested several people there.", "They arrested a few people."],
+    "keys": { "кілька людей": "few|several|some|people|couple" }
+   },
+   {
+    "sit": "Друг хоче вночі залізти на дах закритого заводу, щоб зробити фото.",
+    "say": "Ти що, хочеш, щоб нас заарештували?",
+    "ans": ["Do you want us to get arrested?", "Do you want to get us arrested?", "Are you trying to get us arrested?"],
+    "keys": { "нас": "us|we" }
+   }
+  ]
+ },
+ {
+  "id": 321, "w": "accuse", "uk": "звинувачувати", "lvl": "B1",
+  "forms": "accuse|accuses|accused|accused|accusing",
+  "near": "blame*|blaming|charge*|point the finger|pointed the finger",
+  "tasks": [
+   {
+    "sit": "Сусідка каже, що це твій собака розкопав її клумбу. Але собака весь день був із тобою в поїздці.",
+    "say": "Вона звинуватила мого собаку, а його навіть не було вдома.",
+    "ans": ["She accused my dog, but he wasn’t even home.", "She accused my dog of digging up her garden, but he wasn’t even home.", "She accused my dog, and he wasn’t even here!"],
+    "keys": { "собака": "dog*", "не було вдома": "not|home|away|here" }
+   },
+   {
+    "sit": "Колега на нараді натякає, що це ти загубив важливі документи.",
+    "say": "Ти звинувачуєш мене в тому, чого я не робив.",
+    "ans": ["You’re accusing me of something I didn’t do.", "You accused me of something I never did.", "Are you seriously accusing me of something I didn’t do?"],
+    "keys": { "мене": "me", "не робив": "not|never" }
+   },
+   {
+    "sit": "Ти переказуєш другові новини про відомого політика.",
+    "say": "Його звинуватили в корупції.",
+    "ans": ["He was accused of corruption.", "They accused him of corruption.", "He’s been accused of corruption."],
+    "keys": { "корупція": "corrupt*|brib*|fraud" }
+   }
+  ]
+ },
+ {
+  "id": 322, "w": "sue", "uk": "подавати в суд", "lvl": "B2",
+  "forms": "sue|sues|sued|sued|suing",
+  "near": "court|lawsuit*|legal action|take legal action|took legal action",
+  "tasks": [
+   {
+    "sit": "Авіакомпанія загубила твій багаж і вже місяць не відповідає на листи.",
+    "say": "Якщо вони не повернуть гроші, я подам на них у суд.",
+    "ans": ["If they don’t refund me, I’ll sue them.", "I’m going to sue them if they don’t give my money back.", "If they don’t pay me back, I’ll sue them."],
+    "keys": { "гроші": "money|refund*|pay*|compensat*" }
+   },
+   {
+    "sit": "Ти обговорюєш із колегою новину про велику технологічну компанію.",
+    "say": "Кілька користувачів подали на компанію в суд через витік даних.",
+    "ans": ["Several users sued the company over the data leak.", "The company was sued by several users because of the data leak.", "A bunch of users are suing the company over the data leak."],
+    "keys": { "витік даних": "leak*|breach*|data", "користувачі": "user*|customer*|people" }
+   },
+   {
+    "sit": "Твоє дерево під час бурі впало на паркан сусіда, і він дуже злий.",
+    "say": "Сподіваюся, він не подасть на мене в суд.",
+    "ans": ["I hope he doesn’t sue me.", "I hope he’s not going to sue me.", "Hopefully he won’t sue me over it."],
+    "keys": { "сподіваюся": "hope*" }
+   }
+  ]
+ },
+ {
+  "id": 323, "w": "judge", "uk": "судити, оцінювати", "lvl": "B1",
+  "forms": "judge|judges|judged|judged|judging",
+  "near": "criticiz*|criticis*|evaluat*|assess*|rate|rated|rating|condemn*",
+  "tasks": [
+   {
+    "sit": "Ти зізнаєшся другові, що покинув університет, і боїшся його реакції.",
+    "say": "Будь ласка, не суди мене.",
+    "ans": ["Please don’t judge me.", "Please, don’t judge me for this.", "Don’t judge me, okay?"],
+    "keys": { "не": "not" }
+   },
+   {
+    "sit": "Тебе запросили в журі кулінарного конкурсу в школі твоєї дитини.",
+    "say": "Я оцінюватиму десерти.",
+    "ans": ["I’m going to judge the desserts.", "I’ll be judging the desserts.", "I’m judging the dessert competition."],
+    "keys": { "десерти": "dessert*|cake*|sweet*" }
+   },
+   {
+    "sit": "Подруга каже, що новий сусід їй не подобається, хоча вони ще навіть не говорили.",
+    "say": "Не суди людей за зовнішністю.",
+    "ans": ["Don’t judge people by their appearance.", "You shouldn’t judge people by how they look.", "Come on, don’t judge people by their looks."],
+    "keys": { "зовнішність": "appearance*|look*" }
+   }
+  ]
+ },
+ {
+  "id": 324, "w": "punish", "uk": "карати", "lvl": "B1",
+  "forms": "punish|punishes|punished|punished|punishing",
+  "near": "ground|grounded|grounding|discipline*|penaliz*|penalis*|fine|fined",
+  "tasks": [
+   {
+    "sit": "Твоя дитина розбила вікно мʼячем і відразу чесно в усьому зізналася.",
+    "say": "Я не каратиму тебе, бо ти сказав правду.",
+    "ans": ["I won’t punish you because you told the truth.", "I’m not going to punish you, since you told the truth.", "I won’t punish you — you told me the truth."],
+    "keys": { "правда": "truth|honest*", "не": "not" }
+   },
+   {
+    "sit": "Начальник хоче покарати всю команду за помилку одного працівника. Ти не згоден.",
+    "say": "Несправедливо карати всіх за одну помилку.",
+    "ans": ["It’s not fair to punish everyone for one mistake.", "It’s unfair to punish the whole team for one mistake.", "Punishing everyone for one mistake just isn’t fair."],
+    "keys": { "несправедливо": "fair|unfair|wrong", "помилка": "mistake*|error*" }
+   },
+   {
+    "sit": "Ти обговорюєш із другом новину про пʼяного водія, який збив пішохода.",
+    "say": "Його мають суворо покарати.",
+    "ans": ["He should be punished severely.", "They should punish him severely.", "He needs to be punished harshly."],
+    "keys": { "суворо": "sever*|harsh*|strict*|hard" }
+   }
+  ]
+ },
+ {
+  "id": 325, "w": "lie", "uk": "брехати", "lvl": "A2",
+  "forms": "lie|lies|lied|lied|lying",
+  "near": "fib|fibbed|fibbing|deceiv*|not tell the truth|not telling the truth|made up|make up|making up",
+  "tasks": [
+   {
+    "sit": "Твій син-підліток каже, що був у бібліотеці, але ти бачив його фото з вечірки.",
+    "say": "Не бреши мені, я бачив фото.",
+    "ans": ["Don’t lie to me, I saw the photos.", "Stop lying to me — I’ve seen the photos.", "Don’t lie to me. I saw the pictures."],
+    "keys": { "фото": "photo*|pic*|picture*" }
+   },
+   {
+    "sit": "Колега хвалить нового кандидата, але ти знаєш, що в попередній компанії той ніколи не працював.",
+    "say": "Він збрехав у резюме.",
+    "ans": ["He lied on his CV.", "He lied on his resume.", "Turns out he lied on his CV."],
+    "keys": { "резюме": "cv|resume*|application" }
+   },
+   {
+    "sit": "Подруга питала, чи подобається тобі її нова зачіска. Тобі не дуже, але ти не хотів її засмутити.",
+    "say": "Мені довелося трохи збрехати.",
+    "ans": ["I had to lie a little.", "I had to lie a bit.", "I kind of had to lie a little."],
+    "keys": { "трохи": "little|bit|slightly", "довелося": "had to|have to" }
+   }
+  ]
+ },
+ {
+  "id": 326, "w": "cheat", "uk": "зраджувати (партнерові)", "lvl": "B1",
+  "forms": "cheat|cheats|cheated|cheated|cheating",
+  "near": "unfaithful|betray*|affair|affairs|two-timing|two-timed",
+  "tasks": [
+   {
+    "sit": "Подруга щойно подзвонила в сльозах: вона знайшла в телефоні свого хлопця листування з іншою. Ти розповідаєш про це сестрі.",
+    "say": "Її хлопець їй зраджує.",
+    "ans": ["Her boyfriend is cheating on her.", "Her boyfriend has been cheating on her.", "Turns out her boyfriend’s cheating on her."],
+    "keys": { "хлопець": "boyfriend|guy|partner" }
+   },
+   {
+    "sit": "Ти дивишся серіал із другом, і герой знову бреше дружині про «відрядження».",
+    "say": "Він точно зраджує своїй дружині.",
+    "ans": ["He’s definitely cheating on his wife.", "He’s cheating on his wife for sure.", "He’s so cheating on his wife."],
+    "keys": { "дружина": "wife" }
+   },
+   {
+    "sit": "На першому побаченні тебе питають, чому закінчилися твої попередні стосунки.",
+    "say": "Мій партнер мені зрадив, і я не зміг цього пробачити.",
+    "ans": ["My partner cheated on me, and I couldn’t forgive it.", "My ex cheated on me and I couldn’t forgive that.", "My ex cheated on me, and I just couldn’t get past it."],
+    "keys": { "партнер": "partner|ex|boyfriend|girlfriend|husband|wife", "пробачити": "forgive*|get past|get over|move on" }
+   }
+  ]
+ },
+ {
+  "id": 327, "w": "overhear", "uk": "почути випадково", "lvl": "B2",
+  "forms": "overhear|overhears|overheard|overheard|overhearing",
+  "near": "heard|hear|hearing|eavesdrop*|listen*",
+  "tasks": [
+   {
+    "sit": "У кавʼярні за сусіднім столиком двоє обговорювали вашу компанію. Ти розповідаєш про це колезі.",
+    "say": "Я випадково почув, як вони говорили про нашу компанію.",
+    "ans": ["I overheard them talking about our company.", "I overheard their conversation about our company.", "I happened to overhear them talking about our company."],
+    "keys": { "компанія": "company|firm|business" }
+   },
+   {
+    "sit": "Твоя донька раптом питає, чи ви справді переїжджаєте. Ти дивуєшся, звідки вона знає.",
+    "say": "Мабуть, вона випадково почула нашу розмову.",
+    "ans": ["She must have overheard us talking.", "I guess she overheard our conversation.", "She probably overheard us talking about it."],
+    "keys": { "мабуть": "must|probably|guess|maybe|think" }
+   },
+   {
+    "sit": "У поїзді жінка голосно говорила по телефону. Ти ділишся з другом.",
+    "say": "Я випадково почув, що вона звільняється з роботи.",
+    "ans": ["I overheard that she’s quitting her job.", "I overheard her saying she’s quitting her job.", "I overheard her say she was leaving her job."],
+    "keys": { "звільняється": "quit*|leav*|resign*", "робота": "job|work" }
+   }
+  ]
+ },
+ {
+  "id": 328, "w": "eavesdrop", "uk": "підслуховувати", "lvl": "C1",
+  "forms": "eavesdrop|eavesdrops|eavesdropped|eavesdropped|eavesdropping",
+  "near": "listen in|listening in|listened in|overhear*|spy|spying|spied",
+  "tasks": [
+   {
+    "sit": "Ти говориш по телефону у своїй кімнаті й помічаєш, що молодший брат стоїть під дверима.",
+    "say": "Ти що, підслуховуєш?",
+    "ans": ["Are you eavesdropping?", "Were you eavesdropping on me?", "Hey, are you eavesdropping on my call?"],
+    "keys": { "ти": "you" }
+   },
+   {
+    "sit": "Колега зізнається, що навмисно сів ближче до кабінету директора, щоб дізнатися про звільнення.",
+    "say": "Не можна підслуховувати чужі розмови.",
+    "ans": ["You shouldn’t eavesdrop on other people’s conversations.", "It’s not okay to eavesdrop on people’s conversations.", "You really shouldn’t eavesdrop on private conversations."],
+    "keys": { "розмови": "conversation*|talk*|call*", "не можна": "not|never" }
+   },
+   {
+    "sit": "Ти прочитав статтю про розумні колонки й ділишся з другом.",
+    "say": "Кажуть, розумні колонки можуть нас підслуховувати.",
+    "ans": ["They say smart speakers can eavesdrop on us.", "Apparently smart speakers can eavesdrop on our conversations.", "People say these smart speakers can eavesdrop on us."],
+    "keys": { "колонки": "speaker*|device*|gadget*" }
+   }
+  ]
+ },
+ {
+  "id": 329, "w": "sound", "uk": "звучати", "lvl": "A2",
+  "forms": "sound|sounds|sounded|sounded|sounding",
+  "near": "seem|seems|seemed|look|looks|looked",
+  "tasks": [
+   {
+    "sit": "Друг пропонує в суботу поїхати за місто на пікнік.",
+    "say": "Звучить чудово!",
+    "ans": ["That sounds great!", "Wow, that sounds so good!", "Oh, that sounds amazing!"],
+    "keys": { "чудово": "great|good|amazing|wonderful|perfect|fantastic|awesome|nice|fun|lovely" }
+   },
+   {
+    "sit": "Ти телефонуєш сестрі, і її голос дуже втомлений.",
+    "say": "Ти якось втомлено звучиш. Усе гаразд?",
+    "ans": ["You sound tired. Are you okay?", "You sound really tired — is everything okay?", "You sound exhausted. Are you alright?"],
+    "keys": { "втомлено": "tired|exhausted|sleepy|worn out" }
+   },
+   {
+    "sit": "Колега пропонує місяць працювати без вихідних, щоб здати проєкт раніше.",
+    "say": "Чесно кажучи, звучить дивно.",
+    "ans": ["Honestly, that sounds strange.", "That sounds a bit strange, to be honest.", "To be honest, that sounds kind of weird."],
+    "keys": { "дивно": "strange|weird|odd|crazy" }
+   }
+  ]
+ },
+ {
+  "id": 330, "w": "ring", "uk": "дзвонити (про дзвінок, дзвоник)", "lvl": "A2",
+  "forms": "ring|rings|rang|rung|ringing",
+  "near": "buzz*|knock*|press*|call|calling|called",
+  "tasks": [
+   {
+    "sit": "Ти прийшов до друга й стоїш біля його дверей. Пишеш йому повідомлення.",
+    "say": "Я вже біля дверей. Подзвонити в дзвінок?",
+    "ans": ["I’m at the door. Should I ring the bell?", "I’m outside your door — shall I ring the doorbell?", "I’m at your door. Want me to ring the bell?"],
+    "keys": { "дзвінок": "bell|doorbell|buzzer" }
+   },
+   {
+    "sit": "Ти на важливій нараді, і раптом у кишені лунає мелодія.",
+    "say": "Вибачте, у мене дзвонить телефон.",
+    "ans": ["Sorry, my phone is ringing.", "Excuse me, my phone’s ringing.", "Oh, sorry — that’s my phone ringing."],
+    "keys": { "телефон": "phone|mobile|cell*" }
+   },
+   {
+    "sit": "Учитель ще пояснює тему, а учні вже збирають речі.",
+    "say": "Дзвоника ще не було!",
+    "ans": ["The bell hasn’t rung yet!", "The bell didn’t ring yet!", "Hey, the bell hasn’t even rung yet!"],
+    "keys": { "дзвоник": "bell", "ще не": "not|yet" }
+   }
+  ]
+ },
+ {
+  "id": 331, "w": "stroke", "uk": "гладити", "lvl": "B1",
+  "forms": "stroke|strokes|stroked|stroked|stroking",
+  "near": "pet|pets|petted|petting|pat|pats|patted|patting|caress*|rub*",
+  "tasks": [
+   {
+    "sit": "У гостях ти бачиш на дивані великого пухнастого кота.",
+    "say": "Можна погладити вашого кота?",
+    "ans": ["Can I stroke your cat?", "May I stroke your cat?", "Is it okay if I stroke your cat?"],
+    "keys": { "кіт": "cat*|kitty" }
+   },
+   {
+    "sit": "Твоя маленька донька боялася грози й не могла заснути. Зранку ти розповідаєш про ніч.",
+    "say": "Я гладив її по голові, поки вона не заснула.",
+    "ans": ["I stroked her hair until she fell asleep.", "I was stroking her head until she fell asleep.", "I just stroked her hair till she fell asleep."],
+    "keys": { "заснула": "asleep|sleep*|slept|dozed" }
+   },
+   {
+    "sit": "На фермі ти показуєш дитині, як підійти до коня.",
+    "say": "Гладь коня обережно, по шиї.",
+    "ans": ["Stroke the horse gently on the neck.", "Gently stroke the horse’s neck.", "Just stroke his neck gently, like this."],
+    "keys": { "обережно": "gentl*|careful*|slow*|soft*", "шия": "neck" }
+   }
+  ]
+ },
+ {
+  "id": 332, "w": "pat", "uk": "поплескати", "lvl": "B1",
+  "forms": "pat|pats|patted|patted|patting",
+  "near": "stroke*|stroking|tap|tapped|tapping|slap*|pet|petted|petting",
+  "tasks": [
+   {
+    "sit": "Твій колега вперше виступав на великій нараді й дуже хвилювався. Увечері ти розповідаєш про це вдома.",
+    "say": "Шеф поплескав його по плечу.",
+    "ans": ["The boss patted him on the shoulder.", "Our boss patted him on the back.", "The boss came over and patted him on the shoulder."],
+    "keys": { "шеф": "boss|manager|director", "плече": "shoulder|back" }
+   },
+   {
+    "sit": "У парку до тебе підбігає дружелюбний пес. Ти хочеш легенько поплескати його і питаєш власника.",
+    "say": "Можна його поплескати?",
+    "ans": ["Can I pat him?", "Can I pat your dog?", "Is it okay if I pat him?"],
+    "keys": { "його": "him|it|dog|her" }
+   },
+   {
+    "sit": "Малий племінник плакав, бо загубив іграшку. Ти розповідаєш сестрі, як його заспокоїв.",
+    "say": "Я поплескав його по спині й сказав, що все буде добре.",
+    "ans": ["I patted him on the back and said it would be okay.", "I patted his back and told him everything would be fine.", "I patted his back and said it’d be alright."],
+    "keys": { "спина": "back|shoulder", "все буде добре": "okay|ok|fine|alright|all right" }
+   }
+  ]
+ },
+ {
+  "id": 333, "w": "tickle", "uk": "лоскотати", "lvl": "B1",
+  "forms": "tickle|tickles|tickled|tickled|tickling",
+  "near": "itch*|scratch*",
+  "tasks": [
+   {
+    "sit": "Ти граєшся з маленьким племінником, і він заливається сміхом.",
+    "say": "Зараз я тебе залоскочу!",
+    "ans": ["I’m going to tickle you!", "I’ll tickle you!", "Watch out, I’m going to tickle you!"],
+    "keys": { "тебе": "you" }
+   },
+   {
+    "sit": "Друг жартома тицяє тебе в ребра, а ти аж підстрибуєш.",
+    "say": "Не лоскочи мене, я боюся лоскоту!",
+    "ans": ["Don’t tickle me, I hate it!", "Stop tickling me!", "Please don’t tickle me — I’m so ticklish!"],
+    "keys": { "не": "not|stop|please" }
+   },
+   {
+    "sit": "У салоні косметолог проводить мʼяким пензликом по твоєму обличчю.",
+    "say": "Ой, лоскотно!",
+    "ans": ["Oh, that really tickles!", "Oh, it tickles so much!", "Ha, stop, that tickles!"],
+    "keys": { "це": "that|it|this" }
+   }
+  ]
+ },
+ {
+  "id": 334, "w": "grip", "uk": "міцно тримати", "lvl": "B1",
+  "forms": "grip|grips|gripped|gripped|gripping",
+  "near": "hold|holds|holding|held|grab*|grasp*|clutch*|squeez*",
+  "tasks": [
+   {
+    "sit": "Ти вчиш сина-підлітка кермувати, а він тримає кермо однією рукою.",
+    "say": "Тримай кермо міцно обома руками.",
+    "ans": ["Grip the wheel with both hands.", "Grip the steering wheel firmly with both hands.", "Use both hands and grip the wheel tight."],
+    "keys": { "кермо": "wheel", "обома руками": "both|two hands" }
+   },
+   {
+    "sit": "Ти вперше був на скеледромі й пояснюєш другові, чому болять руки.",
+    "say": "Я так міцно тримався за зачепи, що тепер болять руки.",
+    "ans": ["I gripped the holds so hard that my hands hurt now.", "I was gripping the holds so tightly that my hands hurt.", "I gripped those holds so hard, my hands are killing me."],
+    "keys": { "руки": "hand*|finger*|arm*", "болять": "hurt*|sore|ache*|pain|killing" }
+   },
+   {
+    "sit": "У літаку сильно трусило. Сусід після посадки питає, чи тобі було страшно.",
+    "say": "Так, я весь політ міцно тримався за підлокітник.",
+    "ans": ["Yes, I gripped the armrest the whole flight.", "Yeah, I was gripping the armrest the entire flight.", "Oh yeah, I gripped the armrest the whole time."],
+    "keys": { "підлокітник": "armrest*|arm rest*|seat", "весь політ": "whole|entire|all" }
+   }
+  ]
+ },
+ {
+  "id": 335, "w": "sip", "uk": "сьорбати, пити маленькими ковтками", "lvl": "B1",
+  "forms": "sip|sips|sipped|sipped|sipping",
+  "near": "drink|drinks|drank|drunk|drinking|taste*|gulp*",
+  "tasks": [
+   {
+    "sit": "Ти з подругою в кафе, їй щойно принесли дуже гарячий чай.",
+    "say": "Обережно, пий маленькими ковтками — він дуже гарячий.",
+    "ans": ["Careful, sip it slowly, it’s very hot.", "Be careful and sip it — it’s really hot.", "Careful — just sip it, it’s super hot."],
+    "keys": { "гарячий": "hot" }
+   },
+   {
+    "sit": "Колега питає, яка твоя ідеальна відпустка.",
+    "say": "Хочу лежати на пляжі й сьорбати коктейль.",
+    "ans": ["I want to lie on the beach and sip a cocktail.", "I’d love to lie on a beach sipping cocktails.", "I just want to be on the beach sipping a cocktail."],
+    "keys": { "пляж": "beach*", "коктейль": "cocktail*|drink*|margarita*|mojito*" }
+   },
+   {
+    "sit": "Тебе нудить після отруєння, а мама приносить великий стакан води.",
+    "say": "Лікар сказав пити воду маленькими ковтками.",
+    "ans": ["The doctor told me to sip water.", "The doctor said I should sip water slowly.", "My doctor told me to keep sipping water."],
+    "keys": { "вода": "water", "лікар": "doctor|doc" }
+   }
+  ]
+ },
+ {
+  "id": 336, "w": "gulp", "uk": "глитати (великими ковтками), пити залпом", "lvl": "B2",
+  "forms": "gulp|gulps|gulped|gulped|gulping",
+  "near": "swallow*|chug*|drank|drink|drinking|downed|down it|knock back|knocked back",
+  "tasks": [
+   {
+    "sit": "Після пробіжки в спеку ти повертаєшся додому й розповідаєш про це сусідові.",
+    "say": "Я залпом випив цілу пляшку води.",
+    "ans": ["I gulped down a whole bottle of water.", "I gulped the whole bottle of water.", "I just gulped down an entire bottle of water."],
+    "keys": { "пляшка": "bottle*", "вода": "water" }
+   },
+   {
+    "sit": "Колега питає, чому ти сьогодні такий розхристаний. Ти запізнювався на роботу.",
+    "say": "Я проковтнув каву й вибіг із дому.",
+    "ans": ["I gulped my coffee and ran out of the house.", "I gulped down my coffee and rushed out.", "I gulped my coffee and ran out the door."],
+    "keys": { "кава": "coffee", "вибіг": "ran|run|rush*|left|out" }
+   },
+   {
+    "sit": "Приятель у барі пʼє пиво дуже швидко, а вечір тільки почався.",
+    "say": "Не глитай так, пий повільніше!",
+    "ans": ["Don’t gulp it, drink it slower!", "Slow down, don’t gulp your beer!", "Hey, don’t gulp it down like that — take it easy!"],
+    "keys": { "повільніше": "slow*|easy" }
+   }
+  ]
+ },
+ {
+  "id": 337, "w": "toast", "uk": "пити за (когось), піднімати келих", "lvl": "B1",
+  "forms": "toast|toasts|toasted|toasted|toasting",
+  "near": "raise a glass|raise our glasses|raised a glass|raised our glasses|drink to|drank to|cheers",
+  "tasks": [
+   {
+    "sit": "Ти на весіллі друга, усі гості тримають келихи.",
+    "say": "Давайте випʼємо за молодят!",
+    "ans": ["Let’s toast the newlyweds!", "Let’s toast to the happy couple!", "Everyone, let’s toast the bride and groom!"],
+    "keys": { "молодята": "newlywed*|couple|bride*|groom" }
+   },
+   {
+    "sit": "Ти керівник відділу й виголошуєш слово на корпоративі наприкінці року.",
+    "say": "Випʼємо за наш успішний рік!",
+    "ans": ["Let’s toast to a successful year!", "Let’s toast our successful year!", "I’d like to toast to a great year!"],
+    "keys": { "рік": "year", "успішний": "success*|great|good|amazing" }
+   },
+   {
+    "sit": "Ти розповідаєш колезі, як минув бабусин ювілей.",
+    "say": "Ми всі випили за бабусине здоровʼя.",
+    "ans": ["We toasted to Grandma’s health.", "We toasted Grandma’s health.", "We all toasted to Grandma’s health."],
+    "keys": { "бабуся": "grandma*|grandmother*|granny|nan*", "здоровʼя": "health" }
+   }
+  ]
+ }
+]

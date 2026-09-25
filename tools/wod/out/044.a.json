@@ -1,0 +1,645 @@
+[
+ {
+  "id": 2414, "w": "respawn", "uk": "відроджуватися (у грі)", "lvl": "C1",
+  "forms": "respawn|respawns|respawned|respawned|respawning",
+  "near": "come back|came back|revive*|resurrect*|spawn*|reborn|come back to life",
+  "tasks": [
+   {
+    "sit": "Ви з другом граєте в шутер онлайн. Тебе щойно підстрелили, і друг панікує, що залишився сам.",
+    "say": "Спокійно, я відроджуся за десять секунд.",
+    "ans": ["Relax, I’ll respawn in ten seconds.", "Don’t worry, I respawn in ten seconds.", "Chill, I’m respawning in like ten seconds."],
+    "keys": { "десять секунд": "ten|10|second*|sec*", "спокійно": "relax*|calm|chill|worry|fine|okay|ok" }
+   },
+   {
+    "sit": "Ти пишеш відгук на нову гру в магазині застосунків. Тебе дратує, що після смерті доводиться починати здалеку.",
+    "say": "Після смерті ти відроджуєшся аж на початку рівня, це дратує.",
+    "ans": ["When you die, you respawn at the start of the level, which is annoying.", "After you die, you respawn all the way back at the beginning of the level — so annoying.", "It’s really annoying that you respawn right at the start of the level every time you die."],
+    "keys": { "початок рівня": "start*|beginning|begin*|level*", "дратує": "annoy*|frustrat*|irritat*|hate" }
+   },
+   {
+    "sit": "Молодший брат уперше грає у твою улюблену гру й боїться, що його персонаж загине назавжди.",
+    "say": "Не хвилюйся, персонаж відроджується біля останнього багаття.",
+    "ans": ["Don’t worry, your character respawns at the last bonfire.", "Don’t worry — you’ll respawn next to the last bonfire.", "Relax, you just respawn at the last bonfire you lit."],
+    "keys": { "багаття": "bonfire*|fire*|campfire*|checkpoint*", "не хвилюйся": "worry|relax|fine|okay|ok|calm" }
+   }
+  ]
+ },
+ {
+  "id": 2415, "w": "queue up", "uk": "стати в чергу (на матч)", "lvl": "B2",
+  "forms": "queue|queues|queued|queued|queuing/queueing",
+  "tail": "up",
+  "near": "search*|look for a match|find a match|join*|start a match|hop on",
+  "tasks": [
+   {
+    "sit": "Увечері друг пише тобі в дискорді, що вже зайшов у гру й чекає на тебе.",
+    "say": "Давай станемо в чергу на рейтинговий матч разом.",
+    "ans": ["Let’s queue up for a ranked match together.", "Let’s queue up together for ranked.", "Wanna queue up for some ranked games together?"],
+    "keys": { "рейтинговий": "rank*|competitive|comp", "разом": "together|with you|duo|both" }
+   },
+   {
+    "sit": "Колега в обідню перерву скаржиться, що вчора грав до другої ночі.",
+    "say": "Я стаю в чергу лише на один матч перед сном, а потім граю ще п’ять.",
+    "ans": ["I queue up for just one match before bed, and then I play five more.", "I always queue up for one last game before bed and end up playing five more.", "I queue up for ‘just one game’ before bed, and then it’s five more."],
+    "keys": { "один матч": "one|just one|last|single", "перед сном": "bed*|sleep*|night" }
+   },
+   {
+    "sit": "Ти стрімиш гру, і глядачі в чаті питають, чому нічого не відбувається.",
+    "say": "Я вже десять хвилин стою в черзі, а матчу досі немає.",
+    "ans": ["I queued up ten minutes ago and still no match.", "I’ve been queued up for ten minutes and still haven’t found a match.", "I queued up like ten minutes ago and it still hasn’t found a game."],
+    "keys": { "десять хвилин": "ten|10|minute*|min*", "матчу немає": "match*|game*|found|find*|lobby" }
+   }
+  ]
+ },
+ {
+  "id": 2416, "w": "kill", "uk": "вбивати (у грі)", "lvl": "A2",
+  "forms": "kill|kills|killed|killed|killing",
+  "near": "beat|beaten|defeat*|destroy*|shot|shoot*|take out|took out|taken out|eliminat*|knock* out|finish* off",
+  "tasks": [
+   {
+    "sit": "Ти граєш у гру з сином, і він питає, як пройти далі.",
+    "say": "Щоб виграти, треба вбити боса.",
+    "ans": ["You need to kill the boss to win.", "To win, you have to kill the boss.", "Just kill the boss and you win!"],
+    "keys": { "бос": "boss*|monster*|dragon*", "виграти": "win*|won|finish*|next level" }
+   },
+   {
+    "sit": "Друг питає, як пройшла твоя вечірня гра онлайн.",
+    "say": "Я вбив п’ять ворогів за одну хвилину!",
+    "ans": ["I killed five enemies in one minute!", "I killed five enemies in just a minute!", "Dude, I killed five guys in like a minute!"],
+    "keys": { "п’ять": "five|5", "ворогів": "enem*|guy*|player*|people|zombie*|them", "хвилина": "minute*|min*" }
+   },
+   {
+    "sit": "Ти граєш у кооперативну гру з сестрою, і вона випадково вистрілила у тебе.",
+    "say": "Гей, ти мене вбила! Я ж у твоїй команді!",
+    "ans": ["Hey, you killed me! I’m on your team!", "Hey, you just killed me — we’re on the same team!", "Hey! Why did you kill me? I’m on your team!"],
+    "keys": { "мене": "me", "команда": "team*|side" }
+   }
+  ]
+ },
+ {
+  "id": 2417, "w": "loot", "uk": "лутити (збирати добро)", "lvl": "B2",
+  "forms": "loot|loots|looted|looted|looting",
+  "near": "grab*|collect*|pick up|picked up|pick* up|search*|take everything|took everything|raid*|pillag*|plunder*",
+  "tasks": [
+   {
+    "sit": "Ви з другом граєте в «королівську битву». Ти щойно переміг суперника поруч із будинком.",
+    "say": "Прикрий мене, я залутаю його рюкзак.",
+    "ans": ["Cover me, I’ll loot his backpack.", "Cover me while I loot his backpack.", "Cover me real quick, I’m looting his bag."],
+    "keys": { "прикрий": "cover*|watch my back|protect*", "рюкзак": "backpack*|bag*|pack|body|stuff" }
+   },
+   {
+    "sit": "Племінник показує тобі свою гру й дуже довго бігає по порожньому селу.",
+    "say": "Навіщо ти лутиш кожну скриню? Там же нічого немає!",
+    "ans": ["Why are you looting every chest? There’s nothing in them!", "Why do you loot every single chest? They’re empty!", "Why are you looting all these chests? There’s nothing there!"],
+    "keys": { "скриня": "chest*|box*|crate*", "нічого": "nothing|empty|not anything" }
+   },
+   {
+    "sit": "На роботі колега-геймер розповідає, чому його персонаж такий сильний.",
+    "say": "Я залутав легендарний меч у першому ж підземеллі.",
+    "ans": ["I looted a legendary sword in the first dungeon.", "I looted a legendary sword in the very first dungeon.", "I got lucky — I looted a legendary sword in the first dungeon."],
+    "keys": { "меч": "sword*|blade*|weapon*", "підземелля": "dungeon*|cave*|level*" }
+   }
+  ]
+ },
+ {
+  "id": 2418, "w": "craft", "uk": "крафтити (виготовляти в грі)", "lvl": "B2",
+  "forms": "craft|crafts|crafted|crafted|crafting",
+  "near": "make|made|making|build*|built|forge*|creat*|put together",
+  "tasks": [
+   {
+    "sit": "Ти граєш у виживання з другом, і скоро настане ніч із монстрами.",
+    "say": "Нам треба скрафтити мечі до настання ночі.",
+    "ans": ["We need to craft swords before night.", "We have to craft some swords before it gets dark.", "We’ve got to craft swords before nightfall."],
+    "keys": { "мечі": "sword*|weapon*", "ніч": "night*|dark*|evening" }
+   },
+   {
+    "sit": "Донька питає, звідки в її персонажа взялися нові обладунки.",
+    "say": "Я скрафтив їх із заліза, яке ми знайшли в печері.",
+    "ans": ["I crafted it from the iron we found in the cave.", "I crafted the armor out of iron we found in the cave.", "I crafted it with that iron we found in the cave."],
+    "keys": { "залізо": "iron|metal|ore", "печера": "cave*|mine*" }
+   },
+   {
+    "sit": "Ти в чаті гри просиш допомоги в інших гравців.",
+    "say": "Хтось знає, як скрафтити лук? Мені бракує мотузки.",
+    "ans": ["Does anyone know how to craft a bow? I need some string.", "How do you craft a bow? I don’t have any string.", "Anyone know how to craft a bow? I’m missing string."],
+    "keys": { "лук": "bow*", "мотузка": "string*|rope*|thread*" }
+   }
+  ]
+ },
+ {
+  "id": 2419, "w": "quit a game", "uk": "вийти з гри", "lvl": "A2",
+  "forms": "quit|quits|quit|quit|quitting",
+  "tail": "game*/match*",
+  "near": "leave|left|leaving|log* off|log* out|exit*|stop playing|turn* off|close*|rage-quit*",
+  "tasks": [
+   {
+    "sit": "Уже північ, а син досі сидить за комп’ютером.",
+    "say": "Виходь з гри і йди спати!",
+    "ans": ["Quit the game and go to bed!", "Quit that game now and go to sleep!", "Come on, quit the game — it’s bedtime!"],
+    "keys": { "спати": "bed*|sleep*" }
+   },
+   {
+    "sit": "У командній грі онлайн один гравець раптово зник, і ви програли. Ти розповідаєш про це друзям.",
+    "say": "Один гравець просто вийшов з гри посеред матчу.",
+    "ans": ["One player just quit the game in the middle of the match.", "Some guy quit the game halfway through the match.", "One of our players just quit the game mid-match."],
+    "keys": { "гравець": "player*|guy*|someone|teammate*|one", "посеред": "middle|halfway|mid*" }
+   },
+   {
+    "sit": "Мама кличе тебе вечеряти, а ти граєш онлайн із друзями.",
+    "say": "Хлопці, мені треба вийти з гри, вечеря готова.",
+    "ans": ["Guys, I need to quit the game, dinner is ready.", "Sorry guys, I have to quit the game — dinner’s ready.", "Gotta quit the game, guys, dinner’s ready."],
+    "keys": { "вечеря": "dinner|supper|food|eat*" }
+   }
+  ]
+ },
+ {
+  "id": 2420, "w": "pause the game", "uk": "поставити гру на паузу", "lvl": "A2",
+  "forms": "pause|pauses|paused|paused|pausing",
+  "tail": "game*/it",
+  "near": "stop*|stopped|hold on|freez*|take a break|break",
+  "tasks": [
+   {
+    "sit": "Ти граєш у приставку, і раптом дзвонять у двері — привезли піцу.",
+    "say": "Постав гру на паузу, я відкрию двері.",
+    "ans": ["Pause the game, I’ll get the door.", "Can you pause the game? I’ll open the door.", "Pause the game real quick, I’ll get the door."],
+    "keys": { "двері": "door*|delivery|pizza" }
+   },
+   {
+    "sit": "Колега розповідає, що його дитина грає годинами без перерви. Ти ділишся своїм правилом.",
+    "say": "Мій син ставить гру на паузу щогодини й робить перерву.",
+    "ans": ["My son pauses the game every hour and takes a break.", "Every hour my son pauses the game to take a break.", "My son has to pause the game every hour for a break."],
+    "keys": { "щогодини": "hour*|60 min*", "перерва": "break*|rest*|stretch*" }
+   },
+   {
+    "sit": "Твій друг грає в онлайн-гру, і ти просиш його на хвилинку відволіктися.",
+    "say": "Можеш поставити гру на паузу? Мені треба щось тобі сказати.",
+    "ans": ["Can you pause the game? I need to tell you something.", "Could you pause the game for a second? I have to tell you something.", "Pause the game for a sec — I need to tell you something."],
+    "keys": { "сказати": "tell*|say*|talk*|ask*" }
+   }
+  ]
+ },
+ {
+  "id": 2421, "w": "save the game", "uk": "зберегти гру", "lvl": "A2",
+  "forms": "save|saves|saved|saved|saving",
+  "tail": "game*/progress/it",
+  "near": "keep|kept|record*|store*|back* up",
+  "tasks": [
+   {
+    "sit": "Сестра хоче вимкнути комп’ютер, поки ти граєш.",
+    "say": "Стривай, спочатку я збережу гру!",
+    "ans": ["Wait, I need to save the game first!", "Wait! Let me save the game first!", "Hold on, let me save the game first!"],
+    "keys": { "спочатку": "first|before" }
+   },
+   {
+    "sit": "Друг скаржиться, що після вимкнення світла втратив три години гри.",
+    "say": "Я теж забув зберегти гру, і тепер треба все проходити знову.",
+    "ans": ["I forgot to save the game too, and now I have to do everything again.", "I also forgot to save the game, so now I have to start over.", "Same — I forgot to save the game, so I have to redo it all."],
+    "keys": { "забув": "forg*|did not|didn’t", "знову": "again|over|redo|from scratch" }
+   },
+   {
+    "sit": "Ти вчиш молодшого брата грати в рольову гру.",
+    "say": "Завжди зберігай гру перед битвою з босом.",
+    "ans": ["Always save the game before a boss fight.", "Always save the game before you fight the boss.", "Make sure you always save the game before the boss."],
+    "keys": { "завжди": "always|every time|make sure", "бос": "boss*" }
+   }
+  ]
+ },
+ {
+  "id": 2422, "w": "beat a game", "uk": "пройти гру", "lvl": "B1",
+  "forms": "beat|beats|beat|beaten|beating",
+  "tail": "game*/it",
+  "near": "finish*|complet*|pass*|clear*|get through|got through",
+  "tasks": [
+   {
+    "sit": "Колега питає, що ти робив на довгих вихідних.",
+    "say": "Я пройшов нову гру про Зельду всього за тиждень.",
+    "ans": ["I beat the new Zelda game in just a week.", "I beat the new Zelda game in only one week.", "I actually beat the whole new Zelda game in a week."],
+    "keys": { "тиждень": "week*|seven days|7 days" }
+   },
+   {
+    "sit": "Друг хвалиться новою грою, яку купив місяць тому.",
+    "say": "Ти вже пройшов гру чи ще граєш?",
+    "ans": ["Have you beaten the game yet, or are you still playing?", "Did you beat the game already or are you still playing it?", "So, have you beaten the game yet, or still going?"],
+    "keys": { "ще граєш": "still|playing|going" }
+   },
+   {
+    "sit": "Ти розповідаєш дітям про своє дитинство.",
+    "say": "У дитинстві я так і не зміг пройти цю гру.",
+    "ans": ["As a kid, I never managed to beat this game.", "When I was a kid, I could never beat this game.", "I never beat this game when I was little."],
+    "keys": { "у дитинстві": "kid|child*|little|young", "так і не": "never|not|couldn’t" }
+   }
+  ]
+ },
+ {
+  "id": 2423, "w": "stream a game", "uk": "стрімити гру", "lvl": "B2",
+  "forms": "stream|streams|streamed|streamed|streaming",
+  "tail": "game*/gameplay",
+  "near": "broadcast*|go live|went live|going live|livestream*|record*|show*",
+  "tasks": [
+   {
+    "sit": "На співбесіді тебе питають про хобі.",
+    "say": "Я стримлю ігри на вихідних, у мене близько тисячі підписників.",
+    "ans": ["I stream games on weekends, and I have about a thousand followers.", "On weekends I stream games — I’ve got around a thousand followers.", "I stream games at the weekend and have about a thousand subscribers."],
+    "keys": { "вихідні": "weekend*|saturday*|sunday*", "підписники": "follower*|subscriber*|viewer*|fan*" }
+   },
+   {
+    "sit": "Мама не розуміє, чому ти годинами говориш сам до себе біля комп’ютера.",
+    "say": "Мамо, я не сам із собою говорю, я стримлю гру для глядачів!",
+    "ans": ["Mom, I’m not talking to myself, I’m streaming a game for my viewers!", "Mom, I’m streaming a game — I’m talking to my viewers!", "Mom, I’m streaming the game, I’m talking to people watching!"],
+    "keys": { "глядачі": "viewer*|audience|people|chat|watch*|follower*" }
+   },
+   {
+    "sit": "Ти обговорюєш з подругою популярного блогера.",
+    "say": "Він стримить нові ігри щодня, прямо в день виходу.",
+    "ans": ["He streams new games every day, right on release day.", "He streams every new game on the day it comes out.", "He streams new games the day they’re released, every single day."],
+    "keys": { "нові": "new|release*|out|latest", "щодня": "day|daily" }
+   }
+  ]
+ },
+ {
+  "id": 2424, "w": "grief", "uk": "грифити (навмисно шкодити іншим гравцям)", "lvl": "C1",
+  "forms": "grief|griefs|griefed|griefed|griefing",
+  "near": "troll*|ruin*|destroy*|mess* with|mess* up|harass*|sabotag*|annoy*",
+  "tasks": [
+   {
+    "sit": "Ти заходиш на спільний сервер у Майнкрафті й бачиш, що ваш будинок спалили.",
+    "say": "Хтось нас загрифив — від бази нічого не залишилося!",
+    "ans": ["Someone griefed us — there’s nothing left of our base!", "Somebody griefed our base, there’s nothing left!", "We got griefed — the whole base is gone!"],
+    "keys": { "база": "base*|house*|home|build*|us|we", "нічого не залишилося": "nothing|gone|destroy*|ruin*|burn*" }
+   },
+   {
+    "sit": "Ти модератор ігрового сервера й пишеш правила для новачків.",
+    "say": "Будь-кого, хто грифить інших гравців, буде забанено.",
+    "ans": ["Anyone who griefs other players will be banned.", "If you grief other players, you’ll get banned.", "Grief other players and you’re banned — simple as that."],
+    "keys": { "інші гравці": "player*|people|other*|anyone", "забанено": "ban*|kick*|block*|remov*" }
+   },
+   {
+    "sit": "Син скаржиться, що в командній грі один хлопець свідомо заважає своїм.",
+    "say": "Він спеціально грифить власну команду, щоб ми програли.",
+    "ans": ["He’s griefing his own team on purpose so we lose.", "He griefs his own team on purpose to make us lose.", "That guy is deliberately griefing our team so we lose."],
+    "keys": { "спеціально": "purpose|deliberately|intentionally|just to|so we", "команда": "team*|us|we" }
+   }
+  ]
+ },
+ {
+  "id": 2425, "w": "roll the dice", "uk": "кидати кубик", "lvl": "A2",
+  "forms": "roll|rolls|rolled|rolled|rolling",
+  "tail": "dice/die",
+  "near": "throw*|threw|thrown|toss*|cast",
+  "tasks": [
+   {
+    "sit": "Ви з родиною граєте в настільну гру, і зараз хід тата. Він задумався.",
+    "say": "Тату, твоя черга, кидай кубик!",
+    "ans": ["Dad, it’s your turn, roll the dice!", "Dad, your turn — roll the dice!", "Come on, Dad, it’s your turn, roll the dice!"],
+    "keys": { "тату": "dad*|father|daddy|papa", "черга": "turn|go" }
+   },
+   {
+    "sit": "Ти пояснюєш другу правила нової настільної гри.",
+    "say": "Кидаєш кубик і рухаєшся на стільки клітинок, скільки випало.",
+    "ans": ["You roll the dice and move that many squares.", "Roll the dice and move as many spaces as you get.", "You just roll the dice and move that number of spaces."],
+    "keys": { "рухаєшся": "move*|go", "клітинки": "square*|space*|step*|field*|number" }
+   },
+   {
+    "sit": "Граючи в «Монополію» з друзями, ти втретє поспіль потрапляєш у в’язницю.",
+    "say": "Я кинув кубик і знову опинився у в’язниці!",
+    "ans": ["I rolled the dice and ended up in jail again!", "I rolled the dice and landed in jail again!", "Seriously? I rolled the dice and I’m in jail again!"],
+    "keys": { "в’язниця": "jail|prison", "знову": "again|third time|once more" }
+   }
+  ]
+ },
+ {
+  "id": 2426, "w": "move a piece", "uk": "пересувати фігуру", "lvl": "A2",
+  "forms": "move|moves|moved|moved|moving",
+  "tail": "piece*/pawn*/knight*/queen*/king*/bishop*/rook*/checker*",
+  "near": "push*|shift*|put|go|went|play*|take",
+  "tasks": [
+   {
+    "sit": "Ти вчиш сина грати в шахи.",
+    "say": "Пішака можна пересувати тільки вперед.",
+    "ans": ["You can only move a pawn forward.", "Remember, you can only move your pawns forward.", "You can only move the pawn forwards, remember."],
+    "keys": { "тільки": "only|just", "вперед": "forward*|ahead|up" }
+   },
+   {
+    "sit": "Граючи в шашки з другом, ти помічаєш, що він змінив позицію, поки ти ходив по чай.",
+    "say": "Ти пересунув мою фігуру, поки мене не було!",
+    "ans": ["You moved my piece while I was away!", "You moved one of my pieces while I was gone!", "Hey, you moved my piece when I wasn’t looking!"],
+    "keys": { "мою": "my|mine", "поки мене не було": "away|gone|not here|not looking|out|left" }
+   },
+   {
+    "sit": "Ти граєш у шахи онлайн і розповідаєш колезі про прикру помилку.",
+    "say": "Я пересунув не ту фігуру й одразу втратив ферзя.",
+    "ans": ["I moved the wrong piece and lost my queen right away.", "I moved the wrong piece and immediately lost my queen.", "I moved the wrong piece — lost my queen straight away."],
+    "keys": { "не ту": "wrong|mistake", "ферзь": "queen" }
+   }
+  ]
+ },
+ {
+  "id": 2427, "w": "take a turn", "uk": "робити хід (по черзі)", "lvl": "A2",
+  "forms": "take|takes|took|taken|taking",
+  "tail": "turn*",
+  "near": "go|goes|went|play*|move*|make a move|made a move",
+  "tasks": [
+   {
+    "sit": "Ви граєте в настільну гру з друзями, і один гравець уже п’ять хвилин думає.",
+    "say": "Давай швидше роби хід, ми всі чекаємо!",
+    "ans": ["Take your turn faster, we’re all waiting!", "Come on, take your turn, we’re all waiting!", "Just take your turn already — we’re all waiting!"],
+    "keys": { "швидше": "fast*|quick*|hurry|already|come on", "чекаємо": "wait*" }
+   },
+   {
+    "sit": "Ти пояснюєш дітям правила гри в карти.",
+    "say": "Ми робимо хід по черзі, за годинниковою стрілкою.",
+    "ans": ["We take turns clockwise.", "We take turns, going clockwise.", "Everyone takes a turn, going around clockwise."],
+    "keys": { "за годинниковою стрілкою": "clockwise|to the left|around" }
+   },
+   {
+    "sit": "Ти граєш онлайн у шахи з незнайомцем, а він довго не відповідає.",
+    "say": "Він не робив хід уже десять хвилин.",
+    "ans": ["He hasn’t taken his turn for ten minutes.", "He still hasn’t taken his turn — it’s been ten minutes.", "It’s been ten minutes and he hasn’t taken his turn yet."],
+    "keys": { "десять хвилин": "ten|10|minute*", "не": "not|still|yet" }
+   }
+  ]
+ },
+ {
+  "id": 2428, "w": "skip a turn", "uk": "пропустити хід", "lvl": "A2",
+  "forms": "skip|skips|skipped|skipped|skipping",
+  "tail": "turn*/go",
+  "near": "miss*|lose a turn|lost a turn|pass*|sit out|sat out",
+  "tasks": [
+   {
+    "sit": "Граючи з родиною в настільну гру, ти потрапив на клітинку з пасткою.",
+    "say": "Ой ні, тепер я пропускаю хід.",
+    "ans": ["Oh no, now I skip a turn.", "Oh no, now I have to skip a turn.", "Oh no, I’ve got to skip a turn now."],
+    "keys": { "ой ні": "oh no|no|damn|ugh|now" }
+   },
+   {
+    "sit": "Ти пояснюєш новим гравцям правила карткової гри «Уно».",
+    "say": "Якщо тобі кладуть цю карту, ти пропускаєш хід.",
+    "ans": ["If someone plays this card on you, you skip a turn.", "If you get this card, you skip your turn.", "When someone puts this card down, you skip your turn."],
+    "keys": { "карта": "card*|this one" }
+   },
+   {
+    "sit": "Ви граєте в «Монополію», і друг щойно вийшов на кухню.",
+    "say": "Він пропускає хід, бо його тут немає!",
+    "ans": ["He skips a turn because he’s not here!", "He’s not here, so he skips his turn!", "He wasn’t here, so he skipped his turn!"],
+    "keys": { "його немає": "not here|gone|away|left|out|kitchen" }
+   }
+  ]
+ },
+ {
+  "id": 2429, "w": "draw a card", "uk": "взяти (витягнути) карту", "lvl": "A2",
+  "forms": "draw|draws|drew|drawn|drawing",
+  "tail": "card*",
+  "near": "take|took|taken|pick*|pull*|get|got",
+  "tasks": [
+   {
+    "sit": "Ти вчиш молодшу сестру грати в «Уно».",
+    "say": "Якщо не можеш походити, бери карту з колоди.",
+    "ans": ["If you can’t play, draw a card from the deck.", "If you can’t go, draw a card from the pile.", "Can’t play? Then just draw a card from the deck."],
+    "keys": { "не можеш": "can not|cannot|no|not", "колода": "deck|pile|stack" }
+   },
+   {
+    "sit": "Граєте в настільну гру з друзями, і на початку кожного раунду ніхто не пам’ятає правил.",
+    "say": "На початку кожного раунду кожен бере одну карту.",
+    "ans": ["At the start of each round, everyone draws a card.", "Everyone draws one card at the beginning of every round.", "Each round starts with everyone drawing a card."],
+    "keys": { "кожен раунд": "round*|each|every", "кожен": "everyone|everybody|each player|all" }
+   },
+   {
+    "sit": "Ти розповідаєш колезі, як невдало грав в «Уно» минулого вечора.",
+    "say": "Я тричі брав карту з колоди, і жодна не підійшла.",
+    "ans": ["I drew a card three times, and none of them worked.", "I drew three cards in a row and none of them helped.", "I had to draw a card three times and still got nothing useful."],
+    "keys": { "тричі": "three|3|twice", "жодна не підійшла": "none|nothing|no|not|useless" }
+   }
+  ]
+ },
+ {
+  "id": 2430, "w": "set up a board", "uk": "розставити гру (дошку)", "lvl": "B1",
+  "forms": "set|sets|set|set|setting",
+  "tail": "up board*/game*/pieces/it",
+  "near": "prepar*|arrang*|lay out|laid out|get ready|put out|organiz*",
+  "tasks": [
+   {
+    "sit": "Друзі прийшли на ігровий вечір і стоять у передпокої. Ти хочеш усе підготувати.",
+    "say": "Роздягайтеся, а я поки розставлю гру.",
+    "ans": ["Take your coats off, I’ll set up the board.", "Make yourselves at home while I set up the board.", "Take off your jackets — I’ll just set up the game."],
+    "keys": { "поки": "while|meanwhile|just|off|home" }
+   },
+   {
+    "sit": "Ви з братом граєте в шахи, і він програв. Ти пропонуєш реванш.",
+    "say": "Давай розставимо дошку ще раз і зіграємо знову.",
+    "ans": ["Let’s set up the board again and play one more.", "Let’s set up the board again for another game.", "Come on, let’s set up the board again — rematch!"],
+    "keys": { "ще раз": "again|another|one more|rematch" }
+   },
+   {
+    "sit": "Колега питає, чому ти не любиш складні настільні ігри.",
+    "say": "Розставляти гру довше, ніж грати в неї!",
+    "ans": ["It takes longer to set up the board than to play the game!", "Setting up the board takes longer than playing!", "You spend more time setting up the board than actually playing!"],
+    "keys": { "довше": "longer|more time|forever", "грати": "play*" }
+   }
+  ]
+ },
+ {
+  "id": 2431, "w": "pack up the game", "uk": "складати гру назад (у коробку)", "lvl": "B1",
+  "forms": "pack|packs|packed|packed|packing",
+  "tail": "up game*/it/pieces",
+  "near": "put away|put* away|tid* up|clean* up|clear* up|put back|put it back|collect*",
+  "tasks": [
+   {
+    "sit": "Уже пізно, діти догравали в настільну гру, а на столі безлад.",
+    "say": "Складайте гру назад у коробку і йдіть чистити зуби.",
+    "ans": ["Pack up the game and go brush your teeth.", "Pack the game up and go brush your teeth.", "Okay, pack up the game, then teeth and bed."],
+    "keys": { "зуби": "teeth|tooth|bed" }
+   },
+   {
+    "sit": "Після ігрового вечора в кафе друг шукає загублену фішку.",
+    "say": "Я складав гру і не бачив жодної фішки на підлозі.",
+    "ans": ["I packed up the game and didn’t see any pieces on the floor.", "When I packed up the game, there were no pieces on the floor.", "I packed up the game — I didn’t see any pieces lying around."],
+    "keys": { "фішки": "piece*|token*|counter*|chip*", "не бачив": "not see|no|none|did not" }
+   },
+   {
+    "sit": "Твоя подруга прийшла до вас у гості й хоче допомогти прибрати.",
+    "say": "Можеш скласти гру, поки я мию посуд?",
+    "ans": ["Can you pack up the game while I do the dishes?", "Could you pack up the game while I wash the dishes?", "Would you mind packing up the game while I do the dishes?"],
+    "keys": { "посуд": "dish*|plate*|wash*" }
+   }
+  ]
+ },
+ {
+  "id": 2432, "w": "cheat at a game", "uk": "жульничати у грі", "lvl": "B1",
+  "forms": "cheat|cheats|cheated|cheated|cheating",
+  "tail": "at",
+  "near": "lie|lied|lying|trick*|fool*|scam*|play* unfair*|break* the rules|broke the rules",
+  "tasks": [
+   {
+    "sit": "Ви з родиною граєте в «Монополію», і в брата раптом з’явилося забагато грошей.",
+    "say": "Ти жульничаєш у «Монополії»! Звідки в тебе ці гроші?",
+    "ans": ["You’re cheating at Monopoly! Where did you get that money?", "You cheat at Monopoly every time! Where’s that money from?", "You’re cheating at Monopoly! Where did all that money come from?"],
+    "keys": { "гроші": "money|cash|bill*" }
+   },
+   {
+    "sit": "Колега розповідає, що його семирічний син завжди виграє в карти.",
+    "say": "Мій син теж жульничає в картах, але я вдаю, що не помічаю.",
+    "ans": ["My son cheats at cards too, but I pretend not to notice.", "My son also cheats at cards, and I pretend I don’t notice.", "Mine cheats at cards too — I just pretend I don’t see."],
+    "keys": { "вдаю": "pretend*|act like|ignore", "не помічаю": "notice*|see|ignore" }
+   },
+   {
+    "sit": "Друг пропонує тобі скачати програму, яка дає переваги в онлайн-шутері.",
+    "say": "Ні, я не жульничаю в іграх, так нечесно.",
+    "ans": ["No, I don’t cheat at games, it’s not fair.", "No thanks, I never cheat at games — it’s unfair.", "Nah, I don’t cheat at games, that’s just not fair."],
+    "keys": { "нечесно": "fair|unfair|wrong|honest" }
+   }
+  ]
+ },
+ {
+  "id": 2433, "w": "win a game", "uk": "вигравати гру", "lvl": "A1",
+  "forms": "win|wins|won|won|winning",
+  "tail": "game*/match*",
+  "near": "beat|beaten|defeat*|first place|victory",
+  "tasks": [
+   {
+    "sit": "Ти граєш у шахи з дідусем щонеділі.",
+    "say": "Дідусь завжди виграє!",
+    "ans": ["Grandpa always wins the game!", "Grandpa wins every game!", "Grandpa always wins every single game!"],
+    "keys": { "дідусь": "grandpa|grandfather|granddad|grandad", "завжди": "always|every" }
+   },
+   {
+    "sit": "Твоя сестра повертається з шкільного турніру з настільного тенісу й сяє від щастя.",
+    "say": "Ти виграла гру? Вітаю!",
+    "ans": ["Did you win the game? Congratulations!", "You won the game? Congrats!", "Wait, you won the game? Congrats!"],
+    "keys": { "вітаю": "congrat*|well done|great|amazing" }
+   },
+   {
+    "sit": "Ти розповідаєш колегам, як провів вечір з друзями.",
+    "say": "Я вчора виграв три гри поспіль у карти.",
+    "ans": ["Yesterday I won three games in a row at cards.", "I won three card games in a row yesterday.", "Last night I won three games of cards in a row!"],
+    "keys": { "три поспіль": "three|3|in a row|straight", "вчора": "yesterday|last night" }
+   }
+  ]
+ },
+ {
+  "id": 2434, "w": "lose a game", "uk": "програти гру", "lvl": "A1",
+  "forms": "lose|loses|lost|lost|losing",
+  "tail": "game*/match*",
+  "near": "beaten|beat me|defeat*|fail*|last place",
+  "tasks": [
+   {
+    "sit": "Молодший брат плаче після гри в шашки.",
+    "say": "Не плач, це нормально — програти гру.",
+    "ans": ["Don’t cry, it’s okay to lose a game.", "Don’t cry — everyone loses a game sometimes.", "Hey, don’t cry, it’s fine to lose a game."],
+    "keys": { "не плач": "cry*|sad|upset|okay|ok|fine", "нормально": "okay|ok|fine|normal|alright|all right|sometimes" }
+   },
+   {
+    "sit": "Друг питає, чому ти такий засмучений після футболу у дворі.",
+    "say": "Ми програли гру в останню хвилину.",
+    "ans": ["We lost the game in the last minute.", "We lost the game at the very last minute.", "We lost the game right at the end — last minute!"],
+    "keys": { "остання хвилина": "last minute|end|final" }
+   },
+   {
+    "sit": "Колега не хоче грати з тобою в настільний теніс в офісі.",
+    "say": "Я не люблю програвати, тому більше з тобою не граю!",
+    "ans": ["I hate losing games, so I’m not playing with you anymore!", "I don’t like to lose a game, so I won’t play with you again!", "I hate losing games — I’m done playing with you!"],
+    "keys": { "не люблю": "hate|not like|do not like|don’t like", "більше не граю": "anymore|any more|again|done|not play*" }
+   }
+  ]
+ },
+ {
+  "id": 2435, "w": "strategize", "uk": "продумувати стратегію (ходів)", "lvl": "C1",
+  "forms": "strategize/strategise|strategizes/strategises|strategized/strategised|strategized/strategised|strategizing/strategising",
+  "near": "plan*|think ahead|thought ahead|think* about|figure out|scheme*",
+  "tasks": [
+   {
+    "sit": "Ти граєш у складну стратегічну настільну гру з друзями, і хтось квапить тебе.",
+    "say": "Дай мені хвилинку, я продумую стратегію на наступні кілька ходів.",
+    "ans": ["Give me a minute, I’m strategizing for the next few moves.", "Hang on, I’m strategizing my next few moves.", "One sec — I’m strategizing a few moves ahead."],
+    "keys": { "ходи": "move*|turn*|ahead", "хвилинка": "minute|sec*|moment|hang on|wait" }
+   },
+   {
+    "sit": "Ти розповідаєш колезі, чому шахи займають у тебе так багато часу.",
+    "say": "Я довше продумую стратегію, ніж власне граю.",
+    "ans": ["I spend more time strategizing than actually playing.", "I strategize longer than I actually play.", "Honestly, I spend way more time strategizing than playing."],
+    "keys": { "довше": "more|longer", "граю": "play*" }
+   },
+   {
+    "sit": "Перед грою в покер твій друг пропонує вам обом командну тактику.",
+    "say": "Давай продумаємо стратегію до того, як сядемо за стіл.",
+    "ans": ["Let’s strategize before we sit down at the table.", "Let’s strategize before the game starts.", "We should strategize a bit before we sit down to play."],
+    "keys": { "до того, як": "before|first", "стіл": "table|sit|start*|play*" }
+   }
+  ]
+ },
+ {
+  "id": 2436, "w": "checkmate", "uk": "поставити мат", "lvl": "C1",
+  "forms": "checkmate|checkmates|checkmated|checkmated|checkmating",
+  "near": "mate|mated|beat|beaten|defeat*|win|won",
+  "tasks": [
+   {
+    "sit": "Ти граєш у шахи з восьмирічним сином, і партія закінчилася дуже швидко.",
+    "say": "Він поставив мені мат за шість ходів!",
+    "ans": ["He checkmated me in six moves!", "He checkmated me in just six moves!", "Can you believe it? He checkmated me in six moves!"],
+    "keys": { "мені": "me", "шість ходів": "six|6|move*" }
+   },
+   {
+    "sit": "Ти дивишся з другом шаховий турнір онлайн і бачиш, що гросмейстер у безнадійній позиції.",
+    "say": "Ще два ходи — і його поставлять мат.",
+    "ans": ["Two more moves and he’ll be checkmated.", "In two more moves, she’s going to checkmate him.", "Two more moves and she’ll checkmate him."],
+    "keys": { "два ходи": "two|2|move*" }
+   },
+   {
+    "sit": "Ти граєш у шахи онлайн і пишеш суперникові в чат після партії.",
+    "say": "Гарна гра! Не очікував, що ти поставиш мені мат конем.",
+    "ans": ["Good game! I didn’t expect you to checkmate me with a knight.", "Nice game! I never thought you’d checkmate me with your knight.", "GG! Didn’t see that coming — you checkmated me with a knight!"],
+    "keys": { "кінь": "knight|horse", "не очікував": "expect*|thought|see that coming|surpris*" }
+   }
+  ]
+ },
+ {
+  "id": 2437, "w": "shuffle cards", "uk": "тасувати карти", "lvl": "B1",
+  "forms": "shuffle|shuffles|shuffled|shuffled|shuffling",
+  "tail": "card*/deck*/them",
+  "near": "mix*|mixed|stir*",
+  "tasks": [
+   {
+    "sit": "Ви з друзями сідаєте грати в карти, і ти підозрюєш, що колода не перемішана після минулої гри.",
+    "say": "Перетасуй карти як слід, будь ласка.",
+    "ans": ["Shuffle the cards properly, please.", "Please shuffle the cards well.", "Can you shuffle the cards properly this time?"],
+    "keys": { "як слід": "properly|well|good|really|this time|again" }
+   },
+   {
+    "sit": "Ти показуєш племіннику фокус і хочеш, щоб він перевірив колоду.",
+    "say": "Потасуй карти сам, щоб ти знав, що тут немає обману.",
+    "ans": ["Shuffle the cards yourself so you know there’s no trick.", "You shuffle the cards yourself, so you know it’s not a trick.", "Go ahead, shuffle the cards yourself — no tricks."],
+    "keys": { "сам": "yourself|you", "обман": "trick*|cheat*|fake" }
+   },
+   {
+    "sit": "Колега хвалиться, що навчився гарно тасувати, як у казино.",
+    "say": "Я місяць учився тасувати карти однією рукою.",
+    "ans": ["I spent a month learning to shuffle cards with one hand.", "It took me a month to learn to shuffle cards with one hand.", "I practiced for a month to shuffle cards one-handed."],
+    "keys": { "місяць": "month*", "однією рукою": "one hand*|one-handed|single hand" }
+   }
+  ]
+ },
+ {
+  "id": 2438, "w": "deal cards", "uk": "роздавати карти", "lvl": "B1",
+  "forms": "deal|deals|dealt|dealt|dealing",
+  "tail": "card*/them",
+  "near": "give|gave|given|hand out|handed out|pass out|distribut*",
+  "tasks": [
+   {
+    "sit": "Ти пояснюєш друзям правила нової карткової гри.",
+    "say": "Роздай кожному по п’ять карт.",
+    "ans": ["Deal five cards to each player.", "Deal everyone five cards.", "Just deal five cards to everyone."],
+    "keys": { "п’ять": "five|5", "кожному": "each|every*|all" }
+   },
+   {
+    "sit": "Граючи в карти з родиною, ти помічаєш, що в тебе на одну карту менше.",
+    "say": "Ти неправильно роздав карти, у мене лише шість.",
+    "ans": ["You dealt the cards wrong, I only have six.", "You didn’t deal the cards right — I’ve only got six.", "Hey, you dealt the cards wrong, I’ve only got six!"],
+    "keys": { "неправильно": "wrong*|not right|mistake|incorrect*|right", "шість": "six|6" }
+   },
+   {
+    "sit": "Ти розповідаєш про свою студентську підробітку в казино.",
+    "say": "Я роздавав карти в казино на круїзному лайнері.",
+    "ans": ["I dealt cards in a casino on a cruise ship.", "I used to deal cards at a casino on a cruise ship.", "I was dealing cards at a cruise ship casino."],
+    "keys": { "казино": "casino*", "лайнер": "cruise*|ship*|boat*|liner*" }
+   }
+  ]
+ }
+]

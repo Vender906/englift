@@ -1,0 +1,639 @@
+[
+ {
+  "id": 2334, "w": "hang out", "uk": "вивішувати (білизну сушитися)", "lvl": "B1",
+  "forms": "hang|hangs|hung|hung|hanging",
+  "tail": "out",
+  "near": "peg*|put out|line-dry|air-dry|dry outside|drying rack",
+  "tasks": [
+   {
+    "sit": "На вулиці сонячно, а пральна машина щойно закінчила прання.",
+    "say": "Вивішу білизну надвір, сьогодні вона швидко висохне.",
+    "ans": ["I’ll hang the laundry out, it’ll dry fast today.", "I’m going to hang out the washing — it’ll dry quickly.", "Let me hang the laundry out, it’ll dry in no time."],
+    "keys": { "білизна": "laundry|washing|cloth*", "висохне": "dry|dri*" }
+   },
+   {
+    "sit": "Раптом почався дощ. Ти бачиш, що на подвірʼї сусідки висить одяг, і телефонуєш їй.",
+    "say": "Ви ж вивісили білизну — знімайте, дощ іде!",
+    "ans": ["You hung your laundry out — take it in, it’s raining!", "Didn’t you hang out your washing? It’s raining!", "Your laundry’s hung out — it’s starting to rain!"],
+    "keys": { "білизна": "laundry|washing|cloth*", "дощ": "rain*" }
+   },
+   {
+    "sit": "Ви в кемпінгу, і після зливи весь одяг мокрий.",
+    "say": "Давай вивісимо речі на мотузку між деревами.",
+    "ans": ["Let’s hang the wet clothes out on a line between the trees.", "Let’s hang out our stuff on a rope between the trees.", "Let’s hang everything out on a line between the trees."],
+    "keys": { "мотузка": "line|rope|string|cord", "дерева": "tree*" }
+   }
+  ]
+ },
+ {
+  "id": 2335, "w": "tumble-dry", "uk": "сушити в сушильній машині", "lvl": "C1",
+  "forms": "tumble-dry|tumble-dries|tumble-dried|tumble-dried|tumble-drying",
+  "near": "in the dryer|dryer|air-dry|line-dry|hang* out",
+  "tasks": [
+   {
+    "sit": "Ти читаєш етикетку нового вовняного светра перед пранням.",
+    "say": "Тут написано: не сушити в машині.",
+    "ans": ["It says do not tumble-dry.", "The label says not to tumble-dry it.", "It says here, don’t tumble-dry."],
+    "keys": { "не": "not|never|no", "написано": "say*|label|tag" }
+   },
+   {
+    "sit": "Ти запізнюєшся на роботу, а джинси ще вологі після прання.",
+    "say": "Закину джинси в сушарку на двадцять хвилин.",
+    "ans": ["I’ll tumble-dry my jeans for twenty minutes.", "I’m going to tumble-dry the jeans for 20 minutes.", "Let me just tumble-dry these jeans for twenty minutes."],
+    "keys": { "джинси": "jeans|denim*", "двадцять хвилин": "twent*|20*|minute*" }
+   },
+   {
+    "sit": "Ти гостюєш у друзів в Англії й хочеш висушити рушники після басейну.",
+    "say": "Рушники можна сушити в машині?",
+    "ans": ["Can I tumble-dry the towels?", "Is it OK to tumble-dry these towels?", "Are the towels OK to tumble-dry?"],
+    "keys": { "рушники": "towel*" }
+   }
+  ]
+ },
+ {
+  "id": 2337, "w": "fold", "uk": "складати (одяг)", "lvl": "A2",
+  "forms": "fold|folds|folded|folded|folding",
+  "near": "put away|tidy|tidied|roll|rolled",
+  "tasks": [
+   {
+    "sit": "Ти зняв суху білизну й кличеш сина на допомогу.",
+    "say": "Допоможи мені скласти рушники.",
+    "ans": ["Help me fold the towels.", "Can you help me fold the towels?", "Come help me fold these towels, please."],
+    "keys": { "рушники": "towel*", "допоможи": "help" }
+   },
+   {
+    "sit": "Ти працюєш у магазині одягу, а покупці розкидали светри по всьому столу.",
+    "say": "Я складу ці светри й покладу назад на полицю.",
+    "ans": ["I’ll fold these sweaters and put them back on the shelf.", "I’m going to fold the sweaters and put them back.", "Let me fold these sweaters and put them back on the shelf."],
+    "keys": { "светри": "sweater*|jumper*|pullover*" }
+   },
+   {
+    "sit": "Ви пакуєте валізу у відпустку, а подруга запихає речі як попало.",
+    "say": "Складай речі акуратно, тоді більше влізе.",
+    "ans": ["Fold your clothes neatly, then more will fit.", "If you fold things neatly, you’ll fit more in.", "Fold them neatly — you’ll get way more in."],
+    "keys": { "акуратно": "neat*|careful*|properly|nicely", "більше": "more" }
+   }
+  ]
+ },
+ {
+  "id": 2338, "w": "put away", "uk": "розкладати по місцях, прибирати", "lvl": "A2",
+  "forms": "put|puts|put|put|putting",
+  "tail": "away",
+  "near": "tidy|tidied|tidy up|clean up|cleaned up|hang up|store*",
+  "tasks": [
+   {
+    "sit": "У дитячій кімнаті на підлозі лежить купа чистого одягу.",
+    "say": "Поклади, будь ласка, свій одяг на місце.",
+    "ans": ["Put away your clothes, please.", "Please put your clothes away.", "Can you put your clothes away, please?"],
+    "keys": { "одяг": "cloth*|stuff|things" }
+   },
+   {
+    "sit": "Ви з партнером повернулися із супермаркету з повними пакетами.",
+    "say": "Я розкладу продукти, а ти зроби чай.",
+    "ans": ["I’ll put the groceries away, and you make the tea.", "I’ll put away the shopping; you make some tea.", "You make tea, I’ll put the groceries away."],
+    "keys": { "продукти": "grocer*|shopping|food", "чай": "tea" }
+   },
+   {
+    "sit": "Заняття з малювання закінчилося, і викладачка просить прибрати за собою.",
+    "say": "Я вже розклав фарби й пензлі по місцях.",
+    "ans": ["I’ve already put away the paints and brushes.", "I already put the paints and brushes away.", "Done — I put all the paints and brushes away."],
+    "keys": { "фарби": "paint*", "пензлі": "brush*" }
+   }
+  ]
+ },
+ {
+  "id": 2339, "w": "dry-clean", "uk": "чистити в хімчистці", "lvl": "B2",
+  "forms": "dry-clean|dry-cleans|dry-cleaned|dry-cleaned|dry-cleaning",
+  "near": "cleaners|launder*|wash*|take it to the cleaners",
+  "tasks": [
+   {
+    "sit": "На зимовому пальті пляма, а на етикетці заборонено прання.",
+    "say": "Треба віддати пальто в хімчистку.",
+    "ans": ["I need to get my coat dry-cleaned.", "I have to have the coat dry-cleaned.", "This coat really needs to be dry-cleaned."],
+    "keys": { "пальто": "coat" }
+   },
+   {
+    "sit": "Ти у відрядженні, завтра важлива зустріч, а на костюмі пляма. Телефонуєш на рецепцію готелю.",
+    "say": "Ви можете почистити мій костюм до ранку?",
+    "ans": ["Can you dry-clean my suit by tomorrow morning?", "Could you dry-clean this suit by the morning?", "Is there any way to dry-clean my suit by morning?"],
+    "keys": { "костюм": "suit", "до ранку": "morning" }
+   },
+   {
+    "sit": "Ти знімаєш важкі оксамитові штори у вітальні, щоб їх освіжити.",
+    "say": "Ці штори можна чистити тільки в хімчистці.",
+    "ans": ["These curtains can only be dry-cleaned.", "You can only dry-clean these curtains.", "Honestly, these curtains should only be dry-cleaned."],
+    "keys": { "штори": "curtain*|drape*", "тільки": "only" }
+   }
+  ]
+ },
+ {
+  "id": 2340, "w": "bleach", "uk": "відбілювати", "lvl": "B2",
+  "forms": "bleach|bleaches|bleached|bleached|bleaching",
+  "near": "whiten*|brighten*|clean*",
+  "tasks": [
+   {
+    "sit": "Твої білі шкарпетки після кількох прань стали сірими.",
+    "say": "Треба відбілити ці шкарпетки.",
+    "ans": ["I need to bleach these socks.", "I should bleach my socks.", "These socks really need bleaching."],
+    "keys": { "шкарпетки": "sock*" }
+   },
+   {
+    "sit": "Ти працюєш у ресторані й пояснюєш новому працівникові, як доглядати за текстилем.",
+    "say": "Скатертини ми відбілюємо раз на тиждень.",
+    "ans": ["We bleach the tablecloths once a week.", "The tablecloths get bleached once a week.", "We bleach all the tablecloths weekly."],
+    "keys": { "скатертини": "tablecloth*|table cloth*|linen*", "раз на тиждень": "week*" }
+   },
+   {
+    "sit": "Шнурки на твоїх білих кросівках пожовтіли, і ти розповідаєш про це другові.",
+    "say": "Хочу відбілити шнурки на білих кросівках.",
+    "ans": ["I want to bleach the laces on my white sneakers.", "I’m going to bleach my sneaker laces.", "I think I’ll bleach the laces on my white sneakers."],
+    "keys": { "шнурки": "lace*|shoelace*" }
+   }
+  ]
+ },
+ {
+  "id": 2341, "w": "soften", "uk": "пом'якшувати (тканину, шкіру)", "lvl": "B2",
+  "forms": "soften|softens|softened|softened|softening",
+  "near": "make soft*|make it soft*|break in|broke in|broken in",
+  "tasks": [
+   {
+    "sit": "Рушники після прання жорсткі, як наждачний папір.",
+    "say": "Додам кондиціонер, щоб помʼякшити рушники.",
+    "ans": ["I’ll add conditioner to soften the towels.", "I’m adding fabric conditioner to soften the towels.", "Let me add some conditioner to soften these towels."],
+    "keys": { "рушники": "towel*", "кондиціонер": "conditioner|softener|vinegar" }
+   },
+   {
+    "sit": "Ти купив нові джинси, але вони дуже жорсткі й незручні. Питаєш на форумі.",
+    "say": "Як помʼякшити нові джинси?",
+    "ans": ["How can I soften new jeans?", "How do you soften stiff new jeans?", "Any tips on how to soften new jeans?"],
+    "keys": { "джинси": "jean*|denim" }
+   },
+   {
+    "sit": "Нові шкіряні черевики натирають ноги, і продавець у взуттєвій майстерні питає, чим допомогти.",
+    "say": "Хочу помʼякшити шкіру спеціальним кремом.",
+    "ans": ["I want to soften the leather with a special cream.", "I’d like to soften the leather with some cream.", "I want to soften them up with leather cream."],
+    "keys": { "шкіра": "leather", "крем": "cream|oil|balm|conditioner" }
+   }
+  ]
+ },
+ {
+  "id": 2342, "w": "stain", "uk": "заплямувати, поставити пляму", "lvl": "B1",
+  "forms": "stain|stains|stained|stained|staining",
+  "near": "spill*|spilt|spilled|mark*|dirty|got coffee on",
+  "tasks": [
+   {
+    "sit": "На нараді ти необережно пролив каву на білу сорочку.",
+    "say": "От халепа, я заплямив сорочку кавою.",
+    "ans": ["Oh no, I stained my shirt with coffee.", "Damn, I’ve stained my shirt with coffee.", "Great, I just stained my shirt with coffee."],
+    "keys": { "сорочка": "shirt*", "кава": "coffee" }
+   },
+   {
+    "sit": "Ти в ресторані в нових білих штанях, і офіціант приносить спагеті з томатним соусом.",
+    "say": "Боюся заплямити штани соусом.",
+    "ans": ["I’m afraid I’ll stain my pants with the sauce.", "I’m scared of staining my trousers with sauce.", "I don’t want to stain my new pants with sauce."],
+    "keys": { "штани": "pants|trousers|jeans", "соус": "sauce" }
+   },
+   {
+    "sit": "Твоя маленька донька малює фломастерами прямо на світлому дивані.",
+    "say": "Обережно, фломастер залишить пляму на дивані!",
+    "ans": ["Careful, the marker will stain the sofa!", "Be careful — markers stain the couch!", "Careful! That marker’s gonna stain the sofa."],
+    "keys": { "фломастер": "marker*|felt*|pen*", "диван": "sofa|couch" }
+   }
+  ]
+ },
+ {
+  "id": 2343, "w": "treat a stain", "uk": "обробляти пляму", "lvl": "B2",
+  "forms": "treat|treats|treated|treated|treating",
+  "tail": "stain*",
+  "near": "remove*|get out|got out|get rid of|pre-treat*|scrub*|soak*",
+  "tasks": [
+   {
+    "sit": "На вечірці гість розлив червоне вино на світлу скатертину.",
+    "say": "Треба швидко обробити пляму, поки вона не вʼїлася.",
+    "ans": ["We need to treat the stain quickly before it sets.", "Let’s treat the stain fast, before it sets in.", "Quick, let’s treat the stain before it sets!"],
+    "keys": { "швидко": "quick*|fast|now|right away|immediately" }
+   },
+   {
+    "sit": "Син прийшов із футболу з плямами від трави на штанях. Ти шукаєш пораду в інтернеті.",
+    "say": "Чим найкраще обробити пляму від трави?",
+    "ans": ["What’s the best way to treat a grass stain?", "How should I treat a grass stain?", "What do you use to treat grass stains?"],
+    "keys": { "трава": "grass" }
+   },
+   {
+    "sit": "Ти здаєш піджак у хімчистку й пояснюєш працівниці, що з ним.",
+    "say": "Я вже обробляв пляму засобом, але вона не зійшла.",
+    "ans": ["I already treated the stain, but it didn’t come out.", "I’ve treated the stain with a remover, but it’s still there.", "I tried to treat the stain myself, but it didn’t come out."],
+    "keys": { "не зійшла": "not|still|never" }
+   }
+  ]
+ },
+ {
+  "id": 2344, "w": "unsubscribe from", "uk": "відписатися від", "lvl": "B1",
+  "forms": "unsubscribe|unsubscribes|unsubscribed|unsubscribed|unsubscribing",
+  "tail": "from",
+  "near": "opt out|opted out|cancel*|stop getting|block*|unfollow*",
+  "tasks": [
+   {
+    "sit": "Твоя пошта щодня переповнена рекламою від магазину, де ти щось купив рік тому.",
+    "say": "Треба відписатися від їхньої розсилки.",
+    "ans": ["I need to unsubscribe from their newsletter.", "I should unsubscribe from their mailing list.", "I’ve got to unsubscribe from their emails."],
+    "keys": { "розсилка": "newsletter*|mailing*|email*|list*" }
+   },
+   {
+    "sit": "Друг питає, чому ти більше не дивишся ігровий канал, який колись так любив.",
+    "say": "Я відписався від цього каналу — він став нудним.",
+    "ans": ["I unsubscribed from that channel — it got boring.", "I’ve unsubscribed from the channel because it’s boring now.", "I unsubscribed from that channel, it just got so boring."],
+    "keys": { "канал": "channel*", "нудний": "boring|bored|dull" }
+   },
+   {
+    "sit": "Колега скаржиться, що корпоративний блог засипає його сповіщеннями.",
+    "say": "Просто відпишися від сповіщень у налаштуваннях.",
+    "ans": ["Just unsubscribe from the notifications in settings.", "You can unsubscribe from those notifications in the settings.", "Just go to settings and unsubscribe from the notifications."],
+    "keys": { "сповіщення": "notification*|alert*|update*", "налаштування": "setting*" }
+   }
+  ]
+ },
+ {
+  "id": 2345, "w": "archive", "uk": "архівувати", "lvl": "B2",
+  "forms": "archive|archives|archived|archived|archiving",
+  "near": "delete*|store*|file away|filed away|hide|hid|hidden",
+  "tasks": [
+   {
+    "sit": "Твоя поштова скринька переповнена старими листами, але ти їх не видаляєш.",
+    "say": "Я не видаляю старі листи, а просто архівую їх.",
+    "ans": ["I don’t delete old emails, I just archive them.", "Instead of deleting old emails, I archive them.", "I never delete old emails — I just archive them."],
+    "keys": { "листи": "email*|mail*|message*", "видаляю": "delet*" }
+   },
+   {
+    "sit": "Проєкт завершено, і менеджер питає, що робити зі спільною папкою.",
+    "say": "Давайте заархівуємо всі файли проєкту.",
+    "ans": ["Let’s archive all the project files.", "We should archive all the files from the project.", "Let’s just archive the project files."],
+    "keys": { "файли": "file*|document*|doc*|folder*" }
+   },
+   {
+    "sit": "Ти гортаєш свою сторінку в соцмережі й соромишся деяких старих фото.",
+    "say": "Заархівую ці старі фото, щоб їх ніхто не бачив.",
+    "ans": ["I’ll archive these old photos so nobody can see them.", "I’m going to archive the old posts so no one sees them.", "Let me archive those old pics so no one can see them."],
+    "keys": { "фото": "photo*|post*|pic*|picture*", "ніхто": "nobody|no one|anyone|anybody|private" }
+   }
+  ]
+ },
+ {
+  "id": 2346, "w": "backchannel", "uk": "обговорювати в приваті (за лаштунками)", "lvl": "C1",
+  "forms": "backchannel|backchannels|backchanneled/backchannelled|backchanneled/backchannelled|backchanneling/backchannelling",
+  "near": "message* privately|dm*|talk* privately|private chat|behind the scenes|off the record",
+  "tasks": [
+   {
+    "sit": "Під час онлайн-наради колега пише тобі в особисті, що не згоден із директором. Пізніше ти розповідаєш про це другові.",
+    "say": "Під час наради ми з колегою обговорювали це в приваті.",
+    "ans": ["My colleague and I were backchanneling about it during the meeting.", "During the meeting, my coworker and I backchanneled about it.", "We were backchanneling the whole meeting, honestly."],
+    "keys": { "нарада": "meeting*|call" }
+   },
+   {
+    "sit": "Переговори з партнерами зайшли в глухий кут, і офіційні листи нічого не дають.",
+    "say": "Давай я напишу їхньому юристу в приваті й спробую домовитися.",
+    "ans": ["Let me backchannel with their lawyer and try to make a deal.", "I’ll backchannel with their lawyer and see if we can work something out.", "Let me backchannel with their lawyer — maybe we can sort it out."],
+    "keys": { "юрист": "lawyer*|attorney*|legal" }
+   },
+   {
+    "sit": "У батьківському чаті класу всі раптом одностайно підтримали одну ідею подарунка вчительці.",
+    "say": "Кілька мам обговорили це в приваті ще до загального чату.",
+    "ans": ["A few moms backchanneled about it before the group chat.", "Some of the moms had backchanneled about it before it hit the group chat.", "A couple of moms were already backchanneling about it before the group chat."],
+    "keys": { "мами": "mom*|mum*|parent*|mother*", "чат": "chat*|group" }
+   }
+  ]
+ },
+ {
+  "id": 2347, "w": "repost", "uk": "репостити", "lvl": "B1",
+  "forms": "repost|reposts|reposted|reposted|reposting",
+  "near": "share*|retweet*|reshare*|forward*",
+  "tasks": [
+   {
+    "sit": "Подруга виклала сторіс із твого дня народження й відмітила тебе.",
+    "say": "Зараз репостну твою сторіс!",
+    "ans": ["I’ll repost your story now!", "I’m going to repost your story right now!", "Aw, I’m reposting your story right now!"],
+    "keys": { "сторіс": "story|stories" }
+   },
+   {
+    "sit": "Ти ведеш соцмережі кавʼярні. Клієнтка відмітила вас на гарному фото.",
+    "say": "Можна ми репостнемо ваше фото на нашій сторінці?",
+    "ans": ["Can we repost your photo on our page?", "Would you mind if we reposted your photo on our page?", "Mind if we repost your pic on our page?"],
+    "keys": { "фото": "photo*|pic*|picture*|post", "сторінка": "page|account|profile|feed" }
+   },
+   {
+    "sit": "У твоєму районі загубився пес, і сусідка опублікувала оголошення з фото.",
+    "say": "Репостніть, будь ласка, щоб більше людей побачили!",
+    "ans": ["Please repost this so more people see it!", "Please repost it so more people can see!", "Repost this, please — the more people see it, the better!"],
+    "keys": { "більше людей": "people|more" }
+   }
+  ]
+ },
+ {
+  "id": 2348, "w": "clip a moment", "uk": "вирізати момент (з відео)", "lvl": "B2",
+  "forms": "clip|clips|clipped|clipped|clipping",
+  "tail": "moment*",
+  "near": "cut out|cut|trim*|record*|screen record*|save that part",
+  "tasks": [
+   {
+    "sit": "Ти дивишся стрім, і стример робить неймовірний ігровий момент. Пишеш у чат.",
+    "say": "Хтось, виріжте цей момент!",
+    "ans": ["Someone clip that moment!", "Somebody needs to clip this moment!", "Clip that moment, somebody!"],
+    "keys": { "хтось": "someone|somebody|anyone|anybody|chat" }
+   },
+   {
+    "sit": "Ти монтуєш відео з весілля сестри.",
+    "say": "Виріжу момент, де тато плаче, і надішлю мамі.",
+    "ans": ["I’ll clip the moment where Dad cries and send it to Mom.", "I’m going to clip the moment Dad cries and send it to Mom.", "Let me clip that moment with Dad crying and send it to Mom."],
+    "keys": { "тато": "dad|father|papa", "плаче": "cry*|cries|cried|tear*" }
+   },
+   {
+    "sit": "Ти монтажер подкасту, і гість щойно сказав дуже смішну фразу.",
+    "say": "Виріжемо цей момент для соцмереж.",
+    "ans": ["Let’s clip this moment for social media.", "We should clip that moment for our socials.", "Let’s clip that moment and post it on social."],
+    "keys": { "соцмережі": "social*|instagram|tiktok|post*" }
+   }
+  ]
+ },
+ {
+  "id": 2349, "w": "co-sign", "uk": "бути співпозичальником, поручителем", "lvl": "C1",
+  "forms": "co-sign|co-signs|co-signed|co-signed|co-signing",
+  "near": "guarantor|guarantee*|sign for|signed for|vouch*|back* the loan",
+  "tasks": [
+   {
+    "sit": "Тобі двадцять, і банк не дає кредит на авто без кредитної історії.",
+    "say": "Тато погодився стати співпозичальником за моїм кредитом.",
+    "ans": ["My dad agreed to co-sign my car loan.", "Dad agreed to co-sign the loan for me.", "My dad said he’d co-sign my loan."],
+    "keys": { "тато": "dad|father", "кредит": "loan*" }
+   },
+   {
+    "sit": "Молодший брат хоче орендувати квартиру, але власник вимагає поручителя.",
+    "say": "Я можу підписати з тобою договір оренди як поручитель.",
+    "ans": ["I can co-sign the lease with you.", "I could co-sign your lease.", "I’ll co-sign the lease if you need me to."],
+    "keys": { "договір оренди": "lease|rental|contract|agreement" }
+   },
+   {
+    "sit": "Знайомий просить тебе стати співпозичальником за його кредитом.",
+    "say": "Вибач, я ні за кого не підписуюся співпозичальником.",
+    "ans": ["Sorry, I don’t co-sign loans for anyone.", "Sorry, I never co-sign for anybody.", "Sorry, man, I just don’t co-sign for anyone."],
+    "keys": { "ні за кого": "anyone|anybody|nobody|no one", "вибач": "sorry" }
+   }
+  ]
+ },
+ {
+  "id": 2350, "w": "put down", "uk": "приспати (тварину)", "lvl": "C1",
+  "forms": "put|puts|put|put|putting",
+  "tail": "down",
+  "near": "euthaniz*|euthanis*|to sleep",
+  "tasks": [
+   {
+    "sit": "Твій старий кіт тяжко хворий, і ветеринар каже, що він страждає.",
+    "say": "Мабуть, доведеться його приспати.",
+    "ans": ["I guess we’ll have to put him down.", "We might have to put him down.", "I think it’s time to put him down."],
+    "keys": { "мабуть": "guess|think|maybe|probably|might" }
+   },
+   {
+    "sit": "У місцевих новинах розповідають про собаку, яка покусала листоношу.",
+    "say": "Власники не хочуть, щоб собаку приспали.",
+    "ans": ["The owners don’t want the dog to be put down.", "The owners don’t want their dog put down.", "The owners are fighting to stop the dog being put down."],
+    "keys": { "власники": "owner*", "собака": "dog*" }
+   },
+   {
+    "sit": "Колега засмучений: учора довелося приспати його чотирнадцятирічну собаку.",
+    "say": "Мені так шкода, що довелося її приспати.",
+    "ans": ["I’m so sorry you had to put her down.", "I’m really sorry that she had to be put down.", "Oh no, I’m so sorry you had to put her down."],
+    "keys": { "шкода": "sorry" }
+   }
+  ]
+ },
+ {
+  "id": 2351, "w": "pickle", "uk": "маринувати, солити (на зиму)", "lvl": "C1",
+  "forms": "pickle|pickles|pickled|pickled|pickling",
+  "near": "marinat*|preserv*|canned|canning|salt*|brine*|ferment*",
+  "tasks": [
+   {
+    "sit": "Кінець літа, на бабусиному городі купа огірків.",
+    "say": "Давай замаринуємо огірки на зиму.",
+    "ans": ["Let’s pickle the cucumbers for winter.", "Let’s pickle some cucumbers for the winter.", "We should pickle these cucumbers for winter."],
+    "keys": { "огірки": "cucumber*|cuke*", "зима": "winter" }
+   },
+   {
+    "sit": "Ти кухар у ресторані й розповідаєш офіціантам про нову страву.",
+    "say": "Цибулю ми маринуємо самі, прямо тут.",
+    "ans": ["We pickle the onions ourselves, right here.", "The onions are pickled right here, by us.", "We pickle our own onions here."],
+    "keys": { "цибуля": "onion*" }
+   },
+   {
+    "sit": "Ти ведеш кулінарний блог і відповідаєш на коментар про рецепт помідорів.",
+    "say": "Я солю помідори без оцту, тільки із сіллю й часником.",
+    "ans": ["I pickle tomatoes without vinegar, just salt and garlic.", "I pickle my tomatoes with just salt and garlic, no vinegar.", "I pickle them with no vinegar — just salt and garlic."],
+    "keys": { "оцет": "vinegar", "часник": "garlic" }
+   }
+  ]
+ },
+ {
+  "id": 2352, "w": "can vegetables", "uk": "консервувати овочі", "lvl": "C1",
+  "forms": "can|cans|canned|canned|canning",
+  "tail": "vegetable*/veg/veggie*/tomato*/bean*/pepper*",
+  "near": "preserv*|pickl*|jar*|put up|bottl*",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш іноземному другові про сімейні традиції.",
+    "say": "Щоосені бабуся консервує овочі на зиму.",
+    "ans": ["Every fall, Grandma cans vegetables for the winter.", "My grandma cans vegetables every autumn for winter.", "Grandma cans vegetables every fall so we have them all winter."],
+    "keys": { "бабуся": "grand*|gran|granny", "зима": "winter" }
+   },
+   {
+    "sit": "У тебе на дачі величезний урожай помідорів.",
+    "say": "Цього року я сам законсервую помідори.",
+    "ans": ["This year I’m canning the tomatoes myself.", "I’m canning all the tomatoes myself this year.", "This year I’m going to try canning the tomatoes myself."],
+    "keys": { "помідори": "tomato*", "сам": "myself|own" }
+   },
+   {
+    "sit": "Ти дивишся відео про те, як жити без походів у магазин цілу зиму.",
+    "say": "Хочу навчитися консервувати овочі, щоб мати запаси.",
+    "ans": ["I want to learn how to can vegetables so I have supplies.", "I’d like to learn to can vegetables so I have a stockpile.", "I really want to learn how to can veggies and stock up."],
+    "keys": { "навчитися": "learn*", "запаси": "suppl*|stock*|store*|pantry|food" }
+   }
+  ]
+ },
+ {
+  "id": 2353, "w": "ferment", "uk": "ферментувати, квасити", "lvl": "C1",
+  "forms": "ferment|ferments|fermented|fermented|fermenting",
+  "near": "pickl*|sour*|brine*|culture*",
+  "tasks": [
+   {
+    "sit": "Ти квасиш капусту в банці, і сусід по квартирі питає, коли її можна їсти.",
+    "say": "Капуста має бродити ще тиждень.",
+    "ans": ["The cabbage needs to ferment for another week.", "The cabbage has to ferment for one more week.", "Let the cabbage ferment another week."],
+    "keys": { "капуста": "cabbage|sauerkraut|kraut", "тиждень": "week*" }
+   },
+   {
+    "sit": "Лікар радив тобі їсти більше корисних бактерій, і колега питає, що змінилося.",
+    "say": "Тепер я сам ферментую кефір удома.",
+    "ans": ["I ferment my own kefir at home now.", "Now I ferment kefir myself at home.", "I’ve started fermenting my own kefir at home."],
+    "keys": { "кефір": "kefir|yogurt|yoghurt|milk", "удома": "home" }
+   },
+   {
+    "sit": "Ти вариш пиво вдома й показуєш другові бочку в підвалі.",
+    "say": "Пиво бродитиме тут два тижні.",
+    "ans": ["The beer will ferment here for two weeks.", "The beer’s going to ferment in here for two weeks.", "The beer ferments in here for about two weeks."],
+    "keys": { "пиво": "beer*|brew*", "два тижні": "week*|fortnight" }
+   }
+  ]
+ },
+ {
+  "id": 2354, "w": "do a smoky eye", "uk": "робити смокі-айз", "lvl": "B2",
+  "forms": "do|does|did|done|doing",
+  "tail": "smoky/smokey eye*",
+  "near": "smoky eye look|smokey eye look|dark eye makeup|eyeshadow",
+  "tasks": [
+   {
+    "sit": "Ти візажист, і клієнтка збирається на вечірку.",
+    "say": "Зроблю вам смокі-айз — ідеально для вечора.",
+    "ans": ["I’ll do a smoky eye for you — perfect for the evening.", "Let me do a smoky eye, it’s perfect for tonight.", "I’m thinking we do a smoky eye — perfect for a night out."],
+    "keys": { "вечір": "evening|night|tonight" }
+   },
+   {
+    "sit": "Ти записуєш відео для свого бʼюті-блогу.",
+    "say": "Сьогодні покажу, як зробити смокі-айз за пʼять хвилин.",
+    "ans": ["Today I’ll show you how to do a smoky eye in five minutes.", "Today I’m showing you how to do a smoky eye in 5 minutes.", "Let me show you how to do a smoky eye in just five minutes!"],
+    "keys": { "пʼять хвилин": "five|5*|minute*" }
+   },
+   {
+    "sit": "Ти фотограф на денному весіллі, і наречена радиться з тобою щодо макіяжу.",
+    "say": "Для денних фото краще не робити смокі-айз.",
+    "ans": ["For daytime photos, it’s better not to do a smoky eye.", "I wouldn’t do a smoky eye for daytime photos.", "Honestly, don’t do a smoky eye for daytime pictures."],
+    "keys": { "денні": "day*", "фото": "photo*|picture*|pic*|shot*" }
+   }
+  ]
+ },
+ {
+  "id": 2355, "w": "pass a note", "uk": "передавати записку", "lvl": "A2",
+  "forms": "pass|passes|passed|passed|passing",
+  "tail": "note*",
+  "near": "give* a note|gave a note|given a note|slip* a note|hand* a note|send a note|sent a note",
+  "tasks": [
+   {
+    "sit": "На уроці вчителька помітила, що ти щось передаєш сусідові по парті.",
+    "say": "Вибачте, я просто передав записку другові.",
+    "ans": ["Sorry, I just passed a note to my friend.", "Sorry, I was just passing a note to my friend.", "Sorry! I only passed my friend a note."],
+    "keys": { "друг": "friend*|buddy|mate|classmate*" }
+   },
+   {
+    "sit": "Ти організатор конференції, а промова спікера сильно затягнулася.",
+    "say": "Передам спікерові записку, що час закінчується.",
+    "ans": ["I’ll pass the speaker a note that time’s almost up.", "I’ll pass a note to the speaker saying we’re out of time.", "Let me pass the speaker a note — we’re running out of time."],
+    "keys": { "спікер": "speaker*", "час": "time" }
+   },
+   {
+    "sit": "У кавʼярні тобі сподобалася людина за сусіднім столиком, але підійти соромно.",
+    "say": "Попрошу офіціанта передати їй записку.",
+    "ans": ["I’ll ask the waiter to pass her a note.", "I’m going to ask the waiter to pass a note to her.", "Maybe I’ll get the waiter to pass her a note."],
+    "keys": { "офіціант": "waiter*|waitress*|server*|barista*" }
+   }
+  ]
+ },
+ {
+  "id": 2356, "w": "housesit", "uk": "доглядати за чужим домом (поки господарів немає)", "lvl": "C1",
+  "forms": "housesit/house-sit|housesits/house-sits|housesat/house-sat|housesat/house-sat|housesitting/house-sitting",
+  "near": "look after|looked after|looking after|take care of|took care of|watch the house|mind the house|pet-sit*|petsit*",
+  "tasks": [
+   {
+    "sit": "Друзі їдуть на два тижні до Японії й просять тебе допомогти.",
+    "say": "Я доглядатиму за їхнім будинком, поки їх не буде.",
+    "ans": ["I’m going to housesit for them while they’re away.", "I’ll housesit for them while they’re gone.", "I’m housesitting for them while they’re in Japan."],
+    "keys": { "поки їх не буде": "away|gone|while|japan" }
+   },
+   {
+    "sit": "Однокурсник питає, як ти заробляєш під час канікул.",
+    "say": "Я доглядаю за будинками людей, поки вони у відпустці.",
+    "ans": ["I housesit for people when they’re on vacation.", "I housesit for people who go on holiday.", "I do some housesitting when people go on vacation."],
+    "keys": { "люди": "people|famil*|neighbo*", "відпустка": "vacation*|holiday*|away|trip*" }
+   },
+   {
+    "sit": "Ти розповідаєш, як пів року подорожував Європою майже без витрат на житло.",
+    "say": "Замість готелів я доглядав за чужими будинками.",
+    "ans": ["Instead of staying in hotels, I housesat.", "I housesat instead of paying for hotels.", "I just housesat my way around — no hotels."],
+    "keys": { "готелі": "hotel*" }
+   }
+  ]
+ },
+ {
+  "id": 2357, "w": "scan a QR code", "uk": "сканувати QR-код", "lvl": "A2",
+  "forms": "scan|scans|scanned|scanned|scanning",
+  "tail": "qr/code*",
+  "near": "use the qr|use the code|point your phone|take a picture of",
+  "tasks": [
+   {
+    "sit": "У кафе немає паперового меню, лише наліпка на столі.",
+    "say": "Треба відсканувати QR-код, щоб побачити меню.",
+    "ans": ["You need to scan the QR code to see the menu.", "We have to scan the QR code for the menu.", "Just scan the QR code to get the menu."],
+    "keys": { "меню": "menu*" }
+   },
+   {
+    "sit": "На ринку продавчиня каже, що картки не приймає.",
+    "say": "Можна заплатити, відсканувавши QR-код?",
+    "ans": ["Can I pay by scanning a QR code?", "Can I scan a QR code to pay?", "Is it OK if I just scan the QR code and pay?"],
+    "keys": { "заплатити": "pay*|paid" }
+   },
+   {
+    "sit": "У музеї біля кожної картини висить табличка з QR-кодом.",
+    "say": "Відскануй код — там аудіогід.",
+    "ans": ["Scan the QR code — there’s an audio guide.", "If you scan the QR code, you get an audio guide.", "Scan the code, there’s an audio guide on it."],
+    "keys": { "аудіогід": "audio*|guide*" }
+   }
+  ]
+ },
+ {
+  "id": 2358, "w": "chart symptoms", "uk": "вести журнал симптомів", "lvl": "C1",
+  "forms": "chart|charts|charted|charted|charting",
+  "tail": "symptom*",
+  "near": "track*|log|logged|logging|record*|note down|write down|wrote down|keep a diary|journal*",
+  "tasks": [
+   {
+    "sit": "У тебе часті мігрені, і лікар хоче знайти, що їх викликає.",
+    "say": "Лікар попросив мене два тижні вести журнал симптомів.",
+    "ans": ["The doctor asked me to chart my symptoms for two weeks.", "My doctor wants me to chart my symptoms for two weeks.", "I’ve been asked to chart my symptoms for two weeks."],
+    "keys": { "два тижні": "week*|fortnight" }
+   },
+   {
+    "sit": "Ти працюєш у лікарні й інструктуєш нового медбрата.",
+    "say": "Записуй симптоми кожного пацієнта щогодини.",
+    "ans": ["Chart each patient’s symptoms every hour.", "You need to chart every patient’s symptoms hourly.", "Make sure you chart the patients’ symptoms every hour."],
+    "keys": { "пацієнти": "patient*", "щогодини": "hour*" }
+   },
+   {
+    "sit": "У твоєї доньки зʼявляється висипка після деяких продуктів.",
+    "say": "Я почав вести журнал її симптомів, щоб зрозуміти, на що алергія.",
+    "ans": ["I started charting her symptoms to find out what she’s allergic to.", "I’ve started to chart her symptoms to figure out the allergy.", "I’m charting her symptoms to see what’s causing the allergy."],
+    "keys": { "алергія": "allerg*" }
+   }
+  ]
+ },
+ {
+  "id": 2359, "w": "whip out a passport", "uk": "швидко витягнути паспорт", "lvl": "B2",
+  "forms": "whip|whips|whipped|whipped|whipping",
+  "tail": "out passport*",
+  "near": "pull* out|take out|took out|taken out|get out|got out|produce*|show*",
+  "tasks": [
+   {
+    "sit": "Ти в черзі на паспортному контролі, і черга рухається швидко.",
+    "say": "Секунду, зараз витягну паспорт.",
+    "ans": ["One second, let me whip out my passport.", "Just a sec — I’ll whip out my passport.", "Hold on, I’ll whip my passport out real quick."],
+    "keys": { "секунду": "second|sec|moment|minute|hang on|hold on|wait|quick*" }
+   },
+   {
+    "sit": "Ти розповідаєш другові, як в Італії вас зупинила поліція на дорозі.",
+    "say": "Я одразу витягнув паспорт, і все було гаразд.",
+    "ans": ["I whipped out my passport right away, and it was fine.", "I immediately whipped out my passport and everything was OK.", "I just whipped out my passport straight away and it was all good."],
+    "keys": { "гаразд": "fine|ok|okay|good|alright|all right" }
+   },
+   {
+    "sit": "У барі в Америці в тебе вимагають документ, бо ти молодо виглядаєш.",
+    "say": "Довелося витягати паспорт, щоб купити пиво.",
+    "ans": ["I had to whip out my passport to buy a beer.", "I had to whip out my passport just to get a beer.", "Had to whip out my passport for a beer — so embarrassing!"],
+    "keys": { "пиво": "beer*|drink*" }
+   }
+  ]
+ }
+]

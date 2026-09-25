@@ -13,7 +13,7 @@ const $ = s => doc.querySelector(s), $$ = s => [...doc.querySelectorAll(s)];
     const CATS = (new Function(src + ';return LEX_VERB_CATS'))();
     const SUBS = (new Function(src + ';return LEX_VERB_SUBS'))();
 
-    ok(V.length === 3250, 'verbs dataset: ' + V.length + ' after adding phrasals and merging duplicates');
+    ok(V.length === 3249, 'verbs dataset: ' + V.length + ' after adding phrasals and merging duplicates');
     ok(new Set(V.map(w => w._id)).size === V.length, 'every verb has a unique _id (progress stays intact)');
     ok(V.filter(w => w._id < 3003).every((w, i, a) => i === 0 || w._id > a[i - 1]._id), 'original verbs keep their ids in order (appended, not renumbered)');
 
@@ -45,7 +45,7 @@ const $ = s => doc.querySelector(s), $$ = s => [...doc.querySelectorAll(s)];
     const pairs = V.map(w => nrm(w.en) + '|' + ukKey(w.uk));
     ok(pairs.length === new Set(pairs).size, 'no word repeats with the same meaning (duplicates merged)');
     ok(V.filter(w => w.sense).length === 540, 'homonyms are numbered (540 entries carry a sense number)');
-    ok(V.filter(w => w.ex2).length === 142, '142 merged entries kept the second example');
+    ok(V.filter(w => w.ex2).length === 143, '143 merged entries kept the second example');
 
     /* дедуплікація видно в застосунку */
     go('#/vocab/verbs/browser');

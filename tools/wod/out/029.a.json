@@ -1,0 +1,642 @@
+[
+ {
+  "id": 1572, "w": "paw at", "uk": "шкребти лапою", "lvl": "C1",
+  "forms": "paw|paws|pawed|pawed|pawing",
+  "tail": "at",
+  "near": "scratch*|claw*|swipe*|swiping|bat at|batted at|batting at",
+  "tasks": [
+   {
+    "sit": "Ти погано спав, бо кіт не давав спокою. Розповідаєш про це колезі зранку.",
+    "say": "Кіт усю ніч шкріб лапою двері спальні.",
+    "ans": ["The cat was pawing at the bedroom door all night.", "All night long the cat pawed at the bedroom door.", "The cat kept pawing at my door the whole night."],
+    "keys": { "двері": "door*", "всю ніч": "night" }
+   },
+   {
+    "sit": "Після операції собаці забинтували лапу. Ти телефонуєш ветеринару, бо пес не дає рані спокою.",
+    "say": "Він весь час шкребе лапою пов’язку.",
+    "ans": ["He keeps pawing at the bandage.", "He’s been pawing at his bandage all day.", "He’s constantly pawing at the bandage, what should I do?"],
+    "keys": { "пов’язка": "bandage*|dressing*|wound*|stitch*", "весь час": "keep*|kept|all day|all the time|constantly|always" }
+   },
+   {
+    "sit": "Ти показуєш кошеняті на планшеті відео з пташками.",
+    "say": "Дивись, кошеня шкребе лапою екран — хоче спіймати пташку!",
+    "ans": ["Look, the kitten is pawing at the screen to catch the bird!", "The kitten keeps pawing at the screen, trying to catch the birds.", "Look — the kitten’s pawing at the screen, it wants the bird!"],
+    "keys": { "екран": "screen|tablet|ipad", "пташка": "bird*" }
+   }
+  ]
+ },
+ {
+  "id": 1573, "w": "wag", "uk": "крутити (хвостом)", "lvl": "B2",
+  "forms": "wag|wags|wagged|wagged|wagging",
+  "near": "shake*|shook|shaking|wiggl*|swish*",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш колегам, як тебе вдома зустрічає пес.",
+    "say": "Щойно я відчиняю двері, пес починає крутити хвостом.",
+    "ans": ["As soon as I open the door, the dog starts wagging its tail.", "The moment I open the door, my dog wags his tail.", "Whenever I open the door, the dog starts wagging his tail like crazy."],
+    "keys": { "двері": "door*", "хвіст": "tail*" }
+   },
+   {
+    "sit": "На прогулянці до вас підбігає незнайомий пес. Подруга лякається.",
+    "say": "Не бійся, він крутить хвостом — він дружній.",
+    "ans": ["Don’t worry, he’s wagging his tail — he’s friendly.", "Don’t be scared, he’s wagging his tail, so he’s friendly.", "Relax, look — he’s wagging his tail. He’s friendly."],
+    "keys": { "хвіст": "tail*", "дружній": "friend*|nice|safe|bite*|harmless" }
+   },
+   {
+    "sit": "Ти волонтериш у притулку й фотографуєш цуценя для оголошення.",
+    "say": "Цуценя так швидко крутить хвостом, що фото виходять розмиті.",
+    "ans": ["The puppy wags its tail so fast that the photos come out blurry.", "The puppy is wagging its tail so fast that the pictures are blurry.", "He’s wagging his tail so fast, all my photos are blurry!"],
+    "keys": { "фото": "photo*|picture*|shot*|pic*", "розмиті": "blur*|fuzzy|out of focus" }
+   }
+  ]
+ },
+ {
+  "id": 1574, "w": "pounce", "uk": "стрибнути (на здобич)", "lvl": "C1",
+  "forms": "pounce|pounces|pounced|pounced|pouncing",
+  "near": "jump*|leap*|leapt|lunge*|lunging|spring|sprang|attack*|grab*",
+  "tasks": [
+   {
+    "sit": "Ти з вікна спостерігаєш, як кіт годину сидить у траві біля нірки.",
+    "say": "Кіт раптом стрибнув на мишу!",
+    "ans": ["The cat suddenly pounced on a mouse!", "All of a sudden, the cat pounced on the mouse.", "Wow, the cat just pounced on a mouse!"],
+    "keys": { "миша": "mouse|mice|rodent*", "раптом": "sudden*|just|out of nowhere" }
+   },
+   {
+    "sit": "Ви з сестрою дивитеся документальний фільм про саванну. Лев довго ховається у траві.",
+    "say": "Зараз він кинеться на зебру.",
+    "ans": ["He’s about to pounce on the zebra.", "He’s going to pounce on that zebra any second.", "Watch — he’s about to pounce on the zebra!"],
+    "keys": { "зебра": "zebra*", "зараз": "about to|going to|any second|any moment|now" }
+   },
+   {
+    "sit": "Твоє кошеня ховається під диваном і полює на тебе.",
+    "say": "Щоразу, коли я проходжу повз, воно стрибає мені на ноги.",
+    "ans": ["Every time I walk past, it pounces on my feet.", "It pounces on my feet whenever I walk by.", "Whenever I go past, the little guy pounces on my feet!"],
+    "keys": { "ноги": "feet|foot|leg*|toe*|ankle*", "щоразу": "every time|whenever|always|each time" }
+   }
+  ]
+ },
+ {
+  "id": 1575, "w": "train up", "uk": "навчити з нуля (новачка)", "lvl": "C1",
+  "forms": "train|trains|trained|trained|training",
+  "tail": "up",
+  "near": "teach*|taught|coach*|mentor*|show the ropes|showed the ropes|onboard*",
+  "tasks": [
+   {
+    "sit": "У ваш відділ прийшов новенький без жодного досвіду. Керівник питає, хто ним займеться.",
+    "say": "Я можу навчити його з нуля за місяць.",
+    "ans": ["I can train him up in a month.", "I could train him up within a month.", "Leave him with me — I’ll train him up in a month."],
+    "keys": { "місяць": "month*|weeks" }
+   },
+   {
+    "sit": "Ти тренуєш дитячу футбольну команду. Батьки питають про плани клубу.",
+    "say": "Ми хочемо виховувати власних гравців, а не купувати їх.",
+    "ans": ["We want to train up our own players instead of buying them.", "Our plan is to train up our own players rather than buy them.", "We’d rather train up our own players than buy them in."],
+    "keys": { "власних": "own|home-grown|local|young", "купувати": "buy*|bought|sign*|pay*|purchas*" }
+   },
+   {
+    "sit": "Ти власник кав’ярні. Бариста звільнився, а досвідченого знайти не вдається.",
+    "say": "Доведеться найняти студента й навчити його всього з нуля.",
+    "ans": ["I’ll have to hire a student and train him up.", "We’ll have to take on a student and train them up from scratch.", "Guess I’ll just hire a student and train them up myself."],
+    "keys": { "студент": "student*|someone|kid|newbie|beginner", "найняти": "hire*|take on|took on|employ*|get" }
+   }
+  ]
+ },
+ {
+  "id": 1576, "w": "gear up", "uk": "готуватися (до події)", "lvl": "B2",
+  "forms": "gear|gears|geared|geared|gearing",
+  "tail": "up",
+  "near": "prepar*|get ready|getting ready|got ready|stock up|stocking up|stocked up",
+  "tasks": [
+   {
+    "sit": "До фіналу турніру лишається тиждень. Ти капітан і пишеш у загальний чат команди.",
+    "say": "Хлопці, готуймося до фіналу!",
+    "ans": ["Guys, let’s gear up for the final!", "Come on, team, it’s time to gear up for the final!", "Right, everyone — let’s gear up for the big final!"],
+    "keys": { "фінал": "final*|match|game" }
+   },
+   {
+    "sit": "Ви з другом збираєтеся в похід у Карпати. Він питає, які плани на суботу.",
+    "say": "У суботу купуємо спорядження й готуємося до походу.",
+    "ans": ["On Saturday we’re gearing up for the hike.", "We’ll gear up for the hike on Saturday.", "Saturday we gear up for the trip — boots, tent, everything."],
+    "keys": { "субота": "saturday|weekend", "похід": "hike|hiking|trip|trek*|mountain*|camp*" }
+   },
+   {
+    "sit": "Ти працюєш у магазині іграшок. Надворі жовтень, а головні продажі бувають у грудні.",
+    "say": "Ми вже готуємося до різдвяного сезону.",
+    "ans": ["We’re already gearing up for the Christmas season.", "We’ve already started gearing up for Christmas.", "We’re already gearing up for the Christmas rush."],
+    "keys": { "Різдво": "christmas|xmas|holiday*", "вже": "already|start*|now" }
+   }
+  ]
+ },
+ {
+  "id": 1577, "w": "hold the line", "uk": "тримати оборону", "lvl": "C1",
+  "forms": "hold|holds|held|held|holding",
+  "tail": "line",
+  "near": "defend*|stand firm|stood firm|hold out|held out|holding out|resist*|stand our ground|stood our ground",
+  "tasks": [
+   {
+    "sit": "Ти переказуєш колезі новини з фронту.",
+    "say": "Наші бійці тримають оборону вже третій тиждень.",
+    "ans": ["Our soldiers have been holding the line for three weeks.", "Our troops are still holding the line — it’s been three weeks now.", "Our guys have held the line for three weeks straight."],
+    "keys": { "бійці": "soldier*|troop*|guys|army|forces|defenders|fighters", "три тижні": "three weeks|3 weeks|third week|week*" }
+   },
+   {
+    "sit": "Профспілка веде переговори з керівництвом про зарплати. Ти виступаєш на зборах.",
+    "say": "Якщо ми втримаємо оборону, вони поступляться.",
+    "ans": ["If we hold the line, they’ll give in.", "As long as we hold the line, they’ll back down.", "We just need to hold the line and they’ll cave."],
+    "keys": { "поступляться": "give in|back down|cave|agree|yield|concede|budge" }
+   },
+   {
+    "sit": "Ти на роботі, а дитина вдома вимагає ще мультиків перед сном. Пишеш партнерові повідомлення.",
+    "say": "Тримай оборону — жодних мультиків після дев’ятої!",
+    "ans": ["Hold the line — no cartoons after nine!", "Hold the line: no more cartoons after nine o’clock.", "Just hold the line, okay? No cartoons after nine."],
+    "keys": { "мультики": "cartoon*|tv|show*|screen*", "після дев’ятої": "nine|9*" }
+   }
+  ]
+ },
+ {
+  "id": 1578, "w": "open fire", "uk": "відкрити вогонь", "lvl": "B2",
+  "forms": "open|opens|opened|opened|opening",
+  "tail": "fire",
+  "near": "shoot*|shot|fire at|fired at|firing at|start shooting|started shooting",
+  "tasks": [
+   {
+    "sit": "Ти читаєш ранкові новини й переказуєш їх батькам.",
+    "say": "Ворог уночі відкрив вогонь по селу.",
+    "ans": ["The enemy opened fire on the village at night.", "Last night the enemy opened fire on a village.", "They opened fire on the village overnight."],
+    "keys": { "село": "village*|town", "вночі": "night|overnight" }
+   },
+   {
+    "sit": "Ти переказуєш другові сюжет бойовика.",
+    "say": "І тут поліцейські відкривають вогонь по машині.",
+    "ans": ["And then the police open fire on the car.", "Then the cops opened fire on the car.", "So suddenly the police open fire on the car!"],
+    "keys": { "поліцейські": "police*|cop*|officer*", "машина": "car|vehicle|van" }
+   },
+   {
+    "sit": "Ви граєте в пейнтбол, і ти командуєш своєю групою.",
+    "say": "Не відкривайте вогонь, поки я не скажу!",
+    "ans": ["Don’t open fire until I say so!", "Nobody opens fire until I give the signal!", "Wait, don’t open fire till I say!"],
+    "keys": { "не": "not|nobody|no one|never", "поки я не скажу": "say*|signal|order*|command|tell*|told" }
+   }
+  ]
+ },
+ {
+  "id": 1579, "w": "cease fire", "uk": "припинити вогонь", "lvl": "B2",
+  "forms": "cease|ceases|ceased|ceased|ceasing",
+  "tail": "fire",
+  "near": "stop shooting|stopped shooting|stop firing|stopped firing|stop fighting|stopped fighting|truce|ceasefire|hold fire|held fire",
+  "tasks": [
+   {
+    "sit": "Ти читаєш новини про переговори й переказуєш їх колезі.",
+    "say": "Обидві сторони погодилися припинити вогонь опівночі.",
+    "ans": ["Both sides agreed to cease fire at midnight.", "The two sides have agreed to cease fire from midnight.", "Both sides agreed to cease fire starting at midnight."],
+    "keys": { "обидві сторони": "both|two sides|each side|sides", "опівночі": "midnight|12*|twelve" }
+   },
+   {
+    "sit": "Ти інструктор на стрільбищі й бачиш, що на лінію вогню вийшла людина.",
+    "say": "Негайно припинити вогонь!",
+    "ans": ["Cease fire immediately!", "Everyone, cease fire now!", "Cease fire, cease fire — right now!"],
+    "keys": { "негайно": "immediately|now|at once|right away" }
+   },
+   {
+    "sit": "Ти готуєш доповідь з історії про Різдвяне перемир’я 1914 року.",
+    "say": "На Різдво солдати самі припинили вогонь.",
+    "ans": ["At Christmas, the soldiers ceased fire on their own.", "The soldiers ceased fire by themselves on Christmas Day.", "On Christmas, the soldiers just ceased fire themselves."],
+    "keys": { "Різдво": "christmas|xmas", "солдати": "soldier*|troop*|men" }
+   }
+  ]
+ },
+ {
+  "id": 1581, "w": "turn around", "uk": "витягнути з кризи (бізнес)", "lvl": "B2",
+  "forms": "turn|turns|turned|turned|turning",
+  "tail": "around/round",
+  "near": "fix*|save|saved|saving|rescu*|reviv*|improv*|get back on track|got back on track",
+  "tasks": [
+   {
+    "sit": "Колега розповідає про нового директора заводу, який був на межі банкрутства.",
+    "say": "За два роки він повністю витягнув завод із кризи.",
+    "ans": ["He turned the factory around in two years.", "In just two years, he completely turned the factory around.", "He managed to turn the whole factory around in two years."],
+    "keys": { "завод": "factory|plant|company|business|place", "два роки": "two years|2 years|years" }
+   },
+   {
+    "sit": "Твій друг купив ресторан, який приносив тільки збитки, і тепер сумнівається.",
+    "say": "Я впевнений, що ти зможеш витягнути його з мінуса.",
+    "ans": ["I’m sure you can turn it around.", "I’m sure you’ll turn the place around.", "I bet you’ll turn it around in no time."],
+    "keys": { "впевнений": "sure|bet|know|confident|certain|believe" }
+   },
+   {
+    "sit": "Твоя улюблена футбольна команда торік була останньою в лізі, а тепер у п’ятірці найкращих.",
+    "say": "Новий тренер просто витягнув команду з дна.",
+    "ans": ["The new coach has really turned the team around.", "The new coach turned the team around completely.", "That new coach totally turned the team around!"],
+    "keys": { "тренер": "coach*|manager", "команда": "team|club|side" }
+   }
+  ]
+ },
+ {
+  "id": 1583, "w": "wind up", "uk": "згортати (справу)", "lvl": "C1",
+  "forms": "wind|winds|wound|wound|winding",
+  "tail": "up",
+  "near": "close|closed|closing|close down|shut down|shutting down|liquidat*|fold*",
+  "tasks": [
+   {
+    "sit": "Твоя маленька фірма вже рік працює в мінус. Ти говориш із бухгалтером.",
+    "say": "Думаю, пора згортати компанію.",
+    "ans": ["I think it’s time to wind up the company.", "I think we should wind the company up.", "Honestly, I think it’s time to wind up the business."],
+    "keys": { "компанія": "company|business|firm", "пора": "time|should|need*" }
+   },
+   {
+    "sit": "Дядько виходить на пенсію, а його дітям пекарня не цікава.",
+    "say": "Він вирішив згорнути бізнес до кінця року.",
+    "ans": ["He’s decided to wind up the business by the end of the year.", "He decided to wind the business up before the end of the year.", "He’s going to wind up the bakery by the end of the year."],
+    "keys": { "бізнес": "business|bakery|company|shop", "кінця року": "end of the year|year*|december" }
+   },
+   {
+    "sit": "Ти очолюєш невеликий благодійний фонд. Гроші закінчуються, нових донорів немає.",
+    "say": "Якщо нічого не зміниться, нам доведеться згорнути фонд.",
+    "ans": ["If nothing changes, we’ll have to wind up the foundation.", "Unless something changes, we’ll need to wind the charity up.", "If nothing changes, we’ll have to wind the whole thing up."],
+    "keys": { "фонд": "foundation|charity|fund|organi*|thing", "зміниться": "change*" }
+   }
+  ]
+ },
+ {
+  "id": 1584, "w": "give away", "uk": "віддавати задарма", "lvl": "B1",
+  "forms": "give|gives|gave|given|giving",
+  "tail": "away",
+  "near": "donat*|hand out|handed out|handing out|pass on|passed on",
+  "tasks": [
+   {
+    "sit": "Ти переїжджаєш в іншу країну й не хочеш везти з собою меблі.",
+    "say": "Я віддам диван безкоштовно, якщо хтось його забере.",
+    "ans": ["I’ll give away the sofa for free if someone picks it up.", "I’m giving the sofa away for free — you just need to collect it.", "Anyone want a sofa? I’m giving it away, you just have to pick it up."],
+    "keys": { "диван": "sofa|couch", "забере": "pick* up|picks it up|pick it up|collect*|take*|took|come for" }
+   },
+   {
+    "sit": "Ти розбираєш шафу й знаходиш купу речей, які не носиш роками.",
+    "say": "Старий одяг я віддам тим, кому він потрібен.",
+    "ans": ["I’ll give away my old clothes to someone who needs them.", "I’m going to give my old clothes away to people who need them.", "I’ll just give the old clothes away to anyone who needs them."],
+    "keys": { "одяг": "cloth*|stuff|things", "потрібен": "need*|use" }
+   },
+   {
+    "sit": "Ти ведеш маленький інтернет-магазин кераміки й хочеш залучити підписників.",
+    "say": "Цього тижня ми роздаємо десять чашок безкоштовно!",
+    "ans": ["This week we’re giving away ten mugs!", "We’re giving ten mugs away this week!", "This week we’re giving away ten free mugs!"],
+    "keys": { "чашки": "mug*|cup*", "десять": "ten|10", "тиждень": "week" }
+   }
+  ]
+ },
+ {
+  "id": 1585, "w": "give back", "uk": "повертати (позичене)", "lvl": "A2",
+  "forms": "give|gives|gave|given|giving",
+  "tail": "back",
+  "near": "return*|bring back|brought back|pay back|paid back",
+  "tasks": [
+   {
+    "sit": "Місяць тому ти позичив у друга книжку і вже її прочитав.",
+    "say": "Я поверну тобі книжку завтра.",
+    "ans": ["I’ll give you the book back tomorrow.", "I’ll give back your book tomorrow.", "I’ll give it back to you tomorrow, okay?"],
+    "keys": { "книжка": "book|it", "завтра": "tomorrow" }
+   },
+   {
+    "sit": "Молодший брат узяв твої навушники без дозволу.",
+    "say": "Поверни мої навушники!",
+    "ans": ["Give me back my headphones!", "Give my headphones back!", "Hey, give me my headphones back!"],
+    "keys": { "навушники": "headphone*|earphone*|earbud*|airpods" }
+   },
+   {
+    "sit": "Сусідка питає, чи ти ще користуєшся її дрилем.",
+    "say": "Вибачте, я забув повернути вам дриль.",
+    "ans": ["Sorry, I forgot to give you back your drill.", "I’m sorry, I forgot to give your drill back.", "Oh, sorry — I forgot to give the drill back!"],
+    "keys": { "дриль": "drill", "забув": "forg*" }
+   }
+  ]
+ },
+ {
+  "id": 1586, "w": "give up on", "uk": "махнути рукою на", "lvl": "B2",
+  "forms": "give|gives|gave|given|giving",
+  "tail": "up on",
+  "near": "abandon*|stop believing|stopped believing|lose hope|lost hope|lost faith|write off|wrote off|written off",
+  "tasks": [
+   {
+    "sit": "Ти репетитор. Мама учня каже, що син безнадійний у математиці.",
+    "say": "Я не махну на нього рукою — він здібний.",
+    "ans": ["I’m not going to give up on him — he’s capable.", "I won’t give up on him; he’s smart.", "Don’t worry, I’m not giving up on him. He’s clever."],
+    "keys": { "не": "not|never", "здібний": "can|capable|able|smart|clever|talent*|potential|bright" }
+   },
+   {
+    "sit": "Друг уже рік не може знайти роботу й каже, що все марно.",
+    "say": "Не махай на себе рукою!",
+    "ans": ["Don’t give up on yourself!", "You can’t give up on yourself!", "Come on, don’t give up on yourself!"],
+    "keys": { "себе": "yourself", "не": "not|never" }
+   },
+   {
+    "sit": "Ти три роки лагодиш старий мотоцикл, але він досі не заводиться.",
+    "say": "Я вже майже махнув рукою на цей мотоцикл.",
+    "ans": ["I’ve almost given up on this motorbike.", "I nearly gave up on that bike.", "Honestly, I’ve nearly given up on this bike."],
+    "keys": { "мотоцикл": "motorbike*|motorcycle*|bike*", "майже": "almost|nearly" }
+   }
+  ]
+ },
+ {
+  "id": 1587, "w": "break down", "uk": "не витримати й розплакатися", "lvl": "B2",
+  "forms": "break|breaks|broke|broken|breaking",
+  "tail": "down",
+  "near": "burst into tears|cried|cry|crying|start crying|started crying|fell apart|fall apart|lost it|lose it",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш подрузі про похорон дідуся.",
+    "say": "Тато тримався до кінця, а потім не витримав і розплакався.",
+    "ans": ["Dad held it together until the end, and then he broke down.", "Dad was strong until the very end, but then he broke down.", "Dad kept it together till the last minute, then he just broke down."],
+    "keys": { "тато": "dad|father|papa", "до кінця": "end|last" }
+   },
+   {
+    "sit": "Колега пів року працювала без відпустки. Сьогодні начальник її ще й покритикував.",
+    "say": "Вона розплакалася прямо на нараді.",
+    "ans": ["She broke down right in the meeting.", "She broke down in the middle of the meeting.", "She totally broke down during the meeting."],
+    "keys": { "нарада": "meeting" }
+   },
+   {
+    "sit": "Ви з мамою дивитеся шоу талантів. Учасник отримує «золоту кнопку».",
+    "say": "Він так зрадів, що не стримався й розплакався на сцені.",
+    "ans": ["He was so happy that he broke down on stage.", "He broke down on stage because he was so happy.", "He was so overwhelmed, he broke down right there on stage."],
+    "keys": { "на сцені": "stage", "зрадів": "happy|glad|overjoyed|overwhelm*|joy*|emotional|excited" }
+   }
+  ]
+ },
+ {
+  "id": 1588, "w": "pull through", "uk": "витримати, вижити (пережити кризу)", "lvl": "B2",
+  "forms": "pull|pulls|pulled|pulled|pulling",
+  "tail": "through",
+  "near": "surviv*|recover*|make it|made it|get through|got through|get better|got better",
+  "tasks": [
+   {
+    "sit": "Дідусь після важкої операції в реанімації. Лікар виходить до вас, і ти потім переказуєш його слова сестрі.",
+    "say": "Лікар каже, що дідусь витримає.",
+    "ans": ["The doctor says Grandpa will pull through.", "The doctor thinks Grandpa is going to pull through.", "The doctor says he’ll pull through, thank God."],
+    "keys": { "лікар": "doctor|doc|surgeon" }
+   },
+   {
+    "sit": "Твоя кав’ярня ледве пережила карантин. Ти розповідаєш про це знайомим.",
+    "say": "Було важко, але ми вистояли.",
+    "ans": ["It was hard, but we pulled through.", "It was tough, but we managed to pull through the crisis.", "It was rough, but somehow we pulled through."],
+    "keys": { "важко": "hard|tough|rough|difficult" }
+   },
+   {
+    "sit": "Твій кіт з’їв щось отруйне, і ветеринар три дні боровся за нього.",
+    "say": "На щастя, він вижив.",
+    "ans": ["Luckily, he pulled through.", "Fortunately, he pulled through in the end.", "Thankfully, the little guy pulled through!"],
+    "keys": { "на щастя": "lucky|luckily|fortunately|thankfully|thank god" }
+   }
+  ]
+ },
+ {
+  "id": 1589, "w": "break the law", "uk": "порушувати закон", "lvl": "B1",
+  "forms": "break|breaks|broke|broken|breaking",
+  "tail": "law",
+  "near": "illegal*|against the law|commit a crime|committed a crime|violat*|breach*|infring*",
+  "tasks": [
+   {
+    "sit": "Уночі друг хоче проїхати на червоне світло, бо на дорозі нікого немає.",
+    "say": "Не порушуй закон, навіть якщо нікого немає.",
+    "ans": ["Don’t break the law, even if nobody’s around.", "Even if there’s nobody around, don’t break the law.", "Come on, don’t break the law — even if the road’s empty."],
+    "keys": { "навіть якщо нікого": "even|nobody|no one|empty" }
+   },
+   {
+    "sit": "Сестра качає фільми з піратських сайтів і питає, чи це нормально.",
+    "say": "Взагалі-то ти порушуєш закон.",
+    "ans": ["Technically, you’re breaking the law.", "Actually, you are breaking the law by doing that.", "Well, technically you’re breaking the law."],
+    "keys": { "взагалі-то": "technical*|actually|strictly|well" }
+   },
+   {
+    "sit": "Ти читаєш новину про депутата, якого спіймали на хабарі.",
+    "say": "Він порушив закон і має за це відповісти.",
+    "ans": ["He broke the law and should answer for it.", "He broke the law, so he has to face the consequences.", "He broke the law — he should pay for it."],
+    "keys": { "відповісти": "answer*|pay|punish*|consequence*|responsib*|accountable|jail|prison" }
+   }
+  ]
+ },
+ {
+  "id": 1590, "w": "let off", "uk": "відпустити (без покарання)", "lvl": "C1",
+  "forms": "let|lets|let|let|letting",
+  "tail": "off",
+  "near": "forgive*|forgave|excuse*|let go|pardon*|release*|get away with|got away with",
+  "tasks": [
+   {
+    "sit": "Тебе зупинила поліція за перевищення швидкості, але штрафу ти не отримав.",
+    "say": "Поліцейський відпустив мене з попередженням.",
+    "ans": ["The officer let me off with a warning.", "The police officer just let me off with a warning.", "The cop let me off with just a warning!"],
+    "keys": { "попередження": "warning", "поліцейський": "officer|police*|cop*" }
+   },
+   {
+    "sit": "Ти вчитель. Учень утретє запізнився, але чесно пояснив причину.",
+    "say": "Цього разу я тебе відпущу без покарання.",
+    "ans": ["I’ll let you off this time.", "This time I’m going to let you off.", "Okay, I’ll let you off this time — but don’t be late again."],
+    "keys": { "цього разу": "this time|once|today" }
+   },
+   {
+    "sit": "Твій син розбив вазу, але одразу сам зізнався. Ти розповідаєш про це дружині.",
+    "say": "Він сам зізнався, тож я його не карав.",
+    "ans": ["He owned up, so I let him off.", "I let him off because he told the truth.", "He confessed right away, so I let him off."],
+    "keys": { "зізнався": "owned up|own up|confess*|admit*|told the truth|tell the truth|honest*" }
+   }
+  ]
+ },
+ {
+  "id": 1591, "w": "experiment", "uk": "експериментувати", "lvl": "B2",
+  "forms": "experiment|experiments|experimented|experimented|experimenting",
+  "near": "try|tried|trying|test*|play around|playing around|mess around|messing around",
+  "tasks": [
+   {
+    "sit": "Друзі хвалять твій незвичний суп і просять рецепт.",
+    "say": "Рецепту немає — я просто експериментую зі спеціями.",
+    "ans": ["There’s no recipe — I just experiment with spices.", "I don’t have a recipe; I’m just experimenting with spices.", "No recipe, honestly — I just like experimenting with spices."],
+    "keys": { "спеції": "spice*|seasoning*|herb*", "рецепт": "recipe*" }
+   },
+   {
+    "sit": "На нараді керівник питає, чи ваша команда вже використовує штучний інтелект.",
+    "say": "Поки що ми експериментуємо з кількома інструментами.",
+    "ans": ["For now, we’re experimenting with a few tools.", "We’re still experimenting with a couple of AI tools.", "We’re just experimenting with a few tools at the moment."],
+    "keys": { "інструменти": "tool*|app*|program*|software", "поки що": "still|for now|moment|yet|so far|currently|now" }
+   },
+   {
+    "sit": "Подруга здивована твоїм зеленим волоссям.",
+    "say": "Мені подобається експериментувати з кольором волосся.",
+    "ans": ["I like to experiment with my hair color.", "I love experimenting with hair colours.", "I just enjoy experimenting with my hair color."],
+    "keys": { "волосся": "hair*", "колір": "color*|colour*|dye*" }
+   }
+  ]
+ },
+ {
+  "id": 1592, "w": "test", "uk": "тестувати, перевіряти", "lvl": "A2",
+  "forms": "test|tests|tested|tested|testing",
+  "near": "check*|try|tried|trying|examin*|experiment*",
+  "tasks": [
+   {
+    "sit": "На уроці біології вчитель просить пояснити, що ви робите з рослинами в темній шафі.",
+    "say": "Ми перевіряємо, чи ростуть рослини без світла.",
+    "ans": ["We’re testing if plants grow without light.", "We test whether plants can grow without light.", "We’re testing to see if plants grow without light."],
+    "keys": { "рослини": "plant*", "без світла": "light|dark*|sun*" }
+   },
+   {
+    "sit": "Ти розробник. Менеджер питає, чи можна вже випускати нову версію додатка.",
+    "say": "Ще ні, ми ще тестуємо.",
+    "ans": ["Not yet, we’re still testing it.", "Not yet — we are still testing the app.", "Not yet, we’re still testing the new version."],
+    "keys": { "ще": "still|yet" }
+   },
+   {
+    "sit": "Ти хочеш купити вживане авто. Продавець питає, чи ти готовий платити.",
+    "say": "Спочатку я хочу перевірити машину на дорозі.",
+    "ans": ["First I want to test the car on the road.", "I’d like to test the car on the road first.", "I want to test it on the road first."],
+    "keys": { "машина": "car|it", "спочатку": "first|before" }
+   }
+  ]
+ },
+ {
+  "id": 1593, "w": "conduct", "uk": "проводити (дослідження, опитування)", "lvl": "B2",
+  "forms": "conduct|conducts|conducted|conducted|conducting",
+  "near": "carry out|carried out|carrying out|run|ran|running|perform*|do|did|doing|done|hold|held",
+  "tasks": [
+   {
+    "sit": "Ти аспірант і розповідаєш науковому керівникові про план дослідження.",
+    "say": "Я хочу провести опитування серед студентів.",
+    "ans": ["I want to conduct a survey among students.", "I’d like to conduct a survey of students.", "I’m planning to conduct a survey with our students."],
+    "keys": { "опитування": "survey*|poll*|questionnaire*", "студенти": "student*" }
+   },
+   {
+    "sit": "Ти HR-менеджер. Директор питає, як ви обиратимете нового бухгалтера.",
+    "say": "Наступного тижня ми проведемо співбесіди з трьома кандидатами.",
+    "ans": ["Next week we’ll conduct interviews with three candidates.", "We’re going to conduct interviews with three candidates next week.", "We’ll be conducting interviews with three candidates next week."],
+    "keys": { "співбесіди": "interview*", "три": "three|3" }
+   },
+   {
+    "sit": "Ти переказуєш колезі новину про пожежу на складі.",
+    "say": "Поліція проводить розслідування.",
+    "ans": ["The police are conducting an investigation.", "Police are conducting an investigation into the fire.", "The police are now conducting an investigation."],
+    "keys": { "розслідування": "investigat*|inquir*|enquir*|probe", "поліція": "police|cops|officer*" }
+   }
+  ]
+ },
+ {
+  "id": 1596, "w": "hypothesize", "uk": "висувати гіпотезу, припускати", "lvl": "C1",
+  "forms": "hypothesize/hypothesise|hypothesizes/hypothesises|hypothesized/hypothesised|hypothesized/hypothesised|hypothesizing/hypothesising",
+  "near": "suppos*|assum*|guess*|suggest*|theori*|speculat*|suspect*",
+  "tasks": [
+   {
+    "sit": "Ти біолог і пишеш статтю про те, чому зникають бджоли.",
+    "say": "Ми висуваємо гіпотезу, що причина — пестициди.",
+    "ans": ["We hypothesize that pesticides are the cause.", "We hypothesize that the cause is pesticides.", "Our team hypothesizes that pesticides are to blame."],
+    "keys": { "пестициди": "pesticide*|chemical*", "причина": "cause*|reason|blame|because" }
+   },
+   {
+    "sit": "На лекції з історії ви обговорюєте, чому занепала цивілізація майя.",
+    "say": "Деякі вчені висувають гіпотезу, що причиною стала посуха.",
+    "ans": ["Some scientists hypothesize that a drought was the cause.", "Some researchers hypothesize that drought caused it.", "Some scholars hypothesize it was because of a drought."],
+    "keys": { "посуха": "drought*|dry|rain*", "вчені": "scientist*|researcher*|scholar*|expert*|historian*" }
+   },
+   {
+    "sit": "Продажі в інтернет-магазині впали. Ти аналітик і пишеш звіт для керівництва.",
+    "say": "Ми висуваємо гіпотезу, що клієнтів відлякала нова ціна.",
+    "ans": ["We hypothesize that the new price scared customers away.", "We hypothesize that customers were put off by the new price.", "My team hypothesizes that the new price drove customers away."],
+    "keys": { "ціна": "price*|pric*|cost*", "клієнти": "customer*|client*|buyer*|shopper*" }
+   }
+  ]
+ },
+ {
+  "id": 1598, "w": "disprove", "uk": "спростовувати", "lvl": "C1",
+  "forms": "disprove|disproves|disproved|disproved/disproven|disproving",
+  "near": "refut*|debunk*|prove wrong|proved wrong|proven wrong|rebut*|contradict*",
+  "tasks": [
+   {
+    "sit": "Друг упевнений, що людина використовує лише десять відсотків мозку.",
+    "say": "Науковці давно спростували цей міф.",
+    "ans": ["Scientists disproved that myth long ago.", "That myth was disproved by scientists years ago.", "Come on, scientists disproved that myth a long time ago."],
+    "keys": { "міф": "myth|idea|claim|theory", "давно": "ago|long|years" }
+   },
+   {
+    "sit": "Ти адвокат і показуєш колезі запис із камери спостереження.",
+    "say": "Цей запис спростовує його алібі.",
+    "ans": ["This footage disproves his alibi.", "The video disproves his alibi completely.", "This recording totally disproves his alibi."],
+    "keys": { "алібі": "alibi", "запис": "footage|video|recording|tape|camera|cctv" }
+   },
+   {
+    "sit": "Колега стверджує, що клієнти не читають вашу розсилку. У тебе є статистика.",
+    "say": "Цифри спростовують твою теорію: половина клієнтів відкриває листи.",
+    "ans": ["The numbers disprove your theory: half our customers open the emails.", "These figures disprove your theory — half the clients open our emails.", "Actually, the data disproves that: half our customers read the emails."],
+    "keys": { "цифри": "number*|figure*|data|stat*", "половина": "half|50*", "листи": "email*|e-mail*|newsletter*|letter*|mail*" }
+   }
+  ]
+ },
+ {
+  "id": 1599, "w": "replicate", "uk": "відтворювати (результат, експеримент)", "lvl": "C1",
+  "forms": "replicate|replicates|replicated|replicated|replicating",
+  "near": "repeat*|reproduc*|copy|copied|copying|duplicat*|redo|redid|redoing",
+  "tasks": [
+   {
+    "sit": "Ти працюєш у лабораторії. Результат виглядає надто гарним, щоб бути правдою.",
+    "say": "Спочатку треба ще раз відтворити експеримент.",
+    "ans": ["First we need to replicate the experiment.", "We need to replicate the experiment before we trust it.", "Let’s replicate the experiment first before we get excited."],
+    "keys": { "експеримент": "experiment*|test*|study|result*", "спочатку": "first|before" }
+   },
+   {
+    "sit": "Ти в Італії куштуєш неймовірну домашню пасту.",
+    "say": "Вдома я ніколи не зможу відтворити цей смак.",
+    "ans": ["I’ll never be able to replicate this taste at home.", "I could never replicate this flavor at home.", "There’s no way I can replicate this at home."],
+    "keys": { "вдома": "home", "ніколи": "never|no way|not" }
+   },
+   {
+    "sit": "Ти тестувальник. Клієнт скаржиться, що додаток вилітає, але в тебе все працює.",
+    "say": "Я не можу відтворити цю помилку.",
+    "ans": ["I can’t replicate the bug.", "I haven’t been able to replicate this error.", "I just can’t replicate the problem on my phone."],
+    "keys": { "помилка": "bug*|error*|crash*|problem*|issue*", "не": "not|unable|never" }
+   }
+  ]
+ },
+ {
+  "id": 1600, "w": "mix", "uk": "змішувати", "lvl": "B1",
+  "forms": "mix|mixes|mixed|mixed|mixing",
+  "near": "combin*|blend*|stir*|whisk*",
+  "tasks": [
+   {
+    "sit": "Ти печеш млинці з молодшою сестрою й пояснюєш їй, що робити.",
+    "say": "Спочатку змішай борошно з яйцями.",
+    "ans": ["First, mix the flour with the eggs.", "Mix the flour and eggs first.", "First you mix the flour with the eggs, okay?"],
+    "keys": { "борошно": "flour", "яйця": "egg*" }
+   },
+   {
+    "sit": "Ви з дитиною малюєте аквареллю, а зеленої фарби немає.",
+    "say": "Нічого, змішаємо синю і жовту.",
+    "ans": ["No problem, we’ll mix blue and yellow.", "That’s okay — let’s mix blue and yellow.", "Don’t worry, we can just mix blue and yellow."],
+    "keys": { "синя": "blue", "жовта": "yellow" }
+   },
+   {
+    "sit": "Сусід збирається мити ванну хлоркою та ще одним засобом одночасно.",
+    "say": "Ніколи не змішуй хлорку з іншими засобами!",
+    "ans": ["Never mix bleach with other cleaners!", "Don’t ever mix bleach with other products!", "Whatever you do, never mix bleach with other cleaning stuff!"],
+    "keys": { "хлорка": "bleach|chlorine", "інші засоби": "other*|cleaner*|product*|chemical*|stuff", "ніколи": "never|not" }
+   }
+  ]
+ },
+ {
+  "id": 1601, "w": "dissolve", "uk": "розчиняти", "lvl": "B2",
+  "forms": "dissolve|dissolves|dissolved|dissolved|dissolving",
+  "near": "melt*|mix*|stir*|disappear*",
+  "tasks": [
+   {
+    "sit": "Ти робиш маринад і пояснюєш другові порядок дій.",
+    "say": "Спершу розчини цукор у теплій воді.",
+    "ans": ["First, dissolve the sugar in warm water.", "Dissolve the sugar in some warm water first.", "First you need to dissolve the sugar in warm water."],
+    "keys": { "цукор": "sugar", "вода": "water" }
+   },
+   {
+    "sit": "Ти приносиш хворій мамі ліки від застуди в пакетиках і пояснюєш, як їх пити.",
+    "say": "Треба розчинити один пакетик у склянці гарячої води.",
+    "ans": ["You need to dissolve one sachet in a glass of hot water.", "Dissolve one packet in a glass of hot water.", "Just dissolve a sachet in a glass of hot water."],
+    "keys": { "пакетик": "sachet*|packet*|powder|bag", "склянка": "glass|cup|mug" }
+   },
+   {
+    "sit": "На уроці хімії вчитель питає, що сталося із сіллю в пробірці.",
+    "say": "Сіль повністю розчинилася у воді.",
+    "ans": ["The salt completely dissolved in the water.", "The salt has dissolved completely in the water.", "The salt fully dissolved in the water."],
+    "keys": { "сіль": "salt", "повністю": "complete*|fully|all|totally|entirely" }
+   }
+  ]
+ }
+]

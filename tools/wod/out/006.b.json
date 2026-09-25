@@ -1,0 +1,630 @@
+[
+ {
+  "id": 287, "w": "unpack", "uk": "розпаковувати (речі)", "lvl": "B1",
+  "forms": "unpack|unpacks|unpacked|unpacked|unpacking",
+  "near": "take out|took out|empty|emptied|put away|put things away",
+  "tasks": [
+   {
+    "sit": "Ти щойно заселився в готель. Друг кличе тебе одразу йти гуляти містом.",
+    "say": "Дай мені десять хвилин — я тільки розпакую речі.",
+    "ans": ["Give me ten minutes, I’ll just unpack my things.", "Just give me ten minutes to unpack.", "Give me ten minutes — I just need to unpack."],
+    "keys": { "десять хвилин": "ten|10|minute*" }
+   },
+   {
+    "sit": "Ти повернувся з відпустки тиждень тому. Сусідка по квартирі бачить валізу посеред кімнати.",
+    "say": "Так, я досі не розпакував валізу.",
+    "ans": ["Yes, I still haven’t unpacked my suitcase.", "I know, I haven’t unpacked my suitcase yet.", "Yeah, I still haven’t unpacked, I know."],
+    "keys": { "досі не": "not|still|yet" }
+   },
+   {
+    "sit": "Ви переїхали в нову квартиру. Партнер питає, з чого почати.",
+    "say": "Давай спочатку розпакуємо коробки з кухні.",
+    "ans": ["Let’s unpack the kitchen boxes first.", "Let’s start by unpacking the boxes for the kitchen.", "How about we unpack the kitchen stuff first?"],
+    "keys": { "кухня": "kitchen", "спочатку": "first|start" }
+   }
+  ]
+ },
+ {
+  "id": 288, "w": "book", "uk": "бронювати", "lvl": "A2",
+  "forms": "book|books|booked|booked|booking",
+  "near": "reserv*|order*|get tickets|got tickets|buy tickets|bought tickets",
+  "tasks": [
+   {
+    "sit": "Ви з друзями вирішили поїхати до Львова на вихідні.",
+    "say": "Я вже забронював готель на дві ночі.",
+    "ans": ["I’ve already booked a hotel for two nights.", "I already booked the hotel for two nights.", "I’ve booked us a hotel for two nights already."],
+    "keys": { "готель": "hotel|room|place|apartment", "дві ночі": "two nights|2 nights" }
+   },
+   {
+    "sit": "У тебе болить зуб. Ти телефонуєш у стоматологічну клініку.",
+    "say": "Можна записатися на прийом на завтра?",
+    "ans": ["Can I book an appointment for tomorrow?", "Could I book an appointment for tomorrow, please?", "Hi, I’d like to book an appointment for tomorrow if possible."],
+    "keys": { "прийом": "appointment|visit|slot|time", "завтра": "tomorrow" }
+   },
+   {
+    "sit": "Колега хоче полетіти до Барселони влітку і питає твоєї поради.",
+    "say": "Бронюй квитки заздалегідь, так дешевше.",
+    "ans": ["Book your tickets early, it’s cheaper.", "Book the tickets in advance — it’s cheaper that way.", "Book your flights early, they’re way cheaper."],
+    "keys": { "квитки": "ticket*|flight*", "дешевше": "cheap*|less|save" }
+   }
+  ]
+ },
+ {
+  "id": 289, "w": "reserve", "uk": "резервувати, замовляти заздалегідь", "lvl": "B1",
+  "forms": "reserve|reserves|reserved|reserved|reserving",
+  "near": "book|booked|booking|books|hold|held|save|saved",
+  "tasks": [
+   {
+    "sit": "Ти телефонуєш у ресторан, щоб відсвяткувати річницю.",
+    "say": "Я хотів би зарезервувати столик на двох на суботу.",
+    "ans": ["I’d like to reserve a table for two for Saturday.", "Could I reserve a table for two on Saturday?", "Hi, I’d like to reserve a table for two this Saturday, please."],
+    "keys": { "на двох": "two|2", "субота": "saturday" }
+   },
+   {
+    "sit": "Ти заходиш у кафе, бачиш вільний столик, але офіціант зупиняє тебе. Ти пояснюєш другу.",
+    "say": "Цей столик уже зарезервований.",
+    "ans": ["This table is already reserved.", "That table has already been reserved.", "Sorry, that table’s already reserved."],
+    "keys": { "столик": "table|seat*", "уже": "already" }
+   },
+   {
+    "sit": "Ти переглядаєш сайт театру, де лишилося кілька квитків.",
+    "say": "Я зарезервую нам два місця в першому ряду.",
+    "ans": ["I’ll reserve two seats for us in the front row.", "I’m going to reserve two front-row seats for us.", "Let me reserve us two seats in the front row."],
+    "keys": { "два місця": "two|2|seat*", "перший ряд": "front|first row" }
+   }
+  ]
+ },
+ {
+  "id": 290, "w": "explore", "uk": "досліджувати, оглядати (нове місце)", "lvl": "B1",
+  "forms": "explore|explores|explored|explored|exploring",
+  "near": "look around|looked around|wander*|discover*|see the sights|sightseeing|walk around|walked around",
+  "tasks": [
+   {
+    "sit": "Ти вперше в Римі. Гід пропонує автобусну екскурсію, але ти відмовляєшся.",
+    "say": "Я краще сам пройдуся й досліджу місто.",
+    "ans": ["I’d rather explore the city on my own.", "I’d prefer to explore the city by myself.", "I think I’ll just explore the city on foot myself."],
+    "keys": { "місто": "city|town|rome|streets", "сам": "own|myself|alone|on foot" }
+   },
+   {
+    "sit": "Друг питає, що ви робили з дітьми на канікулах у горах.",
+    "say": "Ми цілими днями досліджували ліс і печери.",
+    "ans": ["We spent whole days exploring the forest and caves.", "We explored the woods and caves every day.", "We spent days just exploring the forest and the caves."],
+    "keys": { "ліс": "forest|wood*", "печери": "cave*" }
+   },
+   {
+    "sit": "Колега радить тобі нову програму для монтажу відео.",
+    "say": "Я ще не встиг дослідити всі її функції.",
+    "ans": ["I haven’t had time to explore all its features yet.", "I haven’t explored all the features yet.", "I still haven’t had a chance to explore all the features."],
+    "keys": { "функції": "feature*|function*|option*|tool*", "ще не": "not|yet|still" }
+   }
+  ]
+ },
+ {
+  "id": 291, "w": "check in", "uk": "заселятися (в готель)", "lvl": "B1",
+  "forms": "check|checks|checked|checked|checking",
+  "tail": "in/into",
+  "near": "register*|get a room|got a room|arrive*",
+  "tasks": [
+   {
+    "sit": "Ти телефонуєш у готель перед приїздом.",
+    "say": "О котрій можна заселитися?",
+    "ans": ["What time can we check in?", "What time is check-in? When can I check in?", "Hi, what time can I check in?"],
+    "keys": { "о котрій": "what time|when" }
+   },
+   {
+    "sit": "Твій поїзд прибуває о восьмій ранку, а номер доступний лише з обіду. Ти питаєш на рецепції.",
+    "say": "Можна заселитися раніше?",
+    "ans": ["Is it possible to check in early?", "Can we check in a bit earlier?", "Any chance we could check in early?"],
+    "keys": { "раніше": "early|earlier|before" }
+   },
+   {
+    "sit": "Мама пише, щоб дізнатися, чи ти добре доїхав.",
+    "say": "Усе добре, ми вже заселилися в готель.",
+    "ans": ["All good, we’ve already checked in at the hotel.", "Everything’s fine, we already checked into the hotel.", "We’re fine — just checked in at the hotel."],
+    "keys": { "готель": "hotel|room|apartment", "уже": "already|just" }
+   }
+  ]
+ },
+ {
+  "id": 292, "w": "check out", "uk": "виписуватися (з готелю)", "lvl": "B1",
+  "forms": "check|checks|checked|checked|checking",
+  "tail": "out",
+  "near": "leave|left|leaving|vacate*|hand in the key*",
+  "tasks": [
+   {
+    "sit": "Рецепціоніст пояснює тобі правила готелю. Ти перепитуєш.",
+    "say": "До котрої треба виписатися?",
+    "ans": ["What time do we have to check out?", "By what time do I need to check out?", "When’s the latest we can check out?"],
+    "keys": { "до котрої": "what time|when|latest|by" }
+   },
+   {
+    "sit": "Ти в готелі в останній день відпустки, а рейс лише ввечері.",
+    "say": "Можна виписатися пізніше, о другій?",
+    "ans": ["Can I check out later, at two?", "Could we check out a bit later, at 2 p.m.?", "Is there any way we can check out late — around two?"],
+    "keys": { "пізніше": "late|later", "о другій": "two|2" }
+   },
+   {
+    "sit": "Друг питає, де ти, бо вже чекає на тебе в таксі.",
+    "say": "Я вже виписався, спускаюся!",
+    "ans": ["I’ve already checked out, I’m coming down!", "I just checked out — coming down now!", "Already checked out, I’m on my way down!"],
+    "keys": { "спускаюся": "down|coming|way" }
+   }
+  ]
+ },
+ {
+  "id": 293, "w": "click", "uk": "клікати, натискати (мишкою)", "lvl": "A2",
+  "forms": "click|clicks|clicked|clicked|clicking",
+  "near": "press*|tap*|hit|select*|choose|open*",
+  "tasks": [
+   {
+    "sit": "Ти по телефону допомагаєш бабусі зайти на сайт.",
+    "say": "Тепер клікни на синю кнопку внизу.",
+    "ans": ["Now click the blue button at the bottom.", "Now click on the blue button at the bottom.", "OK, now just click that blue button at the bottom."],
+    "keys": { "кнопка": "button|icon", "синя": "blue" }
+   },
+   {
+    "sit": "Колега отримав дивний лист «від банку» з посиланням.",
+    "say": "Не клікай на це посилання, це шахраї!",
+    "ans": ["Don’t click on that link, it’s a scam!", "Don’t click the link — it’s from scammers!", "Whatever you do, don’t click that link. It’s a scam!"],
+    "keys": { "посилання": "link", "шахраї": "scam*|fraud*|fake|phishing" }
+   },
+   {
+    "sit": "Ти розповідаєш другові, чому не можеш знайти потрібний файл.",
+    "say": "Я випадково клікнув «Видалити».",
+    "ans": ["I accidentally clicked Delete.", "I clicked Delete by accident.", "I think I accidentally clicked on Delete."],
+    "keys": { "випадково": "accident*|mistake|by mistake", "видалити": "delete|remove" }
+   }
+  ]
+ },
+ {
+  "id": 294, "w": "type", "uk": "друкувати (на клавіатурі), набирати", "lvl": "A2",
+  "forms": "type|types|typed|typed|typing",
+  "near": "enter*|input*|write|wrote|written|writing|key in|keyed in",
+  "tasks": [
+   {
+    "sit": "Ти налаштовуєш другові новий ноутбук.",
+    "say": "Введи свій пароль ще раз.",
+    "ans": ["Type your password again.", "Type in your password one more time.", "Can you type your password again?"],
+    "keys": { "пароль": "password|code|pin", "ще раз": "again|one more time" }
+   },
+   {
+    "sit": "На співбесіді на посаду асистента тебе питають про навички.",
+    "say": "Я друкую дуже швидко, не дивлячись на клавіатуру.",
+    "ans": ["I type very fast without looking at the keyboard.", "I can type really quickly without looking at the keys.", "I type pretty fast — I don’t even need to look at the keyboard."],
+    "keys": { "швидко": "fast|quick*", "клавіатура": "keyboard|keys" }
+   },
+   {
+    "sit": "Ти пишеш у месенджері і бачиш, що друг щось довго набирає.",
+    "say": "Він уже п’ять хвилин щось друкує.",
+    "ans": ["He’s been typing something for five minutes.", "He has been typing for five minutes now.", "He’s been typing for like five minutes already."],
+    "keys": { "п’ять хвилин": "five|5|minute*" }
+   }
+  ]
+ },
+ {
+  "id": 295, "w": "download", "uk": "завантажувати (з інтернету)", "lvl": "A2",
+  "forms": "download|downloads|downloaded|downloaded|downloading",
+  "near": "get|got|install*|save*|save",
+  "tasks": [
+   {
+    "sit": "Ти рекомендуєш знайомому застосунок для вивчення мов.",
+    "say": "Завантаж цей застосунок, він безкоштовний.",
+    "ans": ["Download this app, it’s free.", "Download the app — it’s free.", "You should download this app, it’s totally free."],
+    "keys": { "застосунок": "app*|application|program", "безкоштовний": "free" }
+   },
+   {
+    "sit": "Ти в літаку й збираєшся дивитися фільм без інтернету.",
+    "say": "Я завантажив три фільми перед польотом.",
+    "ans": ["I downloaded three movies before the flight.", "I’ve downloaded three films for the flight.", "I downloaded three movies before we took off."],
+    "keys": { "три фільми": "three|3|movie*|film*", "політ": "flight|fly*|plane|took off|take off" }
+   },
+   {
+    "sit": "Бухгалтерка просить тебе переслати їй звіт, а в тебе повільний інтернет.",
+    "say": "Файл досі завантажується, зачекайте хвилинку.",
+    "ans": ["The file is still downloading, wait a minute.", "It’s still downloading, just a minute please.", "Hang on, the file’s still downloading."],
+    "keys": { "досі": "still" }
+   }
+  ]
+ },
+ {
+  "id": 296, "w": "upload", "uk": "завантажувати (в інтернет, на сервер)", "lvl": "B1",
+  "forms": "upload|uploads|uploaded|uploaded|uploading",
+  "near": "post*|share*|put online|put up|send|sent|add*|attach*",
+  "tasks": [
+   {
+    "sit": "Після весілля друзі просять фото. Ти пишеш у загальний чат.",
+    "say": "Я завантажу всі фото на Гугл Диск сьогодні ввечері.",
+    "ans": ["I’ll upload all the photos to Google Drive tonight.", "I’m going to upload all the pictures to Google Drive this evening.", "I’ll upload all the photos to the Drive tonight."],
+    "keys": { "фото": "photo*|picture*|pics", "сьогодні ввечері": "tonight|this evening|later" }
+   },
+   {
+    "sit": "Викладач нагадує про дедлайн для курсової роботи.",
+    "say": "Я вже завантажив роботу на платформу.",
+    "ans": ["I’ve already uploaded my paper to the platform.", "I already uploaded the assignment to the platform.", "I uploaded it to the platform already."],
+    "keys": { "уже": "already", "платформа": "platform|system|portal|site|moodle|it" }
+   },
+   {
+    "sit": "Ти ведеш кулінарний канал. Підписники питають про нове відео.",
+    "say": "Нове відео я завантажу в п’ятницю.",
+    "ans": ["I’ll upload the new video on Friday.", "The new video will be uploaded on Friday.", "I’m uploading the new video on Friday."],
+    "keys": { "відео": "video|episode", "п’ятниця": "friday" }
+   }
+  ]
+ },
+ {
+  "id": 297, "w": "install", "uk": "встановлювати", "lvl": "A2",
+  "forms": "install|installs|installed|installed|installing",
+  "near": "download*|set up|put in|fit*|mount*",
+  "tasks": [
+   {
+    "sit": "Ноутбук постійно просить перезапуск. Ти пояснюєш колезі, чому запізнюєшся на дзвінок.",
+    "say": "Комп’ютер встановлює оновлення.",
+    "ans": ["My computer is installing updates.", "The computer’s installing an update.", "Sorry, my laptop is installing updates right now."],
+    "keys": { "оновлення": "update*|upgrade*", "комп’ютер": "computer|laptop|pc|it" }
+   },
+   {
+    "sit": "Твоєму батькові подарували смартфон. Він питає, як відкрити банківський застосунок.",
+    "say": "Спочатку треба встановити застосунок банку.",
+    "ans": ["First you need to install the bank’s app.", "First, you have to install the banking app.", "You’ll need to install the bank app first."],
+    "keys": { "застосунок": "app*|application", "банк": "bank*" }
+   },
+   {
+    "sit": "Майстер приходив до тебе додому. Сусід питає, що він робив.",
+    "say": "Він встановив нам новий кондиціонер.",
+    "ans": ["He installed a new air conditioner for us.", "He installed our new air conditioner.", "He came to install a new AC for us."],
+    "keys": { "кондиціонер": "air con*|ac|a/c|conditioner" }
+   }
+  ]
+ },
+ {
+  "id": 298, "w": "delete", "uk": "видаляти", "lvl": "A2",
+  "forms": "delete|deletes|deleted|deleted|deleting",
+  "near": "remov*|eras*|clear*|get rid of|got rid of|wipe*|uninstall*",
+  "tasks": [
+   {
+    "sit": "Друг сфотографував тебе з заплющеними очима й хоче показати всім.",
+    "say": "Видали це фото, будь ласка!",
+    "ans": ["Delete that photo, please!", "Please delete that picture!", "Oh no, please delete that photo right now!"],
+    "keys": { "фото": "photo*|picture*|pic" }
+   },
+   {
+    "sit": "У твоєму телефоні закінчилася пам’ять. Ти пояснюєш подрузі, що робиш.",
+    "say": "Я видаляю старі застосунки, щоб звільнити місце.",
+    "ans": ["I’m deleting old apps to free up space.", "I’m deleting some old apps to make room.", "Just deleting some old apps to free up some space."],
+    "keys": { "застосунки": "app*|application*", "місце": "space|room|memory|storage" }
+   }
+   ,
+   {
+    "sit": "Колега не може знайти важливий документ на спільному диску.",
+    "say": "Здається, хтось випадково його видалив.",
+    "ans": ["I think someone deleted it by accident.", "I think somebody accidentally deleted it.", "Looks like someone deleted it by mistake."],
+    "keys": { "хтось": "someone|somebody|anyone|person", "випадково": "accident*|mistake" }
+   }
+  ]
+ },
+ {
+  "id": 299, "w": "search", "uk": "шукати (в інтернеті, у базі)", "lvl": "A2",
+  "forms": "search|searches|searched|searched|searching",
+  "near": "look for|looked for|looking for|google*|look up|looked up|find|found|browse*",
+  "tasks": [
+   {
+    "sit": "Ти не пам’ятаєш назву пісні, яку чув у кафе. Друг радить, як бути.",
+    "say": "Пошукай слова пісні в Гуглі.",
+    "ans": ["Search for the lyrics on Google.", "Just search the lyrics on Google.", "Try searching the lyrics on Google."],
+    "keys": { "слова пісні": "lyrics|words|song" }
+   },
+   {
+    "sit": "Ви з партнером хочете переїхати. Ти розповідаєш мамі, як просуваються справи.",
+    "say": "Ми вже місяць шукаємо квартиру в інтернеті.",
+    "ans": ["We’ve been searching for a flat online for a month.", "We’ve been searching online for an apartment for a month now.", "We’ve spent a month searching for an apartment online."],
+    "keys": { "квартира": "flat|apartment|place|home", "місяць": "month" }
+   },
+   {
+    "sit": "Колега не може знайти старий лист від клієнта.",
+    "say": "Пошукай за ім’ям клієнта в пошті.",
+    "ans": ["Search your email for the client’s name.", "Try searching your inbox by the client’s name.", "Just search for the client’s name in your email."],
+    "keys": { "клієнт": "client*|customer*", "пошта": "email*|e-mail|inbox|mail" }
+   }
+  ]
+ },
+ {
+  "id": 300, "w": "post", "uk": "постити, публікувати (в мережі)", "lvl": "A2",
+  "forms": "post|posts|posted|posted|posting",
+  "near": "upload*|share*|publish*|put up|put online",
+  "tasks": [
+   {
+    "sit": "Подруга хоче викласти фото з вечірки, де ти виглядаєш жахливо.",
+    "say": "Будь ласка, не пости це фото в Інстаграм!",
+    "ans": ["Please don’t post that photo on Instagram!", "Please don’t post this picture on Instagram!", "Don’t you dare post that photo on Instagram!"],
+    "keys": { "фото": "photo*|picture*|pic*", "не": "not|dare" }
+   },
+   {
+    "sit": "Ти ведеш блог про подорожі. Читачі питають, куди ти зник.",
+    "say": "Я нічого не публікував два тижні, бо був у горах.",
+    "ans": ["I haven’t posted anything for two weeks because I was in the mountains.", "I didn’t post anything for two weeks — I was in the mountains.", "Sorry I haven’t posted in two weeks, I was up in the mountains."],
+    "keys": { "два тижні": "two weeks|2 weeks|fortnight", "гори": "mountain*|hik*" }
+   },
+   {
+    "sit": "Колега з маркетингу питає про оголошення про вакансію.",
+    "say": "Я виставив вакансію на ЛінкедІн учора.",
+    "ans": ["I posted the job on LinkedIn yesterday.", "I posted the vacancy on LinkedIn yesterday.", "The job ad? I posted it on LinkedIn yesterday."],
+    "keys": { "вакансія": "job*|vacancy|position|ad|opening", "учора": "yesterday" }
+   }
+  ]
+ },
+ {
+  "id": 301, "w": "scroll", "uk": "гортати, скролити", "lvl": "B1",
+  "forms": "scroll|scrolls|scrolled|scrolled|scrolling",
+  "near": "swip*|flick* through|brows*|go through|look through",
+  "tasks": [
+   {
+    "sit": "Ти ліг спати о десятій, а заснув лише о першій. Скаржишся колезі.",
+    "say": "Я три години гортав ТікТок у ліжку.",
+    "ans": ["I scrolled through TikTok in bed for three hours.", "I spent three hours scrolling TikTok in bed.", "I was scrolling through TikTok in bed for like three hours."],
+    "keys": { "три години": "three hours|3 hours|hours", "ліжко": "bed|night" }
+   },
+   {
+    "sit": "Ти показуєш бабусі, як читати новини на планшеті.",
+    "say": "Гортай вниз, щоб побачити більше.",
+    "ans": ["Scroll down to see more.", "Scroll down to see the rest.", "Just scroll down and you’ll see more."],
+    "keys": { "вниз": "down" }
+   },
+   {
+    "sit": "Колега на нараді показує слайди, але ти пропустив таблицю.",
+    "say": "Прогорни, будь ласка, трохи назад.",
+    "ans": ["Could you scroll back up a bit, please?", "Please scroll back up a little.", "Can you scroll up a bit? I missed that table."],
+    "keys": { "назад": "back|up", "трохи": "bit|little|slightly" }
+   }
+  ]
+ },
+ {
+  "id": 302, "w": "tap", "uk": "натискати (пальцем на екран)", "lvl": "B1",
+  "forms": "tap|taps|tapped|tapped|tapping",
+  "near": "press*|click*|touch*|hit|push*|select*",
+  "tasks": [
+   {
+    "sit": "Ти вчиш тата користуватися новим смартфоном.",
+    "say": "Торкнися іконки камери двічі.",
+    "ans": ["Tap the camera icon twice.", "Tap twice on the camera icon.", "Just tap that camera icon twice."],
+    "keys": { "камера": "camera", "двічі": "twice|two times|double" }
+   },
+   {
+    "sit": "Подруга не знає, як відповісти на повідомлення в Instagram.",
+    "say": "Натисни на повідомлення й тримай.",
+    "ans": ["Tap and hold the message.", "Tap on the message and hold it.", "Just tap and hold on the message."],
+    "keys": { "повідомлення": "message*", "тримай": "hold" }
+   },
+   {
+    "sit": "Ти в магазині намагаєшся оплатити покупку, а сенсорний екран терміналу не реагує.",
+    "say": "Я натискаю на екран, але нічого не відбувається.",
+    "ans": ["I’m tapping the screen, but nothing happens.", "I keep tapping the screen and nothing’s happening.", "I tapped the screen, but nothing happened."],
+    "keys": { "екран": "screen|display", "нічого": "nothing|not" }
+   }
+  ]
+ },
+ {
+  "id": 303, "w": "charge", "uk": "заряджати (пристрій)", "lvl": "A2",
+  "forms": "charge|charges|charged|charged|charging",
+  "near": "plug in|plugged in|power up|recharg*|battery",
+  "tasks": [
+   {
+    "sit": "Ти в кафе, телефон ось-ось вимкнеться. Звертаєшся до бариста.",
+    "say": "Можна тут зарядити телефон?",
+    "ans": ["Can I charge my phone here?", "Is it OK if I charge my phone here?", "Is there anywhere I can charge my phone?"],
+    "keys": { "телефон": "phone|mobile|cell*" }
+   },
+   {
+    "sit": "Сусід питає, чи зручно мати електромобіль.",
+    "say": "Я заряджаю машину вдома за ніч.",
+    "ans": ["I charge my car at home overnight.", "I charge the car at home at night.", "I just charge my car overnight at home."],
+    "keys": { "машина": "car|it", "вдома": "home|garage" }
+   },
+   {
+    "sit": "Ти збираєшся знімати весілля друга. Колега-оператор питає, чи все готово.",
+    "say": "Я зарядив усі батареї ще вчора.",
+    "ans": ["I charged all the batteries yesterday.", "I already charged all the batteries yesterday.", "All the batteries are charged — I did it yesterday."],
+    "keys": { "батареї": "batter*|camera*", "вчора": "yesterday|last night" }
+   }
+  ]
+ },
+ {
+  "id": 304, "w": "text", "uk": "писати повідомлення (смс, у месенджер)", "lvl": "A2",
+  "forms": "text|texts|texted|texted|texting",
+  "near": "messag*|writ*|wrote|sms|dm*|whatsapp*|call*",
+  "tasks": [
+   {
+    "sit": "Ти прощаєшся з новим знайомим після вечірки.",
+    "say": "Напиши мені, коли будеш удома.",
+    "ans": ["Text me when you get home.", "Text me when you’re home.", "Text me once you get home, OK?"],
+    "keys": { "удома": "home" }
+   },
+   {
+    "sit": "Твоя сестра питає, чому ти не прийшов на зустріч із подругою.",
+    "say": "Вона написала мені, що захворіла, і ми все скасували.",
+    "ans": ["She texted me that she was sick, so we cancelled.", "She texted me to say she was ill, so we called it off.", "She texted me saying she was sick, so we cancelled everything."],
+    "keys": { "захворіла": "sick|ill|unwell|not feeling", "скасували": "cancel*|call* off|called it off" }
+   },
+   {
+    "sit": "Мама скаржиться, що ти рідко дзвониш.",
+    "say": "Мамо, я ж пишу тобі щодня!",
+    "ans": ["Mom, I text you every day!", "Mum, I text you every single day!", "But Mom, I literally text you every day!"],
+    "keys": { "щодня": "every day|every single day|daily|each day" }
+   }
+  ]
+ },
+ {
+  "id": 305, "w": "call", "uk": "дзвонити (телефоном)", "lvl": "A1",
+  "forms": "call|calls|called|called|calling",
+  "near": "phone*|ring|rang|rung|ringing|give * a ring|text*",
+  "tasks": [
+   {
+    "sit": "Ти домовляєшся з колегою про деталі проєкту.",
+    "say": "Я подзвоню тобі завтра зранку.",
+    "ans": ["I’ll call you tomorrow morning.", "I’m going to call you tomorrow morning.", "Let me call you tomorrow morning."],
+    "keys": { "завтра зранку": "tomorrow|morning" }
+   },
+   {
+    "sit": "На вулиці людині стало погано. Ти кажеш перехожому.",
+    "say": "Викличте швидку, швидше!",
+    "ans": ["Call an ambulance, quick!", "Call an ambulance, hurry!", "Someone call an ambulance — quickly!"],
+    "keys": { "швидка": "ambulance|911|112|103|doctor" }
+   },
+   {
+    "sit": "Подруга дивиться на свій телефон з десятьма пропущеними.",
+    "say": "Я дзвонив тобі п’ять разів! Чому ти не відповідала?",
+    "ans": ["I called you five times! Why didn’t you answer?", "I’ve called you five times! Why didn’t you pick up?", "I called you like five times — why didn’t you pick up?"],
+    "keys": { "п’ять разів": "five|5", "не відповідала": "answer*|pick up|picked up|reply" }
+   }
+  ]
+ },
+ {
+  "id": 306, "w": "learn", "uk": "вчити, вивчати", "lvl": "A1",
+  "forms": "learn|learns|learnt/learned|learnt/learned|learning",
+  "near": "study|studied|studies|studying|practis*|practic*|teach myself|taught myself|pick up|picked up",
+  "tasks": [
+   {
+    "sit": "Колега бачить у тебе на столі підручник іспанської.",
+    "say": "Я вчу іспанську, бо влітку їду до Мадрида.",
+    "ans": ["I’m learning Spanish because I’m going to Madrid this summer.", "I’m learning Spanish — I’m off to Madrid in the summer.", "I’m learning Spanish since I’m going to Madrid this summer."],
+    "keys": { "іспанська": "spanish", "Мадрид": "madrid|spain|trip" }
+   },
+   {
+    "sit": "Друг дивується, як добре ти граєш на гітарі.",
+    "say": "Я навчився грати сам, за відео на Ютубі.",
+    "ans": ["I learned to play by myself from YouTube videos.", "I learnt to play on my own, watching YouTube videos.", "I actually learned how to play from YouTube videos."],
+    "keys": { "відео": "video*|youtube|tutorial*", "грати": "play*|guitar" }
+   },
+   {
+    "sit": "Ти зробив помилку на роботі, але керівник не сварить. Ти обіцяєш.",
+    "say": "Я зробив висновки з цієї помилки.",
+    "ans": ["I’ve learned from this mistake.", "I learned a lot from this mistake.", "Believe me, I’ve learnt from my mistake."],
+    "keys": { "помилка": "mistake*|error*|lesson" }
+   }
+  ]
+ },
+ {
+  "id": 307, "w": "study", "uk": "навчатися, вчитися (готуватися)", "lvl": "A1",
+  "forms": "study|studies|studied|studied|studying",
+  "near": "learn*|revis*|review*|prepar*|cram*|go over",
+  "tasks": [
+   {
+    "sit": "Друзі кличуть тебе на вечірку в четвер.",
+    "say": "Не можу, мені треба вчитися до іспиту.",
+    "ans": ["I can’t, I have to study for my exam.", "Sorry, I can’t — I need to study for an exam.", "I can’t, I’ve got to study for my exam."],
+    "keys": { "іспит": "exam*|test*|final*" }
+   },
+   {
+    "sit": "Новий знайомий на вечірці питає, чим ти займаєшся.",
+    "say": "Я навчаюся на юридичному в Києві.",
+    "ans": ["I study law in Kyiv.", "I’m studying law in Kyiv.", "I’m studying law at university in Kyiv."],
+    "keys": { "юридичний": "law|legal", "Київ": "kyiv|kiev|capital" }
+   },
+   {
+    "sit": "Твій молодший брат отримав погану оцінку. Батьки питають тебе, що робити.",
+    "say": "Йому треба більше вчитися, а не грати в ігри.",
+    "ans": ["He needs to study more and play fewer games.", "He should study more instead of playing games.", "He needs to study more, not play video games all day."],
+    "keys": { "ігри": "game*|gaming|play*", "більше": "more|harder" }
+   }
+  ]
+ },
+ {
+  "id": 308, "w": "teach", "uk": "викладати, навчати", "lvl": "A1",
+  "forms": "teach|teaches|taught|taught|teaching",
+  "near": "show*|train*|coach*|tutor*|instruct*|explain*|lectur*",
+  "tasks": [
+   {
+    "sit": "Сусід питає, де працює твоя мама.",
+    "say": "Вона викладає математику в школі.",
+    "ans": ["She teaches math at a school.", "She teaches maths at school.", "She’s a teacher — she teaches math at a school."],
+    "keys": { "математика": "math*|maths|mathematics", "школа": "school" }
+   },
+   {
+    "sit": "Ти хочеш навчитися пекти хліб, а твоя подруга — пекарка.",
+    "say": "Навчиш мене пекти хліб?",
+    "ans": ["Will you teach me to bake bread?", "Can you teach me how to bake bread?", "Could you teach me how to make bread sometime?"],
+    "keys": { "пекти хліб": "bread|bake|baking", "мене": "me" }
+   },
+   {
+    "sit": "Ти розповідаєш про свого дідуся на сімейному святі.",
+    "say": "Це дідусь навчив мене їздити на велосипеді.",
+    "ans": ["Grandpa taught me to ride a bike.", "It was Grandpa who taught me how to ride a bike.", "My grandpa’s the one who taught me to ride a bike."],
+    "keys": { "дідусь": "grand*|granddad", "велосипед": "bike|bicycle|cycl*" }
+   }
+  ]
+ },
+ {
+  "id": 309, "w": "read", "uk": "читати", "lvl": "A1",
+  "forms": "read|reads|read|read|reading",
+  "near": "look through|looked through|go through|went through|skim*|brows*|check*",
+  "tasks": [
+   {
+    "sit": "Колега питає, як ти розслабляєшся після роботи.",
+    "say": "Я читаю книжку перед сном щовечора.",
+    "ans": ["I read a book before bed every night.", "Every evening I read before going to sleep.", "I always read a bit before bed every night."],
+    "keys": { "перед сном": "bed|sleep", "щовечора": "every night|every evening|each night|always" }
+   },
+   {
+    "sit": "Твій друг радить тобі роман, який усі обговорюють.",
+    "say": "Я вже прочитав його минулого місяця.",
+    "ans": ["I already read it last month.", "I’ve already read it — last month.", "Oh, I read it last month already."],
+    "keys": { "минулого місяця": "last month|a month ago|month" }
+   },
+   {
+    "sit": "Ти підписуєш договір оренди. Орендодавець квапить тебе.",
+    "say": "Дайте мені спочатку уважно прочитати договір.",
+    "ans": ["Let me read the contract carefully first.", "I need to read the contract carefully first.", "Hang on, let me read through the contract first."],
+    "keys": { "договір": "contract|agreement|lease|document|it", "спочатку": "first|before" }
+   }
+  ]
+ },
+ {
+  "id": 310, "w": "write", "uk": "писати", "lvl": "A1",
+  "forms": "write|writes|wrote|written|writing",
+  "near": "text*|type*|note down|jot down|draft*|compose*",
+  "tasks": [
+   {
+    "sit": "Викладач нагадує про домашнє завдання на тиждень.",
+    "say": "Мені треба написати есе на дві тисячі слів.",
+    "ans": ["I need to write a two-thousand-word essay.", "I have to write an essay of two thousand words.", "I’ve got to write a 2000-word essay."],
+    "keys": { "есе": "essay|paper", "дві тисячі": "thousand|2000|2,000" }
+   },
+   {
+    "sit": "Ти в гостях у бабусі, вона шукає, куди записати твій новий номер телефону.",
+    "say": "Бабусю, давай я сам тобі запишу номер.",
+    "ans": ["Grandma, let me write the number down for you.", "Let me write down my number for you, Grandma.", "Here, Grandma, I’ll write my number down for you."],
+    "keys": { "номер": "number|phone" }
+   },
+   {
+    "sit": "Друг питає, чим ти займаєшся у вільний час.",
+    "say": "Я пишу пісні для свого гурту.",
+    "ans": ["I write songs for my band.", "I’m writing songs for my band.", "In my free time I write songs for my band."],
+    "keys": { "пісні": "song*|music|lyrics", "гурт": "band|group" }
+   }
+  ]
+ },
+ {
+  "id": 311, "w": "revise", "uk": "повторювати (матеріал до іспиту)", "lvl": "B1",
+  "forms": "revise|revises|revised|revised|revising",
+  "near": "review*|go over|went over|study|studied|studying|cram*|repeat*",
+  "tasks": [
+   {
+    "sit": "Завтра контрольна з історії. Друг кличе тебе грати у футбол.",
+    "say": "Не можу, мені треба повторити історію.",
+    "ans": ["I can’t, I need to revise for my history test.", "Sorry, I have to revise history for tomorrow’s test.", "I can’t — I’ve got to revise for the history test."],
+    "keys": { "історія": "history", "не можу": "can not|cannot|sorry" }
+   },
+   {
+    "sit": "Ти готуєшся до іспиту на водійські права. Інструктор питає, як підготовка.",
+    "say": "Я повторюю правила дорожнього руху щовечора.",
+    "ans": ["I revise the traffic rules every evening.", "I’m revising the rules of the road every night.", "I’ve been revising the traffic rules every evening."],
+    "keys": { "правила": "rule*|code|highway", "щовечора": "every evening|every night|evening*|night*" }
+   },
+   {
+    "sit": "Одногрупниця питає, як ти так добре склав іспит.",
+    "say": "Я почав повторювати за місяць до іспиту.",
+    "ans": ["I started revising a month before the exam.", "I began to revise a month before the exam.", "I started revising a whole month before the exam."],
+    "keys": { "за місяць": "month", "іспит": "exam*|test" }
+   }
+  ]
+ }
+]

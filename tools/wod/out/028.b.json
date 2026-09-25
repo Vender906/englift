@@ -1,0 +1,652 @@
+[
+ {
+  "id": 1547, "w": "doze off", "uk": "задрімати", "lvl": "B2",
+  "forms": "doze|dozes|dozed|dozed|dozing",
+  "tail": "off",
+  "near": "fell asleep|fall asleep|falling asleep|nod* off|drift* off|nap*|sleep|slept",
+  "tasks": [
+   {
+    "sit": "Друг питає, чим закінчився фільм, який ви вчора дивилися разом у нього вдома.",
+    "say": "Не знаю, я задрімав на середині фільму.",
+    "ans": ["No idea, I dozed off in the middle of the film.", "I don’t know, I dozed off halfway through the movie.", "Sorry, I dozed off during the movie."],
+    "keys": { "фільм": "film|movie" }
+   },
+   {
+    "sit": "Ти запізнився на роботу й пояснюєш колезі чому.",
+    "say": "Я задрімав у потязі й проїхав свою зупинку.",
+    "ans": ["I dozed off on the train and missed my stop.", "I missed my stop because I dozed off on the train.", "I dozed off on the train and went past my stop."],
+    "keys": { "потяг": "train|metro|subway|bus", "зупинка": "stop|station" }
+   },
+   {
+    "sit": "Бабуся кличе дідуся обідати, а ти заглядаєш у вітальню.",
+    "say": "Дідусь задрімав у кріслі з газетою.",
+    "ans": ["Grandpa dozed off in his armchair with the newspaper.", "Grandpa dozed off in the chair while reading the paper.", "Grandpa’s dozed off in his chair with the newspaper again."],
+    "keys": { "крісло": "chair|armchair|sofa|couch", "газета": "paper|newspaper|reading" }
+   }
+  ]
+ },
+ {
+  "id": 1548, "w": "nod off", "uk": "клювати носом, засинати", "lvl": "C1",
+  "forms": "nod|nods|nodded|nodded|nodding",
+  "tail": "off",
+  "near": "doz* off|fell asleep|fall asleep|falling asleep|drift* off|sleep*|slept",
+  "tasks": [
+   {
+    "sit": "Одногрупник питає, що було на лекції з економіки, бо його не було.",
+    "say": "Чесно кажучи, я всю лекцію клював носом.",
+    "ans": ["To be honest, I kept nodding off during the lecture.", "Honestly, I was nodding off through the whole lecture.", "Honestly, the lecture was so boring I nodded off."],
+    "keys": { "лекція": "lecture|class|seminar" }
+   },
+   {
+    "sit": "Молодший брат уперше їде сам на машині в інше місто вночі.",
+    "say": "Якщо почнеш клювати носом за кермом — одразу зупиняйся.",
+    "ans": ["If you start nodding off at the wheel, pull over right away.", "Pull over immediately if you’re nodding off while driving.", "If you’re nodding off behind the wheel, stop the car right away."],
+    "keys": { "за кермом": "wheel|driv*|car", "зупиняйся": "pull over|stop*|park" }
+   },
+   {
+    "sit": "Ти працюєш охоронцем і розповідаєш дружині про важку нічну зміну.",
+    "say": "Під кінець нічної зміни я вже клював носом.",
+    "ans": ["By the end of the night shift I was nodding off.", "I was nodding off by the end of my night shift.", "I was nodding off at my desk toward the end of the night shift."],
+    "keys": { "нічна зміна": "night|shift" }
+   }
+  ]
+ },
+ {
+  "id": 1549, "w": "sleep in", "uk": "поспати довше (зранку)", "lvl": "B1",
+  "forms": "sleep|sleeps|slept|slept|sleeping",
+  "tail": "in",
+  "near": "lie in|lay in|lying in|lie-in|overslept|oversleep*|stay in bed|stayed in bed",
+  "tasks": [
+   {
+    "sit": "Колега питає, чи підеш ти в суботу зранку з ним на ринок.",
+    "say": "У суботу я спатиму довше — мені нікуди не треба.",
+    "ans": ["I’m going to sleep in on Saturday.", "On Saturday I’ll sleep in, I don’t have to go anywhere.", "I’m sleeping in on Saturday, I’ve got nowhere to be."],
+    "keys": { "субота": "saturday" }
+   },
+   {
+    "sit": "Мама дзвонить об одинадцятій і дивується, що в тебе сонний голос.",
+    "say": "У мене сьогодні вихідний, тож я поспав довше.",
+    "ans": ["It’s my day off today, so I slept in.", "I slept in because it’s my day off.", "I finally got to sleep in on my day off."],
+    "keys": { "вихідний": "day off|off|holiday|weekend" }
+   },
+   {
+    "sit": "Увечері перед поїздкою на море ти нагадуєш дітям про план.",
+    "say": "Завтра не спіть довго — ми рано виїжджаємо.",
+    "ans": ["Don’t sleep in tomorrow — we’re leaving early.", "Please don’t sleep in tomorrow, we have to leave early.", "Make sure you don’t sleep in tomorrow, we’re heading out early."],
+    "keys": { "завтра": "tomorrow", "рано": "early" }
+   }
+  ]
+ },
+ {
+  "id": 1550, "w": "sleep over", "uk": "ночувати (в гостях)", "lvl": "B1",
+  "forms": "sleep|sleeps|slept|slept|sleeping",
+  "tail": "over",
+  "near": "stay the night|stayed the night|spend the night|spent the night|stay over|stayed over|staying over|crash*",
+  "tasks": [
+   {
+    "sit": "Тобі дванадцять, у тебе в гостях друг Макс, і вам не хочеться прощатися.",
+    "say": "Мамо, а можна Макс сьогодні в нас переночує?",
+    "ans": ["Mom, can Max sleep over tonight?", "Can Max sleep over at our place tonight?", "Mom, is it okay if Max sleeps over tonight?"],
+    "keys": { "Макс": "max", "сьогодні": "tonight|today" }
+   },
+   {
+    "sit": "Після вечірки в тебе вдома метро вже не ходить, а друг живе на іншому кінці міста.",
+    "say": "Вже пізно — лишайся ночувати в мене.",
+    "ans": ["It’s late — why don’t you sleep over at my place?", "It’s too late to go home, just sleep over here.", "It’s late, you can sleep over at mine."],
+    "keys": { "пізно": "late" }
+   },
+   {
+    "sit": "Колега питає, де ти зупинявся під час поїздки до Львова.",
+    "say": "У Львові я ночував у друга.",
+    "ans": ["In Lviv I slept over at a friend’s place.", "I slept over at my friend’s in Lviv.", "In Lviv I just slept over at a friend’s apartment."],
+    "keys": { "Львів": "lviv|lvov", "друг": "friend*" }
+   }
+  ]
+ },
+ {
+  "id": 1551, "w": "wipe down", "uk": "протерти (поверхню)", "lvl": "B2",
+  "forms": "wipe|wipes|wiped|wiped|wiping",
+  "tail": "down",
+  "near": "clean*|scrub*|dust*|polish*|dried|dry",
+  "tasks": [
+   {
+    "sit": "Сусід по квартирі готував вечерю, і на кухні все в борошні та олії.",
+    "say": "Протри, будь ласка, стільницю після готування.",
+    "ans": ["Please wipe down the counter after cooking.", "Can you wipe down the countertop after you cook?", "Could you wipe the counter down once you’ve finished cooking?"],
+    "keys": { "стільниця": "counter*|worktop*|surface*|table" }
+   },
+   {
+    "sit": "Новачок у спортзалі залишив після себе мокру лаву. Ти пояснюєш йому правила.",
+    "say": "Тут треба протирати тренажер після себе.",
+    "ans": ["Here you have to wipe down the machine after using it.", "You should wipe down the equipment when you’re done.", "Wipe down the bench after you use it — it’s a gym rule."],
+    "keys": { "тренажер": "machine*|equipment|bench*" }
+   },
+   {
+    "sit": "Ти підробляєш у кавʼярні. Знайомий питає, що входить у твої обовʼязки.",
+    "say": "Після закриття я протираю всі столи.",
+    "ans": ["After closing I wipe down all the tables.", "I wipe down every table when we close.", "Once we close, I wipe all the tables down."],
+    "keys": { "столи": "table*" }
+   }
+  ]
+ },
+ {
+  "id": 1552, "w": "sweep up", "uk": "замести, підмести (сміття)", "lvl": "B2",
+  "forms": "sweep|sweeps|swept|swept|sweeping",
+  "tail": "up",
+  "near": "clean* up|vacuum*|hoover*|brush*|pick* up|picked up|mop*",
+  "tasks": [
+   {
+    "sit": "На кухні дзенькнуло скло. Дружина кричить із кімнати, що сталося.",
+    "say": "Я розбив склянку, зараз замету.",
+    "ans": ["I broke a glass — I’ll sweep it up.", "I broke a glass, I’ll sweep it up now.", "Oops, I broke a glass — let me sweep it up."],
+    "keys": { "склянка": "glass*" }
+   },
+   {
+    "sit": "Після дитячого сніданку під столом повно крихт. Ти просиш старшого сина допомогти.",
+    "say": "Замети, будь ласка, крихти під столом.",
+    "ans": ["Please sweep up the crumbs under the table.", "Could you sweep up the crumbs under the table?", "Can you sweep up those crumbs under the table, please?"],
+    "keys": { "крихти": "crumb*|mess|food" }
+   },
+   {
+    "sit": "Осінь, на подвірʼї приватного будинку купа опалого листя.",
+    "say": "Треба замести листя на подвірʼї.",
+    "ans": ["We need to sweep up the leaves in the yard.", "The leaves in the yard need to be swept up.", "Let’s sweep up all the leaves in the yard."],
+    "keys": { "листя": "leaf|leaves", "подвірʼя": "yard|garden|driveway|porch|outside|path" }
+   }
+  ]
+ },
+ {
+  "id": 1553, "w": "take out", "uk": "виносити (з дому, приміщення)", "lvl": "A2",
+  "forms": "take|takes|took|taken|taking",
+  "tail": "out",
+  "near": "throw* out|threw out|empty|emptied|emptying|bring out|brought out|put out|carry out|carried out",
+  "tasks": [
+   {
+    "sit": "Сусід по квартирі виходить на роботу, а відро на кухні вже переповнене.",
+    "say": "Не забудь винести сміття.",
+    "ans": ["Don’t forget to take out the trash.", "Remember to take the rubbish out.", "Hey, don’t forget to take the garbage out!"],
+    "keys": { "сміття": "trash|rubbish|garbage|bin*|waste" }
+   },
+   {
+    "sit": "Ти переїжджаєш. Усі речі спаковано, а машина чекає біля підʼїзду.",
+    "say": "Допоможи мені винести коробки до машини.",
+    "ans": ["Can you help me take the boxes out to the car?", "Help me take these boxes out to the car, please.", "Could you give me a hand taking the boxes out to the car?"],
+    "keys": { "коробки": "box*", "машина": "car|van" }
+   },
+   {
+    "sit": "В офісі біля принтера накопичилася гора старого паперу для переробки.",
+    "say": "Хто сьогодні виносить папір на переробку?",
+    "ans": ["Who’s taking out the paper for recycling today?", "Who is going to take the recycling out today?", "So who’s taking out the recycling today?"],
+    "keys": { "переробка": "recycl*|paper", "сьогодні": "today" }
+   }
+  ]
+ },
+ {
+  "id": 1554, "w": "tidy up", "uk": "впорядковувати, доводити до ладу", "lvl": "B1",
+  "forms": "tidy|tidies|tidied|tidied|tidying",
+  "tail": "up",
+  "near": "clean* up|organiz*|organis*|sort* out|straighten*|neaten*|clear* up|fix*|polish*",
+  "tasks": [
+   {
+    "sit": "Керівник просить надіслати звіт, а ти ще бачиш у ньому купу дрібних недоліків.",
+    "say": "Перш ніж надіслати звіт, я хочу трохи його впорядкувати.",
+    "ans": ["I want to tidy up the report a bit before I send it.", "I’d like to tidy up the report before sending it.", "Let me just tidy up the report before I send it off."],
+    "keys": { "звіт": "report*|document*" }
+   },
+   {
+    "sit": "Робочий стіл твого компʼютера захаращений сотнею файлів, і ти нічого не можеш знайти.",
+    "say": "Мені треба впорядкувати файли на робочому столі.",
+    "ans": ["I need to tidy up the files on my desktop.", "My desktop is a mess — I need to tidy up my files.", "I really should tidy up all these files on my desktop."],
+    "keys": { "файли": "file*|folder*|desktop" }
+   },
+   {
+    "sit": "Ти в барбершопі. Майстер питає, як тебе підстригти.",
+    "say": "Просто трохи підрівняйте бороду, не коротко.",
+    "ans": ["Just tidy up my beard a bit, not too short.", "Could you just tidy up the beard? Not too short.", "Can you just tidy my beard up a little? Nothing too short."],
+    "keys": { "борода": "beard" }
+   }
+  ]
+ },
+ {
+  "id": 1555, "w": "come down with", "uk": "злягти, підхопити (хворобу)", "lvl": "B2",
+  "forms": "come|comes|came|come|coming",
+  "tail": "down with",
+  "near": "catch|caught|got sick|get sick|fell ill|fall ill|fallen ill|picked up|pick up|sick with|ill with",
+  "tasks": [
+   {
+    "sit": "У тебе ломить тіло й дере горло, а ввечері ви з друзями мали йти в кіно.",
+    "say": "Вибач, здається, я злягаю з грипом.",
+    "ans": ["Sorry, I think I’m coming down with the flu.", "I’m sorry, I think I’m coming down with flu.", "Ugh, sorry, I think I’m coming down with the flu."],
+    "keys": { "грип": "flu|influenza|cold|bug" }
+   },
+   {
+    "sit": "Ти пишеш керівнику, чому завтра не будеш в офісі.",
+    "say": "Син підхопив застуду, тож завтра я працюю з дому.",
+    "ans": ["My son came down with a cold, so I’m working from home tomorrow.", "My son has come down with a cold, so I’ll work from home tomorrow.", "My boy came down with a cold, so tomorrow I’m working from home."],
+    "keys": { "застуда": "cold|flu|bug|sick", "з дому": "home|remote*" }
+   },
+   {
+    "sit": "Друг питає, як минула твоя відпустка в Єгипті.",
+    "say": "На третій день відпустки я зліг із температурою.",
+    "ans": ["On the third day of the vacation, I came down with a fever.", "I came down with a fever on day three of our holiday.", "Three days into the trip I came down with a fever."],
+    "keys": { "температура": "fever|temperature", "третій день": "third|three|3*" }
+   }
+  ]
+ },
+ {
+  "id": 1556, "w": "get over", "uk": "перехворіти, оговтатися (від хвороби)", "lvl": "B2",
+  "forms": "get|gets|got|got/gotten|getting",
+  "tail": "over",
+  "near": "recover*|heal*|shake off|shook off|shaken off|beat|beaten|fight off|fought off",
+  "tasks": [
+   {
+    "sit": "Колега помічає, що ти знову кашляєш і сякаєшся.",
+    "say": "Я вже тиждень не можу перехворіти цю застуду.",
+    "ans": ["I can’t get over this cold — it’s been a week.", "I’ve been trying to get over this cold for a week.", "It’s been a whole week and I still haven’t got over this cold."],
+    "keys": { "застуда": "cold|flu|bug", "тиждень": "week" }
+   },
+   {
+    "sit": "Друг повернувся на тренування після хвороби, але виглядає блідим.",
+    "say": "Ти вже остаточно перехворів на грип?",
+    "ans": ["Have you got over the flu yet?", "Have you completely gotten over the flu?", "Did you finally get over that flu?"],
+    "keys": { "грип": "flu|illness|sick*" }
+   },
+   {
+    "sit": "У садочку спалах вітрянки, і схвильована сусідка питає твоєї поради.",
+    "say": "Не хвилюйся, діти зазвичай швидко перехворюють на вітрянку.",
+    "ans": ["Don’t worry, kids usually get over chickenpox quickly.", "Children tend to get over chickenpox pretty fast.", "Don’t worry, kids get over chickenpox really fast."],
+    "keys": { "вітрянка": "chickenpox|chicken pox|pox", "швидко": "quick*|fast|easily|soon" }
+   }
+  ]
+ },
+ {
+  "id": 1557, "w": "take up", "uk": "почати займатися (хобі, спортом)", "lvl": "B2",
+  "forms": "take|takes|took|taken|taking",
+  "tail": "up",
+  "near": "start*|began|begin*|got into|get into|getting into|tried|try",
+  "tasks": [
+   {
+    "sit": "Знайома помічає, що ти став спокійнішим і гнучкішим, і питає, в чому секрет.",
+    "say": "Минулого року я почав займатися йогою.",
+    "ans": ["I took up yoga last year.", "Last year I decided to take up yoga.", "I took up yoga last year and I’m hooked."],
+    "keys": { "йога": "yoga", "минулого року": "last year|year" }
+   },
+   {
+    "sit": "Колега питає, як твій тато почувається на пенсії.",
+    "say": "Після виходу на пенсію тато взявся за рибалку.",
+    "ans": ["After he retired, Dad took up fishing.", "Dad took up fishing when he retired.", "Since retiring, my dad has taken up fishing."],
+    "keys": { "рибалка": "fish*", "пенсія": "retir*|pension*" }
+   },
+   {
+    "sit": "У тебе болить спина, і ти щойно повернувся від лікаря.",
+    "say": "Лікар порадив мені почати займатися плаванням.",
+    "ans": ["My doctor advised me to take up swimming.", "The doctor told me to take up swimming.", "My doctor suggested I take up swimming."],
+    "keys": { "лікар": "doctor|doc|gp|physician", "плавання": "swim*" }
+   }
+  ]
+ },
+ {
+  "id": 1558, "w": "work off", "uk": "скидати (стрес, злість, зайве)", "lvl": "C1",
+  "forms": "work|works|worked|worked|working",
+  "tail": "off",
+  "near": "burn off|burned off|burnt off|get rid|got rid|reliev*|releas*|blow off steam|let off steam|lose|lost",
+  "tasks": [
+   {
+    "sit": "Колега дивується, як ти лишаєшся спокійним після нервових тижнів у звітний період.",
+    "say": "Після важкого дня я скидаю стрес на пробіжці.",
+    "ans": ["After a hard day I work off stress by running.", "I go for a run to work off the stress after a tough day.", "Running is how I work off stress after a bad day."],
+    "keys": { "стрес": "stress*|tension", "пробіжка": "run*|jog*" }
+   },
+   {
+    "sit": "Після новорічних свят джинси сидять тісніше, ніж зазвичай.",
+    "say": "Мені треба скинути в спортзалі зайві святкові кілограми.",
+    "ans": ["I need to work off the extra holiday kilos at the gym.", "I’ve got to work off all that holiday weight at the gym.", "I’m going to the gym to work off those holiday kilos."],
+    "keys": { "кілограми": "weight|kilo*|pound*|calorie*|fat", "спортзал": "gym|workout|exercise" }
+   },
+   {
+    "sit": "Ти посварився з братом і розповідаєш другові, що робив потім.",
+    "say": "Я пішов на бокс, щоб скинути злість.",
+    "ans": ["I went to boxing to work off my anger.", "I went to the boxing gym to work off some anger.", "I hit the punching bag to work off my anger."],
+    "keys": { "злість": "anger|angry|frustration|rage|mad" }
+   }
+  ]
+ },
+ {
+  "id": 1559, "w": "log in", "uk": "увійти (в акаунт)", "lvl": "A2",
+  "forms": "log|logs|logged|logged|logging",
+  "tail": "in/into",
+  "near": "sign in|signed in|signing in|sign into|enter*|access*|get in|got in",
+  "tasks": [
+   {
+    "sit": "Ти звертаєшся в службу підтримки сайту, бо не можеш потрапити у свій профіль.",
+    "say": "Я не можу увійти в акаунт — пароль не підходить.",
+    "ans": ["I can’t log in to my account — the password doesn’t work.", "I can’t log into my account because my password is wrong.", "My password isn’t working, so I can’t log in."],
+    "keys": { "пароль": "password*", "не можу": "not|unable" }
+   },
+   {
+    "sit": "Мама хоче сплатити комуналку онлайн і питає тебе, з чого почати.",
+    "say": "Спочатку увійди в застосунок банку.",
+    "ans": ["First, log in to your bank app.", "You need to log in to the bank’s app first.", "Just log in to your banking app first."],
+    "keys": { "банк": "bank*" }
+   },
+   {
+    "sit": "На батьківських зборах учителька пояснює, як працює нова освітня платформа.",
+    "say": "Учні входять на платформу через шкільний акаунт.",
+    "ans": ["Students log in to the platform with their school account.", "The kids log into the platform using their school accounts.", "Students just log in with their school account."],
+    "keys": { "шкільний": "school", "учні": "student*|kid*|pupil*|children" }
+   }
+  ]
+ },
+ {
+  "id": 1560, "w": "log out", "uk": "вийти (з акаунту)", "lvl": "A2",
+  "forms": "log|logs|logged|logged|logging",
+  "tail": "out",
+  "near": "sign out|signed out|signing out|sign off|signed off|exit*|quit",
+  "tasks": [
+   {
+    "sit": "Подруга перевіряла пошту на компʼютері в бібліотеці й уже збирається йти.",
+    "say": "Не забудь вийти з пошти на цьому комп’ютері.",
+    "ans": ["Don’t forget to log out of your email on this computer.", "Remember to log out of your email on this computer.", "Make sure you log out of your email on this computer."],
+    "keys": { "пошта": "email*|e-mail*|mail*|gmail|inbox" }
+   },
+   {
+    "sit": "Ти скаржишся колезі на новий банківський застосунок.",
+    "say": "Застосунок сам виходить з акаунту кожні десять хвилин.",
+    "ans": ["The app logs me out every ten minutes.", "The app keeps logging me out every ten minutes.", "This app logs me out every ten minutes — it’s so annoying."],
+    "keys": { "десять хвилин": "ten|10|minute*" }
+   },
+   {
+    "sit": "Друг питає, що ти зробив, коли загубив телефон у таксі.",
+    "say": "Я одразу вийшов з акаунтів на всіх пристроях.",
+    "ans": ["I logged out of my accounts on all my devices right away.", "Right away, I logged out on every device.", "I immediately logged out of everything on all my devices."],
+    "keys": { "пристрої": "device*|everywhere|everything" }
+   }
+  ]
+ },
+ {
+  "id": 1561, "w": "sign in", "uk": "авторизуватися, увійти", "lvl": "A2",
+  "forms": "sign|signs|signed|signed|signing",
+  "tail": "in/into",
+  "near": "log in|logged in|logging in|log into|register*|sign up|signed up|enter*",
+  "tasks": [
+   {
+    "sit": "Друг реєструється в новому застосунку і не хоче вигадувати ще один пароль.",
+    "say": "Можна просто авторизуватися через Гугл.",
+    "ans": ["You can just sign in with Google.", "Just sign in with your Google account.", "You can sign in using your Google account."],
+    "keys": { "Гугл": "google" }
+   },
+   {
+    "sit": "Тато купив смарт-телевізор і не розуміє, чому не вмикається серіал.",
+    "say": "Щоб дивитися серіал на телевізорі, треба авторизуватися в застосунку.",
+    "ans": ["To watch the series on TV, you need to sign in to the app.", "You have to sign in to the app to watch the show on the TV.", "Sign in to the app first, then you can watch it on the TV."],
+    "keys": { "застосунок": "app*|account", "телевізор": "tv|television" }
+   },
+   {
+    "sit": "Ти купував подарунок в інтернет-магазині й розповідаєш, що тебе роздратувало.",
+    "say": "Мені довелося авторизуватися, щоб оформити замовлення.",
+    "ans": ["I had to sign in to place the order.", "I had to sign in before I could order anything.", "The shop made me sign in just to place an order."],
+    "keys": { "замовлення": "order*|check* out|checkout|buy|purchase" }
+   }
+  ]
+ },
+ {
+  "id": 1562, "w": "sign out", "uk": "вийти (з системи, акаунту)", "lvl": "B1",
+  "forms": "sign|signs|signed|signed|signing",
+  "tail": "out",
+  "near": "log out|logged out|logging out|log off|logged off|exit*|quit",
+  "tasks": [
+   {
+    "sit": "Сестра залишила свій акаунт відкритим на спільному ноутбуці, а тобі треба зайти у свій.",
+    "say": "Вийди, будь ласка, з акаунту, щоб я міг зайти зі свого.",
+    "ans": ["Please sign out so I can use my account.", "Can you sign out so I can use my own account?", "Could you sign out? I need to use my account."],
+    "keys": { "акаунт": "account*|mine|profile" }
+   },
+   {
+    "sit": "Ти навчаєш нового касира в супермаркеті.",
+    "say": "Коли відходиш від каси, завжди виходь із системи.",
+    "ans": ["When you leave the till, always sign out of the system.", "Always sign out of the system before you leave the register.", "Don’t forget to sign out when you leave the till."],
+    "keys": { "система": "system|till|register|checkout|computer" }
+   },
+   {
+    "sit": "Уже вдома ти згадуєш, що в університеті залишив свій профіль відкритим.",
+    "say": "Ой, я забув вийти з акаунту в комп’ютерному класі!",
+    "ans": ["Oh no, I forgot to sign out of my account in the computer lab!", "Oh no, I didn’t sign out of my account on the computer in the lab!", "Oops, I forgot to sign out in the computer lab!"],
+    "keys": { "забув": "forg*|did not", "комп’ютерний клас": "computer*|lab|class*" }
+   }
+  ]
+ },
+ {
+  "id": 1563, "w": "sign up", "uk": "записатися, зареєструватися", "lvl": "B1",
+  "forms": "sign|signs|signed|signed|signing",
+  "tail": "up",
+  "near": "register*|enrol*|enroll*|join*|subscrib*|apply|applied",
+  "tasks": [
+   {
+    "sit": "Ви з подругою мріяли про подорож до Риму. Ти ділишся з нею новиною.",
+    "say": "Я записався на курс італійської!",
+    "ans": ["I signed up for an Italian course!", "I’ve signed up for Italian classes!", "Guess what, I just signed up for an Italian class!"],
+    "keys": { "італійська": "italian", "курс": "course*|class*|lesson*" }
+   },
+   {
+    "sit": "Друг збирається купити кросівки на сайті магазину. Ти знаєш, як зекономити.",
+    "say": "Зареєструйся на сайті, і отримаєш знижку.",
+    "ans": ["Sign up on the website and you’ll get a discount.", "If you sign up on the site, you get a discount.", "Just sign up online and they’ll give you a discount."],
+    "keys": { "знижка": "discount|off|deal|sale" }
+   },
+   {
+    "sit": "Мама питає, навіщо ти почав бігати по вечорах.",
+    "say": "Ми з колегами зареєструвалися на благодійний забіг.",
+    "ans": ["My colleagues and I signed up for a charity run.", "Some colleagues and I have signed up for a charity race.", "A few of us from work signed up for a charity run."],
+    "keys": { "забіг": "run|race|marathon", "благодійний": "charit*" }
+   }
+  ]
+ },
+ {
+  "id": 1564, "w": "boot up", "uk": "завантажуватися (про компʼютер), вмикати", "lvl": "B1",
+  "forms": "boot|boots|booted|booted|booting",
+  "tail": "up",
+  "near": "start*|turn* on|switch* on|power* on|load*|restart*",
+  "tasks": [
+   {
+    "sit": "Друг дивується, чому ти не взяв на зустріч свій ноутбук.",
+    "say": "Мій старий ноутбук завантажується хвилин пʼять.",
+    "ans": ["My old laptop takes about five minutes to boot up.", "It takes my old laptop five minutes to boot up.", "My old laptop takes forever to boot up — like five minutes."],
+    "keys": { "ноутбук": "laptop|computer|pc|notebook", "пʼять хвилин": "five|5|minute*" }
+   },
+   {
+    "sit": "Колега питає про твій ранковий ритуал в офісі.",
+    "say": "Поки комп’ютер завантажується, я роблю каву.",
+    "ans": ["While my computer boots up, I make coffee.", "I make a coffee while my PC is booting up.", "I switch on my computer and make coffee while it boots up."],
+    "keys": { "кава": "coffee", "комп’ютер": "computer|pc|laptop|it" }
+   },
+   {
+    "sit": "Ти дзвониш в айті-підтримку після нічного оновлення.",
+    "say": "Після оновлення система не завантажується.",
+    "ans": ["After the update, the system won’t boot up.", "My computer doesn’t boot up since the update.", "Since the update, it just won’t boot up."],
+    "keys": { "оновлення": "update*|upgrade*", "не": "not" }
+   }
+  ]
+ },
+ {
+  "id": 1565, "w": "scroll down", "uk": "прокручувати вниз", "lvl": "A2",
+  "forms": "scroll|scrolls|scrolled|scrolled|scrolling",
+  "tail": "down",
+  "near": "swipe*|go down|move down|page down",
+  "tasks": [
+   {
+    "sit": "Мама відкрила сайт поліклініки й не може знайти номер телефону.",
+    "say": "Прокрути вниз — там є контакти.",
+    "ans": ["Scroll down, the contacts are at the bottom.", "If you scroll down, you’ll find the contact info.", "Just scroll down to the bottom for the contacts."],
+    "keys": { "контакти": "contact*|phone*|number*" }
+   },
+   {
+    "sit": "Ти скаржишся подрузі на кулінарні блоги.",
+    "say": "Щоб дістатися до рецепта, доводиться довго прокручувати вниз.",
+    "ans": ["You have to scroll down forever to get to the recipe.", "I always have to scroll down a lot to find the recipe.", "You scroll down for ages before you get to the actual recipe."],
+    "keys": { "рецепт": "recipe*" }
+   },
+   {
+    "sit": "Ти вчитель і на онлайн-уроці показуєш учням завдання на спільному екрані.",
+    "say": "Прокрутіть сторінку вниз до третього завдання.",
+    "ans": ["Scroll down to exercise three.", "Scroll down the page to the third exercise.", "Okay, everyone, scroll down to exercise three."],
+    "keys": { "третє завдання": "three|third|3*" }
+   }
+  ]
+ },
+ {
+  "id": 1566, "w": "pop up", "uk": "вискакувати, раптово зʼявлятися (на екрані)", "lvl": "B2",
+  "forms": "pop|pops|popped|popped|popping",
+  "tail": "up",
+  "near": "appear*|show* up|showed up|come up|came up|jump* out|flash*",
+  "tasks": [
+   {
+    "sit": "Ти намагаєшся прочитати статтю на новинному сайті, але постійно щось заважає.",
+    "say": "Щоразу, як я відкриваю цей сайт, вискакує реклама.",
+    "ans": ["Every time I open this site, an ad pops up.", "An ad pops up whenever I open this website.", "Ugh, these ads keep popping up every time I open this site."],
+    "keys": { "реклама": "ad|ads|advert*|commercial*|banner*" }
+   },
+   {
+    "sit": "Ти розповідаєш другові про кумедний випадок на роботі.",
+    "say": "Під час презентації на екрані вискочило повідомлення від мами.",
+    "ans": ["During my presentation, a message from my mom popped up on the screen.", "A text from my mum popped up on screen in the middle of my presentation.", "In the middle of the presentation, a message from Mom popped up on my screen."],
+    "keys": { "повідомлення": "message*|text*|notification*|chat", "мама": "mom*|mum*|mother" }
+   },
+   {
+    "sit": "Ти пишеш у підтримку гри, бо вона не запускається.",
+    "say": "Коли я запускаю гру, вискакує помилка.",
+    "ans": ["When I start the game, an error pops up.", "An error message pops up every time I launch the game.", "I try to open the game and this error just pops up."],
+    "keys": { "помилка": "error*|bug", "гра": "game*" }
+   }
+  ]
+ },
+ {
+  "id": 1567, "w": "log on", "uk": "підключитися (до мережі)", "lvl": "B1",
+  "forms": "log|logs|logged|logged|logging",
+  "tail": "on/onto",
+  "near": "connect*|join*|log in|logged in|sign in|signed in|get on|got on",
+  "tasks": [
+   {
+    "sit": "Ти сів попрацювати в новій кавʼярні й звертаєшся до бариста.",
+    "say": "Вибачте, як тут підключитися до вайфаю?",
+    "ans": ["Excuse me, how do I log on to the Wi-Fi?", "Sorry, how can I log on to your Wi-Fi?", "Excuse me, how do I log on to the Wi-Fi here?"],
+    "keys": { "вайфай": "wi-fi|wifi|wi fi|network|internet" }
+   },
+   {
+    "sit": "Ти працюєш на рецепції готелю, і гість питає про інтернет.",
+    "say": "Підключитися до мережі готелю можна з номером кімнати.",
+    "ans": ["You can log on to the hotel network with your room number.", "To log on to the hotel network, use your room number.", "Just log on with your room number."],
+    "keys": { "номер кімнати": "room" }
+   },
+   {
+    "sit": "Знайомий питає, як ти маєш доступ до робочих файлів, коли працюєш з дому.",
+    "say": "Удома я підключаюся до мережі компанії через VPN.",
+    "ans": ["At home I log on to the company network through a VPN.", "I log on to the office network via VPN when I work from home.", "When I’m working from home, I log on through the VPN."],
+    "keys": { "мережа": "vpn|network|system", "вдома": "home|remote*" }
+   }
+  ]
+ },
+ {
+  "id": 1568, "w": "catch up on", "uk": "надолужити (новини), обмінятися новинами", "lvl": "B2",
+  "forms": "catch|catches|caught|caught|catching",
+  "tail": "up on/with",
+  "near": "chat*|gossip|update*|fill in|filled in|hear the news",
+  "tasks": [
+   {
+    "sit": "Ти випадково зустрів у метро університетську подругу, яку не бачив три роки.",
+    "say": "Давай зустрінемося на каву й поділимося новинами!",
+    "ans": ["Let’s meet for coffee and catch up on all the news!", "We should get a coffee and catch up on everything!", "Let’s grab a coffee and catch up on all the gossip!"],
+    "keys": { "кава": "coffee", "новини": "news|everything|gossip|life|lives" }
+   },
+   {
+    "sit": "Ти повернувся з двотижневої відпустки, і колега питає, як настрій.",
+    "say": "Після відпустки мені треба надолужити всі робочі новини.",
+    "ans": ["After my vacation I need to catch up on all the news at work.", "I’ve got to catch up on what happened at work while I was on holiday.", "I’m back from holiday and need to catch up on the office gossip."],
+    "keys": { "робота": "work|office|team", "відпустка": "vacation|holiday|away|leave" }
+   },
+   {
+    "sit": "Друг питає, чому ти щонеділі о сьомій вечора зникаєш на годину.",
+    "say": "Щонеділі я дзвоню бабусі, щоб дізнатися всі сімейні новини.",
+    "ans": ["Every Sunday I call Grandma to catch up on family news.", "I call my grandma on Sundays to catch up on all the family news.", "I phone Gran every Sunday and we catch up on the family gossip."],
+    "keys": { "бабуся": "grand*|gran*|nan*", "неділя": "sunday*" }
+   }
+  ]
+ },
+ {
+  "id": 1569, "w": "hit it off", "uk": "одразу порозумітися, знайти спільну мову", "lvl": "C1",
+  "forms": "hit|hits|hit|hit|hitting",
+  "tail": "it off",
+  "near": "got on|get on|got along|get along|clicked|click|bond*|liked each other",
+  "tasks": [
+   {
+    "sit": "Подруга питає, як пройшло твоє перше побачення з Оленою.",
+    "say": "Ми з Оленою одразу порозумілися на першому побаченні.",
+    "ans": ["Olena and I hit it off right away on our first date.", "We hit it off straight away on our first date.", "Olena and I really hit it off on the first date."],
+    "keys": { "побачення": "date" }
+   },
+   {
+    "sit": "У вашу команду прийшов новий дизайнер, який, як і твій колега, фанат настільних ігор.",
+    "say": "Думаю, ти з новим дизайнером знайдеш спільну мову.",
+    "ans": ["I think you’ll hit it off with the new designer.", "You and the new designer are going to hit it off, I’m sure.", "I bet you’ll hit it off with our new designer."],
+    "keys": { "дизайнер": "designer" }
+   },
+   {
+    "sit": "Ти вперше вивів свого пса гуляти разом із собакою сусідки.",
+    "say": "Наші собаки одразу потоваришували.",
+    "ans": ["Our dogs hit it off right away.", "Our dogs hit it off as soon as they met.", "The dogs hit it off immediately — they’re best friends now."],
+    "keys": { "собаки": "dog*|pupp*" }
+   }
+  ]
+ },
+ {
+  "id": 1570, "w": "drift apart", "uk": "поступово віддалятися (у стосунках)", "lvl": "B2",
+  "forms": "drift|drifts|drifted|drifted|drifting",
+  "tail": "apart",
+  "near": "grow apart|grew apart|grown apart|lose touch|lost touch|losing touch|split up|broke up|break up",
+  "tasks": [
+   {
+    "sit": "Колега бачить у твоєму телефоні старе шкільне фото й питає про хлопця поруч із тобою.",
+    "say": "Це Макс. Після школи ми з ним поступово віддалилися.",
+    "ans": ["That’s Max. We drifted apart after school.", "That’s Max. After school, he and I slowly drifted apart.", "Oh, that’s Max — we just drifted apart after we finished school."],
+    "keys": { "Макс": "max", "школа": "school|graduat*" }
+   },
+   {
+    "sit": "Друг питає, чому ти розлучився з дівчиною, з якою зустрічався п’ять років.",
+    "say": "Ми не сварилися — просто з роками віддалилися одне від одного.",
+    "ans": ["We didn’t fight — we just drifted apart over the years.", "There was no big fight; we simply drifted apart over time.", "We never really fought, we just drifted apart."],
+    "keys": { "не сварилися": "did not fight|no fight|no big fight|never fought|never really fought|not argue*|never argued|no argument*" }
+   },
+   {
+    "sit": "Мама засмучена, що ти рідко спілкуєшся з братом.",
+    "say": "Коли брат переїхав за кордон, ми трохи віддалилися.",
+    "ans": ["When my brother moved abroad, we drifted apart a bit.", "My brother and I drifted apart a little after he moved abroad.", "We’ve kind of drifted apart since my brother moved overseas."],
+    "keys": { "брат": "brother", "за кордон": "abroad|overseas|away|another country|moved" }
+   }
+  ]
+ },
+ {
+  "id": 1571, "w": "make up with", "uk": "помиритися (з кимось)", "lvl": "B2",
+  "forms": "make|makes|made|made|making",
+  "tail": "up",
+  "near": "reconcil*|apologiz*|apologis*|patch* things up|forgive*|forgave|sort* it out|sorted things out|friends again",
+  "tasks": [
+   {
+    "sit": "Учора твій друг гучно посварився з сестрою через спадщину. Сьогодні ти питаєш, як справи.",
+    "say": "Ти вже помирився з сестрою?",
+    "ans": ["Have you made up with your sister yet?", "Did you make up with your sister after the fight?", "So, have you and your sister made up yet?"],
+    "keys": { "сестра": "sister" }
+   },
+   {
+    "sit": "Колега помітив, що зранку ти був сердитий після розмови з дружиною, а ввечері вже усміхаєшся.",
+    "say": "Ми посварилися зранку, але ввечері помирилися.",
+    "ans": ["We had a fight in the morning but made up in the evening.", "We argued in the morning, but we made up by the evening.", "We fought this morning and made up this evening."],
+    "keys": { "вранці": "morning", "ввечері": "evening|night|tonight" }
+   },
+   {
+    "sit": "Ти посварився з найкращим другом Ігорем через дрібницю і розумієш, що помилився.",
+    "say": "Я хочу помиритися з Ігорем — я був неправий.",
+    "ans": ["I want to make up with Ihor — I was wrong.", "I’d like to make up with Ihor because I was wrong.", "I need to make up with Ihor, I was totally in the wrong."],
+    "keys": { "Ігор": "ihor|igor|him", "неправий": "wrong|fault|mistake" }
+   }
+  ]
+ }
+]

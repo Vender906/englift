@@ -1,0 +1,651 @@
+[
+ {
+  "id": 2520, "w": "avoid eye contact", "uk": "уникати погляду", "lvl": "B2",
+  "forms": "avoid|avoids|avoided|avoided|avoiding",
+  "tail": "eye contact",
+  "near": "look away|looked away|looking away|not look at|did not look at|would not look at|not make eye contact|look down|looked down",
+  "tasks": [
+   {
+    "sit": "Ти проводиш співбесіду. Кандидат увесь час дивиться в стіл і не підводить очей.",
+    "say": "Він весь час уникав мого погляду.",
+    "ans": ["He kept avoiding eye contact.", "He avoided eye contact the whole time.", "Honestly, he avoided eye contact for the entire interview."],
+    "keys": { "весь час": "kept|whole time|entire*|all the time|constantly|throughout|whole interview" }
+   },
+   {
+    "sit": "Твій син-підліток запевняє, що не чіпав вазу, але дивиться кудись убік.",
+    "say": "Він уникає мого погляду — отже, це він її розбив.",
+    "ans": ["He’s avoiding eye contact, so he broke it.", "He’s avoiding eye contact with me, so it was him.", "See how he’s avoiding eye contact? He definitely broke it."],
+    "keys": { "розбив": "broke|broken|break*|did it|was him|it was" }
+   },
+   {
+    "sit": "На вулиці промоутери роздають листівки й чіпляються до перехожих. Ти поспішаєш.",
+    "say": "Я просто уникаю зорового контакту й іду далі.",
+    "ans": ["I just avoid eye contact and keep walking.", "I try to avoid eye contact and walk past them.", "I always avoid eye contact and just keep going."],
+    "keys": { "іду далі": "walk*|keep going|go past|past|moving|go on" }
+   }
+  ]
+ },
+ {
+  "id": 2521, "w": "stare down", "uk": "свердлити поглядом", "lvl": "C1",
+  "forms": "stare|stares|stared|stared|staring",
+  "tail": "down",
+  "near": "glare*|glared|glaring|stared at|staring at|stare at|scowl*|death stare",
+  "tasks": [
+   {
+    "sit": "Ти дивишся зважування перед боксерським поєдинком. Суперники стоять упритул і не кліпають.",
+    "say": "Вони свердлять один одного поглядом.",
+    "ans": ["They’re staring each other down.", "Both fighters are staring each other down.", "Look, they’re totally staring each other down!"],
+    "keys": { "один одного": "each other|one another" }
+   },
+   {
+    "sit": "Колега запізнився на нараду на пів години. Керівниця нічого не сказала, лише мовчки дивилася на нього.",
+    "say": "Вона нічого не сказала — просто засвердлила його поглядом.",
+    "ans": ["She said nothing and just stared him down.", "She didn’t say a word, she just stared him down.", "She didn’t say anything — she just stared him down."],
+    "keys": { "нічого не сказала": "nothing|not say|not a word|silent*|anything" }
+   },
+   {
+    "sit": "У парку на тебе загарчав чужий пес. Ти не тікав і не відводив очей.",
+    "say": "Я просто свердлив його поглядом, поки він не пішов.",
+    "ans": ["I just stared him down until he left.", "I stared the dog down until it walked away.", "I just stared it down until it backed off."],
+    "keys": { "пішов": "left|leave|walked away|went|backed off|away|off|gave up" }
+   }
+  ]
+ },
+ {
+  "id": 2522, "w": "glance around", "uk": "озирнутися", "lvl": "B2",
+  "forms": "glance|glances|glanced|glanced|glancing",
+  "tail": "around/round",
+  "near": "look around|looked around|looking around|looked round|look round|scan*|turned around|turn around|looked back",
+  "tasks": [
+   {
+    "sit": "Ти в кафе й збираєшся розповісти подрузі плітку про спільну знайому.",
+    "say": "Я швидко озирнувся, чи ніхто нас не чує.",
+    "ans": ["I quickly glanced around to make sure no one was listening.", "I glanced around first — nobody was listening.", "I glanced around to check no one could hear us."],
+    "keys": { "ніхто не чує": "no one|nobody|anyone|anybody|listen*|hear*" }
+   },
+   {
+    "sit": "Ти вийшов з метро в незнайомому районі й не розумієш, куди йти.",
+    "say": "Я озирнувся, шукаючи якусь вивіску.",
+    "ans": ["I glanced around looking for a sign.", "I glanced around for a street sign.", "I glanced around, trying to find some kind of sign."],
+    "keys": { "вивіска": "sign*|name*" }
+   },
+   {
+    "sit": "Ти вперше заходиш у новий офіс і шукаєш свого менеджера.",
+    "say": "Я озирнувся, але не побачив жодного знайомого обличчя.",
+    "ans": ["I glanced around but didn’t see any familiar faces.", "I glanced around the room and didn’t recognize anyone.", "I glanced around — not a single face I knew."],
+    "keys": { "не": "not|no|never|nobody|no one", "знайоме обличчя": "face*|recogni*|anyone|anybody|knew|know*|familiar" }
+   }
+  ]
+ },
+ {
+  "id": 2523, "w": "lock eyes", "uk": "зустрітися поглядами", "lvl": "C1",
+  "forms": "lock|locks|locked|locked|locking",
+  "tail": "eye*",
+  "near": "eyes met|made eye contact|make eye contact|caught her eye|caught his eye|caught my eye|looked at each other|exchanged a look|exchanged looks",
+  "tasks": [
+   {
+    "sit": "Розповідаєш подрузі, як познайомився з дівчиною на концерті.",
+    "say": "Ми зустрілися поглядами через увесь зал.",
+    "ans": ["We locked eyes across the room.", "We locked eyes across the whole hall.", "Then we locked eyes from across the crowd."],
+    "keys": { "через зал": "across|room|hall|crowd|venue" }
+   },
+   {
+    "sit": "На іспиті викладач сказав щось дуже смішне. Ти глянув на одногрупника, а він — на тебе.",
+    "say": "Ми зустрілися поглядами й ледве не засміялися.",
+    "ans": ["We locked eyes and almost laughed.", "We locked eyes and nearly burst out laughing.", "We locked eyes and could barely keep from laughing."],
+    "keys": { "засміялися": "laugh*|giggl*|crack* up", "ледве не": "almost|nearly|barely|hardly" }
+   },
+   {
+    "sit": "У переповненому автобусі ти випадково подивився на незнайомця, а він саме дивився на тебе.",
+    "say": "Ми на секунду зустрілися поглядами, і я відвернувся.",
+    "ans": ["We locked eyes for a second and I looked away.", "For a second we locked eyes, then I turned away.", "We locked eyes for a moment, and I quickly looked away."],
+    "keys": { "на секунду": "second|moment|instant|briefly", "відвернувся": "look* away|turn* away|away" }
+   }
+  ]
+ },
+ {
+  "id": 2524, "w": "roll your eyes", "uk": "закочувати очі", "lvl": "B2",
+  "forms": "roll|rolls|rolled|rolled|rolling",
+  "tail": "eye*",
+  "near": "sigh*|smirk*|scoff*|made a face|make a face|pulled a face|pull a face|grimac*",
+  "tasks": [
+   {
+    "sit": "Ти просиш сестру-підлітка прибрати в кімнаті, а вона демонстративно зітхає.",
+    "say": "Не закочуй очі, коли я з тобою говорю!",
+    "ans": ["Don’t roll your eyes when I’m talking to you!", "Stop rolling your eyes at me when I’m talking!", "Hey, don’t roll your eyes at me!"],
+    "keys": { "не": "not|stop|never", "коли я говорю": "talk*|speak*|at me|to you" }
+   },
+   {
+    "sit": "На нараді колега вп’яте пропонує ту саму ідею. Ти ледве стримуєшся.",
+    "say": "Я ледве стримався, щоб не закотити очі.",
+    "ans": ["I tried hard not to roll my eyes.", "It took everything I had not to roll my eyes.", "I could barely stop myself from rolling my eyes."],
+    "keys": { "стримався": "not|stop*|tried|try|barely|hard" }
+   },
+   {
+    "sit": "Тато втретє за вечір розповідає за столом той самий жарт.",
+    "say": "Усі закотили очі, але він сміявся найголосніше.",
+    "ans": ["Everyone rolled their eyes, but he laughed the loudest.", "We all rolled our eyes, but he was laughing hardest.", "Everybody rolled their eyes — and he just laughed louder."],
+    "keys": { "усі": "everyone|everybody|all|every", "сміявся": "laugh*" }
+   }
+  ]
+ },
+ {
+  "id": 2525, "w": "look away", "uk": "відвести погляд", "lvl": "A2",
+  "forms": "look|looks|looked|looked|looking",
+  "tail": "away",
+  "near": "turned away|turn away|turn my head|turned my head|closed my eyes|close my eyes|shut my eyes|avoid*",
+  "tasks": [
+   {
+    "sit": "Медсестра збирається брати в тебе кров, а ти боїшся голок.",
+    "say": "Можна я відведу погляд? Я боюся голок.",
+    "ans": ["Can I look away? I’m scared of needles.", "I’ll look away — I’m afraid of needles.", "Do you mind if I look away? Needles scare me."],
+    "keys": { "голки": "needle*|injection*|shot*|blood", "боюся": "scared|afraid|fear*|scare*|hate" }
+   },
+   {
+    "sit": "Ви з подругою дивитеся вдома фільм жахів. Починається найстрашніша сцена.",
+    "say": "Я відведу погляд, а ти скажи, коли все закінчиться.",
+    "ans": ["I’m going to look away — tell me when it’s over.", "I’ll look away. Tell me when it’s finished.", "I can’t watch, I’m looking away — tell me when it’s over!"],
+    "keys": { "скажи": "tell|let me know|say", "закінчиться": "over|finish*|done|end*" }
+   },
+   {
+    "sit": "У ліфті сусідська дівчинка уважно дивиться на тебе. Ти їй усміхаєшся.",
+    "say": "Вона засоромилася й відвела погляд.",
+    "ans": ["She got shy and looked away.", "She looked away shyly.", "She was too shy and quickly looked away."],
+    "keys": { "засоромилася": "shy*|embarrass*|blush*" }
+   }
+  ]
+ },
+ {
+  "id": 2527, "w": "peek at", "uk": "зирнути (крадькома)", "lvl": "B1",
+  "forms": "peek|peeks|peeked|peeked|peeking",
+  "tail": "at",
+  "near": "glance*|look at|looked at|peep*|sneak* a look|snuck a look|check*",
+  "tasks": [
+   {
+    "sit": "На довгій нараді ти чекаєш важливе повідомлення, але діставати телефон незручно.",
+    "say": "Я крадькома зирнув на телефон під столом.",
+    "ans": ["I peeked at my phone under the table.", "I secretly peeked at my phone under the desk.", "I kept peeking at my phone under the table."],
+    "keys": { "телефон": "phone|mobile|cell*|screen", "під столом": "table|desk|under" }
+   },
+   {
+    "sit": "Батьки сховали подарунки в шафі до Нового року, а ти випадково їх знайшов.",
+    "say": "Я не втримався й зирнув на подарунки.",
+    "ans": ["I couldn’t resist and peeked at the presents.", "I peeked at the gifts — I couldn’t help it.", "Okay, I peeked at the presents a little."],
+    "keys": { "подарунки": "present*|gift*" }
+   },
+   {
+    "sit": "Ти вчитель. На контрольній учень весь час дивиться в листок сусіда.",
+    "say": "Не зирай у роботу сусіда!",
+    "ans": ["Don’t peek at your neighbor’s test!", "Stop peeking at your neighbor’s paper!", "Eyes on your own paper — don’t peek at his answers!"],
+    "keys": { "сусіда": "neighbo*|his|her|other*|someone*", "роботу": "test*|paper*|work|answer*|sheet*" }
+   }
+  ]
+ },
+ {
+  "id": 2528, "w": "steal a glance", "uk": "крадькома глянути", "lvl": "C1",
+  "forms": "steal|steals|stole|stolen|stealing",
+  "tail": "glance*",
+  "near": "peek*|peep*|glanced|glance at|sneak* a look|sneak* a peek|snuck a look|snuck a peek",
+  "tasks": [
+   {
+    "sit": "У бібліотеці навпроти тебе сидить симпатична дівчина. Ти вдаєш, що читаєш.",
+    "say": "Я весь час крадькома поглядав на неї.",
+    "ans": ["I kept stealing glances at her.", "I stole a glance at her every few minutes.", "I couldn’t stop stealing glances at her."],
+    "keys": { "весь час": "kept|every|could not stop|all the time|constantly" }
+   },
+   {
+    "sit": "Співбесіда затягнулася, а за пів години в тебе інша зустріч.",
+    "say": "Я крадькома глянув на годинник.",
+    "ans": ["I stole a glance at my watch.", "I stole a quick glance at the clock.", "I managed to steal a glance at my watch."],
+    "keys": { "годинник": "watch|clock|time|phone" }
+   },
+   {
+    "sit": "Граєш із друзями в покер. Суперник довго думає, а потім підвищує ставку.",
+    "say": "Перед тим як підняти ставку, він крадькома глянув на мої фішки.",
+    "ans": ["He stole a glance at my chips before raising.", "He stole a glance at my chips, then raised the bet.", "Before raising, he stole a quick glance at my chips."],
+    "keys": { "фішки": "chip*|stack*", "підняти ставку": "rais*|bet*" }
+   }
+  ]
+ },
+ {
+  "id": 2529, "w": "make friends", "uk": "заводити друзів", "lvl": "A2",
+  "forms": "make|makes|made|made|making",
+  "tail": "friend*",
+  "near": "befriend*|meet people|met people|meet new people|got to know|get to know|find friends|found friends",
+  "tasks": [
+   {
+    "sit": "Ти щойно переїхав у нове місто й нікого там не знаєш. Мама питає, як ти.",
+    "say": "Мені поки що важко заводити тут друзів.",
+    "ans": ["It’s hard to make friends here.", "I’m finding it hard to make friends here.", "Honestly, it’s not easy to make friends here yet."],
+    "keys": { "важко": "hard|difficult|not easy|tough|struggl*", "тут": "here|city|town" }
+   },
+   {
+    "sit": "Твоя донька вперше пішла в садочок. Бабуся питає, як вона там.",
+    "say": "Вона легко заводить друзів.",
+    "ans": ["She makes friends easily.", "She makes friends really easily.", "She’s really good at making friends."],
+    "keys": { "легко": "easy|easily|quick*|fast|good at|no problem" }
+   },
+   {
+    "sit": "Ти повернувся з поїздки, де жив у хостелі. Колега питає, чи не було самотньо.",
+    "say": "Ні, я завів там купу друзів.",
+    "ans": ["No, I made lots of friends there.", "No, I made a lot of new friends at the hostel.", "Not at all — I made tons of friends."],
+    "keys": { "купу": "lot*|many|tons|loads|bunch|plenty" }
+   }
+  ]
+ },
+ {
+  "id": 2530, "w": "introduce yourself", "uk": "представлятися", "lvl": "A2",
+  "forms": "introduce|introduces|introduced|introduced|introducing",
+  "tail": "myself/yourself/yourselves/himself/herself/ourselves/themselves",
+  "near": "say my name|said my name|told them my name|tell you my name|my name is|present myself|presented myself",
+  "tasks": [
+   {
+    "sit": "Перший день на новій роботі. Керівник каже: «Розкажи команді трохи про себе».",
+    "say": "Дозвольте представитися: я новий дизайнер.",
+    "ans": ["Let me introduce myself: I’m the new designer.", "Let me introduce myself — I’m the new designer here.", "Hi everyone, I’d like to introduce myself. I’m the new designer."],
+    "keys": { "дизайнер": "design*", "новий": "new" }
+   },
+   {
+    "sit": "На вечірці ти помічаєш сусіда, з яким ще не знайомий.",
+    "say": "Піду до нього й представлюся.",
+    "ans": ["I’ll go over and introduce myself.", "I’m going to go and introduce myself.", "Let me just go over and introduce myself."],
+    "keys": { "піду": "go|over|walk*|come" }
+   },
+   {
+    "sit": "Ти викладач. Перше онлайн-заняття з новою групою.",
+    "say": "Будь ласка, представтеся по черзі.",
+    "ans": ["Please introduce yourselves one by one.", "Could you each introduce yourselves, please?", "Okay, take turns and introduce yourselves, please."],
+    "keys": { "по черзі": "one by one|each|turn*|in turn|go around" }
+   }
+  ]
+ },
+ {
+  "id": 2531, "w": "break the ice", "uk": "розтопити лід (у розмові)", "lvl": "B2",
+  "forms": "break|breaks|broke|broken|breaking",
+  "tail": "ice",
+  "near": "lighten* the mood|ease the tension|eased the tension|relax* everyone|warm up|get things going|got things going",
+  "tasks": [
+   {
+    "sit": "Перше побачення. Ви обоє мовчите й нервуєте.",
+    "say": "Я пожартував, щоб розтопити лід.",
+    "ans": ["I made a joke to break the ice.", "I told a joke just to break the ice.", "I cracked a joke to break the ice."],
+    "keys": { "пожартував": "joke*|joking|funny" }
+   },
+   {
+    "sit": "Ти ведеш тренінг для людей, які одне одного не знають.",
+    "say": "Почнімо з гри, щоб розтопити лід.",
+    "ans": ["Let’s start with a game to break the ice.", "Let’s begin with a quick game to break the ice.", "How about a game first, just to break the ice?"],
+    "keys": { "гра": "game*|activit*|quiz", "почнімо": "start|begin|first|kick off" }
+   },
+   {
+    "sit": "У купе поїзда ви з незнайомцем довго сиділи мовчки. Потім він запропонував тобі чаю.",
+    "say": "Його чай розтопив лід, і ми проговорили всю ніч.",
+    "ans": ["His tea broke the ice, and we talked all night.", "The tea really broke the ice — we talked all night long.", "Offering tea broke the ice, and we ended up chatting all night."],
+    "keys": { "чай": "tea", "проговорили": "talk*|chat*" }
+   }
+  ]
+ },
+ {
+  "id": 2532, "w": "strike up a conversation", "uk": "почати розмову", "lvl": "B2",
+  "forms": "strike|strikes|struck|struck|striking",
+  "tail": "up conversation*/chat*",
+  "near": "start* a conversation|started talking|start talking|began talking|begin talking|talk to|talked to|chat* with",
+  "tasks": [
+   {
+    "sit": "У літаку поруч сидить літній чоловік і читає книжку твого улюбленого автора.",
+    "say": "Я почав із ним розмову про цю книжку.",
+    "ans": ["I struck up a conversation with him about the book.", "I struck up a conversation about the book.", "So I struck up a conversation with him about that book."],
+    "keys": { "книжку": "book*|author|novel" }
+   },
+   {
+    "sit": "Ти щоранку гуляєш із собакою й бачиш ту саму людину з таким самим псом.",
+    "say": "Завтра спробую почати з нею розмову.",
+    "ans": ["Tomorrow I’ll try to strike up a conversation with her.", "I’m going to strike up a conversation with her tomorrow.", "Maybe tomorrow I’ll finally strike up a conversation."],
+    "keys": { "завтра": "tomorrow" }
+   },
+   {
+    "sit": "На конференції ти помітив потенційного клієнта біля кавового автомата.",
+    "say": "Я почав із ним розмову, поки ми чекали каву.",
+    "ans": ["I struck up a conversation while we were waiting for coffee.", "While waiting for coffee, I struck up a conversation with him.", "I just struck up a chat with him in the coffee line."],
+    "keys": { "кава": "coffee", "чекали": "wait*|line|queue" }
+   }
+  ]
+ },
+ {
+  "id": 2533, "w": "hit it off", "uk": "миттєво порозумітися", "lvl": "C1",
+  "forms": "hit|hits|hit|hit|hitting",
+  "tail": "it off",
+  "near": "got on|get on|got along|get along|clicked|click*|bonded|became friends|connected",
+  "tasks": [
+   {
+    "sit": "Ти познайомив двох друзів на своєму дні народження. Наступного дня пишеш одному з них.",
+    "say": "Схоже, ви одразу знайшли спільну мову!",
+    "ans": ["Looks like you two hit it off right away!", "It seems like you hit it off immediately!", "You two hit it off instantly, didn’t you?"],
+    "keys": { "одразу": "right away|immediately|instantly|straight away|at once" }
+   },
+   {
+    "sit": "Мама питає, як тобі новий напарник на роботі.",
+    "say": "Ми одразу порозумілися — у нас однакове почуття гумору.",
+    "ans": ["We hit it off immediately — we have the same sense of humor.", "We hit it off right away because we share a sense of humour.", "We totally hit it off. Same sense of humor!"],
+    "keys": { "гумор": "humo*|funny|joke*" }
+   },
+   {
+    "sit": "У відпустці ви познайомилися з парою з Канади й провели разом увесь тиждень.",
+    "say": "Ми так добре порозумілися, що тепер плануємо поїхати до них у гості.",
+    "ans": ["We hit it off so well that we’re planning to visit them.", "We hit it off so well — now we’re planning a trip to see them.", "We really hit it off, so we’re going to visit them next year."],
+    "keys": { "поїхати в гості": "visit*|see them|trip|go to" }
+   }
+  ]
+ },
+ {
+  "id": 2534, "w": "click with", "uk": "«клікнути» (одразу сподобатися, знайти спільну мову)", "lvl": "C1",
+  "forms": "click|clicks|clicked|clicked|clicking",
+  "tail": "with",
+  "near": "hit it off|got on|get on|got along|get along|bonded|connected|connect",
+  "tasks": [
+   {
+    "sit": "Ти змінив уже трьох психологів і нарешті знайшов «свою» людину.",
+    "say": "Із нею я одразу знайшов спільну мову.",
+    "ans": ["I clicked with her right away.", "I clicked with her from the very first session.", "I just clicked with her immediately."],
+    "keys": { "одразу": "right away|immediately|instantly|first|straight away" }
+   },
+   {
+    "sit": "Ти шукаєш сусіда в квартиру. Після трьох переглядів ти обрав одного кандидата.",
+    "say": "З іншими двома я просто не відчув контакту.",
+    "ans": ["I just didn’t click with the other two.", "I didn’t really click with the other two candidates.", "Honestly, I never clicked with the other two."],
+    "keys": { "не": "not|never", "іншими двома": "other two|other*|two" }
+   },
+   {
+    "sit": "Твій син не хотів учити англійську, поки ви не знайшли нову репетиторку.",
+    "say": "Він так зійшовся з новою вчителькою, що тепер любить англійську.",
+    "ans": ["He clicked with his new teacher, and now he loves English.", "He really clicked with the new tutor, so now he loves English.", "He clicked with his new teacher so well that he loves English now."],
+    "keys": { "вчителька": "teacher|tutor", "любить англійську": "love*|enjoy*|like*|english" }
+   }
+  ]
+ },
+ {
+  "id": 2535, "w": "befriend", "uk": "подружитися з (кимось)", "lvl": "C1",
+  "forms": "befriend|befriends|befriended|befriended|befriending",
+  "near": "made friends|make friends|making friends|became friends|become friends|got to know|get to know",
+  "tasks": [
+   {
+    "sit": "Ти читаєш зворушливу новину про самотнього пенсіонера.",
+    "say": "Він подружився з бездомним котом, який приходив до нього щодня.",
+    "ans": ["He befriended a stray cat that came to him every day.", "He befriended a stray cat that visited him daily.", "He befriended a stray cat, and it came by every single day."],
+    "keys": { "кіт": "cat*|kitten*", "щодня": "every day|daily|every single day|each day" }
+   },
+   {
+    "sit": "Ти переказуєш колезі сюжет шпигунського серіалу.",
+    "say": "Він навмисно подружився з дочкою міністра, щоб отримати інформацію.",
+    "ans": ["He deliberately befriended the minister’s daughter to get information.", "He befriended the minister’s daughter on purpose to get information.", "He befriended the minister’s daughter just to get information out of her."],
+    "keys": { "дочка": "daughter", "інформацію": "info*|secret*|data" }
+   },
+   {
+    "sit": "Вчителька на батьківських зборах розповідає тобі про твого сина.",
+    "say": "Він подружився з новеньким, коли всі інші його ігнорували.",
+    "ans": ["He befriended the new boy when everyone else ignored him.", "He befriended the new kid while everybody else was ignoring him.", "When the others ignored the new boy, he befriended him."],
+    "keys": { "новенький": "new", "ігнорували": "ignor*|left out" }
+   }
+  ]
+ },
+ {
+  "id": 2536, "w": "add on Instagram", "uk": "додати в Інстаграмі", "lvl": "A2",
+  "forms": "add|adds|added|added|adding",
+  "tail": "on instagram/insta/ig",
+  "near": "follow*|subscribe*|send a request|sent a request|friend request",
+  "tasks": [
+   {
+    "sit": "Ти познайомився з цікавою людиною на вечірці, а вона вже збирається додому.",
+    "say": "Додай мене в Інстаграмі!",
+    "ans": ["Add me on Instagram!", "Hey, add me on Instagram before you go!", "Just add me on Insta!"],
+    "keys": { "мене": "me" }
+   },
+   {
+    "sit": "Ти фотограф. Клієнтка хоче побачити більше твоїх робіт.",
+    "say": "Додайте мене в Інстаграмі — там усе моє портфоліо.",
+    "ans": ["Add me on Instagram — my whole portfolio is there.", "You can add me on Instagram; all my work is there.", "Just add me on Instagram, my portfolio’s all there."],
+    "keys": { "портфоліо": "portfolio|work*|photo*" }
+   },
+   {
+    "sit": "Твоя дванадцятирічна донька каже, що її в Інстаграмі додав незнайомий дорослий.",
+    "say": "Він додав тебе в Інстаграмі? Ти його знаєш?",
+    "ans": ["He added you on Instagram? Do you know him?", "Did he add you on Instagram? Do you even know him?", "Wait, he added you on Instagram? Do you actually know this guy?"],
+    "keys": { "знаєш": "know" }
+   }
+  ]
+ },
+ {
+  "id": 2537, "w": "exchange numbers", "uk": "обмінятися номерами", "lvl": "B1",
+  "forms": "exchange|exchanges|exchanged|exchanged|exchanging",
+  "tail": "number*",
+  "near": "swap*|swapped|trade*|traded|give me your number|gave me her number|got her number|got his number|exchanged contacts|exchanged details",
+  "tasks": [
+   {
+    "sit": "У поході ти познайомився з групою туристів, які йдуть тим самим маршрутом.",
+    "say": "Давайте обміняємося номерами, якщо раптом загубимося.",
+    "ans": ["Let’s exchange numbers in case we get lost.", "We should exchange numbers in case we get separated.", "Why don’t we exchange numbers, just in case we lose each other?"],
+    "keys": { "якщо раптом": "in case|just in case|if", "загубимося": "lost|lose|separat*" }
+   },
+   {
+    "sit": "Хтось легенько зачепив твоє авто на парковці. Ви вирішили владнати все без поліції.",
+    "say": "Ми обмінялися номерами й роз’їхалися.",
+    "ans": ["We exchanged numbers and went our separate ways.", "We exchanged numbers and left.", "We just exchanged numbers and drove off."],
+    "keys": { "роз’їхалися": "went|left|leave|separate|drove off|drive off" }
+   },
+   {
+    "sit": "На першому батьківському зібранні ти познайомився з мамою однокласника твоєї доньки.",
+    "say": "Ми обмінялися номерами, щоб діти могли гратися разом.",
+    "ans": ["We exchanged numbers so the kids can play together.", "We exchanged numbers so our kids could have playdates.", "We exchanged numbers to set up playdates for the kids."],
+    "keys": { "діти": "kid*|child*|children", "гратися": "play*" }
+   }
+  ]
+ },
+ {
+  "id": 2539, "w": "bond over", "uk": "здружитися на ґрунті (чогось спільного)", "lvl": "B2",
+  "forms": "bond|bonds|bonded|bonded|bonding",
+  "tail": "over",
+  "near": "became friends|got close|connected|click*|hit it off|got on|got along",
+  "tasks": [
+   {
+    "sit": "Колега з іншого відділу раніше здавався тобі дивним, а тепер ви щодня обідаєте разом.",
+    "say": "Ми здружилися на ґрунті любові до старих фільмів.",
+    "ans": ["We bonded over our love of old movies.", "We bonded over old films.", "We totally bonded over a love of old movies."],
+    "keys": { "старі фільми": "film*|movie*|cinema" }
+   },
+   {
+    "sit": "Ти розповідаєш, як потоваришував із сусідом по під’їзду.",
+    "say": "Ми здружилися на ґрунті спільної ненависті до гучного сусіда зверху.",
+    "ans": ["We bonded over our shared hatred of the noisy neighbor upstairs.", "We bonded over hating the loud guy upstairs.", "We kind of bonded over the noisy neighbor upstairs."],
+    "keys": { "сусід зверху": "upstairs|neighbo*|above" }
+   },
+   {
+    "sit": "На дитячому майданчику ти познайомився з іншим молодим татом.",
+    "say": "Ми здружилися на ґрунті безсонних ночей із немовлятами.",
+    "ans": ["We bonded over sleepless nights with our babies.", "We bonded over the sleepless nights with newborns.", "We bonded over having babies who never sleep."],
+    "keys": { "безсонні ночі": "sleep*|night*", "немовлята": "bab*|newborn*|infant*" }
+   }
+  ]
+ },
+ {
+  "id": 2540, "w": "hang out with", "uk": "тусити з", "lvl": "A2",
+  "forms": "hang|hangs|hung|hung|hanging",
+  "tail": "out with",
+  "near": "spend time|spent time|chill*|meet up|met up|go out|went out|see|saw|seeing",
+  "tasks": [
+   {
+    "sit": "У понеділок колега питає, що ти робив на вихідних.",
+    "say": "Нічого особливого, тусив із друзями.",
+    "ans": ["Nothing special, I hung out with friends.", "Not much — I just hung out with my friends.", "Nothing much. I was hanging out with friends."],
+    "keys": { "друзі": "friend*|mates|buddies|guys", "нічого особливого": "nothing|not much" }
+   },
+   {
+    "sit": "Твій син-підліток постійно зникає з якимись новими знайомими.",
+    "say": "Мені не подобається, з ким ти тусуєшся.",
+    "ans": ["I don’t like the people you hang out with.", "I don’t like who you’re hanging out with.", "I’m not happy about the guys you hang out with."],
+    "keys": { "не подобається": "not like|not happy|not okay|not ok|dislike|hate" }
+   },
+   {
+    "sit": "Ти роками граєш онлайн із хлопцем із Польщі, але ніколи не бачив його наживо.",
+    "say": "Було б класно колись потусити з ним наживо.",
+    "ans": ["It would be cool to hang out with him in real life someday.", "I’d love to hang out with him in person one day.", "It’d be awesome to actually hang out with him in real life."],
+    "keys": { "наживо": "real life|in person|irl|offline|face to face" }
+   }
+  ]
+ },
+ {
+  "id": 2541, "w": "chill together", "uk": "чилити разом", "lvl": "B1",
+  "forms": "chill|chills|chilled|chilled|chilling",
+  "tail": "together",
+  "near": "relax*|hang out|hung out|hanging out|chill out|chilled out|kick back|take it easy",
+  "tasks": [
+   {
+    "sit": "Сестра питає, що ви з друзями робили на морі.",
+    "say": "Ми просто чилили разом на пляжі цілими днями.",
+    "ans": ["We just chilled together on the beach all day.", "We chilled together at the beach every day.", "Honestly, we just chilled together on the beach for days."],
+    "keys": { "пляж": "beach|sea|shore", "цілими днями": "all day|every day|days|day" }
+   },
+   {
+    "sit": "Партнер питає, чим ти хочеш зайнятися в п’ятницю ввечері після важкого тижня.",
+    "say": "Давай просто почилимо разом удома.",
+    "ans": ["Let’s just chill together at home.", "Let’s stay in and chill together.", "Can we just chill together at home tonight?"],
+    "keys": { "удома": "home|stay in|house" }
+   },
+   {
+    "sit": "Команда нарешті здала великий проєкт. Ти пропонуєш, як відсвяткувати.",
+    "say": "Сходімо кудись і почилимо разом — ми це заслужили.",
+    "ans": ["Let’s go somewhere and chill together — we deserve it.", "We should go out and chill together, we’ve earned it.", "Let’s all chill together somewhere tonight. We deserve it!"],
+    "keys": { "заслужили": "deserve*|earned|earn" }
+   }
+  ]
+ },
+ {
+  "id": 2542, "w": "grab coffee", "uk": "випити кави (разом)", "lvl": "A2",
+  "forms": "grab|grabs|grabbed|grabbed|grabbing",
+  "tail": "coffee*",
+  "near": "get coffee|got coffee|get a coffee|have coffee|had coffee|have a coffee|go for coffee|went for coffee|drink coffee|coffee break",
+  "tasks": [
+   {
+    "sit": "На вулиці ти випадково зустрів однокласника, якого не бачив п’ять років.",
+    "say": "Може, вип’ємо кави й поговоримо?",
+    "ans": ["Do you want to grab coffee and talk?", "Shall we grab a coffee and catch up?", "Want to grab coffee and catch up?"],
+    "keys": { "поговоримо": "talk*|catch up|chat*" }
+   },
+   {
+    "sit": "Колега з іншої команди просить поради щодо проєкту, але зараз у тебе нарада.",
+    "say": "Давай вип’ємо кави після обіду й обговоримо.",
+    "ans": ["Let’s grab coffee after lunch and discuss it.", "Let’s grab a coffee after lunch and talk it over.", "How about we grab coffee after lunch and go over it?"],
+    "keys": { "після обіду": "after lunch|afternoon|lunch" }
+   },
+   {
+    "sit": "Ти переписуєшся з людиною в застосунку для знайомств і хочеш зустрітися без зайвого тиску.",
+    "say": "Може, для початку просто вип’ємо кави?",
+    "ans": ["Maybe we could just grab coffee first?", "How about we just grab a coffee to start?", "Why don’t we grab coffee first, nothing fancy?"],
+    "keys": { "для початку": "first|start|begin*" }
+   }
+  ]
+ },
+ {
+  "id": 2543, "w": "meet up", "uk": "зустрітися", "lvl": "A2",
+  "forms": "meet|meets|met|met|meeting",
+  "tail": "up",
+  "near": "see each other|saw each other|get together|got together|hang out|hung out|catch up|caught up",
+  "tasks": [
+   {
+    "sit": "Ви з друзями хочете в суботу погуляти містом.",
+    "say": "Давайте зустрінемося в центрі о шостій.",
+    "ans": ["Let’s meet up downtown at six.", "Let’s meet up in the city center at 6.", "Why don’t we meet up downtown around six?"],
+    "keys": { "центр": "downtown|center|centre|city|town", "о шостій": "six|6*" }
+   },
+   {
+    "sit": "Під час екскурсії ви з сестрою хочете розділитися на годину.",
+    "say": "Зустрінемося біля фонтана через годину.",
+    "ans": ["We’ll meet up at the fountain in an hour.", "Let’s meet up by the fountain in an hour.", "So we’ll meet up at the fountain in one hour, okay?"],
+    "keys": { "фонтан": "fountain", "через годину": "hour" }
+   },
+   {
+    "sit": "Ти роками спілкуєшся в чаті любителів настільних ігор. Нарешті всі опинилися в одному місті.",
+    "say": "Минулого тижня ми вперше зустрілися наживо.",
+    "ans": ["We met up in person for the first time last week.", "Last week we finally met up in real life.", "We met up for the first time last week — it was great!"],
+    "keys": { "вперше": "first|finally", "минулого тижня": "last week|week" }
+   }
+  ]
+ },
+ {
+  "id": 2544, "w": "catch up over lunch", "uk": "поспілкуватися за обідом", "lvl": "B1",
+  "forms": "catch|catches|caught|caught|catching",
+  "tail": "up over lunch",
+  "near": "have lunch|had lunch|grab lunch|talk over lunch|chat over lunch|lunch together|meet for lunch",
+  "tasks": [
+   {
+    "sit": "Колишня колега пише, що скучає за вашими розмовами.",
+    "say": "Давай поспілкуємося за обідом наступного тижня.",
+    "ans": ["Let’s catch up over lunch next week.", "We should catch up over lunch next week.", "How about we catch up over lunch sometime next week?"],
+    "keys": { "наступного тижня": "next week|week" }
+   },
+   {
+    "sit": "Ти повернувся з відпустки, а напарник хоче знати всі подробиці.",
+    "say": "Я все розповім, коли поспілкуємося за обідом.",
+    "ans": ["I’ll tell you everything when we catch up over lunch.", "Let’s catch up over lunch and I’ll tell you everything.", "I’ll fill you in on everything — let’s catch up over lunch."],
+    "keys": { "все": "everything|all|fill you in" }
+   },
+   {
+    "sit": "Ти рідко бачишся з братом, бо ви обидва багато працюєте.",
+    "say": "Ми намагаємося поспілкуватися за обідом хоча б раз на місяць.",
+    "ans": ["We try to catch up over lunch at least once a month.", "We try to catch up over lunch once a month at least.", "We make a point of catching up over lunch once a month."],
+    "keys": { "раз на місяць": "month*|monthly" }
+   }
+  ]
+ },
+ {
+  "id": 2545, "w": "invite over", "uk": "запросити в гості", "lvl": "A2",
+  "forms": "invite|invites|invited|invited|inviting",
+  "tail": "over",
+  "near": "ask over|asked over|have over|had over|come over|invite to|invited to|host*",
+  "tasks": [
+   {
+    "sit": "Нові сусіди щойно в’їхали, і ти хочеш із ними познайомитися.",
+    "say": "Запросімо їх у гості на вечерю в суботу.",
+    "ans": ["Let’s invite them over for dinner on Saturday.", "We should invite them over for dinner this Saturday.", "Why don’t we invite them over for dinner Saturday?"],
+    "keys": { "вечеря": "dinner|supper|meal", "субота": "saturday" }
+   },
+   {
+    "sit": "Донька питає, чи можна привести подруг додому.",
+    "say": "Звісно, можеш запросити подруг у гості після школи.",
+    "ans": ["Of course, you can invite your friends over after school.", "Sure, you can invite friends over after school.", "Sure, invite your friends over after school!"],
+    "keys": { "подруги": "friend*|girls", "після школи": "school" }
+   },
+   {
+    "sit": "Ти розповідаєш мамі про новий робочий колектив.",
+    "say": "Керівник запросив усю команду до себе на барбекю.",
+    "ans": ["My boss invited the whole team over for a barbecue.", "The boss invited all of us over for a barbecue.", "My manager invited the whole team over for a BBQ."],
+    "keys": { "барбекю": "barbecue|bbq|grill*|cookout", "команда": "team|all of us|everyone|staff" }
+   }
+  ]
+ },
+ {
+  "id": 2546, "w": "crash at", "uk": "переночувати у (когось)", "lvl": "B2",
+  "forms": "crash|crashes|crashed|crashed|crashing",
+  "tail": "at",
+  "near": "stay at|stayed at|staying at|stay with|stayed with|spend the night|spent the night|sleep at|slept at|sleep over|slept over",
+  "tasks": [
+   {
+    "sit": "Після вечірки в іншому місті ти пропустив останню електричку.",
+    "say": "Можна я переночую в тебе сьогодні?",
+    "ans": ["Can I crash at your place tonight?", "Could I crash at yours tonight?", "Mind if I crash at your place tonight?"],
+    "keys": { "сьогодні": "tonight|today|night", "в тебе": "your*|you" }
+   },
+   {
+    "sit": "Колега питає, скільки ти витратив на житло в Берліні.",
+    "say": "Нічого — я ночував у друга.",
+    "ans": ["Nothing — I crashed at a friend’s place.", "Nothing, I crashed at my friend’s.", "Zero! I just crashed at a buddy’s place."],
+    "keys": { "нічого": "nothing|zero|free", "друга": "friend*|buddy|mate|pal" }
+   },
+   {
+    "sit": "Ремонт у твоїй квартирі затягнувся ще на тиждень.",
+    "say": "Поки що я ночую в батьків.",
+    "ans": ["For now, I’m crashing at my parents’.", "I’m crashing at my parents’ place for now.", "I’ve been crashing at my parents’ for a while."],
+    "keys": { "батьки": "parent*|mom*|mum*|dad*|folks" }
+   }
+  ]
+ }
+]

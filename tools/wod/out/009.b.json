@@ -1,0 +1,629 @@
+[
+ {
+  "id": 442, "w": "sense", "uk": "відчувати (інтуїтивно)", "lvl": "B2",
+  "forms": "sense|senses|sensed|sensed|sensing",
+  "near": "feel|felt|feels|feeling|notice*|detect*|suspect*|pick* up on",
+  "tasks": [
+   {
+    "sit": "Ви йдете темним провулком увечері. Раптом ти зупиняєшся й хапаєш друга за руку.",
+    "say": "Я відчуваю небезпеку, ходімо іншою дорогою.",
+    "ans": ["I sense danger, let’s go another way.", "I can sense danger — let’s take another route.", "I sense something dangerous here, let’s go another way."],
+    "keys": { "небезпека": "danger*|trouble|wrong", "інша дорога": "another|different|other" }
+   },
+   {
+    "sit": "Твоя дівчина каже, що все добре, але говорить дуже коротко й не дивиться в очі.",
+    "say": "Я відчуваю, що тебе щось турбує.",
+    "ans": ["I sense that something is bothering you.", "I can sense something’s bothering you.", "I sense something’s wrong — what’s bothering you?"],
+    "keys": { "щось турбує": "something|bother*|wrong|upset*" }
+   },
+   {
+    "sit": "На переговорах партнери посміхаються, але ставлять дуже обережні запитання. Ти пишеш колезі в чат.",
+    "say": "Я відчуваю, що вони нам не довіряють.",
+    "ans": ["I sense that they don’t trust us.", "I can sense they don’t really trust us.", "I sense they don’t trust us yet."],
+    "keys": { "не довіряють": "not trust|distrust*|suspicious|not really trust" }
+   }
+  ]
+ },
+ {
+  "id": 443, "w": "perceive", "uk": "сприймати", "lvl": "C1",
+  "forms": "perceive|perceives|perceived|perceived|perceiving",
+  "near": "see|saw|seen|sees|view*|regard*|consider*|think of|thought of|notice*|understand",
+  "tasks": [
+   {
+    "sit": "Ти працюєш у маркетингу й обговорюєш з командою результати опитування клієнтів.",
+    "say": "Клієнти сприймають наш бренд як дорогий.",
+    "ans": ["Customers perceive our brand as expensive.", "Our brand is perceived as expensive by customers.", "People perceive us as an expensive brand."],
+    "keys": { "бренд": "brand|us|company", "дорогий": "expensive|pricey|costly|luxury" }
+   },
+   {
+    "sit": "Ти читаєш статтю з психології про те, як люди бачать себе й інших.",
+    "say": "Кожен сприймає ту саму ситуацію по-різному.",
+    "ans": ["Everyone perceives the same situation differently.", "The same situation is perceived differently by different people.", "We all perceive the same situation in different ways."],
+    "keys": { "ситуація": "situation|thing|event", "по-різному": "different*" }
+   },
+   {
+    "sit": "Колега дуже прямо написала тобі критику в листі. Ти обговорюєш це з наставником.",
+    "say": "Я сприйняв її лист як напад.",
+    "ans": ["I perceived her email as an attack.", "I perceived her message as a personal attack.", "Honestly, I perceived that email as an attack."],
+    "keys": { "лист": "email|e-mail|message|letter|mail", "напад": "attack*|insult*|criticism" }
+   }
+  ]
+ },
+ {
+  "id": 444, "w": "witness", "uk": "бути свідком, на власні очі бачити", "lvl": "B2",
+  "forms": "witness|witnesses|witnessed|witnessed|witnessing",
+  "near": "saw|see|seen|watch*|observe*",
+  "tasks": [
+   {
+    "sit": "Поліцейський на перехресті питає людей, хто бачив, як сталася аварія.",
+    "say": "Я був свідком аварії, можу все розповісти.",
+    "ans": ["I witnessed the accident, I can tell you everything.", "I witnessed the crash and can tell you everything.", "I witnessed the whole accident — I can tell you what happened."],
+    "keys": { "аварія": "accident|crash|collision|whole", "розповісти": "tell|explain|describe|say" }
+   },
+   {
+    "sit": "Ти розповідаєш онукам про події, які змінили країну, коли ти був молодим.",
+    "say": "Я на власні очі бачив історичні зміни.",
+    "ans": ["I witnessed historic changes.", "I witnessed history being made.", "I actually witnessed history with my own eyes."],
+    "keys": { "історичні": "histor*" }
+   },
+   {
+    "sit": "На роботі менеджер принизив стажера на очах у всіх. Відділ кадрів проводить розслідування.",
+    "say": "Кілька колег були свідками цієї розмови.",
+    "ans": ["Several colleagues witnessed this conversation.", "A few colleagues witnessed that conversation.", "A couple of coworkers witnessed the whole conversation."],
+    "keys": { "колеги": "colleague*|coworker*|co-worker*|people", "розмова": "conversation|talk|incident|scene" }
+   }
+  ]
+ },
+ {
+  "id": 445, "w": "spot", "uk": "помічати", "lvl": "B2",
+  "forms": "spot|spots|spotted|spotted|spotting",
+  "near": "notice*|see|saw|seen|find|found|catch|caught|detect*",
+  "tasks": [
+   {
+    "sit": "Колега перед відправкою клієнту просить тебе перечитати презентацію.",
+    "say": "Я помітив опечатку на третьому слайді.",
+    "ans": ["I spotted a typo on the third slide.", "I’ve spotted a typo on slide three.", "Oh, I spotted a typo on the third slide."],
+    "keys": { "опечатка": "typo|mistake|error", "третій слайд": "third|three|3*" }
+   },
+   {
+    "sit": "Ви з другом гуляєте в парку й шукаєте птахів з біноклем.",
+    "say": "Дивись, я помітив дятла на тому дереві!",
+    "ans": ["Look, I spotted a woodpecker on that tree!", "Look! I’ve just spotted a woodpecker in that tree!", "Hey, I spotted a woodpecker on that tree over there!"],
+    "keys": { "дятел": "woodpecker|bird", "дерево": "tree" }
+   },
+   {
+    "sit": "Ти запізнюєшся на зустріч з подругою в натовпі на вокзалі. Вона пише, що вже там.",
+    "say": "Я тебе помітив, махаю тобі!",
+    "ans": ["I’ve spotted you, I’m waving at you!", "I spotted you, look, I’m waving!", "Spotted you! I’m waving at you."],
+    "keys": { "махаю": "wav*" }
+   }
+  ]
+ },
+ {
+  "id": 446, "w": "promote", "uk": "підвищувати (на посаді)", "lvl": "B2",
+  "forms": "promote|promotes|promoted|promoted|promoting",
+  "near": "promotion|raise*|move* up|moved up|upgrad*|advanc*",
+  "tasks": [
+   {
+    "sit": "Сестра телефонує тобі з гарною новиною про роботу.",
+    "say": "Мене підвищили до керівника відділу!",
+    "ans": ["I got promoted to head of the department!", "I’ve been promoted to department head!", "Guess what — I got promoted to head of my department!"],
+    "keys": { "керівник відділу": "head|manager|lead*|department" }
+   },
+   {
+    "sit": "Ти керуєш командою й обговорюєш з директором найкращого працівника року.",
+    "say": "Думаю, нам варто підвищити Олену.",
+    "ans": ["I think we should promote Olena.", "I think Olena should be promoted.", "Honestly, I think we should promote Olena."],
+    "keys": { "Олена": "olena|her" }
+   },
+   {
+    "sit": "Друг скаржиться, що вже пʼять років на тій самій посаді, хоча працює найбільше.",
+    "say": "Його так і не підвищили за пʼять років.",
+    "ans": ["He hasn’t been promoted in five years.", "They haven’t promoted him in five years.", "In five years, they never promoted him."],
+    "keys": { "не": "not|never", "пʼять років": "five|5" }
+   }
+  ]
+ },
+ {
+  "id": 447, "w": "demote", "uk": "понижувати (на посаді)", "lvl": "C1",
+  "forms": "demote|demotes|demoted|demoted|demoting",
+  "near": "downgrad*|move* down|moved down|fire*|fired|sack*|relegat*",
+  "tasks": [
+   {
+    "sit": "Колега пошепки розповідає тобі на кухні офісу новину про вашого колишнього начальника.",
+    "say": "Його понизили після того скандалу.",
+    "ans": ["He was demoted after that scandal.", "They demoted him after the scandal.", "He got demoted after that whole scandal."],
+    "keys": { "скандал": "scandal|incident|mess" }
+   },
+   {
+    "sit": "Ти читаєш новини про футбольний клуб: капітан команди постійно порушує дисципліну.",
+    "say": "Тренер понизив його з капітана до звичайного гравця.",
+    "ans": ["The coach demoted him from captain to a regular player.", "He was demoted from captain by the coach.", "The coach just demoted him from captain."],
+    "keys": { "тренер": "coach|manager", "капітан": "captain" }
+   },
+   {
+    "sit": "Ти керівник і пояснюєш кадровику, чому не хочеш карати менеджера за одну помилку.",
+    "say": "Я не хочу понижувати його через одну помилку.",
+    "ans": ["I don’t want to demote him for one mistake.", "I don’t want to demote him over a single mistake.", "I’m not going to demote him for just one mistake."],
+    "keys": { "не": "not|never", "помилка": "mistake|error|slip" }
+   }
+  ]
+ },
+ {
+  "id": 448, "w": "resign", "uk": "звільнятися (з посади за власним бажанням)", "lvl": "B2",
+  "forms": "resign|resigns|resigned|resigned|resigning",
+  "near": "quit*|leave|left|leaving|step* down|stepped down|hand* in my notice",
+  "tasks": [
+   {
+    "sit": "Ти читаєш ранкові новини про уряд і коментуєш їх родині за сніданком.",
+    "say": "Міністр учора пішов у відставку.",
+    "ans": ["The minister resigned yesterday.", "The minister resigned from his post yesterday.", "Did you hear? The minister resigned yesterday."],
+    "keys": { "міністр": "minister", "учора": "yesterday" }
+   },
+   {
+    "sit": "Ти вирішив змінити роботу й повідомляєш про це своєму керівникові.",
+    "say": "Я хочу звільнитися з наступного місяця.",
+    "ans": ["I want to resign from next month.", "I’d like to resign, starting next month.", "I’ve decided to resign as of next month."],
+    "keys": { "наступний місяць": "next month" }
+   },
+   {
+    "sit": "Друг розповідає, що його шеф постійно на нього кричить. Ти питаєш, що він робитиме.",
+    "say": "Чому ти не звільнишся?",
+    "ans": ["Why don’t you resign?", "Why don’t you just resign?", "Honestly, why not resign?"],
+    "keys": { "чому": "why" }
+   }
+  ]
+ },
+ {
+  "id": 449, "w": "recruit", "uk": "наймати, набирати (людей)", "lvl": "B2",
+  "forms": "recruit|recruits|recruited|recruited|recruiting",
+  "near": "hire*|hiring|employ*|take on|took on|enlist*|sign* up",
+  "tasks": [
+   {
+    "sit": "Ти працюєш в ІТ-компанії й розповідаєш знайомому, чому у вас так багато вакансій.",
+    "say": "Ми зараз набираємо інженерів.",
+    "ans": ["We’re recruiting engineers right now.", "We are recruiting engineers at the moment.", "Right now we’re recruiting a lot of engineers."],
+    "keys": { "інженери": "engineer*|developer*", "зараз": "now|moment|currently" }
+   },
+   {
+    "sit": "Ти організовуєш прибирання парку в суботу і пишеш у групу мешканців.",
+    "say": "Нам треба залучити ще десять волонтерів.",
+    "ans": ["We need to recruit ten more volunteers.", "We have to recruit another ten volunteers.", "We still need to recruit ten more volunteers."],
+    "keys": { "волонтери": "volunteer*|helper*|people", "десять": "ten|10" }
+   },
+   {
+    "sit": "Ти розповідаєш, як потрапив у свою першу компанію одразу після університету.",
+    "say": "Мене найняли прямо з університету.",
+    "ans": ["I was recruited straight out of university.", "They recruited me right out of university.", "I got recruited straight from uni."],
+    "keys": { "університет": "universit*|uni|college|school" }
+   }
+  ]
+ },
+ {
+  "id": 450, "w": "outsource", "uk": "передавати на аутсорс", "lvl": "C1",
+  "forms": "outsource|outsources|outsourced|outsourced|outsourcing",
+  "near": "contract* out|farm* out|delegat*|hire*|subcontract*",
+  "tasks": [
+   {
+    "sit": "Ти засновник маленького стартапу. Інвестор питає, хто у вас займається дизайном.",
+    "say": "Ми передаємо дизайн на аутсорс.",
+    "ans": ["We outsource the design.", "Our design work is outsourced.", "We actually outsource all our design."],
+    "keys": { "дизайн": "design*" }
+   },
+   {
+    "sit": "Ти читаєш новину про великий банк, який закриває свій кол-центр.",
+    "say": "Банк віддав службу підтримки на аутсорс в іншу країну.",
+    "ans": ["The bank outsourced its customer support to another country.", "The bank’s support service was outsourced abroad.", "The bank has outsourced its support to another country."],
+    "keys": { "банк": "bank", "підтримка": "support|call cent*|service" }
+   },
+   {
+    "sit": "Власниця кавʼярні скаржиться тобі, що не встигає вести бухгалтерію.",
+    "say": "Чому б тобі не віддати бухгалтерію на аутсорс?",
+    "ans": ["Why don’t you outsource your accounting?", "Why not outsource the bookkeeping?", "You should just outsource your accounting, honestly."],
+    "keys": { "бухгалтерія": "accounting|bookkeeping|accounts|finances" }
+   }
+  ]
+ },
+ {
+  "id": 451, "w": "delegate", "uk": "делегувати, доручати", "lvl": "B2",
+  "forms": "delegate|delegates|delegated|delegated|delegating",
+  "near": "assign*|hand* over|handed over|pass* on|give|gave|given|entrust*|outsourc*",
+  "tasks": [
+   {
+    "sit": "Твоя керівниця працює до ночі, бо все робить сама. Ти намагаєшся їй допомогти.",
+    "say": "Вам варто делегувати більше завдань команді.",
+    "ans": ["You should delegate more tasks to the team.", "You should delegate more of the work to the team.", "You really need to delegate more to your team."],
+    "keys": { "більше": "more", "команда": "team|us|staff" }
+   },
+   {
+    "sit": "Ти організовуєш весілля сестри й розповідаєш подрузі, як усе встигаєш.",
+    "say": "Я доручив музику й квіти своїм братам.",
+    "ans": ["I delegated the music and flowers to my brothers.", "I’ve delegated the music and the flowers to my brothers.", "I delegated music and flowers to my brothers."],
+    "keys": { "музика": "music|dj|band", "брати": "brother*" }
+   },
+   {
+    "sit": "На курсі з менеджменту тренер питає, яка у тебе найбільша слабкість як лідера.",
+    "say": "Мені важко делегувати.",
+    "ans": ["I find it hard to delegate.", "It’s difficult for me to delegate.", "Honestly, I struggle to delegate."],
+    "keys": { "важко": "hard|difficult|struggle|tough|not good" }
+   }
+  ]
+ },
+ {
+  "id": 452, "w": "supervise", "uk": "наглядати, керувати", "lvl": "B2",
+  "forms": "supervise|supervises|supervised|supervised|supervising",
+  "near": "manag*|oversee*|oversaw|watch*|monitor*|run|runs|ran|lead|leads|led|look* after|in charge",
+  "tasks": [
+   {
+    "sit": "На співбесіді тебе питають про твій досвід керівництва.",
+    "say": "Я керував командою з двадцяти людей.",
+    "ans": ["I supervised a team of twenty people.", "I’ve supervised a team of twenty.", "In my last job, I supervised twenty people."],
+    "keys": { "двадцять": "twenty|20", "люди": "people|team|staff|employee*" }
+   },
+   {
+    "sit": "Ти розповідаєш знайомій про свою підробітку в дитячому таборі.",
+    "say": "Я наглядав за дітьми в басейні.",
+    "ans": ["I supervised the kids at the pool.", "I supervised the children in the swimming pool.", "My job was to supervise the kids at the pool."],
+    "keys": { "діти": "kid*|child*", "басейн": "pool" }
+   },
+   {
+    "sit": "Ти студент-хімік. Друг питає, чи можна вам працювати в лабораторії самим.",
+    "say": "Нам не можна проводити досліди без нагляду викладача.",
+    "ans": ["We can’t do experiments unless a teacher supervises us.", "Our experiments have to be supervised by a teacher.", "No, a teacher has to supervise all our experiments."],
+    "keys": { "досліди": "experiment*|lab", "викладач": "teacher|professor|tutor|instructor" }
+   }
+  ]
+ },
+ {
+  "id": 453, "w": "coordinate", "uk": "координувати", "lvl": "B2",
+  "forms": "coordinate/co-ordinate|coordinates/co-ordinates|coordinated/co-ordinated|coordinated/co-ordinated|coordinating/co-ordinating",
+  "near": "organiz*|organis*|manag*|arrang*|run|runs|ran|plan*|oversee*",
+  "tasks": [
+   {
+    "sit": "Твоя сестра питає, чим саме ти займаєшся на новій роботі в агенції.",
+    "say": "Я координую події для великих компаній.",
+    "ans": ["I coordinate events for big companies.", "I coordinate corporate events for large companies.", "Basically, I coordinate events for big companies."],
+    "keys": { "події": "event*|conference*", "компанії": "compan*|corporat*|client*" }
+   },
+   {
+    "sit": "Після повені в селі волонтери з різних міст хочуть допомогти, але ніхто не знає, хто що робить.",
+    "say": "Нам потрібен хтось, хто координуватиме всіх волонтерів.",
+    "ans": ["We need someone to coordinate all the volunteers.", "We need somebody who can coordinate the volunteers.", "Someone has to coordinate all these volunteers."],
+    "keys": { "хтось": "someone|somebody|person", "волонтери": "volunteer*|helper*" }
+   },
+   {
+    "sit": "Ви з колегами з трьох офісів у різних країнах працюєте над одним звітом.",
+    "say": "Давайте координувати роботу через спільний чат.",
+    "ans": ["Let’s coordinate our work through a shared chat.", "Let’s coordinate everything in a group chat.", "Why don’t we coordinate the work in one shared chat?"],
+    "keys": { "чат": "chat|channel|group|slack" }
+   }
+  ]
+ },
+ {
+  "id": 454, "w": "handle", "uk": "давати раду, займатися (чимось)", "lvl": "B2",
+  "forms": "handle|handles|handled|handled|handling",
+  "near": "deal* with|dealt with|manag*|cope|coped|take care|took care|sort* out|cop*",
+  "tasks": [
+   {
+    "sit": "На роботі дзвонить дуже роздратований клієнт. Колега панікує, а ти спокійно береш слухавку.",
+    "say": "Не хвилюйся, я цим займуся.",
+    "ans": ["Don’t worry, I’ll handle it.", "Don’t worry, I’ll handle this client.", "Relax, I’ll handle it."],
+    "keys": { "не хвилюйся": "worry|relax|fine|ok|okay" }
+   },
+   {
+    "sit": "Ти розповідаєш другові, як мама сама виховала трьох дітей і ще працювала на двох роботах.",
+    "say": "Не знаю, як вона з усім давала раду.",
+    "ans": ["I don’t know how she handled everything.", "I have no idea how she handled it all.", "I honestly don’t know how she handled all that."],
+    "keys": { "не знаю": "not know|no idea|wonder", "все": "everything|it all|all" }
+   },
+   {
+    "sit": "Твій підліток-брат хоче сам поїхати в інше місто на концерт. Батьки сумніваються.",
+    "say": "Він уже дорослий, він із цим упорається.",
+    "ans": ["He’s grown up, he can handle it.", "He’s an adult now, he can handle this.", "Come on, he’s old enough, he can handle it."],
+    "keys": { "дорослий": "grown*|adult|old enough|big" }
+   }
+  ]
+ },
+ {
+  "id": 455, "w": "tackle", "uk": "братися за (задачу), розвʼязувати", "lvl": "B2",
+  "forms": "tackle|tackles|tackled|tackled|tackling",
+  "near": "deal with|dealt with|handl*|address*|solv*|work on|take on|took on|approach*|start*",
+  "tasks": [
+   {
+    "sit": "У тебе довгий список справ на день. Колега радить, з чого почати.",
+    "say": "Візьмися спершу за найскладніше завдання.",
+    "ans": ["Tackle the hardest task first.", "You should tackle the most difficult task first.", "Tackle the toughest one first, trust me."],
+    "keys": { "найскладніше": "hardest|most difficult|toughest|biggest", "спершу": "first" }
+   },
+   {
+    "sit": "Мер міста виступає на телебаченні з планом на наступний рік.",
+    "say": "Ми нарешті візьмемося за проблему з заторами.",
+    "ans": ["We will finally tackle the traffic problem.", "We’re finally going to tackle traffic jams.", "We’re finally tackling the traffic problem."],
+    "keys": { "нарешті": "finally|at last", "затори": "traffic|jam*|congestion" }
+   },
+   {
+    "sit": "Субота, у квартирі безлад. Ти домовляєшся із сусідом по кімнаті, хто що прибирає.",
+    "say": "Я візьмуся за кухню, а ти за ванну.",
+    "ans": ["I’ll tackle the kitchen, and you do the bathroom.", "I’ll tackle the kitchen if you take the bathroom.", "OK, I’ll tackle the kitchen, you take the bathroom."],
+    "keys": { "кухня": "kitchen", "ванна": "bathroom|bath" }
+   }
+  ]
+ },
+ {
+  "id": 456, "w": "prioritize", "uk": "ставити пріоритети, ставити на перше місце", "lvl": "B2",
+  "forms": "prioritize/prioritise|prioritizes/prioritises|prioritized/prioritised|prioritized/prioritised|prioritizing/prioritising",
+  "near": "focus*|put first|puts first|put before|rank*|priority|priorities|order",
+  "tasks": [
+   {
+    "sit": "Твоя команда не встигає зробити все до дедлайну. Керівник пише в чат.",
+    "say": "Нам треба ставити на перше місце найважливіші завдання.",
+    "ans": ["We need to prioritize the most important tasks.", "We have to prioritize the key tasks.", "Let’s prioritize the most important tasks first."],
+    "keys": { "найважливіші": "important|key|urgent|main|critical", "завдання": "task*|work|thing*" }
+   },
+   {
+    "sit": "Після вигорання ти розповідаєш подрузі, що змінив у житті.",
+    "say": "Тепер я ставлю здоровʼя на перше місце.",
+    "ans": ["Now I prioritize my health.", "These days I prioritize my health over work.", "I’ve started to prioritize my health now."],
+    "keys": { "здоровʼя": "health|sleep|myself" }
+   },
+   {
+    "sit": "Друг-студент скаржиться, що в нього пʼять курсових і немає часу на жодну.",
+    "say": "Тобі треба навчитися розставляти пріоритети.",
+    "ans": ["You need to learn to prioritize.", "You have to learn how to prioritize.", "Seriously, you need to learn to prioritize."],
+    "keys": { "навчитися": "learn*" }
+   }
+  ]
+ },
+ {
+  "id": 457, "w": "streamline", "uk": "оптимізувати, спрощувати (процес)", "lvl": "C1",
+  "forms": "streamline|streamlines|streamlined|streamlined|streamlining",
+  "near": "optimi*|simplif*|improv*|speed* up|sped up|automat*",
+  "tasks": [
+   {
+    "sit": "Ти презентуєш керівництву новий інструмент для обробки замовлень.",
+    "say": "Ця система оптимізує весь процес замовлення.",
+    "ans": ["This system streamlines the whole ordering process.", "The ordering process will be streamlined by this system.", "This system really streamlines the whole order process."],
+    "keys": { "система": "system|tool|software", "процес": "process|workflow" }
+   },
+   {
+    "sit": "Ти консультуєш місцеву лікарню, де пацієнти заповнюють однакові форми тричі.",
+    "say": "Нам треба спростити реєстрацію пацієнтів.",
+    "ans": ["We need to streamline patient registration.", "Patient registration needs to be streamlined.", "We really need to streamline how patients register."],
+    "keys": { "реєстрація": "registration|register*|check-in|sign*", "пацієнти": "patient*" }
+   },
+   {
+    "sit": "Ти розповідаєш другові, як змінив свою ранкову рутину, щоб не запізнюватися.",
+    "say": "Я оптимізував свій ранок і тепер збираюся за двадцять хвилин.",
+    "ans": ["I streamlined my mornings, and now I get ready in twenty minutes.", "I’ve streamlined my morning routine, so it takes twenty minutes now.", "I streamlined my morning — twenty minutes and I’m out the door."],
+    "keys": { "ранок": "morning*|routine", "двадцять": "twenty|20" }
+   }
+  ]
+ },
+ {
+  "id": 458, "w": "implement", "uk": "впроваджувати", "lvl": "B2",
+  "forms": "implement|implements|implemented|implemented|implementing",
+  "near": "introduc*|carry out|carried out|put in place|put into practice|appl*|execut*|launch*|roll* out",
+  "tasks": [
+   {
+    "sit": "Директор школи повідомляє батькам про зміни з вересня.",
+    "say": "З вересня ми впроваджуємо нові правила щодо телефонів.",
+    "ans": ["We are implementing new phone rules in September.", "New rules on phones will be implemented from September.", "Starting in September, we’re implementing new phone rules."],
+    "keys": { "правила": "rule*|policy|policies", "вересень": "september" }
+   },
+   {
+    "sit": "Команда обговорює, чому торішній план розвитку так і не дав результату.",
+    "say": "План був добрий, але ми його погано впровадили.",
+    "ans": ["The plan was good, but we implemented it badly.", "It was a good plan, but it was poorly implemented.", "The plan was fine — we just implemented it badly."],
+    "keys": { "план": "plan|it", "погано": "bad*|poor*|wrong" }
+   },
+   {
+    "sit": "Ти розробник. Менеджер питає, коли буде готова нова функція для застосунку.",
+    "say": "Я впроваджу цю функцію до пʼятниці.",
+    "ans": ["I’ll implement this feature by Friday.", "The feature will be implemented by Friday.", "I can implement that feature by Friday."],
+    "keys": { "функція": "feature|function*|it", "пʼятниця": "friday" }
+   }
+  ]
+ },
+ {
+  "id": 459, "w": "execute", "uk": "виконувати, здійснювати (план, задум)", "lvl": "B2",
+  "forms": "execute|executes|executed|executed|executing",
+  "near": "carry out|carried out|implement*|perform*|do|did|done|complet*|pull off|pulled off",
+  "tasks": [
+   {
+    "sit": "Після перемоги у фіналі журналіст питає тренера, в чому секрет успіху.",
+    "say": "Хлопці ідеально виконали наш план на гру.",
+    "ans": ["The guys executed our game plan perfectly.", "Our game plan was executed perfectly.", "The team executed the game plan perfectly."],
+    "keys": { "план": "plan|strategy", "ідеально": "perfect*|flawless*|brilliant*" }
+   },
+   {
+    "sit": "На нараді колега пропонує чудову ідею, але ти бачиш, що команда вже перевантажена.",
+    "say": "Ідея гарна, але хто її втілюватиме?",
+    "ans": ["It’s a good idea, but who’s going to execute it?", "Nice idea, but who will execute it?", "Great idea — but who’s actually going to execute it?"],
+    "keys": { "ідея": "idea", "хто": "who" }
+   },
+   {
+    "sit": "Ти розповідаєш, як із друзями влаштували сюрприз на день народження однокласника.",
+    "say": "Ми бездоганно здійснили наш план.",
+    "ans": ["We executed our plan flawlessly.", "Our plan was executed without a hitch.", "We executed the plan perfectly."],
+    "keys": { "план": "plan", "бездоганно": "flawless*|perfect*|hitch|without problem*" }
+   }
+  ]
+ },
+ {
+  "id": 460, "w": "accomplish", "uk": "досягати, здійснювати", "lvl": "B2",
+  "forms": "accomplish|accomplishes|accomplished|accomplished|accomplishing",
+  "near": "achiev*|reach*|complet*|finish*|do|did|done|get done|got done|succeed*",
+  "tasks": [
+   {
+    "sit": "Наприкінці року ти з командою переглядаєте результати. Керівник задоволений.",
+    "say": "Цього року ми багато чого досягли.",
+    "ans": ["We accomplished a lot this year.", "We’ve accomplished so much this year.", "This year we really accomplished a lot."],
+    "keys": { "багато": "lot|so much|much|many", "цей рік": "year" }
+   },
+   {
+    "sit": "Твій друг пробіг свій перший марафон після року тренувань.",
+    "say": "Ти здійснив те, що всі вважали неможливим!",
+    "ans": ["You accomplished what everyone thought was impossible!", "You’ve accomplished something everyone thought was impossible!", "You accomplished the impossible, man!"],
+    "keys": { "неможливим": "impossible" }
+   },
+   {
+    "sit": "Субота, ти весь день був зайнятий, але втомлений. Ввечері підсумовуєш день.",
+    "say": "Я сьогодні нічого не зробив!",
+    "ans": ["I accomplished nothing today!", "I didn’t accomplish anything today!", "Ugh, I haven’t accomplished a thing today!"],
+    "keys": { "нічого": "nothing|not|anything|a thing", "сьогодні": "today" }
+   }
+  ]
+ },
+ {
+  "id": 461, "w": "struggle", "uk": "насилу впоратися, важко даватися", "lvl": "B2",
+  "forms": "struggle|struggles|struggled|struggled|struggling",
+  "near": "hard time|difficult|find it hard|found it hard|have trouble|had trouble|bad at|not good",
+  "tasks": [
+   {
+    "sit": "Батьки питають, як у тебе з навчанням у першому семестрі.",
+    "say": "Мені важко дається математика.",
+    "ans": ["I struggle with math.", "I’m struggling with maths.", "Honestly, I’m really struggling with math."],
+    "keys": { "математика": "math*|maths|calculus|algebra" }
+   },
+   {
+    "sit": "Ти переїхав до Канади й розповідаєш подрузі в Україні про перші тижні.",
+    "say": "Я досі насилу розумію місцевий акцент.",
+    "ans": ["I still struggle to understand the local accent.", "I’m still struggling with the local accent.", "I’m still struggling to understand the accent here."],
+    "keys": { "досі": "still", "акцент": "accent" }
+   },
+   {
+    "sit": "Колега помітив, що ти вже тиждень поспіль позіхаєш на нарадах.",
+    "say": "Я насилу прокидаюся зранку після народження дитини.",
+    "ans": ["I struggle to wake up in the morning since the baby was born.", "Since the baby came, I’ve been struggling to get up in the morning.", "I’m struggling to wake up in the mornings with the new baby."],
+    "keys": { "прокидаюся": "wake*|get up|getting up", "дитина": "baby" }
+   }
+  ]
+ },
+ {
+  "id": 462, "w": "cope", "uk": "давати раду, справлятися", "lvl": "B2",
+  "forms": "cope|copes|coped|coped|coping",
+  "near": "deal with|dealt with|handl*|manag*|get through|got through|survive*",
+  "tasks": [
+   {
+    "sit": "Подруга тільки-но пережила розлучення й переїзд. Ти дзвониш їй увечері.",
+    "say": "Як ти даєш собі раду?",
+    "ans": ["How are you coping?", "How are you coping with everything?", "So, how are you coping?"],
+    "keys": { "як": "how" }
+   },
+   {
+    "sit": "Лікар питає тебе про роботу, бо в тебе часто болить голова.",
+    "say": "Я погано справляюся зі стресом.",
+    "ans": ["I don’t cope well with stress.", "I can’t cope with stress very well.", "I just don’t cope well with stress."],
+    "keys": { "погано": "not|badly|poorly", "стрес": "stress*|pressure" }
+   },
+   {
+    "sit": "У ресторані, де ти працюєш, звільнилися два кухарі, а замовлень стало більше.",
+    "say": "Ми не впораємося без додаткових людей.",
+    "ans": ["We won’t cope without extra staff.", "We can’t cope without more people.", "There’s no way we can cope without extra help."],
+    "keys": { "без": "without|no way|more|extra", "додаткові люди": "staff|people|help|cook*|hands" }
+   }
+  ]
+ },
+ {
+  "id": 463, "w": "multitask", "uk": "робити кілька справ одночасно", "lvl": "B2",
+  "forms": "multitask|multitasks|multitasked|multitasked|multitasking",
+  "near": "juggl*|do two things|do several things|many things at once|do it all at once",
+  "tasks": [
+   {
+    "sit": "На співбесіді в кол-центр тебе питають про твої сильні та слабкі сторони.",
+    "say": "Я погано вмію робити кілька справ одночасно.",
+    "ans": ["I’m not very good at multitasking.", "I can’t multitask very well.", "Honestly, I’m bad at multitasking."],
+    "keys": { "погано": "not|bad*|poor*|terrible" }
+   },
+   {
+    "sit": "Твоя мама водночас готує вечерю, говорить по телефону й перевіряє уроки молодшого брата.",
+    "say": "Мама вміє робити все одночасно краще за всіх.",
+    "ans": ["Mom can multitask better than anyone.", "My mom multitasks better than anybody.", "Nobody multitasks like my mom."],
+    "keys": { "мама": "mom|mum|mother", "краще за всіх": "anyone|anybody|nobody|best|everyone" }
+   },
+   {
+    "sit": "Ти читаєш дослідження про продуктивність і ділишся висновком з колегою.",
+    "say": "Коли ми робимо кілька справ одночасно, ми робимо більше помилок.",
+    "ans": ["When we multitask, we make more mistakes.", "People who multitask make more mistakes.", "Multitasking actually makes us make more mistakes."],
+    "keys": { "помилки": "mistake*|error*" }
+   }
+  ]
+ },
+ {
+  "id": 464, "w": "overwork", "uk": "перепрацьовувати, перевантажувати роботою", "lvl": "B2",
+  "forms": "overwork|overworks|overworked|overworked|overworking",
+  "near": "work too much|working too much|worked too much|work too hard|working too hard|burn* out|burnt out|overdo it|overdoing it",
+  "tasks": [
+   {
+    "sit": "Твій батько знову сидить у гаражі до півночі, хоча лікар радив відпочивати.",
+    "say": "Тату, не перепрацьовуй, тобі треба берегти серце.",
+    "ans": ["Dad, don’t overwork, you need to look after your heart.", "Dad, don’t overwork yourself — think of your heart.", "Dad, stop overworking, your heart needs a rest."],
+    "keys": { "тату": "dad|father", "серце": "heart" }
+   },
+   {
+    "sit": "Колега скаржиться, що в команді всі хворіють і втомлені.",
+    "say": "Нас усіх перевантажують роботою.",
+    "ans": ["We’re all overworked.", "They’re overworking all of us.", "Honestly, we’re all totally overworked."],
+    "keys": { "усі": "all|everyone|everybody" }
+   },
+   {
+    "sit": "Ти розповідаєш лікарю, чому минулої осені потрапив до лікарні.",
+    "say": "Я перепрацював і захворів.",
+    "ans": ["I overworked myself and got sick.", "I had overworked and ended up getting ill.", "I just overworked myself and got sick."],
+    "keys": { "захворів": "sick|ill|hospital|collaps*" }
+   }
+  ]
+ },
+ {
+  "id": 465, "w": "apply for", "uk": "подавати заявку (на)", "lvl": "B1",
+  "forms": "apply|applies|applied|applied|applying",
+  "tail": "for",
+  "near": "submit*|sign up|signed up|register*|put in for|try for|go for|went for|enrol*|request*",
+  "tasks": [
+   {
+    "sit": "Друг показує тобі оголошення про роботу в IT-компанії мрії.",
+    "say": "Я вчора подався на цю посаду!",
+    "ans": ["I applied for this job yesterday!", "I applied for that position yesterday!", "Guess what, I applied for that job yesterday!"],
+    "keys": { "посада": "job|position|post|role|vacanc*", "вчора": "yesterday" }
+   },
+   {
+    "sit": "Ти плануєш поїздку до США й розповідаєш колезі про підготовку.",
+    "say": "Мені треба подати заяву на візу.",
+    "ans": ["I need to apply for a visa.", "I have to apply for a visa.", "I still need to apply for a visa."],
+    "keys": { "віза": "visa" }
+   },
+   {
+    "sit": "Твоя сестра хоче вчитися за кордоном, але не має грошей. Ти їй радиш.",
+    "say": "Подай заявку на стипендію!",
+    "ans": ["Apply for a scholarship!", "You should apply for a scholarship!", "Why don’t you apply for a scholarship?"],
+    "keys": { "стипендія": "scholarship*|grant*|funding|stipend" }
+   }
+  ]
+ },
+ {
+  "id": 466, "w": "turn down", "uk": "відхиляти, відмовлятися від", "lvl": "B2",
+  "forms": "turn|turns|turned|turned|turning",
+  "tail": "down",
+  "near": "reject*|refus*|declin*|say no|said no|pass on|passed on",
+  "tasks": [
+   {
+    "sit": "Батьки дивуються, чому ти досі на старій роботі, якщо тобі пропонували нову.",
+    "say": "Я відмовився від тієї пропозиції, бо треба було переїжджати.",
+    "ans": ["I turned down that offer because I would have to move.", "I turned the offer down because I’d have had to move.", "I turned it down — I’d have had to move."],
+    "keys": { "переїжджати": "move|moving|relocat*" }
+   },
+   {
+    "sit": "Колега запросив тебе на день народження, але в тебе вже є плани. Друг радить.",
+    "say": "Відмов йому ввічливо.",
+    "ans": ["Turn him down politely.", "Just turn him down politely.", "You can turn him down nicely."],
+    "keys": { "ввічливо": "polite*|nice*|gently|kind*" }
+   },
+   {
+    "sit": "Ти пишеш роман і розповідаєш подрузі про стосунки з видавництвами.",
+    "say": "Три видавництва вже відхилили мою книжку.",
+    "ans": ["Three publishers have already turned down my book.", "My book was turned down by three publishers.", "Three publishers already turned my book down."],
+    "keys": { "три": "three|3", "видавництва": "publisher*", "книжка": "book|novel|manuscript" }
+   }
+  ]
+ }
+]

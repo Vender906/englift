@@ -186,7 +186,7 @@ const ITEMS = [
     when:"Гіпотетична оцінка минулої події (близько до 3rd conditional).",
     examples:[
       { en:"That trip <b>would have cost</b> a fortune.", uk:"Та подорож, мабуть, коштувала статок." },
-      { en:"It <b>would have been</b> faster by train.", uk:"Поїздом було б швидше." },
+      { en:"A new laptop <b>would have cost</b> me three months' salary back then.", uk:"Новий ноутбук коштував би мені тримісячну зарплату тоді." },
     ] },
 
   // ============= SOFT OPINION =============

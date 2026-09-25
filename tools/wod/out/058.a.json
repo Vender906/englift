@@ -1,0 +1,652 @@
+[
+ {
+  "id": 3144, "w": "sell off", "uk": "розпродавати", "lvl": "B2",
+  "forms": "sell|sells|sold|sold|selling",
+  "tail": "off",
+  "near": "clear out|cleared out|get rid of|got rid of|dump*|liquidat*|clearance",
+  "tasks": [
+   {
+    "sit": "Ти власник невеликого магазину одягу. Скоро новий сезон, а склад забитий торішніми куртками.",
+    "say": "Треба розпродати старі куртки до кінця місяця.",
+    "ans": ["We need to sell off the old jackets by the end of the month.", "The old jackets have to be sold off before the month ends.", "Let’s sell off last year’s jackets before the month is over."],
+    "keys": { "куртки": "jacket*|coat*", "до кінця місяця": "month*" }
+   },
+   {
+    "sit": "Ти переїжджаєш за кордон і не можеш забрати меблі з собою.",
+    "say": "Перед переїздом я розпродаю всі меблі.",
+    "ans": ["I’m selling off all my furniture before the move.", "I’ll sell off all the furniture before I move.", "I’m selling off all my furniture before I move abroad."],
+    "keys": { "меблі": "furniture|sofa*|table*|everything", "переїзд": "mov*|relocat*" }
+   },
+   {
+    "sit": "Ти читаєш новини: відома мережа супермаркетів має величезні борги.",
+    "say": "Компанія розпродає свої магазини, щоб покрити борги.",
+    "ans": ["The company is selling off its stores to pay its debts.", "The company sold off some of its shops to cover its debts.", "They’re selling off their stores to pay off the debt."],
+    "keys": { "магазини": "store*|shop*|branch*|outlet*|supermarket*", "борги": "debt*|loan*" }
+   }
+  ]
+ },
+ {
+  "id": 3145, "w": "sell out", "uk": "розпродатися (про квитки, товар)", "lvl": "B1",
+  "forms": "sell|sells|sold|sold|selling",
+  "tail": "out",
+  "near": "gone|none left|no tickets left|snapped up|run out|ran out|booked up|fully booked",
+  "tasks": [
+   {
+    "sit": "Ти хотів купити квитки на концерт улюбленого гурту, але зайшов на сайт надто пізно.",
+    "say": "Квитки розкупили за годину.",
+    "ans": ["The tickets sold out in an hour.", "The concert sold out within an hour.", "It sold out in just one hour!"],
+    "keys": { "за годину": "hour*|60 minutes|sixty minutes" }
+   },
+   {
+    "sit": "Ти працюєш у взуттєвому магазині. Покупець питає про нові кросівки з реклами.",
+    "say": "Вибачте, ця модель уже розпродана.",
+    "ans": ["Sorry, this model is sold out.", "Sorry, that model has already sold out.", "Sorry, those ones are sold out already."],
+    "keys": { "вибачте": "sorry|afraid|apolog*" }
+   },
+   {
+    "sit": "Ви з друзями плануєте поїздку на популярний музичний фестиваль улітку.",
+    "say": "Бронюйте зараз, бо готелі швидко розкуповують.",
+    "ans": ["Book now, the hotels sell out fast.", "Book now — hotels will sell out quickly.", "Better book now, hotels sell out really fast."],
+    "keys": { "готелі": "hotel*|room*|place*", "швидко": "fast|quick*|soon" }
+   }
+  ]
+ },
+ {
+  "id": 3146, "w": "send in", "uk": "надсилати (на розгляд)", "lvl": "B1",
+  "forms": "send|sends|sent|sent|sending",
+  "tail": "in",
+  "near": "submit*|apply|applied|hand in|handed in|turn in|turned in|post|posted",
+  "tasks": [
+   {
+    "sit": "Ти побачив вакансію мрії, але прийом заявок закінчується в пʼятницю.",
+    "say": "Я маю надіслати резюме до пʼятниці.",
+    "ans": ["I have to send in my CV by Friday.", "I need to send my CV in before Friday.", "I’ve got to send in my résumé by Friday."],
+    "keys": { "резюме": "cv|resume|résumé|application*", "пʼятниця": "friday" }
+   },
+   {
+    "sit": "Радіостанція оголосила конкурс на найкращу історію про подорож.",
+    "say": "Я надішлю на конкурс свою історію.",
+    "ans": ["I’m going to send in my story.", "I’ll send in my travel story for the contest.", "I think I’ll send my story in!"],
+    "keys": { "історія": "story|stories" }
+   },
+   {
+    "sit": "Журнал для фотографів просить читачів ділитися знімками для рубрики «Фото місяця».",
+    "say": "Я вже надіслав три свої фото.",
+    "ans": ["I’ve already sent in three of my photos.", "I already sent in three photos.", "I sent three of my pics in already!"],
+    "keys": { "фото": "photo*|pic*|picture*|shot*", "три": "three|3" }
+   }
+  ]
+ },
+ {
+  "id": 3147, "w": "set aside", "uk": "відкладати (гроші, час)", "lvl": "B2",
+  "forms": "set|sets|set|set|setting",
+  "tail": "aside",
+  "near": "save|saves|saved|saving|put away|put by|put aside|reserve*|keep|kept|free up|freed up",
+  "tasks": [
+   {
+    "sit": "Ти плануєш велику відпустку наступного літа.",
+    "say": "Я щомісяця відкладаю сто євро на відпустку.",
+    "ans": ["I set aside a hundred euros every month for my holiday.", "Every month I set aside 100 euros for the vacation.", "I’m setting aside a hundred euros a month for the trip."],
+    "keys": { "сто євро": "hundred|100|euro*", "щомісяця": "month*", "відпустка": "holiday*|vacation*|trip*" }
+   },
+   {
+    "sit": "Через місяць у тебе важливий іспит, а робота забирає майже весь час.",
+    "say": "Я щодня виділятиму годину на підготовку.",
+    "ans": ["I’ll set aside an hour every day to study.", "I’m going to set aside one hour a day for revision.", "I’ll set aside an hour a day for exam prep."],
+    "keys": { "година": "hour*|60 minutes", "щодня": "day*|daily", "підготовка": "study*|studying|revis*|prep*|exam*" }
+   },
+   {
+    "sit": "Колега хоче обговорити новий проєкт, а твій тиждень щільно розписаний.",
+    "say": "Я виділю для тебе пів години в четвер.",
+    "ans": ["I’ll set aside half an hour for you on Thursday.", "Let me set aside thirty minutes for you on Thursday.", "I can set aside half an hour on Thursday for you."],
+    "keys": { "пів години": "half|thirty|30|minute*|hour*", "четвер": "thursday" }
+   }
+  ]
+ },
+ {
+  "id": 3148, "w": "set back", "uk": "відкидати назад / затримувати", "lvl": "C1",
+  "forms": "set|sets|set|set|setting",
+  "tail": "back",
+  "near": "delay*|slow* down|slowed down|hold* up|held up|push* back|postpone*|hinder*",
+  "tasks": [
+   {
+    "sit": "Постачальник не привіз деталі вчасно, і вся робота над проєктом зупинилася.",
+    "say": "Ця затримка відкинула нас на два тижні назад.",
+    "ans": ["This delay has set us back two weeks.", "The delay set us back by two weeks.", "That delay set us back a good two weeks."],
+    "keys": { "затримка": "delay*|late*|hold-up", "два тижні": "two weeks|2 weeks|fortnight" }
+   },
+   {
+    "sit": "Ти готувався до марафону, але за місяць до старту підвернув ногу.",
+    "say": "Ця травма мене сильно відкинула назад.",
+    "ans": ["This injury has really set me back.", "The injury set me back a lot.", "That injury set me back big time."],
+    "keys": { "травма": "injur*|ankle*|foot|leg", "сильно": "really|a lot|big time|badly|serious*|much" }
+   },
+   {
+    "sit": "Через хворобу ти пропустив місяць занять в університеті.",
+    "say": "Хвороба відкинула мене назад у навчанні.",
+    "ans": ["My illness set me back in my studies.", "Being ill set me back at uni.", "Getting sick really set me back with my studies."],
+    "keys": { "хвороба": "ill*|sick*|disease", "навчання": "stud*|uni*|school|course*|class*" }
+   }
+  ]
+ },
+ {
+  "id": 3149, "w": "set out", "uk": "викладати (умови, правила)", "lvl": "B2",
+  "forms": "set|sets|set|set|setting",
+  "tail": "out",
+  "near": "state*|describe*|outline*|list*|spell* out|spelled out|spelt out|lay* out|laid out|specif*",
+  "tasks": [
+   {
+    "sit": "Клієнт хоче знати всі деталі співпраці ще до підписання договору.",
+    "say": "Я виклав усі умови в листі.",
+    "ans": ["I set out all the terms in the email.", "All the terms are set out in my email.", "I’ve set out all the terms in the email I sent."],
+    "keys": { "умови": "term*|condition*|detail*", "лист": "email*|e-mail*|letter*|message*" }
+   },
+   {
+    "sit": "Ти знімаєш квартиру, і сусід питає, чи можна тримати там собаку.",
+    "say": "У договорі оренди чітко викладено правила щодо тварин.",
+    "ans": ["The lease clearly sets out the rules on pets.", "The rules about pets are clearly set out in the rental agreement.", "The lease sets out clear rules on pets."],
+    "keys": { "договір": "lease|contract|agreement", "тварини": "pet*|animal*|dog*" }
+   },
+   {
+    "sit": "Ти пишеш дипломну роботу, і науковий керівник питає, що буде у вступі.",
+    "say": "У вступі я викладу головну мету дослідження.",
+    "ans": ["In the introduction I’ll set out the main aim of the research.", "I set out the main goal of my study in the introduction.", "I’ll set out my main aims in the intro."],
+    "keys": { "вступ": "intro*|introduction|beginning|start", "мета": "aim*|goal*|objective*|purpose" }
+   }
+  ]
+ },
+ {
+  "id": 3150, "w": "settle for", "uk": "погоджуватися на (менше, ніж хотілося)", "lvl": "B2",
+  "forms": "settle|settles|settled|settled|settling",
+  "tail": "for",
+  "near": "accept*|agree* to|make do|made do|content with|put up with",
+  "tasks": [
+   {
+    "sit": "Тобі запропонували роботу, але зарплата нижча, ніж ти очікував.",
+    "say": "Я не погоджуся на меншу зарплату.",
+    "ans": ["I won’t settle for a lower salary.", "I’m not going to settle for less money.", "No way I’m settling for a lower salary."],
+    "keys": { "не": "not|no|never", "зарплата": "salary|pay|money|wage*|less" }
+   },
+   {
+    "sit": "Ти хотів номер з видом на море, але в готелі лишилися тільки кімнати з видом на парковку.",
+    "say": "Доведеться погодитися на кімнату з видом на парковку.",
+    "ans": ["I’ll have to settle for a room overlooking the car park.", "I guess we’ll settle for the room facing the parking lot.", "Looks like we have to settle for the parking view."],
+    "keys": { "кімната": "room*|view", "парковка": "parking|car park" }
+   },
+   {
+    "sit": "Подруга скаржиться, що її хлопець постійно її ігнорує й забуває про зустрічі.",
+    "say": "Ти заслуговуєш на краще — не погоджуйся на менше.",
+    "ans": ["You deserve better — don’t settle for less.", "Don’t settle for less, you deserve better.", "Come on, you deserve better. Don’t settle for less."],
+    "keys": { "заслуговуєш на краще": "deserve*|better|worth", "не": "not|never" }
+   }
+  ]
+ },
+ {
+  "id": 3151, "w": "settle on", "uk": "зупинятися на (виборі)", "lvl": "B2",
+  "forms": "settle|settles|settled|settled|settling",
+  "tail": "on",
+  "near": "decide* on|choose|chose|chosen|choosing|pick*|agree* on|go for|went for|opt* for",
+  "tasks": [
+   {
+    "sit": "Команда довго сперечалася, коли провести презентацію для інвесторів.",
+    "say": "Зрештою ми зупинилися на четвергу.",
+    "ans": ["In the end we settled on Thursday.", "We finally settled on Thursday.", "We’ve settled on Thursday in the end."],
+    "keys": { "четвер": "thursday", "зрештою": "end|finally|eventually|at last" }
+   },
+   {
+    "sit": "Ти робиш ремонт у спальні й два тижні вибирав колір стін.",
+    "say": "Зрештою я зупинився на світло-сірому.",
+    "ans": ["I finally settled on light grey.", "In the end I settled on a light grey colour.", "I’ve settled on light gray in the end."],
+    "keys": { "світло-сірий": "grey|gray", "зрештою": "finally|end|eventually" }
+   },
+   {
+    "sit": "Ви з друзями обирали, куди поїхати у відпустку: гори, море чи велике місто.",
+    "say": "Ми зупинилися на горах.",
+    "ans": ["We settled on the mountains.", "We’ve settled on a trip to the mountains.", "We finally settled on the mountains."],
+    "keys": { "гори": "mountain*|hik*|alps|carpathian*" }
+   }
+  ]
+ },
+ {
+  "id": 3152, "w": "shop around", "uk": "порівнювати ціни (перед покупкою)", "lvl": "B2",
+  "forms": "shop|shops|shopped|shopped|shopping",
+  "tail": "around",
+  "near": "compare*|look around|looked around|browse*|hunt* for a deal|look for a deal|looked for a deal",
+  "tasks": [
+   {
+    "sit": "Тобі прийшов рахунок за страховку авто, і він набагато дорожчий, ніж торік.",
+    "say": "Перш ніж продовжувати страховку, я порівняю ціни.",
+    "ans": ["I’ll shop around before I renew my insurance.", "I’m going to shop around before renewing the insurance.", "I think I’ll shop around first before I renew."],
+    "keys": { "перш ніж": "before|first", "страховка": "insurance|policy|renew*" }
+   },
+   {
+    "sit": "Молодший брат хоче купити перший-ліпший телефон у першому ж магазині.",
+    "say": "Не поспішай, спершу порівняй ціни.",
+    "ans": ["Don’t rush — shop around first.", "Take your time and shop around first.", "Hold on, shop around a bit first."],
+    "keys": { "спершу": "first|before", "не поспішай": "rush*|hurry|time|hold on|wait" }
+   },
+   {
+    "sit": "Ти шукав квитки на літак у Лісабон, і перша ціна здалася завеликою.",
+    "say": "Я порівняв ціни й знайшов квитки вдвічі дешевше.",
+    "ans": ["I shopped around and found tickets for half the price.", "After shopping around, I found flights at half the price.", "I shopped around a bit and got tickets for half the price."],
+    "keys": { "квитки": "ticket*|flight*", "вдвічі дешевше": "half|cheaper|50" }
+   }
+  ]
+ },
+ {
+  "id": 3153, "w": "sign for", "uk": "розписуватися за (отримання)", "lvl": "B1",
+  "forms": "sign|signs|signed|signed|signing",
+  "tail": "for",
+  "near": "receive*|accept*|collect*|pick* up|picked up|take in|took in",
+  "tasks": [
+   {
+    "sit": "Курʼєр приніс посилку для сусіда, але того немає вдома.",
+    "say": "Я можу розписатися за його посилку.",
+    "ans": ["I can sign for his parcel.", "Can I sign for his package?", "I’ll sign for the parcel for him."],
+    "keys": { "посилка": "parcel*|package*|delivery" }
+   },
+   {
+    "sit": "На ресепшн офісу привезли коробку з новими ноутбуками, а менеджера немає на місці.",
+    "say": "Хтось має розписатися за ноутбуки.",
+    "ans": ["Someone has to sign for the laptops.", "Somebody needs to sign for the laptops.", "Can someone sign for these laptops?"],
+    "keys": { "ноутбуки": "laptop*|computer*|box*", "хтось": "someone|somebody|anyone|anybody" }
+   },
+   {
+    "sit": "Тобі прийшло повідомлення, що на пошті чекає рекомендований лист із банку.",
+    "say": "За цей лист треба розписатися особисто.",
+    "ans": ["You have to sign for this letter in person.", "This letter has to be signed for in person.", "I need to sign for the letter myself."],
+    "keys": { "лист": "letter*|mail", "особисто": "in person|personally|myself|yourself" }
+   }
+  ]
+ },
+ {
+  "id": 3154, "w": "sit in on", "uk": "бути присутнім (як слухач)", "lvl": "C1",
+  "forms": "sit|sits|sat|sat|sitting",
+  "tail": "in on",
+  "near": "attend*|observe*|join*|listen in|listened in|be present|watch*|shadow*",
+  "tasks": [
+   {
+    "sit": "Ти новенький у компанії й хочеш зрозуміти, як відділ продажів спілкується з клієнтами.",
+    "say": "Можна я посиджу на вашій нараді як слухач?",
+    "ans": ["Can I sit in on your meeting?", "Would you mind if I sat in on your meeting?", "Mind if I sit in on the meeting?"],
+    "keys": { "нарада": "meeting*|call*" }
+   },
+   {
+    "sit": "Ти думаєш вступати на психологію й хочеш побачити, як проходять заняття.",
+    "say": "Мене пустили посидіти на лекції з психології.",
+    "ans": ["They let me sit in on a psychology lecture.", "I got to sit in on a psychology lecture.", "I was allowed to sit in on a psych lecture."],
+    "keys": { "лекція": "lecture*|class*|lesson*", "психологія": "psych*" }
+   },
+   {
+    "sit": "Твій приятель грає в міському оркестрі й кличе тебе подивитися, як вони готуються до концерту.",
+    "say": "Завтра я посиджу на їхній репетиції.",
+    "ans": ["I’m going to sit in on their rehearsal tomorrow.", "Tomorrow I’ll sit in on their rehearsal.", "I’m sitting in on their rehearsal tomorrow."],
+    "keys": { "репетиція": "rehears*|practice", "завтра": "tomorrow" }
+   }
+  ]
+ },
+ {
+  "id": 3155, "w": "size up", "uk": "оцінювати (когось, ситуацію)", "lvl": "C1",
+  "forms": "size|sizes|sized|sized|sizing",
+  "tail": "up",
+  "near": "assess*|evaluat*|judg*|check* out|checked out|weigh* up|look* over|read the room",
+  "tasks": [
+   {
+    "sit": "Ти на співбесіді, і менеджер уважно розглядає тебе з першої ж секунди.",
+    "say": "Він оцінив мене за кілька секунд.",
+    "ans": ["He sized me up in a few seconds.", "He sized me up within seconds.", "He totally sized me up in a couple of seconds."],
+    "keys": { "за кілька секунд": "second*|instant*|moment*" }
+   },
+   {
+    "sit": "Ти граєш на шаховому турнірі й перед партією уважно дивишся на суперника.",
+    "say": "Спочатку я завжди придивляюся до суперника й оцінюю його.",
+    "ans": ["First I always size up my opponent.", "I always size up the opponent first.", "I like to size up the other player first."],
+    "keys": { "суперник": "opponent*|rival*|player*|competitor*", "спочатку": "first|before" }
+   },
+   {
+    "sit": "Ти відкриваєш кавʼярню й думаєш про інші заклади поблизу.",
+    "say": "Спершу треба оцінити конкурентів у районі.",
+    "ans": ["First we need to size up the competition in the area.", "We should size up the local competition first.", "Let’s size up the competition around here first."],
+    "keys": { "конкуренти": "competit*|rival*", "район": "area|local|neighbo*|here|nearby" }
+   }
+  ]
+ },
+ {
+  "id": 3156, "w": "slack off", "uk": "халтурити / розслаблятися (у справах)", "lvl": "C1",
+  "forms": "slack|slacks|slacked|slacked|slacking",
+  "tail": "off",
+  "near": "relax*|chill*|take it easy|took it easy|goof* off|lazy|procrastinat*|ease up|eased up",
+  "tasks": [
+   {
+    "sit": "До іспитів лишився тиждень, а одногрупник вирішив, що вже все знає.",
+    "say": "Не розслабляйся зараз, лишився лише тиждень.",
+    "ans": ["Don’t slack off now, there’s only a week left.", "It’s just one more week — don’t slack off now.", "Come on, don’t slack off now, it’s only a week."],
+    "keys": { "не": "not|never", "тиждень": "week*|seven days" }
+   },
+   {
+    "sit": "Ти керівник відділу й помічаєш, що після відпусток продуктивність команди впала.",
+    "say": "Здається, дехто почав халтурити.",
+    "ans": ["It seems some people have started slacking off.", "Looks like some of us are slacking off.", "I think a few people have been slacking off."],
+    "keys": { "дехто": "some|people|few|someone|somebody" }
+   },
+   {
+    "sit": "Ти ходив у спортзал тричі на тиждень, але взимку почав пропускати тренування.",
+    "say": "Узимку я трохи розслабився з тренуваннями.",
+    "ans": ["I slacked off a bit with my workouts in the winter.", "I’ve slacked off on training this winter.", "Honestly, I slacked off at the gym over the winter."],
+    "keys": { "узимку": "winter", "тренування": "workout*|training|gym|exercis*" }
+   }
+  ]
+ },
+ {
+  "id": 3157, "w": "sort through", "uk": "перебирати / сортувати", "lvl": "B2",
+  "forms": "sort|sorts|sorted|sorted|sorting",
+  "tail": "through",
+  "near": "go through|went through|gone through|going through|look through|looked through|organi*|tidy*|tidied|clear* out|declutter*",
+  "tasks": [
+   {
+    "sit": "Ви з мамою прибираєте на горищі, де стоїть купа коробок зі старими речами.",
+    "say": "Давай переберемо ці коробки й викинемо непотріб.",
+    "ans": ["Let’s sort through these boxes and throw out the junk.", "We should sort through the boxes and get rid of what we don’t need.", "Let’s sort through this stuff and toss the junk."],
+    "keys": { "коробки": "box*|stuff|thing*", "викинемо": "throw*|toss*|get rid|bin|junk" }
+   },
+   {
+    "sit": "Ти повернувся з відпустки, а в поштовій скриньці двісті непрочитаних листів.",
+    "say": "Я цілий ранок перебирав пошту.",
+    "ans": ["I spent all morning sorting through my emails.", "I sorted through my inbox all morning.", "I’ve been sorting through emails the whole morning."],
+    "keys": { "пошта": "email*|e-mail*|mail*|inbox|message*", "ранок": "morning" }
+   },
+   {
+    "sit": "Ти повернувся з подорожі з тисячею фото й хочеш зробити фотокнигу.",
+    "say": "Спершу треба перебрати всі фото.",
+    "ans": ["First I need to sort through all the photos.", "I have to sort through all my pictures first.", "I’ve got to sort through all these photos first."],
+    "keys": { "фото": "photo*|picture*|pic*|shot*", "спершу": "first|before" }
+   }
+  ]
+ },
+ {
+  "id": 3158, "w": "stand in for", "uk": "заміняти (когось тимчасово)", "lvl": "B2",
+  "forms": "stand|stands|stood|stood|standing",
+  "tail": "in for",
+  "near": "replace*|substitut*|cover for|covered for|covering for|fill* in for|filled in for|take* over|took over",
+  "tasks": [
+   {
+    "sit": "Твоя колега Анна захворіла, а в неї сьогодні зустріч із клієнтом.",
+    "say": "Сьогодні я заміняю Анну.",
+    "ans": ["I’m standing in for Anna today.", "Today I’m standing in for Anna.", "I’ll be standing in for Anna today."],
+    "keys": { "сьогодні": "today|this morning", "Анну": "anna" }
+   },
+   {
+    "sit": "Ти вчитель, і тебе попросили провести уроки за колегу, поки він на конференції.",
+    "say": "Цього тижня я заміняю вашого вчителя.",
+    "ans": ["I’m standing in for your teacher this week.", "This week I’ll be standing in for your usual teacher.", "I’m just standing in for your teacher this week."],
+    "keys": { "вчителя": "teacher*", "цього тижня": "week*" }
+   },
+   {
+    "sit": "Тато не зможе прилетіти на весілля сестри, і вона просить тебе повести її до вівтаря.",
+    "say": "Я заміню тата на весіллі сестри.",
+    "ans": ["I’ll stand in for Dad at my sister’s wedding.", "I’m going to stand in for our father at the wedding.", "I’m standing in for Dad at my sister’s wedding."],
+    "keys": { "тата": "dad*|father|daddy", "весілля": "wedding*" }
+   }
+  ]
+ },
+ {
+  "id": 3159, "w": "start off", "uk": "починати (з чогось)", "lvl": "B1",
+  "forms": "start|starts|started|started|starting",
+  "tail": "off",
+  "near": "begin|begins|began|begun|beginning|kick* off|kicked off|open with|opened with",
+  "tasks": [
+   {
+    "sit": "Ти ведеш щотижневу нараду, і на порядку денному три питання.",
+    "say": "Почнімо з продажів за минулий місяць.",
+    "ans": ["Let’s start off with last month’s sales.", "We’ll start off with the sales figures from last month.", "OK, let’s start off with sales from last month."],
+    "keys": { "продажі": "sale*|revenue", "минулий місяць": "last month|month*" }
+   },
+   {
+    "sit": "Нова знайома питає, як минає твій звичайний ранок.",
+    "say": "Я завжди починаю день з кави.",
+    "ans": ["I always start off the day with coffee.", "I always start off my day with a cup of coffee.", "I always start my day off with coffee."],
+    "keys": { "кава": "coffee|espresso|latte", "день": "day|morning*" }
+   },
+   {
+    "sit": "Ти тренер у спортзалі, а новенький хоче одразу піднімати велику вагу.",
+    "say": "Почнімо з легкої ваги.",
+    "ans": ["Let’s start off with light weights.", "We’ll start off with a lighter weight.", "Let’s start off with something light."],
+    "keys": { "легка вага": "light*|easy|small*" }
+   }
+  ]
+ },
+ {
+  "id": 3160, "w": "start out", "uk": "починати (карʼєру, шлях)", "lvl": "B2",
+  "forms": "start|starts|started|started|starting",
+  "tail": "out",
+  "near": "begin|begins|began|begun|beginning|first job|kick* off|kicked off",
+  "tasks": [
+   {
+    "sit": "Журналіст питає тебе, власника відомого ресторану, з чого почалася твоя карʼєра.",
+    "say": "Я починав звичайним офіціантом.",
+    "ans": ["I started out as a waiter.", "I started out working as a waiter.", "I actually started out as just a waiter."],
+    "keys": { "офіціант": "waiter*|server|waiting tables|waitress" }
+   },
+   {
+    "sit": "Новий колега дивується, що у вашій компанії тепер триста працівників.",
+    "say": "Ми починали в маленькому гаражі.",
+    "ans": ["We started out in a small garage.", "We started out in a tiny garage.", "Believe it or not, we started out in a little garage."],
+    "keys": { "гараж": "garage*", "маленький": "small|tiny|little" }
+   },
+   {
+    "sit": "На твоїй першій виставці відвідувачі хвалять картини й питають, як ти почав малювати.",
+    "say": "Спочатку я малював просто для себе.",
+    "ans": ["I started out painting just for myself.", "I started out just drawing for fun.", "Honestly, I started out painting just for me."],
+    "keys": { "малювати": "paint*|draw*|sketch*", "для себе": "myself|fun|me|hobby" }
+   }
+  ]
+ },
+ {
+  "id": 3161, "w": "start over", "uk": "починати спочатку", "lvl": "B1",
+  "forms": "start|starts|started|started|starting",
+  "tail": "over",
+  "near": "restart*|begin again|began again|redo|redid|from scratch|all over again|reset*",
+  "tasks": [
+   {
+    "sit": "Ти писав есе, а ноутбук раптом вимкнувся, і файл не зберігся.",
+    "say": "Тепер доведеться починати все спочатку.",
+    "ans": ["Now I have to start over.", "Now I’ll have to start all over.", "Great, now I have to start over from scratch."],
+    "keys": { "тепер": "now" }
+   },
+   {
+    "sit": "Твій знайомий переїхав в іншу країну, де не мав ні друзів, ні роботи.",
+    "say": "Він почав життя з нуля в новій країні.",
+    "ans": ["He started over in a new country.", "He started his life over in a new country.", "He moved abroad and started over from scratch."],
+    "keys": { "нова країна": "country|abroad" }
+   },
+   {
+    "sit": "Ти збирав пазл на тисячу деталей, а кіт скинув його зі столу.",
+    "say": "Кіт усе зіпсував — доведеться почати спочатку.",
+    "ans": ["The cat ruined everything, so I have to start over.", "The cat messed it all up — I’ll have to start over.", "Thanks to the cat, I have to start over."],
+    "keys": { "кіт": "cat*|kitten" }
+   }
+  ]
+ },
+ {
+  "id": 3162, "w": "step down", "uk": "іти у відставку (з посади)", "lvl": "C1",
+  "forms": "step|steps|stepped|stepped|stepping",
+  "tail": "down",
+  "near": "resign*|quit*|leave|left|retire*|stand down|stood down",
+  "tasks": [
+   {
+    "sit": "Ти обговорюєш з колегою новину про гучний скандал у великій компанії.",
+    "say": "Генеральний директор пішов у відставку після скандалу.",
+    "ans": ["The CEO stepped down after the scandal.", "After the scandal, the CEO stepped down.", "The CEO has stepped down over the scandal."],
+    "keys": { "директор": "ceo|director|boss|head|chief*", "скандал": "scandal*" }
+   },
+   {
+    "sit": "Ти пʼять років очолюєш шаховий клуб у своєму місті й відчуваєш, що час дати дорогу молодшим.",
+    "say": "Наприкінці року я складу повноваження голови клубу.",
+    "ans": ["I’m going to step down as head of the club at the end of the year.", "I’ll step down as club president at the end of the year.", "I’m stepping down as chair of the club at the end of the year."],
+    "keys": { "голова клубу": "club*|chair*|president|head", "кінець року": "year" }
+   },
+   {
+    "sit": "Ви з другом стежите за виборами, і чинний мер програв із величезним відривом.",
+    "say": "Думаю, мерові варто піти у відставку.",
+    "ans": ["I think the mayor should step down.", "In my opinion, the mayor ought to step down.", "Honestly, the mayor should just step down."],
+    "keys": { "мер": "mayor" }
+   }
+  ]
+ },
+ {
+  "id": 3163, "w": "step in", "uk": "втручатися / підключатися (щоб допомогти)", "lvl": "B2",
+  "forms": "step|steps|stepped|stepped|stepping",
+  "tail": "in",
+  "near": "intervene*|interfere*|get involved|got involved|help* out|jump* in|take over|took over",
+  "tasks": [
+   {
+    "sit": "На вулиці двоє водіїв посварилися, і сварка ледь не переросла в бійку.",
+    "say": "На щастя, втрутився поліцейський.",
+    "ans": ["Luckily, a police officer stepped in.", "Fortunately, a policeman stepped in.", "Thank God a cop stepped in."],
+    "keys": { "поліцейський": "police*|cop*|officer*" }
+   },
+   {
+    "sit": "Твій колега захворів якраз перед важливою презентацією для клієнта.",
+    "say": "Мені довелося підключитися й провести презентацію замість нього.",
+    "ans": ["I had to step in and do the presentation for him.", "I had to step in and give the presentation instead.", "I had to step in and run the presentation myself."],
+    "keys": { "презентація": "presentation*|pitch*" }
+   },
+   {
+    "sit": "Твої діти вже пів години сваряться через пульт від телевізора.",
+    "say": "Діти, якщо не перестанете сваритися, я втручуся.",
+    "ans": ["Kids, if you don’t stop fighting, I’ll step in.", "If you don’t stop arguing, I’m going to step in.", "Stop fighting, or I’ll step in!"],
+    "keys": { "сваритися": "fight*|argu*|quarrel*|bicker*", "перестанете": "stop*|quit" }
+   }
+  ]
+ },
+ {
+  "id": 3164, "w": "step up", "uk": "нарощувати / посилювати; брати на себе більше", "lvl": "B2",
+  "forms": "step|steps|stepped|stepped|stepping",
+  "tail": "up",
+  "near": "increase*|boost*|intensif*|ramp* up|raise*|take on more|took on more|do more|speed up",
+  "tasks": [
+   {
+    "sit": "Ти менеджер на фабриці, а перед святами замовлень стало вдвічі більше.",
+    "say": "Нам треба наростити виробництво до грудня.",
+    "ans": ["We need to step up production before December.", "We have to step up production by December.", "We’ve got to step up production before December."],
+    "keys": { "виробництво": "production|output|manufactur*", "грудень": "december" }
+   },
+   {
+    "sit": "Мама захворіла, і хтось має взяти на себе хатні справи.",
+    "say": "Тепер мені треба взяти на себе більше вдома.",
+    "ans": ["Now I have to step up at home.", "I need to step up and help more at home.", "It’s time for me to step up at home."],
+    "keys": { "вдома": "home|house*" }
+   },
+   {
+    "sit": "Ти готуєшся до забігу на десять кілометрів, а до старту лишилося два місяці.",
+    "say": "Час посилити тренування.",
+    "ans": ["It’s time to step up my training.", "I need to step up my training now.", "Time to step up the training!"],
+    "keys": { "тренування": "training|workout*|run*|practice", "час": "time|now" }
+   }
+  ]
+ },
+ {
+  "id": 3165, "w": "stick to", "uk": "дотримуватися (плану, правил)", "lvl": "B1",
+  "forms": "stick|sticks|stuck|stuck|sticking",
+  "tail": "to",
+  "near": "follow*|keep to|kept to|adhere*|comply*|obey*|stay on|stayed on",
+  "tasks": [
+   {
+    "sit": "Ви з друзями у спільній подорожі, і вони вже хочуть витратити забагато на першій вечері.",
+    "say": "Давайте дотримуватися бюджету.",
+    "ans": ["Let’s stick to the budget.", "We should stick to our budget.", "Guys, let’s just stick to the budget."],
+    "keys": { "бюджет": "budget*" }
+   },
+   {
+    "sit": "Лікар склав тобі план харчування, і ти вже місяць живеш за ним.",
+    "say": "Я місяць дотримуюся дієти й уже схуд на три кілограми.",
+    "ans": ["I’ve stuck to the diet for a month and lost three kilos.", "I’ve been sticking to my diet for a month, and I’ve lost 3 kilos.", "I stuck to the diet for a month and dropped three kilos."],
+    "keys": { "дієта": "diet*|meal plan*", "місяць": "month*" }
+   },
+   {
+    "sit": "За тиждень до дедлайну колега на нараді пропонує повністю змінити план проєкту.",
+    "say": "Краще дотримуватися плану, часу вже немає.",
+    "ans": ["Let’s stick to the plan, there’s no time left.", "We should stick to the plan — we don’t have time.", "I think we should stick to the plan, there’s no time."],
+    "keys": { "план": "plan*", "часу немає": "time" }
+   }
+  ]
+ },
+ {
+  "id": 3166, "w": "take in", "uk": "сприймати / засвоювати", "lvl": "B2",
+  "forms": "take|takes|took|taken|taking",
+  "tail": "in",
+  "near": "understand|understood|absorb*|process*|digest*|grasp*|sink in|sank in|sunk in",
+  "tasks": [
+   {
+    "sit": "Тобі щойно повідомили, що тебе підвищують і переводять в офіс за кордоном.",
+    "say": "Це забагато, щоб одразу все осмислити.",
+    "ans": ["It’s a lot to take in.", "That’s a lot to take in at once.", "Wow, it’s a lot to take in all at once."],
+    "keys": { "забагато": "a lot|too much|lot" }
+   },
+   {
+    "sit": "На першій лекції викладач за годину пройшов тему на сорок слайдів.",
+    "say": "Я не встиг засвоїти й половини.",
+    "ans": ["I couldn’t take in even half of it.", "I didn’t take in half of what he said.", "Honestly, I barely took in half of it."],
+    "keys": { "половина": "half", "не": "not|barely|hardly" }
+   },
+   {
+    "sit": "Ти вперше стоїш на оглядовому майданчику над Парижем.",
+    "say": "Дай мені хвилинку просто вбирати цей краєвид.",
+    "ans": ["Give me a minute to take in the view.", "Let me just take in this view for a minute.", "Hang on, I just want to take in the view for a moment."],
+    "keys": { "краєвид": "view*|scenery|sight*|panorama", "хвилинку": "minute*|moment*|second*" }
+   }
+  ]
+ },
+ {
+  "id": 3167, "w": "tap into", "uk": "виходити на / використовувати (ресурс, ринок)", "lvl": "C1",
+  "forms": "tap|taps|tapped|tapped|tapping",
+  "tail": "into",
+  "near": "exploit*|access*|enter*|reach*|break into|broke into|harness*|draw on|drew on|leverage*|use|used|using",
+  "tasks": [
+   {
+    "sit": "Ваша компанія продає лише в Україні, а директор хоче зростати далі.",
+    "say": "Ми хочемо вийти на європейський ринок.",
+    "ans": ["We want to tap into the European market.", "We’re planning to tap into the European market.", "We’re looking to tap into the European market."],
+    "keys": { "європейський": "europe*|eu", "ринок": "market*" }
+   },
+   {
+    "sit": "Ти ведеш кулінарний блог і думаєш, як привабити студентів.",
+    "say": "Треба використати інтерес молоді до швидких рецептів.",
+    "ans": ["We should tap into young people’s interest in quick recipes.", "I want to tap into students’ love of quick recipes.", "Let’s tap into the demand for quick, easy recipes among young people."],
+    "keys": { "молодь": "young*|student*|teen*", "швидкі рецепти": "quick*|fast|easy|recipe*" }
+   },
+   {
+    "sit": "Ти пишеш свій перший роман і шукаєш натхнення.",
+    "say": "Я намагаюся черпати зі своїх дитячих спогадів.",
+    "ans": ["I’m trying to tap into my childhood memories.", "I try to tap into memories from my childhood.", "I’m trying to tap into memories from when I was a kid."],
+    "keys": { "дитячий": "child*|kid*|young", "спогади": "memor*|experience*" }
+   }
+  ]
+ },
+ {
+  "id": 3168, "w": "try out", "uk": "випробовувати (на ділі)", "lvl": "B1",
+  "forms": "try|tries|tried|tried|trying",
+  "tail": "out",
+  "near": "test*|check out|checked out|experiment*|sample*|give it a go|gave it a go|test-drive*",
+  "tasks": [
+   {
+    "sit": "Твоя команда розглядає новий застосунок для керування задачами.",
+    "say": "Давайте спершу випробуємо його тиждень.",
+    "ans": ["Let’s try it out for a week first.", "We could try out the app for a week first.", "Why don’t we try it out for a week first?"],
+    "keys": { "тиждень": "week*|seven days|7 days" }
+   },
+   {
+    "sit": "Ти знайшов у мережі незвичний рецепт млинців.",
+    "say": "На вихідних я випробую цей рецепт.",
+    "ans": ["I’ll try out this recipe at the weekend.", "I’m going to try out the recipe this weekend.", "I think I’ll try this recipe out this weekend."],
+    "keys": { "рецепт": "recipe*|pancake*", "вихідні": "weekend*|saturday|sunday" }
+   },
+   {
+    "sit": "Ти хочеш купити велосипед і прийшов у спортивний магазин.",
+    "say": "Можна мені спершу його випробувати?",
+    "ans": ["Can I try it out first?", "Could I try out the bike first?", "Mind if I try it out before I buy it?"],
+    "keys": { "спершу": "first|before" }
+   }
+  ]
+ }
+]

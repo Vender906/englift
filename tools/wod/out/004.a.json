@@ -1,0 +1,627 @@
+[
+ {
+  "id": 156, "w": "apply", "uk": "подаватися (на роботу, навчання)", "lvl": "A2",
+  "forms": "apply|applies|applied|applied|applying",
+  "near": "sent my cv|send my cv|sent my resume|submitted|submit|sign up|signed up",
+  "tasks": [
+   {
+    "sit": "Сусід питає, чому ти так уважно гортаєш вакансії на ноутбуці.",
+    "say": "Я хочу податися на нову роботу.",
+    "ans": ["I want to apply for a new job.", "I’m going to apply for a new job.", "I’m thinking of applying for a new job."],
+    "keys": { "нова робота": "job|position|role|work|vacanc*" }
+   },
+   {
+    "sit": "Твоя племінниця мріє вчитися за кордоном. Ти розповідаєш про це батькам.",
+    "say": "Вона подалася в три університети.",
+    "ans": ["She applied to three universities.", "She has applied to three universities.", "She’s applied to three unis already."],
+    "keys": { "університети": "universit*|uni*|college*|school*", "три": "three|3" }
+   },
+   {
+    "sit": "Друг питає, як ти збираєшся оплачувати навчання в магістратурі.",
+    "say": "Я подався на стипендію ще в березні.",
+    "ans": ["I applied for a scholarship in March.", "I already applied for the scholarship back in March.", "I put in my application — I applied for the scholarship in March."],
+    "keys": { "стипендія": "scholarship*|grant*|funding", "березень": "march" }
+   }
+  ]
+ },
+ {
+  "id": 157, "w": "quit", "uk": "звільнятися (за власним бажанням); кидати", "lvl": "B1",
+  "forms": "quit|quits|quit|quit|quitting",
+  "near": "resign*|left|leave|leaving|walked out|stop|stopped|gave up|give up",
+  "tasks": [
+   {
+    "sit": "Колишній колега здивований, що бачить тебе в іншому офісі.",
+    "say": "Я звільнився з тієї роботи минулого місяця.",
+    "ans": ["I quit that job last month.", "Last month I quit my old job.", "Yeah, I quit that job a month ago."],
+    "keys": { "робота": "job|work|company|there", "минулого місяця": "last month|a month ago|month" }
+   },
+   {
+    "sit": "Подруга розповідає, що начальник знову кричав на неї при всіх.",
+    "say": "На твоєму місці я б звільнилася.",
+    "ans": ["If I were you, I’d quit.", "I would quit if I were you.", "Honestly, I’d just quit if I were you."],
+    "keys": { "на твоєму місці": "if i were you|in your place|in your shoes|me" }
+   },
+   {
+    "sit": "Твій брат багато років працює в банку й давно мріє про власну кавʼярню.",
+    "say": "Він нарешті звільняється, щоб відкрити кавʼярню.",
+    "ans": ["He’s finally quitting to open a café.", "He finally quit his job to open a coffee shop.", "He’s finally quitting the bank to open his own café."],
+    "keys": { "нарешті": "finally|at last", "кавʼярня": "caf*|coffee*" }
+   }
+  ]
+ },
+ {
+  "id": 158, "w": "retire", "uk": "виходити на пенсію", "lvl": "B1",
+  "forms": "retire|retires|retired|retired|retiring",
+  "near": "stop working|stopped working|pension*|leave work|left work",
+  "tasks": [
+   {
+    "sit": "Сусідка розповідає, що твій дідусь тепер має багато часу на рибалку.",
+    "say": "Він вийшов на пенсію торік.",
+    "ans": ["He retired last year.", "He retired a year ago.", "He retired last year, so now he goes fishing all the time."],
+    "keys": { "торік": "last year|a year ago|year" }
+   },
+   {
+    "sit": "Колеги в офісі обговорюють, хто прийде на місце начальниці відділу.",
+    "say": "Вона виходить на пенсію наступного місяця.",
+    "ans": ["She’s retiring next month.", "She will retire next month.", "She retires next month, so they need someone new."],
+    "keys": { "наступного місяця": "next month|month" }
+   },
+   {
+    "sit": "Друг питає про твої плани на далеке майбутнє.",
+    "say": "Я хочу вийти на пенсію рано й жити біля моря.",
+    "ans": ["I want to retire early and live by the sea.", "I’d like to retire early and move to the sea.", "My plan is to retire early and live somewhere by the sea."],
+    "keys": { "рано": "early|young", "море": "sea|beach|coast|ocean" }
+   }
+  ]
+ },
+ {
+  "id": 159, "w": "finish", "uk": "закінчувати", "lvl": "A1",
+  "forms": "finish|finishes|finished|finished|finishing",
+  "near": "complete*|end|ended|done|stop|stopped|over",
+  "tasks": [
+   {
+    "sit": "Мама кличе тебе допомогти на кухні, а ти ще пишеш домашнє завдання.",
+    "say": "Хвилинку, я ще не закінчив.",
+    "ans": ["Wait a minute, I haven’t finished yet.", "Just a minute, I’m not finished yet.", "One sec, I haven’t finished yet!"],
+    "keys": { "ще не": "not|yet", "хвилинку": "minute|moment|sec*|wait" }
+   },
+   {
+    "sit": "Колега питає, коли ти здаси звіт.",
+    "say": "Я закінчу звіт до пʼятниці.",
+    "ans": ["I’ll finish the report by Friday.", "I will finish the report before Friday.", "I should finish the report by Friday."],
+    "keys": { "звіт": "report", "пʼятниця": "friday" }
+   },
+   {
+    "sit": "Ви з другом у кінотеатрі. Він питає, о котрій вас забрати.",
+    "say": "Фільм закінчується о десятій.",
+    "ans": ["The film finishes at ten.", "The movie finishes at 10 o’clock.", "The movie finishes around ten."],
+    "keys": { "фільм": "film|movie|it", "о десятій": "ten|10" }
+   }
+  ]
+ },
+ {
+  "id": 160, "w": "complete", "uk": "завершувати, виконувати (до кінця)", "lvl": "B1",
+  "forms": "complete|completes|completed|completed|completing",
+  "near": "finish*|done|end|ended|accomplish*|fill in|fill out|filled",
+  "tasks": [
+   {
+    "sit": "Менеджер питає, як просувається ремонт у вашому новому офісі.",
+    "say": "Ми завершимо роботи до кінця місяця.",
+    "ans": ["We’ll complete the work by the end of the month.", "The work will be completed by the end of the month.", "We should complete everything by the end of the month."],
+    "keys": { "до кінця місяця": "end of the month|month" }
+   },
+   {
+    "sit": "Ти проходиш онлайн-курс з програмування і хвалишся другові.",
+    "say": "Я вже завершив половину курсу.",
+    "ans": ["I’ve already completed half of the course.", "I have completed half the course.", "I’ve completed about half the course so far."],
+    "keys": { "половина": "half|50", "курс": "course|program*|class*" }
+   },
+   {
+    "sit": "На співбесіді тебе питають про попередній досвід.",
+    "say": "Я успішно завершив три великі проєкти.",
+    "ans": ["I successfully completed three big projects.", "I have completed three large projects successfully.", "I’ve successfully completed three major projects."],
+    "keys": { "три": "three|3", "проєкти": "project*" }
+   }
+  ]
+ },
+ {
+  "id": 161, "w": "solve", "uk": "розвʼязувати, вирішувати (проблему)", "lvl": "A2",
+  "forms": "solve|solves|solved|solved|solving",
+  "near": "fix|fixed|fixing|sort out|sorted out|sorted it out|figure out|figured out|resolve*|work out|worked out",
+  "tasks": [
+   {
+    "sit": "Інтернет у квартирі не працював два дні. Ти пишеш сусідові, що все гаразд.",
+    "say": "Майстер розвʼязав проблему за десять хвилин.",
+    "ans": ["The technician solved the problem in ten minutes.", "The engineer solved the problem in just ten minutes.", "The guy solved the problem in, like, ten minutes."],
+    "keys": { "проблема": "problem|issue|it", "десять хвилин": "ten|10|minute*" }
+   },
+   {
+    "sit": "Молодший брат сидить над домашкою з математики й просить допомоги.",
+    "say": "Я не можу розвʼязати цю задачу.",
+    "ans": ["I can’t solve this problem.", "I can’t solve this math problem.", "I just can’t solve this one."],
+    "keys": { "не можу": "not|unable" }
+   },
+   {
+    "sit": "Колеги сперечаються, хто винен у зриві дедлайну. Ти пропонуєш інший підхід.",
+    "say": "Давайте краще розвʼяжемо проблему, а не шукатимемо винних.",
+    "ans": ["Let’s solve the problem instead of blaming each other.", "Let’s try to solve the problem, not look for someone to blame.", "Let’s just solve the problem rather than blame anyone."],
+    "keys": { "проблема": "problem|issue|it", "винних": "blam*|fault|guilty" }
+   }
+  ]
+ },
+ {
+  "id": 162, "w": "achieve", "uk": "досягати (мети, результату)", "lvl": "B1",
+  "forms": "achieve|achieves|achieved|achieved|achieving",
+  "near": "reach|reached|reaching|accomplish*|attain*|hit|meet|met|get to",
+  "tasks": [
+   {
+    "sit": "Подруга рік бігала щоранку й нарешті пробігла марафон. Ти розповідаєш про неї.",
+    "say": "Вона досягла своєї мети.",
+    "ans": ["She achieved her goal.", "She has achieved her goal.", "She finally achieved her goal!"],
+    "keys": { "мета": "goal*|aim|target|dream" }
+   },
+   {
+    "sit": "На нараді ти підсумовуєш результати відділу за рік.",
+    "say": "Ми досягли чудових результатів цього року.",
+    "ans": ["We achieved great results this year.", "This year we have achieved excellent results.", "We’ve achieved some great results this year."],
+    "keys": { "результати": "result*|success*", "цього року": "this year|year" }
+   },
+   {
+    "sit": "Друг сумнівається, чи варто йому вивчати нову професію у 40 років.",
+    "say": "Якщо ти багато працюватимеш, ти досягнеш чого завгодно.",
+    "ans": ["If you work hard, you can achieve anything.", "You’ll achieve anything if you work hard.", "Work hard and you can achieve anything you want."],
+    "keys": { "багато працювати": "work hard|hard work|hard", "що завгодно": "anything|everything" }
+   }
+  ]
+ },
+ {
+  "id": 163, "w": "succeed", "uk": "досягати успіху, мати успіх", "lvl": "B1",
+  "forms": "succeed|succeeds|succeeded|succeeded|succeeding",
+  "near": "success*|successful|make it|made it|do well|did well|manage*|managed",
+  "tasks": [
+   {
+    "sit": "Знайомий відкрив невелику пекарню, і тепер у нього вже три заклади.",
+    "say": "Він досяг успіху в бізнесі без жодної допомоги.",
+    "ans": ["He succeeded in business without any help.", "He has succeeded in business with no help at all.", "He succeeded in business all on his own, without any help."],
+    "keys": { "бізнес": "business*", "без допомоги": "without|no help|own" }
+   },
+   {
+    "sit": "Твоя сестра хвилюється перед важливим конкурсом. Ти її підбадьорюєш.",
+    "say": "Я впевнений, що в тебе все вийде.",
+    "ans": ["I’m sure you’ll succeed.", "I’m sure that you will succeed.", "I’m totally sure you’re going to succeed."],
+    "keys": { "впевнений": "sure|certain|know|confident" }
+   },
+   {
+    "sit": "Команда вчених тричі намагалася запустити дрон, і лише остання спроба вдалася. Ти читаєш новину колезі.",
+    "say": "Їм вдалося лише з четвертої спроби.",
+    "ans": ["They only succeeded on the fourth try.", "They succeeded only on their fourth attempt.", "They didn’t succeed until the fourth try."],
+    "keys": { "четверта спроба": "fourth|4th|four*" }
+   }
+  ]
+ },
+ {
+  "id": 164, "w": "fail", "uk": "провалювати(ся), не скласти", "lvl": "A2",
+  "forms": "fail|fails|failed|failed|failing",
+  "near": "did not pass|not pass|flunk*|messed up|mess up|blew|blow|not succeed",
+  "tasks": [
+   {
+    "sit": "Друг питає, чому ти знову сидиш над підручником з водіння.",
+    "say": "Я провалив іспит з водіння вчора.",
+    "ans": ["I failed my driving test yesterday.", "Yesterday I failed the driving exam.", "I failed my driving test yesterday, so I have to take it again."],
+    "keys": { "водіння": "driv*", "іспит": "test|exam*", "вчора": "yesterday" }
+   },
+   {
+    "sit": "Колеги обговорюють стартап, у який усі вірили, але він закрився.",
+    "say": "Проєкт провалився, бо в нас закінчилися гроші.",
+    "ans": ["The project failed because we ran out of money.", "The project failed because there was no money left.", "The project failed — we just ran out of money."],
+    "keys": { "проєкт": "project|startup|business|it", "гроші": "money|cash|fund*|budget" }
+   },
+   {
+    "sit": "Твій учень боїться, що не складе контрольну з англійської.",
+    "say": "Не хвилюйся, ти не провалишся.",
+    "ans": ["Don’t worry, you won’t fail.", "Don’t worry — you’re not going to fail.", "Relax, there’s no way you’ll fail."],
+    "keys": { "не хвилюйся": "worry|relax|calm", "не": "not|no way|never" }
+   }
+  ]
+ },
+ {
+  "id": 165, "w": "manage", "uk": "керувати, управляти", "lvl": "B1",
+  "forms": "manage|manages|managed|managed|managing",
+  "near": "run|runs|ran|running|lead|leads|led|leading|in charge|head*|supervis*|boss",
+  "tasks": [
+   {
+    "sit": "На вечірці тебе питають, чим ти займаєшся на роботі.",
+    "say": "Я керую командою з десяти людей.",
+    "ans": ["I manage a team of ten people.", "I manage ten people in my team.", "I manage a small team — ten people."],
+    "keys": { "команда": "team|people|staff|employees", "десять": "ten|10" }
+   },
+   {
+    "sit": "Сусідка розповідає, що її тітка купила готель біля моря.",
+    "say": "Тепер вона сама керує готелем.",
+    "ans": ["Now she manages the hotel herself.", "She manages the hotel on her own now.", "She’s managing the hotel all by herself now."],
+    "keys": { "готель": "hotel|it|place", "сама": "herself|her own|alone" }
+   },
+   {
+    "sit": "Друг скаржиться, що постійно не встигає нічого зробити.",
+    "say": "Тобі треба навчитися краще керувати своїм часом.",
+    "ans": ["You need to learn to manage your time better.", "You should learn how to manage your time better.", "You really need to manage your time better."],
+    "keys": { "час": "time", "краще": "better|well" }
+   }
+  ]
+ },
+ {
+  "id": 166, "w": "lead", "uk": "вести, очолювати", "lvl": "B1",
+  "forms": "lead|leads|led|led|leading",
+  "near": "manage*|run|runs|ran|running|head*|in charge|guide*|direct*",
+  "tasks": [
+   {
+    "sit": "Колега з іншого відділу питає, хто відповідає за новий застосунок.",
+    "say": "Проєкт веде Оксана.",
+    "ans": ["Oksana is leading the project.", "Oksana leads the project.", "Oksana’s leading that project."],
+    "keys": { "проєкт": "project|it|app", "Оксана": "oksana" }
+   },
+   {
+    "sit": "Ви з друзями в горах, і стежка стає вузькою. Ти найкраще знаєш дорогу.",
+    "say": "Давайте я піду першим і поведу групу.",
+    "ans": ["Let me go first and lead the group.", "I’ll go first and lead the group.", "I’ll lead the way — follow me."],
+    "keys": { "першим / група": "first|group|way|follow" }
+   },
+   {
+    "sit": "Друг питає, чому тренер так цінує твого сина у футбольній команді.",
+    "say": "Він капітан і веде команду за собою.",
+    "ans": ["He’s the captain and he leads the team.", "He is the captain, and he leads the whole team.", "He’s the captain — he really leads the team."],
+    "keys": { "капітан": "captain", "команда": "team|players|others" }
+   }
+  ]
+ },
+ {
+  "id": 167, "w": "organize", "uk": "організовувати, упорядковувати", "lvl": "B1",
+  "forms": "organize/organise|organizes/organises|organized/organised|organized/organised|organizing/organising",
+  "near": "arrange*|plan|planned|planning|set up|sort*|put together|throw|threw",
+  "tasks": [
+   {
+    "sit": "Колега з відділу кадрів питає, хто займається корпоративом.",
+    "say": "Я організовую вечірку на кінець року.",
+    "ans": ["I’m organizing the end-of-year party.", "I am organizing a party for the end of the year.", "I’m the one organizing the end-of-year party."],
+    "keys": { "вечірка": "party|celebration|event", "кінець року": "end of the year|end-of-year|year" }
+   },
+   {
+    "sit": "У тебе на комп'ютері повний хаос: сотні файлів на робочому столі.",
+    "say": "Мені треба впорядкувати свої файли.",
+    "ans": ["I need to organize my files.", "I have to organize all my files.", "I really need to organize my files."],
+    "keys": { "файли": "file*|folder*|document*" }
+   },
+   {
+    "sit": "Мешканці вашого будинку хочуть прибрати двір. Сусідка питає, хто все влаштує.",
+    "say": "Я можу організувати толоку в суботу.",
+    "ans": ["I can organize a clean-up on Saturday.", "I could organize a cleanup day on Saturday.", "I can organize a clean-up this Saturday, if you like."],
+    "keys": { "прибирання": "clean*|tidy", "субота": "saturday" }
+   }
+  ]
+ },
+ {
+  "id": 168, "w": "plan", "uk": "планувати", "lvl": "A2",
+  "forms": "plan|plans|planned|planned|planning",
+  "near": "organize*|organise*|arrange*|intend*|going to|prepar*|think of|thinking of",
+  "tasks": [
+   {
+    "sit": "Колега бачить у тебе на екрані карту Італії.",
+    "say": "Я планую поїздку до Італії на вересень.",
+    "ans": ["I’m planning a trip to Italy for September.", "I am planning to go to Italy in September.", "I’m planning a trip to Italy in September."],
+    "keys": { "Італія": "italy", "вересень": "september" }
+   },
+   {
+    "sit": "Друг дивується, що ти завжди встигаєш усе зробити.",
+    "say": "Я планую свій тиждень щонеділі.",
+    "ans": ["I plan my week every Sunday.", "Every Sunday I plan my week.", "I plan out my whole week every Sunday."],
+    "keys": { "тиждень": "week", "неділя": "sunday*" }
+   },
+   {
+    "sit": "Ти запізнився на поїзд, і тепер вся поїздка пішла шкереберть.",
+    "say": "Усе пішло не так, як ми планували.",
+    "ans": ["Nothing went as we planned.", "Things didn’t go the way we planned.", "It didn’t go as planned at all."],
+    "keys": { "не так": "not|nothing|wrong" }
+   }
+  ]
+ },
+ {
+  "id": 169, "w": "attend", "uk": "відвідувати, бути присутнім", "lvl": "B1",
+  "forms": "attend|attends|attended|attended|attending",
+  "near": "go to|went to|going to|goes to|visit*|be at|was at|join*|come to|came to",
+  "tasks": [
+   {
+    "sit": "Твій керівник питає, чому тебе не було на вчорашній нараді.",
+    "say": "Вибачте, я не зміг бути на нараді, бо був у лікаря.",
+    "ans": ["Sorry, I couldn’t attend the meeting because I was at the doctor’s.", "I’m sorry I didn’t attend the meeting — I had a doctor’s appointment.", "Sorry I couldn’t attend the meeting, I was at the doctor’s."],
+    "keys": { "нарада": "meeting", "лікар": "doctor*|clinic|hospital" }
+   },
+   {
+    "sit": "Ти пишеш резюме й перелічуєш, як підвищував кваліфікацію.",
+    "say": "Минулого року я відвідав дві міжнародні конференції.",
+    "ans": ["Last year I attended two international conferences.", "I attended two international conferences last year.", "Last year I attended a couple of international conferences."],
+    "keys": { "конференції": "conference*", "минулого року": "last year|year" }
+   },
+   {
+    "sit": "Ти отримав запрошення на весілля друга. Він дзвонить і питає про твої плани.",
+    "say": "Звісно, я буду на твоєму весіллі!",
+    "ans": ["Of course I’ll attend your wedding!", "Of course I will attend your wedding.", "Of course — I wouldn’t miss it! I’ll definitely attend your wedding."],
+    "keys": { "весілля": "wedding|marriage" }
+   }
+  ]
+ },
+ {
+  "id": 170, "w": "buy", "uk": "купувати", "lvl": "A1",
+  "forms": "buy|buys|bought|bought|buying",
+  "near": "get|got|getting|purchas*|pick up|picked up|order*|pay for|paid for",
+  "tasks": [
+   {
+    "sit": "У суботу день народження мами. Сестра питає, що ти їй даруватимеш.",
+    "say": "Я купив їй квіти й шарф.",
+    "ans": ["I bought her flowers and a scarf.", "I bought flowers and a scarf for her.", "I’ve bought her some flowers and a scarf."],
+    "keys": { "квіти": "flower*|bouquet|roses", "шарф": "scarf*" }
+   },
+   {
+    "sit": "Ти в магазині біля дому й пишеш повідомлення жінці.",
+    "say": "Треба купити хліба й молока?",
+    "ans": ["Should I buy bread and milk?", "Do you want me to buy some bread and milk?", "Need me to buy some bread and milk?"],
+    "keys": { "хліб": "bread|loaf", "молоко": "milk" }
+   },
+   {
+    "sit": "Друг дивується, що ти досі їздиш на старій машині.",
+    "say": "Я куплю нову машину наступного року.",
+    "ans": ["I’ll buy a new car next year.", "I’m going to buy a new car next year.", "I’m planning to buy a new car next year."],
+    "keys": { "машина": "car", "наступного року": "next year|year" }
+   }
+  ]
+ },
+ {
+  "id": 171, "w": "sell", "uk": "продавати", "lvl": "A1",
+  "forms": "sell|sells|sold|sold|selling",
+  "near": "get rid of|got rid of|trade*|flog*|put up for sale",
+  "tasks": [
+   {
+    "sit": "Сусід бачить, що твого велосипеда більше немає біля підʼїзду.",
+    "say": "Я продав свій старий велосипед.",
+    "ans": ["I sold my old bike.", "I sold my old bicycle online.", "I’ve sold my old bike."],
+    "keys": { "велосипед": "bike|bicycle|it" }
+   },
+   {
+    "sit": "Туристка питає тебе на вулиці, де можна купити квитки на трамвай.",
+    "say": "Квитки продають у тому кіоску.",
+    "ans": ["They sell tickets at that kiosk.", "Tickets are sold at that kiosk over there.", "They sell tickets in that little kiosk over there."],
+    "keys": { "квитки": "ticket*", "кіоск": "kiosk|booth|stand|shop|store" }
+   },
+   {
+    "sit": "Твої батьки переїжджають до міста. Колега питає, що буде з їхнім будинком у селі.",
+    "say": "Вони хочуть продати будинок цього літа.",
+    "ans": ["They want to sell the house this summer.", "They’re going to sell their house this summer.", "They’re hoping to sell the house this summer."],
+    "keys": { "будинок": "house|home|place", "літо": "summer" }
+   }
+  ]
+ },
+ {
+  "id": 172, "w": "pay", "uk": "платити", "lvl": "A1",
+  "forms": "pay|pays|paid|paid|paying",
+  "near": "cover*|treat*|foot the bill|settle*|buy|bought|spend|spent|on me",
+  "tasks": [
+   {
+    "sit": "Ви з другом закінчили вечеряти в ресторані. Офіціант приносить рахунок.",
+    "say": "Сьогодні я плачу.",
+    "ans": ["I’ll pay today.", "I’m paying today.", "Today I’m paying — put your wallet away."],
+    "keys": { "сьогодні": "today|tonight|this time" }
+   },
+   {
+    "sit": "Ти на касі в магазині. Касирка питає, як ти розраховуватимешся.",
+    "say": "Можна заплатити карткою?",
+    "ans": ["Can I pay by card?", "Can I pay with my card?", "Is it OK if I pay by card?"],
+    "keys": { "картка": "card|credit|debit" }
+   },
+   {
+    "sit": "Друг питає, чому ти не хочеш їхати у відпустку цього місяця.",
+    "say": "Мені ще треба заплатити за оренду.",
+    "ans": ["I still need to pay the rent.", "I still have to pay for the rent.", "I’ve still got to pay the rent this month."],
+    "keys": { "оренда": "rent|apartment|flat", "ще": "still|yet" }
+   }
+  ]
+ },
+ {
+  "id": 173, "w": "spend", "uk": "витрачати (гроші, час)", "lvl": "A1",
+  "forms": "spend|spends|spent|spent|spending",
+  "near": "waste*|use|used|pay|paid|pays|blew|blow",
+  "tasks": [
+   {
+    "sit": "Ти повертаєшся з торгового центру з купою пакетів. Сестра дивиться на тебе здивовано.",
+    "say": "Я знову витратив забагато грошей.",
+    "ans": ["I spent too much money again.", "I’ve spent too much money again.", "Oops, I spent way too much again."],
+    "keys": { "забагато": "too much|a lot|lots", "знову": "again" }
+   },
+   {
+    "sit": "Колега питає, як ти провів вихідні.",
+    "say": "Я провів усю неділю з дітьми.",
+    "ans": ["I spent all of Sunday with my kids.", "I spent the whole Sunday with my children.", "I spent all day Sunday with the kids."],
+    "keys": { "неділя": "sunday", "діти": "kid*|child*|children|son*|daughter*" }
+   },
+   {
+    "sit": "Друг хоче купити новий телефон і питає твоєї поради.",
+    "say": "Скільки ти готовий витратити?",
+    "ans": ["How much are you ready to spend?", "How much do you want to spend?", "So how much are you willing to spend?"],
+    "keys": { "скільки": "how much|budget" }
+   }
+  ]
+ },
+ {
+  "id": 174, "w": "save", "uk": "заощаджувати; рятувати", "lvl": "A1",
+  "forms": "save|saves|saved|saved|saving",
+  "near": "put aside|put away|put by|set aside|keep|kept|rescu*|pull out|pulled out",
+  "tasks": [
+   {
+    "sit": "Друг дивується, що ти не ходиш з колегами в кафе на обід.",
+    "say": "Я заощаджую гроші на нову машину.",
+    "ans": ["I’m saving money for a new car.", "I am saving up for a new car.", "I’m saving up to buy a new car."],
+    "keys": { "машина": "car" }
+   },
+   {
+    "sit": "Сусідка розповідає, як минулої ночі в будинку сталася пожежа.",
+    "say": "Пожежники врятували всіх мешканців.",
+    "ans": ["The firefighters saved all the residents.", "Firefighters saved everyone in the building.", "The firefighters saved everybody who lived there."],
+    "keys": { "пожежники": "firefighter*|firemen|fireman|fire*", "усі": "all|everyone|everybody|every" }
+   },
+   {
+    "sit": "Колега радить тобі купувати проїзний замість окремих квитків.",
+    "say": "Так ти заощадиш багато грошей.",
+    "ans": ["You’ll save a lot of money that way.", "That way you will save lots of money.", "You’ll save a ton of money like that."],
+    "keys": { "багато": "a lot|lots|much|ton|plenty", "гроші": "money|cash" }
+   }
+  ]
+ },
+ {
+  "id": 175, "w": "earn", "uk": "заробляти", "lvl": "A2",
+  "forms": "earn|earns|earned|earned|earning",
+  "near": "make|makes|made|making|get paid|got paid|paid|bring in|brings in",
+  "tasks": [
+   {
+    "sit": "Племінник-студент розповідає про свою підробітку в кавʼярні.",
+    "say": "Я заробляю небагато, але мені вистачає.",
+    "ans": ["I don’t earn much, but it’s enough for me.", "I earn a little, but it’s enough.", "I don’t earn a lot, but it’s enough to get by."],
+    "keys": { "небагато": "much|little|a lot|not", "вистачає": "enough|get by|okay|ok" }
+   },
+   {
+    "sit": "Знайомий питає, чому ти перейшов у нову компанію.",
+    "say": "Тут я заробляю вдвічі більше.",
+    "ans": ["I earn twice as much here.", "Here I earn twice as much money.", "I’m earning twice as much here."],
+    "keys": { "вдвічі": "twice|double|two times" }
+   },
+   {
+    "sit": "Твій син-підліток просить купити йому нові навушники.",
+    "say": "Спробуй заробити на них сам.",
+    "ans": ["Try to earn the money for them yourself.", "Try earning the money for them yourself.", "Why don’t you earn the money for them yourself?"],
+    "keys": { "сам": "yourself|your own", "гроші": "money|cash|them|it" }
+   }
+  ]
+ },
+ {
+  "id": 176, "w": "lend", "uk": "позичати (комусь), давати в борг", "lvl": "B1",
+  "forms": "lend|lends|lent|lent|lending",
+  "near": "loan*|give|gave|given|borrow*",
+  "tasks": [
+   {
+    "sit": "Ти забув гаманець удома, а тобі треба заплатити за таксі. Звертаєшся до колеги.",
+    "say": "Можеш позичити мені двісті гривень до завтра?",
+    "ans": ["Can you lend me two hundred hryvnias until tomorrow?", "Could you lend me 200 hryvnias till tomorrow?", "Could you lend me two hundred till tomorrow?"],
+    "keys": { "двісті": "two hundred|200", "до завтра": "tomorrow" }
+   },
+   {
+    "sit": "Сестра питає, де твоя улюблена книжка, яку ти всім радиш.",
+    "say": "Я позичив її другові місяць тому.",
+    "ans": ["I lent it to a friend a month ago.", "I lent the book to my friend a month ago.", "I lent it to a friend like a month ago."],
+    "keys": { "другові": "friend|buddy|mate", "місяць тому": "month" }
+   },
+   {
+    "sit": "Ви з другом лагодите велосипед, і йому не вистачає інструментів.",
+    "say": "Я можу позичити тобі свій насос.",
+    "ans": ["I can lend you my pump.", "I could lend you my bike pump.", "I can lend you my pump if you want."],
+    "keys": { "насос": "pump" }
+   }
+  ]
+ },
+ {
+  "id": 177, "w": "borrow", "uk": "позичати (у когось), брати на час", "lvl": "B1",
+  "forms": "borrow|borrows|borrowed|borrowed|borrowing",
+  "near": "lend|lent|lends|take|took|taken|use|used|loan*",
+  "tasks": [
+   {
+    "sit": "У твого сусіда по кімнаті на полиці стоїть книжка, яку ти давно хотів прочитати.",
+    "say": "Можна позичити цю книжку на тиждень?",
+    "ans": ["Can I borrow this book for a week?", "Could I borrow this book for a week?", "Mind if I borrow this book for a week?"],
+    "keys": { "книжка": "book|it", "тиждень": "week" }
+   },
+   {
+    "sit": "Друг питає, як ви з дружиною змогли купити квартиру так швидко.",
+    "say": "Ми позичили гроші в банку.",
+    "ans": ["We borrowed money from the bank.", "We borrowed the money from a bank.", "We borrowed some money from the bank."],
+    "keys": { "гроші": "money|cash|loan", "банк": "bank" }
+   },
+   {
+    "sit": "Твоя машина в ремонті, а тобі треба поїхати за місто.",
+    "say": "Я позичив машину в тата на вихідні.",
+    "ans": ["I borrowed my dad’s car for the weekend.", "I borrowed the car from my dad for the weekend.", "I borrowed Dad’s car for the weekend."],
+    "keys": { "машина": "car", "тато": "dad*|father*", "вихідні": "weekend" }
+   }
+  ]
+ },
+ {
+  "id": 178, "w": "owe", "uk": "бути винним, заборгувати", "lvl": "B1",
+  "forms": "owe|owes|owed|owed|owing",
+  "near": "debt*|borrow*|pay back|paid back|lend|lent",
+  "tasks": [
+   {
+    "sit": "Друг минулого тижня заплатив за твій квиток у кіно. Ти хочеш повернути борг.",
+    "say": "Скільки я тобі винен?",
+    "ans": ["How much do I owe you?", "How much do I owe you for the ticket?", "So how much do I owe you?"],
+    "keys": { "скільки": "how much" }
+   },
+   {
+    "sit": "Колега вирішив за тебе проблему з клієнтом, поки ти був у відпустці.",
+    "say": "Дякую, я твій боржник!",
+    "ans": ["Thanks, I owe you one!", "Thank you, I owe you big time!", "Thanks a lot — I owe you one."],
+    "keys": { "дякую": "thank*" }
+   },
+   {
+    "sit": "Сусід скаржиться тобі на свого брата.",
+    "say": "Він досі винен мені тисячу доларів.",
+    "ans": ["He still owes me a thousand dollars.", "He still owes me 1000 dollars.", "He still owes me a grand."],
+    "keys": { "досі": "still", "тисяча": "thousand|1000*|grand" }
+   }
+  ]
+ },
+ {
+  "id": 180, "w": "cost", "uk": "коштувати", "lvl": "A1",
+  "forms": "cost|costs|cost|cost|costing",
+  "near": "price*|pay|paid|how much is|worth",
+  "tasks": [
+   {
+    "sit": "Ти на ринку й показуєш продавцю на кошик полуниці.",
+    "say": "Скільки це коштує?",
+    "ans": ["How much does it cost?", "How much does this cost?", "How much does this basket cost?"],
+    "keys": { "скільки": "how much" }
+   },
+   {
+    "sit": "Подруга хвалить твій новий піджак.",
+    "say": "Дякую, він коштував лише тридцять доларів.",
+    "ans": ["Thanks, it only cost thirty dollars.", "Thank you, it cost only 30 dollars.", "Thanks! It only cost me thirty bucks."],
+    "keys": { "тридцять": "thirty|30", "лише": "only|just" }
+   },
+   {
+    "sit": "Ви з чоловіком обговорюєте, чи їхати до моря на таксі.",
+    "say": "Таксі коштуватиме занадто дорого.",
+    "ans": ["A taxi will cost too much.", "The taxi is going to cost too much.", "A taxi would cost way too much."],
+    "keys": { "таксі": "taxi|cab|uber", "занадто": "too|a lot|fortune" }
+   }
+  ]
+ },
+ {
+  "id": 181, "w": "charge", "uk": "брати оплату, стягувати (плату)", "lvl": "B1",
+  "forms": "charge|charges|charged|charged|charging",
+  "near": "cost*|ask for|asked for|take|took|bill*",
+  "tasks": [
+   {
+    "sit": "Ти перевіряєш рахунок у готелі й бачиш дивний рядок.",
+    "say": "Ви взяли з мене плату за мінібар, але я нічого не брав.",
+    "ans": ["You charged me for the minibar, but I didn’t take anything.", "You’ve charged me for the minibar, but I didn’t use it.", "You charged me for the minibar, but I didn’t touch it."],
+    "keys": { "мінібар": "minibar|mini-bar|mini bar|bar", "нічого не": "not|nothing|anything" }
+   },
+   {
+    "sit": "Друг шукає майстра, щоб полагодити пральну машину.",
+    "say": "Мій майстер бере п'ятсот гривень за виклик.",
+    "ans": ["My repairman charges five hundred hryvnias per visit.", "My guy charges 500 hryvnias for a call-out.", "My repairman charges five hundred for each visit."],
+    "keys": { "пʼятсот": "five hundred|500", "виклик": "visit|call*|trip|job" }
+   },
+   {
+    "sit": "Ти питаєш у банку про переказ грошей за кордон.",
+    "say": "Ви берете комісію за переказ?",
+    "ans": ["Do you charge a fee for the transfer?", "Do you charge a commission for transfers?", "Do you charge anything for the transfer?"],
+    "keys": { "переказ": "transfer*|sending|send" }
+   }
+  ]
+ }
+]

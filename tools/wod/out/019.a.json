@@ -1,0 +1,633 @@
+[
+ {
+  "id": 1000, "w": "scan", "uk": "пробігати очима", "lvl": "B1",
+  "forms": "scan|scans|scanned|scanned|scanning",
+  "near": "skim*|glance*|look through|looked through|looking through|read through|browse*|flick* through|flip* through",
+  "tasks": [
+   {
+    "sit": "Колега питає, чи ти уважно прочитав його довгий звіт перед нарадою.",
+    "say": "Чесно кажучи, я лише швидко пробіг його очима.",
+    "ans": ["I only scanned it quickly.", "To be honest, I just scanned the report.", "Honestly, I only scanned it real quick."],
+    "keys": { "лише швидко": "only|just|quick*|briefly" }
+   },
+   {
+    "sit": "Ти шукаєш роботу й щоранку переглядаєш нові оголошення. Хочеш працювати тільки з дому.",
+    "say": "Я пробігаю очима оголошення, шукаючи слово «віддалено».",
+    "ans": ["I scan the job ads for the word “remote”.", "I scan every job listing, looking for the word “remote”.", "I just scan the ads for anything that says “remote”."],
+    "keys": { "оголошення": "ad|ads|advert*|listing*|job*|posting*|vacanc*", "віддалено": "remote*" }
+   },
+   {
+    "sit": "Ти в ресторані за кордоном і не їси мʼяса. Друг питає, що ти обрав.",
+    "say": "Я пробіг очима меню, але нічого вегетаріанського не знайшов.",
+    "ans": ["I scanned the menu but didn’t find anything vegetarian.", "I’ve scanned the whole menu, and there’s nothing vegetarian.", "I scanned the menu — nothing vegetarian at all."],
+    "keys": { "меню": "menu", "вегетаріанське": "vegetarian|veggie|vegan|meat" }
+   }
+  ]
+ },
+ {
+  "id": 1001, "w": "squint", "uk": "мружитися", "lvl": "B2",
+  "forms": "squint|squints|squinted|squinted|squinting",
+  "near": "narrow* my eyes|screw* up my eyes|frown*|blink*",
+  "tasks": [
+   {
+    "sit": "Ти на пляжі й забув удома сонцезахисні окуляри.",
+    "say": "Без окулярів я весь час мружуся на сонці.",
+    "ans": ["Without sunglasses I keep squinting in the sun.", "I’ve been squinting in the sun all day without my sunglasses.", "I can’t stop squinting in the sun — I forgot my sunglasses."],
+    "keys": { "окуляри": "sunglass*|glasses|shades", "сонце": "sun*|bright" }
+   },
+   {
+    "sit": "Окуліст питає, що саме тебе турбує.",
+    "say": "Я мружуся, коли читаю дрібний текст.",
+    "ans": ["I squint when I read small text.", "I have to squint to read small print.", "I find myself squinting at small print all the time."],
+    "keys": { "читати": "read*|print|text|letter*", "дрібний": "small|tiny|little|fine" }
+   },
+   {
+    "sit": "Друг показує фото з вашого походу, а сонце там світило просто в обличчя.",
+    "say": "Я на всіх фото мружуся!",
+    "ans": ["I’m squinting in all the photos!", "I squinted in every single photo.", "Ugh, I’m squinting in every photo!"],
+    "keys": { "фото": "photo*|picture*|pic*|shot*", "на всіх": "all|every" }
+   }
+  ]
+ },
+ {
+  "id": 1002, "w": "eyeball", "uk": "визначати на око", "lvl": "C1",
+  "forms": "eyeball|eyeballs|eyeballed|eyeballed|eyeballing",
+  "near": "estimat*|guess*|guesstimat*|judg*|by eye",
+  "tasks": [
+   {
+    "sit": "Подруга дивиться, як ти печеш хліб, і питає, скільки борошна ти кладеш.",
+    "say": "Я нічого не міряю — просто визначаю на око.",
+    "ans": ["I don’t measure it, I just eyeball it.", "I never measure the flour — I eyeball it.", "Measure? Nah, I just eyeball it and never measure anything."],
+    "keys": { "міряти": "measur*|scale*|cup*|spoon*" }
+   },
+   {
+    "sit": "Ти в меблевому магазині вибираєш диван для вузької ніші у вітальні. Рулетки з собою немає.",
+    "say": "Я прикинув на око — диван має влізти.",
+    "ans": ["I eyeballed it, and the sofa should fit.", "I’ve eyeballed the space — the couch should fit.", "Just eyeballing it, I think the sofa will fit."],
+    "keys": { "диван": "sofa|couch", "влізе": "fit*" }
+   },
+   {
+    "sit": "Ви з другом у горах, і він питає, скільки ще йти до хатинки.",
+    "say": "Я визначив на око — метрів двісті.",
+    "ans": ["I eyeballed the distance — about two hundred meters.", "I’d eyeball it at around two hundred metres.", "Eyeballing it, I’d say it’s about 200 meters."],
+    "keys": { "двісті метрів": "two hundred|200*|meter*|metre*" }
+   }
+  ]
+ },
+ {
+  "id": 1003, "w": "munch", "uk": "хрумтіти, жувати з хрускотом", "lvl": "B2",
+  "forms": "munch|munches|munched|munched|munching",
+  "near": "crunch*|chew*|eat*|ate|nibbl*|snack*",
+  "tasks": [
+   {
+    "sit": "Ти виходиш із кінотеатру роздратований через сусіда по ряду.",
+    "say": "Він увесь фільм хрумтів чипсами.",
+    "ans": ["He munched on chips through the whole movie.", "He was munching chips the entire film.", "The guy next to me kept munching chips the whole movie!"],
+    "keys": { "чипси": "chip*|crisp*", "весь фільм": "movie|film|whole|entire" }
+   },
+   {
+    "sit": "Ти готуєш вечерю, а син тягне з шафи пачку печива.",
+    "say": "Не хрумти печивом перед вечерею!",
+    "ans": ["Don’t munch on cookies before dinner!", "Stop munching cookies before dinner!", "Hey, no munching on cookies before dinner!"],
+    "keys": { "печиво": "cookie*|biscuit*", "вечеря": "dinner|supper" }
+   },
+   {
+    "sit": "Ти на дієті. Колега дивується, чому в тебе на столі ціла миска моркви.",
+    "say": "Я весь день хрумчу морквою, щоб не їсти солодкого.",
+    "ans": ["I munch on carrots all day so I don’t eat sweets.", "I’ve been munching carrots all day instead of sweets.", "I just munch on carrots all day to avoid sweets."],
+    "keys": { "морква": "carrot*", "солодке": "sweet*|sugar*|candy|chocolate|dessert*" }
+   }
+  ]
+ },
+ {
+  "id": 1004, "w": "gobble", "uk": "жерти похапцем", "lvl": "C1",
+  "forms": "gobble|gobbles|gobbled|gobbled|gobbling",
+  "near": "wolf*|scarf*|devour*|bolt*|inhal*|shovel*",
+  "tasks": [
+   {
+    "sit": "Твій син-підліток за вечерею ковтає котлету, майже не жуючи.",
+    "say": "Не жери похапцем, ніхто в тебе не забере!",
+    "ans": ["Don’t gobble your food, nobody’s going to take it!", "Stop gobbling — no one’s taking your food!", "Slow down, don’t gobble! Nobody will take it."],
+    "keys": { "ніхто": "nobody|no one|no-one|anyone", "забере": "take*|taking|steal*" }
+   },
+   {
+    "sit": "Сусідка питає, чи добре їсть твій новий пес.",
+    "say": "Мій пес зжер свою їжу похапцем за десять секунд.",
+    "ans": ["My dog gobbled his food in ten seconds.", "My dog gobbled up his whole bowl in ten seconds.", "The dog just gobbled it all down in like ten seconds."],
+    "keys": { "пес": "dog|puppy|pup", "десять секунд": "ten|10|second*" }
+   },
+   {
+    "sit": "У тебе був день із нарадами одна за одною. Увечері дружина питає, чи ти обідав.",
+    "say": "Я похапцем проковтнув бутерброд між нарадами.",
+    "ans": ["I gobbled a sandwich between meetings.", "I gobbled down a sandwich between two meetings.", "I just gobbled a sandwich in between meetings."],
+    "keys": { "бутерброд": "sandwich*|burger|roll", "наради": "meeting*|call*" }
+   }
+  ]
+ },
+ {
+  "id": 1005, "w": "scarf down", "uk": "уминати", "lvl": "C1",
+  "forms": "scarf|scarfs|scarfed|scarfed|scarfing",
+  "tail": "down",
+  "near": "gobbl*|wolf*|devour*|inhal*|bolt*",
+  "tasks": [
+   {
+    "sit": "Ти ледь не запізнився на поїзд. Колега питає, чи ти встиг поснідати.",
+    "say": "Я вмить умʼяв сніданок і побіг на поїзд.",
+    "ans": ["I scarfed down my breakfast and ran for the train.", "I scarfed my breakfast down and rushed to the train.", "I basically scarfed down breakfast and ran to catch my train."],
+    "keys": { "сніданок": "breakfast", "поїзд": "train" }
+   },
+   {
+    "sit": "Ти замовив піцу на дитяче свято, але не встиг узяти собі жодного шматка.",
+    "say": "Діти вмить умʼяли всю піцу.",
+    "ans": ["The kids scarfed down all the pizza.", "The kids scarfed the whole pizza down in minutes.", "The kids scarfed down the pizza in like two minutes!"],
+    "keys": { "діти": "kid*|child*|boys|girls", "піца": "pizza*" }
+   },
+   {
+    "sit": "Друг бачить, що ти після спортзалу доїдаєш уже другу тарілку.",
+    "say": "Після тренування я вмить умʼяв дві тарілки пасти.",
+    "ans": ["After the workout I scarfed down two plates of pasta.", "I scarfed down two bowls of pasta after training.", "I was so hungry after the gym, I scarfed down two plates of pasta."],
+    "keys": { "тренування": "workout|training|gym|exercis*|practice", "паста": "pasta|spaghetti|noodle*" }
+   }
+  ]
+ },
+ {
+  "id": 1006, "w": "pig out", "uk": "обжиратися", "lvl": "B2",
+  "forms": "pig|pigs|pigged|pigged|pigging",
+  "tail": "out",
+  "near": "overeat*|overate|stuff* myself|stuffed ourselves|gorg*|binge*|ate too much|eat too much",
+  "tasks": [
+   {
+    "sit": "Наступного дня після дня народження подруги тобі важко навіть дивитися на солодке.",
+    "say": "Я вчора обʼївся тортом на дні народження.",
+    "ans": ["I pigged out on cake at the birthday party yesterday.", "I totally pigged out on the birthday cake yesterday.", "I really pigged out on cake at her birthday yesterday."],
+    "keys": { "торт": "cake*", "день народження": "birthday*|party" }
+   },
+   {
+    "sit": "Після новорічних свят ти оголошуєш родині, що починаєш дієту.",
+    "say": "На свята ми всі обжиралися, тож тепер — дієта.",
+    "ans": ["We all pigged out over the holidays, so now it’s diet time.", "We pigged out during the holidays, and now I’m on a diet.", "We really pigged out over the holidays — time for a diet."],
+    "keys": { "свята": "holiday*|christmas|new year", "дієта": "diet*" }
+   },
+   {
+    "sit": "Пʼятниця, ви з друзями вдома і не хочете нічого готувати.",
+    "say": "Давайте замовимо фастфуд і сьогодні просто обжиратимемося.",
+    "ans": ["Let’s order fast food and pig out tonight.", "Let’s just pig out on takeout tonight.", "Tonight let’s order some junk food and totally pig out."],
+    "keys": { "сьогодні": "tonight|today", "фастфуд": "fast food|junk food|takeout|takeaway|pizza|burger*" }
+   }
+  ]
+ },
+ {
+  "id": 1007, "w": "simmer", "uk": "тушкувати, томити на повільному вогні", "lvl": "B2",
+  "forms": "simmer|simmers|simmered|simmered|simmering",
+  "near": "boil|boiling|stew*|cook* slowly|cook* on low|braise*",
+  "tasks": [
+   {
+    "sit": "Подруга телефонує й питає, як ти робиш свій томатний соус.",
+    "say": "Дай соусу потомитися на малому вогні хвилин двадцять.",
+    "ans": ["Let the sauce simmer for about twenty minutes.", "Simmer the sauce for twenty minutes.", "Just let the sauce simmer for twenty minutes or so."],
+    "keys": { "соус": "sauce", "двадцять хвилин": "twenty|20|minute*" }
+   },
+   {
+    "sit": "Ти йдеш у душ, а на плиті стоїть суп. Просиш партнера наглянути.",
+    "say": "Суп тихенько вариться на малому вогні — поглядай на нього, будь ласка.",
+    "ans": ["The soup is simmering on the stove, can you keep an eye on it?", "The soup’s simmering — could you watch it for me?", "I’ve got soup simmering on the stove, just keep an eye on it."],
+    "keys": { "суп": "soup|broth|stew", "поглядай": "eye|watch*|check*|look" }
+   },
+   {
+    "sit": "Ти ведеш кулінарний майстер-клас, і учень збільшує вогонь під бульйоном.",
+    "say": "Не доводь бульйон до кипіння, просто тримай на малому вогні.",
+    "ans": ["Don’t boil the broth, just let it simmer.", "Don’t let the broth boil — keep it simmering.", "No boiling — just let the broth simmer gently."],
+    "keys": { "бульйон": "broth|stock|soup", "не кипʼятити": "boil*" }
+   }
+  ]
+ },
+ {
+  "id": 1008, "w": "melt", "uk": "розтоплювати", "lvl": "B1",
+  "forms": "melt|melts|melted|melted|melting",
+  "near": "heat*|warm* up|dissolv*|thaw*|defrost*",
+  "tasks": [
+   {
+    "sit": "Ти диктуєш сестрі рецепт печива по телефону.",
+    "say": "Спочатку розтопи масло на малому вогні.",
+    "ans": ["First, melt the butter over low heat.", "Melt the butter on a low flame first.", "Start by melting the butter on the stove, nice and low."],
+    "keys": { "масло": "butter", "спочатку": "first|start*|begin*" }
+   },
+   {
+    "sit": "Ти придумуєш із дітьми, що приготувати на десерт у вихідний.",
+    "say": "Давайте розтопимо шоколад і вмочимо в нього полуницю.",
+    "ans": ["Let’s melt some chocolate and dip strawberries in it.", "Let’s melt the chocolate and dip the strawberries.", "How about we melt some chocolate for the strawberries?"],
+    "keys": { "шоколад": "chocolate", "полуниця": "strawberr*" }
+   },
+   {
+    "sit": "Ти розповідаєш про зимовий похід у гори, де поблизу не було жодного джерела.",
+    "say": "Ми розтоплювали сніг, щоб мати питну воду.",
+    "ans": ["We melted snow to get drinking water.", "We had to melt snow for water on the hike.", "We just melted snow for drinking water up there."],
+    "keys": { "сніг": "snow|ice", "вода": "water|drink*" }
+   }
+  ]
+ },
+ {
+  "id": 1009, "w": "stuff", "uk": "начиняти, фарширувати", "lvl": "B2",
+  "forms": "stuff|stuffs|stuffed|stuffed|stuffing",
+  "near": "fill*",
+  "tasks": [
+   {
+    "sit": "Колега-іноземець питає про ваші різдвяні традиції.",
+    "say": "На Різдво мама завжди фарширує качку яблуками.",
+    "ans": ["At Christmas my mom always stuffs the duck with apples.", "My mom stuffs a duck with apples every Christmas.", "Every Christmas Mom stuffs the duck with apples."],
+    "keys": { "качка": "duck|goose|turkey|bird", "яблука": "apple*" }
+   },
+   {
+    "sit": "Друзі прийдуть на вечерю, і сусід по квартирі питає, що ти готуєш.",
+    "say": "Я нафарширую перці рисом і мʼясом.",
+    "ans": ["I’ll stuff the peppers with rice and meat.", "I’m going to stuff peppers with rice and mince.", "I’m stuffing the peppers with rice and meat."],
+    "keys": { "перці": "pepper*", "рис": "rice" }
+   },
+   {
+    "sit": "Ти в ресторані, і офіціант чекає на замовлення закуски.",
+    "say": "Мені гриби, фаршировані сиром, будь ласка.",
+    "ans": ["I’ll have the mushrooms stuffed with cheese, please.", "Can I get the stuffed mushrooms with cheese?", "The mushrooms stuffed with cheese for me, please."],
+    "keys": { "гриби": "mushroom*", "сир": "cheese" }
+   }
+  ]
+ },
+ {
+  "id": 1010, "w": "drizzle", "uk": "полити тонкою цівкою", "lvl": "C1",
+  "forms": "drizzle|drizzles|drizzled|drizzled|drizzling",
+  "near": "pour*|sprinkl*|splash*|spoon*",
+  "tasks": [
+   {
+    "sit": "Ви з другом готуєте вечерю, і він питає, що робити із салатом.",
+    "say": "Полий салат трохи оливковою олією.",
+    "ans": ["Drizzle a little olive oil over the salad.", "Drizzle the salad with some olive oil.", "Just drizzle a bit of olive oil on the salad."],
+    "keys": { "олія": "oil", "салат": "salad*" }
+   },
+   {
+    "sit": "Недільний ранок, ти подаєш родині млинці.",
+    "say": "Я полию млинці медом.",
+    "ans": ["I’ll drizzle some honey on the pancakes.", "I’m going to drizzle the pancakes with honey.", "Let me drizzle a little honey over the pancakes."],
+    "keys": { "млинці": "pancake*|crepe*", "мед": "honey" }
+   },
+   {
+    "sit": "Ти працюєш у кавʼярні. Відвідувач питає, як подають чизкейк.",
+    "say": "Ми поливаємо чизкейк тонкою цівкою карамелі.",
+    "ans": ["We drizzle caramel over the cheesecake.", "The cheesecake is drizzled with caramel.", "We drizzle a bit of caramel sauce on top of the cheesecake."],
+    "keys": { "чизкейк": "cheesecake|cake|dessert", "карамель": "caramel" }
+   }
+  ]
+ },
+ {
+  "id": 1011, "w": "sprinkle", "uk": "посипати", "lvl": "B1",
+  "forms": "sprinkle|sprinkles|sprinkled|sprinkled|sprinkling",
+  "near": "scatter*|dust*|season*|cover*|top*",
+  "tasks": [
+   {
+    "sit": "Молодший брат уперше сам варить пасту і питає, що робити далі.",
+    "say": "Посип пасту тертим сиром.",
+    "ans": ["Sprinkle some grated cheese on the pasta.", "Sprinkle the pasta with grated cheese.", "Just sprinkle a bit of cheese over the pasta."],
+    "keys": { "сир": "cheese|parmesan", "паста": "pasta|spaghetti" }
+   },
+   {
+    "sit": "Уночі був мороз, і сходи біля будинку вкрилися кригою. Сусідка дякує тобі.",
+    "say": "Я посипав сходи сіллю, щоб ніхто не послизнувся.",
+    "ans": ["I sprinkled salt on the steps so nobody slips.", "I’ve sprinkled some salt on the stairs so no one slips.", "I sprinkled salt on the steps so nobody would slip."],
+    "keys": { "сіль": "salt|sand", "сходи": "step*|stair*|porch|path*" }
+   },
+   {
+    "sit": "Навесні ти відновлюєш газон на дачі, де залишилися голі плями.",
+    "say": "Я посипав насінням трави голі місця на газоні.",
+    "ans": ["I sprinkled grass seed on the bare patches of the lawn.", "I’ve sprinkled some grass seed over the bare spots.", "I just sprinkled some seed on the bare bits of the lawn."],
+    "keys": { "насіння": "seed*", "газон": "lawn|grass|patch*|spot*|bit*" }
+   }
+  ]
+ },
+ {
+  "id": 1012, "w": "toss", "uk": "легко перемішувати", "lvl": "B2",
+  "forms": "toss|tosses|tossed|tossed|tossing",
+  "near": "mix*|stir*|combin*|coat*",
+  "tasks": [
+   {
+    "sit": "Гості вже сідають за стіл, а ти даєш вказівки другові, який допомагає на кухні.",
+    "say": "Перемішай салат із заправкою перед самою подачею.",
+    "ans": ["Toss the salad with the dressing right before serving.", "Toss the salad in the dressing just before you serve it.", "Give the salad a quick toss with the dressing right before serving."],
+    "keys": { "заправка": "dressing|sauce|oil", "подача": "serv*|eat*|table" }
+   },
+   {
+    "sit": "Сусід по гуртожитку питає, як ти так швидко зробив вечерю.",
+    "say": "Я просто перемішав пасту з песто.",
+    "ans": ["I just tossed the pasta with pesto.", "I’ve simply tossed the pasta in some pesto.", "I literally just tossed the pasta with a bit of pesto."],
+    "keys": { "паста": "pasta|spaghetti|noodle*", "песто": "pesto|sauce" }
+   },
+   {
+    "sit": "Ти кухар у ресторані й пояснюєш новому помічнику, як готувати запечені овочі.",
+    "say": "Перемішай овочі з олією та сіллю, перш ніж ставити в духовку.",
+    "ans": ["Toss the vegetables with oil and salt before putting them in the oven.", "Toss the veggies in oil and salt, then put them in the oven.", "Just toss the veg in some oil and salt before they go in the oven."],
+    "keys": { "овочі": "vegetable*|veg*|potato*", "духовка": "oven|roast*|bak*" }
+   }
+  ]
+ },
+ {
+  "id": 1040, "w": "boot up", "uk": "завантажувати, вмикати (компʼютер)", "lvl": "B1",
+  "forms": "boot|boots|booted|booted|booting",
+  "tail": "up",
+  "near": "turn* on|switch* on|start* up|power* on|restart*|log* in",
+  "tasks": [
+   {
+    "sit": "Нарада онлайн уже почалася, а тебе ще немає. Пишеш колегам у месенджер.",
+    "say": "Мій ноутбук завантажується вже десять хвилин.",
+    "ans": ["My laptop has been booting up for ten minutes.", "My laptop is taking ten minutes to boot up.", "Ugh, my laptop has been booting up for like ten minutes."],
+    "keys": { "ноутбук": "laptop|computer|pc", "десять хвилин": "ten|10|minute*" }
+   },
+   {
+    "sit": "Друзі прийшли на вечір ігор. Ти просиш одного з них допомогти.",
+    "say": "Увімкни приставку, поки я замовлю піцу.",
+    "ans": ["Boot up the console while I order pizza.", "Can you boot up the console while I order the pizza?", "Go boot up the console, I’ll order pizza."],
+    "keys": { "приставка": "console|playstation|xbox|ps5|game*", "піца": "pizza" }
+   },
+   {
+    "sit": "Ти асистент викладача й приходиш в аудиторію раніше за всіх.",
+    "say": "Я ввімкну компʼютер до початку лекції.",
+    "ans": ["I’ll boot up the computer before the lecture starts.", "I’m going to boot up the computer before the lecture.", "Let me boot up the computer before everyone arrives for the lecture."],
+    "keys": { "компʼютер": "computer|pc|laptop|projector", "лекція": "lecture|class|lesson|talk" }
+   }
+  ]
+ },
+ {
+  "id": 1041, "w": "shut down", "uk": "вимикати (компʼютер, систему)", "lvl": "B1",
+  "forms": "shut|shuts|shut|shut|shutting",
+  "tail": "down",
+  "near": "turn* off|switch* off|power* off|power* down|log* off",
+  "tasks": [
+   {
+    "sit": "Ти керівник відділу й нагадуєш новенькому правила офісу.",
+    "say": "Не забувай вимикати компʼютер, коли йдеш додому.",
+    "ans": ["Don’t forget to shut down your computer when you go home.", "Remember to shut down the computer before you leave.", "Make sure you shut your computer down before heading home."],
+    "keys": { "компʼютер": "computer|pc|laptop|machine", "додому": "home|leav*|go" }
+   },
+   {
+    "sit": "Ти системний адміністратор і попереджаєш команду про нічні роботи.",
+    "say": "Ми вимкнемо сервер на ніч, щоб встановити оновлення.",
+    "ans": ["We’ll shut down the server overnight to install the update.", "We’re shutting the server down tonight for an update.", "We need to shut down the server tonight to run the update."],
+    "keys": { "сервер": "server*|system", "оновлення": "updat*|upgrad*|maintenance" }
+   },
+   {
+    "sit": "Уже північ, а донька-підліток досі грає за компʼютером.",
+    "say": "Вимикай компʼютер, уже північ!",
+    "ans": ["Shut down the computer, it’s already midnight!", "Time to shut the computer down — it’s midnight!", "Come on, shut down the computer, it’s past midnight!"],
+    "keys": { "північ": "midnight|late|twelve|12", "компʼютер": "computer|pc|laptop|game*" }
+   }
+  ]
+ },
+ {
+  "id": 1042, "w": "restart", "uk": "перезавантажувати", "lvl": "A2",
+  "forms": "restart|restarts|restarted|restarted|restarting",
+  "near": "reboot*|reset*|turn it off and on|switch it off and on",
+  "tasks": [
+   {
+    "sit": "Удома пропав інтернет, і брат не знає, що робити.",
+    "say": "Інтернет не працює — спробуй перезавантажити роутер.",
+    "ans": ["The internet isn’t working — try restarting the router.", "Try to restart the router, the internet is down.", "No internet again? Just restart the router."],
+    "keys": { "роутер": "router|modem", "інтернет": "internet|wi-fi|wifi|wi fi|connection|online" }
+   },
+   {
+    "sit": "Колега скаржиться, що компʼютер постійно просить установити оновлення.",
+    "say": "Треба перезавантажити компʼютер, щоб оновлення встановилися.",
+    "ans": ["You need to restart your computer to install the updates.", "Restart your computer so the updates can install.", "Just restart the computer and the updates will install."],
+    "keys": { "компʼютер": "computer|pc|laptop|machine", "оновлення": "updat*" }
+   },
+   {
+    "sit": "Тітка телефонує: у неї завис смартфон і нічого не натискається.",
+    "say": "Перезавантаж телефон — зазвичай це допомагає.",
+    "ans": ["Restart your phone — that usually helps.", "Try restarting your phone, it usually works.", "Just restart the phone, that usually fixes it."],
+    "keys": { "телефон": "phone|mobile|smartphone", "допомагає": "help*|work*|fix*|solv*" }
+   }
+  ]
+ },
+ {
+  "id": 1043, "w": "paste", "uk": "вставляти (з буфера обміну)", "lvl": "A2",
+  "forms": "paste|pastes|pasted|pasted|pasting",
+  "near": "insert*|put|add*|attach*",
+  "tasks": [
+   {
+    "sit": "Ви з друзями в груповому чаті обираєте готель, і друг знайшов гарний варіант.",
+    "say": "Встав посилання сюди в чат.",
+    "ans": ["Paste the link here in the chat.", "Can you paste the link into the chat?", "Just paste the link in the chat."],
+    "keys": { "посилання": "link*|url", "чат": "chat|here|group" }
+   },
+   {
+    "sit": "Колега питає, де у слайдах цифри за квартал.",
+    "say": "Я вставив таблицю в презентацію.",
+    "ans": ["I pasted the table into the presentation.", "I’ve pasted the table into the slides.", "I just pasted the table into my presentation."],
+    "keys": { "таблиця": "table|chart|graph|spreadsheet|numbers", "презентація": "presentation|slide*|deck" }
+   },
+   {
+    "sit": "Ви з подругою замовляєте одяг онлайн, а в тебе є промокод.",
+    "say": "Зараз вставлю код знижки на сайті.",
+    "ans": ["I’ll paste the discount code on the website.", "Let me paste the promo code at checkout.", "Hang on, I’ll just paste the discount code in."],
+    "keys": { "код знижки": "code|coupon|voucher|discount|promo*" }
+   }
+  ]
+ },
+ {
+  "id": 1044, "w": "copy", "uk": "копіювати", "lvl": "A1",
+  "forms": "copy|copies|copied|copied|copying",
+  "near": "duplicat*|clone*|save*|download*|transfer*|mov*",
+  "tasks": [
+   {
+    "sit": "Колега йде на зустріч із клієнтом, а файл тільки в тебе.",
+    "say": "Скопіюй файл на флешку.",
+    "ans": ["Copy the file onto a flash drive.", "Can you copy the file to my USB stick?", "Just copy the file onto the flash drive."],
+    "keys": { "файл": "file*|document*|folder*", "флешка": "flash drive|usb|stick|drive|memory stick" }
+   },
+   {
+    "sit": "Друг не може знайти кафе, де ви домовилися зустрітися.",
+    "say": "Я скопіював адресу й надіслав тобі.",
+    "ans": ["I copied the address and sent it to you.", "I’ve copied the address from the map and sent it.", "I just copied the address and texted it to you."],
+    "keys": { "адреса": "address|location", "надіслав": "sent|send*|text*|messag*" }
+   },
+   {
+    "sit": "У бабусі на телефоні закінчилося місце, і ти вирішуєш допомогти.",
+    "say": "Я скопіюю всі фото на компʼютер, щоб звільнити місце.",
+    "ans": ["I’ll copy all the photos to the computer to free up space.", "Let me copy your photos to the laptop to free up some space.", "I’ll copy the photos over to the computer so your phone has more space."],
+    "keys": { "фото": "photo*|picture*|pic*", "місце": "space|room|storage|memory" }
+   }
+  ]
+ },
+ {
+  "id": 1045, "w": "undo", "uk": "скасовувати (дію)", "lvl": "A2",
+  "forms": "undo|undoes|undid|undone|undoing",
+  "near": "cancel*|revers*|revert*|go back|restore*|control z|ctrl z",
+  "tasks": [
+   {
+    "sit": "Ти редагуєш спільний документ, і колега бачить, що зник цілий абзац.",
+    "say": "Я випадково видалив абзац — зараз скасую.",
+    "ans": ["I accidentally deleted a paragraph — I’ll undo it.", "Oops, I deleted the paragraph by accident, let me undo that.", "I accidentally deleted a whole paragraph, but I’ll undo it now."],
+    "keys": { "видалив": "delet*|remov*|eras*", "випадково": "accident*|by mistake|mistake|oops" }
+   },
+   {
+    "sit": "Ти обробляєш фото з відпустки, і після нового фільтра воно стало гіршим.",
+    "say": "Скасую останню зміну — фото було краще.",
+    "ans": ["I’ll undo the last change, the photo looked better.", "Let me undo that last edit — the picture was better before.", "I’m going to undo the last change, the photo looked better before."],
+    "keys": { "остання зміна": "last|change*|edit*|step", "фото": "photo*|picture*|image*" }
+   },
+   {
+    "sit": "Ти щойно надіслав лист не тому адресатові й панікуєш.",
+    "say": "Я надіслав лист не тій людині — це можна скасувати?",
+    "ans": ["I sent the email to the wrong person — can I undo it?", "Can I undo sending that email? It went to the wrong person.", "Oh no, wrong person! Is there a way to undo that email?"],
+    "keys": { "лист": "email*|e-mail|mail|message", "не тій людині": "wrong|mistake" }
+   }
+  ]
+ },
+ {
+  "id": 1046, "w": "redo", "uk": "повторити (дію), переробити", "lvl": "B1",
+  "forms": "redo|redoes|redid|redone|redoing",
+  "near": "do it again|did it again|repeat*|remake|remade|start over|start again",
+  "tasks": [
+   {
+    "sit": "Ти редагуєш відео й кілька разів натиснув «скасувати», повернувшись занадто далеко.",
+    "say": "Я скасував забагато — треба повторити останню дію.",
+    "ans": ["I undid too much — I need to redo the last step.", "I’ve undone too much, let me redo the last action.", "Oops, I undid too much. Let me redo the last step."],
+    "keys": { "забагато": "too much|too far|too many", "остання дія": "last|step|action" }
+   },
+   {
+    "sit": "Ти годину заповнював анкету на візу, а сайт видав помилку.",
+    "say": "Анкета не зберіглася — доведеться заповнювати все заново.",
+    "ans": ["The form didn’t save, so I’ll have to redo it.", "I have to redo the whole form because it didn’t save.", "Ugh, the form didn’t save, so I’ve got to redo the whole thing."],
+    "keys": { "анкета": "form|application", "не зберіглася": "save*|saving|lost|crash*|gone" }
+   },
+   {
+    "sit": "Після лабораторної одногрупник питає, чому ти ще не йдеш додому.",
+    "say": "Викладач сказав переробити третій крок експерименту.",
+    "ans": ["The teacher told me to redo step three of the experiment.", "I have to redo the third step of the experiment, the professor said.", "Our professor wants me to redo step three of the experiment."],
+    "keys": { "третій крок": "three|third|3*|step*", "експеримент": "experiment*|lab*|test*" }
+   }
+  ]
+ },
+ {
+  "id": 1047, "w": "drag", "uk": "перетягувати (мишкою)", "lvl": "B1",
+  "forms": "drag|drags|dragged|dragged|dragging",
+  "near": "mov*|pull*|slid*",
+  "tasks": [
+   {
+    "sit": "Ти вчиш маму впорядковувати документи на компʼютері.",
+    "say": "Перетягни файл у цю теку.",
+    "ans": ["Drag the file into this folder.", "Just drag the file to this folder.", "Can you drag that file into this folder?"],
+    "keys": { "файл": "file*|document*|it", "тека": "folder|directory" }
+   },
+   {
+    "sit": "Ти вчиш друга монтувати відео для його каналу.",
+    "say": "Перетягни ролик на часову шкалу.",
+    "ans": ["Drag the clip onto the timeline.", "Drag the video clip down to the timeline.", "Just drag the clip onto the timeline."],
+    "keys": { "ролик": "clip*|video*|footage", "шкала": "timeline|track" }
+   },
+   {
+    "sit": "Колега не може перенести зустріч в онлайн-календарі.",
+    "say": "Просто перетягни зустріч на пʼятницю.",
+    "ans": ["Just drag the meeting to Friday.", "Drag the meeting over to Friday in the calendar.", "You can just drag that meeting to Friday."],
+    "keys": { "зустріч": "meeting|appointment|call|event", "пʼятниця": "friday" }
+   }
+  ]
+ },
+ {
+  "id": 1048, "w": "drop", "uk": "кинути, відпустити (файл мишкою)", "lvl": "B1",
+  "forms": "drop|drops|dropped|dropped|dropping",
+  "near": "put|upload*|paste*|attach*|place*",
+  "tasks": [
+   {
+    "sit": "Ти допомагаєш дідусеві завантажити фото для документів на сайт.",
+    "say": "Просто перетягни фото й кинь його в це вікно.",
+    "ans": ["Just drag the photo and drop it into this window.", "Drag the photo over and drop it in this box.", "Grab the photo and just drop it here in this window."],
+    "keys": { "фото": "photo*|picture*|image*", "вікно": "window|box|here|area|field" }
+   },
+   {
+    "sit": "Колега закінчив звіт і питає, куди його надіслати.",
+    "say": "Кинь звіт у спільну теку, я подивлюся.",
+    "ans": ["Drop the report into the shared folder and I’ll take a look.", "Just drop the report in the shared folder, I’ll check it.", "Drop it in the shared folder, I’ll look at it later."],
+    "keys": { "спільна тека": "shared|folder|drive", "подивлюся": "look*|check*|see|review" }
+   },
+   {
+    "sit": "Ви з другом готуєте музику на вечірку в спільному плейлисті.",
+    "say": "Кинь ці пісні в плейлист для вечірки.",
+    "ans": ["Drop these songs into the party playlist.", "Just drop the songs into the playlist for the party.", "Can you drop these tracks into the party playlist?"],
+    "keys": { "пісні": "song*|track*|music", "плейлист": "playlist|list" }
+   }
+  ]
+ },
+ {
+  "id": 1049, "w": "dial", "uk": "набирати (номер)", "lvl": "A2",
+  "forms": "dial|dials|dialed/dialled|dialed/dialled|dialing/dialling",
+  "near": "call*|ring*|phone*|punch* in|press*|enter*|type*",
+  "tasks": [
+   {
+    "sit": "На вулиці людині стало погано, і ти кричиш перехожому з телефоном у руках.",
+    "say": "Наберіть 112, людині погано!",
+    "ans": ["Dial 112, this man needs help!", "Quick, dial 112 — someone is hurt!", "Somebody dial 112, he’s not okay!"],
+    "keys": { "112": "112|911|999|emergency|ambulance", "погано": "help|hurt|sick|ill|not okay|not ok|collaps*|unwell|not well" }
+   },
+   {
+    "sit": "Ти працюєш на рецепції готелю, і гість не може подзвонити з номера в місто.",
+    "say": "Щоб подзвонити в місто, спочатку наберіть нуль.",
+    "ans": ["To call outside, dial zero first.", "You need to dial zero first for an outside line.", "Just dial zero first if you want an outside line."],
+    "keys": { "нуль": "zero|0|nine|9", "спочатку": "first|before" }
+   },
+   {
+    "sit": "Ти подзвонив другові, а відповідає незнайома жінка.",
+    "say": "Вибачте, здається, я набрав не той номер.",
+    "ans": ["Sorry, I think I dialed the wrong number.", "Sorry, I must have dialed the wrong number.", "Oh, sorry — I think I’ve dialled the wrong number."],
+    "keys": { "не той номер": "wrong|mistake" }
+   }
+  ]
+ },
+ {
+  "id": 1050, "w": "hang up", "uk": "кидати, класти слухавку", "lvl": "A2",
+  "forms": "hang|hangs|hung|hung|hanging",
+  "tail": "up",
+  "near": "end* the call|ended the call|put down the phone|put the phone down|cut me off|disconnect*",
+  "tasks": [
+   {
+    "sit": "Ти посварився з сестрою по телефону й обурено розповідаєш про це другові.",
+    "say": "Вона кинула мені слухавку посеред розмови!",
+    "ans": ["She hung up on me in the middle of the conversation!", "She just hung up on me mid-conversation!", "Can you believe it? She hung up on me halfway through!"],
+    "keys": { "вона": "she|her", "мені": "me" }
+   },
+   {
+    "sit": "Колега питає, як ти реагуєш на дзвінки від продавців.",
+    "say": "Коли дзвонять продавці, я одразу кладу слухавку.",
+    "ans": ["When salespeople call, I hang up right away.", "When telemarketers call, I just hang up immediately.", "If it’s a sales call, I hang up straight away."],
+    "keys": { "одразу": "right away|immediately|straight away|instantly|at once", "продавці": "sales*|telemarket*|spam|seller*" }
+   },
+   {
+    "sit": "Ти працюєш на гарячій лінії, і клієнт просить поговорити зі старшим.",
+    "say": "Не кладіть слухавку, я переведу вас на менеджера.",
+    "ans": ["Don’t hang up, I’ll transfer you to a manager.", "Please don’t hang up — I’m putting you through to the manager.", "Stay on the line, don’t hang up, I’ll get my manager."],
+    "keys": { "не": "not", "менеджер": "manager|supervisor" }
+   }
+  ]
+ },
+ {
+  "id": 1051, "w": "pick up", "uk": "брати слухавку", "lvl": "A2",
+  "forms": "pick|picks|picked|picked|picking",
+  "tail": "up",
+  "near": "answer*|take the call|took the call|taking the call",
+  "tasks": [
+   {
+    "sit": "Мама вже годину не відповідає на дзвінки, і ти кажеш про це братові.",
+    "say": "Мама вже годину не бере слухавку, я хвилююся.",
+    "ans": ["Mom hasn’t picked up for an hour, I’m worried.", "Mom isn’t picking up and I’m getting worried.", "Mom’s not picking up — I’ve been calling for an hour."],
+    "keys": { "мама": "mom|mum|mother|mommy", "не бере": "not|never|no" }
+   },
+   {
+    "sit": "Колега дзвонив тобі тричі, поки ти був на важливій зустрічі. Ти передзвонюєш.",
+    "say": "Вибач, що не взяв слухавку, — я був на нараді.",
+    "ans": ["Sorry I didn’t pick up, I was in a meeting.", "Sorry for not picking up — I was in a meeting.", "Sorry, I couldn’t pick up, I was stuck in a meeting."],
+    "keys": { "нарада": "meeting|call|busy", "вибач": "sorry|apologi*" }
+   },
+   {
+    "sit": "Ти ліпиш вареники, і тут дзвонить телефон, що лежить на столі.",
+    "say": "Візьми слухавку, будь ласка, — у мене руки в тісті!",
+    "ans": ["Can you pick up the phone? My hands are covered in dough!", "Please pick up, my hands are all doughy!", "Could you pick that up? My hands are full of dough!"],
+    "keys": { "руки": "hand*", "тісто": "dirty|messy|covered|dough*|flour|sticky|full" }
+   }
+  ]
+ }
+]

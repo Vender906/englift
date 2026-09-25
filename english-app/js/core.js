@@ -13,6 +13,15 @@
   const norm = s => String(s).toLowerCase().replace(/[‘’ʼ`]/g, "'").replace(/[.,!?;:()«»""']/g, '').replace(/\s+/g, ' ').trim();
   const fillEq = (a, b) => norm(a).replace(/'/g, '') === norm(b).replace(/'/g, '');
   const plural = (n, one, few, many) => { const m10 = n % 10, m100 = n % 100; if (m10 === 1 && m100 !== 11) return one; if (m10 >= 2 && m10 <= 4 && (m100 < 10 || m100 >= 20)) return few; return many; };
+  /* відстань Дамерау-Левенштейна ≤ 1: одна зайва, пропущена, замінена чи переставлена літера */
+  function oneTypo(a, b) {
+    if (a === b) return true;
+    if (Math.abs(a.length - b.length) > 1) return false;
+    let i = 0;
+    while (i < a.length && i < b.length && a[i] === b[i]) i++;
+    if (a.length === b.length) return a.slice(i + 1) === b.slice(i + 1) || (a[i] === b[i + 1] && a[i + 1] === b[i] && a.slice(i + 2) === b.slice(i + 2));
+    return a.length > b.length ? a.slice(i + 1) === b.slice(i) : a.slice(i) === b.slice(i + 1);
+  }
 
   /* ============================ STORE ============================ */
   const KEY = 'fluentlab_v2';
@@ -307,7 +316,7 @@
   }
 
   window.FLCore = {
-    $, $$, esc, norm, fillEq, plural, shuffle, reducedMotion,
+    $, $$, esc, norm, fillEq, plural, oneTypo, shuffle, reducedMotion,
     KEY, defaultStore, FX_LIST, FX_DEFAULTS, store, save, loadStore, resetStore,
     levelInfo, topicKey, touchStreak, markKnown, isKnown,
     showToast, updateHeader, updateStreak, addXp, confetti,

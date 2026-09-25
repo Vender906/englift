@@ -1,0 +1,641 @@
+[
+ {
+  "id": 1800, "w": "DM", "uk": "написати в особисті (ДМ)", "lvl": "B1",
+  "forms": "DM|DMs|DMed|DMed|DMing",
+  "near": "message|messaged|messaging|messages|text|texted|texting|pm|pmed|write to|wrote to|send|sent",
+  "tasks": [
+   {
+    "sit": "Ти продаєш стару камеру через Інстаграм, і хтось у коментарях питає, скільки вона коштує.",
+    "say": "Напиши мені в ДМ, я скажу ціну.",
+    "ans": ["DM me and I’ll tell you the price.", "Just DM me for the price.", "DM me, I’ll send you the price."],
+    "keys": { "ціна": "price*|cost*|how much" }
+   },
+   {
+    "sit": "Друг хоче знати адресу вечірки, але ти не хочеш писати її в загальному чаті.",
+    "say": "Я скину тобі адресу в ДМ.",
+    "ans": ["I’ll DM you the address.", "I’m going to DM you the address.", "I’ll DM you the address, just don’t share it."],
+    "keys": { "адреса": "address*|location|where" }
+   },
+   {
+    "sit": "Ти вчора наважився написати відомому дизайнеру в Твіттері, і він відповів. Розповідаєш колезі.",
+    "say": "Я написав йому в ДМ, і він мені відповів!",
+    "ans": ["I DMed him and he replied!", "I DMed him yesterday and he actually answered!", "I DMed him and he wrote back!"],
+    "keys": { "відповів": "repl*|answer*|wrote back|respond*|got back" }
+   }
+  ]
+ },
+ {
+  "id": 1801, "w": "slide into DMs", "uk": "написати в ДМ (з натяком, щоб пофліртувати)", "lvl": "C1",
+  "forms": "slide|slides|slid|slid|sliding",
+  "tail": "into dm*",
+  "near": "dm|dmed|message*|hit up|hit on|flirt*",
+  "tasks": [
+   {
+    "sit": "Подруга показує тобі телефон: симпатичний хлопець зі спортзалу раптом написав їй в особисті з компліментом.",
+    "say": "Стоп, той хлопець зі спортзалу підкотив до тебе в ДМ?",
+    "ans": ["Wait, the guy from the gym slid into your DMs?", "So that gym guy slid into your DMs?", "No way, the guy from the gym actually slid into your DMs?"],
+    "keys": { "спортзал": "gym*" }
+   },
+   {
+    "sit": "Тобі подобається дівчина з курсів іспанської, але ти не знаєш, як почати розмову.",
+    "say": "Може, мені просто написати їй у ДМ?",
+    "ans": ["Maybe I should just slide into her DMs.", "Should I just slide into her DMs?", "I’m thinking of sliding into her DMs."],
+    "keys": { "може": "maybe|should|thinking|might" }
+   },
+   {
+    "sit": "Ти читаєш інтервʼю з відомим актором, де він розповідає, як познайомився з дружиною.",
+    "say": "Він сам написав їй у ДМ, і так вони познайомилися.",
+    "ans": ["He slid into her DMs, and that’s how they met.", "They met after he slid into her DMs.", "He literally slid into her DMs — that’s how they got together."],
+    "keys": { "познайомилися": "met|meet|got together|how" }
+   }
+  ]
+ },
+ {
+  "id": 1802, "w": "go viral", "uk": "стати вірусним", "lvl": "B2",
+  "forms": "go|goes|went|gone|going",
+  "tail": "viral",
+  "near": "blow up|blew up|blown up|took off|take off|taken off|trend*|spread*",
+  "tasks": [
+   {
+    "sit": "Сестра виклала відео, як її кіт грає на піаніно, і за день воно набрало мільйон переглядів.",
+    "say": "Твоє відео з котом стало вірусним!",
+    "ans": ["Your cat video went viral!", "Your video with the cat has gone viral!", "Dude, your cat video totally went viral!"],
+    "keys": { "кіт": "cat*|kitten*" }
+   },
+   {
+    "sit": "На нараді директор хоче рекламу, яку «побачить увесь інтернет». Ти відповідаєш чесно.",
+    "say": "Ми не можемо гарантувати, що реклама стане вірусною.",
+    "ans": ["We can’t guarantee the ad will go viral.", "There’s no guarantee that the ad will go viral.", "Nobody can promise an ad will go viral."],
+    "keys": { "не можемо": "not|no|nobody|never", "реклама": "ad|ads|advert*|commercial*|campaign*" }
+   },
+   {
+    "sit": "Ти обговорюєш із колегами місцеву новину про кафе у вашому місті.",
+    "say": "Відповідь власника кафе на поганий відгук стала вірусною.",
+    "ans": ["The café owner’s reply to a bad review went viral.", "The owner’s reply to that bad review has gone viral.", "That café owner’s response to a bad review went totally viral."],
+    "keys": { "відповідь": "repl*|respon*|answer*", "відгук": "review*|comment*" }
+   }
+  ]
+ },
+ {
+  "id": 1803, "w": "blow up", "uk": "злетіти (в мережі), стати дуже популярним", "lvl": "B2",
+  "forms": "blow|blows|blew|blown|blowing",
+  "tail": "up",
+  "near": "go viral|went viral|gone viral|took off|take off|explode*|trend*",
+  "tasks": [
+   {
+    "sit": "Ти виклав жартівливий пост про свої мовні курси, а зранку побачив тисячі сповіщень.",
+    "say": "Мій пост злетів — у мене тисячі лайків!",
+    "ans": ["My post blew up — I’ve got thousands of likes!", "My post has blown up, I have thousands of likes!", "Whoa, my post totally blew up — thousands of likes!"],
+    "keys": { "пост": "post*|tweet*", "лайки": "like*|thousand*" }
+   },
+   {
+    "sit": "Друг-музикант розповідає, чому всі раптом слухають одну й ту саму пісню.",
+    "say": "Ця пісня злетіла в ТікТоці, і тепер вона всюди.",
+    "ans": ["This song blew up on TikTok, and now it’s everywhere.", "The song blew up on TikTok and now they play it everywhere.", "That song blew up on TikTok — now you hear it everywhere."],
+    "keys": { "ТікТок": "tiktok|tik tok|online|app", "всюди": "everywhere|all over|every*" }
+   },
+   {
+    "sit": "У тебе маленька пекарня. Відомий фуд-блогер згадав вас у своєму відео.",
+    "say": "Після того, як блогер нас згадав, наша сторінка злетіла.",
+    "ans": ["After a blogger mentioned us, our page blew up.", "Our page blew up after that blogger mentioned us.", "Once that blogger gave us a shout-out, our page just blew up."],
+    "keys": { "блогер": "blogger*|influencer*", "сторінка": "page|account|profile|insta*" }
+   }
+  ]
+ },
+ {
+  "id": 1804, "w": "follow", "uk": "підписуватися (на акаунт)", "lvl": "A2",
+  "forms": "follow|follows|followed|followed|following",
+  "near": "subscribe*|sub|subbed|add|added",
+  "tasks": [
+   {
+    "sit": "Ти познайомився з цікавою людиною на конференції й хочеш не загубити контакт.",
+    "say": "Підпишись на мене в Інстаграмі!",
+    "ans": ["Follow me on Instagram!", "You can follow me on Instagram.", "Hey, follow me on Insta!"],
+    "keys": { "Інстаграм": "instagram|insta|ig" }
+   },
+   {
+    "sit": "Мама питає, звідки ти береш ідеї для вечері.",
+    "say": "Я підписався на одного кухаря, бо в нього прості рецепти.",
+    "ans": ["I followed a chef because his recipes are simple.", "I follow this chef because he has easy recipes.", "I started following this chef — his recipes are super simple."],
+    "keys": { "кухар": "chef*|cook*", "рецепти": "recipe*" }
+   },
+   {
+    "sit": "Брат давно не лайкає твої фото, і ти підозрюєш, що він відписався.",
+    "say": "Ти взагалі ще підписаний на мене?",
+    "ans": ["Do you still follow me?", "Are you still following me?", "Wait, do you even follow me anymore?"],
+    "keys": { "ще": "still|anymore|even" }
+   }
+  ]
+ },
+ {
+  "id": 1806, "w": "block", "uk": "заблокувати (користувача)", "lvl": "B1",
+  "forms": "block|blocks|blocked|blocked|blocking",
+  "near": "ban|bans|banned|banning|mute*|report*|unfollow*|remove*|delete*",
+  "tasks": [
+   {
+    "sit": "Під кожним твоїм фото одна й та сама людина лишає образливі коментарі.",
+    "say": "Я просто заблокую цього хейтера.",
+    "ans": ["I’ll just block this hater.", "I’m just going to block this hater.", "Honestly, I’ll just block that hater."],
+    "keys": { "хейтер": "hater*|troll*|guy|person|account|user" }
+   },
+   {
+    "sit": "Колишня дівчина писала тобі посеред ночі. Друг питає, як ти це вирішив.",
+    "say": "Я заблокував її номер, щоб вона більше не писала.",
+    "ans": ["I blocked her number so she can’t text me anymore.", "I’ve blocked her number so she won’t message me again.", "I blocked her number — she can’t text me anymore."],
+    "keys": { "номер": "number|her|contact", "більше не": "not|never|anymore|again|stop*" }
+   },
+   {
+    "sit": "Ти модеруєш групу мешканців свого будинку в месенджері. Туди почав писати бот із рекламою.",
+    "say": "Цього бота треба заблокувати, він спамить у групі.",
+    "ans": ["We need to block this bot, it’s spamming the group.", "Let’s block this bot — it keeps spamming the group.", "Let’s block that bot, it’s spamming the whole group."],
+    "keys": { "бот": "bot*|account|spammer*", "спам": "spam*" }
+   }
+  ]
+ },
+ {
+  "id": 1807, "w": "mute", "uk": "замʼютити (чат, акаунт)", "lvl": "B1",
+  "forms": "mute|mutes|muted|muted|muting",
+  "near": "silence*|turn off|turned off|switch off|switched off|snooze*|unfollow*|leave|left",
+  "tasks": [
+   {
+    "sit": "Батьки однокласників сина пишуть у спільний чат з ранку до ночі.",
+    "say": "Я замʼютив батьківський чат, бо там сотні повідомлень.",
+    "ans": ["I muted the parents’ chat because there are hundreds of messages.", "I’ve muted the parents’ group chat — there were hundreds of messages.", "I muted the parents’ chat, it’s hundreds of messages a day."],
+    "keys": { "батьки": "parent*", "повідомлення": "message*|text*|notification*|hundred*" }
+   },
+   {
+    "sit": "Колега скаржиться, що навіть у суботу йому пишуть по роботі.",
+    "say": "Замʼють робочий чат на вихідні.",
+    "ans": ["Mute the work chat for the weekend.", "You should mute the work chat over the weekend.", "Just mute the work chat for the weekend."],
+    "keys": { "робочий": "work*|office|team", "вихідні": "weekend*" }
+   },
+   {
+    "sit": "Старий знайомий постить про політику по двадцять разів на день, але сваритися з ним ти не хочеш.",
+    "say": "Я не хотів від нього відписуватися, тому просто замʼютив.",
+    "ans": ["I didn’t want to unfollow him, so I just muted him.", "I didn’t want to unfollow him, so I muted him instead.", "I didn’t want to unfollow him, so I just muted his posts."],
+    "keys": { "відписатися": "unfollow*|unfriend*|block*" }
+   }
+  ]
+ },
+ {
+  "id": 1808, "w": "report", "uk": "поскаржитися (на пост, акаунт)", "lvl": "B1",
+  "forms": "report|reports|reported|reported|reporting",
+  "near": "complain*|flag*|block*",
+  "tasks": [
+   {
+    "sit": "У стрічці ти бачиш оголошення: «Айфон за сто гривень, тільки передоплата».",
+    "say": "Я поскаржився на цей пост, бо це шахрайство.",
+    "ans": ["I reported this post because it’s a scam.", "I’ve reported the post — it’s a scam.", "I reported that post, it’s obviously a scam."],
+    "keys": { "пост": "post*|ad|ads|listing", "шахрайство": "scam*|fraud*|fake" }
+   },
+   {
+    "sit": "Хтось створив фейкову сторінку з твоїми фотографіями. Ти просиш друзів допомогти.",
+    "say": "Поскаржтеся на цей акаунт, він використовує мої фото.",
+    "ans": ["Report this account, it’s using my photos.", "Can you report this account? It’s using my photos.", "Please report that account — it’s using my pics."],
+    "keys": { "акаунт": "account*|profile*|page", "фото": "photo*|pic*|picture*|image*" }
+   },
+   {
+    "sit": "Ти пояснюєш молодшій сестрі правила безпеки в соцмережах.",
+    "say": "Якщо хтось погрожує в коментарях, одразу скаржся.",
+    "ans": ["If someone threatens you in the comments, report it right away.", "Report threatening comments immediately.", "If anyone threatens you in the comments, just report them straight away."],
+    "keys": { "погрожує": "threat*", "одразу": "right away|immediately|straight away|at once|now" }
+   }
+  ]
+ },
+ {
+  "id": 1809, "w": "stalk", "uk": "«сталкерити» — переглядати чийсь профіль", "lvl": "B2",
+  "forms": "stalk|stalks|stalked|stalked|stalking",
+  "near": "check* out|look* through|looked through|scroll* through|creep*|snoop*",
+  "tasks": [
+   {
+    "sit": "Друг щойно розповів про свою нову дівчину, і ти зізнаєшся, що вже знаєш про неї все.",
+    "say": "Зізнаюся: я вже переглянув увесь її профіль.",
+    "ans": ["I’ll admit it, I’ve already stalked her whole profile.", "Okay, I already stalked her profile.", "Honestly, I’ve totally stalked her Insta already."],
+    "keys": { "вже": "already", "профіль": "profile*|insta*|instagram|page|account" }
+   },
+   {
+    "sit": "Колега питає, як ти так добре підготувався до співбесіди.",
+    "say": "Перед співбесідою я трохи попереглядав ЛінкедІн менеджера.",
+    "ans": ["Before the interview, I stalked the manager’s LinkedIn a bit.", "I stalked the hiring manager’s LinkedIn before the interview.", "I did a little stalking of the manager’s LinkedIn before my interview."],
+    "keys": { "співбесіда": "interview*", "менеджер": "manager*|boss|recruiter*" }
+   },
+   {
+    "sit": "Подруга розійшлася з хлопцем місяць тому, але щовечора розглядає його нові фото.",
+    "say": "Перестань щовечора переглядати профіль колишнього!",
+    "ans": ["Stop stalking your ex’s profile every night!", "You need to stop stalking your ex every night.", "Seriously, quit stalking your ex’s profile every evening!"],
+    "keys": { "колишній": "ex*|former", "щовечора": "every night|every evening|night*|evening*" }
+   }
+  ]
+ },
+ {
+  "id": 1810, "w": "lurk", "uk": "читати мовчки, без активності (на форумі, в чаті)", "lvl": "C1",
+  "forms": "lurk|lurks|lurked|lurked|lurking",
+  "near": "read*|watch*|browse*|scroll*|observ*",
+  "tasks": [
+   {
+    "sit": "Ти вперше пишеш на форумі автомобілістів, і тебе питають, чи ти новенький.",
+    "say": "Я місяцями просто читав цей форум, нічого не пишучи.",
+    "ans": ["I lurked on this forum for months before posting.", "I’ve been lurking here for months without posting anything.", "I just lurked for months — never posted a thing."],
+    "keys": { "місяцями": "month*" }
+   },
+   {
+    "sit": "Новий колега дивується, чому ти ніколи нічого не пишеш у загальному робочому каналі.",
+    "say": "Я не пишу в загальному чаті, я просто мовчки читаю.",
+    "ans": ["I don’t post in the general chat, I just lurk.", "I never write in the main chat — I only lurk.", "I don’t really post in the group chat, I mostly just lurk."],
+    "keys": { "чат": "chat*|channel*|group", "не пишу": "not|never|only|just" }
+   },
+   {
+    "sit": "Ти провів свій перший стрім про настільні ігри й розповідаєш другові, як усе пройшло.",
+    "say": "На стрімі була тисяча глядачів, але більшість лише мовчки дивилися.",
+    "ans": ["There were a thousand viewers on the stream, but most of them just lurked.", "Most of the thousand people on the stream were just lurking.", "A thousand people were in the stream, but most were only lurking."],
+    "keys": { "стрім": "stream*|live*", "більшість": "most*" }
+   }
+  ]
+ },
+ {
+  "id": 1811, "w": "gain followers", "uk": "набирати фоловерів", "lvl": "B2",
+  "forms": "gain|gains|gained|gained|gaining",
+  "tail": "follower*",
+  "near": "get|got|gotten|getting|grow|grew|grown|growing|attract*|win|won|pick up|picked up",
+  "tasks": [
+   {
+    "sit": "Ти почав вести кулінарний блог і хвалишся результатом першого місяця.",
+    "say": "За місяць я набрав дві тисячі фоловерів.",
+    "ans": ["I gained two thousand followers in a month.", "I’ve gained two thousand followers this month.", "I gained like two thousand followers in just a month!"],
+    "keys": { "місяць": "month*", "дві тисячі": "two thousand|2000|2k|thousand*" }
+   },
+   {
+    "sit": "Ти ведеш сторінку книгарні й звітуєш власниці про минулий тиждень.",
+    "say": "Після розіграшу ми швидко набрали нових фоловерів.",
+    "ans": ["We gained new followers quickly after the giveaway.", "After the giveaway, we gained lots of new followers fast.", "We gained tons of new followers right after the giveaway."],
+    "keys": { "розіграш": "giveaway*|contest*|competition*", "нових": "new|fast|quick*" }
+   },
+   {
+    "sit": "Молодший брат хоче стати блогером і питає твоєї поради.",
+    "say": "Щоб набирати фоловерів, треба постити регулярно.",
+    "ans": ["To gain followers, you need to post regularly.", "If you want to gain followers, post regularly.", "You won’t gain followers unless you post consistently."],
+    "keys": { "регулярно": "regular*|consistent*|often|every day|daily" }
+   }
+  ]
+ },
+ {
+  "id": 1812, "w": "lose followers", "uk": "втрачати фоловерів", "lvl": "B2",
+  "forms": "lose|loses|lost|lost|losing",
+  "tail": "follower*",
+  "near": "unfollow*|drop*|shed|shedding",
+  "tasks": [
+   {
+    "sit": "Ти обговорюєш із подругою відомого блогера, який прорекламував сумнівне казино.",
+    "say": "Він втратив багато фоловерів після тієї невдалої реклами.",
+    "ans": ["He lost a lot of followers after that bad ad.", "He’s lost lots of followers since that bad ad.", "He lost tons of followers after that awful ad."],
+    "keys": { "реклама": "ad|ads|advert*|sponsor*|promo*", "багато": "lot|lots|tons|many|much" }
+   },
+   {
+    "sit": "Ти ведеш блог про подорожі й думаєш, чи варто писати про вибори.",
+    "say": "Я боюся втратити фоловерів, якщо почну писати про політику.",
+    "ans": ["I’m afraid I’ll lose followers if I start posting about politics.", "I’m scared of losing followers if I post about politics.", "I’m worried I’ll lose followers if I start posting about politics."],
+    "keys": { "боюся": "afraid|scared|worried|fear*|nervous", "політика": "politic*" }
+   },
+   {
+    "sit": "Ти відповідаєш за сторінку компанії й бачиш різке падіння в статистиці.",
+    "say": "Ми втратили триста фоловерів за тиждень — що сталося?",
+    "ans": ["We lost three hundred followers in a week — what happened?", "We’ve lost three hundred followers this week. What happened?", "We lost like three hundred followers in one week — what’s going on?"],
+    "keys": { "тиждень": "week*", "триста": "three hundred|300" }
+   }
+  ]
+ },
+ {
+  "id": 1813, "w": "vlog", "uk": "вести влог, знімати влог", "lvl": "B2",
+  "forms": "vlog|vlogs|vlogged|vlogged|vlogging",
+  "near": "film*|record*|shoot|shot|shooting|blog|blogs|blogged|blogging",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш друзям про плани на відпустку й нову камеру.",
+    "say": "Я буду вести влог про всю нашу поїздку до Японії.",
+    "ans": ["I’m going to vlog our whole trip to Japan.", "I’ll vlog the whole trip to Japan.", "I’m planning to vlog our entire Japan trip."],
+    "keys": { "поїздка": "trip*|travel*|journey", "Японія": "japan*" }
+   },
+   {
+    "sit": "Ти показуєш молодшій сестрі канал студентки, яка вчиться в Лондоні.",
+    "say": "Вона щодня веде влог про своє студентське життя.",
+    "ans": ["She vlogs about her student life every day.", "She vlogs her student life daily.", "She’s been vlogging her uni life every single day."],
+    "keys": { "студентське": "student*|uni|university|college|campus", "щодня": "every day|daily|every single day" }
+   },
+   {
+    "sit": "Ти купив стару квартиру й сам робиш у ній ремонт.",
+    "say": "Я вирішив вести влог про ремонт, щоб показати весь процес.",
+    "ans": ["I decided to vlog the renovation to show the whole process.", "I’ve decided to vlog my renovation so people can see the whole process.", "I figured I’d vlog the renovation and show people the whole thing."],
+    "keys": { "ремонт": "renovat*|repair*|remodel*|makeover" }
+   }
+  ]
+ },
+ {
+  "id": 1815, "w": "edit a video", "uk": "монтувати відео", "lvl": "B1",
+  "forms": "edit|edits|edited|edited|editing",
+  "tail": "video*",
+  "near": "cut|cuts|cutting|put together|trim*|montage",
+  "tasks": [
+   {
+    "sit": "Друг кличе тебе в кіно, але ти вже кілька вечорів сидиш за компʼютером.",
+    "say": "Я вже третій день монтую відео з весілля сестри.",
+    "ans": ["I’ve been editing the video from my sister’s wedding for three days.", "I’ve spent three days editing my sister’s wedding video.", "I’m still editing my sister’s wedding video — it’s day three."],
+    "keys": { "весілля": "wedding*", "сестра": "sister*" }
+   },
+   {
+    "sit": "Ви з одногрупниками розподіляєте обовʼязки для спільного проєкту.",
+    "say": "Хто змонтує відео для нашого проєкту?",
+    "ans": ["Who’s going to edit the video for our project?", "Who will edit the video for our project?", "So who’s editing the video for the project?"],
+    "keys": { "проєкт": "project*|presentation|assignment" }
+   },
+   {
+    "sit": "Нова знайома питає, чим ти заробляєш на життя.",
+    "say": "Я заробляю тим, що монтую відео для ютуберів.",
+    "ans": ["I make money by editing videos for YouTubers.", "I earn a living editing videos for YouTubers.", "I edit videos for YouTubers — that’s how I make money."],
+    "keys": { "ютубери": "youtuber*|youtube|creator*|blogger*", "заробляю": "money|earn*|living|paid|pay*|job|work" }
+   }
+  ]
+ },
+ {
+  "id": 1816, "w": "film a reel", "uk": "знімати рілс", "lvl": "B2",
+  "forms": "film|films|filmed|filmed|filming",
+  "tail": "reel*",
+  "near": "shoot|shoots|shot|shooting|record*|make|made|making|post*",
+  "tasks": [
+   {
+    "sit": "Ти працюєш у маленькій кавʼярні, яка щойно додала в меню нову лавандову каву.",
+    "say": "Давай знімемо короткий рілс про нашу нову каву.",
+    "ans": ["Let’s film a short reel about our new coffee.", "Why don’t we film a quick reel about the new coffee?", "Let’s film a quick reel showing off our new coffee."],
+    "keys": { "кава": "coffee*|drink*", "короткий": "short|quick|little" }
+   },
+   {
+    "sit": "Ти повернувся з походу в Карпати й показуєш другові відео з телефона.",
+    "say": "Я зняв рілс на вершині гори, але вітер зіпсував звук.",
+    "ans": ["I filmed a reel at the top of the mountain, but the wind ruined the sound.", "I filmed a reel on the mountain top, but the wind ruined the audio.", "I filmed a reel up on the mountain, but the wind messed up the sound."],
+    "keys": { "гора": "mountain*|peak|summit|top", "вітер": "wind*" }
+   },
+   {
+    "sit": "Ти тренер у спортзалі. Клієнт підходить із питанням саме тоді, коли ти тримаєш телефон на штативі.",
+    "say": "Секунду — я знімаю рілс для нашого залу.",
+    "ans": ["One second — I’m filming a reel for our gym.", "Just a sec, I’m filming a reel for the gym.", "Hang on, I’m filming a reel for our gym right now."],
+    "keys": { "зал": "gym*|fitness|club" }
+   }
+  ]
+ },
+ {
+  "id": 1817, "w": "go viral", "uk": "стати вірусним (про тренд, челендж)", "lvl": "B2",
+  "forms": "go|goes|went|gone|going",
+  "tail": "viral",
+  "near": "blow up|blew up|blown up|took off|take off|taken off|catch on|caught on|trend*|spread*",
+  "tasks": [
+   {
+    "sit": "Племінниця показує тобі новий танець, який зараз танцюють усі підлітки.",
+    "say": "Цей танцювальний тренд став вірусним за кілька днів.",
+    "ans": ["This dance trend went viral in a few days.", "The dance trend went viral within a couple of days.", "That dance trend went viral in just a few days."],
+    "keys": { "танець": "danc*", "дні": "day*" }
+   },
+   {
+    "sit": "Ти працюєш у маркетингу й пропонуєш команді зняти відео на популярний зараз тренд.",
+    "say": "Якщо ми приєднаємося до тренду, наше відео може стати вірусним.",
+    "ans": ["If we jump on the trend, our video could go viral.", "Our video might go viral if we join the trend.", "If we hop on this trend, our video could totally go viral."],
+    "keys": { "тренд": "trend*|challenge*", "може": "could|might|may|can" }
+   },
+   {
+    "sit": "Ти читаєш новини про новий челендж із відром льоду.",
+    "say": "Цей челендж став вірусним, і тепер його роблять навіть політики.",
+    "ans": ["This challenge went viral, and now even politicians are doing it.", "The challenge has gone viral — even politicians are doing it now.", "That challenge went so viral that even politicians are doing it."],
+    "keys": { "челендж": "challenge*|trend*", "політики": "politician*|leader*|minister*" }
+   }
+  ]
+ },
+ {
+  "id": 1818, "w": "monetize", "uk": "монетизувати", "lvl": "C1",
+  "forms": "monetize/monetise|monetizes/monetises|monetized/monetised|monetized/monetised|monetizing/monetising",
+  "near": "make money|made money|earn*|profit*|cash in|sell*",
+  "tasks": [
+   {
+    "sit": "Ти вже рік знімаєш відео про риболовлю, і друг питає, чи ти на цьому заробляєш.",
+    "say": "Я хочу монетизувати свій канал, але в мене замало підписників.",
+    "ans": ["I want to monetize my channel, but I don’t have enough subscribers.", "I’d like to monetize my channel, but I have too few subscribers.", "I want to monetize my channel, but I don’t have enough subs yet."],
+    "keys": { "канал": "channel*|youtube", "підписники": "subscriber*|subs|follower*|viewer*" }
+   },
+   {
+    "sit": "Ти працюєш у стартапі й розповідаєш колезі, як пройшла зустріч з інвесторами.",
+    "say": "Інвестори питають, як ми плануємо монетизувати застосунок.",
+    "ans": ["Investors are asking how we plan to monetize the app.", "The investors want to know how we’ll monetize the app.", "Investors keep asking how we’re going to monetize the app."],
+    "keys": { "інвестори": "investor*", "застосунок": "app*|application|product|platform" }
+   },
+   {
+    "sit": "Подруга фотографує природу у вільний час, і її знімки дуже гарні.",
+    "say": "Твої фото такі гарні — ти можеш монетизувати своє хобі.",
+    "ans": ["Your photos are so good — you could monetize your hobby.", "You could monetize your hobby, your photos are great.", "With photos like that, you should totally monetize your hobby."],
+    "keys": { "хобі": "hobby|hobbies|photo*" }
+   }
+  ]
+ },
+ {
+  "id": 1819, "w": "collaborate with", "uk": "колабитися, співпрацювати з", "lvl": "B2",
+  "forms": "collaborate|collaborates|collaborated|collaborated|collaborating",
+  "tail": "with",
+  "near": "collab|collabs|collabbed|collabbing|team up|teamed up|partner|partnered|work with|worked with|working with|cooperat*",
+  "tasks": [
+   {
+    "sit": "Ти працюєш у невеликому бренді косметики й розповідаєш про нову маркетингову ідею.",
+    "say": "Наш бренд хоче колабнутися з відомою блогеркою.",
+    "ans": ["Our brand wants to collaborate with a famous blogger.", "Our brand is looking to collaborate with a popular blogger.", "Our brand really wants to collaborate with a big influencer."],
+    "keys": { "блогерка": "blogger*|influencer*|creator*", "відома": "famous|popular|big|known|well" }
+   },
+   {
+    "sit": "Ти пишеш музику й ділишся з другом мрією.",
+    "say": "Я б хотів колабнутися з цим репером на новому треку.",
+    "ans": ["I’d love to collaborate with this rapper on a new track.", "I’d like to collaborate with that rapper on my new track.", "I would really love to collaborate with that rapper on a new song."],
+    "keys": { "репер": "rapper*|artist*|singer*", "трек": "track*|song*|single" }
+   },
+   {
+    "sit": "Ти ведеш кулінарний ютуб-канал і пояснюєш, звідки взявся приріст аудиторії.",
+    "say": "Минулого місяця ми колабилися з іншим каналом і отримали купу нових глядачів.",
+    "ans": ["Last month we collaborated with another channel and got loads of new viewers.", "We collaborated with another channel last month and gained lots of new viewers.", "We collaborated with another channel last month — tons of new viewers."],
+    "keys": { "канал": "channel*|creator*|youtuber*", "глядачі": "viewer*|subscriber*|follower*|audience|sub*" }
+   }
+  ]
+ },
+ {
+  "id": 1820, "w": "do a giveaway", "uk": "проводити розіграш", "lvl": "B2",
+  "forms": "do|does|did|done|doing",
+  "tail": "giveaway*",
+  "near": "run|runs|ran|running|host|hosted|hosting|hold|held|holding|raffle*|organi*",
+  "tasks": [
+   {
+    "sit": "Твій блог про рукоділля от-от набере десять тисяч підписників.",
+    "say": "На честь десяти тисяч підписників я проведу розіграш.",
+    "ans": ["I’ll do a giveaway to celebrate ten thousand subscribers.", "To celebrate ten thousand subscribers, I’m doing a giveaway.", "I’m doing a giveaway to celebrate hitting ten thousand subs!"],
+    "keys": { "десять тисяч": "ten thousand|10k|thousand*", "підписники": "subscriber*|subs|follower*" }
+   },
+   {
+    "sit": "Ви з партнером за тиждень відкриваєте кавʼярню й думаєте, як привернути гостей.",
+    "say": "Давай влаштуємо розіграш безкоштовної кави до відкриття.",
+    "ans": ["Let’s do a giveaway of free coffee for the opening.", "Why don’t we do a free coffee giveaway for the grand opening?", "Let’s do a giveaway for the opening — free coffee!"],
+    "keys": { "кава": "coffee*", "відкриття": "open*|launch*" }
+   },
+   {
+    "sit": "Ти хвалишся колезі новою книжкою з автографом.",
+    "say": "Письменниця робила розіграш підписаних книжок, і я виграв!",
+    "ans": ["The author did a giveaway of signed books, and I won!", "The author was doing a signed book giveaway, and I won one!", "The author did a giveaway with signed copies — and I won!"],
+    "keys": { "книжки": "book*|cop*|novel*", "виграв": "won|win*" }
+   }
+  ]
+ },
+ {
+  "id": 1821, "w": "gain traction", "uk": "набирати обертів, ставати популярнішим", "lvl": "C1",
+  "forms": "gain|gains|gained|gained|gaining",
+  "tail": "traction",
+  "near": "take off|took off|taken off|catch on|caught on|pick* up|picked up|gain* momentum|grow*|spread*",
+  "tasks": [
+   {
+    "sit": "Твій стартап зробив застосунок для обміну конспектами. Ти звітуєш партнерам.",
+    "say": "Наш застосунок нарешті почав набирати обертів серед студентів.",
+    "ans": ["Our app is finally gaining traction among students.", "Our app has finally started to gain traction with students.", "The app is finally gaining traction with students."],
+    "keys": { "застосунок": "app*|product|platform|startup", "студенти": "student*|uni*|college*" }
+   },
+   {
+    "sit": "Ти активіст у своєму місті й розповідаєш сусідові про петицію.",
+    "say": "Петиція про велодоріжки набирає обертів — уже пʼять тисяч підписів.",
+    "ans": ["The petition for bike lanes is gaining traction — it already has five thousand signatures.", "The bike lane petition has gained traction; five thousand people have signed it.", "That bike lane petition is really gaining traction — five thousand signatures already."],
+    "keys": { "петиція": "petition*", "велодоріжки": "bike*|cycl*|bicycle*" }
+   },
+   {
+    "sit": "Ти розповідаєш другові про новини у своїй компанії.",
+    "say": "Ідея чотириденного робочого тижня набирає обертів у нашій компанії.",
+    "ans": ["The idea of a four-day work week is gaining traction at our company.", "The four-day week idea has been gaining traction in our company.", "The whole four-day week thing is really gaining traction here at work."],
+    "keys": { "чотириденний": "four*|4*", "тиждень": "week*" }
+   }
+  ]
+ },
+ {
+  "id": 1822, "w": "engage", "uk": "залучати, утримувати увагу (аудиторії)", "lvl": "B2",
+  "forms": "engage|engages|engaged|engaged|engaging",
+  "near": "involve*|interest*|hook*|capture*|captivate*|draw in|drew in|grab*",
+  "tasks": [
+   {
+    "sit": "Колега вперше виступає на конференції й питає, як почати доповідь.",
+    "say": "Щоб залучити аудиторію, почни з питання.",
+    "ans": ["Start with a question to engage the audience.", "To engage your audience, open with a question.", "If you want to engage the audience, kick off with a question."],
+    "keys": { "аудиторія": "audience*|people|listener*|crowd|class", "питання": "question*" }
+   },
+   {
+    "sit": "Ти даєш другові чесний відгук після його презентації на роботі.",
+    "say": "Презентація була цікава, але ти не залучав слухачів.",
+    "ans": ["The presentation was interesting, but you didn’t engage the listeners.", "Your presentation was interesting, but you weren’t engaging the audience.", "Your talk was interesting, but you didn’t really engage the room."],
+    "keys": { "презентація": "presentation*|talk|speech|pitch", "не": "not|never" }
+   },
+   {
+    "sit": "Ти ведеш сторінку зоомагазину й пояснюєш новій колезі, що працює найкраще.",
+    "say": "Опитування в сторіз добре залучають підписників.",
+    "ans": ["Polls in stories really engage followers.", "Story polls are a great way to engage your followers.", "Polls in your stories engage followers really well."],
+    "keys": { "опитування": "poll*|quiz*|question*", "підписники": "follower*|subscriber*|audience*|viewer*" }
+   }
+  ]
+ },
+ {
+  "id": 1823, "w": "grow a channel", "uk": "розвивати канал", "lvl": "B1",
+  "forms": "grow|grows|grew|grown|growing",
+  "tail": "channel*",
+  "near": "build|builds|built|building|develop*|expand*|boost*|promot*",
+  "tasks": [
+   {
+    "sit": "Знайомий питає, чим ти займаєшся у вільний час.",
+    "say": "Я вже два роки розвиваю свій канал про риболовлю.",
+    "ans": ["I’ve been growing my fishing channel for two years.", "I’ve been growing my channel about fishing for two years now.", "I’ve spent two years growing my fishing channel."],
+    "keys": { "риболовля": "fish*", "два роки": "two years|2 years|years" }
+   },
+   {
+    "sit": "Молодий блогер на воркшопі питає, що найважливіше на початку.",
+    "say": "Щоб розвивати канал, відповідай на всі коментарі.",
+    "ans": ["To grow your channel, reply to every comment.", "If you want to grow your channel, answer all the comments.", "Want to grow your channel? Reply to every single comment."],
+    "keys": { "коментарі": "comment*" }
+   },
+   {
+    "sit": "Ти публікуєш вакансію від імені своєї компанії.",
+    "say": "Ми шукаємо людину, яка допоможе розвивати наш телеграм-канал.",
+    "ans": ["We’re looking for someone to help grow our Telegram channel.", "We are looking for a person who can help us grow our Telegram channel.", "We’re hiring someone to grow our Telegram channel."],
+    "keys": { "шукаємо": "hir*|looking for|recruit*|need", "телеграм": "telegram" }
+   }
+  ]
+ },
+ {
+  "id": 1824, "w": "send thanks", "uk": "надіслати подяку", "lvl": "B1",
+  "forms": "send|sends|sent|sent|sending",
+  "tail": "thanks",
+  "near": "thank you|thanked|say thank|said thank|grateful|gratitude",
+  "tasks": [
+   {
+    "sit": "Молодша сестра щойно пройшла свою першу співбесіду й питає, що робити далі.",
+    "say": "Після співбесіди варто надіслати подяку рекрутерові.",
+    "ans": ["After the interview, it’s a good idea to send thanks to the recruiter.", "You should send thanks to the recruiter after the interview.", "It’s smart to send your thanks to the recruiter after an interview."],
+    "keys": { "співбесіда": "interview*", "рекрутер": "recruiter*|interviewer*|hr|manager*" }
+   },
+   {
+    "sit": "Після весілля ви з дружиною розбираєте подарунки й список гостей.",
+    "say": "Треба надіслати подяку всім, хто прийшов на весілля.",
+    "ans": ["We need to send thanks to everyone who came to the wedding.", "We have to send thanks to all the wedding guests.", "We should send our thanks to everyone who came to the wedding."],
+    "keys": { "весілля": "wedding*", "всім": "everyone|everybody|all|guest*" }
+   },
+   {
+    "sit": "Сусіди допомогли вам занести меблі на пʼятий поверх. Ти просиш сина, який живе з ними поруч, передати їм кілька слів.",
+    "say": "Передай від мене подяку сусідам за допомогу з переїздом.",
+    "ans": ["Send my thanks to the neighbours for helping with the move.", "Please send the neighbours my thanks for their help with the move.", "Send the neighbors my thanks for helping us move."],
+    "keys": { "сусіди": "neighbo*", "переїзд": "mov*" }
+   }
+  ]
+ },
+ {
+  "id": 1825, "w": "express gratitude", "uk": "висловити вдячність", "lvl": "B2",
+  "forms": "express|expresses|expressed|expressed|expressing",
+  "tail": "gratitude",
+  "near": "thank|thanks|thanked|thanking|show* appreciation|showed appreciation|appreciat*",
+  "tasks": [
+   {
+    "sit": "Твій проєкт отримав нагороду, і тобі дають слово на сцені.",
+    "say": "Я хочу висловити вдячність своїй команді.",
+    "ans": ["I’d like to express my gratitude to my team.", "I want to express gratitude to my whole team.", "First of all, I’d like to express my gratitude to my amazing team."],
+    "keys": { "команда": "team*|colleague*" }
+   },
+   {
+    "sit": "Ти працюєш медбратом, і в ординаторській читають лист від родини колишнього пацієнта.",
+    "say": "Родина пацієнта висловила вдячність лікарям у листі.",
+    "ans": ["The patient’s family expressed their gratitude to the doctors in a letter.", "In a letter, the patient’s family expressed gratitude to the doctors.", "The family wrote a letter to express their gratitude to the doctors."],
+    "keys": { "лікарі": "doctor*|medic*|staff|nurse*", "лист": "letter*|card|note" }
+   },
+   {
+    "sit": "Ви з колегами організували благодійний забіг, і він пройшов чудово завдяки помічникам.",
+    "say": "Як нам висловити вдячність волонтерам?",
+    "ans": ["How can we express our gratitude to the volunteers?", "How should we express gratitude to the volunteers?", "What’s the best way to express our gratitude to the volunteers?"],
+    "keys": { "волонтери": "volunteer*|helper*" }
+   }
+  ]
+ },
+ {
+  "id": 1826, "w": "repay", "uk": "віддячити (за доброту, допомогу)", "lvl": "B2",
+  "forms": "repay|repays|repaid|repaid|repaying",
+  "near": "pay back|paid back|return the favo*|returned the favo*|make it up|made it up|thank*",
+  "tasks": [
+   {
+    "sit": "Сусідка тиждень доглядала твого собаку, поки ти був у лікарні, і нічого не хоче брати натомість.",
+    "say": "Не знаю, як я зможу віддячити тобі за доброту.",
+    "ans": ["I don’t know how I’ll ever repay your kindness.", "I don’t know how I can repay you for your kindness.", "I honestly don’t know how to repay your kindness."],
+    "keys": { "доброта": "kindness|kind|help*|everything", "не знаю": "not know|no idea" }
+   },
+   {
+    "sit": "Під час навчання за кордоном ти рік жив у приймальній родині. Прощаєшся з ними.",
+    "say": "Ви прийняли мене як рідного — як я можу вам віддячити?",
+    "ans": ["You took me in like family — how can I repay you?", "You treated me like family. How can I ever repay you?", "You welcomed me like one of your own — how do I repay you?"],
+    "keys": { "як рідного": "family|one of your own|own|son" }
+   },
+   {
+    "sit": "Колега колись виручив тебе на роботі, а тепер йому самому потрібна допомога з переїздом.",
+    "say": "Він колись мені допоміг, тож тепер я йому віддячу.",
+    "ans": ["He helped me once, so now I’ll repay him.", "He helped me back then, so I’m going to repay the favour.", "He once helped me out — now it’s my turn to repay him."],
+    "keys": { "допоміг": "help*" }
+   }
+  ]
+ }
+]

@@ -1,0 +1,648 @@
+[
+ {
+  "id": 2547, "w": "binge-watch together", "uk": "дивитися серіал запоєм разом", "lvl": "B2",
+  "forms": "binge-watch|binge-watches|binge-watched|binge-watched|binge-watching",
+  "tail": "together",
+  "near": "watched|watching|watch the whole|marathon*|stream*",
+  "tasks": [
+   {
+    "sit": "Ви з партнером застудилися й провели вихідні вдома.",
+    "say": "Ми цілий вікенд разом дивилися серіал запоєм.",
+    "ans": ["We binge-watched a series together all weekend.", "We spent the whole weekend binge-watching a show together.", "We just binge-watched TV together all weekend."],
+    "keys": { "вікенд": "weekend", "серіал": "series|show*|tv|season*" }
+   },
+   {
+    "sit": "Вийшов новий сезон вашого улюбленого серіалу. Ти пишеш сестрі.",
+    "say": "Приїжджай у суботу — подивимося весь сезон разом!",
+    "ans": ["Come over on Saturday and we’ll binge-watch the whole season together!", "Come on Saturday, let’s binge-watch the new season together!", "Come over Saturday — we can binge-watch the whole season together."],
+    "keys": { "сезон": "season|series|show*|episode*", "субота": "saturday" }
+   },
+   {
+    "sit": "Ви з найкращим другом живете в різних країнах, але хочете проводити час разом.",
+    "say": "Ми разом передивляємося серіали по відеозв’язку.",
+    "ans": ["We binge-watch shows together over video call.", "We binge-watch series together on video calls.", "We binge-watch stuff together over FaceTime."],
+    "keys": { "відеозв’язок": "video*|call*|facetime|zoom|skype|online|discord" }
+   }
+  ]
+ },
+ {
+  "id": 2548, "w": "play games", "uk": "грати в ігри разом", "lvl": "A2",
+  "forms": "play|plays|played|played|playing",
+  "tail": "game*",
+  "near": "gaming|game night|have fun|had fun",
+  "tasks": [
+   {
+    "sit": "Бабуся питає, що ви робитимете з онуками на канікулах.",
+    "say": "Будемо разом грати в настільні ігри.",
+    "ans": ["We’ll play board games together.", "We’re going to play board games together.", "We’ll play lots of board games together!"],
+    "keys": { "настільні": "board*|card*|table*", "разом": "together|with them|all" }
+   },
+   {
+    "sit": "Колега питає, як ти підтримуєш зв’язок із братом, який живе за кордоном.",
+    "say": "Ми щовечора граємо разом в онлайн-ігри.",
+    "ans": ["We play online games together every evening.", "Every night we play games together online.", "We play video games together online every night."],
+    "keys": { "щовечора": "every*|each night|evenings|nightly", "онлайн": "online|video" }
+   },
+   {
+    "sit": "Ти організовуєш вечірку на день народження й думаєш, як розважити гостей.",
+    "say": "Після торта можемо всі разом пограти в якісь ігри.",
+    "ans": ["After the cake, we can all play some games together.", "We could all play some games together after cake.", "After the cake, let’s play some games together!"],
+    "keys": { "торт": "cake" }
+   }
+  ]
+ },
+ {
+  "id": 2549, "w": "go out drinking", "uk": "піти випити (в бар)", "lvl": "B1",
+  "forms": "go|goes|went|gone|going",
+  "tail": "out drinking",
+  "near": "go for a drink|went for a drink|go for drinks|went for drinks|go to a bar|went to a bar|grab a drink|grabbed a drink|have a drink|had a drink|go out|went out",
+  "tasks": [
+   {
+    "sit": "Колега помічає, що ти сьогодні дуже втомлений.",
+    "say": "Учора ввечері ми з друзями ходили випити.",
+    "ans": ["I went out drinking with friends last night.", "My friends and I went out drinking last night.", "I went out drinking with my buddies last night."],
+    "keys": { "друзі": "friend*|buddies|mates|guys", "учора ввечері": "last night|yesterday" }
+   },
+   {
+    "sit": "Лікар на огляді питає про твої звички.",
+    "say": "Я ходжу випити не частіше ніж раз на місяць.",
+    "ans": ["I go out drinking no more than once a month.", "I only go out drinking once a month or so.", "I rarely go out drinking — maybe once a month."],
+    "keys": { "раз на місяць": "month*" }
+   },
+   {
+    "sit": "Ти з колегами на конференції в Дубліні. Офіційна частина закінчилася.",
+    "say": "Сьогодні ввечері ми йдемо випити по пабах.",
+    "ans": ["Tonight we’re going out drinking in the pubs.", "We’re going out drinking in the pubs tonight.", "We’re going out drinking tonight — pub crawl!"],
+    "keys": { "сьогодні ввечері": "tonight|this evening", "паби": "pub*|bar*" }
+   }
+  ]
+ },
+ {
+  "id": 2550, "w": "be there for", "uk": "бути поруч (у важкий час)", "lvl": "B1",
+  "forms": "be/am/are|is|was/were|been|being",
+  "tail": "there for",
+  "near": "support*|help*|stand by|stood by|have your back|got your back|here for",
+  "tasks": [
+   {
+    "sit": "Твоя подруга розлучається й дуже переживає.",
+    "say": "Я завжди буду поруч, що б не сталося.",
+    "ans": ["I’ll always be there for you, no matter what.", "Whatever happens, I’ll be there for you.", "I’m always going to be there for you, no matter what."],
+    "keys": { "що б не сталося": "no matter|whatever|anything" }
+   },
+   {
+    "sit": "На своєму весіллі ти виголошуєш тост для батьків.",
+    "say": "Дякую, що ви завжди були поруч зі мною.",
+    "ans": ["Thank you for always being there for me.", "Thanks for always being there for me.", "Thank you — you’ve always been there for me."],
+    "keys": { "дякую": "thank*", "завжди": "always" }
+   },
+   {
+    "sit": "Твій колега втратив роботу, і більшість знайомих перестали йому писати.",
+    "say": "Справжні друзі поруч саме тоді, коли тобі важко.",
+    "ans": ["Real friends are there for you when times are hard.", "True friends are there for you when things get tough.", "Real friends are there for you in hard times."],
+    "keys": { "справжні друзі": "friend*", "важко": "hard|tough|difficult|bad" }
+   }
+  ]
+ },
+ {
+  "id": 2551, "w": "lend an ear", "uk": "вислухати", "lvl": "B2",
+  "forms": "lend|lends|lent|lent|lending",
+  "tail": "ear*",
+  "near": "listen*|hear me out|heard me out|hear you out|talk to|talked to",
+  "tasks": [
+   {
+    "sit": "Подруга пише, що в неї жахливий день і їй треба виговоритися.",
+    "say": "Я завжди готовий тебе вислухати.",
+    "ans": ["I’m always happy to lend an ear.", "I’m always ready to lend you an ear.", "You know I’m always here to lend an ear."],
+    "keys": { "завжди": "always" }
+   },
+   {
+    "sit": "Важкий проєкт нарешті завершено. Ти дякуєш старшому колезі за підтримку.",
+    "say": "Дякую, що вислухав мене, коли мені це було потрібно.",
+    "ans": ["Thanks for lending an ear when I needed it.", "Thank you for lending me an ear when I needed it.", "Thanks for lending an ear — I really needed that."],
+    "keys": { "дякую": "thank*", "потрібно": "need*" }
+   },
+   {
+    "sit": "Ти волонтериш на лінії психологічної підтримки. Знайомий питає, що ти там робиш.",
+    "say": "Здебільшого я просто вислуховую людей, яким самотньо.",
+    "ans": ["Mostly I just lend an ear to people who feel lonely.", "I mostly just lend an ear to lonely people.", "Mostly, I lend an ear to people who are lonely."],
+    "keys": { "самотньо": "lonel*|alone", "здебільшого": "mostly|mainly|usually|most" }
+   }
+  ]
+ },
+ {
+  "id": 2552, "w": "give a shoulder to cry on", "uk": "дати плече, щоб виплакатися", "lvl": "C1",
+  "forms": "give|gives|gave|given|giving",
+  "tail": "shoulder cry on",
+  "near": "comfort*|console*|support*|be there for|was there for|listen*|be a shoulder|was a shoulder|offer a shoulder|offered a shoulder",
+  "tasks": [
+   {
+    "sit": "Твоя сестра переживає важке розлучення. Ти хочеш, щоб вона знала, що не сама.",
+    "say": "Я завжди дам тобі плече, щоб виплакатися.",
+    "ans": ["I’ll always give you a shoulder to cry on.", "Whenever you need it, I’ll give you a shoulder to cry on.", "I’m here — I’ll give you a shoulder to cry on anytime."],
+    "keys": { "завжди": "always|whenever|anytime|any time" }
+   },
+   {
+    "sit": "На родинному вечорі ти згадуєш покійну бабусю.",
+    "say": "Коли я був підлітком, вона завжди давала мені плече, щоб виплакатися.",
+    "ans": ["When I was a teenager, she always gave me a shoulder to cry on.", "She always gave me a shoulder to cry on when I was a teen.", "Back when I was a teenager, she always gave me a shoulder to cry on."],
+    "keys": { "підліток": "teen*|young|kid" }
+   },
+   {
+    "sit": "Після розриву ти тиждень ледве тримався. Тепер дякуєш колезі, який тоді був поруч.",
+    "say": "Дякую, що дав мені плече, щоб виплакатися.",
+    "ans": ["Thanks for giving me a shoulder to cry on.", "Thank you for giving me a shoulder to cry on last week.", "Thanks for giving me a shoulder to cry on — it meant a lot."],
+    "keys": { "дякую": "thank*" }
+   }
+  ]
+ },
+ {
+  "id": 2553, "w": "pep talk", "uk": "підбадьорити (мотиваційною розмовою)", "lvl": "C1",
+  "forms": "pep|peps|pep|pep|pepping",
+  "tail": "talk*",
+  "near": "encourag*|motivat*|inspir*|cheer* up|cheered her up|boost*|support*",
+  "tasks": [
+   {
+    "sit": "Ти тренуєш дитячу футбольну команду. Після першого тайму ви програєте 0:2.",
+    "say": "Треба підбадьорити їх мотиваційною промовою.",
+    "ans": ["I need to give them a pep talk.", "I have to give the team a pep talk.", "Time to give these kids a pep talk."],
+    "keys": { "треба": "need|have to|time|must|got to" }
+   },
+   {
+    "sit": "Подруга боїться йти на співбесіду й хоче все скасувати.",
+    "say": "Я поговорив із нею, підбадьорив — і вона таки пішла на співбесіду.",
+    "ans": ["I gave her a pep talk, and she went to the interview.", "After I gave her a pep talk, she went to the interview.", "I gave her a quick pep talk and she went to the interview after all."],
+    "keys": { "співбесіда": "interview" }
+   },
+   {
+    "sit": "Перед виступом на конференції ти стоїш у вбиральні й дивишся на себе в дзеркало.",
+    "say": "Я підбадьорив сам себе перед дзеркалом.",
+    "ans": ["I gave myself a pep talk in the mirror.", "I gave myself a little pep talk in front of the mirror.", "I had to give myself a pep talk in the mirror."],
+    "keys": { "дзеркало": "mirror", "себе": "myself" }
+   }
+  ]
+ },
+ {
+  "id": 2555, "w": "have someone's back", "uk": "прикривати (спину), бути на чиємусь боці", "lvl": "B2",
+  "forms": "have|has|had|had|having",
+  "tail": "back",
+  "near": "support*|protect*|cover* for|covered for|stand by|stood by|be there for|on your side",
+  "tasks": [
+   {
+    "sit": "Перед важкою зустріччю з клієнтом молодша колега дуже хвилюється.",
+    "say": "Не хвилюйся, я тебе прикрию.",
+    "ans": ["Don’t worry, I have your back.", "Don’t worry — I’ve got your back.", "Relax, I’ve got your back in there."],
+    "keys": { "не хвилюйся": "worry|relax|calm|fine|okay|ok" }
+   },
+   {
+    "sit": "Твій молодший брат іде в нову школу й боїться старшокласників.",
+    "say": "Якщо хтось до тебе чіплятиметься — знай, що я за тебе.",
+    "ans": ["If anyone bothers you, I have your back.", "If someone messes with you, remember I’ve got your back.", "If anyone picks on you, just know I’ve got your back."],
+    "keys": { "хтось": "anyone|someone|anybody|somebody" }
+   },
+   {
+    "sit": "Граєте в пейнтбол. Напарник має добігти до прапора, а ти лишаєшся в укритті.",
+    "say": "Біжи, я тебе прикриваю!",
+    "ans": ["Go, I have your back!", "Run! I’ve got your back!", "Go for it — I’ve got your back!"],
+    "keys": { "біжи": "go|run" }
+   }
+  ]
+ },
+ {
+  "id": 2556, "w": "defend a friend", "uk": "захищати друга", "lvl": "B1",
+  "forms": "defend|defends|defended|defended|defending",
+  "tail": "friend*",
+  "near": "stand up for|stood up for|stick up for|stuck up for|protect*|support*|side with|sided with",
+  "tasks": [
+   {
+    "sit": "Після уроків старші хлопці сміялися з твого однокласника, а ти заступився.",
+    "say": "Я захистив друга, хоча їх було більше.",
+    "ans": ["I defended my friend even though there were more of them.", "I defended my friend, even though they outnumbered us.", "I defended my friend, even though there were way more of them."],
+    "keys": { "їх більше": "more|outnumber*|many" }
+   },
+   {
+    "sit": "Колеги на кухні пліткують про твою подругу з іншого відділу.",
+    "say": "Я завжди захищатиму друзів, навіть коли їх немає поруч.",
+    "ans": ["I’ll always defend my friends, even when they’re not around.", "I will always defend my friends, even if they’re not here.", "I always defend my friends, even when they aren’t around."],
+    "keys": { "завжди": "always", "немає поруч": "not around|not here|absent|away|not there|not present" }
+   },
+   {
+    "sit": "Хтось у коментарях образив твого друга через його відео.",
+    "say": "Я написав коментар, щоб захистити друга.",
+    "ans": ["I wrote a comment to defend my friend.", "I posted a comment defending my friend.", "I left a comment to defend my friend."],
+    "keys": { "коментар": "comment*|repl*|post*" }
+   }
+  ]
+ },
+ {
+  "id": 2557, "w": "help out", "uk": "допомогти, виручити", "lvl": "A2",
+  "forms": "help|helps|helped|helped|helping",
+  "tail": "out",
+  "near": "assist*|give a hand|gave a hand|give you a hand|lend a hand|lent a hand|pitch in|pitched in",
+  "tasks": [
+   {
+    "sit": "Твій приятель переїжджає в суботу, а грошей на вантажників у нього немає.",
+    "say": "Не хвилюйся, я прийду й допоможу.",
+    "ans": ["Don’t worry, I’ll come and help out.", "I’ll come over and help out on Saturday.", "Don’t worry, I’ll come by and help out."],
+    "keys": { "прийду": "come|coming|over|by" }
+   },
+   {
+    "sit": "Колега питає, чим ти займаєшся на вихідних.",
+    "say": "Я допомагаю батькам у їхній пекарні.",
+    "ans": ["I help out at my parents’ bakery.", "I’m helping out at my parents’ bakery.", "I usually help out at my parents’ bakery on weekends."],
+    "keys": { "батьки": "parent*|mom|dad|family", "пекарня": "bakery|shop|business" }
+   },
+   {
+    "sit": "Літня сусідка не може сама донести важкі пакети на п’ятий поверх.",
+    "say": "Давайте я вам допоможу з пакетами.",
+    "ans": ["Let me help you out with the bags.", "Here, let me help you out with those bags.", "Can I help you out with your bags?"],
+    "keys": { "пакети": "bag*|those|shopping|groceries" }
+   }
+  ]
+ },
+ {
+  "id": 2558, "w": "offer support", "uk": "запропонувати підтримку", "lvl": "B1",
+  "forms": "offer|offers|offered|offered|offering",
+  "tail": "support",
+  "near": "help*|support you|supported|be there|comfort*|provide*|provided",
+  "tasks": [
+   {
+    "sit": "У колеги тяжко захворіла мама. Ти пишеш їй повідомлення.",
+    "say": "Якщо щось потрібно — я готовий запропонувати будь-яку підтримку.",
+    "ans": ["If you need anything, I’m happy to offer any support.", "I’m ready to offer any support you need.", "Just let me know — I’d like to offer any support I can."],
+    "keys": { "будь-яку": "any|anything|all" }
+   },
+   {
+    "sit": "Ти керівник відділу. Після скорочень команда пригнічена.",
+    "say": "Компанія пропонує психологічну підтримку всім працівникам.",
+    "ans": ["The company offers psychological support to all employees.", "The company is offering mental health support to all staff.", "We offer psychological support to every employee."],
+    "keys": { "психологічну": "psycholog*|mental*|emotional*|counsel*", "працівникам": "employee*|staff|worker*|everyone|team" }
+   },
+   {
+    "sit": "У сусідньому будинку сталася пожежа. Ти розповідаєш рідним новини.",
+    "say": "Усі сусіди запропонували підтримку постраждалим родинам.",
+    "ans": ["All the neighbors offered support to the families affected.", "The neighbors all offered support to the affected families.", "Everyone in the neighborhood offered support to those families."],
+    "keys": { "сусіди": "neighbo*|everyone", "родини": "famil*" }
+   }
+  ]
+ },
+ {
+  "id": 2560, "w": "fall out with", "uk": "посваритися з (кимось)", "lvl": "B2",
+  "forms": "fall|falls|fell|fallen|falling",
+  "tail": "out",
+  "near": "argue*|argued|fight|fought|quarrel*|had a row|broke up|stopped talking|stop talking",
+  "tasks": [
+   {
+    "sit": "Сусідка питає, чому ви з кумом більше не спілкуєтеся.",
+    "say": "Ми посварилися через гроші, які він мені винен.",
+    "ans": ["We fell out over money he owes me.", "I fell out with him over the money he owes me.", "We fell out because he still owes me money."],
+    "keys": { "гроші": "money|cash|debt|owe*", "винен": "owe*|debt|borrow*|lent" }
+   },
+   {
+    "sit": "Твій брат і ваш дядько вже два роки не бачаться на родинних святах.",
+    "say": "Вони посварилися через політику й досі не розмовляють.",
+    "ans": ["They fell out over politics and still aren’t talking.", "They fell out with each other over politics and still don’t speak.", "They fell out over politics, and they’re still not speaking."],
+    "keys": { "політика": "politic*|election*", "досі не": "still" }
+   },
+   {
+    "sit": "Журналіст питає, чому твій музичний гурт розпався.",
+    "say": "Я посварився з гітаристом, і він пішов.",
+    "ans": ["I fell out with the guitarist, and he left.", "I fell out with our guitarist and he quit.", "The guitarist and I fell out, so he left the band."],
+    "keys": { "гітарист": "guitar*", "пішов": "left|quit|leave|walked out|gone" }
+   }
+  ]
+ },
+ {
+  "id": 2562, "w": "ghost", "uk": "різко зникнути (перестати відповідати)", "lvl": "B2",
+  "forms": "ghost|ghosts|ghosted|ghosted|ghosting",
+  "near": "stopped answering|stop answering|stopped replying|stop replying|disappeared|vanished|ignored|ignore*|blocked|block*",
+  "tasks": [
+   {
+    "sit": "Після трьох чудових побачень людина раптом перестала відповідати на твої повідомлення.",
+    "say": "Схоже, вона просто зникла й ігнорує мене.",
+    "ans": ["I think she just ghosted me.", "Looks like she ghosted me after three dates.", "Yep, she totally ghosted me."],
+    "keys": { "мене": "me" }
+   },
+   {
+    "sit": "Ти пройшов три етапи співбесід, а компанія вже місяць мовчить.",
+    "say": "Після трьох співбесід вони просто зникли.",
+    "ans": ["They ghosted me after three interviews.", "The company just ghosted me after three rounds of interviews.", "After three interviews, they just ghosted me!"],
+    "keys": { "співбесіди": "interview*|round*", "три": "three|3" }
+   },
+   {
+    "sit": "Молодша сестра хоче перестати спілкуватися з подругою, нічого їй не пояснюючи.",
+    "say": "Не зникай просто так — краще чесно з нею поговори.",
+    "ans": ["Don’t just ghost her — talk to her honestly.", "Don’t ghost her. Be honest and talk to her.", "Don’t ghost her, just tell her the truth."],
+    "keys": { "поговори": "talk*|tell|speak|explain", "чесно": "honest*|truth" }
+   }
+  ]
+ },
+ {
+  "id": 2563, "w": "cut off", "uk": "розірвати стосунки (з кимось)", "lvl": "B2",
+  "forms": "cut|cuts|cut|cut|cutting",
+  "tail": "off",
+  "near": "stopped talking|stop talking|broke up|break up|cut ties|block*|drop*|end* things|ended things",
+  "tasks": [
+   {
+    "sit": "Колишня подруга роками тебе принижувала. Тепер ти з нею не спілкуєшся.",
+    "say": "Я розірвав із нею стосунки — і мені одразу стало легше.",
+    "ans": ["I cut her off, and I immediately felt better.", "I cut her off and felt better right away.", "I finally cut her off — and I feel so much better."],
+    "keys": { "легше": "better|lighter|relief|reliev*|free*" }
+   },
+   {
+    "sit": "Двоюрідна сестра питає, чому твій дядько не приходить на родинні свята.",
+    "say": "Він розірвав стосунки з батьками після того, як вони образили його дружину.",
+    "ans": ["He cut off his parents after they insulted his wife.", "He cut his parents off after they insulted his wife.", "After they insulted his wife, he cut his parents off completely."],
+    "keys": { "батьки": "parent*|family|mom|dad", "дружину": "wife" }
+   },
+   {
+    "sit": "Колега скаржиться, що приятель уп’яте позичив у нього гроші й не повернув.",
+    "say": "На твоєму місці я б розірвав із ним стосунки.",
+    "ans": ["If I were you, I’d cut him off.", "I would cut him off if I were you.", "If I were you, I’d just cut him off completely."],
+    "keys": { "на твоєму місці": "if i were you|in your shoes|in your place" }
+   }
+  ]
+ },
+ {
+  "id": 2565, "w": "stop talking", "uk": "перестати спілкуватися", "lvl": "A2",
+  "forms": "stop|stops|stopped|stopped|stopping",
+  "tail": "talking",
+  "near": "fell out|fall out|cut off|lost touch|lose touch|broke up|not speak*|not talk*",
+  "tasks": [
+   {
+    "sit": "Мама питає, чому однокласниця більше не приходить до тебе в гості.",
+    "say": "Ми посварилися й перестали спілкуватися.",
+    "ans": ["We had a fight and stopped talking.", "We argued and stopped talking to each other.", "We had a big fight, and we stopped talking after that."],
+    "keys": { "посварилися": "fight|fought|argu*|quarrel*|row" }
+   },
+   {
+    "sit": "Сусіди через дорогу вже рік судяться між собою.",
+    "say": "Вони перестали спілкуватися через суперечку про паркан.",
+    "ans": ["They stopped talking because of an argument about the fence.", "They stopped talking to each other over the fence.", "They’ve stopped talking over that fence dispute."],
+    "keys": { "паркан": "fence" }
+   },
+   {
+    "sit": "Колега питає про твого найкращого друга зі школи.",
+    "say": "Після випуску ми якось перестали спілкуватися.",
+    "ans": ["After graduation we somehow stopped talking.", "We just stopped talking after we graduated.", "We kind of stopped talking after graduation."],
+    "keys": { "випуск": "graduat*|school" }
+   }
+  ]
+ },
+ {
+  "id": 2566, "w": "hold a grudge", "uk": "тримати зло (на когось)", "lvl": "C1",
+  "forms": "hold|holds|held|held|holding",
+  "tail": "grudge*",
+  "near": "resent*|stay angry|stayed angry|still angry|still mad|bear a grudge|bore a grudge|not forgive|never forgave",
+  "tasks": [
+   {
+    "sit": "Сестра досі злиться на подругу, яка три роки тому забула про її день народження.",
+    "say": "Не варто так довго тримати зло.",
+    "ans": ["You shouldn’t hold a grudge for so long.", "It’s not worth holding a grudge that long.", "Come on, don’t hold a grudge for that long."],
+    "keys": { "так довго": "long|years" }
+   },
+   {
+    "sit": "За вечерею ти розповідаєш рідним про свого начальника.",
+    "say": "Він досі тримає на мене зло через ту помилку у звіті.",
+    "ans": ["He still holds a grudge against me over that mistake in the report.", "He’s still holding a grudge about that mistake in the report.", "He still holds a grudge because of that report mistake."],
+    "keys": { "помилка": "mistake|error", "звіт": "report" }
+   },
+   {
+    "sit": "Колишній партнер нарешті перепросив за давню сварку.",
+    "say": "Я не тримаю зла — усе вже в минулому.",
+    "ans": ["I don’t hold a grudge — it’s all in the past.", "I’m not holding a grudge. It’s in the past now.", "I don’t hold a grudge; that’s all behind us."],
+    "keys": { "не": "not|never|no", "в минулому": "past|behind|over|forgotten" }
+   }
+  ]
+ },
+ {
+  "id": 2567, "w": "forgive", "uk": "пробачити", "lvl": "B1",
+  "forms": "forgive|forgives|forgave|forgiven|forgiving",
+  "near": "excuse*|let it go|let go|pardon*|move on|moved on|get over it|got over it|not mad|not angry",
+  "tasks": [
+   {
+    "sit": "Подруга зізналася, що розповіла іншим твій секрет, і щиро перепрошує.",
+    "say": "Я тебе пробачаю, але більше так не роби.",
+    "ans": ["I forgive you, but don’t do it again.", "I forgive you — just don’t ever do that again.", "Okay, I forgive you. Just never do that again."],
+    "keys": { "більше не": "again|never|not" }
+   },
+   {
+    "sit": "Десять років тому найкращий друг тебе підставив. Тепер він пише, що хоче помиритися.",
+    "say": "Я давно його пробачив, але довіряти вже не можу.",
+    "ans": ["I forgave him long ago, but I can’t trust him anymore.", "I’ve forgiven him, but I still can’t trust him.", "I forgave him years ago, but trust him again? No way."],
+    "keys": { "довіряти": "trust*" }
+   },
+   {
+    "sit": "Ти забув зустріти брата в аеропорту, і він чекав дві години.",
+    "say": "Сподіваюся, ти мене пробачиш.",
+    "ans": ["I hope you’ll forgive me.", "I hope you can forgive me.", "I really hope you can forgive me, I feel terrible."],
+    "keys": { "сподіваюся": "hope|please", "мене": "me" }
+   }
+  ]
+ },
+ {
+  "id": 2568, "w": "make up", "uk": "помиритися", "lvl": "B1",
+  "forms": "make|makes|made|made|making",
+  "tail": "up",
+  "near": "reconcile*|forgave|forgive*|apologiz*|apologis*|patch* things up|sort* it out|sorted it out|friends again",
+  "tasks": [
+   {
+    "sit": "Твої діти посварилися через іграшку й тепер сидять у різних кімнатах.",
+    "say": "Помиріться, будь ласка, і грайтеся разом.",
+    "ans": ["Please make up and play together.", "Come on, make up and play together nicely.", "Make up, please, and go play together."],
+    "keys": { "грайтеся": "play*" }
+   },
+   {
+    "sit": "Колега питає, чи помирився ти з дівчиною після вчорашньої сварки.",
+    "say": "Так, ми помирилися зранку.",
+    "ans": ["Yes, we made up this morning.", "Yeah, we made up in the morning.", "Yep, we already made up this morning."],
+    "keys": { "зранку": "morning|today" }
+   },
+   {
+    "sit": "Дві сестри пів року не спілкувалися, а тепер разом прийшли на твоє свято.",
+    "say": "Схоже, вони нарешті помирилися!",
+    "ans": ["Looks like they finally made up!", "It seems they’ve finally made up!", "Oh good, they finally made up!"],
+    "keys": { "нарешті": "finally|at last" }
+   }
+  ]
+ },
+ {
+  "id": 2569, "w": "reconnect", "uk": "поновити зв’язок", "lvl": "B2",
+  "forms": "reconnect|reconnects|reconnected|reconnected|reconnecting",
+  "near": "got back in touch|get back in touch|found each other|caught up|catch up|met again|keep in touch|get closer|got closer",
+  "tasks": [
+   {
+    "sit": "Ти знайшов у соцмережі однокласника, якого не бачив п’ятнадцять років.",
+    "say": "Ми поновили зв’язок завдяки фейсбуку.",
+    "ans": ["We reconnected on Facebook.", "We reconnected thanks to Facebook.", "We found each other and reconnected on Facebook."],
+    "keys": { "фейсбук": "facebook|social media|online" }
+   },
+   {
+    "sit": "Ти роками майже не говорив із батьком. Минулого літа ви разом поїхали на риболовлю.",
+    "say": "Та поїздка допомогла нам знову зблизитися.",
+    "ans": ["That trip helped us reconnect.", "The trip really helped us reconnect.", "That fishing trip helped us reconnect."],
+    "keys": { "поїздка": "trip|travel*|vacation" }
+   },
+   {
+    "sit": "Ти організовуєш зустріч випускників через двадцять років після школи.",
+    "say": "Я хочу, щоб усі мали нагоду знову поновити зв’язок.",
+    "ans": ["I want everyone to have a chance to reconnect.", "I’d like to give everyone a chance to reconnect.", "I just want everybody to get a chance to reconnect."],
+    "keys": { "усі": "everyone|everybody|all", "нагода": "chance|opportunit*" }
+   }
+  ]
+ },
+ {
+  "id": 2570, "w": "backstab", "uk": "зрадити (ударити в спину)", "lvl": "C1",
+  "forms": "backstab|backstabs|backstabbed|backstabbed|backstabbing",
+  "near": "betray*|stab* me in the back|stabbed her in the back|stab* in the back|sold me out|sell out|double-cross*|two-fac*",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш мамі, чому підвищення отримав колега, а не ти.",
+    "say": "Він підло мене зрадив — видав мою ідею за свою.",
+    "ans": ["He backstabbed me — he passed off my idea as his own.", "He backstabbed me and took credit for my idea.", "He totally backstabbed me by stealing my idea."],
+    "keys": { "ідея": "idea*" }
+   },
+   {
+    "sit": "Ти дивишся з сестрою реаліті-шоу. Учасниця щойно проголосувала проти своєї найкращої подруги.",
+    "say": "Не можу повірити, що вона так зрадила найкращу подругу!",
+    "ans": ["I can’t believe she backstabbed her best friend!", "I can’t believe she just backstabbed her best friend like that!", "Wow, she backstabbed her own best friend!"],
+    "keys": { "найкращу подругу": "best friend|friend*" }
+   },
+   {
+    "sit": "Донька-підліток плаче: подруга розповіла всім її таємницю.",
+    "say": "Мені шкода, що вона так тебе зрадила.",
+    "ans": ["I’m sorry she backstabbed you like that.", "I’m so sorry she backstabbed you.", "It’s awful that she backstabbed you like this."],
+    "keys": { "шкода": "sorry|awful|terrible|shame|bad" }
+   }
+  ]
+ },
+ {
+  "id": 2571, "w": "stroll around", "uk": "прогулюватися", "lvl": "B1",
+  "forms": "stroll|strolls|strolled|strolled|strolling",
+  "tail": "around/round",
+  "near": "walk*|wander*|take a walk|took a walk|went for a walk|go for a walk",
+  "tasks": [
+   {
+    "sit": "Колега питає, що ти робив у Львові на вихідних.",
+    "say": "Ми просто гуляли старим містом і пили каву.",
+    "ans": ["We just strolled around the old town and drank coffee.", "We strolled around the old town and had coffee.", "We just strolled around the old city, drinking coffee."],
+    "keys": { "старе місто": "old town|old city|city|town|center|centre", "кава": "coffee" }
+   },
+   {
+    "sit": "Після ситної вечері вдома тобі не хочеться одразу лягати на диван.",
+    "say": "Ходімо прогуляємося навколо кварталу.",
+    "ans": ["Let’s stroll around the block.", "Let’s go and stroll around the neighborhood.", "Why don’t we stroll around the block for a bit?"],
+    "keys": { "квартал": "block|neighbo*|street*|area" }
+   },
+   {
+    "sit": "У понеділок колеги питають, як минула твоя неділя.",
+    "say": "Я кілька годин прогулювався парком і слухав подкаст.",
+    "ans": ["I strolled around the park for a few hours listening to a podcast.", "I spent a few hours strolling around the park with a podcast on.", "I just strolled around the park for hours, listening to a podcast."],
+    "keys": { "парк": "park", "подкаст": "podcast*" }
+   }
+  ]
+ },
+ {
+  "id": 2572, "w": "tiptoe out", "uk": "навшпиньки вийти", "lvl": "B2",
+  "forms": "tiptoe|tiptoes|tiptoed|tiptoed|tiptoeing",
+  "tail": "out",
+  "near": "sneak* out|snuck out|crept out|creep out|slip* out|slipped out|quietly left|left quietly",
+  "tasks": [
+   {
+    "sit": "Ти нарешті приспав малого й хочеш вийти з кімнати, не розбудивши його.",
+    "say": "Я навшпиньки вийшов, щоб не розбудити малого.",
+    "ans": ["I tiptoed out so I wouldn’t wake the baby.", "I tiptoed out of the room so the baby wouldn’t wake up.", "I tiptoed out, trying not to wake the little one."],
+    "keys": { "не розбудити": "wake*|woke|sleep*", "малого": "baby|kid|little one|child|him|son" }
+   },
+   {
+    "sit": "Лекція ще триває, а тобі вже треба бігти на інше заняття.",
+    "say": "Я навшпиньки вийшов посеред лекції.",
+    "ans": ["I tiptoed out in the middle of the lecture.", "I tiptoed out halfway through the lecture.", "I quietly tiptoed out in the middle of the talk."],
+    "keys": { "лекція": "lecture|class|talk|seminar", "посеред": "middle|halfway|during" }
+   },
+   {
+    "sit": "Вечірка в розпалі, але тобі рано вставати. Не хочеш, щоб господарі вмовляли лишитися.",
+    "say": "Я навшпиньки вийду, щоб ніхто не помітив.",
+    "ans": ["I’ll tiptoe out so nobody notices.", "I’m just going to tiptoe out before anyone notices.", "I’ll quietly tiptoe out without anyone noticing."],
+    "keys": { "не помітив": "notic*|see*|seeing" }
+   }
+  ]
+ },
+ {
+  "id": 2573, "w": "speed up", "uk": "пришвидшуватися", "lvl": "A2",
+  "forms": "speed|speeds|sped/speeded|sped/speeded|speeding",
+  "tail": "up",
+  "near": "hurry*|go faster|drive faster|run faster|accelerat*|faster|quicker|step on it",
+  "tasks": [
+   {
+    "sit": "Ти їдеш на таксі й запізнюєшся на поїзд, а водій їде дуже повільно.",
+    "say": "Можете, будь ласка, трохи пришвидшитися?",
+    "ans": ["Could you speed up a little, please?", "Can you please speed up a bit?", "Would you mind speeding up a little?"],
+    "keys": { "трохи": "little|bit|slightly" }
+   },
+   {
+    "sit": "Ти бігаєш із тренером. Він питає, як пройшов забіг.",
+    "say": "На останньому кілометрі я пришвидшився.",
+    "ans": ["I sped up on the last kilometer.", "I sped up for the last kilometre.", "On the final kilometer, I really sped up."],
+    "keys": { "останньому": "last|final", "кілометрі": "kilomet*|km|mile*|stretch" }
+   },
+   {
+    "sit": "Ти вчиш пісню на гітарі разом із другом. У середині вона стає помітно швидшою.",
+    "say": "Обережно, тут пісня раптом пришвидшується.",
+    "ans": ["Careful, the song suddenly speeds up here.", "Watch out, it suddenly speeds up right here.", "Heads up — here the song suddenly speeds up."],
+    "keys": { "раптом": "suddenly|all of a sudden|out of nowhere", "тут": "here" }
+   }
+  ]
+ },
+ {
+  "id": 2574, "w": "slow down", "uk": "сповільнюватися, пригальмувати", "lvl": "A2",
+  "forms": "slow|slows|slowed|slowed|slowing",
+  "tail": "down",
+  "near": "brake*|braked|go slower|drive slower|speak slower|talk slower|more slowly|ease off|take it easy|calm down",
+  "tasks": [
+   {
+    "sit": "Ти пасажир, а твій брат жене повз школу.",
+    "say": "Пригальмуй, тут школа!",
+    "ans": ["Slow down, there’s a school here!", "Slow down — this is a school zone!", "Hey, slow down, there’s a school!"],
+    "keys": { "школа": "school*|kids|children" }
+   },
+   {
+    "sit": "Ти розмовляєш з іноземцем, який дуже швидко говорить англійською.",
+    "say": "Вибачте, чи не могли б ви говорити трохи повільніше?",
+    "ans": ["Sorry, could you slow down a little?", "Sorry, can you slow down a bit, please?", "Sorry, could you slow down? You’re talking really fast."],
+    "keys": { "вибачте": "sorry|excuse me|pardon" }
+   },
+   {
+    "sit": "Лікар дивиться твої аналізи й дізнається, що ти працюєш по дванадцять годин на день.",
+    "say": "Вам треба пригальмувати, інакше ви вигорите.",
+    "ans": ["You need to slow down, or you’ll burn out.", "You have to slow down or you’re going to burn out.", "You really need to slow down before you burn out."],
+    "keys": { "треба": "need|have to|must|should", "вигорите": "burn* out|burnout|exhaust*|collapse" }
+   }
+  ]
+ },
+ {
+  "id": 2575, "w": "chime in", "uk": "вкинути слово (втрутитися в розмову)", "lvl": "C1",
+  "forms": "chime|chimes|chimed|chimed|chiming",
+  "tail": "in",
+  "near": "interrupt*|cut in|butt* in|jump* in|jumped in|join* in|add something|say something|said something",
+  "tasks": [
+   {
+    "sit": "На онлайн-нараді колеги обговорюють бюджет, а в тебе є важливі дані.",
+    "say": "Можна я вкину слово? У мене є свіжі цифри.",
+    "ans": ["Can I chime in? I have the latest numbers.", "Mind if I chime in? I’ve got some fresh numbers.", "Sorry, can I just chime in here? I have the new figures."],
+    "keys": { "цифри": "number*|figure*|data|stat*" }
+   },
+   {
+    "sit": "Батьки сперечалися, куди їхати у відпустку, а молодша сестра весь час мовчала.",
+    "say": "І тут сестра втрутилася зі своєю ідеєю.",
+    "ans": ["Then my sister chimed in with her own idea.", "And then my sister chimed in with an idea.", "That’s when my sister chimed in with her idea."],
+    "keys": { "сестра": "sister|sis", "ідея": "idea|suggest*" }
+   },
+   {
+    "sit": "На форумі люди сперечаються про ремонт велосипеда, а ти працюєш веломеханіком.",
+    "say": "Я не міг не втрутитися зі своїми п’ятьма копійками.",
+    "ans": ["I couldn’t resist chiming in with my two cents.", "I had to chime in with my two cents.", "As a mechanic, I just had to chime in with my opinion."],
+    "keys": { "не міг не": "resist|had to|could not help", "п’ять копійок": "two cents|opinion|advice|thoughts" }
+   }
+  ]
+ }
+]

@@ -1,0 +1,652 @@
+[
+ {
+  "id": 2943, "w": "finish a meal", "uk": "доїсти, закінчити їсти", "lvl": "A2",
+  "forms": "finish|finishes|finished|finished|finishing",
+  "tail": "meal*/dinner/lunch/breakfast/food/supper",
+  "near": "eat up|ate up|eaten up|done eating|done with|clear* your plate|clean* your plate|complete*",
+  "tasks": [
+   {
+    "sit": "Ви вечеряєте всією родиною. Син уже рветься до компʼютера, хоча тарілка ще повна.",
+    "say": "Спочатку доїж вечерю, а потім гратимеш.",
+    "ans": ["Finish your dinner first, then you can play.", "You can play after you finish your meal.", "Finish your dinner first, and then you can go play games."],
+    "keys": { "гратимеш": "play*|game*|computer", "спочатку": "first|after|then" }
+   },
+   {
+    "sit": "У ресторані офіціант підходить забрати тарілки, а на твоїй ще лишилася їжа.",
+    "say": "Вибачте, я ще не закінчив їсти.",
+    "ans": ["Sorry, I haven’t finished my meal yet.", "Excuse me, I haven’t finished my food yet.", "Sorry, I’m not done — let me finish my meal first."],
+    "keys": { "ще не": "not|yet|still" }
+   },
+   {
+    "sit": "Лікарка пояснює тобі, як приймати нові таблетки для шлунка.",
+    "say": "Приймайте таблетку одразу після того, як закінчите їсти.",
+    "ans": ["Take the pill right after you finish your meal.", "Take one tablet as soon as you’ve finished your meal.", "Just take it right after you finish your meal."],
+    "keys": { "таблетка": "pill*|tablet*|it|medicine*|medication*", "одразу після": "after|as soon as|once" }
+   }
+  ]
+ },
+ {
+  "id": 2944, "w": "start a meal", "uk": "починати трапезу (з молитви)", "lvl": "B1",
+  "forms": "start|starts|started|started|starting",
+  "tail": "meal*/dinner/lunch/breakfast/supper",
+  "near": "begin*|began|begun|say grace|said grace|open*",
+  "tasks": [
+   {
+    "sit": "Друг-іноземець уперше приїхав із тобою до бабусі на свята й дивується, чому ніхто не їсть.",
+    "say": "У нас завжди починають трапезу з молитви.",
+    "ans": ["We always start the meal with a prayer.", "In our family, we always start meals with a prayer.", "We always start the meal with a little prayer first."],
+    "keys": { "молитва": "pray*|grace|blessing", "завжди": "always|every*|tradition*" }
+   },
+   {
+    "sit": "Ти розповідаєш колезі з Канади про український Святвечір.",
+    "say": "Святу вечерю ми починаємо з куті.",
+    "ans": ["We start the meal with kutia.", "On Christmas Eve we start dinner with kutia.", "We always start the Christmas Eve meal with kutia — it’s a sweet wheat dish."],
+    "keys": { "кутя": "kutia|kutya|wheat|porridge" }
+   },
+   {
+    "sit": "Ти волонтериш у церковному таборі й пояснюєш дітям правила в їдальні.",
+    "say": "Ми починаємо обід із короткої молитви, тож поки не їжте.",
+    "ans": ["We start the meal with a short prayer, so don’t eat yet.", "We’ll start lunch with a short prayer, so please wait.", "Hold on — we start the meal with a quick prayer first."],
+    "keys": { "молитва": "pray*|grace|blessing", "не їжте": "not|wait|hold on|yet" }
+   }
+  ]
+ },
+ {
+  "id": 2945, "w": "walk home", "uk": "іти додому пішки", "lvl": "A1",
+  "forms": "walk|walks|walked|walked|walking",
+  "tail": "home",
+  "near": "went home|go home|going home|got home|get home|on foot|stroll*",
+  "tasks": [
+   {
+    "sit": "Колега пропонує підвезти тебе після роботи, але надворі чудова погода.",
+    "say": "Дякую, але я піду додому пішки.",
+    "ans": ["Thanks, but I’ll walk home.", "Thank you, but I want to walk home today.", "Thanks, but I think I’ll walk home — it’s so nice out."],
+    "keys": { "дякую": "thank*" }
+   },
+   {
+    "sit": "Мама питає, чому ти так пізно повернувся з вечірки.",
+    "say": "Автобусів уже не було, тож я йшов додому пішки.",
+    "ans": ["There were no buses, so I walked home.", "I walked home because the buses had stopped.", "The buses weren’t running, so I had to walk home."],
+    "keys": { "автобуси": "bus*|transport|metro" }
+   },
+   {
+    "sit": "Лікар порадив тобі більше рухатися. Ти ділишся планом із дружиною.",
+    "say": "Відтепер я ходитиму з роботи додому пішки.",
+    "ans": ["From now on, I’ll walk home from work.", "I’m going to walk home from work every day.", "I’ve decided to walk home from work from now on."],
+    "keys": { "з роботи": "work|office" }
+   }
+  ]
+ },
+ {
+  "id": 2946, "w": "run to school", "uk": "бігти до школи", "lvl": "A1",
+  "forms": "run|runs|ran|run|running",
+  "tail": "to school",
+  "near": "hurr*|rush*|dash*|race*|go to school|went to school|walk* to school",
+  "tasks": [
+   {
+    "sit": "Ти проспав, а урок починається за десять хвилин. Мама пропонує сніданок.",
+    "say": "Нема часу, я біжу до школи!",
+    "ans": ["No time, I’m running to school!", "I have no time — I have to run to school!", "Sorry, no time, I need to run to school!"],
+    "keys": { "нема часу": "time|late|hurry" }
+   },
+   {
+    "sit": "Ти розповідаєш дітям про своє дитинство в селі.",
+    "say": "Я щодня бігав до школи через поле.",
+    "ans": ["I ran to school across the field every day.", "Every day I ran to school through the field.", "I used to run to school across the fields every day."],
+    "keys": { "поле": "field*|meadow*", "щодня": "every day|daily|day" }
+   },
+   {
+    "sit": "Сусідка бачить, як твій син щоранку мчить вулицею з рюкзаком.",
+    "say": "Він завжди запізнюється, тож біжить до школи.",
+    "ans": ["He’s always late, so he runs to school.", "He always runs to school because he’s late.", "He’s late every morning, so he just runs to school."],
+    "keys": { "запізнюється": "late" }
+   }
+  ]
+ },
+ {
+  "id": 2947, "w": "drive home", "uk": "їхати додому (за кермом)", "lvl": "A2",
+  "forms": "drive|drives|drove|driven|driving",
+  "tail": "home",
+  "near": "go home|going home|went home|get home|head* home|ride home|take the car",
+  "tasks": [
+   {
+    "sit": "На вечірці друзі хочуть налити тобі вина.",
+    "say": "Ні, дякую, мені ще їхати додому.",
+    "ans": ["No, thanks, I have to drive home.", "No thanks — I’m driving home later.", "I’d better not, I’m driving home tonight."],
+    "keys": { "ні": "no|not|better not" }
+   },
+   {
+    "sit": "Після довгої нічної зміни в лікарні ти ледве тримаєш очі відкритими. Колега хвилюється.",
+    "say": "Я занадто втомився, щоб їхати додому.",
+    "ans": ["I’m too tired to drive home.", "I’m way too tired to drive home now.", "Honestly, I’m too exhausted to drive home."],
+    "keys": { "втомився": "tired|exhausted|sleepy" }
+   },
+   {
+    "sit": "Ви повертаєтеся з відпустки машиною, і ти дзвониш батькам.",
+    "say": "Ми їдемо додому, будемо ввечері.",
+    "ans": ["We’re driving home, we’ll be back tonight.", "We’re driving home now and should arrive this evening.", "We’re driving home — see you tonight."],
+    "keys": { "ввечері": "tonight|evening|night" }
+   }
+  ]
+ },
+ {
+  "id": 2948, "w": "take a walk", "uk": "пройтися, прогулятися", "lvl": "A1",
+  "forms": "take|takes|took|taken|taking",
+  "tail": "walk*",
+  "near": "go for a walk|went for a walk|going for a walk|stroll*|walk around|walked around",
+  "tasks": [
+   {
+    "sit": "Після важкої наради в тебе болить голова. Ти кажеш колезі, що вийдеш на кілька хвилин.",
+    "say": "Мені треба пройтися й подихати свіжим повітрям.",
+    "ans": ["I need to take a walk and get some fresh air.", "I’m going to take a walk to get some air.", "I need to take a quick walk — I need some fresh air."],
+    "keys": { "свіже повітря": "air|fresh|breath*" }
+   },
+   {
+    "sit": "Після ситного недільного обіду вся родина сидить на дивані.",
+    "say": "Давайте пройдемося, поки ще світло.",
+    "ans": ["Let’s take a walk while it’s still light.", "Shall we take a walk while it’s still light?", "Come on, let’s take a walk before it gets dark."],
+    "keys": { "поки світло": "light|dark|sun*|day*" }
+   },
+   {
+    "sit": "Ти у відрядженні в новому місті, і ввечері в тебе є вільна година.",
+    "say": "Я пройдуся центром перед сном.",
+    "ans": ["I’ll take a walk around the center before bed.", "I’m going to take a walk downtown before I go to sleep.", "I think I’ll take a walk around the city centre before bed."],
+    "keys": { "центр": "cent*|downtown|city|town", "перед сном": "bed|sleep|night|evening" }
+   }
+  ]
+ },
+ {
+  "id": 2949, "w": "go for a swim", "uk": "піти поплавати", "lvl": "A2",
+  "forms": "go|goes|went|gone|going",
+  "tail": "for swim",
+  "near": "swim|swam|swum|swimming|take a dip|took a dip|go swimming|went swimming",
+  "tasks": [
+   {
+    "sit": "Спекотний день на морі, ви з друзями лежите на пляжі.",
+    "say": "Ходімо поплаваємо в морі!",
+    "ans": ["Let’s go for a swim in the sea!", "Do you want to go for a swim in the sea?", "Come on, let’s go for a swim in the sea!"],
+    "keys": { "море": "sea|water|ocean" }
+   },
+   {
+    "sit": "Ти розповідаєш колезі, якими були твої ранки у відпустці.",
+    "say": "Щоранку перед сніданком я ходив поплавати в озері.",
+    "ans": ["Every morning before breakfast, I went for a swim in the lake.", "I went for a swim in the lake before breakfast every day.", "I’d go for a swim in the lake every morning before breakfast."],
+    "keys": { "сніданок": "breakfast", "озеро": "lake" }
+   },
+   {
+    "sit": "Після тренування в спортзалі друг кличе тебе на каву.",
+    "say": "Спочатку я піду поплаваю в басейні, а потім можна.",
+    "ans": ["First I’ll go for a swim in the pool, then we can go.", "I’m going to go for a swim in the pool first, then sure.", "Let me go for a quick swim in the pool first, then I’m in."],
+    "keys": { "басейн": "pool", "спочатку": "first|then|after" }
+   }
+  ]
+ },
+ {
+  "id": 2950, "w": "go for a walk", "uk": "піти на прогулянку", "lvl": "A1",
+  "forms": "go|goes|went|gone|going",
+  "tail": "for walk",
+  "near": "take a walk|took a walk|taking a walk|stroll*|walk around|walked around",
+  "tasks": [
+   {
+    "sit": "Сонячна неділя, а діти весь ранок сидять у телефонах.",
+    "say": "Ходімо на прогулянку в парк!",
+    "ans": ["Let’s go for a walk in the park!", "Why don’t we go for a walk in the park?", "Come on, let’s all go for a walk in the park!"],
+    "keys": { "парк": "park" }
+   },
+   {
+    "sit": "Друг питає, що ви з дружиною зазвичай робите вечорами.",
+    "say": "Ми часто ходимо на прогулянку після вечері.",
+    "ans": ["We often go for a walk after dinner.", "After dinner we usually go for a walk.", "We often go for a walk after dinner, just around the block."],
+    "keys": { "після вечері": "dinner|supper|evening" }
+   },
+   {
+    "sit": "Колега шукав тебе в обідню перерву й не знайшов.",
+    "say": "Я ходив на прогулянку, щоб провітрити голову.",
+    "ans": ["I went for a walk to clear my head.", "I went for a walk because I needed to clear my head.", "I just went for a walk to clear my head a bit."],
+    "keys": { "провітрити голову": "clear|head|mind|think*|air" }
+   }
+  ]
+ },
+ {
+  "id": 2951, "w": "go to bed", "uk": "лягати спати", "lvl": "A1",
+  "forms": "go|goes|went|gone|going",
+  "tail": "to bed",
+  "near": "sleep|slept|sleeping|turn in|hit the sack|hit the hay|lie down|lay down",
+  "tasks": [
+   {
+    "sit": "Уже північ, а завтра о шостій вставати.",
+    "say": "Я йду спати, завтра рано вставати.",
+    "ans": ["I’m going to bed, I have to get up early tomorrow.", "I’ll go to bed now — I need to be up early tomorrow.", "I should go to bed, I have an early start tomorrow."],
+    "keys": { "рано": "early", "завтра": "tomorrow" }
+   },
+   {
+    "sit": "Лікар питає тебе про режим сну.",
+    "say": "Зазвичай я лягаю спати після опівночі.",
+    "ans": ["I usually go to bed after midnight.", "Usually I go to bed after midnight.", "I tend to go to bed pretty late, after midnight."],
+    "keys": { "після опівночі": "midnight|late", "зазвичай": "usually|normally|tend*|typically" }
+   },
+   {
+    "sit": "Ти вдома з маленькою донькою, а вона просить ще один мультик.",
+    "say": "Ні, вже пізно, час лягати спати.",
+    "ans": ["No, it’s late — time to go to bed.", "No, it’s too late, you need to go to bed.", "Nope, it’s late — time to go to bed, sweetie."],
+    "keys": { "пізно": "late" }
+   }
+  ]
+ },
+ {
+  "id": 2952, "w": "get out of bed", "uk": "вставати з ліжка", "lvl": "A2",
+  "forms": "get|gets|got|got/gotten|getting",
+  "tail": "out of bed",
+  "near": "get up|got up|getting up|gets up|wake up|woke up|rise|rose",
+  "tasks": [
+   {
+    "sit": "Понеділок, будильник дзвонить уже втретє. Ти пишеш другові, як почався день.",
+    "say": "Сьогодні я ледве встав із ліжка.",
+    "ans": ["I could barely get out of bed today.", "Today I barely got out of bed.", "I could hardly get out of bed this morning."],
+    "keys": { "ледве": "barely|hardly|struggl*|almost", "сьогодні": "today|this morning|morning" }
+   },
+   {
+    "sit": "Ти в лікарні після операції. До палати заходить медсестра.",
+    "say": "Мені вже можна вставати з ліжка?",
+    "ans": ["Can I get out of bed now?", "Am I allowed to get out of bed yet?", "Is it okay if I get out of bed now?"],
+    "keys": { "можна": "can|may|allowed|okay|ok|alright" }
+   },
+   {
+    "sit": "Друг питає, як минули твої вихідні після важкого тижня.",
+    "say": "Я цілу суботу не вставав із ліжка.",
+    "ans": ["I didn’t get out of bed all Saturday.", "I didn’t get out of bed the whole of Saturday.", "Honestly, I didn’t get out of bed all day Saturday."],
+    "keys": { "субота": "saturday|weekend", "не": "not|never" }
+   }
+  ]
+ },
+ {
+  "id": 2953, "w": "take a nap", "uk": "подрімати вдень", "lvl": "B1",
+  "forms": "take|takes|took|taken|taking",
+  "tail": "nap*",
+  "near": "nap|napped|napping|sleep|slept|sleeping|doze*|snooze*|have a nap|had a nap|shut-eye",
+  "tasks": [
+   {
+    "sit": "Після обіду в офісі очі злипаються. Колега пропонує тобі ще кави.",
+    "say": "Краще б я зараз подрімав хвилин двадцять.",
+    "ans": ["I’d rather take a twenty-minute nap.", "I wish I could take a nap for twenty minutes.", "Honestly, I’d love to take a quick twenty-minute nap."],
+    "keys": { "двадцять хвилин": "twenty*|20*|minute*" }
+   },
+   {
+    "sit": "Ви з малюком удома, він весь вечір вередує. Ти пояснюєш бабусі по телефону.",
+    "say": "Він не поспав удень, тому такий вередливий.",
+    "ans": ["He didn’t take a nap today, so he’s cranky.", "He’s so fussy because he didn’t take his nap.", "He didn’t take a nap, that’s why he’s so cranky."],
+    "keys": { "вередливий": "cranky|fussy|grumpy|moody|upset|cry*|whin*", "не": "not|never|skip*" }
+   },
+   {
+    "sit": "Ви з другом по черзі кермуєте в довгій поїздці, і тебе хилить на сон.",
+    "say": "Я зупинюся на заправці й трохи подрімаю.",
+    "ans": ["I’ll stop at a gas station and take a nap.", "Let me pull over at the gas station and take a quick nap.", "I’m going to stop at a petrol station and take a short nap."],
+    "keys": { "заправка": "station|gas|petrol|rest stop|stop|pull over" }
+   }
+  ]
+ },
+ {
+  "id": 2954, "w": "set an alarm", "uk": "поставити будильник", "lvl": "A2",
+  "forms": "set|sets|set|set|setting",
+  "tail": "alarm*",
+  "near": "put an alarm|put the alarm|timer|remind*|wake me up|wake-up call",
+  "tasks": [
+   {
+    "sit": "У вас дуже ранній рейс. Дружина переживає, що ви проспите.",
+    "say": "Не хвилюйся, я поставив будильник на четверту.",
+    "ans": ["Don’t worry, I set an alarm for four.", "Don’t worry, I’ve set an alarm for 4 a.m.", "Relax, I’ve set an alarm for four o’clock."],
+    "keys": { "четверта": "four|4*" }
+   },
+   {
+    "sit": "Ви з другом у готелі, завтра о сьомій екскурсія, а він уже засинає.",
+    "say": "Ти поставив будильник на ранок?",
+    "ans": ["Did you set an alarm for the morning?", "Have you set an alarm for tomorrow morning?", "Hey, did you set an alarm for the morning?"],
+    "keys": { "ранок": "morning|tomorrow|seven|7*" }
+   },
+   {
+    "sit": "Подруга скаржиться, що постійно просипає роботу.",
+    "say": "Постав кілька будильників з різницею в пʼять хвилин.",
+    "ans": ["Set a few alarms five minutes apart.", "Try setting several alarms five minutes apart.", "Just set a couple of alarms, like five minutes apart."],
+    "keys": { "кілька": "few|several|couple|two|three|multiple|lot*", "пʼять хвилин": "five|5*|minute*" }
+   }
+  ]
+ },
+ {
+  "id": 2955, "w": "snooze the alarm", "uk": "відкладати будильник (кнопкою повтору)", "lvl": "B2",
+  "forms": "snooze|snoozes|snoozed|snoozed|snoozing",
+  "tail": "alarm*",
+  "near": "hit snooze|hit the snooze|press* snooze|turn* off|turned off|switch* off|sleep in|slept in|oversle*",
+  "tasks": [
+   {
+    "sit": "Ти запізнився на роботу на пів години. Керівник питає, що сталося.",
+    "say": "Вибачте, я кілька разів відклав будильник.",
+    "ans": ["Sorry, I snoozed my alarm a few times.", "I’m sorry, I kept snoozing the alarm.", "Sorry — I snoozed my alarm one too many times."],
+    "keys": { "кілька разів": "few|several|times|kept|too many|again" }
+   },
+   {
+    "sit": "Ти ділишся з подругою порадою з книжки про продуктивність.",
+    "say": "Не відкладай будильник — одразу вставай.",
+    "ans": ["Don’t snooze the alarm — get up right away.", "Never snooze your alarm; just get up immediately.", "Don’t snooze your alarm, just get straight up."],
+    "keys": { "вставай": "get up|getting up|up|out of bed" }
+   },
+   {
+    "sit": "Сусід по кімнаті в гуртожитку скаржиться, що твій будильник дзвонить щопʼять хвилин.",
+    "say": "Вибач, я вічно відкладаю будильник.",
+    "ans": ["Sorry, I always snooze my alarm.", "Sorry, I keep snoozing the alarm every morning.", "Sorry, man, I always snooze my alarm like five times."],
+    "keys": { "вічно": "always|keep|every*|constantly|all the time" }
+   }
+  ]
+ },
+ {
+  "id": 2956, "w": "stretch in the morning", "uk": "робити розтяжку зранку", "lvl": "A2",
+  "forms": "stretch|stretches|stretched|stretched|stretching",
+  "tail": "morning*",
+  "near": "exercise*|work out|warm up|warm-up|do yoga|did yoga|yoga|workout*",
+  "tasks": [
+   {
+    "sit": "Фізіотерапевт питає, чи виконуєш ти його поради щодо спини.",
+    "say": "Так, тепер я щоранку розтягуюсь.",
+    "ans": ["Yes, now I stretch every morning.", "Yes, I stretch in the morning every day now.", "Yeah, I’ve started to stretch every single morning."],
+    "keys": { "тепер": "now|started|these days" }
+   },
+   {
+    "sit": "Новий колега дивується, чому ти ніколи не скаржишся на спину, хоча сидиш цілий день.",
+    "say": "Я розтягуюсь зранку десять хвилин, і спина не болить.",
+    "ans": ["I stretch in the morning for ten minutes, and my back doesn’t hurt.", "I stretch for ten minutes every morning, so my back is fine.", "I stretch for ten minutes each morning — no more back pain."],
+    "keys": { "спина": "back", "десять хвилин": "ten|10*|minute*" }
+   },
+   {
+    "sit": "Син питає, навіщо ти робиш вправи на килимку ще до сніданку.",
+    "say": "Коли розтягуєшся зранку, весь день почуваєшся бадьоріше.",
+    "ans": ["When you stretch in the morning, you feel more energetic all day.", "If you stretch in the morning, you have more energy all day.", "Stretch in the morning and you’ll feel great all day long."],
+    "keys": { "весь день": "all day|whole day|day" }
+   }
+  ]
+ },
+ {
+  "id": 2957, "w": "drink coffee in the morning", "uk": "пити каву зранку", "lvl": "A1",
+  "forms": "drink|drinks|drank|drunk|drinking",
+  "tail": "coffee",
+  "near": "have coffee|had coffee|having coffee|has coffee|grab a coffee|get a coffee|coffee break",
+  "tasks": [
+   {
+    "sit": "О девʼятій ранку новий колега пропонує тобі чаю.",
+    "say": "Дякую, але зранку я пʼю тільки каву.",
+    "ans": ["Thanks, but I only drink coffee in the morning.", "Thank you, but in the morning I drink only coffee.", "Thanks, but I just drink coffee in the morning."],
+    "keys": { "зранку": "morning", "тільки": "only|just" }
+   },
+   {
+    "sit": "Лікарка питає про твої звички, бо в тебе підвищений тиск.",
+    "say": "Я пʼю дві чашки кави зранку.",
+    "ans": ["I drink two cups of coffee in the morning.", "In the morning I drink two cups of coffee.", "I usually drink two cups of coffee every morning."],
+    "keys": { "дві чашки": "two|2*|cup*", "зранку": "morning" }
+   },
+   {
+    "sit": "Ти в Італії й розповідаєш другові про місцеві звичаї.",
+    "say": "Тут зранку пʼють каву стоячи біля барної стійки.",
+    "ans": ["Here people drink coffee in the morning standing at the bar.", "In the morning, people here drink coffee standing at the counter.", "Locals drink their coffee in the morning standing at the bar."],
+    "keys": { "стоячи": "stand*", "зранку": "morning" }
+   }
+  ]
+ },
+ {
+  "id": 2958, "w": "read the news", "uk": "читати новини", "lvl": "A2",
+  "forms": "read|reads|read|read|reading",
+  "tail": "news",
+  "near": "watch* the news|check* the news|follow* the news|scroll*|see the news|saw the news|heard|hear",
+  "tasks": [
+   {
+    "sit": "Колега дивується, звідки ти вже знаєш про нові податки.",
+    "say": "Я читав новини зранку.",
+    "ans": ["I read the news this morning.", "I was reading the news this morning.", "I read about it in the news this morning."],
+    "keys": { "зранку": "morning|today|earlier" }
+   },
+   {
+    "sit": "Подруга питає, як ти даєш собі раду з тривогою.",
+    "say": "Я намагаюся не читати новини перед сном.",
+    "ans": ["I try not to read the news before bed.", "I try to avoid reading the news before I sleep.", "I try not to read the news right before bed."],
+    "keys": { "перед сном": "bed|sleep*|night", "не": "not|avoid|never" }
+   },
+   {
+    "sit": "Одногрупник питає, як ти вчиш англійську самостійно.",
+    "say": "Я щодня читаю новини англійською.",
+    "ans": ["I read the news in English every day.", "Every day I read the news in English.", "I read the news in English daily — it really helps."],
+    "keys": { "англійською": "english", "щодня": "every day|daily|day" }
+   }
+  ]
+ },
+ {
+  "id": 2959, "w": "watch the news", "uk": "дивитися новини", "lvl": "A2",
+  "forms": "watch|watches|watched|watched|watching",
+  "tail": "news",
+  "near": "read* the news|see the news|saw the news|check* the news|follow* the news|heard|hear",
+  "tasks": [
+   {
+    "sit": "Ти розповідаєш знайомому про вечори у своїх батьків.",
+    "say": "Мої батьки щовечора дивляться новини.",
+    "ans": ["My parents watch the news every evening.", "Every night my parents watch the news.", "My parents always watch the news in the evening."],
+    "keys": { "батьки": "parent*|mom|dad|mum", "щовечора": "evening|night" }
+   },
+   {
+    "sit": "Друг питає, чи ти чув про повінь на заході країни.",
+    "say": "Так, я дивився новини вчора ввечері.",
+    "ans": ["Yes, I watched the news last night.", "Yeah, I was watching the news yesterday evening.", "Yes, I saw it when I watched the news last night."],
+    "keys": { "вчора ввечері": "last night|yesterday|evening" }
+   },
+   {
+    "sit": "Ти в готелі за кордоном і вмикаєш місцевий телеканал. Друг здивований.",
+    "say": "Я дивлюся місцеві новини, щоб потренувати мову.",
+    "ans": ["I watch the local news to practice the language.", "I’m watching the local news to practise the language.", "I watch the local news — it’s good language practice."],
+    "keys": { "місцеві": "local", "мова": "language|english|spanish|german|french|listening" }
+   }
+  ]
+ },
+ {
+  "id": 2960, "w": "check email", "uk": "перевіряти пошту", "lvl": "A2",
+  "forms": "check|checks|checked|checked|checking",
+  "tail": "email*/e-mail*/mail/inbox",
+  "near": "look at|looked at|read* my email|go through|went through|open* my email",
+  "tasks": [
+   {
+    "sit": "Ти йдеш у відпустку, але керівник попросив бути на звʼязку.",
+    "say": "Я перевірятиму пошту раз на день.",
+    "ans": ["I’ll check my email once a day.", "I’m going to check email once a day.", "I’ll check my email once a day, I promise."],
+    "keys": { "раз на день": "once|day|daily" }
+   },
+   {
+    "sit": "Друг не може зареєструватися на сайті, бо не бачить коду підтвердження.",
+    "say": "Перевір пошту, може, лист потрапив у спам.",
+    "ans": ["Check your email, maybe it went to spam.", "Check your email — the message might be in spam.", "Check your email, it probably ended up in spam."],
+    "keys": { "спам": "spam|junk" }
+   },
+   {
+    "sit": "Колега питає, чому ти не відповів на запрошення на нараду.",
+    "say": "Я сьогодні ще не перевіряв пошту.",
+    "ans": ["I haven’t checked my email today.", "I haven’t checked my email yet today.", "Sorry, I haven’t had a chance to check my email today."],
+    "keys": { "сьогодні": "today|this morning", "ще не": "not|yet" }
+   }
+  ]
+ },
+ {
+  "id": 2961, "w": "check messages", "uk": "перевіряти повідомлення", "lvl": "A2",
+  "forms": "check|checks|checked|checked|checking",
+  "tail": "message*/text*/dm*/chat*",
+  "near": "look at my phone|looked at my phone|read* my messages|scroll*|go through|went through",
+  "tasks": [
+   {
+    "sit": "Ви з другом виходите з кінотеатру після довгого фільму.",
+    "say": "Зачекай, я перевірю повідомлення.",
+    "ans": ["Wait, let me check my messages.", "Hold on, I’ll check my messages.", "One sec, I just need to check my messages."],
+    "keys": { "зачекай": "wait|hold on|sec*|second|minute|moment" }
+   },
+   {
+    "sit": "Дружина помічає, що ти весь вечір не відриваєшся від телефону.",
+    "say": "Вибач, я постійно перевіряю повідомлення з роботи.",
+    "ans": ["Sorry, I keep checking my work messages.", "Sorry, I’m constantly checking messages from work.", "Sorry, I can’t stop checking my messages from work."],
+    "keys": { "робота": "work|job|office|boss" }
+   },
+   {
+    "sit": "Літак щойно приземлився, і всі вмикають телефони.",
+    "say": "Перевірю повідомлення — може, мама писала.",
+    "ans": ["I’ll check my messages — maybe Mom texted.", "Let me check my messages, Mom might have written.", "I’ll check my messages, Mom’s probably texted me."],
+    "keys": { "мама": "mom|mum|mother" }
+   }
+  ]
+ },
+ {
+  "id": 2962, "w": "reply to a message", "uk": "відповісти на повідомлення", "lvl": "A2",
+  "forms": "reply|replies|replied|replied|replying",
+  "tail": "message*/text*/email*",
+  "near": "answer*|respond*|write back|wrote back|text back|texted back|get back to",
+  "tasks": [
+   {
+    "sit": "Друг образився, що ти вчора так і не відписав йому.",
+    "say": "Вибач, що не відповів на твоє повідомлення.",
+    "ans": ["Sorry I didn’t reply to your message.", "Sorry for not replying to your message.", "Sorry I never replied to your text!"],
+    "keys": { "вибач": "sorry|apolog*" }
+   },
+   {
+    "sit": "Ти працюєш у службі підтримки. Новий колега питає про правила.",
+    "say": "Ми маємо відповідати на повідомлення клієнтів протягом години.",
+    "ans": ["We have to reply to customer messages within an hour.", "We must reply to messages from clients within one hour.", "We need to reply to customers’ messages within an hour."],
+    "keys": { "клієнти": "client*|customer*", "протягом години": "hour|60*|sixty" }
+   },
+   {
+    "sit": "Ти в метро, сестра тобі пише, а звʼязку майже немає.",
+    "say": "Відповім на повідомлення, коли вийду з метро.",
+    "ans": ["I’ll reply to the message when I get out of the metro.", "I’ll reply to her message once I’m out of the subway.", "I’ll reply to her text when I’m out of the metro."],
+    "keys": { "метро": "metro|subway|underground|tube" }
+   }
+  ]
+ },
+ {
+  "id": 2963, "w": "ignore a message", "uk": "ігнорувати повідомлення", "lvl": "A2",
+  "forms": "ignore|ignores|ignored|ignored|ignoring",
+  "tail": "message*/text*/email*",
+  "near": "not reply|not answer|not respond|leave on read|left on read|delete*|block*",
+  "tasks": [
+   {
+    "sit": "Тобі щодня приходять СМС про «виграш» з незнайомого номера.",
+    "say": "Я просто ігнорую ці повідомлення — це шахраї.",
+    "ans": ["I just ignore these messages — they’re scams.", "I ignore those messages because they’re fake.", "I just ignore those texts, they’re all scams."],
+    "keys": { "шахраї": "scam*|fraud*|fake|spam" }
+   },
+   {
+    "sit": "Колишній хлопець подруги знову їй пише. Вона питає, що робити.",
+    "say": "Проігноруй його повідомлення, не відповідай.",
+    "ans": ["Ignore his message and don’t reply.", "Just ignore his messages, don’t answer.", "Honestly, just ignore his texts and don’t reply."],
+    "keys": { "не відповідай": "not reply|not answer|not respond|not text|not write|no reply" }
+   },
+   {
+    "sit": "Колега питає, чому ви досі не підписали договір із клієнтом.",
+    "say": "Він ігнорує мої повідомлення вже тиждень.",
+    "ans": ["He’s been ignoring my messages for a week.", "He has ignored my messages for a whole week.", "He’s been ignoring my emails for a week now."],
+    "keys": { "тиждень": "week*|seven days|7 days" }
+   }
+  ]
+ },
+ {
+  "id": 2964, "w": "read a book", "uk": "читати книжку", "lvl": "A1",
+  "forms": "read|reads|read|read|reading",
+  "tail": "book*/novel*",
+  "near": "listen* to an audiobook|audiobook*|flip through|look through|browse*",
+  "tasks": [
+   {
+    "sit": "Друг питає, що ти робитимеш у потязі шість годин.",
+    "say": "Читатиму книжку — я взяв новий детектив.",
+    "ans": ["I’ll read a book — I brought a new detective novel.", "I’m going to read a book; I have a new mystery.", "I’ll just read a book, I’ve got a new crime novel."],
+    "keys": { "детектив": "detective|mystery|crime|thriller" }
+   },
+   {
+    "sit": "Мама питає, як твоя донька засинає вечорами.",
+    "say": "Ми щовечора читаємо книжку перед сном.",
+    "ans": ["We read a book every night before bed.", "Every evening we read a book before bedtime.", "We always read a book together before bed."],
+    "keys": { "перед сном": "bed*|sleep" }
+   },
+   {
+    "sit": "Лікар радить тобі менше дивитися в екран увечері.",
+    "say": "Замість телефону я краще почитаю книжку.",
+    "ans": ["Instead of my phone, I’ll read a book.", "I’ll read a book instead of looking at my phone.", "I’d rather read a book than scroll on my phone."],
+    "keys": { "телефон": "phone|screen|mobile" }
+   }
+  ]
+ },
+ {
+  "id": 2965, "w": "buy a book", "uk": "купити книжку", "lvl": "A1",
+  "forms": "buy|buys|bought|bought|buying",
+  "tail": "book*/novel*",
+  "near": "get|got|getting|order*|purchas*|pick up|picked up",
+  "tasks": [
+   {
+    "sit": "Ти в аеропорту, рейс затримали на три години.",
+    "say": "Піду куплю книжку в тому магазині.",
+    "ans": ["I’ll buy a book in that shop.", "I’m going to buy a book at that store.", "Let me go and buy a book from that shop."],
+    "keys": { "магазин": "shop|store|bookshop|bookstore|kiosk" }
+   },
+   {
+    "sit": "Племінникові скоро десять років, і сестра питає, що ти подаруєш.",
+    "say": "Я куплю йому книжку про космос.",
+    "ans": ["I’ll buy him a book about space.", "I’m going to buy him a book on space.", "I think I’ll buy him a book about space."],
+    "keys": { "космос": "space|planet*|star*|astronom*|universe" }
+   },
+   {
+    "sit": "На першій парі викладач дає список обовʼязкової літератури.",
+    "say": "Мені треба купити цю книжку до понеділка.",
+    "ans": ["I need to buy this book by Monday.", "I have to buy that book before Monday.", "I’ve got to buy this book by Monday."],
+    "keys": { "понеділок": "monday" }
+   }
+  ]
+ },
+ {
+  "id": 2966, "w": "borrow a book", "uk": "позичити книжку (у бібліотеці)", "lvl": "A2",
+  "forms": "borrow|borrows|borrowed|borrowed|borrowing",
+  "tail": "book*/textbook*/novel*",
+  "near": "take out|took out|taken out|check* out|get|got|rent*|lend*|lent",
+  "tasks": [
+   {
+    "sit": "Одногрупник питає, чи ти купив підручник з економіки.",
+    "say": "Ні, я позичив його в бібліотеці.",
+    "ans": ["No, I borrowed the book from the library.", "No, I just borrowed the textbook from the library.", "Nah, I borrowed the book from the uni library."],
+    "keys": { "бібліотека": "librar*" }
+   },
+   {
+    "sit": "Ти вперше в міській бібліотеці й звертаєшся до працівниці.",
+    "say": "Можна позичити кілька книжок одночасно?",
+    "ans": ["Can I borrow several books at once?", "Am I allowed to borrow more than one book at a time?", "Is it okay to borrow a few books at the same time?"],
+    "keys": { "кілька": "several|few|more than one|couple|many|multiple" }
+   },
+   {
+    "sit": "Ти щойно записав доньку до шкільної бібліотеки й пояснюєш їй правила.",
+    "say": "Тепер ти можеш позичати книжки щотижня.",
+    "ans": ["Now you can borrow books every week.", "From now on you can borrow a book every week.", "Now you get to borrow books every single week!"],
+    "keys": { "щотижня": "week*" }
+   }
+  ]
+ },
+ {
+  "id": 2967, "w": "finish a book", "uk": "дочитати книжку", "lvl": "A2",
+  "forms": "finish|finishes|finished|finished|finishing",
+  "tail": "book*/novel*",
+  "near": "read to the end|got to the end|get to the end|done with|complete*|through with",
+  "tasks": [
+   {
+    "sit": "Подруга хоче переказати тобі кінцівку серіалу, знятого за романом.",
+    "say": "Не кажи! Я ще не дочитав книжку.",
+    "ans": ["Don’t tell me! I haven’t finished the book yet.", "Stop! I still haven’t finished the book.", "No spoilers! I haven’t finished the book yet."],
+    "keys": { "ще не": "not|yet|still" }
+   },
+   {
+    "sit": "Ти ходиш у книжковий клуб, наступна зустріч у суботу.",
+    "say": "Я маю дочитати книжку до суботи.",
+    "ans": ["I have to finish the book by Saturday.", "I need to finish the book before Saturday.", "I’ve got to finish the book by Saturday."],
+    "keys": { "субота": "saturday" }
+   },
+   {
+    "sit": "Колега бачить, як ти позіхаєш на ранковій нараді.",
+    "say": "Я не спав до третьої, бо хотів дочитати книжку.",
+    "ans": ["I stayed up till three because I wanted to finish my book.", "I didn’t sleep until three — I wanted to finish the book.", "I was up till 3 a.m. — I had to finish my book."],
+    "keys": { "до третьої": "three|3*|late|night" }
+   }
+  ]
+ }
+]
