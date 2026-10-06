@@ -82,6 +82,22 @@ PRON.TOPICS.forEach(t => {
   });
 });
 
+/* ---------------- 3б. ПРАКТИКА ---------------- */
+const practiceSrc = read('js/practice.js');
+const rePack = /id: '(\w+)', emoji: '([^']+)', title: '([^']+)', src: '([^']+)'/g;
+let practiceCount = 0;
+while ((m = rePack.exec(practiceSrc))) {
+  const [, packId, packEmoji, packTitle, src] = m;
+  const D = evalFile([src], 'window.PRACTICE_DATA["' + packId + '"]');
+  add(packTitle, D.META.lead, K.SECTION, '#/practice/' + packId, 'Практика ' + packEmoji);
+  add('Що на картинці', packTitle + ': ' + D.SCENES.map(s => s.a).join(', '), K.SECTION, '#/practice/' + packId + '/scenes', 'Практика 🖼️');
+  D.TOPICS.forEach(t => {
+    add(t.title, t.uk, K.SECTION, '#/practice/' + packId + '/' + t.id, 'Практика · ' + packTitle + ' ' + t.emoji);
+    practiceCount++;
+  });
+}
+if (!practiceCount) throw new Error('не вдалося прочитати пакети з practice.js');
+
 /* ---------------- 4. ГРАМАТИКА ---------------- */
 const COURSE = evalFile(['js/data.js', 'js/grammar-extra.js'], 'COURSE');
 let topicCount = 0;
@@ -109,6 +125,7 @@ READER.BOOKS.forEach(b => add(b.title, b.title_uk, K.BOOK, '#/read/' + b.id, (b.
   ['Adverbs', 'Прислівники', '#/vocab/advs', 'Словник 🏃'],
   ['Phrases', 'Фрази і конструкції', '#/phrases', 'Розділ 🗣️'],
   ['Pronunciation', 'Вимова', '#/sound', 'Розділ 🗣️'],
+  ['Practice', 'Практика', '#/practice', 'Розділ 🏋️'],
   ['Reading', 'Читання', '#/read', 'Розділ 📚'],
   ['Diary', 'Щоденник англійською', '#/diary', 'Розділ 📝'],
   ['Listening', 'Аудіювання', '#/listen', 'Розділ 🎧'],
@@ -139,5 +156,5 @@ fs.writeFileSync(path.join(dir, 'index-data.js'), out, 'utf8');
 
 const adult = items.filter(r => r[5]).length;
 console.log('слова: ' + wordCount + ' (18+: ' + adult + ')');
-console.log('фрази: ' + phraseCount + ' · вимова: ' + pronCount + ' · теми граматики: ' + topicCount + ' · книги: ' + READER.BOOKS.length);
+console.log('фрази: ' + phraseCount + ' · практика: ' + practiceCount + ' тем · вимова: ' + pronCount + ' · теми граматики: ' + topicCount + ' · книги: ' + READER.BOOKS.length);
 console.log('усього записів: ' + items.length + ' · розмір: ' + (out.length / 1024).toFixed(0) + ' KB');

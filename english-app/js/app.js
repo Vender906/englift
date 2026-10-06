@@ -44,6 +44,7 @@
     pen: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4z"/></svg>',
     library: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5.5C4.5 4 7.5 4 10 5.5v14C7.5 18 4.5 18 2 19.5z"/><path d="M22 5.5C19.5 4 16.5 4 14 5.5v14c2.5-1.5 5.5-1.5 8 0z"/><path d="M10 5.5c.7-.4 1.3-.6 2-.6s1.3.2 2 .6"/></svg>',
     mic: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="2" width="6" height="11" rx="3"/><path d="M5 10.5a7 7 0 0 0 14 0"/><path d="M12 17.5V22"/><path d="M8.5 22h7"/></svg>',
+    compass: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5z"/></svg>',
     chev: '<svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg>'
   };
 
@@ -97,6 +98,7 @@
         { hash: '#/diary/entries', label: 'Мої записи', emoji: '📚' },
         { hash: '#/diary/settings', label: 'Налаштування / Backup', emoji: '⚙️' }
       ]) +
+      (window.FLPractice ? navGrouped('practice', 'compass', window.FLPractice.SECTION, '#/practice', window.FLPractice.navGroups()) : '') +
       (window.FLSound ? navGrouped('sound', 'mic', window.FLSound.SECTION, '#/sound', window.FLSound.navGroups()) : '') +
       navGroup('listen', 'headphones', COURSE.listening.title, '#/listen',
         COURSE.listening.subs.map(s => ({ hash: '#/listen/' + s.id, label: (s.id === 'easy' ? 'Легкі речення' : 'Складніші речення'), emoji: s.emoji }))) +
@@ -170,6 +172,7 @@
       else if (parts[0] === 'placement' && window.FLPlacement) window.FLPlacement.route(view, parts);
       else if (parts[0] === 'phrases' && window.FLPhrases) window.FLPhrases.route(view, parts);
       else if (parts[0] === 'sound' && window.FLSound) window.FLSound.route(view, parts);
+      else if (parts[0] === 'practice' && window.FLPractice) window.FLPractice.route(view, parts);
       else notFound(view);
     } catch (e) {
       console.error(e);
@@ -217,6 +220,7 @@
       zoneCard('#/grammar', '📗', COURSE.grammar.title, COURSE.grammar.subs.length + ' категорій, ' + stats().topicsTotal + ' тем і понад 300 вправ із поясненнями.', grammarPct, s.doneTopics + ' з ' + s.topicsTotal + ' тем') +
       zoneCard('#/vocab', '🗂️', 'Словник', 'За частинами мови: дієслова, іменники, прикметники, прислівники — ' + s.totalWords + ' слів.', vocabPct, 'вивчено ' + s.knownWords + ' слів') +
       (window.FLPhrases ? zoneCard('#/phrases', '🗣️', window.FLPhrases.SECTION, 'Звʼязки, конструкції, підсилювачі, багатозначні слова й розмовні уточнення — ' + window.FLPhrases.ORDER.length + ' тренажерів у ' + window.FLPhrases.GROUPS.length + ' групах.', 0, window.FLPhrases.ORDER.length + ' тренажерів') : '') +
+      (window.FLPractice ? (() => { const p2 = window.FLPractice.summary(); return zoneCard('#/practice', '🏋️', window.FLPractice.SECTION, 'Вузькі теми до автоматизму: рух і розташування — де хто знаходиться, across / through / over, як питати дорогу. ' + p2.items + ' речень, картинки й введення відповіді.', p2.topics ? p2.done / p2.topics : 0, p2.done + ' з ' + p2.topics + ' тем на 80%+'); })() : '') +
       (window.FLSound ? (() => { const s2 = window.FLSound.summary(); return zoneCard('#/sound', '🗣️', window.FLSound.SECTION, 'Американські звуки: flap T, злиття слів, наголос, слова-пастки, а також числа, дати, час і гроші вголос — ' + s2.items + ' ' + plural(s2.items, 'позиція', 'позиції', 'позицій') + ' з озвученням.', 0, s2.topics + ' ' + plural(s2.topics, 'тема', 'теми', 'тем')); })() : '') +
       (window.FLReader ? (() => { const r = window.FLReader.summary(); return zoneCard('#/read', '📚', 'Читання', r.total + ' адаптованих книг A2–C1: переклад слова по кліку, озвучення, підсвітка розмовних фраз.', r.done / r.total, 'прочитано ' + r.done + ' з ' + r.total + (r.started ? ' · в процесі ' + r.started : '')); })() : '') +
       (window.FLDiary ? (() => { const d = window.FLDiary.summary(); return zoneCard('#/diary', '📝', 'Diary', 'Щоденник англійською: 660 слів і довідник на 582 фрази вставляються в текст одним кліком.', Math.min(1, d.count / 30), d.count ? d.count + ' ' + plural(d.count, 'запис', 'записи', 'записів') + ' · ' + d.words + ' слів' + (d.streak ? ' · 🔥 ' + d.streak : '') : 'ще немає записів'); })() : '') +

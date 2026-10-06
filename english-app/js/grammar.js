@@ -281,6 +281,7 @@
   function challengeHome(view) {
     if (window.FLPhrases) window.FLPhrases.preloadRandom();
     if (window.FLSound) window.FLSound.ensure().catch(function () { });
+    if (window.FLPractice) window.FLPractice.PACKS.forEach(function (p) { window.FLPractice.ensure(p.id).catch(function () { }); });
     setCrumbs([{ label: 'Виклик' }]);
     view.innerHTML =
       '<div class="challenge-hero">' +
@@ -303,6 +304,7 @@
     LX().lexChoicePool().forEach(q => pool.push(q));
     if (window.FLPhrases) window.FLPhrases.challengePool().forEach(q => pool.push(q));
     if (window.FLSound) window.FLSound.challengePool().forEach(q => pool.push(q));
+    if (window.FLPractice) window.FLPractice.challengePool().forEach(q => pool.push(q));
     const items = shuffle(pool).slice(0, 10);
     runSession(view, {
       items,

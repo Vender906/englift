@@ -591,9 +591,21 @@
       crumb.innerHTML = lexCrumbHtml(posId, c);
     }
 
+    /* велика категорія: вчити частинами по ~PART_SIZE слів (у картках) */
+    let partsHtml = '';
+    if (!st.sub && P.tabs.includes('cards') && hasParts(P, st.cat)) {
+      const parts = catParts(P, st.cat);
+      const nx = nextPart(posId, st.cat, parts);
+      const doneN = parts.filter(p => partInfo(posId, st.cat, p).complete).length;
+      partsHtml = '<div class="lp-link-row">' +
+        '<a class="lp-link" href="#/vocab/' + posId + '/cards/' + st.cat + '">🧩 Вчити частинами <span>' + parts.length + ' × ~' + PART_SIZE + ' слів · завершено ' + doneN + '/' + parts.length + '</span></a>' +
+        (nx >= 0 ? '<a class="btn btn-primary lp-link-go" href="#/vocab/' + posId + '/cards/' + st.cat + '/' + (nx + 1) + '">▶ Продовжити · ' + partLabel(nx) + '</a>' : '') +
+        '</div>';
+    }
+
     box.innerHTML =
       '<div class="cat-header"><div class="c-emoji">' + cat.emoji + '</div><div><h2>' + esc(lab.en) + '</h2><div class="c-uk">' + esc(lab.uk) + '</div></div><div class="c-cnt">' + words.length + '</div></div>' +
-      subsHtml +
+      partsHtml + subsHtml +
       (words.length ? '<div class="words-grid">' + words.map(v => wordCardHtml(posId, v)).join('') + '</div>' : '<div class="empty-note">Для вибраних рівнів слів немає 🤷</div>');
 
     bindCrumbLinks(posId);
@@ -784,9 +796,69 @@
   }
 
   /* ---------- КАРТКИ ---------- */
+  /* part — номер частини (з 0) великої категорії, або null: уся колода scope */
   function cardState(posId) {
-    return cardsMem[posId] || (cardsMem[posId] = { scope: 'all', queue: [], idx: 0, flipped: false, status: {}, rewarded: false });
+    return cardsMem[posId] || (cardsMem[posId] = { scope: 'all', part: null, queue: [], idx: 0, flipped: false, status: {}, rewarded: false, gained: 0 });
   }
+
+  /* ---------- ЧАСТИНИ (Parts) ВЕЛИКИХ КАТЕГОРІЙ ----------
+     Велику категорію ділимо на частини по PART_SIZE слів. Порядок «випадковий», але стабільний:
+     слова сортуються за хешем «частина мови / категорія / слово», тож у кожній частині змішано
+     слова різних підкатегорій, а Part 1 і через тиждень, і на іншому пристрої — ті самі слова.
+     Нове слово в даних стає у випадкове місце. Прогрес зберігається по словах (store.parts),
+     тож навіть якщо межі частин зсунуться, пройдене не загубиться. */
+  const PART_SIZE = 25;
+  const PART_MIN_TAIL = Math.ceil(PART_SIZE / 3);   /* коротший хвіст доливаємо до попередньої частини */
+  function hash32(s) {
+    let h = 0x811c9dc5;
+    for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 0x01000193); }
+    return h >>> 0;
+  }
+  const partsCache = {};
+  function catParts(P, catId) {
+    const ck = P.id + '/' + catId + (adultOn() ? '/18' : '');
+    if (partsCache[ck]) return partsCache[ck];
+    const seed = P.id + '/' + catId + '/';
+    const words = poolForScope(P, catId).map(w => ({ w, k: cardKey(w), h: hash32(seed + cardKey(w)) }))
+      .sort((a, b) => a.h - b.h || (a.k < b.k ? -1 : a.k > b.k ? 1 : 0)).map(x => x.w);
+    const parts = [];
+    for (let i = 0; i < words.length; i += PART_SIZE) parts.push(words.slice(i, i + PART_SIZE));
+    if (parts.length > 1 && parts[parts.length - 1].length < PART_MIN_TAIL) parts[parts.length - 2].push(...parts.pop());
+    return (partsCache[ck] = parts);
+  }
+  /* частини є лише у великих категоріях верхнього рівня; підкатегорії лишаються як були */
+  function hasParts(P, catId) {
+    const c = P.cats[catId];
+    return !!c && !c.special && catVisible(c) && poolForScope(P, catId).length > PART_SIZE;
+  }
+  const partStore = (posId, catId) => (store.parts || {})[posId + '/' + catId] || { last: null, s: {} };
+  function partRec(posId, catId) {
+    const all = store.parts || (store.parts = {});
+    return all[posId + '/' + catId] || (all[posId + '/' + catId] = { last: null, s: {} });
+  }
+  function partInfo(posId, catId, words) {
+    const s = partStore(posId, catId).s;
+    let done = 0, known = 0;
+    words.forEach(w => { const x = s[cardKey(w)]; if (x) { done++; if (x === 'k') known++; } });
+    return { done, known, total: words.length, complete: done === words.length, started: done > 0 };
+  }
+  /* «Продовжити»: остання відкрита частина, якщо її не дороблено, інакше перша незавершена після неї */
+  function nextPart(posId, catId, parts) {
+    const last = partStore(posId, catId).last;
+    const from = last != null && last < parts.length ? last : 0;
+    for (let i = 0; i < parts.length; i++) {
+      const j = (from + i) % parts.length;
+      if (!partInfo(posId, catId, parts[j]).complete) return j;
+    }
+    return -1;
+  }
+  function savePartMark(posId, v, mark) {
+    const cs = cardState(posId);
+    if (cs.part == null) return;
+    partRec(posId, cs.scope).s[cardKey(v)] = mark;
+    save();
+  }
+  const partLabel = i => 'Part ' + (i + 1);
 
   function scopeOptionsHtml(P) {
     let html = '<option value="all">🌐 Всі слова (' + P.words.filter(wVisible).length + ')</option>';
@@ -810,11 +882,16 @@
     return html;
   }
 
+  const scopeValid = (P, scope) => scope === 'all' || (P.cats[scope] ? catVisible(P.cats[scope]) && !P.cats[scope].special : P.subs[scope] ? catVisible(P.subs[scope]) : false);
+
   function renderCards(panel, posId) {
     const P = POS[posId], cs = cardState(posId);
-    const scopeOk = cs.scope === 'all' || (P.cats[cs.scope] ? catVisible(P.cats[cs.scope]) : P.subs[cs.scope] ? catVisible(P.subs[cs.scope]) : false);
-    if (!scopeOk) cs.scope = 'all';
-    if ((!cs.queue.length && !cs.startedOnce) || !scopeOk || cs.queue.some(v => !wVisible(v))) startCardSession(posId);
+    const scopeOk = scopeValid(P, cs.scope);
+    if (!scopeOk) { cs.scope = 'all'; cs.part = null; }
+    if (cs.part != null && (!hasParts(P, cs.scope) || cs.part >= catParts(P, cs.scope).length)) { cs.part = null; cs.startedOnce = false; }
+    if ((!cs.queue.length && !cs.startedOnce) || !scopeOk || cs.queue.some(v => !wVisible(v))) {
+      if (cs.part != null) startPartSession(posId, cs.part); else startCardSession(posId);
+    }
 
     panel.innerHTML =
       '<div class="fc-container">' +
@@ -823,6 +900,7 @@
       '<select class="select-scope" id="card-scope">' + scopeOptionsHtml(P) + '</select>' +
       '<button class="btn btn-ghost" id="card-shuffle" style="padding:9px 16px;font-size:13px">🔀 Перемішати</button></div>' +
       '</div>' +
+      '<div id="lp-box"></div>' +
       '<div class="fc-stats">' +
       '<span class="stat-k">✓ Знаю: <b id="kCount">0</b></span>' +
       '<span class="stat-u">✗ Не знаю: <b id="uCount">0</b></span>' +
@@ -842,52 +920,141 @@
       '</div>';
 
     $('#card-scope').value = cs.scope;
-    $('#card-scope').addEventListener('change', e => { cs.scope = e.target.value; startCardSession(posId); });
-    $('#card-shuffle').addEventListener('click', () => startCardSession(posId));
-    $('#fc-reset').addEventListener('click', () => startCardSession(posId));
+    $('#card-scope').addEventListener('change', e => { cs.scope = e.target.value; cs.part = null; startCardSession(posId); });
+    $('#card-shuffle').addEventListener('click', () => {
+      if (cs.part == null) return startCardSession(posId);
+      /* у частині: спершу ще не пройдені, потім решта — кожна група перемішана */
+      const fresh = cs.queue.filter(v => !cs.status[cardKey(v)]);
+      cs.queue = shuffle(fresh).concat(shuffle(cs.queue.filter(v => cs.status[cardKey(v)])));
+      cs.idx = 0; cs.flipped = false;
+      renderFlashcard(posId);
+    });
+    $('#fc-reset').addEventListener('click', () => {
+      if (cs.part == null) return startCardSession(posId);
+      const s = partRec(posId, cs.scope).s;
+      catParts(P, cs.scope)[cs.part].forEach(v => { delete s[cardKey(v)]; });
+      save();
+      showToast('🔄 ' + partLabel(cs.part) + ' почато спочатку');
+      startPartSession(posId, cs.part);
+    });
     $('#fc-prev').addEventListener('click', () => { cs.idx = Math.max(0, cs.idx - 1); cs.flipped = false; renderFlashcard(posId); });
     $('#fc-next').addEventListener('click', () => { cs.idx++; cs.flipped = false; renderFlashcard(posId); });
     $('#fc-known').addEventListener('click', () => markCardKnown(posId));
     $('#fc-unknown').addEventListener('click', () => {
       const v = cs.queue[cs.idx]; if (!v) return;
-      cs.status[cardKey(v)] = 'unknown'; cs.flipped = true; renderFlashcard(posId);
+      cs.status[cardKey(v)] = 'unknown'; cs.flipped = true;
+      savePartMark(posId, v, 'u');
+      renderFlashcard(posId);
     });
     $('#fc-review').addEventListener('click', () => {
       const un = cs.queue.filter(v => cs.status[cardKey(v)] === 'unknown');
       if (!un.length) { showToast('🎉 Невідомих у цій сесії немає!'); return; }
-      cs.queue = shuffle(un); cs.idx = 0; cs.flipped = false; cs.status = {}; cs.rewarded = false;
+      cs.queue = shuffle(un); cs.idx = 0; cs.flipped = false; cs.status = {}; cs.rewarded = false; cs.gained = 0;
       renderFlashcard(posId);
     });
+    /* вибір частини: кнопки в блоці Parts і на екрані «частину завершено» */
+    panel.addEventListener('click', e => {
+      const b = e.target.closest('[data-part]');
+      if (!b) return;
+      if (b.dataset.part === 'all') { cs.part = null; startCardSession(posId); }
+      else startPartSession(posId, +b.dataset.part);
+    });
 
+    syncCardsHash(posId);
     renderFlashcard(posId);
   }
 
-  const cardKey = v => v.en + '|' + v.uk;
+  const cardKey = v => v.en + '|' + (v.ctx || '') + '|' + v.uk;
   function startCardSession(posId) {
     const P = POS[posId], cs = cardState(posId);
     cs.queue = shuffle(poolForScope(P, cs.scope).slice());
-    cs.idx = 0; cs.flipped = false; cs.status = {}; cs.rewarded = false; cs.startedOnce = true;
+    cs.idx = 0; cs.flipped = false; cs.status = {}; cs.rewarded = false; cs.gained = 0; cs.startedOnce = true;
+    syncCardsHash(posId);
     if ($('#card-slot')) renderFlashcard(posId);
+  }
+
+  /* сесія однієї частини: слова у стабільному порядку, позначки — із збереженого прогресу,
+     починаємо з першої ще не пройденої картки */
+  function startPartSession(posId, part) {
+    const P = POS[posId], cs = cardState(posId);
+    const words = catParts(P, cs.scope)[part];
+    if (!words) { cs.part = null; return startCardSession(posId); }
+    const saved = partStore(posId, cs.scope).s;
+    cs.part = part;
+    cs.queue = words.slice();
+    cs.status = {};
+    words.forEach(v => { const x = saved[cardKey(v)]; if (x) cs.status[cardKey(v)] = x === 'k' ? 'known' : 'unknown'; });
+    const first = cs.queue.findIndex(v => !cs.status[cardKey(v)]);
+    cs.idx = first < 0 ? 0 : first;
+    cs.flipped = false; cs.rewarded = false; cs.gained = 0; cs.startedOnce = true;
+    const rec = partRec(posId, cs.scope);
+    if (rec.last !== part) { rec.last = part; save(); }
+    syncCardsHash(posId);
+    if ($('#card-slot')) renderFlashcard(posId);
+  }
+
+  /* адреса відображає колоду й частину (#/vocab/verbs/cards/motion/3), щоб їх можна було відкрити посиланням */
+  function syncCardsHash(posId) {
+    const cs = cardState(posId);
+    if (!/^#\/vocab\/[^/]+\/cards(\/|$)/.test(location.hash)) return;
+    const h = '#/vocab/' + posId + '/cards' + (cs.scope === 'all' ? '' : '/' + cs.scope + (cs.part != null ? '/' + (cs.part + 1) : ''));
+    if (location.hash !== h && window.history && history.replaceState) history.replaceState(null, '', h);
   }
 
   function markCardKnown(posId) {
     const P = POS[posId], cs = cardState(posId);
     const v = cs.queue[cs.idx]; if (!v) return;
+    if (cs.status[cardKey(v)] !== 'known') cs.gained++;
     cs.status[cardKey(v)] = 'known';
     const idx = v._id != null ? v._id : P.words.indexOf(v);
     markKnown(posId, idx);
+    savePartMark(posId, v, 'k');
     renderFlashcard(posId);
     setTimeout(() => { cs.idx++; cs.flipped = false; renderFlashcard(posId); }, 280);
+  }
+
+  /* блок частин над карткою: «Продовжити» + сітка Part 1…N зі станом кожної */
+  function renderPartsBox(posId) {
+    const box = $('#lp-box');
+    if (!box) return;
+    const P = POS[posId], cs = cardState(posId);
+    if (!hasParts(P, cs.scope)) { box.innerHTML = ''; return; }
+    const parts = catParts(P, cs.scope);
+    const total = parts.reduce((n, p) => n + p.length, 0);
+    const lab = splitLabel(P.cats[cs.scope].label);
+    const nx = nextPart(posId, cs.scope, parts);
+    const infos = parts.map(p => partInfo(posId, cs.scope, p));
+    const doneN = infos.filter(x => x.complete).length;
+    box.innerHTML =
+      '<div class="lp-box">' +
+      '<div class="lp-head"><div class="lp-title">🧩 <b>' + esc(lab.en) + '</b> частинами' +
+      '<span class="lp-sub">' + parts.length + ' ' + plural(parts.length, 'частина', 'частини', 'частин') + ' по ~' + PART_SIZE + ' слів · завершено ' + doneN + '/' + parts.length + '</span></div>' +
+      (nx >= 0
+        ? '<button class="btn btn-primary lp-continue" data-part="' + nx + '">▶ Продовжити · ' + partLabel(nx) + '</button>'
+        : '<span class="lp-alldone">🏆 Усі частини пройдено</span>') +
+      '</div>' +
+      '<div class="lp-grid">' + parts.map((p, i) => {
+        const x = infos[i];
+        const state = x.complete ? 'done' : x.started ? 'started' : 'new';
+        const txt = x.complete ? '✓ Завершено' : x.started ? x.done + '/' + x.total : 'не почато';
+        return '<button class="lp-chip lp-' + state + (cs.part === i ? ' active' : '') + '" data-part="' + i + '" title="' + x.total + ' слів' + (x.done ? ' · знаю ' + x.known : '') + '">' +
+          '<b>' + partLabel(i) + '</b><span>' + txt + '</span><i style="width:' + Math.round(x.done / x.total * 100) + '%"></i></button>';
+      }).join('') +
+      '<button class="lp-chip lp-all' + (cs.part == null ? ' active' : '') + '" data-part="all"><b>🌐 Уся категорія</b><span>' + total + ' слів упереміш</span></button>' +
+      '</div></div>';
   }
 
   function renderFlashcard(posId) {
     const P = POS[posId], cs = cardState(posId);
     const slot = $('#card-slot');
     if (!slot) return;
+    renderPartsBox(posId);
+    const inPart = cs.part != null;
     const kEl = $('#kCount'), uEl = $('#uCount'), rEl = $('#rCount');
     const k = Object.values(cs.status).filter(x => x === 'known').length;
     const u = Object.values(cs.status).filter(x => x === 'unknown').length;
-    const r = Math.max(0, cs.queue.length - cs.idx);
+    /* у частині «лишилось» — ще не пройдені слова (прогрес зберігається між сесіями) */
+    const r = inPart ? cs.queue.filter(v => !cs.status[cardKey(v)]).length : Math.max(0, cs.queue.length - cs.idx);
     if (kEl) kEl.textContent = k;
     if (uEl) uEl.textContent = u;
     if (rEl) rEl.textContent = r;
@@ -900,9 +1067,32 @@
     if (cs.idx >= cs.queue.length) {
       if (!cs.rewarded && cs.queue.length >= 3) {
         cs.rewarded = true;
-        const xp = k * 5 + (u === 0 && k > 0 ? 25 : 0);
-        addXp(xp); touchStreak();
-        if (u === 0 && k > 0) { store.perfect++; save(); confetti(); }
+        /* у частині XP лише за позначене в цій сесії — повернення до частини не нараховує його вдруге */
+        const earned = inPart ? cs.gained : k;
+        const perfect = u === 0 && earned > 0;
+        const xp = earned * 5 + (perfect ? 25 : 0);
+        if (xp) addXp(xp);
+        touchStreak();
+        if (perfect) { store.perfect++; save(); confetti(); }
+      }
+      if (inPart) {
+        const parts = catParts(P, cs.scope);
+        const skipped = cs.queue.findIndex(v => !cs.status[cardKey(v)]);
+        const nx = nextPart(posId, cs.scope, parts);
+        slot.innerHTML = '<div class="flashcard done">' +
+          '<div class="fc-emoji">' + (skipped >= 0 ? '⏸️' : u === 0 ? '🏆' : '🎉') + '</div>' +
+          '<div class="fc-en">' + (skipped >= 0 ? partLabel(cs.part) + ': пропущено ' + r : partLabel(cs.part) + ' завершено!') + '</div>' +
+          '<div class="fc-uk">Знаю: ' + k + ' · Не знаю: ' + u + '</div>' +
+          '<div class="lp-done-actions">' +
+          (skipped >= 0 ? '<button class="fc-btn" id="lp-skipped">↩ До пропущених</button>' : '') +
+          (nx >= 0 && nx !== cs.part ? '<button class="fc-btn known" data-part="' + nx + '">▶ ' + partLabel(nx) + '</button>' : '') +
+          '</div>' +
+          (skipped < 0 && u > 0 ? '<div class="fc-hint">«🔁 Повторити невідомі» — закріпити слабкі слова цієї частини</div>' : '') +
+          (skipped < 0 && nx < 0 ? '<div class="fc-hint">усі частини категорії пройдено!</div>' : '') +
+          '</div>';
+        const sk = $('#lp-skipped');
+        if (sk) sk.addEventListener('click', () => { cs.idx = skipped; cs.flipped = false; renderFlashcard(posId); });
+        return;
       }
       slot.innerHTML = '<div class="flashcard done">' +
         '<div class="fc-emoji">' + (u === 0 ? '🏆' : '🎉') + '</div>' +
@@ -934,7 +1124,7 @@
       (P.isNouns && v.syn && v.syn.length ? '<div class="fc-ex">≈ ' + esc(v.syn.join(', ')) + '</div>' : '') +
       (v.note ? '<div class="fc-note">💡 ' + esc(v.note) + '</div>' : '') +
       '<div class="fc-ex">' + esc(v.ex || '') + (v.exUk ? '<br><span class="fc-ex-uk">' + esc(v.exUk) + '</span>' : '') + '</div>' +
-      '</div></div>';
+      '</div>' + (inPart ? '<div class="lp-card-tag">' + partLabel(cs.part) + ' · ' + (cs.idx + 1) + '/' + cs.queue.length + '</div>' : '') + '</div>';
 
     $('#theCard').addEventListener('click', () => { cs.flipped = !cs.flipped; renderFlashcard(posId); });
   }
@@ -1141,7 +1331,12 @@
     if (parts.length > 1 && !POS[posId]) return notFound(view);
     const tab = parts[2] || 'browser';
     if (parts.length > 1 && !POS[posId].tabs.includes(tab)) return notFound(view);
-    const draw = () => { if (parts.length === 1) vocabHub(view); else posPage(view, posId, tab); };
+    if (tab === 'cards' && parts.length > 5) return notFound(view);
+    const draw = () => {
+      if (parts.length === 1) return vocabHub(view);
+      if (tab === 'cards' && parts[3] && !applyCardsLink(posId, parts[3], parts[4])) return notFound(view);
+      posPage(view, posId, tab);
+    };
     if (parts.length === 1 || loaded(posId)) return draw();
 
     view.innerHTML = '<div class="rd-loading"><div class="rd-book-anim"><span></span><span></span><span></span></div>' +
@@ -1158,6 +1353,30 @@
     });
   }
 
+  /* #/vocab/<pos>/cards/<категорія>[/<номер частини> | /next] — відкрити колоду чи частину посиланням.
+     Сесію перезапускаємо лише тоді, коли колода чи частина справді інші. */
+  function applyCardsLink(posId, scope, partArg) {
+    const P = POS[posId], cs = cardState(posId);
+    if (!scopeValid(P, scope) || scope === 'all') return false;
+    let part = null;
+    if (partArg != null) {
+      if (!hasParts(P, scope)) return false;
+      const parts = catParts(P, scope);
+      if (partArg === 'next') {
+        part = nextPart(posId, scope, parts);
+        if (part < 0) part = 0;
+      } else {
+        if (!/^\d+$/.test(partArg) || +partArg < 1 || +partArg > parts.length) return false;
+        part = +partArg - 1;
+      }
+    }
+    if (cs.scope !== scope || cs.part !== part || !cs.startedOnce) {
+      cs.scope = scope; cs.part = part;
+      cs.queue = []; cs.startedOnce = false;   /* renderCards збере нову колоду */
+    }
+    return true;
+  }
+
   /* скидання кешів після перемикача 18+ */
   function resetCaches() {
     adultWords = null;
@@ -1167,7 +1386,8 @@
 
   window.FLLexis = {
     route, POS, POS_ORDER, LEVELS, lexStats, lexChoicePool,
-    adultOn, isAdultWord, wVisible, resetCaches, verbFormsOf, ensure, loaded, posCount, catCount
+    adultOn, isAdultWord, wVisible, resetCaches, verbFormsOf, ensure, loaded, posCount, catCount,
+    PART_SIZE, catParts: (posId, catId) => catParts(POS[posId], catId), hasParts: (posId, catId) => hasParts(POS[posId], catId)
   };
 
 })();

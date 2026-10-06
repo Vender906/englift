@@ -1299,6 +1299,48 @@ input, textarea { font-family: inherit; }
 }
 .select-scope:focus { border-color: var(--a1); }
 
+/* ---------- частини (Parts) великої категорії ---------- */
+.lp-box { margin: 0 0 14px; padding: 12px; background: var(--card); border: 1px solid var(--border); border-radius: 14px; }
+.lp-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap; margin-bottom: 10px; }
+.lp-title { font-size: 14px; line-height: 1.35; }
+.lp-sub { display: block; font-size: 11.5px; color: var(--muted); font-weight: 600; margin-top: 2px; }
+.lp-continue { padding: 9px 16px; font-size: 13px; }
+.lp-alldone { font-size: 13px; font-weight: 700; color: var(--good); }
+.lp-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(96px, 1fr)); gap: 6px; max-height: 236px; overflow-y: auto; }
+.lp-chip {
+  position: relative; overflow: hidden;
+  display: flex; flex-direction: column; align-items: flex-start; gap: 1px;
+  padding: 7px 9px 9px;
+  background: var(--bg-soft);
+  border: 1.5px solid var(--border-strong);
+  border-radius: 10px;
+  color: var(--text); text-align: left;
+  transition: border-color .15s, transform .12s;
+}
+.lp-chip b { font-size: 12.5px; }
+.lp-chip span { font-size: 11px; color: var(--muted); font-weight: 600; }
+.lp-chip i { position: absolute; left: 0; bottom: 0; height: 3px; background: var(--a1); border-radius: 0 3px 3px 0; }
+.lp-chip:hover { border-color: var(--a1); transform: translateY(-1px); }
+.lp-chip.active { border-color: var(--a1); background: color-mix(in srgb, var(--a1) 14%, var(--bg-soft)); }
+.lp-chip.lp-done span { color: var(--good); }
+.lp-chip.lp-done i { background: var(--good); }
+.lp-chip.lp-all { grid-column: span 2; }
+.lp-card-tag { position: absolute; top: 12px; right: 14px; font-size: 11px; font-weight: 700; opacity: .75; }
+.lp-done-actions { display: flex; justify-content: center; gap: 8px; flex-wrap: wrap; margin-top: 14px; }
+.lp-link-row { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-bottom: 13px; }
+.lp-link {
+  padding: 9px 13px; border-radius: 12px;
+  background: var(--card); border: 1.5px solid var(--border-strong);
+  font-size: 13px; font-weight: 700; color: var(--text); text-decoration: none;
+}
+.lp-link span { color: var(--muted); font-weight: 600; margin-left: 4px; }
+.lp-link:hover { border-color: var(--a1); }
+.lp-link-go { padding: 9px 16px; font-size: 13px; }
+@media (max-width: 480px) {
+  .lp-continue, .lp-link-go { width: 100%; }
+  .lp-grid { grid-template-columns: repeat(auto-fill, minmax(88px, 1fr)); }
+}
+
 /* ---------- тренажери на введення ---------- */
 .quiz-box {
   background: var(--grad-soft);
