@@ -1,0 +1,304 @@
+[
+ {
+  "id": 1091,
+  "en": "wither",
+  "ex": "I forgot to water the flowers on the balcony, and they withered in the hot sun.",
+  "exUk": "Я забув полити квіти на балконі, і вони зівʼяли на спекотному сонці."
+ },
+ {
+  "id": 1092,
+  "en": "wilt",
+  "ex": "Without water for two days, the roses began to wilt and their heads hung down.",
+  "exUk": "Два дні без води — і троянди почали никнути, їхні голівки похилилися."
+ },
+ {
+  "id": 1093,
+  "en": "ripen",
+  "ex": "The apples are still green and hard, but they will ripen on the tree by September.",
+  "exUk": "Яблука ще зелені й тверді, але до вересня вони дозріють на дереві."
+ },
+ {
+  "id": 1094,
+  "en": "rot",
+  "ex": "Nobody took out the trash for a week, so the vegetables in the bin began to rot.",
+  "exUk": "Тиждень ніхто не виносив сміття, тож овочі у відрі почали гнити."
+ },
+ {
+  "id": 1095,
+  "en": "plant",
+  "ex": "When our daughter was born, we planted a small apple tree in the garden.",
+  "exUk": "Коли народилася наша донька, ми посадили в саду маленьку яблуньку."
+ },
+ {
+  "id": 1096,
+  "en": "sow",
+  "ex": "In May, Grandpa sows carrot seeds in long rows and covers them with soil.",
+  "exUk": "У травні дідусь сіє насіння моркви довгими рядками й присипає його землею."
+ },
+ {
+  "id": 1097,
+  "en": "harvest",
+  "ex": "In late summer, the farmers harvest the wheat with big machines from morning till night.",
+  "exUk": "Наприкінці літа фермери з ранку до ночі збирають урожай пшениці великими машинами."
+ },
+ {
+  "id": 1098,
+  "en": "water",
+  "ex": "It hasn't rained for weeks, so I water the plants in the garden every evening.",
+  "exUk": "Дощу не було вже кілька тижнів, тож я щовечора поливаю рослини в саду.",
+  "ex2": "Before going on holiday, Mom asked the neighbor to water her tomatoes with the hose.",
+  "ex2Uk": "Перед відпусткою мама попросила сусіда поливати її помідори зі шланга."
+ },
+ {
+  "id": 1099,
+  "en": "prune",
+  "ex": "The bushes were growing over the path, so Dad pruned them with big garden scissors.",
+  "exUk": "Кущі розрослися аж на доріжку, тож тато обрізав їх великими садовими ножицями."
+ },
+ {
+  "id": 1100,
+  "en": "weed",
+  "ex": "Every Saturday, Grandma weeds the garden, pulling out all the wild plants around her carrots.",
+  "exUk": "Щосуботи бабуся полоє город, вириваючи всі бурʼяни навколо своєї моркви."
+ },
+ {
+  "id": 1101,
+  "en": "fertilize",
+  "ex": "The soil was poor, so we fertilized it with natural compost to help the vegetables grow.",
+  "exUk": "Ґрунт був бідний, тож ми удобрили його компостом, щоб овочі краще росли."
+ },
+ {
+  "id": 1102,
+  "en": "pollinate",
+  "ex": "Bees fly from flower to flower and pollinate them, so the trees can give fruit.",
+  "exUk": "Бджоли літають з квітки на квітку й запилюють їх, щоб дерева могли давати плоди."
+ },
+ {
+  "id": 1103,
+  "en": "transplant",
+  "ex": "The seedling grew too big for its little pot, so I transplanted it into the garden.",
+  "exUk": "Саджанець став завеликий для маленького горщика, тож я пересадив його в сад."
+ },
+ {
+  "id": 1104,
+  "en": "bark",
+  "ex": "Our dog barks loudly at strangers, but he's quiet when our friends come in.",
+  "exUk": "Наш пес голосно гавкає на чужих, але мовчить, коли приходять наші друзі."
+ },
+ {
+  "id": 1105,
+  "en": "meow",
+  "ex": "Every morning at six, my cat sits by her empty bowl and meows loudly for breakfast.",
+  "exUk": "Щоранку о шостій моя кішка сидить біля порожньої миски й голосно мʼявкає, просячи сніданку."
+ },
+ {
+  "id": 1106,
+  "en": "purr",
+  "ex": "The kitten lay on my lap and purred softly while I stroked her warm fur.",
+  "exUk": "Кошеня лежало в мене на колінах і тихо муркотіло, поки я гладив його теплу шерстку."
+ },
+ {
+  "id": 1107,
+  "en": "growl",
+  "ex": "When the stranger opened the gate, our dog showed his teeth and growled at him.",
+  "exUk": "Коли незнайомець відчинив хвіртку, наш пес вишкірив зуби й загарчав на нього."
+ },
+ {
+  "id": 1108,
+  "en": "roar",
+  "ex": "At the zoo, the lion opened its huge mouth and roared so loudly that the kids jumped.",
+  "exUk": "У зоопарку лев роззявив величезну пащу й заричав так голосно, що діти аж підскочили."
+ },
+ {
+  "id": 1109,
+  "en": "hiss",
+  "ex": "When I came too close, the snake raised its head and hissed at me.",
+  "exUk": "Коли я підійшов надто близько, змія підняла голову й засичала на мене."
+ },
+ {
+  "id": 1110,
+  "en": "chirp",
+  "ex": "Every morning the little birds chirp outside my window and wake me up before my alarm.",
+  "exUk": "Щоранку пташки цвірінькають за моїм вікном і будять мене раніше за будильник."
+ },
+ {
+  "id": 1111,
+  "en": "tweet",
+  "ex": "In spring, the sparrows tweet happily in the garden from early morning.",
+  "exUk": "Навесні горобці весело цвірінькають у саду з самого ранку."
+ },
+ {
+  "id": 1112,
+  "en": "quack",
+  "ex": "When the children threw bread into the pond, the ducks swam over and quacked loudly.",
+  "exUk": "Коли діти кинули хліб у ставок, качки підпливли й голосно закрякали."
+ },
+ {
+  "id": 1113,
+  "en": "moo",
+  "ex": "In the evening, the cows in the field moo loudly because they want to go home.",
+  "exUk": "Увечері корови в полі голосно мукають, бо хочуть додому."
+ },
+ {
+  "id": 1114,
+  "en": "neigh",
+  "ex": "When the girl came into the stable with an apple, her horse neighed happily.",
+  "exUk": "Коли дівчина зайшла до стайні з яблуком, її кінь радісно заіржав."
+ },
+ {
+  "id": 1115,
+  "en": "buzz",
+  "ex": "On sunny days, bees buzz around the flowers in our garden from morning to evening.",
+  "exUk": "Сонячними днями бджоли з ранку до вечора дзижчать навколо квітів у нашому саду."
+ },
+ {
+  "id": 1116,
+  "en": "sting",
+  "ex": "A bee stung my hand while I was picking flowers, and now it's red and swollen.",
+  "exUk": "Поки я рвав квіти, мене вжалила в руку бджола, і тепер вона червона й опухла."
+ },
+ {
+  "id": 1117,
+  "en": "bite",
+  "ex": "The neighbor's dog bit my leg, so I had to go to the doctor for an injection.",
+  "exUk": "Сусідський пес укусив мене за ногу, тож мені довелося йти до лікаря на укол."
+ },
+ {
+  "id": 1118,
+  "en": "scratch",
+  "ex": "Our cat scratches the furniture with her claws, so the sofa is full of holes.",
+  "exUk": "Наша кішка дряпає меблі кігтями, тож диван увесь у дірках."
+ },
+ {
+  "id": 1119,
+  "en": "prey on",
+  "ex": "Owls hunt at night and prey on small animals like mice and frogs.",
+  "exUk": "Сови полюють уночі на дрібних тварин, як-от мишей і жаб."
+ },
+ {
+  "id": 1120,
+  "en": "hibernate",
+  "ex": "Bears eat a lot in autumn, then hibernate in caves and sleep through the whole winter.",
+  "exUk": "Восени ведмеді багато їдять, а тоді впадають у сплячку в печерах і сплять усю зиму."
+ },
+ {
+  "id": 1121,
+  "en": "migrate",
+  "ex": "When it gets cold, many birds migrate south to warm countries and come back in spring.",
+  "exUk": "Коли холоднішає, багато птахів мігрують на південь у теплі краї й повертаються навесні."
+ },
+ {
+  "id": 1122,
+  "en": "hatch",
+  "ex": "We watched the egg crack open, and a tiny yellow chick hatched from it.",
+  "exUk": "Ми дивилися, як тріснуло яйце, і з нього вилупилося крихітне жовте курча."
+ },
+ {
+  "id": 1123,
+  "en": "nest",
+  "ex": "Every spring, storks nest on the roof of our barn and raise their babies there.",
+  "exUk": "Щовесни лелеки гніздяться на даху нашої клуні й вирощують там пташенят."
+ },
+ {
+  "id": 1124,
+  "en": "erupt",
+  "ex": "The volcano erupted violently, throwing hot ash and fire high into the sky.",
+  "exUk": "Вулкан бурхливо вивергнувся, викидаючи гарячий попіл і вогонь високо в небо."
+ },
+ {
+  "id": 1125,
+  "en": "quake",
+  "ex": "During the earthquake, the ground quaked so hard that plates fell off the shelves.",
+  "exUk": "Під час землетрусу земля так тремтіла, що з полиць падали тарілки."
+ },
+ {
+  "id": 1126,
+  "en": "flood",
+  "ex": "After three days of heavy rain, the river rose and flooded the whole town.",
+  "exUk": "Після трьох днів сильного дощу річка піднялася й затопила все місто."
+ },
+ {
+  "id": 1127,
+  "en": "burn down",
+  "ex": "A cigarette started a fire, and the whole wooden house burned down in an hour.",
+  "exUk": "Від цигарки почалася пожежа, і весь деревʼяний будинок згорів дощенту за годину."
+ },
+ {
+  "id": 1128,
+  "en": "collapse",
+  "ex": "The old roof couldn't hold all the heavy snow, and it collapsed in the night.",
+  "exUk": "Старий дах не витримав усього важкого снігу й уночі обвалився."
+ },
+ {
+  "id": 1130,
+  "en": "avalanche",
+  "ex": "After the heavy snowfall, tons of snow avalanched down the slope and covered the road.",
+  "exUk": "Після сильного снігопаду тонни снігу зійшли лавиною по схилу й засипали дорогу."
+ },
+ {
+  "id": 1131,
+  "en": "pollute",
+  "ex": "The factory pollutes the river with dirty water, so the fish are dying.",
+  "exUk": "Завод забруднює річку брудною водою, тож риба гине."
+ },
+ {
+  "id": 1132,
+  "en": "recycle",
+  "ex": "We recycle plastic bottles in the yellow bin, so factories can turn them into new things.",
+  "exUk": "Ми здаємо пластикові пляшки на переробку в жовтий контейнер, щоб заводи зробили з них нові речі."
+ },
+ {
+  "id": 1133,
+  "en": "conserve",
+  "ex": "During the hot summer, people must conserve water, so we don't wash our cars.",
+  "exUk": "Спекотного літа люди мусять берегти воду, тож ми не миємо машин."
+ },
+ {
+  "id": 1134,
+  "en": "preserve",
+  "ex": "Scientists are working hard to preserve this rare species of tiger so it doesn't disappear.",
+  "exUk": "Науковці наполегливо працюють, щоб зберегти цей рідкісний вид тигрів і він не зник."
+ },
+ {
+  "id": 1135,
+  "en": "protect",
+  "ex": "To protect the environment, our town planted new trees and banned plastic bags.",
+  "exUk": "Щоб захистити довкілля, наше місто посадило нові дерева й заборонило пластикові пакети."
+ },
+ {
+  "id": 1136,
+  "en": "destroy",
+  "ex": "When people cut down the forest, they destroyed the home of many birds and animals.",
+  "exUk": "Коли люди вирубали ліс, вони зруйнували домівку багатьох птахів і звірів."
+ },
+ {
+  "id": 1137,
+  "en": "litter",
+  "ex": "People who litter the streets with cans and paper should pay a big fine.",
+  "exUk": "Люди, які смітять на вулицях бляшанками й папером, мають платити великий штраф."
+ },
+ {
+  "id": 1138,
+  "en": "dump",
+  "ex": "Someone dumped a whole truck of old tires and trash in the forest last night.",
+  "exUk": "Минулої ночі хтось викинув у лісі цілу вантажівку старих шин і сміття."
+ },
+ {
+  "id": 1140,
+  "en": "reuse",
+  "ex": "Instead of buying new bags, I reuse the same cloth bags every time I go shopping.",
+  "exUk": "Замість купувати нові пакети, я щоразу повторно використовую ті самі тканинні сумки."
+ },
+ {
+  "id": 1141,
+  "en": "work out",
+  "ex": "I work out at the gym three times a week, lifting weights and running.",
+  "exUk": "Я тренуюся в залі тричі на тиждень — піднімаю гирі й бігаю."
+ },
+ {
+  "id": 1142,
+  "en": "train",
+  "ex": "She is training for a marathon, so she runs twenty kilometers every weekend.",
+  "exUk": "Вона тренується до марафону, тож щовихідних пробігає двадцять кілометрів."
+ }
+]

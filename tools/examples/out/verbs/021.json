@@ -1,0 +1,304 @@
+[
+ {
+  "id": 1039,
+  "en": "foster",
+  "ex": "They have no kids of their own, but they foster two children until a family adopts them.",
+  "exUk": "У них немає власних дітей, але вони взяли під опіку двох дітей, доки їх не всиновить якась родина."
+ },
+ {
+  "id": 1040,
+  "en": "boot up",
+  "ex": "My old laptop takes five minutes to boot up after I press the power button.",
+  "exUk": "Мій старий ноутбук завантажується пʼять хвилин після того, як я натискаю кнопку живлення."
+ },
+ {
+  "id": 1041,
+  "en": "shut down",
+  "ex": "Save all your work before you shut down the computer and go home for the night.",
+  "exUk": "Збережи всю роботу, перш ніж вимкнути компʼютер і піти додому на ніч."
+ },
+ {
+  "id": 1042,
+  "en": "restart",
+  "ex": "The internet stopped working, so I turned the router off and on to restart it.",
+  "exUk": "Інтернет перестав працювати, тож я вимкнув і знову ввімкнув роутер, щоб перезавантажити його."
+ },
+ {
+  "id": 1043,
+  "en": "paste",
+  "ex": "I copied the link from the email and pasted it into the chat for my friend.",
+  "exUk": "Я скопіював посилання з листа й вставив його в чат для друга."
+ },
+ {
+  "id": 1044,
+  "en": "copy",
+  "ex": "Before you change the report, copy the file to a USB stick so you keep the original.",
+  "exUk": "Перш ніж змінювати звіт, скопіюй файл на флешку, щоб зберегти оригінал."
+ },
+ {
+  "id": 1045,
+  "en": "undo",
+  "ex": "I deleted a whole page by mistake, so I pressed Ctrl+Z to undo it.",
+  "exUk": "Я випадково видалив цілу сторінку, тож натиснув Ctrl+Z, щоб скасувати дію."
+ },
+ {
+  "id": 1046,
+  "en": "redo",
+  "ex": "I undid the change too quickly, so I clicked the arrow to redo it again.",
+  "exUk": "Я надто поспішно скасував зміну, тож натиснув стрілку, щоб повторити дію знову."
+ },
+ {
+  "id": 1047,
+  "en": "drag",
+  "ex": "Click on the photo, hold the mouse button, and drag it into the new folder.",
+  "exUk": "Клацни на фото, утримуй кнопку миші й перетягни його в нову теку."
+ },
+ {
+  "id": 1048,
+  "en": "drop",
+  "ex": "To upload your photo, just drag it from your desktop and drop it into this box.",
+  "exUk": "Щоб завантажити фото, просто перетягни його з робочого столу й кинь у це поле."
+ },
+ {
+  "id": 1049,
+  "en": "dial",
+  "ex": "My hands were shaking as I picked up the phone and dialed the emergency number.",
+  "exUk": "У мене тремтіли руки, коли я взяв телефон і набрав номер екстреної служби."
+ },
+ {
+  "id": 1050,
+  "en": "hang up",
+  "ex": "She was so angry that she hung up on me in the middle of our phone call.",
+  "exUk": "Вона так розлютилася, що кинула слухавку посеред нашої телефонної розмови."
+ },
+ {
+  "id": 1051,
+  "en": "pick up",
+  "ex": "I called him five times, but he didn't pick up, so I left a voice message.",
+  "exUk": "Я дзвонив йому пʼять разів, але він не брав слухавку, тож я залишив голосове повідомлення."
+ },
+ {
+  "id": 1052,
+  "en": "ignore",
+  "ex": "When an unknown number calls me during dinner, I just ignore the call and keep eating.",
+  "exUk": "Коли під час вечері мені дзвонить невідомий номер, я просто ігнорую дзвінок і їм далі."
+ },
+ {
+  "id": 1053,
+  "en": "text back",
+  "ex": "I sent my friend a message this morning, but she still hasn't texted me back.",
+  "exUk": "Я написав подрузі зранку, але вона досі не написала мені у відповідь."
+ },
+ {
+  "id": 1054,
+  "en": "ping",
+  "ex": "I'll ping my colleague on Slack to ask if the report is ready.",
+  "exUk": "Я пінгану колегу в Slack і спитаю, чи готовий звіт."
+ },
+ {
+  "id": 1055,
+  "en": "tweet",
+  "ex": "The minute the news broke, the singer tweeted about it to her ten million followers.",
+  "exUk": "Щойно зʼявилася новина, співачка твітнула про неї своїм десяти мільйонам підписників."
+ },
+ {
+  "id": 1056,
+  "en": "retweet",
+  "ex": "I liked his funny post so much that I retweeted it to share it with my followers.",
+  "exUk": "Мені так сподобався його смішний пост, що я ретвітнув його, щоб поділитися з підписниками."
+ },
+ {
+  "id": 1057,
+  "en": "comment",
+  "ex": "My aunt comments on every photo I post, writing things like \"So beautiful!\"",
+  "exUk": "Моя тітка коментує кожне фото, яке я викладаю, і пише щось на кшталт «Яка краса!»"
+ },
+ {
+  "id": 1058,
+  "en": "share",
+  "ex": "The video about the lost dog was shared thousands of times, and the owner soon found him.",
+  "exUk": "Відео про загубленого пса поширили тисячі разів, і власник незабаром його знайшов.",
+  "ex2": "If you liked this recipe, please share the link with your friends on social media.",
+  "ex2Uk": "Якщо вам сподобався цей рецепт, поширте, будь ласка, посилання серед друзів у соцмережах."
+ },
+ {
+  "id": 1060,
+  "en": "tag",
+  "ex": "She posted the party photos and tagged me, so all my friends saw my silly face.",
+  "exUk": "Вона виклала фото з вечірки й позначила мене, тож усі мої друзі побачили моє кумедне обличчя."
+ },
+ {
+  "id": 1061,
+  "en": "shoplift",
+  "ex": "The guard caught a teenager trying to shoplift a jacket by hiding it under his coat.",
+  "exUk": "Охоронець спіймав підлітка, який намагався вкрасти куртку з магазину, сховавши її під пальто."
+ },
+ {
+  "id": 1062,
+  "en": "pickpocket",
+  "ex": "Someone pickpocketed me on the crowded bus, and I only noticed my wallet was gone at home.",
+  "exUk": "У переповненому автобусі мене обікрали з кишені, і я помітив, що гаманця нема, лише вдома."
+ },
+ {
+  "id": 1063,
+  "en": "hack",
+  "ex": "Someone hacked my email account and sent strange messages to all my contacts.",
+  "exUk": "Хтось зламав мій поштовий акаунт і розіслав дивні повідомлення всім моїм контактам."
+ },
+ {
+  "id": 1064,
+  "en": "scam",
+  "ex": "A man on the phone pretended to be from the bank and scammed my grandma.",
+  "exUk": "Чоловік по телефону прикинувся працівником банку й обманом виманив гроші в моєї бабусі."
+ },
+ {
+  "id": 1066,
+  "en": "tinkle",
+  "ex": "Before the long car trip, Mom asked the little boy if he needed to tinkle.",
+  "exUk": "Перед довгою поїздкою машиною мама спитала малого, чи не хоче він пісяти."
+ },
+ {
+  "id": 1067,
+  "en": "go number one",
+  "ex": "The little girl whispered that she had to go number one, so we stopped at a gas station.",
+  "exUk": "Дівчинка прошепотіла, що їй треба по-маленькому, тож ми зупинилися на заправці."
+ },
+ {
+  "id": 1068,
+  "en": "go number two",
+  "ex": "The toddler sat on his potty for ten minutes and finally went number two.",
+  "exUk": "Малюк десять хвилин сидів на горщику й нарешті сходив по-великому."
+ },
+ {
+  "id": 1069,
+  "en": "take a leak",
+  "ex": "We drank so much beer that my friend stopped the car to take a leak behind a tree.",
+  "exUk": "Ми випили стільки пива, що друг зупинив машину, щоб відлити за деревом."
+ },
+ {
+  "id": 1070,
+  "en": "take a dump",
+  "ex": "He's been in the toilet for twenty minutes — I think he's taking a dump.",
+  "exUk": "Він уже двадцять хвилин сидить у туалеті — мабуть, серить."
+ },
+ {
+  "id": 1071,
+  "en": "use the bathroom",
+  "ex": "Excuse me, may I use the bathroom before we leave? It's a long drive.",
+  "exUk": "Перепрошую, можна скористатися вбиральнею перед виїздом? Їхати довго."
+ },
+ {
+  "id": 1072,
+  "en": "use the loo",
+  "ex": "We had tea at a café in London just so we could use the loo there.",
+  "exUk": "Ми випили чаю в лондонському кафе лише для того, щоб скористатися там туалетом."
+ },
+ {
+  "id": 1073,
+  "en": "hold it in",
+  "ex": "There was no toilet on the bus, so I had to hold it in for two hours.",
+  "exUk": "В автобусі не було туалету, тож мені довелося терпіти дві години."
+ },
+ {
+  "id": 1074,
+  "en": "clench",
+  "ex": "He was so angry that he clenched his fists and his face turned red.",
+  "exUk": "Він був такий злий, що стиснув кулаки, а його обличчя почервоніло."
+ },
+ {
+  "id": 1075,
+  "en": "release",
+  "ex": "The dog held the ball tight and wouldn't release it until I gave him a treat.",
+  "exUk": "Пес міцно тримав мʼяч і не відпускав його, доки я не дав йому смаколик."
+ },
+ {
+  "id": 1076,
+  "en": "cling",
+  "ex": "The climber slipped but clung to the rope with both hands until help arrived.",
+  "exUk": "Альпініст посковзнувся, але чіплявся за мотузку обома руками, доки не прийшла допомога."
+ },
+ {
+  "id": 1077,
+  "en": "double",
+  "ex": "Last year a coffee cost two dollars, but now they've doubled the price to four.",
+  "exUk": "Торік кава коштувала два долари, а тепер ціну подвоїли до чотирьох."
+ },
+ {
+  "id": 1078,
+  "en": "triple",
+  "ex": "Our small company had ten workers, but in two years it tripled in size to thirty.",
+  "exUk": "У нашій маленькій компанії було десять працівників, але за два роки вона потроїлася — до тридцяти."
+ },
+ {
+  "id": 1079,
+  "en": "halve",
+  "ex": "We started cycling to work instead of driving and halved the cost of getting there.",
+  "exUk": "Ми почали їздити на роботу велосипедом замість машини й скоротили витрати на дорогу вдвічі."
+ },
+ {
+  "id": 1080,
+  "en": "skyrocket",
+  "ex": "After the famous artist died, the value of his paintings skyrocketed from thousands to millions.",
+  "exUk": "Після смерті відомого художника ціна його картин злетіла з тисяч до мільйонів."
+ },
+ {
+  "id": 1081,
+  "en": "cut back",
+  "ex": "Money is tight this month, so we're cutting back on spending and cooking at home.",
+  "exUk": "Цього місяця з грошима скрутно, тож ми скорочуємо витрати й готуємо вдома."
+ },
+ {
+  "id": 1082,
+  "en": "tighten your belt",
+  "ex": "When Dad lost his job, we all had to tighten our belts and stop buying anything extra.",
+  "exUk": "Коли тато втратив роботу, нам усім довелося затягнути пояси й перестати купувати щось зайве."
+ },
+ {
+  "id": 1083,
+  "en": "bump into",
+  "ex": "I bumped into an old school friend at the supermarket — I hadn't seen him for ten years!",
+  "exUk": "Я випадково зустрів старого шкільного друга в супермаркеті — я не бачив його десять років!"
+ },
+ {
+  "id": 1084,
+  "en": "run into",
+  "ex": "I didn't expect to see anyone from work at the beach, but I ran into my colleague there.",
+  "exUk": "Я не думав побачити когось із роботи на пляжі, але наткнувся там на колегу."
+ },
+ {
+  "id": 1085,
+  "en": "introduce",
+  "ex": "At the party, Anna introduced her friend to me: \"This is Mark, he's from Canada.\"",
+  "exUk": "На вечірці Анна представила мені свого друга: «Це Марк, він із Канади»."
+ },
+ {
+  "id": 1086,
+  "en": "mingle",
+  "ex": "At the party, she didn't stay in one corner — she mingled with lots of different guests.",
+  "exUk": "На вечірці вона не сиділа в одному кутку — вона спілкувалася з багатьма різними гостями."
+ },
+ {
+  "id": 1087,
+  "en": "grow",
+  "ex": "My little brother grew ten centimeters this year, and now he's taller than me.",
+  "exUk": "Мій молодший брат цього року виріс на десять сантиметрів, і тепер він вищий за мене."
+ },
+ {
+  "id": 1088,
+  "en": "bloom",
+  "ex": "Every spring the cherry trees in our street bloom, and everything is covered in pink flowers.",
+  "exUk": "Щовесни на нашій вулиці квітнуть вишні, і все вкривається рожевим цвітом."
+ },
+ {
+  "id": 1089,
+  "en": "blossom",
+  "ex": "After the warm rain, the apple trees blossomed beautifully and filled the garden with white flowers.",
+  "exUk": "Після теплого дощу яблуні гарно розквітли й наповнили сад білими квітами."
+ },
+ {
+  "id": 1090,
+  "en": "sprout",
+  "ex": "Three days after I planted the beans, small green shoots sprouted in the soil.",
+  "exUk": "Через три дні після того, як я посадив квасолю, у ґрунті зʼявилися маленькі зелені паростки."
+ }
+]

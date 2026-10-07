@@ -1,0 +1,304 @@
+[
+ {
+  "id": 1528,
+  "en": "back up",
+  "ex": "When the teacher blamed my friend unfairly, I backed him up and said he was telling the truth.",
+  "exUk": "Коли вчителька несправедливо звинуватила мого друга, я підтримав його й сказав, що він каже правду."
+ },
+ {
+  "id": 1529,
+  "en": "stand by",
+  "ex": "Even when he lost his job and his money, his wife stood by him and never left.",
+  "exUk": "Навіть коли він утратив роботу й гроші, дружина була поруч і ніколи його не покидала."
+ },
+ {
+  "id": 1530,
+  "en": "carry out",
+  "ex": "The boss gave us a difficult task, and we carried it out exactly as he asked.",
+  "exUk": "Начальник дав нам складне завдання, і ми виконали його точно так, як він просив."
+ },
+ {
+  "id": 1531,
+  "en": "hand in",
+  "ex": "The teacher said we must hand in our essays on Friday, or we will get a bad mark.",
+  "exUk": "Учителька сказала, що ми маємо здати есе в пʼятницю, інакше отримаємо погану оцінку."
+ },
+ {
+  "id": 1532,
+  "en": "put off",
+  "ex": "I was too tired to decide, so I put off the decision until the next morning.",
+  "exUk": "Я був надто втомлений, щоб вирішувати, тож відклав рішення до наступного ранку."
+ },
+ {
+  "id": 1533,
+  "en": "set up",
+  "ex": "My assistant set up a meeting with the clients for Tuesday at ten and sent everyone an invitation.",
+  "exUk": "Моя помічниця організувала зустріч із клієнтами на вівторок о десятій і розіслала всім запрошення."
+ },
+ {
+  "id": 1534,
+  "en": "take on",
+  "ex": "She already works long hours, but she took on a new project because nobody else wanted it.",
+  "exUk": "Вона й так довго працює, але взяла на себе новий проєкт, бо ніхто інший не хотів."
+ },
+ {
+  "id": 1535,
+  "en": "take over",
+  "ex": "When his father retired, he took over the family company and became the new boss.",
+  "exUk": "Коли батько пішов на пенсію, він перебрав на себе сімейну компанію й став новим керівником."
+ },
+ {
+  "id": 1536,
+  "en": "pull off",
+  "ex": "Planning a wedding in just two weeks seemed impossible, but somehow we pulled it off.",
+  "exUk": "Спланувати весілля лише за два тижні здавалося неможливим, але ми якось це здійснили."
+ },
+ {
+  "id": 1537,
+  "en": "pay off",
+  "ex": "After ten years of monthly payments, we finally paid off the loan for our house.",
+  "exUk": "Після десяти років щомісячних платежів ми нарешті погасили кредит за будинок."
+ },
+ {
+  "id": 1538,
+  "en": "pay back",
+  "ex": "My friend lent me fifty dollars, and I paid him back as soon as I got my salary.",
+  "exUk": "Друг позичив мені пʼятдесят доларів, і я віддав йому борг, щойно отримав зарплату."
+ },
+ {
+  "id": 1540,
+  "en": "rip off",
+  "ex": "The taxi driver ripped us off — he took a hundred dollars for a five-minute ride.",
+  "exUk": "Таксист нас обдер — узяв сто доларів за пʼятихвилинну поїздку."
+ },
+ {
+  "id": 1541,
+  "en": "tuck in",
+  "ex": "Grandma put a huge plate of pancakes on the table and said, \"Tuck in before they get cold!\"",
+  "exUk": "Бабуся поставила на стіл величезну тарілку млинців і сказала: «Наминайте, поки не охолонули!»"
+ },
+ {
+  "id": 1542,
+  "en": "dig in",
+  "ex": "The barbecue is ready, so grab a plate and dig in while the meat is hot!",
+  "exUk": "Барбекю готове, тож беріть тарілки й наминайте, поки мʼясо гаряче!"
+ },
+ {
+  "id": 1543,
+  "en": "eat out",
+  "ex": "We don't cook on Fridays — we eat out at the little Italian restaurant on our street.",
+  "exUk": "По пʼятницях ми не готуємо — їмо в маленькому італійському ресторані на нашій вулиці."
+ },
+ {
+  "id": 1544,
+  "en": "eat in",
+  "ex": "It's raining and we're tired, so let's eat in tonight and cook some pasta at home.",
+  "exUk": "Іде дощ, і ми втомилися, тож сьогодні поїмо вдома — зваримо макарони."
+ },
+ {
+  "id": 1545,
+  "en": "gulp down",
+  "ex": "I was late for the bus, so I gulped down my coffee in three seconds and ran out.",
+  "exUk": "Я запізнювався на автобус, тож за три секунди випив каву залпом і вибіг."
+ },
+ {
+  "id": 1546,
+  "en": "wolf down",
+  "ex": "He had only five minutes for lunch, so he wolfed down a burger without even sitting down.",
+  "exUk": "На обід у нього було лише пʼять хвилин, тож він похапцем проковтнув бургер, навіть не сівши."
+ },
+ {
+  "id": 1547,
+  "en": "doze off",
+  "ex": "The film was long and the sofa was soft, so I dozed off before the end.",
+  "exUk": "Фільм був довгий, а диван мʼякий, тож я задрімав ще до кінця.",
+  "ex2": "The classroom was warm and the lesson was boring, so Max dozed off at his desk.",
+  "ex2Uk": "У класі було тепло, а урок нудний, тож Макс задрімав за партою."
+ },
+ {
+  "id": 1548,
+  "en": "nod off",
+  "ex": "The lecture was so boring that she kept nodding off, her head falling forward again and again.",
+  "exUk": "Лекція була така нудна, що вона клювала носом — голова раз у раз хилилася вперед."
+ },
+ {
+  "id": 1549,
+  "en": "sleep in",
+  "ex": "On Saturday I don't set an alarm — I sleep in until ten and have a late breakfast.",
+  "exUk": "У суботу я не ставлю будильник — сплю довше, до десятої, і пізно снідаю."
+ },
+ {
+  "id": 1550,
+  "en": "sleep over",
+  "ex": "It was too late to go home, so I slept over at my friend's house on the sofa.",
+  "exUk": "Було надто пізно їхати додому, тож я заночував у друга на дивані."
+ },
+ {
+  "id": 1551,
+  "en": "wipe down",
+  "ex": "After cooking, wipe down the counter with a cloth so there are no crumbs or water left.",
+  "exUk": "Після готування протри стільницю ганчіркою, щоб не лишилося ні крихт, ні води."
+ },
+ {
+  "id": 1552,
+  "en": "sweep up",
+  "ex": "The kids dropped cookies everywhere, so I took a broom and swept up the crumbs.",
+  "exUk": "Діти розкидали печиво всюди, тож я взяв віника й замів крихти."
+ },
+ {
+  "id": 1553,
+  "en": "take out",
+  "ex": "The kitchen bin is full and smells bad — can you take out the trash, please?",
+  "exUk": "Кухонне відро повне й погано пахне — винеси, будь ласка, сміття."
+ },
+ {
+  "id": 1554,
+  "en": "tidy up",
+  "ex": "Your room is a mess — tidy up and put your clothes in the wardrobe before dinner!",
+  "exUk": "У твоїй кімнаті безлад — наведи лад і поклади одяг у шафу до вечері!"
+ },
+ {
+  "id": 1555,
+  "en": "come down with",
+  "ex": "My son came down with the flu and stayed in bed with a high fever all week.",
+  "exUk": "Мій син зліг із грипом і цілий тиждень пролежав у ліжку з високою температурою."
+ },
+ {
+  "id": 1556,
+  "en": "get over",
+  "ex": "It took him two weeks to get over the flu, but now he's healthy and back at work.",
+  "exUk": "Йому знадобилося два тижні, щоб перехворіти на грип, але тепер він здоровий і знову на роботі."
+ },
+ {
+  "id": 1557,
+  "en": "take up",
+  "ex": "My back hurt from sitting all day, so I took up yoga and now practice twice a week.",
+  "exUk": "Від цілоденного сидіння в мене боліла спина, тож я почав займатися йогою й тепер тренуюся двічі на тиждень."
+ },
+ {
+  "id": 1558,
+  "en": "work off",
+  "ex": "After a hard day at the office, I go to the gym to work off the stress.",
+  "exUk": "Після важкого дня в офісі я йду в спортзал, щоб скинути стрес."
+ },
+ {
+  "id": 1559,
+  "en": "log in",
+  "ex": "To see your bank account, log in with your username and password.",
+  "exUk": "Щоб побачити свій банківський рахунок, увійди в акаунт за допомогою логіна й пароля."
+ },
+ {
+  "id": 1560,
+  "en": "log out",
+  "ex": "If you use a computer at the library, always log out so others can't read your emails.",
+  "exUk": "Якщо користуєшся компʼютером у бібліотеці, завжди виходь з акаунту, щоб інші не прочитали твої листи."
+ },
+ {
+  "id": 1561,
+  "en": "sign in",
+  "ex": "You don't need a new password — just sign in with your Google account.",
+  "exUk": "Новий пароль не потрібен — просто авторизуйся через свій акаунт Google."
+ },
+ {
+  "id": 1562,
+  "en": "sign out",
+  "ex": "My sister wants to use the laptop, so I'll sign out and she can use her own account.",
+  "exUk": "Сестра хоче скористатися ноутбуком, тож я вийду з системи, а вона зайде у свій акаунт."
+ },
+ {
+  "id": 1563,
+  "en": "sign up",
+  "ex": "I want to learn Spanish, so I signed up for an evening class on the school's website.",
+  "exUk": "Я хочу вивчити іспанську, тож зареєструвався на вечірній курс на сайті школи."
+ },
+ {
+  "id": 1564,
+  "en": "boot up",
+  "ex": "My old PC takes five minutes to boot up, so I turn it on and make coffee.",
+  "exUk": "Мій старий ПК завантажує систему пʼять хвилин, тож я вмикаю його й іду робити каву."
+ },
+ {
+  "id": 1565,
+  "en": "scroll down",
+  "ex": "The prices aren't at the top of the page, so scroll down to the bottom to find them.",
+  "exUk": "Ціни не вгорі сторінки, тож прокрути вниз до кінця, щоб їх знайти."
+ },
+ {
+  "id": 1566,
+  "en": "pop up",
+  "ex": "Every time I open this website, an annoying ad pops up on the screen and covers the text.",
+  "exUk": "Щоразу, як я відкриваю цей сайт, на екрані вискакує набридлива реклама й закриває текст."
+ },
+ {
+  "id": 1567,
+  "en": "log on",
+  "ex": "Ask the waiter for the password so you can log on to the café's Wi-Fi.",
+  "exUk": "Попроси в офіціанта пароль, щоб підключитися до Wi-Fi кафе."
+ },
+ {
+  "id": 1568,
+  "en": "catch up on",
+  "ex": "We hadn't met for months, so we sat in a café to catch up on all the gossip.",
+  "exUk": "Ми не бачилися кілька місяців, тож засіли в кафе, щоб надолужити всі плітки."
+ },
+ {
+  "id": 1569,
+  "en": "hit it off",
+  "ex": "We met at a party and hit it off immediately — we talked and laughed all night.",
+  "exUk": "Ми познайомилися на вечірці й одразу порозумілися — цілу ніч балакали й сміялися."
+ },
+ {
+  "id": 1570,
+  "en": "drift apart",
+  "ex": "We were best friends at school, but after we moved to different cities, we slowly drifted apart.",
+  "exUk": "У школі ми були найкращими друзями, але після переїзду в різні міста поступово віддалилися."
+ },
+ {
+  "id": 1571,
+  "en": "make up with",
+  "ex": "She argued with her best friend on Monday but made up with her the next day over coffee.",
+  "exUk": "У понеділок вона посварилася з найкращою подругою, але наступного дня помирилася з нею за кавою."
+ },
+ {
+  "id": 1572,
+  "en": "paw at",
+  "ex": "The dog wanted to go outside, so it pawed at the door and whined.",
+  "exUk": "Пес хотів на вулицю, тож шкріб лапою у двері й скиглив."
+ },
+ {
+  "id": 1573,
+  "en": "wag",
+  "ex": "When I come home, my dog runs to the door and happily wags its tail.",
+  "exUk": "Коли я приходжу додому, мій пес біжить до дверей і радісно крутить хвостом."
+ },
+ {
+  "id": 1574,
+  "en": "pounce",
+  "ex": "The cat sat very still in the grass, then suddenly pounced on the mouse and caught it.",
+  "exUk": "Кіт сидів у траві нерухомо, а тоді раптом стрибнув на мишу й упіймав її."
+ },
+ {
+  "id": 1575,
+  "en": "train up",
+  "ex": "The new player knew almost nothing, so the coach spent a year training him up from zero.",
+  "exUk": "Новий гравець майже нічого не вмів, тож тренер рік тренував його з нуля."
+ },
+ {
+  "id": 1576,
+  "en": "gear up",
+  "ex": "The players are putting on their boots and helmets, gearing up for the big match.",
+  "exUk": "Гравці взувають бутси й надягають шоломи — готуються до великого матчу."
+ },
+ {
+  "id": 1577,
+  "en": "hold the line",
+  "ex": "The enemy attacked again and again, but our soldiers held the line and didn't let them pass.",
+  "exUk": "Ворог атакував знову і знову, але наші солдати тримали оборону й не дали їм пройти."
+ },
+ {
+  "id": 1578,
+  "en": "open fire",
+  "ex": "When the enemy soldiers came out of the forest, our troops opened fire on them.",
+  "exUk": "Коли ворожі солдати вийшли з лісу, наші війська відкрили по них вогонь."
+ }
+]

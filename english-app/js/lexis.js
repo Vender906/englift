@@ -805,10 +805,14 @@
      Велику категорію ділимо на частини по PART_SIZE слів. Порядок «випадковий», але стабільний:
      слова сортуються за хешем «частина мови / категорія / слово», тож у кожній частині змішано
      слова різних підкатегорій, а Part 1 і через тиждень, і на іншому пристрої — ті самі слова.
+     Складні слова йдуть у кінець: спершу всі A1–B2, далі C1, наприкінці C2 (PART_LATE_LEVELS) —
+     усередині кожного ярусу той самий стабільний «випадковий» порядок.
      Нове слово в даних стає у випадкове місце. Прогрес зберігається по словах (store.parts),
      тож навіть якщо межі частин зсунуться, пройдене не загубиться. */
   const PART_SIZE = 25;
   const PART_MIN_TAIL = Math.ceil(PART_SIZE / 3);   /* коротший хвіст доливаємо до попередньої частини */
+  const PART_LATE_LEVELS = ['C1', 'C2'];            /* ці рівні — в останні частини, у такому порядку */
+  const partTier = w => PART_LATE_LEVELS.indexOf(w.lvl) + 1;   /* 0 — решта, 1 — C1, 2 — C2 */
   function hash32(s) {
     let h = 0x811c9dc5;
     for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 0x01000193); }
@@ -819,8 +823,8 @@
     const ck = P.id + '/' + catId + (adultOn() ? '/18' : '');
     if (partsCache[ck]) return partsCache[ck];
     const seed = P.id + '/' + catId + '/';
-    const words = poolForScope(P, catId).map(w => ({ w, k: cardKey(w), h: hash32(seed + cardKey(w)) }))
-      .sort((a, b) => a.h - b.h || (a.k < b.k ? -1 : a.k > b.k ? 1 : 0)).map(x => x.w);
+    const words = poolForScope(P, catId).map(w => ({ w, t: partTier(w), k: cardKey(w), h: hash32(seed + cardKey(w)) }))
+      .sort((a, b) => a.t - b.t || a.h - b.h || (a.k < b.k ? -1 : a.k > b.k ? 1 : 0)).map(x => x.w);
     const parts = [];
     for (let i = 0; i < words.length; i += PART_SIZE) parts.push(words.slice(i, i + PART_SIZE));
     if (parts.length > 1 && parts[parts.length - 1].length < PART_MIN_TAIL) parts[parts.length - 2].push(...parts.pop());

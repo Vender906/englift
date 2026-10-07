@@ -1,0 +1,308 @@
+[
+ {
+  "id": 1196,
+  "en": "swirl",
+  "ex": "The autumn wind picked up the dry leaves, and they swirled around us in circles.",
+  "exUk": "Осінній вітер підхопив сухе листя, і воно кружляло навколо нас колами."
+ },
+ {
+  "id": 1197,
+  "en": "whirl",
+  "ex": "The tornado whirled across the field, spinning fast and pulling trees out of the ground.",
+  "exUk": "Торнадо пронісся вихором через поле, швидко обертаючись і вириваючи дерева з корінням."
+ },
+ {
+  "id": 1198,
+  "en": "die down",
+  "ex": "The storm was terrible at night, but by morning the wind had died down and it was quiet.",
+  "exUk": "Уночі буря була жахлива, але до ранку вітер стих, і стало тихо."
+ },
+ {
+  "id": 1199,
+  "en": "warm up",
+  "ex": "It was cold this morning, but now the sun is out and it's warming up quickly.",
+  "exUk": "Зранку було холодно, але тепер визирнуло сонце, і швидко теплішає.",
+  "ex2": "In April the weather warms up, so we can finally take off our heavy coats.",
+  "ex2Uk": "У квітні теплішає, тож ми нарешті можемо зняти важкі пальта."
+ },
+ {
+  "id": 1200,
+  "en": "cool off",
+  "ex": "The days in the desert are very hot, but it cools off a lot at night.",
+  "exUk": "Удень у пустелі дуже спекотно, але вночі сильно холоднішає."
+ },
+ {
+  "id": 1201,
+  "en": "freeze",
+  "ex": "It was minus twenty last night, and the lake froze, so today we can skate on it.",
+  "exUk": "Минулої ночі було мінус двадцять, і озеро замерзло, тож сьогодні можна кататися на ковзанах."
+ },
+ {
+  "id": 1202,
+  "en": "thaw",
+  "ex": "In March the sun gets warmer, the snow thaws, and small rivers run down the streets.",
+  "exUk": "У березні сонце пригріває, сніг тане, і вулицями біжать маленькі струмки."
+ },
+ {
+  "id": 1203,
+  "en": "boil",
+  "ex": "The air conditioner is broken, and it's 38 degrees — I'm boiling in this office!",
+  "exUk": "Кондиціонер зламався, а надворі 38 градусів — я просто варюся в цьому офісі!"
+ },
+ {
+  "id": 1204,
+  "en": "freeze to death",
+  "ex": "Close the window, please — it's minus ten outside and I'm freezing to death!",
+  "exUk": "Зачини, будь ласка, вікно — надворі мінус десять, і я страшенно мерзну!"
+ },
+ {
+  "id": 1205,
+  "en": "melt",
+  "ex": "Eat your ice cream quickly, or it will melt in the sun and drip on your hands.",
+  "exUk": "Їж морозиво швидше, бо воно розтане на сонці й потече тобі по руках."
+ },
+ {
+  "id": 1206,
+  "en": "fall",
+  "ex": "In autumn the leaves turn yellow and fall from the trees onto the paths.",
+  "exUk": "Восени листя жовтіє й падає з дерев на доріжки."
+ },
+ {
+  "id": 1207,
+  "en": "shine",
+  "ex": "There wasn't a single cloud, and the sun shone brightly over the beach all day.",
+  "exUk": "На небі не було жодної хмаринки, і сонце яскраво сяяло над пляжем увесь день."
+ },
+ {
+  "id": 1208,
+  "en": "set",
+  "ex": "In summer the sun sets very late, so it's still light outside at ten in the evening.",
+  "exUk": "Улітку сонце заходить дуже пізно, тож о десятій вечора надворі ще світло."
+ },
+ {
+  "id": 1209,
+  "en": "rise",
+  "ex": "We got up very early to watch the sun rise over the sea at dawn.",
+  "exUk": "Ми встали дуже рано, щоб подивитися, як на світанку над морем сходить сонце."
+ },
+ {
+  "id": 1210,
+  "en": "pace back and forth",
+  "ex": "While his wife was in the operating room, he paced back and forth in the hall.",
+  "exUk": "Поки дружина була в операційній, він ходив туди-сюди коридором."
+ },
+ {
+  "id": 1211,
+  "en": "trek",
+  "ex": "With heavy backpacks, we trekked through the mountains for six days, sleeping in small huts.",
+  "exUk": "З важкими рюкзаками ми шість днів ішли в похід горами, ночуючи в маленьких хатинках."
+ },
+ {
+  "id": 1212,
+  "en": "amble",
+  "ex": "We were in no hurry, so we ambled slowly through the market, looking at the fruit.",
+  "exUk": "Ми нікуди не поспішали, тож неспішно брели ринком, роздивляючись фрукти."
+ },
+ {
+  "id": 1213,
+  "en": "scale",
+  "ex": "The thief scaled the high stone wall with a rope and climbed into the garden.",
+  "exUk": "Злодій виліз на високий камʼяний мур по мотузці й забрався в сад."
+ },
+ {
+  "id": 1214,
+  "en": "descend",
+  "ex": "The old lady held the handrail and descended the stairs very slowly, one step at a time.",
+  "exUk": "Літня жінка трималася за поручень і дуже повільно спускалася сходами, сходинка за сходинкою."
+ },
+ {
+  "id": 1215,
+  "en": "ascend",
+  "ex": "The climbers started at dawn and ascended the mountain, reaching the top by noon.",
+  "exUk": "Альпіністи вирушили на світанку й піднімалися на гору, досягнувши вершини до полудня."
+ },
+ {
+  "id": 1216,
+  "en": "topple",
+  "ex": "The child pulled the bottom block, and the whole tall tower toppled over onto the floor.",
+  "exUk": "Дитина витягла нижній кубик, і вся висока вежа перекинулася на підлогу."
+ },
+ {
+  "id": 1217,
+  "en": "blink",
+  "ex": "When I came out into the bright sun, I blinked quickly because my eyes hurt.",
+  "exUk": "Коли я вийшов на яскраве сонце, то швидко закліпав, бо в мене заболіли очі."
+ },
+ {
+  "id": 1218,
+  "en": "wink",
+  "ex": "Grandpa winked at me across the table to show he was only joking.",
+  "exUk": "Дідусь підморгнув мені через стіл, показуючи, що він лише жартує."
+ },
+ {
+  "id": 1219,
+  "en": "peer",
+  "ex": "It was dark inside, so he peered through the dirty window to see if anyone was home.",
+  "exUk": "Усередині було темно, тож він придивлявся крізь брудне вікно, чи є хтось удома."
+ },
+ {
+  "id": 1220,
+  "en": "perk up",
+  "ex": "He was sleepy and quiet all morning, but he perked up after a strong cup of coffee.",
+  "exUk": "Увесь ранок він був сонний і мовчазний, але пожвавішав після чашки міцної кави."
+ },
+ {
+  "id": 1221,
+  "en": "lighten up",
+  "ex": "Lighten up, Dad — it was only a joke, and nobody was trying to hurt you!",
+  "exUk": "Розслабся, тату, — це був лише жарт, ніхто не хотів тебе образити!"
+ },
+ {
+  "id": 1222,
+  "en": "sulk",
+  "ex": "When we said no to ice cream, my son sulked in the corner and wouldn't talk to anyone.",
+  "exUk": "Коли ми не дозволили морозиво, син дувся в куточку й ні з ким не розмовляв."
+ },
+ {
+  "id": 1223,
+  "en": "whack",
+  "ex": "A wasp landed on the table, and Dad whacked it hard with a rolled-up newspaper.",
+  "exUk": "На стіл сіла оса, і тато щосили вгамселив її згорнутою газетою."
+ },
+ {
+  "id": 1224,
+  "en": "knock",
+  "ex": "Please knock on the door before you come into my room — I might be changing.",
+  "exUk": "Будь ласка, стукай у двері, перш ніж зайти до моєї кімнати, — я можу перевдягатися."
+ },
+ {
+  "id": 1225,
+  "en": "tap",
+  "ex": "Someone tapped me lightly on the shoulder, and I turned around to see an old friend.",
+  "exUk": "Хтось легенько поплескав мене по плечу, і я обернувся — там стояв старий друг."
+ },
+ {
+  "id": 1226,
+  "en": "pound",
+  "ex": "The angry boss pounded his fist on the table so hard that the cups jumped.",
+  "exUk": "Розлючений начальник так гатив кулаком по столу, що чашки підстрибували."
+ },
+ {
+  "id": 1227,
+  "en": "whip up",
+  "ex": "Our guests arrived early, so I whipped up a quick meal with eggs and vegetables in ten minutes.",
+  "exUk": "Гості прийшли рано, тож я нашвидкуруч зробив страву з яєць і овочів за десять хвилин.",
+  "ex2": "We were late for school, so Mom whipped up some sandwiches for breakfast in two minutes.",
+  "ex2Uk": "Ми запізнювалися до школи, тож мама нашвидкуруч зробила бутерброди на сніданок за дві хвилини."
+ },
+ {
+  "id": 1228,
+  "en": "put together",
+  "ex": "The team met on Monday to put together a plan for the summer festival.",
+  "exUk": "У понеділок команда зібралася, щоб скласти план літнього фестивалю."
+ },
+ {
+  "id": 1229,
+  "en": "draft",
+  "ex": "She drafted her wedding speech on paper first, then changed many lines before the big day.",
+  "exUk": "Спершу вона написала чернетку весільної промови на папері, а перед важливим днем змінила багато рядків.",
+  "ex2": "I'll draft the email tonight, and you can check it and fix any mistakes tomorrow.",
+  "ex2Uk": "Я напишу чернетку листа сьогодні ввечері, а ти завтра перевіриш і виправиш помилки."
+ },
+ {
+  "id": 1230,
+  "en": "split up",
+  "ex": "Let's split up the cleaning tasks — you do the kitchen, and I'll do the bathroom.",
+  "exUk": "Розподілімо завдання з прибирання — ти береш кухню, а я ванну."
+ },
+ {
+  "id": 1231,
+  "en": "pass on",
+  "ex": "Your mom called while you were out, and she asked me to pass on a message.",
+  "exUk": "Поки тебе не було, дзвонила твоя мама й попросила мене передати тобі повідомлення."
+ },
+ {
+  "id": 1232,
+  "en": "bandage",
+  "ex": "The nurse cleaned the wound on my arm and bandaged it with a long white cloth.",
+  "exUk": "Медсестра промила рану на моїй руці й перевʼязала її довгим білим бинтом."
+ },
+ {
+  "id": 1233,
+  "en": "stitch",
+  "ex": "The cut on his head was deep, so the doctor stitched the wound with a needle and thread.",
+  "exUk": "Поріз на голові був глибокий, тож лікар зашив рану голкою й ниткою."
+ },
+ {
+  "id": 1234,
+  "en": "disinfect",
+  "ex": "Before putting on a plaster, disinfect the cut with alcohol so it doesn't get infected.",
+  "exUk": "Перш ніж наклеїти пластир, продезинфікуй поріз спиртом, щоб не потрапила інфекція."
+ },
+ {
+  "id": 1236,
+  "en": "map out",
+  "ex": "Before the road trip, we mapped out our route and marked every town where we would stop.",
+  "exUk": "Перед автоподорожжю ми розпланували маршрут і позначили кожне місто, де зупинимося."
+ },
+ {
+  "id": 1237,
+  "en": "squat",
+  "ex": "The village toilet was just a hole in the floor, so I had to squat over it.",
+  "exUk": "Сільський туалет був просто діркою в підлозі, тож мені довелося присісти над нею."
+ },
+ {
+  "id": 1238,
+  "en": "wet the bed",
+  "ex": "Our five-year-old drank too much juice before sleep and wet the bed during the night.",
+  "exUk": "Наш пʼятирічний син випив забагато соку перед сном і вночі намочив ліжко."
+ },
+ {
+  "id": 1239,
+  "en": "poo",
+  "ex": "The baby went red in the face, and we knew he had pooed in his nappy again.",
+  "exUk": "Малюк почервонів, і ми зрозуміли, що він знову покакав у підгузок."
+ },
+ {
+  "id": 1240,
+  "en": "paint",
+  "ex": "The artist painted a portrait of my grandmother in oils, using bright colors and a thin brush.",
+  "exUk": "Художник намалював олійними фарбами портрет моєї бабусі, використовуючи яскраві кольори й тонкий пензлик."
+ },
+ {
+  "id": 1241,
+  "en": "draw",
+  "ex": "My daughter took a pencil and drew a picture of our house with a big sun above it.",
+  "exUk": "Донька взяла олівець і намалювала наш будинок із великим сонцем над ним."
+ },
+ {
+  "id": 1243,
+  "en": "doodle",
+  "ex": "The lesson was boring, so he doodled little stars and faces in the corner of his notebook.",
+  "exUk": "Урок був нудний, тож він калякав маленькі зірочки й пики в кутку зошита."
+ },
+ {
+  "id": 1244,
+  "en": "illustrate",
+  "ex": "She illustrates children's books, drawing funny animals for every page of the story.",
+  "exUk": "Вона ілюструє дитячі книжки — малює кумедних тварин до кожної сторінки історії."
+ },
+ {
+  "id": 1245,
+  "en": "design",
+  "ex": "My sister designed a new logo for the café, with a coffee cup and a smiling sun.",
+  "exUk": "Моя сестра розробила новий логотип для кафе — з чашкою кави й усміхненим сонцем."
+ },
+ {
+  "id": 1246,
+  "en": "photograph",
+  "ex": "He photographs weddings every weekend, taking hundreds of pictures of the happy couples.",
+  "exUk": "Він щовихідних фотографує весілля й робить сотні знімків щасливих пар."
+ },
+ {
+  "id": 1247,
+  "en": "snap",
+  "ex": "Look at that beautiful sunset — quick, snap a photo with your phone before it's gone!",
+  "exUk": "Глянь, який гарний захід сонця — швидше клацни фото на телефон, поки не зник!"
+ }
+]

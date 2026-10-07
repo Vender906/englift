@@ -1,0 +1,302 @@
+[
+ {
+  "id": 1639,
+  "en": "brag about",
+  "ex": "He got the best grades in class and keeps bragging about them to everyone he meets.",
+  "exUk": "Він отримав найкращі оцінки в класі й постійно хвастається ними перед кожним, кого зустріне."
+ },
+ {
+  "id": 1640,
+  "en": "puff up",
+  "ex": "When the boss praised him in front of everyone, he puffed up with pride and smiled widely.",
+  "exUk": "Коли начальник похвалив його перед усіма, він аж надувся від пихи й широко всміхнувся."
+ },
+ {
+  "id": 1641,
+  "en": "gloat",
+  "ex": "After our team won, my brother gloated over the win, laughing at me because my team lost.",
+  "exUk": "Після перемоги нашої команди брат зловтішався, сміючись із мене, бо моя команда програла."
+ },
+ {
+  "id": 1642,
+  "en": "blush",
+  "ex": "When the teacher read her love letter aloud to the class, she blushed in shame.",
+  "exUk": "Коли вчитель прочитав уголос перед класом її любовну записку, вона почервоніла від сорому."
+ },
+ {
+  "id": 1643,
+  "en": "cringe",
+  "ex": "My dad told a terrible joke in front of my friends, and I cringed and wanted to disappear.",
+  "exUk": "Тато розповів жахливий жарт при моїх друзях, і я аж зіщулився — хотілося провалитися крізь землю."
+ },
+ {
+  "id": 1645,
+  "en": "feel guilty",
+  "ex": "I told Mom I was at the library, but I was at a party — now I feel guilty.",
+  "exUk": "Я сказав мамі, що був у бібліотеці, а сам був на вечірці — тепер почуваюся винним."
+ },
+ {
+  "id": 1647,
+  "en": "blame yourself",
+  "ex": "The accident wasn't your fault — the other driver ran a red light, so don't blame yourself.",
+  "exUk": "Аварія сталася не з твоєї вини — інший водій проїхав на червоне, тож не звинувачуй себе."
+ },
+ {
+  "id": 1648,
+  "en": "hide your face",
+  "ex": "When everyone laughed at his mistake, he wanted to hide his face in his hands.",
+  "exUk": "Коли всі засміялися з його помилки, йому захотілося сховати обличчя в долонях."
+ },
+ {
+  "id": 1649,
+  "en": "humiliate",
+  "ex": "The manager humiliated his coworker by shouting at her and calling her stupid in front of everyone.",
+  "exUk": "Менеджер принизив колегу, накричавши на неї й назвавши дурною перед усіма."
+ },
+ {
+  "id": 1650,
+  "en": "hope for",
+  "ex": "The weather forecast says rain, but we're hoping for sun because the wedding is outside.",
+  "exUk": "Прогноз обіцяє дощ, але ми сподіваємося на сонце, бо весілля просто неба."
+ },
+ {
+  "id": 1651,
+  "en": "wish for",
+  "ex": "Before blowing out the candles, she closed her eyes and wished for a new bike.",
+  "exUk": "Перед тим як задути свічки, вона заплющила очі й побажала собі новий велосипед."
+ },
+ {
+  "id": 1652,
+  "en": "dream of",
+  "ex": "We live in a tiny flat, but we dream of a big house with a garden one day.",
+  "exUk": "Ми живемо в крихітній квартирі, але мріємо колись про великий будинок із садом."
+ },
+ {
+  "id": 1653,
+  "en": "aspire to",
+  "ex": "Ever since she was a child, she has aspired to become a great pianist.",
+  "exUk": "Ще з дитинства вона прагне стати видатною піаністкою."
+ },
+ {
+  "id": 1655,
+  "en": "pray for",
+  "ex": "Our friend is in the hospital, so every night my grandmother prays for him to get better.",
+  "exUk": "Наш друг у лікарні, тож бабуся щовечора молиться за нього, щоб він одужав."
+ },
+ {
+  "id": 1656,
+  "en": "count on",
+  "ex": "When I need help moving house, I can always count on my best friend to come.",
+  "exUk": "Коли мені потрібна допомога з переїздом, я завжди можу розраховувати на свого найкращого друга."
+ },
+ {
+  "id": 1657,
+  "en": "feel lonely",
+  "ex": "Since her children moved abroad, she feels lonely in the big empty house.",
+  "exUk": "Відколи діти переїхали за кордон, вона почувається самотньою у великому порожньому будинку."
+ },
+ {
+  "id": 1658,
+  "en": "miss",
+  "ex": "My sister moved to Canada last year, and I miss her so much — I wish she were here.",
+  "exUk": "Минулого року сестра переїхала до Канади, і я дуже за нею сумую — шкода, що її немає поруч."
+ },
+ {
+  "id": 1659,
+  "en": "isolate yourself",
+  "ex": "When you're sad, don't isolate yourself at home — call friends and go outside.",
+  "exUk": "Коли тобі сумно, не ізолюйся вдома — подзвони друзям і вийди надвір."
+ },
+ {
+  "id": 1660,
+  "en": "withdraw",
+  "ex": "After his wife died, he withdrew from his friends and stopped answering their calls.",
+  "exUk": "Після смерті дружини він віддалився від друзів і перестав відповідати на їхні дзвінки."
+ },
+ {
+  "id": 1661,
+  "en": "ache for",
+  "ex": "She has lived alone for years and aches for a warm hug from someone who loves her.",
+  "exUk": "Вона роками живе сама й нудиться за теплими обіймами когось, хто її любить."
+ },
+ {
+  "id": 1662,
+  "en": "reach out",
+  "ex": "If you feel lonely or sad, reach out to a friend and tell them how you feel.",
+  "exUk": "Якщо тобі самотньо чи сумно, звернися до друга й розкажи, що відчуваєш."
+ },
+ {
+  "id": 1663,
+  "en": "lob",
+  "ex": "The other player was close to the net, so she lobbed the ball high over his head.",
+  "exUk": "Суперник стояв біля сітки, тож вона закинула мʼяч високою дугою йому через голову."
+ },
+ {
+  "id": 1664,
+  "en": "scatter",
+  "ex": "The farmer walked across the field and scattered the seeds by hand all over the ground.",
+  "exUk": "Фермер ішов полем і розсипав насіння руками по всій землі."
+ },
+ {
+  "id": 1665,
+  "en": "toss out",
+  "ex": "The milk smelled bad, so I tossed it out together with the old bread.",
+  "exUk": "Молоко погано пахло, тож я викинув його разом зі старим хлібом."
+ },
+ {
+  "id": 1666,
+  "en": "heave",
+  "ex": "Using all his strength, he heaved the heavy rock into the river with a loud splash.",
+  "exUk": "З усієї сили він жбурнув важку каменюку в річку, і та гучно плюхнулася у воду."
+ },
+ {
+  "id": 1667,
+  "en": "pick up",
+  "ex": "She never took lessons — she picked up Italian by living in Rome and talking to neighbors.",
+  "exUk": "Вона ніколи не брала уроків — просто легко вивчила італійську, живучи в Римі й балакаючи із сусідами."
+ },
+ {
+  "id": 1668,
+  "en": "snap up",
+  "ex": "The concert tickets were cheap, so fans snapped them up in less than ten minutes.",
+  "exUk": "Квитки на концерт були дешеві, тож фанати вихопили їх менш ніж за десять хвилин."
+ },
+ {
+  "id": 1669,
+  "en": "seize on",
+  "ex": "When the boss asked who wanted to work in Paris, she seized on the opportunity immediately.",
+  "exUk": "Коли начальник спитав, хто хоче працювати в Парижі, вона одразу вхопилася за цю можливість."
+ },
+ {
+  "id": 1670,
+  "en": "check in",
+  "ex": "Our flight is tomorrow morning, so let's check in online tonight and choose our seats.",
+  "exUk": "Наш рейс завтра зранку, тож зареєструймося онлайн сьогодні ввечері й виберемо місця."
+ },
+ {
+  "id": 1671,
+  "en": "put up",
+  "ex": "My cousin had nowhere to stay in the city, so we put him up in our spare room.",
+  "exUk": "Двоюрідному братові не було де зупинитися в місті, тож ми поселили його у себе в гостьовій кімнаті."
+ },
+ {
+  "id": 1672,
+  "en": "put up with",
+  "ex": "My neighbors play loud music every night, and I can't put up with the noise anymore.",
+  "exUk": "Сусіди щоночі вмикають гучну музику, і я вже не можу терпіти цей шум."
+ },
+ {
+  "id": 1673,
+  "en": "settle in",
+  "ex": "The first week in the new home was strange, but we unpacked our things and soon settled in.",
+  "exUk": "Перший тиждень у новому домі був дивним, але ми розпакували речі й невдовзі облаштувалися."
+ },
+ {
+  "id": 1674,
+  "en": "move in",
+  "ex": "After two years of dating, they decided to move in together and rented a small flat.",
+  "exUk": "Після двох років стосунків вони вирішили жити разом і винайняли невелику квартиру."
+ },
+ {
+  "id": 1675,
+  "en": "move out",
+  "ex": "The rent was too high, so we packed our boxes and moved out of the flat last month.",
+  "exUk": "Оренда була задорога, тож ми спакували коробки й минулого місяця виїхали з квартири."
+ },
+ {
+  "id": 1676,
+  "en": "catch",
+  "ex": "I ran all the way to the stop and caught the bus just before the doors closed.",
+  "exUk": "Я біг аж до зупинки й устиг на автобус якраз перед тим, як зачинилися двері."
+ },
+ {
+  "id": 1677,
+  "en": "miss",
+  "ex": "The line at security was so long that we missed our flight and had to wait.",
+  "exUk": "Черга на контролі була така довга, що ми запізнилися на рейс і мусили чекати."
+ },
+ {
+  "id": 1678,
+  "en": "transfer",
+  "ex": "There's no direct train to the airport, so you have to transfer at Central Station.",
+  "exUk": "Прямого потяга до аеропорту немає, тож доведеться пересісти на Центральному вокзалі."
+ },
+ {
+  "id": 1679,
+  "en": "hop on",
+  "ex": "Paris is only an hour away — just hop on a plane and come visit us for the weekend!",
+  "exUk": "До Парижа лише година — просто застрибуй у літак і приїжджай до нас на вихідні!"
+ },
+ {
+  "id": 1680,
+  "en": "hop off",
+  "ex": "The bus stops right in front of the mall, so hop off there and I'll meet you.",
+  "exUk": "Автобус зупиняється просто біля ТЦ, тож вискакуй там, і я тебе зустріну."
+ },
+ {
+  "id": 1681,
+  "en": "tie",
+  "ex": "He tied a strong knot in the rope so the boat wouldn't float away.",
+  "exUk": "Він завʼязав на мотузці міцний вузол, щоб човен не відплив."
+ },
+ {
+  "id": 1682,
+  "en": "outrun",
+  "ex": "He was the fastest boy at school and outran every rival in the hundred-meter race.",
+  "exUk": "Він був найшвидшим хлопцем у школі й обігнав кожного суперника в забігу на сто метрів."
+ },
+ {
+  "id": 1683,
+  "en": "outplay",
+  "ex": "They had better players and passed the ball better — they completely outplayed us and won five-nil.",
+  "exUk": "У них були кращі гравці й кращі передачі — вони повністю нас переграли й виграли пʼять — нуль."
+ },
+ {
+  "id": 1684,
+  "en": "knock down",
+  "ex": "In the second round, the boxer knocked down his rival with one hard punch.",
+  "exUk": "У другому раунді боксер одним сильним ударом збив суперника з ніг."
+ },
+ {
+  "id": 1685,
+  "en": "splash",
+  "ex": "The kids jumped into the pool and splashed their friend until his hair was wet.",
+  "exUk": "Діти пострибали в басейн і хлюпали на друга водою, аж поки в нього не намокло волосся."
+ },
+ {
+  "id": 1686,
+  "en": "skinny-dip",
+  "ex": "On a warm summer night, they left their clothes on the beach and skinny-dipped in the lake.",
+  "exUk": "Теплої літньої ночі вони залишили одяг на березі й купалися в озері голяка."
+ },
+ {
+  "id": 1687,
+  "en": "trickle",
+  "ex": "After the storm, raindrops slowly trickled down the window, one after another.",
+  "exUk": "Після грози дощові краплі повільно стікали по вікну одна за одною."
+ },
+ {
+  "id": 1688,
+  "en": "pelt down",
+  "ex": "The rain pelted down so hard that we got wet in seconds, even with an umbrella.",
+  "exUk": "Дощ хлистав так сильно, що ми за кілька секунд промокли, навіть із парасолькою."
+ },
+ {
+  "id": 1689,
+  "en": "rustle",
+  "ex": "A light wind rustled the dry leaves, making a soft sound in the quiet forest.",
+  "exUk": "Легкий вітерець шелестів сухим листям, і в тихому лісі лунав мʼякий звук."
+ },
+ {
+  "id": 1690,
+  "en": "whistle",
+  "ex": "Our old house has gaps in the windows, and on stormy nights the wind whistles through the cracks.",
+  "exUk": "У нашому старому будинку вікна зі щілинами, і в бурхливі ночі вітер свистить крізь них."
+ },
+ {
+  "id": 1691,
+  "en": "calm down",
+  "ex": "The wind was strong all night, but by morning it calmed down and the sea was flat again.",
+  "exUk": "Вітер дув цілу ніч, але до ранку вгамувався, і море знову стало гладеньким."
+ }
+]

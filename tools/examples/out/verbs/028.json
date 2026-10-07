@@ -1,0 +1,306 @@
+[
+ {
+  "id": 1416,
+  "en": "line up",
+  "ex": "Only one cashier was working, so we had to line up behind ten people to pay.",
+  "exUk": "Працювала лише одна каса, тож нам довелося стати в чергу за десятьма людьми, щоб заплатити."
+ },
+ {
+  "id": 1417,
+  "en": "ring up",
+  "ex": "The cashier rang up my milk and bread, and the screen showed the total: five dollars.",
+  "exUk": "Касирка пробила моє молоко й хліб, і на екрані зʼявилася сума: пʼять доларів."
+ },
+ {
+  "id": 1418,
+  "en": "scan",
+  "ex": "At the self-checkout, scan the barcode on each item, then put it in your bag.",
+  "exUk": "На касі самообслуговування скануй штрих-код на кожному товарі, а тоді клади його в пакет."
+ },
+ {
+  "id": 1419,
+  "en": "swipe",
+  "ex": "The old machine doesn't read chips, so you have to swipe your card through this slot.",
+  "exUk": "Старий термінал не зчитує чип, тож треба провести карткою через цю щілину."
+ },
+ {
+  "id": 1420,
+  "en": "tap",
+  "ex": "You don't need to enter a PIN — just tap your card on the terminal to pay.",
+  "exUk": "Пін-код вводити не треба — просто приклади картку до термінала, щоб заплатити."
+ },
+ {
+  "id": 1421,
+  "en": "insert",
+  "ex": "Insert your card into the machine with the chip facing up, then type your PIN.",
+  "exUk": "Встав картку в термінал чипом догори, а потім введи пін-код."
+ },
+ {
+  "id": 1422,
+  "en": "cash out",
+  "ex": "I collected a thousand points in the app, so I cashed them out and got twenty dollars.",
+  "exUk": "Я назбирав тисячу балів у застосунку, тож вивів їх і отримав двадцять доларів."
+ },
+ {
+  "id": 1423,
+  "en": "charge",
+  "ex": "I bought one ticket, but the website charged my card twice, so I lost extra money.",
+  "exUk": "Я купив один квиток, але сайт двічі списав гроші з моєї картки, тож я втратив зайве."
+ },
+ {
+  "id": 1424,
+  "en": "tip",
+  "ex": "The waiter was very kind and fast, so we tipped him ten dollars on top of the bill.",
+  "exUk": "Офіціант був дуже привітний і швидкий, тож ми дали йому десять доларів чайових понад рахунок."
+ },
+ {
+  "id": 1425,
+  "en": "add up",
+  "ex": "Before paying, she added up the prices of everything in her basket to check the total.",
+  "exUk": "Перед оплатою вона додала ціни всього в кошику, щоб перевірити загальну суму."
+ },
+ {
+  "id": 1426,
+  "en": "split the bill",
+  "ex": "Dinner cost sixty dollars, so the three of us split the bill and each paid twenty.",
+  "exUk": "Вечеря коштувала шістдесят доларів, тож ми втрьох розділили рахунок і кожен заплатив по двадцять."
+ },
+ {
+  "id": 1427,
+  "en": "round up",
+  "ex": "The coffee was $4.60, so I rounded up to five dollars and told her to keep the change.",
+  "exUk": "Кава коштувала $4.60, тож я округлив до пʼяти доларів і сказав, щоб вона лишила здачу собі."
+ },
+ {
+  "id": 1428,
+  "en": "return",
+  "ex": "The shirt was too small, so I returned it to the shop and got my money back.",
+  "exUk": "Сорочка була замала, тож я повернув її в магазин і отримав гроші назад."
+ },
+ {
+  "id": 1432,
+  "en": "reject",
+  "ex": "The self-checkout rejected my coupon because it was a week out of date.",
+  "exUk": "Каса самообслуговування відхилила мій купон, бо термін його дії скінчився тиждень тому."
+ },
+ {
+  "id": 1433,
+  "en": "file a claim",
+  "ex": "My new TV arrived broken, so I filed a claim with the store and asked for a refund.",
+  "exUk": "Мій новий телевізор приїхав розбитим, тож я подав скаргу до магазину й попросив повернути гроші."
+ },
+ {
+  "id": 1434,
+  "en": "dispute",
+  "ex": "My card shows a payment for a hotel I never visited, so I disputed the charge.",
+  "exUk": "На моїй картці є оплата за готель, у якому я ніколи не був, тож я оскаржив списання."
+ },
+ {
+  "id": 1435,
+  "en": "add to cart",
+  "ex": "Choose your size, click the button to add the shoes to your cart, then go to payment.",
+  "exUk": "Вибери розмір, натисни кнопку, щоб додати черевики в кошик, а потім переходь до оплати."
+ },
+ {
+  "id": 1436,
+  "en": "check out",
+  "ex": "When your cart is ready, check out online by entering your address and card details.",
+  "exUk": "Коли кошик готовий, оформи замовлення онлайн: введи адресу й дані картки."
+ },
+ {
+  "id": 1440,
+  "en": "ship",
+  "ex": "The shop shipped my order on Monday, and the box arrived at my door on Wednesday.",
+  "exUk": "Магазин відправив моє замовлення в понеділок, а в середу коробка вже була під моїми дверима."
+ },
+ {
+  "id": 1441,
+  "en": "unbox",
+  "ex": "The kids couldn't wait to unbox the package, so they tore open the box right in the hallway.",
+  "exUk": "Діти не могли дочекатися, щоб розпакувати посилку, тож розірвали коробку просто в коридорі."
+ },
+ {
+  "id": 1442,
+  "en": "review",
+  "ex": "After a month with the new vacuum cleaner, I reviewed it online, listing its good and bad points.",
+  "exUk": "Після місяця з новим пилососом я написав на нього відгук в інтернеті, перелічивши плюси й мінуси."
+ },
+ {
+  "id": 1443,
+  "en": "rate",
+  "ex": "The seller sent my order quickly and packed it well, so I rated him five stars.",
+  "exUk": "Продавець швидко надіслав замовлення й добре його запакував, тож я оцінив його на пʼять зірок."
+ },
+ {
+  "id": 1444,
+  "en": "redeem",
+  "ex": "I got a coupon by email, so I redeemed it at checkout and paid twenty percent less.",
+  "exUk": "Я отримав купон поштою, тож активував його під час оплати й заплатив на двадцять відсотків менше."
+ },
+ {
+  "id": 1445,
+  "en": "apply a code",
+  "ex": "Type SUMMER10 in the box and apply the code to get ten percent off your order.",
+  "exUk": "Введи SUMMER10 у поле й застосуй промокод, щоб отримати знижку десять відсотків на замовлення."
+ },
+ {
+  "id": 1446,
+  "en": "wishlist",
+  "ex": "The jacket was too expensive now, so I wishlisted it and will buy it when the sale starts.",
+  "exUk": "Куртка поки що задорога, тож я додав її до бажань і куплю, коли почнеться розпродаж."
+ },
+ {
+  "id": 1448,
+  "en": "worship",
+  "ex": "The ancient Egyptians worshipped many gods and built huge temples for them.",
+  "exUk": "Стародавні єгиптяни поклонялися багатьом богам і будували для них величезні храми."
+ },
+ {
+  "id": 1449,
+  "en": "attend Mass",
+  "ex": "My grandparents are Catholic, so they attend Mass at the church every Sunday morning.",
+  "exUk": "Мої дідусь і бабуся — католики, тож щонеділі вранці ходять на месу до костелу."
+ },
+ {
+  "id": 1451,
+  "en": "bow",
+  "ex": "In the church, the old woman bowed before the icon, lowering her head to the floor.",
+  "exUk": "У церкві стара жінка вклонилася перед іконою, схиливши голову аж до підлоги."
+ },
+ {
+  "id": 1452,
+  "en": "chant",
+  "ex": "Early in the morning, the monks chant prayers together in low, slow voices.",
+  "exUk": "Рано-вранці ченці разом співають молитви низькими, протяжними голосами."
+ },
+ {
+  "id": 1454,
+  "en": "confess",
+  "ex": "Before Easter, she went to the priest and confessed her sins in a quiet voice.",
+  "exUk": "Перед Великоднем вона пішла до священника й тихим голосом висповідалася у гріхах."
+ },
+ {
+  "id": 1455,
+  "en": "repent",
+  "ex": "The thief repented of his crimes, cried, and asked everyone he had hurt to forgive him.",
+  "exUk": "Злодій покаявся у своїх злочинах, заплакав і попросив пробачення в усіх, кого скривдив."
+ },
+ {
+  "id": 1456,
+  "en": "sing hymns",
+  "ex": "On Sunday the whole church stood up to sing hymns while the old organ played.",
+  "exUk": "У неділю вся церква підвелася співати псалми під звуки старого органа."
+ },
+ {
+  "id": 1457,
+  "en": "believe in",
+  "ex": "My grandmother believes in God and prays every evening before she goes to bed.",
+  "exUk": "Моя бабуся вірить у Бога й щовечора молиться перед сном."
+ },
+ {
+  "id": 1459,
+  "en": "convert",
+  "ex": "He grew up as a Christian, but he converted to Islam after living in Egypt for ten years.",
+  "exUk": "Він виріс християнином, але навернувся в іслам після десяти років життя в Єгипті."
+ },
+ {
+  "id": 1460,
+  "en": "convert",
+  "ex": "Long ago, travelling priests tried to convert local people and teach them their religion.",
+  "exUk": "Колись мандрівні священники намагалися навернути місцевих людей у свою віру й навчити їх своєї релігії."
+ },
+ {
+  "id": 1461,
+  "en": "baptize",
+  "ex": "The priest baptized the baby by pouring a little holy water on her head.",
+  "exUk": "Священник охрестив немовля, поливши йому голівку свяченою водою."
+ },
+ {
+  "id": 1462,
+  "en": "bless",
+  "ex": "Before the Easter dinner, the priest blessed the food with holy water.",
+  "exUk": "Перед великодньою трапезою священник поблагословив їжу свяченою водою."
+ },
+ {
+  "id": 1463,
+  "en": "curse",
+  "ex": "In the old story, the angry witch cursed the king, and bad luck followed him forever.",
+  "exUk": "У давній казці розлючена відьма прокляла короля, і відтоді нещастя переслідували його повсюди."
+ },
+ {
+  "id": 1464,
+  "en": "forgive",
+  "ex": "The priest told him that God forgives any sinner who is truly sorry.",
+  "exUk": "Священник сказав йому, що Бог прощає кожного грішника, який щиро кається."
+ },
+ {
+  "id": 1465,
+  "en": "fast",
+  "ex": "During Ramadan, Muslims fast all day and eat only after the sun goes down.",
+  "exUk": "Під час Рамадану мусульмани постують цілий день і їдять лише після заходу сонця.",
+  "ex2": "My aunt fasts during Lent and doesn't eat meat, milk, or eggs for weeks.",
+  "ex2Uk": "Моя тітка постує у Великий піст і тижнями не їсть мʼяса, молока чи яєць."
+ },
+ {
+  "id": 1466,
+  "en": "light a candle",
+  "ex": "In the church she lit a candle for her late grandfather and stood quietly in front of it.",
+  "exUk": "У церкві вона запалила свічку за покійного дідуся й мовчки постояла перед нею."
+ },
+ {
+  "id": 1467,
+  "en": "cross yourself",
+  "ex": "Before the long drive, my grandmother crossed herself, touching her forehead, chest and shoulders.",
+  "exUk": "Перед довгою дорогою бабуся перехрестилася, торкнувшись чола, грудей і плечей.",
+  "ex2": "As the bus passed the old church, a woman by the window quickly crossed herself.",
+  "ex2Uk": "Коли автобус проїжджав повз стару церкву, жінка біля вікна швидко перехрестилася."
+ },
+ {
+  "id": 1468,
+  "en": "marry",
+  "ex": "They signed the papers at the city office, and a month later they married in a church.",
+  "exUk": "Вони розписалися в РАЦСі, а через місяць обвінчалися в церкві."
+ },
+ {
+  "id": 1469,
+  "en": "bury",
+  "ex": "After the funeral service, they buried their grandfather in the village cemetery next to his wife.",
+  "exUk": "Після панахиди дідуся поховали на сільському цвинтарі поруч із його дружиною."
+ },
+ {
+  "id": 1470,
+  "en": "cremate",
+  "ex": "He didn't want a grave, so his body was cremated and the ashes were scattered at sea.",
+  "exUk": "Він не хотів могили, тож його тіло кремували, а попіл розвіяли над морем."
+ },
+ {
+  "id": 1472,
+  "en": "observe",
+  "ex": "Our family observes every religious holiday — we go to church, cook special food, and don't work.",
+  "exUk": "Наша родина дотримується кожного релігійного свята — ми ходимо до церкви, готуємо особливі страви й не працюємо."
+ },
+ {
+  "id": 1473,
+  "en": "sacrifice",
+  "ex": "In ancient times, people sacrificed animals to their gods, hoping for rain and a good harvest.",
+  "exUk": "У давнину люди приносили тварин у жертву своїм богам, сподіваючись на дощ і добрий урожай."
+ },
+ {
+  "id": 1474,
+  "en": "meditate",
+  "ex": "Every morning I sit quietly with my eyes closed and meditate for ten minutes to feel calm.",
+  "exUk": "Щоранку я сиджу в тиші з заплющеними очима й медитую десять хвилин, щоб заспокоїтися."
+ },
+ {
+  "id": 1476,
+  "en": "seek",
+  "ex": "He left his busy city life and went to the mountains to seek inner peace.",
+  "exUk": "Він покинув метушливе міське життя й поїхав у гори шукати внутрішнього спокою."
+ },
+ {
+  "id": 1477,
+  "en": "awaken",
+  "ex": "After a year in a quiet monastery, she felt she had awakened spiritually and saw life differently.",
+  "exUk": "Після року в тихому монастирі вона відчула, що духовно пробудилася, і стала бачити життя інакше."
+ }
+]

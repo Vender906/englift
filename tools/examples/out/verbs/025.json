@@ -1,0 +1,304 @@
+[
+ {
+  "id": 1248,
+  "en": "film",
+  "ex": "The crew filmed the last scene on the beach at sunset, with three cameras recording at once.",
+  "exUk": "Знімальна група зняла останню сцену на пляжі на заході сонця трьома камерами одночасно."
+ },
+ {
+  "id": 1250,
+  "en": "crop",
+  "ex": "My thumb was in the corner of the photo, so I cropped the image to cut it out.",
+  "exUk": "У кутку фото був мій палець, тож я обрізав зображення, щоб прибрати його."
+ },
+ {
+  "id": 1251,
+  "en": "retouch",
+  "ex": "Before printing the magazine cover, the designer retouched the portrait to remove spots on her skin.",
+  "exUk": "Перед друком обкладинки журналу дизайнер заретушував портрет, щоб прибрати плями на її шкірі."
+ },
+ {
+  "id": 1252,
+  "en": "color",
+  "ex": "My daughter took her crayons and colored the whole page — the sun yellow and the grass green.",
+  "exUk": "Донька взяла олівці й розфарбувала всю сторінку — сонце жовтим, а траву зеленим."
+ },
+ {
+  "id": 1253,
+  "en": "shade",
+  "ex": "The art teacher showed us how to shade the drawing so the apple looked round.",
+  "exUk": "Учитель малювання показав нам, як робити тіні на малюнку, щоб яблуко виглядало круглим."
+ },
+ {
+  "id": 1254,
+  "en": "trace",
+  "ex": "The child put his hand on the paper and traced the shape of it with a pencil.",
+  "exUk": "Малий поклав руку на папір і обвів її контур олівцем."
+ },
+ {
+  "id": 1255,
+  "en": "sculpt",
+  "ex": "The artist spent two years sculpting a huge statue of a horse from white stone.",
+  "exUk": "Митець два роки створював скульптуру — величезну статую коня з білого каменю."
+ },
+ {
+  "id": 1256,
+  "en": "exhibit",
+  "ex": "The young artist exhibited her paintings at a small gallery, and many people came to see them.",
+  "exUk": "Молода художниця виставила свої картини в невеликій галереї, і багато людей прийшли їх подивитися."
+ },
+ {
+  "id": 1257,
+  "en": "sing",
+  "ex": "At the party, everyone sang \"Happy Birthday\" while Grandma carried in the cake.",
+  "exUk": "На святі всі співали «Happy Birthday», поки бабуся вносила торт."
+ },
+ {
+  "id": 1258,
+  "en": "hum",
+  "ex": "She didn't remember the words, so she just hummed the tune with her mouth closed.",
+  "exUk": "Вона не памʼятала слів, тож просто мугикала мелодію з закритим ротом."
+ },
+ {
+  "id": 1259,
+  "en": "whistle",
+  "ex": "Dad was in a good mood, so he whistled a happy melody while washing the car.",
+  "exUk": "Тато був у доброму гуморі, тож насвистував веселу мелодію, миючи машину."
+ },
+ {
+  "id": 1260,
+  "en": "rap",
+  "ex": "At the talent show, my cousin rapped a fast verse about our town, and everyone clapped.",
+  "exUk": "На шоу талантів мій двоюрідний брат зачитав швидкий реп-куплет про наше місто, і всі аплодували."
+ },
+ {
+  "id": 1261,
+  "en": "play",
+  "ex": "My sister plays the piano beautifully — she practices for an hour every evening.",
+  "exUk": "Моя сестра чудово грає на піаніно — щовечора вона займається годину."
+ },
+ {
+  "id": 1262,
+  "en": "strum",
+  "ex": "He sat by the campfire and strummed his guitar while we sang along.",
+  "exUk": "Він сидів біля вогнища й бренькав на гітарі, а ми підспівували."
+ },
+ {
+  "id": 1263,
+  "en": "drum",
+  "ex": "While waiting for the doctor, she nervously drummed her fingers on the table.",
+  "exUk": "Чекаючи на лікаря, вона нервово барабанила пальцями по столу."
+ },
+ {
+  "id": 1264,
+  "en": "compose",
+  "ex": "Beethoven composed some of his greatest music when he was almost completely deaf.",
+  "exUk": "Бетховен склав деякі зі своїх найвидатніших творів, коли був майже зовсім глухий."
+ },
+ {
+  "id": 1265,
+  "en": "tune",
+  "ex": "The guitar sounded strange, so he turned the pegs to tune it before the concert.",
+  "exUk": "Гітара звучала дивно, тож він покрутив кілки, щоб настроїти її перед концертом."
+ },
+ {
+  "id": 1266,
+  "en": "jam",
+  "ex": "On Friday nights, my friends and I jam in the garage, making up music together without any notes.",
+  "exUk": "У пʼятницю ввечері ми з друзями джемуємо в гаражі — разом вигадуємо музику без жодних нот."
+ },
+ {
+  "id": 1267,
+  "en": "record",
+  "ex": "The band went into the studio and recorded their first song in just one day.",
+  "exUk": "Гурт пішов у студію й записав свою першу пісню всього за один день."
+ },
+ {
+  "id": 1268,
+  "en": "mix",
+  "ex": "After recording the voice and guitars, the sound engineer mixed the song to make it sound clean.",
+  "exUk": "Після запису голосу й гітар звукорежисер звів пісню, щоб вона звучала чисто."
+ },
+ {
+  "id": 1269,
+  "en": "conduct",
+  "ex": "The old man stood before the orchestra and conducted it, moving a thin stick in the air.",
+  "exUk": "Старий чоловік стояв перед оркестром і диригував ним, рухаючи в повітрі тонкою паличкою."
+ },
+ {
+  "id": 1270,
+  "en": "perform",
+  "ex": "Our school band will perform live on the main stage in front of five hundred people.",
+  "exUk": "Наш шкільний гурт виступатиме наживо на головній сцені перед пʼятьмастами людьми.",
+  "ex2": "The young dancer performed so well at the festival that the audience stood up and clapped.",
+  "ex2Uk": "Молода танцівниця так добре виступила на фестивалі, що глядачі встали й аплодували."
+ },
+ {
+  "id": 1271,
+  "en": "act",
+  "ex": "My brother acted in the school play — he was the king and wore a big gold crown.",
+  "exUk": "Мій брат грав у шкільній виставі — він був королем і носив велику золоту корону."
+ },
+ {
+  "id": 1272,
+  "en": "star",
+  "ex": "She starred in the new movie, and her face is on every poster in the city.",
+  "exUk": "Вона зіграла головну роль у новому фільмі, і її обличчя на кожному плакаті в місті."
+ },
+ {
+  "id": 1273,
+  "en": "rehearse",
+  "ex": "The actors rehearsed the fight scene twenty times before the first show so nobody would get hurt.",
+  "exUk": "Перед першою виставою актори двадцять разів репетирували сцену бійки, щоб ніхто не постраждав."
+ },
+ {
+  "id": 1274,
+  "en": "dance",
+  "ex": "When her favorite song came on, she jumped up and danced around the kitchen.",
+  "exUk": "Коли заграла її улюблена пісня, вона схопилася й затанцювала по кухні."
+ },
+ {
+  "id": 1275,
+  "en": "choreograph",
+  "ex": "She choreographed the whole dance routine, planning every step and jump for the twenty dancers.",
+  "exUk": "Вона поставила хореографію всього номера, продумавши кожен крок і стрибок для двадцяти танцюристів."
+ },
+ {
+  "id": 1276,
+  "en": "stage",
+  "ex": "The students staged a play by Shakespeare in the school hall, with costumes they made themselves.",
+  "exUk": "Учні поставили пʼєсу Шекспіра в шкільній залі, у костюмах, які пошили самі."
+ },
+ {
+  "id": 1277,
+  "en": "improvise",
+  "ex": "The actor forgot his lines, so he improvised a funny joke, and nobody noticed the mistake.",
+  "exUk": "Актор забув слова, тож імпровізував смішний жарт, і ніхто не помітив помилки."
+ },
+ {
+  "id": 1278,
+  "en": "mime",
+  "ex": "He couldn't speak the language, so he mimed eating with a spoon to show he was hungry.",
+  "exUk": "Він не знав мови, тож жестами показав, ніби їсть ложкою, щоб дати зрозуміти, що голодний."
+ },
+ {
+  "id": 1280,
+  "en": "boo",
+  "ex": "The fans were angry about the bad play, so they booed the team as it left.",
+  "exUk": "Фанати були розлючені поганою грою, тож освистали команду, коли та йшла з поля."
+ },
+ {
+  "id": 1282,
+  "en": "scribble",
+  "ex": "She had no time to write neatly, so she scribbled a quick note on the fridge.",
+  "exUk": "Вона не мала часу писати охайно, тож нашкрябала коротку записку на холодильнику."
+ },
+ {
+  "id": 1283,
+  "en": "publish",
+  "ex": "After ten publishers said no, a small company finally published her first book.",
+  "exUk": "Після того як десять видавництв відмовили, невелика компанія нарешті опублікувала її першу книжку."
+ },
+ {
+  "id": 1284,
+  "en": "blog",
+  "ex": "She blogs about travel, writing posts and sharing photos from every country she visits.",
+  "exUk": "Вона веде блог про подорожі — пише дописи й ділиться фото з кожної країни, де буває."
+ },
+ {
+  "id": 1285,
+  "en": "journal",
+  "ex": "Every night before bed, I journal for ten minutes, writing down what happened that day.",
+  "exUk": "Щовечора перед сном я десять хвилин веду щоденник — записую, що сталося за день."
+ },
+ {
+  "id": 1286,
+  "en": "outline",
+  "ex": "Before writing the story, she outlined it in a short list: the start, the problem, and the end.",
+  "exUk": "Перед тим як писати історію, вона склала її план коротким списком: початок, проблема й кінець."
+ },
+ {
+  "id": 1287,
+  "en": "narrate",
+  "ex": "In the film, an old man narrates the story, telling us what happened when he was young.",
+  "exUk": "У фільмі історію розповідає старий чоловік — він оповідає, що сталося, коли він був молодим."
+ },
+ {
+  "id": 1288,
+  "en": "dedicate",
+  "ex": "The writer dedicated her first book to her mother, writing \"For Mom\" on the first page.",
+  "exUk": "Письменниця присвятила свою першу книжку мамі, написавши на першій сторінці «Для мами»."
+ },
+ {
+  "id": 1290,
+  "en": "rhyme",
+  "ex": "For the poem, I need to rhyme each pair of lines, like \"cat\" with \"hat\".",
+  "exUk": "Для вірша мені треба римувати кожну пару рядків — як-от «кіт» із «літ»."
+ },
+ {
+  "id": 1291,
+  "en": "knit",
+  "ex": "Grandma took two long needles and some red wool and knitted me a warm sweater for winter.",
+  "exUk": "Бабуся взяла дві довгі спиці й червону вовну та вʼязала мені теплий светр на зиму."
+ },
+ {
+  "id": 1292,
+  "en": "crochet",
+  "ex": "My aunt crocheted a soft scarf with one small hook and a ball of yarn.",
+  "exUk": "Моя тітка вʼязала гачком мʼякий шарф — одним маленьким гачком і клубком пряжі."
+ },
+ {
+  "id": 1293,
+  "en": "embroider",
+  "ex": "My grandmother embroidered red and black flowers on a white shirt with a needle and thread.",
+  "exUk": "Моя бабуся вишила голкою й ниткою червоні та чорні квіти на білій сорочці."
+ },
+ {
+  "id": 1295,
+  "en": "quilt",
+  "ex": "The women quilted a big blanket together, sewing hundreds of small colorful squares into one.",
+  "exUk": "Жінки разом шили велику ковдру, зшиваючи сотні маленьких барвистих клаптиків в одне ціле."
+ },
+ {
+  "id": 1296,
+  "en": "whittle",
+  "ex": "Grandpa sat on the porch and whittled a little wooden bird with his pocket knife.",
+  "exUk": "Дідусь сидів на ґанку й вирізьблював кишеньковим ножем маленьку деревʼяну пташку."
+ },
+ {
+  "id": 1297,
+  "en": "weld",
+  "ex": "He wore a dark mask to protect his eyes while he welded the two metal pipes together.",
+  "exUk": "Він одягнув темну маску, щоб захистити очі, поки варив дві металеві труби докупи."
+ },
+ {
+  "id": 1298,
+  "en": "pottery",
+  "ex": "On weekends she does pottery, making bowls and cups from wet clay on a spinning wheel.",
+  "exUk": "Щовихідних вона займається гончарством — робить миски й чашки з мокрої глини на гончарному крузі."
+ },
+ {
+  "id": 1299,
+  "en": "origami",
+  "ex": "The kids did origami in class, folding square paper into little cranes and boats without scissors.",
+  "exUk": "Діти складали орігамі на уроці — згинали квадратний папір у маленьких журавликів і човники без ножиць."
+ },
+ {
+  "id": 1300,
+  "en": "assemble",
+  "ex": "We bought a new bookshelf in a flat box and spent two hours assembling it with a screwdriver.",
+  "exUk": "Ми купили нову книжкову шафу в пласкій коробці й дві години збирали її з викруткою."
+ },
+ {
+  "id": 1301,
+  "en": "fight",
+  "ex": "The soldiers fought bravely in the battle and defended the bridge for three days.",
+  "exUk": "Солдати хоробро билися в бою й три дні обороняли міст."
+ },
+ {
+  "id": 1302,
+  "en": "attack",
+  "ex": "The army attacked the enemy at dawn, while most of the soldiers were still asleep.",
+  "exUk": "Армія атакувала ворога на світанку, коли більшість солдатів ще спала."
+ }
+]

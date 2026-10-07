@@ -1,0 +1,304 @@
+[
+ {
+  "id": 1579,
+  "en": "cease fire",
+  "ex": "After three days of shooting, both sides agreed to cease fire so doctors could help the wounded.",
+  "exUk": "Після трьох днів стрілянини обидві сторони погодилися припинити вогонь, щоб лікарі могли допомогти пораненим."
+ },
+ {
+  "id": 1581,
+  "en": "turn around",
+  "ex": "The shop was losing money every month, but the new manager turned the business around in a year.",
+  "exUk": "Магазин щомісяця втрачав гроші, але новий менеджер за рік виправив становище бізнесу."
+ },
+ {
+  "id": 1583,
+  "en": "wind up",
+  "ex": "Their café had no customers for months, so they decided to wind up the business and sell everything.",
+  "exUk": "У їхньому кафе місяцями не було клієнтів, тож вони вирішили згорнути справу й усе продати."
+ },
+ {
+  "id": 1584,
+  "en": "give away",
+  "ex": "My kids grew out of their old clothes, so we gave them away to a neighbor for free.",
+  "exUk": "Діти виросли зі старого одягу, тож ми задарма віддали його сусідці."
+ },
+ {
+  "id": 1585,
+  "en": "give back",
+  "ex": "I borrowed this book from Tom last month, and I need to give it back to him tomorrow.",
+  "exUk": "Минулого місяця я позичив цю книжку в Тома, і завтра маю йому її повернути."
+ },
+ {
+  "id": 1586,
+  "en": "give up on",
+  "ex": "Everyone said he was a hopeless student, but his teacher never gave up on him.",
+  "exUk": "Усі казали, що він безнадійний учень, але вчителька ніколи не махала на нього рукою."
+ },
+ {
+  "id": 1587,
+  "en": "break down",
+  "ex": "She stayed calm at the funeral, but at home she broke down in tears and cried for hours.",
+  "exUk": "На похороні вона трималася спокійно, але вдома зламалася й годинами плакала."
+ },
+ {
+  "id": 1588,
+  "en": "pull through",
+  "ex": "The doctors weren't sure he would survive the heart attack, but he pulled through and went home.",
+  "exUk": "Лікарі не були певні, що він переживе інфаркт, але він витримав і повернувся додому."
+ },
+ {
+  "id": 1589,
+  "en": "break the law",
+  "ex": "If you drive without a license, you break the law and can get a big fine.",
+  "exUk": "Якщо їздиш без посвідчення, ти порушуєш закон і можеш отримати великий штраф."
+ },
+ {
+  "id": 1590,
+  "en": "let off",
+  "ex": "The police officer caught him speeding but let him off with a warning instead of a fine.",
+  "exUk": "Поліцейський спіймав його на перевищенні швидкості, але відпустив із попередженням замість штрафу."
+ },
+ {
+  "id": 1591,
+  "en": "experiment",
+  "ex": "In the school lab, we experimented with different chemicals to see which ones change color.",
+  "exUk": "У шкільній лабораторії ми експериментували з різними хімікатами, щоб побачити, які з них змінюють колір."
+ },
+ {
+  "id": 1592,
+  "en": "test",
+  "ex": "To test her idea, the scientist gave the plants different amounts of light and watched them grow.",
+  "exUk": "Щоб перевірити свою ідею, науковиця давала рослинам різну кількість світла й стежила, як вони ростуть."
+ },
+ {
+  "id": 1593,
+  "en": "conduct",
+  "ex": "The university conducted a study of five hundred children to learn how sleep affects school marks.",
+  "exUk": "Університет провів дослідження за участі пʼятисот дітей, щоб зʼясувати, як сон впливає на оцінки."
+ },
+ {
+  "id": 1596,
+  "en": "hypothesize",
+  "ex": "Scientists hypothesize that the fish died because the river water became too warm.",
+  "exUk": "Науковці висувають гіпотезу, що риба загинула, бо вода в річці стала надто теплою."
+ },
+ {
+  "id": 1598,
+  "en": "disprove",
+  "ex": "Many people think we use only ten percent of our brain, but scientists have disproved this myth.",
+  "exUk": "Багато хто думає, що ми використовуємо лише десять відсотків мозку, але науковці спростували цей міф."
+ },
+ {
+  "id": 1599,
+  "en": "replicate",
+  "ex": "Other labs tried to replicate the experiment, but nobody could get the same results again.",
+  "exUk": "Інші лабораторії намагалися відтворити експеримент, але ніхто не зміг отримати таких самих результатів."
+ },
+ {
+  "id": 1600,
+  "en": "mix",
+  "ex": "Never mix these two cleaning chemicals — together they make a dangerous gas.",
+  "exUk": "Ніколи не змішуй ці два засоби для чищення — разом вони утворюють небезпечний газ."
+ },
+ {
+  "id": 1601,
+  "en": "dissolve",
+  "ex": "Stir the glass with a spoon until the salt dissolves in the water and you can't see it.",
+  "exUk": "Помішуй ложкою в склянці, доки сіль не розчиниться у воді й її не стане видно."
+ },
+ {
+  "id": 1602,
+  "en": "evaporate",
+  "ex": "We left a bowl of water in the sun, and by evening all the water had evaporated.",
+  "exUk": "Ми залишили миску з водою на сонці, і до вечора вся вода випарувалася."
+ },
+ {
+  "id": 1603,
+  "en": "freeze",
+  "ex": "The scientists freeze each blood sample at minus eighty degrees to keep it safe for years.",
+  "exUk": "Науковці заморожують кожен зразок крові до мінус вісімдесяти градусів, щоб зберегти його роками."
+ },
+ {
+  "id": 1604,
+  "en": "heat up",
+  "ex": "Heat up the solution over the small flame until it starts to boil and bubble.",
+  "exUk": "Нагрій розчин на невеликому вогні, доки він не почне кипіти й булькати."
+ },
+ {
+  "id": 1605,
+  "en": "research",
+  "ex": "Before writing her report, she spent a week researching the topic in the library and online.",
+  "exUk": "Перш ніж писати доповідь, вона тиждень досліджувала тему в бібліотеці та в інтернеті."
+ },
+ {
+  "id": 1606,
+  "en": "investigate",
+  "ex": "The police are investigating the robbery and asking neighbors what they saw that night.",
+  "exUk": "Поліція розслідує пограбування й розпитує сусідів, що вони бачили тієї ночі."
+ },
+ {
+  "id": 1607,
+  "en": "study",
+  "ex": "Astronomers study the stars with huge telescopes to learn how the universe began.",
+  "exUk": "Астрономи вивчають зорі за допомогою величезних телескопів, щоб дізнатися, як виник Всесвіт."
+ },
+ {
+  "id": 1609,
+  "en": "cite",
+  "ex": "In your essay, cite every source — write the author, the book, and the page you used.",
+  "exUk": "В есе цитуй кожне джерело — вказуй автора, книжку й сторінку, якою користувався."
+ },
+ {
+  "id": 1610,
+  "en": "publish",
+  "ex": "After five years of research, she published her paper in a famous science journal.",
+  "exUk": "Після пʼяти років досліджень вона опублікувала свою статтю у відомому науковому журналі."
+ },
+ {
+  "id": 1611,
+  "en": "peer-review",
+  "ex": "Before a science journal prints an article, other experts peer-review it and check for mistakes.",
+  "exUk": "Перш ніж науковий журнал надрукує статтю, інші фахівці рецензують її й шукають помилки."
+ },
+ {
+  "id": 1612,
+  "en": "reference",
+  "ex": "In his talk, the doctor referenced a large study from Harvard to show that his idea was right.",
+  "exUk": "У своїй доповіді лікар послався на велике дослідження з Гарварду, щоб показати, що його ідея правильна."
+ },
+ {
+  "id": 1613,
+  "en": "debunk",
+  "ex": "Everyone believed the old story about the haunted house, but a journalist debunked it with simple facts.",
+  "exUk": "Усі вірили в стару історію про будинок із привидами, але журналіст розвінчав її простими фактами."
+ },
+ {
+  "id": 1614,
+  "en": "measure",
+  "ex": "Before buying a new sofa, measure the length of the wall to make sure it fits.",
+  "exUk": "Перш ніж купувати новий диван, виміряй довжину стіни, щоб переконатися, що він поміститься.",
+  "ex2": "The carpenter measured the plank with a tape and marked where to cut it.",
+  "ex2Uk": "Тесля виміряв дошку рулеткою й позначив, де її різати."
+ },
+ {
+  "id": 1615,
+  "en": "weigh",
+  "ex": "At the post office, the woman weighed my package on the scale — it was two kilos.",
+  "exUk": "На пошті жінка зважила мою посилку на вагах — вона важила два кілограми."
+ },
+ {
+  "id": 1616,
+  "en": "calculate",
+  "ex": "Before the trip, we calculated the cost of fuel, hotels, and food to check our budget.",
+  "exUk": "Перед поїздкою ми обчислили вартість пального, готелів і їжі, щоб звірити з нашим бюджетом."
+ },
+ {
+  "id": 1617,
+  "en": "count",
+  "ex": "After the election, people stayed up all night to count the votes one by one.",
+  "exUk": "Після виборів люди не спали всю ніч, рахуючи голоси один за одним."
+ },
+ {
+  "id": 1618,
+  "en": "estimate",
+  "ex": "I can't say exactly, but I estimate the distance to the village at about three kilometers.",
+  "exUk": "Точно не скажу, але на око оцінюю відстань до села приблизно в три кілометри."
+ },
+ {
+  "id": 1619,
+  "en": "time",
+  "ex": "The coach timed the race with a stopwatch: the winner ran a hundred meters in twelve seconds.",
+  "exUk": "Тренер фіксував час забігу секундоміром: переможець пробіг сто метрів за дванадцять секунд."
+ },
+ {
+  "id": 1620,
+  "en": "convert",
+  "ex": "American recipes use cups and ounces, so I convert the units into grams before I cook.",
+  "exUk": "В американських рецептах міряють чашками й унціями, тож перед готуванням я конвертую ці одиниці в грами."
+ },
+ {
+  "id": 1621,
+  "en": "round off",
+  "ex": "The answer was 3.14159, but the teacher told us to round it off to 3.14.",
+  "exUk": "Відповідь була 3,14159, але вчитель сказав округлити її до 3,14."
+ },
+ {
+  "id": 1622,
+  "en": "discover",
+  "ex": "Using a powerful telescope, scientists discovered a new planet that nobody had seen before.",
+  "exUk": "За допомогою потужного телескопа науковці відкрили нову планету, якої ніхто раніше не бачив."
+ },
+ {
+  "id": 1624,
+  "en": "uncover",
+  "ex": "After months of work, the journalist uncovered the truth: the mayor had been stealing city money.",
+  "exUk": "Після місяців роботи журналіст розкрив правду: мер крав міські гроші."
+ },
+ {
+  "id": 1625,
+  "en": "reveal",
+  "ex": "The new study reveals that people who walk every day live longer and get sick less.",
+  "exUk": "Нове дослідження показує, що люди, які щодня гуляють, живуть довше й рідше хворіють."
+ },
+ {
+  "id": 1627,
+  "en": "identify",
+  "ex": "The bird was very rare, so we used an app to identify its species from a photo.",
+  "exUk": "Птах був дуже рідкісний, тож ми скористалися застосунком, щоб за фото визначити його вид."
+ },
+ {
+  "id": 1628,
+  "en": "classify",
+  "ex": "Biologists classify animals into groups, such as mammals, birds, and fish.",
+  "exUk": "Біологи класифікують тварин на групи — ссавців, птахів, риб."
+ },
+ {
+  "id": 1629,
+  "en": "map",
+  "ex": "For years, scientists worked to map the human genome and find where every gene is.",
+  "exUk": "Науковці роками картографували геном людини, щоб знайти розташування кожного гена."
+ },
+ {
+  "id": 1630,
+  "en": "appreciate",
+  "ex": "Thank you for helping me move all these boxes — I really appreciate your help.",
+  "exUk": "Дякую, що допоміг перенести всі ці коробки — я дуже ціную твою допомогу."
+ },
+ {
+  "id": 1632,
+  "en": "be grateful for",
+  "ex": "After the accident, he was grateful for every day of life and every smile from his kids.",
+  "exUk": "Після аварії він був вдячний за кожен день життя й кожну усмішку своїх дітей."
+ },
+ {
+  "id": 1633,
+  "en": "acknowledge",
+  "ex": "At the end of the project, the boss acknowledged Maria's effort and thanked her in front of everyone.",
+  "exUk": "Наприкінці проєкту начальник визнав зусилля Марії й подякував їй перед усіма."
+ },
+ {
+  "id": 1634,
+  "en": "cherish",
+  "ex": "My grandmother cherishes every moment with her grandchildren and keeps all their drawings in a box.",
+  "exUk": "Бабуся плекає кожну мить з онуками й зберігає всі їхні малюнки в коробці."
+ },
+ {
+  "id": 1635,
+  "en": "count your blessings",
+  "ex": "You have a home, a family, and good health — stop complaining and count your blessings.",
+  "exUk": "У тебе є дім, родина й добре здоровʼя — годі скаржитися, цінуй те, що маєш."
+ },
+ {
+  "id": 1636,
+  "en": "take pride in",
+  "ex": "The old carpenter takes pride in his work and never sells a chair that isn't perfect.",
+  "exUk": "Старий тесля пишається своєю роботою й ніколи не продає стілець, який не ідеальний."
+ },
+ {
+  "id": 1638,
+  "en": "show off",
+  "ex": "He drove his new red sports car slowly past the school to show it off to everyone.",
+  "exUk": "Він повільно проїхав на новенькій червоній спортивці повз школу, щоб похизуватися нею перед усіма."
+ }
+]

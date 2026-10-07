@@ -21,6 +21,15 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
     ok(flat.length === motion.length && new Set(flat.map(key)).size === motion.length && motion.every(v => flat.includes(v)), 'parts cover every word exactly once');
     ok(parts[0].map(key).join() !== motion.slice(0, N).map(key).join(), 'part 1 is not just the first ' + N + ' words of the list');
 
+    /* C1 і C2 — в останніх частинах: у кожній категорії кожної частини мови рівні не спадають A1–B2 → C1 → C2 */
+    const tier = v => ['C1', 'C2'].indexOf(v.lvl) + 1;
+    const sorted = ws => ws.every((v, i) => !i || tier(ws[i - 1]) <= tier(v));
+    ok(sorted(flat) && tier(flat[0]) === 0 && flat.some(v => v.lvl === 'C1'), 'motion: C1 words come after all A1–B2 words');
+    const badLvl = [];
+    for (const posId of Object.keys(L.POS)) for (const id of Object.keys(L.POS[posId].cats))
+      if (L.hasParts(posId, id) && !sorted(L.catParts(posId, id).flat())) badLvl.push(posId + '/' + id);
+    ok(!badLvl.length, 'every category puts C1/C2 into its last parts' + (badLvl.length ? ': ' + badLvl.join(', ') : ''));
+
     /* підкатегорії перемішані в кожній частині */
     const subs = Object.entries(L.POS.verbs.subs).filter(([, s]) => s.parent === 'motion').map(([id]) => id);
     const subsIn = p => new Set(p.flatMap(v => (v.cats || []).filter(c => subs.includes(c)))).size;

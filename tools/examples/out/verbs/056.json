@@ -1,0 +1,302 @@
+[
+ {
+  "id": 2921,
+  "en": "make tea",
+  "ex": "Our guests came in from the cold, so I boiled the kettle and made tea for everyone.",
+  "exUk": "Гості прийшли з морозу, тож я закипʼятив чайник і заварив усім чаю."
+ },
+ {
+  "id": 2922,
+  "en": "pour a drink",
+  "ex": "He took the jug of lemonade from the fridge and poured a drink for each child.",
+  "exUk": "Він дістав із холодильника глечик лимонаду й налив напій кожній дитині."
+ },
+ {
+  "id": 2923,
+  "en": "ask a favor",
+  "ex": "Can I ask a favor? I'm away this weekend — could you water my plants?",
+  "exUk": "Можна попросити тебе про послугу? Мене не буде на вихідних — можеш полити мої квіти?"
+ },
+ {
+  "id": 2924,
+  "en": "do a favor",
+  "ex": "My car broke down, so my neighbor did me a favor and drove me to work.",
+  "exUk": "У мене зламалася машина, тож сусід зробив мені послугу й підвіз на роботу."
+ },
+ {
+  "id": 2925,
+  "en": "return a favor",
+  "ex": "She helped me move last year, so now I'm helping her paint her flat to return the favor.",
+  "exUk": "Минулого року вона допомогла мені з переїздом, тож тепер я допомагаю їй фарбувати квартиру, щоб віддячити."
+ },
+ {
+  "id": 2926,
+  "en": "help around the house",
+  "ex": "My kids help around the house — they wash the dishes, feed the dog and take out the trash.",
+  "exUk": "Мої діти допомагають по дому — миють посуд, годують собаку й виносять сміття."
+ },
+ {
+  "id": 2927,
+  "en": "do chores",
+  "ex": "On Saturday mornings we do chores: vacuuming, washing clothes and cleaning the bathroom.",
+  "exUk": "У суботу вранці ми робимо хатні справи: пилососимо, перемо одяг і прибираємо ванну."
+ },
+ {
+  "id": 2928,
+  "en": "walk to school",
+  "ex": "The school is only ten minutes away, so my daughter walks to school instead of taking the bus.",
+  "exUk": "Школа лише за десять хвилин, тож донька ходить до школи пішки, а не їздить автобусом."
+ },
+ {
+  "id": 2929,
+  "en": "drive to work",
+  "ex": "There's no bus to my office, so I drive to work every day in my old car.",
+  "exUk": "До мого офісу не ходить автобус, тож я щодня їжджу на роботу своєю старою машиною."
+ },
+ {
+  "id": 2930,
+  "en": "cycle to work",
+  "ex": "I cycle to work along the river — it's faster than the bus and good exercise.",
+  "exUk": "Я їжджу на роботу велосипедом уздовж річки — це швидше за автобус і добре тренування."
+ },
+ {
+  "id": 2931,
+  "en": "take the elevator",
+  "ex": "Our flat is on the tenth floor, so we always take the elevator with our heavy shopping.",
+  "exUk": "Наша квартира на десятому поверсі, тож із важкими покупками ми завжди їдемо ліфтом."
+ },
+ {
+  "id": 2932,
+  "en": "take the stairs",
+  "ex": "The elevator was broken, so we had to take the stairs all the way to the eighth floor.",
+  "exUk": "Ліфт зламався, тож нам довелося йти сходами аж на восьмий поверх."
+ },
+ {
+  "id": 2933,
+  "en": "press an elevator button",
+  "ex": "I got into the lift and pressed the elevator button for the third floor.",
+  "exUk": "Я зайшов у ліфт і натиснув кнопку третього поверху."
+ },
+ {
+  "id": 2934,
+  "en": "greet a colleague",
+  "ex": "Every morning she greets her colleagues with a smile and a cheerful \"Good morning!\"",
+  "exUk": "Щоранку вона вітається з колегами з усмішкою й бадьорим «Доброго ранку!»"
+ },
+ {
+  "id": 2935,
+  "en": "eat lunch at work",
+  "ex": "I don't have time to go out, so I eat lunch at work, at my desk.",
+  "exUk": "У мене немає часу кудись виходити, тож я обідаю на роботі, просто за своїм столом."
+ },
+ {
+  "id": 2936,
+  "en": "clock hours",
+  "ex": "Before the holidays, the nurses clocked sixty hours a week at the busy hospital.",
+  "exUk": "Перед святами медсестри відпрацьовували по шістдесят годин на тиждень у переповненій лікарні."
+ },
+ {
+  "id": 2937,
+  "en": "start a project",
+  "ex": "Our class will start a new project next week — we're going to build a model of the city.",
+  "exUk": "Наступного тижня наш клас почне новий проєкт — ми будуватимемо макет міста."
+ },
+ {
+  "id": 2938,
+  "en": "finish a project",
+  "ex": "We worked late every night and finally finished the project two days before the deadline.",
+  "exUk": "Ми щовечора працювали допізна й нарешті закінчили проєкт за два дні до дедлайну."
+ },
+ {
+  "id": 2939,
+  "en": "work on a project",
+  "ex": "My brother is working on a project for school — he's building a small robot from old toys.",
+  "exUk": "Мій брат працює над шкільним проєктом — він збирає маленького робота зі старих іграшок."
+ },
+ {
+  "id": 2940,
+  "en": "open a bottle",
+  "ex": "To celebrate her new job, we opened a bottle of champagne, and the cork flew to the ceiling.",
+  "exUk": "Щоб відсвяткувати її нову роботу, ми відкоркували пляшку шампанського, і корок полетів у стелю."
+ },
+ {
+  "id": 2941,
+  "en": "close a bottle",
+  "ex": "Close the bottle tightly, or the juice will spill all over your bag.",
+  "exUk": "Щільно закрий пляшку, бо інакше сік розіллється по всій сумці."
+ },
+ {
+  "id": 2942,
+  "en": "empty a bottle",
+  "ex": "The boys were so thirsty after football that they emptied a big bottle of water in a minute.",
+  "exUk": "Після футболу хлопці так хотіли пити, що за хвилину допили велику пляшку води."
+ },
+ {
+  "id": 2943,
+  "en": "finish a meal",
+  "ex": "You can have ice cream, but only after you finish your meal — eat your vegetables first.",
+  "exUk": "Морозиво можна, але тільки коли доїси — спершу зʼїж овочі."
+ },
+ {
+  "id": 2944,
+  "en": "start a meal",
+  "ex": "My grandparents always start a meal with a short prayer, thanking God for the food.",
+  "exUk": "Мої дідусь і бабуся завжди починають трапезу з короткої молитви, дякуючи Богові за їжу."
+ },
+ {
+  "id": 2945,
+  "en": "walk home",
+  "ex": "I missed the last bus, so I had to walk home through the dark streets.",
+  "exUk": "Я спізнився на останній автобус, тож довелося йти додому пішки темними вулицями."
+ },
+ {
+  "id": 2946,
+  "en": "run to school",
+  "ex": "I woke up late, so I grabbed my bag and ran to school as fast as I could.",
+  "exUk": "Я прокинувся пізно, тож схопив рюкзак і щодуху побіг до школи."
+ },
+ {
+  "id": 2947,
+  "en": "drive home",
+  "ex": "After the party, Dad didn't drink, so he could drive home and take us all back.",
+  "exUk": "На вечірці тато не пив, тож міг поїхати додому за кермом і відвезти нас усіх."
+ },
+ {
+  "id": 2948,
+  "en": "take a walk",
+  "ex": "I've been sitting at the computer all day, so I'll take a walk around the block.",
+  "exUk": "Я цілий день сиджу за компʼютером, тож пройдуся навколо кварталу."
+ },
+ {
+  "id": 2949,
+  "en": "go for a swim",
+  "ex": "It's so hot today — let's go to the lake and go for a swim before lunch.",
+  "exUk": "Сьогодні така спека — ходімо на озеро й поплаваймо перед обідом."
+ },
+ {
+  "id": 2950,
+  "en": "go for a walk",
+  "ex": "The weather is lovely, so after dinner we went for a walk in the park.",
+  "exUk": "Погода чудова, тож після вечері ми пішли на прогулянку в парк."
+ },
+ {
+  "id": 2951,
+  "en": "go to bed",
+  "ex": "I have to get up at five tomorrow, so I'm going to bed at nine tonight.",
+  "exUk": "Завтра мені вставати о пʼятій, тож сьогодні я лягаю спати о девʼятій."
+ },
+ {
+  "id": 2952,
+  "en": "get out of bed",
+  "ex": "The room was so cold this morning that I didn't want to get out of bed.",
+  "exUk": "Цього ранку в кімнаті було так холодно, що не хотілося вставати з ліжка."
+ },
+ {
+  "id": 2953,
+  "en": "take a nap",
+  "ex": "I slept badly last night, so after lunch I took a nap on the sofa.",
+  "exUk": "Я погано спав уночі, тож після обіду трохи поспав на дивані."
+ },
+ {
+  "id": 2954,
+  "en": "set an alarm",
+  "ex": "My flight is at seven, so I set an alarm on my phone for four in the morning.",
+  "exUk": "Мій рейс о сьомій, тож я поставив будильник на телефоні на четверту ранку."
+ },
+ {
+  "id": 2955,
+  "en": "snooze the alarm",
+  "ex": "I snoozed the alarm three times, slept ten more minutes each time, and was late for work.",
+  "exUk": "Я тричі відкладав будильник, щоразу спав ще десять хвилин, і запізнився на роботу."
+ },
+ {
+  "id": 2956,
+  "en": "stretch in the morning",
+  "ex": "My back often feels stiff, so I stretch in the morning, reaching my arms up to the ceiling.",
+  "exUk": "Спина в мене часто скута, тож зранку я розтягуюся, тягнучи руки до стелі."
+ },
+ {
+  "id": 2957,
+  "en": "drink coffee in the morning",
+  "ex": "I can't think clearly until I drink coffee in the morning — the first cup wakes me up.",
+  "exUk": "Я не можу ясно думати, поки не випʼю кави зранку — перша чашка мене будить."
+ },
+ {
+  "id": 2958,
+  "en": "read the news",
+  "ex": "Every morning on the bus, I read the news on my phone to know what's happening.",
+  "exUk": "Щоранку в автобусі я читаю новини в телефоні, щоб знати, що відбувається."
+ },
+ {
+  "id": 2959,
+  "en": "watch the news",
+  "ex": "My grandparents watch the news on TV every evening at eight to hear about the weather and politics.",
+  "exUk": "Мої дідусь і бабуся щовечора о восьмій дивляться новини по телевізору, щоб дізнатися про погоду й політику."
+ },
+ {
+  "id": 2960,
+  "en": "check email",
+  "ex": "When I get to the office, I first check my email to see if any clients wrote.",
+  "exUk": "Коли приходжу в офіс, я спершу перевіряю пошту — чи не писали клієнти."
+ },
+ {
+  "id": 2961,
+  "en": "check messages",
+  "ex": "My phone was off during the film, so afterward I checked my messages — there were ten!",
+  "exUk": "Під час фільму телефон був вимкнений, тож потім я перевірив повідомлення — їх було десять!"
+ },
+ {
+  "id": 2962,
+  "en": "reply to a message",
+  "ex": "My friend asked about Saturday, and I replied to her message right away: \"Yes, I'll come!\"",
+  "exUk": "Подруга спитала про суботу, і я одразу відповіла на її повідомлення: «Так, прийду!»"
+ },
+ {
+  "id": 2963,
+  "en": "ignore a message",
+  "ex": "A stranger kept writing to me online, so I ignored every message and didn't answer.",
+  "exUk": "Незнайомець постійно писав мені в мережі, тож я ігнорувала кожне повідомлення й не відповідала."
+ },
+ {
+  "id": 2964,
+  "en": "read a book",
+  "ex": "Every night before bed I read a book for half an hour instead of looking at my phone.",
+  "exUk": "Щовечора перед сном я пів години читаю книжку замість того, щоб дивитися в телефон."
+ },
+ {
+  "id": 2965,
+  "en": "buy a book",
+  "ex": "I went to the bookshop and bought a book about cooking for my mom's birthday.",
+  "exUk": "Я пішов у книгарню й купив книжку про кулінарію мамі на день народження."
+ },
+ {
+  "id": 2966,
+  "en": "borrow a book",
+  "ex": "I didn't want to pay for it, so I borrowed the book from the library for two weeks.",
+  "exUk": "Платити за неї не хотілося, тож я взяв книжку в бібліотеці на два тижні."
+ },
+ {
+  "id": 2967,
+  "en": "finish a book",
+  "ex": "The story was so exciting that I finished the book in one night.",
+  "exUk": "Історія була така захоплива, що я дочитав книжку за одну ніч."
+ },
+ {
+  "id": 2968,
+  "en": "start a book",
+  "ex": "I started a new book on the train today, and I've already read the first fifty pages.",
+  "exUk": "Сьогодні в потязі я почав нову книжку й уже прочитав перші пʼятдесят сторінок."
+ },
+ {
+  "id": 2969,
+  "en": "recommend a book",
+  "ex": "My friend loved the story so much that she recommended the book to everyone in our class.",
+  "exUk": "Подрузі так сподобалася історія, що вона порекомендувала цю книжку всім у нашому класі."
+ },
+ {
+  "id": 2970,
+  "en": "listen to music",
+  "ex": "I put on my headphones and listen to music on the way to work — usually old rock songs.",
+  "exUk": "Дорогою на роботу я вдягаю навушники й слухаю музику — зазвичай старий рок."
+ }
+]
