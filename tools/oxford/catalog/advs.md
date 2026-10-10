@@ -1,0 +1,48 @@
+# advs — categories (`cat id` → its subcategories)
+
+Use ids exactly. In `cats` put the category id and then one of its subcategory ids, e.g. `["motion", "walking"]`; a word may belong to up to 2 such pairs. New categories are marked 🆕.
+
+- **time** Time — Час
+  - `time_now` Now & present — Тепер
+  - `time_points` Points in time — Моменти часу
+  - `time_relatives` Already/still/again — Вже/досі/знову
+  - `time_duration` Duration & speed of events — Тривалість
+- **frequency** Frequency — Частота
+  - `freq_high` Always–regularly — Завжди/регулярно
+  - `freq_mid` Sometimes — Іноді
+  - `freq_low` Rarely–never — Рідко/ніколи
+- **degree** Degree — Ступінь
+  - `deg_high` Very–extremely — Дуже
+  - `deg_mid` Quite–fairly — Доволі
+  - `deg_low` Slightly–barely — Трохи/ледь
+  - `deg_absolutely` Completely–utterly — Повністю
+  - `deg_enough` Enough–too — Достатньо/забагато
+- **manner** Manner — Спосіб дії
+  - `man_quality` Quality — Якість дії
+  - `man_care` Care & intent — Обережність і намір
+  - `man_speed` Speed — Швидкість
+  - `man_behavior` Behavior & emotion — Поведінка
+  - `man_voice` Voice & speech — Голос і мовлення
+- **place** Place — Місце й напрямок
+  - `pl_position` Position — Де?
+  - `pl_direction` Direction — Куди?
+  - `pl_distance` Distance — Як далеко?
+- **probability** Probability — Ймовірність
+  - `prb_sure` Sure — Впевненість
+  - `prb_evidence` Evidence — За ознаками
+  - `prb_maybe` Maybe — Можливо
+  - `prb_doubt` Doubt — Сумнів
+- **viewpoint** Viewpoint — Оцінка речення
+  - `vp_luck` Luck — На щастя/жаль
+  - `vp_surprise` Surprise — Дивно/дивовижно
+  - `vp_honesty` Honesty — Чесно кажучи
+  - `vp_importance` Importance — Що важливо
+- **linking** Linking — Звʼязок між думками
+  - `lnk_contrast` Contrast — Однак
+  - `lnk_add` Adding — Більше того
+  - `lnk_result` Result — Тому/як наслідок
+  - `lnk_order` Order & summary — Порядок і підсумок
+- **focus** Focus — Фокус і акцент
+  - `foc_restrict` Limiting — Лише/переважно
+  - `foc_add` Adding — Теж/навіть
+  - `foc_emphasis` Emphasis — Саме/особливо

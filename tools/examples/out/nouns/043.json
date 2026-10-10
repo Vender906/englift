@@ -1,0 +1,302 @@
+[
+ {
+  "id": 2100,
+  "en": "chemotherapy",
+  "ex": "She is having chemotherapy for her cancer — strong medicine through a tube in her arm every three weeks.",
+  "exUk": "Вона проходить хіміотерапію від раку: сильні ліки через трубку в руці кожні три тижні."
+ },
+ {
+  "id": 2101,
+  "en": "organ",
+  "ex": "The heart, the lungs, and the liver are organs — each one does its own job inside the body.",
+  "exUk": "Серце, легені й печінка — це органи, і кожен виконує своє завдання всередині тіла."
+ },
+ {
+  "id": 2102,
+  "en": "donor",
+  "ex": "My brother is a blood donor: every three months he gives half a liter of blood for people in hospital.",
+  "exUk": "Мій брат — донор крові: кожні три місяці він здає пів літра крові для людей у лікарні."
+ },
+ {
+  "id": 2103,
+  "en": "caregiver",
+  "ex": "After Grandpa's stroke, a caregiver comes every day to wash him, cook his meals, and give him his pills.",
+  "exUk": "Після інсульту дідуся щодня приходить доглядальниця: миє його, готує їжу й дає ліки."
+ },
+ {
+  "id": 2104,
+  "en": "kimono",
+  "ex": "In Kyoto we saw women in silk kimonos — long Japanese robes with wide sleeves and a belt.",
+  "exUk": "У Кіото ми бачили жінок у шовкових кімоно — довгих японських халатах із широкими рукавами й поясом."
+ },
+ {
+  "id": 2105,
+  "en": "poncho",
+  "ex": "When the rain started, she pulled a plastic poncho over her head — it covered her whole body like a blanket.",
+  "exUk": "Коли пішов дощ, вона накинула через голову пластикове пончо: воно вкрило все тіло, як ковдра."
+ },
+ {
+  "id": 2106,
+  "en": "bikini",
+  "ex": "She wore a red bikini on the beach — a small top and bottom that left most of her skin in the sun.",
+  "exUk": "На пляжі вона була в червоному бікіні — маленькому топі й плавках, тож майже вся шкіра була на сонці."
+ },
+ {
+  "id": 2107,
+  "en": "swimsuit",
+  "ex": "Don't forget your swimsuit — the hotel has a pool, and you can't swim in your jeans.",
+  "exUk": "Не забудь купальник: у готелі є басейн, а в джинсах плавати не вийде."
+ },
+ {
+  "id": 2108,
+  "en": "swim trunks",
+  "ex": "He changed into his swim trunks — short, loose shorts — and jumped into the sea.",
+  "exUk": "Він перевдягнувся у плавки — короткі вільні шорти — і стрибнув у море."
+ },
+ {
+  "id": 2109,
+  "en": "tuxedo",
+  "ex": "For the wedding he rented a black tuxedo with a bow tie and shiny shoes.",
+  "exUk": "На весілля він узяв напрокат чорний смокінг із краваткою-метеликом і блискучими туфлями."
+ },
+ {
+  "id": 2110,
+  "en": "linen",
+  "ex": "In summer she wears shirts made of linen — a light, cool cloth that creases easily.",
+  "exUk": "Улітку вона носить сорочки з льону — легкої прохолодної тканини, яка легко мнеться."
+ },
+ {
+  "id": 2111,
+  "en": "button-down",
+  "ex": "For the interview he wore a white button-down with a tie instead of his usual T-shirt.",
+  "exUk": "На співбесіду він одягнув білу сорочку на ґудзиках і краватку замість звичної футболки."
+ },
+ {
+  "id": 2112,
+  "en": "tuxedo shirt",
+  "ex": "Under the black jacket he wore a white tuxedo shirt with small black buttons and a bow tie.",
+  "exUk": "Під чорним піджаком на ньому була біла смокінг-сорочка з маленькими чорними ґудзиками й метеликом."
+ },
+ {
+  "id": 2113,
+  "en": "sneakerhead",
+  "ex": "My cousin is a real sneakerhead: he owns sixty pairs of sports shoes and never wears most of them.",
+  "exUk": "Мій двоюрідний брат — справжній колекціонер кросівок: у нього шістдесят пар, і більшість він ніколи не взуває."
+ },
+ {
+  "id": 2114,
+  "en": "vintage",
+  "ex": "She loves vintage: her coat is from the 1960s, and her bag was her grandmother's.",
+  "exUk": "Вона обожнює вінтаж: її пальто — з 1960-х, а сумка належала її бабусі."
+ },
+ {
+  "id": 2115,
+  "en": "raccoon",
+  "ex": "At night a raccoon — a grey animal with a black mask on its face — opens our bins and eats the leftovers.",
+  "exUk": "Уночі єнот — сіра тваринка з чорною «маскою» на морді — відкриває наші смітники і їсть залишки."
+ },
+ {
+  "id": 2116,
+  "en": "skunk",
+  "ex": "Our dog ran after a skunk, and the black and white animal sprayed him with a terrible smell.",
+  "exUk": "Наш пес погнався за скунсом, і ця чорно-біла тваринка оббризкала його жахливим запахом."
+ },
+ {
+  "id": 2117,
+  "en": "moose",
+  "ex": "A huge moose with wide flat horns walked out of the forest and stopped in front of our car.",
+  "exUk": "Величезний лось із широкими плоскими рогами вийшов з лісу й зупинився перед нашою машиною."
+ },
+ {
+  "id": 2118,
+  "en": "beaver",
+  "ex": "The beaver cut down small trees with its big teeth and built a dam across the river.",
+  "exUk": "Бобер перегриз маленькі дерева великими зубами й збудував греблю через річку."
+ },
+ {
+  "id": 2119,
+  "en": "otter",
+  "ex": "An otter swam on its back in the river, holding a fish in its paws and eating it.",
+  "exUk": "Видра пливла річкою на спині, тримаючи в лапах рибу і їла її."
+ },
+ {
+  "id": 2120,
+  "en": "hippo",
+  "ex": "The hippo spent all day in the river with only its eyes and ears above the water.",
+  "exUk": "Бегемот цілий день сидів у річці, і над водою виднілися лише його очі й вуха."
+ },
+ {
+  "id": 2121,
+  "en": "rhino",
+  "ex": "The rhino is a huge grey animal with thick skin and a big horn on its nose.",
+  "exUk": "Носоріг — величезна сіра тварина з товстою шкірою й великим рогом на носі."
+ },
+ {
+  "id": 2122,
+  "en": "buffalo",
+  "ex": "A herd of buffaloes — big wild cows with curved horns — crossed the river in front of the lions.",
+  "exUk": "Стадо буйволів — великих диких корів із вигнутими рогами — перейшло річку просто перед левами."
+ },
+ {
+  "id": 2123,
+  "en": "gorilla",
+  "ex": "The gorilla is the biggest of the apes: a male can weigh two hundred kilos and is very strong.",
+  "exUk": "Горила — найбільша з людиноподібних мавп: самець може важити двісті кілограмів і дуже сильний."
+ },
+ {
+  "id": 2124,
+  "en": "chimpanzee",
+  "ex": "The chimpanzee used a stick to get ants out of the ground — these apes are very clever.",
+  "exUk": "Шимпанзе діставало мурах із землі паличкою: ці мавпи дуже розумні."
+ },
+ {
+  "id": 2125,
+  "en": "stingray",
+  "ex": "A stingray lay flat on the sand under the water — a wide fish with a long tail that can sting you.",
+  "exUk": "Скат лежав плазом на піску під водою — широка риба з довгим хвостом, яким може вжалити."
+ },
+ {
+  "id": 2126,
+  "en": "eel",
+  "ex": "An eel is a long thin fish that looks like a snake and lives at the bottom of rivers.",
+  "exUk": "Вугор — довга тонка риба, схожа на змію, яка живе на дні річок."
+ },
+ {
+  "id": 2127,
+  "en": "clam",
+  "ex": "We dug clams out of the wet sand — small sea animals in two hard shells — and cooked them in wine.",
+  "exUk": "Ми викопували з мокрого піску мушлі — маленьких морських тваринок у двох твердих стулках — і варили їх у вині."
+ },
+ {
+  "id": 2128,
+  "en": "oyster",
+  "ex": "He opened the oyster with a knife and ate the soft grey meat raw from the shell with lemon.",
+  "exUk": "Він відкрив устрицю ножем і зʼїв мʼяке сіре мʼясо сирим просто з мушлі з лимоном."
+ },
+ {
+  "id": 2129,
+  "en": "coral",
+  "ex": "Under the water we saw pink and orange corals — hard, stone-like forms built by tiny sea animals.",
+  "exUk": "Під водою ми бачили рожеві й помаранчеві корали — тверді, схожі на камінь утворення, збудовані крихітними морськими істотами."
+ },
+ {
+  "id": 2130,
+  "en": "hawk",
+  "ex": "A hawk circled high above the field, then dived down and caught a mouse in its claws.",
+  "exUk": "Яструб кружляв високо над полем, а потім кинувся вниз і схопив мишу кігтями."
+ },
+ {
+  "id": 2131,
+  "en": "falcon",
+  "ex": "The falcon is the fastest bird in the world — it dives at over three hundred kilometers an hour.",
+  "exUk": "Сокіл — найшвидший птах у світі: він пікірує зі швидкістю понад триста кілометрів на годину."
+ },
+ {
+  "id": 2132,
+  "en": "vulture",
+  "ex": "Vultures circled over the dead zebra, waiting to eat what the lions had left.",
+  "exUk": "Грифи кружляли над мертвою зеброю, чекаючи, щоб зʼїсти те, що залишили леви."
+ },
+ {
+  "id": 2133,
+  "en": "parakeet",
+  "ex": "My sister has a green parakeet in a cage — a small parrot that can say 'hello'.",
+  "exUk": "У моєї сестри в клітці зелений хвилястий папужка — маленький папуга, який уміє казати «привіт»."
+ },
+ {
+  "id": 2134,
+  "en": "canary",
+  "ex": "Grandma's canary is a small yellow bird that sings beautifully every morning by the window.",
+  "exUk": "Бабусина канарка — маленька жовта пташка, яка щоранку чудово співає біля вікна."
+ },
+ {
+  "id": 2135,
+  "en": "ostrich",
+  "ex": "An ostrich is a huge bird that cannot fly, but it runs faster than a horse.",
+  "exUk": "Страус — величезний птах, який не вміє літати, але бігає швидше за коня."
+ },
+ {
+  "id": 2136,
+  "en": "flamingo",
+  "ex": "The pink flamingos stood in the lake on one thin leg, with their long necks bent down to the water.",
+  "exUk": "Рожеві фламінго стояли в озері на одній тонкій нозі, схиливши довгі шиї до води."
+ },
+ {
+  "id": 2137,
+  "en": "dragonfly",
+  "ex": "A blue dragonfly with four clear wings flew over the pond and stopped in the air above the water.",
+  "exUk": "Синя бабка з чотирма прозорими крильцями пролетіла над ставком і завмерла в повітрі над водою."
+ },
+ {
+  "id": 2138,
+  "en": "tick",
+  "ex": "After the walk in the forest I found a tick on my leg — a tiny insect that had bitten into my skin.",
+  "exUk": "Після прогулянки лісом я знайшов на нозі кліща — крихітну комаху, що впʼялася мені в шкіру."
+ },
+ {
+  "id": 2139,
+  "en": "flea",
+  "ex": "The cat keeps scratching — it has fleas, tiny jumping insects that bite and live in its fur.",
+  "exUk": "Кіт постійно чухається: у нього блохи, крихітні стрибучі комахи, що кусаються й живуть у шерсті."
+ },
+ {
+  "id": 2140,
+  "en": "scorpion",
+  "ex": "In the desert, always check your shoes for a scorpion — its tail has a poisonous sting.",
+  "exUk": "У пустелі завжди перевіряй взуття, чи нема там скорпіона: у його хвості отруйне жало."
+ },
+ {
+  "id": 2141,
+  "en": "anus",
+  "ex": "The doctor explained that the anus is the opening at the end of the gut where waste leaves the body.",
+  "exUk": "Лікар пояснив, що анус — це отвір наприкінці кишечника, через який відходи виходять з тіла."
+ },
+ {
+  "id": 2142,
+  "en": "asshole",
+  "ex": "He parked across two spaces and shouted at the old lady — what an asshole!",
+  "exUk": "Він припаркувався на два місця й накричав на бабусю — ото ж мудак!"
+ },
+ {
+  "id": 2143,
+  "en": "orgasm",
+  "ex": "In the magazine a doctor explained that some women never reach orgasm, the peak of pleasure during sex.",
+  "exUk": "У журналі лікарка пояснила, що деякі жінки ніколи не досягають оргазму — піку насолоди під час сексу."
+ },
+ {
+  "id": 2144,
+  "en": "erection",
+  "ex": "The doctor said stress can make it hard for a man to get an erection in bed.",
+  "exUk": "Лікар сказав, що через стрес чоловікові буває важко досягти ерекції в ліжку."
+ },
+ {
+  "id": 2145,
+  "en": "foreplay",
+  "ex": "She told him that kissing and touching before sex matter — foreplay is half the pleasure.",
+  "exUk": "Вона сказала йому, що поцілунки й дотики перед сексом важливі: прелюдія — це половина насолоди."
+ },
+ {
+  "id": 2146,
+  "en": "intercourse",
+  "ex": "The doctor used the formal word and asked whether she had had intercourse without protection.",
+  "exUk": "Лікарка вжила офіційне слово й запитала, чи був у неї статевий акт без захисту."
+ },
+ {
+  "id": 2147,
+  "en": "period pain",
+  "ex": "Every month she has such bad period pain that she stays in bed with a hot water bottle.",
+  "exUk": "Щомісяця в неї такий сильний біль при менструації, що вона лежить у ліжку з грілкою."
+ },
+ {
+  "id": 2148,
+  "en": "menopause",
+  "ex": "At fifty-two my mother went through menopause — her periods stopped, and she often felt hot at night.",
+  "exUk": "У пʼятдесят два роки моя мати пройшла через менопаузу: місячні припинилися, і вночі їй часто було жарко."
+ },
+ {
+  "id": 2149,
+  "en": "puberty",
+  "ex": "At thirteen my brother reached puberty: his voice got deeper, and hair appeared on his face.",
+  "exUk": "У тринадцять мій брат досяг статевого дозрівання: голос став нижчим, а на обличчі зʼявилося волосся."
+ }
+]

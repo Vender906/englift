@@ -5,7 +5,7 @@ const { JSDOM } = require('./node_modules/jsdom');
 const APP = process.env.APP_DIR || path.join(__dirname, '..', 'english-app');
 /* ситуації Word on Demand — усі частини js/lexis/wod/verbs-NN.js (у застосунку вантажаться ліниво) */
 const WOD_PARTS = fs.readdirSync(path.join(APP, 'js/lexis/wod')).filter(f => /^verbs-\d+\.js$/.test(f)).sort().map(f => 'js/lexis/wod/' + f);
-const FILES = ['js/themes.js', 'js/core.js', 'js/lexis/meta.js', 'js/data.js', 'js/grammar-extra.js', 'js/lexis/verbs-data.js', 'js/lexis/nouns-data.js', 'js/lexis/adjs-data.js', 'js/lexis/advs-data.js', 'js/lexis/verbs-phrasal-data.js', 'js/lexis/verbs-merge.js', 'js/lexis/adjs-prep-data.js', 'js/lexis/adj-stories.js', ...WOD_PARTS, 'js/reader.js', 'js/diary/checker.js', 'js/diary.js', 'js/placement.js', 'js/phrases.js', 'js/sound.js', 'js/practice.js', 'js/lexis.js', 'js/wod.js', 'js/grammar.js', 'js/search.js', 'js/app.js'];
+const FILES = ['js/themes.js', 'js/core.js', 'js/lexis/meta.js', 'js/data.js', 'js/grammar-extra.js', 'js/lexis/verbs-data.js', 'js/lexis/nouns-data.js', 'js/lexis/adjs-data.js', 'js/lexis/advs-data.js', 'js/lexis/verbs-phrasal-data.js', 'js/lexis/verbs-merge.js', 'js/lexis/verbs-oxford-data.js', 'js/lexis/nouns-oxford-data.js', 'js/lexis/advs-oxford-data.js', 'js/lexis/adjs-prep-data.js', 'js/lexis/adjs-oxford-data.js', 'js/lexis/adj-stories.js', ...WOD_PARTS, 'js/reader.js', 'js/diary/checker.js', 'js/diary.js', 'js/placement.js', 'js/phrases.js', 'js/sound.js', 'js/practice.js', 'js/lexis.js', 'js/wod.js', 'js/grammar.js', 'js/search.js', 'js/app.js'];
 
 function boot() {
   const html = fs.readFileSync(path.join(APP, 'index.html'), 'utf8');

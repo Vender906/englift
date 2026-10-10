@@ -1,4 +1,4 @@
-# Dictionary examples — how to rewrite the example sentences (verbs, adjectives)
+# Dictionary examples — how to rewrite the example sentences (verbs, adjectives, nouns)
 
 EngLift is an English-learning app for **Ukrainian speakers**. Every dictionary word has an example sentence
 (`ex`) with a Ukrainian translation (`exUk`). The learner sees it in the word browser and on the flashcard.
@@ -60,10 +60,27 @@ Some items also have `ex2` / `ex2Uk`. Rewrite it by the same rules, as a **diffe
   `syn`, `ant` when given.
 - If `prep` is given (e.g. `dependent` + `on`), use the adjective with that preposition. `prep` is attached automatically to every word with that spelling, so if it clashes with the meaning in `uk` / `ctx` (e.g. `short` = «низький», but `prep: of` = *short of*), **the meaning wins** — ignore `prep`.
 
+### Nouns (`nouns`) — extra rules
+
+- The headword must appear **as a noun**, singular or plural (the validator accepts the regular plural and
+  the `plural` given in the input, e.g. *diagnoses*, *ashes*); a possessive (*the doctor's*) is fine. Don't use it
+  as a verb or adjective (*head* the team, *clay* pot is fine only if the item is the material).
+- **Countability shows in the grammar.** Follow `cu`: countable → *a / an*, *two*, *many*, plural;
+  uncountable → no article or *some / a lot of / much*, singular verb (*The paperwork **was** boring*).
+  A learner should be able to see from your sentence whether the noun takes *a* and *-s*.
+- Good clues for nouns:
+  - what it is for / what you do with it: *"She beat the eggs with a **mixer** until they were light and fluffy."*
+  - where it is / what it is part of: *"The **ash** from the volcano covered the cars in grey dust."*
+  - cause / effect or situation: *"The doctor looked at the X-ray and gave me the **diagnosis**: a broken rib."*
+  - contrast with a neighbour word: *"It wasn't a road, just a narrow **path** through the forest for walkers."*
+- Abstract nouns (*courage*, *adulthood*, *income*): put them in a concrete scene with a person
+  (*"It took real **courage** for the shy boy to sing alone in front of the whole school."*).
+- If `syn` is given, the sentence may hint at the shade vs. the synonym, but don't put the synonym itself in.
+
 ## Input — `tools/examples/batches/<pos>/NNN.json`
 
-`<pos>` is `verbs` or `adjs`. Adjective items may also have `comp` (comparative / superlative), `syn`, `ant`,
-`note` (usage nuance), `prep`.
+`<pos>` is `verbs`, `adjs` or `nouns`. Adjective items may also have `comp` (comparative / superlative), `syn`, `ant`,
+`note` (usage nuance), `prep`. Noun items may have `cu` (countable / uncountable), `plural` (irregular), `syn`, `note`.
 
 ```json
 { "id": 1203, "en": "gloat", "uk": "зловтішатися", "lvl": "C1", "ctx": "", "uCtx": "",

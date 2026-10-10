@@ -1,0 +1,302 @@
+[
+ {
+  "id": 1800,
+  "en": "courage",
+  "ex": "It took a lot of courage for the shy girl to sing alone in front of the whole school.",
+  "exUk": "Соромʼязливій дівчинці знадобилося чимало мужності, щоб заспівати самій перед усією школою."
+ },
+ {
+  "id": 1801,
+  "en": "honesty",
+  "ex": "I respect his honesty — he told the boss the mistake was his, even though nobody would have known.",
+  "exUk": "Я поважаю його чесність: він сказав начальнику, що помилка його, хоча ніхто б і не дізнався."
+ },
+ {
+  "id": 1802,
+  "en": "trust",
+  "ex": "After he lied to me twice, it will take years to build that trust again.",
+  "exUk": "Після того як він двічі мені збрехав, знадобляться роки, щоб знову збудувати ту довіру."
+ },
+ {
+  "id": 1803,
+  "en": "respect",
+  "ex": "The students show great respect for their old teacher: they stand up when she enters the room.",
+  "exUk": "Учні виявляють велику повагу до своєї старої вчительки: вони встають, коли вона заходить у клас."
+ },
+ {
+  "id": 1804,
+  "en": "kindness",
+  "ex": "A stranger showed me real kindness today — she paid for my coffee when I forgot my wallet.",
+  "exUk": "Сьогодні незнайомка виявила до мене справжню доброту: заплатила за мою каву, коли я забув гаманець."
+ },
+ {
+  "id": 1805,
+  "en": "loyalty",
+  "ex": "The dog's loyalty was amazing: it waited for its owner at the station every evening for ten years.",
+  "exUk": "Вірність пса вражала: десять років він щовечора чекав господаря на вокзалі."
+ },
+ {
+  "id": 1806,
+  "en": "patience",
+  "ex": "Teaching a child to read takes a lot of patience — you repeat the same letters a hundred times.",
+  "exUk": "Щоб навчити дитину читати, потрібно багато терпіння: одні й ті самі літери повторюєш сто разів."
+ },
+ {
+  "id": 1807,
+  "en": "tolerance",
+  "ex": "Living in a big city teaches tolerance — you learn to accept people with different religions and habits.",
+  "exUk": "Життя у великому місті вчить толерантності: вчишся приймати людей з іншою релігією та звичками."
+ },
+ {
+  "id": 1808,
+  "en": "discipline",
+  "ex": "Running every morning at six takes discipline, especially in winter when the bed is so warm.",
+  "exUk": "Щоб бігати щоранку о шостій, потрібна дисципліна, особливо взимку, коли в ліжку так тепло."
+ },
+ {
+  "id": 1809,
+  "en": "motivation",
+  "ex": "He has no motivation to study: he doesn't see why he needs these exams at all.",
+  "exUk": "У нього немає мотивації вчитися: він узагалі не розуміє, навіщо йому ці іспити."
+ },
+ {
+  "id": 1810,
+  "en": "ambition",
+  "ex": "Her biggest ambition is to open her own restaurant before she turns thirty.",
+  "exUk": "Її найбільша амбіція — відкрити власний ресторан до тридцяти років."
+ },
+ {
+  "id": 1811,
+  "en": "success",
+  "ex": "The concert was a huge success — every ticket was sold, and people asked for a second show.",
+  "exUk": "Концерт мав величезний успіх: усі квитки продали, і люди просили ще один виступ."
+ },
+ {
+  "id": 1812,
+  "en": "failure",
+  "ex": "The first cake was a failure — it was burnt outside and raw inside — but the second one was perfect.",
+  "exUk": "Перший торт був невдачею: зверху підгорів, усередині сирий, — зате другий вийшов ідеальним."
+ },
+ {
+  "id": 1813,
+  "en": "opportunity",
+  "ex": "A year in London was a great opportunity to practice English every day, so she said yes at once.",
+  "exUk": "Рік у Лондоні був чудовою можливістю щодня практикувати англійську, тож вона одразу погодилась."
+ },
+ {
+  "id": 1814,
+  "en": "challenge",
+  "ex": "Climbing the mountain in one day was a real challenge, but we were ready to try.",
+  "exUk": "Зійти на гору за один день було справжнім викликом, але ми були готові спробувати."
+ },
+ {
+  "id": 1815,
+  "en": "problem",
+  "ex": "We have a small problem: the car won't start, and the train leaves in twenty minutes.",
+  "exUk": "У нас невелика проблема: машина не заводиться, а потяг відходить за двадцять хвилин."
+ },
+ {
+  "id": 1816,
+  "en": "solution",
+  "ex": "The kitchen was too small, so the solution was simple: we put the fridge in the hall.",
+  "exUk": "Кухня була надто мала, тож рішення було простим: ми поставили холодильник у коридорі."
+ },
+ {
+  "id": 1817,
+  "en": "decision",
+  "ex": "Moving to another country was a hard decision, and she thought about it for months.",
+  "exUk": "Переїзд в іншу країну був важким рішенням, і вона обдумувала його місяцями."
+ },
+ {
+  "id": 1818,
+  "en": "choice",
+  "ex": "You have two choices: take the early bus and sleep less, or come an hour late.",
+  "exUk": "У тебе два варіанти вибору: сісти на ранній автобус і менше поспати або приїхати на годину пізніше."
+ },
+ {
+  "id": 1819,
+  "en": "risk",
+  "ex": "Leaving a good job to start his own business was a big risk, but he took it.",
+  "exUk": "Піти з доброї роботи, щоб відкрити власну справу, було великим ризиком, але він на нього пішов."
+ },
+ {
+  "id": 1820,
+  "en": "chance",
+  "ex": "This is your last chance to say sorry — after today, she won't want to talk to you.",
+  "exUk": "Це твій останній шанс вибачитися: після сьогодні вона не захоче з тобою говорити."
+ },
+ {
+  "id": 1821,
+  "en": "luck",
+  "ex": "I found a parking spot right in front of the door — what luck on a busy Saturday!",
+  "exUk": "Я знайшов місце для паркування просто перед дверима — оце удача в суботу, коли все забито!"
+ },
+ {
+  "id": 1822,
+  "en": "fate",
+  "ex": "They met by accident on a train, married a year later, and still say it was fate.",
+  "exUk": "Вони випадково зустрілися в потязі, за рік одружилися й досі кажуть, що це була доля."
+ },
+ {
+  "id": 1823,
+  "en": "destiny",
+  "ex": "Even as a child she believed it was her destiny to become a doctor and help people.",
+  "exUk": "Ще дитиною вона вірила, що її доля — стати лікарем і допомагати людям."
+ },
+ {
+  "id": 1824,
+  "en": "advice",
+  "ex": "My grandmother gave me a piece of advice before the exam: sleep well and don't study all night.",
+  "exUk": "Перед іспитом бабуся дала мені пораду: добре виспатися й не вчитися всю ніч."
+ },
+ {
+  "id": 1825,
+  "en": "information",
+  "ex": "The website has a lot of useful information about the city: hotels, buses, and opening hours of museums.",
+  "exUk": "На сайті багато корисної інформації про місто: готелі, автобуси та години роботи музеїв."
+ },
+ {
+  "id": 1826,
+  "en": "news",
+  "ex": "I have some good news: the doctor says Dad can come home from the hospital tomorrow.",
+  "exUk": "У мене хороші новини: лікар каже, що тато зможе повернутися додому з лікарні завтра."
+ },
+ {
+  "id": 1827,
+  "en": "language",
+  "ex": "She speaks three languages: Ukrainian at home, English at work, and a little Polish with her neighbours.",
+  "exUk": "Вона розмовляє трьома мовами: українською вдома, англійською на роботі й трохи польською з сусідами."
+ },
+ {
+  "id": 1828,
+  "en": "word",
+  "ex": "I learn ten new words every day and write each one on a small card with its translation.",
+  "exUk": "Я вчу десять нових слів щодня й записую кожне на маленьку картку разом із перекладом."
+ },
+ {
+  "id": 1829,
+  "en": "question",
+  "ex": "The teacher asked a question, but nobody in the class knew the answer.",
+  "exUk": "Учителька поставила питання, але ніхто в класі не знав відповіді."
+ },
+ {
+  "id": 1830,
+  "en": "answer",
+  "ex": "I sent him three emails last week, but I still haven't got an answer from him.",
+  "exUk": "Минулого тижня я надіслав йому три листи, але досі не отримав відповіді."
+ },
+ {
+  "id": 1831,
+  "en": "culture",
+  "ex": "In Japanese culture, people take off their shoes before they enter a house.",
+  "exUk": "В японській культурі люди знімають взуття, перш ніж зайти в дім."
+ },
+ {
+  "id": 1832,
+  "en": "tradition",
+  "ex": "It's a family tradition: every New Year's Eve we cook the same dishes that my grandmother cooked.",
+  "exUk": "Це сімейна традиція: щороку на Новий рік ми готуємо ті самі страви, що й моя бабуся."
+ },
+ {
+  "id": 1833,
+  "en": "religion",
+  "ex": "People of different religions live in our street — there is a church, a mosque, and a synagogue nearby.",
+  "exUk": "На нашій вулиці живуть люди різних релігій: поруч є церква, мечеть і синагога."
+ },
+ {
+  "id": 1834,
+  "en": "faith",
+  "ex": "Her faith helped her through the illness — she prayed every morning and never lost hope.",
+  "exUk": "Віра допомогла їй пережити хворобу: вона молилася щоранку й ніколи не втрачала надії."
+ },
+ {
+  "id": 1835,
+  "en": "soul",
+  "ex": "Grandma believed that after death the soul leaves the body and goes to a better place.",
+  "exUk": "Бабуся вірила, що після смерті душа залишає тіло й вирушає в краще місце."
+ },
+ {
+  "id": 1836,
+  "en": "spirit",
+  "ex": "Even after losing three games, the team's spirit was strong, and they kept fighting for every ball.",
+  "exUk": "Навіть програвши три гри, команда не втратила духу й далі боролася за кожен мʼяч."
+ },
+ {
+  "id": 1837,
+  "en": "heaven",
+  "ex": "The little boy asked if his grandfather was now in heaven, up above the clouds with the angels.",
+  "exUk": "Хлопчик спитав, чи дідусь тепер у раю, високо над хмарами, разом з ангелами."
+ },
+ {
+  "id": 1838,
+  "en": "hell",
+  "ex": "In the old painting, bad people burn in hell, a dark place full of fire under the ground.",
+  "exUk": "На старій картині погані люди горять у пеклі — темному місці, повному вогню, під землею."
+ },
+ {
+  "id": 1839,
+  "en": "life",
+  "ex": "My grandfather lived a long life: born in a small village, he died at ninety-five with his family around him.",
+  "exUk": "Мій дід прожив довге життя: народився в маленькому селі, а помер у девʼяносто пʼять в оточенні родини."
+ },
+ {
+  "id": 1840,
+  "en": "beauty",
+  "ex": "Tourists come here for the beauty of the mountains: green valleys, blue lakes, and snow on the tops.",
+  "exUk": "Туристи приїжджають сюди заради краси гір: зелені долини, блакитні озера й сніг на вершинах."
+ },
+ {
+  "id": 1841,
+  "en": "reality",
+  "ex": "In the movie, everyone lives in big houses, but the reality is that most families rent small flats.",
+  "exUk": "У фільмі всі живуть у великих будинках, але реальність така, що більшість сімей винаймає маленькі квартири."
+ },
+ {
+  "id": 1842,
+  "en": "fantasy",
+  "ex": "As a boy he had a fantasy about flying over the city like a bird, though it could never really happen.",
+  "exUk": "У дитинстві він мав фантазію про те, як літає над містом, наче птах, хоч насправді це було неможливо."
+ },
+ {
+  "id": 1843,
+  "en": "city",
+  "ex": "Kyiv is a big city with millions of people, a metro, and traffic jams every morning.",
+  "exUk": "Київ — велике місто з мільйонами людей, метро й заторами щоранку."
+ },
+ {
+  "id": 1844,
+  "en": "town",
+  "ex": "I grew up in a small town with one school, one church, and a market on Saturdays.",
+  "exUk": "Я виріс у маленькому містечку з однією школою, однією церквою та базаром по суботах."
+ },
+ {
+  "id": 1845,
+  "en": "village",
+  "ex": "My grandparents live in a village of forty houses, where everyone keeps chickens and a garden.",
+  "exUk": "Мої дідусь із бабусею живуть у селі на сорок хат, де всі тримають курей і город."
+ },
+ {
+  "id": 1846,
+  "en": "suburb",
+  "ex": "They moved from the center to a quiet suburb with gardens, but now Dad drives an hour to the office.",
+  "exUk": "Вони переїхали з центру в тихе передмістя з садками, але тепер тато їде до офісу годину."
+ },
+ {
+  "id": 1847,
+  "en": "downtown",
+  "ex": "All the offices, banks, and big shops are downtown, so the streets there are busy until late.",
+  "exUk": "Усі офіси, банки й великі магазини — у центрі міста, тож вулиці там людні допізна."
+ },
+ {
+  "id": 1848,
+  "en": "district",
+  "ex": "The city has ten districts, and ours is the oldest, with narrow streets and little cafes.",
+  "exUk": "У місті десять районів, і наш — найстаріший, із вузькими вуличками й маленькими кавʼярнями."
+ },
+ {
+  "id": 1849,
+  "en": "neighborhood",
+  "ex": "We live in a friendly neighborhood where all the families on the street know each other by name.",
+  "exUk": "Ми живемо в привітному районі, де всі сімʼї на вулиці знають одна одну на імʼя."
+ }
+]

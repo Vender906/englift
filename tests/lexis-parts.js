@@ -122,12 +122,12 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
     go('#/vocab/verbs');
     click([...$$('.hub-card')].find(h => h.dataset.cat === 'motion'));
     const link = $('.lp-link');
-    ok(!!link && link.getAttribute('href') === '#/vocab/verbs/cards/motion' && /11 × ~25/.test(link.textContent) && /завершено 1\/11/.test(link.textContent), 'category page links to the parts');
+    ok(!!link && link.getAttribute('href') === '#/vocab/verbs/cards/motion' && link.textContent.includes(parts.length + ' × ~25') && link.textContent.includes('завершено 1/' + parts.length), 'category page links to the parts');
     ok(/Продовжити · Part 3/.test($('.lp-link-go').textContent), 'category page has a continue button');
     ok($$('.sub-chip').length === subs.length, 'subcategory chips are still there');
 
     /* ---------- маршрути ---------- */
-    for (const h of ['#/vocab/verbs/cards/motion/12', '#/vocab/verbs/cards/motion/0', '#/vocab/verbs/cards/motion/x', '#/vocab/verbs/cards/nope', '#/vocab/verbs/cards/walking/1', '#/vocab/verbs/cards/motion/1/x']) {
+    for (const h of ['#/vocab/verbs/cards/motion/' + (parts.length + 1), '#/vocab/verbs/cards/motion/0', '#/vocab/verbs/cards/motion/x', '#/vocab/verbs/cards/nope', '#/vocab/verbs/cards/walking/1', '#/vocab/verbs/cards/motion/1/x']) {
       go(h);
       ok(/не знайдено/i.test($('#view').textContent), h + ' → 404');
     }

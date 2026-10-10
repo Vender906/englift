@@ -2,7 +2,7 @@ const fs = require('fs');
 const { boot } = require('./_boot');
 const { doc, go, ok, finish } = boot();
 
-eval(fs.readFileSync(require('path').join(require('./_boot').APP, 'js/lexis/adjs-data.js'), 'utf8') + ';globalThis.A = LEX_ADJS;');
+eval(['js/lexis/adjs-data.js', 'js/lexis/adjs-prep-data.js', 'js/lexis/adjs-oxford-data.js'].map(f => fs.readFileSync(require('path').join(require('./_boot').APP, f), 'utf8')).join(';\n') + ';globalThis.A = LEX_ADJS;');
 const A = globalThis.A;
 
 let passSingle = false, passMulti = false, tries = 0;

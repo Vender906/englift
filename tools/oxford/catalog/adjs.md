@@ -1,0 +1,140 @@
+# adjs — categories (`cat id` → its subcategories)
+
+Use ids exactly. In `cats` put the category id and then one of its subcategory ids, e.g. `["motion", "walking"]`; a word may belong to up to 2 such pairs. New categories are marked 🆕.
+
+- **appearance** Appearance — Зовнішність
+  - `looks` Looks — Виглядає (гарно/погано)
+  - `build` Body build — Статура
+  - `clothing_st` Clothing style — Стиль одягу
+  - `grooming` Grooming — Охайність
+  - `hair` Hair — Волосся
+  - `age_look` Age look — Як виглядає за віком
+- **personality** Personality — Характер
+  - `pos_char` Positive traits — Позитивні
+  - `neg_char` Negative traits — Негативні
+  - `social_char` Social — Соціальні
+  - `intellect` Intellect — Інтелект
+  - `humble` Humble/arrogant — Скромність
+  - `leadership` Leadership — Лідерство
+- **emotions** Emotions — Емоції
+  - `happy_adj` Happy — Радісний
+  - `sad_adj` Sad — Сумний
+  - `angry_adj` Angry — Злий
+  - `fear_adj` Fear/worry — Страх
+  - `love_adj` Love/like — Любов
+  - `surprise` Surprise — Здивування
+- **size** Size — Розмір
+  - `big` Big — Великий
+  - `small` Small — Маленький
+  - `long_short` Long/short — Довгий/короткий
+  - `wide_narrow` Wide/narrow — Широкий/вузький
+  - `deep_shallow` Deep/shallow — Глибокий/мілкий
+- **shape** Shape — Форма
+  - `round_sh` Round — Круглий
+  - `straight_sh` Straight/angular — Прямий/кутовий
+  - `flat_sh` Flat/solid — Плаский/цільний
+- **age** Age — Вік
+  - `young_adj` Young — Молодий
+  - `old_adj` Old — Старий
+  - `new_adj` New/modern — Новий/сучасний
+  - `era` Era/period — Історична епоха
+- **quality** Quality — Якість
+  - `high_qual` High quality — Висока якість
+  - `low_qual` Low quality — Низька якість
+  - `avg_qual` Average — Середня
+  - `origin` Origin — Походження
+  - `nationality` Nationality — Національність/мова
+  - `legal` Legal — Юридичне
+  - `eco` Eco — Екологічність
+  - `tech` Tech — Технологічність
+- **quantity** Quantity — Кількість
+  - `much` Much/many — Багато
+  - `few` Few/rare — Мало
+  - `enough` Enough — Достатньо
+  - `frequency` Frequency — Частота
+  - `order` Order — Порядок (1-й, останній)
+- **speed** Speed — Швидкість
+  - `fast` Fast — Швидкий
+  - `slow` Slow — Повільний
+  - `sport_speed` Agility — Спритність/прудкість
+- **temperature** Temperature — Температура
+  - `hot` Hot — Гарячий
+  - `cold` Cold — Холодний
+  - `mild_t` Mild — Помірний
+- **texture** Texture — Фактура/тактильне
+  - `soft` Soft/smooth — М'який/гладкий
+  - `hard` Hard/rough — Твердий/шорсткий
+  - `wet` Wet — Мокрий
+  - `dry` Dry — Сухий
+- **taste_smell** Taste/smell — Смак/запах
+  - `taste_adj` Taste — Смак
+  - `smell_adj` Smell — Запах
+- **sound** Sound — Звук
+  - `loud` Loud — Гучний
+  - `quiet` Quiet — Тихий
+  - `musical` Musical — Музичне
+- **light** Light — Світло
+  - `bright` Bright — Яскравий
+  - `dark` Dark — Темний
+- **colors** Colors — Кольори
+  - `basic_col` Basic — Основні
+  - `shades` Shades — Відтінки
+  - `patterns` Patterns — Візерунки
+- **difficulty** Difficulty — Складність
+  - `easy` Easy — Легкий
+  - `hard_diff` Hard — Важкий
+- **value** Value — Цінність/ціна
+  - `expensive` Expensive — Дорогий
+  - `cheap` Cheap — Дешевий
+  - `free` Free/paid — Безкоштовний
+  - `finance` Finance — Фінанси/багатство
+- **importance** Importance — Важливість
+  - `important` Important — Важливий
+  - `unimportant` Unimportant — Неважливий
+- **states** Body states — Стани тіла
+  - `tired` Tired — Втомлений
+  - `energetic` Energetic — Енергійний
+  - `hungry` Hungry/thirsty — Голодний
+  - `sick_st` Sick — Хворий
+  - `hot_body` Hot/sweaty — Спітнілий/задиханий
+  - `health_condition` Health condition — Мед. стан
+  - `mental_state` Mental state — Психічний стан
+  - `sleep` Sleep — Сон/спання
+- **weather_adj** Weather — Погода
+  - `sunny_w` Sunny — Сонячно
+  - `rainy_w` Rainy — Дощово
+  - `cold_w` Cold weather — Холодна
+  - `hot_w` Hot weather — Гаряча
+- **opinions** Opinions — Оцінки
+  - `amazing` Amazing — Чудовий
+  - `awful` Awful — Жахливий
+  - `interesting` Interesting/boring — Цікавий
+  - `funny` Funny — Смішний
+  - `strange` Strange — Дивний
+  - `certainty` Certainty — Впевненість
+  - `viral` Viral/trendy — Вірусне/трендове
+  - `moral` Moral — Морально/етично
+  - `political` Political — Політичне/ідеологічне
+- **materials** Materials — Матеріали
+  - `natural_m` Natural — Природні
+  - `synthetic_m` Synthetic — Штучні
+- **condition** Condition — Стан речей
+  - `new_cond` New/broken — Новий/зламаний
+  - `clean_cond` Clean/dirty — Чистий/брудний
+  - `safe_cond` Safe/dangerous — Безпечний
+- **relations** Relations — Стосунки/статус
+  - `romance_st` Romance status — Романт. статус
+  - `closeness` Closeness — Близькість
+  - `family` Family — Сімейні
+- **formal_adj** 🆕 Formal & academic — Книжні прикметники
+  - `logic_adj` 🆕 Logic & evidence — Логіка й очевидність
+  - `scope_adj` 🆕 Scope & extent — Обсяг і межі
+  - `type_adj` 🆕 Kind & type — Тип і різновид
+- **society_adj** 🆕 Society & science — Суспільство й наука
+  - `politics_adj` 🆕 Politics & law — Політика й право
+  - `economy_adj` 🆕 Economy & business — Економіка й бізнес
+  - `science_adj` 🆕 Science & tech — Наука й техніка
+  - `culture_adj` 🆕 Culture & religion — Культура й релігія
+- **place_adj** 🆕 Place & direction — Місце й напрямок
+  - `direction_adj` 🆕 Directions — Сторони світу
+  - `position_adj` 🆕 Position — Положення

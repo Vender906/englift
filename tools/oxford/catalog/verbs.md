@@ -1,0 +1,230 @@
+# verbs — categories (`cat id` → its subcategories)
+
+Use ids exactly. In `cats` put the category id and then one of its subcategory ids, e.g. `["motion", "walking"]`; a word may belong to up to 2 such pairs. New categories are marked 🆕.
+
+- **motion** Motion — Рух
+  - `walking` Walking — Ходіння
+  - `running` Running/jumping — Біг/стрибки
+  - `driving` Driving/riding — Кермувати/їхати
+  - `arriving` Arriving/leaving — Прибуття/відхід
+  - `updown` Up/down — Вгору/вниз
+- **comm** Communication — Мовлення
+  - `saying` Saying/telling — Казати
+  - `asking` Asking/answering — Питати
+  - `arguing` Arguing/complaining — Сперечатися
+  - `agreeing` Agreeing/promising — Погоджуватися
+  - `politeness` Politeness — Ввічливість
+- **think** Thinking — Думання
+  - `knowing` Knowing/believing — Знати/вірити
+  - `deciding` Deciding — Приймати рішення
+  - `remembering` Remembering — Памʼятати
+  - `imagining` Imagining — Уявляти
+  - `doubting` Doubting — Сумніватися
+- **feel** Feeling — Емоції
+  - `love_like` Love/like — Любити
+  - `negative` Negative emotions — Негативні
+  - `fear` Worry/fear — Тривога/страх
+  - `mood` Mood change — Зміна настрою
+  - `care` Care/support — Турбота
+- **sense** Senses — Сприйняття
+  - `seeing` Seeing — Бачити
+  - `hearing` Hearing — Чути
+  - `touching` Touching — Торкатися
+  - `tasting` Tasting/smelling — Смак/запах
+- **work** Work — Робота
+  - `employment_v` Employment — Найм/звільнення
+  - `doing` Doing/completing — Виконувати
+  - `achieving` Achieving/failing — Успіх/провал
+  - `managing` Managing — Керувати
+- **money** Money — Гроші
+  - `buying` Buying/selling — Купувати/продавати
+  - `saving` Saving/spending — Заощаджувати/тратити
+  - `owing` Owing/paying — Борги/оплата
+  - `prices` Prices/value — Ціна/вартість
+- **food** Food — Їжа
+  - `eating` Eating — Їсти
+  - `cooking` Cooking — Готувати
+  - `drinking` Drinking — Пити
+- **daily** Daily life — Побут
+  - `hygiene_v` Hygiene — Гігієна
+  - `cleaning` Cleaning — Прибирання
+  - `sleeping` Sleep/wake — Сон/пробудження
+  - `dressing` Dressing — Одягання
+  - `bathroom` Bathroom/toilet — Туалет/ванна
+- **hand** Hand actions — Дії руками
+  - `holding` Holding/grabbing — Тримати/хапати
+  - `hitting` Hitting/pushing — Бити/штовхати
+  - `throwing` Throwing/catching — Кидати/ловити
+- **change** Change — Зміни
+  - `growing` Growing/reducing — Ріст/зменшення
+  - `improving` Improving/worsening — Покращення
+  - `replacing` Replacing/adjusting — Заміна
+- **create** Create/Destroy — Створення
+  - `making` Making/building — Створення
+  - `breaking` Breaking/destroying — Ламання
+  - `cutting` Cutting/tearing — Різати/рвати
+- **give** Give/Take — Передача
+  - `giving` Giving/offering — Давати
+  - `taking` Taking/receiving — Брати
+  - `sharing` Sharing/lending — Ділитися
+- **phase** Start/Stop — Фази дії
+  - `starting` Starting — Початок
+  - `stopping` Stopping/finishing — Закінчення
+  - `continuing` Continuing/pausing — Продовження
+- **social** Social — Соціальне
+  - `meeting` Meeting/inviting — Зустрічі
+  - `romance` Romance/dating — Стосунки
+  - `celebrating` Celebrating — Святкування
+  - `conflict` Conflict — Конфлікт
+- **health** Health — Здоровʼя
+  - `symptoms_v` Symptoms/illness — Симптоми
+  - `treating` Treating/healing — Лікувати
+  - `injury_v` Injury — Травми
+- **travel** Travel — Подорожі
+  - `transport_v` Transport — Транспорт
+  - `accom` Accommodation — Проживання
+  - `packing` Packing/exploring — Збори/пригода
+- **tech** Tech — Технології
+  - `computer` Computer — Компʼютер
+  - `phone` Phone/mobile — Телефон
+  - `internet_v` Internet/social — Інтернет
+- **study** Study — Навчання
+  - `learning` Learning — Навчання
+  - `teaching` Teaching — Викладати
+  - `exam` Exams — Іспити
+- **law** Law/Crime — Право
+  - `crime` Crime — Злочин
+  - `justice` Justice — Правосуддя
+- **state** State — Стан/буття
+  - `being` Being/existing — Буття
+  - `becoming` Becoming — Ставання
+  - `staying` Staying/remaining — Залишатися
+- **nature** Nature — Природа
+  - `plants` Plants growing — Рослини ростуть
+  - `animals_v` Animals actions — Дії тварин
+  - `disasters` Disasters — Стихійні лиха
+  - `ecology` Ecology — Екологія
+- **sport** Sport/exercise — Спорт
+  - `training` Training/fitness — Тренування
+  - `playing` Playing games — Грати ігри
+  - `competing` Competing — Змагатися
+  - `water_sport` Water sports — Водні види
+- **weather** Weather — Погода
+  - `precip` Precipitation — Опади
+  - `wind` Wind — Вітер
+  - `temperature` Temperature — Температура
+  - `seasonal` Seasonal — Сезонні явища
+- **art** Art/music — Мистецтво/музика
+  - `visual` Visual art — Живопис/дизайн
+  - `music_v` Music playing — Гра на муз./співи
+  - `performance` Performance — Виступи/театр
+  - `writing` Writing — Письмо
+  - `crafting` Crafting — Рукоділля
+- **war** War/military — Війна/армія
+  - `combat` Combat — Бій
+  - `weapons` Weapons — Зброя
+  - `strategy` Strategy — Стратегія
+  - `soldiers` Soldiers/orders — Солдати/накази
+- **shopping** Shopping — Покупки
+  - `browsing` Browsing/choosing — Розгляд/вибір
+  - `paying` Paying/checkout — Оплата
+  - `returning` Returning/refund — Повернення
+  - `online_shop` Online shopping — Онлайн-шопінг
+- **religion** Religion/spirituality — Духовність
+  - `worship` Worship — Богослужіння
+  - `faith` Faith/belief — Віра
+  - `ritual` Rituals — Обряди
+  - `spiritual` Spirituality — Духовність
+- **science** Science/research — Наука/дослідження
+  - `experiment` Experimenting — Експерименти
+  - `research` Research — Дослідження
+  - `measure` Measuring — Вимірювання
+  - `discovery` Discovery — Відкриття
+- **emo_deep** Deep emotions — Глибокі почуття
+  - `gratitude` Gratitude — Вдячність
+  - `pride` Pride — Гордість
+  - `shame` Shame/guilt — Сором/провина
+  - `hope` Hope/faith — Надія
+  - `loneliness` Loneliness — Самотність
+- **office** Office life — Офісне життя
+  - `meetings` Meetings — Наради
+  - `emails` Emails/docs — Емейли/документи
+  - `colleagues` With colleagues — З колегами
+  - `deadlines` Deadlines/tasks — Дедлайни/задачі
+- **smedia** Social media — Соцмережі
+  - `posting` Posting — Публікація
+  - `engaging` Engaging — Взаємодія
+  - `following` Following — Підписки/фоловери
+  - `content` Content creation — Створення контенту
+- **finance** Finance/investing — Фінанси/інвестиції
+  - `investing` Investing — Інвестиції
+  - `banking` Banking — Банківські операції
+  - `debt` Debt/credit — Борги/кредити
+  - `trading` Trading — Торги/біржа
+- **pets** Pets/animal care — Догляд за тваринами
+  - `feeding` Feeding — Годування
+  - `grooming` Grooming — Догляд/грумінг
+  - `training_pet` Training pets — Дресура
+  - `vet_care` Vet care — Ветеринарія
+- **kitchen** Kitchen actions — Кухонні дії
+  - `prepping` Prepping — Підготовка інгредієнтів
+  - `cooking_k` Cooking methods — Методи готування
+  - `baking` Baking — Випічка
+  - `serving` Serving/plating — Подача
+- **beauty** Beauty/grooming — Краса/догляд
+  - `makeup` Makeup — Макіяж
+  - `hair` Hair — Зачіски/волосся
+  - `skincare` Skincare — Догляд за шкірою
+  - `nails` Nails — Нігті/манікюр
+- **school** School life — Шкільне життя
+  - `classroom` In class — На уроці
+  - `homework` Homework — Домашка
+  - `playground` Playground — Перерва/двір
+  - `school_admin` School admin — Адміністрація
+- **city** City life — Міське життя
+  - `transport_c` Public transport — Громад. транспорт
+  - `navigation` Navigation — Орієнтування
+  - `events` Events — Міські події
+  - `neighborhood` Neighborhood — По району
+- **build** Construction/repair — Будівництво/ремонт
+  - `building` Building — Будівництво
+  - `renovating` Renovating — Ремонт
+  - `tools` Using tools — Робота інструментами
+  - `installing` Installing — Встановлення
+- **fashion** Fashion/style — Одяг/стиль
+  - `wearing` Wearing — Носити одяг
+  - `buying_f` Buying clothes — Купувати одяг
+  - `styling` Styling — Стайлінг
+  - `laundry` Laundry care — Догляд за одягом
+- **holidays** Holidays/traditions — Свята/традиції
+  - `celebrating_h` Celebrating — Святкування
+  - `decorating` Decorating — Прикрашання
+  - `gifting` Gifting — Подарунки
+  - `traditions` Traditions — Звичаї
+- **games** Games/leisure — Ігри/дозвілля
+  - `video_games` Video games — Відеоігри
+  - `board_games` Board games — Настільні
+  - `card_games` Card games — Карти
+  - `puzzles` Puzzles — Головоломки
+- **body_talk** Body language — Мова тіла/жести
+  - `gestures` Hand gestures — Жести руками
+  - `posture` Posture — Постава/положення тіла
+  - `facial` Facial expressions — Міміка
+  - `eye_contact` Eye contact — Погляд
+- **friend** Friendship — Дружба/спілкування
+  - `making_friends` Making friends — Знайомство
+  - `hanging_out` Hanging out — Тусувати
+  - `supporting` Supporting — Підтримка
+  - `falling_out` Falling out — Сваритися/розходитись
+- **basic_v** 🆕 Basic verbs — Базові дієслова
+  - `core_wants` 🆕 Want & need — Хотіти й потребувати
+  - `core_actions` 🆕 Everyday actions — Повсякденні дії
+  - `core_events` 🆕 Happen & exist — Відбуватися й існувати
+- **formal_v** 🆕 Formal & academic — Книжні дієслова
+  - `logic_v` 🆕 Reasoning — Міркування й висновки
+  - `process_v` 🆕 Processes — Процеси й результати
+  - `compare_v` 🆕 Compare & relate — Порівнювати й повʼязувати
+- **society_v** 🆕 Society & politics — Суспільство й політика
+  - `politics_v` 🆕 Politics & power — Політика й влада
+  - `economy_v` 🆕 Economy & business — Економіка й бізнес
+  - `media_v` 🆕 Media & public — Медіа й публічність

@@ -1,0 +1,302 @@
+[
+ {
+  "id": 2000,
+  "en": "vaccination",
+  "ex": "Before the trip to Africa I had a vaccination against yellow fever — one injection in the arm.",
+  "exUk": "Перед поїздкою до Африки я пройшов вакцинацію від жовтої лихоманки — один укол у руку."
+ },
+ {
+  "id": 2001,
+  "en": "antibody",
+  "ex": "The blood test found antibodies, which means her body has already fought this virus and won.",
+  "exUk": "Аналіз крові виявив антитіла, а отже, її організм уже боровся з цим вірусом і переміг."
+ },
+ {
+  "id": 2002,
+  "en": "hygiene",
+  "ex": "Good hygiene is simple: wash your hands before eating and brush your teeth twice a day.",
+  "exUk": "Добра гігієна — це просто: мий руки перед їжею й чисти зуби двічі на день."
+ },
+ {
+  "id": 2003,
+  "en": "posture",
+  "ex": "Sitting at the computer all day gave him bad posture — his back is bent and his shoulders hang forward.",
+  "exUk": "Від сидіння за компʼютером цілий день у нього зіпсувалася постава: спина зігнута, плечі опущені вперед."
+ },
+ {
+  "id": 2004,
+  "en": "godmother",
+  "ex": "My godmother held me at my baptism, and she still sends me a present every birthday.",
+  "exUk": "Моя хрещена мати тримала мене на хрестинах і досі надсилає подарунок на кожен день народження."
+ },
+ {
+  "id": 2005,
+  "en": "godfather",
+  "ex": "Dad's best friend became my godfather at my baptism and promised to help raise me.",
+  "exUk": "Найкращий друг тата став моїм хрещеним батьком на хрестинах і пообіцяв допомагати мене виховувати."
+ },
+ {
+  "id": 2006,
+  "en": "godchild",
+  "ex": "She has three godchildren — the kids of her friends — and she goes to all their birthdays.",
+  "exUk": "У неї троє хрещеників — діти її подруг — і вона ходить на всі їхні дні народження."
+ },
+ {
+  "id": 2007,
+  "en": "widow",
+  "ex": "Her husband died in the war, and the young widow raised their two sons alone.",
+  "exUk": "Її чоловік загинув на війні, і молода вдова сама виростила двох синів."
+ },
+ {
+  "id": 2008,
+  "en": "widower",
+  "ex": "After his wife died, the old widower learned to cook for himself and lived alone with his cat.",
+  "exUk": "Після смерті дружини старий вдівець навчився сам собі готувати й жив самотньо з котом."
+ },
+ {
+  "id": 2009,
+  "en": "orphan",
+  "ex": "Both his parents died when he was five, so the orphan grew up with his aunt.",
+  "exUk": "Обоє його батьків померли, коли йому було пʼять, тож сирота виріс у тітки."
+ },
+ {
+  "id": 2010,
+  "en": "single parent",
+  "ex": "As a single parent, she works all day and then cooks, helps with homework, and reads bedtime stories alone.",
+  "exUk": "Як мати-одиначка, вона цілий день працює, а потім сама готує, допомагає з уроками й читає казки на ніч."
+ },
+ {
+  "id": 2011,
+  "en": "family friend",
+  "ex": "Uncle Taras isn't really my uncle — he's an old family friend who has known my parents for thirty years.",
+  "exUk": "Дядько Тарас насправді не мій дядько: він давній друг сімʼї, який знає моїх батьків тридцять років."
+ },
+ {
+  "id": 2012,
+  "en": "acquaintance",
+  "ex": "He's not a friend, just an acquaintance — we met twice at work and say hello in the street.",
+  "exUk": "Він не друг, просто знайомий: ми двічі перетиналися на роботі й вітаємося на вулиці."
+ },
+ {
+  "id": 2013,
+  "en": "stranger",
+  "ex": "A stranger stopped me in the street and asked the way to the station — I'd never seen him before.",
+  "exUk": "На вулиці мене зупинив незнайомець і спитав дорогу до вокзалу — я ніколи раніше його не бачив."
+ },
+ {
+  "id": 2014,
+  "en": "pore",
+  "ex": "Hot steam opens the tiny pores in your skin, so the dirt comes out more easily.",
+  "exUk": "Гаряча пара відкриває крихітні пори на шкірі, тож бруд виходить легше."
+ },
+ {
+  "id": 2015,
+  "en": "wrinkle",
+  "ex": "Grandma has deep wrinkles around her eyes from eighty years of smiling in the sun.",
+  "exUk": "У бабусі глибокі зморшки навколо очей від вісімдесяти років усмішок на сонці."
+ },
+ {
+  "id": 2016,
+  "en": "pimple",
+  "ex": "A big red pimple appeared on my nose the day before the party, and I tried to hide it.",
+  "exUk": "За день до вечірки в мене на носі вискочив великий червоний прищ, і я намагалася його сховати."
+ },
+ {
+  "id": 2017,
+  "en": "freckle",
+  "ex": "Every summer the sun brings out little brown freckles on her nose and cheeks.",
+  "exUk": "Щоліта від сонця на її носі й щоках зʼявляються дрібні коричневі веснянки."
+ },
+ {
+  "id": 2018,
+  "en": "mole",
+  "ex": "The doctor checked the dark brown mole on my back to make sure it wasn't dangerous.",
+  "exUk": "Лікар оглянув темно-коричневу родимку в мене на спині, щоб переконатися, що вона не небезпечна."
+ },
+ {
+  "id": 2019,
+  "en": "dimple",
+  "ex": "When she smiles, two little dimples appear in her cheeks, and everyone finds it cute.",
+  "exUk": "Коли вона всміхається, на щоках зʼявляються дві маленькі ямочки, і всі вважають це милим."
+ },
+ {
+  "id": 2020,
+  "en": "birthmark",
+  "ex": "He has had a small red birthmark on his neck since the day he was born.",
+  "exUk": "У нього на шиї маленька червона родима пляма від самого народження."
+ },
+ {
+  "id": 2021,
+  "en": "tattoo",
+  "ex": "He has a tattoo of a wolf on his arm — the artist drew it into his skin with a needle.",
+  "exUk": "У нього на руці тату з вовком: майстер набив малюнок на шкірі голкою."
+ },
+ {
+  "id": 2022,
+  "en": "piercing",
+  "ex": "She got a piercing in her nose, and now she wears a tiny silver ring there.",
+  "exUk": "Вона зробила пірсинг у носі й тепер носить там крихітне срібне кільце."
+ },
+ {
+  "id": 2023,
+  "en": "scar tissue",
+  "ex": "The burn healed, but the scar tissue on his hand is hard and doesn't stretch like normal skin.",
+  "exUk": "Опік загоївся, але рубцева тканина на руці тверда й не розтягується, як звичайна шкіра."
+ },
+ {
+  "id": 2024,
+  "en": "tap water",
+  "ex": "In this city the tap water is clean, so you can drink it straight from the kitchen sink.",
+  "exUk": "У цьому місті вода з-під крана чиста, тож її можна пити просто з кухонної мийки."
+ },
+ {
+  "id": 2025,
+  "en": "utility bill",
+  "ex": "The utility bills for gas, water, and electricity come every month, and in winter they are much higher.",
+  "exUk": "Комунальні рахунки за газ, воду й електрику приходять щомісяця, а взимку вони значно більші."
+ },
+ {
+  "id": 2026,
+  "en": "rent",
+  "ex": "The rent for the flat is five hundred dollars a month, and we pay the owner on the first.",
+  "exUk": "Оренда квартири — пʼятсот доларів на місяць, і ми платимо власникові першого числа."
+ },
+ {
+  "id": 2027,
+  "en": "landlord",
+  "ex": "The landlord came on the first of the month to collect the rent and check that the flat was fine.",
+  "exUk": "Орендодавець прийшов першого числа, щоб забрати плату й перевірити, чи з квартирою все гаразд."
+ },
+ {
+  "id": 2028,
+  "en": "tenant",
+  "ex": "The new tenants moved into the flat upstairs last week and pay the owner every month.",
+  "exUk": "Нові орендарі заселилися у квартиру поверхом вище минулого тижня й щомісяця платять власнику."
+ },
+ {
+  "id": 2029,
+  "en": "neighborhood watch",
+  "ex": "Our street has a neighborhood watch: residents take turns walking around at night and call the police if something looks wrong.",
+  "exUk": "На нашій вулиці є сусідський нагляд: мешканці по черзі обходять її вночі й викликають поліцію, якщо щось не так."
+ },
+ {
+  "id": 2030,
+  "en": "euphoria",
+  "ex": "When the final whistle blew, the fans felt pure euphoria — they hugged, cried, and danced in the street.",
+  "exUk": "Коли пролунав фінальний свисток, уболівальники відчули чисту ейфорію: обіймалися, плакали й танцювали на вулиці."
+ },
+ {
+  "id": 2031,
+  "en": "melancholy",
+  "ex": "The grey November rain filled him with melancholy, a quiet sadness he couldn't explain.",
+  "exUk": "Сірий листопадовий дощ наповнив його меланхолією — тихим смутком, який він не міг пояснити."
+ },
+ {
+  "id": 2032,
+  "en": "apathy",
+  "ex": "After losing his job he fell into apathy: he didn't want to go out, see friends, or do anything.",
+  "exUk": "Втративши роботу, він упав в апатію: не хотів ні виходити з дому, ні бачити друзів, ні робити хоч щось."
+ },
+ {
+  "id": 2033,
+  "en": "enthusiasm",
+  "ex": "The new teacher is full of enthusiasm — she comes early, plans games, and really loves her job.",
+  "exUk": "Нова вчителька сповнена ентузіазму: приходить рано, вигадує ігри й по-справжньому любить свою роботу."
+ },
+ {
+  "id": 2034,
+  "en": "integrity",
+  "ex": "The judge was known for his integrity: he never took money and always followed the law.",
+  "exUk": "Суддя був відомий своєю чесністю: він ніколи не брав грошей і завжди дотримувався закону."
+ },
+ {
+  "id": 2035,
+  "en": "dignity",
+  "ex": "Even when he lost everything, he kept his dignity and never begged anyone for help.",
+  "exUk": "Навіть утративши все, він зберіг гідність і ніколи ні в кого не випрошував допомоги."
+ },
+ {
+  "id": 2036,
+  "en": "prejudice",
+  "ex": "She had a prejudice against people from the village and thought they were all uneducated — until she met Oleh.",
+  "exUk": "Вона мала упередження проти людей із села й вважала їх усіх неосвіченими, поки не зустріла Олега."
+ },
+ {
+  "id": 2037,
+  "en": "stereotype",
+  "ex": "There is a stereotype that all programmers are quiet men in glasses, but my team is nothing like that.",
+  "exUk": "Є стереотип, що всі програмісти — мовчазні чоловіки в окулярах, але моя команда зовсім не така."
+ },
+ {
+  "id": 2038,
+  "en": "discrimination",
+  "ex": "She faced discrimination at work: men with the same job got higher salaries just because they were men.",
+  "exUk": "Вона зіткнулася з дискримінацією на роботі: чоловіки на тій самій посаді отримували більше лише тому, що вони чоловіки."
+ },
+ {
+  "id": 2039,
+  "en": "equality",
+  "ex": "The new law is about equality: men and women must get the same pay for the same work.",
+  "exUk": "Новий закон про рівність: чоловіки й жінки мають отримувати однакову плату за однакову роботу."
+ },
+ {
+  "id": 2040,
+  "en": "diversity",
+  "ex": "There is real diversity in our office: people from twelve countries who speak many different languages.",
+  "exUk": "У нашому офісі справжнє різноманіття: люди з дванадцяти країн, які розмовляють багатьма мовами."
+ },
+ {
+  "id": 2041,
+  "en": "awareness",
+  "ex": "The posters in the metro raise awareness of the disease, so more people now know its first signs.",
+  "exUk": "Плакати в метро підвищують обізнаність про хворобу, тож тепер більше людей знають її перші ознаки."
+ },
+ {
+  "id": 2042,
+  "en": "perception",
+  "ex": "Many people have the perception that the city is dangerous, but the crime numbers say the opposite.",
+  "exUk": "У багатьох людей є сприйняття міста як небезпечного, але статистика злочинів свідчить про протилежне."
+ },
+ {
+  "id": 2043,
+  "en": "perspective",
+  "ex": "Talking to my grandfather gave me a different perspective on the war — he had lived through it.",
+  "exUk": "Розмова з дідом дала мені інший погляд на війну: він пережив її сам."
+ },
+ {
+  "id": 2044,
+  "en": "assumption",
+  "ex": "I made the assumption that the shop was open on Sunday, but when I got there, it was closed.",
+  "exUk": "Я зробив припущення, що магазин працює в неділю, але коли прийшов, він був зачинений."
+ },
+ {
+  "id": 2045,
+  "en": "conclusion",
+  "ex": "After reading all the reports, the doctors came to the conclusion that the water was making people ill.",
+  "exUk": "Прочитавши всі звіти, лікарі дійшли висновку, що люди хворіють через воду."
+ },
+ {
+  "id": 2046,
+  "en": "impact",
+  "ex": "The new bridge had a big impact on the village: shops opened and young people stopped leaving.",
+  "exUk": "Новий міст мав великий вплив на село: відкрилися крамниці, і молодь перестала виїжджати."
+ },
+ {
+  "id": 2047,
+  "en": "influence",
+  "ex": "His older brother was a bad influence on him — he taught him to smoke and skip school.",
+  "exUk": "Старший брат мав на нього поганий вплив: навчив курити й прогулювати школу."
+ },
+ {
+  "id": 2048,
+  "en": "potential",
+  "ex": "The coach saw great potential in the boy: he was slow now, but with training he could become a champion.",
+  "exUk": "Тренер побачив у хлопцеві великий потенціал: зараз він повільний, але з тренуваннями міг би стати чемпіоном."
+ },
+ {
+  "id": 2049,
+  "en": "benefit",
+  "ex": "One big benefit of living near the office is that I can walk to work and sleep an extra hour.",
+  "exUk": "Велика користь від життя поруч з офісом у тому, що я ходжу на роботу пішки й сплю на годину довше."
+ }
+]

@@ -29,14 +29,16 @@ const ok = (c, m) => { console.log((c ? '✓ PASS' : '✗ FAIL') + '  ' + m); if
   ok(!!window.FLCore && !!window.FLLexis && !!window.FLGrammar && !!window.FL, 'core / lexis / grammar modules registered');
   const L = window.FLLexis;
   ok(['verbs', 'nouns', 'adjs', 'advs'].every(p => !L.loaded(p)), 'no dictionary is loaded at startup');
-  ok(L.posCount('verbs') === 3136 && L.posCount('nouns') === 2465, 'word counts come from meta.js while data is missing');
+  const M = window.LEX_META;
+  ok(L.posCount('verbs') === M.verbs.safe && L.posCount('nouns') === M.nouns.safe && M.verbs.safe > 3000, 'word counts come from meta.js while data is missing (' + M.verbs.safe + ' verbs)');
 
   const view = doc.getElementById('view');
   const go = h => { window.location.hash = h.replace(/^#/, ''); window.dispatchEvent(new window.HashChangeEvent('hashchange')); };
   go('#/');
-  ok(/у базі 8\d{3}/.test(view.textContent), 'dashboard shows the total word count without the dictionaries');
+  const SAFE = ['verbs', 'nouns', 'adjs', 'advs'].reduce((s, p) => s + M[p].safe, 0);
+  ok(new RegExp('у базі ' + SAFE).test(view.textContent.replace(/(\d)\s(?=\d{3})/g, '$1')), 'dashboard shows the total word count without the dictionaries (' + SAFE + ')');
   go('#/vocab');
-  ok(/3136/.test(view.textContent), 'vocabulary hub shows per-part counts');
+  ok(new RegExp(String(M.verbs.safe)).test(view.textContent.replace(/(\d)\s(?=\d{3})/g, '$1')), 'vocabulary hub shows per-part counts');
   go('#/vocab/verbs/browser');
   ok(/Завантажуємо словник/.test(view.textContent), 'opening a part of speech shows the loader');
   go('#/grammar');
@@ -49,7 +51,7 @@ const ok = (c, m) => { console.log((c ? '✓ PASS' : '✗ FAIL') + '  ' + m); if
   const { window, doc, go, click } = boot();
   const L = window.FLLexis;
   ok(['verbs', 'nouns', 'adjs', 'advs'].every(p => L.loaded(p)), 'dictionaries work once loaded');
-  ok(L.posCount('verbs') === 3136, 'the same count comes from the data itself (' + L.posCount('verbs') + ')');
+  ok(L.posCount('verbs') === window.LEX_META.verbs.safe, 'the same count comes from the data itself (' + L.posCount('verbs') + ')');
 
   go('#/vocab/verbs/browser');
   ok(!!doc.querySelector('#lex-search'), 'browser renders after the data is there');

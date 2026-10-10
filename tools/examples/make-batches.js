@@ -1,5 +1,5 @@
 /* Нарізка слів словника на пачки для переписування прикладів (див. SPEC.md).
-   node tools/examples/make-batches.js <verbs|adjs> [розмір=50] → tools/examples/batches/<pos>/NNN.json
+   node tools/examples/make-batches.js <verbs|adjs|nouns> [розмір=50] → tools/examples/batches/<pos>/NNN.json
    Слова, для яких уже є out/<pos>/*.json, пропускаються. */
 const fs = require('fs');
 const path = require('path');
@@ -19,7 +19,8 @@ const taken = new Set(outFiles.map(f => f.slice(0, 3)));
 
 const byEn = {};
 words.forEach(v => (byEn[v.en.toLowerCase()] = byEn[v.en.toLowerCase()] || []).push(v));
-const todo = words.filter(v => !done.has(v._id)).sort((a, b) => a._id - b._id);
+/* _id від 10000 — слова з Oxford (їхнє джерело — tools/oxford/out), тут не беремо */
+const todo = words.filter(v => !done.has(v._id) && v._id < 10000).sort((a, b) => a._id - b._id);
 
 fs.readdirSync(dir).forEach(f => fs.unlinkSync(path.join(dir, f)));
 let n = 0, made = 0;
@@ -35,6 +36,8 @@ for (let i = 0; i < todo.length; i += SIZE) {
     if (v.syn) o.syn = [].concat(v.syn).join(', ');
     if (v.ant) o.ant = [].concat(v.ant).join(', ');
     if (v.prep) o.prep = v.prep;
+    if (v.cu) o.cu = v.cu === 'U' ? 'uncountable' : v.cu === 'C' ? 'countable' : v.cu;
+    if (v.plural) o.plural = v.plural;
     if (v.note) o.note = v.note;
     o.ex = v.ex || '';
     o.exUk = v.exUk || '';

@@ -7,13 +7,14 @@ const $ = s => doc.querySelector(s), $$ = s => [...doc.querySelectorAll(s)];
 
 (async () => {
   try {
-    const src = ['js/lexis/verbs-data.js', 'js/lexis/verbs-phrasal-data.js', 'js/lexis/verbs-merge.js']
+    const src = ['js/lexis/verbs-data.js', 'js/lexis/verbs-phrasal-data.js', 'js/lexis/verbs-merge.js', 'js/lexis/verbs-oxford-data.js']
       .map(f => fs.readFileSync(path.join(APP, f), 'utf8')).join(';');
     const V = (new Function(src + ';return LEX_VERBS'))();
     const CATS = (new Function(src + ';return LEX_VERB_CATS'))();
     const SUBS = (new Function(src + ';return LEX_VERB_SUBS'))();
 
-    ok(V.length === 3249, 'verbs dataset: ' + V.length + ' after adding phrasals and merging duplicates');
+    const BASE = V.filter(v => v._id < 10000);   /* _id від 10000 — слова з Oxford 3000/5000 (verbs-oxford-data.js) */
+    ok(BASE.length === 3249, 'verbs dataset: ' + BASE.length + ' after adding phrasals and merging duplicates (+' + (V.length - BASE.length) + ' from Oxford)');
     ok(new Set(V.map(w => w._id)).size === V.length, 'every verb has a unique _id (progress stays intact)');
     ok(V.filter(w => w._id < 3003).every((w, i, a) => i === 0 || w._id > a[i - 1]._id), 'original verbs keep their ids in order (appended, not renumbered)');
 
@@ -28,7 +29,7 @@ const $ = s => doc.querySelector(s), $$ = s => [...doc.querySelectorAll(s)];
     ok(!V.some(w => /^(fall in love|bear in mind|knock on wood|go on vacation)$/.test(w.en) && w.cats.includes('phrasal')), 'noun phrases like «fall in love» are not tagged phrasal');
 
     /* нові слова мають повний набір полів і тематичні категорії */
-    const NEW = V.filter(w => w._id >= 3003);
+    const NEW = V.filter(w => w._id >= 3003 && w._id < 10000);
     ok(NEW.length > 400, NEW.length + ' new phrasal verbs added');
     const req = ['en', 'ctx', 'ipa', 'emoji', 'uk', 'uCtx', 'lvl', 'past', 'pp', 'ex', 'exUk'];
     ok(NEW.every(w => req.every(k => w[k])), 'every new verb has all fields filled');

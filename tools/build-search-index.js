@@ -24,10 +24,10 @@ const add = (term, uk, kind, hash, extra, adult) => {
 
 /* ---------------- 1. СЛОВНИК ---------------- */
 const POS = {
-  verbs: { files: ['js/lexis/verbs-data.js', 'js/lexis/verbs-phrasal-data.js', 'js/lexis/verbs-merge.js'], v: 'LEX_VERBS', cats: 'LEX_VERB_CATS', subs: 'LEX_VERB_SUBS', uk: 'Дієслова' },
-  nouns: { files: ['js/lexis/nouns-data.js'], v: 'LEX_NOUNS', cats: 'LEX_NOUN_CATS', subs: 'LEX_NOUN_SUBS', uk: 'Іменники' },
-  adjs: { files: ['js/lexis/adjs-data.js', 'js/lexis/adjs-prep-data.js'], v: 'LEX_ADJS', cats: 'LEX_ADJ_CATS', subs: 'LEX_ADJ_SUBS', uk: 'Прикметники' },
-  advs: { files: ['js/lexis/advs-data.js'], v: 'LEX_ADVS', cats: 'LEX_ADV_CATS', subs: 'LEX_ADV_SUBS', uk: 'Прислівники' }
+  verbs: { files: ['js/lexis/verbs-data.js', 'js/lexis/verbs-phrasal-data.js', 'js/lexis/verbs-merge.js', 'js/lexis/verbs-oxford-data.js'], v: 'LEX_VERBS', cats: 'LEX_VERB_CATS', subs: 'LEX_VERB_SUBS', uk: 'Дієслова' },
+  nouns: { files: ['js/lexis/nouns-data.js', 'js/lexis/nouns-oxford-data.js'], v: 'LEX_NOUNS', cats: 'LEX_NOUN_CATS', subs: 'LEX_NOUN_SUBS', uk: 'Іменники' },
+  adjs: { files: ['js/lexis/adjs-data.js', 'js/lexis/adjs-prep-data.js', 'js/lexis/adjs-oxford-data.js'], v: 'LEX_ADJS', cats: 'LEX_ADJ_CATS', subs: 'LEX_ADJ_SUBS', uk: 'Прикметники' },
+  advs: { files: ['js/lexis/advs-data.js', 'js/lexis/advs-oxford-data.js'], v: 'LEX_ADVS', cats: 'LEX_ADV_CATS', subs: 'LEX_ADV_SUBS', uk: 'Прислівники' }
 };
 let wordCount = 0;
 Object.entries(POS).forEach(([id, p]) => {

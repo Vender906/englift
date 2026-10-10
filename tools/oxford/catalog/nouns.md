@@ -1,0 +1,166 @@
+# nouns — categories (`cat id` → its subcategories)
+
+Use ids exactly. In `cats` put the category id and then one of its subcategory ids, e.g. `["motion", "walking"]`; a word may belong to up to 2 such pairs. New categories are marked 🆕.
+
+- **body** Body — Тіло
+  - `body_head` Head & face — Голова/обличчя
+  - `body_torso` Torso — Тіло/тулуб
+  - `body_limbs` Limbs — Кінцівки
+  - `body_internal` Internal organs — Внутрішні
+  - `body_private` Private parts — Інтимне (18+)
+  - `body_waste` Bodily fluids/waste — Виділення
+  - `body_skin` Skin & appearance — Шкіра/зовн.
+- **health** Health — Здоров'я
+  - `symptoms` Symptoms — Симптоми
+  - `illnesses` Illnesses — Хвороби
+  - `injuries` Injuries — Травми
+  - `healthcare_staff` Healthcare staff — Медперсонал
+  - `medicine` Medicine — Ліки
+  - `equipment` Medical equipment — Обладнання
+  - `mental_health` Mental health — Психічне здоров'я
+- **family** Family & friends — Сім'я
+  - `immediate` Immediate family — Найближчі рідні
+  - `extended` Extended family — Дальня родина
+  - `in_laws` In-laws & step — Родичі чоловіка/дружини
+  - `relationships` Relationships — Стосунки
+  - `friends` Friends & others — Друзі та інші
+- **clothes** Clothes — Одяг
+  - `tops` Tops — Верх (сорочки, светри)
+  - `bottoms` Bottoms — Низ (штани, джинси)
+  - `outerwear` Outerwear — Верхній одяг
+  - `dresses_skirts` Dresses & skirts — Сукні/спідниці
+  - `underwear` Underwear — Спідня білизна
+  - `hosiery` Hosiery — Шкарпетки/панчохи
+  - `sleepwear` Sleepwear — Одяг для сну
+  - `footwear` Footwear — Взуття
+  - `accessories` Accessories — Аксесуари
+  - `jewelry` Jewelry — Прикраси
+  - `bags` Bags — Сумки
+  - `fabrics` Fabrics & materials — Тканини
+  - `cosmetics` Cosmetics — Косметика
+- **places** City & places — Місто і будівлі
+  - `library` Library — Бібліотека
+  - `restaurant` Restaurant — Ресторан
+  - `cafe` Café — Кав'ярня
+  - `toilet` Public toilet — Туалет
+  - `shop` Shop / Store — Магазин
+  - `hotel` Hotel — Готель
+  - `gym` Gym — Спортзал
+  - `hospital` Hospital — Лікарня
+  - `pharmacy` Pharmacy — Аптека
+  - `bank` Bank — Банк
+  - `airport` Airport — Аеропорт
+  - `cinema` Cinema — Кінотеатр
+  - `school` School — Школа
+  - `transport` Transport — Транспорт
+  - `car_parts` Car parts — Деталі авто
+  - `street` Street & road — Вулиця/дорога
+  - `buildings` Buildings — Будівлі та райони
+  - `landmarks` Landmarks — Визначні місця
+  - `nature_places` Nature places — Природні місця
+- **home** Home — Дім і кімнати
+  - `kitchen` Kitchen — Кухня
+  - `bathroom` Bathroom — Ванна
+  - `bedroom` Bedroom — Спальня
+  - `living_room` Living room — Вітальня
+  - `hallway` Hallway — Коридор
+  - `garage` Garage — Гараж
+  - `garden` Garden — Сад/двір
+  - `appliances` Appliances — Побутова техніка
+  - `furniture` Furniture — Меблі
+  - `materials` Materials — Матеріали
+- **food** Food & kitchen — Їжа і кухня
+  - `fruits` Fruits — Фрукти
+  - `vegetables` Vegetables — Овочі
+  - `meat_fish` Meat & seafood — М'ясо/риба
+  - `dairy_grains` Dairy & grains — Молочка/крупи
+  - `sweets` Sweets & desserts — Солодощі
+  - `drinks` Drinks — Напої
+  - `alcohol` Alcohol — Алкоголь
+  - `cooking` Cooking — Готування
+  - `dishes` Dishes — Страви
+  - `spices` Herbs & spices — Спеції
+  - `meals` Meals — Прийоми їжі
+- **work** Work & office — Робота і офіс
+  - `positions` Positions — Посади/рівні
+  - `professions` Professions — Професії
+  - `departments` Departments — Відділи
+  - `office_stuff` Office supplies — Канцтовари
+  - `documents` Work documents — Робочі док-ти
+  - `meetings` Meetings — Зустрічі/події
+  - `employment` Employment — Найм/зарплата
+- **money** Money — Гроші і фінанси *(no subcategories — use the category id alone)*
+- **tech** Technology — Технології
+  - `devices` Devices — Пристрої
+  - `accessories_tech` Tech accessories — Аксесуари
+  - `internet` Internet & web — Інтернет/веб
+  - `social_media` Social media — Соцмережі
+  - `software` Software & apps — ПЗ/застосунки
+  - `digital_content` Digital content — Контент
+- **education** Education — Освіта *(no subcategories — use the category id alone)*
+- **nature** Nature — Природа
+  - `landforms` Landforms — Рельєф
+  - `water` Water — Водойми
+  - `plants` Plants & flowers — Рослини
+  - `trees` Trees & forest — Дерева/ліс
+  - `sky` Sky & space — Небо/космос
+  - `elements` Ground elements — Земля/елементи
+- **animals** Animals — Тварини
+  - `pets` Pets — Домашні улюбленці
+  - `farm` Farm animals — Свійські
+  - `wild` Wild animals — Дикі
+  - `sea_animals` Sea creatures — Морські
+  - `insects` Insects — Комахи
+  - `birds` Birds — Птахи
+- **weather** Weather — Погода *(no subcategories — use the category id alone)*
+- **time** Time — Час
+  - `clock_time` Clock time — Час доби
+  - `days_week` Days & week — Дні тижня
+  - `months` Months — Місяці
+  - `periods` Periods — Періоди
+  - `events` Events — Події
+  - `age_stages` Age & life stages — Вік
+- **arts** Arts & hobbies — Мистецтво і хобі
+  - `music` Music — Музика
+  - `instruments` Instruments — Інструменти
+  - `visual_arts` Visual arts — Візуальне мист.
+  - `literature` Literature — Література
+  - `film_tv` Film & TV — Кіно/ТБ
+  - `theatre` Theatre — Театр
+  - `sports` Sports — Спорт
+  - `games` Games & gaming — Ігри
+  - `hobbies` Hobbies — Хобі
+  - `travel_hobby` Travel — Подорожі
+- **abstract** Abstract — Абстрактні
+  - `emotions` Emotions — Емоції
+  - `virtues` Virtues & values — Чесноти
+  - `thoughts` Mind & thought — Розум/думки
+  - `concepts` General concepts — Поняття
+  - `society` Society & politics — Суспільство
+  - `measurements` Measurements — Міри/розміри
+  - `numbers_qty` Numbers & quantity — Числа
+  - `shapes` Shapes & directions — Форми/напрямки
+  - `compounds` Compound nouns — Стійкі фрази
+- **things** Things — Речі *(no subcategories — use the category id alone)*
+- **travel** Travel — Подорожі *(no subcategories — use the category id alone)*
+- **general** 🆕 General — Загальні слова
+  - `gen_people` 🆕 People — Люди
+  - `gen_things` 🆕 Things & parts — Речі й частини
+  - `gen_ideas` 🆕 Facts & situations — Факти й ситуації
+  - `gen_actions` 🆕 Actions & events — Дії й події
+- **society_n** 🆕 Society & politics — Суспільство й політика
+  - `politics_n` 🆕 Politics & government — Політика й влада
+  - `law_crime` 🆕 Law & crime — Право й злочини
+  - `media_news` 🆕 Media & news — Медіа й новини
+  - `social_issues` 🆕 Social issues — Суспільні проблеми
+  - `conflict_n` 🆕 War & conflict — Війна й конфлікти
+  - `religion_n` 🆕 Religion & beliefs — Релігія й вірування
+- **science_n** 🆕 Science & research — Наука й дослідження
+  - `sciences` 🆕 Sciences — Науки й дисципліни
+  - `research_n` 🆕 Research & data — Дослідження й дані
+  - `environment_n` 🆕 Environment — Довкілля й клімат
+  - `engineering_n` 🆕 Engineering & energy — Техніка й енергія
+- **business_n** 🆕 Business & economy — Бізнес і економіка
+  - `economy_n` 🆕 Economy — Економіка
+  - `company_n` 🆕 Companies & industry — Компанії й галузі
+  - `marketing_n` 🆕 Marketing & sales — Маркетинг і продажі

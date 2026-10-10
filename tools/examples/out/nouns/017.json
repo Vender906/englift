@@ -1,0 +1,302 @@
+[
+ {
+   "id": 800,
+   "en": "banana",
+   "ex": "The monkey peeled a yellow banana and ate the soft fruit inside in three quick bites.",
+   "exUk": "Мавпа облупила жовтий банан і за три швидкі укуси зʼїла мʼякий плід усередині."
+ },
+ {
+   "id": 801,
+   "en": "orange",
+   "ex": "I cut an orange in half and squeezed it to make a glass of fresh juice.",
+   "exUk": "Я розрізав апельсин навпіл і вичавив із нього склянку свіжого соку."
+ },
+ {
+   "id": 802,
+   "en": "lemon",
+   "ex": "She put a slice of lemon in her tea, and the sour taste made her face wrinkle.",
+   "exUk": "Вона поклала скибочку лимона в чай, і від кислого смаку її обличчя скривилося."
+ },
+ {
+   "id": 803,
+   "en": "lime",
+   "ex": "The bartender squeezed a small green lime into the drink, and it tasted sharp and fresh.",
+   "exUk": "Бармен вичавив у напій маленький зелений лайм, і той став терпким і свіжим на смак."
+ },
+ {
+   "id": 804,
+   "en": "grape",
+   "ex": "She picked the small purple grapes off the bunch one by one and popped them into her mouth.",
+   "exUk": "Вона відривала маленькі фіолетові виноградини з грона одну за одною і кидала до рота."
+ },
+ {
+   "id": 805,
+   "en": "strawberry",
+   "ex": "In June we pick red strawberries in the garden and eat them with cream and sugar.",
+   "exUk": "У червні ми збираємо червону полуницю в саду і їмо її з вершками та цукром."
+ },
+ {
+   "id": 806,
+   "en": "blueberry",
+   "ex": "We picked a basket of small dark blueberries in the forest, and our fingers turned purple.",
+   "exUk": "Ми назбирали в лісі кошик дрібної темної чорниці, і наші пальці стали фіолетовими."
+ },
+ {
+   "id": 807,
+   "en": "raspberry",
+   "ex": "Grandma makes sweet red jam from the raspberries that grow on the bushes behind her house.",
+   "exUk": "Бабуся варить солодке червоне варення з малини, що росте на кущах за її будинком."
+ },
+ {
+   "id": 808,
+   "en": "cherry",
+   "ex": "Be careful with the cherries — each small red fruit has a hard stone inside.",
+   "exUk": "Обережно з черешнями — у кожному маленькому червоному плоді є тверда кісточка."
+ },
+ {
+   "id": 809,
+   "en": "peach",
+   "ex": "The peach was so ripe and juicy that the sweet juice ran down my chin.",
+   "exUk": "Персик був такий стиглий і соковитий, що солодкий сік потік мені по підборіддю."
+ },
+ {
+   "id": 810,
+   "en": "pear",
+   "ex": "The pear on the table was soft and sweet, with a narrow top and a round bottom.",
+   "exUk": "Груша на столі була мʼяка й солодка, вузька згори й кругла знизу."
+ },
+ {
+   "id": 811,
+   "en": "plum",
+   "ex": "The plums on the tree turned dark blue in August, and we baked a cake with them.",
+   "exUk": "Сливи на дереві в серпні стали темно-синіми, і ми спекли з них пиріг."
+ },
+ {
+   "id": 812,
+   "en": "watermelon",
+   "ex": "We cut a huge green watermelon and ate the sweet red slices, spitting out seeds.",
+   "exUk": "Ми розрізали величезний зелений кавун і їли солодкі червоні скибки, випльовуючи кісточки."
+ },
+ {
+   "id": 813,
+   "en": "pineapple",
+   "ex": "He cut the hard brown skin off the pineapple and found sweet yellow fruit inside.",
+   "exUk": "Він зрізав з ананаса тверду коричневу шкірку і знайшов усередині солодкий жовтий плід."
+ },
+ {
+   "id": 814,
+   "en": "mango",
+   "ex": "The mango from Thailand was soft and orange inside, sweeter than any peach I had ever eaten.",
+   "exUk": "Манго з Таїланду було мʼяке й помаранчеве всередині, солодше за будь-який персик, що я коли-небудь їв."
+ },
+ {
+   "id": 815,
+   "en": "avocado",
+   "ex": "Cut the avocado in half, take out the big stone, and spread the soft green fruit on bread.",
+   "exUk": "Розріж авокадо навпіл, вийми велику кісточку й намаж мʼяку зелену мʼякоть на хліб."
+ },
+ {
+   "id": 816,
+   "en": "kiwi",
+   "ex": "A kiwi has brown fuzzy skin, but inside it is bright green with tiny black seeds.",
+   "exUk": "У ківі коричнева пухнаста шкірка, а всередині воно яскраво-зелене з дрібними чорними насінинками."
+ },
+ {
+   "id": 817,
+   "en": "coconut",
+   "ex": "He broke the hard brown coconut with a stone, and sweet white milk ran out of it.",
+   "exUk": "Він розбив твердий коричневий кокос каменем, і з нього потекло солодке біле молоко."
+ },
+ {
+   "id": 818,
+   "en": "melon",
+   "ex": "We bought a big yellow melon at the market, and its sweet smell filled the whole kitchen.",
+   "exUk": "Ми купили на ринку велику жовту диню, і її солодкий запах наповнив усю кухню."
+ },
+ {
+   "id": 819,
+   "en": "tomato",
+   "ex": "She cut two red tomatoes into slices and put them on the sandwich with cheese.",
+   "exUk": "Вона нарізала два червоні помідори скибочками й поклала їх на сендвіч із сиром."
+ },
+ {
+   "id": 820,
+   "en": "cucumber",
+   "ex": "A fresh cucumber is long and green, and it tastes cool and watery in a summer salad.",
+   "exUk": "Свіжий огірок довгий і зелений, а в літньому салаті він прохолодний і соковитий."
+ },
+ {
+   "id": 821,
+   "en": "potato",
+   "ex": "Peel the potatoes and boil them for twenty minutes, then mash them with butter and milk.",
+   "exUk": "Почисти картоплю і вари двадцять хвилин, а потім розімни її з маслом і молоком."
+ },
+ {
+   "id": 822,
+   "en": "carrot",
+   "ex": "The rabbit ate a long orange carrot, and my grandmother says carrots are good for your eyes.",
+   "exUk": "Кролик зʼїв довгу помаранчеву моркву, а бабуся каже, що морква корисна для очей."
+ },
+ {
+   "id": 823,
+   "en": "onion",
+   "ex": "When I cut an onion, my eyes always start to cry, but it makes the soup taste great.",
+   "exUk": "Коли я ріжу цибулю, в мене завжди течуть сльози, але вона робить суп дуже смачним."
+ },
+ {
+   "id": 824,
+   "en": "garlic",
+   "ex": "He added a lot of garlic to the sauce, and the strong smell stayed on his hands.",
+   "exUk": "Він додав у соус багато часнику, і різкий запах залишився на його руках."
+ },
+ {
+   "id": 825,
+   "en": "pepper",
+   "ex": "I bought three sweet peppers — one red, one yellow and one green — to put in the salad.",
+   "exUk": "Я купив три солодкі перці — червоний, жовтий і зелений, — щоб покласти в салат."
+ },
+ {
+   "id": 826,
+   "en": "chili",
+   "ex": "He put a small red chili in the soup, and now it is so hot my mouth burns.",
+   "exUk": "Він поклав у суп маленький червоний чилі, і тепер суп такий гострий, що в мене пече в роті."
+ },
+ {
+   "id": 827,
+   "en": "lettuce",
+   "ex": "Wash the green leaves of lettuce well before you put them in the salad with tomatoes.",
+   "exUk": "Добре помий зелене листя салату, перш ніж класти його в салат із помідорами."
+ },
+ {
+   "id": 828,
+   "en": "spinach",
+   "ex": "Spinach is a dark green leaf vegetable, and it gets very small when you cook it.",
+   "exUk": "Шпинат — це темно-зелений листовий овоч, і він дуже зменшується, коли його готуєш."
+ },
+ {
+   "id": 829,
+   "en": "cabbage",
+   "ex": "Mom cut a big round cabbage into thin strips and cooked it with carrots for the borshch.",
+   "exUk": "Мама нашаткувала велику круглу капусту тонкими смужками і зварила її з морквою для борщу."
+ },
+ {
+   "id": 830,
+   "en": "broccoli",
+   "ex": "The broccoli looked like a small green tree on the plate, and the kids refused to eat it.",
+   "exUk": "Броколі на тарілці була схожа на маленьке зелене дерево, і діти відмовилися її їсти."
+ },
+ {
+   "id": 831,
+   "en": "mushroom",
+   "ex": "We found a basket of mushrooms in the forest after the rain, but some of them were poisonous.",
+   "exUk": "Після дощу ми знайшли в лісі кошик грибів, але деякі з них були отруйні."
+ },
+ {
+   "id": 832,
+   "en": "corn",
+   "ex": "We boiled some sweet yellow corn and ate it hot with butter and salt, straight off the cob.",
+   "exUk": "Ми зварили солодку жовту кукурудзу і їли її гарячою з маслом і сіллю, просто з качана."
+ },
+ {
+   "id": 833,
+   "en": "eggplant",
+   "ex": "She sliced a long purple eggplant and grilled the pieces with oil and garlic.",
+   "exUk": "Вона нарізала довгий фіолетовий баклажан і засмажила шматочки на грилі з олією та часником."
+ },
+ {
+   "id": 834,
+   "en": "zucchini",
+   "ex": "In summer the garden gives us so many zucchini that we fry the long green vegetables every day.",
+   "exUk": "Улітку город дає стільки кабачків, що ми смажимо ці довгі зелені овочі щодня."
+ },
+ {
+   "id": 835,
+   "en": "beet",
+   "ex": "The soup was dark red because of the beets, and the juice turned my fingers pink.",
+   "exUk": "Суп був темно-червоний через буряк, а його сік пофарбував мені пальці в рожевий."
+ },
+ {
+   "id": 836,
+   "en": "radish",
+   "ex": "She cut a few small red radishes into the salad, and they tasted sharp and crunchy.",
+   "exUk": "Вона нарізала в салат кілька маленьких червоних редисок, і вони були гострі й хрусткі на смак."
+ },
+ {
+   "id": 837,
+   "en": "celery",
+   "ex": "Celery has long, light green stalks, and people put it in soup or eat it raw with cheese.",
+   "exUk": "У селери довгі світло-зелені стебла, і її кладуть у суп або їдять сирою з сиром."
+ },
+ {
+   "id": 838,
+   "en": "peas",
+   "ex": "The little green peas rolled off my spoon, so I ate them one by one with a fork.",
+   "exUk": "Маленький зелений горох скочувався з ложки, тож я їв його по одній горошині виделкою."
+ },
+ {
+   "id": 839,
+   "en": "beans",
+   "ex": "Soak the dry beans in water overnight, or they will stay hard after an hour of cooking.",
+   "exUk": "Замочи суху квасолю у воді на ніч, інакше вона залишиться твердою навіть після години варіння."
+ },
+ {
+   "id": 840,
+   "en": "meat",
+   "ex": "My sister doesn't eat meat — no beef, no chicken, no pork — only vegetables and fish.",
+   "exUk": "Моя сестра не їсть мʼяса — ні яловичини, ні курки, ні свинини, — лише овочі та рибу."
+ },
+ {
+   "id": 841,
+   "en": "beef",
+   "ex": "This beef comes from cows on a farm near our town, and it makes a great steak.",
+   "exUk": "Ця яловичина — від корів з ферми біля нашого міста, і з неї виходить чудовий стейк."
+ },
+ {
+   "id": 842,
+   "en": "pork",
+   "ex": "Muslims don't eat pork, so the restaurant uses only beef and chicken instead of pig meat.",
+   "exUk": "Мусульмани не їдять свинини, тож ресторан використовує лише яловичину та курку замість мʼяса свині."
+ },
+ {
+   "id": 843,
+   "en": "chicken",
+   "ex": "The chicken in the yard laid an egg every morning, and the farmer collected them for breakfast.",
+   "exUk": "Курка у дворі щоранку несла яйце, а фермер збирав їх на сніданок."
+ },
+ {
+   "id": 844,
+   "en": "turkey",
+   "ex": "A turkey is a big bird, much bigger than a chicken, and Americans roast one every Thanksgiving.",
+   "exUk": "Індик — великий птах, значно більший за курку, і американці запікають його щороку на День подяки."
+ },
+ {
+   "id": 845,
+   "en": "lamb",
+   "ex": "The lamb was cooked slowly with garlic and herbs, and the meat of the young sheep was soft.",
+   "exUk": "Ягнятину довго тушкували з часником і травами, і мʼясо молодої вівці було мʼяке."
+ },
+ {
+   "id": 846,
+   "en": "bacon",
+   "ex": "I fried some bacon for breakfast, and the thin salty strips of pork became crispy and brown.",
+   "exUk": "Я підсмажив на сніданок бекон, і тонкі солоні смужки свинини стали хрусткими й румʼяними."
+ },
+ {
+   "id": 847,
+   "en": "ham",
+   "ex": "Put a few thin slices of ham on the bread with some cheese, and your sandwich is ready.",
+   "exUk": "Поклади на хліб кілька тонких скибочок шинки й трохи сиру — і сендвіч готовий."
+ },
+ {
+   "id": 848,
+   "en": "sausage",
+   "ex": "We grilled some sausages on the fire, and the kids ate the hot meat in buns with ketchup.",
+   "exUk": "Ми підсмажили сосиски на вогні, і діти їли гаряче мʼясо в булочках із кетчупом."
+ },
+ {
+   "id": 849,
+   "en": "steak",
+   "ex": "He ordered a thick steak and asked the waiter to cook the beef only a little, pink inside.",
+   "exUk": "Він замовив товстий стейк і попросив офіціанта лише трохи просмажити яловичину, щоб усередині була рожева."
+ }
+]

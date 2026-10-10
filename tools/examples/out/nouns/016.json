@@ -1,0 +1,302 @@
+[
+ {
+   "id": 750,
+   "en": "documentary",
+   "ex": "Last night we watched a documentary about real lions in Africa, filmed by scientists over three years.",
+   "exUk": "Учора ввечері ми дивилися документалку про справжніх левів в Африці, яку науковці знімали три роки."
+ },
+ {
+   "id": 751,
+   "en": "classroom",
+   "ex": "The teacher opened the classroom, and thirty students sat down at their desks for the lesson.",
+   "exUk": "Учителька відчинила клас, і тридцять учнів сіли за парти на урок."
+ },
+ {
+   "id": 752,
+   "en": "class",
+   "ex": "My English class starts at nine, so I have to be in school before the bell rings.",
+   "exUk": "Мій урок англійської починається о девʼятій, тож я маю бути в школі до дзвінка."
+ },
+ {
+   "id": 753,
+   "en": "lesson",
+   "ex": "Each lesson lasts forty-five minutes, and then there is a short break before the next one.",
+   "exUk": "Кожен урок триває сорок пʼять хвилин, а потім коротка перерва перед наступним."
+ },
+ {
+   "id": 754,
+   "en": "subject",
+   "ex": "Math is my favorite subject at school, but I'm not very good at history or chemistry.",
+   "exUk": "Математика — мій улюблений предмет у школі, але з історією та хімією в мене не дуже."
+ },
+ {
+   "id": 755,
+   "en": "teacher",
+   "ex": "Our new teacher explains grammar so clearly that even the weak students understand it.",
+   "exUk": "Наш новий учитель пояснює граматику так зрозуміло, що навіть слабкі учні все розуміють."
+ },
+ {
+   "id": 756,
+   "en": "student",
+   "ex": "She is a student at the medical university and spends every evening studying for her exams.",
+   "exUk": "Вона студентка медичного університету й щовечора готується до іспитів."
+ },
+ {
+   "id": 757,
+   "en": "principal",
+   "ex": "The boys were sent to the principal, and the head of the school called their parents.",
+   "exUk": "Хлопців відправили до директора, і керівник школи зателефонував їхнім батькам."
+ },
+ {
+   "id": 758,
+   "en": "headmaster",
+   "ex": "The headmaster stood in front of the whole school and welcomed the new teachers and pupils.",
+   "exUk": "Директор школи став перед усією школою і привітав нових учителів та учнів."
+ },
+ {
+   "id": 759,
+   "en": "classmate",
+   "ex": "I sat next to the same classmate for five years, and we did our homework together after school.",
+   "exUk": "Пʼять років я сидів поруч із тим самим однокласником, і після школи ми разом робили уроки."
+ },
+ {
+   "id": 760,
+   "en": "desk",
+   "ex": "Each student has a desk with a chair, and they keep their books and pens inside it.",
+   "exUk": "У кожного учня є парта зі стільцем, і всередині вони тримають книжки й ручки."
+ },
+ {
+   "id": 761,
+   "en": "blackboard",
+   "ex": "The teacher wrote the new words on the blackboard with white chalk, and we copied them.",
+   "exUk": "Учитель написав нові слова на дошці білою крейдою, а ми їх переписали."
+ },
+ {
+   "id": 762,
+   "en": "whiteboard",
+   "ex": "In our office we draw plans on a big whiteboard with colored markers and wipe it clean later.",
+   "exUk": "У нашому офісі ми малюємо плани на великій білій дошці кольоровими маркерами, а потім витираємо."
+ },
+ {
+   "id": 763,
+   "en": "chalk",
+   "ex": "The teacher's hands were white with chalk after writing on the board all morning.",
+   "exUk": "Руки вчителя були білі від крейди після того, як він цілий ранок писав на дошці."
+ },
+ {
+   "id": 764,
+   "en": "marker",
+   "ex": "She wrote the title in big letters with a red marker so everyone could read it.",
+   "exUk": "Вона написала заголовок великими літерами червоним маркером, щоб усі могли його прочитати."
+ },
+ {
+   "id": 765,
+   "en": "eraser",
+   "ex": "I made a mistake in the drawing, so I took an eraser and rubbed the wrong line out.",
+   "exUk": "Я помилився в малюнку, тож узяв гумку й стер неправильну лінію."
+ },
+ {
+   "id": 766,
+   "en": "pencil",
+   "ex": "Draw the picture with a pencil first, so you can erase any mistakes before you use paint.",
+   "exUk": "Спочатку намалюй малюнок олівцем, щоб можна було стерти помилки, перш ніж брати фарби."
+ },
+ {
+   "id": 767,
+   "en": "pen",
+   "ex": "My pen ran out of ink during the test, and I had to borrow one from a friend.",
+   "exUk": "У моїй ручці під час контрольної закінчилося чорнило, і довелося позичити в друга."
+ },
+ {
+   "id": 768,
+   "en": "ruler",
+   "ex": "Use a ruler to draw a straight line and measure how many centimeters long it is.",
+   "exUk": "Скористайся лінійкою, щоб провести рівну лінію та виміряти, скільки в ній сантиметрів."
+ },
+ {
+   "id": 769,
+   "en": "notebook",
+   "ex": "I write all the new words in a small notebook and read through its pages before the test.",
+   "exUk": "Усі нові слова я записую в маленький зошит і перечитую його сторінки перед тестом."
+ },
+ {
+   "id": 770,
+   "en": "folder",
+   "ex": "She keeps all her documents in a blue folder, so no papers get lost on her desk.",
+   "exUk": "Вона тримає всі документи в синій папці, щоб жоден папірець не загубився на столі."
+ },
+ {
+   "id": 771,
+   "en": "homework",
+   "ex": "The teacher gave us a lot of homework, so I spent the whole evening doing exercises at home.",
+   "exUk": "Учителька задала багато домашки, тож я цілий вечір робив вправи вдома."
+ },
+ {
+   "id": 772,
+   "en": "assignment",
+   "ex": "For the next assignment, each student has to write a short essay about their family.",
+   "exUk": "Наступне завдання — кожен учень має написати короткий твір про свою родину."
+ },
+ {
+   "id": 773,
+   "en": "exam",
+   "ex": "He studied all month for the final exam and was very happy when he passed it.",
+   "exUk": "Він цілий місяць готувався до підсумкового іспиту і був дуже радий, коли склав його."
+ },
+ {
+   "id": 774,
+   "en": "test",
+   "ex": "We have a short math test every Friday with ten questions, and the teacher checks it quickly.",
+   "exUk": "Щопʼятниці в нас коротка контрольна з математики на десять запитань, і вчитель швидко її перевіряє."
+ },
+ {
+   "id": 775,
+   "en": "quiz",
+   "ex": "At the party we played a quiz with twenty fun questions, and the smartest team won.",
+   "exUk": "На вечірці ми грали у вікторину з двадцятьма веселими запитаннями, і перемогла найрозумніша команда."
+ },
+ {
+   "id": 776,
+   "en": "grade",
+   "ex": "She got the best grade in the class for her essay — an A in red at the top.",
+   "exUk": "Вона отримала найкращу оцінку в класі за твір — A, написану червоним угорі."
+ },
+ {
+   "id": 777,
+   "en": "mark",
+   "ex": "He got a low mark for the test because he answered only half of the questions.",
+   "exUk": "Він отримав низьку оцінку за тест, бо відповів лише на половину запитань."
+ },
+ {
+   "id": 778,
+   "en": "grammar",
+   "ex": "Her grammar is still weak — she knows many words but mixes up the past and present tenses.",
+   "exUk": "Граматика в неї ще слабка — вона знає багато слів, але плутає минулий і теперішній час."
+ },
+ {
+   "id": 779,
+   "en": "vocabulary",
+   "ex": "Reading books every day gave him a wide vocabulary, so now he knows a word for almost everything.",
+   "exUk": "Щоденне читання книжок дало йому широкий словниковий запас, тож тепер він знає слово майже для всього."
+ },
+ {
+   "id": 780,
+   "en": "break",
+   "ex": "After two hours of work, we took a ten-minute break to drink coffee and rest our eyes.",
+   "exUk": "Після двох годин роботи ми зробили десятихвилинну перерву, щоб випити кави й дати очам відпочити."
+ },
+ {
+   "id": 781,
+   "en": "recess",
+   "ex": "During recess the kids ran out of the classroom to play in the yard before the next lesson.",
+   "exUk": "На перерві діти вибігли з класу погратися на подвірʼї перед наступним уроком."
+ },
+ {
+   "id": 782,
+   "en": "cafeteria",
+   "ex": "At twelve o'clock the students go to the cafeteria to buy soup and sandwiches for lunch.",
+   "exUk": "О дванадцятій учні йдуть до їдальні, щоб купити суп і бутерброди на обід."
+ },
+ {
+   "id": 783,
+   "en": "gym class",
+   "ex": "In gym class we run, jump and play basketball, so I always bring sports shoes on Tuesdays.",
+   "exUk": "На фізкультурі ми бігаємо, стрибаємо та граємо в баскетбол, тож по вівторках я завжди беру кросівки."
+ },
+ {
+   "id": 784,
+   "en": "schoolyard",
+   "ex": "The children played football in the schoolyard until the bell called them back inside.",
+   "exUk": "Діти грали у футбол на шкільному подвірʼї, доки дзвінок не покликав їх назад до класу."
+ },
+ {
+   "id": 785,
+   "en": "uniform",
+   "ex": "At our school every student wears the same blue uniform, so rich kids look like poor ones.",
+   "exUk": "У нашій школі всі учні носять однакову синю форму, тож багаті діти виглядають як бідні."
+ },
+ {
+   "id": 786,
+   "en": "university",
+   "ex": "After finishing school, she went to a university in Lviv to study law for five years.",
+   "exUk": "Закінчивши школу, вона вступила до університету у Львові, щоб пʼять років вивчати право."
+ },
+ {
+   "id": 787,
+   "en": "college",
+   "ex": "My brother is studying at a college for two years to become a cook.",
+   "exUk": "Мій брат два роки навчається в коледжі, щоб стати кухарем."
+ },
+ {
+   "id": 788,
+   "en": "kindergarten",
+   "ex": "Our daughter is three, so she goes to a kindergarten where kids play, sing and sleep after lunch.",
+   "exUk": "Нашій доньці три роки, тож вона ходить у дитячий садок, де діти граються, співають і сплять після обіду."
+ },
+ {
+   "id": 789,
+   "en": "lecture",
+   "ex": "The professor gave a two-hour lecture on history, and two hundred students listened and took notes.",
+   "exUk": "Професор прочитав двогодинну лекцію з історії, а двісті студентів слухали й конспектували."
+ },
+ {
+   "id": 790,
+   "en": "seminar",
+   "ex": "At the seminar, a small group of students discussed the book and asked the teacher questions.",
+   "exUk": "На семінарі невелика група студентів обговорювала книжку й ставила викладачеві запитання."
+ },
+ {
+   "id": 791,
+   "en": "degree",
+   "ex": "After four years at the university she got her degree and could finally work as an engineer.",
+   "exUk": "Після чотирьох років в університеті вона здобула диплом і нарешті змогла працювати інженером."
+ },
+ {
+   "id": 792,
+   "en": "diploma",
+   "ex": "On the last day of school, every student received a diploma with their name and grades on it.",
+   "exUk": "В останній день навчання кожен учень отримав диплом зі своїм імʼям та оцінками."
+ },
+ {
+   "id": 793,
+   "en": "scholarship",
+   "ex": "Her grades were so good that she won a scholarship, and the university paid for her studies.",
+   "exUk": "Оцінки в неї були такі хороші, що вона отримала стипендію, і університет оплатив їй навчання."
+ },
+ {
+   "id": 794,
+   "en": "tuition",
+   "ex": "Tuition at that private school is very high, so his parents pay thousands of dollars a year.",
+   "exUk": "Плата за навчання в тій приватній школі дуже висока, тож батьки платять тисячі доларів на рік."
+ },
+ {
+   "id": 795,
+   "en": "semester",
+   "ex": "The first semester starts in September and ends in December with exams before the winter holidays.",
+   "exUk": "Перший семестр починається у вересні й закінчується в грудні іспитами перед зимовими канікулами."
+ },
+ {
+   "id": 796,
+   "en": "deadline",
+   "ex": "The deadline for the essay is Friday, so I have to finish writing it before then.",
+   "exUk": "Дедлайн для твору — пʼятниця, тож я маю дописати його до того часу."
+ },
+ {
+   "id": 797,
+   "en": "thesis",
+   "ex": "She spent a whole year writing her thesis and then defended it in front of five professors.",
+   "exUk": "Вона цілий рік писала дисертацію, а потім захистила її перед пʼятьма професорами."
+ },
+ {
+   "id": 798,
+   "en": "graduation",
+   "ex": "At the graduation, all the students wore black caps and received their diplomas on stage.",
+   "exUk": "На випуску всі студенти були в чорних шапочках і отримували дипломи на сцені."
+ },
+ {
+   "id": 799,
+   "en": "apple",
+   "ex": "I picked a red apple from the tree, washed it, and ate it with a loud crunch.",
+   "exUk": "Я зірвав з дерева червоне яблуко, помив його і зʼїв із гучним хрустом."
+ }
+]

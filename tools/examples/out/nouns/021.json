@@ -1,0 +1,302 @@
+[
+ {
+   "id": 1000,
+   "en": "income",
+   "ex": "Their family income is about four thousand dollars a month — his salary plus the money from her shop.",
+   "exUk": "Дохід їхньої родини — близько чотирьох тисяч доларів на місяць: його зарплата плюс гроші з її крамниці."
+ },
+ {
+   "id": 1001,
+   "en": "earnings",
+   "ex": "The waiter's earnings were good that summer because the tourists left big tips every night.",
+   "exUk": "Заробіток офіціанта того літа був хороший, бо туристи щовечора залишали великі чайові."
+ },
+ {
+   "id": 1002,
+   "en": "profit",
+   "ex": "She buys bikes for one hundred dollars and sells them for one fifty — fifty dollars of profit each.",
+   "exUk": "Вона купує велосипеди по сто доларів і продає по сто пʼятдесят — пʼятдесят доларів прибутку з кожного."
+ },
+ {
+   "id": 1003,
+   "en": "loss",
+   "ex": "The café spent more than it earned last year, so the owner had a loss of ten thousand.",
+   "exUk": "Торік кавʼярня витратила більше, ніж заробила, тож власник зазнав збитків у десять тисяч."
+ },
+ {
+   "id": 1004,
+   "en": "expense",
+   "ex": "Rent is our biggest expense every month — more than food, transport and phones together.",
+   "exUk": "Оренда — наша найбільша витрата щомісяця, більша за їжу, транспорт і телефони разом."
+ },
+ {
+   "id": 1005,
+   "en": "budget",
+   "ex": "Our family budget for the holiday is one thousand dollars, so we can't stay in an expensive hotel.",
+   "exUk": "Сімейний бюджет на відпустку — тисяча доларів, тож ми не можемо зупинитися в дорогому готелі."
+ },
+ {
+   "id": 1006,
+   "en": "savings",
+   "ex": "She put a little money aside every month, and after ten years her savings bought her a car.",
+   "exUk": "Вона щомісяця відкладала трохи грошей, і через десять років на свої заощадження купила машину."
+ },
+ {
+   "id": 1007,
+   "en": "investment",
+   "ex": "Buying that small flat was a good investment — ten years later he sold it for twice the price.",
+   "exUk": "Купівля тієї маленької квартири була хорошою інвестицією — через десять років він продав її вдвічі дорожче."
+ },
+ {
+   "id": 1008,
+   "en": "share",
+   "ex": "He bought a hundred shares of the company, so now he owns a tiny part of it.",
+   "exUk": "Він купив сто акцій компанії, тож тепер володіє крихітною її часткою."
+ },
+ {
+   "id": 1009,
+   "en": "bond",
+   "ex": "She bought a government bond: she lends the state money now and gets it back with interest later.",
+   "exUk": "Вона купила державну облігацію: зараз позичає державі гроші, а пізніше отримає їх назад із відсотками."
+ },
+ {
+   "id": 1010,
+   "en": "crypto",
+   "ex": "He put all his money into crypto, and when bitcoin fell, he lost half of it.",
+   "exUk": "Він вклав усі гроші в криптовалюту, і коли біткойн упав, втратив половину."
+ },
+ {
+   "id": 1011,
+   "en": "bitcoin",
+   "ex": "In 2010 one bitcoin cost a few cents, and today the same digital coin is worth thousands of dollars.",
+   "exUk": "У 2010 році один біткойн коштував кілька центів, а сьогодні та сама цифрова монета коштує тисячі доларів."
+ },
+ {
+   "id": 1012,
+   "en": "wealth",
+   "ex": "The old man's wealth was enormous — three houses, a yacht and millions in the bank.",
+   "exUk": "Багатство старого було величезне — три будинки, яхта й мільйони в банку."
+ },
+ {
+   "id": 1013,
+   "en": "poverty",
+   "ex": "The family lived in poverty: no heating in winter, old clothes and often only bread for dinner.",
+   "exUk": "Родина жила в бідності: без опалення взимку, у старому одязі й часто лише з хлібом на вечерю."
+ },
+ {
+   "id": 1014,
+   "en": "fortune",
+   "ex": "He made a fortune selling computers in the nineties and bought a house by the sea.",
+   "exUk": "Він нажив статок, продаючи компʼютери в девʼяностих, і купив будинок біля моря."
+ },
+ {
+   "id": 1015,
+   "en": "computer",
+   "ex": "I turned on the computer, opened the browser and started writing my essay on the screen.",
+   "exUk": "Я увімкнув компʼютер, відкрив браузер і почав писати твір на екрані."
+ },
+ {
+   "id": 1016,
+   "en": "laptop",
+   "ex": "I take my laptop to the café and work there, because it is light and the battery lasts.",
+   "exUk": "Я беру ноутбук у кавʼярню й працюю там, бо він легкий, а батарея довго тримає."
+ },
+ {
+   "id": 1017,
+   "en": "desktop",
+   "ex": "At home I have a big desktop with two monitors, but on trips I use a laptop.",
+   "exUk": "Удома в мене великий настільний компʼютер із двома моніторами, а в поїздках я користуюся ноутбуком."
+ },
+ {
+   "id": 1018,
+   "en": "smartphone",
+   "ex": "With my smartphone I can call, take photos, read the news and pay in shops — one small device.",
+   "exUk": "Зі смартфоном я можу дзвонити, фотографувати, читати новини й платити в магазинах — один маленький пристрій."
+ },
+ {
+   "id": 1019,
+   "en": "phone",
+   "ex": "My phone rang in the middle of the lesson, and everybody turned to look at me.",
+   "exUk": "Мій телефон задзвонив посеред уроку, і всі обернулися подивитися на мене."
+ },
+ {
+   "id": 1020,
+   "en": "monitor",
+   "ex": "He bought a big monitor so now the text on the screen is easy to read.",
+   "exUk": "Він купив великий монітор, тож тепер текст на екрані легко читати."
+ },
+ {
+   "id": 1021,
+   "en": "keyboard",
+   "ex": "I spilled coffee on the keyboard, and now some of the keys don't work when I type.",
+   "exUk": "Я пролив каву на клавіатуру, і тепер деякі клавіші не працюють, коли я друкую."
+ },
+ {
+   "id": 1022,
+   "en": "mouse",
+   "ex": "Move the mouse to the right, and the small arrow on the screen will move with it.",
+   "exUk": "Посунь мишу праворуч, і маленька стрілка на екрані посунеться разом із нею."
+ },
+ {
+   "id": 1023,
+   "en": "touchscreen",
+   "ex": "The new phone has a touchscreen, so you don't need buttons — just tap the glass with your finger.",
+   "exUk": "У нового телефона сенсорний екран, тож кнопки не потрібні — просто торкайся скла пальцем."
+ },
+ {
+   "id": 1024,
+   "en": "speaker",
+   "ex": "He connected the phone to a small speaker, and the music filled the whole room.",
+   "exUk": "Він підключив телефон до маленької колонки, і музика наповнила всю кімнату."
+ },
+ {
+   "id": 1025,
+   "en": "headphones",
+   "ex": "She put on her headphones and listened to music on the train without bothering anyone.",
+   "exUk": "Вона наділа навушники й слухала музику в поїзді, нікому не заважаючи."
+ },
+ {
+   "id": 1026,
+   "en": "earbuds",
+   "ex": "My earbuds are so small they fit inside my ears, and I can hide them under a hat.",
+   "exUk": "Мої навушники-вкладки такі маленькі, що сидять просто у вухах, і я можу сховати їх під шапкою."
+ },
+ {
+   "id": 1027,
+   "en": "microphone",
+   "ex": "The singer held the microphone close to her mouth so the crowd could hear every word.",
+   "exUk": "Співачка тримала мікрофон біля самого рота, щоб натовп чув кожне слово."
+ },
+ {
+   "id": 1028,
+   "en": "camera",
+   "ex": "He took his camera on the trip and shot three hundred photos of mountains and lakes.",
+   "exUk": "Він узяв у подорож камеру й зробив триста фотографій гір та озер."
+ },
+ {
+   "id": 1029,
+   "en": "webcam",
+   "ex": "Turn on your webcam during the online lesson so the teacher can see your face.",
+   "exUk": "Увімкни вебкамеру під час онлайн-уроку, щоб учитель бачив твоє обличчя."
+ },
+ {
+   "id": 1030,
+   "en": "charger",
+   "ex": "My phone is at five percent, and I forgot my charger at home, so it will die soon.",
+   "exUk": "У мого телефона пʼять відсотків, а зарядку я забув удома, тож він скоро сяде."
+ },
+ {
+   "id": 1031,
+   "en": "cable",
+   "ex": "Connect the printer to the computer with this cable, and then it will start working.",
+   "exUk": "Підключи принтер до компʼютера цим кабелем, і тоді він почне працювати."
+ },
+ {
+   "id": 1032,
+   "en": "cord",
+   "ex": "The cord of the lamp was too short to reach the socket, so we moved the table closer.",
+   "exUk": "Шнур лампи був закороткий, щоб дотягнутися до розетки, тож ми присунули стіл ближче."
+ },
+ {
+   "id": 1033,
+   "en": "battery",
+   "ex": "The clock stopped because the battery was dead, so I put in a new one.",
+   "exUk": "Годинник зупинився, бо батарея сіла, тож я вставив нову."
+ },
+ {
+   "id": 1034,
+   "en": "socket",
+   "ex": "There is only one socket in the wall, so I can't plug in the lamp and the laptop.",
+   "exUk": "У стіні лише одна розетка, тож я не можу підключити і лампу, і ноутбук."
+ },
+ {
+   "id": 1035,
+   "en": "plug",
+   "ex": "The plug on my charger has two round pins, but the hotel socket needs three flat ones.",
+   "exUk": "У вилки моєї зарядки два круглі штирі, а готельна розетка потребує три плоскі."
+ },
+ {
+   "id": 1036,
+   "en": "adapter",
+   "ex": "In England the sockets are different, so I bought an adapter to plug in my European charger.",
+   "exUk": "В Англії інші розетки, тож я купив перехідник, щоб підключити свою європейську зарядку."
+ },
+ {
+   "id": 1037,
+   "en": "router",
+   "ex": "The internet stopped working, so I turned the router off and on, and the lights came back.",
+   "exUk": "Інтернет перестав працювати, тож я вимкнув і знову увімкнув роутер, і вогники загорілися знову."
+ },
+ {
+   "id": 1038,
+   "en": "wifi",
+   "ex": "The café has free wifi, so I connected my laptop and checked my email without using mobile data.",
+   "exUk": "У кавʼярні безкоштовний вайфай, тож я підключив ноутбук і перевірив пошту, не витрачаючи мобільний трафік."
+ },
+ {
+   "id": 1039,
+   "en": "internet",
+   "ex": "Without the internet I can't check my email, watch videos or read the news on my phone.",
+   "exUk": "Без інтернету я не можу перевірити пошту, подивитися відео чи почитати новини на телефоні."
+ },
+ {
+   "id": 1040,
+   "en": "network",
+   "ex": "All the computers in the office are connected to one network, so we can share files quickly.",
+   "exUk": "Усі компʼютери в офісі підключені до однієї мережі, тож ми можемо швидко обмінюватися файлами."
+ },
+ {
+   "id": 1041,
+   "en": "signal",
+   "ex": "In the mountains the phone had no signal, so I couldn't call anyone until we got back.",
+   "exUk": "У горах телефон не ловив сигнал, тож я не міг нікому зателефонувати, поки ми не повернулися."
+ },
+ {
+   "id": 1042,
+   "en": "username",
+   "ex": "To log in, type your username — the name you chose when you created the account — then your password.",
+   "exUk": "Щоб увійти, введіть свій логін — імʼя, яке ви обрали при створенні облікового запису, — а потім пароль."
+ },
+ {
+   "id": 1043,
+   "en": "profile",
+   "ex": "Her Instagram profile has a photo, her name, her city and a short line about what she loves.",
+   "exUk": "У її профілі в Instagram є фото, імʼя, місто й короткий рядок про те, що вона любить."
+ },
+ {
+   "id": 1044,
+   "en": "post",
+   "ex": "She wrote a post about her trip to Italy with ten photos, and a hundred friends liked it.",
+   "exUk": "Вона написала допис про поїздку до Італії з десятьма фото, і сто друзів поставили вподобайки."
+ },
+ {
+   "id": 1045,
+   "en": "like",
+   "ex": "His photo got two thousand likes in one hour — people kept tapping the little heart under it.",
+   "exUk": "Його фото за годину набрало дві тисячі лайків — люди все тиснули на сердечко під ним."
+ },
+ {
+   "id": 1046,
+   "en": "follower",
+   "ex": "The blogger has a million followers, and all of them see her new videos the minute she posts.",
+   "exUk": "У блогерки мільйон підписників, і всі вони бачать її нові відео, щойно вона їх публікує."
+ },
+ {
+   "id": 1047,
+   "en": "notification",
+   "ex": "My phone buzzed with a notification — a small message on the screen said I had new mail.",
+   "exUk": "Мій телефон завібрував від сповіщення — маленьке повідомлення на екрані сказало, що в мене нова пошта."
+ },
+ {
+   "id": 1048,
+   "en": "message",
+   "ex": "I sent her a short message on my phone: \"I'm late, start dinner without me.\"",
+   "exUk": "Я надіслав їй коротке повідомлення з телефона: «Я запізнююся, вечеряйте без мене»."
+ },
+ {
+   "id": 1049,
+   "en": "text",
+   "ex": "I can't talk right now, so send me a text and I'll read it after the meeting.",
+   "exUk": "Я зараз не можу говорити, тож надішли мені смс, і я прочитаю після наради."
+ }
+]

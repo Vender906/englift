@@ -41,10 +41,10 @@
   const POS_ORDER = ['verbs', 'nouns', 'adjs', 'advs'];
   /* ---------- ліниве завантаження ---------- */
   const LEX_SRC = {
-    verbs: ['js/lexis/verbs-data.js', 'js/lexis/verbs-phrasal-data.js', 'js/lexis/verbs-merge.js'],
-    nouns: ['js/lexis/nouns-data.js'],
-    adjs: ['js/lexis/adjs-data.js', 'js/lexis/adjs-prep-data.js', 'js/lexis/adj-stories.js'],
-    advs: ['js/lexis/advs-data.js']
+    verbs: ['js/lexis/verbs-data.js', 'js/lexis/verbs-phrasal-data.js', 'js/lexis/verbs-merge.js', 'js/lexis/verbs-oxford-data.js'],
+    nouns: ['js/lexis/nouns-data.js', 'js/lexis/nouns-oxford-data.js'],
+    adjs: ['js/lexis/adjs-data.js', 'js/lexis/adjs-prep-data.js', 'js/lexis/adjs-oxford-data.js', 'js/lexis/adj-stories.js'],
+    advs: ['js/lexis/advs-data.js', 'js/lexis/advs-oxford-data.js']
   };
   const META = () => window.LEX_META || {};
   const loaded = posId => !!POS[posId].words.length;

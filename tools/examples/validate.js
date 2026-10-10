@@ -1,5 +1,5 @@
 /* Перевірка переписаних прикладів (див. SPEC.md).
-   node tools/examples/validate.js adjs          — усі out/adjs/*.json
+   node tools/examples/validate.js <verbs|adjs|nouns>   — усі out/<pos>/*.json
    node tools/examples/validate.js adjs 007 012  — лише вказані файли
    Помилки (✗) треба виправити; попередження (⚠) — переглянути. */
 const fs = require('fs');
@@ -29,16 +29,26 @@ function checkSentence(pos, v, en, uk, label, errs, warns) {
   if (uk && /[a-z]'[а-яіїєґ]|[а-яіїєґ]'[а-яіїєґ]|[а-яіїєґ]’[а-яіїєґ]/i.test(uk)) W('use ʼ (U+02BC) as the Ukrainian apostrophe');
   if (/[\u{1F300}-\u{1FAFF}]/u.test(en + uk)) E('no emoji');
   if (pos === 'verbs') checkVerb(v, en, ws, E, W);
-  else checkPhrase(v, en, E);
+  else checkPhrase(pos, v, en, E);
 }
 
-/* прикметник (та ін.): увесь вираз як є (дефіс = пробіл) або ступені порівняння comp / sup */
-function checkPhrase(v, en, E) {
+/* прикметник: увесь вираз як є (дефіс = пробіл) або ступені порівняння comp / sup;
+   іменник: як є, у множині (plural із даних або за правилом) чи з присвійним 's */
+function nounPlurals(en) {
+  const ws = en.split(' ');
+  const last = ws[ws.length - 1];
+  const forms = [last + 's', last + 'es'];
+  if (/[^aeiou]y$/.test(last)) forms.push(last.slice(0, -1) + 'ies');
+  if (/(f|fe)$/.test(last)) forms.push(last.replace(/fe?$/, 'ves'));
+  return forms.map(f => ws.slice(0, -1).concat(f).join(' '));
+}
+function checkPhrase(pos, v, en, E) {
   const flat = s => ' ' + (norm(s).match(/[a-z]+(?:'[a-z]+)*/g) || []).join(' ') + ' ';
   const sent = flat(en);
-  const variants = [v.en, v.comp, v.sup].filter(Boolean).flatMap(x => String(x).split('/'))
-    .map(x => flat(x.replace(/\(.*?\)/g, '')).trim()).filter(Boolean);
-  if (!variants.some(x => sent.includes(' ' + x + ' '))) E('target word «' + v.en + '» not found as is' + (v.comp ? ' (or ' + v.comp + ' / ' + v.sup + ')' : ''));
+  const base = norm(v.en).replace(/\(.*?\)/g, '').trim();
+  const extra = pos === 'nouns' ? nounPlurals(base).concat(String(v.plural || '').split('/'), [base + "'s"]) : [v.comp, v.sup].flatMap(x => String(x || '').split('/'));
+  const variants = [base].concat(extra).map(x => flat(x).trim()).filter(Boolean);
+  if (!variants.some(x => sent.includes(' ' + x + ' '))) E('target word «' + v.en + '» not found as is' + (pos === 'nouns' ? ' (or its plural)' : v.comp ? ' (or ' + v.comp + ' / ' + v.sup + ')' : ''));
 }
 
 /* дієслово: перше слово виразу в будь-якій формі + частка фразового дієслова */
@@ -108,4 +118,4 @@ if (require.main === module) {
   process.exit(bad ? 1 : 0);
 }
 
-module.exports = { validateFile };
+module.exports = { validateFile, checkSentence };

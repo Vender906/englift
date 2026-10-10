@@ -1,0 +1,302 @@
+[
+ {
+   "id": 1050,
+   "en": "chat",
+   "ex": "We have a family chat on the phone where Mom, Dad and the kids write to each other.",
+   "exUk": "У нас є сімейний чат у телефоні, де мама, тато й діти переписуються."
+ },
+ {
+   "id": 1051,
+   "en": "emoji",
+   "ex": "Instead of writing \"I'm happy\", she just sent a smiling emoji — a small yellow face.",
+   "exUk": "Замість писати «я щаслива», вона просто надіслала усміхнене емодзі — маленьке жовте личко."
+ },
+ {
+   "id": 1052,
+   "en": "link",
+   "ex": "Click the blue link in my message, and it will open the page with the photos.",
+   "exUk": "Натисни синє посилання в моєму повідомленні, і відкриється сторінка з фотографіями."
+ },
+ {
+   "id": 1053,
+   "en": "website",
+   "ex": "The restaurant has a website where you can read the menu and book a table online.",
+   "exUk": "У ресторану є вебсайт, де можна прочитати меню й забронювати столик онлайн."
+ },
+ {
+   "id": 1054,
+   "en": "browser",
+   "ex": "Open your browser, type the address of the site at the top, and the page will load.",
+   "exUk": "Відкрий браузер, набери адресу сайту вгорі, і сторінка завантажиться."
+ },
+ {
+   "id": 1055,
+   "en": "tab",
+   "ex": "I had twenty tabs open in the browser, so I couldn't find the page I was reading.",
+   "exUk": "У мене в браузері було відкрито двадцять вкладок, тож я не міг знайти сторінку, яку читав."
+ },
+ {
+   "id": 1056,
+   "en": "app",
+   "ex": "I downloaded an app on my phone that counts my steps and shows how far I walked.",
+   "exUk": "Я завантажив на телефон застосунок, який рахує кроки й показує, скільки я пройшов."
+ },
+ {
+   "id": 1057,
+   "en": "program",
+   "ex": "I installed a new program on my computer for editing photos, and it takes a minute to open.",
+   "exUk": "Я встановив на компʼютер нову програму для редагування фото, і вона відкривається хвилину."
+ },
+ {
+   "id": 1058,
+   "en": "software",
+   "ex": "The computer itself is old, but the software on it is new — the system and all the programs.",
+   "exUk": "Сам компʼютер старий, але програмне забезпечення на ньому нове — система й усі програми."
+ },
+ {
+   "id": 1059,
+   "en": "hardware",
+   "ex": "The programs are fine; the problem is the hardware — the old disk inside the computer is broken.",
+   "exUk": "З програмами все гаразд, проблема в апаратній частині — старий диск усередині компʼютера зламався."
+ },
+ {
+   "id": 1060,
+   "en": "update",
+   "ex": "The phone downloaded an update last night, and now the camera app has new buttons.",
+   "exUk": "Уночі телефон завантажив оновлення, і тепер у застосунку камери нові кнопки."
+ },
+ {
+   "id": 1061,
+   "en": "upgrade",
+   "ex": "The free version shows ads, so I paid for an upgrade and got the better version without them.",
+   "exUk": "Безкоштовна версія показує рекламу, тож я заплатив за апгрейд і отримав кращу версію без неї."
+ },
+ {
+   "id": 1062,
+   "en": "download",
+   "ex": "The download of the film took an hour because the internet in the village is slow.",
+   "exUk": "Завантаження фільму зайняло годину, бо інтернет у селі повільний."
+ },
+ {
+   "id": 1063,
+   "en": "upload",
+   "ex": "The upload of the video to YouTube took twenty minutes because the file was so big.",
+   "exUk": "Завантаження відео на YouTube зайняло двадцять хвилин, бо файл був дуже великий."
+ },
+ {
+   "id": 1064,
+   "en": "data",
+   "ex": "The app collects data about you — your name, your city and the things you search for.",
+   "exUk": "Застосунок збирає дані про вас — ваше імʼя, місто й те, що ви шукаєте."
+ },
+ {
+   "id": 1065,
+   "en": "cloud",
+   "ex": "I keep my photos in the cloud, so I can open them from any phone or computer online.",
+   "exUk": "Я зберігаю фото в хмарі, тож можу відкрити їх з будь-якого телефона чи компʼютера онлайн."
+ },
+ {
+   "id": 1066,
+   "en": "backup",
+   "ex": "My laptop died, but I had a backup of all my files on a disk and lost nothing.",
+   "exUk": "Мій ноутбук згорів, але в мене була резервна копія всіх файлів на диску, і я нічого не втратив."
+ },
+ {
+   "id": 1067,
+   "en": "virus",
+   "ex": "I opened a strange email, and a virus got into my computer and deleted all my photos.",
+   "exUk": "Я відкрив дивного листа, і вірус потрапив у компʼютер і видалив усі мої фото."
+ },
+ {
+   "id": 1068,
+   "en": "hacker",
+   "ex": "A hacker broke into the bank's computers and stole the card numbers of thousands of people.",
+   "exUk": "Хакер зламав компʼютери банку й викрав номери карток тисяч людей."
+ },
+ {
+   "id": 1069,
+   "en": "code",
+   "ex": "She sat all day writing code — hundreds of lines of text that tell the computer what to do.",
+   "exUk": "Вона цілий день писала код — сотні рядків тексту, які кажуть компʼютеру, що робити."
+ },
+ {
+   "id": 1070,
+   "en": "bug",
+   "ex": "There is a bug in the app: every time I press the save button, it closes.",
+   "exUk": "У застосунку є баг: щоразу, коли я натискаю кнопку зберегти, він закривається."
+ },
+ {
+   "id": 1071,
+   "en": "feature",
+   "ex": "The new feature of the app lets you send voice messages, not just text.",
+   "exUk": "Нова функція застосунку дозволяє надсилати голосові повідомлення, а не лише текст."
+ },
+ {
+   "id": 1072,
+   "en": "AI",
+   "ex": "AI can now write texts, draw pictures and answer questions almost like a person.",
+   "exUk": "Штучний інтелект тепер може писати тексти, малювати картинки й відповідати на запитання майже як людина."
+ },
+ {
+   "id": 1073,
+   "en": "robot",
+   "ex": "A small round robot cleans our floor by itself and goes to charge when the battery is low.",
+   "exUk": "Маленький круглий робот сам прибирає нашу підлогу й іде заряджатися, коли сідає батарея."
+ },
+ {
+   "id": 1074,
+   "en": "screen time",
+   "ex": "The doctor said the boy's screen time was too long — six hours a day on his phone.",
+   "exUk": "Лікар сказав, що час перед екраном у хлопчика завеликий — шість годин на день за телефоном."
+ },
+ {
+   "id": 1075,
+   "en": "scroll",
+   "ex": "After an hour of endless scroll through short videos, I put the phone down with tired eyes.",
+   "exUk": "Після години нескінченної прокрутки коротких відео я відклав телефон із втомленими очима."
+ },
+ {
+   "id": 1076,
+   "en": "algorithm",
+   "ex": "The algorithm looks at what you watch and then shows you more videos of the same kind.",
+   "exUk": "Алгоритм дивиться, що ви переглядаєте, а потім показує вам більше відео такого ж типу."
+ },
+ {
+   "id": 1077,
+   "en": "gadget",
+   "ex": "He loves gadgets — a smart watch, wireless earbuds and a tiny camera on his keys.",
+   "exUk": "Він обожнює гаджети — смарт-годинник, бездротові навушники й крихітну камеру на ключах."
+ },
+ {
+   "id": 1078,
+   "en": "device",
+   "ex": "You can read the book on any device — a phone, a tablet or a computer.",
+   "exUk": "Книжку можна читати на будь-якому пристрої — телефоні, планшеті чи компʼютері."
+ },
+ {
+   "id": 1079,
+   "en": "gaming",
+   "ex": "He spends every evening on gaming — he plays online with friends from all over the world.",
+   "exUk": "Він щовечора проводить за геймінгом — грає онлайн із друзями з усього світу."
+ },
+ {
+   "id": 1080,
+   "en": "stream",
+   "ex": "We drank cold water from a small mountain stream that ran between the rocks.",
+   "exUk": "Ми пили холодну воду з маленького гірського струмка, що біг між камінням."
+ },
+ {
+   "id": 1081,
+   "en": "trainee",
+   "ex": "As a trainee she spends her first three months learning the job from an older worker.",
+   "exUk": "Як стажерка вона перші три місяці вчиться роботи в старшого працівника."
+ },
+ {
+   "id": 1082,
+   "en": "junior",
+   "ex": "He is a junior in the team — just out of university, so the seniors check his code.",
+   "exUk": "Він джуніор у команді — щойно з університету, тож старші перевіряють його код."
+ },
+ {
+   "id": 1083,
+   "en": "middle",
+   "ex": "After two years he grew from a junior to a middle and now works without constant help.",
+   "exUk": "За два роки він виріс із джуніора до мідла й тепер працює без постійної допомоги."
+ },
+ {
+   "id": 1084,
+   "en": "senior",
+   "ex": "She is a senior with ten years of experience, so the young developers ask her for advice.",
+   "exUk": "Вона сеньйор із десятьма роками досвіду, тож молоді розробники звертаються до неї за порадою."
+ },
+ {
+   "id": 1085,
+   "en": "lead",
+   "ex": "The team lead gives tasks to the five developers and answers for the whole project.",
+   "exUk": "Лід команди роздає завдання пʼятьом розробникам і відповідає за весь проєкт."
+ },
+ {
+   "id": 1086,
+   "en": "chief",
+   "ex": "The chief of the fire department gave the orders, and the firefighters ran to the trucks.",
+   "exUk": "Шеф пожежної частини віддав накази, і пожежники побігли до машин."
+ },
+ {
+   "id": 1087,
+   "en": "vice president",
+   "ex": "The vice president of the company runs the sales department and reports only to the president.",
+   "exUk": "Віце-президент компанії керує відділом продажів і звітує лише перед президентом."
+ },
+ {
+   "id": 1088,
+   "en": "executive",
+   "ex": "The executives sat at the top of the building and made the big decisions for the whole company.",
+   "exUk": "Топ-менеджери сиділи на верхньому поверсі будівлі й ухвалювали великі рішення для всієї компанії."
+ },
+ {
+   "id": 1089,
+   "en": "founder",
+   "ex": "The founder of the company started it in his garage, and now it has a thousand workers.",
+   "exUk": "Засновник компанії починав її у своєму гаражі, а тепер у ній тисяча працівників."
+ },
+ {
+   "id": 1090,
+   "en": "co-founder",
+   "ex": "She is the co-founder of the startup — she and her friend created it together in 2020.",
+   "exUk": "Вона співзасновниця стартапу — вони з подругою створили його разом у 2020 році."
+ },
+ {
+   "id": 1091,
+   "en": "owner",
+   "ex": "The owner of the café works behind the counter himself and knows every customer by name.",
+   "exUk": "Власник кавʼярні сам працює за стійкою і знає кожного клієнта на імʼя."
+ },
+ {
+   "id": 1092,
+   "en": "expert",
+   "ex": "She is an expert on old coins — she has studied them for thirty years and wrote three books.",
+   "exUk": "Вона експертка зі старовинних монет — вивчає їх тридцять років і написала три книжки."
+ },
+ {
+   "id": 1093,
+   "en": "analyst",
+   "ex": "The analyst studies the numbers from the shops every day and tells the bosses what sells best.",
+   "exUk": "Аналітик щодня вивчає цифри з магазинів і каже начальству, що продається найкраще."
+ },
+ {
+   "id": 1094,
+   "en": "coordinator",
+   "ex": "The coordinator of the festival makes sure that the music, the food and the volunteers all work together.",
+   "exUk": "Координаторка фестивалю стежить, щоб музика, їжа й волонтери працювали злагоджено."
+ },
+ {
+   "id": 1095,
+   "en": "administrator",
+   "ex": "The system administrator looks after all the computers in the office and fixes them when they break.",
+   "exUk": "Системний адміністратор доглядає за всіма компʼютерами в офісі й лагодить їх, коли вони ламаються."
+ },
+ {
+   "id": 1096,
+   "en": "apprentice",
+   "ex": "The old carpenter took a young apprentice, who learns the trade by watching and helping him every day.",
+   "exUk": "Старий столяр узяв молодого підмайстра, який вчиться ремесла, щодня спостерігаючи й допомагаючи йому."
+ },
+ {
+   "id": 1097,
+   "en": "volunteer",
+   "ex": "Every Saturday she works as a volunteer at the animal shelter, feeding the dogs for free.",
+   "exUk": "Щосуботи вона працює волонтеркою в притулку для тварин і безкоштовно годує собак."
+ },
+ {
+   "id": 1098,
+   "en": "contractor",
+   "ex": "We hired a contractor to build the kitchen — not an employee, he works for a fixed price.",
+   "exUk": "Ми найняли підрядника, щоб побудувати кухню — не працівника, він працює за фіксовану ціну."
+ },
+ {
+   "id": 1099,
+   "en": "subordinate",
+   "ex": "A good manager listens to his subordinates — the people who work under him — before he decides.",
+   "exUk": "Хороший керівник вислуховує своїх підлеглих — людей, що працюють під його началом, — перш ніж вирішувати."
+ }
+]

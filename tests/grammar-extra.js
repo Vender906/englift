@@ -85,7 +85,7 @@ const NEW_TOPICS = {
     /* словник: прикметник + прийменник */
     const asrc = fs.readFileSync(path.join(APP, 'js/lexis/adjs-data.js'), 'utf8') + ';' + fs.readFileSync(path.join(APP, 'js/lexis/adjs-prep-data.js'), 'utf8');
     const A = (new Function(asrc + ';return {LEX_ADJS, LEX_ADJ_CATS, LEX_ADJ_SUBS}'))();
-    ok(A.LEX_ADJS.length === 2539, 'adjectives grew to ' + A.LEX_ADJS.length);
+    ok(A.LEX_ADJS.filter(w => w._id < 10000).length === 2539, 'adjectives grew to ' + A.LEX_ADJS.length + ' (2539 + Oxford)');
     ok(A.LEX_ADJS.slice(0, 2494).every((w, i) => w._id === i), 'existing adjectives keep their ids (appended, not inserted)');
     const ids = A.LEX_ADJS.map(w => w._id);
     ok(new Set(ids).size === ids.length, 'every adjective has a unique id');

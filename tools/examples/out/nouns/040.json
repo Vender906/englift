@@ -1,0 +1,302 @@
+[
+ {
+  "id": 1950,
+  "en": "calorie",
+  "ex": "A bar of chocolate has about five hundred calories, so I'll need a long run to burn them off.",
+  "exUk": "У плитці шоколаду близько пʼятисот калорій, тож, щоб їх спалити, мені треба довго бігати."
+ },
+ {
+  "id": 1951,
+  "en": "protein",
+  "ex": "Eggs, chicken, and beans are full of protein, which your body needs to build strong muscles.",
+  "exUk": "Яйця, курка й квасоля багаті на білок, який потрібен організму для міцних мʼязів."
+ },
+ {
+  "id": 1952,
+  "en": "carb",
+  "ex": "Bread, rice, and potatoes are all carbs, and my trainer told me to eat fewer of them before the race.",
+  "exUk": "Хліб, рис і картопля — це все вуглеводи, і тренер сказав мені їсти їх менше перед змаганнями."
+ },
+ {
+  "id": 1953,
+  "en": "fat",
+  "ex": "Butter and fried food contain a lot of fat, so the doctor told him to eat less of them.",
+  "exUk": "У маслі та смаженій їжі багато жиру, тож лікар порадив йому їсти їх менше."
+ },
+ {
+  "id": 1954,
+  "en": "fiber",
+  "ex": "Vegetables and whole grains have a lot of fiber, which helps your stomach digest food properly.",
+  "exUk": "В овочах і цільному зерні багато клітковини, яка допомагає шлунку правильно перетравлювати їжу."
+ },
+ {
+  "id": 1955,
+  "en": "leftovers",
+  "ex": "We cooked too much pasta last night, so the leftovers are in the fridge for today's lunch.",
+  "exUk": "Учора ми зварили забагато пасти, тож залишки стоять у холодильнику на сьогоднішній обід."
+ },
+ {
+  "id": 1956,
+  "en": "takeout",
+  "ex": "Nobody wanted to cook, so we ordered some Chinese takeout and ate it from the boxes on the sofa.",
+  "exUk": "Ніхто не хотів готувати, тож ми замовили китайську їжу з собою й поїли просто з коробок на дивані."
+ },
+ {
+  "id": 1957,
+  "en": "brunch",
+  "ex": "On Sunday we slept late and had brunch at noon — eggs, pancakes, and coffee, breakfast and lunch in one.",
+  "exUk": "У неділю ми довго спали, а опівдні мали бранч: яєчня, млинці й кава — сніданок і обід разом."
+ },
+ {
+  "id": 1958,
+  "en": "burnout",
+  "ex": "After two years of working late every night, she felt complete burnout and couldn't even open her laptop.",
+  "exUk": "Після двох років роботи допізна щовечора вона відчула повне вигорання й не могла навіть відкрити ноутбук."
+ },
+ {
+  "id": 1959,
+  "en": "workload",
+  "ex": "My workload doubled this month: I now have two projects and three reports to finish by Friday.",
+  "exUk": "Моє навантаження цього місяця подвоїлося: тепер у мене два проєкти й три звіти, які треба здати до пʼятниці."
+ },
+ {
+  "id": 1960,
+  "en": "multitasking",
+  "ex": "Answering emails while talking on the phone is multitasking, and I usually make mistakes in both.",
+  "exUk": "Відповідати на листи й водночас говорити по телефону — це багатозадачність, і я зазвичай роблю помилки в обох."
+ },
+ {
+  "id": 1961,
+  "en": "productivity",
+  "ex": "My productivity is highest in the morning — I finish more work before lunch than in the whole afternoon.",
+  "exUk": "Моя продуктивність найвища вранці: до обіду я встигаю більше, ніж за всю другу половину дня."
+ },
+ {
+  "id": 1962,
+  "en": "efficiency",
+  "ex": "The new machine improved efficiency: it makes the same number of parts in half the time with less waste.",
+  "exUk": "Нова машина підвищила ефективність: вона робить стільки ж деталей удвічі швидше й з меншими відходами."
+ },
+ {
+  "id": 1963,
+  "en": "performance review",
+  "ex": "At my performance review the manager looked at my results for the year and talked about a pay rise.",
+  "exUk": "На оцінці ефективності менеджер переглянув мої результати за рік і заговорив про підвищення зарплати."
+ },
+ {
+  "id": 1964,
+  "en": "probation",
+  "ex": "New employees are on probation for three months; if they work well, they get a permanent contract.",
+  "exUk": "Нові працівники три місяці на випробувальному терміні; якщо працюють добре, отримують постійний контракт."
+ },
+ {
+  "id": 1965,
+  "en": "onboarding",
+  "ex": "During onboarding the new girl got her laptop, met the team, and learned how the company works.",
+  "exUk": "Під час адаптації новенька отримала ноутбук, познайомилася з командою й дізналася, як працює компанія."
+ },
+ {
+  "id": 1966,
+  "en": "resignation",
+  "ex": "He handed in his resignation on Monday because he had found a better job in another city.",
+  "exUk": "У понеділок він подав заяву на звільнення, бо знайшов кращу роботу в іншому місті."
+ },
+ {
+  "id": 1967,
+  "en": "layoff",
+  "ex": "The factory announced layoffs, and two hundred workers lost their jobs because there were no orders.",
+  "exUk": "Завод оголосив скорочення, і двісті робітників втратили роботу, бо не було замовлень."
+ },
+ {
+  "id": 1968,
+  "en": "networking",
+  "ex": "She went to the conference for networking — meeting new people who might help her career later.",
+  "exUk": "Вона поїхала на конференцію заради нетворкінгу: знайомитися з людьми, які потім можуть допомогти в карʼєрі."
+ },
+ {
+  "id": 1969,
+  "en": "brainstorm",
+  "ex": "We had a quick brainstorm before lunch, and the team wrote twenty ideas for the new ad on the board.",
+  "exUk": "Перед обідом ми провели короткий мозковий штурм, і команда записала на дошці двадцять ідей для нової реклами."
+ },
+ {
+  "id": 1970,
+  "en": "pitch",
+  "ex": "She gave a five-minute pitch to the investors, explaining her app and why it would make money.",
+  "exUk": "Вона виступила з пʼятихвилинним пітчем перед інвесторами, пояснивши свій застосунок і чому він принесе гроші."
+ },
+ {
+  "id": 1971,
+  "en": "feedback",
+  "ex": "The teacher gave me useful feedback on my essay: good ideas, but too many long sentences.",
+  "exUk": "Учителька дала мені корисний фідбек щодо есе: гарні ідеї, але забагато довгих речень."
+ },
+ {
+  "id": 1972,
+  "en": "appraisal",
+  "ex": "Every December each worker has an appraisal, where the boss rates their work and sets goals for next year.",
+  "exUk": "Щогрудня кожен працівник проходить оцінювання: начальник оцінює його роботу й ставить цілі на наступний рік."
+ },
+ {
+  "id": 1973,
+  "en": "team-building",
+  "ex": "The company organised a day of team-building: games and cooking together so that colleagues get to know each other.",
+  "exUk": "Компанія влаштувала день тімбілдингу: ігри та спільне приготування їжі, щоб колеги краще познайомилися."
+ },
+ {
+  "id": 1974,
+  "en": "work-life balance",
+  "ex": "He has a good work-life balance now: he leaves the office at five and spends evenings with his kids.",
+  "exUk": "Тепер у нього добрий баланс роботи та життя: він іде з офісу о пʼятій і проводить вечори з дітьми."
+ },
+ {
+  "id": 1975,
+  "en": "database",
+  "ex": "The shop keeps a database of all its customers, with their names, phone numbers, and orders.",
+  "exUk": "Крамниця веде базу даних усіх своїх клієнтів з іменами, номерами телефонів і замовленнями."
+ },
+ {
+  "id": 1976,
+  "en": "encryption",
+  "ex": "Thanks to encryption, only you and your friend can read your messages — not even the company can.",
+  "exUk": "Завдяки шифруванню ваші повідомлення можете читати лише ви з другом — навіть компанія не може."
+ },
+ {
+  "id": 1977,
+  "en": "cybersecurity",
+  "ex": "The bank spends millions on cybersecurity to stop hackers from stealing its customers' money online.",
+  "exUk": "Банк витрачає мільйони на кібербезпеку, щоб хакери не вкрали гроші клієнтів через інтернет."
+ },
+ {
+  "id": 1978,
+  "en": "phishing",
+  "ex": "The email looked like it came from my bank, but it was phishing — a fake message to steal my password.",
+  "exUk": "Лист виглядав як від мого банку, але це був фішинг — підроблене повідомлення, щоб украсти мій пароль."
+ },
+ {
+  "id": 1979,
+  "en": "malware",
+  "ex": "After I opened the strange file, my computer got malware that slowed it down and stole my passwords.",
+  "exUk": "Після того як я відкрив дивний файл, на компʼютер потрапило шкідливе ПЗ, яке сповільнило його й украло паролі."
+ },
+ {
+  "id": 1980,
+  "en": "firewall",
+  "ex": "The firewall blocks dangerous connections from the internet before they reach the office computers.",
+  "exUk": "Файрвол блокує небезпечні зʼєднання з інтернету, перш ніж вони дістануться офісних компʼютерів."
+ },
+ {
+  "id": 1981,
+  "en": "blockchain",
+  "ex": "Bitcoin runs on a blockchain — a list of all payments that is stored on thousands of computers at once.",
+  "exUk": "Біткоїн працює на блокчейні — списку всіх платежів, який зберігається одразу на тисячах компʼютерів."
+ },
+ {
+  "id": 1982,
+  "en": "NFT",
+  "ex": "He paid two thousand dollars for an NFT, a digital picture of a monkey that only he officially owns.",
+  "exUk": "Він заплатив дві тисячі доларів за NFT — цифрову картинку мавпи, якою офіційно володіє лише він."
+ },
+ {
+  "id": 1983,
+  "en": "cloud storage",
+  "ex": "I keep my photos in cloud storage, so I can open them from my phone or any computer.",
+  "exUk": "Я зберігаю фотографії в хмарному сховищі, тож можу відкрити їх з телефона або з будь-якого компʼютера."
+ },
+ {
+  "id": 1984,
+  "en": "streaming service",
+  "ex": "We don't buy DVDs anymore — we pay a streaming service ten dollars a month and watch films online.",
+  "exUk": "Ми більше не купуємо DVD: платимо стрімінговому сервісу десять доларів на місяць і дивимося фільми онлайн."
+ },
+ {
+  "id": 1985,
+  "en": "user interface",
+  "ex": "The app has a simple user interface: three big buttons on the screen, and even my grandmother understands it.",
+  "exUk": "У застосунку простий інтерфейс користувача: три великі кнопки на екрані, і навіть моя бабуся його розуміє."
+ },
+ {
+  "id": 1986,
+  "en": "user experience",
+  "ex": "The user experience on the website is terrible — pages load slowly and the search button is impossible to find.",
+  "exUk": "Користувацький досвід на цьому сайті жахливий: сторінки вантажаться повільно, а кнопку пошуку неможливо знайти."
+ },
+ {
+  "id": 1987,
+  "en": "widget",
+  "ex": "I added a weather widget to my phone's home screen, so I see the temperature without opening any app.",
+  "exUk": "Я додав віджет погоди на головний екран телефона, тож бачу температуру, не відкриваючи жодного застосунку."
+ },
+ {
+  "id": 1988,
+  "en": "plugin",
+  "ex": "I installed a plugin for my photo editor that adds new filters the program didn't have before.",
+  "exUk": "Я встановив плагін для фоторедактора, який додає нові фільтри, яких раніше в програмі не було."
+ },
+ {
+  "id": 1989,
+  "en": "extension",
+  "ex": "This browser extension blocks all the ads, so the pages are clean and load faster.",
+  "exUk": "Це розширення для браузера блокує всю рекламу, тож сторінки чисті й вантажаться швидше."
+ },
+ {
+  "id": 1990,
+  "en": "subscription",
+  "ex": "My music subscription costs eight dollars a month, and I can listen to any song I want.",
+  "exUk": "Моя підписка на музику коштує вісім доларів на місяць, і я можу слухати будь-яку пісню."
+ },
+ {
+  "id": 1991,
+  "en": "software update",
+  "ex": "The phone asked me to install a software update that fixes some bugs and adds new emoji.",
+  "exUk": "Телефон попросив встановити оновлення ПЗ, яке виправляє деякі помилки й додає нові емодзі."
+ },
+ {
+  "id": 1992,
+  "en": "remote work",
+  "ex": "Since the company allowed remote work, I do my job from my kitchen table and never see the office.",
+  "exUk": "Відколи компанія дозволила віддалену роботу, я працюю за кухонним столом і зовсім не бачу офісу."
+ },
+ {
+  "id": 1993,
+  "en": "hybrid work",
+  "ex": "Our office has hybrid work: we come in on Tuesdays and Thursdays and work from home the other days.",
+  "exUk": "У нашому офісі гібридна робота: ми приходимо по вівторках і четвергах, а в інші дні працюємо з дому."
+ },
+ {
+  "id": 1994,
+  "en": "mental health",
+  "ex": "Sleep, sport, and talking to friends are good for your mental health, not only for your body.",
+  "exUk": "Сон, спорт і розмови з друзями корисні для психічного здоровʼя, а не лише для тіла."
+ },
+ {
+  "id": 1995,
+  "en": "wellbeing",
+  "ex": "The company cares about the wellbeing of its staff: free fruit, a quiet room, and flexible hours.",
+  "exUk": "Компанія дбає про благополуччя працівників: безкоштовні фрукти, тиха кімната й гнучкий графік."
+ },
+ {
+  "id": 1996,
+  "en": "immunity",
+  "ex": "After the vaccine your body builds immunity, so the virus can't make you seriously ill.",
+  "exUk": "Після вакцини організм виробляє імунітет, тож вірус не може серйозно вам зашкодити."
+ },
+ {
+  "id": 1997,
+  "en": "pandemic",
+  "ex": "During the pandemic the virus spread to every country, and people all over the world stayed at home.",
+  "exUk": "Під час пандемії вірус поширився на всі країни, і люди в усьому світі сиділи вдома."
+ },
+ {
+  "id": 1998,
+  "en": "epidemic",
+  "ex": "There was a flu epidemic in our city last winter, and half of my class was ill at once.",
+  "exUk": "Минулої зими в нашому місті була епідемія грипу, і половина мого класу хворіла одночасно."
+ },
+ {
+  "id": 1999,
+  "en": "quarantine",
+  "ex": "After the trip he spent two weeks in quarantine at home so that he wouldn't pass the virus to anyone.",
+  "exUk": "Після поїздки він два тижні провів у карантині вдома, щоб нікому не передати вірус."
+ }
+]

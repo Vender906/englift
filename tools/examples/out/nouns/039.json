@@ -1,0 +1,302 @@
+[
+ {
+  "id": 1900,
+  "en": "metro",
+  "ex": "In Paris the metro is the quickest way across the city — trains run under the streets every two minutes.",
+  "exUk": "У Парижі метро — найшвидший спосіб перетнути місто: потяги під вулицями ходять кожні дві хвилини."
+ },
+ {
+  "id": 1901,
+  "en": "underground",
+  "ex": "In London we took the underground, and the train ran deep below the streets to the museum.",
+  "exUk": "У Лондоні ми поїхали на метро, і потяг мчав глибоко під вулицями аж до музею."
+ },
+ {
+  "id": 1902,
+  "en": "train",
+  "ex": "The train to Lviv leaves from platform three at eight and takes six hours.",
+  "exUk": "Поїзд до Львова відходить з третьої платформи о восьмій і їде шість годин."
+ },
+ {
+  "id": 1903,
+  "en": "taxi",
+  "ex": "It was raining and the last bus had gone, so I called a taxi and paid the driver twenty dollars.",
+  "exUk": "Ішов дощ, а останній автобус уже поїхав, тож я викликав таксі й заплатив водієві двадцять доларів."
+ },
+ {
+  "id": 1904,
+  "en": "cab",
+  "ex": "In New York you just put your hand up, and a yellow cab stops to pick you up.",
+  "exUk": "У Нью-Йорку просто піднімаєш руку, і жовте таксі зупиняється, щоб тебе забрати."
+ },
+ {
+  "id": 1905,
+  "en": "Uber",
+  "ex": "I ordered an Uber on my phone, and three minutes later a grey car with the driver's name arrived.",
+  "exUk": "Я замовив Uber у телефоні, і за три хвилини приїхала сіра машина з імʼям водія в застосунку."
+ },
+ {
+  "id": 1906,
+  "en": "bicycle",
+  "ex": "She rides her bicycle to work every day — twenty minutes of pedaling and no money for petrol.",
+  "exUk": "Вона щодня їздить на роботу на велосипеді: двадцять хвилин крутити педалі й жодних витрат на пальне."
+ },
+ {
+  "id": 1907,
+  "en": "bike",
+  "ex": "My bike has a flat tire, so I'll have to walk to school today.",
+  "exUk": "У моєму велику спустило колесо, тож сьогодні доведеться йти до школи пішки."
+ },
+ {
+  "id": 1908,
+  "en": "motorcycle",
+  "ex": "He drives to work on a motorcycle — two wheels, a loud engine, and a black helmet on his head.",
+  "exUk": "Він їздить на роботу на мотоциклі: два колеса, гучний двигун і чорний шолом на голові."
+ },
+ {
+  "id": 1909,
+  "en": "scooter",
+  "ex": "Teenagers in the city rent electric scooters to get to school and leave them on the sidewalk afterwards.",
+  "exUk": "Підлітки в місті орендують електричні скутери, щоб доїхати до школи, а потім лишають їх на тротуарі."
+ },
+ {
+  "id": 1910,
+  "en": "truck",
+  "ex": "A huge truck brought the new furniture, and two men carried the boxes into our house.",
+  "exUk": "Величезна вантажівка привезла нові меблі, і двоє чоловіків занесли коробки в наш дім."
+ },
+ {
+  "id": 1911,
+  "en": "lorry",
+  "ex": "The lorry was so big that it couldn't turn into our narrow street with its load of bricks.",
+  "exUk": "Вантажівка була така велика, що не змогла завернути з вантажем цегли на нашу вузьку вулицю."
+ },
+ {
+  "id": 1912,
+  "en": "van",
+  "ex": "The builder arrived in a white van full of tools, ladders, and bags of cement.",
+  "exUk": "Будівельник приїхав на білому фургоні, повному інструментів, драбин і мішків цементу."
+ },
+ {
+  "id": 1913,
+  "en": "boat",
+  "ex": "We rented a small boat and rowed across the lake to the island for a picnic.",
+  "exUk": "Ми взяли напрокат невеликий човен і перепливли на веслах озеро до острова на пікнік."
+ },
+ {
+  "id": 1914,
+  "en": "ship",
+  "ex": "The ship carried two thousand passengers across the ocean from Europe to America in seven days.",
+  "exUk": "Корабель перевіз дві тисячі пасажирів через океан з Європи до Америки за сім днів."
+ },
+ {
+  "id": 1915,
+  "en": "yacht",
+  "ex": "The rich businessman spends every summer on his yacht, sailing from one Greek island to another.",
+  "exUk": "Багатий бізнесмен проводить кожне літо на своїй яхті, плаваючи від одного грецького острова до іншого."
+ },
+ {
+  "id": 1916,
+  "en": "ferry",
+  "ex": "There is no bridge to the island, so we drove onto the ferry and crossed the water in half an hour.",
+  "exUk": "Мосту на острів немає, тож ми заїхали на пором і за півгодини перетнули протоку."
+ },
+ {
+  "id": 1917,
+  "en": "helicopter",
+  "ex": "A helicopter landed on the roof of the hospital, and the doctors ran out to meet the patient.",
+  "exUk": "Вертоліт сів на дах лікарні, і лікарі вибігли назустріч пацієнтові."
+ },
+ {
+  "id": 1918,
+  "en": "train station",
+  "ex": "I'll pick you up at the train station — wait for me by the ticket office on platform one.",
+  "exUk": "Я заберу тебе на залізничному вокзалі: чекай мене біля каси на першій платформі."
+ },
+ {
+  "id": 1919,
+  "en": "bus stop",
+  "ex": "Five people were waiting at the bus stop in the rain, looking at the timetable on the pole.",
+  "exUk": "Пʼятеро людей чекали на автобусній зупинці під дощем, дивлячись на розклад на стовпі."
+ },
+ {
+  "id": 1920,
+  "en": "platform",
+  "ex": "The train to Odesa leaves from platform four, so go down the stairs and turn right.",
+  "exUk": "Поїзд до Одеси відходить з четвертої платформи, тож спустися сходами й поверни праворуч."
+ },
+ {
+  "id": 1921,
+  "en": "port",
+  "ex": "Big ships bring oil and grain to the port, where cranes unload them day and night.",
+  "exUk": "Великі кораблі привозять до порту нафту й зерно, а крани розвантажують їх удень і вночі."
+ },
+ {
+  "id": 1922,
+  "en": "harbor",
+  "ex": "The fishing boats came back into the harbor before the storm, safe behind the stone wall.",
+  "exUk": "Рибальські човни повернулися в гавань перед штормом, у безпеці за камʼяною стіною."
+ },
+ {
+  "id": 1923,
+  "en": "wheel",
+  "ex": "A car has four wheels, and if one of them comes off, you can't drive any further.",
+  "exUk": "У машини чотири колеса, і якщо одне з них відвалиться, далі не поїдеш."
+ },
+ {
+  "id": 1924,
+  "en": "tire",
+  "ex": "I ran over a nail, and the back tire went flat, so I had to change it by the road.",
+  "exUk": "Я наїхав на цвях, і задня шина спустила, тож довелося міняти її біля дороги."
+ },
+ {
+  "id": 1925,
+  "en": "engine",
+  "ex": "He turned the key, but the engine didn't start — the car just made a quiet clicking sound.",
+  "exUk": "Він повернув ключ, але двигун не завівся: машина лише тихо клацнула."
+ },
+ {
+  "id": 1926,
+  "en": "brake",
+  "ex": "A child ran onto the road, and the driver pressed the brake so hard that the car stopped at once.",
+  "exUk": "На дорогу вибігла дитина, і водій так сильно натиснув на гальмо, що машина одразу зупинилася."
+ },
+ {
+  "id": 1927,
+  "en": "steering wheel",
+  "ex": "Keep both hands on the steering wheel and turn it slowly to the left at the corner.",
+  "exUk": "Тримай обидві руки на кермі й повільно поверни його ліворуч на розі."
+ },
+ {
+  "id": 1928,
+  "en": "windshield",
+  "ex": "A small stone hit the windshield, and now there is a crack in the glass in front of the driver.",
+  "exUk": "Камінець влучив у лобове скло, і тепер перед водієм тріщина."
+ },
+ {
+  "id": 1929,
+  "en": "license plate",
+  "ex": "The police asked for the license plate of the car — the number on the metal sign at the back.",
+  "exUk": "Поліція попросила номерний знак машини — номер на металевій табличці ззаду."
+ },
+ {
+  "id": 1930,
+  "en": "gear",
+  "ex": "Going up the hill, he changed to a lower gear so the engine wouldn't struggle.",
+  "exUk": "Піднімаючись на пагорб, він перемкнувся на нижчу передачу, щоб двигун не надривався."
+ },
+ {
+  "id": 1931,
+  "en": "hood",
+  "ex": "Smoke was coming out from under the hood, so he stopped and opened it to look at the engine.",
+  "exUk": "З-під капота йшов дим, тож він зупинився й відкрив його, щоб подивитися на двигун."
+ },
+ {
+  "id": 1932,
+  "en": "road trip",
+  "ex": "Last summer we went on a road trip: two weeks in the car, five countries, a new town every night.",
+  "exUk": "Минулого літа ми вирушили в подорож на авто: два тижні в машині, пʼять країн, нове місто щовечора."
+ },
+ {
+  "id": 1933,
+  "en": "journey",
+  "ex": "The journey from Kyiv to Lisbon took three days by train, with two nights in hotels on the way.",
+  "exUk": "Подорож із Києва до Лісабона зайняла три дні потягом, із двома ночівлями в готелях по дорозі."
+ },
+ {
+  "id": 1934,
+  "en": "tour",
+  "ex": "We joined a walking tour of the old town, and the guide showed us the castle and the main square.",
+  "exUk": "Ми приєдналися до пішої екскурсії старим містом, і гід показав нам замок і головну площу."
+ },
+ {
+  "id": 1935,
+  "en": "tourist",
+  "ex": "In summer the small town is full of tourists with cameras and maps, looking for the old church.",
+  "exUk": "Улітку містечко повне туристів із фотоапаратами й картами, які шукають стару церкву."
+ },
+ {
+  "id": 1936,
+  "en": "tourism",
+  "ex": "Tourism brings a lot of money to the island — hotels, restaurants, and boat trips for the visitors.",
+  "exUk": "Туризм приносить острову багато грошей: готелі, ресторани й прогулянки на човнах для гостей."
+ },
+ {
+  "id": 1937,
+  "en": "souvenir",
+  "ex": "From Italy I brought back some souvenirs: a tiny tower, a fridge magnet, and a cup with the city's name.",
+  "exUk": "З Італії я привіз кілька сувенірів: маленьку вежу, магніт на холодильник і чашку з назвою міста."
+ },
+ {
+  "id": 1938,
+  "en": "map",
+  "ex": "We got lost in the old town, so we opened the map and looked for the street names.",
+  "exUk": "Ми заблукали в старому місті, тож відкрили карту й стали шукати назви вулиць."
+ },
+ {
+  "id": 1939,
+  "en": "compass",
+  "ex": "The needle of the compass always points north, so you can find your way in the forest.",
+  "exUk": "Стрілка компаса завжди показує на північ, тож у лісі можна знайти дорогу."
+ },
+ {
+  "id": 1940,
+  "en": "backpacker",
+  "ex": "A young backpacker with everything she owned in one big bag stayed in our cheap hostel for a week.",
+  "exUk": "Молода мандрівниця з рюкзаком, у якому було все її майно, тиждень жила в нашому дешевому хостелі."
+ },
+ {
+  "id": 1941,
+  "en": "adventure",
+  "ex": "Our trip became a real adventure when the bus broke down in the mountains and we slept in a village.",
+  "exUk": "Наша поїздка стала справжньою пригодою, коли в горах зламався автобус і ми ночували в селі."
+ },
+ {
+  "id": 1942,
+  "en": "cuisine",
+  "ex": "Italian cuisine is famous for pasta and pizza, while Japanese cuisine is all about rice and fresh fish.",
+  "exUk": "Італійська кухня славиться пастою й піцою, а японська кухня — це передусім рис і свіжа риба."
+ },
+ {
+  "id": 1943,
+  "en": "appetite",
+  "ex": "After the long walk we had a huge appetite and ate everything on the table in ten minutes.",
+  "exUk": "Після довгої прогулянки в нас був величезний апетит, і ми за десять хвилин зʼїли все, що було на столі."
+ },
+ {
+  "id": 1944,
+  "en": "flavor",
+  "ex": "The ice cream shop has thirty flavors — chocolate, strawberry, mango, and even one that tastes like tea.",
+  "exUk": "У цій крамниці морозива тридцять смаків: шоколад, полуниця, манго й навіть один зі смаком чаю."
+ },
+ {
+  "id": 1945,
+  "en": "aroma",
+  "ex": "The aroma of fresh bread came from the bakery, and everyone walking past stopped to breathe it in.",
+  "exUk": "З пекарні линув аромат свіжого хліба, і кожен перехожий зупинявся, щоб його вдихнути."
+ },
+ {
+  "id": 1946,
+  "en": "texture",
+  "ex": "I liked the taste of the soup, but not its texture — it was thick and sticky like glue.",
+  "exUk": "Смак супу мені сподобався, але не його текстура: він був густий і липкий, як клей."
+ },
+ {
+  "id": 1947,
+  "en": "portion",
+  "ex": "The portions in this restaurant are huge — one plate of pasta is enough for two people.",
+  "exUk": "Порції в цьому ресторані величезні: однієї тарілки пасти вистачає на двох."
+ },
+ {
+  "id": 1948,
+  "en": "serving",
+  "ex": "The recipe makes four servings, so if six people are coming, cook more rice.",
+  "exUk": "За цим рецептом виходить чотири порції, тож якщо прийде шестеро, звари більше рису."
+ },
+ {
+  "id": 1949,
+  "en": "nutrition",
+  "ex": "Good nutrition is important for children: vegetables, fruit, and milk every day, not only sweets.",
+  "exUk": "Правильне харчування важливе для дітей: овочі, фрукти й молоко щодня, а не лише солодощі."
+ }
+]

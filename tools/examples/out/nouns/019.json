@@ -1,0 +1,302 @@
+[
+ {
+   "id": 900,
+   "en": "beer",
+   "ex": "After the football match the men went to the pub and ordered a cold beer each.",
+   "exUk": "Після футбольного матчу чоловіки пішли в паб і замовили кожен по холодному пиву."
+ },
+ {
+   "id": 901,
+   "en": "vodka",
+   "ex": "Vodka is a strong clear drink, and one small glass of it was enough to make him dizzy.",
+   "exUk": "Горілка — міцний прозорий напій, і однієї маленької чарки вистачило, щоб у нього запаморочилося в голові."
+ },
+ {
+   "id": 902,
+   "en": "whiskey",
+   "ex": "He poured some golden whiskey into a glass with ice and drank it slowly by the fire.",
+   "exUk": "Він налив трохи золотистого віскі в склянку з льодом і повільно пив його біля каміна."
+ },
+ {
+   "id": 903,
+   "en": "champagne",
+   "ex": "At midnight on New Year's Eve we opened the champagne, and the cork flew up to the ceiling.",
+   "exUk": "Опівночі в новорічну ніч ми відкрили шампанське, і корок полетів аж до стелі."
+ },
+ {
+   "id": 904,
+   "en": "cocktail",
+   "ex": "The bartender mixed rum, juice and ice in a tall glass and gave me a sweet cocktail.",
+   "exUk": "Бармен змішав ром, сік і лід у високій склянці й подав мені солодкий коктейль."
+ },
+ {
+   "id": 905,
+   "en": "smoothie",
+   "ex": "I put a banana, some berries and yogurt in the blender and made a thick smoothie for breakfast.",
+   "exUk": "Я поклав у блендер банан, трохи ягід і йогурт і зробив густий смузі на сніданок."
+ },
+ {
+   "id": 906,
+   "en": "lemonade",
+   "ex": "On the hot day the kids sold cold lemonade — water with lemon and sugar — for a dollar.",
+   "exUk": "Спекотного дня діти продавали холодний лимонад — воду з лимоном і цукром — по долару."
+ },
+ {
+   "id": 907,
+   "en": "job",
+   "ex": "After six months without work, she finally found a job as a nurse at the local hospital.",
+   "exUk": "Після шести місяців без роботи вона нарешті знайшла роботу медсестрою в місцевій лікарні."
+ },
+ {
+   "id": 908,
+   "en": "work",
+   "ex": "I leave for work at eight every morning and come home tired at six in the evening.",
+   "exUk": "Я щоранку виходжу на роботу о восьмій і приходжу додому втомлений о шостій вечора."
+ },
+ {
+   "id": 909,
+   "en": "career",
+   "ex": "She started as an assistant, and twenty years later her career took her to the top.",
+   "exUk": "Вона починала помічницею, а через двадцять років карʼєра привела її на самий верх."
+ },
+ {
+   "id": 910,
+   "en": "profession",
+   "ex": "A doctor is a profession you study for many years, and my son wants to choose it too.",
+   "exUk": "Лікар — це професія, якої навчаються багато років, і мій син теж хоче її обрати."
+ },
+ {
+   "id": 911,
+   "en": "occupation",
+   "ex": "The form asked for my occupation, so I wrote \"teacher\" in the box next to my name.",
+   "exUk": "В анкеті запитували мою професію, тож я написав «учитель» у графі поруч зі своїм імʼям."
+ },
+ {
+   "id": 912,
+   "en": "employer",
+   "ex": "My employer pays me every month and gives me twenty days of holiday a year.",
+   "exUk": "Мій роботодавець платить мені щомісяця й дає двадцять днів відпустки на рік."
+ },
+ {
+   "id": 913,
+   "en": "employee",
+   "ex": "The company has fifty employees, and each of them gets a bonus at the end of the year.",
+   "exUk": "У компанії пʼятдесят працівників, і кожен із них отримує бонус наприкінці року."
+ },
+ {
+   "id": 914,
+   "en": "boss",
+   "ex": "My boss asked me to stay late, and I couldn't say no because he decides my salary.",
+   "exUk": "Мій бос попросив мене затриматися, і я не міг відмовити, бо він вирішує, яка в мене зарплата."
+ },
+ {
+   "id": 915,
+   "en": "manager",
+   "ex": "The manager of the shop organizes the work of ten sellers and checks that everything is in order.",
+   "exUk": "Менеджер магазину організовує роботу десяти продавців і стежить, щоб усе було в порядку."
+ },
+ {
+   "id": 916,
+   "en": "CEO",
+   "ex": "The CEO of the company spoke to all two thousand workers about the plans for the next year.",
+   "exUk": "Генеральний директор компанії говорив з усіма двома тисячами працівників про плани на наступний рік."
+ },
+ {
+   "id": 917,
+   "en": "supervisor",
+   "ex": "If you have a problem with your work, talk to your supervisor — she checks your tasks every day.",
+   "exUk": "Якщо у вас проблема з роботою, поговоріть зі своєю керівницею — вона щодня перевіряє ваші завдання."
+ },
+ {
+   "id": 918,
+   "en": "assistant",
+   "ex": "The director's assistant answers his phone, books his flights and keeps his calendar in order.",
+   "exUk": "Помічник директора відповідає на його дзвінки, бронює квитки на літак і стежить за його календарем."
+ },
+ {
+   "id": 919,
+   "en": "intern",
+   "ex": "As an intern she worked at the company for three months without pay to learn the job.",
+   "exUk": "Як стажистка вона три місяці працювала в компанії без оплати, щоб навчитися роботи."
+ },
+ {
+   "id": 920,
+   "en": "freelancer",
+   "ex": "He is a freelancer — he has no boss, works from home and finds his own clients.",
+   "exUk": "Він фрілансер — у нього немає боса, він працює з дому й сам шукає клієнтів."
+ },
+ {
+   "id": 921,
+   "en": "team",
+   "ex": "Our football team has eleven players, and we train together twice a week before the games.",
+   "exUk": "У нашій футбольній команді одинадцять гравців, і ми тренуємося разом двічі на тиждень перед іграми."
+ },
+ {
+   "id": 922,
+   "en": "staff",
+   "ex": "The hotel staff was very friendly — the cleaners, the cooks and the receptionists all smiled at us.",
+   "exUk": "Персонал готелю був дуже привітний — прибиральники, кухарі й адміністратори всі нам усміхалися."
+ },
+ {
+   "id": 923,
+   "en": "office",
+   "ex": "I work in an office on the tenth floor, where twenty people sit at desks with computers.",
+   "exUk": "Я працюю в офісі на десятому поверсі, де двадцять людей сидять за столами з компʼютерами."
+ },
+ {
+   "id": 924,
+   "en": "company",
+   "ex": "She works for a company that makes phones and sells them in forty countries.",
+   "exUk": "Вона працює в компанії, яка виробляє телефони й продає їх у сорока країнах."
+ },
+ {
+   "id": 925,
+   "en": "business",
+   "ex": "My uncle has a small business — a bakery with three workers that he started ten years ago.",
+   "exUk": "У мого дядька невеликий бізнес — пекарня з трьома працівниками, яку він відкрив десять років тому."
+ },
+ {
+   "id": 926,
+   "en": "corporation",
+   "ex": "A corporation like Apple has offices in many countries and thousands of workers around the world.",
+   "exUk": "Корпорація на кшталт Apple має офіси в багатьох країнах і тисячі працівників по всьому світу."
+ },
+ {
+   "id": 927,
+   "en": "startup",
+   "ex": "Two students started a startup in a garage, and five years later the young company was worth millions.",
+   "exUk": "Двоє студентів заснували стартап у гаражі, а через пʼять років молода компанія коштувала мільйони."
+ },
+ {
+   "id": 928,
+   "en": "industry",
+   "ex": "The car industry gives jobs to thousands of people who build engines, doors and wheels.",
+   "exUk": "Автомобільна галузь дає роботу тисячам людей, які виготовляють двигуни, двері та колеса."
+ },
+ {
+   "id": 929,
+   "en": "factory",
+   "ex": "The factory outside the city makes shoes, and five hundred workers stand at its machines all day.",
+   "exUk": "Фабрика за містом виробляє взуття, і пʼятсот працівників цілий день стоять за її верстатами."
+ },
+ {
+   "id": 930,
+   "en": "workshop",
+   "ex": "In his workshop behind the house, Grandpa repairs old chairs and makes wooden toys.",
+   "exUk": "У своїй майстерні за будинком дідусь ремонтує старі стільці й робить деревʼяні іграшки."
+ },
+ {
+   "id": 931,
+   "en": "meeting",
+   "ex": "We have a meeting at ten in the big room, where the team will discuss the new plan.",
+   "exUk": "О десятій у нас нарада у великій кімнаті, де команда обговорить новий план."
+ },
+ {
+   "id": 932,
+   "en": "conference",
+   "ex": "Three hundred doctors came to the conference to listen to talks and share new ideas.",
+   "exUk": "Триста лікарів зʼїхалися на конференцію, щоб послухати доповіді й поділитися новими ідеями."
+ },
+ {
+   "id": 933,
+   "en": "presentation",
+   "ex": "She gave a short presentation with ten slides to show the boss how the project is going.",
+   "exUk": "Вона провела коротку презентацію з десятьма слайдами, щоб показати босу, як просувається проєкт."
+ },
+ {
+   "id": 934,
+   "en": "project",
+   "ex": "Our team is working on a new project — a mobile app that should be ready by December.",
+   "exUk": "Наша команда працює над новим проєктом — мобільним застосунком, який має бути готовий до грудня."
+ },
+ {
+   "id": 935,
+   "en": "task",
+   "ex": "My first task today is to answer all the emails, and then I can start on the report.",
+   "exUk": "Моє перше завдання сьогодні — відповісти на всі листи, а потім можна братися за звіт."
+ },
+ {
+   "id": 936,
+   "en": "report",
+   "ex": "At the end of each month I write a report for my boss about what the team did.",
+   "exUk": "Наприкінці кожного місяця я пишу босу звіт про те, що зробила команда."
+ },
+ {
+   "id": 937,
+   "en": "document",
+   "ex": "Please print the document, sign it on the last page and bring it back to me.",
+   "exUk": "Будь ласка, роздрукуйте документ, підпишіть його на останній сторінці й принесіть мені назад."
+ },
+ {
+   "id": 938,
+   "en": "contract",
+   "ex": "Before she started the job, she signed a contract that said how much she would earn.",
+   "exUk": "Перш ніж приступити до роботи, вона підписала контракт, у якому було вказано, скільки вона зароблятиме."
+ },
+ {
+   "id": 939,
+   "en": "agreement",
+   "ex": "The two companies signed an agreement to work together for the next five years.",
+   "exUk": "Дві компанії підписали угоду про співпрацю на наступні пʼять років."
+ },
+ {
+   "id": 940,
+   "en": "deal",
+   "ex": "After a week of talks, the two businessmen shook hands — the deal to sell the hotel was done.",
+   "exUk": "Після тижня переговорів двоє бізнесменів потиснули руки — угоду про продаж готелю було укладено."
+ },
+ {
+   "id": 941,
+   "en": "schedule",
+   "ex": "My schedule for Monday is full: meetings at nine, eleven and three, and a call at five.",
+   "exUk": "Мій розклад на понеділок повний: зустрічі о девʼятій, одинадцятій і третій та дзвінок о пʼятій."
+ },
+ {
+   "id": 942,
+   "en": "agenda",
+   "ex": "There are three points on the agenda for today's meeting: the budget, the new office and holidays.",
+   "exUk": "У порядку денному сьогоднішньої наради три пункти: бюджет, новий офіс і відпустки."
+ },
+ {
+   "id": 943,
+   "en": "email",
+   "ex": "I sent her an email with the photos, and she answered from her phone ten minutes later.",
+   "exUk": "Я надіслав їй електронного листа з фотографіями, і вона відповіла з телефону через десять хвилин."
+ },
+ {
+   "id": 944,
+   "en": "file",
+   "ex": "The file was too big to send by email, so I put it on a USB stick.",
+   "exUk": "Файл був завеликий, щоб надіслати поштою, тож я скинув його на флешку."
+ },
+ {
+   "id": 945,
+   "en": "resume",
+   "ex": "Before the interview I updated my resume with my new skills and the last job I had.",
+   "exUk": "Перед співбесідою я оновив резюме, додавши нові навички та останнє місце роботи."
+ },
+ {
+   "id": 946,
+   "en": "CV",
+   "ex": "Send your CV to the company — one page with your education, jobs and languages.",
+   "exUk": "Надішліть компанії своє CV — одну сторінку з освітою, місцями роботи та мовами."
+ },
+ {
+   "id": 947,
+   "en": "cover letter",
+   "ex": "With her CV she sent a cover letter explaining why she wanted this job so much.",
+   "exUk": "Разом із резюме вона надіслала супровідний лист, у якому пояснила, чому так хоче цю роботу."
+ },
+ {
+   "id": 948,
+   "en": "interview",
+   "ex": "At the interview the manager asked me about my experience and why I wanted to work there.",
+   "exUk": "На співбесіді менеджер запитав про мій досвід і чому я хочу там працювати."
+ },
+ {
+   "id": 949,
+   "en": "application",
+   "ex": "I filled in the application for the job online, and the company answered a week later.",
+   "exUk": "Я заповнив заявку на роботу онлайн, і через тиждень компанія відповіла."
+ }
+]

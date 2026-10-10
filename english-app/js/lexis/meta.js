@@ -1,3 +1,3 @@
 /* EngLift — лічильники словників (генерується скриптом).
    Потрібні дашборду й хабу до того, як самі словники завантажаться. */
-window.LEX_META = { "verbs": { "total": 3249, "safe": 3136, "cats": 47 }, "nouns": { "total": 2570, "safe": 2465, "cats": 20 }, "adjs": { "total": 2539, "safe": 2396, "cats": 26 }, "advs": { "total": 400, "safe": 390, "cats": 10 } };
+window.LEX_META = { "verbs": { "total": 3838, "safe": 3725, "cats": 50 }, "nouns": { "total": 4291, "safe": 4186, "cats": 24 }, "adjs": { "total": 3095, "safe": 2952, "cats": 29 }, "advs": { "total": 540, "safe": 530, "cats": 10 } };

@@ -1,0 +1,15 @@
+[
+ { "key": "adjs|worldwide", "en": "worldwide", "uk": "всесвітній / світовий", "ipa": "/ˈwɜːldwaɪd/", "emoji": "🌐", "lvl": "B1",
+   "cats": ["formal_adj", "scope_adj"], "grad": false, "ctx": "success", "uCtx": "успіх", "syn": "global",
+   "ex": "The song was a worldwide hit — people sang it in America, Japan, Brazil and Ukraine.",
+   "exUk": "Пісня стала світовим хітом — її співали в Америці, Японії, Бразилії та Україні." },
+ { "key": "adjs|worth", "en": "worth", "uk": "вартий", "ipa": "/wɜːθ/", "emoji": "💎", "lvl": "B1",
+   "cats": ["value", "expensive"], "grad": false,
+   "note": "be worth + сума або -ing: It's worth 100 dollars. It's worth seeing.",
+   "ex": "The film is long, but it's worth watching — the ending is amazing.",
+   "exUk": "Фільм довгий, але його варто подивитися — кінцівка просто неймовірна." },
+ { "key": "adjs|written", "en": "written", "uk": "письмовий", "ipa": "/ˈrɪtn/", "emoji": "📝", "lvl": "B1",
+   "cats": ["formal_adj", "type_adj"], "grad": false, "ctx": "exam", "uCtx": "іспит", "ant": "spoken",
+   "ex": "First we had a written exam on paper, and then each of us talked to the teacher.",
+   "exUk": "Спершу ми писали письмовий іспит на папері, а потім кожен говорив з учителем." }
+]

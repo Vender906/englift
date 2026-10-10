@@ -1,0 +1,239 @@
+{
+ "verbs": {
+  "cats": {
+   "basic_v": {
+    "emoji": "🧩",
+    "label": "Basic verbs — Базові дієслова"
+   },
+   "formal_v": {
+    "emoji": "🎓",
+    "label": "Formal & academic — Книжні дієслова"
+   },
+   "society_v": {
+    "emoji": "🏛️",
+    "label": "Society & politics — Суспільство й політика"
+   }
+  },
+  "subs": {
+   "core_wants": {
+    "emoji": "💭",
+    "label": "Want & need — Хотіти й потребувати",
+    "parent": "basic_v"
+   },
+   "core_actions": {
+    "emoji": "✋",
+    "label": "Everyday actions — Повсякденні дії",
+    "parent": "basic_v"
+   },
+   "core_events": {
+    "emoji": "🌀",
+    "label": "Happen & exist — Відбуватися й існувати",
+    "parent": "basic_v"
+   },
+   "logic_v": {
+    "emoji": "🧠",
+    "label": "Reasoning — Міркування й висновки",
+    "parent": "formal_v"
+   },
+   "process_v": {
+    "emoji": "⚙️",
+    "label": "Processes — Процеси й результати",
+    "parent": "formal_v"
+   },
+   "compare_v": {
+    "emoji": "⚖️",
+    "label": "Compare & relate — Порівнювати й повʼязувати",
+    "parent": "formal_v"
+   },
+   "politics_v": {
+    "emoji": "🗳️",
+    "label": "Politics & power — Політика й влада",
+    "parent": "society_v"
+   },
+   "economy_v": {
+    "emoji": "📈",
+    "label": "Economy & business — Економіка й бізнес",
+    "parent": "society_v"
+   },
+   "media_v": {
+    "emoji": "📰",
+    "label": "Media & public — Медіа й публічність",
+    "parent": "society_v"
+   }
+  }
+ },
+ "nouns": {
+  "cats": {
+   "general": {
+    "emoji": "🧩",
+    "label": "General — Загальні слова"
+   },
+   "society_n": {
+    "emoji": "🏛️",
+    "label": "Society & politics — Суспільство й політика"
+   },
+   "science_n": {
+    "emoji": "🔬",
+    "label": "Science & research — Наука й дослідження"
+   },
+   "business_n": {
+    "emoji": "💼",
+    "label": "Business & economy — Бізнес і економіка"
+   }
+  },
+  "subs": {
+   "gen_people": {
+    "emoji": "🧑",
+    "label": "People — Люди",
+    "parent": "general"
+   },
+   "gen_things": {
+    "emoji": "📦",
+    "label": "Things & parts — Речі й частини",
+    "parent": "general"
+   },
+   "gen_ideas": {
+    "emoji": "💡",
+    "label": "Facts & situations — Факти й ситуації",
+    "parent": "general"
+   },
+   "gen_actions": {
+    "emoji": "🏃",
+    "label": "Actions & events — Дії й події",
+    "parent": "general"
+   },
+   "politics_n": {
+    "emoji": "🗳️",
+    "label": "Politics & government — Політика й влада",
+    "parent": "society_n"
+   },
+   "law_crime": {
+    "emoji": "⚖️",
+    "label": "Law & crime — Право й злочини",
+    "parent": "society_n"
+   },
+   "media_news": {
+    "emoji": "📰",
+    "label": "Media & news — Медіа й новини",
+    "parent": "society_n"
+   },
+   "social_issues": {
+    "emoji": "🤝",
+    "label": "Social issues — Суспільні проблеми",
+    "parent": "society_n"
+   },
+   "conflict_n": {
+    "emoji": "🪖",
+    "label": "War & conflict — Війна й конфлікти",
+    "parent": "society_n"
+   },
+   "sciences": {
+    "emoji": "🧪",
+    "label": "Sciences — Науки й дисципліни",
+    "parent": "science_n"
+   },
+   "research_n": {
+    "emoji": "📊",
+    "label": "Research & data — Дослідження й дані",
+    "parent": "science_n"
+   },
+   "environment_n": {
+    "emoji": "🌍",
+    "label": "Environment — Довкілля й клімат",
+    "parent": "science_n"
+   },
+   "engineering_n": {
+    "emoji": "⚡",
+    "label": "Engineering & energy — Техніка й енергія",
+    "parent": "science_n"
+   },
+   "economy_n": {
+    "emoji": "📈",
+    "label": "Economy — Економіка",
+    "parent": "business_n"
+   },
+   "company_n": {
+    "emoji": "🏢",
+    "label": "Companies & industry — Компанії й галузі",
+    "parent": "business_n"
+   },
+   "marketing_n": {
+    "emoji": "📣",
+    "label": "Marketing & sales — Маркетинг і продажі",
+    "parent": "business_n"
+   },
+   "religion_n": {
+    "emoji": "🕊️",
+    "label": "Religion & beliefs — Релігія й вірування",
+    "parent": "society_n"
+   }
+  }
+ },
+ "adjs": {
+  "cats": {
+   "formal_adj": {
+    "emoji": "🎓",
+    "label": "Formal & academic — Книжні прикметники"
+   },
+   "society_adj": {
+    "emoji": "🏛️",
+    "label": "Society & science — Суспільство й наука"
+   },
+   "place_adj": {
+    "emoji": "🧭",
+    "label": "Place & direction — Місце й напрямок"
+   }
+  },
+  "subs": {
+   "logic_adj": {
+    "emoji": "🧠",
+    "label": "Logic & evidence — Логіка й очевидність",
+    "parent": "formal_adj"
+   },
+   "scope_adj": {
+    "emoji": "📐",
+    "label": "Scope & extent — Обсяг і межі",
+    "parent": "formal_adj"
+   },
+   "type_adj": {
+    "emoji": "🗂️",
+    "label": "Kind & type — Тип і різновид",
+    "parent": "formal_adj"
+   },
+   "politics_adj": {
+    "emoji": "🗳️",
+    "label": "Politics & law — Політика й право",
+    "parent": "society_adj"
+   },
+   "economy_adj": {
+    "emoji": "📈",
+    "label": "Economy & business — Економіка й бізнес",
+    "parent": "society_adj"
+   },
+   "science_adj": {
+    "emoji": "🔬",
+    "label": "Science & tech — Наука й техніка",
+    "parent": "society_adj"
+   },
+   "culture_adj": {
+    "emoji": "🎭",
+    "label": "Culture & religion — Культура й релігія",
+    "parent": "society_adj"
+   },
+   "direction_adj": {
+    "emoji": "🧭",
+    "label": "Directions — Сторони світу",
+    "parent": "place_adj"
+   },
+   "position_adj": {
+    "emoji": "📍",
+    "label": "Position — Положення",
+    "parent": "place_adj"
+   }
+  }
+ },
+ "advs": {
+  "cats": {},
+  "subs": {}
+ }
+}
