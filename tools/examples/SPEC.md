@@ -1,4 +1,4 @@
-# Dictionary examples — how to rewrite the example sentences (verbs, adjectives, nouns)
+# Dictionary examples — how to rewrite the example sentences (verbs, adjectives, nouns, adverbs)
 
 EngLift is an English-learning app for **Ukrainian speakers**. Every dictionary word has an example sentence
 (`ex`) with a Ukrainian translation (`exUk`). The learner sees it in the word browser and on the flashcard.
@@ -77,9 +77,24 @@ Some items also have `ex2` / `ex2Uk`. Rewrite it by the same rules, as a **diffe
   (*"It took real **courage** for the shy boy to sing alone in front of the whole school."*).
 - If `syn` is given, the sentence may hint at the shade vs. the synonym, but don't put the synonym itself in.
 
+### Adverbs (`advs`) — extra rules
+
+- The headword must appear **exactly as is** (multi-word adverbs too: *all along*, *at once*, *by heart*).
+  Use it as an adverb — modifying a verb, adjective, another adverb or the whole sentence — not as an
+  adjective or preposition (*fast* in *drives fast*, not *a fast car*).
+- Many adverbs are about **time, frequency, degree, manner, place, probability or linking ideas**. The sentence
+  must show which: put the clue next to the word.
+  - frequency / time: *"She **hardly ever** eats meat — maybe twice a year at a wedding."*
+  - degree / shade vs neighbours: *"The test wasn't just hard — it was **extremely** hard; nobody finished it."*
+  - manner: *"He closed the door **quietly** so he wouldn't wake the baby."*
+  - linking / viewpoint: *"The flight was cancelled. **Luckily**, there was another one an hour later."*
+- Traps (*hard ≠ hardly*, *late ≠ lately*, *near ≠ nearly*): if `note` mentions a trap, make the sentence show the
+  meaning of **this** word clearly.
+- `ctx` is a typical pattern (*right ~*, *~ ever*): follow it when given.
+
 ## Input — `tools/examples/batches/<pos>/NNN.json`
 
-`<pos>` is `verbs`, `adjs` or `nouns`. Adjective items may also have `comp` (comparative / superlative), `syn`, `ant`,
+`<pos>` is `verbs`, `adjs`, `nouns` or `advs`. Adjective items may also have `comp` (comparative / superlative), `syn`, `ant`,
 `note` (usage nuance), `prep`. Noun items may have `cu` (countable / uncountable), `plural` (irregular), `syn`, `note`.
 
 ```json

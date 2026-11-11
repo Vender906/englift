@@ -42,7 +42,7 @@
   /* ---------- ліниве завантаження ---------- */
   const LEX_SRC = {
     verbs: ['js/lexis/verbs-data.js', 'js/lexis/verbs-phrasal-data.js', 'js/lexis/verbs-merge.js', 'js/lexis/verbs-oxford-data.js'],
-    nouns: ['js/lexis/nouns-data.js', 'js/lexis/nouns-oxford-data.js'],
+    nouns: ['js/lexis/nouns-data.js', 'js/lexis/nouns-oxford-data.js', 'js/lexis/pics-data.js'],
     adjs: ['js/lexis/adjs-data.js', 'js/lexis/adjs-prep-data.js', 'js/lexis/adjs-oxford-data.js', 'js/lexis/adj-stories.js'],
     advs: ['js/lexis/advs-data.js', 'js/lexis/advs-oxford-data.js']
   };
@@ -1048,6 +1048,16 @@
       '</div></div>';
   }
 
+  /* фото до слова (Pixabay, tools/pics) — img/pics/<pos>/<_id>.jpg або null */
+  const picSets = {};
+  function picOf(posId, v) {
+    const ids = (window.LEX_PICS || {})[posId];
+    if (store.settings.pics === false) return null;   /* вимкнено в ⚙️ Налаштуваннях */
+    if (!ids || v._id == null) return null;
+    const set = picSets[posId] || (picSets[posId] = new Set(ids));
+    return set.has(v._id) ? 'img/pics/' + posId + '/' + v._id + '.jpg' : null;
+  }
+
   function renderFlashcard(posId) {
     const P = POS[posId], cs = cardState(posId);
     const slot = $('#card-slot');
@@ -1111,23 +1121,34 @@
     const forms = P.isVerbs ? verbFormsOf(v) : null;
     const status = cs.status[cardKey(v)];
     const ctxHtml = v.ctx ? ' <span class="fc-ctx">(' + esc(v.ctx) + ')</span>' : '';
+    const pic = picOf(posId, v);
+    /* фото показується на звороті разом із перекладом; і його, і наступне вантажимо заздалегідь, щоб не блимали */
+    const nextV = cs.queue[cs.idx + 1], nextPic = nextV && picOf(posId, nextV);
+    if (pic && !cs.flipped) new Image().src = pic;
+    if (nextPic) new Image().src = nextPic;
     slot.innerHTML =
       '<div class="flashcard ' + (cs.flipped ? 'flipped' : '') + (status === 'known' ? ' known-flash' : status === 'unknown' ? ' unknown-flash' : '') + '" id="theCard">' +
       '<div class="fc-front">' +
-      '<div class="fc-emoji">' + (v.emoji || '📝') + '</div>' +
+      (store.settings.cardEmoji !== false ? '<div class="fc-emoji">' + (v.emoji || '📝') + '</div>' : '') +   /* вимикається в ⚙️ Налаштуваннях */
       '<div class="fc-en">' + esc(v.en) + ctxHtml + '</div>' +
       '<div class="fc-ipa">' + esc(v.ipa || '') + (v.ipa ? ' · ' : '') + v.lvl + (v.adult ? ' · 🔞' : '') + '</div>' +
+      /* приклад англійською — на лицьовому боці: контекст підказує значення; переклад прикладу — на звороті */
+      (v.ex ? '<div class="fc-ex fc-ex-front">' + esc(v.ex) + '</div>' : '') +
       (!cs.flipped ? '<div class="fc-hint">клацни, щоб побачити переклад</div>' : '') +
       '</div>' +
       '<div class="fc-hidden">' +
       '<div class="fc-uk">' + esc(v.uk) + (v.uCtx ? ' <span class="fc-uctx">(' + esc(v.uCtx) + ')</span>' : '') + '</div>' +
+      (pic && cs.flipped
+        ? '<img class="fc-pic" src="' + pic + '" alt="" width="256" height="256">' +
+          '<a class="fc-pic-credit" href="https://pixabay.com" target="_blank" rel="noopener">Фото: Pixabay</a>'
+        : '') +
       (forms ? '<div class="fc-forms">' + esc(v.en) + ' · ' + esc(forms.past) + ' · ' + esc(forms.pp) + '</div>' : '') +
       (P.isAdjs && v.comp ? '<div class="fc-forms">' + esc(v.en) + ' · ' + esc(v.comp) + ' · ' + esc(v.sup || '') + '</div>' : '') +
       ((P.isAdjs || P.isAdvs) && (v.syn || v.ant) ? '<div class="fc-ex">' + (v.syn ? '≈ ' + esc(v.syn) : '') + (v.ant ? ' · ⇄ ' + esc(v.ant) : '') + '</div>' : '') +
       (P.isNouns && (v.plural || v.cu) ? '<div class="fc-forms">' + (v.cu === 'U' ? '⚖️ uncountable' : v.cu === 'C' ? '⚖️ countable' : '') + (v.plural ? (v.cu ? ' · ' : '') + 'pl: ' + esc(v.plural) : '') + '</div>' : '') +
       (P.isNouns && v.syn && v.syn.length ? '<div class="fc-ex">≈ ' + esc(v.syn.join(', ')) + '</div>' : '') +
       (v.note ? '<div class="fc-note">💡 ' + esc(v.note) + '</div>' : '') +
-      '<div class="fc-ex">' + esc(v.ex || '') + (v.exUk ? '<br><span class="fc-ex-uk">' + esc(v.exUk) + '</span>' : '') + '</div>' +
+      (v.exUk ? '<div class="fc-ex fc-ex-uk">' + esc(v.exUk) + '</div>' : '') +
       '</div>' + (inPart ? '<div class="lp-card-tag">' + partLabel(cs.part) + ' · ' + (cs.idx + 1) + '/' + cs.queue.length + '</div>' : '') + '</div>';
 
     $('#theCard').addEventListener('click', () => { cs.flipped = !cs.flipped; renderFlashcard(posId); });

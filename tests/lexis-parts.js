@@ -133,6 +133,76 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
     }
     go('#/vocab/verbs/cards/walking');
     ok($('#card-scope').value === 'walking' && !!$('#theCard'), 'a link to a subcategory deck works');
+
+    /* ---------- фото на картках (Pixabay, tools/pics) ---------- */
+    const fs = require('fs'), path = require('path');
+    const picIds = (window.LEX_PICS || {}).nouns || [];
+    const nounIds = new Set(L.POS.nouns.words.map(v => v._id));
+    const picFile = id => path.join(__dirname, '..', 'english-app', 'img', 'pics', 'nouns', id + '.jpg');
+    ok(picIds.length > 150 && picIds.every(id => nounIds.has(id) && fs.existsSync(picFile(id))), 'every noun photo (' + picIds.length + ') belongs to a noun and has a file');
+    const food = L.POS.nouns.words.filter(v => L.wVisible(v) && (v.cats || []).includes('food'));
+    ok(food.every(v => picIds.includes(v._id)), 'every Food & kitchen noun has a photo');
+    ok(!$('.fc-pic'), 'verb cards have no pictures');
+    go('#/vocab/nouns/cards/food/1');
+    let picShown = 0, badSrc = 0, picOnFront = 0, noCredit = 0;
+    for (let i = 0; i < 25 && $('#fc-next') && $('#theCard'); i++) {
+      if ($('#theCard .fc-pic') || !$('#theCard .fc-emoji')) picOnFront++;   /* лицьовий бік — емодзі, фото ще не видно */
+      click($('#theCard'));
+      const img = $('#theCard.flipped .fc-hidden .fc-pic');
+      if (img) {
+        picShown++;
+        const id = +img.getAttribute('src').match(/(\d+)\.jpg$/)[1];
+        if (!picIds.includes(id)) badSrc++;
+        if (!/Pixabay/.test($('#theCard .fc-pic-credit').textContent)) noCredit++;
+      }
+      click($('#fc-next'));   /* «Знаю» гортає з затримкою, «Далі» — одразу */
+    }
+    ok(picShown === 25 && !badSrc && !picOnFront && !noCredit, 'food Part 1: emoji on the front, photo with the Pixabay credit appears after flipping (' + picShown + '/25)');
+
+    /* приклад англійською — на лицьовому боці, переклад прикладу — на звороті (усі частини мови) */
+    for (const pos of ['verbs', 'nouns', 'adjs', 'advs']) {
+      go(pos === 'nouns' ? '#/vocab/nouns/cards/food/5' : '#/vocab/' + pos + '/cards');   /* загальну колоду іменників уже пройдено вище */
+      let bad = 0, checked = 0;
+      for (let i = 0; i < 15 && $('#theCard') && $('#fc-next'); i++) {
+        const fr = $('#theCard .fc-front .fc-ex-front'), ukBack = $('#theCard .fc-hidden .fc-ex-uk');
+        const txt = $('#theCard .fc-front').textContent;
+        if (!fr || !fr.textContent.trim() || (ukBack && txt.includes(ukBack.textContent)) || $('#theCard .fc-front .fc-ex-uk')) bad++;
+        if (!ukBack || !ukBack.textContent.trim()) bad++;
+        checked++;
+        click($('#fc-next'));
+      }
+      ok(checked > 5 && !bad, pos + ': English example on the front, its translation only on the back (' + checked + ' cards)');
+    }
+
+    /* перемикач «Емодзі на картках» у налаштуваннях */
+    click($('#settings-btn'));
+    const es = $('#set-card-emoji');
+    ok(!!es && es.checked, 'settings: card emoji switch is on by default');
+    es.checked = false; es.dispatchEvent(new window.Event('change', { bubbles: true })); click($('#m-close'));
+    ok(storeGet().settings.cardEmoji === false, 'settings: switching card emoji off is saved');
+    for (const h of ['#/vocab/verbs/cards', '#/vocab/nouns/cards/food/6', '#/vocab/adjs/cards', '#/vocab/advs/cards']) {
+      go(h);
+      ok(!!$('#theCard .fc-en') && !$('#theCard .fc-emoji'), 'emoji off: no emoji on ' + h);
+    }
+    click($('#settings-btn')); const es2 = $('#set-card-emoji');
+    es2.checked = true; es2.dispatchEvent(new window.Event('change', { bubbles: true })); click($('#m-close'));
+    go('#/vocab/nouns/cards/food/7');
+    ok(storeGet().settings.cardEmoji === true && !!$('#theCard .fc-front .fc-emoji'), 'emoji back on: card shows the emoji');
+
+    /* перемикач «Фото на картках» у налаштуваннях */
+    click($('#settings-btn'));
+    const sw = $('#set-pics');
+    ok(!!sw && sw.checked, 'settings: photo switch is on by default');
+    sw.checked = false; sw.dispatchEvent(new window.Event('change', { bubbles: true }));
+    ok(storeGet().settings.pics === false, 'settings: switching photos off is saved');
+    click($('#m-close'));
+    go('#/vocab/nouns/cards/food/3'); click($('#theCard'));
+    ok($('#theCard.flipped') && !$('.fc-pic') && !$('.fc-pic-credit'), 'photos off: flipped card has no photo');
+    click($("#settings-btn")); const sw2 = $('#set-pics');
+    ok(!sw2.checked, 'settings: switch shows the off state');
+    sw2.checked = true; sw2.dispatchEvent(new window.Event('change', { bubbles: true })); click($('#m-close'));
+    go('#/vocab/nouns/cards/food/2'); click($('#theCard'));
+    ok(storeGet().settings.pics === true && !!$('#theCard.flipped .fc-pic'), 'photos back on: flipped card shows the photo');
   } catch (e) { errs.push('TEST THREW: ' + e.stack); }
 
   console.log(errs.length ? 'FAILURES: ' + errs.join(' | ') : 'LEXIS PARTS OK ✓');

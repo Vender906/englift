@@ -71,7 +71,7 @@ const playQuiz = async (label, max) => {
 
     /* ---------- хаб і сторінка пакета ---------- */
     go('#/practice'); await sleep(10);
-    ok($$('.pc-pack-card').length === P.PACKS.length && /Рух і розташування/.test($('#view').textContent), 'section hub lists the packs');
+    ok($$('.pc-pack-card').length === P.PACKS.length + 1 && /Рух і розташування/.test($('#view').textContent) && !!$('a.pc-pack-card[href="#/practice/photo"]'), 'section hub lists the packs + «Що на фото»');
     go('#/practice/motion'); await sleep(10);
     ok($$('.ph-hub-card').length === 8 && $$('.section-title').length === 3, 'pack page shows 8 topics in 3 groups');
     ok(!!$('a[href="#/practice/motion/scenes"]') && !!$('a[href="#/practice/motion/mix"]'), 'pack page links to scenes and mix');
@@ -158,7 +158,7 @@ const playQuiz = async (label, max) => {
     const pool = P.challengePool();
     ok(pool.length === 8 && pool.every(q => q.type === 'choice' && q.options[q.answer] && q.options.length === 4 && q.tag && !/</.test(q.q)),
       'challenge gets one valid text question per topic');
-    ok($$('#nav .nav-group[data-key="practice"] .nav-sub a').length === 10, 'nav lists 8 topics + scenes + mix');
+    ok($$('#nav .nav-group[data-key="practice"] .nav-sub a').length === 12, 'nav lists 8 topics + scenes + mix + 2 photo links');
     go('#/');
     ok(/Практика/.test($('#view').textContent) && !!$('a.zone-card[href="#/practice"]'), 'dashboard has a Практика card');
 

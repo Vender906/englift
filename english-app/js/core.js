@@ -38,7 +38,7 @@
     ['sparks', '🎆', 'Іскри при кліку', 'Кольорові іскри розлітаються від кнопок і карток', false]
   ];
   const FX_DEFAULTS = FX_LIST.reduce((o, f) => { o[f[0]] = f[4]; return o; }, {});
-  const defaultStore = { xp: 0, streak: { n: 0, last: '' }, topics: {}, words: {}, listen: {}, challengeBest: 0, perfect: 0, adult: false, settings: { theme: 'dark', sound: true, motion: !reducedMotion(), fx: Object.assign({}, FX_DEFAULTS), fxLevel: 1 } };
+  const defaultStore = { xp: 0, streak: { n: 0, last: '' }, topics: {}, words: {}, listen: {}, challengeBest: 0, perfect: 0, adult: false, settings: { theme: 'dark', sound: true, pics: true, cardEmoji: true, motion: !reducedMotion(), fx: Object.assign({}, FX_DEFAULTS), fxLevel: 1 } };
 
   function loadStore() {
     try {

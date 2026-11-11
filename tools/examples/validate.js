@@ -1,5 +1,5 @@
 /* Перевірка переписаних прикладів (див. SPEC.md).
-   node tools/examples/validate.js <verbs|adjs|nouns>   — усі out/<pos>/*.json
+   node tools/examples/validate.js <verbs|adjs|nouns|advs>   — усі out/<pos>/*.json
    node tools/examples/validate.js adjs 007 012  — лише вказані файли
    Помилки (✗) треба виправити; попередження (⚠) — переглянути. */
 const fs = require('fs');

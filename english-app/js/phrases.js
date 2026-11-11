@@ -21,7 +21,7 @@
       desc: 'as for, speaking of, mind you, I mean, at the end of the day — маркери, що роблять мову живою й «нейтивною».' },
     timeseq: { emoji: '📖', short: 'Time & Sequence', uk: 'Маркери оповіді', kind: 'markers', src: 'js/phrases/timeseq-data.js',
       desc: 'the other day, meanwhile, all of a sudden, by the time — каркас будь-якої історії в щоденнику.' },
-    constructions: { emoji: '🏛️', short: 'Constructions', uk: 'Конструкції речення', kind: 'markers', src: 'js/phrases/constructions-data.js',
+    constructions: { emoji: '🏛️', short: 'Constructions', uk: 'Конструкції речення', kind: 'markers', src: ['js/phrases/constructions-data.js', 'js/phrases/constructions-extra.js'],
       tabs: ['guide', 'browser', 'cards', 'match', 'fill', 'translate', 'mix'], unit: 'конструкцій', unitCat: 'груп',
       desc: 'used to, be about to, the more… the more, no matter what, in case — каркас дорослого речення для часу, логіки, причини й умови.' },
     intensifiers: { emoji: '🔥', short: 'Intensifiers', uk: 'Підсилювачі', kind: 'markers', src: 'js/phrases/intensifiers-data.js',

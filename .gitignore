@@ -12,3 +12,15 @@ _site/
 Thumbs.db
 desktop.ini
 *.log
+
+# прев'ю-кандидати фото для «Що на фото» (генеруються tools/photo/fetch-candidates.js)
+tools/photo/candidates/
+
+# 3D-асети Kenney (джерело для tools/home/build.py), великі — не комітимо
+models/
+
+# фото до слів: кандидати й сітки для вибору (tools/pics/photos.js, grid.py)
+tools/pics/photo-cand/
+tools/pics/grid-*.png
+__pycache__/
+tools/pics/sheet-*.png

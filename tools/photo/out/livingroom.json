@@ -1,0 +1,497 @@
+{
+ "id": "livingroom",
+ "uk": "Затишна вітальня ввечері",
+ "emoji": "🛋️",
+ "en": "A cosy living room in the evening",
+ "nouns": [
+  {
+   "en": "living room",
+   "uk": "вітальня",
+   "lvl": "A1",
+   "alt": [
+    "lounge",
+    "sitting room",
+    "room",
+    "flat",
+    "apartment"
+   ]
+  },
+  {
+   "en": "sofa",
+   "uk": "диван",
+   "lvl": "A1",
+   "alt": [
+    "couch",
+    "settee",
+    "loveseat"
+   ]
+  },
+  {
+   "en": "armchair",
+   "uk": "крісло",
+   "lvl": "A2",
+   "alt": [
+    "chair",
+    "recliner"
+   ]
+  },
+  {
+   "en": "cushion",
+   "uk": "подушка (диванна)",
+   "lvl": "B1",
+   "alt": [
+    "pillow"
+   ]
+  },
+  {
+   "en": "coffee table",
+   "uk": "журнальний столик",
+   "lvl": "B1",
+   "alt": [
+    "table"
+   ]
+  },
+  {
+   "en": "side table",
+   "uk": "приставний столик",
+   "lvl": "B2",
+   "alt": [
+    "bedside table"
+   ]
+  },
+  {
+   "en": "laptop",
+   "uk": "ноутбук",
+   "lvl": "A2",
+   "alt": [
+    "computer",
+    "notebook"
+   ]
+  },
+  {
+   "en": "bowl",
+   "uk": "миска",
+   "lvl": "A2"
+  },
+  {
+   "en": "snack",
+   "uk": "закуска / чипси",
+   "lvl": "A2",
+   "alt": [
+    "crisps",
+    "chips"
+   ]
+  },
+  {
+   "en": "television",
+   "uk": "телевізор",
+   "lvl": "A1",
+   "alt": [
+    "tv",
+    "tv set",
+    "telly"
+   ]
+  },
+  {
+   "en": "screen",
+   "uk": "екран",
+   "lvl": "A2"
+  },
+  {
+   "en": "tv stand",
+   "uk": "тумба під телевізор",
+   "lvl": "B2",
+   "alt": [
+    "cabinet",
+    "unit",
+    "sideboard"
+   ]
+  },
+  {
+   "en": "shelf",
+   "uk": "полиця",
+   "lvl": "A2",
+   "alt": [
+    "shelves",
+    "bookcase",
+    "bookshelf",
+    "shelving"
+   ]
+  },
+  {
+   "en": "book",
+   "uk": "книжка",
+   "lvl": "A1"
+  },
+  {
+   "en": "lamp",
+   "uk": "лампа / торшер",
+   "lvl": "A2",
+   "alt": [
+    "floor lamp",
+    "table lamp"
+   ]
+  },
+  {
+   "en": "lampshade",
+   "uk": "абажур",
+   "lvl": "B2",
+   "alt": [
+    "shade"
+   ]
+  },
+  {
+   "en": "light",
+   "uk": "світло / світильник",
+   "lvl": "A1",
+   "alt": [
+    "spotlight",
+    "spot",
+    "ceiling light"
+   ]
+  },
+  {
+   "en": "ceiling",
+   "uk": "стеля",
+   "lvl": "A2"
+  },
+  {
+   "en": "wall",
+   "uk": "стіна",
+   "lvl": "A1"
+  },
+  {
+   "en": "wallpaper",
+   "uk": "шпалери",
+   "lvl": "B1"
+  },
+  {
+   "en": "floor",
+   "uk": "підлога",
+   "lvl": "A1",
+   "alt": [
+    "parquet",
+    "laminate",
+    "floorboard"
+   ]
+  },
+  {
+   "en": "rug",
+   "uk": "килимок",
+   "lvl": "B1",
+   "alt": [
+    "carpet",
+    "mat"
+   ]
+  },
+  {
+   "en": "window",
+   "uk": "вікно",
+   "lvl": "A1"
+  },
+  {
+   "en": "blind",
+   "uk": "жалюзі",
+   "lvl": "B2",
+   "alt": [
+    "blinds",
+    "venetian blind"
+   ]
+  },
+  {
+   "en": "curtain",
+   "uk": "штора",
+   "lvl": "A2",
+   "alt": [
+    "drape"
+   ]
+  },
+  {
+   "en": "pattern",
+   "uk": "візерунок",
+   "lvl": "B1",
+   "alt": [
+    "circle",
+    "ring",
+    "oval"
+   ]
+  },
+  {
+   "en": "mirror",
+   "uk": "дзеркало",
+   "lvl": "A2"
+  },
+  {
+   "en": "picture",
+   "uk": "картина",
+   "lvl": "A1",
+   "alt": [
+    "painting",
+    "poster",
+    "frame",
+    "print"
+   ]
+  },
+  {
+   "en": "plant",
+   "uk": "рослина",
+   "lvl": "A1",
+   "alt": [
+    "houseplant",
+    "ivy",
+    "flower"
+   ]
+  },
+  {
+   "en": "vase",
+   "uk": "ваза",
+   "lvl": "B1",
+   "alt": [
+    "jug",
+    "pot"
+   ]
+  },
+  {
+   "en": "candle",
+   "uk": "свічка",
+   "lvl": "A2"
+  },
+  {
+   "en": "cable",
+   "uk": "кабель / шнур",
+   "lvl": "B1",
+   "alt": [
+    "wire",
+    "cord"
+   ]
+  },
+  {
+   "en": "radiator",
+   "uk": "радіатор / батарея",
+   "lvl": "B2",
+   "alt": [
+    "heater"
+   ]
+  },
+  {
+   "en": "building",
+   "uk": "будинок (за вікном)",
+   "lvl": "A1",
+   "alt": [
+    "house",
+    "city"
+   ]
+  },
+  {
+   "en": "furniture",
+   "uk": "меблі",
+   "lvl": "A2"
+  }
+ ],
+ "adjs": [
+  {
+   "en": "brown",
+   "uk": "коричневий",
+   "lvl": "A1",
+   "alt": [
+    "tan"
+   ]
+  },
+  {
+   "en": "black",
+   "uk": "чорний",
+   "lvl": "A1"
+  },
+  {
+   "en": "white",
+   "uk": "білий",
+   "lvl": "A1",
+   "alt": [
+    "cream"
+   ]
+  },
+  {
+   "en": "blue",
+   "uk": "синій",
+   "lvl": "A1"
+  },
+  {
+   "en": "green",
+   "uk": "зелений",
+   "lvl": "A1"
+  },
+  {
+   "en": "leather",
+   "uk": "шкіряний",
+   "lvl": "B1"
+  },
+  {
+   "en": "wooden",
+   "uk": "деревʼяний",
+   "lvl": "A2"
+  },
+  {
+   "en": "soft",
+   "uk": "мʼякий",
+   "lvl": "A2",
+   "alt": [
+    "comfortable",
+    "comfy"
+   ]
+  },
+  {
+   "en": "cosy",
+   "uk": "затишний",
+   "lvl": "B1",
+   "alt": [
+    "cozy",
+    "warm"
+   ]
+  },
+  {
+   "en": "modern",
+   "uk": "сучасний",
+   "lvl": "A2",
+   "alt": [
+    "stylish"
+   ]
+  },
+  {
+   "en": "old",
+   "uk": "старий (телевізор)",
+   "lvl": "A1",
+   "alt": [
+    "retro",
+    "vintage",
+    "old-fashioned"
+   ]
+  },
+  {
+   "en": "bright",
+   "uk": "яскравий / світлий",
+   "lvl": "A2"
+  },
+  {
+   "en": "dark",
+   "uk": "темний (за вікном)",
+   "lvl": "A1"
+  },
+  {
+   "en": "big",
+   "uk": "великий",
+   "lvl": "A1",
+   "alt": [
+    "large"
+   ]
+  },
+  {
+   "en": "round",
+   "uk": "круглий",
+   "lvl": "A2",
+   "alt": [
+    "oval",
+    "circular"
+   ]
+  },
+  {
+   "en": "tidy",
+   "uk": "охайний",
+   "lvl": "A2",
+   "alt": [
+    "neat",
+    "clean"
+   ]
+  },
+  {
+   "en": "empty",
+   "uk": "порожній",
+   "lvl": "A2"
+  },
+  {
+   "en": "open",
+   "uk": "відкритий",
+   "lvl": "A1"
+  },
+  {
+   "en": "fluffy",
+   "uk": "пухнастий",
+   "lvl": "B2",
+   "alt": [
+    "shaggy"
+   ]
+  },
+  {
+   "en": "patterned",
+   "uk": "візерунчастий",
+   "lvl": "B2",
+   "alt": [
+    "striped",
+    "zebra"
+   ]
+  }
+ ],
+ "verbs": [
+  {
+   "en": "hang",
+   "uk": "висіти",
+   "lvl": "A2"
+  },
+  {
+   "en": "shine",
+   "uk": "світити",
+   "lvl": "B1",
+   "alt": [
+    "glow",
+    "light",
+    "light up"
+   ]
+  },
+  {
+   "en": "stand",
+   "uk": "стояти",
+   "lvl": "A1"
+  },
+  {
+   "en": "lie",
+   "uk": "лежати",
+   "lvl": "A2"
+  },
+  {
+   "en": "grow",
+   "uk": "рости",
+   "lvl": "A2"
+  },
+  {
+   "en": "reflect",
+   "uk": "відбивати (про дзеркало)",
+   "lvl": "B2"
+  },
+  {
+   "en": "cover",
+   "uk": "закривати / вкривати",
+   "lvl": "A2"
+  },
+  {
+   "en": "face",
+   "uk": "стояти навпроти",
+   "lvl": "B1"
+  },
+  {
+   "en": "show",
+   "uk": "показувати (про телевізор)",
+   "lvl": "A1",
+   "alt": [
+    "play",
+    "be on"
+   ]
+  },
+  {
+   "en": "hold",
+   "uk": "вміщати / тримати",
+   "lvl": "A2",
+   "alt": [
+    "contain"
+   ]
+  }
+ ]
+}

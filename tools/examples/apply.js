@@ -1,10 +1,11 @@
 /* Запис переписаних прикладів (out/<pos>/*.json) у дані словника.
-   node tools/examples/apply.js <verbs|adjs|nouns>   — спершу validate, потім запис
+   node tools/examples/apply.js <verbs|adjs|nouns|advs>   — спершу validate, потім запис
    Куди пишеться:
    verbs: verbs-data.js (рядок LEX_VERBS — компактний JSON) · verbs-phrasal-data.js (рядок запису за en + ctx)
           · verbs-merge.js (ex2 — другий приклад злитого дубля, MERGES[].ex2 у записі keep)
    adjs:  adjs-data.js (рядок LEX_ADJS — компактний JSON) · adjs-prep-data.js (масив FRESH, запис за en)
-   nouns: nouns-data.js (рядок LEX_NOUNS — компактний JSON) */
+   nouns: nouns-data.js (рядок LEX_NOUNS — компактний JSON)
+   advs:  advs-data.js (рядок LEX_ADVS — компактний JSON) */
 const fs = require('fs');
 const path = require('path');
 const { APP, posArg, load, outDir } = require('./common');
@@ -82,6 +83,7 @@ if (pos === 'verbs') {
 }
 
 if (pos === 'nouns') applyJsonLine('nouns-data.js', 'LEX_NOUNS');
+if (pos === 'advs') applyJsonLine('advs-data.js', 'LEX_ADVS');
 
 if (pos === 'adjs') {
   applyJsonLine('adjs-data.js', 'LEX_ADJS');

@@ -1,0 +1,453 @@
+{
+ "id": "kitchen",
+ "uk": "Готуємо на кухні",
+ "emoji": "🍳",
+ "en": "Cooking in the kitchen",
+ "nouns": [
+  {
+   "en": "kitchen",
+   "uk": "кухня",
+   "lvl": "A1"
+  },
+  {
+   "en": "woman",
+   "uk": "жінка",
+   "lvl": "A1",
+   "alt": [
+    "lady",
+    "people",
+    "person"
+   ]
+  },
+  {
+   "en": "girl",
+   "uk": "дівчина",
+   "lvl": "A1",
+   "alt": [
+    "young woman"
+   ]
+  },
+  {
+   "en": "cooker",
+   "uk": "плита",
+   "lvl": "B1",
+   "alt": [
+    "stove"
+   ]
+  },
+  {
+   "en": "oven",
+   "uk": "духовка",
+   "lvl": "A2"
+  },
+  {
+   "en": "pot",
+   "uk": "каструля",
+   "lvl": "A2",
+   "alt": [
+    "saucepan",
+    "pan",
+    "casserole"
+   ]
+  },
+  {
+   "en": "lid",
+   "uk": "кришка",
+   "lvl": "B1"
+  },
+  {
+   "en": "spoon",
+   "uk": "ложка",
+   "lvl": "A1",
+   "alt": [
+    "wooden spoon"
+   ]
+  },
+  {
+   "en": "knob",
+   "uk": "ручка-регулятор (плити)",
+   "lvl": "B2",
+   "alt": [
+    "dial",
+    "button"
+   ]
+  },
+  {
+   "en": "cupboard",
+   "uk": "кухонна шафка",
+   "lvl": "A2",
+   "alt": [
+    "cabinet"
+   ]
+  },
+  {
+   "en": "drawer",
+   "uk": "шухляда",
+   "lvl": "A2"
+  },
+  {
+   "en": "handle",
+   "uk": "ручка (дверцят)",
+   "lvl": "B1"
+  },
+  {
+   "en": "counter",
+   "uk": "стільниця",
+   "lvl": "B1",
+   "alt": [
+    "worktop",
+    "countertop"
+   ]
+  },
+  {
+   "en": "wall",
+   "uk": "стіна",
+   "lvl": "A1"
+  },
+  {
+   "en": "flower",
+   "uk": "квітка",
+   "lvl": "A1",
+   "alt": [
+    "carnation",
+    "bouquet"
+   ]
+  },
+  {
+   "en": "vase",
+   "uk": "ваза",
+   "lvl": "A2"
+  },
+  {
+   "en": "leaf",
+   "uk": "листок",
+   "lvl": "A2",
+   "alt": [
+    "branch",
+    "eucalyptus"
+   ]
+  },
+  {
+   "en": "lamp",
+   "uk": "лампа",
+   "lvl": "A2",
+   "alt": [
+    "lampshade",
+    "light"
+   ]
+  },
+  {
+   "en": "radio",
+   "uk": "радіо / магнітола",
+   "lvl": "A1",
+   "alt": [
+    "stereo",
+    "boombox"
+   ]
+  },
+  {
+   "en": "coffee maker",
+   "uk": "кавоварка",
+   "lvl": "B1",
+   "alt": [
+    "coffee machine"
+   ]
+  },
+  {
+   "en": "toaster",
+   "uk": "тостер",
+   "lvl": "A2"
+  },
+  {
+   "en": "bottle",
+   "uk": "пляшка",
+   "lvl": "A1"
+  },
+  {
+   "en": "can",
+   "uk": "бляшанка",
+   "lvl": "A2",
+   "alt": [
+    "tin"
+   ]
+  },
+  {
+   "en": "jar",
+   "uk": "банка / склянка",
+   "lvl": "B1",
+   "alt": [
+    "glass"
+   ]
+  },
+  {
+   "en": "packet",
+   "uk": "пакет / пачка",
+   "lvl": "A2",
+   "alt": [
+    "bag",
+    "package"
+   ]
+  },
+  {
+   "en": "food",
+   "uk": "їжа",
+   "lvl": "A1",
+   "alt": [
+    "dinner",
+    "meal"
+   ]
+  },
+  {
+   "en": "hair",
+   "uk": "волосся",
+   "lvl": "A1"
+  },
+  {
+   "en": "back",
+   "uk": "спина",
+   "lvl": "A1"
+  },
+  {
+   "en": "shoulder",
+   "uk": "плече",
+   "lvl": "A2"
+  },
+  {
+   "en": "arm",
+   "uk": "рука",
+   "lvl": "A1",
+   "alt": [
+    "hand"
+   ]
+  },
+  {
+   "en": "blouse",
+   "uk": "блузка",
+   "lvl": "A2",
+   "alt": [
+    "shirt"
+   ]
+  },
+  {
+   "en": "top",
+   "uk": "майка / топ",
+   "lvl": "A2",
+   "alt": [
+    "tank top",
+    "vest",
+    "camisole"
+   ]
+  },
+  {
+   "en": "strap",
+   "uk": "бретелька",
+   "lvl": "B2"
+  },
+  {
+   "en": "trousers",
+   "uk": "штани",
+   "lvl": "A1",
+   "alt": [
+    "pants"
+   ]
+  },
+  {
+   "en": "jeans",
+   "uk": "джинси",
+   "lvl": "A1"
+  }
+ ],
+ "adjs": [
+  {
+   "en": "yellow",
+   "uk": "жовтий",
+   "lvl": "A1"
+  },
+  {
+   "en": "white",
+   "uk": "білий",
+   "lvl": "A1"
+  },
+  {
+   "en": "pink",
+   "uk": "рожевий",
+   "lvl": "A1"
+  },
+  {
+   "en": "red",
+   "uk": "червоний",
+   "lvl": "A1"
+  },
+  {
+   "en": "green",
+   "uk": "зелений",
+   "lvl": "A1"
+  },
+  {
+   "en": "brown",
+   "uk": "коричневий",
+   "lvl": "A1"
+  },
+  {
+   "en": "black",
+   "uk": "чорний",
+   "lvl": "A1"
+  },
+  {
+   "en": "dark",
+   "uk": "темний",
+   "lvl": "A1"
+  },
+  {
+   "en": "wooden",
+   "uk": "деревʼяний",
+   "lvl": "A2"
+  },
+  {
+   "en": "metal",
+   "uk": "металевий",
+   "lvl": "A2",
+   "alt": [
+    "silver"
+   ]
+  },
+  {
+   "en": "long",
+   "uk": "довгий",
+   "lvl": "A1"
+  },
+  {
+   "en": "short",
+   "uk": "короткий",
+   "lvl": "A1"
+  },
+  {
+   "en": "wavy",
+   "uk": "хвилястий",
+   "lvl": "B2",
+   "alt": [
+    "curly"
+   ]
+  },
+  {
+   "en": "patterned",
+   "uk": "з візерунком",
+   "lvl": "B2",
+   "alt": [
+    "floral",
+    "flowery"
+   ]
+  },
+  {
+   "en": "old-fashioned",
+   "uk": "старомодний",
+   "lvl": "B1",
+   "alt": [
+    "old",
+    "vintage",
+    "retro"
+   ]
+  },
+  {
+   "en": "cosy",
+   "uk": "затишний",
+   "lvl": "B1",
+   "alt": [
+    "cozy",
+    "homely",
+    "warm"
+   ]
+  },
+  {
+   "en": "messy",
+   "uk": "захаращений",
+   "lvl": "B1",
+   "alt": [
+    "untidy",
+    "cluttered"
+   ]
+  },
+  {
+   "en": "busy",
+   "uk": "зайнятий",
+   "lvl": "A1"
+  },
+  {
+   "en": "domestic",
+   "uk": "домашній",
+   "lvl": "B2",
+   "alt": [
+    "home"
+   ]
+  }
+ ],
+ "verbs": [
+  {
+   "en": "cook",
+   "uk": "готувати (їжу)",
+   "lvl": "A1",
+   "alt": [
+    "make dinner"
+   ]
+  },
+  {
+   "en": "stand",
+   "uk": "стояти",
+   "lvl": "A1"
+  },
+  {
+   "en": "stir",
+   "uk": "помішувати",
+   "lvl": "B2",
+   "alt": [
+    "mix"
+   ]
+  },
+  {
+   "en": "hold",
+   "uk": "тримати",
+   "lvl": "A2"
+  },
+  {
+   "en": "prepare",
+   "uk": "готувати / приготувати",
+   "lvl": "A2"
+  },
+  {
+   "en": "wear",
+   "uk": "носити (одяг)",
+   "lvl": "A1"
+  },
+  {
+   "en": "help",
+   "uk": "допомагати",
+   "lvl": "A1"
+  },
+  {
+   "en": "work",
+   "uk": "працювати",
+   "lvl": "A1"
+  },
+  {
+   "en": "reach",
+   "uk": "тягнутися (рукою)",
+   "lvl": "B1"
+  },
+  {
+   "en": "look",
+   "uk": "дивитися",
+   "lvl": "A1",
+   "alt": [
+    "watch"
+   ]
+  },
+  {
+   "en": "shine",
+   "uk": "світити",
+   "lvl": "B1",
+   "alt": [
+    "glow"
+   ]
+  }
+ ]
+}

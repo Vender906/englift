@@ -98,6 +98,11 @@ while ((m = rePack.exec(practiceSrc))) {
 }
 if (!practiceCount) throw new Error('не вдалося прочитати пакети з practice.js');
 
+/* «Що на фото» (js/photo.js): сторінка тренажера + кожна сцена */
+const PHOTO = evalFile(['js/practice/photo-data.js'], 'window.PHOTO_DATA');
+add('What\'s in the photo', 'Що на фото — пиши, що бачиш: іменники, прикметники, дієслова', K.SECTION, '#/practice/photo', 'Практика 📸');
+PHOTO.scenes.forEach(s => add(s.en, 'Що на фото: ' + s.uk, K.SECTION, '#/practice/photo/' + s.id, 'Практика 📸 ' + s.emoji));
+
 /* ---------------- 4. ГРАМАТИКА ---------------- */
 const COURSE = evalFile(['js/data.js', 'js/grammar-extra.js'], 'COURSE');
 let topicCount = 0;

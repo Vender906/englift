@@ -588,7 +588,9 @@
   "verbs|vow": 10585,
   "verbs|warrant": 10586,
   "verbs|weaken": 10587,
-  "verbs|widen": 10588
+  "verbs|widen": 10588,
+  "verbs|manage": 10589,
+  "verbs|keep": 10590
  },
  "nouns": {
   "nouns|action": 10000,

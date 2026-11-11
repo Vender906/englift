@@ -7,7 +7,7 @@ const $ = s => doc.querySelector(s), $$ = s => [...doc.querySelectorAll(s)];
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
 const SPEC = {
-  constructions: { items: 50, cats: 5, tabs: ['guide', 'browser', 'cards', 'match', 'fill', 'translate', 'mix'] },
+  constructions: { items: 74, cats: 7, tabs: ['guide', 'browser', 'cards', 'match', 'fill', 'translate', 'mix'] },
   intensifiers: { items: 36, cats: 7, tabs: ['guide', 'browser', 'cards', 'power', 'sosuch', 'grad', 'dialogue', 'mix'] },
   choice: { items: 48, cats: 8, tabs: ['guide', 'browser', 'cards', 'match', 'qa', 'situation', 'dialogue', 'translate', 'mix'] },
   polysemy: { items: 53, cats: 22, tabs: ['guide', 'browser', 'cards', 'meaning', 'pick', 'trchoice', 'story', 'mix'] },
@@ -23,7 +23,7 @@ const SPEC = {
   academic: { items: 56, cats: 7, tabs: ['guide', 'browser', 'cards', 'match', 'fill', 'translate', 'mix'] }
 };
 /* тренажери, дані яких доповнює окремий файл */
-const EXTRA = { chunks: ['chunks-extra.js', 'chunks-senses.js'], express: ['express-extra.js'], situational: ['situational-extra.js'] };
+const EXTRA = { chunks: ['chunks-extra.js', 'chunks-senses.js'], express: ['express-extra.js'], situational: ['situational-extra.js'], constructions: ['constructions-extra.js'] };
 const NO_LVL = ['softeners', 'situational'];
 const MIXED_LVL = ['chunks'];
 /* у цих двох тренажерів в оригіналі не було вкладки «Гайд» — текст написаний для застосунку */

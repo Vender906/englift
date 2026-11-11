@@ -67,6 +67,8 @@
   /* ============================ МАРШРУТ ============================ */
   function route(view, parts) {
     if (!parts[1]) return hub(view);
+    /* «Що на фото» — окремий тренажер (js/photo.js) */
+    if (parts[1] === 'photo') return window.FLPhoto ? window.FLPhoto.route(view, parts) : C().notFound(view);
     const pack = packOf(parts[1]);
     if (!pack) return C().notFound(view);
     const draw = () => {
@@ -111,7 +113,15 @@
           C().progressBar(done / p.topics.length) +
           '<div class="progress-label"><span>' + p.counts.topics + ' тем · ' + p.counts.items + ' речень · ' + p.counts.scenes + ' картинок</span>' +
           '<span>' + done + '/' + p.topics.length + '</span></div></a>';
-      }).join('') + '</div>';
+      }).join('') + (window.FLPhoto ? photoCard() : '') + '</div>';
+  }
+
+  function photoCard() {
+    const s = window.FLPhoto.summary();
+    return '<a class="card clickable zone-card pc-pack-card" href="#/practice/photo"><div class="zone-icon">📸</div>' +
+      '<h3>Що на фото</h3><div class="ph-hub-uk" lang="en">nouns · adjectives · verbs</div>' +
+      '<p>Фото змінюються — за хвилину-дві пиши англійською якомога більше того, що бачиш: речі, кольори, дії. Потім — що ти пропустив.</p>' +
+      '<div class="progress-label"><span>Іменники · прикметники · дієслова · мікс</span><span>' + (s.played ? s.played + ' фото зіграно' : '') + '</span></div></a>';
   }
 
   /* ============================ СТОРІНКА ПАКЕТА ============================ */
@@ -496,6 +506,7 @@
       id: 'pc-' + p.id, emoji: p.emoji, title: p.title,
       items: p.topics.map(t => ({ hash: '#/practice/' + p.id + '/' + t[0], label: t[2], emoji: t[1] }))
         .concat([{ hash: '#/practice/' + p.id + '/scenes', label: 'Що на картинці', emoji: '🖼️' }, { hash: '#/practice/' + p.id + '/mix', label: 'Мікс', emoji: '🏆' }])
-    }))
+    })).concat([{ id: 'pc-photo', emoji: '📸', title: 'Що на фото',
+      items: [{ hash: '#/practice/photo', label: 'Усі фото', emoji: '🖼️' }, { hash: '#/practice/photo/random', label: 'Випадкове фото', emoji: '🎲' }] }])
   };
 })();

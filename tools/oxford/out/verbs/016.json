@@ -1,0 +1,13 @@
+[
+  { "key": "verbs|manage", "en": "manage", "uk": "зуміти / впоратися", "ipa": "/ˈmænɪdʒ/", "emoji": "🏆", "lvl": "B1",
+    "cats": ["work", "achieving", "basic_v", "core_actions"], "ctx": "to catch the train", "uCtx": "встигнути на потяг",
+    "note": "manage to + V1 — вдалося попри труднощі (≠ could — вміння загалом). Інше значення manage — керувати (окрема картка).",
+    "ex": "The traffic was terrible, but we managed to catch the last train home.",
+    "exUk": "Затори були жахливі, але ми встигли на останній потяг додому." },
+  { "key": "verbs|keep", "en": "keep", "uk": "продовжувати / постійно (робити)", "ipa": "/kiːp/", "emoji": "🔂", "lvl": "A2",
+    "cats": ["phase", "continuing"], "ctx": "walking", "uCtx": "іти далі",
+    "past": "kept", "pp": "kept", "reg": false,
+    "note": "keep + V-ing: keep walking — іди далі; my phone keeps turning off — постійно вимикається. Інше значення keep — зберігати (окрема картка).",
+    "ex": "Don't stop now — keep walking until you see the big red bank on the corner.",
+    "exUk": "Не зупиняйся — іди далі, поки не побачиш великий червоний банк на розі." }
+]

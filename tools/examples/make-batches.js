@@ -1,5 +1,5 @@
 /* Нарізка слів словника на пачки для переписування прикладів (див. SPEC.md).
-   node tools/examples/make-batches.js <verbs|adjs|nouns> [розмір=50] → tools/examples/batches/<pos>/NNN.json
+   node tools/examples/make-batches.js <verbs|adjs|nouns|advs> [розмір=50] → tools/examples/batches/<pos>/NNN.json
    Слова, для яких уже є out/<pos>/*.json, пропускаються. */
 const fs = require('fs');
 const path = require('path');

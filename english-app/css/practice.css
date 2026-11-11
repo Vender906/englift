@@ -66,3 +66,76 @@
 @media (max-width: 420px) {
   .pc-gallery { grid-template-columns: 1fr; }
 }
+
+/* ============================================================
+   «Що на фото» (js/photo.js)
+   ============================================================ */
+.pf-top { margin-bottom: 12px; }
+.pf-gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; }
+.pf-tile { padding: 0; overflow: hidden; display: flex; flex-direction: column; }
+.pf-tile img { width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; display: block; }
+.pf-tile-cap { display: flex; justify-content: space-between; gap: 8px; align-items: center; padding: 9px 12px; font-size: 13.5px; }
+.pf-tile-cap span { color: var(--muted); font-size: 12px; white-space: nowrap; }
+.pf-wrap { max-width: 900px; margin: 0 auto; }
+.pf-photo { position: relative; border-radius: 18px; overflow: hidden; border: 1px solid var(--border); background: var(--card); }
+.pf-photo img { width: 100%; height: auto; max-height: 62vh; object-fit: contain; display: block; background: #000; }
+.pf-noimg { padding: 60px 20px; text-align: center; color: var(--muted); }
+.pf-timer { position: absolute; top: 10px; right: 10px; padding: 6px 12px; border-radius: 12px; font-weight: 800; font-size: 18px;
+  background: rgba(0, 0, 0, .62); color: #fff; font-variant-numeric: tabular-nums; }
+.pf-timer.pf-hurry { background: rgba(200, 30, 30, .85); animation: pf-pulse 1s infinite; }
+@keyframes pf-pulse { 50% { transform: scale(1.06); } }
+@media (prefers-reduced-motion: reduce) { .pf-timer.pf-hurry { animation: none; } }
+.pf-credit { font-size: 11.5px; color: var(--muted); margin: 6px 4px 12px; }
+.pf-credit a { color: inherit; }
+.pf-setup h2, .pf-result h2 { margin-bottom: 10px; }
+.pf-en { font-size: .65em; color: var(--muted); font-weight: 600; }
+.pf-row { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin: 8px 0; }
+.pf-lbl { font-size: 12px; font-weight: 800; color: var(--muted-2, var(--muted)); text-transform: uppercase; letter-spacing: .05em; margin-right: 4px; }
+.pf-opt { padding: 7px 12px; border-radius: 12px; border: 1px solid var(--border); background: var(--card); font-size: 14px; cursor: pointer;
+  transition: transform .12s, border-color .15s, box-shadow .15s; color: inherit; }
+.pf-opt small { color: var(--muted); margin-left: 3px; }
+.pf-opt:hover { transform: translateY(-1px); }
+.pf-opt.active { border-color: var(--a1); box-shadow: 0 0 0 3px color-mix(in srgb, var(--a1) 18%, transparent); font-weight: 700; }
+.pf-best { font-size: 13.5px; color: var(--muted); margin: 10px 0 12px; }
+.pf-start { font-size: 17px; padding: 12px 26px; }
+.pf-play-head { display: flex; justify-content: space-between; align-items: center; font-weight: 700; margin-bottom: 10px; }
+.pf-score { font-size: 20px; font-weight: 800; color: var(--a1); font-variant-numeric: tabular-nums; }
+.pf-input { width: 100%; font-size: 18px; padding: 12px 14px; }
+.pf-msg { min-height: 26px; margin: 8px 2px; font-size: 14.5px; }
+.pf-msg.ok { color: var(--good); }
+.pf-msg.miss { color: var(--bad, #e05a5a); }
+.pf-msg.other, .pf-msg.dup, .pf-msg.hint { color: var(--warn, #c98a00); }
+.pf-chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0; }
+.pf-chip { padding: 5px 10px; border-radius: 999px; font-size: 14px; font-weight: 700; border: 1px solid transparent;
+  background: color-mix(in srgb, var(--good) 16%, transparent); border-color: color-mix(in srgb, var(--good) 45%, transparent); }
+.pf-chip small { font-weight: 500; color: var(--muted); margin-left: 3px; }
+.pf-chip.pf-adjs { background: color-mix(in srgb, var(--a2) 16%, transparent); border-color: color-mix(in srgb, var(--a2) 45%, transparent); }
+.pf-chip.pf-verbs { background: color-mix(in srgb, var(--a1) 16%, transparent); border-color: color-mix(in srgb, var(--a1) 45%, transparent); }
+.pf-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+.pf-big { font-size: 46px; font-weight: 900; line-height: 1; color: var(--a1); }
+.pf-big small { font-size: 18px; color: var(--muted); font-weight: 600; }
+.pf-record { font-weight: 800; color: var(--good); margin: 6px 0; }
+.pf-sub { color: var(--muted); font-size: 13.5px; margin: 4px 0; }
+.pf-result h3 { margin: 16px 0 6px; font-size: 15px; }
+.pf-missed { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 4px 14px; }
+.pf-missed li { padding: 4px 0; font-size: 14px; border-bottom: 1px dashed var(--border); }
+.pf-pos { color: var(--muted); }
+/* «Що на фото»: відступи карток (у .card їх немає), поле з кнопкою, списки підсумку */
+.pf-setup, .pf-play, .pf-result { padding: 18px 20px; margin-bottom: 18px; }
+.pf-form { display: flex; gap: 8px; align-items: stretch; }
+.pf-form .pf-input { flex: 1; min-width: 0; }
+.pf-form .btn { flex: none; white-space: nowrap; }
+.pf-tip { font-size: 12px; color: var(--muted); margin: 6px 2px 0; }
+.pf-big { margin: 4px 0 6px; }
+.pf-missed li { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; padding: 6px 2px; }
+.pf-missed li .ph-say { margin: 0; flex: none; }
+.pf-missed li .wb { margin-left: 2px; }
+.pf-rejected { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 4px; }
+.pf-rejected li { font-size: 14px; color: var(--muted); padding: 3px 0; }
+.pf-rejected li b { color: var(--bad, #e05a5a); }
+.pf-result .pf-actions { margin-top: 18px; }
+@media (max-width: 560px) {
+  .pf-setup, .pf-play, .pf-result { padding: 14px 14px; }
+  .pf-missed { grid-template-columns: 1fr; }
+  .pf-photo img { max-height: 46vh; }
+}

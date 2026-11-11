@@ -20,6 +20,10 @@ const POS = {
   nouns: {
     list: 'LEX_NOUNS', cats: 'LEX_NOUN_CATS', subs: 'LEX_NOUN_SUBS',
     files: ['nouns-data.js', 'nouns-oxford-data.js']
+  },
+  advs: {
+    list: 'LEX_ADVS', cats: 'LEX_ADV_CATS', subs: 'LEX_ADV_SUBS',
+    files: ['advs-data.js', 'advs-oxford-data.js']
   }
 };
 

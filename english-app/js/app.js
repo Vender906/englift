@@ -428,6 +428,10 @@
       '<label class="switch"><input type="checkbox" id="set-motion" ' + (store.settings.motion ? 'checked' : '') + '><span class="track"></span></label></div>' +
       '<div class="m-row"><span><span class="m-label">Озвучення англійською</span><div class="m-sub">Синтез мовлення у словнику та аудіюванні</div></span>' +
       '<label class="switch"><input type="checkbox" id="set-sound" ' + (store.settings.sound ? 'checked' : '') + '><span class="track"></span></label></div>' +
+      '<div class="m-row"><span><span class="m-label">🖼️ Фото на картках</span><div class="m-sub">Фото до слова на звороті картки (поки — іменники «Food & kitchen»)</div></span>' +
+      '<label class="switch"><input type="checkbox" id="set-pics" ' + (store.settings.pics !== false ? 'checked' : '') + '><span class="track"></span></label></div>' +
+      '<div class="m-row"><span><span class="m-label">😀 Емодзі на картках</span><div class="m-sub">Значок над словом на флеш-картках словника</div></span>' +
+      '<label class="switch"><input type="checkbox" id="set-card-emoji" ' + (store.settings.cardEmoji !== false ? 'checked' : '') + '><span class="track"></span></label></div>' +
       '<div class="m-row"><span><span class="m-label">💾 Резервна копія</span><div class="m-sub">Увесь прогрес: XP, граматика, слова, читання, щоденник, теми</div></span>' +
       '<span class="m-btns"><button class="btn btn-ghost" id="set-export" style="padding:9px 12px;font-size:13px">📤 Експорт</button>' +
       '<button class="btn btn-ghost" id="set-import" style="padding:9px 12px;font-size:13px">📥 Імпорт</button>' +
@@ -443,6 +447,17 @@
     $('#set-fx').addEventListener('click', () => openFxPanel(openSettings));
     $('#set-motion').addEventListener('change', e => { store.settings.motion = e.target.checked; save(); applyTheme(); });
     $('#set-sound').addEventListener('change', e => { store.settings.sound = e.target.checked; save(); showToast(e.target.checked ? '🔊 Озвучення увімкнено' : '🔇 Озвучення вимкнено'); });
+    $('#set-pics').addEventListener('change', e => {
+      store.settings.pics = e.target.checked; save();
+      showToast(e.target.checked ? '🖼️ Фото на картках увімкнено' : '🖼️ Фото на картках вимкнено');
+      if (!e.target.checked) document.querySelectorAll('.fc-pic, .fc-pic-credit').forEach(el => el.remove());   /* з відкритої картки — одразу; увімкнене з'явиться з наступною */
+    });
+    $('#set-card-emoji').addEventListener('change', e => {
+      store.settings.cardEmoji = e.target.checked; save();
+      showToast(e.target.checked ? '😀 Емодзі на картках увімкнено' : '😀 Емодзі на картках вимкнено');
+      const card = document.getElementById('theCard');   /* відкриту картку — одразу */
+      if (card && !e.target.checked) card.querySelectorAll('.fc-front .fc-emoji').forEach(el => el.remove());
+    });
     $('#set-export').addEventListener('click', exportBackup);
     $('#set-import').addEventListener('click', () => $('#set-import-file').click());
     $('#set-import-file').addEventListener('change', e => { const f = e.target.files[0]; e.target.value = ''; if (f) importBackup(f); });
